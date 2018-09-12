@@ -1,0 +1,23 @@
+{
+  "name": "MyWeb",
+  "version": "1.0.0",
+  "description": "My Web Page",
+  "scripts": {
+    "publish:web": "gh-pages --dist MyPage --message \"publish web page\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinAst/MyWeb.git"
+  },
+  "keywords": [
+    "web page",
+    "geeku",
+    "astx"
+  ],
+  "author": "Kevin J. Bridges <kevinast@gmail.com> (https://github.com/KevinAst)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinAst/MyWeb/issues"
+  },
+  "homepage": "https://github.com/KevinAst/MyWeb"
+}
