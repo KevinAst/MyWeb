@@ -1,0 +1,118 @@
+<HTML>
+<HEAD>
+<TITLE> Mouse Source </TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BACKGROUND="../images/3ringBack.gif">
+
+<br>
+<ul><ul><ul><ul><!-- indentation -->
+
+<b>
+<pre>
+/*----------------------------------------------------------------------------
+  File: Randy.java
+  ----------------------------------------------------------------------------*/
+
+import  java.util.Vector;
+
+/**
+ * The Randy mouse will use a strategy that moves in a random
+ * direction.  Because it is derived from the base class Smarty, it
+ * has a memory.
+ *
+ * @version 1.0 11/11/2000
+ *
+ * @author Andrew Bridges ... Copyright (c) 2001
+ * */
+
+public class Randy extends Smarty
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // makeAMove /////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * For each turn the makeAMove method is called.  The Randy
+   * mouse will use a strategy that moves in a random direction.
+   *
+   * @return the direction that we should move.
+   * */
+
+  protected Direction makeAMove()
+  {
+
+    /*------------------------------------------------------------------------
+      1. See what directions are open then we put them on the spinner.
+      ------------------------------------------------------------------------*/
+
+    Vector directionsToChoose = new Vector();
+
+    if (passagewayOpenAt(Direction.North))
+      directionsToChoose.addElement(Direction.North);
+    if (passagewayOpenAt(Direction.South))
+      directionsToChoose.addElement(Direction.South);
+    if (passagewayOpenAt(Direction.East))
+      directionsToChoose.addElement(Direction.East);
+    if (passagewayOpenAt(Direction.West))
+      directionsToChoose.addElement(Direction.West);
+
+
+    /*------------------------------------------------------------------------
+      2. If the spinner has no numbers it goes back to the previous room.
+      ------------------------------------------------------------------------*/
+
+    if (directionsToChoose.size() == 0)
+      return Direction.Retreat;
+
+
+    /*------------------------------------------------------------------------
+      3. If the spinner only has one number than it takes that direction.
+      ------------------------------------------------------------------------*/
+
+    if (directionsToChoose.size() == 1)
+      return (Direction) directionsToChoose.elementAt(0);
+
+
+    /*------------------------------------------------------------------------
+      4. If there are two or more numbers on the shiner it spins it.
+      ------------------------------------------------------------------------*/
+
+    int randomSelection = randomInt(directionsToChoose.size());
+
+
+    /*------------------------------------------------------------------------
+      5. Now return the direction that the spinner landed on.
+      ------------------------------------------------------------------------*/
+
+    return (Direction) directionsToChoose.elementAt(randomSelection);
+
+
+    /*------------------------------------------------------------------------
+      Processing End (makeAMove)
+      ------------------------------------------------------------------------*/
+
+  }
+
+} // end of ... Randy class definition
+</pre>
+</b>
+
+</ul></ul></ul></ul><!-- indentation -->
+
+<br>
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:50:29 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>
