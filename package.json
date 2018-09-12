@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/KevinAst/MyWeb/issues"
   },
-  "homepage": "https://github.com/KevinAst/MyWeb"
+  "homepage": "https://github.com/KevinAst/MyWeb",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
