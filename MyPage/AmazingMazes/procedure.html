@@ -1,0 +1,166 @@
+<HTML>
+<HEAD>
+<TITLE>Maze Procedure</TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BGCOLOR="#D0D0D0">
+<br>
+<ul> <!-- indentatation -->
+  
+<center><h1>Procedure</h1></center>
+
+<!-- Section Navigation -->
+<a href="#materials"> <img border=0 src="images/bulletDown.gif"> Materials </a> <br>
+<a href="#methods">   <img border=0 src="images/bulletDown.gif"> Methods </a> <br>
+<p>
+  
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="materials"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Materials </h2>
+
+<ul>
+  
+<li>Computer<br>
+    <font size="-1">
+    Minimum Requirements: 486 Processor, 32 Meg of RAM, 150 Meg Free HD<br>
+    Suggested Requirements: Pentium Processor, 64 Meg of RAM, 500 Meg Free HD
+    </font>
+    
+<li>Operating System (any) we used Microsoft Windows<br>
+    
+<li>Java Development Environment (version 1.2)<br>
+    
+<li>Editor (any) we used Emacs<br>
+    
+<li>Internet Access with browser<br>
+    
+<li>MazeGen Software (used with permission), by Bob
+Kirkland at
+<a target="_top" href="http://www.mazeworks.com/">http://www.mazeworks.com/</a><br>
+    
+<li>Maze Engine Software, written by Kevin Bridges<br>
+    
+<li>Spreadsheet<br>
+
+</ul>
+<br><br>
+  
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="methods"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Methods </h2>
+
+<ol>
+  <li><b>Program the Mice</b><br>
+
+This step involves creating different mice with different strategies
+that we will use to compare (see <a href="software.html#mouseClass">Appendix A</a>).<p>
+      
+<i>The mice that we plan to create are:</i><br>
+<ul>
+
+<li><b><i>ScatterBrained</i></b> - ScatterBrained doesn't have a memory and goes
+through the maze in any random open direction.
+    
+<li><b><i>Randy</i></b> - Like ScatterBrained, Randy goes through the maze in any
+random open direction.  Unlike ScatterBrained, Randy has a memory.
+    
+<li><b><i>NESW</i></b> - NESW goes North, East, South or West in that order, which
+ever one is first open. He also has a memory.
+    
+<li><b><i>SWEN</i></b> - SWEN goes South, West, East, or North in that order, which
+ever one is first open. He also has a memory.
+    
+<li><b><i>FocusedR</i></b> - FocusedR always tries to go straight.  If he can't go
+straight, then he turns right until an opening is found.  He also has
+a memory.
+    
+<li><b><i>FocusedL</i></b> - FocusedL always tries to go straight.  If he can't go
+straight, then he turns left until an opening is found.  He also has a
+memory.
+    
+<li><b><i>Goalie</i></b> - Goalie will always go in the open direction that is
+nearest to the end of the maze.  He also has a memory.
+    
+</ul><p>
+
+
+<i>For each mouse that is to be created:</i><br>
+<ol type="a">
+
+<li>Derive the mouse from the appropriate mouse parent.
+    
+<li>Program the makeAMove method.  This method will implement a
+specific strategy, returning a move direction of
+North/East/South/West/Retreat for each move
+(see <a href="source.html">Appendix B</a>).<p>
+    
+<li>Add the mouse to the maze engine software.  This will allow us to
+select this new mouse in our tests.
+    
+<li>Compile all source code using the Java compiler.  Fix any compiler
+errors.
+    
+<li>Run a test of this new mouse (in slow motion) to see if it's
+strategy is programmed correctly.
+    
+</ol><p>
+
+  <li><b>Run the tests</b><br>
+
+This step will run several tests to tell which mouse can solve a
+maze the fastest (using the fewest number of moves).  For each test,
+all the mice will solve the same maze.  A lot of tests will be run
+with different mazes.<p>
+
+<i>For each test, do the following:</i><br>
+<ol type="a">
+<li>Run MazeGen program using this command: java MazeGen
+    
+<li>In the pulldown menus under each maze, select the mouse that is to
+run the maze.
+    
+<li>Select the maze size to test.
+    
+<li>Click the cycle button to start the test.  This runs many tests
+with different mazes.
+    
+<li>Let the program run over night, running up to 5000 tests,
+collecting the data in a file.
+
+</ol>
+    
+<i>Repeat the steps above for different size mazes.</i><p>
+
+  <li><b>Summarize the data</b><br>
+
+This step will have a lot of data to average since the computer can
+run many tests.
+<ol type="a">
+
+<li>Chart and average the data.
+    
+<li>Determine if there is a clear trend, or pattern.
+    
+</ol>
+
+</ul>
+  
+</ul> <!-- indentatation -->
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:49:23 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>

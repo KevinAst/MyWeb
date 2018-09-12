@@ -1,0 +1,96 @@
+<HTML>
+<HEAD>
+<TITLE> Mouse Source </TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BACKGROUND="../images/3ringBack.gif">
+
+<br>
+<ul><ul><ul><ul><!-- indentation -->
+
+<b>
+<pre>
+/*----------------------------------------------------------------------------
+  File: SWEN.java
+  ----------------------------------------------------------------------------*/
+
+import  java.util.Vector;
+
+/**
+ * The SWEN mouse will use a strategy that moves in the order of South
+ * West East North.  Because it is derived from the base class Smarty,
+ * it has a memory.
+ *
+ * @version 1.0 11/26/2000
+ *
+ * @author Andrew Bridges ... Copyright (c) 2001
+ * */
+
+public class SWEN extends Smarty
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // makeAMove /////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * For each turn the makeAMove method is called.  The SWEN mouse
+   * will use a strategy that moves in the order of South West East North.
+   *
+   * @return the direction that we should move.
+   * */
+
+  protected Direction makeAMove()
+  {
+
+    /*------------------------------------------------------------------------
+      1. This mouses strategy (SWEN) will use a specific order to turn.
+      ------------------------------------------------------------------------*/
+
+    if (passagewayOpenAt(Direction.South))
+      return Direction.South;
+
+    if (passagewayOpenAt(Direction.West))
+      return Direction.West;
+
+    if (passagewayOpenAt(Direction.East))
+      return Direction.East;
+
+    if (passagewayOpenAt(Direction.North))
+      return Direction.North;
+
+
+    /*------------------------------------------------------------------------
+      2. If all the passagways are closed then you retreat.
+      ------------------------------------------------------------------------*/
+
+    return Direction.Retreat;
+
+
+    /*------------------------------------------------------------------------
+      Processing End (makeAMove)
+      ------------------------------------------------------------------------*/
+
+  }
+
+} // end of ... SWEN class definition
+</pre>
+</b>
+
+</ul></ul></ul></ul><!-- indentation -->
+
+<br>
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:50:40 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>

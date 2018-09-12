@@ -1,0 +1,102 @@
+<HTML>
+<HEAD>
+<TITLE>Review of Literature</TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BGCOLOR="#D0D0D0">
+<br>
+<ul> <!-- indentatation -->
+  
+<center><h1>Review of Literature</h1></center>
+
+
+The exhibitor learned much about software development using an
+object-oriented language.<p>
+
+<i>"An object is a software bundle of related variables and
+methods. Software objects are often used to model real-world objects
+you find in everyday life."</i>
+<a href="reference.html#campione">(Campione, 2000)</a>.
+In the exhibitor's project, the main software objects are
+computer-simulated mice.<p>
+
+<i>"Software objects interact and communicate with each other using
+messages."</i>
+<a href="reference.html#campione">(Campione, 2000)</a>.
+Each <b>Mouse</b> defines it's own <b><i>makeAMove</i></b> method
+which returns a direction to move in a maze.  The maze-solving engine
+calls this method.  There are several methods that are used by the
+<b>Mouse</b>.  For example, <i><b>passagewayOpenAt</i></b> to see if a
+direction is open, and <i><b>distanceToGoal</i></b> that returns the
+distance to the maze end.<p>
+
+<i>"Inheritance is a mechanism whereby one class of objects can be
+defined as a special case of a more general class, automatically
+including the method and variable definitions of the general class."</i>
+<a href="reference.html#taylor">(Taylor, 1993, p. 16)</a>.
+In the exhibitor's case, all of the mice inherit from the base class
+<b>Mouse</b>.<p>
+
+
+The <i><b>makeAMove</i></b> method is defined at the base class
+<b>Mouse</b> level.  Each <b>Mouse</b> type defines it's own
+<i><b>makeAMove</i></b> method with it's own strategy.  Subclasses
+<i>"can define a method that has exactly the same method
+signature (arguments and return type) as a method in its superclass.
+In that case, the method in the subclass overrides the method in the
+superclass and effectively replaces its implementation.  Overriding
+methods to change the behavior of objects is another form of
+polymorphism: the one most people think of when they talk about the
+power of object-oriented languages."</i>
+<a href="reference.html#niemeyer">(Niemeyer, 1996, p. 134)</a>.
+Because of this, the maze-solving engine (written by the exhibitor's
+Father) knows how to interact with all objects, because they are all a
+type of <b>Mouse</b>, and have a <i><b>makeAMove</i></b> method.<p>
+
+<b>Smarty</b> is a special type of <b>Mouse</b> that has a brain.  It
+remembers where it has been.  Therefore all derivations of
+<b>Smarty</b> have a brain too, just because they are derived from
+<b>Smarty</b>.<p>
+
+<center>
+<img alt="Mouse Class Hierarchy" src="images/Mouse.gif"><p>
+</center>
+
+The exhibitor also learned several facts about mazes.  There are
+many different kinds of mazes.  Two parts that were studied are
+dimension and routing.<p>
+
+<ul>
+
+<li><b>Dimension</b>: <i>"The dimension class is basically how many dimensions in
+space the Maze covers."</i>
+<a href="reference.html#pullen">(Pullen, 1999)</a>.
+An example of this is 2D or 3D.<p>
+
+<li><b>Routing</b>: <i>"The routing class refers to the types of passages"</i>
+<a href="reference.html#pullen">(Pullen, 1999)</a>.
+<p>
+
+</ul>
+
+The exhibitor's project uses a maze that is two dimensional, with a
+perfect routing class.  <i>"A perfect Maze means one without any loops or
+closed circuits, and without any inaccessible areas".</i>
+<a href="reference.html#pullen">(Pullen, 1999)</a>.
+A perfect maze only has one solution.<p>
+  
+</ul> <!-- indentatation -->
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:49:58 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>

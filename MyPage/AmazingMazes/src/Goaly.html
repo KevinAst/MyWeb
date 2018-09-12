@@ -1,0 +1,138 @@
+<HTML>
+<HEAD>
+<TITLE> Mouse Source </TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BACKGROUND="../images/3ringBack.gif">
+
+<br>
+<ul><ul><ul><ul><!-- indentation -->
+
+<b>
+<pre>
+/*----------------------------------------------------------------------------
+  File: Goaly.java
+  ----------------------------------------------------------------------------*/
+
+import  java.util.Vector;
+
+/**
+ * The Goaly mouse will use a strategy that moves in the direction
+ * that is closest to the goal.  Because it is derived from the base
+ * class Smarty, it has a memory.
+ *
+ * @version 1.0 12/9/2000
+ *
+ * @author Andrew Bridges ... Copyright (c) 2001
+ * */
+
+public class Goaly extends Smarty
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // makeAMove /////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * For each turn the makeAMove method is called.  The Goaly mouse
+   * will use a strategy that moves in the direction that is closest
+   * to the goal.
+   *
+   * @return the direction that we should move.
+   * */
+
+  protected Direction makeAMove()
+  {
+
+    /*------------------------------------------------------------------------
+      Local Variables
+      ------------------------------------------------------------------------*/
+
+    Direction dir  = Direction.Retreat;
+    double    dist = Double.MAX_VALUE;
+
+    Direction wrkDir  = null;
+    double    wrkDist = 0.0;
+    
+
+    /*------------------------------------------------------------------------
+      1. Test the North direction.
+      ------------------------------------------------------------------------*/
+
+    wrkDir  = Direction.North;
+    wrkDist = distanceToGoal(wrkDir);
+    if (passagewayOpenAt(wrkDir) && wrkDist < dist)
+      {
+        dir = wrkDir;
+        dist = wrkDist;
+      }
+    
+
+    /*------------------------------------------------------------------------
+      2. Test the South direction.
+      ------------------------------------------------------------------------*/
+
+    wrkDir  = Direction.South;
+    wrkDist = distanceToGoal(wrkDir);
+    if (passagewayOpenAt(wrkDir) && wrkDist < dist)
+      {
+        dir = wrkDir;
+        dist = wrkDist;
+      }
+    
+
+    /*------------------------------------------------------------------------
+      3. Test the West direction.
+      ------------------------------------------------------------------------*/
+
+    wrkDir  = Direction.West;
+    wrkDist = distanceToGoal(wrkDir);
+    if (passagewayOpenAt(wrkDir) && wrkDist < dist)
+      {
+        dir = wrkDir;
+        dist = wrkDist;
+      }
+    
+
+    /*------------------------------------------------------------------------
+      4. Test the East direction.
+      ------------------------------------------------------------------------*/
+
+    wrkDir  = Direction.East;
+    wrkDist = distanceToGoal(wrkDir);
+    if (passagewayOpenAt(wrkDir) && wrkDist < dist)
+      {
+        dir = wrkDir;
+        dist = wrkDist;
+      }
+
+
+    /*------------------------------------------------------------------------
+      Processing End (makeAMove)
+      ------------------------------------------------------------------------*/
+
+    return dir;
+
+  }
+
+} // end of ... Goaly class definition
+</pre>
+</b>
+
+</ul></ul></ul></ul><!-- indentation -->
+
+<br>
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:50:20 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>
