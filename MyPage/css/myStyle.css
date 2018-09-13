@@ -112,13 +112,13 @@ a.more {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;  /* ?? timeline ball border color */
+  border: 7px solid #e9ecef;   /* timeline ball border color */
   border-radius: 100%;
-  background-color: #4f837f;  /* ?? timeline ball color */
+  background-color:  #64a19d;  /* timeline ball color (light grean) */
 }
 
 .timeline > li.timeline-inverted .timeline-image {
-  background-color: red;      /* ?? alternate timeline ball color */
+  background-color: #6c757d;   /* alternate timeline ball color (light gray) */
 }
 
 
