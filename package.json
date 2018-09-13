@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Web Page",
   "scripts": {
-    "publish:web": "gh-pages --dist MyPage --message \"publish web page\""
+    "publish:web": "gh-pages --dist MyPage"
   },
   "repository": {
     "type": "git",
