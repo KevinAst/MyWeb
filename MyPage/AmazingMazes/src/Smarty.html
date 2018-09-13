@@ -1,0 +1,139 @@
+<HTML>
+<HEAD>
+<TITLE> Mouse Source </TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BACKGROUND="../images/3ringBack.gif">
+
+<br>
+<ul><ul><ul><ul><!-- indentation -->
+
+<b>
+<pre>
+/*----------------------------------------------------------------------------
+  File: Smarty.java
+  ----------------------------------------------------------------------------*/
+
+import  java.util.Vector;
+
+/**
+ * The Smarty mouse is a base class with a brain.  It improves the
+ * advance() and retreat() method by leaving a trail of bread in the
+ * form of an invisible wall.
+ * 
+ * @version 1.0 11/11/2000
+ *
+ * @author Andrew Bridges ... Copyright (c) 2001
+ * */
+
+public abstract class Smarty extends Mouse
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // advance ///////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * This advance() method does everything the base class advance()
+   * does, but adds a memory by closing the wall behind it (sort of
+   * like leaving a trail of bread).
+   *
+   * @param direction the direction to advance.
+   *
+   * @exception InvalidMove the specified direction constitutes an
+   * invalid move.  Either a wall exists in this direction, or it is a
+   * cell we just came from in our currenent traversal path (this
+   * requires usage of the retreat() method).
+   * */
+
+  protected void advance(Direction direction) throws InvalidMove
+  {
+
+    /*------------------------------------------------------------------------
+      1. Perform the advance instruction by using our parent method.
+      ------------------------------------------------------------------------*/
+
+    super.advance(direction);
+
+
+    /*------------------------------------------------------------------------
+      2. This makes an invisible wall from the direction the mouse
+         just came from.
+      ------------------------------------------------------------------------*/
+
+    mazeAdapter_.erectWall(curPosition_.getCellLocation(), Direction.oppositeDir(direction));
+
+
+    /*------------------------------------------------------------------------
+      Processing End (advance)
+      ------------------------------------------------------------------------*/
+
+  }
+
+
+  //////////////////////////////////////////////////////////////////////////////
+  // retreat ///////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * This retreat() method does everything the base class retreat()
+   * does, but adds a memory by closing the wall behind it (sort of
+   * like leaving a trail of bread).
+   *
+   * @exception NoSolutionFound either there is no solution to this
+   * maze, or we have a programming bug :-(
+   * */
+
+  protected void retreat() throws NoSolutionFound
+  {
+
+    /*------------------------------------------------------------------------
+      1. Hold on to the previous room.
+      ------------------------------------------------------------------------*/
+
+    Position priorPosition = curPosition_;
+
+
+    /*------------------------------------------------------------------------
+      2. Perform the retreat instruction by using our parent method.
+      ------------------------------------------------------------------------*/
+
+    super.retreat();
+
+
+    /*------------------------------------------------------------------------
+      3. This makes an invisible wall from the direction the mouse
+         just came from.
+      ------------------------------------------------------------------------*/
+
+    mazeAdapter_.erectWall(curPosition_.getCellLocation(),
+                           priorPosition.getEnteredDir()); // the direction from which we entered the previous cell
+
+
+    /*------------------------------------------------------------------------
+      Processing End (retreat)
+      ------------------------------------------------------------------------*/
+
+  }
+
+} // end of ... Smarty class definition
+</pre>
+</b>
+
+</ul></ul></ul></ul><!-- indentation -->
+
+<br>
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:50:36 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>

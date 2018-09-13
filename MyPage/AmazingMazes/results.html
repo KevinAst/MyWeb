@@ -1,0 +1,274 @@
+<HTML>
+<HEAD>
+<TITLE>Maze Results</TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BGCOLOR="#D0D0D0">
+<a name="TOP"></a>
+<br>
+<ul> <!-- indentatation -->
+  
+<center><h1>Results</h1></center>
+
+<!-- Section Navigation -->
+<a href="#overview">          <img border=0 src="images/bulletDown.gif"> Overview </a> <br>
+<a href="#noBrainer">         <img border=0 src="images/bulletDown.gif"> No Brainer </a> <br>
+<a href="#rawData">           <img border=0 src="images/bulletDown.gif"> Raw Data </a> <br>
+<a href="#trendAnalysis">     <img border=0 src="images/bulletDown.gif"> Trend Analysis </a> <br>
+<a href="#averagedResults">   <img border=0 src="images/bulletDown.gif"> Averaged Results </a> <br>
+<a href="#Summary">           <img border=0 src="images/bulletDown.gif"> Summary </a> <br>
+<p>
+
+  
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="overview"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Overview </h2>
+
+The exhibitor is using a maze generation program that was found on the
+Internet from Bob Kirkland (with permission).<p>
+
+It is important to compare the different mice on the same maze.  To do
+this, the exhibitor's father changed the program to make a copy of
+each maze puzzle for each mouse.  This means for each puzzle the mice
+solve the same maze.<p>
+
+For each puzzle the maze-solving engine will go through the maze by
+calling the <b>Mouse's</b> </i></b>makeAMove</i></b> method until it
+gets to the end of the maze.  It also counts the number of moves that
+were made.<p>
+
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="noBrainer"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> No Brainer </h2>
+
+The first test that was run was to simply compare the two mice that
+use a random strategy (<b>ScatterBrained</b> and <b>Randy</b>).  The
+only difference between these classes is <b>Randy</b> has a memory,
+because it derives from <b>Smarty</b>.  The results are shown
+below:<p>
+
+<center><a href="images/MemoryLine.gif"><img border="0" width="90%" alt="Comparison of Randy and ScatterBrained" src="images/MemoryLine.gif"></a></center><p>
+
+<b>Randy</b> always took fewer moves to solve the maze so it is better
+to have memory.<p>
+
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="rawData"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Raw Data </h2>
+ 
+The remainder of the tests that were run compares the mice that have
+memory (ones that derive from <b>Smarty</b>).<p>
+
+This project had a lot of data that had to be analyzed.  Seven
+different mice were compared.  Three different size mazes were used.
+Because the computer was used to gather the data, it was run
+overnight, resulting in over 5,000 different maze puzzles.  So 105,000
+data points were analyzed (5,000 mazes * 3 maze sizes * 7 different
+mice).<p>
+
+Here is a sample of the data that was run for the 50x50 maze.  The
+complete set of data is 5,000 lines long (over 100 pages … just for
+the 50x50 maze).  Each line shows the number of moves it took for the
+mouse to solve each maze puzzle.<p>
+
+<center>
+<table border="1" bgcolor="#FFFFFF">
+
+  <tr align="right" bgcolor="#FFFFCC">
+  <th width="70">Randy</th><th width="70">Randy</th><th width="70">NESW</th><th width="70">SWEN</th>
+  <th width="70">FocusedR</th><th width="70">FocusedL</th><th width="70">Goaly</th>
+  </tr>
+
+  <tr align="right">
+  <td>2444</td><td>3564</td><td>4464</td><td>750</td><td>1908</td><td>918</td><td>618</td>
+  </tr>
+
+  <tr align="right">
+  <td>3324</td><td>1226</td><td>1658</td><td>706</td><td>1016</td><td>896</td><td>3338</td>
+  </tr>
+
+  <tr align="right">
+  <td>3176</td><td>1434</td><td>588</td><td>4406</td><td>842</td><td>3432</td><td>576</td>
+  </tr>
+
+  <tr align="right">
+  <td>1814</td><td>3108</td><td>2340</td><td>1500</td><td>3086</td><td>3120</td><td>2632</td>
+  </tr>
+
+  <tr align="right">
+  <td>2000</td><td>2910</td><td>2046</td><td>2984</td><td>4120</td><td>3908</td><td>2722</td>
+  </tr>
+
+  <tr align="right">
+  <td>4336</td><td>4384</td><td>1698</td><td>3208</td><td>3998</td><td>3960</td><td>1032</td>
+  </tr>
+
+  <tr align="right">
+  <td>1826</td><td>3032</td><td>2658</td><td>2338</td><td>3320</td><td>2972</td><td>2624</td>
+  </tr>
+
+  <tr align="right">
+  <td>1328</td><td>1784</td><td>3150</td><td>2418</td><td>2534</td><td>2950</td><td>1720</td>
+  </tr>
+
+  <tr align="right">
+  <td>2494</td><td>2008</td><td>1596</td><td>3402</td><td>3928</td><td>3124</td><td>2926</td>
+  </tr>
+
+  <tr align="right">
+  <td>3140</td><td>1402</td><td>1120</td><td>3968</td><td>4214</td><td>3766</td><td>3736</td>
+  </tr>
+
+  <tr align="right">
+  <td>3240</td><td>1646</td><td>1066</td><td>4138</td><td>3358</td><td>3338</td><td>2714</td>
+  </tr>
+
+  <tr align="right">
+  <td>2004</td><td>2300</td><td>4466</td><td>226</td><td>3080</td><td>1392</td><td>430</td>
+  </tr>
+
+  <tr align="right">
+  <td>3028</td><td>1482</td><td>1656</td><td>3342</td><td>2620</td><td>3266</td><td>1610</td>
+  </tr>
+
+  <tr align="right">
+  <td>3142</td><td>1796</td><td>1120</td><td>3962</td><td>932</td><td>2442</td><td>1460</td>
+  </tr>
+
+  <tr align="right">
+  <td>4076</td><td>3198</td><td>3288</td><td>1668</td><td>1776</td><td>862</td><td>754</td>
+  </tr>
+
+  <tr align="right">
+  <td>4192</td><td>3752</td><td>4638</td><td>2944</td><td>2248</td><td>1600</td><td>2920</td>
+  </tr>
+
+  <tr align="right">
+  <td>4186</td><td>3370</td><td>2118</td><td>3662</td><td>2146</td><td>1824</td><td>2320</td>
+  </tr>
+
+  <tr align="right">
+  <td>3032</td><td>1906</td><td>2046</td><td>3404</td><td>2650</td><td>1388</td><td>240</td>
+  </tr>
+
+  <tr align="right">
+  <td>1730</td><td>1248</td><td>2798</td><td>2752</td><td>1176</td><td>808</td><td>1796</td>
+  </tr>
+
+  <tr align="right">
+  <td>2502</td><td>2876</td><td>1998</td><td>2884</td><td>3688</td><td>2670</td><td>1456</td>
+  </tr>
+
+  <tr align="right">
+  <td>2920</td><td>3614</td><td>2520</td><td>4148</td><td>1322</td><td>1646</td><td>948</td>
+  </tr>
+
+  <tr align="right">
+  <td>1972</td><td>390</td><td>2644</td><td>2004</td><td>2014</td><td>2282</td><td>2434</td>
+  </tr>
+
+  <tr align="right">
+  <td>3608</td><td>1026</td><td>1678</td><td>3328</td><td>1302</td><td>1776</td><td>3178</td>
+  </tr>
+
+  <tr align="right">
+  <td>1988</td><td>1854</td><td>4170</td><td>556</td><td>1330</td><td>1708</td><td>2244</td>
+  </tr>
+
+  <tr align="right">
+  <td>2846</td><td>3398</td><td>4534</td><td>1712</td><td>2528</td><td>1264</td><td>380</td>
+  </tr>
+
+  <tr align="right">
+  <td>2522</td><td>2562</td><td>1504</td><td>3494</td><td>2266</td><td>3538</td><td>1388</td>
+  </tr>
+
+</table>
+</center><p>
+
+A chart that plots these data points is not clear.<p>
+
+<center><a href="images/RawLine_50x50.gif"><img border="0" width="90%" alt="Raw Line for 50x50 Maze Size" src="images/RawLine_50x50.gif"></a></center><p>
+
+We definitely needed to find another way to look at the data.<p>
+
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="trendAnalysis"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Trend Analysis </h2>
+
+The exhibitor made 50 data points into one data point by averaging
+them together and plotting these averages to see if there was a trend.
+The purpose was to see who made the least number of moves over all the
+tests.<p>
+
+Here are the averaged results for the 50x50 maze:<p>
+
+<center><a href="images/SummaryLine_50x50.gif"><img border="0" width="90%" alt="Line Summary for 50x50 Maze Size" src="images/SummaryLine_50x50.gif"></a></center><p>
+ 
+Here are the averaged results for the 16x24 maze:<p>
+
+<center><a href="images/SummaryLine_16x24.gif"><img border="0" width="90%" alt="Line Summary for 16x24 Maze Size" src="images/SummaryLine_16x24.gif"></a></center><p>
+ 
+Here are the averaged results for the 10x10 maze:<p>
+
+<center><a href="images/SummaryLine_10x10.gif"><img border="0" width="90%" alt="Line Summary for 10x10 Maze Size" src="images/SummaryLine_10x10.gif"></a></center><p>
+
+These summarized charts show a trend that repeats over and over
+again.<p>
+
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="averagedResults"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Averaged Results </h2>
+ 
+Since there is a trend, the average number of moves for each mouse was
+plotted for each maze size that was run.<p>
+
+Here are the averages for the 50x50 maze:<p>
+
+<center><a href="images/SummaryBar_50x50.gif"><img border="0" width="90%" alt="Bar Summary for 50x50 Maze Size" src="images/SummaryBar_50x50.gif"></a></center><p>
+ 
+Here are the averages for the 16x24 maze:<p>
+
+<center><a href="images/SummaryBar_16x24.gif"><img border="0" width="90%" alt="Bar Summary for 50x50 Maze Size" src="images/SummaryBar_16x24.gif"></a></center><p>
+ 
+Here are the averages for the 10x10 maze:<p>
+
+<center><a href="images/SummaryBar_10x10.gif"><img border="0" width="90%" alt="Bar Summary for 50x50 Maze Size" src="images/SummaryBar_10x10.gif"></a></center><p>
+
+<!-- Section -->
+<!-- ************************************************************ -->
+<a name="Summary"></a>
+<hr>
+<h2><a href="#TOP"> <img border=0 src="images/bulletUp.gif"></a> Summary </h2>
+
+To compare the different size mazes the exhibitor put them in
+percentages, by dividing each score by the total scores for all mice.
+This shows Goaly always wins no matter how complex the maze.<p>
+
+<center><a href="images/OverallSummaryBar.gif"><img border="0" alt="Overall Summary of all Maze Sizes" src="images/OverallSummaryBar.gif"></a></center><p>
+
+</ul> <!-- indentatation -->
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:49:53 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>

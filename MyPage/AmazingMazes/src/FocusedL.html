@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<TITLE> Mouse Source </TITLE>
+<!-- Author: Andrew Bridges aj@wiiBridges.com ... Copyright (c) 2001 -->
+</HEAD>
+<BODY BACKGROUND="../images/3ringBack.gif">
+
+<br>
+<ul><ul><ul><ul><!-- indentation -->
+
+<b>
+<pre>
+/*----------------------------------------------------------------------------
+  File: FocusedL.java
+  ----------------------------------------------------------------------------*/
+
+/**
+ * The FocusedL mouse will use a strategy that moves in the same
+ * direction (if possible) turning left if blocked.  Because it is
+ * derived from the base class Smarty, it has a memory.
+ *
+ * @version 1.0 11/25/2000
+ *
+ * @author Andrew Bridges ... Copyright (c) 2001
+ * */
+
+public class FocusedL extends Smarty
+{
+
+  //////////////////////////////////////////////////////////////////////////////
+  // makeAMove /////////////////////////////////////////////////////////////////
+  //////////////////////////////////////////////////////////////////////////////
+
+  /**
+   * For each turn the makeAMove method is called.  The FocusedL mouse
+   * will use a strategy that moves in the same direction (if
+   * possible) turning left if blocked.
+   * 
+   * @return the direction that we should move.
+   * */
+
+  protected Direction makeAMove()
+  {
+
+    /*------------------------------------------------------------------------
+      1. Attempt to go in the same direction.
+      ------------------------------------------------------------------------*/
+
+    Direction d = curPosition_.getEnteredDir();
+
+
+    /*------------------------------------------------------------------------
+      2. If we are just starting, pick a direction.
+      ------------------------------------------------------------------------*/
+
+    if (d.equals(Direction.Undefined))
+      d = Direction.North;
+
+
+    /*------------------------------------------------------------------------
+      3. Insure passageway is open ... if not look counter-clockwise.
+      ------------------------------------------------------------------------*/
+
+    if (!passagewayOpenAt(d))
+      d = Direction.counterClockWiseDir(d);
+    if (!passagewayOpenAt(d))
+      d = Direction.counterClockWiseDir(d);
+    if (!passagewayOpenAt(d))
+      d = Direction.counterClockWiseDir(d);
+
+
+    /*------------------------------------------------------------------------
+      4. If all passageways are blocked, retreat.
+      ------------------------------------------------------------------------*/
+
+    if (!passagewayOpenAt(d))
+      d = Direction.Retreat;
+    
+
+    /*------------------------------------------------------------------------
+      5. Return the direction.
+      ------------------------------------------------------------------------*/
+
+    return d;
+
+
+    /*------------------------------------------------------------------------
+      Processing End (makeAMove)
+      ------------------------------------------------------------------------*/
+  }
+
+} // end of ... FocusedL class definition
+</pre>
+</b>
+
+</ul></ul></ul></ul><!-- indentation -->
+
+<br>
+<p><hr width="50%">
+<center>
+<font size="-1">
+Author: Andrew Bridges<br>
+<!-- hhmts start -->
+Last modified: Wed Aug 21 19:50:13 Central Daylight Time 2002
+<!-- hhmts end -->
+<br>
+Copyright &#169; 2001
+</font>
+</center><br>
+
+</BODY>
+</HTML>
