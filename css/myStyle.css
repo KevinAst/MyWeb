@@ -1,26 +1,8 @@
-.myImageOBSOLETE {              /* ??? */
-  border-radius:  80px;          /* rounded border */
-
-                                /* with a drop shadow effect */
-  -webkit-filter: drop-shadow(8px 8px 10px gray); /* Safari 6.0 - 9.0 */
-  filter:         drop-shadow(8px 8px 10px gray);
-
-                                /* blur around frame */
-  box-shadow: 0 0 8px 8px white inset;
-}
-
-
-.myImage {                      /*?? TRY 2: from  timeline-image sort-of */
+.myImage {                      /* soften about image */
   width:         80px;
   text-align:    center;
   border-radius: 100%;
   filter:        drop-shadow(8px 8px 10px gray);
-
-  /* ?? 
-  margin-left: 0;
-  color: white;
-  background-color: #4f837f;
- */
 }
 
 a.more {
@@ -130,13 +112,13 @@ a.more {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;  /* ?? timeline ball border color */
+  border: 7px solid #e9ecef;   /* timeline ball border color */
   border-radius: 100%;
-  background-color: #4f837f;  /* ?? timeline ball color */
+  background-color:  #64a19d;  /* timeline ball color (light grean) */
 }
 
 .timeline > li.timeline-inverted .timeline-image {
-  background-color: red; /* ?? alternate timeline ball color */
+  background-color: #6c757d;   /* alternate timeline ball color (light gray) */
 }
 
 
@@ -191,7 +173,7 @@ a.more {
 
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;       /* ??$$ KJB: was 150px ... bottom border FROM last text */
+    margin-bottom: 100px;       /* KJB: was 150px ... bottom border FROM last text */
   }
   .timeline > li .timeline-panel {
     float: left;
@@ -219,7 +201,7 @@ a.more {
 
 @media (min-width: 992px) {
   .timeline > li {
-    min-height: 10px;           /* ??$$ KJB: was 150px ... bottom border FROM last text ... min crap */
+    min-height: 10px;           /* KJB: was 150px ... bottom border FROM last text ... min crap */
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
