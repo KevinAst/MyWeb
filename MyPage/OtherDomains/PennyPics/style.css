@@ -1,0 +1,100 @@
+/*
+   Color Key:
+     #1a4b50 - dark green (screen background)
+     #308d96 - light green (header/menu background)
+     #ffffff - white
+     #abdfe4 - light color for text on dark background
+
+*/
+
+body {
+  margin:           2em;
+  padding:          0;
+  background-color: #1a4b50;
+  font-family:      tahoma, arial, helvetica, sans-serif;
+  font-size:        12pt;
+}
+
+/* activate to interject a clean slate on any floating images. */
+p {
+  clear: both;
+}
+
+#header {
+  padding:          10px;
+  background-color: #308d96;
+  color:            #ffffff;
+  font-family:      fantasy;
+  font-weight:      bold;
+  font-size:        xx-large;
+}
+
+#headerLogo {
+  background-color: #ffff00;
+  color:            #000000;
+  background: url(images/pennies.jpg) repeat;
+}
+
+#motto{
+  padding:          10px;
+  text-align:       center;
+  color:            #abdfe4;
+  font-weight:      bold;
+  font-style:       italic;
+  font-size:        large;
+}
+
+#content {
+  vertical-align:   top;
+  padding:          2em;
+  background-color: #ffffff;
+  color:            #000000;
+  font-size:        smaller;
+}
+
+#menu {
+  vertical-align:   top;
+  padding:          10px;
+  padding-right:    20px;
+  background-color: #308d96;
+  color:            #660000;
+  text-align:       right;
+  font-weight:      bold;
+  font-size:        large;
+}
+
+#menu a:link, #menu a:active, #menu a:visited {
+  color:            #abdfe4;
+  text-decoration: none
+}
+
+#menu a:hover {
+  color:            #660000; 
+  background-color: #cc9933;
+  text-decoration:  none
+}
+
+#trailer {
+  padding:          10px;
+  text-align:       center;
+  color:            #abdfe4;
+  font-size:        small;
+  font-style:       italic;
+}
+
+#trailer a {
+  color:            #3eb5c1;
+}
+
+.title {
+  font-size:        larger;
+  font-weight:      bold;
+  font-style:       italic;
+  text-align:       center;
+}
+
+.quote {
+  font-style:       italic;
+  color:            #A52A2A;
+  /* background-color: #ffff66; */
+}

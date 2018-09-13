@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <title>Georgiana Grace</title>
+
+    <script>
+      function l8tr(context) {
+        alert("I'm too young for " + context + ", look for this much later :-)");
+      }
+    </script>
+
+    <style>
+      body {
+
+        margin: 20px 50px;
+
+        /* background image fixed (i.e. non scrollable)*/
+        background-image:  url(georgie.jpg);
+        background-repeat: no-repeat;
+        background-size:   cover;
+        background-attachment: fixed;
+      }
+
+      .title {
+        font: normal normal normal 80px/1.4em museo-w01-700,serif;
+        margin-left: 20px;
+      }
+
+      .subTitle {
+        font: normal normal normal 20px/1.4em raleway,sans-serif;
+        margin-left: 20px;
+      }
+
+      .content {
+        font: normal normal normal 17px/1.4em raleway,sans-serif
+      }
+
+      .transparentSection {
+        margin: 40px 0px;
+        width:  70%;
+        background-color: #ffffff;
+        opacity:0.6;
+        filter:alpha(opacity=60); /* for IE8 and earlier */
+      }
+
+      .clickable {
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="title">
+      Georgiana Grace
+    </div>
+
+    <div class="subTitle">
+      I'm Daddy's girl, and Mommy's love.
+    </div>
+
+
+    <div class="transparentSection">
+
+      <table>
+        <tr>
+          <td style="vertical-align: top; padding: 10px;">
+            <img class="clickable" src="facebook.png"   onClick="l8tr('facebook');"></br>
+            <img class="clickable" src="twitter.png"    onClick="l8tr('twitter');"></br>
+            <img class="clickable" src="googlePlus.png" onClick="l8tr('google+');"></br>
+            <img class="clickable" src="flickr.png"     onClick="l8tr('flickr');"></br>
+          </td>
+          <td class="content" style="vertical-align: top; padding: 10px;">
+            This website is provided by my Grandpa B for my future bio :-)
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+  </body>
+</html>
