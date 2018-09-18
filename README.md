@@ -83,7 +83,10 @@ Release  | What                                            | *When*
 &bull;
 [Diff](https://github.com/KevinAst/MyWeb/compare/v1.0.0...v1.1.0)
 
-- ?? detail here
+- Internal URL references are now sanitized, removing html where
+  possible (using index.html within directories)
+
+- ?? more
 
 </ul></ul>
 
