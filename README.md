@@ -67,7 +67,27 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
+[v1.1.0] | Misc Changes                                    | *September XX, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
+
+
+<!-- *** RELEASE *************************************************************** -->
+
+### v1.1.0 - Misc Changes *(September XX, 2018)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/MyWeb/tree/v1.1.0)
+&bull;
+[GitHub Release](https://github.com/KevinAst/MyWeb/releases/tag/v1.1.0)
+&bull;
+[Diff](https://github.com/KevinAst/MyWeb/compare/v1.0.0...v1.1.0)
+
+- ?? detail here
+
+</ul></ul>
+
+
 
 
 <!-- *** RELEASE *************************************************************** -->
@@ -88,12 +108,12 @@ Release  | What                                            | *When*
 
 </ul></ul>
 
-
 <!--- *** REFERENCE LINKS *** ---> 
 [Overview]:            #overview
 [Internal Notes]:      #internal-notes
 [Publish Web Content]: #publish-web-content
 [Revision History]:    #revision-history
+ [v1.1.0]:             #v110---misc-changes-september-xx-2018
  [v1.0.0]:             #v100---initial-release-september-13-2018
 
 [Bootstrap Templates]:   https://startbootstrap.com/template-categories/all/
