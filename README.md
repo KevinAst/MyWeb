@@ -88,6 +88,8 @@ Release  | What                                            | *When*
 
 - Added feature-u presentation slides.
 
+- Added favicon.
+
 - ?? more
 
 </ul></ul>
