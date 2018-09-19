@@ -86,9 +86,11 @@ Release  | What                                            | *When*
 - Internal URL references are now sanitized, removing html where
   possible (using index.html within directories)
 
-- Added feature-u presentation slides.
+- Updated retired section
 
-- Added favicon.
+- Added feature-u presentation slides
+
+- Added favicon
 
 - ?? more
 
