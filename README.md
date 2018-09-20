@@ -67,7 +67,40 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
+[v1.1.0] | Misc Changes                                    | *September 20, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
+
+
+<!-- *** RELEASE *************************************************************** -->
+
+### v1.1.0 - Misc Changes *(September 20, 2018)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/MyWeb/tree/v1.1.0)
+&bull;
+[GitHub Release](https://github.com/KevinAst/MyWeb/releases/tag/v1.1.0)
+&bull;
+[Diff](https://github.com/KevinAst/MyWeb/compare/v1.0.0...v1.1.0)
+
+- Sanitized internal URL references, removing html where possible
+  _(using index.html within directories)_
+
+- Reword retired section
+
+- feature-u presentation
+  - added slides
+  - minor format changes
+
+- Streamlined address by removing Missouri from St. Louis reference
+
+- Added favicon
+
+- Use `inquire@wiiBridges.com` as email contact
+
+</ul></ul>
+
+
 
 
 <!-- *** RELEASE *************************************************************** -->
@@ -88,12 +121,12 @@ Release  | What                                            | *When*
 
 </ul></ul>
 
-
 <!--- *** REFERENCE LINKS *** ---> 
 [Overview]:            #overview
 [Internal Notes]:      #internal-notes
 [Publish Web Content]: #publish-web-content
 [Revision History]:    #revision-history
+ [v1.1.0]:             #v110---misc-changes-september-20-2018
  [v1.0.0]:             #v100---initial-release-september-13-2018
 
 [Bootstrap Templates]:   https://startbootstrap.com/template-categories/all/
