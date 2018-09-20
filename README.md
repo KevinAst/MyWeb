@@ -92,6 +92,8 @@ Release  | What                                            | *When*
   - added slides
   - minor format changes
 
+- Streamlined address by removing Missouri from St. Louis reference
+
 - Added favicon
 
 - ?? more
