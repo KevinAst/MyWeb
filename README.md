@@ -96,6 +96,8 @@ Release  | What                                            | *When*
 
 - Added favicon
 
+- Use `inquire@wiiBridges.com` as email contact
+
 - ?? more
 
 </ul></ul>
