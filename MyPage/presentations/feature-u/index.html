@@ -100,40 +100,43 @@
         <ul>
 
           <li>
-            <a href="feature-u-slides.pdf" target="_blank">slides (PDF)</a> - presentation slides
-          </li>
-
-          <li>
-            <a href="http://bit.ly/feature-u" target="_blank">feature-u article</a> - intro and basic concepts
-          </li>
-
-          <li>
-            <a href="https://feature-u.js.org/" target="_blank">feature-u docs</a> - comprehensive documentation
-          </li>
-
-          <li>
-            <a href="https://github.com/KevinAst/feature-u" target="_blank">feature-u repo</a> - source
-          </li>
-
-          <li>
-            plugins:
+            feature-u:
             <ul>
               <li>
-                <a href="https://github.com/KevinAst/feature-redux" target="_blank">feature-redux</a> - redux plugin <i>(extends feature-u with redux state management)</i>
+                <a href="feature-u-slides.pdf" class="more" target="_blank">slides (PDF)</a> - presentation slides
+              </li>
+              <li>
+                <a href="http://bit.ly/feature-u" class="more" target="_blank">article</a> - intro and basic concepts
               </li>
 
               <li>
-                <a href="https://github.com/KevinAst/feature-redux-logic" target="_blank">feature-redux-logic</a> - redux-logic plugin <i>(extends feature-u with redux-logic to manage business logic and async processes)</i>
+                <a href="https://feature-u.js.org/" class="more" target="_blank">docs</a> - comprehensive documentation
               </li>
 
               <li>
-                <a href="https://github.com/KevinAst/feature-router" target="_blank">feature-router</a> - StateRouter plugin <i>(feature-based navigation using redux state)</i>
+                <a href="https://github.com/KevinAst/feature-u" class="more" target="_blank">repo</a> - source
+              </li>
+            </ul>
+
+          <li>
+            plugins <i>(extending feature-u)</i>:
+            <ul>
+              <li>
+                <a href="https://github.com/KevinAst/feature-redux" class="more" target="_blank">feature-redux</a> - <a href="https://redux.js.org/" class="more" target="_blank">redux</a> plugin <i>(state management)</i>
+              </li>
+
+              <li>
+                <a href="https://github.com/KevinAst/feature-redux-logic" class="more" target="_blank">feature-redux-logic</a> - <a href="https://github.com/jeffbski/redux-logic" class="more" target="_blank">redux-logic</a> plugin <i>(managing business logic and async processes)</i>
+              </li>
+
+              <li>
+                <a href="https://github.com/KevinAst/feature-router" class="more" target="_blank">feature-router</a> - StateRouter plugin <i>(feature-based navigation using redux state)</i>
               </li>
             </ul>
           </li>
 
           <li>
-            <a href="https://github.com/KevinAst/eatery-nod" target="_blank">eatery-nod</a> - a React Native/Expo app using feature-u <i>(a Date Night Random Restaurant Selector)</i>
+            <a href="https://github.com/KevinAst/eatery-nod" class="more" target="_blank">eatery-nod</a> - a <a href="https://facebook.github.io/react-native/" class="more" target="_blank">React Native</a>/<a href="https://expo.io/" class="more" target="_blank">Expo</a> app <b>using feature-u</b> <i>(a Date Night Random Restaurant Selector)</i>
           </li>
 
         </ul>
@@ -170,53 +173,49 @@
 
         <ul> <!-- cheap indentation -->
 
-        <dl>
-
-          <dt>Feature Encapsulation</dt>
-          <dd>
+          <li>
+            <b>Feature Encapsulation</b>:<br/>
             isolating feature implementations improves code
             manageability ... you can think of features as simply
             "mini applications"
-          </dd>
+          </li><br/>
 
-          <dt>Cross Feature Communication</dt>
-          <dd>
+          <li>
+            <b>Cross Feature Communication</b>:<br/>
             a feature's public API is promoted through a well-defined
             standard ... helping to make your features Plug-and-Play
-          </dd>
+          </li><br/>
 
-          <dt>Feature Based UI Composition</dt>
-          <dd>
+          <li>
+            <b>Feature Based UI Composition</b>:<br/>
             component composition can easily cross feature boundaries
             ... using a feature-u HoC (and something called resource
             contracts), cross-feature content injection is seamless
             (and can even be autonomous)
-          </dd>
+          </li><br/>
 
-          <dt>Feature Enablement</dt>
-          <dd>
+          <li>
+            <b>Feature Enablement</b>:<br/>
             enable/disable features through a simple run-time switch
-          </dd>
+          </li><br/>
 
-          <dt>Application Life Cycle Hooks</dt>
-          <dd>
+          <li>
+            <b>Application Life Cycle Hooks</b>:<br/>
             features can initialize themselves without relying on an
             external process, greatly simplifying your mainline
             startup process
-          </dd>
+          </li><br/>
 
-          <dt>Framework Integration</dt>
-          <dd>
+          <li>
+            <b>Framework Integration</b>:<br/>
             using feature-u's extendable plugins, the frameworks of
             your choice (i.e. matching your run-time-stack) are
             seamlessly integrated into your features, and are
             auto-configured ... greatly simplifying their use and
             reducing boilerplate code
-          </dd>
+          </li><br/>
 
-        </dl>
-
-        </ul> <!-- cheap indentation -->
+        </ul>
 
         <p>
           Currently feature-u supports any of the React platforms

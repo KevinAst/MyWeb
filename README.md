@@ -83,12 +83,14 @@ Release  | What                                            | *When*
 &bull;
 [Diff](https://github.com/KevinAst/MyWeb/compare/v1.0.0...v1.1.0)
 
-- Internal URL references are now sanitized, removing html where
-  possible (using index.html within directories)
+- Sanitized internal URL references, removing html where possible
+  _(using index.html within directories)_
 
-- Updated retired section
+- Reword retired section
 
-- Added feature-u presentation slides
+- feature-u presentation
+  - added slides
+  - minor format changes
 
 - Added favicon
 
