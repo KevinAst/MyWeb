@@ -84,6 +84,8 @@ Release  | What                                            | *When*
 &bull;
 [Diff](https://github.com/KevinAst/MyWeb/compare/v1.1.0...v1.2.0)
 
+- Added reference to 3rd article: feature-u Concepts (V1)
+
 - ?? more
 
 </ul></ul>
