@@ -86,6 +86,9 @@ Release  | What                                            | *When*
 
 - Added reference to 3rd article: feature-u Concepts (V1)
 
+- feature-u presentation now references most current article
+  ... feature-u Concepts (V1) - http://bit.ly/feature-u-V1
+
 - ?? more
 
 </ul></ul>
