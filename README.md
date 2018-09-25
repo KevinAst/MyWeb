@@ -89,7 +89,7 @@ Release  | What                                            | *When*
 - feature-u presentation now references most current article
   ... feature-u Concepts (V1) - http://bit.ly/feature-u-V1
 
-- Break out feature-u presentation with "eample app"
+- Break out feature-u presentation with "sample app"
 
 - ?? more
 
