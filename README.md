@@ -67,14 +67,14 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
-[v1.2.0] | L8TR                                            | *October xx, 2018*
+[v1.2.0] | L8TR                                            | *December xx, 2018*
 [v1.1.0] | Misc Changes                                    | *September 20, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
 
 
 <!-- *** RELEASE *************************************************************** -->
 
-### v1.2.0 - L8TR *(October xx, 2018)*
+### v1.2.0 - L8TR *(December xx, 2018)*
 
 <ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
 
@@ -86,10 +86,12 @@ Release  | What                                            | *When*
 
 - Added reference to 3rd article: feature-u Concepts (V1)
 
-- feature-u presentation now references most current article
-  ... feature-u Concepts (V1) - http://bit.ly/feature-u-V1
-
 - Break out feature-u presentation with "sample app"
+
+  - feature-u presentation now references most current article
+    ... feature-u Concepts (V1) - http://bit.ly/feature-u-V1
+
+  - updated feature-u presentation syllabus
 
 - ?? more
 
