@@ -84,12 +84,15 @@ Release  | What                                            | *When*
 &bull;
 [Diff](https://github.com/KevinAst/MyWeb/compare/v1.1.0...v1.2.0)
 
-- Added reference to 3rd article: feature-u Concepts (V1)
+- Added references to new articles:
+
+  - feature-u Teaser
+
+  - feature-u Concepts (V1)
 
 - Break out feature-u presentation with "sample app"
 
   - feature-u presentation now references most current article
-    ... feature-u Concepts (V1) - http://bit.ly/feature-u-V1
 
   - updated feature-u presentation syllabus
 
