@@ -240,3 +240,30 @@ a.more {
     padding: 0 100px 20px 20px;
   }
 }
+
+/* KJB: my implementation of table-based Description Lists (which is less vulnerable to sizing) */
+/* tl: table list */
+.tl table, .tl tr, .tl td {
+  border-style: solid;
+  border-width: 1px;
+  border:       none; /* disable all borders */
+}
+.tl {
+  border-collapse: collapse;
+  border-spacing:  0;
+}
+.tl td {
+  padding:     1px 10px;
+  overflow:    hidden;
+  word-break:  normal;
+}
+.tl .tl-term {
+  font-weight:    bold;
+  text-align:     left;
+  vertical-align: top;
+  white-space:    nowrap;
+}
+.tl .tl-def {
+  text-align:     left;
+  vertical-align: top;
+}
