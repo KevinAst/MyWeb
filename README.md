@@ -67,14 +67,14 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
-[v1.2.0] | L8TR                                            | *December xx, 2018*
+[v1.2.0] | eatery-nod-w                                    | *June 7, 2019*
 [v1.1.0] | Misc Changes                                    | *September 20, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
 
 
 <!-- *** RELEASE *************************************************************** -->
 
-### v1.2.0 - L8TR *(December xx, 2018)*
+### v1.2.0 - eatery-nod-w *(June 7, 2019)*
 
 <ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
 
@@ -151,7 +151,7 @@ Release  | What                                            | *When*
 [Internal Notes]:      #internal-notes
 [Publish Web Content]: #publish-web-content
 [Revision History]:    #revision-history
- [v1.2.0]:             #v120---l8tr-october-xx-2018
+ [v1.2.0]:             #v120---eatery-nod-w-june-7-2019
  [v1.1.0]:             #v110---misc-changes-september-20-2018
  [v1.0.0]:             #v100---initial-release-september-13-2018
 
