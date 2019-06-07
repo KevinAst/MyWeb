@@ -90,7 +90,8 @@ Release  | What                                            | *When*
   - reference **feature-u Teaser** article
   - reference **feature-u Concepts (V1)** article
   - sample app is now **eatery-nod-w** _(a PWA)_
-  - feature-u articles now reference **medium** NOT **rogue freecodecamp**
+  - synced latest feature-u PDF slides
+- feature-u articles now reference **medium** NOT **rogue freecodecamp**
 
 </ul></ul>
 
