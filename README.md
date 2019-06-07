@@ -67,8 +67,33 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
+[v1.2.0] | eatery-nod-w                                    | *June 7, 2019*
 [v1.1.0] | Misc Changes                                    | *September 20, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
+
+
+<!-- *** RELEASE *************************************************************** -->
+
+### v1.2.0 - eatery-nod-w *(June 7, 2019)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/MyWeb/tree/v1.2.0)
+&bull;
+[GitHub Release](https://github.com/KevinAst/MyWeb/releases/tag/v1.2.0)
+&bull;
+[Diff](https://github.com/KevinAst/MyWeb/compare/v1.1.0...v1.2.0)
+
+- added reference to new github app: **eatery-nod-w**
+- feature-u presentation mods:
+  - updated feature-u presentation syllabus
+  - reference **feature-u Teaser** article
+  - reference **feature-u Concepts (V1)** article
+  - sample app is now **eatery-nod-w** _(a PWA)_
+  - synced latest feature-u PDF slides
+- feature-u articles now reference **medium** NOT **rogue freecodecamp**
+
+</ul></ul>
 
 
 <!-- *** RELEASE *************************************************************** -->
@@ -126,6 +151,7 @@ Release  | What                                            | *When*
 [Internal Notes]:      #internal-notes
 [Publish Web Content]: #publish-web-content
 [Revision History]:    #revision-history
+ [v1.2.0]:             #v120---eatery-nod-w-june-7-2019
  [v1.1.0]:             #v110---misc-changes-september-20-2018
  [v1.0.0]:             #v100---initial-release-september-13-2018
 
