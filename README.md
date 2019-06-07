@@ -84,19 +84,13 @@ Release  | What                                            | *When*
 &bull;
 [Diff](https://github.com/KevinAst/MyWeb/compare/v1.1.0...v1.2.0)
 
-- Added references to new articles:
-
-  - feature-u Teaser
-
-  - feature-u Concepts (V1)
-
-- Break out feature-u presentation with "sample app"
-
-  - feature-u presentation now references most current article
-
+- added reference to new github app: **eatery-nod-w**
+- feature-u presentation mods:
   - updated feature-u presentation syllabus
-
-- ?? more
+  - reference **feature-u Teaser** article
+  - reference **feature-u Concepts (V1)** article
+  - sample app is now **eatery-nod-w** _(a PWA)_
+  - feature-u articles now reference **medium** NOT **rogue freecodecamp**
 
 </ul></ul>
 
