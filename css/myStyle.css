@@ -267,3 +267,6 @@ a.more {
   text-align:     left;
   vertical-align: top;
 }
+.highlight {
+  background-color: yellow;
+}
