@@ -1,6 +1,12 @@
 # node dependencies (defined via "npm install")
 /node_modules/
 
+# our machine generated gitbook output
+/MyPage/FireWithin/
+
+# our gitbook plugins
+/FireWithin/node_modules/
+
 # logs
 logs
 *.log

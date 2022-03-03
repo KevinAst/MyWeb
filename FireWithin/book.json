@@ -1,0 +1,37 @@
+{
+  "gitbook":     "3.2.2",
+  "title":       "FireWithin",
+  "description": "Fire Within (Bible Study Resources)",
+  "author":      "Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)",
+  "structure": { 
+    "readme":  "intro.md",
+    "summary": "toc.md" 
+  },
+  "plugins": [
+    "-livereload",
+    "-sharing",
+    "toolbar",
+    "folding-menu"
+  ],
+  "pluginsConfig": {
+    "toolbar": {
+      "buttons": [
+        {
+          "label": "Home",
+          "icon": "fa fa-home",
+          "url": "..",
+          "target": "_self"
+        }
+      ]
+    },
+    "folding-menu":    {
+      "animationDuration": 0,
+      "sticky":            false
+    }
+  },
+  "variables": { 
+    "ref": {
+      "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)"
+    }
+  }
+}
