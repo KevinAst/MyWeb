@@ -62,6 +62,16 @@ function handleCompletedCheckChange(completedElm) {
   const fireWithinCompletedObj = _fetchFireWithinCompletedObj();
   fireWithinCompletedObj[completedElm.id] = completedElm.checked ? 'Y' : 'N';
   _storeFireWithinCompletedObj(fireWithinCompletedObj);
+
+  // sync this state to duplicate checkboxes
+  // ... duplicates exist because of the responsive web approach where we alter the layout for desktop/cell-phone
+  const checkElms = document.querySelectorAll('input[type="checkbox"]');
+  for (const checkElm of checkElms) {
+    // sync any duplicate checkboxes (with same ID that is NOT the element we are servicing)
+    if (checkElm !== completedElm && checkElm.id === completedElm.id) {
+      checkElm.checked = completedElm.checked;
+    }
+  }
 }
 
 

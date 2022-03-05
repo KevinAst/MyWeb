@@ -16,32 +16,79 @@ bla bla bla
 
 ## 2009 Acts Series (Sundays)
 
-{{book.ref.CornerstoneChapel}}
+??
 
 ## 2015-2016 Acts Series (Mid Week)
 
-{{book.ref.CornerstoneChapel}}
+{{book.CornerstoneChapel}}
 
-<style>
-.markdown-section table {
-  width: auto; /* override gitbook table width 100% */
-}
-</style>
+<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
+<div class="phone">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
 
-| Lesson/Scripture | Date  | Resource | Completed |
-|------------------|:-----:|:--------:|:---------:|
-| 1.  [Lesson](https://cornerstonechapel.net/teaching/20151021/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 1:1-11](https://bible.com/bible/act.1.1-11.msg)          | 10/21/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151021.pdf) | <input type="checkbox" id="20151021" onclick="handleCompletedCheckChange(this);"> |
-| 2.  [Lesson](https://cornerstonechapel.net/teaching/20151028/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 1:12-2:13](https://bible.com/bible/act.1.12-2.13.msg) ?? | 10/28/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151028.pdf) | <input type="checkbox" id="20151028" onclick="handleCompletedCheckChange(this);"> |
-| 3.  [Lesson](https://cornerstonechapel.net/teaching/20151104/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 2:1-13](https://bible.com/bible/act.2.1-13.msg)          | 11/04/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151104.pdf) | <input type="checkbox" id="20151104" onclick="handleCompletedCheckChange(this);"> |
-| 4.  [Lesson](https://cornerstonechapel.net/teaching/20151118/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 2:13-37](https://bible.com/bible/act.2.13-37.msg)        | 11/18/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151118.pdf) | <input type="checkbox" id="20151118" onclick="handleCompletedCheckChange(this);"> |
-| 5.  [Lesson](https://cornerstonechapel.net/teaching/20151202/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 2:42-3:26](https://bible.com/bible/act.2.42-3.26.msg) ?? | 12/02/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151202.pdf) | <input type="checkbox" id="20151202" onclick="handleCompletedCheckChange(this);"> |
-| 6.  [Lesson](https://cornerstonechapel.net/teaching/20151209/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 4](https://bible.com/bible/act.4.msg)                    | 12/09/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151209.pdf) | <input type="checkbox" id="20151209" onclick="handleCompletedCheckChange(this);"> |
-| 7.  [Lesson](https://cornerstonechapel.net/teaching/20151216/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 5](https://bible.com/bible/act.5.msg)                    | 12/16/2015 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20151216.pdf) | <input type="checkbox" id="20151216" onclick="handleCompletedCheckChange(this);"> |
-| 8.  [Lesson](https://cornerstonechapel.net/teaching/20160106/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 6:1-15](https://bible.com/bible/act.6.1-15.msg)          | 01/06/2016 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20160106.pdf) | <input type="checkbox" id="20160106" onclick="handleCompletedCheckChange(this);"> |
-| 9.  [Lesson](https://cornerstonechapel.net/teaching/20160113/) <br/>&nbsp;&nbsp;&nbsp;             [ACTS 7](https://bible.com/bible/act.7.msg)                    | 01/13/2016 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20160113.pdf) | <input type="checkbox" id="20160113" onclick="handleCompletedCheckChange(this);"> |
-| 10. [Lesson](https://cornerstonechapel.net/teaching/20160120/) <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ACTS 8](https://bible.com/bible/act.8.msg)                    | 01/20/2016 | [Study Guide](https://cornerstonechapel.net/documents/studyguides/20160120.pdf) | <input type="checkbox" id="20160120" onclick="handleCompletedCheckChange(this);"> |
+<tr><td> {{book.check1}}20160127{{book.check2}} 1.  </td><td> {{book.cst1}}20160127{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.9.niv{{book.b2}}  ACTS 9           {{book.b3}} </td><td> 01/27/2016 <br/> {{book.csg1}}20160127.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160203{{book.check2}} 2.  </td><td> {{book.cst1}}20160203{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.10.niv{{book.b2}} ACTS 10          {{book.b3}} </td><td> 02/03/2016 <br/> {{book.csg1}}20160203.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160210{{book.check2}} 3.  </td><td> {{book.cst1}}20160210{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.11.niv{{book.b2}} ACTS 11-12:19    {{book.b3}} </td><td> 02/10/2016 <br/> {{book.csg1}}20160210.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160217{{book.check2}} 4.  </td><td> {{book.cst1}}20160217{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.12.niv{{book.b2}} ACTS 12:19-13:41 {{book.b3}} </td><td> 02/17/2016 <br/> {{book.csg1}}20160217.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160224{{book.check2}} 5.  </td><td> {{book.cst1}}20160224{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.13.niv{{book.b2}} ACTS 13:42-14    {{book.b3}} </td><td> 02/24/2016 <br/> {{book.csg1}}20160224.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160302{{book.check2}} 6.  </td><td> {{book.cst1}}20160302{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.15.niv{{book.b2}} ACTS 15:1-29     {{book.b3}} </td><td> 03/02/2016 <br/> {{book.csg1}}20160302.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160309{{book.check2}} 7.  </td><td> {{book.cst1}}20160309{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.16.niv{{book.b2}} ACTS 15:30-16:40 {{book.b3}} </td><td> 03/09/2016 <br/> {{book.csg1}}20160309.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160316{{book.check2}} 8.  </td><td> {{book.cst1}}20160316{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.17.niv{{book.b2}} ACTS 17:1-34     {{book.b3}} </td><td> 03/16/2016 <br/> {{book.csg1}}20160316.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160330{{book.check2}} 9.  </td><td> {{book.cst1}}20160330{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.18.niv{{book.b2}} ACTS 18          {{book.b3}} </td><td> 03/30/2016 <br/> {{book.csg1}}20160330.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160406{{book.check2}} 10. </td><td> {{book.cst1}}20160406{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.19.niv{{book.b2}} ACTS 19:1-22     {{book.b3}} </td><td> 04/06/2016 <br/> {{book.csg1}}20160406.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160413{{book.check2}} 11. </td><td> {{book.cst1}}20160413{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.20.niv{{book.b2}} ACTS 19:23-20:38 {{book.b3}} </td><td> 04/13/2016 <br/> {{book.csg1}}20160413.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160420{{book.check2}} 12. </td><td> {{book.cst1}}20160420{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.21.niv{{book.b2}} ACTS 21-22:29    {{book.b3}} </td><td> 04/20/2016 <br/> {{book.csg1}}20160420.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160427{{book.check2}} 13. </td><td> {{book.cst1}}20160427{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.23.niv{{book.b2}} ACTS 23-24       {{book.b3}} </td><td> 04/27/2016 <br/> {{book.csg1}}20160427.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160504{{book.check2}} 14. </td><td> {{book.cst1}}20160504{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.25.niv{{book.b2}} ACTS 25-26       {{book.b3}} </td><td> 05/04/2016 <br/> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160511{{book.check2}} 15. </td><td> {{book.cst1}}20160511{{book.cst2}} Lesson {{book.cst3}} <br/> {{book.b1}}act.27.niv{{book.b2}} ACTS 27-28       {{book.b3}} </td><td> 05/11/2016 <br/> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
 
-?? more todo really
+  </tbody>
+</table>
+</div>
+
+<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
+<div class="desktop">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+
+<tr><td> {{book.check1}}20160127{{book.check2}} 1.  </td><td> {{book.cst1}}20160127{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.9.niv{{book.b2}}  ACTS 9           {{book.b3}} </td><td> 01/27/2016 </td><td> {{book.csg1}}20160127.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160203{{book.check2}} 2.  </td><td> {{book.cst1}}20160203{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.10.niv{{book.b2}} ACTS 10          {{book.b3}} </td><td> 02/03/2016 </td><td> {{book.csg1}}20160203.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160210{{book.check2}} 3.  </td><td> {{book.cst1}}20160210{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.11.niv{{book.b2}} ACTS 11-12:19    {{book.b3}} </td><td> 02/10/2016 </td><td> {{book.csg1}}20160210.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160217{{book.check2}} 4.  </td><td> {{book.cst1}}20160217{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.12.niv{{book.b2}} ACTS 12:19-13:41 {{book.b3}} </td><td> 02/17/2016 </td><td> {{book.csg1}}20160217.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160224{{book.check2}} 5.  </td><td> {{book.cst1}}20160224{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.13.niv{{book.b2}} ACTS 13:42-14    {{book.b3}} </td><td> 02/24/2016 </td><td> {{book.csg1}}20160224.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160302{{book.check2}} 6.  </td><td> {{book.cst1}}20160302{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.15.niv{{book.b2}} ACTS 15:1-29     {{book.b3}} </td><td> 03/02/2016 </td><td> {{book.csg1}}20160302.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160309{{book.check2}} 7.  </td><td> {{book.cst1}}20160309{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.16.niv{{book.b2}} ACTS 15:30-16:40 {{book.b3}} </td><td> 03/09/2016 </td><td> {{book.csg1}}20160309.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160316{{book.check2}} 8.  </td><td> {{book.cst1}}20160316{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.17.niv{{book.b2}} ACTS 17:1-34     {{book.b3}} </td><td> 03/16/2016 </td><td> {{book.csg1}}20160316.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160330{{book.check2}} 9.  </td><td> {{book.cst1}}20160330{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.18.niv{{book.b2}} ACTS 18          {{book.b3}} </td><td> 03/30/2016 </td><td> {{book.csg1}}20160330.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160406{{book.check2}} 10. </td><td> {{book.cst1}}20160406{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.19.niv{{book.b2}} ACTS 19:1-22     {{book.b3}} </td><td> 04/06/2016 </td><td> {{book.csg1}}20160406.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160413{{book.check2}} 11. </td><td> {{book.cst1}}20160413{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.20.niv{{book.b2}} ACTS 19:23-20:38 {{book.b3}} </td><td> 04/13/2016 </td><td> {{book.csg1}}20160413.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160420{{book.check2}} 12. </td><td> {{book.cst1}}20160420{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.21.niv{{book.b2}} ACTS 21-22:29    {{book.b3}} </td><td> 04/20/2016 </td><td> {{book.csg1}}20160420.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160427{{book.check2}} 13. </td><td> {{book.cst1}}20160427{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.23.niv{{book.b2}} ACTS 23-24       {{book.b3}} </td><td> 04/27/2016 </td><td> {{book.csg1}}20160427.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160504{{book.check2}} 14. </td><td> {{book.cst1}}20160504{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.25.niv{{book.b2}} ACTS 25-26       {{book.b3}} </td><td> 05/04/2016 </td><td> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20160511{{book.check2}} 15. </td><td> {{book.cst1}}20160511{{book.cst2}} Lesson {{book.cst3}} </td><td> {{book.b1}}act.27.niv{{book.b2}} ACTS 27-28       {{book.b3}} </td><td> 05/11/2016 </td><td> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
+
+  </tbody>
+</table>
+</div>
+
+
 
 <script>
   // explicitly invoke our page setup here
