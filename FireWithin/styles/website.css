@@ -45,7 +45,22 @@
   background-color: yellow !important;
 }
 
+/* override gitbook table width 100% */
+.markdown-section table {
+  width: auto;
+}
+
 /* SideBar: use a mouse pointer for all images capable of going full-screen with a click */
 .clickFullScreen {
   cursor: pointer;
+}
+
+/* RESPONSIVE default for "cell phone" (smaller device - less real estate) */
+.desktop { display: none;  }
+.phone   { display: block; }
+
+/* RESPONSIVE overide for "desktop/tablet" (bigger device - more real estate) */
+@media screen and (min-width: 768px) {
+  .desktop { display: block; }
+  .phone   { display: none;  }
 }
