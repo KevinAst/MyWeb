@@ -4,9 +4,16 @@ function pageSetup() {
   initializeCompletedChecks();
 }
 
-// FullScreen Utility
+// FullScreen Utility - OLD ... don't like much (currently NOT being used)
 // CREDIT: https://code-boxx.com/image-zoom-css-javascript/
 // KJB: to use, simply add "clickFullScreen" css class to your img tag
+// EX:  <figure style="text-align: center;">
+//        <img class="diagram clickFullScreen"
+//             src="Acts.png"
+//             alt="Acts"
+//             width="85%">
+//        <figcaption>Click image to expand into full-screen</figcaption>
+//      </figure>
 function registerImgClickFullScreenHandlers() {
   // obtain all img tags with "clickFullScreen" css class
   const all = document.getElementsByClassName("clickFullScreen");
@@ -38,6 +45,99 @@ function registerImgClickFullScreenHandlers() {
     };
   }
 }
+
+// Zoomable Image Utility - NEW ... use this one
+// CREDITS: Modified Version of: https://www.cssscript.com/image-zoom-pan-hover-detail-view/
+// KJB: to use, follow this pattern
+// EX:  <center>
+//        <figure>
+//          <div id="ActsOverview2"></div>
+//          <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+//        </figure>
+//      </center>
+//      <script>
+//        addZoomableImage('ActsOverview2', 'Acts.png', 90);
+//      </script>
+function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
+
+  const imageContainer = document.getElementById(imageContainerId);
+
+  // obtain the width of our page container (used to compute image width from supplied widthPercent)
+  // ... NOTE: this is specific to GitBook (so it will only work in that environemt)
+  const gitbookContainer      = document.getElementById('book-search-results');
+  let   gitbookContainerWidth = gitbookContainer.clientWidth; // ... offsetWidth INCLUDES border width -or- clientWidth which does not
+
+  // obtain the image width/height calculate it's ratio
+  // ... this is gleaned by creating a temporary Image object
+  let   imgHeight = 100; // ... temporary defaults (changed below)
+  let   imgWidth  = 100;
+  let   ratio     = 1;
+  const img = new Image();
+  img.src = imgSrc;
+  img.onload = () => {
+    imgHeight = img.naturalHeight;
+    imgWidth  = img.naturalWidth;
+    ratio     = imgHeight / imgWidth;
+
+    // apply baseline css style to render image as a background
+    // ... we do this inside our temporary image on-load so as to have access to the updated ratio
+    let widthInPx = widthPercent/100*gitbookContainerWidth;
+    Object.assign(imageContainer.style, {
+      // honor the desired width 
+      width:      `${widthInPx}px`,
+      height:     `${widthInPx*ratio}px`, // ... height is proportioned to display entire image
+
+      // nice rounded border
+      borderRadius: '8px',
+
+      // display image as background
+      background: `url("${imgSrc}")`,
+      backgroundPosition: 'center',
+      backgroundSize:     'cover',
+    });
+  }
+
+  // monitor window size changes to adjust image percentage
+  const ro = new ResizeObserver( entries => {
+    for (let entry of entries) {
+      widthInPx = entry.target.clientWidth; // adjust width
+      Object.assign(imageContainer.style, {
+        width:      `${widthInPx}px`,
+        height:     `${widthInPx*ratio}px`, // height is proportioned to display entire image
+      });
+    }
+  });
+  ro.observe(gitbookContainer);
+
+
+  // register mouse move event (hover) to engage the zoom
+  imageContainer.onmousemove = (e) => {
+    const rect     = e.target.getBoundingClientRect();
+    const xPos     = e.clientX - rect.left;
+    const yPos     = e.clientY - rect.top;
+    const xPercent = xPos / (imageContainer.clientWidth / 100) + "%";
+    const yPercent = yPos / ((imageContainer.clientWidth * ratio) / 100) + "%";
+    
+    Object.assign(imageContainer.style, {
+      backgroundPosition: xPercent + " " + yPercent,
+      backgroundSize:     imgWidth + "px"
+    });
+  };
+
+  // register mouse leave event to reset the zoom
+  imageContainer.onmouseleave = (e) => {
+    Object.assign(imageContainer.style, {
+      backgroundPosition: 'center',
+      backgroundSize:     'cover'
+    });
+  };
+
+  // register click event to open image in new tab/window
+  imageContainer.onclick = (e) => {
+    window.open(imgSrc, "_blank");
+  };
+}
+
 
 function initializeCompletedChecks() {
   // fetch all checkbox input elements (representing completed sessions)
