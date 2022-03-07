@@ -11,13 +11,16 @@ throughout the world.
 
 [Acts Introduction](https://overviewbible.com/acts/)
 
-<figure style="text-align: center;">
-  <img class="diagram clickFullScreen"
-       src="Luke-Acts.jpg"
-       alt="Luke/Acts"
-       width="85%">
-  <figcaption>Click image to expand into full-screen</figcaption>
-</figure>
+<center>
+  <figure>
+    <div id="ActsOverview1"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('ActsOverview1', 'Luke-Acts.png', 90);
+</script>
+
 
 
 ### Bible Project
@@ -26,14 +29,15 @@ throughout the world.
 [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
 [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 
-<figure style="text-align: center;">
-  <img class="diagram clickFullScreen"
-       src="Acts.png"
-       alt="Acts"
-       width="85%">
-  <figcaption>Click image to expand into full-screen</figcaption>
-</figure>
-
+<center>
+  <figure>
+    <div id="ActsOverview2"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('ActsOverview2', 'Acts.png', 90);
+</script>
 
 
 ## 2009 Acts Series (Sundays)
