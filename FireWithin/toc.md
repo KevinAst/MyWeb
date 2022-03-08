@@ -72,3 +72,5 @@
   * _(3 John)_
   * _(Jude)_
   * [Revelation](Revelation.md)
+    * [2011 Series](Revelation.md#2011-series-sundays)
+    * [2020 Series](Revelation.md#2020-2021-series-mid-week))
