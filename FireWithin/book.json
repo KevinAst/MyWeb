@@ -30,7 +30,11 @@
     }
   },
   "variables": { 
+    "OverviewBible":     "[Overview Bible](https://overviewbible.com/books-of-the-bible/)",
+    "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
+    "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
     "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
+
     "check1": "<input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
     "check2": "\">",
     "cst1":   "<a href=\"https://cornerstonechapel.net/teaching/",

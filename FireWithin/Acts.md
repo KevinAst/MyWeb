@@ -7,9 +7,10 @@ themes include: Jesus returns to the Father &bull; the Holy Spirit
 comes to the church &bull; and Jesus' followers spread his gospel
 throughout the world.
 
-### Overview Bible
 
-[Acts Introduction](https://overviewbible.com/acts/)
+**{{book.OverviewBible}}**
+
+> [Acts Introduction](https://overviewbible.com/acts/)
 
 <center>
   <figure>
@@ -18,16 +19,15 @@ throughout the world.
   </figure>
 </center>
 <script>
-  addZoomableImage('ActsOverview1', 'Luke-Acts.png', 90);
+  addZoomableImage('ActsOverview1', 'Luke-Acts.png', 75);
 </script>
 
 
+**{{book.BibleProject}}**
 
-### Bible Project
-
-**Acts Introduction**
-[Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
-[Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
+> **Acts Introduction**
+> [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
+> [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 
 <center>
   <figure>
@@ -36,8 +36,22 @@ throughout the world.
   </figure>
 </center>
 <script>
-  addZoomableImage('ActsOverview2', 'Acts.png', 90);
+  addZoomableImage('ActsOverview2', 'Acts.png', 75);
 </script>
+
+
+**{{book.SpokenGospel}}**
+
+<p align="center">
+  <iframe name="SpokenGospelActsVideo"
+          id="SpokenGospelActsVideo"
+          width="577"
+          height="325"
+          src="https://www.youtube.com/embed/lnCAkeBido0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+</p>
 
 
 ## 2009 Acts Series (Sundays)

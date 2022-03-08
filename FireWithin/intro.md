@@ -71,14 +71,13 @@ in my study.
 
 I have settled on the following resources:
 
-1. The [Overview Bible](https://overviewbible.com/books-of-the-bible/)
-   gives you a quick orientation of each book of the Bible.
+1. The {{book.OverviewBible}} gives you a quick orientation of each
+   book of the Bible.
 
-2. The [Bible Project](https://bibleproject.com/explore/book-overviews/) does the same.
+2. The {{book.BibleProject}} does the same.
 
-3. The [Spoken Gospel](https://www.spokengospel.com/) provides
-   contemporary videos emphasizing the major themes of each book of the
-   Bible.
+3. The {{book.SpokenGospel}} provides contemporary videos emphasizing
+   the major themes of each book of the Bible.
    
 4. {{book.CornerstoneChapel}} _(with Pastor Gary Hamrick)_ is a non
    denominational evangelical church in Leesburg, VA.  This is the
