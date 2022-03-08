@@ -2,7 +2,7 @@
 
 Welcome to my "Fire Within" Bible Study Resources!
 
-<p style="text-align: right;">
+<p style="text-align: center;">
   <img class="diagram"
        src="FireWithin.jpg"
        alt="Fire Within"
@@ -29,10 +29,10 @@ audible reading of God's word during your commute or work-out.
 
 ## How I Study
 
-In my study, I have found that it helps me to supplement the reading
-of Gods word with a sermon series from a trusted evangelical pastor.
-It simply adds more background and insight that makes the scriptures
-come alive.  This of course is <mark>in addition to prayer</mark> -
+In my study, I have found that it helps to supplement the reading of
+Gods word with a sermon series from a trusted evangelical pastor.  It
+simply adds more background and insight that makes the scriptures come
+alive.  This of course this     is <mark>in addition to prayer</mark> -
 _*asking the Holy Spirit for discernment and guidance*_.
 
 When I study a book of the Bible, I follow this pattern:
@@ -90,6 +90,23 @@ I have settled on the following resources:
 
 I am so grateful for these biblical resources, and the men and women
 of God that have made them possible.
+
+> Please note that each entry in the sermon series has a "completed"
+> check-box, that helps keep track of where you are.  Please
+> understand that this information is held in your local browser.
+> That means the status will not follow you when _(for example)_ you
+> use a different device or browser.  In other words, it's really the
+> status of the device/browser you are using.
+> 
+> - As an example, if you use a 2nd device or browser it will maintain
+>   it's own distinct status _(which is not synced to the other
+>   device/browser)_
+> 
+> - Or if multiple people use the same device/browser, the "Fire
+>   Within"  status will not reflect the individual users.
+> 
+> This feature is merely meant to be a convenience, and was
+> implemented using the easiest technique.
 
 ## Work In Progress
 
