@@ -19,29 +19,17 @@
 
 ## 2019 Series
 
-ble ble ble
+do it
 
-ble ble ble
+do it
 
-ble ble ble
+do it
 
-ble ble ble
+do it
 
-ble ble ble
+do it
 
-ble ble ble
-
-ble ble ble
-
-ble ble ble
-
-ble ble ble
-
-ble ble ble
-
-ble ble ble
-
-ble ble ble
+do it
 
 <script>
   // explicitly invoke our page setup here

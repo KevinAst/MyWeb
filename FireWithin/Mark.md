@@ -1,4 +1,4 @@
-# 1 Thessalonians
+# Mark
 
 <script type="text/javascript" src="pageSetup.js"></script>
 

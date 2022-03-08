@@ -1,4 +1,4 @@
-# 1 Thessalonians
+# 2 Thessalonians
 
 <script type="text/javascript" src="pageSetup.js"></script>
 

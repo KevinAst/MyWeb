@@ -1,4 +1,4 @@
-# 1 Thessalonians
+# Daniel
 
 <script type="text/javascript" src="pageSetup.js"></script>
 

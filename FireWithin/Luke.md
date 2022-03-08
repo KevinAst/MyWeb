@@ -1,4 +1,4 @@
-# 1 Thessalonians
+# Luke
 
 <script type="text/javascript" src="pageSetup.js"></script>
 

@@ -29,7 +29,7 @@
   * _(Jeremiah)_
   * _(Lamentations)_
   * _(Ezekiel)_
-  * (Daniel)
+  * [Daniel](Daniel.md)
   * _(Hosea)_
   * _(Joel)_
   * _(Amos)_
@@ -44,10 +44,12 @@
   * _(Malachi)_
 - [New Testament](NewTestament.md)
   * _(Matthew)_
-  * (Mark)
-  * (Luke)
+  * [Mark](Mark.md)
+  * [Luke](Luke.md)
   * _(John)_
   * [Acts](Acts.md)
+    * [2009 Series](Acts.md#2009-acts-series-sundays)
+    * [2016 Series](Acts.md#2015-2016-acts-series-mid-week)
   * _(Romans)_
   * _(1 Corinthians)_
   * _(2 Corinthians)_
@@ -56,7 +58,7 @@
   * _(Philippians)_
   * _(Colossians)_
   * [1 Thessalonians](1Thessalonians.md)
-  * (2 Thessalonians)
+  * [2 Thessalonians](2Thessalonians.md)
   * _(1 Timothy)_
   * _(2 Timothy)_
   * _(Titus)_
