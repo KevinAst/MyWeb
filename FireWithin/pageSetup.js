@@ -82,6 +82,7 @@ function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
     // apply baseline css style to render image as a background
     // ... we do this inside our temporary image on-load so as to have access to the updated ratio
     let widthInPx = widthPercent/100*gitbookContainerWidth;
+    // console.log(`XX showing ${imgSrc} at ${widthPercent}% or ${widthInPx}px`);
     Object.assign(imageContainer.style, {
       // honor the desired width 
       width:      `${widthInPx}px`,
@@ -100,7 +101,8 @@ function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
   // monitor window size changes to adjust image percentage
   const ro = new ResizeObserver( entries => {
     for (let entry of entries) {
-      widthInPx = entry.target.clientWidth; // adjust width
+      gitbookContainerWidth = entry.target.clientWidth; // adjust width
+      widthInPx = widthPercent/100*gitbookContainerWidth;
       Object.assign(imageContainer.style, {
         width:      `${widthInPx}px`,
         height:     `${widthInPx*ratio}px`, // height is proportioned to display entire image
