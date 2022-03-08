@@ -61,14 +61,6 @@ throughout the world.
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
 
 <tr><td> {{book.check1}}20090419{{book.check2}} 1.  </td><td> {{book.cst1}}20090419{{book.cst2}} The Purpose and Person of the Holy Spirit {{book.cst3}} <br/> {{book.b1}}act.1.niv{{book.b2}} ACTS 1      {{book.b3}} </td><td> 04/19/2009 <br/> {{book.csg1}}20090419.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20090426{{book.check2}} 2.  </td><td> {{book.cst1}}20090426{{book.cst2}} Pentecost: Then and Now                   {{book.cst3}} <br/> {{book.b1}}act.2.niv{{book.b2}} ACTS 2      {{book.b3}} </td><td> 04/26/2009 <br/> {{book.csg1}}20090426.pdf{{book.csg2}} </td>
@@ -83,7 +75,6 @@ throughout the world.
 <tr><td> {{book.check1}}20090726{{book.check2}} 10. </td><td> {{book.cst1}}20090726{{book.cst2}} A Clear Conscience                        {{book.cst3}} <br/> {{book.b1}}act.22.niv{{book.b2}} ACTS 22-25 {{book.b3}} </td><td> 07/26/2009                                              </td>
 <tr><td> {{book.check1}}20090802{{book.check2}} 10. </td><td> {{book.cst1}}20090802{{book.cst2}} When Storms Come                          {{book.cst3}} <br/> {{book.b1}}act.26.niv{{book.b2}} ACTS 26-28 {{book.b3}} </td><td> 08/02/2009                                              </td>
 
-  </tbody>
 </table>
 </div>
 
@@ -91,16 +82,6 @@ throughout the world.
 <!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
 <div class="desktop">
 <table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
 
 <tr><td> {{book.check1}}20090419{{book.check2}} 1.  </td><td> {{book.cst1}}20090419{{book.cst2}} The Purpose and Person of the Holy Spirit {{book.cst3}} </td><td> {{book.b1}}act.1.niv{{book.b2}} ACTS 1      {{book.b3}} </td><td> 04/19/2009 </td><td> {{book.csg1}}20090419.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20090426{{book.check2}} 2.  </td><td> {{book.cst1}}20090426{{book.cst2}} Pentecost: Then and Now                   {{book.cst3}} </td><td> {{book.b1}}act.2.niv{{book.b2}} ACTS 2      {{book.b3}} </td><td> 04/26/2009 </td><td> {{book.csg1}}20090426.pdf{{book.csg2}} </td>
@@ -115,7 +96,6 @@ throughout the world.
 <tr><td> {{book.check1}}20090726{{book.check2}} 10. </td><td> {{book.cst1}}20090726{{book.cst2}} A Clear Conscience                        {{book.cst3}} </td><td> {{book.b1}}act.22.niv{{book.b2}} ACTS 22-25 {{book.b3}} </td><td> 07/26/2009 </td><td>                                        </td>
 <tr><td> {{book.check1}}20090802{{book.check2}} 10. </td><td> {{book.cst1}}20090802{{book.cst2}} When Storms Come                          {{book.cst3}} </td><td> {{book.b1}}act.26.niv{{book.b2}} ACTS 26-28 {{book.b3}} </td><td> 08/02/2009 </td><td>                                        </td>
 
-  </tbody>
 </table>
 </div>
 
@@ -127,14 +107,6 @@ throughout the world.
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
 
 <tr><td> {{book.check1}}20151021{{book.check2}} 1.  </td><td> {{book.cst1}}20151021{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.1.niv{{book.b2}}  ACTS 1:1-11      {{book.b3}} </td><td> 10/21/2015 <br/> {{book.csg1}}20151021.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20151028{{book.check2}} 2.  </td><td> {{book.cst1}}20151028{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.1.niv{{book.b2}}  ACTS 1:12-2:13   {{book.b3}} </td><td> 10/28/2015 <br/> {{book.csg1}}20151028.pdf{{book.csg2}} </td>
@@ -162,23 +134,12 @@ throughout the world.
 <tr><td> {{book.check1}}20160504{{book.check2}} 24. </td><td> {{book.cst1}}20160504{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.25.niv{{book.b2}} ACTS 25-26       {{book.b3}} </td><td> 05/04/2016 <br/> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20160511{{book.check2}} 25. </td><td> {{book.cst1}}20160511{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.27.niv{{book.b2}} ACTS 27-28       {{book.b3}} </td><td> 05/11/2016 <br/> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
 
-  </tbody>
 </table>
 </div>
 
 <!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
 <div class="desktop">
 <table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
 
 <tr><td> {{book.check1}}20151021{{book.check2}} 1.  </td><td> {{book.cst1}}20151021{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.1.niv{{book.b2}}  ACTS 1:1-11      {{book.b3}} </td><td> 10/21/2015 </td><td> {{book.csg1}}20151021.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20151028{{book.check2}} 2.  </td><td> {{book.cst1}}20151028{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.1.niv{{book.b2}}  ACTS 1:12-2:13   {{book.b3}} </td><td> 10/28/2015 </td><td> {{book.csg1}}20151028.pdf{{book.csg2}} </td>
@@ -206,7 +167,6 @@ throughout the world.
 <tr><td> {{book.check1}}20160504{{book.check2}} 24. </td><td> {{book.cst1}}20160504{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.25.niv{{book.b2}} ACTS 25-26       {{book.b3}} </td><td> 05/04/2016 </td><td> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
 <tr><td> {{book.check1}}20160511{{book.check2}} 25. </td><td> {{book.cst1}}20160511{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.27.niv{{book.b2}} ACTS 27-28       {{book.b3}} </td><td> 05/11/2016 </td><td> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
 
-  </tbody>
 </table>
 </div>
 
