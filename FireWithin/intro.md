@@ -1,7 +1,13 @@
-<!-- ?? find a logo with this in it (see html used in tw-themes intro.md -->
 # Fire Within
 
 Welcome to my "Fire Within" Bible Study Resources!
+
+<p style="text-align: right;">
+  <img class="diagram"
+       src="FireWithin.jpg"
+       alt="Fire Within"
+       width="250px">
+</p>
 
 You may have guessed that I am a believer and follower of Jesus Christ
 _(i.e. a Christian)_.  The short version of my faith is I accepted
@@ -15,19 +21,19 @@ word daily, allowing it to guide my life and decisions.
 ## Tech
 
 Technology has radically changed the number of resources that are
-available to us all ...  even as beliviers!  You can install the [You
+available to us all ...  even as believers!  You can install the [You
 Version](https://www.bible.com/) Bible App _(on your phone)_ that
 contains the entire Bible - any version ... **held right in the palm
 of your hand**!  From this you can read the scriptures, or stream an
-audable reading of God's word during your comute or work-out.
+audible reading of God's word during your commute or work-out.
 
 ## How I Study
 
 In my study, I have found that it helps me to supplement the reading
-of Gods word with a serman series from a trusted evangelical pastor.
+of Gods word with a sermon series from a trusted evangelical pastor.
 It simply adds more background and insight that makes the scriptures
-come alive.  This of course is in addition to prayer - asking the Holy
-Spirit for discernment and guidance.
+come alive.  This of course is <mark>in addition to prayer</mark> -
+_*asking the Holy Spirit for discernment and guidance*_.
 
 When I study a book of the Bible, I follow this pattern:
 
@@ -35,10 +41,10 @@ When I study a book of the Bible, I follow this pattern:
    background?  Who are the main characters.  Why was the book
    written and what is it's major theme and emphasis?
 
-2. In some cases, I may audabilly stream the entire book at a time.
+2. In some cases, I may audibly stream the entire book at a time.
    I am a slow reader, so streaming is a good option for me.
 
-3. Then for the actual study, I will read _(or audabilly stream)_ a
+3. Then for the actual study, I will read _(or audibly stream)_ a
    few chapters at a time.
 
 4. I then supplement what I have read with the sermon series that I
@@ -49,8 +55,9 @@ When I study a book of the Bible, I follow this pattern:
 ## Resources
 
 The resources I promote in this blog are readily available through the
-internet.  The problem is they are somewhat disjointed and difficult
-to organize and keep track of _(in the context of a Bible study)_.
+internet.  <mark>The problem is</mark> they are somewhat disjointed
+and difficult to organize and keep track of _(in the context of a
+Bible study)_.
 
 As a result I created this blog.  It is merely an accumulation of
 resource links that guide me through the books of the bible.  Because
@@ -73,12 +80,12 @@ I have settled on the following resources:
    contemporary videos emphasizing the major themes of each book of the
    Bible.
    
-4. {{book.ref.CornerstoneChapel}} _(with Pastor Gary Hamrick)_ is a
-   non denominational evangelical church in Leesburg, VA.  This is the
+4. {{book.CornerstoneChapel}} _(with Pastor Gary Hamrick)_ is a non
+   denominational evangelical church in Leesburg, VA.  This is the
    main resource containing the sermon series of each book of the
-   Bible.  I have grown to love the ministry of Pastor Gary.  ?? He
-   provides so much insight to the scriptures, that they just seem to
-   come to life _(somewhat akin to watching [The
+   Bible.  I have grown to love the ministry of Pastor Gary.  He
+   provides so much insight to the scriptures, making them seem to
+   come alive _(somewhat akin to watching [The
    Chosen](https://watch.angelstudios.com/thechosen) series on the
    life of Christ )_.
 
@@ -88,17 +95,18 @@ of God that have made them possible.
 ## Work In Progress
 
 You may have noticed that this blog is a work-in-progress.  At the
-time of this writing I have compiled only a few books of the Bible.
-These represent the books that I have, or am currently studying
-_(since my renewed faith)_.  You are welcome to try one of these
-existing studies ... **just click on the desired book (in the Left Nav
-Bar)**.  I will be adding more as I continue my study.
+time of this writing I have compiled only a small number of books in
+the Bible.  These represent the books that I have, or am currently
+studying _(since my renewed faith)_.  You are welcome to try one of
+these existing studies ... **just click on the desired book (in the
+Left Nav Bar)**.  I will be adding more as I continue my study.
 
 > If there is a specific book you are wanting to study _(ahead of my
 > schedule)_, I would be happy to compile those resources _(it takes
 > me roughly 2 hours per book)_.  Please reach out to me and I will be
 > glad to add an "early release" of that book :-) You can reach me at
-> ?? or Direct Message me on Twitter ??
+> `kevin AT wiiBridges DOT com`
+> or Direct Message me on [Twitter](https://twitter.com/kevinast)
 
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
