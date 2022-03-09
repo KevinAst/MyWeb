@@ -1,5 +1,7 @@
 # Getting Started
 
+<script type="text/javascript" src="pageSetup.js"></script>
+
 Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.
 It is, _at it's core_, simply a consolidated list of resource links to
 help you in your Bible Study.  With that said, this section highlights
@@ -116,6 +118,41 @@ remembered the next time you come back.
 > 
 > This feature is merely meant to be a convenience, and was
 > implemented using the simplest technique.
+
+## Diagrams
+
+In some cases, a presentation or sermon series will use a detailed
+diagram to get their points across.  When this happens _(and I have
+the time)_, I will extract that diagram and make it available as one
+of the resources of this site.
+
+These diagrams are typically pretty big, and may not be readable when
+restricted by the browser window.  As a result, I have added the
+following features:
+
+- You can "hover over the diagram" with your mouse, and it will
+  zoom/expand on that section.  On a cell phone you can "press and
+  hold" your finger to get the same effect.
+
+- You can also "click the diagram" to open it in a new tab of your
+  browser.
+  * from there you can re-orient the browser window so it is visible
+    concurrently with the video presentation
+  * you can also print the diagram by using your browser controls
+
+> Try this out for yourself with the following sample _(taken from the
+> [Revelation](Revelation.md) series)_:
+
+<center>
+  <figure>
+    <div id="RevelationTimeline_CS2"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
+</script>
+
 
 ## Responsive Design
 
