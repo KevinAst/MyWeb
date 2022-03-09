@@ -45,13 +45,15 @@ hope, and love.
 
 {{book.CornerstoneChapel}}
 
+> NOTE: This series covers both First and Second Thessalonians
+
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>
 
-<tr><td> {{book.check1}}20100425{{book.check2}} 1. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1)? {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 <br/> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100502{{book.check2}} 2. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2)? {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 <br/> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100509{{book.check2}} 3. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3)? {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess     {{book.b3}} </td><td> 05/09/2010 <br/> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100425{{book.check2}} 1. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 <br/> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100502{{book.check2}} 2. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 <br/> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100509{{book.check2}} 3. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} <br/> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 <br/> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -60,9 +62,9 @@ hope, and love.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.check1}}20100425{{book.check2}} 1. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1)? {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 </td><td> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100502{{book.check2}} 2. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2)? {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 </td><td> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100509{{book.check2}} 3. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3)? {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess     {{book.b3}} </td><td> 05/09/2010 </td><td> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100425{{book.check2}} 1. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 </td><td> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100502{{book.check2}} 2. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 </td><td> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
+<tr><td> {{book.check1}}20100509{{book.check2}} 3. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} </td><td> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 </td><td> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
 
 
 </table>

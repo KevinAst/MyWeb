@@ -75,6 +75,8 @@
     * [2010 Series](1Thessalonians.md#2010-series-sundays)
     * [2018 Series](1Thessalonians.md#2018-series-mid-week)
   * [2 Thessalonians](2Thessalonians.md)
+    * [2010 Series](2Thessalonians.md#2010-series-sundays)
+    * [2018 Series](2Thessalonians.md#2018-series-mid-week)
   * _(1 Timothy)_
   * _(2 Timothy)_
   * _(Titus)_
