@@ -85,7 +85,7 @@ Left Nav Bar)**.  I will be adding more as I continue my study.
 
 As mentioned in the [Welcome Page](intro.md), this site is merely an
 accumulation of resource links that guide me through the books of the
-bible.  Because they are concisely organized, it helps in keeping
+Bible.  Because they are concisely organized, it helps in keeping
 track of where you are your study.
 
 > A word about the resource links found in this site ... they will

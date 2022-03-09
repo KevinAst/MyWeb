@@ -28,15 +28,15 @@ _(on your phone)_ which contains the entire Bible _(any version)_
 the scriptures, or stream an audible reading of God's word during your
 commute or work-out.
 
-In addition you can find an abundance of bible study resources on the
+In addition you can find an abundance of Bible study resources on the
 internet.  <mark>The problem is</mark> they are somewhat disjointed
 and difficult to organize and keep track of _(in the context of a
 Bible study)_.
 
 As a result I created this site.  It is merely an accumulation of
-resource links that guide me through the books of the bible.  Because
-they are concisely organized, it helps in keeping track of where I am
-in my study.
+resource links that guide me through the books of the Bible.  Because
+they are concisely organized, it helps in keeping track of where you
+are in your study.
 
 
 ## How I Study
@@ -71,19 +71,18 @@ When I study a book of the Bible, I follow this pattern:
 Regarding the _trusted set of resources_ found on this site, I am
 promoting the following:
 
-1. For the high-level orientation of each book of the Bible, I
-   offer three resources: {{book.OverviewBible}},
-   {{book.BibleProject}}, and {{book.SpokenGospel}}.  You are free to
-   use all of them, or simply choose the one that you prefer.  The
-   first two use a presentation style, where the later is a more
-   of a contemporary video series.
+1. For the high-level orientation of each book, I offer three
+   resources: {{book.OverviewBible}}, {{book.BibleProject}}, and
+   {{book.SpokenGospel}}.  You are free to use all of them, or simply
+   choose the one that you prefer.  The first two use a presentation
+   style, where the later is a more of a contemporary video series.
 
 2. Regarding the main resource containing the sermon series on each
-   book of the Bible, I am using {{book.CornerstoneChapel}} _(with
-   Pastor Gary Hamrick)_.  This is a non denominational evangelical
-   church in Leesburg, VA. I have grown to love the ministry of Pastor
-   Gary.  He provides so much insight to the scriptures, making them
-   simply come alive _(somewhat akin to watching [The
+   book, I am using {{book.CornerstoneChapel}} _(with Pastor Gary
+   Hamrick)_.  This is a non denominational evangelical church in
+   Leesburg, VA. I have grown to love the ministry of Pastor Gary.  He
+   provides so much insight to the scriptures, making them simply come
+   alive _(somewhat akin to watching [The
    Chosen](https://watch.angelstudios.com/thechosen) series on the
    life of Christ )_.
 
