@@ -1,7 +1,18 @@
 # Table of content 
 
-### Fire Within (1.2.0)
+### Fire Within (1.0)
 
+----
+- [Getting Started](start.md)
+  * [Basic Appearance](start.md#basic-appearance)
+  * [Going Home](start.md#going-home)
+  * [Left Nav Bar](start.md#left-nav-bar)
+  * [Work In Progress](start.md#work-in-progress)
+  * [Resource Links](start.md#resource-links)
+  * [Where Am I?](start.md#where-am-i)
+  * [Responsive Design](start.md#responsive-design)
+
+----
 - [Old Testament](OldTestament.md)
   * _(Genesis)_
   * _(Exodus)_
@@ -42,6 +53,8 @@
   * _(Haggai)_
   * _(Zechariah)_
   * _(Malachi)_
+
+----
 - [New Testament](NewTestament.md)
   * _(Matthew)_
   * [Mark](Mark.md)
