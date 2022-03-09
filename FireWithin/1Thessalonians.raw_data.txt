@@ -1,11 +1,13 @@
 2010 Series (Sundays) WITH Study Guide  **********************************************************************
 
+NOTE: This series covers both First and Second Thessalonians
+
 <tr><td> {{book.check1}}$REF{{book.check2}} X. </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
 05/09/2010
 What Does the Lord's Return Mean (Part 3)?
-1 Thess
-1th.1.niv
+2 Thess
+2th.1.niv
 
 05/02/2010
 What Does the Lord's Return Mean (Part 2)?
