@@ -2,6 +2,41 @@
 
 <script type="text/javascript" src="pageSetup.js"></script>
 
+The book of Revelation is the resolution of all things: the kingdom of
+God is once again physically and literally restored to earth &bull;
+the dead are raised &bull; the final judgments are rendered &bull; and
+all things are made new.
+
+**{{book.OverviewBible}}**
+
+> [Revelation Introduction](https://overviewbible.com/revelation/)
+>
+> _As of 3/2022 Overview Bible has no Revelation video or diagram_
+
+
+**{{book.BibleProject}}**
+
+> **Revelation Introduction**
+> [Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
+> [Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
+
+<center>
+  <figure>
+    <div id="Revelation_BP"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('Revelation_BP', 'Revelation_BP.png', 75);
+</script>
+
+
+<!-- NOTE:  layout for "cell phone" responsive show/hide -->
+
+**{{book.SpokenGospel}}**
+
+> _As of 3/2022 Spoken Gospel has no Revelation entry_
+
 
 ## 2011 Series (Sundays)
 
@@ -68,6 +103,17 @@
 ## 2020-2021 Series (Mid Week)
 
 {{book.CornerstoneChapel}}
+
+<center>
+  <figure>
+    <div id="RevelationTimeline_CS"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('RevelationTimeline_CS', 'RevelationTimeline_CS.png', 75);
+</script>
+
 
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">

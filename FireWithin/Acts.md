@@ -2,10 +2,10 @@
 
 <script type="text/javascript" src="pageSetup.js"></script>
 
-The book of Acts is a continuation of the Gospel of Luke.  Major
-themes include: Jesus returns to the Father &bull; the Holy Spirit
-comes to the church &bull; and Jesus' followers spread his gospel
-throughout the world.
+The book of Acts is a continuation of the Gospel of {{book.Luke}}.
+Major themes include: Jesus returns to the Father &bull; the Holy
+Spirit comes to the church &bull; and Jesus' followers spread his
+gospel throughout the world.
 
 
 **{{book.OverviewBible}}**
@@ -14,12 +14,12 @@ throughout the world.
 
 <center>
   <figure>
-    <div id="ActsOverview1"></div>
+    <div id="Acts_OB"></div>
     <figcaption>Hover to zoom, Click to open in new tab</figcaption>
   </figure>
 </center>
 <script>
-  addZoomableImage('ActsOverview1', 'Luke-Acts.png', 75);
+  addZoomableImage('Acts_OB', 'Luke-Acts_OB.png', 75);
 </script>
 
 
@@ -31,12 +31,12 @@ throughout the world.
 
 <center>
   <figure>
-    <div id="ActsOverview2"></div>
+    <div id="Acts_BP"></div>
     <figcaption>Hover to zoom, Click to open in new tab</figcaption>
   </figure>
 </center>
 <script>
-  addZoomableImage('ActsOverview2', 'Acts.png', 75);
+  addZoomableImage('Acts_BP', 'Acts_BP.png', 75);
 </script>
 
 
