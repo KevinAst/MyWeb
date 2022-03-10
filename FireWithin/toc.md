@@ -62,8 +62,6 @@
   * [Luke](Luke.md)
   * _(John)_
   * [Acts](Acts.md)
-    * [2009 Series](Acts.md#2009-acts-series-sundays)
-    * [2016 Series](Acts.md#2015-2016-acts-series-mid-week)
   * _(Romans)_
   * _(1 Corinthians)_
   * _(2 Corinthians)_
@@ -72,11 +70,7 @@
   * _(Philippians)_
   * _(Colossians)_
   * [1 Thessalonians](1Thessalonians.md)
-    * [2010 Series](1Thessalonians.md#2010-series-sundays)
-    * [2018 Series](1Thessalonians.md#2018-series-mid-week)
   * [2 Thessalonians](2Thessalonians.md)
-    * [2010 Series](2Thessalonians.md#2010-series-sundays)
-    * [2018 Series](2Thessalonians.md#2018-series-mid-week)
   * _(1 Timothy)_
   * _(2 Timothy)_
   * _(Titus)_
@@ -90,5 +84,3 @@
   * _(3 John)_
   * _(Jude)_
   * [Revelation](Revelation.md)
-    * [2011 Series](Revelation.md#2011-series-sundays)
-    * [2020 Series](Revelation.md#2020-2021-series-mid-week))

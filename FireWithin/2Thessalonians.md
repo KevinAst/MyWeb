@@ -7,6 +7,43 @@ Persecution from outside
 &bull; Despair from false doctrine
 &bull; Busybodies in the church.
 
+
+### At a Glance
+
+- [Overview](#overview)
+- [2010 Series](#2010-series-sundays)
+- [2018 Series](#2018-series-mid-week)
+
+
+## Overview
+
+
+**{{book.NivBible}} 2 Thessalonians Introduction**
+
+> Apparently only shortly after writing his first letter to the
+> Thessalonians, Paul had to write again to correct a false report that
+> he had said the day of the Lord had already come. The day of the
+> Lord was a phrase from the Hebrew prophets to describe God’s key
+> victory over every opponent, when his faithful ones would be
+> rewarded. The Thessalonians’ concern seems to have been not that the
+> day had come and gone and they had missed it, but that it was now
+> present. That would mean nothing more was to be expected from God in
+> terms of setting things right. Since they continued to suffer
+> persecutions, this was a depressing prospect.
+> 
+> Even before he contradicts this false report, Paul reassures the
+> Thessalonians that God will indeed pay back all those who were
+> troubling them. He reminds them of the details he had discussed with
+> them in person of how the day of the Lord would arrive. He then
+> repeats some instruction from his earlier letter, urging them not to
+> be idle but to work hard and earn their own livings.
+> 
+> At the end of the letter, most of which would have been written by a
+> scribe, Paul adds a greeting in his own handwriting. He wants them to
+> know for sure this teaching is really coming from him!
+
+
+
 **{{book.OverviewBible}}**
 
 > [2 Thessalonians Introduction](https://overviewbible.com/2-thessalonians/)

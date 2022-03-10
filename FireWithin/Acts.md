@@ -7,6 +7,39 @@ Major themes include: Jesus returns to the Father &bull; the Holy
 Spirit comes to the church &bull; and Jesus' followers spread his
 gospel throughout the world.
 
+### At a Glance
+
+- [Overview](#overview)
+- [2009 Series](#2009-acts-series-sundays)
+- [2016 Series](#2015-2016-acts-series-mid-week)
+
+
+## Overview
+
+
+**{{book.NivBible}} Acts Introduction**
+
+> Luke’s second volume is known as the book of Acts. The six parts of
+> the book of Acts each describe a new phase in the expansion of the
+> Messiah - following movement outward from Jerusalem. These sections
+> are all marked by variations on the phrase _the word of God continued
+> to spread and flourish_:
+> 
+> 1. The church is established in Jerusalem and becomes Greek-speaking,
+>    allowing it to spread its message throughout the empire.
+> 
+> 2. The movement expands into the rest of Palestine.
+> 
+> 3. Gentiles are included in the gathering of Jesus-followers
+>    alongside Jews.
+> 
+> 4. Messengers are sent west into the Roman province of Asia.
+> 
+> 5. These messengers enter Europe.
+> 
+> 6. The movement reaches the capital city
+>    of Rome and into the highest levels of society; God’s kingdom is
+>    thus announced to all nations.
 
 **{{book.OverviewBible}}**
 
