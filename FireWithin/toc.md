@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (1.0)
+### Fire Within (6.0)
 
 ----
 - [Getting Started](start.md)
@@ -84,3 +84,12 @@
   * _(3 John)_
   * _(Jude)_
   * [Revelation](Revelation.md)
+
+----
+* [Revision History](history.md)
+  * [03/2022 Thessalonians (v6.0)](history.md#v6_0)
+  * [01/2022 Daniel (v5.0)](history.md#v5_0)
+  * [01/2022 Mark (v4.0)](history.md#v4_0)
+  * [10/2021 Acts (v3.0)](history.md#v3_0)
+  * [08/2020 Luke (v2.0)](history.md#v2_0)
+  * [11/2020 Revelation (v1.0)](history.md#v1_0)

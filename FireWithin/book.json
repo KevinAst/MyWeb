@@ -30,8 +30,15 @@
     }
   },
   "variables": { 
-    "Luke":     "[Luke](/Luke.md)",
-    "NivBible":     "[NIV Bible](https://www.thenivbible.com/)",
+    "Daniel":             "[Daniel](/Daniel.md)",
+    "Mark":               "[Mark](/Mark.md)",
+    "Luke":               "[Luke](/Luke.md)",
+    "Acts":               "[Acts](/Acts.md)",
+    "1Thessalonians":     "[1Thessalonians](/1Thessalonians.md)",
+    "2Thessalonians":     "[2Thessalonians](/2Thessalonians.md)",
+    "Revelation":         "[Revelation](/Revelation.md)",
+
+    "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
     "OverviewBible":     "[Overview Bible](https://overviewbible.com/books-of-the-bible/)",
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
     "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
