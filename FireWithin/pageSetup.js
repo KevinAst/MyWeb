@@ -1,5 +1,8 @@
+//console.log(`XX? EXPANDING pageSetup.js module`);
+
 // register all event handlers at end of page render
 function pageSetup() {
+  //console.log(`XX EXECUTING pageSetup() function ... registerImgClickFullScreenHandlers() & initializeCompletedChecks()`);
   registerImgClickFullScreenHandlers();
   initializeCompletedChecks();
 }
@@ -59,6 +62,8 @@ function registerImgClickFullScreenHandlers() {
 //        addZoomableImage('ActsOverview2', 'Acts.png', 90);
 //      </script>
 function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
+
+  //console.log(`XX EXECUTING addZoomableImage( function ... for ${imgSrc}`);
 
   const imageContainer = document.getElementById(imageContainerId);
 
@@ -128,6 +133,7 @@ function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
 
   // register mouse leave event to reset the zoom
   imageContainer.onmouseleave = (e) => {
+    // console.log(`XX mouse leave for ${imgSrc}`);
     Object.assign(imageContainer.style, {
       backgroundPosition: 'center',
       backgroundSize:     'cover'
