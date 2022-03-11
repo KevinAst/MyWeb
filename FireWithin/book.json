@@ -30,7 +30,16 @@
     }
   },
   "variables": { 
+    "Welcome":            "[Welcome](/intro.md)",
+    "Introduction":       "[Introduction](/intro.md)",
+    "GettingStarted":     "[Getting Started](/start.md)",
+    "WorkInProgress":     "[Work In Progress](/WorkInProgress.md)",
+    "OldTestament":       "[Old Testament](/OldTestament.md)",
+    "NewTestament":       "[New Testament](/NewTestament.md)",
+    "RevisionHistory":    "[Revision History](/history.md)",
+
     "Daniel":             "[Daniel](/Daniel.md)",
+
     "Mark":               "[Mark](/Mark.md)",
     "Luke":               "[Luke](/Luke.md)",
     "Acts":               "[Acts](/Acts.md)",

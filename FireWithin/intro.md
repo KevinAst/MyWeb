@@ -95,4 +95,4 @@ Study.  May God bless you in your walk with Christ!
 **&lt;/Kevin&gt;**
 
 <mark>**P.S.**:</mark> To get the most out of this site, I recommend
-taking a peek at the [Getting Started](start.md) section!
+taking a peek at the {{book.GettingStarted}} section!

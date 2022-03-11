@@ -7,11 +7,12 @@
   * [Basic Appearance](start.md#basic-appearance)
   * [Going Home](start.md#going-home)
   * [Left Nav Bar](start.md#left-nav-bar)
-  * [Work In Progress](start.md#work-in-progress)
   * [Resource Links](start.md#resource-links)
   * [Where Am I?](start.md#where-am-i)
   * [Diagrams](start.md#diagrams)
   * [Responsive Design](start.md#responsive-design)
+
+- [Work In Progress](WorkInProgress.md)
 
 ----
 - [Old Testament](OldTestament.md)
