@@ -27,12 +27,12 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v6.0](#v6_0)     | Thessalonians Added  | *Mar 6, 2022*
-[v5.0](#v5_0)     | Daniel Added         | *Jan 23, 2022*
-[v4.0](#v4_0)     | Mark Added           | *Jan 9, 2022*
-[v3.0](#v3_0)     | Acts Added           | *Oct 4, 2021*
-[v2.0](#v2_0)     | Luke Added           | *Aug 1, 2021*
-[v1.0](#v1_0)     | Revelation Added     | *Nov 15, 2020*
+[v6.0](#v6_0)     | Thessalonians        | *Mar 6, 2022*
+[v5.0](#v5_0)     | Daniel               | *Jan 23, 2022*
+[v4.0](#v4_0)     | Mark                 | *Jan 9, 2022*
+[v3.0](#v3_0)     | Acts                 | *Oct 4, 2021*
+[v2.0](#v2_0)     | Luke                 | *Aug 1, 2021*
+[v1.0](#v1_0)     | Revelation           | *Nov 15, 2020*
 
 
 
@@ -41,7 +41,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v6_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v6.0 - Thessalonians Added <i>(Mar 6, 2022)</i>
+  v6.0 - Thessalonians <i>(Mar 6, 2022)</i>
 </h3>
 <br/>
 
@@ -55,7 +55,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v5_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v5.0 - Daniel Added <i>(Jan 23, 2022)</i>
+  v5.0 - Daniel <i>(Jan 23, 2022)</i>
 </h3>
 <br/>
 
@@ -69,7 +69,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v4_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v4.0 - Mark Added <i>(Jan 9, 2022)</i>
+  v4.0 - Mark <i>(Jan 9, 2022)</i>
 </h3>
 <br/>
 
@@ -82,7 +82,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v3_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v3.0 - Acts Added <i>(Oct 4, 2021)</i>
+  v3.0 - Acts <i>(Oct 4, 2021)</i>
 </h3>
 <br/>
 
@@ -96,7 +96,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v2_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v2.0 - Luke Added <i>(Aug 1, 2021)</i>
+  v2.0 - Luke <i>(Aug 1, 2021)</i>
 </h3>
 <br/>
 
@@ -110,7 +110,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v1_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v1.0 - Revelation Added <i>(Nov 15, 2020)</i>
+  v1.0 - Revelation <i>(Nov 15, 2020)</i>
 </h3>
 <br/>
 
@@ -120,7 +120,7 @@ Release           | What                 | *When*
 
   Believe it or not, this is the first book I studied during the
   initial stages of my renewed faith.  It's not exactly where things
-  begin, but it certainly is where the things of this world all end!
+  begin, but it certainly is where the things of this world will end!
   
   The current state of our world made me realize that something was
   not right.  Everything seemed upside down.  This caused me to start

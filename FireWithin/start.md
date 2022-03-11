@@ -126,8 +126,8 @@ diagram to get their points across.  When this happens _(and I have
 the time)_, I will extract that diagram and make it available as one
 of the resources of this site.
 
-These diagrams are typically pretty big, and may not be readable when
-restricted by the browser window.  As a result, I have added the
+These diagrams are typically fairly large, and may not be readable
+when restricted by the browser window.  As a result, I have added the
 following features:
 
 - You can "hover over the diagram" with your mouse, and it will
