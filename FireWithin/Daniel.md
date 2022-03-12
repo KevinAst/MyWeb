@@ -2,18 +2,92 @@
 
 <script type="text/javascript" src="pageSetup.js"></script>
 
-?? ONE LINE HERE
+Isaiah was right. Jeremiah was right. Habakkuk was right. The
+Babylonians had attacked Jerusalem and carried off many Jewish
+captives. One of them was a young man named Daniel.
+
+What does it look like to be faithful in the midst of exile? The book
+of Daniel offers a surprising and relevant answer.  It is a glimpse of
+God’s plan to restore his people and remain faithful to them no matter
+the circumstances.
+
+Daniel’s prophetic visions offer hope that God will bring all nations
+under his rule.
 
 
 ### At a Glance
 
-- [Overview](#overview) ?? SYNC THIS
+- [Overview](#overview)
 - [2012 Series](#2012-daniel-series-mid-week)
 - [2019 Series](#2019-daniel-series-sundays)
 
 ## Overview
 
-?? TODO
+
+**{{book.NivBible}} Daniel Introduction**
+
+> The book of Daniel combines two types of literature: court narrative
+> and apocalypse. The opening narrative section presents six stories of
+> how God protected and promoted four young men who were taken into
+> exile in Babylon. When Daniel and his friends Shadrach, Meshach and
+> Abednego demonstrate their faithfulness to God, they are delivered
+> from deadly perils by God’s mighty acts. Daniel was given the ability
+> to interpret dreams, earning him a valued place in the royal court of
+> Babylon, and later in the Persian Empire.
+> 
+> The second part of the book describes visions and messages Daniel
+> received from God through angelic messengers. These visions are
+> presented in the cryptic language and symbolic terms typical of
+> apocalyptic literature. Within them we see the outlines of Near
+> Eastern history: the empires of Babylon and Persia; the conquests of
+> Alexander the Great; and the ongoing strife between the Ptolemys in
+> Egypt and the Seleucids in Syria. The visions anticipate an arrogant
+> ruler, the Seleucid emperor Antiochus IV Epiphanes, who desecrated the
+> Jerusalem temple in 167 BC. This led to the Maccabean revolt, which
+> restored the nation’s independence and preserved the worship of
+> Israel’s God.
+> 
+> The visions in Daniel can also be understood to reveal the conditions
+> at the end of the present age, showing it to be a time of definitive
+> conflict between God’s people and their enemies. The people of God
+> will be sustained through their persecutions knowing they will receive
+> the kingdom.
+
+**{{book.OverviewBible}}**
+
+> [Daniel Introduction](https://overviewbible.com/daniel/)
+>
+> _As of 3/2022 Overview Bible has no Daniel video or diagram_
+
+
+**{{book.BibleProject}}**
+
+> [Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
+
+<center>
+  <figure>
+    <div id="Daniel_BP"></div>
+    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
+  </figure>
+</center>
+<script>
+  addZoomableImage('Daniel_BP', 'Daniel_BP.png', 75);
+</script>
+
+
+**{{book.SpokenGospel}}**
+
+<p align="center">
+  <iframe name="SpokenGospelDanielVideo"
+          id="SpokenGospelDanielVideo"
+          width="577"
+          height="325"
+          src="https://www.youtube.com/embed/xtrK2GnZyVg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+</p>
+
 
 
 ## 2012 Daniel Series (Mid Week)
