@@ -1,0 +1,271 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.check1}}$REF{{book.check2}} X. </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*----------------------------
+* 2014-2015 Series (Mid Week) NO Study Guide
+*----------------------------
+
+02/18/2015
+Teaching
+Luke 23-24
+luk.23.niv
+
+02/11/2015
+Teaching
+Luke 22:38-62
+luk.22.niv
+
+02/04/2015
+Teaching
+Luke 22:1-38
+luk.22.niv
+
+01/28/2015
+Teaching
+Luke 20-21
+luk.20.niv
+
+01/21/2015
+Teaching
+Luke 20:1-26
+luk.20.niv
+
+01/14/2015
+Teaching
+Luke 19
+luk.19.niv
+
+01/07/2015
+Teaching
+Luke 18:1-30
+luk.18.niv
+
+12/17/2014
+Teaching
+Luke 17
+luk.17.niv
+
+12/10/2014
+Teaching
+Luke 16
+luk.16.niv
+
+12/03/2014
+Teaching
+Luke 15
+luk.15.niv
+
+11/19/2014
+Teaching
+Luke 14
+luk.14.niv
+
+11/12/2014
+Teaching
+Luke 13
+luk.13.niv
+
+10/29/2014
+Teaching
+Luke 12:35-59
+luk.12.niv
+
+10/22/2014
+Teaching
+Luke 12:1-34
+luk.12.niv
+
+10/15/2014
+Teaching
+Luke 11:33-52
+luk.11.niv
+
+10/08/2014
+Teaching
+Luke 11
+luk.11.niv
+
+10/01/2014
+Teaching
+Luke 10:25-42
+luk.10.niv
+
+09/17/2014
+Teaching
+Luke 10:1-24
+luk.10.niv
+
+09/10/2014
+Teaching
+Luke 9:37-62
+luk.9.niv
+
+09/03/2014
+Teaching
+Luke 9:1-36
+luk.9.niv
+
+08/27/2014
+Teaching
+Luke 8:26-56
+luk.8.niv
+
+08/20/2014
+Teaching
+Luke 8:1-25
+luk.8.niv
+
+08/13/2014
+Teaching
+Luke 7
+luk.7.niv
+
+07/02/2014
+Teaching
+Luke 6
+luk.6.niv
+
+06/18/2014
+Teaching
+Luke 5
+luk.5.niv
+
+05/28/2014
+Teaching
+Luke 4:31-5:11
+luk.4.niv
+
+05/21/2014
+Teaching
+Luke 4:1-30
+luk.4.niv
+
+05/14/2014
+Teaching
+Luke 3
+luk.3.niv
+
+05/07/2014
+Teaching
+Luke 2
+luk.2.niv
+
+04/30/2014
+Teaching
+Luke 1:26-80
+luk.1.niv
+
+04/23/2014
+Teaching
+Luke 1
+luk.1.niv
+
+
+
+*----------------------------
+* 2021-2022 Series (Sundays) WITH Study Guide
+*----------------------------
+
+?? ONGOING ... FILL IN MORE
+
+03/06/2022
+Why Jesus Weeps
+Luke 19:41-44
+luk.19.niv
+
+02/27/2022
+Small Man, Big Change
+Luke 19:1-10
+luk.19.niv
+
+02/22/2022
+I Need a Miracle (URL KEY is OFF, should be: 20220222 but is: 20220220)
+Luke 18:35-43
+luk.18.niv
+
+02/13/2022
+Practice Persistent Prayer
+Luke 18
+luk.18.niv
+
+01/30/2022
+Where Are the Nine?
+Luke 17:11-19
+luk.17.niv
+
+01/16/2022
+Life After Death
+Luke 16:19-31
+luk.16.niv
+
+01/09/2022
+Worldly Wealth for Heavenly Good
+Luke 16
+luk.16.niv
+
+12/12/2021
+Once was Lost, Now am Found
+Luke 15
+luk.15.niv
+
+11/14/2021
+Walk Through that Door
+Luke 13:22-30
+luk.13.niv
+
+11/07/2021
+The Theology of Tragedy
+Luke 13
+luk.13.niv
+
+10/24/2021
+Don’t Worry About It
+Luke 12
+luk.12.niv
+
+10/10/2021
+An Enemy Named Busy
+Luke 10:38-42
+luk.10.niv
+
+09/12/2021
+The Good Samaritan
+Luke 10
+luk.10.niv
+
+09/05/2021
+Paradox Principles for Life
+Luke 9
+luk.9.niv
+
+09/19/2021
+Lessons From Luke
+Luke 6:27-46
+luk.6.niv
+
+08/29/2021
+Relatable Like Jesus
+Luke 7
+luk.7.niv
+
+08/22/2021
+Dead Man Talking
+Luke 7
+luk.7.niv
+
+08/15/2021
+Healing Soul and Body
+Luke 5
+luk.5.niv
+
+08/08/2021
+Lessons from Nazareth
+Luke 4
+luk.4.niv
+
+08/01/2021
+God Remembers His Oath
+Luke 1
+luk.1.niv
+
