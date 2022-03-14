@@ -1,0 +1,134 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.check1}}$REF{{book.check2}} X. </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+
+*---------------------------------
+* 2013-2014 Mark Series (Mid Week) NO Study Guide
+*---------------------------------
+
+04/09/2014
+Teaching
+Mark 15:16-16:20
+mrk.15.niv
+
+04/02/2014
+Teaching
+Mark 14:53-15:15
+mrk.14.niv
+
+03/26/2014
+Teaching
+Mark 14:12-52
+mrk.14.niv
+
+03/19/2014
+Teaching
+Mark 14:1-26
+mrk.14.niv
+
+03/12/2014
+Teaching
+Mark 12:18-13:37
+mrk.12.niv
+
+03/05/2014
+Teaching
+Mark 11-12:17
+mrk.11.niv
+
+02/19/2014
+Teaching
+Mark 10
+mrk.10.niv
+
+02/12/2014
+Teaching
+Mark 9:33-50
+mrk.9.niv
+
+02/05/2014
+Teaching
+Mark 9
+mrk.9.niv
+
+01/15/2014
+Teaching
+Mark 7:23-8:38
+mrk.7.niv
+
+01/08/2014
+Teaching
+Mark 6:13-7:23
+mrk.6.niv
+
+12/18/2013
+Teaching
+Mark 5:21-6:13
+mrk.5.niv
+
+12/11/2013
+Teaching
+Mark 4-5:20
+mrk.4.niv
+
+12/04/2013
+Teaching
+Mark 3
+mrk.3.niv
+
+11/20/2013
+Teaching
+Mark 2
+mrk.2.niv
+
+11/13/2013
+Teaching
+Mark 1
+mrk.1.niv
+
+
+*----------------------------
+* 2021 Mark Series (Sundays)  WITH Study Guide
+*----------------------------
+
+06/20/2021
+When God Tore a Curtain
+Mark 15
+mrk.15.niv
+
+06/13/2021
+What's the Cost?
+Mark 12:41-44
+mrk.12.niv
+
+05/30/2021
+Opposition to Jesus and His Church
+Mark 12
+mrk.12.niv
+
+05/23/2021
+Mountains or Valleys, Jesus is There
+Mark 9
+mrk.9.niv
+
+05/16/2021
+Losing Your Head over a Grudge (BUG in Cornerstone site: URL KEY is OFF, should be: 20210516 but is: 05162021 ... ONLY in Sermon NOT in Study Guide)
+Mark 6
+mrk.6.niv
+
+05/02/2021
+What Hinders Fruitfulness?
+Mark 4
+mrk.4.niv
+
+04/25/2021
+Patches and Wineskins
+Mark 2:18-22
+mrk.2.niv
+
+04/18/2021
+Pray Like Jesus
+Mark 1
+mrk.1.niv
+

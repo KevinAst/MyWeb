@@ -136,7 +136,18 @@
 
               <!-- email -->
               <br/>
-              <a href="javascript:parent.location.href='mail'+'to:inquire'+'@'+'wiiBridges'+'.'+'com?subject=Saw Your WebPage';">inquire&#64;wiiBridges&#46;com</a>
+              <span id="inject"></span>
+              <script>
+               // inject our email via JS
+               // ... in an attempt to avoid spam (since most crawlers process the server-side renered html)
+               // ... NOT foolproof, but nothing is
+               window.addEventListener('load', () => {
+                 const mailToContainer = document.getElementById('inject');
+                 const me = 'inquire';
+                 const at = 'wiiBridges&#46;com';
+                 mailToContainer.innerHTML = `<a href="mailto:${me}&#64;${at}?Subject=Saw%20Your%20WebPage" target="_top">${me}&#64;${at}</a>`;
+               });
+              </script>
 
             </p>
 
