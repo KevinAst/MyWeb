@@ -180,7 +180,7 @@ Luke 19:1-10
 luk.19.niv
 
 02/22/2022
-I Need a Miracle (URL KEY is OFF, should be: 20220222 but is: 20220220)
+I Need a Miracle (BUG in Cornerstone site: URL KEY is OFF, should be: 20220222 but is: 20220220)
 Luke 18:35-43
 luk.18.niv
 
