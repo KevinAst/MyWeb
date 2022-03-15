@@ -14,7 +14,7 @@ Christ at an early age, and was active in my Church for many years.
 However I felt something lacking in my faith.  I actually fell away
 from God much later in life, and through a series of _(what I believe
 were miraculous events)_, God called me back into His fold.  Through
-the indwelling of the Holy Spirit, I now have a passion to be in His
+the empowerment of the Holy Spirit, I now have a passion to be in His
 word daily, allowing it to guide my life and decisions.
 
 ## Technology

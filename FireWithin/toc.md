@@ -14,6 +14,8 @@
 
 - [Work In Progress](WorkInProgress.md)
 
+- [Fire Within](MyFaith.md)
+
 ----
 - [Old Testament](OldTestament.md)
   * _(Genesis)_
