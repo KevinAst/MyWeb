@@ -89,6 +89,10 @@ promoting the following:
 I am so grateful for these biblical resources, and the men and women
 of God that have made them possible.
 
+> Please note that this Bible Study Guide is not yet complete.  To
+> request a specific book to be added, please see the
+> {{book.WorkInProgress}} section.
+
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
 
