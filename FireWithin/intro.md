@@ -1,5 +1,3 @@
-# Fire Within
-
 <img class="diagram"
      src="FireWithinLogo2.jpg"
      alt="Fire Within"
@@ -16,6 +14,8 @@ from God much later in life, and through a series of _(what I believe
 were miraculous events)_, God called me back into His fold.  Through
 the empowerment of the Holy Spirit, I now have a passion to be in His
 word daily, allowing it to guide my life and decisions.
+
+I share more about my faith in the {{book.FireWithin}} section.
 
 ## Technology
 
