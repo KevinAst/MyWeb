@@ -141,7 +141,7 @@ times)_.
 God laid on my heart that the difference between my past Christian
 Life and the Christians that were "On Fire" for the Lord, was the
 empowering of the Holy Spirit.  This world is complicated and it is
-not something we can't navigate on our own.  We need help.
+not something we can navigate on our own.  We need help.
 
 I believe there are two distinct aspects of the Holy Spirit in a
 believer's life:
