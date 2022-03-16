@@ -24,20 +24,21 @@ of ourselves, to bridge that gap.
 
 ## In the Beginning
 
-It wasn't always this way.  When God created mankind, we had a pure
-relationship with God _(in Adam and Eve)_.  However, God gave us free
+It wasn't always this way.  When God created the world, we had a pure
+relationship with Him _(in Adam and Eve)_.  However, God gave us free
 will, and Adam and Eve chose to disobey God _(and so by inference -
 us)_.  Hence ushered in the severing of our relationship with God.
+
 From that very moment in time, God formulated a plan to bring us back
 into His fold.
 
 ## Am I good enough?
 
 You might be saying, well I'm a pretty good person ... I look out for
-others ... I'm not a cheat or a thief.  Those are all good things, but
-it doesn't come close to the standard of a Holy God.  Jesus reveals
-that even what we think in our minds can be a sin [Matthew
-5:28](https://bible.com/bible/mat.5.28.niv)
+others ... I'm not a cheat or a thief ... etc.  Those are all good
+things, but it doesn't come close to the standard of a Holy God.
+Jesus reveals that even what we think in our minds can be a sin
+[Matthew 5:28](https://bible.com/bible/mat.5.28.niv)
 
 
 ## The Gospel
@@ -48,7 +49,7 @@ _([John 14:6](https://bible.com/bible/jhn.14.6.niv)
 [Romans 10:9-10](https://bible.com/bible/rom.10.9-10.niv))_.
 
 God requires a sacrifice for the atonement of our sins.  This is what
-the Old Testament sacrificial system was _(a temporary one, as it had
+the Old Testament sacrificial system was _(a temporary one, which had
 to be repeated)_.  In reality, this was simply a picture _(or a
 foretelling)_ of the ultimate sacrifice _(a permanent one)_ ... that is
 of Jesus Christ.  Jesus _(who is part of the triune God head - Father,
