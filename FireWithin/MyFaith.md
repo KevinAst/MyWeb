@@ -73,9 +73,9 @@ The bible tells us that:
   [Romans 6:23](https://bible.com/bible/rom.6.23.niv)
 
 - In order to receive this gift, you must believe that the gift is
-  real and it can truly change your life _(more than a simple "head
-  knowledge")_.  It is an act of trusting Jesus with your heart, and
-  turning your life over to Him.
+  real and it can truly change your life. _This is more than a simple
+  "head knowledge"_.  It is an act of trusting Jesus with your heart,
+  and turning your life over to Him.
   [Ephesians 2:8](https://bible.com/bible/eph.2.8.niv)
   You must confess Jesus as Lord.
   [Romans 10:13](https://bible.com/bible/rom.10.13.niv)
