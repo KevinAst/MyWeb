@@ -1,5 +1,11 @@
 # Fire Within
 
+<img class="diagram"
+     src="FireWithinLogo4.jpg"
+     alt="Fire Within"
+     width="150px"
+     align="right"> <!-- NOTE: align allows text to flow around image :-) -->
+
 Speaking of a "Fire Within", I thought this would be a good
 opportunity to share a little bit about my faith in Christ.
 
