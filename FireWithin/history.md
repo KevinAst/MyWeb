@@ -130,6 +130,6 @@ Release           | What                 | *When*
   If you had told me a few years ago, that I was interested in
   Revelation, I would have laughed :-) It is so symbolic and elusive.
   This is one topic where assistance is most appreciated _(from a
-  trusted source)_.  Luckily Pastor Gary _(from
+  trusted source)_.  Luckily Pastor Gary Hamrick _(from
   {{book.CornerstoneChapel}})_ made this difficult book come alive
   ... <mark>try it you'll like it</mark>!

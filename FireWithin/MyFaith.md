@@ -12,7 +12,7 @@ opportunity to share a little bit about my faith in Christ.
 ## What does it mean to be a Christian?
 
 I suspect that many people have a misconception of what it means to be
-a Christian.  They look at it is a process of "pulling yourself up by
+a Christian.  They look at it as a process of "pulling yourself up by
 your bootstraps" ... to live a good enough life to be accepted into
 Heaven by God.  I can appreciate this concept because this is what all
 other religions strive for.
@@ -163,7 +163,7 @@ believer's life:
    at all.  It happens by simply asking God, and believing by faith.
 
 > For a full explaination of this concept, please listen to
-> Pastor Gary's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
+> Pastor Gary Hamrick's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
 
 When I fervently asked the Holy Spirit to empower me and assist me in
 my daily life, it was truly a miracle.
