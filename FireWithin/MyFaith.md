@@ -86,14 +86,11 @@ The bible tells us that:
   You must confess Jesus as Lord.
   [Romans 10:13](https://bible.com/bible/rom.10.13.niv)
 
-Salvation is a free gift of God, offered to all who simply ask.  The
-truth of the matter is Christianity is less about religion, and more
-about a personal relationship with God.
-
-If you want to become a Christian, you must fervently believe in the
-redemptive work of the Lord Jesus, repent from your sin, and ask him
-to come into and change your life.  <mark>You can simply pray this
-prayer:</mark>
+Salvation is a free gift of God, offered to all who simply ask.
+<mark>If you want to become a Christian</mark>, you must fervently
+believe in the redemptive work of the Lord Jesus, repent from your
+sin, and ask him to come into and change your life.  <mark>You can
+simply pray this prayer:</mark>
 
 > Lord Jesus, I confess that I have sinned.
 > I repent of my sin and turn to you.
@@ -107,11 +104,15 @@ prayer:</mark>
 > In Jesus name.
 > Amen
 
+The truth of the matter is Christianity is less about religion, and
+more about a personal relationship with God.
+
 If you prayed this prayer, there are angels rejoicing in heaven
 _([Luke 15:10](https://bible.com/bible/luk.15.10.niv))_!  This reveals
-just how valuable you are to God and how much He desires us to be with
-Him in heaven forever!  A great victory has been won!
-
+just how valuable you are to God and how much He desires for you to be
+with Him in heaven forever!  A great victory has been won!  Your next
+step is to seek out other believers, _in a local Bible believing
+church_, that can assist and disciple you in your new found faith!
 
 
 ## My Faith
@@ -162,7 +163,7 @@ believer's life:
    How does this happen, you might be wondering?  It's not difficult
    at all.  It happens by simply asking God, and believing by faith.
 
-> For a full explaination of this concept, please listen to
+> For a full explanation of this concept, please listen to
 > Pastor Gary Hamrick's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
 
 When I fervently asked the Holy Spirit to empower me and assist me in
@@ -189,12 +190,15 @@ I'm certainly not perfect.  I have and will have a long way to go in
 solidifying my relationship with God.  But this is certainly a step in
 the right direction, and I thank God for his provision!
 
-- I pray that if you do not know the Lord, you will consider what I
-  presented here, and ask him to come into your life.
-  
-- If you do know the Lord, I pray that God will bless you in your walk
-  with Christ.
 
-_In Christ,_
+## May the Lord Bless You
+
+I pray that if you do not know the Lord, you will consider what has
+been presented here, and ask him to come into your life.
+
+If you do know the Lord, I pray that God will bless you in your walk
+with Christ.
+
+_Yours In Christ,_
 
 **&lt;/Kevin&gt;**

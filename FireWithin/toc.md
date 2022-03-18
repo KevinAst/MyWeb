@@ -22,6 +22,7 @@
   * [The Gospel](MyFaith.md#the-gospel)
   * [My Faith](MyFaith.md#my-faith)
   * [A Renewed Faith](MyFaith.md#a-renewed-faith)
+  * [May the Lord Bless You](MyFaith.md#may-the-lord-bless-you)
 
 ----
 - [Old Testament](OldTestament.md)
