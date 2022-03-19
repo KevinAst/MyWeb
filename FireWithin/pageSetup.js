@@ -147,6 +147,21 @@ function addZoomableImage(imageContainerId, imgSrc, widthPercent) {
 }
 
 
+// inject our email via JS
+// ... in an attempt to avoid spam (since most crawlers process the server-side renered html)
+//     NOT foolproof, but nothing is
+// ... NOTES:
+//       - assumes content injected in DOM ID: "inquire"
+//         EX: <span id="inquire"></span>
+//       - subj suitable to be used in href mailto ref (i.e. NO SPACES)
+function addInquire(subj='Saw%20Your%20WebPage') {
+  const mailToContainer = document.getElementById('inquire');
+  const me = 'inquire';
+  const at = 'wiiBridges&#46;com';
+  mailToContainer.innerHTML = `<a href="mailto:${me}&#64;${at}?Subject=${subj}" target="_top">${me}&#64;${at}</a>`;
+}
+
+
 function initializeCompletedChecks() {
   // fetch all checkbox input elements (representing completed sessions)
   const completedElms = document.querySelectorAll('input[type="checkbox"]');
