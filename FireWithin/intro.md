@@ -95,6 +95,9 @@ of God that have made them possible.
 > request a specific book to be added, please see the
 > {{book.WorkInProgress}} section.
 
+
+## May the Lord Bless You
+
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
 

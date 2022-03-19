@@ -2,6 +2,12 @@
 
 ### Fire Within (6.0)
 
+- [Welcome](intro.md)
+  * [Technology](intro.md#technology)
+  * [How I Study](intro.md#how-i-study)
+  * [Resources](intro.md#resources)
+  * [May the Lord Bless You](intro.md#may-the-lord-bless-you)
+
 ----
 - [Getting Started](start.md)
   * [Basic Appearance](start.md#basic-appearance)
