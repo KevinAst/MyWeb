@@ -18,3 +18,7 @@ The Old Testament books are divided into five groups:
 5. Minor prophets
 
 [Find out more](https://overviewbible.com/old-testament-books/)
+
+> Please note that this Bible Study Guide is not yet complete.  To
+> request a specific book to be added, please see the
+> {{book.WorkInProgress}} section.
