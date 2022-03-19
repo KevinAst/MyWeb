@@ -1,5 +1,7 @@
 # Fire Within
 
+<script type="text/javascript" src="pageSetup.js"></script>
+
 <img class="diagram"
      src="FireWithinLogo4.jpg"
      alt="Fire Within"
@@ -200,5 +202,8 @@ If you do know the Lord, I pray that God will bless you in your walk
 with Christ.
 
 _Yours In Christ,_
-
-**&lt;/Kevin&gt;**
+<br/>**&lt;/Kevin&gt;**
+<br/><span id="inquire"></span>
+<script>
+  addInquire('Fire%20Within%20Feedback');
+</script>

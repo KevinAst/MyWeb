@@ -1,5 +1,7 @@
 # Work In Progress
 
+<script type="text/javascript" src="pageSetup.js"></script>
+
 You may have noticed that this site is a work-in-progress.
 
 At the time of this writing I have compiled only a small number of
@@ -16,7 +18,7 @@ I continue my study.
 > glad to add an "early release" of that book :-)
 >
 > You can reach me at
-> <span id="inject"></span>
+> <span id="inquire"></span>
 > or Direct Message me on [Twitter](https://twitter.com/kevinast)
 > 
 > Please give me your book request along with your first name and
@@ -25,13 +27,5 @@ I continue my study.
 > when it is available!
 
 <script>
- // inject our email via JS
- // ... in an attempt to avoid spam (since most crawlers process the server-side renered html)
- // ... NOT foolproof, but nothing is
- (function () {
-   const mailToContainer = document.getElementById('inject');
-   const me = 'inquire';
-   const at = 'wiiBridges&#46;com';
-   mailToContainer.innerHTML = `<a href="mailto:${me}&#64;${at}?Subject=Fire%20Within%20Book%20Request" target="_top">${me}&#64;${at}</a>`;
- })(); // in GitBook we execute directly RATHER than on-page-load
+  addInquire('Fire%20Within%20Book%20Request');
 </script>

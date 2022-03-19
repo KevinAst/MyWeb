@@ -1,3 +1,5 @@
+<script type="text/javascript" src="pageSetup.js"></script>
+
 <img class="diagram"
      src="FireWithinLogo2.jpg"
      alt="Fire Within"
@@ -96,7 +98,12 @@ of God that have made them possible.
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
 
-**&lt;/Kevin&gt;**
+_In Him,_
+<br/>**&lt;/Kevin&gt;**
+<br/><span id="inquire"></span>
+<script>
+  addInquire('Fire%20Within%20Feedback');
+</script>
 
 <mark>**P.S.**:</mark> To get the most out of this site, I recommend
 taking a peek at the {{book.GettingStarted}} section!
