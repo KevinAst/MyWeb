@@ -19,12 +19,13 @@ your bootstraps" ... to live a good enough life to be accepted into
 Heaven by God.  I can appreciate this concept because this is what all
 other religions strive for.
 
-## God is Holy
-
 The truth of the matter is nothing could be further from the truth.
 It is not possible for us to work our way into heaven with our "good
 works".  The Bible tells us that our righteousness is like filthy rags
 before God _([Isaiah 64:6](https://bible.com/bible/isa.64.6.niv))_.
+
+## God is Holy
+
 In reality, there is a deep chasm between us and the Holy God.  It is
 difficult to even comprehend how Holy our God is.  What separates us
 from God is our sinful nature, and there is nothing we can do _in and
