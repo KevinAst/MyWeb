@@ -6,7 +6,7 @@
   * [Technology](intro.md#technology)
   * [How I Study](intro.md#how-i-study)
   * [Resources](intro.md#resources)
-  * [May the Lord Bless You](intro.md#may-the-lord-bless-you)
+  * [Best Wishes](intro.md#best-wishes)
 
 ----
 - [Getting Started](start.md)
@@ -20,7 +20,7 @@
 
 - [Work In Progress](WorkInProgress.md)
 
-- [Fire Within](MyFaith.md)
+- [My Faith](MyFaith.md)
   * [What is a Christian?](MyFaith.md#what-does-it-mean-to-be-a-christian)
   * [God is Holy](MyFaith.md#god-is-holy)
   * [In the Beginning](MyFaith.md#in-the-beginning)

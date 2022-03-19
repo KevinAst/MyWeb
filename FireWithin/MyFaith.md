@@ -1,6 +1,6 @@
-# Fire Within
-
 <script type="text/javascript" src="pageSetup.js"></script>
+
+# Fire Within
 
 <img class="diagram"
      src="FireWithinLogo4.jpg"

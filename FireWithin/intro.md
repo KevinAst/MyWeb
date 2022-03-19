@@ -1,5 +1,7 @@
 <script type="text/javascript" src="pageSetup.js"></script>
 
+# Fire Within
+
 <img class="diagram"
      src="FireWithinLogo2.jpg"
      alt="Fire Within"
@@ -17,7 +19,7 @@ were miraculous events)_, God called me back into His fold.  Through
 the empowerment of the Holy Spirit, I now have a passion to be in His
 word daily, allowing it to guide my life and decisions.
 
-I share more about my faith in the {{book.FireWithin}} section.
+I share more about my Christian faith in the {{book.MyFaith}} section.
 
 ## Technology
 
@@ -96,7 +98,7 @@ of God that have made them possible.
 > {{book.WorkInProgress}} section.
 
 
-## May the Lord Bless You
+## Best Wishes
 
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
