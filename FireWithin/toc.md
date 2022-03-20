@@ -6,7 +6,7 @@
   * [Technology](intro.md#technology)
   * [How I Study](intro.md#how-i-study)
   * [Resources](intro.md#resources)
-  * [Best Wishes](intro.md#best-wishes)
+  * [God Bless You](intro.md#god-bless-you)
 
 ----
 - [Getting Started](start.md)

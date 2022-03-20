@@ -98,7 +98,7 @@ of God that have made them possible.
 > {{book.WorkInProgress}} section.
 
 
-## Best Wishes
+## God Bless You
 
 I pray that you find these resources useful in your personal Bible
 Study.  May God bless you in your walk with Christ!
