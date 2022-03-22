@@ -1,6 +1,6 @@
 # 1 Thessalonians
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Paul has heard a good report on the church at Thessalonica, and
 encourages the persecuted believers to "excel still more" in faith,

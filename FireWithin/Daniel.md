@@ -1,6 +1,6 @@
 # Daniel
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Isaiah was right. Jeremiah was right. Habakkuk was right. The
 Babylonians had attacked Jerusalem and carried off many Jewish

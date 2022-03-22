@@ -1,6 +1,6 @@
 # Acts
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 The book of Acts is a continuation of the Gospel of {{book.Luke}}.
 Major themes include: Jesus returns to the Father &bull; the Holy

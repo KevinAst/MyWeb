@@ -1,6 +1,6 @@
 # 2 Thessalonians
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Paul addresses three troubles the church in Thessalonica faced:
 Persecution from outside

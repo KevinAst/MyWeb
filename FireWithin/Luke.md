@@ -1,6 +1,6 @@
 # Luke
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Luke is the story of Jesus Christ - exactly as it happened ... written
 by the physician Luke.  It emphasizes the upside-down nature of God’s

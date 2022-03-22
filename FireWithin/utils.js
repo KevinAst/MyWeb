@@ -1,4 +1,4 @@
-//console.log(`XX? EXPANDING pageSetup.js module`);
+//console.log(`XX? EXPANDING utils.js module`);
 
 // register all event handlers at end of page render
 function pageSetup() {

@@ -1,6 +1,6 @@
 # Work In Progress
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 You may have noticed that this site is a work-in-progress.
 

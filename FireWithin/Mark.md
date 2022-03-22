@@ -1,6 +1,6 @@
 # Mark
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Mark is the story of what Jesus did for us. The author, John Mark,
 wrote this book based on the apostle Peter’s memories of Jesus’ words

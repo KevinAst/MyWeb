@@ -1,6 +1,6 @@
 # Revelation
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 The book of Revelation is the resolution of all things: the kingdom of
 God is once again physically and literally restored to earth &bull;

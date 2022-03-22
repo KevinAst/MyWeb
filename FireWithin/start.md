@@ -1,6 +1,6 @@
 # Getting Started
 
-<script type="text/javascript" src="pageSetup.js"></script>
+<script type="text/javascript" src="utils.js"></script>
 
 Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.
 It is, _at it's core_, simply a consolidated list of resource links to
