@@ -56,6 +56,10 @@
             </li>
             -->
 
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="FireWithin">Fire Within</a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -68,6 +72,13 @@
           <h1 class="mx-auto my-0">I'm Kevin</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">a "current" developer from a different era</h2>
           <a href="#about" class="btn btn-primary js-scroll-trigger">Make It So ...</a>
+          <br/><br/>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            <i>
+              I'm also a believer and follower of Jesus Christ
+              <a class="nav-link js-scroll-trigger" href="FireWithin">Fire Within</a>
+            </i>
+          </h2>
         </div>
       </div>
     </header>
@@ -125,7 +136,18 @@
 
               <!-- email -->
               <br/>
-              <a href="javascript:parent.location.href='mail'+'to:inquire'+'@'+'wiiBridges'+'.'+'com?subject=Saw Your WebPage';">inquire&#64;wiiBridges&#46;com</a>
+              <span id="inject"></span>
+              <script>
+               // inject our email via JS
+               // ... in an attempt to avoid spam (since most crawlers process the server-side renered html)
+               // ... NOT foolproof, but nothing is
+               window.addEventListener('load', () => {
+                 const mailToContainer = document.getElementById('inject');
+                 const me = 'inquire';
+                 const at = 'wiiBridges&#46;com';
+                 mailToContainer.innerHTML = `<a href="mailto:${me}&#64;${at}?Subject=Saw%20Your%20WebPage" target="_top">${me}&#64;${at}</a>`;
+               });
+              </script>
 
             </p>
 
@@ -178,9 +200,10 @@ triathlete)</i> inspired me to get more exercise.
 
 I keep current in
 <a href="http://exploringjs.com/es6/" class="more" target="_blank">JavaScript (es6)</a>,
-<a href="https://nodejs.org/en/" class="more" target="_blank">Node.js</a>, and 
-<a href="https://reactjs.org/" class="more" target="_blank">React</a>,
-using a front-end stack of
+<a href="https://nodejs.org/en/" class="more" target="_blank">Node.js</a>,
+<a href="https://svelte.dev/" class="more" target="_blank">Svelte</a>, and
+<a href="https://reactjs.org/" class="more" target="_blank">React</a>.
+My React stack includes
 <a href="http://redux.js.org/" class="more" target="_blank">redux</a>,
 <a href="https://github.com/jeffbski/redux-logic" class="more" target="_blank">redux-logic</a>, and
 <a href="https://feature-u.js.org/cur/index.html" class="more" target="_blank">feature-u</a>.
@@ -541,9 +564,55 @@ structural analysis programs ... using <b>FORTRAN</b>
     <section class="contact-section bg-black">
       <div class="container">
 
+        <!-- MAJOR CATEGORY -->
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <h3 class="text-white mb-5">Presentations</h3>
+          <!-- NOT HERE
+          <p class="text-white">
+            I can talk about the following ...
+          </p>
+          -->
+        </div>
+
+        <!-- SUB-CATEGORY -->
+        <p class="text-white">
+          <i>I can talk about the following ...</i>
+        <p>
+
+        <div class="row"> <!-- sub-category grouping -->
+
+          <!-- feature-u Basic Concepts -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <br/>
+                <a href="presentations/feature-u/">feature-u Basic Concepts</a>
+                <hr class="my-4">
+                <div class="small text-black-50">Unleash the Power of<br/>Feature-Based Development</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Responsive Svelte -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <br/>
+                <a href="presentations/ResponsiveSvelte/">Responsive Svelte</a>
+                <hr class="my-4">
+                <div class="small text-black-50">exploring Svelte's reactivity</div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- end of ... sub-category grouping -->
+
 
         <!-- MAJOR CATEGORY -->
         <div id="myArticles" class="col-md-10 col-lg-8 mx-auto text-center">
+          <br/><br/><br/>
           <h3 class="text-white mb-5">Articles</h3>
           <!-- NOT HERE
           <p class="text-white">
@@ -604,6 +673,19 @@ structural analysis programs ... using <b>FORTRAN</b>
 
         <div class="row"> <!-- sub-category grouping -->
 
+          <!-- Responsive Svelte (exploring Svelte's reactivity) -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <br/>
+                <a href="https://bit.ly/ResponsiveSvelte" target="_blank">Responsive Svelte</a>
+                <hr class="my-4">
+                <div class="small text-black-50">Exploring Svelte's Reactivity</div>
+              </div>
+            </div>
+          </div>
+
           <!-- Documenting Open Source Projects -->
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
@@ -613,40 +695,6 @@ structural analysis programs ... using <b>FORTRAN</b>
                 <a href="http://bit.ly/docJS" target="_blank">Documenting Open Source Projects</a>
                 <hr class="my-4">
                 <div class="small text-black-50">Integrating GitBook with JSDoc to Document Your Open Source Project</div>
-              </div>
-            </div>
-          </div>
-
-        </div> <!-- end of ... sub-category grouping -->
-
-
-        <!-- MAJOR CATEGORY -->
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-          <br/><br/><br/>
-          <h3 class="text-white mb-5">Presentations</h3>
-          <!-- NOT HERE
-          <p class="text-white">
-            I can talk about the following ...
-          </p>
-          -->
-        </div>
-
-        <!-- SUB-CATEGORY -->
-        <p class="text-white">
-          <i>I can talk about the following ...</i>
-        <p>
-
-        <div class="row"> <!-- sub-category grouping -->
-
-          <!-- feature-u Basic Concepts -->
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <br/>
-                <a href="presentations/feature-u/">feature-u Basic Concepts</a>
-                <hr class="my-4">
-                <div class="small text-black-50">Unleash the power of<br/>feature-based JS development</div>
               </div>
             </div>
           </div>
@@ -668,6 +716,29 @@ structural analysis programs ... using <b>FORTRAN</b>
         </div>
 
         <!-- SUB-CATEGORY -->
+        <p class="text-white">
+          <i><a href="https://tailwindcss.com/" target="_blank">tailwindcss ...</a></i>
+        <p>
+
+        <div class="row"> <!-- sub-category grouping -->
+
+          <!-- tw-themes -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-github text-primary mb-2"></i>
+                <br/>
+                <a href="https://tw-themes.js.org" target="_blank">tw-themes</a>
+                <hr class="my-4">
+                <div class="small text-black-50">powerful tailwind color themes (dynamically selectable at run-time)</div>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- end of ... sub-category grouping -->
+
+        <!-- SUB-CATEGORY -->
+        <br/><br/>
         <p class="text-white">
           <i>Feature-Based Development ...</i>
         <p>

@@ -1,0 +1,67 @@
+{
+  "gitbook":     "3.2.2",
+  "title":       "FireWithin",
+  "description": "Fire Within (Bible Study Resources)",
+  "author":      "Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)",
+  "structure": { 
+    "readme":  "intro.md",
+    "summary": "toc.md" 
+  },
+  "plugins": [
+    "-livereload",
+    "-sharing",
+    "toolbar",
+    "folding-menu"
+  ],
+  "pluginsConfig": {
+    "toolbar": {
+      "buttons": [
+        {
+          "label": "Home",
+          "icon": "fa fa-home",
+          "url": "..",
+          "target": "_self"
+        }
+      ]
+    },
+    "folding-menu":    {
+      "animationDuration": 300,
+      "sticky":            false
+    }
+  },
+  "variables": { 
+    "Welcome":            "[Welcome](/intro.md)",
+    "GettingStarted":     "[Getting Started](/start.md)",
+    "WorkInProgress":     "[Work In Progress](/WorkInProgress.md)",
+    "MyFaith":            "[My Faith](/MyFaith.md)",
+    "OldTestament":       "[Old Testament](/OldTestament.md)",
+    "NewTestament":       "[New Testament](/NewTestament.md)",
+    "RevisionHistory":    "[Revision History](/history.md)",
+
+    "Daniel":             "[Daniel](/Daniel.md)",
+
+    "Mark":               "[Mark](/Mark.md)",
+    "Luke":               "[Luke](/Luke.md)",
+    "Acts":               "[Acts](/Acts.md)",
+    "1Thessalonians":     "[1Thessalonians](/1Thessalonians.md)",
+    "2Thessalonians":     "[2Thessalonians](/2Thessalonians.md)",
+    "Revelation":         "[Revelation](/Revelation.md)",
+
+    "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
+    "OverviewBible":     "[Overview Bible](https://overviewbible.com/books-of-the-bible/)",
+    "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
+    "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
+    "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
+
+    "check1": "<input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
+    "check2": "\">",
+    "cst1":   "<a href=\"https://cornerstonechapel.net/teaching/",
+    "cst2":   "\" target=\"_blank\">",
+    "cst3":   "</a>",
+    "b1":     "<a href=\"https://bible.com/bible/",
+    "b2":     "\" target=\"_blank\">",
+    "b3":     "</a>",
+    "csg1":   "<a href=\"https://cornerstonechapel.net/documents/studyguides/",
+    "csg2":   "\" target=\"_blank\">Study Guide</a>"
+  }
+}

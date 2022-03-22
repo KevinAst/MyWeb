@@ -1,0 +1,25 @@
+2010 Series (Sundays) WITH Study Guide  **********************************************************************
+
+NOTE: This series covers both First and Second Thessalonians
+      Simply copy it verbadum from 1Thessalonians.md
+
+
+2018 Series (Mid Week) NO Study Guide  **********************************************************************
+
+<tr><td> {{book.check1}}$REF{{book.check2}} X. </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+05/16/2018
+Teaching
+2 Thess 2:13-3:18
+2th.2.niv
+
+05/09/2018
+Teaching
+2 Thess 2:1-12
+2th.2.niv
+
+05/02/2018
+Teaching
+2 Thess 1
+2th.1.niv
+

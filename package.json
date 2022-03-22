@@ -1,8 +1,14 @@
 {
   "name": "MyWeb",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "My Web Page",
+  "homepage": "https://wiibridges.com/",
   "scripts": {
+    "blog:dev": "nodemon FireWithin/buildDocsInDev.js",
+    "blog:build": "gitbook build FireWithin MyPage/FireWithin",
+    "blog:clean": "rimraf MyPage/FireWithin",
+    "blog:gitbook:help": "gitbook help",
+    "prepublish:web": "npm run blog:build",
     "publish:web": "gh-pages --dist MyPage"
   },
   "repository": {
@@ -16,11 +22,16 @@
   ],
   "author": "Kevin J. Bridges <kevinast@gmail.com> (https://github.com/KevinAst)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KevinAst/MyWeb/issues"
+  "nodemonConfig": {
+    "watch": [
+      "FireWithin/"
+    ],
+    "ext": "md,js,css,jpg,png"
   },
-  "homepage": "https://github.com/KevinAst/MyWeb",
   "devDependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "gitbook-cli": "^2.3.2",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
   }
 }

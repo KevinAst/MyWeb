@@ -4,6 +4,7 @@
 
 - [Overview]
 - [Internal Notes]
+- [Author Fire Within Blog]
 - [Publish Web Content]
 - [Revision History]
 
@@ -47,19 +48,44 @@ requiring this directory structure. **All other files are project
 specific web page content!**
 
 
+## Author Fire Within Blog
+
+The "Fire Within" blog is compiled using [GitBook].  The master source
+is found in `MyWeb/FireWithin/`.
+
+To run the dev process (that will re-compile on any change):
+
+```shell
+$ cd MyWeb
+$ npm run blog:dev
+```
+
+And run your web-server, pointing to: `MyWeb/MyPage/`.
+
+
 ## Publish Web Content
 
 To publish the content, simply:
 
 ```shell
+$ cd MyWeb
 $ npm run publish:web
 ```
 
+TEST: https://wiibridges.com/
+
 **Notes:**
 - This can be run **anytime** _(for patches)_ from **any branch** _(although typically master)_.
+- For `Fire Within` blog changes:
+  - update FireWithin version _(found in `MyWeb/FireWithin/toc.md`)_
+  - update FireWithin history _(found in `MyWeb/FireWithin/history.md`)_
+  - check into branch
+  - PR to master
 - For significant changes:
+  - update web version _(found in `package.json`)_
   - update change history _(below)_
-  - PR to master branch
+  - check into branch
+  - PR to master
   - tag the release _(ex: **v1.1.0**)_
 
 
@@ -67,9 +93,26 @@ $ npm run publish:web
 
 Release  | What                                            | *When*
 ---------|-------------------------------------------------|------------------
+[v2.0.0] | Added Fire Within Blog                          | *March 22, 2022*
 [v1.2.0] | eatery-nod-w                                    | *June 7, 2019*
 [v1.1.0] | Misc Changes                                    | *September 20, 2018*
 [v1.0.0] | Initial Release                                 | *September 13, 2018*
+
+
+### v2.0.0 - Added Fire Within Blog *(March 22, 2022)*
+
+<ul><ul><!--- indentation hack for github - other attempts with style is stripped (be careful with number bullets) ---> 
+
+[GitHub Content](https://github.com/KevinAst/MyWeb/tree/v2.0.0)
+&bull;
+[GitHub Release](https://github.com/KevinAst/MyWeb/releases/tag/v2.0.0)
+&bull;
+[Diff](https://github.com/KevinAst/MyWeb/compare/v1.2.0...v2.0.0)
+
+- added "Fire Within" blog
+
+</ul></ul>
+
 
 
 <!-- *** RELEASE *************************************************************** -->
@@ -147,10 +190,14 @@ Release  | What                                            | *When*
 </ul></ul>
 
 <!--- *** REFERENCE LINKS *** ---> 
-[Overview]:            #overview
-[Internal Notes]:      #internal-notes
-[Publish Web Content]: #publish-web-content
+[Overview]:                 #overview
+[Internal Notes]:           #internal-notes
+[Author Fire Within Blog]:  #author-fire-within-blog
+[Publish Web Content]:      #publish-web-content
+
+
 [Revision History]:    #revision-history
+ [v2.0.0]:             #v200---added-fire-within-blog-march-22-2022
  [v1.2.0]:             #v120---eatery-nod-w-june-7-2019
  [v1.1.0]:             #v110---misc-changes-september-20-2018
  [v1.0.0]:             #v100---initial-release-september-13-2018
@@ -160,3 +207,4 @@ Release  | What                                            | *When*
 [resume]:                https://startbootstrap.com/template-overviews/resume/
 [creative]:              https://startbootstrap.com/template-overviews/creative/
 [agency]:                https://startbootstrap.com/template-overviews/agency/
+[GitBook]:               https://docs.gitbook.com/

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Responsive Svelte presentation</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- KJB: works without these remote fonts ... much less impressive -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/grayscale.min.css" rel="stylesheet">
+    <link href="../../css/myStyle.css"      rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <!-- NOTE: we fully qualifify each nav here (../../index.html#xyz) for secondary pages to reference this -->
+        <a class="navbar-brand js-scroll-trigger" href="../../">Home</a> <!-- #page-top ... can be used, but NOT needed -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <!-- currently NOT duplicating entry-point menu:
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../../#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../../#work">Work</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../../#tech">Tech</a>
+            </li>
+            -->
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#syllabus">Syllabus</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="../../FireWithin">Fire Within</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header - Top Level Entry -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0">Responsive Svelte</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">exploring Svelte's reactivity</h2>
+          <a href="#syllabus" class="btn btn-primary js-scroll-trigger">presentation syllabus ...</a>
+          <!-- all presentations given ... -->
+          <br/>
+
+          <br/>
+          <br/>
+          <a href="https://sveltesummit.com/"  class="text-white-50 mx-auto mt-2 mb-5" style="font-style: italic;" target="_blank">
+            as presented to
+            <br/>
+            <img class="img-fluid mb-3 mb-lg-0" width="250px" src="img/SvelteSummitFall2021.png" alt="Svelte Fall Summit (11/20/2021)">
+          </a>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- *** Syllabus Section ... previously called project **************************************************** -->
+    <section id="syllabus" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Featured Pics Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <!-- AI: img vary for specific presentation  -->
+            <img class="img-fluid mb-3 mb-lg-0" src="img/SvelteLogo.png" alt="Responsive Svelte">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Responsive Svelte</h4>
+              <p class="text-black-50 mb-0">exploring Svelte's reactivity</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- sylabous here -->
+
+        <!-- repeated from above ... for now just NIX it
+        <h2 class="section-heading"><b>Responsive Svelte</b></h2>
+        <h6 class="section-heading"><i>exploring Svelte's reactivity</i></h6>
+        -->
+
+        <br/>
+        <p><b>Presentation Resources:</b></p>
+
+        <table class="tl">
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://youtu.be/fvY1TAKNPgY" class="more" target="_blank">screencast</a>: </td>
+            <td class="tl-def">
+              the <b>Responsive Svelte</b> presentation given to
+              <a href="https://sveltesummit.com/"  class="more" target="_blank">
+                Svelte Summit Fall 2021
+              </a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://speakerdeck.com/kevinast/responsive-svelte-dot-dot-dot-exploring-sveltes-reactivity" class="more highlight" target="_blank">slides</a>: </td>
+            <td class="tl-def">presentation slides <i>(follow along)</i></td>
+          </tr>
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://svelte.dev/repl/1385ee3b3ca64f8db38c12404df3e6ca?version=3.24.0" class="more highlight" target="_blank">demo</a>: </td>
+            <td class="tl-def">primary REPL used throughout presentation</td>
+          </tr>
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://bit.ly/ResponsiveSvelte" class="more" target="_blank">article</a>: </td>
+            <td class="tl-def">Responsive Svelte article <i>(contains more detail)</i></td>
+          </tr>
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://svelte.dev/repl/801a0a6bdc1f4ea08134425c18bb3e80?version=3.24.0" class="more" target="_blank">Reactive Triggers</a>: </td>
+            <td class="tl-def">REPL demonstrating Svelte's staleness heuristics</td>
+          </tr>
+
+          <tr>
+            <td class="tl-term">&bull; <a href="https://www.youtube.com/watch?v=AdNJ3fydeao" class="more" target="_blank">Rethinking Reactivity</a>: </td>
+            <td class="tl-def">presentation by Rich Harris</td>
+          </tr>
+
+        </table>
+
+
+        <!-- AI: varies for specific presentation -->
+        <br/>
+        <p><b>Presentation Syllabus:</b><p>
+
+        <ul> <!-- cheap indentation -->
+
+        <p>
+          This talk is focused on a better understanding of <b>Svelte's reactivity</b>.
+          We will do this from an "observer perspective" - by visualizing it
+          first-hand <i>(right in your application)</i>!
+        </p>
+
+        <p>
+          There's a bit of a mystery behind some of these concepts. We will
+          delve into some lesser-known detail <i>(that you may have not
+          considered)</i>! The hope is you will come away with more insight, and be
+          better informed on how to use this awesome product!
+        </p>
+
+        <p>
+          The session will delve into:
+        </p>
+
+          <ul>
+            <li>Visualizing Svelte's reactivity right in your application, through
+                diagnostic probes.  This provides a very clear insight on what
+                Svelte is doing <i>(seeing the dynamics all around you "on the fly")</i>!
+
+            <li>Svelte's management of your JavaScript snippets
+              <ul>
+                <li>both code-snippets <i>(Reactive Statements/Declarations)</i>
+                <li>and html-snippets <i>(Interpolation)</i>
+              </ul>
+
+            <li>Svelte's Reactive Triggers
+              <ul>
+                <li>both Dependency Monitoring
+                <li>and Staleness Detection
+                    <i>(highlighting the difference between primitive and object types)</i>
+              </ul>
+
+            <li>Svelte's Re-Render Optimization
+              <ul>
+                <li>showing the difference between interpolation <i>(executing JS snippets)</i>
+                <li>and re-rendering DOM fragments <i>(a heavyweight operation)</i>
+              </ul>
+
+          </ul>
+
+        <br/>
+        <p>
+          This talk is an adaptation of my article on the same topic (found 
+          <a href="https://bit.ly/ResponsiveSvelte" class="more" target="_blank">here</a>)
+        </p>
+
+        </ul> <!-- cheap indentation -->
+
+      </div>
+    </section>
+
+
+    <!-- *** Footer **************************************************** -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Kevin Bridges 2020
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="../../js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
