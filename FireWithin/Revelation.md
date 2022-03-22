@@ -12,7 +12,7 @@ all things are made new.
 
 - [Overview](#overview)
 - [2011 Series](#2011-series-sundays)
-- [2020 Series](#2020-2021-series-mid-week)
+- [2020-2021 Series](#2020-2021-series-mid-week)
 
 
 ## Overview

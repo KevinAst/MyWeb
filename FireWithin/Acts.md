@@ -11,7 +11,7 @@ gospel throughout the world.
 
 - [Overview](#overview)
 - [2009 Series](#2009-acts-series-sundays)
-- [2016 Series](#2015-2016-acts-series-mid-week)
+- [2015-2016 Series](#2015-2016-acts-series-mid-week)
 
 
 ## Overview
