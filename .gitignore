@@ -1,7 +1,7 @@
 # node dependencies (defined via "npm install")
 /node_modules/
 
-/package-lock.json
+package-lock.json
 
 # our machine generated gitbook output
 /MyPage/FireWithin/
