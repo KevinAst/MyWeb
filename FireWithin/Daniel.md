@@ -18,8 +18,8 @@ under his rule.
 ### At a Glance
 
 - [Overview](#overview)
-- [2012 Series](#2012-daniel-series-mid-week)
-- [2019 Series](#2019-daniel-series-sundays)
+- [2012 Daniel Series](#2012-daniel-series-mid-week)
+- [2019 Daniel Series](#2019-daniel-series-sundays)
 
 ## Overview
 

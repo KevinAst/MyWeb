@@ -11,8 +11,8 @@ reversed.
 ### At a Glance
 
 - [Overview](#overview)
-- [2014-2015 Series](#2014-2015-series-mid-week)
-- [2021-2022 Series](#2021-2022-series-sundays)
+- [2014-2015 Luke Series](#2014-2015-luke-series-mid-week)
+- [2021-2022 Luke Series](#2021-2022-luke-series-sundays)
 
 
 ## Overview
@@ -96,7 +96,7 @@ reversed.
 
 
 
-## 2014-2015 Series (Mid Week)
+## 2014-2015 Luke Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
@@ -179,7 +179,7 @@ reversed.
 </div>
 
 
-## 2021-2022 Series (Sundays)
+## 2021-2022 Luke Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

@@ -10,8 +10,8 @@ and deeds.
 ### At a Glance
 
 - [Overview](#overview)
-- [2013-2014 Series](#2013-2014-series-mid-week)
-- [2021 Series](#2021-series-sundays)
+- [2013-2014 Mark Series](#2013-2014-mark-series-mid-week)
+- [2021 Mark Series](#2021-mark-series-sundays)
 
 
 ## Overview
@@ -95,7 +95,7 @@ and deeds.
 
 
 
-## 2013-2014 Series (Mid Week)
+## 2013-2014 Mark Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
@@ -148,7 +148,7 @@ and deeds.
 </div>
 
 
-## 2021 Series (Sundays)
+## 2021 Mark Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

@@ -11,8 +11,8 @@ all things are made new.
 ### At a Glance
 
 - [Overview](#overview)
-- [2011 Series](#2011-series-sundays)
-- [2020-2021 Series](#2020-2021-series-mid-week)
+- [2011 Revelation Series](#2011-revelation-series-sundays)
+- [2020-2021 Revelation Series](#2020-2021-revelation-series-mid-week)
 
 
 ## Overview
@@ -83,7 +83,7 @@ all things are made new.
 > _As of 3/2022 Spoken Gospel has no Revelation entry_
 
 
-## 2011 Series (Sundays)
+## 2011 Revelation Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
@@ -145,7 +145,7 @@ all things are made new.
 </div>
 
 
-## 2020-2021 Series (Mid Week)
+## 2020-2021 Revelation Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 

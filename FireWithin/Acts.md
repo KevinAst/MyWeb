@@ -10,8 +10,8 @@ gospel throughout the world.
 ### At a Glance
 
 - [Overview](#overview)
-- [2009 Series](#2009-acts-series-sundays)
-- [2015-2016 Series](#2015-2016-acts-series-mid-week)
+- [2009 Acts Series](#2009-acts-series-sundays)
+- [2015-2016 Acts Series](#2015-2016-acts-series-mid-week)
 
 
 ## Overview

@@ -11,8 +11,8 @@ Persecution from outside
 ### At a Glance
 
 - [Overview](#overview)
-- [2010 Series](#2010-series-sundays)
-- [2018 Series](#2018-series-mid-week)
+- [2010 2 Thessalonians Series](#2010-2-thessalonians-series-sundays)
+- [2018 2 Thessalonians Series](#2018-2-thessalonians-series-mid-week)
 
 
 ## Overview
@@ -79,7 +79,7 @@ Persecution from outside
 </p>
 
 
-## 2010 Series (Sundays)
+## 2010 2 Thessalonians Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
@@ -108,7 +108,7 @@ Persecution from outside
 </div>
 
 
-## 2018 Series (Mid Week)
+## 2018 2 Thessalonians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
