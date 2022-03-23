@@ -93,9 +93,9 @@ hope, and love.
 <div class="phone">
 <table>
 
-<tr><td> {{book.check1}}20100425{{book.check2}} a. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 <br/> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100502{{book.check2}} b. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 <br/> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100509{{book.check2}} c. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} <br/> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 <br/> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100425{{book.cb2}} a. {{book.cb3}} </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 <br/> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100502{{book.cb2}} b. {{book.cb3}} </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 <br/> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100509{{book.cb2}} c. {{book.cb3}} </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} <br/> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 <br/> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -104,9 +104,9 @@ hope, and love.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.check1}}20100425{{book.check2}} a. </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 </td><td> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100502{{book.check2}} b. </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 </td><td> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.check1}}20100509{{book.check2}} c. </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} </td><td> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 </td><td> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100425{{book.cb2}} a. {{book.cb3}} </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 </td><td> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100502{{book.cb2}} b. {{book.cb3}} </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 </td><td> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100509{{book.cb2}} c. {{book.cb3}} </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} </td><td> {{book.b1}}2th.1.niv{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 </td><td> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
 
 
 </table>
@@ -121,10 +121,10 @@ hope, and love.
 <div class="phone">
 <table>
 
-<tr><td> {{book.check1}}20180207{{book.check2}} a. </td><td> {{book.cst1}}20180207{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1   {{book.b3}} </td><td> 02/07/2018 </td>
-<tr><td> {{book.check1}}20180214{{book.check2}} b. </td><td> {{book.cst1}}20180214{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.2.niv{{book.b2}} 1 Thess 2-3 {{book.b3}} </td><td> 02/14/2018 </td>
-<tr><td> {{book.check1}}20180221{{book.check2}} c. </td><td> {{book.cst1}}20180221{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4   {{book.b3}} </td><td> 02/21/2018 </td>
-<tr><td> {{book.check1}}20180307{{book.check2}} d. </td><td> {{book.cst1}}20180307{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.5.niv{{book.b2}} 1 Thess 5   {{book.b3}} </td><td> 03/07/2018 </td>
+<tr><td> {{book.cb1}}20180207{{book.cb2}} a. {{book.cb3}} </td><td> {{book.cst1}}20180207{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1   {{book.b3}} </td><td> 02/07/2018 </td>
+<tr><td> {{book.cb1}}20180214{{book.cb2}} b. {{book.cb3}} </td><td> {{book.cst1}}20180214{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.2.niv{{book.b2}} 1 Thess 2-3 {{book.b3}} </td><td> 02/14/2018 </td>
+<tr><td> {{book.cb1}}20180221{{book.cb2}} c. {{book.cb3}} </td><td> {{book.cst1}}20180221{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4   {{book.b3}} </td><td> 02/21/2018 </td>
+<tr><td> {{book.cb1}}20180307{{book.cb2}} d. {{book.cb3}} </td><td> {{book.cst1}}20180307{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}1th.5.niv{{book.b2}} 1 Thess 5   {{book.b3}} </td><td> 03/07/2018 </td>
 
 </table>
 </div>
@@ -133,10 +133,10 @@ hope, and love.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.check1}}20180207{{book.check2}} a. </td><td> {{book.cst1}}20180207{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1   {{book.b3}} </td><td> 02/07/2018 </td>
-<tr><td> {{book.check1}}20180214{{book.check2}} b. </td><td> {{book.cst1}}20180214{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.2.niv{{book.b2}} 1 Thess 2-3 {{book.b3}} </td><td> 02/14/2018 </td>
-<tr><td> {{book.check1}}20180221{{book.check2}} c. </td><td> {{book.cst1}}20180221{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4   {{book.b3}} </td><td> 02/21/2018 </td>
-<tr><td> {{book.check1}}20180307{{book.check2}} d. </td><td> {{book.cst1}}20180307{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.5.niv{{book.b2}} 1 Thess 5   {{book.b3}} </td><td> 03/07/2018 </td>
+<tr><td> {{book.cb1}}20180207{{book.cb2}} a. {{book.cb3}} </td><td> {{book.cst1}}20180207{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.1.niv{{book.b2}} 1 Thess 1   {{book.b3}} </td><td> 02/07/2018 </td>
+<tr><td> {{book.cb1}}20180214{{book.cb2}} b. {{book.cb3}} </td><td> {{book.cst1}}20180214{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.2.niv{{book.b2}} 1 Thess 2-3 {{book.b3}} </td><td> 02/14/2018 </td>
+<tr><td> {{book.cb1}}20180221{{book.cb2}} c. {{book.cb3}} </td><td> {{book.cst1}}20180221{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.4.niv{{book.b2}} 1 Thess 4   {{book.b3}} </td><td> 02/21/2018 </td>
+<tr><td> {{book.cb1}}20180307{{book.cb2}} d. {{book.cb3}} </td><td> {{book.cst1}}20180307{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}1th.5.niv{{book.b2}} 1 Thess 5   {{book.b3}} </td><td> 03/07/2018 </td>
 
 </table>
 </div>

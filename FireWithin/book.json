@@ -53,8 +53,9 @@
     "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
     "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
 
-    "check1": "<input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
-    "check2": "\">",
+    "cb1":    "<label><input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
+    "cb2":    "\">",
+    "cb3":    "</label>",
     "cst1":   "<a href=\"https://cornerstonechapel.net/teaching/",
     "cst2":   "\" target=\"_blank\">",
     "cst3":   "</a>",
