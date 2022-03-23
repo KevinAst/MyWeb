@@ -50,6 +50,15 @@
   width: auto;
 }
 
+/* make our check-box labels no-wrap */
+label {
+  white-space: nowrap;
+  cursor:      pointer;
+}
+input[type="checkbox"] {
+  cursor:      pointer;
+}
+
 /* SideBar: use a mouse pointer for all images capable of going full-screen with a click */
 .clickFullScreen {
   cursor: pointer;
