@@ -64,8 +64,8 @@ expand or contract the **Left Nav** Bar.
 </center>
 
 > Please note that on a **desktop** the **Left Nav** will start out
-> open, while on a smaller device _(such as a cell phone)_ it
-> will start out closed.
+> open, while on a smaller device _(such as a cell phone)_ it will
+> start out closed _(see [Responsive Design](#responsive-design))_.
 
 
 ## Resource Links
@@ -145,9 +145,50 @@ This site will have a slightly different appearance, depending on
 whether you use it on a desktop or a smaller device _(such as a cell
 phone)_.
 
-For example the Sermon Series will use a more concise vertical layout
-on a cell phone _(where you have less screen real estate)_.
+> Remember if you are using multiple devices, each one will have their
+> own retention of the "Complete Checkbox" state _(please refer to
+> [Where Am I?](#where-am-i)_.
 
-> Also Note that if you have the [You Version](https://www.bible.com/)
-> Bible App installed on your phone, the scripture references will be
-> serviced by the Bible App _(this is a nice feature indeed)_!
+
+### Desktop or Tablet
+
+When using a desktop _(or tablet)_, we have much more real estate to
+work with on your screen.
+
+- The sermon series entries will have a more horizontal layout (with
+  up to 5 columns).
+
+- The [Left Nav Bar](#left-nav-bar) will start out open and remain open as you navigate
+  the site.
+
+
+### Phone
+
+While a cell phone has much less real estate to work with, it is
+useful if you want to stream audio during your commute or workout.
+
+Here are some useful points when using a cell phone:
+
+- If you have the [You Version](https://www.bible.com/)
+  Bible App installed on your phone, the scripture references will be
+  serviced by the Bible App!
+
+- You can cast a sermon series from your phone to a TV.
+
+Regarding the smaller screen size:
+
+- The sermon series entries will have a more vertical layout (with only
+  3 columns).
+
+- The [Left Nav Bar](#left-nav-bar) will start out closed and automatically close on
+  each menu selection.
+
+  As an example, to find a book in the New Testament _(assuming you
+  are not already in the New Testament)_, you should:
+
+  1. expand the [Left Nav Bar](#left-nav-bar)
+  2. select "New Testament"
+     ... the New Testament splash page will display, and the [Left Nav Bar](#left-nav-bar) will close
+  3. expand the [Left Nav Bar](#left-nav-bar) once again
+     ... the New Testament menu has now expanded
+  4. select the desired book (ex: Acts)
