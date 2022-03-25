@@ -38,7 +38,7 @@ you back to the wiiBridges home page.
 
 ## Left Nav Bar
 
-The books of the Bible are accessed through the **Left Nav** Bar.
+The books of the Bible are accessed through the **Left Nav Bar**.
 They are found in the Old and New Testament sections, which are
 themselves expandable.  By simply clicking the desired book, you will
 will be taken to the study resources for that book.
@@ -51,9 +51,9 @@ will be taken to the study resources for that book.
        width="300px">
 </center>
 
-The **Left Nav** itself is expandable using the menu control, found in
+The **Left Nav Bar** itself is expandable using the menu control found in
 the upper-left of the page.  This control is a toggle that will either
-expand or contract the **Left Nav** Bar.
+expand or contract the **Left Nav Bar**.
 
 <center>
   <img class="diagram"
@@ -63,9 +63,29 @@ expand or contract the **Left Nav** Bar.
        width="500px">
 </center>
 
-> Please note that on a **desktop** the **Left Nav** will start out
-> open, while on a smaller device _(such as a cell phone)_ it will
-> start out closed _(see [Responsive Design](#responsive-design))_.
+_**Responsive Design**_
+
+The **Left Nav Bar** will behave differently, depending on whether you
+use it on a desktop _(or tablet)_ or a smaller device _(such as a cell
+phone)_.
+       
+> _**Desktop (or Tablet)**_
+> 
+> - Because a desktop _(or tablet)_ has more real estate to work with ...
+> - The **Left Nav Bar** will start out open and remain open as you navigate the site.
+> 
+> _**Phone**_
+> 
+> - Because a cell phone has less real estate to work with ...
+> - The **Left Nav Bar** will start out closed and automatically close on each menu selection.
+>   As an example, to select a book in the New Testament _(assuming you
+>   are not already in the New Testament)_, you will need to:
+>   1. expand the **Left Nav Bar**
+>   2. select "New Testament"
+>      ... the New Testament splash page will display, and the **Left Nav Bar** will close
+>   3. expand the **Left Nav Bar** once again
+>      ... the New Testament menu has now expanded
+>   4. select the desired book (ex: Acts)
 
 
 ## Resource Links
@@ -79,6 +99,31 @@ track of where you are your study.
 > consistently take you to another tab in your browser.  This is done
 > purposefully, so you won't loose your place in your study.  To get
 > back to this page, simply re-select it in your browser tabs.
+
+_**Responsive Design**_
+
+The layout of the sermon series links will have a slightly different
+appearance, depending on whether you use it on a desktop _(or tablet)_
+or a smaller device _(such as a cell phone)_.
+       
+> _**Desktop (or Tablet)**_
+> 
+> - A desktop _(or tablet)_ has more real estate to work with on your
+>   screen.
+> - The sermon series will have a more horizontal layout _(with up
+>   to 5 columns)_.
+> 
+> _**Phone**_
+> 
+> - While a cell phone has less real estate, it is useful if you want to
+>   stream audio during your commute or workout.
+> - The sermon series will have a more vertical layout _(with only
+>   3 columns)_.
+> - If you have the [You Version](https://www.bible.com/)
+>   Bible App installed on your phone, the scripture references will be
+>   serviced by the Bible App!
+> - **Remember** - you can always cast a sermon series from your phone to a TV!
+
 
 ## Where Am I?
 
@@ -137,58 +182,3 @@ following features:
 <script>
   addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
 </script>
-
-
-## Responsive Design
-
-This site will have a slightly different appearance, depending on
-whether you use it on a desktop or a smaller device _(such as a cell
-phone)_.
-
-> Remember if you are using multiple devices, each one will have their
-> own retention of the "Complete Checkbox" state _(please refer to
-> [Where Am I?](#where-am-i)_.
-
-
-### Desktop or Tablet
-
-When using a desktop _(or tablet)_, we have much more real estate to
-work with on your screen.
-
-- The sermon series entries will have a more horizontal layout (with
-  up to 5 columns).
-
-- The [Left Nav Bar](#left-nav-bar) will start out open and remain open as you navigate
-  the site.
-
-
-### Phone
-
-While a cell phone has much less real estate to work with, it is
-useful if you want to stream audio during your commute or workout.
-
-Here are some useful points when using a cell phone:
-
-- If you have the [You Version](https://www.bible.com/)
-  Bible App installed on your phone, the scripture references will be
-  serviced by the Bible App!
-
-- You can cast a sermon series from your phone to a TV.
-
-Regarding the smaller screen size:
-
-- The sermon series entries will have a more vertical layout (with only
-  3 columns).
-
-- The [Left Nav Bar](#left-nav-bar) will start out closed and automatically close on
-  each menu selection.
-
-  As an example, to find a book in the New Testament _(assuming you
-  are not already in the New Testament)_, you should:
-
-  1. expand the [Left Nav Bar](#left-nav-bar)
-  2. select "New Testament"
-     ... the New Testament splash page will display, and the [Left Nav Bar](#left-nav-bar) will close
-  3. expand the [Left Nav Bar](#left-nav-bar) once again
-     ... the New Testament menu has now expanded
-  4. select the desired book (ex: Acts)

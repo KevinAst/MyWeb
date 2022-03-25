@@ -16,9 +16,6 @@
   * [Resource Links](start.md#resource-links)
   * [Where Am I?](start.md#where-am-i)
   * [Diagrams](start.md#diagrams)
-  * [Responsive Design](start.md#responsive-design)
-    - [Desktop or Tablet](start.md#desktop-or-tablet)
-    - [Phone](start.md#phone)
 
 - [Work In Progress](WorkInProgress.md)
 
