@@ -20,7 +20,7 @@ the "Night" theme, giving you a dark mode)_.
        style="border:3px solid DarkRed;"
        src="start_appearanceControls.png"
        alt="Book Selection"
-       width="350px">
+       width="50%">
 </center>
 
 ## Going Home
@@ -33,7 +33,7 @@ you back to the wiiBridges home page.
        style="border:3px solid DarkRed;"
        src="start_homeControl.png"
        alt="Book Selection"
-       width="300px">
+       width="80%">
 </center>
 
 ## Left Nav Bar
@@ -48,7 +48,7 @@ will be taken to the study resources for that book.
        style="border:3px solid DarkRed;"
        src="start_leftNavBookSelection.png"
        alt="Book Selection"
-       width="300px">
+       width="80%">
 </center>
 
 The **Left Nav Bar** itself is expandable using the menu control found in
@@ -60,7 +60,7 @@ expand or contract the **Left Nav Bar**.
        style="border:3px solid DarkRed;"
        src="start_leftNavToggle.png"
        alt="Book Selection"
-       width="500px">
+       width="80%">
 </center>
 
 _**Responsive Design**_
@@ -138,7 +138,7 @@ remembered the next time you come back.
        style="border:3px solid DarkRed;"
        src="start_completedCheck.png"
        alt="click checkboxes to show completion"
-       width="500px">
+       width="70%">
 </center>
 
 > Please understand that the "Complete Checkbox" state is held in your
