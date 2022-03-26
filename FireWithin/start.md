@@ -19,7 +19,7 @@ the "Night" theme, giving you a dark mode)_.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_appearanceControls.png"
-       alt="Book Selection"
+       alt="Basic Appearance"
        width="50%">
 </center>
 
@@ -32,7 +32,7 @@ you back to the wiiBridges home page.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_homeControl.png"
-       alt="Book Selection"
+       alt="ET Go Home"
        width="80%">
 </center>
 
@@ -47,7 +47,7 @@ will be taken to the study resources for that book.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_leftNavBookSelection.png"
-       alt="Book Selection"
+       alt="Left Nav Book Selection"
        width="80%">
 </center>
 
@@ -59,7 +59,7 @@ expand or contract the **Left Nav Bar**.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_leftNavToggle.png"
-       alt="Book Selection"
+       alt="Left Nav Toggle"
        width="80%">
 </center>
 
@@ -95,6 +95,15 @@ accumulation of resource links that guide me through the books of the
 Bible.  Because they are concisely organized, it helps in keeping
 track of where you are your study.
 
+<center>
+  <b>Desktop Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkDesktop.png"
+       alt="Resource Links Desktop"
+       width="80%">
+</center>
+
 > A word about the resource links found in this site ... they will
 > consistently take you to another tab in your browser.  This is done
 > purposefully, so you won't loose your place in your study.  To get
@@ -123,6 +132,15 @@ or a smaller device _(such as a cell phone)_.
 >   Bible App installed on your phone, the scripture references will be
 >   serviced by the Bible App!
 > - **Remember** - you can always cast a sermon series from your phone to a TV!
+
+<center>
+  <b>Phone Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkPhone.png"
+       alt="Resource Links Phone"
+       width="45%">
+</center>
 
 
 ## Where Am I?
