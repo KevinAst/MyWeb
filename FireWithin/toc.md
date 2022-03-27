@@ -79,8 +79,8 @@
   * _(John)_
   * [Acts](Acts.md)
   * _(Romans)_
-  * _(1 Corinthians)_
-  * _(2 Corinthians)_
+  * [1 Corinthians](1Corinthians.md)
+  * [2 Corinthians](2Corinthians.md)
   * _(Galatians)_
   * _(Ephesians)_
   * _(Philippians)_
