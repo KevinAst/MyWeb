@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (6.0)
+### Fire Within (7.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -103,6 +103,7 @@
 
 ----
 * [Revision History](history.md)
+  * [03/2022 Corinthians (v7.0)](history.md#v7_0)
   * [03/2022 Thessalonians (v6.0)](history.md#v6_0)
   * [01/2022 Daniel (v5.0)](history.md#v5_0)
   * [01/2022 Mark (v4.0)](history.md#v4_0)
