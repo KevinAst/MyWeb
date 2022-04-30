@@ -1,6 +1,6 @@
 * TEMPLATE -with- RAW DATA ********************************************************************************
 
-<tr><td> {{book.check1}}$REF{{book.check2}} X. </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
 *----------------------------
 * 2014-2015 Series (Mid Week) NO Study Guide
@@ -167,7 +167,30 @@ luk.1.niv
 * 2021-2022 Series (Sundays) WITH Study Guide
 *----------------------------
 
-?? ONGOING ... FILL IN MORE
+04/24/2022 <<< OUCH: NON date-entry (NOT: 20220424 BUT discouraged-while-walking-with-jesus)
+Discouraged While Walking With Jesus?
+LUKE 24
+luk.24.niv
+
+04/17/2022
+Evidence for the Head, Hope for the Heart (Easter)
+LUKE 24
+luk.24.niv
+
+04/10/2022
+We are Barabbas
+LUKE 23
+luk.23.niv
+
+04/03/2022
+Kissers and Weepers
+LUKE 22:20-62
+luk.22.niv
+
+03/27/2022
+Jesus: Our Passover Lamb
+LUKE 22:1-20
+luk.21.niv
 
 03/20/2022
 The Rise of Russia and the End Times

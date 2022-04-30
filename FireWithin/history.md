@@ -27,6 +27,8 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v8.0](#v8_0)     | Romans               | *Apr 30, 2022*
+[v7.0](#v7_0)     | Corinthians          | *Mar 28, 2022*
 [v6.0](#v6_0)     | Thessalonians        | *Mar 6, 2022*
 [v5.0](#v5_0)     | Daniel               | *Jan 23, 2022*
 [v4.0](#v4_0)     | Mark                 | *Jan 9, 2022*
@@ -40,6 +42,32 @@ Release           | What                 | *When*
 
 <!-- ************************************************************* -->
 <br/>
+<h3 id="v8_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v8.0 - Romans <i>(Apr 30, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Romans}} to my Study Guide.
+
+  Resa requested {{book.Romans}} because I reference it so much in the
+  {{book.MyFaith}} section ... duhhh you got me!
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v7_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v7.0 - Corinthians <i>(Mar 28, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.1Corinthians}} and {{book.2Corinthians}} to my Study Guide.
+
+  This was done in conjunction with my local Church's Small Group
+  _(cooresponding to this time)_.
+
+
+<!-- ************************************************************* -->
+<br/>
 <h3 id="v6_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
   v6.0 - Thessalonians <i>(Mar 6, 2022)</i>
 </h3>
@@ -47,7 +75,7 @@ Release           | What                 | *When*
 
 - Added {{book.1Thessalonians}} and {{book.2Thessalonians}} to my Study Guide.
 
-  I did this study in conjunction with my local Church's Small Group
+  This was done in conjunction with my local Church's Small Group
   _(cooresponding to this time)_.
 
 
@@ -61,7 +89,7 @@ Release           | What                 | *When*
 
 - Added {{book.Daniel}} to my Study Guide.
 
-  I did this study in conjunction with my local Church's Small Group
+  This was done in conjunction with my local Church's Small Group
   _(cooresponding to this time)_.
 
 
@@ -75,7 +103,7 @@ Release           | What                 | *When*
 
 - Added {{book.Mark}} to my Study Guide.
 
-  I did this study in conjunction with my local Church's study of
+  This was done in conjunction with my local Church's study of
   Mark _(cooresponding to this time)_.
 
 

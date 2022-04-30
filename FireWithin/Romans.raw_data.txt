@@ -1,0 +1,148 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*----------------------------
+* 2009 Series (Sunday) SELECTED Study Guides
+*----------------------------
+
+09/20/2009 <<< WITH Study Guide
+Unity in the Church
+Rom 14-16
+rom.14.niv
+
+09/13/2009 <<< WITH Study Guide
+Offering Your Body
+Rom 12-13
+rom.12.niv
+
+09/06/2009 <<< WITH Study Guide
+Why Israel Matters
+Rom 9-11
+rom.9.niv
+
+08/30/2009
+The Sin Battle
+Rom 6-8
+rom.6.niv
+
+08/16/2009
+What a Gift!
+Rom 3-5
+rom.3.niv
+
+08/09/2009 <<< WEIRD - ONLY AUDIO -and- NO Study Guide
+Good News and Bad News
+Rom 1-2
+rom.1.niv
+
+
+*----------------------------
+* 2016 Series (Mid Week) NO Study Guide
+*----------------------------
+
+10/12/2016
+Teaching
+Rom 15-16
+rom.15.niv
+
+10/05/2016
+Teaching
+Rom 14
+rom.14.niv
+
+09/28/2016
+Teaching
+Rom 13
+rom.13.niv
+
+09/21/2016
+Teaching
+Rom 12:3-21
+rom.12.niv
+
+09/07/2016
+Teaching
+Rom 11:25-12:2
+rom.11.niv
+
+08/31/2016
+Teaching
+Rom 11:1-27
+rom.11.niv
+
+08/24/2016
+Teaching
+Rom 9:16-10:21
+rom.9.niv
+
+08/17/2016
+Teaching
+Rom 8:28-9:16
+rom.8.niv
+
+08/10/2016
+Teaching
+Rom 8:1-27
+rom.8.niv
+
+08/03/2016
+Teaching
+Rom 6:15-7:25
+rom.6.niv
+
+07/27/2016
+Teaching
+Rom 5:12-6:14
+rom.5.niv
+
+06/15/2016
+Teaching
+Rom 4-5:11
+rom.4.niv
+
+06/08/2016
+Teaching
+Rom 3
+rom.3.niv
+
+06/01/2016
+Teaching
+Rom 2
+rom.2.niv
+
+05/25/2016
+Teaching
+Rom 1:25-32
+rom.1.niv
+
+05/18/2016
+Teaching
+Rom 1:1-25
+rom.1.niv
+
+
+*----------------------------
+* 2021 Miscellaneous NO Study Guide
+*----------------------------
+
+11/01/2021 <<< BAD ... using: 20211031 should be: 20211101
+God Over Government (Matthew Maher)
+Rom 13
+rom.13.niv
+
+10/17/2021
+Conformed or Transformed? (Tony Clark)
+Rom 12:1-2
+rom.12.niv
+
+09/26/2021
+The Mystery of the Blindness (Amir Tsarfati)
+Rom 11:25
+rom.11.niv
+
+09/22/2021
+The True Nature of God (Barrett Phillips)
+Rom 1:16-25
+rom.1.niv
+

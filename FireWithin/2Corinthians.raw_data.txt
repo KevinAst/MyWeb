@@ -1,0 +1,83 @@
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*-----------------------------------------
+* 2009-2010 2 Corinthians Series (Sundays)  ?? WITH Study Guide
+*-----------------------------------------
+
+01/24/2010
+Paradox Principles
+2 Cor 11-13
+2co.11.niv
+
+01/10/2010
+The Grace of Giving
+2 Cor 8-10
+2co.8.niv
+
+01/03/2010
+It's No Yoke
+2 Cor 6-7
+2co.6.niv
+
+12/13/2009
+We Were Made for Eternity
+2 Cor 3-5
+2co.3.niv
+
+12/06/2009
+What Suffering Produces
+2 Cor 1-2
+2co.1.niv
+
+
+
+
+*--------------------------------------
+* 2017 2 Corinthians Series (Mid Week)  ?? WITH Study Guide
+*--------------------------------------
+
+06/14/2017
+Teaching
+2 Cor 11:16-13:14
+2co.11.niv
+
+06/07/2017
+Teaching
+2 Cor 10:7-11:15
+2co.10.niv
+
+05/31/2017
+Teaching
+2 Cor 8:16-10:5
+2co.8.niv
+
+05/17/2017
+Teaching
+2 Cor 7:1-8:15
+2co.7.niv
+
+05/10/2017
+Teaching
+2 Cor 6
+2co.6.niv
+
+05/03/2017
+Teaching
+2 Cor 5:1-21
+2co.5.niv
+
+04/26/2017
+Teaching
+2 Cor 3-4
+2co.3.niv
+
+04/19/2017
+Teaching
+2 Cor 1:12-2:17
+2co.1.niv
+
+04/05/2017
+Teaching
+2 Cor 1:1-11
+2co.1.niv
+

@@ -19,8 +19,8 @@ the "Night" theme, giving you a dark mode)_.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_appearanceControls.png"
-       alt="Book Selection"
-       width="350px">
+       alt="Basic Appearance"
+       width="50%">
 </center>
 
 ## Going Home
@@ -32,13 +32,13 @@ you back to the wiiBridges home page.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_homeControl.png"
-       alt="Book Selection"
-       width="300px">
+       alt="ET Go Home"
+       width="80%">
 </center>
 
 ## Left Nav Bar
 
-The books of the Bible are accessed through the **Left Nav** Bar.
+The books of the Bible are accessed through the **Left Nav Bar**.
 They are found in the Old and New Testament sections, which are
 themselves expandable.  By simply clicking the desired book, you will
 will be taken to the study resources for that book.
@@ -47,25 +47,45 @@ will be taken to the study resources for that book.
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_leftNavBookSelection.png"
-       alt="Book Selection"
-       width="300px">
+       alt="Left Nav Book Selection"
+       width="80%">
 </center>
 
-The **Left Nav** itself is expandable using the menu control, found in
+The **Left Nav Bar** itself is expandable using the menu control found in
 the upper-left of the page.  This control is a toggle that will either
-expand or contract the **Left Nav** Bar.
+expand or contract the **Left Nav Bar**.
 
 <center>
   <img class="diagram"
        style="border:3px solid DarkRed;"
        src="start_leftNavToggle.png"
-       alt="Book Selection"
-       width="500px">
+       alt="Left Nav Toggle"
+       width="80%">
 </center>
 
-> Please note that on a **desktop** the **Left Nav** will start out
-> open, while on a smaller device _(such as a cell phone)_ it
-> will start out closed.
+_**Responsive Design**_
+
+The **Left Nav Bar** will behave differently, depending on whether you
+use it on a desktop _(or tablet)_ or a smaller device _(such as a cell
+phone)_.
+       
+> _**Desktop (or Tablet)**_
+> 
+> - Because a desktop _(or tablet)_ has more real estate to work with ...
+> - The **Left Nav Bar** will start out open and remain open as you navigate the site.
+> 
+> _**Phone**_
+> 
+> - Because a cell phone has less real estate to work with ...
+> - The **Left Nav Bar** will start out closed and automatically close on each menu selection.
+>   As an example, to select a book in the New Testament _(assuming you
+>   are not already in the New Testament)_, you will need to:
+>   1. expand the **Left Nav Bar**
+>   2. select "New Testament"
+>      ... the New Testament splash page will display, and the **Left Nav Bar** will close
+>   3. expand the **Left Nav Bar** once again
+>      ... the New Testament menu has now expanded
+>   4. select the desired book (ex: Acts)
 
 
 ## Resource Links
@@ -75,10 +95,53 @@ accumulation of resource links that guide me through the books of the
 Bible.  Because they are concisely organized, it helps in keeping
 track of where you are your study.
 
+<center>
+  <b>Desktop Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkDesktop.png"
+       alt="Resource Links Desktop"
+       width="80%">
+</center>
+
 > A word about the resource links found in this site ... they will
 > consistently take you to another tab in your browser.  This is done
 > purposefully, so you won't loose your place in your study.  To get
 > back to this page, simply re-select it in your browser tabs.
+
+_**Responsive Design**_
+
+The layout of the sermon series links will have a slightly different
+appearance, depending on whether you use it on a desktop _(or tablet)_
+or a smaller device _(such as a cell phone)_.
+       
+> _**Desktop (or Tablet)**_
+> 
+> - A desktop _(or tablet)_ has more real estate to work with on your
+>   screen.
+> - The sermon series will have a more horizontal layout _(with up
+>   to 5 columns)_.
+> 
+> _**Phone**_
+> 
+> - While a cell phone has less real estate, it is useful if you want to
+>   stream audio during your commute or workout.
+> - The sermon series will have a more vertical layout _(with only
+>   3 columns)_.
+> - If you have the [You Version](https://www.bible.com/)
+>   Bible App installed on your phone, the scripture references will be
+>   serviced by the Bible App!
+> - **Remember** - you can always cast a sermon series from your phone to a TV!
+
+<center>
+  <b>Phone Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkPhone.png"
+       alt="Resource Links Phone"
+       width="45%">
+</center>
+
 
 ## Where Am I?
 
@@ -93,7 +156,7 @@ remembered the next time you come back.
        style="border:3px solid DarkRed;"
        src="start_completedCheck.png"
        alt="click checkboxes to show completion"
-       width="500px">
+       width="70%">
 </center>
 
 > Please understand that the "Complete Checkbox" state is held in your
@@ -137,17 +200,3 @@ following features:
 <script>
   addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
 </script>
-
-
-## Responsive Design
-
-This site will have a slightly different appearance, depending on
-whether you use it on a desktop or a smaller device _(such as a cell
-phone)_.
-
-For example the Sermon Series will use a more concise vertical layout
-on a cell phone _(where you have less screen real estate)_.
-
-> Also Note that if you have the [You Version](https://www.bible.com/)
-> Bible App installed on your phone, the scripture references will be
-> serviced by the Bible App _(this is a nice feature indeed)_!

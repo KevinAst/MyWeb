@@ -79,7 +79,7 @@ promoting the following:
    resources: {{book.OverviewBible}}, {{book.BibleProject}}, and
    {{book.SpokenGospel}}.  You are free to use all of them, or simply
    choose the one that you prefer.  The first two use a presentation
-   style, where the later is a more of a contemporary video series.
+   style, where the later is more of a contemporary video series.
 
 2. Regarding the main resource containing the sermon series on each
    book, I am using {{book.CornerstoneChapel}} _(with Pastor Gary
