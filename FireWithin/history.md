@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v8.0](#v8_0)     | Romans               | *Apr 30, 2022*
 [v7.0](#v7_0)     | Corinthians          | *Mar 28, 2022*
 [v6.0](#v6_0)     | Thessalonians        | *Mar 6, 2022*
 [v5.0](#v5_0)     | Daniel               | *Jan 23, 2022*
@@ -38,6 +39,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v8_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v8.0 - Romans <i>(Apr 30, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Romans}} to my Study Guide.
+
+  Resa requested {{book.Romans}} because I reference it so much in the
+  {{book.MyFaith}} section ... duhhh you got me!
+
 
 <!-- ************************************************************* -->
 <br/>
