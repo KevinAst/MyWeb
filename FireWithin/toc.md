@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (8.0)
+### Fire Within (9.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -81,7 +81,7 @@
   * [Romans](Romans.md)
   * [1 Corinthians](1Corinthians.md)
   * [2 Corinthians](2Corinthians.md)
-  * _(Galatians)_
+  * [Galatians](Galatians.md)
   * _(Ephesians)_
   * _(Philippians)_
   * _(Colossians)_
@@ -103,11 +103,12 @@
 
 ----
 * [Revision History](history.md)
-  * [04/2022 Romans (v8.0)](history.md#v8_0)
-  * [03/2022 Corinthians (v7.0)](history.md#v7_0)
-  * [03/2022 Thessalonians (v6.0)](history.md#v6_0)
-  * [01/2022 Daniel (v5.0)](history.md#v5_0)
-  * [01/2022 Mark (v4.0)](history.md#v4_0)
-  * [10/2021 Acts (v3.0)](history.md#v3_0)
-  * [08/2020 Luke (v2.0)](history.md#v2_0)
-  * [11/2020 Revelation (v1.0)](history.md#v1_0)
+  * [05/22 Galatians (v9.0)](history.md#v9_0)
+  * [04/22 Romans (v8.0)](history.md#v8_0)
+  * [03/22 Corinthians (v7.0)](history.md#v7_0)
+  * [03/22 Thessalonians (v6.0)](history.md#v6_0)
+  * [01/22 Daniel (v5.0)](history.md#v5_0)
+  * [01/22 Mark (v4.0)](history.md#v4_0)
+  * [10/21 Acts (v3.0)](history.md#v3_0)
+  * [08/20 Luke (v2.0)](history.md#v2_0)
+  * [11/20 Revelation (v1.0)](history.md#v1_0)
