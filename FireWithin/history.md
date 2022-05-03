@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v9.0](#v9_0)     | Galatians            | *May 3, 2022*
 [v8.0](#v8_0)     | Romans               | *Apr 30, 2022*
 [v7.0](#v7_0)     | Corinthians          | *Mar 28, 2022*
 [v6.0](#v6_0)     | Thessalonians        | *Mar 6, 2022*
@@ -37,8 +38,20 @@ Release           | What                 | *When*
 [v1.0](#v1_0)     | Revelation           | *Nov 15, 2020*
 
 
-
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v9_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v9.0 - Galatians <i>(May 3, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Galatians}} to my Study Guide.
+
+  In visiting our daughter's family on the east coast, their
+  Church is currently studying {{book.Galatians}} :-)
+
 
 <!-- ************************************************************* -->
 <br/>
