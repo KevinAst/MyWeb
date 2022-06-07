@@ -1,12 +1,15 @@
 # VBS
 <script type="text/javascript" src="utils.js"></script>
 
-This is a temporary page detailing my VBS Guide of 3rd Grade Boys (Journalists).
+This is a temporary page detailing my VBS Guide of 3rd Grade Kids (Journalists).
 
 ### At a Glance
 
 - [Name Tags and Attendance](#name-tags-and-attendance)
-- [3rd Grade Guides](#3rd-grade-guides)
+- [Guides](#guides)
+- [Kids](#kids)
+- [Photos](#photos)
+- [Memory Verse](#memory-verse)
 - [Schedule](#schedule)
 - [Schedule (Friday)](#schedule-friday)
 - [Maps](#maps)
@@ -24,7 +27,7 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Boys (Journalists).
 - You do not need to see registration for check-in or name
   tags. 
 
-## 3rd Grade Guides
+## Guides
 
 - 3.1 Illustrators
   - Kelly Nischuitz
@@ -45,6 +48,31 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Boys (Journalists).
   - Ryan Thomas
   - Megan Johnisee
 
+## Kids
+
+1. {{book.cb1}}VBS_KIDS_Alaina{{book.cb2}}     Alaina {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Alexandra{{book.cb2}}  Alexandra {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Cortland{{book.cb2}}   Cortland {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Elise{{book.cb2}}      Elise {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Gavin{{book.cb2}}      Gavin {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Genevieve{{book.cb2}}  Genevieve {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Hunter{{book.cb2}}     Hunter {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Jacob{{book.cb2}}      Jacob {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Kaylee{{book.cb2}}     Kaylee {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Landon{{book.cb2}}     Landon {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Madelyn{{book.cb2}}    Madelyn {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Nora{{book.cb2}}       Nora {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Persia{{book.cb2}}     Persia {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Neema{{book.cb2}}      Neema {{book.cb3}}
+
+## [Photos](https://photos.app.goo.gl/j6hFoAtSdDfyKt896)
+
+## Memory Verse
+
+"For we are his workmanship<br/>
+created in Christ Jesus for good works,<br/>
+which God prepared ahead of time for us to do."<br/>
+... {{book.b1}}eph.2.10.esv{{book.b2}}Ephesians 2:10{{book.b3}} - **Created! Designed! Empowered!**
 
 ## Schedule
 
