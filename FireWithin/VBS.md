@@ -5,7 +5,6 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Kids (Journalists).
 
 ### At a Glance
 
-- [Name Tags and Attendance](#name-tags-and-attendance)
 - [Guides](#guides)
 - [Kids](#kids)
 - [Photos](#photos)
@@ -14,18 +13,6 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Kids (Journalists).
 - [Schedule (Friday)](#schedule-friday)
 - [Maps](#maps)
 
-## Name Tags and Attendance
-
-- Volunteers will find their name tags and an attendance form
-  located in the area in which you are serving. 
-
-- If you are in a rotation, these items will be in your room. 
-
-- If you are a <mark>guide</mark>, these items will be in your guide bag which
-  will be in your group's classroom.
-
-- You do not need to see registration for check-in or name
-  tags. 
 
 ## Guides
 
@@ -56,14 +43,15 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Kids (Journalists).
 1. {{book.cb1}}VBS_KIDS_Elise{{book.cb2}}      Elise {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Gavin{{book.cb2}}      Gavin {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Genevieve{{book.cb2}}  Genevieve {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Heather{{book.cb2}}    Heather? {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Hunter{{book.cb2}}     Hunter {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Jacob{{book.cb2}}      Jacob {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Kaylee{{book.cb2}}     Kaylee {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Landon{{book.cb2}}     Landon {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Madelyn{{book.cb2}}    Madelyn {{book.cb3}}
+1. {{book.cb1}}VBS_KIDS_Neema{{book.cb2}}      Neema {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Nora{{book.cb2}}       Nora {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Persia{{book.cb2}}     Persia {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Neema{{book.cb2}}      Neema {{book.cb3}}
 
 ## [Photos](https://photos.app.goo.gl/j6hFoAtSdDfyKt896)
 
@@ -73,6 +61,56 @@ This is a temporary page detailing my VBS Guide of 3rd Grade Kids (Journalists).
 created in Christ Jesus for good works,<br/>
 which God prepared ahead of time for us to do."<br/>
 ... {{book.b1}}eph.2.10.esv{{book.b2}}Ephesians 2:10{{book.b3}} - **Created! Designed! Empowered!**
+
+**ESV**
+
+<ol start="8">
+  <!--
+  <li>so that in the coming ages he might show the immeasurable riches of his grace in kindness toward us in Christ Jesus.</li>
+  -->
+  <li>For by grace you have been saved through faith. And this is not your own doing; it is the gift of God,</li>
+  <li>not a result of works, so that no one may boast.</li>
+  <li>For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them.
+</ol>
+  
+**MSG**
+
+<ol start="8">
+  <!--
+  <li>Now God has us where he wants us, with all the time in this world and the next to shower grace and kindness upon us in Christ Jesus.</li>
+  -->
+  <li>Saving is all his idea, and all his work. All we do is trust him enough to let him do it.</li>
+  <li>It’s God’s gift from start to finish! We don’t play the major role. If we did, we’d probably go around bragging that we’d done the whole thing! No, we neither make nor save ourselves. God does both the making and saving.</li>
+  <li>He creates each of us by Christ Jesus to join him in the work he does, the good work he has gotten ready for us to do, work we had better be doing.</li>
+</ol>
+
+**Discuss**
+
+- we have all been memorizing our scripture verse
+  * And you guys have been doing a great job!
+  * My question to you is have you thought about what it this verse means?
+- let's back up to the previous verse - **vs. 8-9**
+  * this is a very famous verse in the Bible, where God reveals how we can be saved
+  * contrast/read ESV/MSG
+- so now we look again at our memory verse - **vs. 10**
+  * we are God's workmanship (Greek: poiema - work of art) - a new thing NOT refurbishment - a whole new thing
+  * to do good works
+    - **SKIP** wait a minute, I thought the prior verse said that salvation is not through our works?
+      * what does this mean?
+      * do you think we can do enough good works to be saved?
+    - the works in this verse is talking 
+      * NOT about something that saves us
+      * BUT rather it is something that shows that we are saved!
+      * WHEN we ask Jesus to come in our life, he changes us so that we want to do his work
+      * AND that can be a whole different set of things
+        - like helping out a friend
+        - or being kind to someone
+        - but it always means we are anxious to share the good news of how God saved us
+          ... because that's how other people can find out how they can be saved
+- let's say our memory verse together
+
+
+
 
 ## Schedule
 
