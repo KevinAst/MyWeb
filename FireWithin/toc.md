@@ -112,6 +112,3 @@
   * [10/21 Acts (v3.0)](history.md#v3_0)
   * [08/20 Luke (v2.0)](history.md#v2_0)
   * [11/20 Revelation (v1.0)](history.md#v1_0)
-
-----
-- [VBS](VBS.md)
