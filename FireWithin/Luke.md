@@ -49,20 +49,6 @@ reversed.
 >    from the dead to be revealed as Israel’s King and the world’s true
 >    Lord.
 
-**{{book.OverviewBible}}**
-
-> [Luke Introduction](https://overviewbible.com/luke/)
-
-<center>
-  <figure>
-    <div id="Luke_OB"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Luke_OB', 'Luke-Acts_OB.png', 75);
-</script>
-
 
 **{{book.BibleProject}}**
 

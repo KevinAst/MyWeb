@@ -53,12 +53,6 @@ under his rule.
 > will be sustained through their persecutions knowing they will receive
 > the kingdom.
 
-**{{book.OverviewBible}}**
-
-> [Daniel Introduction](https://overviewbible.com/daniel/)
->
-> _As of 3/2022 Overview Bible has no Daniel video or diagram_
-
 
 **{{book.BibleProject}}**
 

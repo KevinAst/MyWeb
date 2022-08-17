@@ -43,14 +43,6 @@ Persecution from outside
 > know for sure this teaching is really coming from him!
 
 
-
-**{{book.OverviewBible}}**
-
-> [2 Thessalonians Introduction](https://overviewbible.com/2-thessalonians/)
->
-> _As of 3/2022 Overview Bible has no 2 Thessalonians video or diagram_
-
-
 **{{book.BibleProject}}**
 
 > [2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)

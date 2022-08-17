@@ -75,11 +75,11 @@ When I study a book of the Bible, I follow this pattern:
 Regarding the _trusted set of resources_ found on this site, I am
 promoting the following:
 
-1. For the high-level orientation of each book, I offer three
-   resources: {{book.OverviewBible}}, {{book.BibleProject}}, and
-   {{book.SpokenGospel}}.  You are free to use all of them, or simply
-   choose the one that you prefer.  The first two use a presentation
-   style, where the later is more of a contemporary video series.
+1. For the high-level orientation of each book, I offer two resources:
+   {{book.BibleProject}}, and {{book.SpokenGospel}}.  You are free to
+   use both of these, or simply choose the one that you prefer.  The
+   first is a presentation style, where the second is more of a
+   contemporary video series.
 
 2. Regarding the main resource containing the sermon series on each
    book, I am using {{book.CornerstoneChapel}} _(with Pastor Gary

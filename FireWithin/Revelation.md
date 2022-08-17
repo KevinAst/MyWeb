@@ -51,14 +51,6 @@ all things are made new.
 > everything new!”
 
 
-
-**{{book.OverviewBible}}**
-
-> [Revelation Introduction](https://overviewbible.com/revelation/)
->
-> _As of 3/2022 Overview Bible has no Revelation video or diagram_
-
-
 **{{book.BibleProject}}**
 
 > **Revelation Introduction**

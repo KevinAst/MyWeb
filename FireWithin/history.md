@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v10.0](#v10_0)   | Genesis              | *Aug 17, 2022*
 [v9.0](#v9_0)     | Galatians            | *May 3, 2022*
 [v8.0](#v8_0)     | Romans               | *Apr 30, 2022*
 [v7.0](#v7_0)     | Corinthians          | *Mar 28, 2022*
@@ -39,6 +40,18 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v10_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v10.0 - Genesis <i>(Aug 17, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Genesis}} to my Study Guide.
+
+  Let's go back to the beginning!
+
 
 <!-- ************************************************************* -->
 <br/>

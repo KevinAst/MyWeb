@@ -47,14 +47,6 @@ hope, and love.
 > good work!”
 
 
-
-**{{book.OverviewBible}}**
-
-> [1 Thessalonians Introduction](https://overviewbible.com/1-thessalonians/)
->
-> _As of 3/2022 Overview Bible has no 1 Thessalonians video or diagram_
-
-
 **{{book.BibleProject}}**
 
 > [1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)

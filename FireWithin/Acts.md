@@ -41,20 +41,6 @@ gospel throughout the world.
 >    of Rome and into the highest levels of society; God’s kingdom is
 >    thus announced to all nations.
 
-**{{book.OverviewBible}}**
-
-> [Acts Introduction](https://overviewbible.com/acts/)
-
-<center>
-  <figure>
-    <div id="Acts_OB"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Acts_OB', 'Luke-Acts_OB.png', 75);
-</script>
-
 
 **{{book.BibleProject}}**
 

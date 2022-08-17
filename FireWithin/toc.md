@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (9.0)
+### Fire Within (10.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -31,7 +31,7 @@
 
 ----
 - [Old Testament](OldTestament.md)
-  * _(Genesis)_
+  * [Genesis](Genesis.md)
   * _(Exodus)_
   * _(Leviticus)_
   * _(Numbers)_
@@ -103,6 +103,7 @@
 
 ----
 * [Revision History](history.md)
+  * [08/17 Genesis (v10.0)](history.md#v10_0)
   * [05/22 Galatians (v9.0)](history.md#v9_0)
   * [04/22 Romans (v8.0)](history.md#v8_0)
   * [03/22 Corinthians (v7.0)](history.md#v7_0)
