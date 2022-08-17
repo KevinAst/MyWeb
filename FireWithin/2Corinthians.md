@@ -48,13 +48,6 @@ did.
 > rejoice in God’s grace, love and fellowship.
 
 
-**{{book.OverviewBible}}**
-
-> [2 Corinthians Introduction](https://overviewbible.com/2-corinthians/)
->
-> _As of 3/2022 Overview Bible has no 2 Corinthians video or diagram_
-
-
 **{{book.BibleProject}}**
 
 > [2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)

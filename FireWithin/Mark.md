@@ -47,22 +47,6 @@ and deeds.
 >    existing order and establish the way of life that Jesus taught.
 
 
-
-**{{book.OverviewBible}}**
-
-> [Mark Introduction](https://overviewbible.com/mark/)
-
-<center>
-  <figure>
-    <div id="Mark_OB"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Mark_OB', 'Mark_OB.png', 75);
-</script>
-
-
 **{{book.BibleProject}}**
 
 > [Mark Introduction](https://bibleproject.com/explore/video/mark/)

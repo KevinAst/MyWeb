@@ -44,13 +44,6 @@ resurrection.
 > up our roles today.
 
 
-**{{book.OverviewBible}}**
-
-> [1 Corinthians Introduction](https://overviewbible.com/1-corinthians/)
->
-> _As of 3/2022 Overview Bible has no 1 Corinthians video or diagram_
-
-
 **{{book.BibleProject}}**
 
 > [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
