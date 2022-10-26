@@ -1,0 +1,28 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*------------------------
+* Series ?? WITH Study Guide
+*------------------------
+
+01/12/2020
+The Sea of Forgetfulness
+MICAH
+mic.1.niv
+
+10/10/2012
+Teaching
+MICAH 5-7
+mic.5.niv
+
+09/26/2012
+Teaching
+MICAH 3-4
+mic.3.niv
+
+09/19/2012
+Teaching
+MICAH 1-2
+mic.1.niv
+

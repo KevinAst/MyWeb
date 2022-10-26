@@ -72,7 +72,7 @@ all things are made new.
 
 **{{book.SpokenGospel}}**
 
-> _As of 3/2022 Spoken Gospel has no Revelation entry_
+> _As of 3/2022 Spoken Gospel has no Revelation introduction_
 
 
 ## 2011 Revelation Series (Sundays)

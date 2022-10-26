@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (10.0)
+### Fire Within (11.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -58,12 +58,12 @@
   * _(Lamentations)_
   * _(Ezekiel)_
   * [Daniel](Daniel.md)
-  * _(Hosea)_
+  * [Hosea](Hosea.md)
   * _(Joel)_
-  * _(Amos)_
+  * [Amos](Amos.md)
   * _(Obadiah)_
-  * _(Jonah)_
-  * _(Micah)_
+  * [Jonah](Jonah.md)
+  * [Micah](Micah.md)
   * _(Nahum)_
   * _(Habakkuk)_
   * _(Zephaniah)_
@@ -103,6 +103,7 @@
 
 ----
 * [Revision History](history.md)
+  * [10/25 Minor Prophets (v11.0)](history.md#v11_0)
   * [08/17 Genesis (v10.0)](history.md#v10_0)
   * [05/22 Galatians (v9.0)](history.md#v9_0)
   * [04/22 Romans (v8.0)](history.md#v8_0)
