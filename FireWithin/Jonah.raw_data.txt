@@ -1,0 +1,28 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*------------------------
+* Series ?? WITH Study Guide
+*------------------------
+
+01/05/2020
+The Mercy of God
+JONAH
+jon.1.niv
+
+09/12/2012
+Teaching
+JONAH 3-4
+jon.3.niv
+
+09/05/2012
+Teaching
+JONAH 2
+jon.2.niv
+
+08/29/2012
+Teaching
+JONAH 1
+jon.1.niv
+
