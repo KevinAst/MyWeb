@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (11.0)
+### Fire Within (12.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -102,15 +102,9 @@
   * [Revelation](Revelation.md)
 
 ----
+- [Special Events](SpecialEvents.md)
+  * [Thanksgiving](Thanksgiving.md)
+  * [Christmas](Christmas.md)
+
+----
 * [Revision History](history.md)
-  * [10/25 Minor Prophets (v11.0)](history.md#v11_0)
-  * [08/17 Genesis (v10.0)](history.md#v10_0)
-  * [05/22 Galatians (v9.0)](history.md#v9_0)
-  * [04/22 Romans (v8.0)](history.md#v8_0)
-  * [03/22 Corinthians (v7.0)](history.md#v7_0)
-  * [03/22 Thessalonians (v6.0)](history.md#v6_0)
-  * [01/22 Daniel (v5.0)](history.md#v5_0)
-  * [01/22 Mark (v4.0)](history.md#v4_0)
-  * [10/21 Acts (v3.0)](history.md#v3_0)
-  * [08/20 Luke (v2.0)](history.md#v2_0)
-  * [11/20 Revelation (v1.0)](history.md#v1_0)

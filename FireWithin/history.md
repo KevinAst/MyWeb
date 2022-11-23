@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
 [v11.0](#v11_0)   | Minor Prophets       | *Oct 25, 2022*
 [v10.0](#v10_0)   | Genesis              | *Aug 17, 2022*
 [v9.0](#v9_0)     | Galatians            | *May 3, 2022*
@@ -41,6 +42,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v12_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v12.0 - Special Events <i>(Nov 23, 2022)</i>
+</h3>
+<br/>
+
+- Added Speical Events to my Study Guide ({{book.Thanksgiving}},
+  {{book.Christmas}}).
+
+  Merry Christmas!
+
 
 <!-- ************************************************************* -->
 <br/>

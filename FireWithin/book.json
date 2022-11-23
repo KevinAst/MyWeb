@@ -36,6 +36,7 @@
     "MyFaith":            "[My Faith](/MyFaith.md)",
     "OldTestament":       "[Old Testament](/OldTestament.md)",
     "NewTestament":       "[New Testament](/NewTestament.md)",
+    "SpecialEvents":      "[Special Events](/SpecialEvents.md)",
     "RevisionHistory":    "[Revision History](/history.md)",
 
     "Genesis":            "[Genesis](/Genesis.md)",
@@ -55,6 +56,9 @@
     "1Thessalonians":     "[1 Thessalonians](/1Thessalonians.md)",
     "2Thessalonians":     "[2 Thessalonians](/2Thessalonians.md)",
     "Revelation":         "[Revelation](/Revelation.md)",
+
+    "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
+    "Christmas":          "[Christmas](/Christmas.md)",
 
     "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
