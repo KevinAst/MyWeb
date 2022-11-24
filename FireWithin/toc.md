@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (12.0)
+### Fire Within (13.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -32,7 +32,7 @@
 ----
 - [Old Testament](OldTestament.md)
   * [Genesis](Genesis.md)
-  * _(Exodus)_
+  * [Exodus](Exodus.md)
   * _(Leviticus)_
   * _(Numbers)_
   * _(Deuteronomy)_

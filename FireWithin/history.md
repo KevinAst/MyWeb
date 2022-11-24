@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v13.0](#v13_0)   | Exodus               | *Nov 24, 2022*
 [v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
 [v11.0](#v11_0)   | Minor Prophets       | *Oct 25, 2022*
 [v10.0](#v10_0)   | Genesis              | *Aug 17, 2022*
@@ -42,6 +43,20 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v13_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v13.0 - Exodus <i>(Nov 24, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Exodus}} to my Study Guide.
+
+  God rescues Israel from slavery and initiates a covenant with them,
+  promising to dwell among them
+
 
 <!-- ************************************************************* -->
 <br/>
