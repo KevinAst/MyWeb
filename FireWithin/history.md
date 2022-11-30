@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v14.0](#v14_0)   | John                 | *Nov 30, 2022*
 [v13.0](#v13_0)   | Exodus               | *Nov 24, 2022*
 [v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
 [v11.0](#v11_0)   | Minor Prophets       | *Oct 25, 2022*
@@ -43,6 +44,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v14_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v14.0 - John <i>(Nov 30, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.John}} to my Study Guide.
+
+  This was done in conjunction with my local Church's Small Group
+  _(cooresponding to this time)_.
 
 
 <!-- ************************************************************* -->
