@@ -33,6 +33,7 @@
 <tr><td> {{book.cb1}}20201125{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20201125{{book.cst2}} Thanksgiving Eve Celebration Service                   {{book.cst3}}                                                             </td><td> 11/25/2020 </td>
 <tr><td> {{book.cb1}}20201129{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20201129{{book.cst2}} Giving Thanks to God: A Progress Report on the Church  {{book.cst3}}                                                             </td><td> 11/29/2020 </td>
 <tr><td> {{book.cb1}}20211128{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20211128{{book.cst2}} Giving Thanks to God: A Progress Report on the Church  {{book.cst3}}                                                             </td><td> 11/28/2021 </td>
+<tr><td> {{book.cb1}}20221123{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20221123{{book.cst2}} Testimonies of God’s Faithfulness 2022                 {{book.cst3}}                                                             </td><td> 11/23/2022 </td>
 
 </table>
 </div>
@@ -53,6 +54,7 @@
 <tr><td> {{book.cb1}}20201125{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20201125{{book.cst2}} Thanksgiving Eve Celebration Service                   {{book.cst3}} </td><td>                                                        </td><td> 11/25/2020 </td>
 <tr><td> {{book.cb1}}20201129{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20201129{{book.cst2}} Giving Thanks to God: A Progress Report on the Church  {{book.cst3}} </td><td>                                                        </td><td> 11/29/2020 </td>
 <tr><td> {{book.cb1}}20211128{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20211128{{book.cst2}} Giving Thanks to God: A Progress Report on the Church  {{book.cst3}} </td><td>                                                        </td><td> 11/28/2021 </td>
+<tr><td> {{book.cb1}}20221123{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20221123{{book.cst2}} Testimonies of God’s Faithfulness 2022                 {{book.cst3}} </td><td>                                                        </td><td> 11/23/2022 </td>
 
 </table>
 </div>
