@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (13.0)
+### Fire Within (14.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -76,7 +76,7 @@
   * _(Matthew)_
   * [Mark](Mark.md)
   * [Luke](Luke.md)
-  * _(John)_
+  * [John](John.md)
   * [Acts](Acts.md)
   * [Romans](Romans.md)
   * [1 Corinthians](1Corinthians.md)
