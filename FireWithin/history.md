@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
 [v14.0](#v14_0)   | John                 | *Nov 30, 2022*
 [v13.0](#v13_0)   | Exodus               | *Nov 24, 2022*
 [v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
@@ -44,6 +45,16 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v15_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v15.0 - Misc <i>(Dec 2, 2022)</i>
+</h3>
+<br/>
+
+- Added {{book.Election}} to my Study Guide.
 
 
 <!-- ************************************************************* -->
