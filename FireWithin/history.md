@@ -55,6 +55,7 @@ Release           | What                 | *When*
 <br/>
 
 - Added {{book.Election}} to my Study Guide.
+- Added "My Small Group" section to the {{book.John}} study.
 
 
 <!-- ************************************************************* -->

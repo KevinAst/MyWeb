@@ -10,6 +10,7 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 - [Overview](#overview)
 - [2015 John Series](#2015-john-series-mid-week)
 - [2022 John Series](#2022-john-series-sundays)
+- [2023 John Series (My Small Group)](#2023-john-series-my-small-group)
 
 
 ## Overview
@@ -199,6 +200,51 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 </div>
 
 
+## 2023 John Series (My Small Group)
+
+{{book.FBM}}
+
+<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
+<div class="phone">
+<table>
+
+<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14        {{book.b3}} </td><td> 12/04/2022 </td>
+<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51       {{book.b3}} </td><td> 12/11/2022 </td>
+<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           <br/> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23       {{book.b3}} </td><td> 12/18/2022 </td>
+<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          <br/> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15        {{book.b3}} </td><td> 12/25/2022 </td>
+<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  <br/> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18        {{book.b3}} </td><td> 01/01/2023 </td>
+<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     <br/> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26       {{book.b3}} </td><td> 01/08/2023 </td>
+<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       <br/> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16        {{book.b3}} </td><td> 01/15/2023 </td>
+<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         <br/> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40       {{book.b3}} </td><td> 01/22/2023 </td>
+<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             <br/> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29       {{book.b3}} </td><td> 01/29/2023 </td>
+<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        <br/> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18        {{book.b3}} </td><td> 02/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     <br/> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38       {{book.b3}} </td><td> 02/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         <br/> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30 {{book.b3}} </td><td> 02/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) <br/> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46      {{book.b3}} </td><td> 02/26/2023 </td>
+
+</table>
+</div>
+
+<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
+<div class="desktop">
+<table>
+
+<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14        {{book.b3}} </td><td> 12/04/2022 </td>
+<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51       {{book.b3}} </td><td> 12/11/2022 </td>
+<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           </td><td> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23       {{book.b3}} </td><td> 12/18/2022 </td>
+<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          </td><td> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15        {{book.b3}} </td><td> 12/25/2022 </td>
+<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  </td><td> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18        {{book.b3}} </td><td> 01/01/2023 </td>
+<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     </td><td> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26       {{book.b3}} </td><td> 01/08/2023 </td>
+<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       </td><td> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16        {{book.b3}} </td><td> 01/15/2023 </td>
+<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         </td><td> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40       {{book.b3}} </td><td> 01/22/2023 </td>
+<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             </td><td> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29       {{book.b3}} </td><td> 01/29/2023 </td>
+<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        </td><td> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18        {{book.b3}} </td><td> 02/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     </td><td> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38       {{book.b3}} </td><td> 02/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         </td><td> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30 {{book.b3}} </td><td> 02/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) </td><td> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46      {{book.b3}} </td><td> 02/26/2023 </td>
+
+</table>
+</div>
 
 
 

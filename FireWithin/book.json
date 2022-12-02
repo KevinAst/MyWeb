@@ -67,6 +67,7 @@
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
     "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
     "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
+    "FBM":               "[First Baptist Maryville](https://fbmaryville.org/)",
 
     "cb1":    "<label><input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
     "cb2":    "\">",
