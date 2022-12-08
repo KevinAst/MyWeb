@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (15.0)
+### Fire Within (15.1)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -20,6 +20,7 @@
 - [Work In Progress](WorkInProgress.md)
 
 - [My Faith](MyFaith.md)
+  * [Why does this matter?](MyFaith.md#why-does-this-matter)
   * [What is a Christian?](MyFaith.md#what-does-it-mean-to-be-a-christian)
   * [God is Holy](MyFaith.md#god-is-holy)
   * [In the Beginning](MyFaith.md#in-the-beginning)
