@@ -11,18 +11,106 @@
 Speaking of a "Fire Within", I thought this would be a good
 opportunity to share a little bit about my faith in Christ.
 
+<!-- 
+  REFERENCES: 
+        - Life in 6 words
+          ... https://lifein6words.com/the-g-o-s-p-e-l-message-explained/
+
+        - What are the essentials of the gospel message?
+          ... https://www.gotquestions.org/gospel-message.html
+              * Jesus is both God (Colossians 2:9) and man (John
+                1:14). Jesus lived the sinless life that we could never
+                live (1 Peter 2:22), and, because of that, He is the
+                only one who could die a substitutionary death for the
+                sinner. Sin against an infinite God requires an infinite
+                sacrifice. Therefore, either man, who is finite, must
+                pay the penalty for an infinite length of time in hell,
+                or the infinite Christ must pay for it once. Jesus went
+                to the cross to pay the debt we owe to God for our sin,
+                and those who are covered by His sacrifice will inherit
+                the kingdom of God as children of the king (John 1:12).
+
+        - What are the Basics of the Gospel Message?
+          ... https://www.dawnklinge.com/abovethewaves/what-are-the-basics-of-the-gospel-message
+
+        - God's Plan of Salvation <<< has diagrams showing the chasm between us/God
+          ... https://bible.org/article/gods-plan-salvation
+
+        - Why Does The Gospel Message Matter?
+          ... https://www.crosswalk.com/faith/bible-study/why-does-the-gospel-message-matter.html
+CLOSE:        * The rightful punishment for sin is death and eternal separation from
+                God (Romans 6:23, John 5:29, Revelation 21:8). The worst part is that
+                there is nothing we can do to fix our situation. We cannot work our
+                way out of the debt we’ve accumulated. In its natural state, humanity
+                is doomed.
+                >>> KJB: Seperation from God is an eternity in hell?
+CLOSE:        * Why Is the Gospel Message Important for Us?
+                Quite simply, what we do with the gospel determines our
+                eternity. Whether we accept the truth or not, it is still the truth,
+                and it will be the truth at the end of our lives when we stand before
+                a holy God. The only way to escape the wrath of God and live in peace
+                and joy with him forever is to believe that the blood of Christ is the
+                only thing that can take away our sins.
+ -->
+
+
+## Why does this matter?
+
+Before we get started, I have a question.  It is a rather sobering
+one, but something that is very important to consider:
+
+> If you should die this very moment, do you know what your fate would be?
+
+The bible tells us that the rightful punishment for sin _(our natural
+state)_ is death and eternal separation from God.  This represents an
+an eternity in hell ([Romans 6:23](https://bible.com/bible/ROM.6.23.niv), 
+[John 5:29](https://bible.com/bible/JHN.5.29.msg), 
+[Revelation 21:6-8](https://bible.com/bible/REV.21.6-8.nlt)).
+
+The reason this question is so important is that it determines how we
+will live out eternity.  Whether we accept the truth or not, it is
+still the truth, and it will be the truth at the end of our lives when
+we stand before a Holy God.
+
+
 ## What does it mean to be a Christian?
 
 I suspect that many people have a misconception of what it means to be
 a Christian.  They look at it as a process of "pulling yourself up by
 your bootstraps" ... to live a good enough life to be accepted into
-Heaven by God.  I can appreciate this concept because this is what all
-other religions strive for.
+Heaven by God.  
+
+I can appreciate this concept because this is what all other religions
+strive for.
 
 The truth of the matter is nothing could be further from the truth.
 It is not possible for us to work our way into heaven with our "good
-works".  The Bible tells us that our righteousness is like filthy rags
-before God _([Isaiah 64:6](https://bible.com/bible/isa.64.6.niv))_.
+deeds".  
+
+While we should certainly strive to do good, it should be done from a
+different motivation.  Good works flow from salvation, not the other
+way around.  More importantly it doesn't change our status with God.
+We simply cannot overcome His holiness gap _(it is too great a
+chasm)_.
+
+The Bible reveals that no amount of works _(goodness, morality, or
+religious activity)_ can gain us acceptance with God.  The moral and
+religious are in the same boat as the immoral and non-religious.  We
+all fall short of God's perfect righteousness.
+
+- The Apostle Paul declares that all people are under sin,
+  and that **"there is no one righteous, not even one"**
+  ([Romans 3:9-10](https://bible.com/bible/ROM.3.9-10.niv) _referencing_
+  [Psalms 14:3](https://bible.com/bible/PSA.14.3.niv),
+  [Psalms 53:1-3](https://bible.com/bible/PSA.53.1-3.niv), and
+  [Ecclesiastes 7:20](https://bible.com/bible/ECC.7.20.niv)).
+  
+- The Profit Isaiah proclaims that our righteousness is like **"filthy rags"**
+  before God _([Isaiah 64:6](https://bible.com/bible/isa.64.6.niv))_.
+
+**So what does this mean?**  Is our quest to have a relationship with God in vain?
+_More on this in just a bit_ ...
+
 
 ## God is Holy
 
@@ -34,26 +122,34 @@ of ourselves_ to bridge that gap.
 ## In the Beginning
 
 It wasn't always this way.  When God created the world, we had a pure
-relationship with Him _(in Adam and Eve)_.  However, God gave us free
-will, and Adam and Eve chose to disobey God _(and so by inference -
-us)_.  Hence ushered in the severing of our relationship with God.
+relationship with Him _(in Adam and Eve)_.  They regularly communed
+with God in the garden and exerienced sheer happiness and joy.
+
+But God gave us free will, and Adam and Eve chose to disobey God
+_(and so by inference - us)_.  Hence ushered in the severing of our
+relationship with God.
 
 From that very moment in time, God formulated a plan to bring us back
 into His fold.
+
 
 ## Am I good enough?
 
 You might be saying, well I'm a pretty good person ... I look out for
 others ... I'm not a cheat or a thief ... etc.  Those are all good
 things, but it doesn't come close to the standard of a Holy God.
-Jesus reveals that even what we think in our minds can be a sin
-[Matthew 5:28](https://bible.com/bible/mat.5.28.niv)
+
+- Jesus reveals that even our thoughts can be sinful
+  ([Matthew 5:28](https://bible.com/bible/mat.5.28.niv))
+  
+- James tells us that it is our desires that give birth to sinful action
+  ([James 1:14-15](https://bible.com/bible/jas.1.14-15.nlt))
 
 
 ## The Gospel
 
-The Gospel is the Good News that salvation is God's free gift to us,
-but we must accept it
+The Gospel is the Good News that salvation is God's free gift to us.
+But we must accept it
 _([John 14:6](https://bible.com/bible/jhn.14.6.niv)
 [Romans 10:9-10](https://bible.com/bible/rom.10.9-10.niv))_.
 
@@ -73,21 +169,22 @@ ascended into heaven, where he prepares a place for his followers.
 The bible tells us that:
 
 - All have sinned
-  [Romans 3:10](https://bible.com/bible/rom.3.10.niv)
-  [Romans 3:23](https://bible.com/bible/rom.3.23.niv)
+  ([Romans 3:10](https://bible.com/bible/rom.3.10.niv)
+  [Romans 3:23](https://bible.com/bible/rom.3.23.niv))
 
 - The results of sin is death ... but we don't have to experience
   death and hell, for God's gift to us is forgiveness and eternal life
-  in heaven with Him.
-  [Romans 6:23](https://bible.com/bible/rom.6.23.niv)
+  in heaven with Him
+  ([Romans 6:23](https://bible.com/bible/rom.6.23.niv)
+  [John 3:16-18](https://bible.com/bible/JHN.3.16-18.niv))
 
 - In order to receive this gift, you must believe that it is real and
   that it can truly change your life. _This is more than a simple
   "head knowledge"_.  It is an act of trusting Jesus with your heart,
-  and turning your life over to Him.
-  [Ephesians 2:8](https://bible.com/bible/eph.2.8.niv)
-  You must confess Jesus as Lord.
-  [Romans 10:13](https://bible.com/bible/rom.10.13.niv)
+  and turning your life over to Him
+  ([Ephesians 2:8](https://bible.com/bible/eph.2.8.niv)).
+  You must confess Jesus as Lord
+  ([Romans 10:13](https://bible.com/bible/rom.10.13.niv)).
 
 Salvation is a free gift of God, offered to all who simply ask.
 <mark>If you want to become a Christian</mark>, you must fervently
@@ -186,7 +283,7 @@ my daily life, it was truly a miracle.
 - I have for the first time, a desire to share my faith with others.
   If you think about it, this is the most crucial aspect of a
   Christian's life, _and part of the Lord Jesus' Great Commission_
-  [Matthew 28:16-20](https://bible.com/bible/mat.28.16-20.niv)
+  ([Matthew 28:16-20](https://bible.com/bible/mat.28.16-20.niv))
   ... sharing the Good News to a lost world.
 
 I'm certainly not perfect.  I have and will have a long way to go in
