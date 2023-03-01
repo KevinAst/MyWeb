@@ -2,6 +2,10 @@
 
 <script type="text/javascript" src="utils.js"></script>
 
+Daniel is a collection of stories and visions that give us hope that
+God’s kingdom will eventually prevail over violent world
+goverments. And yes ... there’s a famous story about a lion’s den.
+
 Isaiah was right. Jeremiah was right. Habakkuk was right. The
 Babylonians had attacked Jerusalem and carried off many Jewish
 captives. One of them was a young man named Daniel.

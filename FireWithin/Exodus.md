@@ -2,55 +2,10 @@
 
 <script type="text/javascript" src="utils.js"></script>
 
-**Exodus 1-18: God rescues the Israelites from slavery and confronts Pharaoh’s evil.**
-
-How does God respond when his people cry out to him? The first part of
-the book of Exodus recounts a powerful confrontation between God and
-the injustice of Pharaoh. This section is a fast-paced narrative that
-leads to divine justice, rescue, and deliverance.
-
-> Let My People Go
-> 
-> Abraham’s family has fulfilled God’s original command to be fruitful,
-> multiply, and fill the earth (Exodus 1:7). But instead of ruling
-> alongside God in his good world, the Israelites find themselves
-> enslaved to a cruel leader in the land of Egypt.
-> 
-> In response to their cries, God raises up Moses as his representative
-> to deliver the Israelites. Moses confronts Pharaoh and the gods of
-> Egypt through ten plagues, culminating in the Passover. God strikes
-> down the firstborn sons in the land but provides a way of escape
-> through the blood of lambs.
-> 
-> When the Egyptians pursue the fleeing Israelites, God parts the waters
-> of the sea for the Israelites to cross and swallows Pharaoh's army
-> behind them. The first song of praise exalts God as their king and
-> redeemer. However, shortly after, the Israelites begin grumbling,
-> showing their own hardness of heart.
-
-**Exodus 19-40: God initiates a covenant with Israel and promises to dwell among them.**
-
-At Mount Sinai, God invites Israel into a covenant relationship. He
-calls them to be a kingdom of priests and send the blessings of Yahweh
-out to the nations. But Israel immediately fails to hold up their end
-of the agreement.
-
-> Covenant People
-> 
-> As the Israelites approach Mount Sinai, God’s presence covers the
-> mountain in a dark cloud. Moses climbs the mountain as a
-> representative for the people to receive God’s law and a plan for
-> God’s own dwelling space, the tabernacle.
-> 
-> Filled with symbolic Eden imagery, the tabernacle becomes the place
-> where God’s space overlaps with humanity’s space. Immediately after
-> this, Israel breaks the covenant, and Moses intercedes for them by
-> asking God to remember his promise to Abraham.
-> 
-> God relents and re-establishes the covenant. The tabernacle is
-> completed and God’s glory fills it. However, Moses is unable to enter
-> this space. How will God's people be in his presence when they
-> continually fail to live by the covenant?
+The book of Exodus is the story of God rescuing the children of Israel
+from Egypt and making them His covenant people. Exodus is where we
+find the stories of the Ten Plagues, the first Passover, the parting
+of the Red Sea, and the Ten Commandments.
 
 
 ### At a Glance

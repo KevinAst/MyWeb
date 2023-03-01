@@ -2,10 +2,10 @@
 
 <script type="text/javascript" src="utils.js"></script>
 
-You could sum up the book of Leviticus with God’s repeated command:
-“Be holy, as I am holy.” Leviticus is a book of laws, but it’s also a
-book of worship. This book is filled with details on how the people of
-God should live, eat, sacrifice, celebrate, and more.
+Leviticus can be summed up with God’s repeated command: “Be holy, as I
+am holy.” Leviticus is a book of laws, but it’s also a book of
+worship. This book is filled with details on how the people of God
+should live, eat, sacrifice, celebrate, and more.
 
 ### At a Glance
 
