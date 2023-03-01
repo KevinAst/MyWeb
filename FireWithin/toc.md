@@ -37,44 +37,44 @@
   * [Leviticus](Leviticus.md)
   * [Numbers](Numbers.md)
   * [Deuteronomy](Deuteronomy.md)
-  * _(Joshua)_
-  * _(Judges)_
-  * _(Ruth)_
-  * _(1 Samuel)_
-  * _(2 Samuel)_
-  * _(1 Kings)_
-  * _(2 Kings)_
-  * _(1 Chronicles)_
-  * _(2 Chronicles)_
-  * _(Ezra)_
-  * _(Nehemiah)_
-  * _(Esther)_
-  * _(Job)_
-  * _(Psalms)_
-  * _(Proverbs)_
-  * _(Ecclesiastes)_
-  * _(Song of Solomon)_
-  * _(Isaiah)_
-  * _(Jeremiah)_
-  * _(Lamentations)_
-  * _(Ezekiel)_
+  * [*Joshua**](WorkInProgress.md)
+  * [*Judges**](WorkInProgress.md)
+  * [*Ruth**](WorkInProgress.md)
+  * [*1 Samuel**](WorkInProgress.md)
+  * [*2 Samuel**](WorkInProgress.md)
+  * [*1 Kings**](WorkInProgress.md)
+  * [*2 Kings**](WorkInProgress.md)
+  * [*1 Chronicles**](WorkInProgress.md)
+  * [*2 Chronicles**](WorkInProgress.md)
+  * [*Ezra**](WorkInProgress.md)
+  * [*Nehemiah**](WorkInProgress.md)
+  * [*Esther**](WorkInProgress.md)
+  * [*Job**](WorkInProgress.md)
+  * [*Psalms**](WorkInProgress.md)
+  * [*Proverbs**](WorkInProgress.md)
+  * [*Ecclesiastes**](WorkInProgress.md)
+  * [*Song of Solomon**](WorkInProgress.md)
+  * [*Isaiah**](WorkInProgress.md)
+  * [*Jeremiah**](WorkInProgress.md)
+  * [*Lamentations**](WorkInProgress.md)
+  * [*Ezekiel**](WorkInProgress.md)
   * [Daniel](Daniel.md)
   * [Hosea](Hosea.md)
-  * _(Joel)_
+  * [*Joel**](WorkInProgress.md)
   * [Amos](Amos.md)
-  * _(Obadiah)_
+  * [*Obadiah**](WorkInProgress.md)
   * [Jonah](Jonah.md)
   * [Micah](Micah.md)
-  * _(Nahum)_
-  * _(Habakkuk)_
-  * _(Zephaniah)_
-  * _(Haggai)_
-  * _(Zechariah)_
-  * _(Malachi)_
+  * [*Nahum**](WorkInProgress.md)
+  * [*Habakkuk**](WorkInProgress.md)
+  * [*Zephaniah**](WorkInProgress.md)
+  * [*Haggai**](WorkInProgress.md)
+  * [*Zechariah**](WorkInProgress.md)
+  * [*Malachi**](WorkInProgress.md)
 
 ----
 - [New Testament](NewTestament.md)
-  * _(Matthew)_
+  * [*Matthew**](WorkInProgress.md)
   * [Mark](Mark.md)
   * [Luke](Luke.md)
   * [John](John.md)
@@ -83,23 +83,23 @@
   * [1 Corinthians](1Corinthians.md)
   * [2 Corinthians](2Corinthians.md)
   * [Galatians](Galatians.md)
-  * _(Ephesians)_
-  * _(Philippians)_
-  * _(Colossians)_
+  * [*Ephesians**](WorkInProgress.md)
+  * [*Philippians**](WorkInProgress.md)
+  * [*Colossians**](WorkInProgress.md)
   * [1 Thessalonians](1Thessalonians.md)
   * [2 Thessalonians](2Thessalonians.md)
-  * _(1 Timothy)_
-  * _(2 Timothy)_
-  * _(Titus)_
-  * _(Philemon)_
-  * _(Hebrews)_
-  * _(James)_
-  * _(1 Peter)_
-  * _(2 Peter)_
-  * _(1 John)_
-  * _(2 John)_
-  * _(3 John)_
-  * _(Jude)_
+  * [*1 Timothy**](WorkInProgress.md)
+  * [*2 Timothy**](WorkInProgress.md)
+  * [*Titus**](WorkInProgress.md)
+  * [*Philemon**](WorkInProgress.md)
+  * [*Hebrews**](WorkInProgress.md)
+  * [*James**](WorkInProgress.md)
+  * [*1 Peter**](WorkInProgress.md)
+  * [*2 Peter**](WorkInProgress.md)
+  * [*1 John**](WorkInProgress.md)
+  * [*2 John**](WorkInProgress.md)
+  * [*3 John**](WorkInProgress.md)
+  * [*Jude**](WorkInProgress.md)
   * [Revelation](Revelation.md)
 
 ----
