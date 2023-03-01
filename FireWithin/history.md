@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
 [v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
 [v14.0](#v14_0)   | John                 | *Nov 30, 2022*
@@ -46,6 +47,21 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v16_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v16.0 - Complete the Torah <i>(Mar 1, 2023)</i>
+</h3>
+<br/>
+
+- Added the remaining books of the Tora _(the Old Testament Law of Moses)_:
+  * {{book.Leviticus}}
+  * {{book.Numbers}}
+  * {{book.Deuteronomy}}
+- Completed the {{book.John}} series.
+- Enumerate ALL books in Old/New Testament _(delineated with asterisk for TODO)_.
+
 
 <!-- ************************************************************* -->
 <br/>

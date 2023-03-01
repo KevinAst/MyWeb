@@ -1,0 +1,73 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*-----------------------
+* 2013 Numbers Series ??  NO Study Guide
+*-----------------------
+
+09/01/2013
+Inheritance
+Numbers 26-36
+num.26.niv
+
+08/25/2013
+Beware of Balaam
+Numbers 22-25
+num.22.niv
+
+08/18/2013
+Born Again
+Numbers 21
+num.21.niv
+
+08/11/2013
+Watch Your Witness
+Numbers 18-20
+num.18.niv
+
+08/04/2013
+Budding with Life
+Numbers 17
+num.17.niv
+
+06/09/2013
+A Root of Rebellion
+Numbers 16
+num.16.niv
+
+06/02/2013
+Courage like Caleb
+Numbers 13-15
+num.13.niv
+
+05/26/2013
+Pride and Prejudice
+Numbers 12
+num.12.niv
+
+05/19/2013
+Beware of the Rabble
+Numbers 11
+num.11.niv
+
+05/05/2013
+Discerning God's Will
+Numbers 7-9
+num.7.niv
+
+04/28/2013
+The LORD's Blessing
+Numbers 6:22-27
+num.6.niv
+
+04/14/2013
+A Modern Nazirite
+Numbers 3-6:1-21
+num.3.niv
+
+04/07/2013
+Life by the Numbers
+Numbers 1-2
+num.1.niv
+

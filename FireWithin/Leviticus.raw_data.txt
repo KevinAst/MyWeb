@@ -1,0 +1,23 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*-----------------------
+* 2013 Leviticus Series ??  NO Study Guide
+*-----------------------
+
+03/17/2013
+Sacrifices, Priests, and Feasts (Part 3 - The Feasts)
+Leviticus 19-27
+lev.19.niv
+
+03/10/2013
+Sacrifices, Priests, and Feasts (Part 2 - The Priests)
+Leviticus 8-18
+lev.8.niv
+
+03/03/2013
+Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices)
+Leviticus 1-7
+lev.1.niv
+

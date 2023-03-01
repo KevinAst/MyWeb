@@ -168,6 +168,9 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 <tr><td> {{book.cb1}}20221030{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20221030{{book.cst2}} Heaven and How to Get There      {{book.cst3}} <br/> {{book.b1}}jhn.14.niv{{book.b2}} John 14           {{book.b3}} </td><td> 10/30/2022 <br/> {{book.csg1}}20221030.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20221106{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20221106{{book.cst2}} Pray Like Jesus                  {{book.cst3}} <br/> {{book.b1}}jhn.14.niv{{book.b2}} John 14:12-14     {{book.b3}} </td><td> 11/06/2022 <br/> {{book.csg1}}20221106.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20221120{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20221120{{book.cst2}} Who is the Holy Spirit           {{book.cst3}} <br/> {{book.b1}}jhn.14.niv{{book.b2}} John 14-16        {{book.b3}} </td><td> 11/20/2022 <br/> {{book.csg1}}20221120.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20221204{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20221204{{book.cst2}} A Prayer for Unity               {{book.cst3}} <br/> {{book.b1}}jhn.17.niv{{book.b2}} John 17           {{book.b3}} </td><td> 12/04/2022 <br/> {{book.csg1}}20221204.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230108{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20230108{{book.cst2}} Pilate the People-Pleaser        {{book.cst3}} <br/> {{book.b1}}jhn.18.niv{{book.b2}} John 18-19        {{book.b3}} </td><td> 01/08/2023 <br/> {{book.csg1}}20230108.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230122{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20230122{{book.cst2}} The God of Restoration           {{book.cst3}} <br/> {{book.b1}}jhn.21.niv{{book.b2}} John 21           {{book.b3}} </td><td> 01/22/2023 <br/> {{book.csg1}}20230122.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -195,6 +198,9 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 <tr><td> {{book.cb1}}20221030{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20221030{{book.cst2}} Heaven and How to Get There      {{book.cst3}} </td><td> {{book.b1}}jhn.14.niv{{book.b2}} John 14           {{book.b3}} </td><td> 10/30/2022 </td><td> {{book.csg1}}20221030.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20221106{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20221106{{book.cst2}} Pray Like Jesus                  {{book.cst3}} </td><td> {{book.b1}}jhn.14.niv{{book.b2}} John 14:12-14     {{book.b3}} </td><td> 11/06/2022 </td><td> {{book.csg1}}20221106.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20221120{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20221120{{book.cst2}} Who is the Holy Spirit           {{book.cst3}} </td><td> {{book.b1}}jhn.14.niv{{book.b2}} John 14-16        {{book.b3}} </td><td> 11/20/2022 </td><td> {{book.csg1}}20221120.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20221204{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20221204{{book.cst2}} A Prayer for Unity               {{book.cst3}} </td><td> {{book.b1}}jhn.17.niv{{book.b2}} John 17           {{book.b3}} </td><td> 12/04/2022 </td><td> {{book.csg1}}20221204.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230108{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20230108{{book.cst2}} Pilate the People-Pleaser        {{book.cst3}} </td><td> {{book.b1}}jhn.18.niv{{book.b2}} John 18-19        {{book.b3}} </td><td> 01/08/2023 </td><td> {{book.csg1}}20230108.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230122{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20230122{{book.cst2}} The God of Restoration           {{book.cst3}} </td><td> {{book.b1}}jhn.21.niv{{book.b2}} John 21           {{book.b3}} </td><td> 01/22/2023 </td><td> {{book.csg1}}20230122.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -208,19 +214,32 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14        {{book.b3}} </td><td> 12/04/2022 </td>
-<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51       {{book.b3}} </td><td> 12/11/2022 </td>
-<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           <br/> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23       {{book.b3}} </td><td> 12/18/2022 </td>
-<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          <br/> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15        {{book.b3}} </td><td> 12/25/2022 </td>
-<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  <br/> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18        {{book.b3}} </td><td> 01/01/2023 </td>
-<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     <br/> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26       {{book.b3}} </td><td> 01/08/2023 </td>
-<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       <br/> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16        {{book.b3}} </td><td> 01/15/2023 </td>
-<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         <br/> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40       {{book.b3}} </td><td> 01/22/2023 </td>
-<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             <br/> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29       {{book.b3}} </td><td> 01/29/2023 </td>
-<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        <br/> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18        {{book.b3}} </td><td> 02/05/2023 </td>
-<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     <br/> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38       {{book.b3}} </td><td> 02/12/2023 </td>
-<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         <br/> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30 {{book.b3}} </td><td> 02/19/2023 </td>
-<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) <br/> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46      {{book.b3}} </td><td> 02/26/2023 </td>
+<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14            {{book.b3}} </td><td> 12/04/2022 </td>
+<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           <br/> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51           {{book.b3}} </td><td> 12/11/2022 </td>
+<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           <br/> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23           {{book.b3}} </td><td> 12/18/2022 </td>
+<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          <br/> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15            {{book.b3}} </td><td> 12/25/2022 </td>
+<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  <br/> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18            {{book.b3}} </td><td> 01/01/2023 </td>
+<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     <br/> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26           {{book.b3}} </td><td> 01/08/2023 </td>
+<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       <br/> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16            {{book.b3}} </td><td> 01/15/2023 </td>
+<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         <br/> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40           {{book.b3}} </td><td> 01/22/2023 </td>
+<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             <br/> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29           {{book.b3}} </td><td> 01/29/2023 </td>
+<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        <br/> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18            {{book.b3}} </td><td> 02/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     <br/> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38           {{book.b3}} </td><td> 02/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         <br/> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30     {{book.b3}} </td><td> 02/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) <br/> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46          {{book.b3}} </td><td> 02/26/2023 </td>
+<tr><td> {{book.cb1}}SG20230305{{book.cb2}} 14. {{book.cb3}} </td><td> Why Wasn’t This Sold?          <br/> {{book.b1}}jhn.12.niv{{book.b2}} John 12:1-11           {{book.b3}} </td><td> 03/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230312{{book.cb2}} 15. {{book.cb3}} </td><td> If It Dies                     <br/> {{book.b1}}jhn.12.niv{{book.b2}} John 12:20-33          {{book.b3}} </td><td> 03/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230319{{book.cb2}} 16. {{book.cb3}} </td><td> I Will Come Again              <br/> {{book.b1}}jhn.13.niv{{book.b2}} John 13:31-14:6        {{book.b3}} </td><td> 03/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230326{{book.cb2}} 17. {{book.cb3}} </td><td> Peace I Leave                  <br/> {{book.b1}}jhn.14.niv{{book.b2}} John 14:16-29          {{book.b3}} </td><td> 03/26/2023 </td>
+<tr><td> {{book.cb1}}SG20230402{{book.cb2}} 18. {{book.cb3}} </td><td> Remain in Me                   <br/> {{book.b1}}jhn.15.niv{{book.b2}} John 15:1-17           {{book.b3}} </td><td> 04/02/2023 </td>
+<tr><td> {{book.cb1}}SG20230409{{book.cb2}} 19. {{book.cb3}} </td><td> I Have Seen*                   <br/> {{book.b1}}jhn.20.niv{{book.b2}} John 20:1-18           {{book.b3}} </td><td> 04/09/2023 </td>
+<tr><td> {{book.cb1}}SG20230416{{book.cb2}} 20. {{book.cb3}} </td><td> When the Spirit Comes          <br/> {{book.b1}}jhn.15.niv{{book.b2}} John 15:26-27; 16:7-15 {{book.b3}} </td><td> 04/16/2023 </td>
+<tr><td> {{book.cb1}}SG20230423{{book.cb2}} 21. {{book.cb3}} </td><td> I Pray                         <br/> {{book.b1}}jhn.17.niv{{book.b2}} John 17:13-26          {{book.b3}} </td><td> 04/23/2023 </td>
+<tr><td> {{book.cb1}}SG20230430{{book.cb2}} 22. {{book.cb3}} </td><td> I Am He                        <br/> {{book.b1}}jhn.18.niv{{book.b2}} John 18:1-11           {{book.b3}} </td><td> 04/30/2023 </td>
+<tr><td> {{book.cb1}}SG20230507{{book.cb2}} 23. {{book.cb3}} </td><td> I Find No Fault                <br/> {{book.b1}}jhn.18.niv{{book.b2}} John 18:28-40          {{book.b3}} </td><td> 05/07/2023 </td>
+<tr><td> {{book.cb1}}SG20230514{{book.cb2}} 24. {{book.cb3}} </td><td> It Is Finished                 <br/> {{book.b1}}jhn.19.niv{{book.b2}} John 19:17-30          {{book.b3}} </td><td> 05/14/2023 </td>
+<tr><td> {{book.cb1}}SG20230521{{book.cb2}} 25. {{book.cb3}} </td><td> Reach out Your Hand            <br/> {{book.b1}}jhn.20.niv{{book.b2}} John 20:19-29          {{book.b3}} </td><td> 05/21/2023 </td>
+<tr><td> {{book.cb1}}SG20230528{{book.cb2}} 26. {{book.cb3}} </td><td> Do You Love Me?                <br/> {{book.b1}}jhn.21.niv{{book.b2}} John 21:15-23          {{book.b3}} </td><td> 05/28/2023 </td>
 
 </table>
 </div>
@@ -229,19 +248,32 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14        {{book.b3}} </td><td> 12/04/2022 </td>
-<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51       {{book.b3}} </td><td> 12/11/2022 </td>
-<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           </td><td> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23       {{book.b3}} </td><td> 12/18/2022 </td>
-<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          </td><td> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15        {{book.b3}} </td><td> 12/25/2022 </td>
-<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  </td><td> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18        {{book.b3}} </td><td> 01/01/2023 </td>
-<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     </td><td> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26       {{book.b3}} </td><td> 01/08/2023 </td>
-<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       </td><td> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16        {{book.b3}} </td><td> 01/15/2023 </td>
-<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         </td><td> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40       {{book.b3}} </td><td> 01/22/2023 </td>
-<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             </td><td> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29       {{book.b3}} </td><td> 01/29/2023 </td>
-<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        </td><td> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18        {{book.b3}} </td><td> 02/05/2023 </td>
-<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     </td><td> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38       {{book.b3}} </td><td> 02/12/2023 </td>
-<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         </td><td> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30 {{book.b3}} </td><td> 02/19/2023 </td>
-<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) </td><td> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46      {{book.b3}} </td><td> 02/26/2023 </td>
+<tr><td> {{book.cb1}}SG20221204{{book.cb2}} 1.  {{book.cb3}} </td><td> In the Beginning (pg 13)       </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:1-14            {{book.b3}} </td><td> 12/04/2022 </td>
+<tr><td> {{book.cb1}}SG20221211{{book.cb2}} 2.  {{book.cb3}} </td><td> Come and See (pg 23)           </td><td> {{book.b1}}jhn.1.niv {{book.b2}} John 1:40-51           {{book.b3}} </td><td> 12/11/2022 </td>
+<tr><td> {{book.cb1}}SG20221218{{book.cb2}} 3.  {{book.cb3}} </td><td> I Will Raise (pg 33)           </td><td> {{book.b1}}jhn.2.niv {{book.b2}} John 2:11-23           {{book.b3}} </td><td> 12/18/2022 </td>
+<tr><td> {{book.cb1}}SG20221225{{book.cb2}} 4.  {{book.cb3}} </td><td> You Will Find (pg 43)          </td><td> {{book.b1}}luk.2.niv {{book.b2}} Luke 2:1-15            {{book.b3}} </td><td> 12/25/2022 </td>
+<tr><td> {{book.cb1}}SG20230101{{book.cb2}} 5.  {{book.cb3}} </td><td> Everyone Who Believes (pg 53)  </td><td> {{book.b1}}jhn.3.niv {{book.b2}} John 3:4-18            {{book.b3}} </td><td> 01/01/2023 </td>
+<tr><td> {{book.cb1}}SG20230108{{book.cb2}} 6.  {{book.cb3}} </td><td> But Whoever Drinks (pg 63)     </td><td> {{book.b1}}jhn.4.niv {{book.b2}} John 4:11-26           {{book.b3}} </td><td> 01/08/2023 </td>
+<tr><td> {{book.cb1}}SG20230115{{book.cb2}} 7.  {{book.cb3}} </td><td> Pick Up Your Mat (pg 73)       </td><td> {{book.b1}}jhn.5.niv {{book.b2}} John 5:5-16            {{book.b3}} </td><td> 01/15/2023 </td>
+<tr><td> {{book.cb1}}SG20230122{{book.cb2}} 8.  {{book.cb3}} </td><td> I Am the Bread (pg 83)         </td><td> {{book.b1}}jhn.6.niv {{book.b2}} John 6:26-40           {{book.b3}} </td><td> 01/22/2023 </td>
+<tr><td> {{book.cb1}}SG20230129{{book.cb2}} 9.  {{book.cb3}} </td><td> He Sent Me (pg 93)             </td><td> {{book.b1}}jhn.7.niv {{book.b2}} John 7:14-29           {{book.b3}} </td><td> 01/29/2023 </td>
+<tr><td> {{book.cb1}}SG20230205{{book.cb2}} 10. {{book.cb3}} </td><td> I Am the Light (pg 103)        </td><td> {{book.b1}}jhn.8.niv {{book.b2}} John 8:3-18            {{book.b3}} </td><td> 02/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230212{{book.cb2}} 11. {{book.cb3}} </td><td> You Have Seen Him (pg 113)     </td><td> {{book.b1}}jhn.9.niv {{book.b2}} John 9:24-38           {{book.b3}} </td><td> 02/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230219{{book.cb2}} 12. {{book.cb3}} </td><td> I Know My Own (pg 123)         </td><td> {{book.b1}}jhn.10.niv{{book.b2}} John 10:7-14,25-30     {{book.b3}} </td><td> 02/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230226{{book.cb2}} 13. {{book.cb3}} </td><td> I Am the Resurrection (pg 133) </td><td> {{book.b1}}jhn.11.niv{{book.b2}} John 11:32-46          {{book.b3}} </td><td> 02/26/2023 </td>
+<tr><td> {{book.cb1}}SG20230305{{book.cb2}} 14. {{book.cb3}} </td><td> Why Wasn’t This Sold?          </td><td> {{book.b1}}jhn.12.niv{{book.b2}} John 12:1-11           {{book.b3}} </td><td> 03/05/2023 </td>
+<tr><td> {{book.cb1}}SG20230312{{book.cb2}} 15. {{book.cb3}} </td><td> If It Dies                     </td><td> {{book.b1}}jhn.12.niv{{book.b2}} John 12:20-33          {{book.b3}} </td><td> 03/12/2023 </td>
+<tr><td> {{book.cb1}}SG20230319{{book.cb2}} 16. {{book.cb3}} </td><td> I Will Come Again              </td><td> {{book.b1}}jhn.13.niv{{book.b2}} John 13:31-14:6        {{book.b3}} </td><td> 03/19/2023 </td>
+<tr><td> {{book.cb1}}SG20230326{{book.cb2}} 17. {{book.cb3}} </td><td> Peace I Leave                  </td><td> {{book.b1}}jhn.14.niv{{book.b2}} John 14:16-29          {{book.b3}} </td><td> 03/26/2023 </td>
+<tr><td> {{book.cb1}}SG20230402{{book.cb2}} 18. {{book.cb3}} </td><td> Remain in Me                   </td><td> {{book.b1}}jhn.15.niv{{book.b2}} John 15:1-17           {{book.b3}} </td><td> 04/02/2023 </td>
+<tr><td> {{book.cb1}}SG20230409{{book.cb2}} 19. {{book.cb3}} </td><td> I Have Seen*                   </td><td> {{book.b1}}jhn.20.niv{{book.b2}} John 20:1-18           {{book.b3}} </td><td> 04/09/2023 </td>
+<tr><td> {{book.cb1}}SG20230416{{book.cb2}} 20. {{book.cb3}} </td><td> When the Spirit Comes          </td><td> {{book.b1}}jhn.15.niv{{book.b2}} John 15:26-27; 16:7-15 {{book.b3}} </td><td> 04/16/2023 </td>
+<tr><td> {{book.cb1}}SG20230423{{book.cb2}} 21. {{book.cb3}} </td><td> I Pray                         </td><td> {{book.b1}}jhn.17.niv{{book.b2}} John 17:13-26          {{book.b3}} </td><td> 04/23/2023 </td>
+<tr><td> {{book.cb1}}SG20230430{{book.cb2}} 22. {{book.cb3}} </td><td> I Am He                        </td><td> {{book.b1}}jhn.18.niv{{book.b2}} John 18:1-11           {{book.b3}} </td><td> 04/30/2023 </td>
+<tr><td> {{book.cb1}}SG20230507{{book.cb2}} 23. {{book.cb3}} </td><td> I Find No Fault                </td><td> {{book.b1}}jhn.18.niv{{book.b2}} John 18:28-40          {{book.b3}} </td><td> 05/07/2023 </td>
+<tr><td> {{book.cb1}}SG20230514{{book.cb2}} 24. {{book.cb3}} </td><td> It Is Finished                 </td><td> {{book.b1}}jhn.19.niv{{book.b2}} John 19:17-30          {{book.b3}} </td><td> 05/14/2023 </td>
+<tr><td> {{book.cb1}}SG20230521{{book.cb2}} 25. {{book.cb3}} </td><td> Reach out Your Hand            </td><td> {{book.b1}}jhn.20.niv{{book.b2}} John 20:19-29          {{book.b3}} </td><td> 05/21/2023 </td>
+<tr><td> {{book.cb1}}SG20230528{{book.cb2}} 26. {{book.cb3}} </td><td> Do You Love Me?                </td><td> {{book.b1}}jhn.21.niv{{book.b2}} John 21:15-23          {{book.b3}} </td><td> 05/28/2023 </td>
 
 </table>
 </div>

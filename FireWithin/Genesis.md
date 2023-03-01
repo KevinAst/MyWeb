@@ -2,12 +2,11 @@
 
 <script type="text/javascript" src="utils.js"></script>
 
-In the first part of Genesis _(chapters 1-11)_, we see that God creates
-a good world and commissions humans to rule it, but they choose
-rebellion again and again.
-Through the second part of Genesis _(chapters 12-50)_, we see how God
-promises to bless the world through Abraham’s family, despite their
-repeated failure.
+In the first part of Genesis _(1-11)_, we see that God creates a good
+world and commissions humans to rule it, but they choose rebellion
+again and again.  Through the second part of Genesis _(12-50)_, we see
+how God promises to bless the world through Abraham’s family, despite
+their repeated failure.
 
 
 ### At a Glance
