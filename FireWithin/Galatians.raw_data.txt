@@ -8,27 +8,27 @@
 07/19/2017
 Teaching
 Gal 5:13-6:18
-gal.5.niv
+111/gal.5.niv
 
 07/12/2017
 Teaching
 Gal 4-5:13
-gal.4.niv
+111/gal.4.niv
 
 07/05/2017
 Teaching
 Gal 3
-gal.3.niv
+111/gal.3.niv
 
 06/28/2017
 Teaching
 Gal 2
-gal.2.niv
+111/gal.2.niv
 
 06/21/2017
 Teaching
 Gal 1
-gal.1.niv
+111/gal.1.niv
 
 
 *-----------------------
@@ -38,10 +38,10 @@ gal.1.niv
 02/14/2010
 The Battle Within
 Gal 4-6
-gal.4.niv
+111/gal.4.niv
 
 01/31/2010
 Jesus Only
 Gal 1-3
-gal.1.niv
+111/gal.1.niv
 

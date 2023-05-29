@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (16.0)
+### Fire Within (17.x)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)

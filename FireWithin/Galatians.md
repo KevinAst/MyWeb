@@ -94,8 +94,8 @@ covenant.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} <br/> {{book.b1}}gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 <br/> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} <br/> {{book.b1}}gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 <br/> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} <br/> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 <br/> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} <br/> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 <br/> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -104,8 +104,8 @@ covenant.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} </td><td> {{book.b1}}gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 </td><td> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} </td><td> {{book.b1}}gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 </td><td> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} </td><td> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 </td><td> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} </td><td> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 </td><td> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -120,11 +120,11 @@ covenant.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
-<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
-<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
-<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
-<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
+<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
+<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
+<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
+<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
+<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
 
 </table>
 </div>
@@ -133,11 +133,11 @@ covenant.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
-<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
-<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
-<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
-<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
+<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
+<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
+<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
+<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
+<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
 
 </table>
 </div>

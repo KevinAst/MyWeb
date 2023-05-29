@@ -89,10 +89,10 @@ on the surface.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20120829{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120829{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}jon.1.niv{{book.b2}} JONAH 1   {{book.b3}} </td><td> 08/29/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120905{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120905{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}jon.2.niv{{book.b2}} JONAH 2   {{book.b3}} </td><td> 09/05/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120912{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120912{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}jon.3.niv{{book.b2}} JONAH 3-4 {{book.b3}} </td><td> 09/12/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20200105{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200105{{book.cst2}} The Mercy of God {{book.cst3}} <br/> {{book.b1}}jon.1.niv{{book.b2}} JONAH     {{book.b3}} </td><td> 01/05/2020 <br/> {{book.csg1}}20200105.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20120829{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120829{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}111/jon.1.niv{{book.b2}} JONAH 1   {{book.b3}} </td><td> 08/29/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120905{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120905{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}111/jon.2.niv{{book.b2}} JONAH 2   {{book.b3}} </td><td> 09/05/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120912{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120912{{book.cst2}} Teaching         {{book.cst3}} <br/> {{book.b1}}111/jon.3.niv{{book.b2}} JONAH 3-4 {{book.b3}} </td><td> 09/12/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20200105{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200105{{book.cst2}} The Mercy of God {{book.cst3}} <br/> {{book.b1}}111/jon.1.niv{{book.b2}} JONAH     {{book.b3}} </td><td> 01/05/2020 <br/> {{book.csg1}}20200105.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -101,10 +101,10 @@ on the surface.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20120829{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120829{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}jon.1.niv{{book.b2}} JONAH 1   {{book.b3}} </td><td> 08/29/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120905{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120905{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}jon.2.niv{{book.b2}} JONAH 2   {{book.b3}} </td><td> 09/05/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120912{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120912{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}jon.3.niv{{book.b2}} JONAH 3-4 {{book.b3}} </td><td> 09/12/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20200105{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200105{{book.cst2}} The Mercy of God {{book.cst3}} </td><td> {{book.b1}}jon.1.niv{{book.b2}} JONAH     {{book.b3}} </td><td> 01/05/2020 </td><td> {{book.csg1}}20200105.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20120829{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120829{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}111/jon.1.niv{{book.b2}} JONAH 1   {{book.b3}} </td><td> 08/29/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120905{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120905{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}111/jon.2.niv{{book.b2}} JONAH 2   {{book.b3}} </td><td> 09/05/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120912{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120912{{book.cst2}} Teaching         {{book.cst3}} </td><td> {{book.b1}}111/jon.3.niv{{book.b2}} JONAH 3-4 {{book.b3}} </td><td> 09/12/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20200105{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200105{{book.cst2}} The Mercy of God {{book.cst3}} </td><td> {{book.b1}}111/jon.1.niv{{book.b2}} JONAH     {{book.b3}} </td><td> 01/05/2020 </td><td> {{book.csg1}}20200105.pdf{{book.csg2}} </td>
 
 </table>
 </div>
