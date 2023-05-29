@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v17.x](#v17_x)   | Misc                 | *May 29, 2023*
+[v17.y](#v17_y)   | Misc                 | *May 29, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
 [v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
@@ -51,12 +51,13 @@ Release           | What                 | *When*
 
 <!-- ************************************************************* -->
 <br/>
-<h3 id="v17_x" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v17.x - Misc <i>(May 29, 2023)</i>
+<h3 id="v17_y" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v17.y - Misc <i>(May 29, 2023)</i>
 </h3>
 <br/>
 
 - Fixed ALL scripture links _(YouVersion URL parms have changed)_.
+- Added {{book.Easter}} Speical Events.
 
 
 <!-- ************************************************************* -->

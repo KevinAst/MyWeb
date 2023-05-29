@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (17.x)
+### Fire Within (17.y)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -107,6 +107,7 @@
   * [Election](Election.md)
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
+  * [Easter](Easter.md)
 
 ----
 * [Revision History](history.md)
