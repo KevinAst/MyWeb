@@ -1,0 +1,137 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+?? NO John (used as template)
+
+?????????????? moused this complete Jeremiah in (since I had it)
+
+
+*----------------------------
+* 2022 John Series (Sundays) WITH Study Guide
+*----------------------------
+
+01/22/2023
+The God of Restoration
+John 21
+111/jhn.21.niv
+
+??? RAW DATA: ????????????????????????????????????????????????????????????????????????????????
+
+Lessons from Babylon
+JEREMIAH 49-52
+MARCH 31, 2019
+PASTOR GARY HAMRICK
+
+Don't "Wine" About It
+JEREMIAH 46-48
+MARCH 17, 2019
+PASTOR GARY HAMRICK
+
+Courage for the Discouraged
+JEREMIAH 45
+MARCH 10, 2019
+PASTOR GARY HAMRICK
+
+The Remnant
+JEREMIAH 40-42
+MARCH 3, 2019
+PASTOR GARY HAMRICK
+
+Don't Lose Sight of God
+JEREMIAH 36-39
+FEBRUARY 24, 2019
+PASTOR GARY HAMRICK
+
+A Principled Life
+JEREMIAH 35
+FEBRUARY 17, 2019
+PASTOR GARY HAMRICK
+
+Restoration
+JEREMIAH 29-31
+FEBRUARY 10, 2019
+PASTOR GARY HAMRICK
+
+Stand for What is Right
+JEREMIAH 25-26
+FEBRUARY 3, 2019
+PASTOR GARY HAMRICK
+
+Good Things Out of a Bad Place
+JEREMIAH 24
+JANUARY 27, 2019
+PASTOR GARY HAMRICK
+
+Sanctity of Human Life
+JEREMIAH 18-19
+JANUARY 20, 2019
+PASTOR GARY HAMRICK
+
+A Change of Heart
+JEREMIAH 16-17
+JANUARY 6, 2019
+PASTOR GARY HAMRICK
+
+A Life that Bears God's Name
+JEREMIAH 13-15
+DECEMBER 2, 2018
+PASTOR GARY HAMRICK
+
+The Right Way to See a Wrong World
+JEREMIAH 11-12
+NOVEMBER 25, 2018
+PASTOR GARY HAMRICK
+
+A Prayer for Idol Hearts
+JEREMIAH 10
+NOVEMBER 18, 2018
+PASTOR GARY HAMRICK
+
+Something to Boast About
+JEREMIAH 7-9
+NOVEMBER 11, 2018
+PASTOR GARY HAMRICK
+
+Wisdom for the Crossroads
+JEREMIAH 6:16
+NOVEMBER 4, 2018
+PASTOR GARY HAMRICK
+
+A Serious Wound
+JEREMIAH 3-6
+OCTOBER 28, 2018
+PASTOR GARY HAMRICK
+
+Broken Cisterns
+JEREMIAH 1-2
+OCTOBER 21, 2018
+PASTOR GARY HAMRICK
+
+
+
+*----------------------------
+* 2023 John Series (My Small Group)
+*----------------------------
+
+12/04/2022
+In the Beginning (pg 13)
+John 1:1-14
+111/jhn.1.niv
+
+??? RAW DATA: ????????????????????????????????????????????????????????????????????????????????
+
+Session 1: Prepares (Jeremiah 1:4-19)
+Session 2: Judges (Jeremiah 2:1-13)
+Session 3: Personal (Jeremiah 7:1-15)
+Session 4: Exclusive (Jeremiah 12:1-13)
+Session 5: Shapes (Jeremiah 18:1-12)
+Session 6: Rules (Jeremiah 23:1-12)
+Session 7: Present (Jeremiah 29:4-14)
+Session 8: Redeems (Jeremiah 31:23-34)
+Session 9: Worthy (Jeremiah 35:5-19)
+Session 10: Speaks (Jeremiah 36:19-31)
+Session 11: Trustworthy (Jeremiah 42:7-22)
+Session 12: Just (Jeremiah 50:11-20,33-34)
+Session 13: Good (Lamentations 3:19-33)
+
