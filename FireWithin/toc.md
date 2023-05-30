@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (17.y)
+### Fire Within (17.z)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -111,3 +111,20 @@
 
 ----
 * [Revision History](history.md)
+
+
+----
+- [VBS](VBS.md)
+  * [Guides](VBS.md#guides)
+  * [Kids](VBS.md#kids)
+  * [Photos](VBS.md#photos)
+  * [Memory Verse](VBS.md#memory-verse)
+  * [Themes](VBS.md#themes)
+    - [Mon 6/5: Jesus is Holy](VBS.md#mon-65-jesus-is-holy)
+    - [Tue 6/6: Jesus is Trustworthy](VBS.md#tue-66-jesus-is-trustworthy)
+    - [Wed 6/7: Jesus is Forgiving](VBS.md#wed-67-jesus-is-forgiving)
+    - [Thu 6/8: Jesus is Worth Following](VBS.md#thu-68-jesus-is-worth-following)
+    - [Fri 6/9: Jesus is for Everyone](VBS.md#fri-69-jesus-is-for-everyone)
+  * [Schedule](VBS.md#schedule)
+  * [Schedule (Friday)](VBS.md#schedule-friday)
+  * [Maps](VBS.md#maps)
