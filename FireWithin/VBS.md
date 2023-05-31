@@ -5,18 +5,19 @@ Following Jesus changes EVERYTHING
 
 ### At a Glance
 
+- [Master Church VBS Folder](https://drive.google.com/drive/folders/1A1MvtN0m6lFwdxddtmXtMBxhDr4aaZIj)
 - [Guides](#guides)
-- [Kids](#kids)
 - [Photos](#photos)
+- [Kids](#kids)
 - [Memory Verse](#memory-verse)
+- [Schedule](#schedule)
+- [Schedule (Friday)](#schedule-friday)
 - [Themes](#themes)
   - [Mon 6/5: Jesus is Holy](#mon-65-jesus-is-holy)
   - [Tue 6/6: Jesus is Trustworthy](#tue-66-jesus-is-trustworthy)
   - [Wed 6/7: Jesus is Forgiving](#wed-67-jesus-is-forgiving)
   - [Thu 6/8: Jesus is Worth Following](#thu-68-jesus-is-worth-following)
   - [Fri 6/9: Jesus is for Everyone](#fri-69-jesus-is-for-everyone)
-- [Schedule](#schedule)
-- [Schedule (Friday)](#schedule-friday)
 - [Maps](#maps)
 
 
@@ -25,31 +26,171 @@ Following Jesus changes EVERYTHING
 3rd Grade
 
 - 3.1 Scrabble
-  - Randy Largent
-  - Jennifer Riker
+  * Randy Largin
+  * Ryan Thomas
+  * Chase Boushard
 - 3.2 <mark>Clue</mark>
-  - Kevin Bridges
-  - ? MORE
+  * Kevin Bridges
+  * Jason Gotway (out M, F)
+  * Mike Aden (w/child)
+  * Noah Jacob (Student)
 - 3.3 Life
-  - Diane Martin
-  - Sandy Berstnnnn
+  * Claire Bakley
+  * Diane Martin
+  * Sandy Ursch
 - 3.4 Sorry
-  - Mandy Biiiiiaaaaan
-  - Ryan Biiiiiaaaaan
+  * Mandi Thomas
+  * Jennifer Richert
+  * Carrie White
 - Last Year
   - Tony Simmons _(now in 4th Grade)_
   - Kevin Bridges
   - Tara Johnson
   - Jill Harrison
 
+**Guides Do This:**
+
+- Greet Warmly
+- Mark Attendance, both in Attendance Sheet (collected) -and- Roster
+  * for NEW registrations, ADD to roster & attendance list
+  * KEEP attendance list in red folder IN room
+- NO "official" group restroom breaks
+  * do on a single basis
+  * OR at group level if convenient (after rec)
+  * AVOID: Missions/Worship/Bible
+- Help out on Crafts
+- END 8:30pm
+  * dismissed from classrooms
+  * check parent security tag number with child
+    - REQUIRED: NO EXCEPTIONS
+    - Can accept phone-pic of security tag
+  * KEEP lanyard
+  * LEAVE group bag (with binders) IN ROOM
+
+
+## Photos
+
+- [Public](https://photos.app.goo.gl/HhFvw6TXzQm5BNrN6)
+- [Internal](https://photos.app.goo.gl/2bLKtXAWQ3znCUnq7)
+- [OLD 2022](https://photos.app.goo.gl/j6hFoAtSdDfyKt896)
+
+
 ## Kids
+
+559 Registered Kids, 247 Volenteers _(last year: 471/247)_
 
 **Attendance:**
 
 <!--?? UPDATE WITH NEW KIDS   -->
 
-1. {{book.cb1}}VBS_KIDS_Alaina{{book.cb2}}     Alaina {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Alexandra{{book.cb2}}  Alexandra {{book.cb3}}
+<table>
+
+<tr>
+  <td>  1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}} <br/>
+        2. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td>  3. {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 {{book.cb3}} <br/>
+        4. {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td>  5. {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3 {{book.cb3}} <br/>
+        6. {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td>  7. {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4 {{book.cb3}} <br/>
+        8. {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td>  9. {{book.cb1}}VBS_KIDS_Andrea5{{book.cb2}}     Andrea5 {{book.cb3}} <br/>
+       10. {{book.cb1}}VBS_KIDS_Petrie5{{book.cb2}}     Petrie5 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td> 11. {{book.cb1}}VBS_KIDS_Andrea6{{book.cb2}}     Andrea6 {{book.cb3}} <br/>
+       12. {{book.cb1}}VBS_KIDS_Petrie6{{book.cb2}}     Petrie6 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td> 13. {{book.cb1}}VBS_KIDS_Andrea7{{book.cb2}}     Andrea7 {{book.cb3}} <br/>
+       14. {{book.cb1}}VBS_KIDS_Petrie7{{book.cb2}}     Petrie7 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+<tr>
+  <td> 15. {{book.cb1}}VBS_KIDS_Andrea8{{book.cb2}}     Andrea8 {{book.cb3}} <br/>
+       16. {{book.cb1}}VBS_KIDS_Petrie8{{book.cb2}}     Petrie8 {{book.cb3}} </td>
+  
+  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
+  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
+</tr>
+
+</table>
+
+
+
+<!--?? OLD TABLE FORMAT
+
+
+<table>
+
+<tr><td>  1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td>  2. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+<tr><td>  2. {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td>  3. {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+<tr><td>  4. {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td>  5. {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+<tr><td>  6. {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td>  7. {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+<tr><td>  8. {{book.cb1}}VBS_KIDS_Andrea5{{book.cb2}}     Andrea5 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td>  9. {{book.cb1}}VBS_KIDS_Petrie5{{book.cb2}}     Petrie5 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+<tr><td> 10. {{book.cb1}}VBS_KIDS_Andrea6{{book.cb2}}     Andrea6 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td> 11. {{book.cb1}}VBS_KIDS_Petrie6{{book.cb2}}     Petrie6 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+           
+<tr><td> 12. {{book.cb1}}VBS_KIDS_Andrea7{{book.cb2}}     Andrea7 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td> 13. {{book.cb1}}VBS_KIDS_Petrie7{{book.cb2}}     Petrie7 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+           
+<tr><td> 14. {{book.cb1}}VBS_KIDS_Andrea8{{book.cb2}}     Andrea8 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
+<tr><td> 15. {{book.cb1}}VBS_KIDS_Petrie8{{book.cb2}}     Petrie8 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
+
+</table>
+
+   -->
+
+
+<!--?? OLD SIMPLE FORMAT
+
+1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}}      <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">
+1. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}}      <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">
 1. {{book.cb1}}VBS_KIDS_Cortland{{book.cb2}}   Cortland {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Elise{{book.cb2}}      Elise {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Gavin{{book.cb2}}      Gavin {{book.cb3}}
@@ -64,6 +205,8 @@ Following Jesus changes EVERYTHING
 1. {{book.cb1}}VBS_KIDS_Nora{{book.cb2}}       Nora {{book.cb3}}
 1. {{book.cb1}}VBS_KIDS_Persia{{book.cb2}}     Persia {{book.cb3}}
 
+   -->
+
 <!--?? UPDATE ROSTER PICS   -->
 
 <center>
@@ -76,17 +219,74 @@ Following Jesus changes EVERYTHING
   addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
 </script>
 
-## Photos
-
-- [Public](https://photos.app.goo.gl/HhFvw6TXzQm5BNrN6)
-- [Internal](https://photos.app.goo.gl/2bLKtXAWQ3znCUnq7)
-- [OLD 2022](https://photos.app.goo.gl/j6hFoAtSdDfyKt896)
 
 ## Memory Verse
 
 "Make your ways known to me, Lord;<br/>
 teach me your paths."<br/>
 ... [Psalms 25:4](https://www.bible.com/bible/1713/PSA.25.4.CSB)
+
+**BONUS Verses**
+
+- Mon 6/5: Jesus is Holy <br/>
+  "Then everyone who calls on the name of the Lord will be saved."
+  ... [Acts 2:21](https://www.bible.com/bible/1713/ACT.2.21.CSB)
+
+- Tue 6/6: Jesus is Trustworthy <br/>
+  "Do not fear, for I am with you; <br>
+  do not be afraid, for I am your God.  <br>
+  I will strengthen you;  <br>
+  I will help you;  <br>
+  I will hold on to you with my righteous right hand."
+  ... [Isaiah 41:10](https://www.bible.com/bible/1713/ISA.41.10.CSB)
+
+- Wed 6/7: Jesus is Forgiving <br/>
+  "In him we have redemption, the forgiveness of sins."
+  ... [Colossians 1:14](https://www.bible.com/bible/1713/COL.1.14.CSB)
+
+- Thu 6/8: Jesus is Worth Following <br/>
+  "There is salvation in no one else,  for there is no other name under heaven given to people by which we must be saved."
+  ... [Acts 4:12](https://www.bible.com/bible/1713/ACT.4.12.CSB)
+
+- Fri 6/9: Jesus is for Everyone <br/>
+  "All the prophets testify about him that through his name everyone who
+  believes in him receives forgiveness of sins."
+  ... [Acts 10:43](https://www.bible.com/bible/1713/ACT.10.43.CSB)<br/>
+
+
+## Schedule
+
+<mark>Guides: Be Ready AT 5:30pm</mark>
+
+<table>
+
+<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
+<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  6:15-6:40 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
+<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:40-7:10 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
+<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    7:10-7:30 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
+<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 7:30-7:40 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
+<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:40-8:00 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
+<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   8:00-8:20 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
+<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
+
+</table>
+
+
+## Schedule (Friday)
+
+<table>
+
+<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
+<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:10-6:35 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
+<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    6:35-6:55 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
+<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 6:55-7:05 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
+<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:05-7:25 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
+<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   7:25-7:45 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
+<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  7:45-8:15 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
+<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
+
+</table>
+
 
 ## Themes
 
@@ -182,7 +382,7 @@ I will hold on to you with my righteous right hand."
 "In him we have redemption, the forgiveness of sins."
 ... [Colossians 1:14](https://www.bible.com/bible/1713/COL.1.14.CSB)
 
-**Cornerstone Teaching** [John 20:19-21(https://cornerstonechapel.net/teaching/20151014)
+**Cornerstone Teaching** [John 20:19-21](https://cornerstonechapel.net/teaching/20151014)
 
 - All the points in our recent Small Group
 
@@ -247,58 +447,6 @@ believes in him receives forgiveness of sins."
     about Jesus, and they were saved.
   * The Holy Spirit came in response to their faith in Jesus, and they were
     baptized in the Spirit.
-
-
-
-## Schedule
-
-<mark>Guides: Be Ready AT 5:30pm</mark>
-
-<table>
-
-<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
-<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  6:15-6:40 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
-<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:40-7:10 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
-<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    7:10-7:30 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
-<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 7:30-7:40 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
-<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:40-8:00 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
-<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   8:00-8:20 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
-<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
-
-</table>
-
-- Greet Warmly
-- Mark Attendance, both in Attendance Sheet (collected) -and- Roster
-  * for NEW registrations, ADD to roster & attendance list
-  * KEEP attendance list in red folder IN room
-- NO "official" group restroom breaks
-  * do on a single basis
-  * OR at group level if convenient (after rec)
-  * AVOID: Missions/Worship/Bible
-- Help out on Crafts
-- END 8:30pm
-  * dismissed from classrooms
-  * check parent security tag number with child
-    - REQUIRED: NO EXCEPTIONS
-    - Can accept phone-pic of security tag
-  * KEEP lanyard
-  * LEAVE group bag (with binders) IN ROOM
-
-
-## Schedule (Friday)
-
-<table>
-
-<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
-<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:10-6:35 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
-<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    6:35-6:55 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
-<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 6:55-7:05 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
-<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:05-7:25 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
-<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   7:25-7:45 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
-<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  7:45-8:15 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
-<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
-
-</table>
 
 
 ## Maps

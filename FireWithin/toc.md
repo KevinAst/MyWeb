@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (17.z)
+### Fire Within (17.a)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -115,16 +115,17 @@
 
 ----
 - [VBS](VBS.md)
+  * [Master Church VBS Folder](https://drive.google.com/drive/folders/1A1MvtN0m6lFwdxddtmXtMBxhDr4aaZIj)
   * [Guides](VBS.md#guides)
-  * [Kids](VBS.md#kids)
   * [Photos](VBS.md#photos)
+  * [Kids](VBS.md#kids)
   * [Memory Verse](VBS.md#memory-verse)
+  * [Schedule](VBS.md#schedule)
+  * [Schedule (Friday)](VBS.md#schedule-friday)
   * [Themes](VBS.md#themes)
     - [Mon 6/5: Jesus is Holy](VBS.md#mon-65-jesus-is-holy)
     - [Tue 6/6: Jesus is Trustworthy](VBS.md#tue-66-jesus-is-trustworthy)
     - [Wed 6/7: Jesus is Forgiving](VBS.md#wed-67-jesus-is-forgiving)
     - [Thu 6/8: Jesus is Worth Following](VBS.md#thu-68-jesus-is-worth-following)
     - [Fri 6/9: Jesus is for Everyone](VBS.md#fri-69-jesus-is-for-everyone)
-  * [Schedule](VBS.md#schedule)
-  * [Schedule (Friday)](VBS.md#schedule-friday)
   * [Maps](VBS.md#maps)
