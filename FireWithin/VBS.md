@@ -84,8 +84,6 @@ _(last year: 471/247)_
 
 <!--?? UPDATE WITH NEW KIDS   -->
 
-<!--??$$ ONE MORE TRY   -->
-
 <table>
 
 <tr>
@@ -116,7 +114,7 @@ _(last year: 471/247)_
 
 </table>
 
-<!--?? TRY 2
+<!--?? TRY 2 - TRASH
 
 <table>
 
@@ -190,7 +188,7 @@ _(last year: 471/247)_
 
 
 
-<!--?? OLD TABLE FORMAT
+<!--?? OLD TABLE FORMAT - TRASH
 
 
 <table>
@@ -224,7 +222,7 @@ _(last year: 471/247)_
    -->
 
 
-<!--?? OLD SIMPLE FORMAT
+<!--?? OLD SIMPLE FORMAT - TRASH
 
 1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}}      <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">
 1. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}}      <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">
@@ -259,36 +257,45 @@ _(last year: 471/247)_
 
 ## Memory Verse
 
-"Make your ways known to me, Lord;<br/>
-teach me your paths."<br/>
-... [Psalms 25:4](https://www.bible.com/bible/1713/PSA.25.4.CSB)
+- **Main Verse**: you will be presented a set of "dog tags" in the worship rally!
+- **Bonus Verses**: each additional verse you memorize adds your name to a
+  drawing for a better chance at prizes at Friday worship rally _(the
+  more verses you memorize - the better your chances to win a prize)_!
+
+
+**Main Verse**
+
+> "Make your ways known to me, Lord;<br/>
+> teach me your paths."
+> ... [Psalms 25:4](https://www.bible.com/bible/1713/PSA.25.4.CSB)
+
 
 **BONUS Verses**
 
 - Mon 6/5: Jesus is Holy <br/>
-  "Then everyone who calls on the name of the Lord will be saved."
-  ... [Acts 2:21](https://www.bible.com/bible/1713/ACT.2.21.CSB)
+  > "Then everyone who calls on the name of the Lord will be saved."
+  > ... [Acts 2:21](https://www.bible.com/bible/1713/ACT.2.21.CSB)
 
 - Tue 6/6: Jesus is Trustworthy <br/>
-  "Do not fear, for I am with you; <br>
-  do not be afraid, for I am your God.  <br>
-  I will strengthen you;  <br>
-  I will help you;  <br>
-  I will hold on to you with my righteous right hand."
-  ... [Isaiah 41:10](https://www.bible.com/bible/1713/ISA.41.10.CSB)
+  > "Do not fear, for I am with you; <br>
+  > do not be afraid, for I am your God.  <br>
+  > I will strengthen you;  <br>
+  > I will help you;  <br>
+  > I will hold on to you with my righteous right hand."
+  > ... [Isaiah 41:10](https://www.bible.com/bible/1713/ISA.41.10.CSB)
 
 - Wed 6/7: Jesus is Forgiving <br/>
-  "In him we have redemption, the forgiveness of sins."
-  ... [Colossians 1:14](https://www.bible.com/bible/1713/COL.1.14.CSB)
+  > "In him we have redemption, the forgiveness of sins."
+  > ... [Colossians 1:14](https://www.bible.com/bible/1713/COL.1.14.CSB)
 
 - Thu 6/8: Jesus is Worth Following <br/>
-  "There is salvation in no one else,  for there is no other name under heaven given to people by which we must be saved."
-  ... [Acts 4:12](https://www.bible.com/bible/1713/ACT.4.12.CSB)
+  > "There is salvation in no one else,  for there is no other name under heaven given to people by which we must be saved."
+  > ... [Acts 4:12](https://www.bible.com/bible/1713/ACT.4.12.CSB)
 
 - Fri 6/9: Jesus is for Everyone <br/>
-  "All the prophets testify about him that through his name everyone who
-  believes in him receives forgiveness of sins."
-  ... [Acts 10:43](https://www.bible.com/bible/1713/ACT.10.43.CSB)<br/>
+  > "All the prophets testify about him that through his name everyone who
+  > believes in him receives forgiveness of sins."
+  > ... [Acts 10:43](https://www.bible.com/bible/1713/ACT.10.43.CSB)<br/>
 
 
 ## Schedule
@@ -338,7 +345,7 @@ teach me your paths."<br/>
 "Then everyone who calls on the name of the Lord will be saved."
 ... [Acts 2:21](https://www.bible.com/bible/1713/ACT.2.21.CSB)
 
-**Cornerstone Teaching** [Luke 4:31-5:11](https://cornerstonechapel.net/teaching/20140528/)
+**Cornerstone Teaching** [Sermon: Luke 4:31-5:11](https://cornerstonechapel.net/teaching/20140528/)
 
 - Has anyone seen the TV series called "The Chosen"
   > We see this scene in the first series
@@ -380,7 +387,7 @@ I will help you;  <br>
 I will hold on to you with my righteous right hand."
 ... [Isaiah 41:10](https://www.bible.com/bible/1713/ISA.41.10.CSB)
 
-**Cornerstone Teaching** [Matthew 13:53-14:36](https://cornerstonechapel.net/teaching/20130605/)
+**Cornerstone Teaching** [Sermon: Matthew 13:53-14:36](https://cornerstonechapel.net/teaching/20130605/)
 
 - Typical Fishing Boat was 7' X 20'
 - All the disciples were in the boat and a storm was raging
@@ -419,7 +426,7 @@ I will hold on to you with my righteous right hand."
 "In him we have redemption, the forgiveness of sins."
 ... [Colossians 1:14](https://www.bible.com/bible/1713/COL.1.14.CSB)
 
-**Cornerstone Teaching** [John 20:19-21](https://cornerstonechapel.net/teaching/20151014)
+**Cornerstone Teaching** [Sermon: John 20:19-21](https://cornerstonechapel.net/teaching/20151014)
 
 - All the points in our recent Small Group
 
@@ -428,14 +435,20 @@ I will hold on to you with my righteous right hand."
 ### Thu 6/8: Jesus is Worth Following
 
 **Context:** _Peter spoke boldly about Jesus_<br/>
-... [Acts 3:1-4](https://www.bible.com/bible/1713/ACT.3.1-4.CSB) [4:24](https://www.bible.com/bible/1713/ACT.4.24.CSB) <br/>
-NOTE: Verses seem to be off :-(
+... [Acts 3:1 - 4:24](https://www.bible.com/bible/1713/ACT.3.CSB) <br/>
 
 **Bonus Verse**:<br/>
 "There is salvation in no one else,  for there is no other name under heaven given to people by which we must be saved."
 ... [Acts 4:12](https://www.bible.com/bible/1713/ACT.4.12.CSB)
 
-**Cornerstone Teaching** N/A - verses seem to be off :-(
+**Cornerstone Teaching** [Sermon: Acts 4](https://cornerstonechapel.net/teaching/20151209/)
+
+- Many thousands of people believed in the the gospel message of the
+  life, death, burial, and resurrection of Jesus!
+- Salvation through Jesus alone is an exclusive claim win an inclusive aim!
+  **It is not narrowminded, because it is available to all!**
+- God is not looking for the most polished, best educated, He is looking
+  for people who are surrendered to Him.
 
 
 
@@ -452,7 +465,7 @@ NOTE: Verses seem to be off :-(
 believes in him receives forgiveness of sins."
 ... [Acts 10:43](https://www.bible.com/bible/1713/ACT.10.43.CSB)<br/>
 
-**Cornerstone Teaching** [Acts 10](https://cornerstonechapel.net/teaching/20160203)
+**Cornerstone Teaching** [Sermon: Acts 10](https://cornerstonechapel.net/teaching/20160203)
 
 - Cornelius
   * was a Gentile
