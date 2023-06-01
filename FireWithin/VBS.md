@@ -3,6 +3,9 @@
 
 Following Jesus changes EVERYTHING
 
+559 Kids, 247 Volunteers<br/>
+_(last year: 471/247)_
+
 ### At a Glance
 
 - [Master Church VBS Folder](https://drive.google.com/drive/folders/1A1MvtN0m6lFwdxddtmXtMBxhDr4aaZIj)
@@ -77,11 +80,43 @@ Following Jesus changes EVERYTHING
 
 ## Kids
 
-559 Registered Kids, 247 Volenteers _(last year: 471/247)_
-
 **Attendance:**
 
 <!--?? UPDATE WITH NEW KIDS   -->
+
+<!--??$$ ONE MORE TRY   -->
+
+<table>
+
+<tr>
+  <td>  {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}      Andrea                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}      Petrie                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_DooDee{{book.cb2}}      DooDee                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td>  {{book.cb1}}VBS_KIDS_Andrea1{{book.cb2}}     Andrea1                 <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Petrie1{{book.cb2}}     Petrie1                 <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_DooDee1{{book.cb2}}     DooDee1                 <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td>  {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 <br/> BigName   <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2                 <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_DooDee2{{book.cb2}}     DooDee2                 <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td> {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
+  <td> {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
+  <td> {{book.cb1}}VBS_KIDS_DooDee3{{book.cb2}}     DooDee3                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td> {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
+  <td> {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
+  <td> {{book.cb1}}VBS_KIDS_DooDee4{{book.cb2}}     DooDee4                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+
+</table>
+
+<!--?? TRY 2
 
 <table>
 
@@ -150,6 +185,8 @@ Following Jesus changes EVERYTHING
 </tr>
 
 </table>
+
+   -->
 
 
 
