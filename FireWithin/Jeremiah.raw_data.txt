@@ -2,136 +2,168 @@
 
 <tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
-?? NO John (used as template)
+*-------------------------------
+* 2019 Jeremiah Series (Sundays) WITH ?? Study Guide
+*-------------------------------
 
-?????????????? moused this complete Jeremiah in (since I had it)
-
-
-*----------------------------
-* 2022 John Series (Sundays) WITH Study Guide
-*----------------------------
-
-01/22/2023
-The God of Restoration
-John 21
-111/jhn.21.niv
-
-??? RAW DATA: ????????????????????????????????????????????????????????????????????????????????
-
+03/31/2019
 Lessons from Babylon
-JEREMIAH 49-52
-MARCH 31, 2019
-PASTOR GARY HAMRICK
+Jeremiah 49-52
+111/jer.49.niv
 
+03/17/2019
 Don't "Wine" About It
-JEREMIAH 46-48
-MARCH 17, 2019
-PASTOR GARY HAMRICK
+Jeremiah 46-48
+111/jer.46.niv
 
+03/10/2019
 Courage for the Discouraged
-JEREMIAH 45
-MARCH 10, 2019
-PASTOR GARY HAMRICK
+Jeremiah 45
+111/jer.45.niv
 
+03/03/2019
 The Remnant
-JEREMIAH 40-42
-MARCH 3, 2019
-PASTOR GARY HAMRICK
+Jeremiah 40-42
+111/jer.40.niv
 
+02/24/2019
 Don't Lose Sight of God
-JEREMIAH 36-39
-FEBRUARY 24, 2019
-PASTOR GARY HAMRICK
+Jeremiah 36-39
+111/jer.36.niv
 
+02/17/2019
 A Principled Life
-JEREMIAH 35
-FEBRUARY 17, 2019
-PASTOR GARY HAMRICK
+Jeremiah 35
+111/jer.35.niv
 
+02/10/2019
 Restoration
-JEREMIAH 29-31
-FEBRUARY 10, 2019
-PASTOR GARY HAMRICK
+Jeremiah 29-31
+111/jer.29.niv
 
+02/03/2019
 Stand for What is Right
-JEREMIAH 25-26
-FEBRUARY 3, 2019
-PASTOR GARY HAMRICK
+Jeremiah 25-26
+111/jer.25.niv
 
+01/27/2019
 Good Things Out of a Bad Place
-JEREMIAH 24
-JANUARY 27, 2019
-PASTOR GARY HAMRICK
+Jeremiah 24
+111/jer.24.niv
 
+01/20/2019
 Sanctity of Human Life
-JEREMIAH 18-19
-JANUARY 20, 2019
-PASTOR GARY HAMRICK
+Jeremiah 18-19
+111/jer.18.niv
 
+01/06/2019
 A Change of Heart
-JEREMIAH 16-17
-JANUARY 6, 2019
-PASTOR GARY HAMRICK
+Jeremiah 16-17
+111/jer.16.niv
 
+12/02/2018
 A Life that Bears God's Name
-JEREMIAH 13-15
-DECEMBER 2, 2018
-PASTOR GARY HAMRICK
+Jeremiah 13-15
+111/jer.13.niv
 
+11/25/2018
 The Right Way to See a Wrong World
-JEREMIAH 11-12
-NOVEMBER 25, 2018
-PASTOR GARY HAMRICK
+Jeremiah 11-12
+111/jer.11.niv
 
+11/18/2018
 A Prayer for Idol Hearts
-JEREMIAH 10
-NOVEMBER 18, 2018
-PASTOR GARY HAMRICK
+Jeremiah 10
+111/jer.10.niv
 
+11/11/2018
 Something to Boast About
-JEREMIAH 7-9
-NOVEMBER 11, 2018
-PASTOR GARY HAMRICK
+Jeremiah 7-9
+111/jer.7.niv
 
+11/04/2018
 Wisdom for the Crossroads
-JEREMIAH 6:16
-NOVEMBER 4, 2018
-PASTOR GARY HAMRICK
+Jeremiah 6:16
+111/jer.6.niv
 
+10/28/2018
 A Serious Wound
-JEREMIAH 3-6
-OCTOBER 28, 2018
-PASTOR GARY HAMRICK
+Jeremiah 3-6
+111/jer.3.niv
 
+10/21/2018
 Broken Cisterns
-JEREMIAH 1-2
-OCTOBER 21, 2018
-PASTOR GARY HAMRICK
+Jeremiah 1-2
+111/jer.1.niv
 
 
 
 *----------------------------
-* 2023 John Series (My Small Group)
+* 2023 Jeremiah Series (My Small Group)
 *----------------------------
 
-12/04/2022
-In the Beginning (pg 13)
-John 1:1-14
-111/jhn.1.niv
+06/04/2023
+Prepares
+Jeremiah 1:4-19
+111/jer.1.niv
 
-??? RAW DATA: ????????????????????????????????????????????????????????????????????????????????
+06/11/2023
+Judges
+Jeremiah 2:1-13
+111/jer.2.niv
 
-Session 1: Prepares (Jeremiah 1:4-19)
-Session 2: Judges (Jeremiah 2:1-13)
-Session 3: Personal (Jeremiah 7:1-15)
-Session 4: Exclusive (Jeremiah 12:1-13)
-Session 5: Shapes (Jeremiah 18:1-12)
-Session 6: Rules (Jeremiah 23:1-12)
-Session 7: Present (Jeremiah 29:4-14)
-Session 8: Redeems (Jeremiah 31:23-34)
-Session 9: Worthy (Jeremiah 35:5-19)
-Session 10: Speaks (Jeremiah 36:19-31)
-Session 11: Trustworthy (Jeremiah 42:7-22)
-Session 12: Just (Jeremiah 50:11-20,33-34)
-Session 13: Good (Lamentations 3:19-33)
+06/18/2023
+Personal
+Jeremiah 7:1-15
+111/jer.7.niv
+
+06/25/2023
+Exclusive
+Jeremiah 12:1-13
+111/jer.12.niv
+
+07/02/2023
+Shapes
+Jeremiah 18:1-12
+111/jer.18.niv
+
+07/09/2023
+Rules
+Jeremiah 23:1-12
+111/jer.23.niv
+
+07/16/2023
+Present
+Jeremiah 29:4-14
+111/jer.29.niv
+
+07/23/2023
+Redeems
+Jeremiah 31:23-34
+111/jer.31.niv
+
+07/30/2023
+Worthy
+Jeremiah 35:5-19
+111/jer.35.niv
+
+08/06/2023
+Speaks
+Jeremiah 36:19-31
+111/jer.36.niv
+
+08/13/2023
+Trustworthy
+Jeremiah 42:7-22
+111/jer.42.niv
+
+08/20/2023
+Just
+Jeremiah 50:11-20,33-34
+111/jer.50.niv
+
+08/27/2023
+Good
+Lamentations 3:19-33
+111/lam.3.niv
 
