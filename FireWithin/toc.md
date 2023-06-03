@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (17.a)
+### Fire Within (17.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -55,7 +55,7 @@
   * [*Ecclesiastes**](WorkInProgress.md)
   * [*Song of Solomon**](WorkInProgress.md)
   * [*Isaiah**](WorkInProgress.md)
-  * [*Jeremiah**](WorkInProgress.md)
+  * [Jeremiah](Jeremiah.md)
   * [*Lamentations**](WorkInProgress.md)
   * [*Ezekiel**](WorkInProgress.md)
   * [Daniel](Daniel.md)

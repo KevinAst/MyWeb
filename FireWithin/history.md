@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v17.a](#v17_a)   | Misc                 | *May 29, 2023*
+[v17.0](#v17_0)   | Jeremiah             | *June 3, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
 [v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
@@ -51,11 +51,13 @@ Release           | What                 | *When*
 
 <!-- ************************************************************* -->
 <br/>
-<h3 id="v17_a" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v17.a - Misc <i>(May 29, 2023)</i>
+<h3 id="v17_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v17.0 - Jeremiah <i>(June 3, 2023)</i>
 </h3>
 <br/>
 
+- Added {{book.Jeremiah}} to my Study Guide, done in conjunction with
+  my local Church's Small Group _(cooresponding to this time)_.
 - Fixed ALL scripture links _(YouVersion URL parms have changed)_.
 - Added {{book.Easter}} Speical Events.
 
