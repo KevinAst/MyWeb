@@ -123,6 +123,7 @@
   * [Schedule](VBS.md#schedule)
   * [Schedule (Friday)](VBS.md#schedule-friday)
   * [Themes](VBS.md#themes)
+    - [Orientation](VBS.md#orientation)
     - [Mon 6/5: Jesus is Holy](VBS.md#mon-65-jesus-is-holy)
     - [Tue 6/6: Jesus is Trustworthy](VBS.md#tue-66-jesus-is-trustworthy)
     - [Wed 6/7: Jesus is Forgiving](VBS.md#wed-67-jesus-is-forgiving)

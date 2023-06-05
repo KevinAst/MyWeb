@@ -3,7 +3,7 @@
 
 Following Jesus changes EVERYTHING
 
-559 Kids, 247 Volunteers<br/>
+591 Kids, 247 Volunteers<br/>
 _(last year: 471/247)_
 
 ### At a Glance
@@ -16,6 +16,7 @@ _(last year: 471/247)_
 - [Schedule](#schedule)
 - [Schedule (Friday)](#schedule-friday)
 - [Themes](#themes)
+  - [Orientation](#orientation)
   - [Mon 6/5: Jesus is Holy](#mon-65-jesus-is-holy)
   - [Tue 6/6: Jesus is Trustworthy](#tue-66-jesus-is-trustworthy)
   - [Wed 6/7: Jesus is Forgiving](#wed-67-jesus-is-forgiving)
@@ -37,6 +38,9 @@ _(last year: 471/247)_
   * Jason Gotway (out M, F)
   * Mike Aden (w/child)
   * Noah Jacob (Student)
+  * Teachers:
+    - Lori Nazetta (Bible Study)
+    - Steve & Karen Trask (Missions)
 - 3.3 Life
   * Claire Bakley
   * Diane Martin
@@ -53,6 +57,7 @@ _(last year: 471/247)_
 
 **Guides Do This:**
 
+- Be in room at 5:30 (start: 5:45)
 - Greet Warmly
 - Mark Attendance, both in Attendance Sheet (collected) -and- Roster
   * for NEW registrations, ADD to roster & attendance list
@@ -333,6 +338,51 @@ _(last year: 471/247)_
 
 
 ## Themes
+
+********************************************************************************
+### Orientation
+
+- <mark>PREP</mark>: write Guide Names on the Board - write "main" memory verse
+
+
+- <mark>6pm-6:10pm</mark>
+
+
+- <mark>Welcome</mark> Welcome "Clue"!  We are so glad to see each one of you in this years VBS!
+  * How many of you have been at our VBS in the past?
+  * It is really exciting - we have almost 600 kids in our event this year!
+
+
+- <mark>Clue</mark> This year we have a "game" theme - and our group is called "Clue"!
+
+  * How many of you have played "Clue"?
+  * YOU KNOW - that classic "Who done it game"
+    ... _Colonel Mustard with the Candle Stick in the Dining Room_
+  * It's a favorite of my grand kids
+
+
+- <mark>Guides</mark> Well, this year the Clue group has 4 Guides _(I've written our names on the board)_
+
+  * Introduce each, and MY NAME is "Mr. B."
+  * Our job is to help out in any way we can
+  * With the primary goal of getting you where you need to be for each event
+    - those who have been with us before know that each activity is in a different location
+    - the challenge is that we have 600 kids doing this at the same time
+    - so it is important to stay with your group
+    - we will be moving in a straight line (single file)
+    - and we have a flag at the head of the group
+
+
+- <mark>Memory Verses</mark> Like other years, we have a memory verse for you to work on.
+
+  * when you feel like you are ready, you can find a Guide and recite it to them
+  * and then you will be recognized in the worship rally, and get a prize _(a set of "dog tags" that you can wear the rest of the week)_!
+  * OK something NEW this year is we also have "Bonus Memory Verses" _(one for each day)_.
+    - just like the primary verse, you can recite it to your Guide.
+    - for every bonus verse you memorize, your name will be added to a pot
+      and at the end of the week there will be a drawing
+    - so the more memory verses you do, the better your chances for an extra prize!
+
 
 ********************************************************************************
 ### Mon 6/5: Jesus is Holy
