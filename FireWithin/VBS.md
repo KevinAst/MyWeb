@@ -91,8 +91,8 @@ _(last year: 471/247)_
 
 <tr>
   <td>  {{book.cb1}}VBS_KIDS_Barrett{{book.cb2}}     Barrett <br/> Oliver             <br/> <img class="diagram" src="VBS_Kids_Barrett.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Camden (Cam) <br/> Alexander     <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     Carter <br/> Foehrkalb           <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Cam     <br/> Alexander          <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     Carter  <br/> Foehrkalb          <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
   <td>  {{book.cb1}}VBS_KIDS_Carter2{{book.cb2}}     Carter <br/> Vasatka             <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px">  {{book.cb3}} </td>
