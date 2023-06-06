@@ -87,167 +87,49 @@ _(last year: 471/247)_
 
 **Attendance:**
 
-<!--?? UPDATE WITH NEW KIDS   -->
-
 <table>
 
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}      Andrea                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}      Petrie                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_DooDee{{book.cb2}}      DooDee                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Barrett{{book.cb2}}     Barrett <br/> Oliver             <br/> <img class="diagram" src="VBS_Kids_Barrett.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Camden (Cam) <br/> Alexander     <br/> <img class="diagram" src="NA1" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     Carter <br/> Foehrkalb           <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Andrea1{{book.cb2}}     Andrea1                 <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Petrie1{{book.cb2}}     Petrie1                 <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_DooDee1{{book.cb2}}     DooDee1                 <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Carter2{{book.cb2}}     Carter <br/> Vasatka             <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Connor1{{book.cb2}}     Connor <br/> Lindsay             <br/> <img class="diagram" src="VBS_Kids_Connor1.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Connor2{{book.cb2}}     Connor <br/> Munro               <br/> <img class="diagram" src="VBS_Kids_Connor2.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 <br/> BigName   <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2                 <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_DooDee2{{book.cb2}}     DooDee2                 <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Emric{{book.cb2}}       Emric <br/> Gotway               <br/> <img class="diagram" src="VBS_Kids_Emric.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Garrett{{book.cb2}}     Garrett <br/> Aden               <br/> <img class="diagram" src="VBS_Kids_Garrett.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA2{{book.cb2}}         Henry <br/> Crippen              <br/> <img class="diagram" src="NA2" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td> {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
-  <td> {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
-  <td> {{book.cb1}}VBS_KIDS_DooDee3{{book.cb2}}     DooDee3                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_James{{book.cb2}}       James <br/> Hepp                 <br/> <img class="diagram" src="VBS_Kids_James.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Jett{{book.cb2}}        Jett <br/> Nazetta               <br/> <img class="diagram" src="VBS_Kids_Jett.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Liam{{book.cb2}}        Liam <br/> Schlechte             <br/> <img class="diagram" src="VBS_Kids_Liam.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td> {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4                  <br/> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">  {{book.cb3}} </td>
-  <td> {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4                  <br/> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">  {{book.cb3}} </td>
-  <td> {{book.cb1}}VBS_KIDS_DooDee4{{book.cb2}}     DooDee4                  <br/> <img class="diagram" src="VBS_Kids_DooDee.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA3{{book.cb2}}         Luke <br/> Warner                <br/> <img class="diagram" src="NA3" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA4{{book.cb2}}         Miles <br/> Coleman              <br/> <img class="diagram" src="NA4" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA5{{book.cb2}}         Parker <br/> Coleman             <br/> <img class="diagram" src="NA5" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td>  {{book.cb1}}VBS_KIDS_NA6{{book.cb2}}         Ronan <br/> McGinnis             <br/> <img class="diagram" src="NA6" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Samuel{{book.cb2}}      Samuel <br/> Conforti            <br/> <img class="diagram" src="VBS_Kids_Samuel.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Vince{{book.cb2}}       Vince <br/> Gunn                 <br/> <img class="diagram" src="VBS_Kids_Vince.jpg" width="100px">  {{book.cb3}} </td>
+</tr>
+<tr>
+  <td>  {{book.cb1}}VBS_KIDS_Zane{{book.cb2}}        Zane <br/> Gedmin                <br/> <img class="diagram" src="VBS_Kids_Zane.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  &nbsp; </td>
+  <td>  &nbsp; </td>
 </tr>
 
 </table>
 
-<!--?? TRY 2 - TRASH
-
-<table>
-
-<tr>
-  <td>  1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}} <br/>
-        2. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td>  3. {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 {{book.cb3}} <br/>
-        4. {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td>  5. {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3 {{book.cb3}} <br/>
-        6. {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td>  7. {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4 {{book.cb3}} <br/>
-        8. {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td>  9. {{book.cb1}}VBS_KIDS_Andrea5{{book.cb2}}     Andrea5 {{book.cb3}} <br/>
-       10. {{book.cb1}}VBS_KIDS_Petrie5{{book.cb2}}     Petrie5 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td> 11. {{book.cb1}}VBS_KIDS_Andrea6{{book.cb2}}     Andrea6 {{book.cb3}} <br/>
-       12. {{book.cb1}}VBS_KIDS_Petrie6{{book.cb2}}     Petrie6 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td> 13. {{book.cb1}}VBS_KIDS_Andrea7{{book.cb2}}     Andrea7 {{book.cb3}} <br/>
-       14. {{book.cb1}}VBS_KIDS_Petrie7{{book.cb2}}     Petrie7 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-<tr>
-  <td> 15. {{book.cb1}}VBS_KIDS_Andrea8{{book.cb2}}     Andrea8 {{book.cb3}} <br/>
-       16. {{book.cb1}}VBS_KIDS_Petrie8{{book.cb2}}     Petrie8 {{book.cb3}} </td>
-  
-  <td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td>
-  <td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td>
-</tr>
-
-</table>
-
-   -->
 
 
-
-<!--?? OLD TABLE FORMAT - TRASH
-
-
-<table>
-
-<tr><td>  1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td>  2. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-<tr><td>  2. {{book.cb1}}VBS_KIDS_Andrea2{{book.cb2}}     Andrea2 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td>  3. {{book.cb1}}VBS_KIDS_Petrie2{{book.cb2}}     Petrie2 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-<tr><td>  4. {{book.cb1}}VBS_KIDS_Andrea3{{book.cb2}}     Andrea3 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td>  5. {{book.cb1}}VBS_KIDS_Petrie3{{book.cb2}}     Petrie3 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-<tr><td>  6. {{book.cb1}}VBS_KIDS_Andrea4{{book.cb2}}     Andrea4 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td>  7. {{book.cb1}}VBS_KIDS_Petrie4{{book.cb2}}     Petrie4 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-<tr><td>  8. {{book.cb1}}VBS_KIDS_Andrea5{{book.cb2}}     Andrea5 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td>  9. {{book.cb1}}VBS_KIDS_Petrie5{{book.cb2}}     Petrie5 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-<tr><td> 10. {{book.cb1}}VBS_KIDS_Andrea6{{book.cb2}}     Andrea6 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td> 11. {{book.cb1}}VBS_KIDS_Petrie6{{book.cb2}}     Petrie6 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-           
-<tr><td> 12. {{book.cb1}}VBS_KIDS_Andrea7{{book.cb2}}     Andrea7 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td> 13. {{book.cb1}}VBS_KIDS_Petrie7{{book.cb2}}     Petrie7 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-           
-<tr><td> 14. {{book.cb1}}VBS_KIDS_Andrea8{{book.cb2}}     Andrea8 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">   </td> </tr>
-<tr><td> 15. {{book.cb1}}VBS_KIDS_Petrie8{{book.cb2}}     Petrie8 {{book.cb3}}     </td><td> <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">   </td> </tr>
-
-</table>
-
-   -->
-
-
-<!--?? OLD SIMPLE FORMAT - TRASH
-
-1. {{book.cb1}}VBS_KIDS_Andrea{{book.cb2}}     Andrea {{book.cb3}}      <img class="diagram" src="VBS_Kids_Andrea.jpg" width="100px">
-1. {{book.cb1}}VBS_KIDS_Petrie{{book.cb2}}     Petrie {{book.cb3}}      <img class="diagram" src="VBS_Kids_Petrie.jpg" width="100px">
-1. {{book.cb1}}VBS_KIDS_Cortland{{book.cb2}}   Cortland {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Elise{{book.cb2}}      Elise {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Gavin{{book.cb2}}      Gavin {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Genevieve{{book.cb2}}  Genevieve {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Heather{{book.cb2}}    Heather? {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Hunter{{book.cb2}}     Hunter {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Jacob{{book.cb2}}      Jacob {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Kaylee{{book.cb2}}     Kaylee {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Landon{{book.cb2}}     Landon {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Madelyn{{book.cb2}}    Madelyn {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Neema{{book.cb2}}      Neema {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Nora{{book.cb2}}       Nora {{book.cb3}}
-1. {{book.cb1}}VBS_KIDS_Persia{{book.cb2}}     Persia {{book.cb3}}
-
-   -->
-
-<!--?? UPDATE ROSTER PICS   -->
+<!-- TRASH ROSTER (TRASH - NO LONGER USED)
 
 <center>
   <figure>
@@ -258,6 +140,8 @@ _(last year: 471/247)_
 <script>
   addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
 </script>
+
+    -->
 
 
 ## Memory Verse
@@ -560,7 +444,7 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map1', 'VBS_map1.png', 75);
+  addZoomableImage('VBS_map1', 'VBS_map1.jpg', 75);
 </script>
 
 <center>
@@ -570,7 +454,7 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map2', 'VBS_map2.png', 75);
+  addZoomableImage('VBS_map2', 'VBS_map2.jpg', 75);
 </script>
 
 <center>
@@ -580,7 +464,7 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map3', 'VBS_map3.png', 75);
+  addZoomableImage('VBS_map3', 'VBS_map3.jpg', 75);
 </script>
 
 
