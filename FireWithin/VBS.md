@@ -35,8 +35,8 @@ _(last year: 471/247)_
   * Chase Boushard
 - 3.2 <mark>Clue</mark>
   * Kevin Bridges
-  * Jason Gotway (out M) - Cyber Security
-  * Mike Aden (w/child) - Purina Farms
+  * Jason Gotway (Emric) - Cyber Security
+  * Mike Aden (Garrett) - Purina Farms
   * Noah Jacob (Student)
   * Teachers:
     - Lori Nazetta (Bible Study)
@@ -55,6 +55,7 @@ _(last year: 471/247)_
   - Tara Johnson
   - Jill Harrison
 
+<!-- KEEP NOTES ON FIRST DAY ONLY
 **Guides Do This:**
 
 - Be in room at 5:30 (start: 5:45)
@@ -74,6 +75,8 @@ _(last year: 471/247)_
     - Can accept phone-pic of security tag
   * KEEP lanyard
   * LEAVE group bag (with binders) IN ROOM
+
+ -->
 
 
 ## Photos
