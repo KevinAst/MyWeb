@@ -91,11 +91,11 @@ _(last year: 471/247)_
 
 <tr>
   <td>  {{book.cb1}}VBS_KIDS_Barrett{{book.cb2}}     Barrett <br/> Oliver             <br/> <img class="diagram" src="VBS_Kids_Barrett.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Cam     <br/> Alexander          <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     Carter  <br/> Foehrkalb          <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Cam     <br/> Alexander          <br/> <img class="diagram" src="VBS_Kids_Cam.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Carter2{{book.cb2}}     Carter  <br/> Foehrkalb          <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Carter2{{book.cb2}}     Carter <br/> Vasatka             <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     Carter <br/> Vasatka             <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
   <td>  {{book.cb1}}VBS_KIDS_Connor1{{book.cb2}}     Connor <br/> Lindsay             <br/> <img class="diagram" src="VBS_Kids_Connor1.jpg" width="100px">  {{book.cb3}} </td>
   <td>  {{book.cb1}}VBS_KIDS_Connor2{{book.cb2}}     Connor <br/> Munro               <br/> <img class="diagram" src="VBS_Kids_Connor2.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
@@ -110,7 +110,7 @@ _(last year: 471/247)_
   <td>  {{book.cb1}}VBS_KIDS_Liam{{book.cb2}}        Liam <br/> Schlechte             <br/> <img class="diagram" src="VBS_Kids_Liam.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_NA3{{book.cb2}}         Luke <br/> Warner                <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA3{{book.cb2}}         Luke <br/> Warner                <br/> <img class="diagram" src="VBS_Kids_Luke.jpg" width="100px">  {{book.cb3}} </td>
   <td>  {{book.cb1}}VBS_KIDS_NA4{{book.cb2}}         Miles <br/> Coleman              <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
   <td>  {{book.cb1}}VBS_KIDS_NA5{{book.cb2}}         Parker <br/> Coleman             <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
