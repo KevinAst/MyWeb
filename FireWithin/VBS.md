@@ -115,7 +115,7 @@ _(last year: 471/247)_
 <tr>
   <td>  {{book.cb1}}VBS_KIDS_NA3{{book.cb2}}         Luke <!-- <br/> Warner -->                <br/> <img class="diagram" src="VBS_Kids_Luke.jpg" width="100px">  {{book.cb3}} </td>
   <td>  {{book.cb1}}VBS_KIDS_NA4{{book.cb2}}         Miles <!-- <br/> Coleman -->              <br/> <img class="diagram" src="VBS_Kids_Miles.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA5{{book.cb2}}         Parker <!-- <br/> Coleman -->             <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  {{book.cb1}}VBS_KIDS_NA5{{book.cb2}}         Parker <!-- <br/> Coleman -->             <br/> <img class="diagram" src="VBS_Kids_Parker.jpg" width="100px">  {{book.cb3}} </td>
 </tr>
 <tr>
   <td>  {{book.cb1}}VBS_KIDS_NA6{{book.cb2}}         Ronan <!-- <br/> McGinnis -->             <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
