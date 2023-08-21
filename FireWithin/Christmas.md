@@ -1,11 +1,4 @@
-
-# Christmas
-
 <script type="text/javascript" src="utils.js"></script>
-
-### At a Glance
-
-- [Christmas Series](#christmas-series)
 
 ## Christmas Series
 

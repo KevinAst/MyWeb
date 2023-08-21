@@ -1,6 +1,6 @@
 # Specials
 
-Holder for Special Events:
+Special Events and Guest Speakers:
 
 - {{book.Thanksgiving}}
 - {{book.Christmas}}

@@ -2,11 +2,6 @@
 
 <script type="text/javascript" src="utils.js"></script>
 
-### At a Glance
-
-- [Misc](#misc)
-- [Thanksgiving Series](#thanksgiving-series)
-
 ## Misc
 
 - [The True Story of Thanksgiving by Rush Limbaugh](https://officialrushlimbaugh.com/the-true-story-of-thanksgiving/)

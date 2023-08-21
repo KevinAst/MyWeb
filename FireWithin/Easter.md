@@ -1,10 +1,4 @@
-# Easter
-
 <script type="text/javascript" src="utils.js"></script>
-
-### At a Glance
-
-- [Easter Series](#easter-series)
 
 ## Easter Series
 

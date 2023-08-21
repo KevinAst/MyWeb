@@ -1,11 +1,4 @@
-# Election Day
-
 <script type="text/javascript" src="utils.js"></script>
-
-### At a Glance
-
-- [Election Day Sermons](#election-day-sermons)
-
 
 ## Election Day Sermons
 
