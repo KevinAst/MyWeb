@@ -1,4 +1,8 @@
-# Special Events
+# Specials
 
-Holder for Special Events (Thanksgiving, Christmas, etc.).
+Holder for Special Events:
 
+- {{book.Thanksgiving}}
+- {{book.Christmas}}
+- {{book.Easter}}
+- {{book.Election}}

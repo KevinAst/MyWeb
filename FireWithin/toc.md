@@ -103,11 +103,11 @@
   * [Revelation](Revelation.md)
 
 ----
-- [Special Events](SpecialEvents.md)
-  * [Election](Election.md)
+- [Specials](SpecialEvents.md)
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
   * [Easter](Easter.md)
+  * [Election](Election.md)
 
 ----
 * [Revision History](history.md)

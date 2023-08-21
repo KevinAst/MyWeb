@@ -34,7 +34,7 @@ Release           | What                 | *When*
 [v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
 [v14.0](#v14_0)   | John                 | *Nov 30, 2022*
 [v13.0](#v13_0)   | Exodus               | *Nov 24, 2022*
-[v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
+[v12.0](#v12_0)   | Specials             | *Nov 23, 2022*
 [v11.0](#v11_0)   | Minor Prophets       | *Oct 25, 2022*
 [v10.0](#v10_0)   | Genesis              | *Aug 17, 2022*
 [v9.0](#v9_0)     | Galatians            | *May 3, 2022*
@@ -140,11 +140,11 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v12_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v12.0 - Special Events <i>(Nov 23, 2022)</i>
+  v12.0 - Specials <i>(Nov 23, 2022)</i>
 </h3>
 <br/>
 
-- Added Speical Events to my Study Guide ({{book.Thanksgiving}},
+- Added Specials to my Study Guide ({{book.Thanksgiving}},
   {{book.Christmas}}).
 
   Merry Christmas!
