@@ -6,6 +6,7 @@
 
 - [Life](#life)
 - [Election Day Sermons](#election-day-sermons)
+- [LGBTQ](#lgbtq)
 
 
 ## Life
@@ -72,6 +73,36 @@
 
 </table>
 </div>
+
+
+## LGBTQ
+
+{{book.CornerstoneChapel}}
+
+<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
+<div class="phone">
+<table>
+
+<tr><td> {{book.cb1}}20120205{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120205{{book.cst2}} The Cost of Compromise                           {{book.cst3}} <br/> {{book.b1}}111/gen.18.niv  {{book.b2}} Genesis 18-19  {{book.b3}}                        </td><td> 02/05/2012 <br/> {{book.csg1}}20120205.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20150705{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20150705{{book.cst2}} America, Will You Stand?                         {{book.cst3}} <br/>                                                                                          </td><td> 07/05/2015 <br/>                                        </td>
+<tr><td> {{book.cb1}}20220727{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220727{{book.cst2}} Evening Special with Patti Height                {{book.cst3}} <br/> <a href="https://outofegyptministries.org/" target="_blank">Out of Egypt Ministries</a>  </td><td> 07/27/2022 <br/>                                        </td>
+<tr><td> {{book.cb1}}20230604{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20230604{{book.cst2}} A Biblical Response to the 'Transing' of America {{book.cst3}} <br/> {{book.b1}}111/rom.1.niv   {{book.b2}} Romans 1:18-28 {{book.b3}}                        </td><td> 06/04/2023 <br/> {{book.csg1}}20230604.pdf{{book.csg2}} </td>
+
+</table>
+</div>
+
+<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
+<div class="desktop">
+<table>
+
+<tr><td> {{book.cb1}}20120205{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120205{{book.cst2}} The Cost of Compromise                           {{book.cst3}} </td><td> {{book.b1}}111/gen.18.niv  {{book.b2}} Genesis 18-19  {{book.b3}}                        </td><td> 02/05/2012 </td><td> {{book.csg1}}20120205.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20150705{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20150705{{book.cst2}} America, Will You Stand?                         {{book.cst3}} </td><td>                                                                                          </td><td> 07/05/2015 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20220727{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220727{{book.cst2}} Evening Special with Patti Height                {{book.cst3}} </td><td> <a href="https://outofegyptministries.org/" target="_blank">Out of Egypt Ministries</a>  </td><td> 07/27/2022 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20230604{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20230604{{book.cst2}} A Biblical Response to the 'Transing' of America {{book.cst3}} </td><td> {{book.b1}}111/rom.1.niv   {{book.b2}} Romans 1:18-28 {{book.b3}}                        </td><td> 06/04/2023 </td><td> {{book.csg1}}20230604.pdf{{book.csg2}} </td>
+
+</table>
+</div>
+
 
 
 <script>

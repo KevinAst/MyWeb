@@ -2,8 +2,38 @@
 
 <tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
+
 *----------------------------
-* Election Day Sermons SELECTED Study Guides
+* Life
+*----------------------------
+
+01/20/2019
+Sanctity of Human Life
+Jeremiah 18-19 
+111/jer.18.niv
+
+01/17/2021
+For the Love of Children
+Matthew 18-19
+111/mat.18.niv
+
+01/23/2022
+The Value of Life
+Psalm 103:2-4
+111/psa.103.niv
+
+11/13/2022
+LIFE Principles
+NO SCRIPTURE
+none
+
+>> FOR ABOVE:
+Ryan Bomberger 
+https://RadianceFoundation.org/
+
+
+*----------------------------
+* Election Day Sermons
 *----------------------------
 
 11/08/2020
@@ -43,40 +73,29 @@ none
 
 
 *----------------------------
-* Life SELECTED Study Guides
+* LGBTQ / Gay / Homosexual
 *----------------------------
 
-01/20/2019
-Sanctity of Human Life
-Jeremiah 18-19 
-111/jer.18.niv
+02/05/2012
+The Cost of Compromise
+Genesis 18-19
+111/gen.18.niv
 
-01/17/2021
-For the Love of Children
-Matthew 18-19
-111/mat.18.niv
-
-01/23/2022
-The Value of Life
-Psalm 103:2-4
-111/psa.103.niv
-
-11/13/2022
-LIFE Principles
+07/05/2015
+America, Will You Stand?
 NO SCRIPTURE
 none
 
->> FOR ABOVE:
-Ryan Bomberger 
-https://RadianceFoundation.org/
+07/27/2022
+Evening Special with Patti Height
+NO SCRIPTURE
+none
 
-??????? TEMP TEMP TEMP ???????????????????????????????????
+>> FOR ABOVE (Patti Height)
+Out of Egypt Ministries
+https://outofegyptministries.org/
 
-<tr><td> {{book.cb1}}20190120{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life   {{book.cst3}} <br/> {{book.b1}}111/jer.18.niv  {{book.b2}} Jeremiah 18-19 {{book.b3}} </td><td> 01/20/2019 <br/> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20210117{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210117{{book.cst2}} For the Love of Children {{book.cst3}} <br/> {{book.b1}}111/mat.18.niv  {{book.b2}} Matthew 18-19  {{book.b3}} </td><td> 01/17/2021 <br/> {{book.csg1}}20210117.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20220123{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220123{{book.cst2}} The Value of Life        {{book.cst3}} <br/> {{book.b1}}111/psa.103.niv {{book.b2}} Psalm 103:2-4  {{book.b3}} </td><td> 01/23/2022 <br/> {{book.csg1}}20220123.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20221113{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20221113{{book.cst2}} LIFE Principles          {{book.cst3}} <br/> {{book.b1}}none            {{book.b2}} NO SCRIPTURE   {{book.b3}} </td><td> 11/13/2022 <br/> {{book.csg1}}20221113.pdf{{book.csg2}} </td>
-
-
-
-<a href="https://RadianceFoundation.org/" target="_blank"> Ryan Bomberger</a>
+06/04/2023
+A Biblical Response to the 'Transing' of America
+Romans 1:18-28
+111/rom.1.niv

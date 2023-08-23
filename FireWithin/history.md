@@ -62,6 +62,7 @@ Release           | What                 | *When*
 - Added {{book.CurrentEvents}} _(under {{book.SpecialEvents}})_ with the following:
   * {{book.Life}}
   * {{book.ElectionDaySermons}}
+  * {{book.LGBTQ}}
   * ?? more
 
 <!-- ************************************************************* -->
