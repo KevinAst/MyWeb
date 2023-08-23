@@ -1,8 +1,9 @@
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+
 ********************************************************************************
 * Thanksgiving
 ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
 11/28/2021
 Giving Thanks to God: A Progress Report on the Church
@@ -70,15 +71,45 @@ NO SCRIPTURE
 * Christmas
 ********************************************************************************
 
+12/25/2022
+God’s Gift to the World
+Matthew 1
+111/mat.1.niv
+
+12/24/2022
+A Census, An Angel, and a Star
+NO SCRIPTURE
+none
+
+12/11/2022
+Lessons From A Teenager
+Luke 1
+111/luk.1.niv
+
 12/24/2021
 The Baby Who Changed the World
 Matthew 2
 111/mat.2.niv
 
+12/19/2021
+Prophecies about the First Christmas
+Matthew 1-2
+111/mat.1.niv
+
 12/24/2020
 Season of Hope
 Matthew 1
 111/mat.1.niv
+
+12/20/2020
+Season of Joy
+Luke 2:8-11
+111/luk.2.niv
+
+12/13/2020
+Season of Peace
+Luke 2:8-17
+111/luk.2.niv
 
 12/24/2019
 God's Gift to the World
@@ -114,6 +145,16 @@ NO SCRIPTURE
 Shining the Light to Jesus
 NO SCRIPTURE
 111/act.10.niv
+
+12/24/2015
+Christmas Peace
+Luke 2:14
+111/luk.2.niv
+
+12/20/2015
+The Real Meaning of Hanukkah
+John 10:22-23
+111/jhn.10.niv
 
 12/24/2014
 Joy to the World
@@ -174,4 +215,3 @@ NO SCRIPTURE
 Taking the Right Approach to Christmas
 Luke 1-2
 111/luk.1.niv
-
