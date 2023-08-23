@@ -41,3 +41,42 @@ Election Day Sermon
 NO SCRIPTURE
 none
 
+
+*----------------------------
+* Life SELECTED Study Guides
+*----------------------------
+
+01/20/2019
+Sanctity of Human Life
+Jeremiah 18-19 
+111/jer.18.niv
+
+01/17/2021
+For the Love of Children
+Matthew 18-19
+111/mat.18.niv
+
+01/23/2022
+The Value of Life
+Psalm 103:2-4
+111/psa.103.niv
+
+11/13/2022
+LIFE Principles
+NO SCRIPTURE
+none
+
+>> FOR ABOVE:
+Ryan Bomberger 
+https://RadianceFoundation.org/
+
+??????? TEMP TEMP TEMP ???????????????????????????????????
+
+<tr><td> {{book.cb1}}20190120{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life   {{book.cst3}} <br/> {{book.b1}}111/jer.18.niv  {{book.b2}} Jeremiah 18-19 {{book.b3}} </td><td> 01/20/2019 <br/> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20210117{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210117{{book.cst2}} For the Love of Children {{book.cst3}} <br/> {{book.b1}}111/mat.18.niv  {{book.b2}} Matthew 18-19  {{book.b3}} </td><td> 01/17/2021 <br/> {{book.csg1}}20210117.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20220123{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220123{{book.cst2}} The Value of Life        {{book.cst3}} <br/> {{book.b1}}111/psa.103.niv {{book.b2}} Psalm 103:2-4  {{book.b3}} </td><td> 01/23/2022 <br/> {{book.csg1}}20220123.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20221113{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20221113{{book.cst2}} LIFE Principles          {{book.cst3}} <br/> {{book.b1}}none            {{book.b2}} NO SCRIPTURE   {{book.b3}} </td><td> 11/13/2022 <br/> {{book.csg1}}20221113.pdf{{book.csg2}} </td>
+
+
+
+<a href="https://RadianceFoundation.org/" target="_blank"> Ryan Bomberger</a>

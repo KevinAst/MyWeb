@@ -59,8 +59,10 @@ Release           | What                 | *When*
 
 - Added {{book.Lamentations}} to my Study Guide, done in conjunction with
   my local Church's Small Group _(cooresponding to this time)_.
-- Added more {{book.SpecialEvents}}
-  * ?? {{book.Easter}} ?? retrofit this to what my other work was
+- Added {{book.CurrentEvents}} _(under {{book.SpecialEvents}})_ with the following:
+  * {{book.Life}}
+  * {{book.ElectionDaySermons}}
+  * ?? more
 
 <!-- ************************************************************* -->
 <br/>

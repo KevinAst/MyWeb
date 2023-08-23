@@ -4,7 +4,37 @@
 
 ### At a Glance
 
+- [Life](#life)
 - [Election Day Sermons](#election-day-sermons)
+
+
+## Life
+
+{{book.CornerstoneChapel}}
+
+<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
+<div class="phone">
+<table>
+
+<tr><td> {{book.cb1}}20190120{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life   {{book.cst3}} <br/> {{book.b1}}111/jer.18.niv  {{book.b2}} Jeremiah 18-19 {{book.b3}}             </td><td> 01/20/2019 <br/> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20210117{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210117{{book.cst2}} For the Love of Children {{book.cst3}} <br/> {{book.b1}}111/mat.18.niv  {{book.b2}} Matthew 18-19  {{book.b3}}             </td><td> 01/17/2021 <br/> {{book.csg1}}20210117.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20220123{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220123{{book.cst2}} The Value of Life        {{book.cst3}} <br/> {{book.b1}}111/psa.103.niv {{book.b2}} Psalm 103:2-4  {{book.b3}}             </td><td> 01/23/2022 <br/>                                        </td>
+<tr><td> {{book.cb1}}20221113{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20221113{{book.cst2}} LIFE Principles          {{book.cst3}} <br/> <a href="https://RadianceFoundation.org/" target="_blank"> Ryan Bomberger</a> </td><td> 11/13/2022 <br/>                                        </td>
+
+</table>
+</div>
+
+<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
+<div class="desktop">
+<table>
+
+<tr><td> {{book.cb1}}20190120{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life   {{book.cst3}} </td><td> {{book.b1}}111/jer.18.niv  {{book.b2}} Jeremiah 18-19 {{book.b3}}             </td><td> 01/20/2019 </td><td> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20210117{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210117{{book.cst2}} For the Love of Children {{book.cst3}} </td><td> {{book.b1}}111/mat.18.niv  {{book.b2}} Matthew 18-19  {{book.b3}}             </td><td> 01/17/2021 </td><td> {{book.csg1}}20210117.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20220123{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20220123{{book.cst2}} The Value of Life        {{book.cst3}} </td><td> {{book.b1}}111/psa.103.niv {{book.b2}} Psalm 103:2-4  {{book.b3}}             </td><td> 01/23/2022 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20221113{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20221113{{book.cst2}} LIFE Principles          {{book.cst3}} </td><td> <a href="https://RadianceFoundation.org/" target="_blank"> Ryan Bomberger</a> </td><td> 11/13/2022 </td><td>                                        </td>
+
+</table>
+</div>
 
 
 
@@ -42,8 +72,6 @@
 
 </table>
 </div>
-
-
 
 
 <script>

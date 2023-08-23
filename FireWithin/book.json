@@ -37,6 +37,9 @@
     "OldTestament":       "[Old Testament](/OldTestament.md)",
     "NewTestament":       "[New Testament](/NewTestament.md)",
     "SpecialEvents":      "[Specials](/SpecialEvents.md)",
+    "CurrentEvents":      "[Current Events](/CurrentEvents.md)",
+      "Life":             "[Life](/CurrentEvents.md#life)",
+      "ElectionDaySermons":  "[Election Day Sermons](/CurrentEvents.md#election-day-sermons)",
     "RevisionHistory":    "[Revision History](/history.md)",
 
     "Genesis":            "[Genesis](/Genesis.md)",
