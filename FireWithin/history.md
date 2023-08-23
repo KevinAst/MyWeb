@@ -64,6 +64,7 @@ Release           | What                 | *When*
   * {{book.ElectionDaySermons}}
   * {{book.LGBTQ}}
   * {{book.MoralDecay}}
+- Added missing {{book.Christmas}} messages.
 
 <!-- ************************************************************* -->
 <br/>
