@@ -63,7 +63,7 @@ Release           | What                 | *When*
   * {{book.Life}}
   * {{book.ElectionDaySermons}}
   * {{book.LGBTQ}}
-  * ?? more
+  * {{book.MoralDecay}}
 
 <!-- ************************************************************* -->
 <br/>
