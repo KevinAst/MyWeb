@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v18.0](#v18_0)   | Lamentations                 | *Aug 21, 2023*
+[v18.0](#v18_0)   | Lamentations         | *Aug 23, 2023*
 [v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
@@ -53,7 +53,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v18_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v18.0 - Lamentations <i>(Aug 21, 2023)</i>
+  v18.0 - Lamentations <i>(Aug 23, 2023)</i>
 </h3>
 <br/>
 
@@ -107,7 +107,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Added {{book.Election}} to my Study Guide.
+- Added {{book.CurrentEvents}} to my Study Guide.
 - Added "My Small Group" section to the {{book.John}} study.
 
 

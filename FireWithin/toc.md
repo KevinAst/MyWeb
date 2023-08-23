@@ -107,7 +107,7 @@
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
   * [Easter](Easter.md)
-  * [Election](Election.md)
+  * [Current Events](CurrentEvents.md)
 
 ----
 * [Revision History](history.md)
