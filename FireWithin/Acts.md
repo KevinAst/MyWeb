@@ -12,6 +12,7 @@ gospel throughout the world.
 - [Overview](#overview)
 - [2009 Acts Series](#2009-acts-series-sundays)
 - [2015-2016 Acts Series](#2015-2016-acts-series-mid-week)
+- [2023 Acts Series](#2023-acts-series-sundays)
 
 
 ## Overview
@@ -81,6 +82,10 @@ gospel throughout the world.
 ## 2009 Acts Series (Sundays)
 
 {{book.CornerstoneChapel}}
+
+**Note:** _As of 2023, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
 
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
@@ -190,6 +195,65 @@ gospel throughout the world.
 <tr><td> {{book.cb1}}20160427{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20160427{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/act.23.niv{{book.b2}} Acts 23-24       {{book.b3}} </td><td> 04/27/2016 </td><td> {{book.csg1}}20160427.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20160504{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20160504{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/act.25.niv{{book.b2}} Acts 25-26       {{book.b3}} </td><td> 05/04/2016 </td><td> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
 <tr><td> {{book.cb1}}20160511{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20160511{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/act.27.niv{{book.b2}} Acts 27-28       {{book.b3}} </td><td> 05/11/2016 </td><td> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
+
+</table>
+</div>
+
+
+## 2023 Acts Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
+<div class="phone">
+<table>
+
+<tr><td> {{book.cb1}}20230129{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20230129{{book.cst2}}                           The Power of the Holy Spirit                                   {{book.cst3}} <br/> {{book.b1}}111/act.1.niv {{book.b2}} Acts 1:1-11   {{book.b3}} </td><td> 01/29/2023 <br/> {{book.csg1}}20230129.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230205{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20230205{{book.cst2}}                           The Day of Pentecost                                           {{book.cst3}} <br/> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/05/2023 <br/> {{book.csg1}}20230205.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230212{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20230212{{book.cst2}}                           The Gift of Tongues                                            {{book.cst3}} <br/> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/12/2023 <br/> {{book.csg1}}20230212.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230219{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20230219{{book.cst2}}                           Four Foundations of the Church                                 {{book.cst3}} <br/> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2:42     {{book.b3}} </td><td> 02/19/2023 <br/> {{book.csg1}}20230219.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230226{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20230226{{book.cst2}}                           When It’s OK to Disobey                                        {{book.cst3}} <br/> {{book.b1}}111/act.3.niv {{book.b2}} Acts 3-4      {{book.b3}} </td><td> 02/26/2023 <br/> {{book.csg1}}20230226.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230305{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}israel-teaching-from-the-holy-land{{book.cst2}} Israel Teaching from the Holy Land                             {{book.cst3}} <br/> {{book.b1}}111/act.24.niv{{book.b2}} Acts 24       {{book.b3}} </td><td> 03/05/2023 <br/> {{book.csg1}}20230305.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230319{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20230319{{book.cst2}}                           Lessons from the Early Church                                  {{book.cst3}} <br/> {{book.b1}}111/act.4.niv {{book.b2}} Acts 4-5      {{book.b3}} </td><td> 03/19/2023 <br/> {{book.csg1}}20230319.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230326{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20230326{{book.cst2}}                           A Martyr’s Example                                             {{book.cst3}} <br/> {{book.b1}}111/act.6.niv {{book.b2}} Acts 6-7      {{book.b3}} </td><td> 03/26/2023 <br/> {{book.csg1}}20230326.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230416{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20230416{{book.cst2}}                           From Bitter to Better                                          {{book.cst3}} <br/> {{book.b1}}111/act.8.niv {{book.b2}} Acts 8        {{book.b3}} </td><td> 04/16/2023 <br/> {{book.csg1}}20230416.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230423{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20230423{{book.cst2}}                           A Transformed Life                                             {{book.cst3}} <br/> {{book.b1}}111/act.9.niv {{book.b2}} Acts 9        {{book.b3}} </td><td> 04/23/2023 <br/> {{book.csg1}}20230423.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230430{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20230430{{book.cst2}}                           Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)  {{book.cst3}} <br/> {{book.b1}}111/act.8.niv {{book.b2}} Acts 8-19     {{book.b3}} </td><td> 04/30/2023 <br/> {{book.csg1}}20230430.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230514{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20230514{{book.cst2}}                           Lessons from a Jew and a Gentile                               {{book.cst3}} <br/> {{book.b1}}111/act.10.niv{{book.b2}} Acts 10       {{book.b3}} </td><td> 05/14/2023 <br/> {{book.csg1}}20230514.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230528{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20230528{{book.cst2}}                           That’s Not Fair!                                               {{book.cst3}} <br/> {{book.b1}}111/act.12.niv{{book.b2}} Acts 12       {{book.b3}} </td><td> 05/28/2023 <br/> {{book.csg1}}20230528.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230611{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20230611{{book.cst2}}                           Embrace God’s Grace                                            {{book.cst3}} <br/> {{book.b1}}111/act.13.niv{{book.b2}} Acts 13       {{book.b3}} </td><td> 06/11/2023 <br/> {{book.csg1}}20230611.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230618{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20230618{{book.cst2}}                           What Tough Times Teach Us                                      {{book.cst3}} <br/> {{book.b1}}111/act.14.niv{{book.b2}} Acts 14       {{book.b3}} </td><td> 06/18/2023 <br/> {{book.csg1}}20230618.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230625{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20230625{{book.cst2}}                           Sing in the Darkness                                           {{book.cst3}} <br/> {{book.b1}}111/act.15.niv{{book.b2}} Acts 15-16    {{book.b3}} </td><td> 06/25/2023 <br/> {{book.csg1}}20230625.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230709{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20230709{{book.cst2}}                           Taking Jesus to the Marketplace                                {{book.cst3}} <br/> {{book.b1}}111/act.17.niv{{book.b2}} Acts 17       {{book.b3}} </td><td> 07/09/2023 <br/> {{book.csg1}}20230709.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230716{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20230716{{book.cst2}}                           Revival or Revolt?                                             {{book.cst3}} <br/> {{book.b1}}111/act.19.niv{{book.b2}} Acts 19       {{book.b3}} </td><td> 07/16/2023 <br/> {{book.csg1}}20230716.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230820{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20230820{{book.cst2}}                           Running the Race                                               {{book.cst3}} <br/> {{book.b1}}111/act.20.niv{{book.b2}} Acts 20:17-24 {{book.b3}} </td><td> 08/20/2023 <br/>                                        </td>
+
+</table>
+</div>
+
+<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
+<div class="desktop">
+<table>
+
+<tr><td> {{book.cb1}}20230129{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20230129{{book.cst2}}                           The Power of the Holy Spirit                                   {{book.cst3}} </td><td> {{book.b1}}111/act.1.niv {{book.b2}} Acts 1:1-11   {{book.b3}} </td><td> 01/29/2023 </td><td> {{book.csg1}}20230129.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230205{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20230205{{book.cst2}}                           The Day of Pentecost                                           {{book.cst3}} </td><td> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/05/2023 </td><td> {{book.csg1}}20230205.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230212{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20230212{{book.cst2}}                           The Gift of Tongues                                            {{book.cst3}} </td><td> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/12/2023 </td><td> {{book.csg1}}20230212.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230219{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20230219{{book.cst2}}                           Four Foundations of the Church                                 {{book.cst3}} </td><td> {{book.b1}}111/act.2.niv {{book.b2}} Acts 2:42     {{book.b3}} </td><td> 02/19/2023 </td><td> {{book.csg1}}20230219.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230226{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20230226{{book.cst2}}                           When It’s OK to Disobey                                        {{book.cst3}} </td><td> {{book.b1}}111/act.3.niv {{book.b2}} Acts 3-4      {{book.b3}} </td><td> 02/26/2023 </td><td> {{book.csg1}}20230226.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230305{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}israel-teaching-from-the-holy-land{{book.cst2}} Israel Teaching from the Holy Land                             {{book.cst3}} </td><td> {{book.b1}}111/act.24.niv{{book.b2}} Acts 24       {{book.b3}} </td><td> 03/05/2023 </td><td> {{book.csg1}}20230305.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230319{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20230319{{book.cst2}}                           Lessons from the Early Church                                  {{book.cst3}} </td><td> {{book.b1}}111/act.4.niv {{book.b2}} Acts 4-5      {{book.b3}} </td><td> 03/19/2023 </td><td> {{book.csg1}}20230319.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230326{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20230326{{book.cst2}}                           A Martyr’s Example                                             {{book.cst3}} </td><td> {{book.b1}}111/act.6.niv {{book.b2}} Acts 6-7      {{book.b3}} </td><td> 03/26/2023 </td><td> {{book.csg1}}20230326.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230416{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20230416{{book.cst2}}                           From Bitter to Better                                          {{book.cst3}} </td><td> {{book.b1}}111/act.8.niv {{book.b2}} Acts 8        {{book.b3}} </td><td> 04/16/2023 </td><td> {{book.csg1}}20230416.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230423{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20230423{{book.cst2}}                           A Transformed Life                                             {{book.cst3}} </td><td> {{book.b1}}111/act.9.niv {{book.b2}} Acts 9        {{book.b3}} </td><td> 04/23/2023 </td><td> {{book.csg1}}20230423.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230430{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20230430{{book.cst2}}                           Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)  {{book.cst3}} </td><td> {{book.b1}}111/act.8.niv {{book.b2}} Acts 8-19     {{book.b3}} </td><td> 04/30/2023 </td><td> {{book.csg1}}20230430.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230514{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20230514{{book.cst2}}                           Lessons from a Jew and a Gentile                               {{book.cst3}} </td><td> {{book.b1}}111/act.10.niv{{book.b2}} Acts 10       {{book.b3}} </td><td> 05/14/2023 </td><td> {{book.csg1}}20230514.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230528{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20230528{{book.cst2}}                           That’s Not Fair!                                               {{book.cst3}} </td><td> {{book.b1}}111/act.12.niv{{book.b2}} Acts 12       {{book.b3}} </td><td> 05/28/2023 </td><td> {{book.csg1}}20230528.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230611{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20230611{{book.cst2}}                           Embrace God’s Grace                                            {{book.cst3}} </td><td> {{book.b1}}111/act.13.niv{{book.b2}} Acts 13       {{book.b3}} </td><td> 06/11/2023 </td><td> {{book.csg1}}20230611.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230618{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20230618{{book.cst2}}                           What Tough Times Teach Us                                      {{book.cst3}} </td><td> {{book.b1}}111/act.14.niv{{book.b2}} Acts 14       {{book.b3}} </td><td> 06/18/2023 </td><td> {{book.csg1}}20230618.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230625{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20230625{{book.cst2}}                           Sing in the Darkness                                           {{book.cst3}} </td><td> {{book.b1}}111/act.15.niv{{book.b2}} Acts 15-16    {{book.b3}} </td><td> 06/25/2023 </td><td> {{book.csg1}}20230625.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230709{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20230709{{book.cst2}}                           Taking Jesus to the Marketplace                                {{book.cst3}} </td><td> {{book.b1}}111/act.17.niv{{book.b2}} Acts 17       {{book.b3}} </td><td> 07/09/2023 </td><td> {{book.csg1}}20230709.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230716{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20230716{{book.cst2}}                           Revival or Revolt?                                             {{book.cst3}} </td><td> {{book.b1}}111/act.19.niv{{book.b2}} Acts 19       {{book.b3}} </td><td> 07/16/2023 </td><td> {{book.csg1}}20230716.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20230820{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20230820{{book.cst2}}                           Running the Race                                               {{book.cst3}} </td><td> {{book.b1}}111/act.20.niv{{book.b2}} Acts 20:17-24 {{book.b3}} </td><td> 08/20/2023 </td><td>                                        </td>
 
 </table>
 </div>

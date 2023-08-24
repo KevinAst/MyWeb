@@ -66,6 +66,7 @@ Release           | What                 | *When*
   * {{book.LGBTQ}}
   * {{book.MoralDecay}}
 - Added missing {{book.Christmas}} messages.
+- Added the lastest {{book.Acts}} sermon series (from 2023).
 
 <!-- ************************************************************* -->
 <br/>
