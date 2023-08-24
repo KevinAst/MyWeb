@@ -1,0 +1,124 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+
+*----------------------------
+* Life
+*----------------------------
+
+01/20/2019
+Sanctity of Human Life
+Jeremiah 18-19 
+111/jer.18.niv
+
+01/17/2021
+For the Love of Children
+Matthew 18-19
+111/mat.18.niv
+
+01/23/2022
+The Value of Life
+Psalm 103:2-4
+111/psa.103.niv
+
+11/13/2022
+LIFE Principles
+NO SCRIPTURE
+none
+
+>> FOR ABOVE:
+Ryan Bomberger 
+https://RadianceFoundation.org/
+
+
+*----------------------------
+* Election Day Sermons
+*----------------------------
+
+11/08/2020
+Sent Out Among Wolves: A Post-Election Reminder
+Matthew 10
+111/mat.10.niv
+
+11/01/2020
+Calm in the Storm: An Election Day Addendum
+Matthew 8:23-27
+111/mat.8.niv
+
+10/28/2020
+Night of Prayer for the Elections
+NO SCRIPTURE
+none
+
+10/18/2020
+Church in America, Wake Up!
+Jeremiah 6:16-19
+111/jer.6.NIV
+
+10/16/2016
+Election Day Sermon
+Psalm 33
+111/psa.33.niv
+
+06/22/2014
+Making of a King, Journey of a Christian
+1 Samuel 8-11
+111/1sa.8.niv
+
+11/04/2012
+Election Day Sermon
+NO SCRIPTURE
+none
+
+
+*----------------------------
+* LGBTQ / Gay / Homosexual
+*----------------------------
+
+02/05/2012
+The Cost of Compromise
+Genesis 18-19
+111/gen.18.niv
+
+07/05/2015
+America, Will You Stand?
+NO SCRIPTURE
+none
+
+07/27/2022
+Evening Special with Patti Height
+NO SCRIPTURE
+none
+
+>> FOR ABOVE (Patti Height)
+Out of Egypt Ministries
+https://outofegyptministries.org/
+
+06/04/2023
+A Biblical Response to the 'Transing' of America
+Romans 1:18-28
+111/rom.1.niv
+
+*-------------
+* Moral Decay
+*-------------
+
+11/08/2012
+Oxford Mathematician Destroys Atheism
+NO SCRIPTURE
+none
+
+>> FOR ABOVE
+https://www.youtube.com/watch?v=otrqzITuSqE
+John Lennox
+https://www.johnlennox.org/
+
+05/21/2023
+Wanted: The Brave
+NO SCRIPTURE
+none
+
+>> FOR ABOVE
+Kirk Cameron
+https://www.kirkcameron.com/
