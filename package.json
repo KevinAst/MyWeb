@@ -4,6 +4,7 @@
   "description": "My Web Page",
   "homepage": "https://wiibridges.com/",
   "scripts": {
+    "blog:devServe": "http-server MyPage",
     "blog:dev": "nodemon FireWithin/buildDocsInDev.js",
     "blog:build": "gitbook build FireWithin MyPage/FireWithin",
     "blog:clean": "rimraf MyPage/FireWithin",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "gitbook-cli": "^2.3.2",
+    "http-server": "^14.1.1",
     "nodemon": "^2.0.15",
     "rimraf": "^3.0.2"
   }

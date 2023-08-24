@@ -27,12 +27,14 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v18.0](#v18_0)   | Lamentations         | *Aug 23, 2023*
+[v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
 [v15.0](#v15_0)   | Misc                 | *Dec 2, 2022*
 [v14.0](#v14_0)   | John                 | *Nov 30, 2022*
 [v13.0](#v13_0)   | Exodus               | *Nov 24, 2022*
-[v12.0](#v12_0)   | Special Events       | *Nov 23, 2022*
+[v12.0](#v12_0)   | Specials             | *Nov 23, 2022*
 [v11.0](#v11_0)   | Minor Prophets       | *Oct 25, 2022*
 [v10.0](#v10_0)   | Genesis              | *Aug 17, 2022*
 [v9.0](#v9_0)     | Galatians            | *May 3, 2022*
@@ -47,6 +49,37 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v18_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v18.0 - Lamentations <i>(Aug 23, 2023)</i>
+</h3>
+<br/>
+
+- Added {{book.Lamentations}} to my Study Guide, done in conjunction with
+  my local Church's Small Group _(cooresponding to this time)_.
+- Added My Small Group tp the {{book.Mark}} series.
+- Added {{book.CurrentEvents}} _(under {{book.SpecialEvents}})_ with the following:
+  * {{book.Life}}
+  * {{book.ElectionDaySermons}}
+  * {{book.LGBTQ}}
+  * {{book.MoralDecay}}
+- Added missing {{book.Christmas}} messages.
+- Added the lastest {{book.Acts}} sermon series (from 2023).
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v17_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v17.0 - Jeremiah <i>(Jun 3, 2023)</i>
+</h3>
+<br/>
+
+- Added {{book.Jeremiah}} to my Study Guide, done in conjunction with
+  my local Church's Small Group _(cooresponding to this time)_.
+- Fixed ALL scripture links _(YouVersion URL parms have changed)_.
+- Added {{book.Easter}} Speical Events.
+
 
 <!-- ************************************************************* -->
 <br/>
@@ -80,7 +113,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Added {{book.Election}} to my Study Guide.
+- Added {{book.CurrentEvents}} to my Study Guide.
 - Added "My Small Group" section to the {{book.John}} study.
 
 
@@ -113,11 +146,11 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v12_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v12.0 - Special Events <i>(Nov 23, 2022)</i>
+  v12.0 - Specials <i>(Nov 23, 2022)</i>
 </h3>
 <br/>
 
-- Added Speical Events to my Study Guide ({{book.Thanksgiving}},
+- Added Specials to my Study Guide ({{book.Thanksgiving}},
   {{book.Christmas}}).
 
   Merry Christmas!

@@ -1,0 +1,17 @@
+* TEMPLATE -with- RAW DATA ********************************************************************************
+
+<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+
+*-----------------------------------
+* 2019 Lamentations Series (Sundays) WITH Study Guide
+*-----------------------------------
+
+<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} <br/> {{book.b1}}111/lam.1.niv{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 <br/> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
+
+
+*--------------------------
+* 2023 Lamentations Series (My Small Group)
+*--------------------------
+
+<tr><td> {{book.cb1}}20230827{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20230827{{book.cst2}} Good         {{book.cst3}} <br/> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 <br/> {{book.csg1}}20230827.pdf{{book.csg2}} </td>
+

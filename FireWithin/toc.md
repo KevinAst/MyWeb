@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (16.0)
+### Fire Within (18.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -55,8 +55,8 @@
   * [*Ecclesiastes**](WorkInProgress.md)
   * [*Song of Solomon**](WorkInProgress.md)
   * [*Isaiah**](WorkInProgress.md)
-  * [*Jeremiah**](WorkInProgress.md)
-  * [*Lamentations**](WorkInProgress.md)
+  * [Jeremiah](Jeremiah.md)
+  * [Lamentations](Lamentations.md)
   * [*Ezekiel**](WorkInProgress.md)
   * [Daniel](Daniel.md)
   * [Hosea](Hosea.md)
@@ -103,10 +103,11 @@
   * [Revelation](Revelation.md)
 
 ----
-- [Special Events](SpecialEvents.md)
-  * [Election](Election.md)
+- [Specials](SpecialEvents.md)
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
+  * [Easter](Easter.md)
+  * [Current Events](CurrentEvents.md)
 
 ----
 * [Revision History](history.md)

@@ -1,4 +1,8 @@
-# Special Events
+# Specials
 
-Holder for Special Events (Thanksgiving, Christmas, etc.).
+Special Events and Guest Speakers:
 
+- {{book.Thanksgiving}}
+- {{book.Christmas}}
+- {{book.Easter}}
+- {{book.CurrentEvents}}

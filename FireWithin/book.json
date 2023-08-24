@@ -36,7 +36,6 @@
     "MyFaith":            "[My Faith](/MyFaith.md)",
     "OldTestament":       "[Old Testament](/OldTestament.md)",
     "NewTestament":       "[New Testament](/NewTestament.md)",
-    "SpecialEvents":      "[Special Events](/SpecialEvents.md)",
     "RevisionHistory":    "[Revision History](/history.md)",
 
     "Genesis":            "[Genesis](/Genesis.md)",
@@ -65,8 +64,8 @@
     "SongOfSolomon":      "[*Song of Solomon**](/WorkInProgress.md)",
 
     "Isaiah":             "[*Isaiah**](/WorkInProgress.md)",
-    "Jeremiah":           "[*Jeremiah**](/WorkInProgress.md)",
-    "Lamentations":       "[*Lamentations**](/WorkInProgress.md)",
+    "Jeremiah":           "[Jeremiah](/Jeremiah.md)",
+    "Lamentations":       "[Lamentations](/Lamentations.md)",
     "Ezekiel":            "[*Ezekiel**](/WorkInProgress.md)",
     "Daniel":             "[Daniel](/Daniel.md)",
 
@@ -115,9 +114,15 @@
     "Jude":               "[*Jude**](/WorkInProgress.md)",
     "Revelation":         "[Revelation](/Revelation.md)",
 
-    "Election":           "[Election Day Sermons](/Election.md)",
-    "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
-    "Christmas":          "[Christmas](/Christmas.md)",
+    "SpecialEvents":      "[Specials](/SpecialEvents.md)",
+      "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
+      "Christmas":          "[Christmas](/Christmas.md)",
+      "Easter":             "[Easter](/Easter.md)",
+      "CurrentEvents":      "[Current Events](/CurrentEvents.md)",
+        "Life":             "[Life](/CurrentEvents.md#life)",
+        "ElectionDaySermons":  "[Election Day Sermons](/CurrentEvents.md#election-day-sermons)",
+        "LGBTQ":               "[LGBTQ](/CurrentEvents.md#lgbtq)",
+        "MoralDecay":          "[Moral Decay](/CurrentEvents.md#moral-decay)",
 
     "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
