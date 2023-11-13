@@ -291,7 +291,7 @@ function alterBibleVerseLink(e, scriptureRef) {
   // EX: https://bible.com/bible/111/mrk.1.2.NIV
   //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .NIV)
   //           ... it is functionally redundent of the bibleTranslationCode
-  const url = `https://bible.com/bible/${bibleTranslationCode}/${scriptureRef}.${bibleTranslation}`;
+  const url = `https://bible.com/bible/${bibleTranslationCode}/${scriptureRef.trim()}.${bibleTranslation}`;
   
   // overwrite the href of the invoking <a> tag
   // NOTE: because e.preventDefault() is not used, the browser

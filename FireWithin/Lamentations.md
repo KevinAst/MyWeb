@@ -100,7 +100,7 @@ with a God who hears the cries of his people.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} <br/> {{book.b1}}111/lam.1.niv{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 <br/> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} <br/> {{book.b1}}lam.1{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 <br/> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -109,7 +109,7 @@ with a God who hears the cries of his people.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} </td><td> {{book.b1}}111/lam.1.niv{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 </td><td> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} </td><td> {{book.b1}}lam.1{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 </td><td> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -124,7 +124,7 @@ with a God who hears the cries of his people.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         <br/> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
+<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         <br/> {{book.b1}}lam.3{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
 
 </table>
 </div>
@@ -133,7 +133,7 @@ with a God who hears the cries of his people.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         </td><td> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
+<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         </td><td> {{book.b1}}lam.3{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
 
 </table>
 </div>

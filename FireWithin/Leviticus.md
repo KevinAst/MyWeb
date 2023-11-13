@@ -87,9 +87,9 @@ should live, eat, sacrifice, celebrate, and more.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} <br/> {{book.b1}}111/lev.1.niv{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 <br/> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} <br/> {{book.b1}}111/lev.8.niv{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 <br/> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} <br/> {{book.b1}}111/lev.19.niv{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 <br/> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} <br/> {{book.b1}}lev.1{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 <br/> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} <br/> {{book.b1}}lev.8{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 <br/> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} <br/> {{book.b1}}lev.19{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 <br/> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -98,9 +98,9 @@ should live, eat, sacrifice, celebrate, and more.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} </td><td> {{book.b1}}111/lev.1.niv{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 </td><td> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} </td><td> {{book.b1}}111/lev.8.niv{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 </td><td> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} </td><td> {{book.b1}}111/lev.19.niv{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 </td><td> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} </td><td> {{book.b1}}lev.1{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 </td><td> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} </td><td> {{book.b1}}lev.8{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 </td><td> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} </td><td> {{book.b1}}lev.19{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 </td><td> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
 
 </table>
 </div>

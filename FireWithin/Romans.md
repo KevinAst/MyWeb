@@ -93,12 +93,12 @@ and forgiveness are at the center of everything.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20090809{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20090809{{book.cst2}} Good News and Bad News {{book.cst3}} <br/> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1-2   {{book.b3}} </td><td> 08/09/2009                                              </td>
-<tr><td> {{book.cb1}}20090816{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20090816{{book.cst2}} What a Gift!           {{book.cst3}} <br/> {{book.b1}}111/rom.3.niv  {{book.b2}} Rom 3-5   {{book.b3}} </td><td> 08/16/2009                                              </td>
-<tr><td> {{book.cb1}}20090830{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20090830{{book.cst2}} The Sin Battle         {{book.cst3}} <br/> {{book.b1}}111/rom.6.niv  {{book.b2}} Rom 6-8   {{book.b3}} </td><td> 08/30/2009                                              </td>
-<tr><td> {{book.cb1}}20090906{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20090906{{book.cst2}} Why Israel Matters     {{book.cst3}} <br/> {{book.b1}}111/rom.9.niv  {{book.b2}} Rom 9-11  {{book.b3}} </td><td> 09/06/2009 <br/> {{book.csg1}}20090906.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090913{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20090913{{book.cst2}} Offering Your Body     {{book.cst3}} <br/> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12-13 {{book.b3}} </td><td> 09/13/2009 <br/> {{book.csg1}}20090913.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090920{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20090920{{book.cst2}} Unity in the Church    {{book.cst3}} <br/> {{book.b1}}111/rom.14.niv {{book.b2}} Rom 14-16 {{book.b3}} </td><td> 09/20/2009 <br/> {{book.csg1}}20090920.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090809{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20090809{{book.cst2}} Good News and Bad News {{book.cst3}} <br/> {{book.b1}}rom.1  {{book.b2}} Rom 1-2   {{book.b3}} </td><td> 08/09/2009                                              </td>
+<tr><td> {{book.cb1}}20090816{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20090816{{book.cst2}} What a Gift!           {{book.cst3}} <br/> {{book.b1}}rom.3  {{book.b2}} Rom 3-5   {{book.b3}} </td><td> 08/16/2009                                              </td>
+<tr><td> {{book.cb1}}20090830{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20090830{{book.cst2}} The Sin Battle         {{book.cst3}} <br/> {{book.b1}}rom.6  {{book.b2}} Rom 6-8   {{book.b3}} </td><td> 08/30/2009                                              </td>
+<tr><td> {{book.cb1}}20090906{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20090906{{book.cst2}} Why Israel Matters     {{book.cst3}} <br/> {{book.b1}}rom.9  {{book.b2}} Rom 9-11  {{book.b3}} </td><td> 09/06/2009 <br/> {{book.csg1}}20090906.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090913{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20090913{{book.cst2}} Offering Your Body     {{book.cst3}} <br/> {{book.b1}}rom.12 {{book.b2}} Rom 12-13 {{book.b3}} </td><td> 09/13/2009 <br/> {{book.csg1}}20090913.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090920{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20090920{{book.cst2}} Unity in the Church    {{book.cst3}} <br/> {{book.b1}}rom.14 {{book.b2}} Rom 14-16 {{book.b3}} </td><td> 09/20/2009 <br/> {{book.csg1}}20090920.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -107,12 +107,12 @@ and forgiveness are at the center of everything.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20090809{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20090809{{book.cst2}} Good News and Bad News {{book.cst3}} </td><td> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1-2   {{book.b3}} </td><td> 08/09/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090816{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20090816{{book.cst2}} What a Gift!           {{book.cst3}} </td><td> {{book.b1}}111/rom.3.niv  {{book.b2}} Rom 3-5   {{book.b3}} </td><td> 08/16/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090830{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20090830{{book.cst2}} The Sin Battle         {{book.cst3}} </td><td> {{book.b1}}111/rom.6.niv  {{book.b2}} Rom 6-8   {{book.b3}} </td><td> 08/30/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090906{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20090906{{book.cst2}} Why Israel Matters     {{book.cst3}} </td><td> {{book.b1}}111/rom.9.niv  {{book.b2}} Rom 9-11  {{book.b3}} </td><td> 09/06/2009 </td><td> {{book.csg1}}20090906.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090913{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20090913{{book.cst2}} Offering Your Body     {{book.cst3}} </td><td> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12-13 {{book.b3}} </td><td> 09/13/2009 </td><td> {{book.csg1}}20090913.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090920{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20090920{{book.cst2}} Unity in the Church    {{book.cst3}} </td><td> {{book.b1}}111/rom.14.niv {{book.b2}} Rom 14-16 {{book.b3}} </td><td> 09/20/2009 </td><td> {{book.csg1}}20090920.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090809{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20090809{{book.cst2}} Good News and Bad News {{book.cst3}} </td><td> {{book.b1}}rom.1  {{book.b2}} Rom 1-2   {{book.b3}} </td><td> 08/09/2009 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20090816{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20090816{{book.cst2}} What a Gift!           {{book.cst3}} </td><td> {{book.b1}}rom.3  {{book.b2}} Rom 3-5   {{book.b3}} </td><td> 08/16/2009 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20090830{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20090830{{book.cst2}} The Sin Battle         {{book.cst3}} </td><td> {{book.b1}}rom.6  {{book.b2}} Rom 6-8   {{book.b3}} </td><td> 08/30/2009 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20090906{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20090906{{book.cst2}} Why Israel Matters     {{book.cst3}} </td><td> {{book.b1}}rom.9  {{book.b2}} Rom 9-11  {{book.b3}} </td><td> 09/06/2009 </td><td> {{book.csg1}}20090906.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090913{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20090913{{book.cst2}} Offering Your Body     {{book.cst3}} </td><td> {{book.b1}}rom.12 {{book.b2}} Rom 12-13 {{book.b3}} </td><td> 09/13/2009 </td><td> {{book.csg1}}20090913.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20090920{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20090920{{book.cst2}} Unity in the Church    {{book.cst3}} </td><td> {{book.b1}}rom.14 {{book.b2}} Rom 14-16 {{book.b3}} </td><td> 09/20/2009 </td><td> {{book.csg1}}20090920.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -126,22 +126,22 @@ and forgiveness are at the center of everything.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20160518{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20160518{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:1-25     {{book.b3}} </td><td> 05/18/2016 </td>
-<tr><td> {{book.cb1}}20160525{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20160525{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:25-32    {{book.b3}} </td><td> 05/25/2016 </td>
-<tr><td> {{book.cb1}}20160601{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20160601{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.2.niv  {{book.b2}} Rom 2          {{book.b3}} </td><td> 06/01/2016 </td>
-<tr><td> {{book.cb1}}20160608{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20160608{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.3.niv  {{book.b2}} Rom 3          {{book.b3}} </td><td> 06/08/2016 </td>
-<tr><td> {{book.cb1}}20160615{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20160615{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.4.niv  {{book.b2}} Rom 4-5:11     {{book.b3}} </td><td> 06/15/2016 </td>
-<tr><td> {{book.cb1}}20160727{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20160727{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.5.niv  {{book.b2}} Rom 5:12-6:14  {{book.b3}} </td><td> 07/27/2016 </td>
-<tr><td> {{book.cb1}}20160803{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20160803{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.6.niv  {{book.b2}} Rom 6:15-7:25  {{book.b3}} </td><td> 08/03/2016 </td>
-<tr><td> {{book.cb1}}20160810{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160810{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.8.niv  {{book.b2}} Rom 8:1-27     {{book.b3}} </td><td> 08/10/2016 </td>
-<tr><td> {{book.cb1}}20160817{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160817{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.8.niv  {{book.b2}} Rom 8:28-9:16  {{book.b3}} </td><td> 08/17/2016 </td>
-<tr><td> {{book.cb1}}20160824{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160824{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.9.niv  {{book.b2}} Rom 9:16-10:21 {{book.b3}} </td><td> 08/24/2016 </td>
-<tr><td> {{book.cb1}}20160831{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160831{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:1-27    {{book.b3}} </td><td> 08/31/2016 </td>
-<tr><td> {{book.cb1}}20160907{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160907{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:25-12:2 {{book.b3}} </td><td> 09/07/2016 </td>
-<tr><td> {{book.cb1}}20160921{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160921{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12:3-21    {{book.b3}} </td><td> 09/21/2016 </td>
-<tr><td> {{book.cb1}}20160928{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160928{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.13.niv {{book.b2}} Rom 13         {{book.b3}} </td><td> 09/28/2016 </td>
-<tr><td> {{book.cb1}}20161005{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20161005{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.14.niv {{book.b2}} Rom 14         {{book.b3}} </td><td> 10/05/2016 </td>
-<tr><td> {{book.cb1}}20161012{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20161012{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/rom.15.niv {{book.b2}} Rom 15-16      {{book.b3}} </td><td> 10/12/2016 </td>
+<tr><td> {{book.cb1}}20160518{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20160518{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.1  {{book.b2}} Rom 1:1-25     {{book.b3}} </td><td> 05/18/2016 </td>
+<tr><td> {{book.cb1}}20160525{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20160525{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.1  {{book.b2}} Rom 1:25-32    {{book.b3}} </td><td> 05/25/2016 </td>
+<tr><td> {{book.cb1}}20160601{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20160601{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.2  {{book.b2}} Rom 2          {{book.b3}} </td><td> 06/01/2016 </td>
+<tr><td> {{book.cb1}}20160608{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20160608{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.3  {{book.b2}} Rom 3          {{book.b3}} </td><td> 06/08/2016 </td>
+<tr><td> {{book.cb1}}20160615{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20160615{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.4  {{book.b2}} Rom 4-5:11     {{book.b3}} </td><td> 06/15/2016 </td>
+<tr><td> {{book.cb1}}20160727{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20160727{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.5  {{book.b2}} Rom 5:12-6:14  {{book.b3}} </td><td> 07/27/2016 </td>
+<tr><td> {{book.cb1}}20160803{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20160803{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.6  {{book.b2}} Rom 6:15-7:25  {{book.b3}} </td><td> 08/03/2016 </td>
+<tr><td> {{book.cb1}}20160810{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160810{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.8  {{book.b2}} Rom 8:1-27     {{book.b3}} </td><td> 08/10/2016 </td>
+<tr><td> {{book.cb1}}20160817{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160817{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.8  {{book.b2}} Rom 8:28-9:16  {{book.b3}} </td><td> 08/17/2016 </td>
+<tr><td> {{book.cb1}}20160824{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160824{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.9  {{book.b2}} Rom 9:16-10:21 {{book.b3}} </td><td> 08/24/2016 </td>
+<tr><td> {{book.cb1}}20160831{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160831{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.11 {{book.b2}} Rom 11:1-27    {{book.b3}} </td><td> 08/31/2016 </td>
+<tr><td> {{book.cb1}}20160907{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160907{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.11 {{book.b2}} Rom 11:25-12:2 {{book.b3}} </td><td> 09/07/2016 </td>
+<tr><td> {{book.cb1}}20160921{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160921{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.12 {{book.b2}} Rom 12:3-21    {{book.b3}} </td><td> 09/21/2016 </td>
+<tr><td> {{book.cb1}}20160928{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160928{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.13 {{book.b2}} Rom 13         {{book.b3}} </td><td> 09/28/2016 </td>
+<tr><td> {{book.cb1}}20161005{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20161005{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.14 {{book.b2}} Rom 14         {{book.b3}} </td><td> 10/05/2016 </td>
+<tr><td> {{book.cb1}}20161012{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20161012{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}rom.15 {{book.b2}} Rom 15-16      {{book.b3}} </td><td> 10/12/2016 </td>
 
 </table>
 </div>
@@ -150,22 +150,22 @@ and forgiveness are at the center of everything.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20160518{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20160518{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:1-25     {{book.b3}} </td><td> 05/18/2016 </td>
-<tr><td> {{book.cb1}}20160525{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20160525{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:25-32    {{book.b3}} </td><td> 05/25/2016 </td>
-<tr><td> {{book.cb1}}20160601{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20160601{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.2.niv  {{book.b2}} Rom 2          {{book.b3}} </td><td> 06/01/2016 </td>
-<tr><td> {{book.cb1}}20160608{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20160608{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.3.niv  {{book.b2}} Rom 3          {{book.b3}} </td><td> 06/08/2016 </td>
-<tr><td> {{book.cb1}}20160615{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20160615{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.4.niv  {{book.b2}} Rom 4-5:11     {{book.b3}} </td><td> 06/15/2016 </td>
-<tr><td> {{book.cb1}}20160727{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20160727{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.5.niv  {{book.b2}} Rom 5:12-6:14  {{book.b3}} </td><td> 07/27/2016 </td>
-<tr><td> {{book.cb1}}20160803{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20160803{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.6.niv  {{book.b2}} Rom 6:15-7:25  {{book.b3}} </td><td> 08/03/2016 </td>
-<tr><td> {{book.cb1}}20160810{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160810{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.8.niv  {{book.b2}} Rom 8:1-27     {{book.b3}} </td><td> 08/10/2016 </td>
-<tr><td> {{book.cb1}}20160817{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160817{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.8.niv  {{book.b2}} Rom 8:28-9:16  {{book.b3}} </td><td> 08/17/2016 </td>
-<tr><td> {{book.cb1}}20160824{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160824{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.9.niv  {{book.b2}} Rom 9:16-10:21 {{book.b3}} </td><td> 08/24/2016 </td>
-<tr><td> {{book.cb1}}20160831{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160831{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:1-27    {{book.b3}} </td><td> 08/31/2016 </td>
-<tr><td> {{book.cb1}}20160907{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160907{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:25-12:2 {{book.b3}} </td><td> 09/07/2016 </td>
-<tr><td> {{book.cb1}}20160921{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160921{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12:3-21    {{book.b3}} </td><td> 09/21/2016 </td>
-<tr><td> {{book.cb1}}20160928{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160928{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.13.niv {{book.b2}} Rom 13         {{book.b3}} </td><td> 09/28/2016 </td>
-<tr><td> {{book.cb1}}20161005{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20161005{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.14.niv {{book.b2}} Rom 14         {{book.b3}} </td><td> 10/05/2016 </td>
-<tr><td> {{book.cb1}}20161012{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20161012{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/rom.15.niv {{book.b2}} Rom 15-16      {{book.b3}} </td><td> 10/12/2016 </td>
+<tr><td> {{book.cb1}}20160518{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20160518{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.1  {{book.b2}} Rom 1:1-25     {{book.b3}} </td><td> 05/18/2016 </td>
+<tr><td> {{book.cb1}}20160525{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20160525{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.1  {{book.b2}} Rom 1:25-32    {{book.b3}} </td><td> 05/25/2016 </td>
+<tr><td> {{book.cb1}}20160601{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20160601{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.2  {{book.b2}} Rom 2          {{book.b3}} </td><td> 06/01/2016 </td>
+<tr><td> {{book.cb1}}20160608{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20160608{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.3  {{book.b2}} Rom 3          {{book.b3}} </td><td> 06/08/2016 </td>
+<tr><td> {{book.cb1}}20160615{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20160615{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.4  {{book.b2}} Rom 4-5:11     {{book.b3}} </td><td> 06/15/2016 </td>
+<tr><td> {{book.cb1}}20160727{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20160727{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.5  {{book.b2}} Rom 5:12-6:14  {{book.b3}} </td><td> 07/27/2016 </td>
+<tr><td> {{book.cb1}}20160803{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20160803{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.6  {{book.b2}} Rom 6:15-7:25  {{book.b3}} </td><td> 08/03/2016 </td>
+<tr><td> {{book.cb1}}20160810{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160810{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.8  {{book.b2}} Rom 8:1-27     {{book.b3}} </td><td> 08/10/2016 </td>
+<tr><td> {{book.cb1}}20160817{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160817{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.8  {{book.b2}} Rom 8:28-9:16  {{book.b3}} </td><td> 08/17/2016 </td>
+<tr><td> {{book.cb1}}20160824{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160824{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.9  {{book.b2}} Rom 9:16-10:21 {{book.b3}} </td><td> 08/24/2016 </td>
+<tr><td> {{book.cb1}}20160831{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160831{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.11 {{book.b2}} Rom 11:1-27    {{book.b3}} </td><td> 08/31/2016 </td>
+<tr><td> {{book.cb1}}20160907{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160907{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.11 {{book.b2}} Rom 11:25-12:2 {{book.b3}} </td><td> 09/07/2016 </td>
+<tr><td> {{book.cb1}}20160921{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160921{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.12 {{book.b2}} Rom 12:3-21    {{book.b3}} </td><td> 09/21/2016 </td>
+<tr><td> {{book.cb1}}20160928{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160928{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.13 {{book.b2}} Rom 13         {{book.b3}} </td><td> 09/28/2016 </td>
+<tr><td> {{book.cb1}}20161005{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20161005{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.14 {{book.b2}} Rom 14         {{book.b3}} </td><td> 10/05/2016 </td>
+<tr><td> {{book.cb1}}20161012{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20161012{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}rom.15 {{book.b2}} Rom 15-16      {{book.b3}} </td><td> 10/12/2016 </td>
 
 </table>
 </div>
@@ -180,10 +180,10 @@ and forgiveness are at the center of everything.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20210922{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20210922{{book.cst2}} The True Nature of God (Barrett Phillips)    {{book.cst3}} <br/> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:16-25 {{book.b3}} </td><td> 09/22/2021 </td>
-<tr><td> {{book.cb1}}20210926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210926{{book.cst2}} The Mystery of the Blindness (Amir Tsarfati) {{book.cst3}} <br/> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:25   {{book.b3}} </td><td> 09/26/2021 </td>
-<tr><td> {{book.cb1}}20211017{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20211017{{book.cst2}} Conformed or Transformed? (Tony Clark)       {{book.cst3}} <br/> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12:1-2  {{book.b3}} </td><td> 10/17/2021 </td>
-<tr><td> {{book.cb1}}20211031{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20211031{{book.cst2}} God Over Government (Matthew Maher)          {{book.cst3}} <br/> {{book.b1}}111/rom.13.niv {{book.b2}} Rom 13      {{book.b3}} </td><td> 11/01/2021 </td>
+<tr><td> {{book.cb1}}20210922{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20210922{{book.cst2}} The True Nature of God (Barrett Phillips)    {{book.cst3}} <br/> {{book.b1}}rom.1  {{book.b2}} Rom 1:16-25 {{book.b3}} </td><td> 09/22/2021 </td>
+<tr><td> {{book.cb1}}20210926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210926{{book.cst2}} The Mystery of the Blindness (Amir Tsarfati) {{book.cst3}} <br/> {{book.b1}}rom.11 {{book.b2}} Rom 11:25   {{book.b3}} </td><td> 09/26/2021 </td>
+<tr><td> {{book.cb1}}20211017{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20211017{{book.cst2}} Conformed or Transformed? (Tony Clark)       {{book.cst3}} <br/> {{book.b1}}rom.12 {{book.b2}} Rom 12:1-2  {{book.b3}} </td><td> 10/17/2021 </td>
+<tr><td> {{book.cb1}}20211031{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20211031{{book.cst2}} God Over Government (Matthew Maher)          {{book.cst3}} <br/> {{book.b1}}rom.13 {{book.b2}} Rom 13      {{book.b3}} </td><td> 11/01/2021 </td>
 
 </table>
 </div>
@@ -192,10 +192,10 @@ and forgiveness are at the center of everything.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20210922{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20210922{{book.cst2}} The True Nature of God (Barrett Phillips)    {{book.cst3}} </td><td> {{book.b1}}111/rom.1.niv  {{book.b2}} Rom 1:16-25 {{book.b3}} </td><td> 09/22/2021 </td>
-<tr><td> {{book.cb1}}20210926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210926{{book.cst2}} The Mystery of the Blindness (Amir Tsarfati) {{book.cst3}} </td><td> {{book.b1}}111/rom.11.niv {{book.b2}} Rom 11:25   {{book.b3}} </td><td> 09/26/2021 </td>
-<tr><td> {{book.cb1}}20211017{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20211017{{book.cst2}} Conformed or Transformed? (Tony Clark)       {{book.cst3}} </td><td> {{book.b1}}111/rom.12.niv {{book.b2}} Rom 12:1-2  {{book.b3}} </td><td> 10/17/2021 </td>
-<tr><td> {{book.cb1}}20211031{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20211031{{book.cst2}} God Over Government (Matthew Maher)          {{book.cst3}} </td><td> {{book.b1}}111/rom.13.niv {{book.b2}} Rom 13      {{book.b3}} </td><td> 11/01/2021 </td>
+<tr><td> {{book.cb1}}20210922{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20210922{{book.cst2}} The True Nature of God (Barrett Phillips)    {{book.cst3}} </td><td> {{book.b1}}rom.1  {{book.b2}} Rom 1:16-25 {{book.b3}} </td><td> 09/22/2021 </td>
+<tr><td> {{book.cb1}}20210926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20210926{{book.cst2}} The Mystery of the Blindness (Amir Tsarfati) {{book.cst3}} </td><td> {{book.b1}}rom.11 {{book.b2}} Rom 11:25   {{book.b3}} </td><td> 09/26/2021 </td>
+<tr><td> {{book.cb1}}20211017{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20211017{{book.cst2}} Conformed or Transformed? (Tony Clark)       {{book.cst3}} </td><td> {{book.b1}}rom.12 {{book.b2}} Rom 12:1-2  {{book.b3}} </td><td> 10/17/2021 </td>
+<tr><td> {{book.cb1}}20211031{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20211031{{book.cst2}} God Over Government (Matthew Maher)          {{book.cst3}} </td><td> {{book.b1}}rom.13 {{book.b2}} Rom 13      {{book.b3}} </td><td> 11/01/2021 </td>
 
 </table>
 </div>

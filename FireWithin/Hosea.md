@@ -104,14 +104,14 @@ remains.
 <div class="phone">
 <table>
 
-<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.2.niv {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.4.niv {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.6.niv {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.7.niv {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.10.niv{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.12.niv{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} <br/> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 <br/> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.1 {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.2 {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.4 {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.6 {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.7 {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.10{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}hos.12{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 <br/>                                        </td>
+<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} <br/> {{book.b1}}hos.1 {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 <br/> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
 
 </table>
 </div>
@@ -120,14 +120,14 @@ remains.
 <div class="desktop">
 <table>
 
-<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.2.niv {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.4.niv {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.6.niv {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.7.niv {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.10.niv{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.12.niv{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} </td><td> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 </td><td> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
+<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.1 {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.2 {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.4 {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.6 {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.7 {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.10{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}hos.12{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 </td><td>                                        </td>
+<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} </td><td> {{book.b1}}hos.1 {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 </td><td> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
 
 </table>
 </div>
