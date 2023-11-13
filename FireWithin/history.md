@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v19.0](#v19_0)   | Misc                 | *Nov 14, 2023*
 [v18.0](#v18_0)   | Lamentations         | *Aug 23, 2023*
 [v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
@@ -49,6 +50,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v19_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v19.0 - Misc <i>(Nov 14, 2023)</i>
+</h3>
+<br/>
+
+- **User Preferences** are now supported through the {{book.Settings}} page!
+  Through this resource, you may now:
+  * Dynamically specify which {{book.BibleTranslation}} you wish to
+    use ... **check it out**!
+- ?? more
 
 <!-- ************************************************************* -->
 <br/>

@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (18.0)
+### Fire Within (19.0)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -10,6 +10,7 @@
 
 ----
 - [Settings](settings.md)
+  * [Bible Translation](settings.md#bible-translation)
 
 ----
 - [Getting Started](start.md)
@@ -18,6 +19,7 @@
   * [Left Nav Bar](start.md#left-nav-bar)
   * [Resource Links](start.md#resource-links)
   * [Where Am I?](start.md#where-am-i)
+  * [Bible Translation](start.md#bible-translation)
   * [Diagrams](start.md#diagrams)
 
 - [Work In Progress](WorkInProgress.md)
