@@ -62,6 +62,10 @@ Release           | What                 | *When*
   Through this resource, you may now:
   * Dynamically specify which {{book.BibleTranslation}} you wish to
     use ... **check it out**!
+- A **Completed Checkbox** is now available **for each book of the
+  Bible**, found in both the {{book.OldTestament}} and
+  {{book.NewTestament}} pages _(similar to those found in each Sermon
+  Series)_.
 - ?? more
 
 <!-- ************************************************************* -->
