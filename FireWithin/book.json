@@ -139,6 +139,11 @@
     "b1":     "<a href=\"https://bible.com/bible/",
     "b2":     "\" target=\"_blank\">",
     "b3":     "</a>",
+
+    "b1TT":   "<a href=\"#\" onmouseover=\"alterBibleVerseLink(event, '",
+    "b2TT":   "')\" target=\"_blank\">",
+    "b3TT":   "</a>",
+
     "csg1":   "<a href=\"https://assets01.cornerstonechapel.net/documents/studyguides/",
     "csg2":   "\" target=\"_blank\">Study Guide</a>"
   }

@@ -210,3 +210,130 @@ function _storeFireWithinCompletedObj(obj) {
   const objStr = JSON.stringify(obj);
   localStorage.setItem('fireWithinCompleted', objStr);
 }
+
+
+//*-----------------------------------------------------------------------------
+//* Code Related to our settings (User Preferences)
+//*-----------------------------------------------------------------------------
+
+// NOTE: We have to do some work-arounds on global state initialization, 
+//       based on gitbook usage.  Basically, instead of clare/init a const,
+//       we utilize the global window namespace.
+
+// our default settings ... revealing our settings structure
+window.settingsDEFAULT = {
+  bibleTranslation: 'NLT',
+};
+
+// our current settings (persisted in localStorage):
+window.settings = JSON.parse( localStorage.getItem('fireWithinSettings') ) || settingsDEFAULT;
+
+// retain our settings in localStorage (invoked when settings change)
+function persistSettings() {
+  const settingsStr = JSON.stringify(settings);
+  localStorage.setItem('fireWithinSettings', settingsStr);
+}
+
+
+//*-----------------------------------------------------------------------------
+//* Code Related to Bible Translation (in support of dynamic selection)
+//*-----------------------------------------------------------------------------
+
+// Bible Translation Codes (as defined by YouVersion)
+window.bibleTranslations = {
+  SEP1: { code: 'GROUP', desc: 'Paraphrased (everyday lang):' },
+  MSG:  { code: '97',    desc: 'The Message' },
+  GNT:  { code: '68',    desc: 'Good News Translation' },
+  NLT:  { code: '116',   desc: 'New Living Translation' },
+
+  SEP2: { code: 'GROUP', desc: 'Literal (some moderate):' },
+  CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
+  NIV:  { code: '111',   desc: 'New International Ver' },
+  ESV:  { code: '59',    desc: 'English Standard Ver 2016' },
+  NET:  { code: '107',   desc: 'New English Translation' },
+
+  SEP3: { code: 'GROUP', desc: 'Traditional:' },
+  NKJV: { code: '114',   desc: 'New King James Ver' },
+  KJV:  { code: '1',     desc: 'King James Ver' },
+
+  SEP4: { code: 'GROUP', desc: 'Amplified:' },
+  AMP:  { code: '1588',  desc: 'Amplified Bible' },
+  AMPC: { code: '8',     desc: 'Amplified Bible Classic' },
+};
+
+
+// Alter the supplied <a> tag href to the supplied YouVersion
+// scriptureRef, dynamically injecting the appropriate 
+// Bible Translation (ex: NIV, KJV, etc.) from the user's preference.
+//
+// This event should be registered on a hover action (e.g. the mouseover event),
+// allowing the the the browser status to correctly reflect the updated URL.
+//
+// PARMS:
+//   e:            The event from the invoking <a> tag
+//   scriptureRef: The YouVersion Bible App scripture reference (ex: 'mrk.1.2')
+//
+// This utility has the following advantages:
+//  - The bible site URL is centralized.  Any changes by YouVersion Bible app
+//    can be isolated in this routine.
+//  - The Bible translation (ex: NIV, KJV, etc.) is dynamically determined
+//    via a user preference, persisted in localStorage.
+// 
+// USAGE: 
+//   <a href="#" onmouseover="alterBibleVerseLink(event, 'mrk.1.2')" target="_blank">Mark 1:2</a>
+function alterBibleVerseLink(e, scriptureRef) {
+  
+  // extract the bibleTranslation from our settings (User Preferences)
+  const bibleTranslation     = settings.bibleTranslation;                // ex: 'NLT'
+  let   bibleTranslationCode = bibleTranslations[bibleTranslation].code; // ex: '116'
+  
+  // define the full URL
+  // EX: https://bible.com/bible/111/mrk.1.2.NIV
+  //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .NIV)
+  //           ... it is functionally redundent of the bibleTranslationCode
+  const url = `https://bible.com/bible/${bibleTranslationCode}/${scriptureRef}.${bibleTranslation}`;
+  
+  // overwrite the href of the invoking <a> tag
+  // NOTE: because e.preventDefault() is not used, the browser
+  //       will open the link in a new tab based on the updated href
+  // console.log(`XX updating href with: ${url}`);
+  e.currentTarget.href = url;
+}
+
+// Generate an html selection list for bibleTranslations
+//
+// USAGE: 
+//   <select id="bibleTranslations"></select>
+//   <script>
+//     genBibleTranslationsSelection('bibleTranslations');
+//   </script>
+function genBibleTranslationsSelection(bibleTranslationsElmId) {
+  const selectElm = document.getElementById(bibleTranslationsElmId);
+  let   groupElm  = null; // running value
+  for (const bibleTranslationKey in bibleTranslations) {
+    const bibleTranslation = bibleTranslations[bibleTranslationKey];
+    if (bibleTranslation.code === 'GROUP') {
+      groupElm = document.createElement('optgroup');
+      groupElm.setAttribute('label', bibleTranslation.desc);
+      selectElm.appendChild(groupElm);
+    }
+    else {
+      const optionElm       = document.createElement('option');
+      optionElm.textContent = `${bibleTranslationKey} (${bibleTranslation.desc})`;
+      optionElm.value       = bibleTranslationKey;
+      (groupElm || selectElm).appendChild(optionElm);
+    }
+  }
+
+  // default the list selection to what is retained in our persistent settings
+  selectElm.value = settings.bibleTranslation;
+
+  // add an event handler to retain the current selection in localStorage  
+  selectElm.addEventListener('change', function() {
+    settings.bibleTranslation = this.value;
+
+    // retain our updated settings
+    persistSettings();
+  });
+
+}

@@ -63,7 +63,7 @@ one, but something that is very important to consider:
 
 The bible tells us that the rightful punishment for sin _(our natural
 state)_ is death and eternal separation from God.  This represents an
-an eternity in hell ([Romans 6:23](https://bible.com/bible/111/ROM.6.23.niv), 
+an eternity in hell {{book.b1TT}}ROM.6.23{{book.b2TT}} Romans 6:23 {{book.b3TT}},
 [John 5:29](https://bible.com/bible/97/JHN.5.29.msg), 
 [Revelation 21:6-8](https://bible.com/bible/116/REV.21.6-8.nlt)).
 

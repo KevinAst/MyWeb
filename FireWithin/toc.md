@@ -9,6 +9,9 @@
   * [God Bless You](intro.md#god-bless-you)
 
 ----
+- [Settings](settings.md)
+
+----
 - [Getting Started](start.md)
   * [Basic Appearance](start.md#basic-appearance)
   * [Going Home](start.md#going-home)
