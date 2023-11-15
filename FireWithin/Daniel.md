@@ -1,6 +1,6 @@
-# Daniel
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Daniel
 
 Daniel is a collection of stories and visions that give us hope that
 God’s kingdom will eventually prevail over violent world
@@ -69,7 +69,7 @@ under his rule.
   </figure>
 </center>
 <script>
-  addZoomableImage('Daniel_BP', 'Daniel_BP.png', 75);
+  fw.addZoomableImage('Daniel_BP', 'Daniel_BP.png', 75);
 </script>
 
 
@@ -175,10 +175,3 @@ under his rule.
 
 </table>
 </div>
-
-
-
-
-<script>
-  pageSetup();
-</script>

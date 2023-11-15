@@ -1,7 +1,6 @@
+<script src="fw.js"></script>
 
 # 2 Corinthians
-
-<script type="text/javascript" src="utils.js"></script>
 
 Paul’s message to the Corinthians encourages them to live in a new
 way, embracing the cruciform life of Jesus. Through the cross and
@@ -59,7 +58,7 @@ did.
   </figure>
 </center>
 <script>
-  addZoomableImage('2Corinthians_BP', '2Corinthians_BP.png', 75);
+  fw.addZoomableImage('2Corinthians_BP', '2Corinthians_BP.png', 75);
 </script>
 
 **{{book.SpokenGospel}}**
@@ -144,8 +143,3 @@ did.
 
 </table>
 </div>
-
-
-<script>
-  pageSetup();
-</script>

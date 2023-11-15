@@ -1,6 +1,6 @@
-# Leviticus
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Leviticus
 
 Leviticus can be summed up with God’s repeated command: “Be holy, as I
 am holy.” Leviticus is a book of laws, but it’s also a book of
@@ -60,7 +60,7 @@ should live, eat, sacrifice, celebrate, and more.
   </figure>
 </center>
 <script>
-  addZoomableImage('Leviticus_BP', 'Leviticus_BP.png', 75);
+  fw.addZoomableImage('Leviticus_BP', 'Leviticus_BP.png', 75);
 </script>
 
 
@@ -104,10 +104,3 @@ should live, eat, sacrifice, celebrate, and more.
 
 </table>
 </div>
-
-
-
-
-<script>
-  pageSetup();
-</script>

@@ -1,6 +1,6 @@
-# Getting Started
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Getting Started
 
 Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.
 It is, _at it's core_, simply a consolidated list of resource links to
@@ -209,5 +209,5 @@ following features:
   </figure>
 </center>
 <script>
-  addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
+  fw.addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
 </script>

@@ -1,6 +1,6 @@
-# 1 Thessalonians
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# 1 Thessalonians
 
 Paul has heard a good report on the church at Thessalonica, and
 encourages the persecuted believers to "excel still more" in faith,
@@ -58,7 +58,7 @@ hope, and love.
   </figure>
 </center>
 <script>
-  addZoomableImage('1Thessalonians_BP', '1Thessalonians_BP.png', 75);
+  fw.addZoomableImage('1Thessalonians_BP', '1Thessalonians_BP.png', 75);
 </script>
 
 **{{book.SpokenGospel}}**
@@ -132,8 +132,3 @@ hope, and love.
 
 </table>
 </div>
-
-
-<script>
-  pageSetup();
-</script>

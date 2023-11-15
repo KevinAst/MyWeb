@@ -1,6 +1,6 @@
-# Old Testament
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Old Testament
 
 The Old Testament includes 39 books which were written long before Jesus was born.
 
@@ -61,7 +61,3 @@ _([find out more](https://overviewbible.com/old-testament-books/))_:
 
 > Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
 > To request a specific book to be added, please see the {{book.WorkInProgress}} section.
-
-<script>
-  pageSetup();
-</script>

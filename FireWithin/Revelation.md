@@ -1,6 +1,6 @@
-# Revelation
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Revelation
 
 The book of Revelation is the resolution of all things: the kingdom of
 God is once again physically and literally restored to earth &bull;
@@ -64,7 +64,7 @@ all things are made new.
   </figure>
 </center>
 <script>
-  addZoomableImage('Revelation_BP', 'Revelation_BP.png', 75);
+  fw.addZoomableImage('Revelation_BP', 'Revelation_BP.png', 75);
 </script>
 
 
@@ -148,7 +148,7 @@ all things are made new.
   </figure>
 </center>
 <script>
-  addZoomableImage('RevelationTimeline_CS', 'RevelationTimeline_CS.png', 75);
+  fw.addZoomableImage('RevelationTimeline_CS', 'RevelationTimeline_CS.png', 75);
 </script>
 
 
@@ -229,19 +229,3 @@ all things are made new.
 
 </table>
 </div>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>

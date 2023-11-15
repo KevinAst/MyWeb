@@ -1,6 +1,6 @@
-# Lamentations
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Lamentations
 
 **Jerusalem has fallen**
 
@@ -73,7 +73,7 @@ with a God who hears the cries of his people.
   </figure>
 </center>
 <script>
-  addZoomableImage('Lamentations_BP', 'Lamentations_BP.png', 75);
+  fw.addZoomableImage('Lamentations_BP', 'Lamentations_BP.png', 75);
 </script>
 
 
@@ -137,9 +137,3 @@ with a God who hears the cries of his people.
 
 </table>
 </div>
-
-
-
-<script>
-  pageSetup();
-</script>

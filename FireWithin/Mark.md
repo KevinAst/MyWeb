@@ -1,6 +1,6 @@
-# Mark
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Mark
 
 Mark is the story of what Jesus did for us. The author, John Mark,
 wrote this book based on the apostle Peter’s memories of Jesus’ words
@@ -59,7 +59,7 @@ and deeds.
   </figure>
 </center>
 <script>
-  addZoomableImage('Mark_BP', 'Mark_BP.png', 75);
+  fw.addZoomableImage('Mark_BP', 'Mark_BP.png', 75);
 </script>
 
 
@@ -216,8 +216,3 @@ and deeds.
 
 </table>
 </div>
-
-
-<script>
-  pageSetup();
-</script>

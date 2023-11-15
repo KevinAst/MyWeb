@@ -1,6 +1,6 @@
-# Deuteronomy
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Deuteronomy
 
 Israel is about to finally enter the promised land of Canaan. Before
 they do, Moses rallies the people to remind them of God’s law—and why
@@ -54,7 +54,7 @@ name: it’s the “second giving” of God’s law.
   </figure>
 </center>
 <script>
-  addZoomableImage('Deuteronomy_BP', 'Deuteronomy_BP.png', 75);
+  fw.addZoomableImage('Deuteronomy_BP', 'Deuteronomy_BP.png', 75);
 </script>
 
 
@@ -106,9 +106,3 @@ name: it’s the “second giving” of God’s law.
 
 </table>
 </div>
-
-
-
-<script>
-  pageSetup();
-</script>

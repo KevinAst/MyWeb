@@ -1,4 +1,4 @@
-<script type="text/javascript" src="utils.js"></script>
+<script src="fw.js"></script>
 
 # Fire Within
 
@@ -303,5 +303,5 @@ _Yours In Christ,_
 <br/>**&lt;/Kevin&gt;**
 <br/><span id="inquire"></span>
 <script>
-  addInquire('Fire%20Within%20Feedback');
+  fw.addInquire('Fire%20Within%20Feedback');
 </script>

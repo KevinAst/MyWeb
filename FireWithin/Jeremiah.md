@@ -1,6 +1,6 @@
-# Jeremiah
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Jeremiah
 
 **Judah was given a final chance**
 
@@ -71,7 +71,7 @@ picture of how disobedience leads to destruction.
   </figure>
 </center>
 <script>
-  addZoomableImage('Jeremiah_BP', 'Jeremiah_BP.png', 75);
+  fw.addZoomableImage('Jeremiah_BP', 'Jeremiah_BP.png', 75);
 </script>
 
 
@@ -196,9 +196,3 @@ picture of how disobedience leads to destruction.
 
 </table>
 </div>
-
-
-
-<script>
-  pageSetup();
-</script>

@@ -1,6 +1,6 @@
-# Luke
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Luke
 
 Luke is the story of Jesus Christ - exactly as it happened ... written
 by the physician Luke.  It emphasizes the upside-down nature of God’s
@@ -63,7 +63,7 @@ reversed.
   </figure>
 </center>
 <script>
-  addZoomableImage('Luke_BP', 'Luke_BP.png', 75);
+  fw.addZoomableImage('Luke_BP', 'Luke_BP.png', 75);
 </script>
 
 
@@ -240,7 +240,3 @@ reversed.
 
 </table>
 </div>
-
-<script>
-  pageSetup();
-</script>

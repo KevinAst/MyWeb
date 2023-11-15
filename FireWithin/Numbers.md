@@ -1,6 +1,6 @@
-# Numbers
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Numbers
 
 Numbers tells the story of Israel’s wanderings through the wilderness
 en route to the promised land of Canaan. Numbers begins and ends with
@@ -61,7 +61,7 @@ gets its name.
   </figure>
 </center>
 <script>
-  addZoomableImage('Numbers_BP', 'Numbers_BP.png', 75);
+  fw.addZoomableImage('Numbers_BP', 'Numbers_BP.png', 75);
 </script>
 
 
@@ -125,9 +125,3 @@ gets its name.
 
 </table>
 </div>
-
-
-
-<script>
-  pageSetup();
-</script>

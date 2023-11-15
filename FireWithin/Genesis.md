@@ -1,6 +1,6 @@
-# Genesis
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Genesis
 
 In the first part of Genesis _(1-11)_, we see that God creates a good
 world and commissions humans to rule it, but they choose rebellion
@@ -60,7 +60,7 @@ their repeated failure.
   </figure>
 </center>
 <script>
-  addZoomableImage('Genesis_BP', 'Genesis_BP.png', 75);
+  fw.addZoomableImage('Genesis_BP', 'Genesis_BP.png', 75);
 </script>
 
 
@@ -262,18 +262,3 @@ their repeated failure.
 
 </table>
 </div>
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>

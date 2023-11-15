@@ -1,6 +1,6 @@
-# Work In Progress
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Work In Progress
 
 You may have noticed that this site is a work-in-progress.
 
@@ -27,5 +27,5 @@ I continue my study.
 > when it is available!
 
 <script>
-  addInquire('Fire%20Within%20Book%20Request');
+  fw.addInquire('Fire%20Within%20Book%20Request');
 </script>

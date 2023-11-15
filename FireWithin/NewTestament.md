@@ -1,6 +1,6 @@
-# New Testament
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# New Testament
 
 The New Testament includes 27 books about Jesus’ ministry and what it
 means to follow him. 
@@ -50,7 +50,3 @@ _([find out more](https://overviewbible.com/new-testament-books/))_:
 
 > Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
 > To request a specific book to be added, please see the {{book.WorkInProgress}} section.
-
-<script>
-  pageSetup();
-</script>

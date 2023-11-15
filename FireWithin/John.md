@@ -1,6 +1,6 @@
-# John
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# John
 
 Jesus came to bring God's love and the gift of eternal life to the world.
 
@@ -55,7 +55,7 @@ Jesus came to bring God's love and the gift of eternal life to the world.
   </figure>
 </center>
 <script>
-  addZoomableImage('John_BP', 'John_BP.png', 75);
+  fw.addZoomableImage('John_BP', 'John_BP.png', 75);
 </script>
 
 
@@ -277,10 +277,3 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 
 </table>
 </div>
-
-
-
-
-<script>
-  pageSetup();
-</script>

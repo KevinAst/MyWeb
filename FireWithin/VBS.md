@@ -1,5 +1,6 @@
+<script src="fw.js"></script>
+
 # VBS 2023 - Twists & Turns
-<script type="text/javascript" src="utils.js"></script>
 
 Following Jesus changes EVERYTHING
 
@@ -141,7 +142,7 @@ _(last year: 471/247)_
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
+  fw.addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
 </script>
 
     -->
@@ -445,7 +446,7 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map1', 'VBS_map1.jpg', 75);
+  fw.addZoomableImage('VBS_map1', 'VBS_map1.jpg', 75);
 </script>
 
 <center>
@@ -455,7 +456,7 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map2', 'VBS_map2.jpg', 75);
+  fw.addZoomableImage('VBS_map2', 'VBS_map2.jpg', 75);
 </script>
 
 <center>
@@ -465,21 +466,5 @@ believes in him receives forgiveness of sins."
   </figure>
 </center>
 <script>
-  addZoomableImage('VBS_map3', 'VBS_map3.jpg', 75);
-</script>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
+  fw.addZoomableImage('VBS_map3', 'VBS_map3.jpg', 75);
 </script>

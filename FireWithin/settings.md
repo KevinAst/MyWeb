@@ -1,6 +1,6 @@
-# Settings
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Settings
 
 The _**"Fire Within"**_ Bible Study Guide has a small number of **User
 Preference** settings _(found here)_, which are retained between
@@ -25,7 +25,7 @@ through this setting:
 
 <select id="bibleTranslations"></select>
 <script>
-  genBibleTranslationsSelection('bibleTranslations');
+  fw.genBibleTranslationsSelection('bibleTranslations');
 </script>
 
 > Please Note that this list is just a few of the more popular
@@ -37,5 +37,5 @@ through this setting:
 > or Direct Message me on [Twitter](https://twitter.com/kevinast)
 
 <script>
-  addInquire('Fire%20Within%20Bible%20Translation%20Request');
+  fw.addInquire('Fire%20Within%20Bible%20Translation%20Request');
 </script>

@@ -1,6 +1,6 @@
-# Exodus
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Exodus
 
 The book of Exodus is the story of God rescuing the children of Israel
 from Egypt and making them His covenant people. Exodus is where we
@@ -65,7 +65,7 @@ of the Red Sea, and the Ten Commandments.
   </figure>
 </center>
 <script>
-  addZoomableImage('Exodus_BP', 'Exodus_BP.png', 75);
+  fw.addZoomableImage('Exodus_BP', 'Exodus_BP.png', 75);
 </script>
 
 
@@ -183,19 +183,3 @@ of the Red Sea, and the Ten Commandments.
 
 </table>
 </div>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>

@@ -1,6 +1,6 @@
-# Micah
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# Micah
 
 **Micah announces God's judgment against Israel.**
 
@@ -63,7 +63,7 @@ messianic King to rule over the people and bless all the nations.
   </figure>
 </center>
 <script>
-  addZoomableImage('Micah_BP', 'Micah_BP.png', 75);
+  fw.addZoomableImage('Micah_BP', 'Micah_BP.png', 75);
 </script>
 
 
@@ -99,20 +99,3 @@ messianic King to rule over the people and bless all the nations.
 
 </table>
 </div>
-
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>

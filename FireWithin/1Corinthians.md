@@ -1,6 +1,6 @@
-# 1 Corinthians
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# 1 Corinthians
 
 1 Corinthians challenges believers to examine every area of life
 through the lens of the Gospel. Specifically, Paul addresses divisions
@@ -55,7 +55,7 @@ resurrection.
   </figure>
 </center>
 <script>
-  addZoomableImage('1Corinthians_BP', '1Corinthians_BP.png', 75);
+  fw.addZoomableImage('1Corinthians_BP', '1Corinthians_BP.png', 75);
 </script>
 
 **{{book.SpokenGospel}}**
@@ -168,8 +168,3 @@ resurrection.
 
 </table>
 </div>
-
-
-<script>
-  pageSetup();
-</script>

@@ -1,6 +1,6 @@
-# 2 Thessalonians
+<script src="fw.js"></script>
 
-<script type="text/javascript" src="utils.js"></script>
+# 2 Thessalonians
 
 Paul addresses three troubles the church in Thessalonica faced:
 Persecution from outside
@@ -54,7 +54,7 @@ Persecution from outside
   </figure>
 </center>
 <script>
-  addZoomableImage('2Thessalonians_BP', '2Thessalonians_BP.png', 75);
+  fw.addZoomableImage('2Thessalonians_BP', '2Thessalonians_BP.png', 75);
 </script>
 
 **{{book.SpokenGospel}}**
@@ -125,8 +125,3 @@ Persecution from outside
 
 </table>
 </div>
-
-
-<script>
-  pageSetup();
-</script>
