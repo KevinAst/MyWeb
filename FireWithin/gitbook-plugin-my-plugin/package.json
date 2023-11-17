@@ -1,0 +1,9 @@
+{
+  "name": "gitbook-plugin-my-plugin",
+  "version": "1.0.0",
+  "description": "a local GitBook plugin that caters to the needs of this specific project",
+  "main": "index.js",
+  "engines": {
+    "gitbook": "*"
+  }
+}
