@@ -67,6 +67,13 @@ Release           | What                 | *When*
   {{book.NewTestament}} pages _(similar to those found in each Sermon
   Series)_.
 - ?? more
+- Internal Changes:
+  * Simplified the blog build process (i.e. the 'blog:dev' npm
+    script), executing the gitbook command directly in the npm script,
+    eliminating the FireWithin/buildDocsInDev.js script
+    completely. This also emits better diagnostics (when problems
+    arise).
+  * ?? more
 
 <!-- ************************************************************* -->
 <br/>
