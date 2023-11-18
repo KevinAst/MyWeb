@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Getting Started
 
 Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.

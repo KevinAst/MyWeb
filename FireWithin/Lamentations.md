@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Lamentations
 
 **Jerusalem has fallen**

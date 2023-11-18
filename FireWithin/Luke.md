@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Luke
 
 Luke is the story of Jesus Christ - exactly as it happened ... written

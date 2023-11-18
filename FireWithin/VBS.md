@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # VBS 2023 - Twists & Turns
 
 Following Jesus changes EVERYTHING

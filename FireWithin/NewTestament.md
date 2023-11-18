@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # New Testament
 
 The New Testament includes 27 books about Jesus’ ministry and what it

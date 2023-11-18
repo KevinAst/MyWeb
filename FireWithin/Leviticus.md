@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Leviticus
 
 Leviticus can be summed up with God’s repeated command: “Be holy, as I

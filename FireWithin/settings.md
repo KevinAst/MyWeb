@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Settings
 
 The _**"Fire Within"**_ Bible Study Guide has a small number of **User

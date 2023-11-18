@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Old Testament
 
 The Old Testament includes 39 books which were written long before Jesus was born.

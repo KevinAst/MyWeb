@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Genesis
 
 In the first part of Genesis _(1-11)_, we see that God creates a good

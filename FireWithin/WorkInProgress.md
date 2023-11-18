@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Work In Progress
 
 You may have noticed that this site is a work-in-progress.

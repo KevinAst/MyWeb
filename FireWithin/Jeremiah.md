@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Jeremiah
 
 **Judah was given a final chance**

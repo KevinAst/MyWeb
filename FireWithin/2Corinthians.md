@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # 2 Corinthians
 
 Paul’s message to the Corinthians encourages them to live in a new

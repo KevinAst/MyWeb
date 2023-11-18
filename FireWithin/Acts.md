@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Acts
 
 The book of Acts is a continuation of the Gospel of {{book.Luke}}.

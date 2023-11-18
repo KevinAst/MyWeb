@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Jonah
 
 **Do we really want God to love our enemies?**

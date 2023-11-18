@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Romans
 
 The book of Romans is a detailed explanation of the Gospel message

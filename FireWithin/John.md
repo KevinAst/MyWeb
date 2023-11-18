@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # John
 
 Jesus came to bring God's love and the gift of eternal life to the world.

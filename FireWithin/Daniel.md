@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Daniel
 
 Daniel is a collection of stories and visions that give us hope that

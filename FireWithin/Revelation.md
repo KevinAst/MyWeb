@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Revelation
 
 The book of Revelation is the resolution of all things: the kingdom of

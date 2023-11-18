@@ -22,13 +22,15 @@ It does the following:
 1. It surrounds ALL pages with the necessary JavaScript constructs needed for our blog:
 
    **At the START:**
+   ... _inject fw.js script in every page_
    ```
-   ??
+   <script src="fw.js"></script>
    ```
 
    **At the END:**
+   ... _auto run pageSetup() at end (when page is rendered)_
    ```
-   ??
+   <script> fw.pageSetup(); </script>
    ```
 
    This documentation blog utilizes JavaScript _(found in `fw.js`)_
@@ -36,6 +38,19 @@ It does the following:
    This is a bit tricky in the MarkDown world _(the source types of
    GitBook)_.  Without this plugin automation, these scripts had to be
    duplicated **BY HAND** on EACH page.
+
+2. It conditionally adds a "Book Completed" check-box control on ALL
+   pages that represent a book of the Bible.
+
+   This is the same control that is accumulated in
+   OldTestament/NewTestament pages.
+
+   **Example**
+   ```
+   <div style="text-align: right">
+     {{book.cb1}}Mark{{book.cb2}} Book Completed{{book.cb3}}
+   </div>
+   ```
 
 
 ## Activation

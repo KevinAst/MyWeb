@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Galatians
 
 The book of Galatians reminds Jesus’ followers to embrace the Gospel

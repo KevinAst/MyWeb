@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # 2 Thessalonians
 
 Paul addresses three troubles the church in Thessalonica faced:

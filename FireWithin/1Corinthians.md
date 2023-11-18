@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # 1 Corinthians
 
 1 Corinthians challenges believers to examine every area of life

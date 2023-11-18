@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Numbers
 
 Numbers tells the story of Israel’s wanderings through the wilderness

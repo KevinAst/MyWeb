@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Current Events
 
 ### At a Glance

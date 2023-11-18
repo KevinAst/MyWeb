@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Amos
 
 **Israel has been unfaithful to Yahweh.**

@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Hosea
 
 **Hosea accuses Israel of breaking their covenant with God**

@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # 1 Thessalonians
 
 Paul has heard a good report on the church at Thessalonica, and

@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Mark
 
 Mark is the story of what Jesus did for us. The author, John Mark,

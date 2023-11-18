@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Micah
 
 **Micah announces God's judgment against Israel.**

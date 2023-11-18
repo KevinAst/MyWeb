@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Exodus
 
 The book of Exodus is the story of God rescuing the children of Israel

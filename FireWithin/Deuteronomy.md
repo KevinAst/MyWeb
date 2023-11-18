@@ -1,5 +1,3 @@
-<script src="fw.js"></script>
-
 # Deuteronomy
 
 Israel is about to finally enter the promised land of Canaan. Before

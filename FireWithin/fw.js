@@ -421,48 +421,55 @@ if (!window.fw) { // only expand this module once (conditionally)
     
     //***************************************************************************
     //***************************************************************************
-    //* INTERNAL: pageSetup() - perform setup of each page (once it is loaded)
+    //* PUBLIC: fw.pageSetup() - perform setup of each page (once it is loaded)
     //***************************************************************************
     //***************************************************************************
-    function pageSetup() {
+    fw.pageSetup = function() {
       console.log('***NOTE*** perform common setup of each page (once it is loaded)');
       syncCompletedChecksOnPage();
    // registerImgClickFullScreenHandlers(); ... NOT being used
     }
-    // register pageSetup() to run on each page load
-    // NOTE: Because GitBook does NOT actually reload the entire page when
-    //       navigating to a new page (from the left nav), we cannot rely on
-    //       the "onload" event.  
-    //       As a work-around we attempted several things:
-    //       - monitor various events:
-    //         * onhashchange: not expected to work, because a real page change
-    //                         is more than the URL hash changing
-    //                         EX: window.addEventListener('hashchange', () => { ... }
-    //         * onpopstate:   expected to work, because it is triggered by history.pushState()
-    //                         used in updating the URL. HOWEVER does NOT work - NO IDEA WHY
-    //                         EX: window.addEventListener('popstate', () => { ... }
-    //         * onup:location:changed: expected to work. HOWEVER does NOT work - NO IDEA WHY
-    //                         EX: window.addEventListener('up:location:changed', () => { ... }
-    //       - as a DESPERATE work-around HACK, we monkey patch history.pushState().
-    //         THIS WORKS ... but GEEEE WHIZZZZ!!!
-    window.addEventListener('load', () => { // we also need to monitor the 'onload' event FOR the INITIAL gitbook document load
-      pageSetup();
-    });
-    // also monitor GitBook page changes via monkey patch (see DESPERATE note - above)
-    // console.log('XX monkey patching history.pushState()');
-    const history_pushState_original = history.pushState;
-    history.pushState = function() {
-      // invoke original pushState
-      // console.log('XX in monkey patched history.pushState() invoking original with arguments: ', arguments);
-      history_pushState_original.apply(history, [...arguments]);
-
-      // value added behavior
-      // NOTE: we utilize a 1 mill timeout to push the process in the next "pseudo thread"
-      //       eliminating any race conditions
-      setTimeout(() => {
-        pageSetup();
-      }, 100); // 1 mill works mostly, but I have seen some "very intermittent" checkboxes NOT sync ... go with 1/10 sec (100 mills)
-    }
+    // FOLLOWING is NO LONGER NEEDED, and is COMMENTED OUT (left for posterity - for what it is worth)
+    // This functionality is NOW addressed by our my-plugin GitBook plugin
+    // - by injecting an in-line JS execution of fw.pageSetup() at the end of each page
+    // - PRO:
+    //   * this is more reliable
+    //     - FOLLOWING seemed to have intermittent results, where completed checkboxes were NOT properly initialized
+    //   * FOLLOWING is a bit of a HACK
+    //? // register fw.pageSetup() to run on each page load
+    //? // NOTE: Because GitBook does NOT actually reload the entire page when
+    //? //       navigating to a new page (from the left nav), we cannot rely on
+    //? //       the "onload" event.  
+    //? //       As a work-around we attempted several things:
+    //? //       - monitor various events:
+    //? //         * onhashchange: not expected to work, because a real page change
+    //? //                         is more than the URL hash changing
+    //? //                         EX: window.addEventListener('hashchange', () => { ... }
+    //? //         * onpopstate:   expected to work, because it is triggered by history.pushState()
+    //? //                         used in updating the URL. HOWEVER does NOT work - NO IDEA WHY
+    //? //                         EX: window.addEventListener('popstate', () => { ... }
+    //? //         * onup:location:changed: expected to work. HOWEVER does NOT work - NO IDEA WHY
+    //? //                         EX: window.addEventListener('up:location:changed', () => { ... }
+    //? //       - as a DESPERATE work-around HACK, we monkey patch history.pushState().
+    //? //         THIS WORKS ... but GEEEE WHIZZZZ!!!
+    //? window.addEventListener('load', () => { // we also need to monitor the 'onload' event FOR the INITIAL gitbook document load
+    //?   fw.pageSetup();
+    //? });
+    //? // also monitor GitBook page changes via monkey patch (see DESPERATE note - above)
+    //? // console.log('XX monkey patching history.pushState()');
+    //? const history_pushState_original = history.pushState;
+    //? history.pushState = function() {
+    //?   // invoke original pushState
+    //?   // console.log('XX in monkey patched history.pushState() invoking original with arguments: ', arguments);
+    //?   history_pushState_original.apply(history, [...arguments]);
+    //? 
+    //?   // value added behavior
+    //?   // NOTE: we utilize a 1 mill timeout to push the process in the next "pseudo thread"
+    //?   //       eliminating any race conditions
+    //?   setTimeout(() => {
+    //?     fw.pageSetup();
+    //?   }, 100); // 1 mill works mostly, but I have seen some "very intermittent" checkboxes NOT sync ... go with 1/10 sec (100 mills)
+    //? }
 
     //***********
     //* end IIFE -and- promotion of the "module scoped" fw obj
