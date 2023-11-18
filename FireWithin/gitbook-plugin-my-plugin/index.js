@@ -28,12 +28,22 @@ module.exports = {
       //*** surround ALL pages with the necessary JavaScript constructs needed for our blog
       //***
 
-      // L8TR: Could parameterize this (pulled from package.json) ... an overkill for now
+      // start/end scripts needed for the proper activation/initialization of fw.js in our client pages
       const startScript = 'START (injected from gitbook-plugin-my-plugin)'; // ?? copy to README TOO (when real)
       const endScript   = 'END (injected from gitbook-plugin-my-plugin)';
 
+      // conditionally add a "Book Completed" check-box control on ALL pages that represent a book of the Bible
+      // - these pages uniquely contain an "Introduction**" sub-string
+      // - this is the same control that is accumulated in OldTestament.md/NewTestament.md
+      // - EXAMPLE:
+      //     <div style="text-align: right">
+      //       {{book.cb1}}Mark{{book.cb2}} Book Completed{{book.cb3}}
+      //     </div>
+      const bibleBookCompletedCntl = !page.content.includes('Introduction**') ? ''
+                                     : `<div style="text-align: right">{{book.cb1}}${page.path.replace('.md', '')}{{book.cb2}} Book Completed{{book.cb3}}</div>`;
+
       // ... utilize cr/lf (\n) to NOT conflict with things like "### Title", etc.
-      page.content = `${startScript}\n${page.content}\n${endScript}`;
+      page.content = `${startScript}\n${bibleBookCompletedCntl}\n\n${page.content}\n${endScript}`;
 
       // KJB: return IS needed (seems weird, as we are changing the contend directly)
       return page;

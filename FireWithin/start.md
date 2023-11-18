@@ -159,9 +159,10 @@ remembered the next time you come back.
        width="70%">
 </center>
 
-**At a higher level**, you can also <mark>keep track of which books of the Bible
-you have completed</mark>.  This is found in both the {{book.OldTestament}}
-and {{book.NewTestament}} pages.
+**At a higher level**, you can also <mark>keep track of which books of
+the Bible you have completed</mark>.  This is summarized in both the
+{{book.OldTestament}} and {{book.NewTestament}} pages, and also found
+at the top-right of each page that represents a book of the Bible.
 
 > Please Note that the "Complete Checkbox" state is held in your
 > local device.  That means the status will not follow you when you
