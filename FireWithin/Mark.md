@@ -50,16 +50,7 @@ and deeds.
 
 > [Mark Introduction](https://bibleproject.com/explore/video/mark/)
 
-<center>
-  <figure>
-    <div id="Mark_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Mark_BP', 'Mark_BP.png', 75);
-</script>
-
+M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
 
 **{{book.SpokenGospel}}**
 

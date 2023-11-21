@@ -52,6 +52,26 @@ It does the following:
    </div>
    ```
 
+3. It implements Custom Tags that can be used in the markdown of a
+   page, and greatly simplifies complex directives.
+
+   The following **Custom Tags** are available:
+
+   - **injectZoomableImage({id})**
+
+     Provide a "zoomable" container for large images, injecting the necessary
+     JavaScript hooks that implements this.
+
+     **Parms**:
+
+     * id - The identifier that identifies the image to display: {id}.png
+
+     **Custom Tag**
+
+     ```
+     M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
+     ```
+
 
 ## Activation
 
