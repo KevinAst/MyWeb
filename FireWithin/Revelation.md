@@ -55,15 +55,7 @@ all things are made new.
 > [Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
 > [Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
 
-<center>
-  <figure>
-    <div id="Revelation_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Revelation_BP', 'Revelation_BP.png', 75);
-</script>
+M{ zoomableImg('Revelation_BP') }M
 
 
 <!-- NOTE:  layout for "cell phone" responsive show/hide -->
@@ -139,15 +131,7 @@ all things are made new.
 
 {{book.CornerstoneChapel}}
 
-<center>
-  <figure>
-    <div id="RevelationTimeline_CS"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('RevelationTimeline_CS', 'RevelationTimeline_CS.png', 75);
-</script>
+M{ zoomableImg('RevelationTimeline_CS') }M
 
 
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->

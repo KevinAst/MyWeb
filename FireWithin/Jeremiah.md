@@ -62,15 +62,7 @@ picture of how disobedience leads to destruction.
 
 > [Jeremiah Introduction](https://bibleproject.com/explore/video/jeremiah/)
 
-<center>
-  <figure>
-    <div id="Jeremiah_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Jeremiah_BP', 'Jeremiah_BP.png', 75);
-</script>
+M{ zoomableImg('Jeremiah_BP') }M
 
 
 **{{book.SpokenGospel}}**

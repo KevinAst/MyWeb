@@ -130,22 +130,6 @@ _(last year: 471/247)_
 </table>
 
 
-
-<!-- TRASH ROSTER (TRASH - NO LONGER USED)
-
-<center>
-  <figure>
-    <div id="VBS_roster"></div>
-    <figcaption>ROSTER: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
-</script>
-
-    -->
-
-
 ## Memory Verse
 
 - **Main Verse**: you will be presented a set of "dog tags" in the worship rally!
@@ -437,32 +421,8 @@ believes in him receives forgiveness of sins."
 
 ## Maps
 
-<center>
-  <figure>
-    <div id="VBS_map1"></div>
-    <figcaption>BASE: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('VBS_map1', 'VBS_map1.jpg', 75);
-</script>
+M{ zoomableImg('VBS_map1') }M
 
-<center>
-  <figure>
-    <div id="VBS_map2"></div>
-    <figcaption>FIRST: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('VBS_map2', 'VBS_map2.jpg', 75);
-</script>
+M{ zoomableImg('VBS_map2') }M
 
-<center>
-  <figure>
-    <div id="VBS_map3"></div>
-    <figcaption>RECK: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('VBS_map3', 'VBS_map3.jpg', 75);
-</script>
+M{ zoomableImg('VBS_map3') }M

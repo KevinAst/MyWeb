@@ -62,15 +62,7 @@ on the surface.
 
 > [Jonah Introduction](https://bibleproject.com/explore/video/jonah/)
 
-<center>
-  <figure>
-    <div id="Jonah_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Jonah_BP', 'Jonah_BP.png', 75);
-</script>
+M{ zoomableImg('Jonah_BP') }M
 
 
 **{{book.SpokenGospel}}**

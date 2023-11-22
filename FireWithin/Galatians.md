@@ -57,15 +57,7 @@ covenant.
 
 > [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
 
-<center>
-  <figure>
-    <div id="Galatians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Galatians_BP', 'Galatians_BP.png', 75);
-</script>
+M{ zoomableImg('Galatians_BP') }M
 
 
 **{{book.SpokenGospel}}**

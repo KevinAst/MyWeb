@@ -52,15 +52,7 @@ gets its name.
 
 > [Numbers Introduction](https://bibleproject.com/explore/video/numbers/)
 
-<center>
-  <figure>
-    <div id="Numbers_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Numbers_BP', 'Numbers_BP.png', 75);
-</script>
+M{ zoomableImg('Numbers_BP') }M
 
 
 **{{book.SpokenGospel}}**

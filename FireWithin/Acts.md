@@ -47,15 +47,7 @@ gospel throughout the world.
 > [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
 > [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 
-<center>
-  <figure>
-    <div id="Acts_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Acts_BP', 'Acts_BP.png', 75);
-</script>
+M{ zoomableImg('Acts_BP') }M
 
 
 **{{book.SpokenGospel}}**

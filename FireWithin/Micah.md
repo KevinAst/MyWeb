@@ -54,15 +54,7 @@ messianic King to rule over the people and bless all the nations.
 
 > [Micah Introduction](https://bibleproject.com/explore/video/micah/)
 
-<center>
-  <figure>
-    <div id="Micah_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Micah_BP', 'Micah_BP.png', 75);
-</script>
+M{ zoomableImg('Micah_BP') }M
 
 
 **{{book.SpokenGospel}}**

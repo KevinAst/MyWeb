@@ -54,15 +54,7 @@ reversed.
 > [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
 > [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
 
-<center>
-  <figure>
-    <div id="Luke_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Luke_BP', 'Luke_BP.png', 75);
-</script>
+M{ zoomableImg('Luke_BP') }M
 
 
 **{{book.SpokenGospel}}**

@@ -201,12 +201,4 @@ following features:
 > Try this out for yourself with the following sample _(taken from the
 > [Revelation](Revelation.md) series)_:
 
-<center>
-  <figure>
-    <div id="RevelationTimeline_CS2"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
-</script>
+M{ zoomableImg('RevelationTimeline_CS') }M

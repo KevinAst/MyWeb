@@ -51,15 +51,7 @@ their repeated failure.
 > [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
 > [Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
 
-<center>
-  <figure>
-    <div id="Genesis_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Genesis_BP', 'Genesis_BP.png', 75);
-</script>
+M{ zoomableImg('Genesis_BP') }M
 
 
 **{{book.SpokenGospel}}**

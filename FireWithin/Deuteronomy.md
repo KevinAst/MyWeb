@@ -45,15 +45,7 @@ name: it’s the “second giving” of God’s law.
 
 > [Deuteronomy Introduction](https://bibleproject.com/explore/video/deuteronomy/)
 
-<center>
-  <figure>
-    <div id="Deuteronomy_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Deuteronomy_BP', 'Deuteronomy_BP.png', 75);
-</script>
+M{ zoomableImg('Deuteronomy_BP') }M
 
 
 **{{book.SpokenGospel}}**

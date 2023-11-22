@@ -51,15 +51,7 @@ should live, eat, sacrifice, celebrate, and more.
 
 > [Leviticus Introduction](https://bibleproject.com/explore/video/leviticus/)
 
-<center>
-  <figure>
-    <div id="Leviticus_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Leviticus_BP', 'Leviticus_BP.png', 75);
-</script>
+M{ zoomableImg('Leviticus_BP') }M
 
 
 **{{book.SpokenGospel}}**

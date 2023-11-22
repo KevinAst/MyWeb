@@ -67,15 +67,7 @@ remains.
 
 > [Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
 
-<center>
-  <figure>
-    <div id="Hosea_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Hosea_BP', 'Hosea_BP.png', 75);
-</script>
+M{ zoomableImg('Hosea_BP') }M
 
 
 **{{book.SpokenGospel}}**

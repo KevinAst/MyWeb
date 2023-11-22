@@ -30,7 +30,7 @@
       "sticky":            false
     },
     "my-plugin": {
-      "revealCustomTags": true
+      "revealCustomTags": false
     }
   },
   "variables": { 

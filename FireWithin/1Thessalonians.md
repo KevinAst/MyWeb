@@ -49,15 +49,8 @@ hope, and love.
 
 > [1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)
 
-<center>
-  <figure>
-    <div id="1Thessalonians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('1Thessalonians_BP', '1Thessalonians_BP.png', 75);
-</script>
+M{ zoomableImg('1Thessalonians_BP') }M
+
 
 **{{book.SpokenGospel}}**
 

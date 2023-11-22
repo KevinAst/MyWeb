@@ -46,15 +46,7 @@ resurrection.
 
 > [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
 
-<center>
-  <figure>
-    <div id="1Corinthians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('1Corinthians_BP', '1Corinthians_BP.png', 75);
-</script>
+M{ zoomableImg('1Corinthians_BP') }M
 
 **{{book.SpokenGospel}}**
 

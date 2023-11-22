@@ -64,15 +64,7 @@ with a God who hears the cries of his people.
 
 > [Lamentations Introduction](https://bibleproject.com/explore/video/lamentations/)
 
-<center>
-  <figure>
-    <div id="Lamentations_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Lamentations_BP', 'Lamentations_BP.png', 75);
-</script>
+M{ zoomableImg('Lamentations_BP') }M
 
 
 **{{book.SpokenGospel}}**

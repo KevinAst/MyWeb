@@ -63,15 +63,7 @@ through renewed hearts.
 
 > [Amos Introduction](https://bibleproject.com/explore/video/amos/)
 
-<center>
-  <figure>
-    <div id="Amos_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Amos_BP', 'Amos_BP.png', 75);
-</script>
+M{ zoomableImg('Amos_BP') }M
 
 
 **{{book.SpokenGospel}}**

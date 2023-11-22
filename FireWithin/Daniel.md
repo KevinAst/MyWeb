@@ -60,15 +60,7 @@ under his rule.
 
 > [Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
 
-<center>
-  <figure>
-    <div id="Daniel_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('Daniel_BP', 'Daniel_BP.png', 75);
-</script>
+M{ zoomableImg('Daniel_BP') }M
 
 
 **{{book.SpokenGospel}}**

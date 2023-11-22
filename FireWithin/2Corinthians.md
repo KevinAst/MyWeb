@@ -49,15 +49,8 @@ did.
 
 > [2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)
 
-<center>
-  <figure>
-    <div id="2Corinthians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('2Corinthians_BP', '2Corinthians_BP.png', 75);
-</script>
+M{ zoomableImg('2Corinthians_BP') }M
+
 
 **{{book.SpokenGospel}}**
 

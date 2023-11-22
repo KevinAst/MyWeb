@@ -45,15 +45,7 @@ Persecution from outside
 
 > [2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)
 
-<center>
-  <figure>
-    <div id="2Thessalonians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  fw.addZoomableImage('2Thessalonians_BP', '2Thessalonians_BP.png', 75);
-</script>
+M{ zoomableImg('2Thessalonians_BP') }M
 
 **{{book.SpokenGospel}}**
 
