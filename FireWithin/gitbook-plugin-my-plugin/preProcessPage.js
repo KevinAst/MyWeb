@@ -6,7 +6,13 @@
 //*** hook, which is run before the templating engine is applied on the page.
 //***
 
-const {processCustomTags} = require('./customTagsProcessor');
+const {initCustomTags, processCustomTags} = require('./customTagsProcessor');
+
+// init(): triggered after parsing the book, before generating output and pages
+function init(config) {
+  // expose this config to various modules
+  initCustomTags(config);
+}
 
 function preProcessPage(page) {
 
@@ -78,5 +84,6 @@ function preProcessPage(page) {
 }
 
 module.exports = {
+  init,
   preProcessPage,
 };

@@ -25,9 +25,12 @@
         }
       ]
     },
-    "folding-menu":    {
+    "folding-menu": {
       "animationDuration": 300,
       "sticky":            false
+    },
+    "my-plugin": {
+      "revealCustomTags": true
     }
   },
   "variables": { 

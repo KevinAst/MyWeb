@@ -1,9 +1,20 @@
 const {isArray, isBoolean, isPlainObject, isString, check} = require('./check');
 
+// our plugin configuration (settable by client)
+// ... retained via initCustomTags() below
+let config = undefined;
+
 // the active GitBook page being processed (for diagnostic purposes)
 // ... because everything is synchronous (in our build process)
 //     we can retain this context for all to use
 let forPage = 'unknown';
+
+// initCustomTags(): triggered after parsing the book, before generating output and pages
+function initCustomTags(_config) {
+  // expose our config in parent scope (for global access)
+  config = _config;
+  //console.log(`***INFO*** initCustomTags() XX retaining plugin config object: `, {config});
+}
 
 //*-----------------------------------------------------------------------------
 //* Our Custom Tag Processors
@@ -53,6 +64,7 @@ function processCustomTags(_forPage, markdown) {
 }
 
 module.exports = {
+  initCustomTags,
   processCustomTags,
 };
 
@@ -166,7 +178,9 @@ function zoomableImg(id) {
   //                UNLESS the cr/lf is placed BEFORE IT!
   //                ... I have NO IDEA WHY :-(
   //                ... BOTTOM LINE: KEEP the cr/lf in place!
-  return `<mark>?? Custom Tag: ${self}</mark>
+
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  return `${diag}
 <!-- START Custom Tag: ${self} -->
 <center>
   <figure>

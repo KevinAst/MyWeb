@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "a local GitBook plugin that caters to the needs of this specific project",
   "main": "index.js",
+  "gitbook": {
+    "properties": {
+      "revealCustomTags": {
+        "type":        "boolean",
+        "default":     false,
+        "description": "Reveal Custom Tag usage in rendered page (a highlighted note) ... for diagnostics only ... DEFAULT: false"
+      }
+    }
+  },
   "engines": {
     "gitbook": "*"
   }
