@@ -1,14 +1,24 @@
+const {isArray, isBoolean, isPlainObject, isString, check} = require('./check');
+
+// the active GitBook page being processed (for diagnostic purposes)
+// ... because everything is synchronous (in our build process)
+//     we can retain this context for all to use
+let forPage = 'unknown';
+
 //*-----------------------------------------------------------------------------
 //* Our Custom Tag Processors
 //*-----------------------------------------------------------------------------
 
-function processCustomTags(markdown) {
+function processCustomTags(_forPage, markdown) {
+
+  // retain our active forPage diagnostic
+  forPage = _forPage;
 
   // define our generic customTag regular expression matcher
   // ... a global matcher to find all occurances (see /g)
-  // EX: M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
+  // EX: M{ zoomableImg('Mark_BP') }M
   //console.log(`XX before customTagRegex`);
-  const customTagRegex = /M{\s*my-plugin:\w*.*\s*}M/g;
+  const customTagRegex = /M{\s*\w*.*\s*}M/g;
 //const customTagRegex = /\d+/g; // TEMP - used for TEST (two digits) ... "ONE:[22] ... TWO:[44] ... THREE[33]";
 
   // Process each match separately
@@ -20,6 +30,7 @@ function processCustomTags(markdown) {
 
     // the matched substring (customTag)
     const customTag = match[0];
+    //console.log(`XX in page ${forPage}, found customTag: ${customTag}`);
 
     // the starting index of the match
     const startIndex = match.index;
@@ -52,39 +63,42 @@ module.exports = {
 //***
 
 const customTagProcessors = {
-  injectZoomableImage,
+  zoomableImg,
 };
 
 //***
 //*** ENTRY POINT: resolve the dynamic content of the supplied customTag
 //*** ... we glean the function to invoke -AND- the arg ... from the supplied customTag
 function resolveDynamicContent(customTag) {
+
+  // setup assertion utility
+  const verify = check.prefix(`violation in page: ${forPage} ... `);
+
   //console.log(`XX DYNO for customTag: '${customTag}'`);
 
   // extract the function to call
-  const fnNameMatch = customTag.match(/.*my-plugin:(\w*)\(.*/);
+  const fnNameMatch = customTag.match(/\s*(\w*)\(.*/);
   const fnName      = fnNameMatch && fnNameMatch[1];
   const fn          = fnName && customTagProcessors[fnName];
-  if (!fn) {
-    throw new Error(`*** ERROR *** NO registered function for customTag: "${customTag}"`);
-  }
+  verify(fn, `NO registered function: "${fnName}" for customTag: "${customTag}"`);
 
   // extract the arg "{id: 'myid'}" part
   const argMatch = customTag.match(/.*\((.*?)\).*/);
   const argStr   = argMatch && argMatch[1];
   let   argObj;
-  //console.log(`XX DYNO extracted: `, {fnName, argStr});
+  //console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
+
   // convert to a json object
   try {
     // NOTE: JSON.parse() requires a well formed JSON object (with double quotes for names, and values, etc.)
     //       This can be done, but it is a bit ugly in our markdown.
     //       To solve this we use eval(), which is typically a security risk (but I am in a closed environment here - so I trust the markdown)
     // argObj = JSON.parse(argStr);
-    argObj = eval(`(${argStr})`); // ... the extra parans to help ensure the string is treated as an expression.
+    argObj = eval(`(${argStr})`); // ... the extra parans ensure the string is treated as an expression
     //console.log(`XX DYNO argObj: `, {argObj});
   }
   catch (err) {
-    throw new Error(`*** ERROR *** argument is NOT a valid JSON object, for customTag: "${customTag}" ... ${err.message}`);
+    verify(false, `argument is NOT a valid JavaScript reference, for customTag: "${customTag}" ... ${err.message}`);
   }
 
   // invoke our registered customTagProcessor
@@ -113,11 +127,18 @@ function resolveDynamicContent(customTag) {
 //   resolvedStr: "ONE:[Dyno Content] ... TWO:[Dyno Content] ... THREE[Dyno Content]"
 
 
+
 //*-----------------------------------------------------------------------------
-//* injectZoomableImage({id})
+//* zoomableImg(id)
+//* 
+//* Inject the html to render a "large" image that is "zoomable",
+//* wiring up the needed JavaScript hooks that implements this.
+//* 
+//* Parms:
+//*   - id - The base name of the .png img file ... {id}.png
 //* 
 //* Custom Tag:
-//*   M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
+//*   M{ zoomableImg('Mark_BP') }M
 //* 
 //* Replaced With:
 //*   <center>
@@ -131,12 +152,22 @@ function resolveDynamicContent(customTag) {
 //*   </script>
 //*-----------------------------------------------------------------------------
 
-function injectZoomableImage({id}) {
-  // AI: validate arg
-  return `
-?? Custom Tag: my-plugin:injectZoomableImage({id: '${id}'})
+function zoomableImg(id) {
 
-<!-- Custom Tag: my-plugin:injectZoomableImage({id: '${id}'}) -->
+  // parameter validation
+  const self = `zoomableImg('${id}')`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+  // ... id
+  checkParam(id,           'id is required');
+  checkParam(isString(id), 'id must be a string (the base name of the .png img file)');
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  return `<mark>?? Custom Tag: ${self}</mark>
+<!-- START Custom Tag: ${self} -->
 <center>
   <figure>
     <div id="${id}"></div>
@@ -146,5 +177,7 @@ function injectZoomableImage({id}) {
 <script>
   fw.addZoomableImage('${id}', '${id}.png', 75);
 </script>
+
+<!-- END Custom Tag: ${self} -->
 `;
 }

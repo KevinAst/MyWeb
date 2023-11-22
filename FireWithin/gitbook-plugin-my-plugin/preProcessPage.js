@@ -47,7 +47,8 @@ function preProcessPage(page) {
   //*** apply customTag processing
   //***
 
-  page.content = processCustomTags(page.content);
+  page.content = processCustomTags(page.path,     // forPage
+                                   page.content); // markdown
 
 
   //***

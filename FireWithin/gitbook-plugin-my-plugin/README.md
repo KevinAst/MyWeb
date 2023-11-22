@@ -57,19 +57,19 @@ It does the following:
 
    The following **Custom Tags** are available:
 
-   - **injectZoomableImage({id})**
+   - **zoomableImg(id)**
 
-     Provide a "zoomable" container for large images, injecting the necessary
-     JavaScript hooks that implements this.
+     Inject the html to render a "large" image that is "zoomable",
+     wiring up the needed JavaScript hooks that implements this.
 
      **Parms**:
 
-     * id - The identifier that identifies the image to display: {id}.png
+     * id - The base name of the .png img file ... {id}.png
 
      **Custom Tag**
 
      ```
-     M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
+     M{ zoomableImg('Mark_BP') }M
      ```
 
 

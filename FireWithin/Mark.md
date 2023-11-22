@@ -50,7 +50,7 @@ and deeds.
 
 > [Mark Introduction](https://bibleproject.com/explore/video/mark/)
 
-M{ my-plugin:injectZoomableImage({id: 'Mark_BP'}) }M
+M{ zoomableImg('Mark_BP') }M
 
 **{{book.SpokenGospel}}**
 
