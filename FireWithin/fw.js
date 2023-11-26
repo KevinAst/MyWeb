@@ -107,58 +107,10 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
 
-    // OBSOLETE
-    //*--------------------------------------------------------------------------
-    //* INTERNAL: registerImgClickFullScreenHandlers()
-    //* CREDIT: https://code-boxx.com/image-zoom-css-javascript/
-    //* KJB: to use, simply add "clickFullScreen" css class to your img tag
-    //* EX:  <figure style="text-align: center;">
-    //*        <img class="diagram clickFullScreen"
-    //*             src="Acts.png"
-    //*             alt="Acts"
-    //*             width="85%">
-    //*        <figcaption>Click image to expand into full-screen</figcaption>
-    //*      </figure>
-    //* NO LIKE: currently NOT being used
-    //*--------------------------------------------------------------------------
-    // function registerImgClickFullScreenHandlers() {
-    //   // obtain all img tags with "clickFullScreen" css class
-    //   const all = document.getElementsByClassName("clickFullScreen");
-    // 
-    //   // console.log('XX in handler WITH following all: ', all);
-    //   
-    //   // register click handlers to enter/exit fullscreen
-    //   for (const elm of all) {
-    //     elm.onclick = () => {
-    //       // exit fullscreen
-    //       if (document.fullscreenElement != null || document.webkitFullscreenElement != null) {
-    //         if (document.exitFullscreen) {
-    //           document.exitFullscreen();
-    //         }
-    //         else {
-    //           document.webkitCancelFullScreen();
-    //         }
-    //       }
-    //       
-    //       // enter fullscreen
-    //       else {
-    //         if (elm.requestFullscreen) {
-    //           elm.requestFullscreen();
-    //         }
-    //         else {
-    //           elm.webkitRequestFullScreen();
-    //         }
-    //       }
-    //     };
-    //   }
-    // }
-
-
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.addZoomableImage()
     //* 
     //* A Zoomable Image Utility
-    //* ... use this in lieu of registerImgClickFullScreenHandlers()
     //* 
     //* CREDIT: Modified Version of: https://www.cssscript.com/image-zoom-pan-hover-detail-view/
     //* USAGE:  follow this pattern:
@@ -472,52 +424,11 @@ if (!window.fw) { // only expand this module once (conditionally)
       // sync ALL completed checkboxes on the current page
       syncCompletedChecksOnPage();
 
-   // registerImgClickFullScreenHandlers(); ... NOT being used OBSOLETE
-
       // reflect the dynamic bibleTranslation on initial page load
       emitBibleTranslationChange();
     }
-    // OBSOLETE: FOLLOWING is NO LONGER NEEDED, and is COMMENTED OUT (left for posterity - for what it is worth)
-    // This functionality is NOW addressed by our my-plugin GitBook plugin
-    // - by injecting an in-line JS execution of fw.pageSetup() at the end of each page
-    // - PRO:
-    //   * this is more reliable
-    //     - FOLLOWING seemed to have intermittent results, where completed checkboxes were NOT properly initialized
-    //   * FOLLOWING is a bit of a HACK
-    //? // register fw.pageSetup() to run on each page load
-    //? // NOTE: Because GitBook does NOT actually reload the entire page when
-    //? //       navigating to a new page (from the left nav), we cannot rely on
-    //? //       the "onload" event.  
-    //? //       As a work-around we attempted several things:
-    //? //       - monitor various events:
-    //? //         * onhashchange: not expected to work, because a real page change
-    //? //                         is more than the URL hash changing
-    //? //                         EX: window.addEventListener('hashchange', () => { ... }
-    //? //         * onpopstate:   expected to work, because it is triggered by history.pushState()
-    //? //                         used in updating the URL. HOWEVER does NOT work - NO IDEA WHY
-    //? //                         EX: window.addEventListener('popstate', () => { ... }
-    //? //         * onup:location:changed: expected to work. HOWEVER does NOT work - NO IDEA WHY
-    //? //                         EX: window.addEventListener('up:location:changed', () => { ... }
-    //? //       - as a DESPERATE work-around HACK, we monkey patch history.pushState().
-    //? //         THIS WORKS ... but GEEEE WHIZZZZ!!!
-    //? window.addEventListener('load', () => { // we also need to monitor the 'onload' event FOR the INITIAL gitbook document load
-    //?   fw.pageSetup();
-    //? });
-    //? // also monitor GitBook page changes via monkey patch (see DESPERATE note - above)
-    //? // console.log('XX monkey patching history.pushState()');
-    //? const history_pushState_original = history.pushState;
-    //? history.pushState = function() {
-    //?   // invoke original pushState
-    //?   // console.log('XX in monkey patched history.pushState() invoking original with arguments: ', arguments);
-    //?   history_pushState_original.apply(history, [...arguments]);
-    //? 
-    //?   // value added behavior
-    //?   // NOTE: we utilize a 1 mill timeout to push the process in the next "pseudo thread"
-    //?   //       eliminating any race conditions
-    //?   setTimeout(() => {
-    //?     fw.pageSetup();
-    //?   }, 100); // 1 mill works mostly, but I have seen some "very intermittent" checkboxes NOT sync ... go with 1/10 sec (100 mills)
-    //? }
+
+
 
     //***********
     //* end IIFE -and- promotion of the "module scoped" fw obj
