@@ -19,7 +19,6 @@ function initCustomTags(_config) {
 //*-----------------------------------------------------------------------------
 //* Our Custom Tag Processors
 //*-----------------------------------------------------------------------------
-
 function processCustomTags(_forPage, markdown) {
 
   // retain our active forPage diagnostic
@@ -76,6 +75,7 @@ module.exports = {
 
 const customTagProcessors = {
   zoomableImg,
+  youTube,
 };
 
 //***
@@ -163,7 +163,6 @@ function resolveDynamicContent(customTag) {
 //*     fw.addZoomableImage('Mark_BP', 'Mark_BP.png', 75);
 //*   </script>
 //*-----------------------------------------------------------------------------
-
 function zoomableImg(id) {
 
   // parameter validation
@@ -178,7 +177,6 @@ function zoomableImg(id) {
   //                UNLESS the cr/lf is placed BEFORE IT!
   //                ... I have NO IDEA WHY :-(
   //                ... BOTTOM LINE: KEEP the cr/lf in place!
-
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   return `${diag}
 <!-- START Custom Tag: ${self} -->
@@ -191,6 +189,62 @@ function zoomableImg(id) {
 <script>
   fw.addZoomableImage('${id}', '${id}.png', 75);
 </script>
+
+<!-- END Custom Tag: ${self} -->
+`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* youTube(id)
+//* 
+//* Inject the html to render an in-line YouTube video.
+//* 
+//* Parms:
+//*   - id - The YouTube video id to display.
+//* 
+//* Custom Tag:
+//*   M{ youTube('ZBLKrNVffgo') }M
+//* 
+//* Replaced With:
+//*   <p align="center">
+//*     <iframe name="ZBLKrNVffgo"
+//*             id="ZBLKrNVffgo"
+//*             width="577"
+//*             height="325"
+//*             src="https://www.youtube.com/embed/ZBLKrNVffgo"
+//*             frameborder="0"
+//*             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+//*             allowfullscreen></iframe>
+//*   </p>
+//*-----------------------------------------------------------------------------
+function youTube(id) {
+
+  // parameter validation
+  const self = `youTube('${id}')`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+  // ... id
+  checkParam(id,           'id is required');
+  checkParam(isString(id), 'id must be a string (the YouTube video id to display)');
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  return `${diag}
+<!-- START Custom Tag: ${self} -->
+<p align="center">
+  <iframe name="${id}"
+          id="${id}"
+          width="577"
+          height="325"
+          src="https://www.youtube.com/embed/${id}"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+</p>
 
 <!-- END Custom Tag: ${self} -->
 `;

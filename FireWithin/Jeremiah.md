@@ -67,16 +67,7 @@ M{ zoomableImg('Jeremiah_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelJeremiahVideo"
-          id="SpokenGospelJeremiahVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/TVdLahnSY3o"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('TVdLahnSY3o') }M
 
 
 

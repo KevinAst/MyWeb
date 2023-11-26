@@ -54,16 +54,7 @@ M{ zoomableImg('2Corinthians_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospel2CorVideo"
-          id="SpokenGospel2CorVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/nmdsoTt_gv0"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('nmdsoTt_gv0') }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)

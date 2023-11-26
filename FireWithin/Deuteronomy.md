@@ -50,16 +50,7 @@ M{ zoomableImg('Deuteronomy_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelDeuteronomyVideo"
-          id="SpokenGospelDeuteronomyVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/DfHlvrAKMoU"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('DfHlvrAKMoU') }M
 
 
 

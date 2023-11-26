@@ -69,16 +69,7 @@ M{ zoomableImg('Lamentations_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelLamentationsVideo"
-          id="SpokenGospelLamentationsVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/ZjG3ys9DLcI"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('ZjG3ys9DLcI') }M
 
 
 

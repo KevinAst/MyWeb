@@ -72,6 +72,20 @@ It does the following:
      M{ zoomableImg('Mark_BP') }M
      ```
 
+   - **youTube(id)**
+
+     Inject the html to render an in-line YouTube video.
+
+     **Parms**:
+
+     * id - The YouTube video id to display.
+
+     **Custom Tag**
+
+     ```
+     M{ youTube('ZBLKrNVffgo') }M
+     ```
+
 
 ## Activation
 

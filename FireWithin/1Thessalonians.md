@@ -54,16 +54,7 @@ M{ zoomableImg('1Thessalonians_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospel1ThessVideo"
-          id="SpokenGospel1ThessVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/Wb6Hhzl8Gyk"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('Wb6Hhzl8Gyk') }M
 
 
 ## 2010 1 Thessalonians Series (Sundays)

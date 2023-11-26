@@ -54,18 +54,7 @@ M{ zoomableImg('Mark_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelMarkVideo"
-          id="SpokenGospelMarkVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/ZBLKrNVffgo"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
-
-
+M{ youTube('ZBLKrNVffgo') }M
 
 
 

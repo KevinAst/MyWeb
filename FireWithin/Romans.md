@@ -61,17 +61,7 @@ M{ zoomableImg('Romans_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelRomansVideo"
-          id="SpokenGospelRomansVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/kPsSW4Q3o9o"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
-
+M{ youTube('kPsSW4Q3o9o') }M
 
 
 

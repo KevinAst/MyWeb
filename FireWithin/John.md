@@ -51,16 +51,7 @@ M{ zoomableImg('John_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelJohnVideo"
-          id="SpokenGospelJohnVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/Vi2bfQlGY4w"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('Vi2bfQlGY4w') }M
 
 
 

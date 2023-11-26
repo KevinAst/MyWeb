@@ -65,16 +65,7 @@ M{ zoomableImg('Daniel_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelDanielVideo"
-          id="SpokenGospelDanielVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/xtrK2GnZyVg"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('xtrK2GnZyVg') }M
 
 
 

@@ -68,17 +68,7 @@ M{ zoomableImg('Amos_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelAmosVideo"
-          id="SpokenGospelAmosVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/73ubNEt_DB0"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
-
+M{ youTube('73ubNEt_DB0') }M
 
 
 

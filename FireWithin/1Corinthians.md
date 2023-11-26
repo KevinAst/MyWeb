@@ -50,16 +50,7 @@ M{ zoomableImg('1Corinthians_BP') }M
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospel1CorVideo"
-          id="SpokenGospel1CorVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/0_LhiD-XNr0"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube('0_LhiD-XNr0') }M
 
 
 ## 2009 1 Corinthians Series (Sundays)
