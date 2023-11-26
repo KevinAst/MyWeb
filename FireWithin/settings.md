@@ -18,13 +18,16 @@ these settings will be remembered.
 
 All scripture references within this site utilize the [YouVersion
 Bible App](https://www.youversion.com/), which supports many different
-Bible translations.  You can specify which version you wish to use
+Bible Translations.  You can specify which version you wish to use
 through this setting:
 
 <select id="bibleTranslations"></select>
 <script>
   fw.genBibleTranslationsSelection('bibleTranslations');
 </script>
+
+Your active Bible Translation is visible at the top of the LeftNav
+Bar.
 
 > Please Note that this list is just a few of the more popular
 > translations.  If the one you wish to use is not in this list,

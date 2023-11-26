@@ -21,6 +21,9 @@ if (!window.fw) { // only expand this module once (conditionally)
   window.fw = (function () {
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
+    // the current version of our blog (manually maintained on each publish)
+    const CUR_VER = '19';
+
 
     //***************************************************************************
     //***************************************************************************
@@ -104,6 +107,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
 
+    // OBSOLETE
     //*--------------------------------------------------------------------------
     //* INTERNAL: registerImgClickFullScreenHandlers()
     //* CREDIT: https://code-boxx.com/image-zoom-css-javascript/
@@ -409,13 +413,51 @@ if (!window.fw) { // only expand this module once (conditionally)
       selectElm.value = settings.bibleTranslation;
 
       // add an event handler to retain the current selection in localStorage  
-      selectElm.addEventListener('change', function() {
-        settings.bibleTranslation = this.value;
+      selectElm.addEventListener('change', function(e) {
 
-        // retain our updated settings
+        // retain the selected bibleTranslation in our active settings
+        settings.bibleTranslation = e.target.value;
+
+        // persistretain our settings as they have changed
         persistSettings();
+
+        // reflect this change to interested parties (REACTIVITY)
+        emitBibleTranslationChange();
       });
 
+    }
+
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: Reactively sync bibleTranslation changes to our UI
+    //*--------------------------------------------------------------------------
+
+    // register event handler that monitors bibleTranslation changes, syncing them to our UI
+    document.addEventListener('bible-translation-changed', function(e) {
+
+      // locate OUR well-known header (in GitBook'se LeftNav)
+      // ... example:
+      //       <div class="book-summary">
+      //         ... snip snip
+      //         <nav role="navigation">
+      //           <ul class="summary">
+      //             <li class="header">Fire Within (18.0)</li>  <<< locates this
+      //             ... snip snip
+      const headerElm = document.querySelector('.book-summary nav ul li.header');
+      if (!headerElm) {
+        console.log(`**BAD** syncBibleTranslationChange(): can't find well-known headerElm ... NO-OP synchronization :-(`);
+        return;
+      }
+
+      //console.log(`XX Event Handler processing 'bible-translation-changed' with ${e.detail.bibleTranslation} ... syncing our UI`);
+
+      // sync our UI
+      headerElm.textContent = `Fire Within (v${CUR_VER} - ${e.detail.bibleTranslation})`;
+    });
+      
+    // helper that emits our custom bible-translation-changed event
+    function emitBibleTranslationChange() {
+      const e = new CustomEvent('bible-translation-changed', { detail: { bibleTranslation: settings.bibleTranslation } });
+      document.dispatchEvent(e);
     }
 
     
@@ -426,10 +468,16 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     fw.pageSetup = function() {
       console.log('***NOTE*** perform common setup of each page (once it is loaded)');
+
+      // sync ALL completed checkboxes on the current page
       syncCompletedChecksOnPage();
-   // registerImgClickFullScreenHandlers(); ... NOT being used
+
+   // registerImgClickFullScreenHandlers(); ... NOT being used OBSOLETE
+
+      // reflect the dynamic bibleTranslation on initial page load
+      emitBibleTranslationChange();
     }
-    // FOLLOWING is NO LONGER NEEDED, and is COMMENTED OUT (left for posterity - for what it is worth)
+    // OBSOLETE: FOLLOWING is NO LONGER NEEDED, and is COMMENTED OUT (left for posterity - for what it is worth)
     // This functionality is NOW addressed by our my-plugin GitBook plugin
     // - by injecting an in-line JS execution of fw.pageSetup() at the end of each page
     // - PRO:
