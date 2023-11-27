@@ -110,6 +110,33 @@ It does the following:
      M{ completedCheckBox('20100425@@1.') }M         ... for sermon series completed (in table)
      ```
 
+   - **sermonLink(ref)**
+
+     Inject an html link (via the <a> tag) for a specific sermon.
+
+     **Parms**:
+
+     * ref: The sermon reference, with an optional title (delimited with @@).
+   
+       By default, the ref will generate a Cornerstone sermon link,
+       UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
+   
+       If NO title is specified, it will default to 'Teaching'.
+   
+       ```
+       EXAMPLE:
+         - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
+         - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
+         - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+           ... a self-contained URL link
+       ```
+
+     **Custom Tag**
+
+     ```
+     M{ sermonLink('20210418@@Pray Like Jesus') }M
+     ```
+
 
 ## Activation
 

@@ -78,6 +78,7 @@ const customTagProcessors = {
   zoomableImg,
   youTube,
   completedCheckBox,
+  sermonLink,
 };
 
 //***
@@ -298,9 +299,65 @@ function completedCheckBox(_id) {
   //       - diag: CCB ... for completedCheckBox
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
-  //          1. M{ completedCheckBox({id: 'Genesis', label: ''}) }M {{book.Genesis}} ........... example: OldTestament.md
-  //          2. const checkBox = completedCheckBox({id: bibleBook, label: 'Book Completed'}) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
+  //          1. M{ completedCheckBox('Genesis') }M {{book.Genesis}} ........... example: OldTestament.md
+  //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. AI: ?? one more in sermon table series
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
   return `${diag}<label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* sermonLink(ref)
+//* 
+//* Inject an html link (via the <a> tag) for a specific sermon.
+//* 
+//* Parms:
+//*   - ref: The sermon reference, with an optional title (delimited with @@).
+//* 
+//*          By default, the ref will generate a Cornerstone sermon link,
+//*          UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
+//* 
+//*          If NO title is specified, it will default to 'Teaching'.
+//* 
+//*          EXAMPLE:
+//*            - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
+//*            - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
+//*            - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+//*              ... a self-contained URL link
+//* 
+//* Custom Tag:
+//*   M{ sermonLink('20210418@@Pray Like Jesus') }M
+//* 
+//* Replaced With:
+//*   <a href="https://cornerstonechapel.net/teaching/20210418" target="_blank">Pray Like Jesus</a>
+//*-----------------------------------------------------------------------------
+function sermonLink(_ref) {
+
+  // parameter validation
+  const tick       = isString(_ref) ? "'" : "";
+  const self       = `sermonLink(${tick}${_ref}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... ref
+  checkParam(_ref,           'ref is required');
+  checkParam(isString(_ref), `ref must be a string (the sermon reference)`);
+
+  // ... split out the optional title
+  const [ref, title='Teaching'] = _ref.split('@@');
+
+  // ... devise our url, defaulting to a Cornerstone sermon
+  const url = ref.startsWith('http') ? ref : `https://cornerstonechapel.net/teaching/${ref}`;
+
+  // expand our customTag as follows
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: SL ... for sermonLink
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
+  //       EX USAGE:
+  //          1. M{ sermonLink('20210418@@Pray Like Jesus') }M ........... in theory (not used outside of table series)
+  //          2. AI: ?? one more in sermon table series
+  const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
+  return `${diag}<a href="${url}" target="_blank">${title}</a>`;
 }
