@@ -6,7 +6,7 @@
 //*** hook, which is run before the templating engine is applied on the page.
 //***
 
-const {initCustomTags, processCustomTags} = require('./customTagsProcessor');
+const {initCustomTags, processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
 // init(): triggered after parsing the book, before generating output and pages
 function init(config) {
@@ -41,10 +41,15 @@ function preProcessPage(page) {
   // - This is accomplished BEFORE any customTag processing, because we inject customTags in this step!
   // - EXAMPLE:
   //     <div style="text-align: right">
-  //       {{book.cb1}}Mark{{book.cb2}} Book Completed{{book.cb3}}
+  //       <label>
+  //         <input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">
+  //           Book Completed
+  //       </label>
   //     </div>
   if ( page.content.includes('Introduction**') ) {
-    const bibleBookCompletedCntl = `<div style="text-align: right">{{book.cb1}}${page.path.replace('.md', '')}{{book.cb2}} Book Completed{{book.cb3}}</div>`;
+    const bibleBook = page.path.replace('.md', '');
+    const checkBox  = completedCheckBox({id: bibleBook, label: 'Book Completed'})
+    const bibleBookCompletedCntl = `<div style="text-align: right">${checkBox}</div>`;
     page.content = `${bibleBookCompletedCntl}\n\n${page.content}`;
   }
 

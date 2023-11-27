@@ -65,6 +65,7 @@ function processCustomTags(_forPage, markdown) {
 module.exports = {
   initCustomTags,
   processCustomTags,
+  completedCheckBox,
 };
 
 
@@ -76,6 +77,7 @@ module.exports = {
 const customTagProcessors = {
   zoomableImg,
   youTube,
+  completedCheckBox,
 };
 
 //***
@@ -101,16 +103,21 @@ function resolveDynamicContent(customTag) {
   //console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
 
   // convert to a json object
-  try {
-    // NOTE: JSON.parse() requires a well formed JSON object (with double quotes for names, and values, etc.)
-    //       This can be done, but it is a bit ugly in our markdown.
-    //       To solve this we use eval(), which is typically a security risk (but I am in a closed environment here - so I trust the markdown)
-    // argObj = JSON.parse(argStr);
-    argObj = eval(`(${argStr})`); // ... the extra parans ensure the string is treated as an expression
-    //console.log(`XX DYNO argObj: `, {argObj});
+  if (argStr.trim().length === 0) { // empty string is an undefined entry ... i.e. no argument
+    argObj = undefined;
   }
-  catch (err) {
-    verify(false, `argument is NOT a valid JavaScript reference, for customTag: "${customTag}" ... ${err.message}`);
+  else { // otherwise, convert argStr into a JS object
+    try {
+      // NOTE: JSON.parse() requires a well formed JSON object (with double quotes for names, and values, etc.)
+      //       This can be done, but it is a bit ugly in our markdown.
+      //       To solve this we use eval(), which is typically a security risk (but I am in a closed environment here - so I trust the markdown)
+      // argObj = JSON.parse(argStr);
+      argObj = eval(`(${argStr})`); // ... the extra parans ensure the string is treated as an expression
+      //console.log(`XX DYNO argObj: `, {argObj});
+    }
+    catch (err) {
+      verify(false, `argument is NOT a valid JavaScript reference, for customTag: "${customTag}" ... ${err.message}`);
+    }
   }
 
   // invoke our registered customTagProcessor
@@ -248,4 +255,61 @@ function youTube(id) {
 
 <!-- END Custom Tag: ${self} -->
 `;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* completedCheckBox({id, label})
+//* 
+//* Inject the html to render a labeled input checkbox, specific to the
+//* completed status of the blog.
+//* 
+//* Named Parms:
+//*   - id:    the blog's completed status id.
+//*   - label: the blog's completed status label (optional).
+//* 
+//* Custom Tag:
+//*   M{ completedCheckBox({id: 'Mark', label: 'Book Completed'}) }M ... for book completed
+//*   M{ completedCheckBox({id: 'Mark'}) }M                          ... label is optional
+//*   M{ completedCheckBox({id: '20100425', label: '1.'}) }M         ... for sermon series completed (in table)
+//* 
+//* Replaced With:
+//*   <label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
+//*-----------------------------------------------------------------------------
+function completedCheckBox(namedParams={}) {
+
+  // parameter validation
+  let   self       = `completedCheckBox()`; // basic self (tell we get out bearings)
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  const {id, label='', ...unknownNamedArgs} = namedParams;
+  self = `completedCheckBox({id: '${id}', label: '${label}'})`; // more robust self
+
+  // ... id
+  checkParam(id,           'id is required');
+  checkParam(isString(id), `id must be a string (the blog's completed status id)`);
+
+  // ... label
+  checkParam(isString(label), `label (when supplied) must be a string`);
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // expand our customTag as follows
+  // NOTE: MUCHO PROBLEMS trailing trailing html and/or trailing cr/lf <<< JUST USE IN-LINE WITHOUT THESE FEATURES
+  //       EX USAGE:
+  //          1. M{ completedCheckBox({id: 'Genesis', label: ''}) }M {{book.Genesis}} ........... example: OldTestament.md
+  //          2. const checkBox = completedCheckBox({id: bibleBook, label: 'Book Completed'}) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
+  //          3. AI: ?? one more in sermon table series
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  return `${diag}<!-- Custom Tag: ${self} --><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }

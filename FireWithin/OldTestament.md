@@ -13,49 +13,49 @@ The Old Testament books are divided into five groups
 _([find out more](https://overviewbible.com/old-testament-books/))_:
 
 1. Torah (Law of Moses):
-   - {{book.cb1}}Genesis{{book.cb2}}{{book.cb3}}        {{book.Genesis}}
-   - {{book.cb1}}Exodus{{book.cb2}}{{book.cb3}}         {{book.Exodus}}
-   - {{book.cb1}}Leviticus{{book.cb2}}{{book.cb3}}      {{book.Leviticus}}
-   - {{book.cb1}}Numbers{{book.cb2}}{{book.cb3}}        {{book.Numbers}}
-   - {{book.cb1}}Deuteronomy{{book.cb2}}{{book.cb3}}    {{book.Deuteronomy}}
+   - M{ completedCheckBox({id: 'Genesis'}) }M        {{book.Genesis}}
+   - M{ completedCheckBox({id: 'Exodus'}) }M         {{book.Exodus}}
+   - M{ completedCheckBox({id: 'Leviticus'}) }M      {{book.Leviticus}}
+   - M{ completedCheckBox({id: 'Numbers'}) }M        {{book.Numbers}}
+   - M{ completedCheckBox({id: 'Deuteronomy'}) }M    {{book.Deuteronomy}}
 2. Historical Writings:
-   - {{book.cb1}}Joshua{{book.cb2}}{{book.cb3}}         {{book.Joshua}}
-   - {{book.cb1}}Judges{{book.cb2}}{{book.cb3}}         {{book.Judges}}
-   - {{book.cb1}}Ruth{{book.cb2}}{{book.cb3}}           {{book.Ruth}}
-   - {{book.cb1}}1Samuel{{book.cb2}}{{book.cb3}}        {{book.1Samuel}}
-   - {{book.cb1}}2Samuel{{book.cb2}}{{book.cb3}}        {{book.2Samuel}}
-   - {{book.cb1}}1Kings{{book.cb2}}{{book.cb3}}         {{book.1Kings}}
-   - {{book.cb1}}2Kings{{book.cb2}}{{book.cb3}}         {{book.2Kings}}
-   - {{book.cb1}}1Chronicles{{book.cb2}}{{book.cb3}}    {{book.1Chronicles}}
-   - {{book.cb1}}2Chronicles{{book.cb2}}{{book.cb3}}    {{book.2Chronicles}}
-   - {{book.cb1}}Ezra{{book.cb2}}{{book.cb3}}           {{book.Ezra}}
-   - {{book.cb1}}Nehemiah{{book.cb2}}{{book.cb3}}       {{book.Nehemiah}}
-   - {{book.cb1}}Esther{{book.cb2}}{{book.cb3}}         {{book.Esther}}
+   - M{ completedCheckBox({id: 'Joshua'}) }M         {{book.Joshua}}
+   - M{ completedCheckBox({id: 'Judges'}) }M         {{book.Judges}}
+   - M{ completedCheckBox({id: 'Ruth'}) }M           {{book.Ruth}}
+   - M{ completedCheckBox({id: '1Samuel'}) }M        {{book.1Samuel}}
+   - M{ completedCheckBox({id: '2Samuel'}) }M        {{book.2Samuel}}
+   - M{ completedCheckBox({id: '1Kings'}) }M         {{book.1Kings}}
+   - M{ completedCheckBox({id: '2Kings'}) }M         {{book.2Kings}}
+   - M{ completedCheckBox({id: '1Chronicles'}) }M    {{book.1Chronicles}}
+   - M{ completedCheckBox({id: '2Chronicles'}) }M    {{book.2Chronicles}}
+   - M{ completedCheckBox({id: 'Ezra'}) }M           {{book.Ezra}}
+   - M{ completedCheckBox({id: 'Nehemiah'}) }M       {{book.Nehemiah}}
+   - M{ completedCheckBox({id: 'Esther'}) }M         {{book.Esther}}
 3. Wisdom and Poetry:
-   - {{book.cb1}}Job{{book.cb2}}{{book.cb3}}            {{book.Job}}
-   - {{book.cb1}}Psalms{{book.cb2}}{{book.cb3}}         {{book.Psalms}}
-   - {{book.cb1}}Proverbs{{book.cb2}}{{book.cb3}}       {{book.Proverbs}}
-   - {{book.cb1}}Ecclesiastes{{book.cb2}}{{book.cb3}}   {{book.Ecclesiastes}}
-   - {{book.cb1}}SongOfSolomon{{book.cb2}}{{book.cb3}}  {{book.SongOfSolomon}}
+   - M{ completedCheckBox({id: 'Job'}) }M            {{book.Job}}
+   - M{ completedCheckBox({id: 'Psalms'}) }M         {{book.Psalms}}
+   - M{ completedCheckBox({id: 'Proverbs'}) }M       {{book.Proverbs}}
+   - M{ completedCheckBox({id: 'Ecclesiastes'}) }M   {{book.Ecclesiastes}}
+   - M{ completedCheckBox({id: 'SongOfSolomon'}) }M  {{book.SongOfSolomon}}
 4. Major Prophets:
-   - {{book.cb1}}Isaiah{{book.cb2}}{{book.cb3}}         {{book.Isaiah}}
-   - {{book.cb1}}Jeremiah{{book.cb2}}{{book.cb3}}       {{book.Jeremiah}}
-   - {{book.cb1}}Lamentations{{book.cb2}}{{book.cb3}}   {{book.Lamentations}}
-   - {{book.cb1}}Ezekiel{{book.cb2}}{{book.cb3}}        {{book.Ezekiel}}
-   - {{book.cb1}}Daniel{{book.cb2}}{{book.cb3}}         {{book.Daniel}}
+   - M{ completedCheckBox({id: 'Isaiah'}) }M         {{book.Isaiah}}
+   - M{ completedCheckBox({id: 'Jeremiah'}) }M       {{book.Jeremiah}}
+   - M{ completedCheckBox({id: 'Lamentations'}) }M   {{book.Lamentations}}
+   - M{ completedCheckBox({id: 'Ezekiel'}) }M        {{book.Ezekiel}}
+   - M{ completedCheckBox({id: 'Daniel'}) }M         {{book.Daniel}}
 5. Minor Prophets:
-   - {{book.cb1}}Hosea{{book.cb2}}{{book.cb3}}          {{book.Hosea}}
-   - {{book.cb1}}Joel{{book.cb2}}{{book.cb3}}           {{book.Joel}}
-   - {{book.cb1}}Amos{{book.cb2}}{{book.cb3}}           {{book.Amos}}
-   - {{book.cb1}}Obadiah{{book.cb2}}{{book.cb3}}        {{book.Obadiah}}
-   - {{book.cb1}}Jonah{{book.cb2}}{{book.cb3}}          {{book.Jonah}}
-   - {{book.cb1}}Micah{{book.cb2}}{{book.cb3}}          {{book.Micah}}
-   - {{book.cb1}}Nahum{{book.cb2}}{{book.cb3}}          {{book.Nahum}}
-   - {{book.cb1}}Habakkuk{{book.cb2}}{{book.cb3}}       {{book.Habakkuk}}
-   - {{book.cb1}}Zephaniah{{book.cb2}}{{book.cb3}}      {{book.Zephaniah}}
-   - {{book.cb1}}Haggai{{book.cb2}}{{book.cb3}}         {{book.Haggai}}
-   - {{book.cb1}}Zechariah{{book.cb2}}{{book.cb3}}      {{book.Zechariah}}
-   - {{book.cb1}}Malachi{{book.cb2}}{{book.cb3}}        {{book.Malachi}}
+   - M{ completedCheckBox({id: 'Hosea'}) }M          {{book.Hosea}}
+   - M{ completedCheckBox({id: 'Joel'}) }M           {{book.Joel}}
+   - M{ completedCheckBox({id: 'Amos'}) }M           {{book.Amos}}
+   - M{ completedCheckBox({id: 'Obadiah'}) }M        {{book.Obadiah}}
+   - M{ completedCheckBox({id: 'Jonah'}) }M          {{book.Jonah}}
+   - M{ completedCheckBox({id: 'Micah'}) }M          {{book.Micah}}
+   - M{ completedCheckBox({id: 'Nahum'}) }M          {{book.Nahum}}
+   - M{ completedCheckBox({id: 'Habakkuk'}) }M       {{book.Habakkuk}}
+   - M{ completedCheckBox({id: 'Zephaniah'}) }M      {{book.Zephaniah}}
+   - M{ completedCheckBox({id: 'Haggai'}) }M         {{book.Haggai}}
+   - M{ completedCheckBox({id: 'Zechariah'}) }M      {{book.Zechariah}}
+   - M{ completedCheckBox({id: 'Malachi'}) }M        {{book.Malachi}}
 
 > Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
 > To request a specific book to be added, please see the {{book.WorkInProgress}} section.

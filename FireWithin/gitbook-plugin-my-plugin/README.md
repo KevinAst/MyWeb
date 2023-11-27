@@ -48,7 +48,10 @@ It does the following:
    **Example**
    ```
    <div style="text-align: right">
-     {{book.cb1}}Mark{{book.cb2}} Book Completed{{book.cb3}}
+     <label>
+       <input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">
+         Book Completed
+     </label>
    </div>
    ```
 
@@ -84,6 +87,24 @@ It does the following:
 
      ```
      M{ youTube('ZBLKrNVffgo') }M
+     ```
+
+   - **completedCheckBox({id, label})**
+
+     Inject the html to render a labeled input checkbox, specific to the
+     completed status of the blog.
+
+     **Named Parms**:
+
+     * id    - the blog's completed status id
+     * label - the blog's completed status label (optional)
+
+     **Custom Tag**
+
+     ```
+     M{ completedCheckBox({id: 'Mark', label: 'Book Completed'}) }M ... for book completed
+     M{ completedCheckBox({id: 'Mark'}) }M                          ... label is optional
+     M{ completedCheckBox({id: '20100425', label: '1.'}) }M         ... for sermon series completed (in table)
      ```
 
 
