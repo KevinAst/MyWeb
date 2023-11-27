@@ -61,9 +61,9 @@ one, but something that is very important to consider:
 
 The bible tells us that the rightful punishment for sin _(our natural
 state)_ is death and eternal separation from God.  This represents an
-an eternity in hell {{book.b1}}ROM.6.23{{book.b2}}Romans 6:23{{book.b3}},
-{{book.b1}}JHN.5.29{{book.b2}}John 5:29{{book.b3}},
-{{book.b1}}REV.21.6-8{{book.b2}}Revelation 21:6-8{{book.b3}}.
+an eternity in hell M{ bibleLink('ROM.6.23@@Romans 6:23') }M,
+M{ bibleLink('JHN.5.29@@John 5:29') }M,
+M{ bibleLink('REV.21.6-8@@Revelation 21:6-8') }M.
 
 The reason this question is so important is that it determines how we
 will live out eternity.  Whether we accept the truth or not, it is
@@ -98,13 +98,13 @@ all fall short of God's perfect righteousness.
 
 - The Apostle Paul declares that all people are under sin,
   and that **"there is no one righteous, not even one"**
-  ({{book.b1}}ROM.3.9-10{{book.b2}}Romans 3:9-10{{book.b3}} _referencing_
-  {{book.b1}}PSA.14.3{{book.b2}}Psalms 14:3{{book.b3}},
-  {{book.b1}}PSA.53.1-3{{book.b2}}Psalms 53:1-3{{book.b3}}, and
-  {{book.b1}}ECC.7.20{{book.b2}}Ecclesiastes 7:20{{book.b3}}.
+  (M{ bibleLink('ROM.3.9-10@@Romans 3:9-10') }M _referencing_
+  M{ bibleLink('PSA.14.3@@Psalms 14:3') }M,
+  M{ bibleLink('PSA.53.1-3@@Psalms 53:1-3') }M, and
+  M{ bibleLink('ECC.7.20@@Ecclesiastes 7:20') }M).
   
 - The Profit Isaiah proclaims that our righteousness is like **"filthy rags"**
-  before God _({{book.b1}}isa.64.6{{book.b2}}Isaiah 64:6{{book.b3}})_.
+  before God _(M{ bibleLink('isa.64.6@@Isaiah 64:6') }M)_.
 
 **So what does this mean?**  Is our quest to have a relationship with God in vain?
 _More on this in just a bit_ ...
@@ -138,18 +138,18 @@ others ... I'm not a cheat or a thief ... etc.  Those are all good
 things, but it doesn't come close to the standard of a Holy God.
 
 - Jesus reveals that even our thoughts can be sinful
-  ({{book.b1}}mat.5.28{{book.b2}}Matthew 5:28{{book.b3}})
+  (M{ bibleLink('mat.5.28@@Matthew 5:28') }M)
   
 - James tells us that it is our desires that give birth to sinful action
-  ({{book.b1}}jas.1.14-15{{book.b2}}James 1:14-15{{book.b3}})
+  (M{ bibleLink('jas.1.14-15@@James 1:14-15') }M)
 
 
 ## The Gospel
 
 The Gospel is the Good News that salvation is God's free gift to us.
 But we must accept it
-_({{book.b1}}jhn.14.6{{book.b2}}John 14:6{{book.b3}}
-{{book.b1}}rom.10.9-10{{book.b2}}Romans 10:9-10{{book.b3}})_.
+_(M{ bibleLink('jhn.14.6@@John 14:6') }M
+M{ bibleLink('rom.10.9-10@@Romans 10:9-10') }M)_.
 
 God requires a sacrifice for the atonement of our sins.  This is what
 the Old Testament sacrificial system was _(a temporary one, which had
@@ -167,22 +167,22 @@ ascended into heaven, where he prepares a place for his followers.
 The bible tells us that:
 
 - All have sinned
-  ({{book.b1}}rom.3.10{{book.b2}}Romans 3:10{{book.b3}}
-  {{book.b1}}rom.3.23{{book.b2}}Romans 3:23{{book.b3}})
+  (M{ bibleLink('rom.3.10@@Romans 3:10') }M
+  M{ bibleLink('rom.3.23@@Romans 3:23') }M)
 
 - The results of sin is death ... but we don't have to experience
   death and hell, for God's gift to us is forgiveness and eternal life
   in heaven with Him
-  ({{book.b1}}rom.6.23{{book.b2}}Romans 6:23{{book.b3}}
-  {{book.b1}}JHN.3.16-18{{book.b2}}John 3:16-18{{book.b3}})
+  (M{ bibleLink('rom.6.23@@Romans 6:23') }M
+  M{ bibleLink('JHN.3.16-18@@John 3:16-18') }M)
 
 - In order to receive this gift, you must believe that it is real and
   that it can truly change your life. _This is more than a simple
   "head knowledge"_.  It is an act of trusting Jesus with your heart,
   and turning your life over to Him
-  ({{book.b1}}eph.2.8{{book.b2}}Ephesians 2:8{{book.b3}}).
+  (M{ bibleLink('eph.2.8@@Ephesians 2:8') }M).
   You must confess Jesus as Lord
-  ({{book.b1}}rom.10.13{{book.b2}}Romans 10:13{{book.b3}}).
+  (M{ bibleLink('rom.10.13@@Romans 10:13') }M).
 
 Salvation is a free gift of God, offered to all who simply ask.
 <mark>If you want to become a Christian</mark>, you must fervently
@@ -206,7 +206,7 @@ The truth of the matter is Christianity is less about religion, and
 more about a personal relationship with God.
 
 If you prayed this prayer, there are angels rejoicing in heaven
-_({{book.b1}}luk.15.10{{book.b2}}Luke 15:10{{book.b3}})_!  This reveals
+_(M{ bibleLink('luk.15.10@@Luke 15:10') }M)_!  This reveals
 just how valuable you are to God and how much He desires for you to be
 with Him in heaven forever!  A great victory has been won!  Your next
 step is to seek out other believers, _in a local Bible believing
@@ -281,7 +281,7 @@ my daily life, it was truly a miracle.
 - I have for the first time, a desire to share my faith with others.
   If you think about it, this is the most crucial aspect of a
   Christian's life, _and part of the Lord Jesus' Great Commission_
-  ({{book.b1}}mat.28.16-20{{book.b2}}Matthew 28:16-20{{book.b3}})
+  (M{ bibleLink('mat.28.16-20@@Matthew 28:16-20') }M)
   ... sharing the Good News to a lost world.
 
 I'm certainly not perfect.  I have and will have a long way to go in

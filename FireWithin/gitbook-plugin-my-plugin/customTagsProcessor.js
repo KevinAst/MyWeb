@@ -79,6 +79,7 @@ const customTagProcessors = {
   youTube,
   completedCheckBox,
   sermonLink,
+  bibleLink,
 };
 
 //***
@@ -301,7 +302,7 @@ function completedCheckBox(_id) {
   //       EX USAGE:
   //          1. M{ completedCheckBox('Genesis') }M {{book.Genesis}} ........... example: OldTestament.md
   //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
-  //          3. AI: ?? one more in sermon table series
+  //          3. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
   return `${diag}<label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
@@ -357,7 +358,62 @@ function sermonLink(_ref) {
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
   //          1. M{ sermonLink('20210418@@Pray Like Jesus') }M ........... in theory (not used outside of table series)
-  //          2. AI: ?? one more in sermon table series
+  //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
   return `${diag}<a href="${url}" target="_blank">${title}</a>`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* bibleLink(ref)
+//* 
+//* Inject a Bible html link (via the <a> tag) for a specific verse.
+//* 
+//* NOTE: This link dynamically adjusts to the User Preferences regarding
+//*       the desired Bible Translation.
+//* 
+//* Parms:
+//*   - ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
+//*          and title (delimited with @@).
+//* 
+//*          EXAMPLE:
+//*            - 'rev.21.6-8@@Revelation 21:6-8'
+//* 
+//* Custom Tag:
+//*   M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
+//* 
+//* Replaced With:
+//*   <a href="#" onmouseover="fw.alterBibleVerseLink(event, 'rev.21.6-8')" target="_blank">Revelation 21:6-8</a>
+//* 
+//*   NOTE: This link interacts with fw.alterBibleVerseLink(), dynamically 
+//*         adjusting the href - honoring the UserPref: Bible Translation.
+//*-----------------------------------------------------------------------------
+function bibleLink(_ref) {
+
+  // parameter validation
+  const tick       = isString(_ref) ? "'" : "";
+  const self       = `bibleLink(${tick}${_ref}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... ref
+  checkParam(_ref,           'ref is required');
+  checkParam(isString(_ref), `ref must be a string (the Bible verse)`);
+
+  // ... split out the title
+  const [ref, title] = _ref.split('@@');
+
+  // ... title
+  checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+
+  // expand our customTag as follows
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: BL ... for bibleLink
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
+  //       EX USAGE:
+  //          1. M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
+  //          2. DIRECTLY invoked in sermonSeriesTable()
+  const diag = config.revealCustomTags ? `<mark>BL</mark>` : '';
+  return `${diag}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
 }

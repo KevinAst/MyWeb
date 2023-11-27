@@ -137,6 +137,29 @@ It does the following:
      M{ sermonLink('20210418@@Pray Like Jesus') }M
      ```
 
+   - **bibleLink(ref)**
+
+     Inject a Bible html link (via the <a> tag) for a specific verse.
+
+     NOTE: This link dynamically adjusts to the User Preferences regarding
+     the desired Bible Translation.
+
+     **Parms**:
+
+     * ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
+            and title (delimited with @@).
+   
+       ```
+       EXAMPLE:
+         - 'rev.21.6-8@@Revelation 21:6-8'
+       ```
+
+     **Custom Tag**
+
+     ```
+     M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
+     ```
+
 
 ## Activation
 
