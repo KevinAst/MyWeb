@@ -89,22 +89,25 @@ It does the following:
      M{ youTube('ZBLKrNVffgo') }M
      ```
 
-   - **completedCheckBox({id, label})**
+   - **completedCheckBox(id)**
 
      Inject the html to render a labeled input checkbox, specific to the
      completed status of the blog.
 
-     **Named Parms**:
+     **Parms**:
 
-     * id    - the blog's completed status id
-     * label - the blog's completed status label (optional)
+     * id - the blog's completed status id, with an optional label (delimited with @@)
+       ```
+       EX: - 'Mark' ........... 'Mark' id with no label
+           - '20100425@@1.' ... '20100425' id with '1.' label
+       ```
 
      **Custom Tag**
 
      ```
-     M{ completedCheckBox({id: 'Mark', label: 'Book Completed'}) }M ... for book completed
-     M{ completedCheckBox({id: 'Mark'}) }M                          ... label is optional
-     M{ completedCheckBox({id: '20100425', label: '1.'}) }M         ... for sermon series completed (in table)
+     M{ completedCheckBox('Mark@@Book Completed') }M ... for book completed
+     M{ completedCheckBox('Mark') }M                 ... label is optional
+     M{ completedCheckBox('20100425@@1.') }M         ... for sermon series completed (in table)
      ```
 
 

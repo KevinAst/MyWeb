@@ -259,57 +259,48 @@ function youTube(id) {
 
 
 //*-----------------------------------------------------------------------------
-//* completedCheckBox({id, label})
+//* completedCheckBox(id)
 //* 
 //* Inject the html to render a labeled input checkbox, specific to the
 //* completed status of the blog.
 //* 
-//* Named Parms:
-//*   - id:    the blog's completed status id.
-//*   - label: the blog's completed status label (optional).
+//* Parms:
+//*   - id:    the blog's completed status id, with an optional label (delimited with @@)
+//*            EX: - 'Mark' ........... 'Mark' id with no label
+//*                - '20100425@@1.' ... '20100425' id with '1.' label
 //* 
 //* Custom Tag:
-//*   M{ completedCheckBox({id: 'Mark', label: 'Book Completed'}) }M ... for book completed
-//*   M{ completedCheckBox({id: 'Mark'}) }M                          ... label is optional
-//*   M{ completedCheckBox({id: '20100425', label: '1.'}) }M         ... for sermon series completed (in table)
+//*   M{ completedCheckBox('Mark@@Book Completed') }M ... for book completed
+//*   M{ completedCheckBox('Mark') }M                 ... label is optional
+//*   M{ completedCheckBox('20100425@@1.') }M         ... for sermon series completed (in table)
 //* 
 //* Replaced With:
 //*   <label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
 //*-----------------------------------------------------------------------------
-function completedCheckBox(namedParams={}) {
+function completedCheckBox(_id) {
 
   // parameter validation
-  let   self       = `completedCheckBox()`; // basic self (tell we get out bearings)
+  const tick       = isString(_id) ? "'" : "";
+  const self       = `completedCheckBox(${tick}${_id}${tick})`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
-  // ... verify we are using named parameters
-  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
-  const {id, label='', ...unknownNamedArgs} = namedParams;
-  self = `completedCheckBox({id: '${id}', label: '${label}'})`; // more robust self
-
   // ... id
-  checkParam(id,           'id is required');
-  checkParam(isString(id), `id must be a string (the blog's completed status id)`);
+  checkParam(_id,           'id is required');
+  checkParam(isString(_id), `id must be a string (the blog's completed status id)`);
 
-  // ... label
-  checkParam(isString(label), `label (when supplied) must be a string`);
-
-  // ... unrecognized named parameter
-  const unknownArgKeys = Object.keys(unknownNamedArgs);
-  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
-  // ... unrecognized positional parameter
-  //     NOTE:  When defaulting entire struct, arguments.length is 0
-  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
-  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
-  //            PUNT ON THIS - not all that big of a deal
-  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+  // ... split out the optional label
+  const [id, label=''] = _id.split('@@');
 
   // expand our customTag as follows
-  // NOTE: MUCHO PROBLEMS trailing trailing html and/or trailing cr/lf <<< JUST USE IN-LINE WITHOUT THESE FEATURES
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: CCB ... for completedCheckBox
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
   //          1. M{ completedCheckBox({id: 'Genesis', label: ''}) }M {{book.Genesis}} ........... example: OldTestament.md
   //          2. const checkBox = completedCheckBox({id: bibleBook, label: 'Book Completed'}) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. AI: ?? one more in sermon table series
-  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
-  return `${diag}<!-- Custom Tag: ${self} --><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
+  return `${diag}<label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }

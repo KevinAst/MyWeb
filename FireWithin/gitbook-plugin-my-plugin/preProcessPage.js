@@ -48,7 +48,7 @@ function preProcessPage(page) {
   //     </div>
   if ( page.content.includes('Introduction**') ) {
     const bibleBook = page.path.replace('.md', '');
-    const checkBox  = completedCheckBox({id: bibleBook, label: 'Book Completed'})
+    const checkBox  = completedCheckBox(`${bibleBook}@@Book Completed`)
     const bibleBookCompletedCntl = `<div style="text-align: right">${checkBox}</div>`;
     page.content = `${bibleBookCompletedCntl}\n\n${page.content}`;
   }
