@@ -160,6 +160,7 @@ const customTagProcessors = {
   youTube,
   completedCheckBox,
   sermonLink,
+  studyGuideLink,
   bibleLink,
 };
 
@@ -368,7 +369,7 @@ function youTube(id) {
 function completedCheckBox(_id) {
 
   // parameter validation
-  const tick       = isString(_id) ? "'" : "";
+  const tick       = isString(_id) ? "`" : "";
   const self       = `completedCheckBox(${tick}${_id}${tick})`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
@@ -422,7 +423,7 @@ function completedCheckBox(_id) {
 function sermonLink(_ref) {
 
   // parameter validation
-  const tick       = isString(_ref) ? "'" : "";
+  const tick       = isString(_ref) ? "`" : "";
   const self       = `sermonLink(${tick}${_ref}${tick})`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
@@ -447,6 +448,48 @@ function sermonLink(_ref) {
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
   return `${diag}<a href="${url}" target="_blank">${title}</a>`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* studyGuideLink(ref)
+//* 
+//* Inject an html link (via the <a> tag) for the Study Guide of a specific sermon.
+//* 
+//* Parms:
+//*   - ref: The sermon reference, for this Study Guide.
+//* 
+//* Custom Tag:
+//*   M{ studyGuideLink(`20210418`) }M
+//* 
+//* Replaced With:
+//*   <a href="https://assets01.cornerstonechapel.net/documents/studyguides/20210418.pdf" target="_blank">Study Guide</a>
+//*-----------------------------------------------------------------------------
+function studyGuideLink(ref) {
+
+  // parameter validation
+  const tick       = isString(ref) ? "`" : "";
+  const self       = `studyGuideLink(${tick}${ref}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... ref
+  checkParam(ref,           'ref is required');
+  checkParam(isString(ref), `ref must be a string (the sermon reference for this Study Guide)`);
+
+  // ... devise our url - to a Cornerstone sermon Study Guide
+  const url = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
+
+  // expand our customTag as follows
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: SGL ... for studyGuideLink
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
+  //       EX USAGE:
+  //          1. M{ studyGuideLink(`20210418`) }M ........... in theory (not used outside of table series)
+  //          2. DIRECTLY invoked in sermonSeriesTable()
+  const diag = config.revealCustomTags ? `<mark>SGL</mark>` : '';
+  return `${diag}<a href="${url}" target="_blank">Study Guide</a>`;
 }
 
 
@@ -477,7 +520,7 @@ function sermonLink(_ref) {
 function bibleLink(_ref) {
 
   // parameter validation
-  const tick       = isString(_ref) ? "'" : "";
+  const tick       = isString(_ref) ? "`" : "";
   const self       = `bibleLink(${tick}${_ref}${tick})`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 

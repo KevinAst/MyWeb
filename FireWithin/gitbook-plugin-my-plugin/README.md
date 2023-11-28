@@ -9,6 +9,7 @@
   - [youTube()]
   - [completedCheckBox()]
   - [sermonLink()]
+  - [studyGuideLink()]
   - [bibleLink()]
 - [Activation]
 - [Local Plugin]
@@ -116,6 +117,7 @@ The following **Custom Tags** are available:
 - [youTube()]
 - [completedCheckBox()]
 - [sermonLink()]
+- [studyGuideLink()]
 - [bibleLink()]
 
 
@@ -185,7 +187,7 @@ M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed 
 
 **API**: `sermonLink(ref)`
 
-Inject an html link (via the <a> tag) for a specific sermon.
+Inject an html link (via the `<a>` tag) for a specific sermon.
 
 **Parms**:
 
@@ -212,11 +214,29 @@ M{ sermonLink(`20210418@@Pray Like Jesus`) }M
 
 
 
+### studyGuideLink()
+
+**API**: `studyGuideLink(ref)`
+
+Inject an html link (via the `<a>` tag) for the Study Guide of a specific sermon.
+
+**Parms**:
+
+* ref: The sermon reference, for this Study Guide.
+
+**Custom Tag**
+
+```
+M{ studyGuideLink(`20210418`) }M
+```
+
+
+
 ### bibleLink()
 
 **API**: `bibleLink(ref)`
 
-Inject a Bible html link (via the <a> tag) for a specific verse.
+Inject a Bible html link (via the `<a>` tag) for a specific verse.
 
 NOTE: This link dynamically adjusts to the User Preferences regarding
 the desired Bible Translation.
@@ -335,6 +355,7 @@ attempted it.  It would require some additional research, for example:
   [youTube()]:            #youtube
   [completedCheckBox()]:  #completedcheckbox
   [sermonLink()]:         #sermonlink
+  [studyGuideLink()]:     #studyguidelink
   [bibleLink()]:          #biblelink
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
