@@ -4,6 +4,12 @@
 
 - [Overview]
 - [Features]
+- [Custom Tags]
+  - [zoomableImg()]
+  - [youTube()]
+  - [completedCheckBox()]
+  - [sermonLink()]
+  - [bibleLink()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -56,109 +62,182 @@ It does the following:
    ```
 
 3. It implements Custom Tags that can be used in the markdown of a
-   page, and greatly simplifies complex directives.
+   page, and greatly simplifies complex directives _(see next section)_.
 
-   The following **Custom Tags** are available:
+## Custom Tags
 
-   - **zoomableImg(id)**
+This plugin promotes a set of Custom Tags that can be used in the
+markdown of a page, and greatly simplifies complex directives.
 
-     Inject the html to render a "large" image that is "zoomable",
-     wiring up the needed JavaScript hooks that implements this.
+**A NOTE on Multi Line:**
 
-     **Parms**:
+All our Custom Tags support spanning multiple lines.  This is
+necessary in the case where the argument is large _(a complex array of
+directives)_, but it can also occur when you format the paragraphs of
+your MarkDown.
 
-     * id - The base name of the .png img file ... {id}.png
+As a result, it is possible for a string literal to span multiple
+lines.  Say, for example, that you formatted a MarkDown paragraph that
+contains a Custom Tag ... the following could occur:
 
-     **Custom Tag**
+This tag:
 
-     ```
-     M{ zoomableImg('Mark_BP') }M
-     ```
+```
+M{ bibleLink(`'JHN.5.29@@John 5:29') }M
+```
 
-   - **youTube(id)**
+Could be reformatted as follows _(in the context of other text around it)_:
 
-     Inject the html to render an in-line YouTube video.
+```
+M{ bibleLink('JHN.5.29@@John
+5:29') }M
+```
 
-     **Parms**:
+The problem here is the string literal is invalid, because single-tick
+strings cannot span multiple lines, and will generate an argument
+error :-)
 
-     * id - The YouTube video id to display.
+**<mark>Recomendation:</mark>**
 
-     **Custom Tag**
+> In order to allow string literals to span multiple lines, you should
+> always use template literal expressions for all your string-based
+> arguments (e.g back-tics: \` **NOT** single-tics: \'). This fixes
+> the issue, because template literals can span multiple lines.  As a
+> result, the following macro is valid:
+> 
+> ```
+> M{ bibleLink(`JHN.5.29@@John
+> 5:29`) }M
+> ```
 
-     ```
-     M{ youTube('ZBLKrNVffgo') }M
-     ```
+The following **Custom Tags** are available:
 
-   - **completedCheckBox(id)**
+- [zoomableImg()]
+- [youTube()]
+- [completedCheckBox()]
+- [sermonLink()]
+- [bibleLink()]
 
-     Inject the html to render a labeled input checkbox, specific to the
-     completed status of the blog.
 
-     **Parms**:
+### zoomableImg()
 
-     * id - the blog's completed status id, with an optional label (delimited with @@)
-       ```
-       EX: - 'Mark' ........... 'Mark' id with no label
-           - '20100425@@1.' ... '20100425' id with '1.' label
-       ```
+**API**: `zoomableImg(id)`
 
-     **Custom Tag**
+Inject the html to render a "large" image that is "zoomable",
+wiring up the needed JavaScript hooks that implements this.
 
-     ```
-     M{ completedCheckBox('Mark@@Book Completed') }M ... for book completed
-     M{ completedCheckBox('Mark') }M                 ... label is optional
-     M{ completedCheckBox('20100425@@1.') }M         ... for sermon series completed (in table)
-     ```
+**Parms**:
 
-   - **sermonLink(ref)**
+* id - The base name of the .png img file ... {id}.png
 
-     Inject an html link (via the <a> tag) for a specific sermon.
+**Custom Tag**
 
-     **Parms**:
+```
+M{ zoomableImg(`Mark_BP`) }M
+```
 
-     * ref: The sermon reference, with an optional title (delimited with @@).
-   
-       By default, the ref will generate a Cornerstone sermon link,
-       UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
-   
-       If NO title is specified, it will default to 'Teaching'.
-   
-       ```
-       EXAMPLE:
-         - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
-         - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
-         - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
-           ... a self-contained URL link
-       ```
 
-     **Custom Tag**
 
-     ```
-     M{ sermonLink('20210418@@Pray Like Jesus') }M
-     ```
+### youTube()
 
-   - **bibleLink(ref)**
+**API**: `youTube(id)`
 
-     Inject a Bible html link (via the <a> tag) for a specific verse.
+Inject the html to render an in-line YouTube video.
 
-     NOTE: This link dynamically adjusts to the User Preferences regarding
-     the desired Bible Translation.
+**Parms**:
 
-     **Parms**:
+* id - The YouTube video id to display.
 
-     * ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
-            and title (delimited with @@).
-   
-       ```
-       EXAMPLE:
-         - 'rev.21.6-8@@Revelation 21:6-8'
-       ```
+**Custom Tag**
 
-     **Custom Tag**
+```
+M{ youTube(`ZBLKrNVffgo`) }M
+```
 
-     ```
-     M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
-     ```
+
+
+### completedCheckBox()
+
+**API**: `completedCheckBox(id)`
+
+Inject the html to render a labeled input checkbox, specific to the
+completed status of the blog.
+
+**Parms**:
+
+* id - the blog's completed status id, with an optional label (delimited with @@)
+  ```
+  EX: - 'Mark' ........... 'Mark' id with no label
+      - '20100425@@1.' ... '20100425' id with '1.' label
+  ```
+
+**Custom Tag**
+
+```
+M{ completedCheckBox(`Mark@@Book Completed`) }M ... for book completed
+M{ completedCheckBox(`Mark`) }M                 ... label is optional
+M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed (in table)
+```
+
+
+
+### sermonLink()
+
+**API**: `sermonLink(ref)`
+
+Inject an html link (via the <a> tag) for a specific sermon.
+
+**Parms**:
+
+* ref: The sermon reference, with an optional title (delimited with @@).
+
+  By default, the ref will generate a Cornerstone sermon link,
+  UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
+
+  If NO title is specified, it will default to 'Teaching'.
+
+  ```
+  EXAMPLE:
+    - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
+    - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
+    - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+      ... a self-contained URL link
+  ```
+
+**Custom Tag**
+
+```
+M{ sermonLink(`20210418@@Pray Like Jesus`) }M
+```
+
+
+
+### bibleLink()
+
+**API**: `bibleLink(ref)`
+
+Inject a Bible html link (via the <a> tag) for a specific verse.
+
+NOTE: This link dynamically adjusts to the User Preferences regarding
+the desired Bible Translation.
+
+**Parms**:
+
+* ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
+       and title (delimited with @@).
+
+  ```
+  EXAMPLE:
+    - 'rev.21.6-8@@Revelation 21:6-8'
+  ```
+
+**Custom Tag**
+
+```
+M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
+```
+
+
 
 
 ## Activation
@@ -251,6 +330,12 @@ attempted it.  It would require some additional research, for example:
 
 [Overview]:       #overview
 [Features]:       #features
+[Custom Tags]:            #custom-tags
+  [zoomableImg()]:        #zoomableimg
+  [youTube()]:            #youtube
+  [completedCheckBox()]:  #completedcheckbox
+  [sermonLink()]:         #sermonlink
+  [bibleLink()]:          #biblelink
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
 [GitBook Docs]:   #gitbook-docs

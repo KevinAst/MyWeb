@@ -51,12 +51,12 @@ should live, eat, sacrifice, celebrate, and more.
 
 > [Leviticus Introduction](https://bibleproject.com/explore/video/leviticus/)
 
-M{ zoomableImg('Leviticus_BP') }M
+M{ zoomableImg(`Leviticus_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('9UKwweQFOec') }M
+M{ youTube(`9UKwweQFOec`) }M
 
 
 

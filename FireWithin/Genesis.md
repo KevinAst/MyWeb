@@ -51,12 +51,12 @@ their repeated failure.
 > [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
 > [Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
 
-M{ zoomableImg('Genesis_BP') }M
+M{ zoomableImg(`Genesis_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('zIJBhEAIzj4') }M
+M{ youTube(`zIJBhEAIzj4`) }M
 
 
 

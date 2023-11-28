@@ -56,12 +56,12 @@ and forgiveness are at the center of everything.
 > [Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/) ...
 > [Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
 
-M{ zoomableImg('Romans_BP') }M
+M{ zoomableImg(`Romans_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('kPsSW4Q3o9o') }M
+M{ youTube(`kPsSW4Q3o9o`) }M
 
 
 

@@ -60,12 +60,12 @@ under his rule.
 
 > [Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
 
-M{ zoomableImg('Daniel_BP') }M
+M{ zoomableImg(`Daniel_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('xtrK2GnZyVg') }M
+M{ youTube(`xtrK2GnZyVg`) }M
 
 
 

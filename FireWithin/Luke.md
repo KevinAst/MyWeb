@@ -54,12 +54,12 @@ reversed.
 > [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
 > [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
 
-M{ zoomableImg('Luke_BP') }M
+M{ zoomableImg(`Luke_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('4kMbN9bwgM8') }M
+M{ youTube(`4kMbN9bwgM8`) }M
 
 
 

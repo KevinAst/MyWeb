@@ -45,12 +45,12 @@ name: it’s the “second giving” of God’s law.
 
 > [Deuteronomy Introduction](https://bibleproject.com/explore/video/deuteronomy/)
 
-M{ zoomableImg('Deuteronomy_BP') }M
+M{ zoomableImg(`Deuteronomy_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('DfHlvrAKMoU') }M
+M{ youTube(`DfHlvrAKMoU`) }M
 
 
 

@@ -49,12 +49,12 @@ hope, and love.
 
 > [1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)
 
-M{ zoomableImg('1Thessalonians_BP') }M
+M{ zoomableImg(`1Thessalonians_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('Wb6Hhzl8Gyk') }M
+M{ youTube(`Wb6Hhzl8Gyk`) }M
 
 
 ## 2010 1 Thessalonians Series (Sundays)

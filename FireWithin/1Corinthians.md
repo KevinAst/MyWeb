@@ -46,11 +46,11 @@ resurrection.
 
 > [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
 
-M{ zoomableImg('1Corinthians_BP') }M
+M{ zoomableImg(`1Corinthians_BP`) }M
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('0_LhiD-XNr0') }M
+M{ youTube(`0_LhiD-XNr0`) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)

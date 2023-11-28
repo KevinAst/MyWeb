@@ -64,12 +64,12 @@ with a God who hears the cries of his people.
 
 > [Lamentations Introduction](https://bibleproject.com/explore/video/lamentations/)
 
-M{ zoomableImg('Lamentations_BP') }M
+M{ zoomableImg(`Lamentations_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('ZjG3ys9DLcI') }M
+M{ youTube(`ZjG3ys9DLcI`) }M
 
 
 

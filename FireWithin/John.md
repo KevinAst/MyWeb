@@ -46,12 +46,12 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 > [Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
 > [Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
 
-M{ zoomableImg('John_BP') }M
+M{ zoomableImg(`John_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('Vi2bfQlGY4w') }M
+M{ youTube(`Vi2bfQlGY4w`) }M
 
 
 

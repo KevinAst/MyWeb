@@ -57,12 +57,12 @@ covenant.
 
 > [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
 
-M{ zoomableImg('Galatians_BP') }M
+M{ zoomableImg(`Galatians_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('SnBQG07x0ow') }M
+M{ youTube(`SnBQG07x0ow`) }M
 
 
 

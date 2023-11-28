@@ -52,12 +52,12 @@ gets its name.
 
 > [Numbers Introduction](https://bibleproject.com/explore/video/numbers/)
 
-M{ zoomableImg('Numbers_BP') }M
+M{ zoomableImg(`Numbers_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('3PfJ14JcLwE') }M
+M{ youTube(`3PfJ14JcLwE`) }M
 
 
 

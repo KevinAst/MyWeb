@@ -56,12 +56,12 @@ of the Red Sea, and the Ten Commandments.
 > [Part 1: Exodus 1-18](https://bibleproject.com/explore/video/exodus-1-18/) ...
 > [Part 2: Exodus 19-40](https://bibleproject.com/explore/video/exodus-19-40/)
 
-M{ zoomableImg('Exodus_BP') }M
+M{ zoomableImg(`Exodus_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('LpS50a4CmXM') }M
+M{ youTube(`LpS50a4CmXM`) }M
 
 
 

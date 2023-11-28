@@ -67,12 +67,12 @@ remains.
 
 > [Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
 
-M{ zoomableImg('Hosea_BP') }M
+M{ zoomableImg(`Hosea_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('rcgm96YYflk') }M
+M{ youTube(`rcgm96YYflk`) }M
 
 
 

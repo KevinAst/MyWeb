@@ -18,6 +18,85 @@ function initCustomTags(_config) {
 
 //*-----------------------------------------------------------------------------
 //* Our Custom Tag Processors
+//*    
+//* Regular Expressions
+//* ===================
+//* Here is some insight on the regular expressions found in this process:
+//* 
+//* The general format of our Custom Tag is as follows:
+//* 
+//*   M{ fn(arg) }M
+//* 
+//* - to keep the footprint small, we use cryptic identifier ('M' stands for Macro)
+//* - fn:  is the Custom Tag function that emits the desired content (typically html)
+//* - arg: is the argument passed into the function.  In our usage, this will always 
+//*        be a literal ... either a string, or named arguments (via a JSON obj).
+//* 
+//*   Multi Line
+//*   ==========
+//* 
+//*   We support these macro tags spanning multiple lines.  This is necessary in
+//*   the case where the arg is large (a complex JSON structure), but it can also
+//*   occur when you format the paragraphs of your MarkDown.
+//* 
+//*   This is where the regex becomes more complex (handling line breaks).
+//*   Our process has 3 specific regex:
+//*     1. the primary matcher  (see: customTagRegex)
+//*     2. the function matcher (see: fnNameMatch)
+//*     3. the argument matcher (see: argMatch)
+//* 
+//*   Before multi-line requirement, our regex were relatively straight forward.
+//* 
+//*   - The key quirky aspect of supporting multi-line is `.` regexp ... which 
+//*     matches ANY char EXCEPT line break.
+//* 
+//*   - To address that, we REPLACE `.` WITH `[\w\W]` ... a set of word-char
+//*     and non-word-char (INCLUDING line break).
+//* 
+//*   - When you apply the `?` qualifier to this (zero or more), we REPLACE
+//*     `.*` WITH `[\w\W]*`.
+//* 
+//*   - The next problem, is this expression becomes to aggressive, swallowing
+//*     up multiple customTags in one massive expression (NOT GOOD).
+//* 
+//*     To fix this we apply the `?` lazy qualifier, to pull back on this.
+//* 
+//* 
+//*   BOTTOM LINE:
+//*   ===========
+//* 
+//*     ANY `.*` expression is REPLACED with `[\w\W]*?`.
+//* 
+//*     Hope this gives you a better understanding :-)
+//* 
+//* 
+//*   Multi Line (one more thing)
+//*   ==========
+//* 
+//*    One last point on Multi Line custom tags.  This point is an
+//*    instruction to the user of Custom Tags.  In the course of formatting
+//*    your MarkDown, it is possible that a Custom Tag string argument could
+//*    be re-formatted into multi lines.
+//*    
+//*    For example:
+//*    
+//*      M{ bibleLink('JHN.5.29@@John 5:29') }M
+//*    
+//*    Could be reformatted as follows (in the context of other text around it):
+//*    
+//*      M{ bibleLink('JHN.5.29@@John
+//*      5:29') }M
+//*    
+//*    The problem with this, is the string argument is NOT valid.
+//*    
+//*    To fix this issue, the user should always use Template Literals for
+//*    their string literals (i.e. THIS: ` NOT THIS: '); The reason for this
+//*    is string template literals can span multiple lines.  Following this
+//*    heuristic, the following macro is valid:
+//*    
+//*      M{ bibleLink(`JHN.5.29@@John
+//*      5:29`) }M
+//*   
 //*-----------------------------------------------------------------------------
 function processCustomTags(_forPage, markdown) {
 
@@ -26,26 +105,28 @@ function processCustomTags(_forPage, markdown) {
 
   // define our generic customTag regular expression matcher
   // ... a global matcher to find all occurances (see /g)
-  // EX: M{ zoomableImg('Mark_BP') }M
-  //console.log(`XX before customTagRegex`);
-  const customTagRegex = /M{\s*\w*.*\s*}M/g;
+  // EX: M{ zoomableImg(`Mark_BP`) }M
+  //forPage==='WorkInProgress.md' && console.log(`XX before customTagRegex`);
+//const customTagRegex = /M{\s*\w*.*\s*}M/g;       // ORIGINAL
+  const customTagRegex = /M{\s*\w*[\w\W]*?\s*}M/g; // FIX: Multi Line (see "BOTTOM LINE" note above)
+
 //const customTagRegex = /\d+/g; // TEMP - used for TEST (two digits) ... "ONE:[22] ... TWO:[44] ... THREE[33]";
 
   // Process each match separately
   // NOTE: RegExp.exec() API: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
-  //console.log(`XX before match loop`);
+  //forPage==='WorkInProgress.md' && console.log(`XX before match loop`);
   let match;
   while ((match = customTagRegex.exec(markdown)) !== null) {
-    //console.log(`XX INSIDE match loop`);
+    //forPage==='WorkInProgress.md' && console.log(`XX INSIDE match loop`);
 
     // the matched substring (customTag)
     const customTag = match[0];
-    //console.log(`XX in page ${forPage}, found customTag: ${customTag}`);
+    //forPage==='WorkInProgress.md' && console.log(`\n\n\n\n\nXX in page ${forPage}, found customTag: ${customTag}`);
 
     // the starting index of the match
     const startIndex = match.index;
 
-    //console.log(`XX found customTag match: `, {customTag, startIndex});
+    // forPage==='WorkInProgress.md' && console.log(`XX found customTag match: `, {customTag, startIndex});
 
     // resolve the dynamic content
     // ... which varies by customTag (identifying the function, params, etc.)
@@ -56,7 +137,7 @@ function processCustomTags(_forPage, markdown) {
                dynamicContent +
                markdown.substring(startIndex + customTag.length);
 
-    //console.log(`ITTERATE RESULT: ${markdown}`); // TOO BIG (entire page)
+    //forPage==='WorkInProgress.md' && console.log(`\n\n\nXX ITTERATE RESULT: ${markdown}`); // TOO BIG (entire page)
   }
 
   return markdown;
@@ -65,7 +146,7 @@ function processCustomTags(_forPage, markdown) {
 module.exports = {
   initCustomTags,
   processCustomTags,
-  completedCheckBox,
+  completedCheckBox, // extra export: needed by - preProcessPage.js
 };
 
 
@@ -90,22 +171,27 @@ function resolveDynamicContent(customTag) {
   // setup assertion utility
   const verify = check.prefix(`violation in page: ${forPage} ... `);
 
-  //console.log(`XX DYNO for customTag: '${customTag}'`);
+  //forPage==='WorkInProgress.md' && console.log(`XX DYNO for customTag: '${customTag}'`);
 
   // extract the function to call
-  const fnNameMatch = customTag.match(/\s*(\w*)\(.*/);
+  const fnNameMatch = customTag.match(/\s*(\w*)\(.*/); // ORIGINAL - is fine as fnName cannot span multi-lines (see "BOTTOM LINE" note above)
   const fnName      = fnNameMatch && fnNameMatch[1];
   const fn          = fnName && customTagProcessors[fnName];
   verify(fn, `NO registered function: "${fnName}" for customTag: "${customTag}"`);
 
   // extract the arg "{id: 'myid'}" part
-  const argMatch = customTag.match(/.*\((.*?)\).*/);
+//const argMatch = customTag.match(/.*\((.*?)\).*/);                  // ORIGINAL
+  const argMatch = customTag.match(/[\w\W]*?\(([\w\W]*?)\)[\w\W]*?/); // FIX: Multi Line (see "BOTTOM LINE" note above)
+
   const argStr   = argMatch && argMatch[1];
   let   argObj;
-  //console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
+  //forPage==='WorkInProgress.md' && console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
 
   // convert to a json object
-  if (argStr.trim().length === 0) { // empty string is an undefined entry ... i.e. no argument
+  if (argStr === null || argStr === undefined) { // something like a missmatch of string literal ... ('id`)
+    verify(false, `argument is NOT a valid JavaScript reference, for customTag: "${customTag}"`);
+  }
+  else if (argStr.trim().length === 0) { // empty string is an undefined entry ... i.e. no argument
     argObj = undefined;
   }
   else { // otherwise, convert argStr into a JS object
@@ -115,7 +201,7 @@ function resolveDynamicContent(customTag) {
       //       To solve this we use eval(), which is typically a security risk (but I am in a closed environment here - so I trust the markdown)
       // argObj = JSON.parse(argStr);
       argObj = eval(`(${argStr})`); // ... the extra parans ensure the string is treated as an expression
-      //console.log(`XX DYNO argObj: `, {argObj});
+      //forPage==='WorkInProgress.md' && console.log(`XX DYNO argObj: `, {argObj});
     }
     catch (err) {
       verify(false, `argument is NOT a valid JavaScript reference, for customTag: "${customTag}" ... ${err.message}`);
@@ -159,7 +245,7 @@ function resolveDynamicContent(customTag) {
 //*   - id - The base name of the .png img file ... {id}.png
 //* 
 //* Custom Tag:
-//*   M{ zoomableImg('Mark_BP') }M
+//*   M{ zoomableImg(`Mark_BP`) }M
 //* 
 //* Replaced With:
 //*   <center>
@@ -213,7 +299,7 @@ function zoomableImg(id) {
 //*   - id - The YouTube video id to display.
 //* 
 //* Custom Tag:
-//*   M{ youTube('ZBLKrNVffgo') }M
+//*   M{ youTube(`ZBLKrNVffgo`) }M
 //* 
 //* Replaced With:
 //*   <p align="center">
@@ -272,9 +358,9 @@ function youTube(id) {
 //*                - '20100425@@1.' ... '20100425' id with '1.' label
 //* 
 //* Custom Tag:
-//*   M{ completedCheckBox('Mark@@Book Completed') }M ... for book completed
-//*   M{ completedCheckBox('Mark') }M                 ... label is optional
-//*   M{ completedCheckBox('20100425@@1.') }M         ... for sermon series completed (in table)
+//*   M{ completedCheckBox(`Mark@@Book Completed`) }M ... for book completed
+//*   M{ completedCheckBox(`Mark`) }M                 ... label is optional
+//*   M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed (in table)
 //* 
 //* Replaced With:
 //*   <label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
@@ -300,7 +386,7 @@ function completedCheckBox(_id) {
   //       - diag: CCB ... for completedCheckBox
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
-  //          1. M{ completedCheckBox('Genesis') }M {{book.Genesis}} ........... example: OldTestament.md
+  //          1. M{ completedCheckBox(`Genesis`) }M {{book.Genesis}} ........... example: OldTestament.md
   //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
@@ -328,7 +414,7 @@ function completedCheckBox(_id) {
 //*              ... a self-contained URL link
 //* 
 //* Custom Tag:
-//*   M{ sermonLink('20210418@@Pray Like Jesus') }M
+//*   M{ sermonLink(`20210418@@Pray Like Jesus`) }M
 //* 
 //* Replaced With:
 //*   <a href="https://cornerstonechapel.net/teaching/20210418" target="_blank">Pray Like Jesus</a>
@@ -357,7 +443,7 @@ function sermonLink(_ref) {
   //       - diag: SL ... for sermonLink
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
-  //          1. M{ sermonLink('20210418@@Pray Like Jesus') }M ........... in theory (not used outside of table series)
+  //          1. M{ sermonLink(`20210418@@Pray Like Jesus`) }M ........... in theory (not used outside of table series)
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
   return `${diag}<a href="${url}" target="_blank">${title}</a>`;
@@ -380,7 +466,7 @@ function sermonLink(_ref) {
 //*            - 'rev.21.6-8@@Revelation 21:6-8'
 //* 
 //* Custom Tag:
-//*   M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
+//*   M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
 //* 
 //* Replaced With:
 //*   <a href="#" onmouseover="fw.alterBibleVerseLink(event, 'rev.21.6-8')" target="_blank">Revelation 21:6-8</a>
@@ -412,7 +498,7 @@ function bibleLink(_ref) {
   //       - diag: BL ... for bibleLink
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   //       EX USAGE:
-  //          1. M{ bibleLink('rev.21.6-8@@Revelation 21:6-8') }M
+  //          1. M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>BL</mark>` : '';
   return `${diag}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;

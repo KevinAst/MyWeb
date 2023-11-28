@@ -201,4 +201,4 @@ following features:
 > Try this out for yourself with the following sample _(taken from the
 > [Revelation](Revelation.md) series)_:
 
-M{ zoomableImg('RevelationTimeline_CS') }M
+M{ zoomableImg(`RevelationTimeline_CS`) }M

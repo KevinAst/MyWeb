@@ -421,8 +421,8 @@ believes in him receives forgiveness of sins."
 
 ## Maps
 
-M{ zoomableImg('VBS_map1') }M
+M{ zoomableImg(`VBS_map1`) }M
 
-M{ zoomableImg('VBS_map2') }M
+M{ zoomableImg(`VBS_map2`) }M
 
-M{ zoomableImg('VBS_map3') }M
+M{ zoomableImg(`VBS_map3`) }M

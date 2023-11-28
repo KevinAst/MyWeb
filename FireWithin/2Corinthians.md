@@ -49,12 +49,12 @@ did.
 
 > [2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)
 
-M{ zoomableImg('2Corinthians_BP') }M
+M{ zoomableImg(`2Corinthians_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('nmdsoTt_gv0') }M
+M{ youTube(`nmdsoTt_gv0`) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)

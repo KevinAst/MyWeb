@@ -47,12 +47,12 @@ gospel throughout the world.
 > [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
 > [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 
-M{ zoomableImg('Acts_BP') }M
+M{ zoomableImg(`Acts_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('lnCAkeBido0') }M
+M{ youTube(`lnCAkeBido0`) }M
 
 
 **miscellaneous**

@@ -63,12 +63,12 @@ through renewed hearts.
 
 > [Amos Introduction](https://bibleproject.com/explore/video/amos/)
 
-M{ zoomableImg('Amos_BP') }M
+M{ zoomableImg(`Amos_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('73ubNEt_DB0') }M
+M{ youTube(`73ubNEt_DB0`) }M
 
 
 

@@ -50,11 +50,11 @@ and deeds.
 
 > [Mark Introduction](https://bibleproject.com/explore/video/mark/)
 
-M{ zoomableImg('Mark_BP') }M
+M{ zoomableImg(`Mark_BP`) }M
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('ZBLKrNVffgo') }M
+M{ youTube(`ZBLKrNVffgo`) }M
 
 
 

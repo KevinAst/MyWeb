@@ -45,11 +45,11 @@ Persecution from outside
 
 > [2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)
 
-M{ zoomableImg('2Thessalonians_BP') }M
+M{ zoomableImg(`2Thessalonians_BP`) }M
 
 **{{book.SpokenGospel}}**
 
-M{ youTube('Wb6Hhzl8Gyk') }M
+M{ youTube(`Wb6Hhzl8Gyk`) }M
 
 
 ## 2010 2 Thessalonians Series (Sundays)

@@ -62,7 +62,7 @@ on the surface.
 
 > [Jonah Introduction](https://bibleproject.com/explore/video/jonah/)
 
-M{ zoomableImg('Jonah_BP') }M
+M{ zoomableImg(`Jonah_BP`) }M
 
 
 **{{book.SpokenGospel}}**
