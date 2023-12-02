@@ -11,6 +11,7 @@
   - [sermonLink()]
   - [studyGuideLink()]
   - [bibleLink()]
+  - [sermonSeries()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -119,6 +120,7 @@ The following **Custom Tags** are available:
 - [sermonLink()]
 - [studyGuideLink()]
 - [bibleLink()]
+- [sermonSeries()]
 
 
 ### zoomableImg()
@@ -204,6 +206,7 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
     - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
     - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
       ... a self-contained URL link
+          NOTE: This can be used for any generic URL/Label (not really sermon specific)
   ```
 
 **Custom Tag**
@@ -257,6 +260,123 @@ the desired Bible Translation.
 M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
 ```
 
+
+
+### sermonSeries()
+
+**API**: `sermonSeries(namedParams)`
+
+A comprehensive and responsive table generator that details the full
+content of an entire sermon series.
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes the complete sermon series.
+
+  ```js
+  {
+    settings: { // settings impacting entire series (OPTIONAL)
+      includeStudyGuide: boolean, // directive include/omit StudyGuide column (DEFAULT: true)
+    },
+    entries: [ // series entries (in order of display)
+      { // individual entry
+        id:        string,   // entry id (REQUIRED)
+                             // - used to persist completion status
+                             // - `20210418`: A CornerStone standard entry (`YYYYMMDD`)
+                             //               specifies:
+                             //               * both sermon and studyGuide ref
+                             //               * date
+                             // - `anything`: For NON-CornerStone entries
+                             //               - anything you wish
+                             //               - be careful NOT to conflict with a potential CornerStone entry
+                             //                 EX: `B20210418` prefix a letter before the encoded date
+
+        sermon:     string,  // sermon title (OPTIONAL - DEFAULT: `Teaching`)
+                             // - OMITTED: defaults to `Teaching` (using id for sermon ref)
+                             // - `Pray Like Jesus`: sermon title (using id for sermon ref)
+                             // - `20210418@@Pray Like Jesus`: sermon ref and title (when ref varies from id - a CornerStone mismatch/bug)
+                             // - `https://www.youtube.com/...@@A Title`: a NON-CornerStone sermon
+                             // - `NONE`: NO Sermon for this entry (unusual, but can happen)
+
+        extraSermonLink:     // additional url link in the sermon cell (OPTIONAL)
+                    string,  // - `https://www.youtube.com/...@@Label`: another URL link
+                             // - OMITTED: nothing
+
+        scripture:  string,  // per bibleLink() API (OPTIONAL)
+                             // - `mrk.1@@Mark 1`
+                             // - OMITTED: No Scripture for this entry
+
+        extraScriptureLink:  // additional url link in the scripture cell (OPTIONAL)
+                    string,  // - `https://www.youtube.com/...@@Label`: another URL link
+                             // - OMITTED: nothing
+
+        studyGuide: string,  // study guide ref (when ref varies from id - a CornerStone mismatch/bug) (OPTIONAL - DEFAULT: use entry id)
+                             // - OMITTED: use entry id (per CornerStone standard)
+                             // - `NONE`: NO Study Guide for this entry
+                             // NOTE: when settings.includeStudyGuide: false ... this directive is completely ignored
+
+        date:       string,  // `MM/DD/YYYY` (OPTIONAL - DEFAULT: derivation of entry id)
+                             // - `04/18/2021` - when entry id is either NOT accurate, or is in a NON-CornerStone format
+      },
+      ... repeat
+    ]
+  }
+  ```js
+
+
+**sermonSeries() Custom Tag Examples**
+---
+
+**Standard CornerStone Series with Study Guide**
+```js
+// see: New testament / Mark / 2021 Mark Series (Sundays)
+M{ sermonSeries({
+  entries: [
+    { id: `20210418`,  sermon: `Pray Like Jesus`,                       scripture:`mrk.1@@Mark 1`         },
+    { id: `20210425`,  sermon: `Patches and Wineskins`,                 scripture:`mrk.2@@Mark 2:18-22`   },
+    { id: `20210502`,  sermon: `What Hinders Fruitfulness?`,            scripture:`mrk.4@@Mark 4`         },
+    { id: `20210516`,  sermon: `Losing Your Head over a Grudge`,        scripture:`mrk.6@@Mark 6`         },
+    { id: `20210523`,  sermon: `Mountains or Valleys, Jesus is There`,  scripture:`mrk.9@@Mark 9`         },
+    { id: `20210530`,  sermon: `Opposition to Jesus and His Church`,    scripture:`mrk.12@@Mark 12`       },
+    { id: `20210613`,  sermon: `What's the Cost?`,                      scripture:`mrk.12@@Mark 12:41-44` },
+    { id: `20210620`,  sermon: `When God Tore a Curtain`,               scripture:`mrk.15@@Mark 15`       },
+  ]
+}) }M
+```
+
+**Standard CornerStone Series with NO Study Guide**
+```js
+?? pull in from Mark.md WHEN DONE
+```
+
+**Standard CornerStone Series with selected Study Guide**
+```js
+?? pull in from somewhere WHEN DONE
+```
+
+**Specialized Series with various options**
+```js
+// see: Specials / Current Events / LGBTQ
+M{ sermonSeries({
+  entries: [
+    { id: `20120205`, sermon: `The Cost of Compromise`,                           scripture:`gen.18@@Genesis 18-19`, },
+    { id: `20150705`, sermon: `America, Will You Stand?`,                         studyGuide: `NONE`, },
+    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
+    { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture:`rom.1@@Romans 1:18-28`, },
+  ]
+}) }M
+
+// see: Specials / Current Events / Moral Decay
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`, },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+  ]
+}) }M
+```
 
 
 
@@ -357,6 +477,7 @@ attempted it.  It would require some additional research, for example:
   [sermonLink()]:         #sermonlink
   [studyGuideLink()]:     #studyguidelink
   [bibleLink()]:          #biblelink
+  [sermonSeries()]:       #sermonseries
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
 [GitBook Docs]:   #gitbook-docs

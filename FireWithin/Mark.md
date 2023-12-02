@@ -115,6 +115,23 @@ M{ youTube(`ZBLKrNVffgo`) }M
 
 {{book.CornerstoneChapel}}
 
+
+**?? The easy way (WORKING)**
+M{ sermonSeries({
+  entries: [
+    { id: `20210418`,  sermon: `Pray Like Jesus`,                       scripture:`mrk.1@@Mark 1`,         },
+    { id: `20210425`,  sermon: `Patches and Wineskins`,                 scripture:`mrk.2@@Mark 2:18-22`,   },
+    { id: `20210502`,  sermon: `What Hinders Fruitfulness?`,            scripture:`mrk.4@@Mark 4`,         },
+    { id: `20210516`,  sermon: `Losing Your Head over a Grudge`,        scripture:`mrk.6@@Mark 6`,         },
+    { id: `20210523`,  sermon: `Mountains or Valleys, Jesus is There`,  scripture:`mrk.9@@Mark 9`,         },
+    { id: `20210530`,  sermon: `Opposition to Jesus and His Church`,    scripture:`mrk.12@@Mark 12`,       },
+    { id: `20210613`,  sermon: `What's the Cost?`,                      scripture:`mrk.12@@Mark 12:41-44`, },
+    { id: `20210620`,  sermon: `When God Tore a Curtain`,               scripture:`mrk.15@@Mark 15`,       },
+  ]
+}) }M
+
+
+?? TRASH:
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>

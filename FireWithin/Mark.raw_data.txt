@@ -92,6 +92,8 @@ mrk.1
 * 2021 Mark Series (Sundays)  WITH Study Guide
 *----------------------------
 
+?? OLD TRASH: ********************************************************************************
+
 06/20/2021
 When God Tore a Curtain
 Mark 15
@@ -113,7 +115,7 @@ Mark 9
 mrk.9
 
 05/16/2021
-Losing Your Head over a Grudge (BUG in Cornerstone site: URL KEY is OFF, should be: 20210516 but is: 05162021 ... ONLY in Sermon NOT in Study Guide)
+Losing Your Head over a Grudge
 Mark 6
 mrk.6
 
@@ -128,6 +130,62 @@ Mark 2:18-22
 mrk.2
 
 04/18/2021
+Pray Like Jesus
+Mark 1
+mrk.1
+
+?? NEW TEMPLATE (WORKING) ********************************************************************************
+M{ sermonSeries({
+  entries: [
+    { id: `20210418`,  sermon: `Pray Like Jesus`,                       scripture:`mrk.1@@Mark 1`,         },
+    { id: `20210425`,  sermon: `Patches and Wineskins`,                 scripture:`mrk.2@@Mark 2:18-22`,   },
+    { id: `20210502`,  sermon: `What Hinders Fruitfulness?`,            scripture:`mrk.4@@Mark 4`,         },
+    { id: `20210516`,  sermon: `Losing Your Head over a Grudge`,        scripture:`mrk.6@@Mark 6`,         },
+    { id: `20210523`,  sermon: `Mountains or Valleys, Jesus is There`,  scripture:`mrk.9@@Mark 9`,         },
+    { id: `20210530`,  sermon: `Opposition to Jesus and His Church`,    scripture:`mrk.12@@Mark 12`,       },
+    { id: `20210613`,  sermon: `What's the Cost?`,                      scripture:`mrk.12@@Mark 12:41-44`, },
+    { id: `20210620`,  sermon: `When God Tore a Curtain`,               scripture:`mrk.15@@Mark 15`,       },
+  ]
+}) }M
+
+NOTE: ORDER REVERSED (same as promoted in Cornerstone Search App)
+
+20210620
+When God Tore a Curtain
+Mark 15
+mrk.15
+
+20210613
+What's the Cost?
+Mark 12:41-44
+mrk.12
+
+20210530
+Opposition to Jesus and His Church
+Mark 12
+mrk.12
+
+20210523
+Mountains or Valleys, Jesus is There
+Mark 9
+mrk.9
+
+20210516
+Losing Your Head over a Grudge
+Mark 6
+mrk.6
+
+20210502
+What Hinders Fruitfulness?
+Mark 4
+mrk.4
+
+20210425
+Patches and Wineskins
+Mark 2:18-22
+mrk.2
+
+20210418
 Pray Like Jesus
 Mark 1
 mrk.1

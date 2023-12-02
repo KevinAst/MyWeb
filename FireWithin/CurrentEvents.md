@@ -77,6 +77,18 @@
 
 {{book.CornerstoneChapel}}
 
+**?? The easy way (WORKING)**
+
+M{ sermonSeries({
+  entries: [
+    { id: `20120205`, sermon: `The Cost of Compromise`,                           scripture:`gen.18@@Genesis 18-19`, },
+    { id: `20150705`, sermon: `America, Will You Stand?`,                         studyGuide: `NONE`, },
+    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
+    { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture:`rom.1@@Romans 1:18-28`, },
+  ]
+}) }M
+
+?? TRASH:
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>
@@ -105,6 +117,18 @@
 
 {{book.CornerstoneChapel}}
 
+**?? The easy way (WORKING)**
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`, },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+  ]
+}) }M
+
+?? TRASH:
 <!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
 <div class="phone">
 <table>
