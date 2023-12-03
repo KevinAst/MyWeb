@@ -198,12 +198,15 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
   By default, the ref will generate a Cornerstone sermon link,
   UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
 
+  When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
+
   If NO title is specified, it will default to 'Teaching'.
 
   ```
   EXAMPLE:
     - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
     - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
+    - 'TXT@@Sacrificed' ... a text item only (i.e. NO link)
     - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
       ... a self-contained URL link
           NOTE: This can be used for any generic URL/Label (not really sermon specific)
@@ -295,6 +298,7 @@ content of an entire sermon series.
                              // - OMITTED: defaults to `Teaching` (using id for sermon ref)
                              // - `Pray Like Jesus`: sermon title (using id for sermon ref)
                              // - `20210418@@Pray Like Jesus`: sermon ref and title (when ref varies from id - a CornerStone mismatch/bug)
+                             // - `TXT@@A Title`: a text item only (i.e. NO link).
                              // - `https://www.youtube.com/...@@A Title`: a NON-CornerStone sermon
                              // - `NONE`: NO Sermon for this entry (unusual, but can happen)
 
@@ -346,7 +350,29 @@ M{ sermonSeries({
 
 **Standard CornerStone Series with NO Study Guide**
 ```js
-?? pull in from Mark.md WHEN DONE
+M{ sermonSeries({
+  settings: {
+  includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
+    { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },
+    { id: `20131204`, scripture: `mrk.3@@Mark 3`,            },
+    { id: `20131211`, scripture: `mrk.4@@Mark 4-5:20`,       },
+    { id: `20131218`, scripture: `mrk.5@@Mark 5:21-6:13`,    },
+    { id: `20140108`, scripture: `mrk.6@@Mark 6:13-7:23`,    },
+    { id: `20140115`, scripture: `mrk.7@@Mark 7:23-8:38`,    },
+    { id: `20140205`, scripture: `mrk.9@@Mark 9`,            },
+    { id: `20140212`, scripture: `mrk.9@@Mark 9:33-50`,      },
+    { id: `20140219`, scripture: `mrk.10@@Mark 10`,          },
+    { id: `20140305`, scripture: `mrk.11@@Mark 11-12:17`,    },
+    { id: `20140312`, scripture: `mrk.12@@Mark 12:18-13:37`, },
+    { id: `20140319`, scripture: `mrk.14@@Mark 14:1-26`,     },
+    { id: `20140326`, scripture: `mrk.14@@Mark 14:12-52`,    },
+    { id: `20140402`, scripture: `mrk.14@@Mark 14:53-15:15`, },
+    { id: `20140409`, scripture: `mrk.15@@Mark 15:16-16:20`, },
+  ]
+}) }M
 ```
 
 **Standard CornerStone Series with selected Study Guide**

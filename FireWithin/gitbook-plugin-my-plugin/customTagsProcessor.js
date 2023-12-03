@@ -407,6 +407,9 @@ function completedCheckBox(_id) {
 //*          By default, the ref will generate a Cornerstone sermon link,
 //*          UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
 //* 
+//*          When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
+//*          EX:  'TXT@@Sacrificed'
+//* 
 //*          If NO title is specified, it will default to 'Teaching'.
 //* 
 //*          EXAMPLE:
@@ -449,7 +452,9 @@ function sermonLink(_ref) {
   //          1. M{ sermonLink(`20210418@@Pray Like Jesus`) }M ........... in theory (not used outside of table series)
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
-  return `${diag}<a href="${url}" target="_blank">${title}</a>`;
+  // ... TXT ref, generates a text item only (i.e. NO link)
+  return ref==='TXT' ? title : `${diag}<a href="${url}" target="_blank">${title}</a>`;
+
 }
 
 
@@ -694,15 +699,18 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   
   // ... studyGuide
   let studyGuideRef = ''; // ... derivation used in studyGuideLink(studyGuideRef) <<< USE THIS when supplied
-  if (studyGuide === 'NONE') { // NO studyGuide for this entry
-    studyGuideRef = '';
-  }
-  else if (studyGuide) { // use supplied studyGuide
-    studyGuideRef = studyGuide;
-  }
-  else { // NOT supplied ... use id
-    checkParam(isCornerstoneEntry, `id cannot be used for studyGuide for NON Cornerstone entry ... for entry id: '${id}'`)
-    studyGuideRef = id;
+  // only applicable when enabled via global settings
+  if (settings.includeStudyGuide) {
+    if (studyGuide === 'NONE') { // NO studyGuide for this entry
+      studyGuideRef = '';
+    }
+    else if (studyGuide) { // use supplied studyGuide
+      studyGuideRef = studyGuide;
+    }
+    else { // NOT supplied ... use id
+      checkParam(isCornerstoneEntry, `id cannot be used for studyGuide for NON Cornerstone entry ... for entry id: '${id}'`)
+      studyGuideRef = id;
+    }
   }
 
   // ... date
