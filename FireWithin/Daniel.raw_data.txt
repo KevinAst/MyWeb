@@ -1,6 +1,8 @@
-2012 Series (Mid Week) NO Study Guide  **********************************************************************
+*-----------------------
+* 2012 Series (Mid Week) NO Study Guide
+*-----------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 04/18/2012
 Teaching
@@ -63,12 +65,11 @@ Daniel 1
 dan.1
 
 
+*----------------------
+* 2019 Series (Sundays) WITH Study Guide
+*----------------------
 
-
-
-2019 Series (Sundays) WITH Study Guide  **********************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 11/10/2019
 The End Times
