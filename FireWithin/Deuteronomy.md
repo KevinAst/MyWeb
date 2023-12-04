@@ -58,32 +58,14 @@ M{ youTube(`DfHlvrAKMoU`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20130908{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130908{{book.cst2}} Three Reasons to Keep God's Word     {{book.cst3}} <br/> {{book.b1}}deu.1{{book.b2}}  Deuteronomy 1-4   {{book.b3}} </td><td> 09/08/2013 <br/> {{book.csg1}}20130908.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130915{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130915{{book.cst2}} When Life is Good, Don't Forget God  {{book.cst3}} <br/> {{book.b1}}deu.5{{book.b2}}  Deuteronomy 5-9   {{book.b3}} </td><td> 09/15/2013 <br/> {{book.csg1}}20130915.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130922{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130922{{book.cst2}} Be Transformed, Not Conformed        {{book.cst3}} <br/> {{book.b1}}deu.10{{book.b2}} Deuteronomy 10-18 {{book.b3}} </td><td> 09/22/2013 <br/> {{book.csg1}}20130922.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130929{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20130929{{book.cst2}} Jesus - Our City of Refuge           {{book.cst3}} <br/> {{book.b1}}deu.19{{book.b2}} Deuteronomy 19-25 {{book.b3}} </td><td> 09/29/2013 <br/> {{book.csg1}}20130929.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131006{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20131006{{book.cst2}} Honor God with What you Have         {{book.cst3}} <br/> {{book.b1}}deu.26{{book.b2}} Deuteronomy 26    {{book.b3}} </td><td> 10/06/2013 <br/> {{book.csg1}}20131006.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131020{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20131020{{book.cst2}} Principles of Blessings and Curses   {{book.cst3}} <br/> {{book.b1}}deu.27{{book.b2}} Deuteronomy 27-30 {{book.b3}} </td><td> 10/20/2013 <br/> {{book.csg1}}20131020.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131027{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20131027{{book.cst2}} The Songs of Moses                   {{book.cst3}} <br/> {{book.b1}}deu.31{{book.b2}} Deuteronomy 31-34 {{book.b3}} </td><td> 10/27/2013 <br/> {{book.csg1}}20131027.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20130908{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130908{{book.cst2}} Three Reasons to Keep God's Word     {{book.cst3}} </td><td> {{book.b1}}deu.1{{book.b2}}  Deuteronomy 1-4   {{book.b3}} </td><td> 09/08/2013 </td><td> {{book.csg1}}20130908.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130915{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130915{{book.cst2}} When Life is Good, Don't Forget God  {{book.cst3}} </td><td> {{book.b1}}deu.5{{book.b2}}  Deuteronomy 5-9   {{book.b3}} </td><td> 09/15/2013 </td><td> {{book.csg1}}20130915.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130922{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130922{{book.cst2}} Be Transformed, Not Conformed        {{book.cst3}} </td><td> {{book.b1}}deu.10{{book.b2}} Deuteronomy 10-18 {{book.b3}} </td><td> 09/22/2013 </td><td> {{book.csg1}}20130922.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130929{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20130929{{book.cst2}} Jesus - Our City of Refuge           {{book.cst3}} </td><td> {{book.b1}}deu.19{{book.b2}} Deuteronomy 19-25 {{book.b3}} </td><td> 09/29/2013 </td><td> {{book.csg1}}20130929.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131006{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20131006{{book.cst2}} Honor God with What you Have         {{book.cst3}} </td><td> {{book.b1}}deu.26{{book.b2}} Deuteronomy 26    {{book.b3}} </td><td> 10/06/2013 </td><td> {{book.csg1}}20131006.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131020{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20131020{{book.cst2}} Principles of Blessings and Curses   {{book.cst3}} </td><td> {{book.b1}}deu.27{{book.b2}} Deuteronomy 27-30 {{book.b3}} </td><td> 10/20/2013 </td><td> {{book.csg1}}20131020.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20131027{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20131027{{book.cst2}} The Songs of Moses                   {{book.cst3}} </td><td> {{book.b1}}deu.31{{book.b2}} Deuteronomy 31-34 {{book.b3}} </td><td> 10/27/2013 </td><td> {{book.csg1}}20131027.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20130908`, sermon: `Three Reasons to Keep God's Word`,    scripture: `deu.1@@Deuteronomy 1-4`,    },
+    { id: `20130915`, sermon: `When Life is Good, Don't Forget God`, scripture: `deu.5@@Deuteronomy 5-9`,    },
+    { id: `20130922`, sermon: `Be Transformed, Not Conformed`,       scripture: `deu.10@@Deuteronomy 10-18`, },
+    { id: `20130929`, sermon: `Jesus - Our City of Refuge`,          scripture: `deu.19@@Deuteronomy 19-25`, },
+    { id: `20131006`, sermon: `Honor God with What you Have`,        scripture: `deu.26@@Deuteronomy 26`,    },
+    { id: `20131020`, sermon: `Principles of Blessings and Curses`,  scripture: `deu.27@@Deuteronomy 27-30`, },
+    { id: `20131027`, sermon: `The Songs of Moses`,                  scripture: `deu.31@@Deuteronomy 31-34`, },
+  ]
+}) }M

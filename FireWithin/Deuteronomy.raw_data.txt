@@ -1,10 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*------------------------
+* 2013 Deuteronomy Series WITH Study Guide
+*------------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*-------------------------
-* 2013 Deuteronomy Series ??  NO Study Guide
-*-------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 10/27/2013
 The Songs of Moses
