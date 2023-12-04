@@ -1,8 +1,9 @@
-2010 Series (Sundays) WITH Study Guide  **********************************************************************
+*----------------------
+* 2010 Series (Sundays) WITH Study Guide
+*----------------------
 
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 NOTE: This series covers both First and Second Thessalonians
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
 
 05/09/2010
 What Does the Lord's Return Mean (Part 3)?
@@ -20,9 +21,12 @@ What Does the Lord's Return Mean (Part 1)?
 1th.1
 
 
-2018 Series (Mid Week) NO Study Guide  **********************************************************************
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+*-----------------------
+* 2018 Series (Mid Week) NO Study Guide
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 03/07/2018
 Teaching
