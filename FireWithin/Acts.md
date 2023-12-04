@@ -128,7 +128,6 @@ M{ sermonSeries({
 ## 2023 Acts Series (Sundays)
 
 {{book.CornerstoneChapel}}
-
 M{ sermonSeries({
   entries: [
     { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
@@ -150,5 +149,15 @@ M{ sermonSeries({
     { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
     { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
     { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
+    { id: `20230827`, sermon: `Advice and Warnings to the Church`,                             scripture: `act.20@@Acts 20 PT.2`,  },
+    { id: `20230903`, sermon: `Parting Words of Encouragement`,                                scripture: `act.20@@Acts 20 PT.3`,  },
+    { id: `20230910`, sermon: `Hearing God`,                                                   scripture: `act.21@@Acts 21`,       },
+    { id: `20230917`, sermon: `A Healthy Conscience`,                                          scripture: `act.21@@Acts 21-23`,    },
+    { id: `20231001`, sermon: `Take Courage!`,                                                 scripture: `act.23@@Acts 23`,       },
+    { id: `20231008`, sermon: `The Judgment to Come`,                                          scripture: `act.24@@Acts 24`,       },
+    { id: `20231029`, sermon: `My Story for God’s Glory`,                                      scripture: `act.25@@Acts 25-26`,    },
+    { id: `20231105`, sermon: `Stop Listening to the Majority`,                                scripture: `act.27@@Acts 27:1-12`,  },
+    { id: `20231112`, sermon: `Hope for the Hopeless`,                                         scripture: `act.27@@Acts 27 PT.2`,  },
+    { id: `20231203`, sermon: `Being Relatable for Christ`,                                    scripture: `act.28@@Acts 28`,       },
   ]
 }) }M
