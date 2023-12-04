@@ -61,67 +61,34 @@ M{ youTube(`nmdsoTt_gv0`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20091206{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20091206{{book.cst2}} What Suffering Produces   {{book.cst3}} <br/> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1-2   {{book.b3}} </td><td> 12/06/2009 <br/> {{book.csg1}}20091206.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20091213{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20091213{{book.cst2}} We Were Made for Eternity {{book.cst3}} <br/> {{book.b1}}2co.3 {{book.b2}} 2 Cor 3-5   {{book.b3}} </td><td> 12/13/2009 <br/> {{book.csg1}}20091213.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100103{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20100103{{book.cst2}} It's No Yoke              {{book.cst3}} <br/> {{book.b1}}2co.6 {{book.b2}} 2 Cor 6-7   {{book.b3}} </td><td> 01/03/2010 <br/> {{book.csg1}}20100103.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100110{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20100110{{book.cst2}} The Grace of Giving       {{book.cst3}} <br/> {{book.b1}}2co.8 {{book.b2}} 2 Cor 8-10  {{book.b3}} </td><td> 01/10/2010 <br/> {{book.csg1}}20100110.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100124{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20100124{{book.cst2}} Paradox Principles        {{book.cst3}} <br/> {{book.b1}}2co.11{{book.b2}} 2 Cor 11-13 {{book.b3}} </td><td> 01/24/2010 <br/> {{book.csg1}}20100124.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20091206{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20091206{{book.cst2}} What Suffering Produces   {{book.cst3}} </td><td> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1-2   {{book.b3}} </td><td> 12/06/2009 </td><td> {{book.csg1}}20091206.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20091213{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20091213{{book.cst2}} We Were Made for Eternity {{book.cst3}} </td><td> {{book.b1}}2co.3 {{book.b2}} 2 Cor 3-5   {{book.b3}} </td><td> 12/13/2009 </td><td> {{book.csg1}}20091213.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100103{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20100103{{book.cst2}} It's No Yoke              {{book.cst3}} </td><td> {{book.b1}}2co.6 {{book.b2}} 2 Cor 6-7   {{book.b3}} </td><td> 01/03/2010 </td><td> {{book.csg1}}20100103.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100110{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20100110{{book.cst2}} The Grace of Giving       {{book.cst3}} </td><td> {{book.b1}}2co.8 {{book.b2}} 2 Cor 8-10  {{book.b3}} </td><td> 01/10/2010 </td><td> {{book.csg1}}20100110.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100124{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20100124{{book.cst2}} Paradox Principles        {{book.cst3}} </td><td> {{book.b1}}2co.11{{book.b2}} 2 Cor 11-13 {{book.b3}} </td><td> 01/24/2010 </td><td> {{book.csg1}}20100124.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20091206`, sermon: `What Suffering Produces`,   scripture: `2co.1@@2 Cor 1-2`,    },
+    { id: `20091213`, sermon: `We Were Made for Eternity`, scripture: `2co.3@@2 Cor 3-5`,    },
+    { id: `20100103`, sermon: `It's No Yoke`,              scripture: `2co.6@@2 Cor 6-7`,    },
+    { id: `20100110`, sermon: `The Grace of Giving`,       scripture: `2co.8@@2 Cor 8-10`,   },
+    { id: `20100124`, sermon: `Paradox Principles`,        scripture: `2co.11@@2 Cor 11-13`, },
+  ]
+}) }M
 
 
 ## 2017 2 Corinthians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20170405{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170405{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1:1-11       {{book.b3}} </td><td> 04/05/2017 </td>
-<tr><td> {{book.cb1}}20170419{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170419{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1:12-2:17    {{book.b3}} </td><td> 04/19/2017 </td>
-<tr><td> {{book.cb1}}20170426{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170426{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.3 {{book.b2}} 2 Cor 3-4          {{book.b3}} </td><td> 04/26/2017 </td>
-<tr><td> {{book.cb1}}20170503{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170503{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.5 {{book.b2}} 2 Cor 5:1-21       {{book.b3}} </td><td> 05/03/2017 </td>
-<tr><td> {{book.cb1}}20170510{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170510{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.6 {{book.b2}} 2 Cor 6            {{book.b3}} </td><td> 05/10/2017 </td>
-<tr><td> {{book.cb1}}20170517{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20170517{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.7 {{book.b2}} 2 Cor 7:1-8:15     {{book.b3}} </td><td> 05/17/2017 </td>
-<tr><td> {{book.cb1}}20170531{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20170531{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.8 {{book.b2}} 2 Cor 8:16-10:5    {{book.b3}} </td><td> 05/31/2017 </td>
-<tr><td> {{book.cb1}}20170607{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20170607{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.10{{book.b2}} 2 Cor 10:7-11:15   {{book.b3}} </td><td> 06/07/2017 </td>
-<tr><td> {{book.cb1}}20170614{{book.cb2}} 9. {{book.cb3}} </td><td> {{book.cst1}}20170614{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2co.11{{book.b2}} 2 Cor 11:16-13:14  {{book.b3}} </td><td> 06/14/2017 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20170405{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170405{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1:1-11       {{book.b3}} </td><td> 04/05/2017 </td>
-<tr><td> {{book.cb1}}20170419{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170419{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.1 {{book.b2}} 2 Cor 1:12-2:17    {{book.b3}} </td><td> 04/19/2017 </td>
-<tr><td> {{book.cb1}}20170426{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170426{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.3 {{book.b2}} 2 Cor 3-4          {{book.b3}} </td><td> 04/26/2017 </td>
-<tr><td> {{book.cb1}}20170503{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170503{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.5 {{book.b2}} 2 Cor 5:1-21       {{book.b3}} </td><td> 05/03/2017 </td>
-<tr><td> {{book.cb1}}20170510{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170510{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.6 {{book.b2}} 2 Cor 6            {{book.b3}} </td><td> 05/10/2017 </td>
-<tr><td> {{book.cb1}}20170517{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20170517{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.7 {{book.b2}} 2 Cor 7:1-8:15     {{book.b3}} </td><td> 05/17/2017 </td>
-<tr><td> {{book.cb1}}20170531{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20170531{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.8 {{book.b2}} 2 Cor 8:16-10:5    {{book.b3}} </td><td> 05/31/2017 </td>
-<tr><td> {{book.cb1}}20170607{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20170607{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.10{{book.b2}} 2 Cor 10:7-11:15   {{book.b3}} </td><td> 06/07/2017 </td>
-<tr><td> {{book.cb1}}20170614{{book.cb2}} 9. {{book.cb3}} </td><td> {{book.cst1}}20170614{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2co.11{{book.b2}} 2 Cor 11:16-13:14  {{book.b3}} </td><td> 06/14/2017 </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20170405`, scripture: `2co.1@@2 Cor 1:1-11`,       },
+    { id: `20170419`, scripture: `2co.1@@2 Cor 1:12-2:17`,    },
+    { id: `20170426`, scripture: `2co.3@@2 Cor 3-4`,          },
+    { id: `20170503`, scripture: `2co.5@@2 Cor 5:1-21`,       },
+    { id: `20170510`, scripture: `2co.6@@2 Cor 6`,            },
+    { id: `20170517`, scripture: `2co.7@@2 Cor 7:1-8:15`,     },
+    { id: `20170531`, scripture: `2co.8@@2 Cor 8:16-10:5`,    },
+    { id: `20170607`, scripture: `2co.10@@2 Cor 10:7-11:15`,  },
+    { id: `20170614`, scripture: `2co.11@@2 Cor 11:16-13:14`, },
+  ]
+}) }M
