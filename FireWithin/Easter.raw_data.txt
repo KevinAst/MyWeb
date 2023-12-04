@@ -1,12 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*---------------
+* Easter Sermons: NO Study Guide
+*---------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*----------------------------
-* Easter Sermons SELECTED Study Guides
-*----------------------------
-
-NOTE: Look for "NO SCRIPTURE" and manipulate DIRECTLY in Easter.md
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 04/09/2023
 Jesus is the cure!
@@ -21,7 +17,7 @@ luk.24
 04/04/2021
 It is Finished
 NO SCRIPTURE
-NO SCRIPTURE
+none
 
 04/12/2020
 Road to the Resurrection
