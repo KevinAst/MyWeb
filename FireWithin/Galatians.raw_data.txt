@@ -1,9 +1,25 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+*----------------------
+* 2010 Series (Sundays) WITH Study Guide
+*----------------------
 
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+02/14/2010
+The Battle Within
+Gal 4-6
+gal.4
+
+01/31/2010
+Jesus Only
+Gal 1-3
+gal.1
+
+
+*-----------------------
 * 2017 Series (Mid Week) NO Study Guide
-*------------------------
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 07/19/2017
 Teaching
@@ -28,20 +44,5 @@ gal.2
 06/21/2017
 Teaching
 Gal 1
-gal.1
-
-
-*-----------------------
-* 2010 Series (Sundays) WITH Study Guide
-*-----------------------
-
-02/14/2010
-The Battle Within
-Gal 4-6
-gal.4
-
-01/31/2010
-Jesus Only
-Gal 1-3
 gal.1
 
