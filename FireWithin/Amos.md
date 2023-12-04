@@ -76,26 +76,11 @@ M{ youTube(`73ubNEt_DB0`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20120725{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120725{{book.cst2}} Teaching                           {{book.cst3}} <br/> {{book.b1}}amo.1{{book.b2}} AMOS 1-3 {{book.b3}} </td><td> 07/25/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120801{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120801{{book.cst2}} Teaching                           {{book.cst3}} <br/> {{book.b1}}amo.4{{book.b2}} AMOS 4-6 {{book.b3}} </td><td> 08/01/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120815{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120815{{book.cst2}} Teaching                           {{book.cst3}} <br/> {{book.b1}}amo.7{{book.b2}} AMOS 7-9 {{book.b3}} </td><td> 08/15/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20191208{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20191208{{book.cst2}} Vertically True in a Crooked World {{book.cst3}} <br/> {{book.b1}}amo.1{{book.b2}} AMOS     {{book.b3}} </td><td> 12/08/2019 <br/> {{book.csg1}}20191208.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20120725{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120725{{book.cst2}} Teaching                           {{book.cst3}} </td><td> {{book.b1}}amo.1{{book.b2}} AMOS 1-3 {{book.b3}} </td><td> 07/25/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120801{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120801{{book.cst2}} Teaching                           {{book.cst3}} </td><td> {{book.b1}}amo.4{{book.b2}} AMOS 4-6 {{book.b3}} </td><td> 08/01/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120815{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120815{{book.cst2}} Teaching                           {{book.cst3}} </td><td> {{book.b1}}amo.7{{book.b2}} AMOS 7-9 {{book.b3}} </td><td> 08/15/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20191208{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20191208{{book.cst2}} Vertically True in a Crooked World {{book.cst3}} </td><td> {{book.b1}}amo.1{{book.b2}} AMOS     {{book.b3}} </td><td> 12/08/2019 </td><td> {{book.csg1}}20191208.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20120725`,                                               scripture: `amo.1@@AMOS 1-3`, studyGuide: `NONE`, },
+    { id: `20120801`,                                               scripture: `amo.4@@AMOS 4-6`, studyGuide: `NONE`, },
+    { id: `20120815`,                                               scripture: `amo.7@@AMOS 7-9`, studyGuide: `NONE`, },
+    { id: `20191208`, sermon: `Vertically True in a Crooked World`, scripture: `amo.1@@AMOS`,                         },
+  ]
+}) }M
