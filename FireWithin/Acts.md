@@ -69,173 +69,86 @@ M{ youTube(`lnCAkeBido0`) }M
 (i.e. is no longer available ), **however** the Study Guides are still
 available._
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20090419{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20090419{{book.cst2}} The Purpose and Person of the Holy Spirit {{book.cst3}} <br/> {{book.b1}}act.1{{book.b2}} Acts 1      {{book.b3}} </td><td> 04/19/2009 <br/> {{book.csg1}}20090419.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090426{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20090426{{book.cst2}} Pentecost: Then and Now                   {{book.cst3}} <br/> {{book.b1}}act.2{{book.b2}} Acts 2      {{book.b3}} </td><td> 04/26/2009 <br/> {{book.csg1}}20090426.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090503{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20090503{{book.cst2}} The Baptism of the Holy Spirit            {{book.cst3}} <br/> {{book.b1}}act.3{{book.b2}} Acts 2-3    {{book.b3}} </td><td> 05/03/2009 <br/> {{book.csg1}}20090503.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090510{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20090510{{book.cst2}} Civil Disobedience                        {{book.cst3}} <br/> {{book.b1}}act.4{{book.b2}} Acts 4-5    {{book.b3}} </td><td> 05/10/2009 <br/> {{book.csg1}}20090510.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090517{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20090517{{book.cst2}} A Martyr's Mission                        {{book.cst3}} <br/> {{book.b1}}act.6{{book.b2}} Acts 6-7    {{book.b3}} </td><td> 05/17/2009                                              </td>
-<tr><td> {{book.cb1}}20090524{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20090524{{book.cst2}} Stop Kicking                              {{book.cst3}} <br/> {{book.b1}}act.8{{book.b2}} Acts 8-9    {{book.b3}} </td><td> 05/24/2009                                              </td>
-<tr><td> {{book.cb1}}20090607{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20090607{{book.cst2}} Don't Touch That!                         {{book.cst3}} <br/> {{book.b1}}act.10{{book.b2}} Acts 10-12 {{book.b3}} </td><td> 06/07/2009                                              </td>
-<tr><td> {{book.cb1}}20090614{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20090614{{book.cst2}} Belief and Behavior                       {{book.cst3}} <br/> {{book.b1}}act.13{{book.b2}} Acts 13-15 {{book.b3}} </td><td> 06/14/2009                                              </td>
-<tr><td> {{book.cb1}}20090705{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20090705{{book.cst2}} Same Message, Different Method            {{book.cst3}} <br/> {{book.b1}}act.16{{book.b2}} Acts 16-18 {{book.b3}} </td><td> 07/05/2009                                              </td>
-<tr><td> {{book.cb1}}20090712{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20090712{{book.cst2}} Run the Race                              {{book.cst3}} <br/> {{book.b1}}act.19{{book.b2}} Acts 19-21 {{book.b3}} </td><td> 07/12/2009                                              </td>
-<tr><td> {{book.cb1}}20090726{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20090726{{book.cst2}} A Clear Conscience                        {{book.cst3}} <br/> {{book.b1}}act.22{{book.b2}} Acts 22-25 {{book.b3}} </td><td> 07/26/2009                                              </td>
-<tr><td> {{book.cb1}}20090802{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20090802{{book.cst2}} When Storms Come                          {{book.cst3}} <br/> {{book.b1}}act.26{{book.b2}} Acts 26-28 {{book.b3}} </td><td> 08/02/2009                                              </td>
-
-</table>
-</div>
-
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20090419{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20090419{{book.cst2}} The Purpose and Person of the Holy Spirit {{book.cst3}} </td><td> {{book.b1}}act.1{{book.b2}} Acts 1      {{book.b3}} </td><td> 04/19/2009 </td><td> {{book.csg1}}20090419.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090426{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20090426{{book.cst2}} Pentecost: Then and Now                   {{book.cst3}} </td><td> {{book.b1}}act.2{{book.b2}} Acts 2      {{book.b3}} </td><td> 04/26/2009 </td><td> {{book.csg1}}20090426.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090503{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20090503{{book.cst2}} The Baptism of the Holy Spirit            {{book.cst3}} </td><td> {{book.b1}}act.3{{book.b2}} Acts 2-3    {{book.b3}} </td><td> 05/03/2009 </td><td> {{book.csg1}}20090503.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090510{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20090510{{book.cst2}} Civil Disobedience                        {{book.cst3}} </td><td> {{book.b1}}act.4{{book.b2}} Acts 4-5    {{book.b3}} </td><td> 05/10/2009 </td><td> {{book.csg1}}20090510.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20090517{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20090517{{book.cst2}} A Martyr's Mission                        {{book.cst3}} </td><td> {{book.b1}}act.6{{book.b2}} Acts 6-7    {{book.b3}} </td><td> 05/17/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090524{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20090524{{book.cst2}} Stop Kicking                              {{book.cst3}} </td><td> {{book.b1}}act.8{{book.b2}} Acts 8-9    {{book.b3}} </td><td> 05/24/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090607{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20090607{{book.cst2}} Don't Touch That!                         {{book.cst3}} </td><td> {{book.b1}}act.10{{book.b2}} Acts 10-12 {{book.b3}} </td><td> 06/07/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090614{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20090614{{book.cst2}} Belief and Behavior                       {{book.cst3}} </td><td> {{book.b1}}act.13{{book.b2}} Acts 13-15 {{book.b3}} </td><td> 06/14/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090705{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20090705{{book.cst2}} Same Message, Different Method            {{book.cst3}} </td><td> {{book.b1}}act.16{{book.b2}} Acts 16-18 {{book.b3}} </td><td> 07/05/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090712{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20090712{{book.cst2}} Run the Race                              {{book.cst3}} </td><td> {{book.b1}}act.19{{book.b2}} Acts 19-21 {{book.b3}} </td><td> 07/12/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090726{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20090726{{book.cst2}} A Clear Conscience                        {{book.cst3}} </td><td> {{book.b1}}act.22{{book.b2}} Acts 22-25 {{book.b3}} </td><td> 07/26/2009 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20090802{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20090802{{book.cst2}} When Storms Come                          {{book.cst3}} </td><td> {{book.b1}}act.26{{book.b2}} Acts 26-28 {{book.b3}} </td><td> 08/02/2009 </td><td>                                        </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+  //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
+  },
+  entries: [
+    { id: `20090419`, sermon: `The Purpose and Person of the Holy Spirit`, scripture: `act.1@@Acts 1`,      },
+    { id: `20090426`, sermon: `Pentecost: Then and Now`,                   scripture: `act.2@@Acts 2`,      },
+    { id: `20090503`, sermon: `The Baptism of the Holy Spirit`,            scripture: `act.3@@Acts 2-3`,    },
+    { id: `20090510`, sermon: `Civil Disobedience`,                        scripture: `act.4@@Acts 4-5`,    },
+    { id: `20090517`, sermon: `A Martyr's Mission`,                        scripture: `act.6@@Acts 6-7`,    studyGuide: `NONE`, },
+    { id: `20090524`, sermon: `Stop Kicking`,                              scripture: `act.8@@Acts 8-9`,    studyGuide: `NONE`, },
+    { id: `20090607`, sermon: `Don't Touch That!`,                         scripture: `act.10@@Acts 10-12`, studyGuide: `NONE`, },
+    { id: `20090614`, sermon: `Belief and Behavior`,                       scripture: `act.13@@Acts 13-15`, studyGuide: `NONE`, },
+    { id: `20090705`, sermon: `Same Message, Different Method`,            scripture: `act.16@@Acts 16-18`, studyGuide: `NONE`, },
+    { id: `20090712`, sermon: `Run the Race`,                              scripture: `act.19@@Acts 19-21`, studyGuide: `NONE`, },
+    { id: `20090726`, sermon: `A Clear Conscience`,                        scripture: `act.22@@Acts 22-25`, studyGuide: `NONE`, },
+    { id: `20090802`, sermon: `When Storms Come`,                          scripture: `act.26@@Acts 26-28`, studyGuide: `NONE`, },
+  ]
+}) }M
 
 
 ## 2015-2016 Acts Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20151021{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20151021{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.1{{book.b2}}  Acts 1:1-11      {{book.b3}} </td><td> 10/21/2015 <br/> {{book.csg1}}20151021.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151028{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20151028{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.1{{book.b2}}  Acts 1:12-2:13   {{book.b3}} </td><td> 10/28/2015 <br/> {{book.csg1}}20151028.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151104{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20151104{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.2{{book.b2}}  Acts 2:1-13      {{book.b3}} </td><td> 11/04/2015 <br/> {{book.csg1}}20151104.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151118{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20151118{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.2{{book.b2}}  Acts 2:13-37     {{book.b3}} </td><td> 11/18/2015 <br/> {{book.csg1}}20151118.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151202{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20151202{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.2{{book.b2}}  Acts 2:42-3:26   {{book.b3}} </td><td> 12/02/2015 <br/> {{book.csg1}}20151202.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151209{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20151209{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.4{{book.b2}}  Acts 4           {{book.b3}} </td><td> 12/09/2015 <br/> {{book.csg1}}20151209.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151216{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20151216{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.5{{book.b2}}  Acts 5           {{book.b3}} </td><td> 12/16/2015 <br/> {{book.csg1}}20151216.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160106{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160106{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.6{{book.b2}}  Acts 6:1-15      {{book.b3}} </td><td> 01/06/2016 <br/> {{book.csg1}}20160106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160113{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160113{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.7{{book.b2}}  Acts 7           {{book.b3}} </td><td> 01/13/2016 <br/> {{book.csg1}}20160113.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160120{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160120{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.8{{book.b2}}  Acts 8           {{book.b3}} </td><td> 01/20/2016 <br/> {{book.csg1}}20160120.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160127{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160127{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.9{{book.b2}}  Acts 9           {{book.b3}} </td><td> 01/27/2016 <br/> {{book.csg1}}20160127.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160203{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160203{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.10{{book.b2}} Acts 10          {{book.b3}} </td><td> 02/03/2016 <br/> {{book.csg1}}20160203.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160210{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160210{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.11{{book.b2}} Acts 11-12:19    {{book.b3}} </td><td> 02/10/2016 <br/> {{book.csg1}}20160210.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160217{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160217{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.12{{book.b2}} Acts 12:19-13:41 {{book.b3}} </td><td> 02/17/2016 <br/> {{book.csg1}}20160217.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160224{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20160224{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.13{{book.b2}} Acts 13:42-14    {{book.b3}} </td><td> 02/24/2016                                              </td>
-<tr><td> {{book.cb1}}20160302{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20160302{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.15{{book.b2}} Acts 15:1-29     {{book.b3}} </td><td> 03/02/2016 <br/> {{book.csg1}}20160302.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160309{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20160309{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.16{{book.b2}} Acts 15:30-16:40 {{book.b3}} </td><td> 03/09/2016 <br/> {{book.csg1}}20160309.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160316{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20160316{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.17{{book.b2}} Acts 17:1-34     {{book.b3}} </td><td> 03/16/2016 <br/> {{book.csg1}}20160316.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160330{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20160330{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.18{{book.b2}} Acts 18          {{book.b3}} </td><td> 03/30/2016 <br/> {{book.csg1}}20160330.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160406{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20160406{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.19{{book.b2}} Acts 19:1-22     {{book.b3}} </td><td> 04/06/2016 <br/> {{book.csg1}}20160406.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160413{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20160413{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.20{{book.b2}} Acts 19:23-20:38 {{book.b3}} </td><td> 04/13/2016 <br/> {{book.csg1}}20160413.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160420{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20160420{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.21{{book.b2}} Acts 21-22:29    {{book.b3}} </td><td> 04/20/2016 <br/> {{book.csg1}}20160420.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160427{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20160427{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.23{{book.b2}} Acts 23-24       {{book.b3}} </td><td> 04/27/2016 <br/> {{book.csg1}}20160427.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160504{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20160504{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.25{{book.b2}} Acts 25-26       {{book.b3}} </td><td> 05/04/2016 <br/> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160511{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20160511{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}act.27{{book.b2}} Acts 27-28       {{book.b3}} </td><td> 05/11/2016 <br/> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20151021{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20151021{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.1{{book.b2}}  Acts 1:1-11      {{book.b3}} </td><td> 10/21/2015 </td><td> {{book.csg1}}20151021.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151028{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20151028{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.1{{book.b2}}  Acts 1:12-2:13   {{book.b3}} </td><td> 10/28/2015 </td><td> {{book.csg1}}20151028.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151104{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20151104{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.2{{book.b2}}  Acts 2:1-13      {{book.b3}} </td><td> 11/04/2015 </td><td> {{book.csg1}}20151104.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151118{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20151118{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.2{{book.b2}}  Acts 2:13-37     {{book.b3}} </td><td> 11/18/2015 </td><td> {{book.csg1}}20151118.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151202{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20151202{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.2{{book.b2}}  Acts 2:42-3:26   {{book.b3}} </td><td> 12/02/2015 </td><td> {{book.csg1}}20151202.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151209{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20151209{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.4{{book.b2}}  Acts 4           {{book.b3}} </td><td> 12/09/2015 </td><td> {{book.csg1}}20151209.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20151216{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20151216{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.5{{book.b2}}  Acts 5           {{book.b3}} </td><td> 12/16/2015 </td><td> {{book.csg1}}20151216.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160106{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20160106{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.6{{book.b2}}  Acts 6:1-15      {{book.b3}} </td><td> 01/06/2016 </td><td> {{book.csg1}}20160106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160113{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20160113{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.7{{book.b2}}  Acts 7           {{book.b3}} </td><td> 01/13/2016 </td><td> {{book.csg1}}20160113.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160120{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20160120{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.8{{book.b2}}  Acts 8           {{book.b3}} </td><td> 01/20/2016 </td><td> {{book.csg1}}20160120.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160127{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20160127{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.9{{book.b2}}  Acts 9           {{book.b3}} </td><td> 01/27/2016 </td><td> {{book.csg1}}20160127.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160203{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20160203{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.10{{book.b2}} Acts 10          {{book.b3}} </td><td> 02/03/2016 </td><td> {{book.csg1}}20160203.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160210{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20160210{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.11{{book.b2}} Acts 11-12:19    {{book.b3}} </td><td> 02/10/2016 </td><td> {{book.csg1}}20160210.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160217{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20160217{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.12{{book.b2}} Acts 12:19-13:41 {{book.b3}} </td><td> 02/17/2016 </td><td> {{book.csg1}}20160217.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160224{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20160224{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.13{{book.b2}} Acts 13:42-14    {{book.b3}} </td><td> 02/24/2016 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20160302{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20160302{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.15{{book.b2}} Acts 15:1-29     {{book.b3}} </td><td> 03/02/2016 </td><td> {{book.csg1}}20160302.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160309{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20160309{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.16{{book.b2}} Acts 15:30-16:40 {{book.b3}} </td><td> 03/09/2016 </td><td> {{book.csg1}}20160309.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160316{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20160316{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.17{{book.b2}} Acts 17:1-34     {{book.b3}} </td><td> 03/16/2016 </td><td> {{book.csg1}}20160316.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160330{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20160330{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.18{{book.b2}} Acts 18          {{book.b3}} </td><td> 03/30/2016 </td><td> {{book.csg1}}20160330.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160406{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20160406{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.19{{book.b2}} Acts 19:1-22     {{book.b3}} </td><td> 04/06/2016 </td><td> {{book.csg1}}20160406.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160413{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20160413{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.20{{book.b2}} Acts 19:23-20:38 {{book.b3}} </td><td> 04/13/2016 </td><td> {{book.csg1}}20160413.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160420{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20160420{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.21{{book.b2}} Acts 21-22:29    {{book.b3}} </td><td> 04/20/2016 </td><td> {{book.csg1}}20160420.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160427{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20160427{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.23{{book.b2}} Acts 23-24       {{book.b3}} </td><td> 04/27/2016 </td><td> {{book.csg1}}20160427.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160504{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20160504{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.25{{book.b2}} Acts 25-26       {{book.b3}} </td><td> 05/04/2016 </td><td> {{book.csg1}}20160504.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20160511{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20160511{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}act.27{{book.b2}} Acts 27-28       {{book.b3}} </td><td> 05/11/2016 </td><td> {{book.csg1}}20160511.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20151021`, scripture: `act.1@@Acts 1:1-11`,       },
+    { id: `20151028`, scripture: `act.1@@Acts 1:12-2:13`,    },
+    { id: `20151104`, scripture: `act.2@@Acts 2:1-13`,       },
+    { id: `20151118`, scripture: `act.2@@Acts 2:13-37`,      },
+    { id: `20151202`, scripture: `act.2@@Acts 2:42-3:26`,    },
+    { id: `20151209`, scripture: `act.4@@Acts 4`,            },
+    { id: `20151216`, scripture: `act.5@@Acts 5`,            },
+    { id: `20160106`, scripture: `act.6@@Acts 6:1-15`,       },
+    { id: `20160113`, scripture: `act.7@@Acts 7`,            },
+    { id: `20160120`, scripture: `act.8@@Acts 8`,            },
+    { id: `20160127`, scripture: `act.9@@Acts 9`,            },
+    { id: `20160203`, scripture: `act.10@@Acts 10`,          },
+    { id: `20160210`, scripture: `act.11@@Acts 11-12:19`,    },
+    { id: `20160217`, scripture: `act.12@@Acts 12:19-13:41`, },
+    { id: `20160224`, scripture: `act.13@@Acts 13:42-14`,    studyGuide: `NONE`, },
+    { id: `20160302`, scripture: `act.15@@Acts 15:1-29`,     },
+    { id: `20160309`, scripture: `act.16@@Acts 15:30-16:40`, },
+    { id: `20160316`, scripture: `act.17@@Acts 17:1-34`,     },
+    { id: `20160330`, scripture: `act.18@@Acts 18`,          },
+    { id: `20160406`, scripture: `act.19@@Acts 19:1-22`,     },
+    { id: `20160413`, scripture: `act.20@@Acts 19:23-20:38`, },
+    { id: `20160420`, scripture: `act.21@@Acts 21-22:29`,    },
+    { id: `20160427`, scripture: `act.23@@Acts 23-24`,       },
+    { id: `20160504`, scripture: `act.25@@Acts 25-26`,       },
+    { id: `20160511`, scripture: `act.27@@Acts 27-28`,       },
+  ]
+}) }M
 
 
 ## 2023 Acts Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20230129{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20230129{{book.cst2}}                           The Power of the Holy Spirit                                   {{book.cst3}} <br/> {{book.b1}}act.1 {{book.b2}} Acts 1:1-11   {{book.b3}} </td><td> 01/29/2023 <br/> {{book.csg1}}20230129.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230205{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20230205{{book.cst2}}                           The Day of Pentecost                                           {{book.cst3}} <br/> {{book.b1}}act.2 {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/05/2023 <br/> {{book.csg1}}20230205.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230212{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20230212{{book.cst2}}                           The Gift of Tongues                                            {{book.cst3}} <br/> {{book.b1}}act.2 {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/12/2023 <br/> {{book.csg1}}20230212.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230219{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20230219{{book.cst2}}                           Four Foundations of the Church                                 {{book.cst3}} <br/> {{book.b1}}act.2 {{book.b2}} Acts 2:42     {{book.b3}} </td><td> 02/19/2023 <br/> {{book.csg1}}20230219.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230226{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20230226{{book.cst2}}                           When It’s OK to Disobey                                        {{book.cst3}} <br/> {{book.b1}}act.3 {{book.b2}} Acts 3-4      {{book.b3}} </td><td> 02/26/2023 <br/> {{book.csg1}}20230226.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230305{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}israel-teaching-from-the-holy-land{{book.cst2}} Israel Teaching from the Holy Land                             {{book.cst3}} <br/> {{book.b1}}act.24{{book.b2}} Acts 24       {{book.b3}} </td><td> 03/05/2023 <br/> {{book.csg1}}20230305.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230319{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20230319{{book.cst2}}                           Lessons from the Early Church                                  {{book.cst3}} <br/> {{book.b1}}act.4 {{book.b2}} Acts 4-5      {{book.b3}} </td><td> 03/19/2023 <br/> {{book.csg1}}20230319.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230326{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20230326{{book.cst2}}                           A Martyr’s Example                                             {{book.cst3}} <br/> {{book.b1}}act.6 {{book.b2}} Acts 6-7      {{book.b3}} </td><td> 03/26/2023 <br/> {{book.csg1}}20230326.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230416{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20230416{{book.cst2}}                           From Bitter to Better                                          {{book.cst3}} <br/> {{book.b1}}act.8 {{book.b2}} Acts 8        {{book.b3}} </td><td> 04/16/2023 <br/> {{book.csg1}}20230416.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230423{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20230423{{book.cst2}}                           A Transformed Life                                             {{book.cst3}} <br/> {{book.b1}}act.9 {{book.b2}} Acts 9        {{book.b3}} </td><td> 04/23/2023 <br/> {{book.csg1}}20230423.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230430{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20230430{{book.cst2}}                           Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)  {{book.cst3}} <br/> {{book.b1}}act.8 {{book.b2}} Acts 8-19     {{book.b3}} </td><td> 04/30/2023 <br/> {{book.csg1}}20230430.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230514{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20230514{{book.cst2}}                           Lessons from a Jew and a Gentile                               {{book.cst3}} <br/> {{book.b1}}act.10{{book.b2}} Acts 10       {{book.b3}} </td><td> 05/14/2023 <br/> {{book.csg1}}20230514.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230528{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20230528{{book.cst2}}                           That’s Not Fair!                                               {{book.cst3}} <br/> {{book.b1}}act.12{{book.b2}} Acts 12       {{book.b3}} </td><td> 05/28/2023 <br/> {{book.csg1}}20230528.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230611{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20230611{{book.cst2}}                           Embrace God’s Grace                                            {{book.cst3}} <br/> {{book.b1}}act.13{{book.b2}} Acts 13       {{book.b3}} </td><td> 06/11/2023 <br/> {{book.csg1}}20230611.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230618{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20230618{{book.cst2}}                           What Tough Times Teach Us                                      {{book.cst3}} <br/> {{book.b1}}act.14{{book.b2}} Acts 14       {{book.b3}} </td><td> 06/18/2023 <br/> {{book.csg1}}20230618.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230625{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20230625{{book.cst2}}                           Sing in the Darkness                                           {{book.cst3}} <br/> {{book.b1}}act.15{{book.b2}} Acts 15-16    {{book.b3}} </td><td> 06/25/2023 <br/> {{book.csg1}}20230625.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230709{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20230709{{book.cst2}}                           Taking Jesus to the Marketplace                                {{book.cst3}} <br/> {{book.b1}}act.17{{book.b2}} Acts 17       {{book.b3}} </td><td> 07/09/2023 <br/> {{book.csg1}}20230709.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230716{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20230716{{book.cst2}}                           Revival or Revolt?                                             {{book.cst3}} <br/> {{book.b1}}act.19{{book.b2}} Acts 19       {{book.b3}} </td><td> 07/16/2023 <br/> {{book.csg1}}20230716.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230820{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20230820{{book.cst2}}                           Running the Race                                               {{book.cst3}} <br/> {{book.b1}}act.20{{book.b2}} Acts 20:17-24 {{book.b3}} </td><td> 08/20/2023 <br/>                                        </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20230129{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20230129{{book.cst2}}                           The Power of the Holy Spirit                                   {{book.cst3}} </td><td> {{book.b1}}act.1 {{book.b2}} Acts 1:1-11   {{book.b3}} </td><td> 01/29/2023 </td><td> {{book.csg1}}20230129.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230205{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20230205{{book.cst2}}                           The Day of Pentecost                                           {{book.cst3}} </td><td> {{book.b1}}act.2 {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/05/2023 </td><td> {{book.csg1}}20230205.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230212{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20230212{{book.cst2}}                           The Gift of Tongues                                            {{book.cst3}} </td><td> {{book.b1}}act.2 {{book.b2}} Acts 2        {{book.b3}} </td><td> 02/12/2023 </td><td> {{book.csg1}}20230212.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230219{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20230219{{book.cst2}}                           Four Foundations of the Church                                 {{book.cst3}} </td><td> {{book.b1}}act.2 {{book.b2}} Acts 2:42     {{book.b3}} </td><td> 02/19/2023 </td><td> {{book.csg1}}20230219.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230226{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20230226{{book.cst2}}                           When It’s OK to Disobey                                        {{book.cst3}} </td><td> {{book.b1}}act.3 {{book.b2}} Acts 3-4      {{book.b3}} </td><td> 02/26/2023 </td><td> {{book.csg1}}20230226.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230305{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}israel-teaching-from-the-holy-land{{book.cst2}} Israel Teaching from the Holy Land                             {{book.cst3}} </td><td> {{book.b1}}act.24{{book.b2}} Acts 24       {{book.b3}} </td><td> 03/05/2023 </td><td> {{book.csg1}}20230305.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230319{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20230319{{book.cst2}}                           Lessons from the Early Church                                  {{book.cst3}} </td><td> {{book.b1}}act.4 {{book.b2}} Acts 4-5      {{book.b3}} </td><td> 03/19/2023 </td><td> {{book.csg1}}20230319.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230326{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20230326{{book.cst2}}                           A Martyr’s Example                                             {{book.cst3}} </td><td> {{book.b1}}act.6 {{book.b2}} Acts 6-7      {{book.b3}} </td><td> 03/26/2023 </td><td> {{book.csg1}}20230326.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230416{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20230416{{book.cst2}}                           From Bitter to Better                                          {{book.cst3}} </td><td> {{book.b1}}act.8 {{book.b2}} Acts 8        {{book.b3}} </td><td> 04/16/2023 </td><td> {{book.csg1}}20230416.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230423{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20230423{{book.cst2}}                           A Transformed Life                                             {{book.cst3}} </td><td> {{book.b1}}act.9 {{book.b2}} Acts 9        {{book.b3}} </td><td> 04/23/2023 </td><td> {{book.csg1}}20230423.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230430{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20230430{{book.cst2}}                           Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)  {{book.cst3}} </td><td> {{book.b1}}act.8 {{book.b2}} Acts 8-19     {{book.b3}} </td><td> 04/30/2023 </td><td> {{book.csg1}}20230430.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230514{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20230514{{book.cst2}}                           Lessons from a Jew and a Gentile                               {{book.cst3}} </td><td> {{book.b1}}act.10{{book.b2}} Acts 10       {{book.b3}} </td><td> 05/14/2023 </td><td> {{book.csg1}}20230514.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230528{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20230528{{book.cst2}}                           That’s Not Fair!                                               {{book.cst3}} </td><td> {{book.b1}}act.12{{book.b2}} Acts 12       {{book.b3}} </td><td> 05/28/2023 </td><td> {{book.csg1}}20230528.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230611{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20230611{{book.cst2}}                           Embrace God’s Grace                                            {{book.cst3}} </td><td> {{book.b1}}act.13{{book.b2}} Acts 13       {{book.b3}} </td><td> 06/11/2023 </td><td> {{book.csg1}}20230611.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230618{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20230618{{book.cst2}}                           What Tough Times Teach Us                                      {{book.cst3}} </td><td> {{book.b1}}act.14{{book.b2}} Acts 14       {{book.b3}} </td><td> 06/18/2023 </td><td> {{book.csg1}}20230618.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230625{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20230625{{book.cst2}}                           Sing in the Darkness                                           {{book.cst3}} </td><td> {{book.b1}}act.15{{book.b2}} Acts 15-16    {{book.b3}} </td><td> 06/25/2023 </td><td> {{book.csg1}}20230625.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230709{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20230709{{book.cst2}}                           Taking Jesus to the Marketplace                                {{book.cst3}} </td><td> {{book.b1}}act.17{{book.b2}} Acts 17       {{book.b3}} </td><td> 07/09/2023 </td><td> {{book.csg1}}20230709.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230716{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20230716{{book.cst2}}                           Revival or Revolt?                                             {{book.cst3}} </td><td> {{book.b1}}act.19{{book.b2}} Acts 19       {{book.b3}} </td><td> 07/16/2023 </td><td> {{book.csg1}}20230716.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20230820{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20230820{{book.cst2}}                           Running the Race                                               {{book.cst3}} </td><td> {{book.b1}}act.20{{book.b2}} Acts 20:17-24 {{book.b3}} </td><td> 08/20/2023 </td><td>                                        </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
+    { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,         },
+    { id: `20230212`, sermon: `The Gift of Tongues`,                                           scripture: `act.2@@Acts 2`,         },
+    { id: `20230219`, sermon: `Four Foundations of the Church`,                                scripture: `act.2@@Acts 2:42`,      },
+    { id: `20230226`, sermon: `When It’s OK to Disobey`,                                       scripture: `act.3@@Acts 3-4`,       },
+    { id: `20230305`,                                                                          scripture: `act.24@@Acts 24`, sermon: `https://cornerstonechapel.net/teaching/israel-teaching-from-the-holy-land/@@Israel Teaching from the Holy Land`, }, // id is NON-STANDARD for the sermon only
+    { id: `20230319`, sermon: `Lessons from the Early Church`,                                 scripture: `act.4@@Acts 4-5`,       },
+    { id: `20230326`, sermon: `A Martyr’s Example`,                                            scripture: `act.6@@Acts 6-7`,       },
+    { id: `20230416`, sermon: `From Bitter to Better`,                                         scripture: `act.8@@Acts 8`,         },
+    { id: `20230423`, sermon: `A Transformed Life`,                                            scripture: `act.9@@Acts 9`,         },
+    { id: `20230430`, sermon: `Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)`, scripture: `act.8@@Acts 8-19`,      },
+    { id: `20230514`, sermon: `Lessons from a Jew and a Gentile`,                              scripture: `act.10@@Acts 10`,       },
+    { id: `20230528`, sermon: `That’s Not Fair!`,                                              scripture: `act.12@@Acts 12`,       },
+    { id: `20230611`, sermon: `Embrace God’s Grace`,                                           scripture: `act.13@@Acts 13`,       },
+    { id: `20230618`, sermon: `What Tough Times Teach Us`,                                     scripture: `act.14@@Acts 14`,       },
+    { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,    },
+    { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
+    { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
+    { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
+  ]
+}) }M
