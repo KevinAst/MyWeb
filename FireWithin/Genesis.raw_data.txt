@@ -1,10 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
+*----------------------
 * 2011 Series (Sundays) WITH Study Guide
-*------------------------
+*----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 06/03/2012
 Forgive and Be Forgiven
@@ -153,9 +151,11 @@ gen.1
 
 
 
-*------------------------
+*-----------------------
 * 2010 Series (Mid Week) NO Study Guide
-*------------------------
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/18/2012
 Teaching

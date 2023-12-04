@@ -64,181 +64,91 @@ M{ youTube(`zIJBhEAIzj4`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20110911{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20110911{{book.cst2}} Introduction To Genesis            {{book.cst3}} <br/> {{book.b1}}gen.1{{book.b2}} Gen 1-50      {{book.b3}} </td><td> 09/11/2011 <br/> {{book.csg1}}20110911.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20110918{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20110918{{book.cst2}} Creation Sensation                 {{book.cst3}} <br/> {{book.b1}}gen.1{{book.b2}} Gen 1         {{book.b3}} </td><td> 09/18/2011 <br/> {{book.csg1}}20110918.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20110925{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20110925{{book.cst2}} Adam, Meet Madam                   {{book.cst3}} <br/> {{book.b1}}gen.2{{book.b2}} Gen 2         {{book.b3}} </td><td> 09/25/2011 <br/> {{book.csg1}}20110925.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111009{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20111009{{book.cst2}} Satan's Subtle Seduction           {{book.cst3}} <br/> {{book.b1}}gen.3{{book.b2}} Gen 3:1-5     {{book.b3}} </td><td> 10/09/2011 <br/> {{book.csg1}}20111009.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111016{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20111016{{book.cst2}} Don't Eat That!                    {{book.cst3}} <br/> {{book.b1}}gen.3{{book.b2}} Gen 3:6-13    {{book.b3}} </td><td> 10/16/2011 <br/> {{book.csg1}}20111016.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111023{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20111023{{book.cst2}} Reverse the Curse                  {{book.cst3}} <br/> {{book.b1}}gen.3{{book.b2}} Gen 3:14-20   {{book.b3}} </td><td> 10/23/2011 <br/> {{book.csg1}}20111023.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111030{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20111030{{book.cst2}} Rejecting Cain                     {{book.cst3}} <br/> {{book.b1}}gen.3{{book.b2}} Gen 3:21-4:7  {{book.b3}} </td><td> 10/30/2011 <br/> {{book.csg1}}20111030.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111106{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20111106{{book.cst2}} Envy Kills                         {{book.cst3}} <br/> {{book.b1}}gen.4{{book.b2}} Gen 4:8-16    {{book.b3}} </td><td> 11/06/2011 <br/> {{book.csg1}}20111106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111204{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20111204{{book.cst2}} Lessons From The Flood             {{book.cst3}} <br/> {{book.b1}}gen.5{{book.b2}} Gen 5-9       {{book.b3}} </td><td> 12/04/2011 <br/> {{book.csg1}}20111204.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111211{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20111211{{book.cst2}} What's the Babble at Babel About?  {{book.cst3}} <br/> {{book.b1}}gen.10{{book.b2}} Gen 10-11    {{book.b3}} </td><td> 12/11/2011 <br/> {{book.csg1}}20111211.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120108{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20120108{{book.cst2}} A Calling and a Blessing           {{book.cst3}} <br/> {{book.b1}}gen.12{{book.b2}} Gen 12-13    {{book.b3}} </td><td> 01/08/2012 <br/> {{book.csg1}}20120108.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120122{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20120122{{book.cst2}} God is a Covenant God              {{book.cst3}} <br/> {{book.b1}}gen.14{{book.b2}} Gen 14-15    {{book.b3}} </td><td> 01/22/2012 <br/> {{book.csg1}}20120122.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120129{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20120129{{book.cst2}} Learning to Wait                   {{book.cst3}} <br/> {{book.b1}}gen.16{{book.b2}} Gen 16-17    {{book.b3}} </td><td> 01/29/2012 <br/> {{book.csg1}}20120129.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120205{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20120205{{book.cst2}} The Cost of Compromise             {{book.cst3}} <br/> {{book.b1}}gen.18{{book.b2}} Gen 18-19    {{book.b3}} </td><td> 02/05/2012 <br/> {{book.csg1}}20120205.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120212{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20120212{{book.cst2}} A Sacrifice of Love                {{book.cst3}} <br/> {{book.b1}}gen.20{{book.b2}} Gen 20-22    {{book.b3}} </td><td> 02/12/2012 <br/> {{book.csg1}}20120212.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120219{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20120219{{book.cst2}} A Wedding Story                    {{book.cst3}} <br/> {{book.b1}}gen.23{{book.b2}} Gen 23-24    {{book.b3}} </td><td> 02/19/2012 <br/> {{book.csg1}}20120219.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120226{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20120226{{book.cst2}} Jacob And Esau: Double Trouble     {{book.cst3}} <br/> {{book.b1}}gen.25{{book.b2}} Gen 25-26    {{book.b3}} </td><td> 02/26/2012 <br/> {{book.csg1}}20120226.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120304{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20120304{{book.cst2}} A Web of Deception                 {{book.cst3}} <br/> {{book.b1}}gen.27{{book.b2}} Gen 27:1-40  {{book.b3}} </td><td> 03/04/2012 <br/> {{book.csg1}}20120304.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120311{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20120311{{book.cst2}} In The Grip Of A Grudge            {{book.cst3}} <br/> {{book.b1}}gen.27{{book.b2}} Gen 27:41-46 {{book.b3}} </td><td> 03/11/2012 <br/> {{book.csg1}}20120311.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120318{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20120318{{book.cst2}} Lessons From A Ladder              {{book.cst3}} <br/> {{book.b1}}gen.28{{book.b2}} Gen 28       {{book.b3}} </td><td> 03/18/2012 <br/> {{book.csg1}}20120318.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120325{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20120325{{book.cst2}} For the Love of Leah               {{book.cst3}} <br/> {{book.b1}}gen.29{{book.b2}} Gen 29       {{book.b3}} </td><td> 03/25/2012 <br/> {{book.csg1}}20120325.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120401{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20120401{{book.cst2}} Wrestling with God                 {{book.cst3}} <br/> {{book.b1}}gen.30{{book.b2}} Gen 30-32    {{book.b3}} </td><td> 04/01/2012 <br/> {{book.csg1}}20120401.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120422{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20120422{{book.cst2}} Burying the Past                   {{book.cst3}} <br/> {{book.b1}}gen.33{{book.b2}} Gen 33-35    {{book.b3}} </td><td> 04/22/2012 <br/> {{book.csg1}}20120422.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120429{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20120429{{book.cst2}} The Providence of God              {{book.cst3}} <br/> {{book.b1}}gen.36{{book.b2}} Gen 36-38    {{book.b3}} </td><td> 04/29/2012 <br/> {{book.csg1}}20120429.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120506{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20120506{{book.cst2}} Understanding Temptation           {{book.cst3}} <br/> {{book.b1}}gen.39{{book.b2}} Gen 39       {{book.b3}} </td><td> 05/06/2012 <br/> {{book.csg1}}20120506.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120513{{book.cb2}} 26. {{book.cb3}} </td><td> {{book.cst1}}20120513{{book.cst2}} Fighting Temptation                {{book.cst3}} <br/> {{book.b1}}gen.39{{book.b2}} Gen 39       {{book.b3}} </td><td> 05/13/2012 <br/> {{book.csg1}}20120513.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120520{{book.cb2}} 27. {{book.cb3}} </td><td> {{book.cst1}}20120520{{book.cst2}} In Your Dreams                     {{book.cst3}} <br/> {{book.b1}}gen.40{{book.b2}} Gen 40-41    {{book.b3}} </td><td> 05/20/2012 <br/> {{book.csg1}}20120520.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120603{{book.cb2}} 28. {{book.cb3}} </td><td> {{book.cst1}}20120603{{book.cst2}} Forgive and Be Forgiven            {{book.cst3}} <br/> {{book.b1}}gen.42{{book.b2}} Gen 42-45    {{book.b3}} </td><td> 06/30/2012 <br/> {{book.csg1}}20120603.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120610{{book.cb2}} 29. {{book.cb3}} </td><td> {{book.cst1}}20120610{{book.cst2}} The Legacy We Leave                {{book.cst3}} <br/> {{book.b1}}gen.46{{book.b2}} Gen 46-50    {{book.b3}} </td><td> 06/10/2012 <br/> {{book.csg1}}20120610.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20110911{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20110911{{book.cst2}} Introduction To Genesis            {{book.cst3}} </td><td> {{book.b1}}gen.1{{book.b2}} Gen 1-50      {{book.b3}} </td><td> 09/11/2011 </td><td> {{book.csg1}}20110911.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20110918{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20110918{{book.cst2}} Creation Sensation                 {{book.cst3}} </td><td> {{book.b1}}gen.1{{book.b2}} Gen 1         {{book.b3}} </td><td> 09/18/2011 </td><td> {{book.csg1}}20110918.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20110925{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20110925{{book.cst2}} Adam, Meet Madam                   {{book.cst3}} </td><td> {{book.b1}}gen.2{{book.b2}} Gen 2         {{book.b3}} </td><td> 09/25/2011 </td><td> {{book.csg1}}20110925.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111009{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20111009{{book.cst2}} Satan's Subtle Seduction           {{book.cst3}} </td><td> {{book.b1}}gen.3{{book.b2}} Gen 3:1-5     {{book.b3}} </td><td> 10/09/2011 </td><td> {{book.csg1}}20111009.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111016{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20111016{{book.cst2}} Don't Eat That!                    {{book.cst3}} </td><td> {{book.b1}}gen.3{{book.b2}} Gen 3:6-13    {{book.b3}} </td><td> 10/16/2011 </td><td> {{book.csg1}}20111016.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111023{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20111023{{book.cst2}} Reverse the Curse                  {{book.cst3}} </td><td> {{book.b1}}gen.3{{book.b2}} Gen 3:14-20   {{book.b3}} </td><td> 10/23/2011 </td><td> {{book.csg1}}20111023.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111030{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20111030{{book.cst2}} Rejecting Cain                     {{book.cst3}} </td><td> {{book.b1}}gen.3{{book.b2}} Gen 3:21-4:7  {{book.b3}} </td><td> 10/30/2011 </td><td> {{book.csg1}}20111030.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111106{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20111106{{book.cst2}} Envy Kills                         {{book.cst3}} </td><td> {{book.b1}}gen.4{{book.b2}} Gen 4:8-16    {{book.b3}} </td><td> 11/06/2011 </td><td> {{book.csg1}}20111106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111204{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20111204{{book.cst2}} Lessons From The Flood             {{book.cst3}} </td><td> {{book.b1}}gen.5{{book.b2}} Gen 5-9       {{book.b3}} </td><td> 12/04/2011 </td><td> {{book.csg1}}20111204.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20111211{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20111211{{book.cst2}} What's the Babble at Babel About?  {{book.cst3}} </td><td> {{book.b1}}gen.10{{book.b2}} Gen 10-11    {{book.b3}} </td><td> 12/11/2011 </td><td> {{book.csg1}}20111211.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120108{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20120108{{book.cst2}} A Calling and a Blessing           {{book.cst3}} </td><td> {{book.b1}}gen.12{{book.b2}} Gen 12-13    {{book.b3}} </td><td> 01/08/2012 </td><td> {{book.csg1}}20120108.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120122{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20120122{{book.cst2}} God is a Covenant God              {{book.cst3}} </td><td> {{book.b1}}gen.14{{book.b2}} Gen 14-15    {{book.b3}} </td><td> 01/22/2012 </td><td> {{book.csg1}}20120122.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120129{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20120129{{book.cst2}} Learning to Wait                   {{book.cst3}} </td><td> {{book.b1}}gen.16{{book.b2}} Gen 16-17    {{book.b3}} </td><td> 01/29/2012 </td><td> {{book.csg1}}20120129.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120205{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20120205{{book.cst2}} The Cost of Compromise             {{book.cst3}} </td><td> {{book.b1}}gen.18{{book.b2}} Gen 18-19    {{book.b3}} </td><td> 02/05/2012 </td><td> {{book.csg1}}20120205.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120212{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20120212{{book.cst2}} A Sacrifice of Love                {{book.cst3}} </td><td> {{book.b1}}gen.20{{book.b2}} Gen 20-22    {{book.b3}} </td><td> 02/12/2012 </td><td> {{book.csg1}}20120212.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120219{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20120219{{book.cst2}} A Wedding Story                    {{book.cst3}} </td><td> {{book.b1}}gen.23{{book.b2}} Gen 23-24    {{book.b3}} </td><td> 02/19/2012 </td><td> {{book.csg1}}20120219.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120226{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20120226{{book.cst2}} Jacob And Esau: Double Trouble     {{book.cst3}} </td><td> {{book.b1}}gen.25{{book.b2}} Gen 25-26    {{book.b3}} </td><td> 02/26/2012 </td><td> {{book.csg1}}20120226.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120304{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20120304{{book.cst2}} A Web of Deception                 {{book.cst3}} </td><td> {{book.b1}}gen.27{{book.b2}} Gen 27:1-40  {{book.b3}} </td><td> 03/04/2012 </td><td> {{book.csg1}}20120304.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120311{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20120311{{book.cst2}} In The Grip Of A Grudge            {{book.cst3}} </td><td> {{book.b1}}gen.27{{book.b2}} Gen 27:41-46 {{book.b3}} </td><td> 03/11/2012 </td><td> {{book.csg1}}20120311.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120318{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20120318{{book.cst2}} Lessons From A Ladder              {{book.cst3}} </td><td> {{book.b1}}gen.28{{book.b2}} Gen 28       {{book.b3}} </td><td> 03/18/2012 </td><td> {{book.csg1}}20120318.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120325{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20120325{{book.cst2}} For the Love of Leah               {{book.cst3}} </td><td> {{book.b1}}gen.29{{book.b2}} Gen 29       {{book.b3}} </td><td> 03/25/2012 </td><td> {{book.csg1}}20120325.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120401{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20120401{{book.cst2}} Wrestling with God                 {{book.cst3}} </td><td> {{book.b1}}gen.30{{book.b2}} Gen 30-32    {{book.b3}} </td><td> 04/01/2012 </td><td> {{book.csg1}}20120401.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120422{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20120422{{book.cst2}} Burying the Past                   {{book.cst3}} </td><td> {{book.b1}}gen.33{{book.b2}} Gen 33-35    {{book.b3}} </td><td> 04/22/2012 </td><td> {{book.csg1}}20120422.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120429{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20120429{{book.cst2}} The Providence of God              {{book.cst3}} </td><td> {{book.b1}}gen.36{{book.b2}} Gen 36-38    {{book.b3}} </td><td> 04/29/2012 </td><td> {{book.csg1}}20120429.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120506{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20120506{{book.cst2}} Understanding Temptation           {{book.cst3}} </td><td> {{book.b1}}gen.39{{book.b2}} Gen 39       {{book.b3}} </td><td> 05/06/2012 </td><td> {{book.csg1}}20120506.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120513{{book.cb2}} 26. {{book.cb3}} </td><td> {{book.cst1}}20120513{{book.cst2}} Fighting Temptation                {{book.cst3}} </td><td> {{book.b1}}gen.39{{book.b2}} Gen 39       {{book.b3}} </td><td> 05/13/2012 </td><td> {{book.csg1}}20120513.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120520{{book.cb2}} 27. {{book.cb3}} </td><td> {{book.cst1}}20120520{{book.cst2}} In Your Dreams                     {{book.cst3}} </td><td> {{book.b1}}gen.40{{book.b2}} Gen 40-41    {{book.b3}} </td><td> 05/20/2012 </td><td> {{book.csg1}}20120520.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120603{{book.cb2}} 28. {{book.cb3}} </td><td> {{book.cst1}}20120603{{book.cst2}} Forgive and Be Forgiven            {{book.cst3}} </td><td> {{book.b1}}gen.42{{book.b2}} Gen 42-45    {{book.b3}} </td><td> 06/30/2012 </td><td> {{book.csg1}}20120603.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20120610{{book.cb2}} 29. {{book.cb3}} </td><td> {{book.cst1}}20120610{{book.cst2}} The Legacy We Leave                {{book.cst3}} </td><td> {{book.b1}}gen.46{{book.b2}} Gen 46-50    {{book.b3}} </td><td> 06/10/2012 </td><td> {{book.csg1}}20120610.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
+    { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },
+    { id: `20110925`, sermon: `Adam, Meet Madam`,                  scripture: `gen.2@@Gen 2`,         },
+    { id: `20111009`, sermon: `Satan's Subtle Seduction`,          scripture: `gen.3@@Gen 3:1-5`,     },
+    { id: `20111016`, sermon: `Don't Eat That!`,                   scripture: `gen.3@@Gen 3:6-13`,    },
+    { id: `20111023`, sermon: `Reverse the Curse`,                 scripture: `gen.3@@Gen 3:14-20`,   },
+    { id: `20111030`, sermon: `Rejecting Cain`,                    scripture: `gen.3@@Gen 3:21-4:7`,  },
+    { id: `20111106`, sermon: `Envy Kills`,                        scripture: `gen.4@@Gen 4:8-16`,    },
+    { id: `20111204`, sermon: `Lessons From The Flood`,            scripture: `gen.5@@Gen 5-9`,       },
+    { id: `20111211`, sermon: `What's the Babble at Babel About?`, scripture: `gen.10@@Gen 10-11`,    },
+    { id: `20120108`, sermon: `A Calling and a Blessing`,          scripture: `gen.12@@Gen 12-13`,    },
+    { id: `20120122`, sermon: `God is a Covenant God`,             scripture: `gen.14@@Gen 14-15`,    },
+    { id: `20120129`, sermon: `Learning to Wait`,                  scripture: `gen.16@@Gen 16-17`,    },
+    { id: `20120205`, sermon: `The Cost of Compromise`,            scripture: `gen.18@@Gen 18-19`,    },
+    { id: `20120212`, sermon: `A Sacrifice of Love`,               scripture: `gen.20@@Gen 20-22`,    },
+    { id: `20120219`, sermon: `A Wedding Story`,                   scripture: `gen.23@@Gen 23-24`,    },
+    { id: `20120226`, sermon: `Jacob And Esau: Double Trouble`,    scripture: `gen.25@@Gen 25-26`,    },
+    { id: `20120304`, sermon: `A Web of Deception`,                scripture: `gen.27@@Gen 27:1-40`,  },
+    { id: `20120311`, sermon: `In The Grip Of A Grudge`,           scripture: `gen.27@@Gen 27:41-46`, },
+    { id: `20120318`, sermon: `Lessons From A Ladder`,             scripture: `gen.28@@Gen 28`,       },
+    { id: `20120325`, sermon: `For the Love of Leah`,              scripture: `gen.29@@Gen 29`,       },
+    { id: `20120401`, sermon: `Wrestling with God`,                scripture: `gen.30@@Gen 30-32`,    },
+    { id: `20120422`, sermon: `Burying the Past`,                  scripture: `gen.33@@Gen 33-35`,    },
+    { id: `20120429`, sermon: `The Providence of God`,             scripture: `gen.36@@Gen 36-38`,    },
+    { id: `20120506`, sermon: `Understanding Temptation`,          scripture: `gen.39@@Gen 39`,       },
+    { id: `20120513`, sermon: `Fighting Temptation`,               scripture: `gen.39@@Gen 39`,       },
+    { id: `20120520`, sermon: `In Your Dreams`,                    scripture: `gen.40@@Gen 40-41`,    },
+    { id: `20120603`, sermon: `Forgive and Be Forgiven`,           scripture: `gen.42@@Gen 42-45`,    },
+    { id: `20120610`, sermon: `The Legacy We Leave`,               scripture: `gen.46@@Gen 46-50`,    },
+  ]
+}) }M
 
 
 ## 2010 Genesis Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20101110{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20101110{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1-50         {{book.b3}} </td><td> 11/10/2010 </td>
-<tr><td> {{book.cb1}}20101117{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20101117{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1:1-2        {{book.b3}} </td><td> 11/17/2010 </td>
-<tr><td> {{book.cb1}}20101201{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20101201{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1:3-23       {{book.b3}} </td><td> 12/01/2010 </td>
-<tr><td> {{book.cb1}}20101215{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20101215{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1:24-31      {{book.b3}} </td><td> 12/15/2010 </td>
-<tr><td> {{book.cb1}}20110105{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20110105{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.2{{book.b2}}  Gen 2:1-14       {{book.b3}} </td><td> 01/05/2011 </td>
-<tr><td> {{book.cb1}}20110112{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20110112{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.2{{book.b2}}  Gen 2:15-25      {{book.b3}} </td><td> 01/12/2011 </td>
-<tr><td> {{book.cb1}}20110119{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20110119{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.3{{book.b2}}  Gen 3:1-6        {{book.b3}} </td><td> 01/19/2011 </td>
-<tr><td> {{book.cb1}}20110202{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20110202{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.3{{book.b2}}  Gen 3:6-20       {{book.b3}} </td><td> 02/02/2011 </td>
-<tr><td> {{book.cb1}}20110209{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20110209{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.3{{book.b2}}  Gen 3:20-4:16    {{book.b3}} </td><td> 02/09/2011 </td>
-<tr><td> {{book.cb1}}20110216{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20110216{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.4{{book.b2}}  Gen 4:14-5:32    {{book.b3}} </td><td> 02/16/2011 </td>
-<tr><td> {{book.cb1}}20110223{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20110223{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.6{{book.b2}}  Gen 6            {{book.b3}} </td><td> 02/23/2011 </td>
-<tr><td> {{book.cb1}}20110302{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20110302{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.7{{book.b2}}  Gen 7-8          {{book.b3}} </td><td> 03/02/2011 </td>
-<tr><td> {{book.cb1}}20110309{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20110309{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.9{{book.b2}}  Gen 9-10         {{book.b3}} </td><td> 03/09/2011 </td>
-<tr><td> {{book.cb1}}20110316{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20110316{{book.cst2}} Q&A: Gen 1-10 (Part I)  {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1-10         {{book.b3}} </td><td> 03/16/2011 </td>
-<tr><td> {{book.cb1}}20110323{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20110323{{book.cst2}} Q&A: Gen 1-10 (Part II) {{book.cst3}}         <br/> {{book.b1}}gen.1{{book.b2}}  Gen 1-10         {{book.b3}} </td><td> 03/23/2011 </td>
-<tr><td> {{book.cb1}}20110330{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20110330{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.11{{book.b2}} Gen 11           {{book.b3}} </td><td> 03/30/2011 </td>
-<tr><td> {{book.cb1}}20110406{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20110406{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.12{{book.b2}} Gen 12-13        {{book.b3}} </td><td> 04/06/2011 </td>
-<tr><td> {{book.cb1}}20110413{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20110413{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.14{{book.b2}} Gen 14           {{book.b3}} </td><td> 04/13/2011 </td>
-<tr><td> {{book.cb1}}20110427{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20110427{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.15{{book.b2}} Gen 15           {{book.b3}} </td><td> 04/27/2011 </td>
-<tr><td> {{book.cb1}}20110511{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20110511{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.16{{book.b2}} Gen 16-17        {{book.b3}} </td><td> 05/11/2011 </td>
-<tr><td> {{book.cb1}}20110518{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20110518{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.18{{book.b2}} Gen 18-19:17     {{book.b3}} </td><td> 05/18/2011 </td>
-<tr><td> {{book.cb1}}20110525{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20110525{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.19{{book.b2}} Gen 19:17-38     {{book.b3}} </td><td> 05/25/2011 </td>
-<tr><td> {{book.cb1}}20110608{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20110608{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.20{{book.b2}} Gen 20-21        {{book.b3}} </td><td> 06/08/2011 </td>
-<tr><td> {{book.cb1}}20110615{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20110615{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.22{{book.b2}} Gen 22-23        {{book.b3}} </td><td> 06/15/2011 </td>
-<tr><td> {{book.cb1}}20110622{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20110622{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.24{{book.b2}} Gen 24           {{book.b3}} </td><td> 06/22/2011 </td>
-<tr><td> {{book.cb1}}20110629{{book.cb2}} 26. {{book.cb3}} </td><td> {{book.cst1}}20110629{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.25{{book.b2}} Gen 25           {{book.b3}} </td><td> 06/29/2011 </td>
-<tr><td> {{book.cb1}}20110810{{book.cb2}} 27. {{book.cb3}} </td><td> {{book.cst1}}20110810{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.26{{book.b2}} Gen 26-27:18     {{book.b3}} </td><td> 08/10/2011 </td>
-<tr><td> {{book.cb1}}20110824{{book.cb2}} 28. {{book.cb3}} </td><td> {{book.cst1}}20110824{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.27{{book.b2}} Gen 27:18-28     {{book.b3}} </td><td> 08/24/2011 </td>
-<tr><td> {{book.cb1}}20110831{{book.cb2}} 29. {{book.cb3}} </td><td> {{book.cst1}}20110831{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.28{{book.b2}} Gen 28           {{book.b3}} </td><td> 08/31/2011 </td>
-<tr><td> {{book.cb1}}20110914{{book.cb2}} 30. {{book.cb3}} </td><td> {{book.cst1}}20110914{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.29{{book.b2}} Gen 29:31-30:43  {{book.b3}} </td><td> 09/14/2011 </td>
-<tr><td> {{book.cb1}}20110921{{book.cb2}} 31. {{book.cb3}} </td><td> {{book.cst1}}20110921{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.31{{book.b2}} Gen 31-32        {{book.b3}} </td><td> 09/21/2011 </td>
-<tr><td> {{book.cb1}}20110928{{book.cb2}} 32. {{book.cb3}} </td><td> {{book.cst1}}20110928{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.33{{book.b2}} Gen 33-34        {{book.b3}} </td><td> 09/28/2011 </td>
-<tr><td> {{book.cb1}}20111012{{book.cb2}} 33. {{book.cb3}} </td><td> {{book.cst1}}20111012{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.35{{book.b2}} Gen 35           {{book.b3}} </td><td> 10/12/2011 </td>
-<tr><td> {{book.cb1}}20111019{{book.cb2}} 34. {{book.cb3}} </td><td> {{book.cst1}}20111019{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.36{{book.b2}} Gen 36-37        {{book.b3}} </td><td> 10/19/2011 </td>
-<tr><td> {{book.cb1}}20111026{{book.cb2}} 35. {{book.cb3}} </td><td> {{book.cst1}}20111026{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.38{{book.b2}} Gen 38           {{book.b3}} </td><td> 10/26/2011 </td>
-<tr><td> {{book.cb1}}20111109{{book.cb2}} 36. {{book.cb3}} </td><td> {{book.cst1}}20111109{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.39{{book.b2}} Gen 39           {{book.b3}} </td><td> 11/09/2011 </td>
-<tr><td> {{book.cb1}}20111130{{book.cb2}} 37. {{book.cb3}} </td><td> {{book.cst1}}20111130{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.40{{book.b2}} Gen 40-41        {{book.b3}} </td><td> 11/30/2011 </td>
-<tr><td> {{book.cb1}}20111207{{book.cb2}} 38. {{book.cb3}} </td><td> {{book.cst1}}20111207{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.42{{book.b2}} Gen 42           {{book.b3}} </td><td> 12/07/2011 </td>
-<tr><td> {{book.cb1}}20111214{{book.cb2}} 39. {{book.cb3}} </td><td> {{book.cst1}}20111214{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.43{{book.b2}} Gen 43           {{book.b3}} </td><td> 12/14/2011 </td>
-<tr><td> {{book.cb1}}20120104{{book.cb2}} 40. {{book.cb3}} </td><td> {{book.cst1}}20120104{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.45{{book.b2}} Gen 45-46        {{book.b3}} </td><td> 01/04/2012 </td>
-<tr><td> {{book.cb1}}20120111{{book.cb2}} 41. {{book.cb3}} </td><td> {{book.cst1}}20120111{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.47{{book.b2}} Gen 47-48        {{book.b3}} </td><td> 01/11/2012 </td>
-<tr><td> {{book.cb1}}20120118{{book.cb2}} 42. {{book.cb3}} </td><td> {{book.cst1}}20120118{{book.cst2}} Teaching                {{book.cst3}}         <br/> {{book.b1}}gen.49{{book.b2}} Gen 49-50        {{book.b3}} </td><td> 01/18/2012 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20101110{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20101110{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1-50         {{book.b3}} </td><td> 11/10/2010 </td>
-<tr><td> {{book.cb1}}20101117{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20101117{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1:1-2        {{book.b3}} </td><td> 11/17/2010 </td>
-<tr><td> {{book.cb1}}20101201{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20101201{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1:3-23       {{book.b3}} </td><td> 12/01/2010 </td>
-<tr><td> {{book.cb1}}20101215{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20101215{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1:24-31      {{book.b3}} </td><td> 12/15/2010 </td>
-<tr><td> {{book.cb1}}20110105{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20110105{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.2{{book.b2}}  Gen 2:1-14       {{book.b3}} </td><td> 01/05/2011 </td>
-<tr><td> {{book.cb1}}20110112{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20110112{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.2{{book.b2}}  Gen 2:15-25      {{book.b3}} </td><td> 01/12/2011 </td>
-<tr><td> {{book.cb1}}20110119{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20110119{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.3{{book.b2}}  Gen 3:1-6        {{book.b3}} </td><td> 01/19/2011 </td>
-<tr><td> {{book.cb1}}20110202{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20110202{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.3{{book.b2}}  Gen 3:6-20       {{book.b3}} </td><td> 02/02/2011 </td>
-<tr><td> {{book.cb1}}20110209{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20110209{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.3{{book.b2}}  Gen 3:20-4:16    {{book.b3}} </td><td> 02/09/2011 </td>
-<tr><td> {{book.cb1}}20110216{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20110216{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.4{{book.b2}}  Gen 4:14-5:32    {{book.b3}} </td><td> 02/16/2011 </td>
-<tr><td> {{book.cb1}}20110223{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20110223{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.6{{book.b2}}  Gen 6            {{book.b3}} </td><td> 02/23/2011 </td>
-<tr><td> {{book.cb1}}20110302{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20110302{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.7{{book.b2}}  Gen 7-8          {{book.b3}} </td><td> 03/02/2011 </td>
-<tr><td> {{book.cb1}}20110309{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20110309{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.9{{book.b2}}  Gen 9-10         {{book.b3}} </td><td> 03/09/2011 </td>
-<tr><td> {{book.cb1}}20110316{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20110316{{book.cst2}} Q&A: Gen 1-10 (Part I)  {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1-10         {{book.b3}} </td><td> 03/16/2011 </td>
-<tr><td> {{book.cb1}}20110323{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20110323{{book.cst2}} Q&A: Gen 1-10 (Part II) {{book.cst3}}         </td><td> {{book.b1}}gen.1{{book.b2}}  Gen 1-10         {{book.b3}} </td><td> 03/23/2011 </td>
-<tr><td> {{book.cb1}}20110330{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20110330{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.11{{book.b2}} Gen 11           {{book.b3}} </td><td> 03/30/2011 </td>
-<tr><td> {{book.cb1}}20110406{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20110406{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.12{{book.b2}} Gen 12-13        {{book.b3}} </td><td> 04/06/2011 </td>
-<tr><td> {{book.cb1}}20110413{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20110413{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.14{{book.b2}} Gen 14           {{book.b3}} </td><td> 04/13/2011 </td>
-<tr><td> {{book.cb1}}20110427{{book.cb2}} 19. {{book.cb3}} </td><td> {{book.cst1}}20110427{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.15{{book.b2}} Gen 15           {{book.b3}} </td><td> 04/27/2011 </td>
-<tr><td> {{book.cb1}}20110511{{book.cb2}} 20. {{book.cb3}} </td><td> {{book.cst1}}20110511{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.16{{book.b2}} Gen 16-17        {{book.b3}} </td><td> 05/11/2011 </td>
-<tr><td> {{book.cb1}}20110518{{book.cb2}} 21. {{book.cb3}} </td><td> {{book.cst1}}20110518{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.18{{book.b2}} Gen 18-19:17     {{book.b3}} </td><td> 05/18/2011 </td>
-<tr><td> {{book.cb1}}20110525{{book.cb2}} 22. {{book.cb3}} </td><td> {{book.cst1}}20110525{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.19{{book.b2}} Gen 19:17-38     {{book.b3}} </td><td> 05/25/2011 </td>
-<tr><td> {{book.cb1}}20110608{{book.cb2}} 23. {{book.cb3}} </td><td> {{book.cst1}}20110608{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.20{{book.b2}} Gen 20-21        {{book.b3}} </td><td> 06/08/2011 </td>
-<tr><td> {{book.cb1}}20110615{{book.cb2}} 24. {{book.cb3}} </td><td> {{book.cst1}}20110615{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.22{{book.b2}} Gen 22-23        {{book.b3}} </td><td> 06/15/2011 </td>
-<tr><td> {{book.cb1}}20110622{{book.cb2}} 25. {{book.cb3}} </td><td> {{book.cst1}}20110622{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.24{{book.b2}} Gen 24           {{book.b3}} </td><td> 06/22/2011 </td>
-<tr><td> {{book.cb1}}20110629{{book.cb2}} 26. {{book.cb3}} </td><td> {{book.cst1}}20110629{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.25{{book.b2}} Gen 25           {{book.b3}} </td><td> 06/29/2011 </td>
-<tr><td> {{book.cb1}}20110810{{book.cb2}} 27. {{book.cb3}} </td><td> {{book.cst1}}20110810{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.26{{book.b2}} Gen 26-27:18     {{book.b3}} </td><td> 08/10/2011 </td>
-<tr><td> {{book.cb1}}20110824{{book.cb2}} 28. {{book.cb3}} </td><td> {{book.cst1}}20110824{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.27{{book.b2}} Gen 27:18-28     {{book.b3}} </td><td> 08/24/2011 </td>
-<tr><td> {{book.cb1}}20110831{{book.cb2}} 29. {{book.cb3}} </td><td> {{book.cst1}}20110831{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.28{{book.b2}} Gen 28           {{book.b3}} </td><td> 08/31/2011 </td>
-<tr><td> {{book.cb1}}20110914{{book.cb2}} 30. {{book.cb3}} </td><td> {{book.cst1}}20110914{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.29{{book.b2}} Gen 29:31-30:43  {{book.b3}} </td><td> 09/14/2011 </td>
-<tr><td> {{book.cb1}}20110921{{book.cb2}} 31. {{book.cb3}} </td><td> {{book.cst1}}20110921{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.31{{book.b2}} Gen 31-32        {{book.b3}} </td><td> 09/21/2011 </td>
-<tr><td> {{book.cb1}}20110928{{book.cb2}} 32. {{book.cb3}} </td><td> {{book.cst1}}20110928{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.33{{book.b2}} Gen 33-34        {{book.b3}} </td><td> 09/28/2011 </td>
-<tr><td> {{book.cb1}}20111012{{book.cb2}} 33. {{book.cb3}} </td><td> {{book.cst1}}20111012{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.35{{book.b2}} Gen 35           {{book.b3}} </td><td> 10/12/2011 </td>
-<tr><td> {{book.cb1}}20111019{{book.cb2}} 34. {{book.cb3}} </td><td> {{book.cst1}}20111019{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.36{{book.b2}} Gen 36-37        {{book.b3}} </td><td> 10/19/2011 </td>
-<tr><td> {{book.cb1}}20111026{{book.cb2}} 35. {{book.cb3}} </td><td> {{book.cst1}}20111026{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.38{{book.b2}} Gen 38           {{book.b3}} </td><td> 10/26/2011 </td>
-<tr><td> {{book.cb1}}20111109{{book.cb2}} 36. {{book.cb3}} </td><td> {{book.cst1}}20111109{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.39{{book.b2}} Gen 39           {{book.b3}} </td><td> 11/09/2011 </td>
-<tr><td> {{book.cb1}}20111130{{book.cb2}} 37. {{book.cb3}} </td><td> {{book.cst1}}20111130{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.40{{book.b2}} Gen 40-41        {{book.b3}} </td><td> 11/30/2011 </td>
-<tr><td> {{book.cb1}}20111207{{book.cb2}} 38. {{book.cb3}} </td><td> {{book.cst1}}20111207{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.42{{book.b2}} Gen 42           {{book.b3}} </td><td> 12/07/2011 </td>
-<tr><td> {{book.cb1}}20111214{{book.cb2}} 39. {{book.cb3}} </td><td> {{book.cst1}}20111214{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.43{{book.b2}} Gen 43           {{book.b3}} </td><td> 12/14/2011 </td>
-<tr><td> {{book.cb1}}20120104{{book.cb2}} 40. {{book.cb3}} </td><td> {{book.cst1}}20120104{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.45{{book.b2}} Gen 45-46        {{book.b3}} </td><td> 01/04/2012 </td>
-<tr><td> {{book.cb1}}20120111{{book.cb2}} 41. {{book.cb3}} </td><td> {{book.cst1}}20120111{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.47{{book.b2}} Gen 47-48        {{book.b3}} </td><td> 01/11/2012 </td>
-<tr><td> {{book.cb1}}20120118{{book.cb2}} 42. {{book.cb3}} </td><td> {{book.cst1}}20120118{{book.cst2}} Teaching                {{book.cst3}}         </td><td> {{book.b1}}gen.49{{book.b2}} Gen 49-50        {{book.b3}} </td><td> 01/18/2012 </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20101110`,                                    scripture: `gen.1@@Genesis Intro`,    },
+    { id: `20101117`,                                    scripture: `gen.1@@Gen 1:1-2`,        },
+    { id: `20101201`,                                    scripture: `gen.1@@Gen 1:3-23`,       },
+    { id: `20101215`,                                    scripture: `gen.1@@Gen 1:24-31`,      },
+    { id: `20110105`,                                    scripture: `gen.2@@Gen 2:1-14`,       },
+    { id: `20110112`,                                    scripture: `gen.2@@Gen 2:15-25`,      },
+    { id: `20110119`,                                    scripture: `gen.3@@Gen 3:1-6`,        },
+    { id: `20110202`,                                    scripture: `gen.3@@Gen 3:6-20`,       },
+    { id: `20110209`,                                    scripture: `gen.3@@Gen 3:20-4:16`,    },
+    { id: `20110216`,                                    scripture: `gen.4@@Gen 4:14-5:32`,    },
+    { id: `20110223`,                                    scripture: `gen.6@@Gen 6`,            },
+    { id: `20110302`,                                    scripture: `gen.7@@Gen 7-8`,          },
+    { id: `20110309`,                                    scripture: `gen.9@@Gen 9-10`,         },
+    { id: `20110316`, sermon: `Q&A: Gen 1-10 (Part I)`,  scripture: `gen.1@@Gen 1-10`,         },
+    { id: `20110323`, sermon: `Q&A: Gen 1-10 (Part II)`, scripture: `gen.1@@Gen 1-10`,         },
+    { id: `20110330`,                                    scripture: `gen.11@@Gen 11`,          },
+    { id: `20110406`,                                    scripture: `gen.12@@Gen 12-13`,       },
+    { id: `20110413`,                                    scripture: `gen.14@@Gen 14`,          },
+    { id: `20110427`,                                    scripture: `gen.15@@Gen 15`,          },
+    { id: `20110511`,                                    scripture: `gen.16@@Gen 16-17`,       },
+    { id: `20110518`,                                    scripture: `gen.18@@Gen 18-19:17`,    },
+    { id: `20110525`,                                    scripture: `gen.19@@Gen 19:17-38`,    },
+    { id: `20110608`,                                    scripture: `gen.20@@Gen 20-21`,       },
+    { id: `20110615`,                                    scripture: `gen.22@@Gen 22-23`,       },
+    { id: `20110622`,                                    scripture: `gen.24@@Gen 24`,          },
+    { id: `20110629`,                                    scripture: `gen.25@@Gen 25`,          },
+    { id: `20110810`,                                    scripture: `gen.26@@Gen 26-27:18`,    },
+    { id: `20110824`,                                    scripture: `gen.27@@Gen 27:18-28`,    },
+    { id: `20110831`,                                    scripture: `gen.28@@Gen 28`,          },
+    { id: `20110914`,                                    scripture: `gen.29@@Gen 29:31-30:43`, },
+    { id: `20110921`,                                    scripture: `gen.31@@Gen 31-32`,       },
+    { id: `20110928`,                                    scripture: `gen.33@@Gen 33-34`,       },
+    { id: `20111012`,                                    scripture: `gen.35@@Gen 35`,          },
+    { id: `20111019`,                                    scripture: `gen.36@@Gen 36-37`,       },
+    { id: `20111026`,                                    scripture: `gen.38@@Gen 38`,          },
+    { id: `20111109`,                                    scripture: `gen.39@@Gen 39`,          },
+    { id: `20111130`,                                    scripture: `gen.40@@Gen 40-41`,       },
+    { id: `20111207`,                                    scripture: `gen.42@@Gen 42`,          },
+    { id: `20111214`,                                    scripture: `gen.43@@Gen 43`,          },
+    { id: `20120104`,                                    scripture: `gen.45@@Gen 45-46`,       },
+    { id: `20120111`,                                    scripture: `gen.47@@Gen 47-48`,       },
+    { id: `20120118`,                                    scripture: `gen.49@@Gen 49-50`,       },
+  ]
+}) }M
