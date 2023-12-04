@@ -58,51 +58,26 @@ M{ youTube(`Wb6Hhzl8Gyk`) }M
 
 > NOTE: This series covers both First and Second Thessalonians
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20100425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} <br/> {{book.b1}}1th.1{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 <br/> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} <br/> {{book.b1}}1th.4{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 <br/> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} <br/> {{book.b1}}2th.1{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 <br/> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20100425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100425{{book.cst2}} What Does the Lord's Return Mean (Part 1) {{book.cst3}} </td><td> {{book.b1}}1th.1{{book.b2}} 1 Thess 1-3 {{book.b3}} </td><td> 04/25/2010 </td><td> {{book.csg1}}20100425.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100502{{book.cst2}} What Does the Lord's Return Mean (Part 2) {{book.cst3}} </td><td> {{book.b1}}1th.4{{book.b2}} 1 Thess 4-5 {{book.b3}} </td><td> 05/02/2010 </td><td> {{book.csg1}}20100502.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20100509{{book.cst2}} What Does the Lord's Return Mean (Part 3) {{book.cst3}} </td><td> {{book.b1}}2th.1{{book.b2}} 2 Thess     {{book.b3}} </td><td> 05/09/2010 </td><td> {{book.csg1}}20100509.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20100425`, sermon: `What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
+    { id: `20100502`, sermon: `What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
+    { id: `20100509`, sermon: `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+  ]
+}) }M
 
 
 ## 2018 2 Thessalonians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20180502{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20180502{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2th.1{{book.b2}} 2 Thess 1         {{book.b3}} </td><td> 05/02/2018 </td>
-<tr><td> {{book.cb1}}20180509{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20180509{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2th.2{{book.b2}} 2 Thess 2:1-12    {{book.b3}} </td><td> 05/09/2018 </td>
-<tr><td> {{book.cb1}}20180516{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20180516{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}2th.2{{book.b2}} 2 Thess 2:13-3:18 {{book.b3}} </td><td> 05/16/2018 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20180502{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20180502{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2th.1{{book.b2}} 2 Thess 1         {{book.b3}} </td><td> 05/02/2018 </td>
-<tr><td> {{book.cb1}}20180509{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20180509{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2th.2{{book.b2}} 2 Thess 2:1-12    {{book.b3}} </td><td> 05/09/2018 </td>
-<tr><td> {{book.cb1}}20180516{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20180516{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}2th.2{{book.b2}} 2 Thess 2:13-3:18 {{book.b3}} </td><td> 05/16/2018 </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
+    { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,    },
+    { id: `20180516`, scripture: `2th.2@@2 Thess 2:13-3:18`, },
+  ]
+}) }M
