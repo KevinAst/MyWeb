@@ -1,8 +1,8 @@
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+*------------------------------------
+* 2009 1 Corinthians Series (Sundays)  WITH Study Guide
+*------------------------------------
 
-*------------------------------------
-* 2009 1 Corinthians Series (Sundays)  ?? WITH Study Guide
-*------------------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 11/29/2009
 Extreme Makeover: A Glorified Body
@@ -53,8 +53,10 @@ When Wisdom Seems Foolish
 
 
 *------------------------------------------
-* 2016-2017 1 Corinthians Series (Mid Week)  ?? WITH Study Guide
+* 2016-2017 1 Corinthians Series (Mid Week)  NO Study Guide
 *------------------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 03/29/2017
 Teaching
