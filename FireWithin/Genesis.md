@@ -12,6 +12,7 @@ their repeated failure.
 - [Overview](#overview)
 - [2011 Genesis Series (Sundays)](#2011-genesis-series-sundays)
 - [2010 Genesis Series (Mid Week)](#2010-genesis-series-mid-week)
+- [2023 Genesis Series (My Small Group)](#2023-genesis-series-my-small-group)
 
 
 ## Overview
@@ -150,5 +151,32 @@ M{ sermonSeries({
     { id: `20120104`,                                    scripture: `gen.45@@Gen 45-46`,       },
     { id: `20120111`,                                    scripture: `gen.47@@Gen 47-48`,       },
     { id: `20120118`,                                    scripture: `gen.49@@Gen 49-50`,       },
+  ]
+}) }M
+
+
+
+## 2023 Genesis Series (My Small Group)
+
+{{book.FBM}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20231203`, sermon: `TXT@@The First Week`,      scripture: `gen.1@@Genesis 1:1-5,26-2:3`,       date:`12/03/2023`, },
+    { id: `SG20231210`, sermon: `TXT@@The First Couple`,    scripture: `gen.2@@Genesis 2:7-9,12-25`,        date:`12/10/2023`, },
+    { id: `SG20231217`, sermon: `TXT@@The First Sin`,       scripture: `gen.3@@Genesis 3:1-7, 21-24`,       date:`12/17/2023`, },
+    { id: `SG20231224`, sermon: `TXT@@The First Christmas`, scripture: `luk.2@@Luke 2:1-15`,                date:`12/24/2023`, },
+    { id: `SG20231231`, sermon: `TXT@@The First Murder`,    scripture: `gen.4@@Genesis 4:1-15`,             date:`12/31/2023`, },
+    { id: `SG20240107`, sermon: `TXT@@Judgment`,            scripture: `gen.6@@Genesis 6:13-22; 7:20-24`,   date:`01/07/2024`, },
+    { id: `SG20240114`, sermon: `TXT@@Land!`,               scripture: `gen.8@@Genesis 8:10-22`,            date:`01/14/2024`, },
+    { id: `SG20240121`, sermon: `TXT@@Protect`,             scripture: `gen.9@@Genesis 9:1-15`,             date:`01/21/2024`, },
+    { id: `SG20240128`, sermon: `TXT@@Stalled`,             scripture: `gen.11@@Genesis 11:1-9`,            date:`01/28/2024`, },
+    { id: `SG20240204`, sermon: `TXT@@Promised`,            scripture: `gen.12@@Genesis 12:1-5a; 13:11-18`, date:`02/04/2024`, },
+    { id: `SG20240211`, sermon: `TXT@@Impatience*`,         scripture: `gen.15@@Genesis 15:1-6; 16:1-6`,    date:`02/11/2024`, },
+    { id: `SG20240218`, sermon: `TXT@@Established`,         scripture: `gen.17@@Genesis 17:1-10,15-19`,     date:`02/18/2024`, },
+    { id: `SG20240225`, sermon: `TXT@@Purged`,              scripture: `gen.19@@Genesis 19:12-26`,          date:`02/25/2024`, },
   ]
 }) }M
