@@ -77,44 +77,23 @@ M{ youTube(`ZjG3ys9DLcI`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
+M{ sermonSeries({
+  entries: [
+    { id: `20190407`, sermon: `Every Morning is Another Chance`, scripture: `lam.1@@Lamentations 1-5`, },
+  ]
+}) }M
 
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} <br/> {{book.b1}}lam.1{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 <br/> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} </td><td> {{book.b1}}lam.1{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 </td><td> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
-
-</table>
-</div>
 
 
 ## 2023 Lamentations Series (My Small Group)
 
 {{book.FBM}}
 
-
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         <br/> {{book.b1}}lam.3{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         </td><td> {{book.b1}}lam.3{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20230827`, sermon: `TXT@@Good`, scripture: `lam.3@@Lamentations 3:19-33`, date:`08/27/2023`, },
+  ]
+}) }M
