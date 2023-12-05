@@ -58,8 +58,6 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-?? more 
-
 - **User Preferences** are now supported through the {{book.Settings}} page!
   Through this resource, you may now:
   * Dynamically specify which {{book.BibleTranslation}} you wish to
@@ -67,6 +65,7 @@ Release           | What                 | *When*
 - A **Completed Checkbox** is now available **for each book of the
   Bible**, similar to those found in each Sermon Series _(check out
   {{book.WhereAmI}})_.
+- Created a new {{book.EndTimes}} page.
 - Added {{book.Thanksgiving}} services for 2023.
 - Added newly minted {{book.SpokenGospel}} intros for {{book.Jonah}} & {{book.Micah}}.
 - Added "My Small Group" section to the {{book.Genesis}} study.

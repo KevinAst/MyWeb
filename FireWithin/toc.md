@@ -112,6 +112,7 @@
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
   * [Easter](Easter.md)
+  * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
 
 ----
