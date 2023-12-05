@@ -65,44 +65,20 @@ M{ youTube(`3PfJ14JcLwE`) }M
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20130407{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20130407{{book.cst2}} Life by the Numbers    {{book.cst3}} <br/> {{book.b1}}num.1{{book.b2}}  Numbers 1-2      {{book.b3}} </td><td> 04/07/2013 <br/> {{book.csg1}}20130407.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130414{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20130414{{book.cst2}} A Modern Nazirite      {{book.cst3}} <br/> {{book.b1}}num.3{{book.b2}}  Numbers 3-6:1-21 {{book.b3}} </td><td> 04/14/2013 <br/> {{book.csg1}}20130414.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130428{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20130428{{book.cst2}} The LORD's Blessing    {{book.cst3}} <br/> {{book.b1}}num.6{{book.b2}}  Numbers 6:22-27  {{book.b3}} </td><td> 04/28/2013 <br/> {{book.csg1}}20130428.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130505{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20130505{{book.cst2}} Discerning God's Will  {{book.cst3}} <br/> {{book.b1}}num.7{{book.b2}}  Numbers 7-9      {{book.b3}} </td><td> 05/05/2013 <br/> {{book.csg1}}20130505.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130519{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20130519{{book.cst2}} Beware of the Rabble   {{book.cst3}} <br/> {{book.b1}}num.11{{book.b2}} Numbers 11       {{book.b3}} </td><td> 05/19/2013 <br/> {{book.csg1}}20130519.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130526{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20130526{{book.cst2}} Pride and Prejudice    {{book.cst3}} <br/> {{book.b1}}num.12{{book.b2}} Numbers 12       {{book.b3}} </td><td> 05/26/2013 <br/> {{book.csg1}}20130526.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130602{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20130602{{book.cst2}} Courage like Caleb     {{book.cst3}} <br/> {{book.b1}}num.13{{book.b2}} Numbers 13-15    {{book.b3}} </td><td> 06/02/2013 <br/> {{book.csg1}}20130602.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130609{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20130609{{book.cst2}} A Root of Rebellion    {{book.cst3}} <br/> {{book.b1}}num.16{{book.b2}} Numbers 16       {{book.b3}} </td><td> 06/09/2013 <br/> {{book.csg1}}20130609.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130804{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20130804{{book.cst2}} Budding with Life      {{book.cst3}} <br/> {{book.b1}}num.17{{book.b2}} Numbers 17       {{book.b3}} </td><td> 08/04/2013 <br/> {{book.csg1}}20130804.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130811{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20130811{{book.cst2}} Watch Your Witness     {{book.cst3}} <br/> {{book.b1}}num.18{{book.b2}} Numbers 18-20    {{book.b3}} </td><td> 08/11/2013 <br/> {{book.csg1}}20130811.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130818{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20130818{{book.cst2}} Born Again             {{book.cst3}} <br/> {{book.b1}}num.21{{book.b2}} Numbers 21       {{book.b3}} </td><td> 08/18/2013 <br/> {{book.csg1}}20130818.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130825{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20130825{{book.cst2}} Beware of Balaam       {{book.cst3}} <br/> {{book.b1}}num.22{{book.b2}} Numbers 22-25    {{book.b3}} </td><td> 08/25/2013 <br/> {{book.csg1}}20130825.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130901{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20130901{{book.cst2}} Inheritance            {{book.cst3}} <br/> {{book.b1}}num.26{{book.b2}} Numbers 26-36    {{book.b3}} </td><td> 09/01/2013 <br/> {{book.csg1}}20130901.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20130407{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20130407{{book.cst2}} Life by the Numbers    {{book.cst3}} </td><td> {{book.b1}}num.1{{book.b2}}  Numbers 1-2      {{book.b3}} </td><td> 04/07/2013 </td><td> {{book.csg1}}20130407.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130414{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20130414{{book.cst2}} A Modern Nazirite      {{book.cst3}} </td><td> {{book.b1}}num.3{{book.b2}}  Numbers 3-6:1-21 {{book.b3}} </td><td> 04/14/2013 </td><td> {{book.csg1}}20130414.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130428{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20130428{{book.cst2}} The LORD's Blessing    {{book.cst3}} </td><td> {{book.b1}}num.6{{book.b2}}  Numbers 6:22-27  {{book.b3}} </td><td> 04/28/2013 </td><td> {{book.csg1}}20130428.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130505{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20130505{{book.cst2}} Discerning God's Will  {{book.cst3}} </td><td> {{book.b1}}num.7{{book.b2}}  Numbers 7-9      {{book.b3}} </td><td> 05/05/2013 </td><td> {{book.csg1}}20130505.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130519{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20130519{{book.cst2}} Beware of the Rabble   {{book.cst3}} </td><td> {{book.b1}}num.11{{book.b2}} Numbers 11       {{book.b3}} </td><td> 05/19/2013 </td><td> {{book.csg1}}20130519.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130526{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20130526{{book.cst2}} Pride and Prejudice    {{book.cst3}} </td><td> {{book.b1}}num.12{{book.b2}} Numbers 12       {{book.b3}} </td><td> 05/26/2013 </td><td> {{book.csg1}}20130526.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130602{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20130602{{book.cst2}} Courage like Caleb     {{book.cst3}} </td><td> {{book.b1}}num.13{{book.b2}} Numbers 13-15    {{book.b3}} </td><td> 06/02/2013 </td><td> {{book.csg1}}20130602.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130609{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20130609{{book.cst2}} A Root of Rebellion    {{book.cst3}} </td><td> {{book.b1}}num.16{{book.b2}} Numbers 16       {{book.b3}} </td><td> 06/09/2013 </td><td> {{book.csg1}}20130609.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130804{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20130804{{book.cst2}} Budding with Life      {{book.cst3}} </td><td> {{book.b1}}num.17{{book.b2}} Numbers 17       {{book.b3}} </td><td> 08/04/2013 </td><td> {{book.csg1}}20130804.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130811{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20130811{{book.cst2}} Watch Your Witness     {{book.cst3}} </td><td> {{book.b1}}num.18{{book.b2}} Numbers 18-20    {{book.b3}} </td><td> 08/11/2013 </td><td> {{book.csg1}}20130811.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130818{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20130818{{book.cst2}} Born Again             {{book.cst3}} </td><td> {{book.b1}}num.21{{book.b2}} Numbers 21       {{book.b3}} </td><td> 08/18/2013 </td><td> {{book.csg1}}20130818.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130825{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20130825{{book.cst2}} Beware of Balaam       {{book.cst3}} </td><td> {{book.b1}}num.22{{book.b2}} Numbers 22-25    {{book.b3}} </td><td> 08/25/2013 </td><td> {{book.csg1}}20130825.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130901{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20130901{{book.cst2}} Inheritance            {{book.cst3}} </td><td> {{book.b1}}num.26{{book.b2}} Numbers 26-36    {{book.b3}} </td><td> 09/01/2013 </td><td> {{book.csg1}}20130901.pdf{{book.csg2}} </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  entries: [
+    { id: `20130407`, sermon: `Life by the Numbers`,   scripture: `num.1@@Numbers 1-2`,      },
+    { id: `20130414`, sermon: `A Modern Nazirite`,     scripture: `num.3@@Numbers 3-6:1-21`, },
+    { id: `20130428`, sermon: `The LORD's Blessing`,   scripture: `num.6@@Numbers 6:22-27`,  },
+    { id: `20130505`, sermon: `Discerning God's Will`, scripture: `num.7@@Numbers 7-9`,      },
+    { id: `20130519`, sermon: `Beware of the Rabble`,  scripture: `num.11@@Numbers 11`,      },
+    { id: `20130526`, sermon: `Pride and Prejudice`,   scripture: `num.12@@Numbers 12`,      },
+    { id: `20130602`, sermon: `Courage like Caleb`,    scripture: `num.13@@Numbers 13-15`,   },
+    { id: `20130609`, sermon: `A Root of Rebellion`,   scripture: `num.16@@Numbers 16`,      },
+    { id: `20130804`, sermon: `Budding with Life`,     scripture: `num.17@@Numbers 17`,      },
+    { id: `20130811`, sermon: `Watch Your Witness`,    scripture: `num.18@@Numbers 18-20`,   },
+    { id: `20130818`, sermon: `Born Again`,            scripture: `num.21@@Numbers 21`,      },
+    { id: `20130825`, sermon: `Beware of Balaam`,      scripture: `num.22@@Numbers 22-25`,   },
+    { id: `20130901`, sermon: `Inheritance`,           scripture: `num.26@@Numbers 26-36`,   },
+  ]
+}) }M
