@@ -67,7 +67,7 @@ M{ zoomableImg(`Jonah_BP`) }M
 
 **{{book.SpokenGospel}}**
 
-> _As of 10/2022 Spoken Gospel has no Jonah introduction_
+M{ youTube(`GO3VbTkBHBQ`) }M
 
 
 

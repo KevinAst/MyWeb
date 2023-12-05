@@ -59,7 +59,7 @@ M{ zoomableImg(`Micah_BP`) }M
 
 **{{book.SpokenGospel}}**
 
-> _As of 10/2022 Spoken Gospel has no Micah introduction_
+M{ youTube(`ok2VvP34Lw4`) }M
 
 
 ## Micah Series

@@ -68,6 +68,7 @@ Release           | What                 | *When*
   Bible**, similar to those found in each Sermon Series _(check out
   {{book.WhereAmI}})_.
 - Added {{book.Thanksgiving}} services for 2023.
+- Added newly minted {{book.SpokenGospel}} intros for {{book.Jonah}} & {{book.Micah}}.
 - Added "My Small Group" section to the {{book.Genesis}} study.
 - Internal Changes:
   * A big part of this release was an internal enhancement that
