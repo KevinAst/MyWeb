@@ -1,18 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*-------------------
+* 2022 Psalms Series ?? Study Guide
+*-------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*-----------------------
-* 2013 Leviticus Series ??  NO Study Guide
-*-----------------------
-
-03/17/2013
-Sacrifices, Priests, and Feasts (Part 3 - The Feasts)
-Leviticus 19-27
-lev.19
-
-
-?????????????? moused this complete psalms in (since I had it)
+AI: ?? NOT IN PLACE YET ... moused this complete psalms in (since I had it)
 
 God - The Holy Spirit
 PSALMS 139
