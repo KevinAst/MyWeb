@@ -27,8 +27,8 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v19.0](#v19_0)   | Misc                 | *Nov 14, 2023*
-[v18.0](#v18_0)   | Lamentations         | *Aug 23, 2023*
+[v19.0](#v19_0)   | Selectable Translations,<br/> Book Completions, & more | *Dec 5, 2023*
+[v18.0](#v18_0)   | Lamentations, Current Events & more                    | *Aug 23, 2023*
 [v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
 [v16.0](#v16_0)   | Complete the Torah   | *Mar 1, 2023*
 [v15.1](#v15_1)   | Misc                 | *Dec 8, 2022*
@@ -54,9 +54,11 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v19_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v19.0 - Misc <i>(Nov 14, 2023)</i>
+  v19.0 - Selectable Translations, Book Completions, & more <i>(Dec 5, 2023)</i>
 </h3>
 <br/>
+
+?? more 
 
 - **User Preferences** are now supported through the {{book.Settings}} page!
   Through this resource, you may now:
@@ -65,25 +67,29 @@ Release           | What                 | *When*
 - A **Completed Checkbox** is now available **for each book of the
   Bible**, similar to those found in each Sermon Series _(check out
   {{book.WhereAmI}})_.
-- ?? more
+- Added "My Small Group" section to the {{book.Genesis}} study.
 - Internal Changes:
+  * A big part of this release was an internal enhancement that
+    streamlines the maintenance of this blog.  We now use **Custom
+    Tags** _(from our new GitBook plugin)_ that greatly simplifies
+    complex directives.  This will set the stage for **adding ALL
+    books of the Bible** to a future release _(stay tuned)_.
   * Simplified the blog build process (i.e. the 'blog:dev' npm
     script), executing the gitbook command directly in the npm script,
     eliminating the FireWithin/buildDocsInDev.js script
     completely. This also emits better diagnostics (when problems
     arise).
-  * ?? more
 
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v18_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v18.0 - Lamentations <i>(Aug 23, 2023)</i>
+  v18.0 - Lamentations, Current Events & more <i>(Aug 23, 2023)</i>
 </h3>
 <br/>
 
 - Added {{book.Lamentations}} to my Study Guide, done in conjunction with
   my local Church's Small Group _(cooresponding to this time)_.
-- Added My Small Group tp the {{book.Mark}} series.
+- Added My Small Group to the {{book.Mark}} series.
 - Added {{book.CurrentEvents}} _(under {{book.SpecialEvents}})_ with the following:
   * {{book.Life}}
   * {{book.ElectionDaySermons}}
