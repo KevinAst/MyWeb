@@ -1,124 +1,144 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-
 *----------------------------
 * Life
 *----------------------------
 
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
 01/20/2019
 Sanctity of Human Life
 Jeremiah 18-19 
-111/jer.18.niv
+jer.18
 
 01/17/2021
 For the Love of Children
 Matthew 18-19
-111/mat.18.niv
+mat.18
 
 01/23/2022
 The Value of Life
 Psalm 103:2-4
-111/psa.103.niv
+psa.103
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
 
 11/13/2022
 LIFE Principles
 NO SCRIPTURE
 none
 
->> FOR ABOVE:
-Ryan Bomberger 
-https://RadianceFoundation.org/
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+extraScriptureLink: `https://RadianceFoundation.org/@@Ryan Bomberger`
 
 
 *----------------------------
 * Election Day Sermons
 *----------------------------
 
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
 11/08/2020
 Sent Out Among Wolves: A Post-Election Reminder
 Matthew 10
-111/mat.10.niv
+mat.10
 
 11/01/2020
 Calm in the Storm: An Election Day Addendum
 Matthew 8:23-27
-111/mat.8.niv
+mat.8
 
 10/28/2020
 Night of Prayer for the Elections
 NO SCRIPTURE
 none
 
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
 10/18/2020
 Church in America, Wake Up!
 Jeremiah 6:16-19
-111/jer.6.NIV
+jer.6
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
 
 10/16/2016
 Election Day Sermon
 Psalm 33
-111/psa.33.niv
+psa.33
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
 
 06/22/2014
 Making of a King, Journey of a Christian
 1 Samuel 8-11
-111/1sa.8.niv
+1sa.8
 
 11/04/2012
 Election Day Sermon
 NO SCRIPTURE
 none
 
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
 
 *----------------------------
 * LGBTQ / Gay / Homosexual
 *----------------------------
 
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
 02/05/2012
 The Cost of Compromise
 Genesis 18-19
-111/gen.18.niv
+gen.18
 
 07/05/2015
 America, Will You Stand?
 NO SCRIPTURE
 none
 
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
 07/27/2022
 Evening Special with Patti Height
 NO SCRIPTURE
 none
 
->> FOR ABOVE (Patti Height)
-Out of Egypt Ministries
-https://outofegyptministries.org/
+>> FOR ABOVE (Patti Height) ********************************************************************************
+studyGuide: `NONE`,
+extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
 
 06/04/2023
 A Biblical Response to the 'Transing' of America
 Romans 1:18-28
-111/rom.1.niv
+rom.1
+
 
 *-------------
 * Moral Decay
 *-------------
 
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
 11/08/2012
-Oxford Mathematician Destroys Atheism
+https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism
 NO SCRIPTURE
 none
 
->> FOR ABOVE
-https://www.youtube.com/watch?v=otrqzITuSqE
-John Lennox
-https://www.johnlennox.org/
+>> FOR ABOVE ********************************************************************************
+extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`
 
 05/21/2023
 Wanted: The Brave
 NO SCRIPTURE
 none
 
->> FOR ABOVE
-Kirk Cameron
-https://www.kirkcameron.com/
+>> FOR ABOVE ********************************************************************************
+extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`,
+

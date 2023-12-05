@@ -1,48 +1,46 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*-------------
+* Hosea Series WITH selected Study Guide
+*-------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
-* Series ?? WITH Study Guide
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 11/17/2019
 God Will Take You Back
 HOSEA
-111/hos.1.niv
+hos.1
 
 06/13/2012
 Teaching
 HOSEA 12-14
-111/hos.12.niv
+hos.12
 
 06/06/2012
 Teaching
 HOSEA 10-11
-111/hos.10.niv
+hos.10
 
 05/23/2012
 Teaching
 HOSEA 7:10-9
-111/hos.7.niv
+hos.7
 
 05/16/2012
 Teaching
 HOSEA 6-7
-111/hos.6.niv
+hos.6
 
 05/09/2012
 Teaching
 HOSEA 4-5
-111/hos.4.niv
+hos.4
 
 05/02/2012
 Teaching
 HOSEA 2-3
-111/hos.2.niv
+hos.2
 
 04/25/2012
 Teaching
 HOSEA 1
-111/hos.1.niv
+hos.1
 

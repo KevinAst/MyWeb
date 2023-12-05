@@ -20,6 +20,12 @@
   padding:    .5em;     /* also reduce padding around code block (was: .85em 1em) */
 }
 
+/* adjust gitbooks styling of our LeftNav header */
+.book-summary ul.summary li.header {
+  text-transform: none !important; /* override: text-transform: uppercase; */
+  font-weight:    bold !important; /* make it bold! */
+}
+
 /* diagram styles */
 .diagram {
   background:     #fffffa;      /* light beige: neutral background color that looks good in all three gitbook styles */

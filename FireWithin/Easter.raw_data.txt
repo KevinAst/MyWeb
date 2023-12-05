@@ -1,75 +1,71 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*---------------
+* Easter Sermons: NO Study Guide
+*---------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*----------------------------
-* Easter Sermons SELECTED Study Guides
-*----------------------------
-
-NOTE: Look for "NO SCRIPTURE" and manipulate DIRECTLY in Easter.md
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 04/09/2023
 Jesus is the cure!
 John 20:26-31
-111/jhn.20.niv
+jhn.20
 
 04/17/2022
 Evidence for the Head, Hope for the Heart
 Luke 24
-111/luk.24.niv
+luk.24
 
 04/04/2021
 It is Finished
 NO SCRIPTURE
-NO SCRIPTURE
+none
 
 04/12/2020
 Road to the Resurrection
 Matthew 28:1-7
-111/mat.28.niv
+mat.28
 
 04/21/2019
 Peace Be With You!
 John 20:19-31
-111/jhn.20.niv
+jhn.20
 
 04/01/2018
 A Living Hope
 Matthew 28:1-8
-111/mat.28.niv
+mat.28
 
 04/16/2017
 The Resurrection of Jesus - Historical, Powerful, & Personal
 John 19-20
-111/jhn.19.niv
+jhn.19
 
 03/27/2016
 Raising the Dead
 Mark 16:1-7
-111/mrk.16.niv
+mrk.16
 
 04/05/2015
 An Empty Tomb for Empty Lives
 Matthew 28:1-10
-111/mat.28.niv
+mat.28
 
 04/20/2014
 Transformed Lives
 Matthew 28:1-10
-111/mat.28.niv
+mat.28
 
 03/31/2013
 What Does Easter Mean for You?
 John 19:38 - 20:9
-111/jhn.19.niv
+jhn.19
 
 04/08/2012
 Making Sense of Nonsense
 Luke 23-24
-111/luk.23.niv
+luk.23
 
 04/04/2010
 Resurrection Celebration
 Luke 24:1-8
-111/luk.24.niv
+luk.24
 

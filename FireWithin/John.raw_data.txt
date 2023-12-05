@@ -1,235 +1,235 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
 *----------------------------
 * 2015 John Series (Mid Week) NO Study Guide
 *----------------------------
 
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
 10/14/2015
 Teaching
 John 20:19-21
-111/jhn.20.niv
+jhn.20
 
 10/07/2015
 Teaching
 John 19:16-20:18
-111/jhn.19.niv
+jhn.19
 
 09/30/2015
 Teaching
 John 18-19:15
-111/jhn.18.niv
+jhn.18
 
 09/16/2015
 Teaching
 John 16:15-17:26
-111/jhn.16.niv
+jhn.16
 
 09/09/2015
 Teaching
 John 15:8-16:15
-111/jhn.15.niv
+jhn.15
 
 09/02/2015
 Teaching
 John 14:22-15:8
-111/jhn.14.niv
+jhn.14
 
 08/26/2015
 Teaching
 John 14:15-21
-111/jhn.14.niv
+jhn.14
 
 07/01/2015
 Teaching
 John 13
-111/jhn.13.niv
+jhn.13
 
 06/17/2015
 Teaching
 John 12
-111/jhn.12.niv
+jhn.12
 
 06/10/2015
 Teaching
 John 11
-111/jhn.11.niv
+jhn.11
 
 06/03/2015
 Teaching
 John 10:21-42
-111/jhn.10.niv
+jhn.10
 
 05/27/2015
 Teaching
 John 9-10:21
-111/jhn.9.niv
+jhn.9
 
 05/20/2015
 Teaching
 John 8:12-58
-111/jhn.8.niv
+jhn.8
 
 05/13/2015
 Teaching
 John 7:37-8:11
-111/jhn.7.niv
+jhn.7
 
 05/06/2015
 Teaching
 John 7:1-37
-111/jhn.7.niv
+jhn.7
 
 04/29/2015
 Teaching
 John 6:25-71
-111/jhn.6.niv
+jhn.6
 
 04/22/2015
 Teaching
 John 5:16-6:24
-111/jhn.5.niv
+jhn.5
 
 04/15/2015
 Teaching
 John 4:27-5:15
-111/jhn.4.niv
+jhn.4
 
 04/08/2015
 Teaching
 John 3:22-4:26
-111/jhn.3.niv
+jhn.3
 
 03/25/2015
 Teaching
 John 2:13-3:21
-111/jhn.2.niv
+jhn.2
 
 03/18/2015
 Teaching
 John 1:35-2:12
-111/jhn.1.niv
+jhn.1
 
 03/11/2015
 Teaching
 John 1:1-34
-111/jhn.1.niv
+jhn.1
 
 
-*----------------------------
+*---------------------------
 * 2022 John Series (Sundays) WITH Study Guide
-*----------------------------
+*---------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/22/2023
 The God of Restoration
 John 21
-111/jhn.21.niv
+jhn.21
 
 01/08/2023
 Pilate the People-Pleaser
 John 18-19
-111/jhn.18.niv
+jhn.18
 
 12/04/2022
 A Prayer for Unity
 John 17
-111/jhn.17.niv
+jhn.17
 
 11/20/2022
 Who is the Holy Spirit
 John 14-16
-111/jhn.14.niv
+jhn.14
 
 11/06/2022
 Pray Like Jesus
 John 14:12-14
-111/jhn.14.niv
+jhn.14
 
 10/30/2022
 Heaven and How to Get There
 John 14
-111/jhn.14.niv
+jhn.14
 
 10/23/2022
 Love Like Jesus
 John 13:33-35
-111/jhn.13.niv
+jhn.13
 
 10/09/2022
 Serve Like Jesus
 John 13:1-17
-111/jhn.13.niv
+jhn.13
 
 10/02/2022
 Light in a Dark World
 John 12:35-36, 46
-111/jhn.12.niv
+jhn.12
 
 09/11/2022
 Ways to Worship
 John 12
-111/jhn.12.niv
+jhn.12
 
 09/04/2022
 Raising Lazarus
 John 11
-111/jhn.11.niv
+jhn.11
 
 08/28/2022
 Jesus is God
 John 10
-111/jhn.10.niv
+jhn.10
 
 08/21/2022
 Sight for the Blind
 John 9
-111/jhn.9.niv
+jhn.9
 
 08/14/2022
 What is Truth?
 John 8:31-47
-111/jhn.8.niv
+jhn.8
 
 08/07/2022
 Amazing Grace
 John 8:1-11
-111/jhn.8.niv
+jhn.8
 
 06/19/2022
 Living Water - The Holy Spirit
 John 7
-111/jhn.7.niv
+jhn.7
 
 06/12/2022
 When Bread Is Not Enough
 John 6
-111/jhn.6.niv
+jhn.6
 
 06/05/2022
 Miracle at the Pool
 John 5
-111/jhn.5.niv
+jhn.5
 
 05/29/2022
 Complete in Jesus
 John 4
-111/jhn.4.niv
+jhn.4
 
 05/22/2022
 Spiritual Birth
 John 3
-111/jhn.3.niv
+jhn.3
 
 05/15/2022
 God Has Saved the Best for Last
 John 2
-111/jhn.2.niv
+jhn.2
 
 05/08/2022
 The Identity and Deity of Jesus
 John 1
-111/jhn.1.niv
+jhn.1
 
 
 
@@ -237,133 +237,135 @@ John 1
 * 2023 John Series (My Small Group)
 *----------------------------
 
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
 12/04/2022
 In the Beginning (pg 13)
 John 1:1-14
-111/jhn.1.niv
+jhn.1
 
 12/11/2022
 Come and See (pg 23)
 John 1:40-51
-111/jhn.1.niv
+jhn.1
 
 12/18/2022
 I Will Raise (pg 33)
 John 2:11-23
-111/jhn.2.niv
+jhn.2
 
 12/25/2022
 You Will Find (pg 43)
 Luke 2:1-15
-111/luk.2.niv
+luk.2
 
 01/01/2023
 Everyone Who Believes (pg 53)
 John 3:4-18
-111/jhn.3.niv
+jhn.3
 
 01/08/2023
 But Whoever Drinks (pg 63)
 John 4:11-26
-111/jhn.4.niv
+jhn.4
 
 01/15/2023
 Pick Up Your Mat (pg 73)
 John 5:5-16
-111/jhn.5.niv
+jhn.5
 
 01/22/2023
 I Am the Bread (pg 83)
 John 6:26-40
-111/jhn.6.niv
+jhn.6
 
 01/29/2023
 He Sent Me (pg 93)
 John 7:14-29
-111/jhn.7.niv
+jhn.7
 
 02/05/2023
 I Am the Light (pg 103)
 John 8:3-18
-111/jhn.8.niv
+jhn.8
 
 02/12/2023
 You Have Seen Him (pg 113)
 John 9:24-38
-111/jhn.9.niv
+jhn.9
 
 02/19/2023
 I Know My Own (pg 123)
 John 10:7-14,25-30
-111/jhn.10.niv
+jhn.10
 
 02/26/2023
 I Am the Resurrection (pg 133)
 John 11:32-46
-111/jhn.11.niv
+jhn.11
 
 03/05/2023
 Why Wasn’t This Sold?
 John 12:1-11
-111/jhn.12.niv
+jhn.12
 
 03/12/2023
 If It Dies
 John 12:20-33
-111/jhn.12.niv
+jhn.12
 
 03/19/2023
 I Will Come Again
 John 13:31-14:6
-111/jhn.13.niv
+jhn.13
 
 03/26/2023
 Peace I Leave
 John 14:16-29
-111/jhn.14.niv
+jhn.14
 
 04/02/2023
 Remain in Me
 John 15:1-17
-111/jhn.15.niv
+jhn.15
 
 04/09/2023
 I Have Seen*
 John 20:1-18
-111/jhn.20.niv
+jhn.20
 
 04/16/2023
 When the Spirit Comes
 John 15:26-27; 16:7-15
-111/jhn.15.niv
+jhn.15
 
 04/23/2023
 I Pray
 John 17:13-26
-111/jhn.17.niv
+jhn.17
 
 04/30/2023
 I Am He
 John 18:1-11
-111/jhn.18.niv
+jhn.18
 
 05/07/2023
 I Find No Fault
 John 18:28-40
-111/jhn.18.niv
+jhn.18
 
 05/14/2023
 It Is Finished
 John 19:17-30
-111/jhn.19.niv
+jhn.19
 
 05/21/2023
 Reach out Your Hand
 John 20:19-29
-111/jhn.20.niv
+jhn.20
 
 05/28/2023
 Do You Love Me?
 John 21:15-23
-111/jhn.21.niv
+jhn.21
 
