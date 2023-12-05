@@ -67,6 +67,7 @@ Release           | What                 | *When*
 - A **Completed Checkbox** is now available **for each book of the
   Bible**, similar to those found in each Sermon Series _(check out
   {{book.WhereAmI}})_.
+- Added {{book.Thanksgiving}} services for 2023.
 - Added "My Small Group" section to the {{book.Genesis}} study.
 - Internal Changes:
   * A big part of this release was an internal enhancement that
