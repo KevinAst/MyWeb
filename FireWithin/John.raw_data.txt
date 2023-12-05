@@ -1,10 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
 *----------------------------
 * 2015 John Series (Mid Week) NO Study Guide
 *----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 10/14/2015
 Teaching
@@ -117,9 +115,11 @@ John 1:1-34
 jhn.1
 
 
-*----------------------------
+*---------------------------
 * 2022 John Series (Sundays) WITH Study Guide
-*----------------------------
+*---------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/22/2023
 The God of Restoration
@@ -236,6 +236,8 @@ jhn.1
 *----------------------------
 * 2023 John Series (My Small Group)
 *----------------------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
 
 12/04/2022
 In the Beginning (pg 13)
