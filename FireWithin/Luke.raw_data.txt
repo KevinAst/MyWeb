@@ -1,10 +1,8 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
 *----------------------------
 * 2014-2015 Series (Mid Week) NO Study Guide
 *----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 02/18/2015
 Teaching
@@ -164,8 +162,10 @@ luk.1
 
 
 *----------------------------
-* 2021-2022 Series (Sundays) WITH Study Guide
+* 2021-2022 Series (Sundays) WITH SELECTED Study Guide
 *----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 05/01/2022
 The Importance of the Ascension (Tyler Hamrick)
@@ -199,8 +199,11 @@ luk.21
 
 03/20/2022
 The Rise of Russia and the End Times
-Luke 21 & Ezekiel 38
+Luke 21
 luk.21
+
+>> FOR ABOVE ********************************************************************************
+extraScriptureLink: `https://bible.com/bible/116/ezk.38.NLT@@Ezekiel 38`,
 
 03/13/2022
 A Glimpse of Life in Heaven
@@ -217,8 +220,8 @@ Small Man, Big Change
 Luke 19:1-10
 luk.19
 
-02/22/2022
-I Need a Miracle (BUG in Cornerstone site: URL KEY is OFF, should be: 20220222 but is: 20220220)
+02/20/2022
+I Need a Miracle
 Luke 18:35-43
 luk.18
 
