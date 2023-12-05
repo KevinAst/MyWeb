@@ -1,7 +1,5 @@
 # Leviticus
 
-<script type="text/javascript" src="utils.js"></script>
-
 Leviticus can be summed up with God’s repeated command: “Be holy, as I
 am holy.” Leviticus is a book of laws, but it’s also a book of
 worship. This book is filled with details on how the people of God
@@ -53,29 +51,12 @@ should live, eat, sacrifice, celebrate, and more.
 
 > [Leviticus Introduction](https://bibleproject.com/explore/video/leviticus/)
 
-<center>
-  <figure>
-    <div id="Leviticus_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Leviticus_BP', 'Leviticus_BP.png', 75);
-</script>
+M{ zoomableImg(`Leviticus_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelLeviticusVideo"
-          id="SpokenGospelLeviticusVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/9UKwweQFOec"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube(`9UKwweQFOec`) }M
 
 
 
@@ -83,31 +64,10 @@ should live, eat, sacrifice, celebrate, and more.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} <br/> {{book.b1}}111/lev.1.niv{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 <br/> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} <br/> {{book.b1}}111/lev.8.niv{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 <br/> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} <br/> {{book.b1}}111/lev.19.niv{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 <br/> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20130303{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20130303{{book.cst2}} Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices) {{book.cst3}} </td><td> {{book.b1}}111/lev.1.niv{{book.b2}}  Leviticus 1-7   {{book.b3}} </td><td> 03/03/2013 </td><td> {{book.csg1}}20130303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130310{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20130310{{book.cst2}} Sacrifices, Priests, and Feasts (Part 2 - The Priests)    {{book.cst3}} </td><td> {{book.b1}}111/lev.8.niv{{book.b2}}  Leviticus 8-18  {{book.b3}} </td><td> 03/10/2013 </td><td> {{book.csg1}}20130310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20130317{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20130317{{book.cst2}} Sacrifices, Priests, and Feasts (Part 3 - The Feasts)     {{book.cst3}} </td><td> {{book.b1}}111/lev.19.niv{{book.b2}} Leviticus 19-27 {{book.b3}} </td><td> 03/17/2013 </td><td> {{book.csg1}}20130317.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-
-
-<script>
-  pageSetup();
-</script>
+M{ sermonSeries({
+  entries: [
+    { id: `20130303`, sermon: `Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices)`, scripture: `lev.1@@Leviticus 1-7`,    },
+    { id: `20130310`, sermon: `Sacrifices, Priests, and Feasts (Part 2 - The Priests)`,    scripture: `lev.8@@Leviticus 8-18`,   },
+    { id: `20130317`, sermon: `Sacrifices, Priests, and Feasts (Part 3 - The Feasts)`,     scripture: `lev.19@@Leviticus 19-27`, },
+  ]
+}) }M

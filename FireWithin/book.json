@@ -8,6 +8,7 @@
     "summary": "toc.md" 
   },
   "plugins": [
+    "my-plugin",
     "-livereload",
     "-sharing",
     "toolbar",
@@ -24,14 +25,20 @@
         }
       ]
     },
-    "folding-menu":    {
+    "folding-menu": {
       "animationDuration": 300,
       "sticky":            false
+    },
+    "my-plugin": {
+      "revealCustomTags": false
     }
   },
   "variables": { 
     "Welcome":            "[Welcome](/intro.md)",
+    "Settings":           "[Settings](/settings.md)",
+      "BibleTranslation": "[Bible Translation](/settings.md#bible-translation)",
     "GettingStarted":     "[Getting Started](/start.md)",
+      "WhereAmI":         "[Where Am I?](/start.md#where-am-i)",
     "WorkInProgress":     "[Work In Progress](/WorkInProgress.md)",
     "MyFaith":            "[My Faith](/MyFaith.md)",
     "OldTestament":       "[Old Testament](/OldTestament.md)",
@@ -118,6 +125,7 @@
       "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
       "Christmas":          "[Christmas](/Christmas.md)",
       "Easter":             "[Easter](/Easter.md)",
+      "EndTimes":           "[End Times](/EndTimes.md)",
       "CurrentEvents":      "[Current Events](/CurrentEvents.md)",
         "Life":             "[Life](/CurrentEvents.md#life)",
         "ElectionDaySermons":  "[Election Day Sermons](/CurrentEvents.md#election-day-sermons)",
@@ -128,18 +136,6 @@
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
     "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
     "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
-    "FBM":               "[First Baptist Maryville](https://fbmaryville.org/)",
-
-    "cb1":    "<label><input type=\"checkbox\" onclick=\"handleCompletedCheckChange(this);\" id=\"",
-    "cb2":    "\">",
-    "cb3":    "</label>",
-    "cst1":   "<a href=\"https://cornerstonechapel.net/teaching/",
-    "cst2":   "\" target=\"_blank\">",
-    "cst3":   "</a>",
-    "b1":     "<a href=\"https://bible.com/bible/",
-    "b2":     "\" target=\"_blank\">",
-    "b3":     "</a>",
-    "csg1":   "<a href=\"https://assets01.cornerstonechapel.net/documents/studyguides/",
-    "csg2":   "\" target=\"_blank\">Study Guide</a>"
+    "FBM":               "[First Baptist Maryville](https://fbmaryville.org/)"
   }
 }

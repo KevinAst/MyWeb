@@ -1,7 +1,5 @@
 # Daniel
 
-<script type="text/javascript" src="utils.js"></script>
-
 Daniel is a collection of stories and visions that give us hope that
 God’s kingdom will eventually prevail over violent world
 goverments. And yes ... there’s a famous story about a lion’s den.
@@ -62,29 +60,12 @@ under his rule.
 
 > [Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
 
-<center>
-  <figure>
-    <div id="Daniel_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Daniel_BP', 'Daniel_BP.png', 75);
-</script>
+M{ zoomableImg(`Daniel_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelDanielVideo"
-          id="SpokenGospelDanielVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/xtrK2GnZyVg"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube(`xtrK2GnZyVg`) }M
 
 
 
@@ -92,93 +73,43 @@ under his rule.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20120125{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20120125{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1     {{book.b3}} </td><td> 01/25/2012 </td>
-<tr><td> {{book.cb1}}20120201{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20120201{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.2.niv {{book.b2}} Daniel 2     {{book.b3}} </td><td> 02/01/2012 </td>
-<tr><td> {{book.cb1}}20120208{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20120208{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.3.niv {{book.b2}} Daniel 3     {{book.b3}} </td><td> 02/08/2012 </td>
-<tr><td> {{book.cb1}}20120215{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20120215{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.4.niv {{book.b2}} Daniel 4     {{book.b3}} </td><td> 02/15/2012 </td>
-<tr><td> {{book.cb1}}20120222{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20120222{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.5.niv {{book.b2}} Daniel 5     {{book.b3}} </td><td> 02/22/2012 </td>
-<tr><td> {{book.cb1}}20120229{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20120229{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.6.niv {{book.b2}} Daniel 6     {{book.b3}} </td><td> 02/29/2012 </td>
-<tr><td> {{book.cb1}}20120307{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20120307{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.7.niv {{book.b2}} Daniel 7     {{book.b3}} </td><td> 03/07/2012 </td>
-<tr><td> {{book.cb1}}20120314{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20120314{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.8.niv {{book.b2}} Daniel 8     {{book.b3}} </td><td> 03/14/2012 </td>
-<tr><td> {{book.cb1}}20120321{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20120321{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.9.niv {{book.b2}} Daniel 9     {{book.b3}} </td><td> 03/21/2012 </td>
-<tr><td> {{book.cb1}}20120328{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20120328{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.10.niv{{book.b2}} Daniel 10    {{book.b3}} </td><td> 03/28/2012 </td>
-<tr><td> {{book.cb1}}20120411{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20120411{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11    {{book.b3}} </td><td> 04/11/2012 </td>
-<tr><td> {{book.cb1}}20120418{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20120418{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11-12 {{book.b3}} </td><td> 04/18/2012 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20120125{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20120125{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1     {{book.b3}} </td><td> 01/25/2012 </td>
-<tr><td> {{book.cb1}}20120201{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20120201{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.2.niv {{book.b2}} Daniel 2     {{book.b3}} </td><td> 02/01/2012 </td>
-<tr><td> {{book.cb1}}20120208{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20120208{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.3.niv {{book.b2}} Daniel 3     {{book.b3}} </td><td> 02/08/2012 </td>
-<tr><td> {{book.cb1}}20120215{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20120215{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.4.niv {{book.b2}} Daniel 4     {{book.b3}} </td><td> 02/15/2012 </td>
-<tr><td> {{book.cb1}}20120222{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20120222{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.5.niv {{book.b2}} Daniel 5     {{book.b3}} </td><td> 02/22/2012 </td>
-<tr><td> {{book.cb1}}20120229{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20120229{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.6.niv {{book.b2}} Daniel 6     {{book.b3}} </td><td> 02/29/2012 </td>
-<tr><td> {{book.cb1}}20120307{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20120307{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.7.niv {{book.b2}} Daniel 7     {{book.b3}} </td><td> 03/07/2012 </td>
-<tr><td> {{book.cb1}}20120314{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20120314{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.8.niv {{book.b2}} Daniel 8     {{book.b3}} </td><td> 03/14/2012 </td>
-<tr><td> {{book.cb1}}20120321{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20120321{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.9.niv {{book.b2}} Daniel 9     {{book.b3}} </td><td> 03/21/2012 </td>
-<tr><td> {{book.cb1}}20120328{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20120328{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.10.niv{{book.b2}} Daniel 10    {{book.b3}} </td><td> 03/28/2012 </td>
-<tr><td> {{book.cb1}}20120411{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20120411{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11    {{book.b3}} </td><td> 04/11/2012 </td>
-<tr><td> {{book.cb1}}20120418{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20120418{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11-12 {{book.b3}} </td><td> 04/18/2012 </td>
-
-</table>
-</div>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20120125`, scripture: `dan.1@@Daniel 1`,      },
+    { id: `20120201`, scripture: `dan.2@@Daniel 2`,      },
+    { id: `20120208`, scripture: `dan.3@@Daniel 3`,      },
+    { id: `20120215`, scripture: `dan.4@@Daniel 4`,      },
+    { id: `20120222`, scripture: `dan.5@@Daniel 5`,      },
+    { id: `20120229`, scripture: `dan.6@@Daniel 6`,      },
+    { id: `20120307`, scripture: `dan.7@@Daniel 7`,      },
+    { id: `20120314`, scripture: `dan.8@@Daniel 8`,      },
+    { id: `20120321`, scripture: `dan.9@@Daniel 9`,      },
+    { id: `20120328`, scripture: `dan.10@@Daniel 10`,    },
+    { id: `20120411`, scripture: `dan.11@@Daniel 11`,    },
+    { id: `20120418`, scripture: `dan.11@@Daniel 11-12`, },
+  ]
+}) }M
 
 
 ## 2019 Daniel Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20190901{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20190901{{book.cst2}} Standing Strong in a Wayward World    {{book.cst3}} <br/> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1:1-8  {{book.b3}} </td><td> 09/01/2019 <br/> {{book.csg1}}20190901.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190908{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20190908{{book.cst2}} Faithfulness Rewarded                 {{book.cst3}} <br/> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1:8-21 {{book.b3}} </td><td> 09/08/2019 <br/> {{book.csg1}}20190908.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190915{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20190915{{book.cst2}} Kings and Kingdoms                    {{book.cst3}} <br/> {{book.b1}}111/dan.2.niv {{book.b2}} Daniel 2      {{book.b3}} </td><td> 09/15/2019 <br/> {{book.csg1}}20190915.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190922{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20190922{{book.cst2}} True Faith                            {{book.cst3}} <br/> {{book.b1}}111/dan.3.niv {{book.b2}} Daniel 3      {{book.b3}} </td><td> 09/22/2019 <br/> {{book.csg1}}20190922.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190929{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20190929{{book.cst2}} Who is King of Your Life?             {{book.cst3}} <br/> {{book.b1}}111/dan.4.niv {{book.b2}} Daniel 4      {{book.b3}} </td><td> 09/29/2019 <br/> {{book.csg1}}20190929.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191006{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20191006{{book.cst2}} When God Weighs Us                    {{book.cst3}} <br/> {{book.b1}}111/dan.5.niv {{book.b2}} Daniel 5      {{book.b3}} </td><td> 10/06/2019 <br/> {{book.csg1}}20191006.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191013{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20191013{{book.cst2}} Lessons from the Lions’ Den           {{book.cst3}} <br/> {{book.b1}}111/dan.6.niv {{book.b2}} Daniel 6      {{book.b3}} </td><td> 10/13/2019 <br/> {{book.csg1}}20191013.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191020{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20191020{{book.cst2}} The Coming Antichrist                 {{book.cst3}} <br/> {{book.b1}}111/dan.7.niv {{book.b2}} Daniel 7-8    {{book.b3}} </td><td> 10/20/2019 <br/> {{book.csg1}}20191020.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191027{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20191027{{book.cst2}} God’s Kindness Leads us to Repentance {{book.cst3}} <br/> {{book.b1}}111/dan.9.niv {{book.b2}} Daniel 9      {{book.b3}} </td><td> 10/27/2019 <br/> {{book.csg1}}20191027.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191103{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20191103{{book.cst2}} 5 Things That Hinder Our Prayers      {{book.cst3}} <br/> {{book.b1}}111/dan.10.niv{{book.b2}} Daniel 10     {{book.b3}} </td><td> 11/03/2019 <br/> {{book.csg1}}20191103.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191110{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20191110{{book.cst2}} The End Times                         {{book.cst3}} <br/> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11-12  {{book.b3}} </td><td> 11/10/2019 <br/> {{book.csg1}}20191110.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20190901{{book.cb2}} 1.  {{book.cb3}} </td><td> {{book.cst1}}20190901{{book.cst2}} Standing Strong in a Wayward World    {{book.cst3}} </td><td> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1:1-8  {{book.b3}} </td><td> 09/01/2019 </td><td> {{book.csg1}}20190901.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190908{{book.cb2}} 2.  {{book.cb3}} </td><td> {{book.cst1}}20190908{{book.cst2}} Faithfulness Rewarded                 {{book.cst3}} </td><td> {{book.b1}}111/dan.1.niv {{book.b2}} Daniel 1:8-21 {{book.b3}} </td><td> 09/08/2019 </td><td> {{book.csg1}}20190908.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190915{{book.cb2}} 3.  {{book.cb3}} </td><td> {{book.cst1}}20190915{{book.cst2}} Kings and Kingdoms                    {{book.cst3}} </td><td> {{book.b1}}111/dan.2.niv {{book.b2}} Daniel 2      {{book.b3}} </td><td> 09/15/2019 </td><td> {{book.csg1}}20190915.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190922{{book.cb2}} 4.  {{book.cb3}} </td><td> {{book.cst1}}20190922{{book.cst2}} True Faith                            {{book.cst3}} </td><td> {{book.b1}}111/dan.3.niv {{book.b2}} Daniel 3      {{book.b3}} </td><td> 09/22/2019 </td><td> {{book.csg1}}20190922.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190929{{book.cb2}} 5.  {{book.cb3}} </td><td> {{book.cst1}}20190929{{book.cst2}} Who is King of Your Life?             {{book.cst3}} </td><td> {{book.b1}}111/dan.4.niv {{book.b2}} Daniel 4      {{book.b3}} </td><td> 09/29/2019 </td><td> {{book.csg1}}20190929.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191006{{book.cb2}} 6.  {{book.cb3}} </td><td> {{book.cst1}}20191006{{book.cst2}} When God Weighs Us                    {{book.cst3}} </td><td> {{book.b1}}111/dan.5.niv {{book.b2}} Daniel 5      {{book.b3}} </td><td> 10/06/2019 </td><td> {{book.csg1}}20191006.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191013{{book.cb2}} 7.  {{book.cb3}} </td><td> {{book.cst1}}20191013{{book.cst2}} Lessons from the Lions’ Den           {{book.cst3}} </td><td> {{book.b1}}111/dan.6.niv {{book.b2}} Daniel 6      {{book.b3}} </td><td> 10/13/2019 </td><td> {{book.csg1}}20191013.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191020{{book.cb2}} 8.  {{book.cb3}} </td><td> {{book.cst1}}20191020{{book.cst2}} The Coming Antichrist                 {{book.cst3}} </td><td> {{book.b1}}111/dan.7.niv {{book.b2}} Daniel 7-8    {{book.b3}} </td><td> 10/20/2019 </td><td> {{book.csg1}}20191020.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191027{{book.cb2}} 9.  {{book.cb3}} </td><td> {{book.cst1}}20191027{{book.cst2}} God’s Kindness Leads us to Repentance {{book.cst3}} </td><td> {{book.b1}}111/dan.9.niv {{book.b2}} Daniel 9      {{book.b3}} </td><td> 10/27/2019 </td><td> {{book.csg1}}20191027.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191103{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20191103{{book.cst2}} 5 Things That Hinder Our Prayers      {{book.cst3}} </td><td> {{book.b1}}111/dan.10.niv{{book.b2}} Daniel 10     {{book.b3}} </td><td> 11/03/2019 </td><td> {{book.csg1}}20191103.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20191110{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20191110{{book.cst2}} The End Times                         {{book.cst3}} </td><td> {{book.b1}}111/dan.11.niv{{book.b2}} Daniel 11-12  {{book.b3}} </td><td> 11/10/2019 </td><td> {{book.csg1}}20191110.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-
-
-<script>
-  pageSetup();
-</script>
+M{ sermonSeries({
+  entries: [
+    { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  },
+    { id: `20190908`, sermon: `Faithfulness Rewarded`,                 scripture: `dan.1@@Daniel 1:8-21`, },
+    { id: `20190915`, sermon: `Kings and Kingdoms`,                    scripture: `dan.2@@Daniel 2`,      },
+    { id: `20190922`, sermon: `True Faith`,                            scripture: `dan.3@@Daniel 3`,      },
+    { id: `20190929`, sermon: `Who is King of Your Life?`,             scripture: `dan.4@@Daniel 4`,      },
+    { id: `20191006`, sermon: `When God Weighs Us`,                    scripture: `dan.5@@Daniel 5`,      },
+    { id: `20191013`, sermon: `Lessons from the Lions’ Den`,           scripture: `dan.6@@Daniel 6`,      },
+    { id: `20191020`, sermon: `The Coming Antichrist`,                 scripture: `dan.7@@Daniel 7-8`,    },
+    { id: `20191027`, sermon: `God’s Kindness Leads us to Repentance`, scripture: `dan.9@@Daniel 9`,      },
+    { id: `20191103`, sermon: `5 Things That Hinder Our Prayers`,      scripture: `dan.10@@Daniel 10`,    },
+    { id: `20191110`, sermon: `The End Times`,                         scripture: `dan.11@@Daniel 11-12`, },
+  ]
+}) }M

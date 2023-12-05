@@ -1,7 +1,5 @@
 # Lamentations
 
-<script type="text/javascript" src="utils.js"></script>
-
 **Jerusalem has fallen**
 
 Israel’s exile was the direct result of their constant rebellion
@@ -66,29 +64,12 @@ with a God who hears the cries of his people.
 
 > [Lamentations Introduction](https://bibleproject.com/explore/video/lamentations/)
 
-<center>
-  <figure>
-    <div id="Lamentations_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Lamentations_BP', 'Lamentations_BP.png', 75);
-</script>
+M{ zoomableImg(`Lamentations_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelLamentationsVideo"
-          id="SpokenGospelLamentationsVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/ZjG3ys9DLcI"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube(`ZjG3ys9DLcI`) }M
 
 
 
@@ -96,50 +77,23 @@ with a God who hears the cries of his people.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
+M{ sermonSeries({
+  entries: [
+    { id: `20190407`, sermon: `Every Morning is Another Chance`, scripture: `lam.1@@Lamentations 1-5`, },
+  ]
+}) }M
 
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} <br/> {{book.b1}}111/lam.1.niv{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 <br/> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20190407{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20190407{{book.cst2}} Every Morning is Another Chance {{book.cst3}} </td><td> {{book.b1}}111/lam.1.niv{{book.b2}} Lamentations 1-5 {{book.b3}} </td><td> 04/07/2019 </td><td> {{book.csg1}}20190407.pdf{{book.csg2}} </td>
-
-</table>
-</div>
 
 
 ## 2023 Lamentations Series (My Small Group)
 
 {{book.FBM}}
 
-
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         <br/> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 1. {{book.cb3}} </td><td> Good         </td><td> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
-
-
-
-<script>
-  pageSetup();
-</script>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20230827`, sermon: `TXT@@Good`, scripture: `lam.3@@Lamentations 3:19-33`, date:`08/27/2023`, },
+  ]
+}) }M

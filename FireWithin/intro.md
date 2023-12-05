@@ -1,5 +1,3 @@
-<script type="text/javascript" src="utils.js"></script>
-
 # Fire Within
 
 <img class="diagram"
@@ -107,7 +105,7 @@ _In Him,_
 <br/>**&lt;/Kevin&gt;**
 <br/><span id="inquire"></span>
 <script>
-  addInquire('Fire%20Within%20Feedback');
+  fw.addInquire('Fire%20Within%20Feedback');
 </script>
 
 <mark>**P.S.**:</mark> To get the most out of this site, I recommend

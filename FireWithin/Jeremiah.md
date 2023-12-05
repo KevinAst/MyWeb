@@ -1,7 +1,5 @@
 # Jeremiah
 
-<script type="text/javascript" src="utils.js"></script>
-
 **Judah was given a final chance**
 
 The people of Israel repeatedly refused to listen to Yahweh’s
@@ -64,29 +62,12 @@ picture of how disobedience leads to destruction.
 
 > [Jeremiah Introduction](https://bibleproject.com/explore/video/jeremiah/)
 
-<center>
-  <figure>
-    <div id="Jeremiah_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Jeremiah_BP', 'Jeremiah_BP.png', 75);
-</script>
+M{ zoomableImg(`Jeremiah_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelJeremiahVideo"
-          id="SpokenGospelJeremiahVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/TVdLahnSY3o"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube(`TVdLahnSY3o`) }M
 
 
 
@@ -94,111 +75,51 @@ picture of how disobedience leads to destruction.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20181021{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20181021{{book.cst2}} Broken Cisterns                     {{book.cst3}} <br/> {{book.b1}}111/jer.1.niv{{book.b2}}  Jeremiah 1-2    {{book.b3}} </td><td> 10/21/2018 <br/> {{book.csg1}}20181021.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181028{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20181028{{book.cst2}} A Serious Wound                     {{book.cst3}} <br/> {{book.b1}}111/jer.3.niv{{book.b2}}  Jeremiah 3-6    {{book.b3}} </td><td> 10/28/2018 <br/> {{book.csg1}}20181028.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181104{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20181104{{book.cst2}} Wisdom for the Crossroads           {{book.cst3}} <br/> {{book.b1}}111/jer.6.niv{{book.b2}}  Jeremiah 6:16   {{book.b3}} </td><td> 11/04/2018 <br/> {{book.csg1}}20181104.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181111{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20181111{{book.cst2}} Something to Boast About            {{book.cst3}} <br/> {{book.b1}}111/jer.7.niv{{book.b2}}  Jeremiah 7-9    {{book.b3}} </td><td> 11/11/2018 <br/> {{book.csg1}}20181111.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181118{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20181118{{book.cst2}} A Prayer for Idol Hearts            {{book.cst3}} <br/> {{book.b1}}111/jer.10.niv{{book.b2}} Jeremiah 10     {{book.b3}} </td><td> 11/18/2018 <br/> {{book.csg1}}20181118.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181125{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20181125{{book.cst2}} The Right Way to See a Wrong World  {{book.cst3}} <br/> {{book.b1}}111/jer.11.niv{{book.b2}} Jeremiah 11-12  {{book.b3}} </td><td> 11/25/2018 <br/> {{book.csg1}}20181125.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181202{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20181202{{book.cst2}} A Life that Bears God's Name        {{book.cst3}} <br/> {{book.b1}}111/jer.13.niv{{book.b2}} Jeremiah 13-15  {{book.b3}} </td><td> 12/02/2018 <br/> {{book.csg1}}20181202.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190106{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20190106{{book.cst2}} A Change of Heart                   {{book.cst3}} <br/> {{book.b1}}111/jer.16.niv{{book.b2}} Jeremiah 16-17  {{book.b3}} </td><td> 01/06/2019 <br/> {{book.csg1}}20190106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190120{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life              {{book.cst3}} <br/> {{book.b1}}111/jer.18.niv{{book.b2}} Jeremiah 18-19  {{book.b3}} </td><td> 01/20/2019 <br/> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190127{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20190127{{book.cst2}} Good Things Out of a Bad Place      {{book.cst3}} <br/> {{book.b1}}111/jer.24.niv{{book.b2}} Jeremiah 24     {{book.b3}} </td><td> 01/27/2019 <br/> {{book.csg1}}20190127.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190203{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20190203{{book.cst2}} Stand for What is Right             {{book.cst3}} <br/> {{book.b1}}111/jer.25.niv{{book.b2}} Jeremiah 25-26  {{book.b3}} </td><td> 02/03/2019 <br/> {{book.csg1}}20190203.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190210{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20190210{{book.cst2}} Restoration                         {{book.cst3}} <br/> {{book.b1}}111/jer.29.niv{{book.b2}} Jeremiah 29-31  {{book.b3}} </td><td> 02/10/2019 <br/> {{book.csg1}}20190210.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190217{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20190217{{book.cst2}} A Principled Life                   {{book.cst3}} <br/> {{book.b1}}111/jer.35.niv{{book.b2}} Jeremiah 35     {{book.b3}} </td><td> 02/17/2019 <br/> {{book.csg1}}20190217.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190224{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20190224{{book.cst2}} Don't Lose Sight of God             {{book.cst3}} <br/> {{book.b1}}111/jer.36.niv{{book.b2}} Jeremiah 36-39  {{book.b3}} </td><td> 02/24/2019 <br/> {{book.csg1}}20190224.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190303{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20190303{{book.cst2}} The Remnant                         {{book.cst3}} <br/> {{book.b1}}111/jer.40.niv{{book.b2}} Jeremiah 40-42  {{book.b3}} </td><td> 03/03/2019 <br/> {{book.csg1}}20190303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190310{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20190310{{book.cst2}} Courage for the Discouraged         {{book.cst3}} <br/> {{book.b1}}111/jer.45.niv{{book.b2}} Jeremiah 45     {{book.b3}} </td><td> 03/10/2019 <br/> {{book.csg1}}20190310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190317{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20190317{{book.cst2}} Don't "Wine" About It               {{book.cst3}} <br/> {{book.b1}}111/jer.46.niv{{book.b2}} Jeremiah 46-48  {{book.b3}} </td><td> 03/17/2019 <br/> {{book.csg1}}20190317.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190331{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20190331{{book.cst2}} Lessons from Babylon                {{book.cst3}} <br/> {{book.b1}}111/jer.49.niv{{book.b2}} Jeremiah 49-52  {{book.b3}} </td><td> 03/31/2019 <br/> {{book.csg1}}20190331.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20181021{{book.cb2}}  1. {{book.cb3}} </td><td> {{book.cst1}}20181021{{book.cst2}} Broken Cisterns                     {{book.cst3}} </td><td> {{book.b1}}111/jer.1.niv{{book.b2}}  Jeremiah 1-2    {{book.b3}} </td><td> 10/21/2018 </td><td> {{book.csg1}}20181021.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181028{{book.cb2}}  2. {{book.cb3}} </td><td> {{book.cst1}}20181028{{book.cst2}} A Serious Wound                     {{book.cst3}} </td><td> {{book.b1}}111/jer.3.niv{{book.b2}}  Jeremiah 3-6    {{book.b3}} </td><td> 10/28/2018 </td><td> {{book.csg1}}20181028.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181104{{book.cb2}}  3. {{book.cb3}} </td><td> {{book.cst1}}20181104{{book.cst2}} Wisdom for the Crossroads           {{book.cst3}} </td><td> {{book.b1}}111/jer.6.niv{{book.b2}}  Jeremiah 6:16   {{book.b3}} </td><td> 11/04/2018 </td><td> {{book.csg1}}20181104.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181111{{book.cb2}}  4. {{book.cb3}} </td><td> {{book.cst1}}20181111{{book.cst2}} Something to Boast About            {{book.cst3}} </td><td> {{book.b1}}111/jer.7.niv{{book.b2}}  Jeremiah 7-9    {{book.b3}} </td><td> 11/11/2018 </td><td> {{book.csg1}}20181111.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181118{{book.cb2}}  5. {{book.cb3}} </td><td> {{book.cst1}}20181118{{book.cst2}} A Prayer for Idol Hearts            {{book.cst3}} </td><td> {{book.b1}}111/jer.10.niv{{book.b2}} Jeremiah 10     {{book.b3}} </td><td> 11/18/2018 </td><td> {{book.csg1}}20181118.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181125{{book.cb2}}  6. {{book.cb3}} </td><td> {{book.cst1}}20181125{{book.cst2}} The Right Way to See a Wrong World  {{book.cst3}} </td><td> {{book.b1}}111/jer.11.niv{{book.b2}} Jeremiah 11-12  {{book.b3}} </td><td> 11/25/2018 </td><td> {{book.csg1}}20181125.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20181202{{book.cb2}}  7. {{book.cb3}} </td><td> {{book.cst1}}20181202{{book.cst2}} A Life that Bears God's Name        {{book.cst3}} </td><td> {{book.b1}}111/jer.13.niv{{book.b2}} Jeremiah 13-15  {{book.b3}} </td><td> 12/02/2018 </td><td> {{book.csg1}}20181202.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190106{{book.cb2}}  8. {{book.cb3}} </td><td> {{book.cst1}}20190106{{book.cst2}} A Change of Heart                   {{book.cst3}} </td><td> {{book.b1}}111/jer.16.niv{{book.b2}} Jeremiah 16-17  {{book.b3}} </td><td> 01/06/2019 </td><td> {{book.csg1}}20190106.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190120{{book.cb2}}  9. {{book.cb3}} </td><td> {{book.cst1}}20190120{{book.cst2}} Sanctity of Human Life              {{book.cst3}} </td><td> {{book.b1}}111/jer.18.niv{{book.b2}} Jeremiah 18-19  {{book.b3}} </td><td> 01/20/2019 </td><td> {{book.csg1}}20190120.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190127{{book.cb2}} 10. {{book.cb3}} </td><td> {{book.cst1}}20190127{{book.cst2}} Good Things Out of a Bad Place      {{book.cst3}} </td><td> {{book.b1}}111/jer.24.niv{{book.b2}} Jeremiah 24     {{book.b3}} </td><td> 01/27/2019 </td><td> {{book.csg1}}20190127.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190203{{book.cb2}} 11. {{book.cb3}} </td><td> {{book.cst1}}20190203{{book.cst2}} Stand for What is Right             {{book.cst3}} </td><td> {{book.b1}}111/jer.25.niv{{book.b2}} Jeremiah 25-26  {{book.b3}} </td><td> 02/03/2019 </td><td> {{book.csg1}}20190203.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190210{{book.cb2}} 12. {{book.cb3}} </td><td> {{book.cst1}}20190210{{book.cst2}} Restoration                         {{book.cst3}} </td><td> {{book.b1}}111/jer.29.niv{{book.b2}} Jeremiah 29-31  {{book.b3}} </td><td> 02/10/2019 </td><td> {{book.csg1}}20190210.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190217{{book.cb2}} 13. {{book.cb3}} </td><td> {{book.cst1}}20190217{{book.cst2}} A Principled Life                   {{book.cst3}} </td><td> {{book.b1}}111/jer.35.niv{{book.b2}} Jeremiah 35     {{book.b3}} </td><td> 02/17/2019 </td><td> {{book.csg1}}20190217.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190224{{book.cb2}} 14. {{book.cb3}} </td><td> {{book.cst1}}20190224{{book.cst2}} Don't Lose Sight of God             {{book.cst3}} </td><td> {{book.b1}}111/jer.36.niv{{book.b2}} Jeremiah 36-39  {{book.b3}} </td><td> 02/24/2019 </td><td> {{book.csg1}}20190224.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190303{{book.cb2}} 15. {{book.cb3}} </td><td> {{book.cst1}}20190303{{book.cst2}} The Remnant                         {{book.cst3}} </td><td> {{book.b1}}111/jer.40.niv{{book.b2}} Jeremiah 40-42  {{book.b3}} </td><td> 03/03/2019 </td><td> {{book.csg1}}20190303.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190310{{book.cb2}} 16. {{book.cb3}} </td><td> {{book.cst1}}20190310{{book.cst2}} Courage for the Discouraged         {{book.cst3}} </td><td> {{book.b1}}111/jer.45.niv{{book.b2}} Jeremiah 45     {{book.b3}} </td><td> 03/10/2019 </td><td> {{book.csg1}}20190310.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190317{{book.cb2}} 17. {{book.cb3}} </td><td> {{book.cst1}}20190317{{book.cst2}} Don't "Wine" About It               {{book.cst3}} </td><td> {{book.b1}}111/jer.46.niv{{book.b2}} Jeremiah 46-48  {{book.b3}} </td><td> 03/17/2019 </td><td> {{book.csg1}}20190317.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20190331{{book.cb2}} 18. {{book.cb3}} </td><td> {{book.cst1}}20190331{{book.cst2}} Lessons from Babylon                {{book.cst3}} </td><td> {{book.b1}}111/jer.49.niv{{book.b2}} Jeremiah 49-52  {{book.b3}} </td><td> 03/31/2019 </td><td> {{book.csg1}}20190331.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-
+M{ sermonSeries({
+  entries: [
+    { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,     },
+    { id: `20181028`, sermon: `A Serious Wound`,                    scripture: `jer.3@@Jeremiah 3-6`,     },
+    { id: `20181104`, sermon: `Wisdom for the Crossroads`,          scripture: `jer.6@@Jeremiah 6:16`,    },
+    { id: `20181111`, sermon: `Something to Boast About`,           scripture: `jer.7@@Jeremiah 7-9`,     },
+    { id: `20181118`, sermon: `A Prayer for Idol Hearts`,           scripture: `jer.10@@Jeremiah 10`,     },
+    { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,  },
+    { id: `20181202`, sermon: `A Life that Bears God's Name`,       scripture: `jer.13@@Jeremiah 13-15`,  },
+    { id: `20190106`, sermon: `A Change of Heart`,                  scripture: `jer.16@@Jeremiah 16-17`,  },
+    { id: `20190120`, sermon: `Sanctity of Human Life`,             scripture: `jer.18@@Jeremiah 18-19`,  },
+    { id: `20190127`, sermon: `Good Things Out of a Bad Place`,     scripture: `jer.24@@Jeremiah 24`,     },
+    { id: `20190203`, sermon: `Stand for What is Right`,            scripture: `jer.25@@Jeremiah 25-26`,  },
+    { id: `20190210`, sermon: `Restoration`,                        scripture: `jer.29@@Jeremiah 29-31`,  },
+    { id: `20190217`, sermon: `A Principled Life`,                  scripture: `jer.35@@Jeremiah 35`,     },
+    { id: `20190224`, sermon: `Don't Lose Sight of God`,            scripture: `jer.36@@Jeremiah 36-39`,  },
+    { id: `20190303`, sermon: `The Remnant`,                        scripture: `jer.40@@Jeremiah 40-42`,  },
+    { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,     },
+    { id: `20190317`, sermon: `Don't "Wine" About It`,              scripture: `jer.46@@Jeremiah 46-48`,  },
+    { id: `20190331`, sermon: `Lessons from Babylon`,               scripture: `jer.49@@Jeremiah 49-52`,  },
+  ]
+}) }M
 
 
 ## 2023 Jeremiah Series (My Small Group)
 
 {{book.FBM}}
 
-
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}SG20230604{{book.cb2}}  1. {{book.cb3}} </td><td> Prepares     <br/> {{book.b1}}111/jer.1.niv{{book.b2}}  Jeremiah 1:4-19         {{book.b3}} </td><td> 06/04/2023 </td>
-<tr><td> {{book.cb1}}SG20230611{{book.cb2}}  2. {{book.cb3}} </td><td> Judges       <br/> {{book.b1}}111/jer.2.niv{{book.b2}}  Jeremiah 2:1-13         {{book.b3}} </td><td> 06/11/2023 </td>
-<tr><td> {{book.cb1}}SG20230618{{book.cb2}}  3. {{book.cb3}} </td><td> Personal     <br/> {{book.b1}}111/jer.7.niv{{book.b2}}  Jeremiah 7:1-15         {{book.b3}} </td><td> 06/18/2023 </td>
-<tr><td> {{book.cb1}}SG20230625{{book.cb2}}  4. {{book.cb3}} </td><td> Exclusive    <br/> {{book.b1}}111/jer.12.niv{{book.b2}} Jeremiah 12:1-13        {{book.b3}} </td><td> 06/25/2023 </td>
-<tr><td> {{book.cb1}}SG20230702{{book.cb2}}  5. {{book.cb3}} </td><td> Shapes       <br/> {{book.b1}}111/jer.18.niv{{book.b2}} Jeremiah 18:1-12        {{book.b3}} </td><td> 07/02/2023 </td>
-<tr><td> {{book.cb1}}SG20230709{{book.cb2}}  6. {{book.cb3}} </td><td> Rules        <br/> {{book.b1}}111/jer.23.niv{{book.b2}} Jeremiah 23:1-12        {{book.b3}} </td><td> 07/09/2023 </td>
-<tr><td> {{book.cb1}}SG20230716{{book.cb2}}  7. {{book.cb3}} </td><td> Present      <br/> {{book.b1}}111/jer.29.niv{{book.b2}} Jeremiah 29:4-14        {{book.b3}} </td><td> 07/16/2023 </td>
-<tr><td> {{book.cb1}}SG20230723{{book.cb2}}  8. {{book.cb3}} </td><td> Redeems      <br/> {{book.b1}}111/jer.31.niv{{book.b2}} Jeremiah 31:23-34       {{book.b3}} </td><td> 07/23/2023 </td>
-<tr><td> {{book.cb1}}SG20230730{{book.cb2}}  9. {{book.cb3}} </td><td> Worthy       <br/> {{book.b1}}111/jer.35.niv{{book.b2}} Jeremiah 35:5-19        {{book.b3}} </td><td> 07/30/2023 </td>
-<tr><td> {{book.cb1}}SG20230806{{book.cb2}} 10. {{book.cb3}} </td><td> Speaks       <br/> {{book.b1}}111/jer.36.niv{{book.b2}} Jeremiah 36:19-31       {{book.b3}} </td><td> 08/06/2023 </td>
-<tr><td> {{book.cb1}}SG20230813{{book.cb2}} 11. {{book.cb3}} </td><td> Trustworthy  <br/> {{book.b1}}111/jer.42.niv{{book.b2}} Jeremiah 42:7-22        {{book.b3}} </td><td> 08/13/2023 </td>
-<tr><td> {{book.cb1}}SG20230820{{book.cb2}} 12. {{book.cb3}} </td><td> Just         <br/> {{book.b1}}111/jer.50.niv{{book.b2}} Jeremiah 50:11-20,33-34 {{book.b3}} </td><td> 08/20/2023 </td>
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 13. {{book.cb3}} </td><td> Good         <br/> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}SG20230604{{book.cb2}}  1. {{book.cb3}} </td><td> Prepares     </td><td> {{book.b1}}111/jer.1.niv{{book.b2}}  Jeremiah 1:4-19         {{book.b3}} </td><td> 06/04/2023 </td>
-<tr><td> {{book.cb1}}SG20230611{{book.cb2}}  2. {{book.cb3}} </td><td> Judges       </td><td> {{book.b1}}111/jer.2.niv{{book.b2}}  Jeremiah 2:1-13         {{book.b3}} </td><td> 06/11/2023 </td>
-<tr><td> {{book.cb1}}SG20230618{{book.cb2}}  3. {{book.cb3}} </td><td> Personal     </td><td> {{book.b1}}111/jer.7.niv{{book.b2}}  Jeremiah 7:1-15         {{book.b3}} </td><td> 06/18/2023 </td>
-<tr><td> {{book.cb1}}SG20230625{{book.cb2}}  4. {{book.cb3}} </td><td> Exclusive    </td><td> {{book.b1}}111/jer.12.niv{{book.b2}} Jeremiah 12:1-13        {{book.b3}} </td><td> 06/25/2023 </td>
-<tr><td> {{book.cb1}}SG20230702{{book.cb2}}  5. {{book.cb3}} </td><td> Shapes       </td><td> {{book.b1}}111/jer.18.niv{{book.b2}} Jeremiah 18:1-12        {{book.b3}} </td><td> 07/02/2023 </td>
-<tr><td> {{book.cb1}}SG20230709{{book.cb2}}  6. {{book.cb3}} </td><td> Rules        </td><td> {{book.b1}}111/jer.23.niv{{book.b2}} Jeremiah 23:1-12        {{book.b3}} </td><td> 07/09/2023 </td>
-<tr><td> {{book.cb1}}SG20230716{{book.cb2}}  7. {{book.cb3}} </td><td> Present      </td><td> {{book.b1}}111/jer.29.niv{{book.b2}} Jeremiah 29:4-14        {{book.b3}} </td><td> 07/16/2023 </td>
-<tr><td> {{book.cb1}}SG20230723{{book.cb2}}  8. {{book.cb3}} </td><td> Redeems      </td><td> {{book.b1}}111/jer.31.niv{{book.b2}} Jeremiah 31:23-34       {{book.b3}} </td><td> 07/23/2023 </td>
-<tr><td> {{book.cb1}}SG20230730{{book.cb2}}  9. {{book.cb3}} </td><td> Worthy       </td><td> {{book.b1}}111/jer.35.niv{{book.b2}} Jeremiah 35:5-19        {{book.b3}} </td><td> 07/30/2023 </td>
-<tr><td> {{book.cb1}}SG20230806{{book.cb2}} 10. {{book.cb3}} </td><td> Speaks       </td><td> {{book.b1}}111/jer.36.niv{{book.b2}} Jeremiah 36:19-31       {{book.b3}} </td><td> 08/06/2023 </td>
-<tr><td> {{book.cb1}}SG20230813{{book.cb2}} 11. {{book.cb3}} </td><td> Trustworthy  </td><td> {{book.b1}}111/jer.42.niv{{book.b2}} Jeremiah 42:7-22        {{book.b3}} </td><td> 08/13/2023 </td>
-<tr><td> {{book.cb1}}SG20230820{{book.cb2}} 12. {{book.cb3}} </td><td> Just         </td><td> {{book.b1}}111/jer.50.niv{{book.b2}} Jeremiah 50:11-20,33-34 {{book.b3}} </td><td> 08/20/2023 </td>
-<tr><td> {{book.cb1}}SG20230827{{book.cb2}} 13. {{book.cb3}} </td><td> Good         </td><td> {{book.b1}}111/lam.3.niv{{book.b2}}  Lamentations 3:19-33    {{book.b3}} </td><td> 08/27/2023 </td>
-
-</table>
-</div>
-
-
-
-<script>
-  pageSetup();
-</script>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20230604`, sermon: `TXT@@Prepares`,    scripture: `jer.1@@Jeremiah 1:4-19`,          date:`06/04/2023`, },
+    { id: `SG20230611`, sermon: `TXT@@Judges`,      scripture: `jer.2@@Jeremiah 2:1-13`,          date:`06/11/2023`, },
+    { id: `SG20230618`, sermon: `TXT@@Personal`,    scripture: `jer.7@@Jeremiah 7:1-15`,          date:`06/18/2023`, },
+    { id: `SG20230625`, sermon: `TXT@@Exclusive`,   scripture: `jer.12@@Jeremiah 12:1-13`,        date:`06/25/2023`, },
+    { id: `SG20230702`, sermon: `TXT@@Shapes`,      scripture: `jer.18@@Jeremiah 18:1-12`,        date:`07/02/2023`, },
+    { id: `SG20230709`, sermon: `TXT@@Rules`,       scripture: `jer.23@@Jeremiah 23:1-12`,        date:`07/09/2023`, },
+    { id: `SG20230716`, sermon: `TXT@@Present`,     scripture: `jer.29@@Jeremiah 29:4-14`,        date:`07/16/2023`, },
+    { id: `SG20230723`, sermon: `TXT@@Redeems`,     scripture: `jer.31@@Jeremiah 31:23-34`,       date:`07/23/2023`, },
+    { id: `SG20230730`, sermon: `TXT@@Worthy`,      scripture: `jer.35@@Jeremiah 35:5-19`,        date:`07/30/2023`, },
+    { id: `SG20230806`, sermon: `TXT@@Speaks`,      scripture: `jer.36@@Jeremiah 36:19-31`,       date:`08/06/2023`, },
+    { id: `SG20230813`, sermon: `TXT@@Trustworthy`, scripture: `jer.42@@Jeremiah 42:7-22`,        date:`08/13/2023`, },
+    { id: `SG20230820`, sermon: `TXT@@Just`,        scripture: `jer.50@@Jeremiah 50:11-20,33-34`, date:`08/20/2023`, },
+    { id: `SG20230827`, sermon: `TXT@@Good`,        scripture: `lam.3@@Lamentations 3:19-33`,     date:`08/27/2023`, },
+  ]
+}) }M

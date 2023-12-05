@@ -1,7 +1,5 @@
 # Galatians
 
-<script type="text/javascript" src="utils.js"></script>
-
 The book of Galatians reminds Jesus’ followers to embrace the Gospel
 message of the crucified Messiah, that justifies all people through
 faith and empowers them to live like Jesus did.
@@ -59,30 +57,12 @@ covenant.
 
 > [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
 
-<center>
-  <figure>
-    <div id="Galatians_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Galatians_BP', 'Galatians_BP.png', 75);
-</script>
+M{ zoomableImg(`Galatians_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelGalatiansVideo"
-          id="SpokenGospelGalatiansVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/SnBQG07x0ow"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
-
+M{ youTube(`SnBQG07x0ow`) }M
 
 
 
@@ -90,70 +70,27 @@ covenant.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} <br/> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 <br/> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} <br/> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 <br/> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20100131{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20100131{{book.cst2}} Jesus Only        {{book.cst3}} </td><td> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1-3 {{book.b3}} </td><td> 01/31/2010 </td><td> {{book.csg1}}20100131.pdf{{book.csg2}} </td>
-<tr><td> {{book.cb1}}20100214{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20100214{{book.cst2}} The Battle Within {{book.cst3}} </td><td> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-6 {{book.b3}} </td><td> 02/14/2010 </td><td> {{book.csg1}}20100214.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
+M{ sermonSeries({
+  entries: [
+    { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Gal 1-3`, },
+    { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Gal 4-6`, },
+  ]
+}) }M
 
 
 ## 2017 Galatians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
-<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
-<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
-<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
-<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} <br/> {{book.b1}}111/gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20170621{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20170621{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.1.niv{{book.b2}} Gal 1         {{book.b3}} </td><td> 06/21/2017 </td>
-<tr><td> {{book.cb1}}20170628{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20170628{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.2.niv{{book.b2}} Gal 2         {{book.b3}} </td><td> 06/28/2017 </td>
-<tr><td> {{book.cb1}}20170705{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20170705{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.3.niv{{book.b2}} Gal 3         {{book.b3}} </td><td> 07/05/2017 </td>
-<tr><td> {{book.cb1}}20170712{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20170712{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.4.niv{{book.b2}} Gal 4-5:13    {{book.b3}} </td><td> 07/12/2017 </td>
-<tr><td> {{book.cb1}}20170719{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20170719{{book.cst2}} Teaching {{book.cst3}} </td><td> {{book.b1}}111/gal.5.niv{{book.b2}} Gal 5:13-6:18 {{book.b3}} </td><td> 07/19/2017 </td>
-
-</table>
-</div>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20170621`, scripture: `gal.1@@Gal 1`,         },
+    { id: `20170628`, scripture: `gal.2@@Gal 2`,         },
+    { id: `20170705`, scripture: `gal.3@@Gal 3`,         },
+    { id: `20170712`, scripture: `gal.4@@Gal 4-5:13`,    },
+    { id: `20170719`, scripture: `gal.5@@Gal 5:13-6:18`, },
+  ]
+}) }M

@@ -1,7 +1,5 @@
 # Getting Started
 
-<script type="text/javascript" src="utils.js"></script>
-
 Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.
 It is, _at it's core_, simply a consolidated list of resource links to
 help you in your Bible Study.  With that said, this section highlights
@@ -159,13 +157,25 @@ remembered the next time you come back.
        width="70%">
 </center>
 
-> Please understand that the "Complete Checkbox" state is held in your
+**At a higher level**, you can also <mark>keep track of which books of
+the Bible you have completed</mark>.  This is summarized in both the
+{{book.OldTestament}} and {{book.NewTestament}} pages, and also found
+at the top-right of each page that represents a book of the Bible.
+
+> Please Note that the "Complete Checkbox" state is held in your
 > local device.  That means the status will not follow you when you
 > use multiple devices _(say a laptop and a cell phone)_.  In other
 > words, it's really the status of the device you are using.
 > 
 > This feature is merely meant to be a convenience, and was
 > implemented using the simplest technique.
+
+
+## Bible Translation
+
+The {{book.Settings}} page has a **User Preference** that allows you to specify which
+{{book.BibleTranslation}} you wish to use ... **check it out**!
+
 
 ## Diagrams
 
@@ -191,12 +201,4 @@ following features:
 > Try this out for yourself with the following sample _(taken from the
 > [Revelation](Revelation.md) series)_:
 
-<center>
-  <figure>
-    <div id="RevelationTimeline_CS2"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('RevelationTimeline_CS2', 'RevelationTimeline_CS.png', 75);
-</script>
+M{ zoomableImg(`RevelationTimeline_CS`) }M

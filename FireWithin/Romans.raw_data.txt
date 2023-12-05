@@ -1,148 +1,158 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*---------------------
+* 2009 Series (Sunday) WITH SELECTED Study Guides
+*---------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
-*----------------------------
-* 2009 Series (Sunday) SELECTED Study Guides
-*----------------------------
-
-09/20/2009 <<< WITH Study Guide
+09/20/2009
 Unity in the Church
 Rom 14-16
-111/rom.14.niv
+rom.14
 
-09/13/2009 <<< WITH Study Guide
+09/13/2009
 Offering Your Body
 Rom 12-13
-111/rom.12.niv
+rom.12
 
-09/06/2009 <<< WITH Study Guide
+09/06/2009
 Why Israel Matters
 Rom 9-11
-111/rom.9.niv
+rom.9
 
 08/30/2009
 The Sin Battle
 Rom 6-8
-111/rom.6.niv
+rom.6
 
 08/16/2009
 What a Gift!
 Rom 3-5
-111/rom.3.niv
+rom.3
 
-08/09/2009 <<< WEIRD - ONLY AUDIO -and- NO Study Guide
+08/09/2009
 Good News and Bad News
 Rom 1-2
-111/rom.1.niv
+rom.1
 
 
-*----------------------------
+*-----------------------
 * 2016 Series (Mid Week) NO Study Guide
-*----------------------------
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 10/12/2016
 Teaching
 Rom 15-16
-111/rom.15.niv
+rom.15
 
 10/05/2016
 Teaching
 Rom 14
-111/rom.14.niv
+rom.14
 
 09/28/2016
 Teaching
 Rom 13
-111/rom.13.niv
+rom.13
 
 09/21/2016
 Teaching
 Rom 12:3-21
-111/rom.12.niv
+rom.12
 
 09/07/2016
 Teaching
 Rom 11:25-12:2
-111/rom.11.niv
+rom.11
 
 08/31/2016
 Teaching
 Rom 11:1-27
-111/rom.11.niv
+rom.11
 
 08/24/2016
 Teaching
 Rom 9:16-10:21
-111/rom.9.niv
+rom.9
 
 08/17/2016
 Teaching
 Rom 8:28-9:16
-111/rom.8.niv
+rom.8
 
 08/10/2016
 Teaching
 Rom 8:1-27
-111/rom.8.niv
+rom.8
 
 08/03/2016
 Teaching
 Rom 6:15-7:25
-111/rom.6.niv
+rom.6
 
 07/27/2016
 Teaching
 Rom 5:12-6:14
-111/rom.5.niv
+rom.5
 
 06/15/2016
 Teaching
 Rom 4-5:11
-111/rom.4.niv
+rom.4
 
 06/08/2016
 Teaching
 Rom 3
-111/rom.3.niv
+rom.3
 
 06/01/2016
 Teaching
 Rom 2
-111/rom.2.niv
+rom.2
 
 05/25/2016
 Teaching
 Rom 1:25-32
-111/rom.1.niv
+rom.1
 
 05/18/2016
 Teaching
 Rom 1:1-25
-111/rom.1.niv
+rom.1
 
 
-*----------------------------
-* 2021 Miscellaneous NO Study Guide
-*----------------------------
 
-11/01/2021 <<< BAD ... using: 20211031 should be: 20211101
+*-----------------
+* 2021 Romans Misc NO Study Guide
+*-----------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+10/31/2021
 God Over Government (Matthew Maher)
 Rom 13
-111/rom.13.niv
+rom.13
+
+>> FOR ABOVE ********************************************************************************
+** ID MISSMATCH
+   CornerStone UI shows date: 11/01/2021 (a Monday) ... which is id: 20211101
+   CornerStone URL uses date: 10/31/2021 (a Sunday) ... which is id: 20211031 ... https://cornerstonechapel.net/teaching/20211031
+   FIX: This is simply a miss-match in the UI (nothing more) ... just use the real ID (20211031) and all is good!
+        NOTHING FOR US TO DO HERE
 
 10/17/2021
 Conformed or Transformed? (Tony Clark)
 Rom 12:1-2
-111/rom.12.niv
+rom.12
 
 09/26/2021
 The Mystery of the Blindness (Amir Tsarfati)
 Rom 11:25
-111/rom.11.niv
+rom.11
 
 09/22/2021
 The True Nature of God (Barrett Phillips)
 Rom 1:16-25
-111/rom.1.niv
+rom.1
 

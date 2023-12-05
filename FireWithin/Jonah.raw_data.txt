@@ -1,28 +1,26 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*-------
+* Series WITH selected Study Guide
+*-------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
-* Series ?? WITH Study Guide
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/05/2020
 The Mercy of God
 JONAH
-111/jon.1.niv
+jon.1
 
 09/12/2012
 Teaching
 JONAH 3-4
-111/jon.3.niv
+jon.3
 
 09/05/2012
 Teaching
 JONAH 2
-111/jon.2.niv
+jon.2
 
 08/29/2012
 Teaching
 JONAH 1
-111/jon.1.niv
+jon.1
 

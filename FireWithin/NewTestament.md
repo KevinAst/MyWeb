@@ -14,37 +14,37 @@ The New Testament books fall into five general categories
 _([find out more](https://overviewbible.com/new-testament-books/))_:
 
 1. The Gospels:
-   - {{book.Matthew}}
-   - {{book.Mark}}
-   - {{book.Luke}}
-   - {{book.John}}
+   - M{ completedCheckBox(`Matthew`) }M         {{book.Matthew}}
+   - M{ completedCheckBox(`Mark`) }M            {{book.Mark}}
+   - M{ completedCheckBox(`Luke`) }M            {{book.Luke}}
+   - M{ completedCheckBox(`John`) }M            {{book.John}}
 2. The single book of Acts
-   - {{book.Acts}}
+   - M{ completedCheckBox(`Acts`) }M            {{book.Acts}}
 3. Paul’s letters to churches:
-   - {{book.Romans}}
-   - {{book.1Corinthians}}
-   - {{book.2Corinthians}}
-   - {{book.Galatians}}
-   - {{book.Ephesians}}
-   - {{book.Philippians}}
-   - {{book.Colossians}}
-   - {{book.1Thessalonians}}
-   - {{book.2Thessalonians}}
+   - M{ completedCheckBox(`Romans`) }M          {{book.Romans}}
+   - M{ completedCheckBox(`1Corinthians`) }M    {{book.1Corinthians}}
+   - M{ completedCheckBox(`2Corinthians`) }M    {{book.2Corinthians}}
+   - M{ completedCheckBox(`Galatians`) }M       {{book.Galatians}}
+   - M{ completedCheckBox(`Ephesians`) }M       {{book.Ephesians}}
+   - M{ completedCheckBox(`Philippians`) }M     {{book.Philippians}}
+   - M{ completedCheckBox(`Colossians`) }M      {{book.Colossians}}
+   - M{ completedCheckBox(`1Thessalonians`) }M  {{book.1Thessalonians}}
+   - M{ completedCheckBox(`2Thessalonians`) }M  {{book.2Thessalonians}}
 4. Paul’s letters to church leaders:
-   - {{book.1Timothy}}
-   - {{book.2Timothy}}
-   - {{book.Titus}}
-   - {{book.Philemon}}
+   - M{ completedCheckBox(`1Timothy`) }M        {{book.1Timothy}}
+   - M{ completedCheckBox(`2Timothy`) }M        {{book.2Timothy}}
+   - M{ completedCheckBox(`Titus`) }M           {{book.Titus}}
+   - M{ completedCheckBox(`Philemon`) }M        {{book.Philemon}}
 5. A collection of letters sent out (mostly) to large groups of people:
-   - {{book.Hebrews}}
-   - {{book.James}}
-   - {{book.1Peter}}
-   - {{book.2Peter}}
-   - {{book.1John}}
-   - {{book.2John}}
-   - {{book.3John}}
-   - {{book.Jude}}
-   - {{book.Revelation}}
+   - M{ completedCheckBox(`Hebrews`) }M         {{book.Hebrews}}
+   - M{ completedCheckBox(`James`) }M           {{book.James}}
+   - M{ completedCheckBox(`1Peter`) }M          {{book.1Peter}}
+   - M{ completedCheckBox(`2Peter`) }M          {{book.2Peter}}
+   - M{ completedCheckBox(`1John`) }M           {{book.1John}}
+   - M{ completedCheckBox(`2John`) }M           {{book.2John}}
+   - M{ completedCheckBox(`3John`) }M           {{book.3John}}
+   - M{ completedCheckBox(`Jude`) }M            {{book.Jude}}
+   - M{ completedCheckBox(`Revelation`) }M      {{book.Revelation}}
 
 > Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
 > To request a specific book to be added, please see the {{book.WorkInProgress}} section.

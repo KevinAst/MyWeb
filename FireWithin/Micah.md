@@ -1,7 +1,5 @@
 # Micah
 
-<script type="text/javascript" src="utils.js"></script>
-
 **Micah announces God's judgment against Israel.**
 
 Israel has exploited the poor and twisted the laws of the Torah, and
@@ -56,63 +54,26 @@ messianic King to rule over the people and bless all the nations.
 
 > [Micah Introduction](https://bibleproject.com/explore/video/micah/)
 
-<center>
-  <figure>
-    <div id="Micah_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Micah_BP', 'Micah_BP.png', 75);
-</script>
+M{ zoomableImg(`Micah_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-> _As of 10/2022 Spoken Gospel has no Micah introduction_
+M{ youTube(`ok2VvP34Lw4`) }M
 
 
 ## Micah Series
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20120919{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120919{{book.cst2}} Teaching                 {{book.cst3}} <br/> {{book.b1}}111/mic.1.niv{{book.b2}} MICAH 1-2 {{book.b3}} </td><td> 09/19/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120926{{book.cst2}} Teaching                 {{book.cst3}} <br/> {{book.b1}}111/mic.3.niv{{book.b2}} MICAH 3-4 {{book.b3}} </td><td> 09/26/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20121010{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20121010{{book.cst2}} Teaching                 {{book.cst3}} <br/> {{book.b1}}111/mic.5.niv{{book.b2}} MICAH 5-7 {{book.b3}} </td><td> 10/10/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20200112{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200112{{book.cst2}} The Sea of Forgetfulness {{book.cst3}} <br/> {{book.b1}}111/mic.1.niv{{book.b2}} MICAH     {{book.b3}} </td><td> 01/12/2020 <br/> {{book.csg1}}20200112.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20120919{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120919{{book.cst2}} Teaching                 {{book.cst3}} </td><td> {{book.b1}}111/mic.1.niv{{book.b2}} MICAH 1-2 {{book.b3}} </td><td> 09/19/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120926{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120926{{book.cst2}} Teaching                 {{book.cst3}} </td><td> {{book.b1}}111/mic.3.niv{{book.b2}} MICAH 3-4 {{book.b3}} </td><td> 09/26/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20121010{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20121010{{book.cst2}} Teaching                 {{book.cst3}} </td><td> {{book.b1}}111/mic.5.niv{{book.b2}} MICAH 5-7 {{book.b3}} </td><td> 10/10/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20200112{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20200112{{book.cst2}} The Sea of Forgetfulness {{book.cst3}} </td><td> {{book.b1}}111/mic.1.niv{{book.b2}} MICAH     {{book.b3}} </td><td> 01/12/2020 </td><td> {{book.csg1}}20200112.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>
+M{ sermonSeries({
+  settings: {
+  //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
+  },
+  entries: [
+    { id: `20120919`, sermon: `Teaching`,                 scripture: `mic.1@@MICAH 1-2`, studyGuide: `NONE`, },
+    { id: `20120926`, sermon: `Teaching`,                 scripture: `mic.3@@MICAH 3-4`, studyGuide: `NONE`, },
+    { id: `20121010`, sermon: `Teaching`,                 scripture: `mic.5@@MICAH 5-7`, studyGuide: `NONE`, },
+    { id: `20200112`, sermon: `The Sea of Forgetfulness`, scripture: `mic.1@@MICAH`,                         },
+  ]
+}) }M

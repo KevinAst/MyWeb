@@ -1,25 +1,31 @@
-2010 Series (Sundays) WITH Study Guide  **********************************************************************
+*----------------------
+* 2010 Series (Sundays) WITH Study Guide
+*----------------------
 
 NOTE: This series covers both First and Second Thessalonians
       Simply copy it verbadum from 1Thessalonians.md
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 
-2018 Series (Mid Week) NO Study Guide  **********************************************************************
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
+*-----------------------
+* 2018 Series (Mid Week) NO Study Guide
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 05/16/2018
 Teaching
 2 Thess 2:13-3:18
-111/2th.2.niv
+2th.2
 
 05/09/2018
 Teaching
 2 Thess 2:1-12
-111/2th.2.niv
+2th.2
 
 05/02/2018
 Teaching
 2 Thess 1
-111/2th.1.niv
+2th.1
 

@@ -1,7 +1,5 @@
 # Hosea
 
-<script type="text/javascript" src="utils.js"></script>
-
 **Hosea accuses Israel of breaking their covenant with God**
 
 The northern kingdom of Israel enjoyed moderate success from
@@ -69,29 +67,12 @@ remains.
 
 > [Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
 
-<center>
-  <figure>
-    <div id="Hosea_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('Hosea_BP', 'Hosea_BP.png', 75);
-</script>
+M{ zoomableImg(`Hosea_BP`) }M
 
 
 **{{book.SpokenGospel}}**
 
-<p align="center">
-  <iframe name="SpokenGospelHoseaVideo"
-          id="SpokenGospelHoseaVideo"
-          width="577"
-          height="325"
-          src="https://www.youtube.com/embed/rcgm96YYflk"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
-</p>
+M{ youTube(`rcgm96YYflk`) }M
 
 
 
@@ -100,50 +81,15 @@ remains.
 
 {{book.CornerstoneChapel}}
 
-<!-- MASTER: vertical layout for "cell phone" responsive show/hide -->
-<div class="phone">
-<table>
-
-<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.2.niv {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.4.niv {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.6.niv {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.7.niv {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.10.niv{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} <br/> {{book.b1}}111/hos.12.niv{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 <br/>                                        </td>
-<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} <br/> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 <br/> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-<!-- COPY: horizontal layout for "desktop/tablet" responsive show/hide (simply add 2 columns to header and replace TWO FROM <br/> TO </td><td> -->
-<div class="desktop">
-<table>
-
-<tr><td> {{book.cb1}}20120425{{book.cb2}} 1. {{book.cb3}} </td><td> {{book.cst1}}20120425{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA 1      {{book.b3}} </td><td> 04/25/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120502{{book.cb2}} 2. {{book.cb3}} </td><td> {{book.cst1}}20120502{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.2.niv {{book.b2}} HOSEA 2-3    {{book.b3}} </td><td> 05/02/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120509{{book.cb2}} 3. {{book.cb3}} </td><td> {{book.cst1}}20120509{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.4.niv {{book.b2}} HOSEA 4-5    {{book.b3}} </td><td> 05/09/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120516{{book.cb2}} 4. {{book.cb3}} </td><td> {{book.cst1}}20120516{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.6.niv {{book.b2}} HOSEA 6-7    {{book.b3}} </td><td> 05/16/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120523{{book.cb2}} 5. {{book.cb3}} </td><td> {{book.cst1}}20120523{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.7.niv {{book.b2}} HOSEA 7:10-9 {{book.b3}} </td><td> 05/23/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120606{{book.cb2}} 6. {{book.cb3}} </td><td> {{book.cst1}}20120606{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.10.niv{{book.b2}} HOSEA 10-11  {{book.b3}} </td><td> 06/06/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20120613{{book.cb2}} 7. {{book.cb3}} </td><td> {{book.cst1}}20120613{{book.cst2}} Teaching               {{book.cst3}} </td><td> {{book.b1}}111/hos.12.niv{{book.b2}} HOSEA 12-14  {{book.b3}} </td><td> 06/13/2012 </td><td>                                        </td>
-<tr><td> {{book.cb1}}20191117{{book.cb2}} 8. {{book.cb3}} </td><td> {{book.cst1}}20191117{{book.cst2}} God Will Take You Back {{book.cst3}} </td><td> {{book.b1}}111/hos.1.niv {{book.b2}} HOSEA        {{book.b3}} </td><td> 11/17/2019 </td><td> {{book.csg1}}20191117.pdf{{book.csg2}} </td>
-
-</table>
-</div>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>
+M{ sermonSeries({
+  entries: [
+    { id: `20120425`,                                   scripture: `hos.1@@HOSEA 1`,      studyGuide: `NONE`, },
+    { id: `20120502`,                                   scripture: `hos.2@@HOSEA 2-3`,    studyGuide: `NONE`, },
+    { id: `20120509`,                                   scripture: `hos.4@@HOSEA 4-5`,    studyGuide: `NONE`, },
+    { id: `20120516`,                                   scripture: `hos.6@@HOSEA 6-7`,    studyGuide: `NONE`, },
+    { id: `20120523`,                                   scripture: `hos.7@@HOSEA 7:10-9`, studyGuide: `NONE`, },
+    { id: `20120606`,                                   scripture: `hos.10@@HOSEA 10-11`, studyGuide: `NONE`, },
+    { id: `20120613`,                                   scripture: `hos.12@@HOSEA 12-14`, studyGuide: `NONE`, },
+    { id: `20191117`, sermon: `God Will Take You Back`, scripture: `hos.1@@HOSEA`,                            },
+  ]
+}) }M

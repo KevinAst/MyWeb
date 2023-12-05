@@ -1,6 +1,6 @@
 # Table of content 
 
-### Fire Within (18.0)
+### Fire Within (vXX)
 
 - [Welcome](intro.md)
   * [Technology](intro.md#technology)
@@ -9,12 +9,17 @@
   * [God Bless You](intro.md#god-bless-you)
 
 ----
+- [Settings](settings.md)
+  * [Bible Translation](settings.md#bible-translation)
+
+----
 - [Getting Started](start.md)
   * [Basic Appearance](start.md#basic-appearance)
   * [Going Home](start.md#going-home)
   * [Left Nav Bar](start.md#left-nav-bar)
   * [Resource Links](start.md#resource-links)
   * [Where Am I?](start.md#where-am-i)
+  * [Bible Translation](start.md#bible-translation)
   * [Diagrams](start.md#diagrams)
 
 - [Work In Progress](WorkInProgress.md)
@@ -107,6 +112,7 @@
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
   * [Easter](Easter.md)
+  * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
 
 ----

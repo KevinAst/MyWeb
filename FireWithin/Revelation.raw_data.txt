@@ -1,263 +1,269 @@
-2020-2021 Series (Mid Week) **********************************************************************
+*----------------------
+* 2011 Series (Sundays) WITH selected Study Guide
+*----------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-03/10/2021
-Revelation Question & Answer
-Revelation
-111/rev.1.niv
-
-03/03/2021
-Teaching
-Rev 22:2-21
-111/rev.22.niv
-
-02/24/2021
-Teaching
-Rev 21:9-22:2
-111/rev.21.niv
-
-02/17/2021
-Teaching
-Rev 21
-111/rev.21.niv
-
-02/03/2021
-Teaching
-Rev 20:7-15
-111/rev.20.niv
-
-01/27/2021
-Teaching
-Rev 20:1-6
-111/rev.20.niv
-
-01/20/2021
-Teaching
-Rev 19:11-21
-111/rev.19.niv
-
-01/13/2021
-Teaching
-Rev 19:1-10
-111/rev.19.niv
-
-01/06/2021
-Teaching
-Rev 18
-111/rev.18.niv
-
-12/09/2020
-Teaching
-Rev 17
-111/rev.17.niv
-
-12/02/2020
-Teaching
-Rev 16:12-21
-111/rev.16.niv
-
-11/18/2020
-Teaching
-Rev 15-16:6
-111/rev.15.niv
-
-11/11/2020
-Teaching
-Rev 14
-111/rev.14.niv
-
-11/04/2020
-Teaching
-Rev 13:11-18
-111/rev.13.niv
-
-10/21/2020
-Teaching
-Rev 12-13:1-10
-111/rev.12.niv
-
-10/14/2020
-Teaching
-Rev 11:6-12:1-6
-111/rev.11.niv
-
-10/07/2020
-Teaching
-Rev 10-11:5
-111/rev.10.niv
-
-09/30/2020
-Teaching
-Rev 9
-111/rev.9.niv
-
-09/23/2020
-Teaching
-Rev 8
-111/rev.8.niv
-
-09/16/2020
-Teaching
-Rev 7
-111/rev.7.niv
-
-09/09/2020
-Teaching
-Rev 6
-111/rev.6.niv
-
-09/02/2020
-Teaching
-Rev 4-5
-111/rev.4.niv
-
-07/22/2020
-Midweek Service
-Rev 4:1-2
-111/rev.4.niv
-
-07/15/2020
-Teaching
-Rev 3:14-22
-111/rev.3.niv
-
-07/08/2020
-Teaching
-Rev 3:1-13
-111/rev.3.niv
-
-06/24/2020
-Teaching
-Rev 2:18-29
-111/rev.2.niv
-
-06/17/2020
-Teaching
-Rev 2:12-17
-111/rev.2.niv
-
-03/11/2020
-Teaching
-Rev 2:8-17
-111/rev.2.niv
-
-03/04/2020
-Teaching
-Rev 1:12-2:7
-111/rev.1.niv
-
-02/26/2020
-Teaching
-Rev 1:1-11
-111/rev.1.niv
-
-02/19/2020
-Teaching
-Rev INTRODUCTION
-111/rev.1.niv
-
-
-
-2011 Series (Sundays) ************************************************************
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 09/04/2011
 Revelation Question and Answer
 Revelation
-111/rev.1.niv
+rev.1
 
 08/28/2011
 A New Heaven and Earth
 Rev 21-22
-111/rev.21.niv
+rev.21
 
 08/21/2011
 Jesus Returns and Rules for 1000 Years
 Rev 19-20
-111/rev.19.niv
+rev.19
 
 08/14/2011
 The Rise and Fall of Babylon
 Rev 17-18
-111/rev.17.niv
+rev.17
 
 08/07/2011
 Armageddon And The 7 Bowls
 Rev 15-16
-111/rev.15.niv
+rev.15
 
 06/26/2011
 Angelic Announcements
 Rev 14
-111/rev.14.niv
+rev.14
 
 06/19/2011
 The Demonic Duo
 Rev 13
-111/rev.13.niv
+rev.13
 
 06/12/2011
 A Woman, a Child, and a Dragon
 Rev 12
-111/rev.12.niv
+rev.12
 
 06/05/2011
 Two Witnesses
 Rev 10-11
-111/rev.10.niv
+rev.10
 
 05/29/2011
 Blowing the Trumpets
 Rev 7-9
-111/rev.7.niv
+rev.7
 
 05/22/2011
 Breaking the Seals
 Rev 5-6
-111/rev.5.niv
+rev.5
 
 05/15/2011
 Ready for the Rapture
 Rev 4
-111/rev.4.niv
+rev.4
 
 05/08/2011
 The Lukewarm Church - The Church in Laodicea
 Rev 3:14-22
-111/rev.3.niv
+rev.3
 
 05/01/2011
 The Model Church - The Church in Philadelphia
 Rev 3:7-13
-111/rev.3.niv
+rev.3
 
 04/17/2011
 The Evaluation of Reputation - The Church in Sardis
 Rev 3:1-6
-111/rev.3.niv
+rev.3
 
 04/10/2011
 The Problem of Idolatry - The Church in Thyatira
 Rev 2:18-29
-111/rev.2.niv
+rev.2
 
 04/03/2011
 A Marriage of Compromise - The Church in Pergamum
 Rev 2:12-17
-111/rev.2.niv
+rev.2
 
 03/27/2011
 The Fragrance of Suffering - The Church in Smyrna
 Rev 2:8-11
-111/rev.2.niv
+rev.2
 
 03/20/2011
 Return to Your First Love - The Church in Ephesus
 Rev 2:1-7
-111/rev.2.niv
+rev.2
 
 03/13/2011
 Unlocking Revelation
 Rev 1
-111/rev.1.niv
+rev.1
+
+
+
+*----------------------------
+* 2020-2021 Series (Mid Week) NO Study Guide
+*----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+03/10/2021
+Question & Answer
+Revelation
+rev.1
+
+03/03/2021
+Teaching
+Rev 22:2-21
+rev.22
+
+02/24/2021
+Teaching
+Rev 21:9-22:2
+rev.21
+
+02/17/2021
+Teaching
+Rev 21
+rev.21
+
+02/03/2021
+Teaching
+Rev 20:7-15
+rev.20
+
+01/27/2021
+Teaching
+Rev 20:1-6
+rev.20
+
+01/20/2021
+Teaching
+Rev 19:11-21
+rev.19
+
+01/13/2021
+Teaching
+Rev 19:1-10
+rev.19
+
+01/06/2021
+Teaching
+Rev 18
+rev.18
+
+12/09/2020
+Teaching
+Rev 17
+rev.17
+
+12/02/2020
+Teaching
+Rev 16:12-21
+rev.16
+
+11/18/2020
+Teaching
+Rev 15-16:6
+rev.15
+
+11/11/2020
+Teaching
+Rev 14
+rev.14
+
+11/04/2020
+Teaching
+Rev 13:11-18
+rev.13
+
+10/21/2020
+Teaching
+Rev 12-13:1-10
+rev.12
+
+10/14/2020
+Teaching
+Rev 11:6-12:1-6
+rev.11
+
+10/07/2020
+Teaching
+Rev 10-11:5
+rev.10
+
+09/30/2020
+Teaching
+Rev 9
+rev.9
+
+09/23/2020
+Teaching
+Rev 8
+rev.8
+
+09/16/2020
+Teaching
+Rev 7
+rev.7
+
+09/09/2020
+Teaching
+Rev 6
+rev.6
+
+09/02/2020
+Teaching
+Rev 4-5
+rev.4
+
+07/22/2020
+Teaching
+Rev 4:1-2
+rev.4
+
+07/15/2020
+Teaching
+Rev 3:14-22
+rev.3
+
+07/08/2020
+Teaching
+Rev 3:1-13
+rev.3
+
+06/24/2020
+Teaching
+Rev 2:18-29
+rev.2
+
+06/17/2020
+Teaching
+Rev 2:12-17
+rev.2
+
+03/11/2020
+Teaching
+Rev 2:8-17
+rev.2
+
+03/04/2020
+Teaching
+Rev 1:12-2:7
+rev.1
+
+02/26/2020
+Teaching
+Rev 1:1-11
+rev.1
+
+02/19/2020
+Introduction
+Revelation
+rev.1
 

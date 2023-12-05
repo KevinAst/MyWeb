@@ -1,7 +1,5 @@
 # Work In Progress
 
-<script type="text/javascript" src="utils.js"></script>
-
 You may have noticed that this site is a work-in-progress.
 
 At the time of this writing I have compiled only a small number of
@@ -27,5 +25,5 @@ I continue my study.
 > when it is available!
 
 <script>
-  addInquire('Fire%20Within%20Book%20Request');
+  fw.addInquire('Fire%20Within%20Book%20Request');
 </script>

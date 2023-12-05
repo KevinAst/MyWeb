@@ -1,149 +1,149 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*---------------------
+* The Ten Commandments WITH Study Guide
+*---------------------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
-* The Ten Commandments ?? WITH Study Guide
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 12/16/2012
 Commandment #10 - The Grass Is Not Always Greener
 Exodus 20:17
-111/exo.20.niv
+exo.20
 
 12/09/2012
 Commandment #9 - Watch Your Mouth!
 Exodus 20:16
-111/exo.20.niv
+exo.20
 
 12/02/2012
 Commandment #8 - No Stealing
 Exodus 20:15
-111/exo.20.niv
+exo.20
 
 11/25/2012
 Commandment #7 - No Sexual Sin
 Exodus 20:14
-111/exo.20.niv
+exo.20
 
 11/18/2012
 Commandment #6 - No Murder
 Exodus 20:13
-111/exo.20.niv
+exo.20
 
 11/11/2012
 Commandment #5 - Honor Mom and Dad
 Exodus 20:12
-111/exo.20.niv
+exo.20
 
 10/28/2012
 Commandment #4 - Get Some Rest!
 Exodus 20:8-11
-111/exo.20.niv
+exo.20
 
 10/14/2012
 Commandment #3 - Don't Shame God's Name
 Exodus 20:7
-111/exo.20.niv
+exo.20
 
 10/07/2012
 Commandment #2 - No Idle Idols
 Exodus 20:4-6
-111/exo.20.niv
+exo.20
 
 09/30/2012
 Commandment #1 - No Other Gods
 Exodus 20:1-3
-111/exo.20.niv
+exo.20
 
 09/23/2012
 Intro to the Ten Commandments
 Exodus 19
-111/exo.19.niv
+exo.19
 
 
 
-*------------------------
-* Exodus Series ?? WITH Study Guide
-*------------------------
+*--------------
+* Exodus Series WITH Study Guide
+*--------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 02/24/2013
 The Dominant Nature of God
 Exodus 34-40
-111/exo.34.niv
+exo.34
 
 02/17/2013
 Lessons from a Golden Calf
 Exodus 32
-111/exo.32.niv
+exo.32
 
 02/10/2013
 The Priesthood and Jesus
 Exodus 28-31
-111/exo.28.niv
+exo.28
 
 02/03/2013
 The Tabernacle and Jesus
 Exodus 25-27
-111/exo.25.niv
+exo.25
 
 01/20/2013
 Little by Little
 Exodus 21-24
-111/exo.21.niv
+exo.21
 
 01/13/2013
 20:20 Vision - The Fear of God
 Exodus 20:20
-111/exo.20.niv
+exo.20
 
 09/16/2012
 When Battles Come
 Exodus 17-18
-111/exo.17.niv
+exo.17
 
 09/09/2012
 The Manna Miracle
 Exodus 16-17
-111/exo.16.niv
+exo.16
 
 09/02/2012
 Stop Complaining. Be Thankful.
 Exodus 15
-111/exo.15.niv
+exo.15
 
 08/26/2012
 It's Time To Move On
 Exodus 13-14
-111/exo.13.niv
+exo.13
 
 08/19/2012
 Christ, Our Passover Lamb
 Exodus 12
-111/exo.12.niv
+exo.12
 
 07/29/2012
 Ten Plagues and the Last God Standing
 Exodus 7-11
-111/exo.7.niv
+exo.7
 
 07/22/2012
 A Hard Heart
 Exodus 5-6
-111/exo.5.niv
+exo.5
 
 07/01/2012
 Overcoming the Moses Mindset
 Exodus 3-4
-111/exo.3.niv
+exo.3
 
 06/24/2012
 Timing is Everything
 Exodus 2
-111/exo.2.niv
+exo.2
 
 06/17/2012
 Handling Hardships
 Exodus 1
-111/exo.1.niv
+exo.1
 

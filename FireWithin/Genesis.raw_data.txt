@@ -1,369 +1,441 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
-
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
+*----------------------
 * 2011 Series (Sundays) WITH Study Guide
-*------------------------
+*----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 06/03/2012
 Forgive and Be Forgiven
 Gen 42-45
-111/gen.42.niv
+gen.42
 
 06/10/2012
 The Legacy We Leave
 Gen 46-50
-111/gen.46.niv
+gen.46
 
 05/20/2012
 In Your Dreams
 Gen 40-41
-111/gen.40.niv
+gen.40
 
 05/13/2012
 Fighting Temptation
 Gen 39
-111/gen.39.niv
+gen.39
 
 05/06/2012
 Understanding Temptation
 Gen 39
-111/gen.39.niv
+gen.39
 
 04/29/2012
 The Providence of God
 Gen 36-38
-111/gen.36.niv
+gen.36
 
 04/22/2012
 Burying the Past
 Gen 33-35
-111/gen.33.niv
+gen.33
 
 04/01/2012
 Wrestling with God
 Gen 30-32
-111/gen.30.niv
+gen.30
 
 03/25/2012
 For the Love of Leah
 Gen 29
-111/gen.29.niv
+gen.29
 
 03/18/2012
 Lessons From A Ladder
 Gen 28
-111/gen.28.niv
+gen.28
 
 03/11/2012
 In The Grip Of A Grudge
 Gen 27:41-46
-111/gen.27.niv
+gen.27
 
 03/04/2012
 A Web of Deception
 Gen 27:1-40
-111/gen.27.niv
+gen.27
 
 02/26/2012
 Jacob And Esau: Double Trouble
 Gen 25-26
-111/gen.25.niv
+gen.25
 
 02/19/2012
 A Wedding Story
 Gen 23-24
-111/gen.23.niv
+gen.23
 
 02/12/2012
 A Sacrifice of Love
 Gen 20-22
-111/gen.20.niv
+gen.20
 
 02/05/2012
 The Cost of Compromise
 Gen 18-19
-111/gen.18.niv
+gen.18
 
 01/29/2012
 Learning to Wait
 Gen 16-17
-111/gen.16.niv
+gen.16
 
 01/22/2012
 God is a Covenant God
 Gen 14-15
-111/gen.14.niv
+gen.14
 
 01/08/2012
 A Calling and a Blessing
 Gen 12-13
-111/gen.12.niv
+gen.12
 
 12/11/2011
 What's the Babble at Babel About?
 Gen 10-11
-111/gen.10.niv
+gen.10
 
 12/04/2011
 Lessons From The Flood
 Gen 5-9
-111/gen.5.niv
+gen.5
 
 11/06/2011
 Envy Kills
 Gen 4:8-16
-111/gen.4.niv
+gen.4
 
 10/30/2011
 Rejecting Cain
 Gen 3:21-4:7
-111/gen.3.niv
+gen.3
 
 10/23/2011
 Reverse the Curse
 Gen 3:14-20
-111/gen.3.niv
+gen.3
 
 10/16/2011
 Don't Eat That!
 Gen 3:6-13
-111/gen.3.niv
+gen.3
 
 10/09/2011
 Satan's Subtle Seduction
 Gen 3:1-5
-111/gen.3.niv
+gen.3
 
 09/25/2011
 Adam, Meet Madam
 Gen 2
-111/gen.2.niv
+gen.2
 
 09/18/2011
 Creation Sensation
 Gen 1
-111/gen.1.niv
+gen.1
 
 09/11/2011
 Introduction To Genesis
 Genesis Intro
-111/gen.1.niv
+gen.1
 
 
 
-*------------------------
+*-----------------------
 * 2010 Series (Mid Week) NO Study Guide
-*------------------------
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/18/2012
 Teaching
 Gen 49-50
-111/gen.49.niv
+gen.49
 
 01/11/2012
 Teaching
 Gen 47-48
-111/gen.47.niv
+gen.47
 
 01/04/2012
 Teaching
 Gen 45-46
-111/gen.45.niv
+gen.45
 
 12/14/2011
 Teaching
 Gen 43
-111/gen.43.niv
+gen.43
 
 12/07/2011
 Teaching
 Gen 42
-111/gen.42.niv
+gen.42
 
 11/30/2011
 Teaching
 Gen 40-41
-111/gen.40.niv
+gen.40
 
 11/09/2011
 Teaching
 Gen 39
-111/gen.39.niv
+gen.39
 
 10/26/2011
 Teaching
 Gen 38
-111/gen.38.niv
+gen.38
 
 10/19/2011
 Teaching
 Gen 36-37
-111/gen.36.niv
+gen.36
 
 10/12/2011
 Teaching
 Gen 35
-111/gen.35.niv
+gen.35
 
 09/28/2011
 Teaching
 Gen 33-34
-111/gen.33.niv
+gen.33
 
 09/21/2011
 Teaching
 Gen 31-32
-111/gen.31.niv
+gen.31
 
 09/14/2011
 Teaching
 Gen 29:31-30:43
-111/gen.29.niv
+gen.29
 
 08/31/2011
 Teaching
 Gen 28
-111/gen.28.niv
+gen.28
 
 08/24/2011
 Teaching
 Gen 27:18-28
-111/gen.27.niv
+gen.27
 
 08/10/2011
 Teaching
 Gen 26-27:18
-111/gen.26.niv
+gen.26
 
 06/29/2011
 Teaching
 Gen 25
-111/gen.25.niv
+gen.25
 
 06/22/2011
 Teaching
 Gen 24
-111/gen.24.niv
+gen.24
 
 06/15/2011
 Teaching
 Gen 22-23
-111/gen.22.niv
+gen.22
 
 06/08/2011
 Teaching
 Gen 20-21
-111/gen.20.niv
+gen.20
 
 05/25/2011
 Teaching
 Gen 19:17-38
-111/gen.19.niv
+gen.19
 
 05/18/2011
 Teaching
 Gen 18-19:17
-111/gen.18.niv
+gen.18
 
 05/11/2011
 Teaching
 Gen 16-17
-111/gen.16.niv
+gen.16
 
 04/27/2011
 Teaching
 Gen 15
-111/gen.15.niv
+gen.15
 
 04/13/2011
 Teaching
 Gen 14
-111/gen.14.niv
+gen.14
 
 04/06/2011
 Teaching
 Gen 12-13
-111/gen.12.niv
+gen.12
 
 03/30/2011
 Teaching
 Gen 11
-111/gen.11.niv
+gen.11
 
 03/23/2011
 Q&A: Gen 1-10 (Part II)
 Gen 1-10
-111/gen.1.niv
+gen.1
 
 03/16/2011
 Q&A: Gen 1-10 (Part I)
 Gen 1-10
-111/gen.1.niv
+gen.1
 
 03/09/2011
 Teaching
 Gen 9-10
-111/gen.9.niv
+gen.9
 
 03/02/2011
 Teaching
 Gen 7-8
-111/gen.7.niv
+gen.7
 
 02/23/2011
 Teaching
 Gen 6
-111/gen.6.niv
+gen.6
 
 02/16/2011
 Teaching
 Gen 4:14-5:32
-111/gen.4.niv
+gen.4
 
 02/09/2011
 Teaching
 Gen 3:20-4:16
-111/gen.3.niv
+gen.3
 
 02/02/2011
 Teaching
 Gen 3:6-20
-111/gen.3.niv
+gen.3
 
 01/19/2011
 Teaching
 Gen 3:1-6
-111/gen.3.niv
+gen.3
 
 01/12/2011
 Teaching
 Gen 2:15-25
-111/gen.2.niv
+gen.2
 
 01/05/2011
 Teaching
 Gen 2:1-14
-111/gen.2.niv
+gen.2
 
 12/15/2010
 Teaching
 Gen 1:24-31
-111/gen.1.niv
+gen.1
 
 12/01/2010
 Teaching
 Gen 1:3-23
-111/gen.1.niv
+gen.1
 
 11/17/2010
 Teaching
 Gen 1:1-2
-111/gen.1.niv
+gen.1
 
 11/10/2010
 Teaching
 Genesis Intro
-111/gen.1.niv
+gen.1
+
+
+*--------------------
+* 2023 Genesis Series (My Small Group)
+*--------------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+12/03/2023
+The First Week
+Genesis 1:1-5,26-2:3
+gen.1
+
+12/10/2023
+The First Couple
+Genesis 2:7-9,12-25
+gen.2
+
+12/17/2023
+The First Sin
+Genesis 3:1-7, 21-24
+gen.3
+
+12/24/2023
+The First Christmas
+Luke 2:1-15
+luk.2
+
+12/31/2023
+The First Murder
+Genesis 4:1-15
+gen.4
+
+01/07/2024
+Judgment
+Genesis 6:13-22; 7:20-24
+gen.6
+
+01/14/2024
+Land!
+Genesis 8:10-22
+gen.8
+
+01/21/2024
+Protect
+Genesis 9:1-15
+gen.9
+
+01/28/2024
+Stalled
+Genesis 11:1-9
+gen.11
+
+02/04/2024
+Promised
+Genesis 12:1-5a; 13:11-18
+gen.12
+
+02/11/2024
+Impatience*
+Genesis 15:1-6; 16:1-6
+gen.15
+
+02/18/2024
+Established
+Genesis 17:1-10,15-19
+gen.17
+
+02/25/2024
+Purged
+Genesis 19:12-26
+gen.19
 

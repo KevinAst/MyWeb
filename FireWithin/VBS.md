@@ -1,5 +1,4 @@
 # VBS 2023 - Twists & Turns
-<script type="text/javascript" src="utils.js"></script>
 
 Following Jesus changes EVERYTHING
 
@@ -93,58 +92,42 @@ _(last year: 471/247)_
 <table>
 
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Barrett{{book.cb2}}     Barrett <!-- <br/> Oliver -->             <br/> <img class="diagram" src="VBS_Kids_Barrett.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA1{{book.cb2}}         Cam     <!-- <br/> Alexander -->          <br/> <img class="diagram" src="VBS_Kids_Cam.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Carter2{{book.cb2}}     CarterF <!-- <br/> Foehrkalb -->          <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Barrett@@    Barrett <!-- <br/> Oliver -->     <br/> <img class="diagram" src="VBS_Kids_Barrett.jpg" width="100px"> `) }M </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA1@@        Cam     <!-- <br/> Alexander -->  <br/> <img class="diagram" src="VBS_Kids_Cam.jpg" width="100px">     `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Carter2@@    CarterF <!-- <br/> Foehrkalb -->  <br/> <img class="diagram" src="VBS_Kids_Carter2.jpg" width="100px"> `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Carter1{{book.cb2}}     CarterV <!-- <br/> Vasatka -->            <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Connor1{{book.cb2}}     ConnorL <!-- <br/> Lindsay -->            <br/> <img class="diagram" src="VBS_Kids_Connor1.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Connor2{{book.cb2}}     ConnorM <!-- <br/> Munro -->              <br/> <img class="diagram" src="VBS_Kids_Connor2.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Carter1@@    CarterV <!-- <br/> Vasatka -->    <br/> <img class="diagram" src="VBS_Kids_Carter1.jpg" width="100px"> `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Connor1@@    ConnorL <!-- <br/> Lindsay -->    <br/> <img class="diagram" src="VBS_Kids_Connor1.jpg" width="100px"> `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Connor2@@    ConnorM <!-- <br/> Munro -->      <br/> <img class="diagram" src="VBS_Kids_Connor2.jpg" width="100px"> `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Emric{{book.cb2}}       Emric <!-- <br/> Gotway -->               <br/> <img class="diagram" src="VBS_Kids_Emric.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Garrett{{book.cb2}}     Garrett <!-- <br/> Aden -->               <br/> <img class="diagram" src="VBS_Kids_Garrett.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA2{{book.cb2}}         Henry <!-- <br/> Crippen -->              <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Emric@@      Emric <!-- <br/> Gotway -->       <br/> <img class="diagram" src="VBS_Kids_Emric.jpg" width="100px">   `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Garrett@@    Garrett <!-- <br/> Aden -->       <br/> <img class="diagram" src="VBS_Kids_Garrett.jpg" width="100px"> `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA2@@        Henry <!-- <br/> Crippen -->      <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px"> `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_James{{book.cb2}}       James <!-- <br/> Hepp -->                 <br/> <img class="diagram" src="VBS_Kids_James.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Jett{{book.cb2}}        Jett <!-- <br/> Nazetta -->               <br/> <img class="diagram" src="VBS_Kids_Jett.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Liam{{book.cb2}}        Liam <!-- <br/> Schlechte -->             <br/> <img class="diagram" src="VBS_Kids_Liam.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_James@@      James <!-- <br/> Hepp -->         <br/> <img class="diagram" src="VBS_Kids_James.jpg" width="100px">   `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Jett@@       Jett <!-- <br/> Nazetta -->       <br/> <img class="diagram" src="VBS_Kids_Jett.jpg" width="100px">    `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Liam@@       Liam <!-- <br/> Schlechte -->     <br/> <img class="diagram" src="VBS_Kids_Liam.jpg" width="100px">    `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_NA3{{book.cb2}}         Luke <!-- <br/> Warner -->                <br/> <img class="diagram" src="VBS_Kids_Luke.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA4{{book.cb2}}         Miles <!-- <br/> Coleman -->              <br/> <img class="diagram" src="VBS_Kids_Miles.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_NA5{{book.cb2}}         Parker <!-- <br/> Coleman -->             <br/> <img class="diagram" src="VBS_Kids_Parker.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA3@@        Luke <!-- <br/> Warner -->        <br/> <img class="diagram" src="VBS_Kids_Luke.jpg" width="100px">    `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA4@@        Miles <!-- <br/> Coleman -->      <br/> <img class="diagram" src="VBS_Kids_Miles.jpg" width="100px">   `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA5@@        Parker <!-- <br/> Coleman -->     <br/> <img class="diagram" src="VBS_Kids_Parker.jpg" width="100px">  `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_NA6{{book.cb2}}         Ronan <!-- <br/> McGinnis -->             <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Samuel{{book.cb2}}      Samuel <!-- <br/> Conforti -->            <br/> <img class="diagram" src="VBS_Kids_Samuel.jpg" width="100px">  {{book.cb3}} </td>
-  <td>  {{book.cb1}}VBS_KIDS_Vince{{book.cb2}}       Vince <!-- <br/> Gunn -->                 <br/> <img class="diagram" src="VBS_Kids_Vince.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_NA6@@        Ronan <!-- <br/> McGinnis -->     <br/> <img class="diagram" src="VBS_Kids_Unknown.jpg" width="100px"> `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Samuel@@     Samuel <!-- <br/> Conforti -->    <br/> <img class="diagram" src="VBS_Kids_Samuel.jpg" width="100px">  `) }M  </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Vince@@      Vince <!-- <br/> Gunn -->         <br/> <img class="diagram" src="VBS_Kids_Vince.jpg" width="100px">   `) }M  </td>
 </tr>
 <tr>
-  <td>  {{book.cb1}}VBS_KIDS_Zane{{book.cb2}}        Zane <!-- <br/> Gedmin -->                <br/> <img class="diagram" src="VBS_Kids_Zane.jpg" width="100px">  {{book.cb3}} </td>
+  <td>  M{ completedCheckBox(`VBS_KIDS_Zane@@       Zane <!-- <br/> Gedmin -->        <br/> <img class="diagram" src="VBS_Kids_Zane.jpg" width="100px">    `) }M  </td>
   <td>  &nbsp; </td>
   <td>  &nbsp; </td>
 </tr>
 
 </table>
-
-
-
-<!-- TRASH ROSTER (TRASH - NO LONGER USED)
-
-<center>
-  <figure>
-    <div id="VBS_roster"></div>
-    <figcaption>ROSTER: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('VBS_roster', 'VBS_roster.png', 75);
-</script>
-
-    -->
 
 
 ## Memory Verse
@@ -196,14 +179,14 @@ _(last year: 471/247)_
 
 <table>
 
-<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
-<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  6:15-6:40 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
-<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:40-7:10 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
-<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    7:10-7:30 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
-<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 7:30-7:40 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
-<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:40-8:00 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
-<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   8:00-8:20 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
-<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_open@@      5:45-6:10 <br/><i>(25 mins)</i>    `) }M  </td><td> C204                    <br/> Opening Activities                        </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_worship@@   6:15-6:40 <br/><i>(25 mins)</i>    `) }M  </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_bible@@     6:40-7:10 <br/><i>(30 mins)</i>    `) }M  </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_snack@@     7:10-7:30 <br/><i>(20 mins)</i>    `) }M  </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_missions@@  7:30-7:40 <br/><i>(10 mins)</i>    `) }M  </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_reck@@      7:40-8:00 <br/><i>(20 mins)</i>    `) }M  </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_crafts@@    8:00-8:20 <br/><i>(20 mins)</i>    `) }M  </td><td> C204                    <br/> Crafts                                    </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_close@@     8:20-8:30 <br/><i>(10 mins)</i>    `) }M  </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
 
 </table>
 
@@ -212,14 +195,14 @@ _(last year: 471/247)_
 
 <table>
 
-<tr><td> {{book.cb1}}VBS_open{{book.cb2}}     5:45-6:10 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Opening Activities                        </td> </tr>
-<tr><td> {{book.cb1}}VBS_bible{{book.cb2}}    6:10-6:35 <br/><i>(25 mins)</i> {{book.cb3}} </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
-<tr><td> {{book.cb1}}VBS_snack{{book.cb2}}    6:35-6:55 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
-<tr><td> {{book.cb1}}VBS_missions{{book.cb2}} 6:55-7:05 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
-<tr><td> {{book.cb1}}VBS_reck{{book.cb2}}     7:05-7:25 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
-<tr><td> {{book.cb1}}VBS_crafts{{book.cb2}}   7:25-7:45 <br/><i>(20 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Crafts                                    </td> </tr>
-<tr><td> {{book.cb1}}VBS_worship{{book.cb2}}  7:45-8:15 <br/><i>(30 mins)</i> {{book.cb3}} </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
-<tr><td> {{book.cb1}}VBS_close{{book.cb2}}    8:20-8:30 <br/><i>(10 mins)</i> {{book.cb3}} </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_open@@      5:45-6:10 <br/><i>(25 mins)</i>    `) }M  </td><td> C204                    <br/> Opening Activities                        </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_bible@@     6:10-6:35 <br/><i>(25 mins)</i>    `) }M  </td><td> FBM Chapel              <br/> Bible Study #1                            </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_snack@@     6:35-6:55 <br/><i>(20 mins)</i>    `) }M  </td><td> C225 (Preteen Area)     <br/> Missions #2                               </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_missions@@  6:55-7:05 <br/><i>(10 mins)</i>    `) }M  </td><td> Middle School Cafeteria <br/> Snack                                     </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_reck@@      7:05-7:25 <br/><i>(20 mins)</i>    `) }M  </td><td> E Gym #3 (H.S)          <br/> Recreation                                </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_crafts@@    7:25-7:45 <br/><i>(20 mins)</i>    `) }M  </td><td> C204                    <br/> Crafts                                    </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_worship@@   7:45-8:15 <br/><i>(30 mins)</i>    `) }M  </td><td> Worship Center          <br/> Worship Rally                             </td> </tr>
+<tr><td> M{ completedCheckBox(`VBS_close@@     8:20-8:30 <br/><i>(10 mins)</i>    `) }M  </td><td> C204                    <br/> Closing Group Time / Review and Dismissal </td> </tr>
 
 </table>
 
@@ -438,48 +421,8 @@ believes in him receives forgiveness of sins."
 
 ## Maps
 
-<center>
-  <figure>
-    <div id="VBS_map1"></div>
-    <figcaption>BASE: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('VBS_map1', 'VBS_map1.jpg', 75);
-</script>
+M{ zoomableImg(`VBS_map1`) }M
 
-<center>
-  <figure>
-    <div id="VBS_map2"></div>
-    <figcaption>FIRST: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('VBS_map2', 'VBS_map2.jpg', 75);
-</script>
+M{ zoomableImg(`VBS_map2`) }M
 
-<center>
-  <figure>
-    <div id="VBS_map3"></div>
-    <figcaption>RECK: Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center>
-<script>
-  addZoomableImage('VBS_map3', 'VBS_map3.jpg', 75);
-</script>
-
-
-
-<script>
-  // explicitly invoke our page setup here
-  // - believe this is executed after all DOM elms (above) are up-and-running)
-  // - was having difficulty with following:
-  //      window.addEventListener('load', pageSetup());
-  //      * it was in fact executed EACH time the page is loaded
-  //      * HOWEVER the 'onload' event fired ONLY ONCE (not in navigating to other page and back)
-  //        - this must have something to do with how GITBOOK does it's navigation
-  //          ... not really sure
-
-  // handles BOTH registerImgClickFullScreenHandlers() & initializeCompletedChecks()
-  pageSetup();
-</script>
+M{ zoomableImg(`VBS_map3`) }M

@@ -251,7 +251,6 @@ At the end of this process you should have:
   package.json ...... enhance blog dependencies -and- blog scripts
 
   FireWithin/ ........... master source of GitBook FireWithin blog  see: "Setup Blog Tooling"
-    buildDocsInDev.js ... docs build script in dev (executed by nodemon)
     book.json ........... GitBook configuration
     toc.md .............. the summary TOC (seen in the left nav)
     intro.md ............ the Guide Introduction
@@ -373,33 +372,6 @@ At the end of this process you should have:
      }
      ```
 
-   - Define new docs build script:
-
-     **MyWeb/FireWithin/buildDocsInDev.js**
-     ```
-     // This script will execute a gitbook command to build our docs in a development env
-     //  - we need this because in development we want re-gen the docs anytime the master doc source changes
-     //  - we accomplish this through nodemon, which executes a node script NOT a gitbook command
-     //  - hence the reason for this script (a node script that simply passes-through to the gitbook command)
-
-     const {exec} = require("child_process");
-
-     const buildScript = 'gitbook build FireWithin MyPage/FireWithin';
-
-     console.log('buildDocsInDev executing: ' + buildScript);
-
-     exec(buildScript, (error, stdout, stderr) => {
-       if (error) {
-         console.log(`ERROR:\n${error.message}`);
-         return;
-       }
-       if (stderr) {
-         console.log(`stderr:\n${stderr}`);
-       }
-       console.log(`stdout:\n${stdout}`);
-     });
-     ```
-
 5. Install rimraf (used in npm scripts below)
 
    ```
@@ -415,7 +387,7 @@ At the end of this process you should have:
    ... snip snip
    "scripts": {
     ...
-     "blog:dev": "nodemon FireWithin/buildDocsInDev.js",
+     "blog:dev": "nodemon --exec \"npx gitbook build FireWithin MyPage/FireWithin\"",
      "blog:build": "gitbook build FireWithin MyPage/FireWithin",
      "blog:clean": "rimraf MyPage/FireWithin",
      "blog:gitbook:help": "gitbook help",

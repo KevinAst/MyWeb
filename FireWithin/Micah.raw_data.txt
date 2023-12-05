@@ -1,28 +1,26 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*--------
+* Series WITH selected Study Guide
+*--------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
-* Series ?? WITH Study Guide
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 01/12/2020
 The Sea of Forgetfulness
 MICAH
-111/mic.1.niv
+mic.1
 
 10/10/2012
 Teaching
 MICAH 5-7
-111/mic.5.niv
+mic.5
 
 09/26/2012
 Teaching
 MICAH 3-4
-111/mic.3.niv
+mic.3
 
 09/19/2012
 Teaching
 MICAH 1-2
-111/mic.1.niv
+mic.1
 

@@ -1,28 +1,26 @@
-* TEMPLATE -with- RAW DATA ********************************************************************************
+*-------
+* Series WITH Selected Study Guide
+*-------
 
-<tr><td> {{book.cb1}}$REF{{book.cb2}} X. {{book.cb3}} </td><td> {{book.cst1}}$REF{{book.cst2}} $DESC {{book.cst3}} <br/> {{book.b1}}$SCRIPT-REF{{book.b2}} $SCRIPT-DESC {{book.b3}} </td><td> $DATE <br/> {{book.csg1}}$REF.pdf{{book.csg2}} </td>
-
-*------------------------
-* Series ?? WITH Study Guide
-*------------------------
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
 12/08/2019
 Vertically True in a Crooked World
 AMOS
-111/amo.1.niv
+amo.1
 
 08/15/2012
 Teaching
 AMOS 7-9
-111/amo.7.niv
+amo.7
 
 08/01/2012
 Teaching
 AMOS 4-6
-111/amo.4.niv
+amo.4
 
 07/25/2012
 Teaching
 AMOS 1-3
-111/amo.1.niv
+amo.1
 
