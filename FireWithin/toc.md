@@ -79,7 +79,7 @@
 
 ----
 - [New Testament](NewTestament.md)
-  * [*Matthew**](WorkInProgress.md)
+  * [Matthew](Matthew.md)
   * [Mark](Mark.md)
   * [Luke](Luke.md)
   * [John](John.md)
