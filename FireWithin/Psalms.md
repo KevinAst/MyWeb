@@ -1,28 +1,13 @@
 # Psalms
 
-** Poetically retelling the entire biblical story ... **
-
-> Psalms begins with a short introduction that outlines the main themes
-> of the book by reviewing the story of the Torah and the hope of a
-> future Messiah.
-> 
-> The Psalms continue to develop these themes throughout the five
-> sections, called books. The first two sections explore the complicated
-> story of David and his royal family. The third section focuses on the
-> tragedy of Israel’s exile and the downfall of David’s royal line. But
-> the fourth and fifth sections rekindle the hope for the Messiah, a new
-> temple, and God’s Kingdom on the other side of the exile. Finally, the
-> book ends with a five-part conclusion, praising God for his
-> faithfulness.
-
-**Joy, Pain, and Prayer ... **
-
-> Through the Psalms, we learn about the importance of prayer and the
-> acknowledgment of pain, as well as the power of praise and fulfillment
-> of prophecy. This book has been designed as a prayer book for God’s
-> people as they wait for the arrival of the Messiah and the fulfillment
-> of God’s promises.
-
+The Psalms are songs for a people waiting in exile. They spring from
+Israel's history, when people like King David wrote inspired songs
+giving thanks, repenting of sin, affirming God's promises, or asking
+for help. The Psalms have been a source of hope, a guide for honest
+prayer, and a treasury of prophetic promises for God's people
+throughout generations. Now, Jesus has fulfilled these Psalms and
+given them to his church, providing us with songs to sing while we
+wait in this earthly exile for his return.
 
 ### At a Glance
 
