@@ -304,16 +304,16 @@ function zoomableImg(id) {
 //*   M{ youTube(`ZBLKrNVffgo`) }M
 //* 
 //* Replaced With:
-//*   <p align="center">
-//*     <iframe name="ZBLKrNVffgo"
-//*             id="ZBLKrNVffgo"
-//*             width="577"
-//*             height="325"
-//*             src="https://www.youtube.com/embed/ZBLKrNVffgo"
+//*   
+//*   <div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
+//*     <iframe name="${id}"
+//*             id="${id}"
+//*             style="width: 80%; height: 100%;"
+//*             src="https://www.youtube.com/embed/${id}"
 //*             frameborder="0"
 //*             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 //*             allowfullscreen></iframe>
-//*   </p>
+//*   </div>
 //*-----------------------------------------------------------------------------
 function youTube(id) {
 
@@ -332,16 +332,16 @@ function youTube(id) {
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   return `${diag}
 <!-- START Custom Tag: ${self} -->
-<p align="center">
+
+<div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
   <iframe name="${id}"
           id="${id}"
-          width="577"
-          height="325"
+          style="width: 80%; height: 100%;"
           src="https://www.youtube.com/embed/${id}"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-</p>
+</div>
 
 <!-- END Custom Tag: ${self} -->
 `;
