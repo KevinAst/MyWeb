@@ -62,7 +62,7 @@
   * [*Isaiah**](WorkInProgress.md)
   * [Jeremiah](Jeremiah.md)
   * [Lamentations](Lamentations.md)
-  * [*Ezekiel**](WorkInProgress.md)
+  * [Ezekiel](Ezekiel.md)
   * [Daniel](Daniel.md)
   * [Hosea](Hosea.md)
   * [*Joel**](WorkInProgress.md)
