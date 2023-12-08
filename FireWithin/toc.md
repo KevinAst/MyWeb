@@ -88,7 +88,7 @@
   * [1 Corinthians](1Corinthians.md)
   * [2 Corinthians](2Corinthians.md)
   * [Galatians](Galatians.md)
-  * [*Ephesians**](WorkInProgress.md)
+  * [Ephesians](Ephesians.md)
   * [*Philippians**](WorkInProgress.md)
   * [*Colossians**](WorkInProgress.md)
   * [1 Thessalonians](1Thessalonians.md)
