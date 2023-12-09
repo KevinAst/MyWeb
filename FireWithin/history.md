@@ -113,6 +113,11 @@ This includes the:
   1. {{book.3John}}
   1. {{book.Jude}}
 
+Other enhancements include:
+
+- Made YouTube videos responsive to better display on mobile devices.
+- Provided a note in the {{book.GettingStarted}} page highlighting the
+  blog's {{book.Search}} feature.
 
 
 
