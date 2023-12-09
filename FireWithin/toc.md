@@ -97,7 +97,7 @@
   * [1 Timothy](1Timothy.md)
   * [2 Timothy](2Timothy.md)
   * [Titus](Titus.md)
-  * [*Philemon**](WorkInProgress.md)
+  * [Philemon](Philemon.md)
   * [*Hebrews**](WorkInProgress.md)
   * [*James**](WorkInProgress.md)
   * [*1 Peter**](WorkInProgress.md)
