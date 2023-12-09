@@ -59,7 +59,6 @@ leaders can stay faithful to the way of Jesus.
 > [1 Timothy Introduction](https://bibleproject.com/explore/video/1-timothy/)
 M{ zoomableImg(`1Timothy_BP`) }M
 
-https://www.youtube.com/watch?v=7RoqnGcEjcs&t=1s
 M{ youTube(`7RoqnGcEjcs`) }M
 
 
