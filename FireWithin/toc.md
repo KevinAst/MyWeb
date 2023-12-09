@@ -94,7 +94,7 @@
   * [Colossians](Colossians.md)
   * [1 Thessalonians](1Thessalonians.md)
   * [2 Thessalonians](2Thessalonians.md)
-  * [*1 Timothy**](WorkInProgress.md)
+  * [1 Timothy](1Timothy.md)
   * [*2 Timothy**](WorkInProgress.md)
   * [*Titus**](WorkInProgress.md)
   * [*Philemon**](WorkInProgress.md)
