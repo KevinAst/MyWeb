@@ -91,7 +91,7 @@
   * [Galatians](Galatians.md)
   * [Ephesians](Ephesians.md)
   * [Philippians](Philippians.md)
-  * [*Colossians**](WorkInProgress.md)
+  * [Colossians](Colossians.md)
   * [1 Thessalonians](1Thessalonians.md)
   * [2 Thessalonians](2Thessalonians.md)
   * [*1 Timothy**](WorkInProgress.md)
