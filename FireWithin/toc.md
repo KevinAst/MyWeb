@@ -104,7 +104,7 @@
   * [2 Peter](2Peter.md)
   * [1 John](1John.md)
   * [2 John](2John.md)
-  * [*3 John**](WorkInProgress.md)
+  * [3 John](3John.md)
   * [*Jude**](WorkInProgress.md)
   * [Revelation](Revelation.md)
 
