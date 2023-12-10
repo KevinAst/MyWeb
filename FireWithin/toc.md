@@ -57,7 +57,7 @@
   * [*Esther**](WorkInProgress.md)
   * [*Job**](WorkInProgress.md)
   * [Psalms](Psalms.md)
-  * [*Proverbs**](WorkInProgress.md)
+  * [Proverbs](Proverbs.md)
   * [*Ecclesiastes**](WorkInProgress.md)
   * [*Song of Solomon**](WorkInProgress.md)
   * [*Isaiah**](WorkInProgress.md)
