@@ -99,7 +99,7 @@
   * [Titus](Titus.md)
   * [Philemon](Philemon.md)
   * [Hebrews](Hebrews.md)
-  * [*James**](WorkInProgress.md)
+  * [James](James.md)
   * [*1 Peter**](WorkInProgress.md)
   * [*2 Peter**](WorkInProgress.md)
   * [*1 John**](WorkInProgress.md)
