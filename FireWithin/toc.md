@@ -101,7 +101,7 @@
   * [Hebrews](Hebrews.md)
   * [James](James.md)
   * [1 Peter](1Peter.md)
-  * [*2 Peter**](WorkInProgress.md)
+  * [2 Peter](2Peter.md)
   * [*1 John**](WorkInProgress.md)
   * [*2 John**](WorkInProgress.md)
   * [*3 John**](WorkInProgress.md)
