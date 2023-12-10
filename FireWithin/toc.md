@@ -103,7 +103,7 @@
   * [1 Peter](1Peter.md)
   * [2 Peter](2Peter.md)
   * [1 John](1John.md)
-  * [*2 John**](WorkInProgress.md)
+  * [2 John](2John.md)
   * [*3 John**](WorkInProgress.md)
   * [*Jude**](WorkInProgress.md)
   * [Revelation](Revelation.md)
