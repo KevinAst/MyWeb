@@ -105,7 +105,7 @@
   * [1 John](1John.md)
   * [2 John](2John.md)
   * [3 John](3John.md)
-  * [*Jude**](WorkInProgress.md)
+  * [Jude](Jude.md)
   * [Revelation](Revelation.md)
 
 ----
