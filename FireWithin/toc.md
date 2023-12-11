@@ -60,7 +60,7 @@
   * [Proverbs](Proverbs.md)
   * [Ecclesiastes](Ecclesiastes.md)
   * [Song of Solomon](SongOfSolomon.md)
-  * [*Isaiah**](WorkInProgress.md)
+  * [Isaiah](Isaiah.md)
   * [Jeremiah](Jeremiah.md)
   * [Lamentations](Lamentations.md)
   * [Ezekiel](Ezekiel.md)
