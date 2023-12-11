@@ -43,7 +43,7 @@
   * [Leviticus](Leviticus.md)
   * [Numbers](Numbers.md)
   * [Deuteronomy](Deuteronomy.md)
-  * [*Joshua**](WorkInProgress.md)
+  * [Joshua](Joshua.md)
   * [*Judges**](WorkInProgress.md)
   * [*Ruth**](WorkInProgress.md)
   * [*1 Samuel**](WorkInProgress.md)
