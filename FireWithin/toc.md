@@ -48,7 +48,7 @@
   * [Ruth](Ruth.md)
   * [1 Samuel](1Samuel.md)
   * [2 Samuel](2Samuel.md)
-  * [*1 Kings**](WorkInProgress.md)
+  * [1 Kings](1Kings.md)
   * [*2 Kings**](WorkInProgress.md)
   * [*1 Chronicles**](WorkInProgress.md)
   * [*2 Chronicles**](WorkInProgress.md)
