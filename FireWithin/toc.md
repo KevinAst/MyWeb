@@ -58,7 +58,7 @@
   * [*Job**](WorkInProgress.md)
   * [Psalms](Psalms.md)
   * [Proverbs](Proverbs.md)
-  * [*Ecclesiastes**](WorkInProgress.md)
+  * [Ecclesiastes](Ecclesiastes.md)
   * [*Song of Solomon**](WorkInProgress.md)
   * [*Isaiah**](WorkInProgress.md)
   * [Jeremiah](Jeremiah.md)
