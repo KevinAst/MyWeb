@@ -46,7 +46,7 @@
   * [Joshua](Joshua.md)
   * [Judges](Judges.md)
   * [Ruth](Ruth.md)
-  * [*1 Samuel**](WorkInProgress.md)
+  * [1 Samuel](1Samuel.md)
   * [*2 Samuel**](WorkInProgress.md)
   * [*1 Kings**](WorkInProgress.md)
   * [*2 Kings**](WorkInProgress.md)
