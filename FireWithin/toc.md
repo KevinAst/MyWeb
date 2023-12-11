@@ -59,7 +59,7 @@
   * [Psalms](Psalms.md)
   * [Proverbs](Proverbs.md)
   * [Ecclesiastes](Ecclesiastes.md)
-  * [*Song of Solomon**](WorkInProgress.md)
+  * [Song of Solomon](SongOfSolomon.md)
   * [*Isaiah**](WorkInProgress.md)
   * [Jeremiah](Jeremiah.md)
   * [Lamentations](Lamentations.md)
