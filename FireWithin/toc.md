@@ -44,7 +44,7 @@
   * [Numbers](Numbers.md)
   * [Deuteronomy](Deuteronomy.md)
   * [Joshua](Joshua.md)
-  * [*Judges**](WorkInProgress.md)
+  * [Judges](Judges.md)
   * [*Ruth**](WorkInProgress.md)
   * [*1 Samuel**](WorkInProgress.md)
   * [*2 Samuel**](WorkInProgress.md)
