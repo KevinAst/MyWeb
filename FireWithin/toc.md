@@ -51,7 +51,7 @@
   * [1 Kings](1Kings.md)
   * [2 Kings](2Kings.md)
   * [1 Chronicles](1Chronicles.md)
-  * [*2 Chronicles**](WorkInProgress.md)
+  * [2 Chronicles](2Chronicles.md)
   * [*Ezra**](WorkInProgress.md)
   * [*Nehemiah**](WorkInProgress.md)
   * [*Esther**](WorkInProgress.md)
