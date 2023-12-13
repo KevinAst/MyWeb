@@ -88,7 +88,16 @@ M{ youTube(`HR7xaHv3Ias`) }M
 
 {{book.CornerstoneChapel}}
 
-?? TABLE HERE
+M{ sermonSeries({
+  entries: [
+    { id: `20150913`, sermon: `All is Forgiven`,             scripture: `2ch.1@@2 Chronicles 1-9`,    },
+    { id: `20150920`, sermon: `The Sin of Self-Reliance`,    scripture: `2ch.10@@2 Chronicles 10-16`, },
+    { id: `20151004`, sermon: `Dangerous Alliances`,         scripture: `2ch.17@@2 Chronicles 17-20`, },
+    { id: `20151011`, sermon: `The Cost of Following Jesus`, scripture: `2ch.21@@2 Chronicles 21-28`, },
+    { id: `20151018`, sermon: `Second Chances`,              scripture: `2ch.29@@2 Chronicles 29-33`, },
+    { id: `20151025`, sermon: `God's Discipline`,            scripture: `2ch.34@@2 Chronicles 34-36`, },
+  ]
+}) }M
 
 
 
@@ -96,4 +105,11 @@ M{ youTube(`HR7xaHv3Ias`) }M
 
 {{book.CornerstoneChapel}}
 
-?? TABLE HERE
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20211205`, sermon: `The Battlefield of Blessing (Austin Hamrick)`, scripture: `2ch.20@@2 Chronicles 20`, },
+  ]
+}) }M
