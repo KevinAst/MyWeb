@@ -53,7 +53,7 @@
   * [1 Chronicles](1Chronicles.md)
   * [2 Chronicles](2Chronicles.md)
   * [Ezra](Ezra.md)
-  * [*Nehemiah**](WorkInProgress.md)
+  * [Nehemiah](Nehemiah.md)
   * [*Esther**](WorkInProgress.md)
   * [*Job**](WorkInProgress.md)
   * [Psalms](Psalms.md)
