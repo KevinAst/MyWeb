@@ -19,7 +19,7 @@ for those studying specific facts in the Scriptures.
 
 - [Overview](#overview)
 - [2015 1 Chronicles Series (Sundays)](#2015-1-chronicles-series-sundays)
-- [Chronicles Misc Selection](#chronicles-misc-selection)
+- [1 Chronicles Misc Selection](#1-chronicles-misc-selection)
 
 
 ## Overview
@@ -98,7 +98,7 @@ M{ sermonSeries({
 
 
 
-## Chronicles Misc Selection
+## 1 Chronicles Misc Selection
 
 {{book.CornerstoneChapel}}
 
