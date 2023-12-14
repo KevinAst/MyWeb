@@ -55,7 +55,7 @@
   * [Ezra](Ezra.md)
   * [Nehemiah](Nehemiah.md)
   * [Esther](Esther.md)
-  * [*Job**](WorkInProgress.md)
+  * [Job](Job.md)
   * [Psalms](Psalms.md)
   * [Proverbs](Proverbs.md)
   * [Ecclesiastes](Ecclesiastes.md)
