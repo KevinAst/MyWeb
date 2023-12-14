@@ -56,6 +56,3 @@ _([find out more](https://overviewbible.com/old-testament-books/))_:
    - M{ completedCheckBox(`Haggai`) }M         {{book.Haggai}}
    - M{ completedCheckBox(`Zechariah`) }M      {{book.Zechariah}}
    - M{ completedCheckBox(`Malachi`) }M        {{book.Malachi}}
-
-> Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
-> To request a specific book to be added, please see the {{book.WorkInProgress}} section.

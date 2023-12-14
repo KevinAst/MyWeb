@@ -23,8 +23,7 @@
   * [Bible Translation](start.md#bible-translation)
   * [Diagrams](start.md#diagrams)
 
-- [Work In Progress](WorkInProgress.md)
-
+----
 - [My Faith](MyFaith.md)
   * [Why does this matter?](MyFaith.md#why-does-this-matter)
   * [What is a Christian?](MyFaith.md#what-does-it-mean-to-be-a-christian)
