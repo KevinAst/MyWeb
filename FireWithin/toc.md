@@ -76,7 +76,7 @@
   * [Zephaniah](Zephaniah.md)
   * [Haggai](Haggai.md)
   * [Zechariah](Zechariah.md)
-  * [*Malachi**](WorkInProgress.md)
+  * [Malachi](Malachi.md)
 
 ----
 - [New Testament](NewTestament.md)
