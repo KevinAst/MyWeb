@@ -72,7 +72,7 @@
   * [Jonah](Jonah.md)
   * [Micah](Micah.md)
   * [Nahum](Nahum.md)
-  * [*Habakkuk**](WorkInProgress.md)
+  * [Habakkuk](Habakkuk.md)
   * [*Zephaniah**](WorkInProgress.md)
   * [*Haggai**](WorkInProgress.md)
   * [*Zechariah**](WorkInProgress.md)
