@@ -71,7 +71,7 @@
   * [Obadiah](Obadiah.md)
   * [Jonah](Jonah.md)
   * [Micah](Micah.md)
-  * [*Nahum**](WorkInProgress.md)
+  * [Nahum](Nahum.md)
   * [*Habakkuk**](WorkInProgress.md)
   * [*Zephaniah**](WorkInProgress.md)
   * [*Haggai**](WorkInProgress.md)
