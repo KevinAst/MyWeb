@@ -75,7 +75,7 @@
   * [Habakkuk](Habakkuk.md)
   * [Zephaniah](Zephaniah.md)
   * [Haggai](Haggai.md)
-  * [*Zechariah**](WorkInProgress.md)
+  * [Zechariah](Zechariah.md)
   * [*Malachi**](WorkInProgress.md)
 
 ----
