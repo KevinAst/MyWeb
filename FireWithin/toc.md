@@ -66,7 +66,7 @@
   * [Ezekiel](Ezekiel.md)
   * [Daniel](Daniel.md)
   * [Hosea](Hosea.md)
-  * [*Joel**](WorkInProgress.md)
+  * [Joel](Joel.md)
   * [Amos](Amos.md)
   * [*Obadiah**](WorkInProgress.md)
   * [Jonah](Jonah.md)
