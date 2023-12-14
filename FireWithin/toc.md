@@ -73,7 +73,7 @@
   * [Micah](Micah.md)
   * [Nahum](Nahum.md)
   * [Habakkuk](Habakkuk.md)
-  * [*Zephaniah**](WorkInProgress.md)
+  * [Zephaniah](Zephaniah.md)
   * [*Haggai**](WorkInProgress.md)
   * [*Zechariah**](WorkInProgress.md)
   * [*Malachi**](WorkInProgress.md)
