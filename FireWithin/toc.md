@@ -68,7 +68,7 @@
   * [Hosea](Hosea.md)
   * [Joel](Joel.md)
   * [Amos](Amos.md)
-  * [*Obadiah**](WorkInProgress.md)
+  * [Obadiah](Obadiah.md)
   * [Jonah](Jonah.md)
   * [Micah](Micah.md)
   * [*Nahum**](WorkInProgress.md)
