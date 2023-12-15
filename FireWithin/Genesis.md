@@ -1,17 +1,18 @@
 # Genesis
 
-In the first part of Genesis _(1-11)_, we see that God creates a good
-world and commissions humans to rule it, but they choose rebellion
-again and again.  Through the second part of Genesis _(12-50)_, we see
-how God promises to bless the world through Abraham’s family, despite
-their repeated failure.
-
+Genesis demonstrates how God can take all the evil we create and make
+something good. And he does so, not because he has to or even because
+he should, but because he made a gracious promise that he
+would. Despite all the sin we see through Genesis, God preserves a
+family line that would ultimately lead to Jesus. He is the one who
+takes all our evil and puts it right in his death, burial, and
+resurrection.
 
 ### At a Glance
 
 - [Overview](#overview)
-- [2011 Genesis Series (Sundays)](#2011-genesis-series-sundays)
 - [2010 Genesis Series (Mid Week)](#2010-genesis-series-mid-week)
+- [2011 Genesis Series (Sundays)](#2011-genesis-series-sundays)
 - [2023 Genesis Series (My Small Group)](#2023-genesis-series-my-small-group)
 
 
@@ -48,56 +49,19 @@ their repeated failure.
 
 **{{book.BibleProject}}**
 
-> **Genesis Introduction**
-> [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
-> [Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
-
 M{ zoomableImg(`Genesis_BP`) }M
+
+> [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
+M{ youTube(`GQI72THyO5I`) }M
+
+> [Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
+M{ youTube(`F4isSyennFo`) }M
 
 
 **{{book.SpokenGospel}}**
 
 M{ youTube(`zIJBhEAIzj4`) }M
 
-
-
-## 2011 Genesis Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  entries: [
-    { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
-    { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },
-    { id: `20110925`, sermon: `Adam, Meet Madam`,                  scripture: `gen.2@@Gen 2`,         },
-    { id: `20111009`, sermon: `Satan's Subtle Seduction`,          scripture: `gen.3@@Gen 3:1-5`,     },
-    { id: `20111016`, sermon: `Don't Eat That!`,                   scripture: `gen.3@@Gen 3:6-13`,    },
-    { id: `20111023`, sermon: `Reverse the Curse`,                 scripture: `gen.3@@Gen 3:14-20`,   },
-    { id: `20111030`, sermon: `Rejecting Cain`,                    scripture: `gen.3@@Gen 3:21-4:7`,  },
-    { id: `20111106`, sermon: `Envy Kills`,                        scripture: `gen.4@@Gen 4:8-16`,    },
-    { id: `20111204`, sermon: `Lessons From The Flood`,            scripture: `gen.5@@Gen 5-9`,       },
-    { id: `20111211`, sermon: `What's the Babble at Babel About?`, scripture: `gen.10@@Gen 10-11`,    },
-    { id: `20120108`, sermon: `A Calling and a Blessing`,          scripture: `gen.12@@Gen 12-13`,    },
-    { id: `20120122`, sermon: `God is a Covenant God`,             scripture: `gen.14@@Gen 14-15`,    },
-    { id: `20120129`, sermon: `Learning to Wait`,                  scripture: `gen.16@@Gen 16-17`,    },
-    { id: `20120205`, sermon: `The Cost of Compromise`,            scripture: `gen.18@@Gen 18-19`,    },
-    { id: `20120212`, sermon: `A Sacrifice of Love`,               scripture: `gen.20@@Gen 20-22`,    },
-    { id: `20120219`, sermon: `A Wedding Story`,                   scripture: `gen.23@@Gen 23-24`,    },
-    { id: `20120226`, sermon: `Jacob And Esau: Double Trouble`,    scripture: `gen.25@@Gen 25-26`,    },
-    { id: `20120304`, sermon: `A Web of Deception`,                scripture: `gen.27@@Gen 27:1-40`,  },
-    { id: `20120311`, sermon: `In The Grip Of A Grudge`,           scripture: `gen.27@@Gen 27:41-46`, },
-    { id: `20120318`, sermon: `Lessons From A Ladder`,             scripture: `gen.28@@Gen 28`,       },
-    { id: `20120325`, sermon: `For the Love of Leah`,              scripture: `gen.29@@Gen 29`,       },
-    { id: `20120401`, sermon: `Wrestling with God`,                scripture: `gen.30@@Gen 30-32`,    },
-    { id: `20120422`, sermon: `Burying the Past`,                  scripture: `gen.33@@Gen 33-35`,    },
-    { id: `20120429`, sermon: `The Providence of God`,             scripture: `gen.36@@Gen 36-38`,    },
-    { id: `20120506`, sermon: `Understanding Temptation`,          scripture: `gen.39@@Gen 39`,       },
-    { id: `20120513`, sermon: `Fighting Temptation`,               scripture: `gen.39@@Gen 39`,       },
-    { id: `20120520`, sermon: `In Your Dreams`,                    scripture: `gen.40@@Gen 40-41`,    },
-    { id: `20120603`, sermon: `Forgive and Be Forgiven`,           scripture: `gen.42@@Gen 42-45`,    },
-    { id: `20120610`, sermon: `The Legacy We Leave`,               scripture: `gen.46@@Gen 46-50`,    },
-  ]
-}) }M
 
 
 ## 2010 Genesis Series (Mid Week)
@@ -154,6 +118,45 @@ M{ sermonSeries({
   ]
 }) }M
 
+
+
+## 2011 Genesis Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
+    { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },
+    { id: `20110925`, sermon: `Adam, Meet Madam`,                  scripture: `gen.2@@Gen 2`,         },
+    { id: `20111009`, sermon: `Satan's Subtle Seduction`,          scripture: `gen.3@@Gen 3:1-5`,     },
+    { id: `20111016`, sermon: `Don't Eat That!`,                   scripture: `gen.3@@Gen 3:6-13`,    },
+    { id: `20111023`, sermon: `Reverse the Curse`,                 scripture: `gen.3@@Gen 3:14-20`,   },
+    { id: `20111030`, sermon: `Rejecting Cain`,                    scripture: `gen.3@@Gen 3:21-4:7`,  },
+    { id: `20111106`, sermon: `Envy Kills`,                        scripture: `gen.4@@Gen 4:8-16`,    },
+    { id: `20111204`, sermon: `Lessons From The Flood`,            scripture: `gen.5@@Gen 5-9`,       },
+    { id: `20111211`, sermon: `What's the Babble at Babel About?`, scripture: `gen.10@@Gen 10-11`,    },
+    { id: `20120108`, sermon: `A Calling and a Blessing`,          scripture: `gen.12@@Gen 12-13`,    },
+    { id: `20120122`, sermon: `God is a Covenant God`,             scripture: `gen.14@@Gen 14-15`,    },
+    { id: `20120129`, sermon: `Learning to Wait`,                  scripture: `gen.16@@Gen 16-17`,    },
+    { id: `20120205`, sermon: `The Cost of Compromise`,            scripture: `gen.18@@Gen 18-19`,    },
+    { id: `20120212`, sermon: `A Sacrifice of Love`,               scripture: `gen.20@@Gen 20-22`,    },
+    { id: `20120219`, sermon: `A Wedding Story`,                   scripture: `gen.23@@Gen 23-24`,    },
+    { id: `20120226`, sermon: `Jacob And Esau: Double Trouble`,    scripture: `gen.25@@Gen 25-26`,    },
+    { id: `20120304`, sermon: `A Web of Deception`,                scripture: `gen.27@@Gen 27:1-40`,  },
+    { id: `20120311`, sermon: `In The Grip Of A Grudge`,           scripture: `gen.27@@Gen 27:41-46`, },
+    { id: `20120318`, sermon: `Lessons From A Ladder`,             scripture: `gen.28@@Gen 28`,       },
+    { id: `20120325`, sermon: `For the Love of Leah`,              scripture: `gen.29@@Gen 29`,       },
+    { id: `20120401`, sermon: `Wrestling with God`,                scripture: `gen.30@@Gen 30-32`,    },
+    { id: `20120422`, sermon: `Burying the Past`,                  scripture: `gen.33@@Gen 33-35`,    },
+    { id: `20120429`, sermon: `The Providence of God`,             scripture: `gen.36@@Gen 36-38`,    },
+    { id: `20120506`, sermon: `Understanding Temptation`,          scripture: `gen.39@@Gen 39`,       },
+    { id: `20120513`, sermon: `Fighting Temptation`,               scripture: `gen.39@@Gen 39`,       },
+    { id: `20120520`, sermon: `In Your Dreams`,                    scripture: `gen.40@@Gen 40-41`,    },
+    { id: `20120603`, sermon: `Forgive and Be Forgiven`,           scripture: `gen.42@@Gen 42-45`,    },
+    { id: `20120610`, sermon: `The Legacy We Leave`,               scripture: `gen.46@@Gen 46-50`,    },
+  ]
+}) }M
 
 
 ## 2023 Genesis Series (My Small Group)
