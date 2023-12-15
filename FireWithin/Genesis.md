@@ -1,5 +1,11 @@
 # Genesis
 
+In the first part of Genesis _(1-11)_, we see that God creates a good
+world and commissions humans to rule it, but they choose rebellion
+again and again.  Through the second part of Genesis _(12-50)_, we see
+how God promises to bless the world through Abraham’s family, despite
+their repeated failure.
+
 Genesis demonstrates how God can take all the evil we create and make
 something good. And he does so, not because he has to or even because
 he should, but because he made a gracious promise that he
