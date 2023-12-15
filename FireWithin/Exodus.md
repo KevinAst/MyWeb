@@ -5,6 +5,11 @@ from Egypt and making them His covenant people. Exodus is where we
 find the stories of the Ten Plagues, the first Passover, the parting
 of the Red Sea, and the Ten Commandments.
 
+Exodus helps us answer the question, "Who is God?" What we find is
+that God is the God who shows up and saves. This is most fully
+achieved in the person of Jesus, who showed up in human flesh to offer
+a new and better salvation.
+
 
 ### At a Glance
 
@@ -52,11 +57,14 @@ of the Red Sea, and the Ten Commandments.
 
 **{{book.BibleProject}}**
 
-> **Exodus Introduction**
-> [Part 1: Exodus 1-18](https://bibleproject.com/explore/video/exodus-1-18/) ...
-> [Part 2: Exodus 19-40](https://bibleproject.com/explore/video/exodus-19-40/)
-
+> **Exodus Diagram**
 M{ zoomableImg(`Exodus_BP`) }M
+
+> [Part 1: Exodus 1-18](https://bibleproject.com/explore/video/exodus-1-18/) ...
+M{ youTube(`jH_aojNJM3E`) }M
+
+> [Part 2: Exodus 19-40](https://bibleproject.com/explore/video/exodus-19-40/)
+M{ youTube(`oNpTha80yyE`) }M
 
 
 **{{book.SpokenGospel}}**

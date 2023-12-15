@@ -55,6 +55,7 @@ resurrection.
 
 **{{book.BibleProject}}**
 
+> **Genesis Diagram**
 M{ zoomableImg(`Genesis_BP`) }M
 
 > [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
