@@ -1,23 +1,18 @@
 # Jeremiah
 
-**Judah was given a final chance**
+God and Israel's relationship began like a marriage. God vowed to be
+faithful, and Israel promised to be lovingly his. But Israel
+repeatedly broke her marriage vows. She sacrificed to false gods; she
+even killed her own children in their rituals. Jeremiah called Israel
+a whore for this idolatry. When Israel worshiped other gods she was
+really committing adultery and Jeremiah begged for her to return and
+repent.
 
-The people of Israel repeatedly refused to listen to Yahweh’s
-commands, and they gave into the evils of earthly kingdoms. But even
-though they had broken the terms of their covenant with God, he
-promised to bless them if they repented.
-
-Jeremiah offered this warning and path to restoration for Israel’s
-southern kingdom of Judah. But the people didn’t listen. God’s justice
-can only allow evil to go so far. And when the people still failed to
-turn back to Yahweh, they were exiled to Babylon.
-
-**The Consequences of Rebellion**
-
-The prophet Jeremiah announced that God would judge Israel’s sins with
-an exile to Babylon. And then he lived through the horror of his
-predictions. The book of Jeremiah shows a graphic but important
-picture of how disobedience leads to destruction.
+But Israel wouldn't listen, she chose to break her vows and her
+covenant with God. But God promised that he would be a faithful
+husband to his adulterous bride. In Jesus, he would begin a new
+covenant that would transform his people from adulterous whores and
+make them virgin brides once again.
 
 
 ### At a Glance
@@ -61,9 +56,9 @@ picture of how disobedience leads to destruction.
 **{{book.BibleProject}}**
 
 > [Jeremiah Introduction](https://bibleproject.com/explore/video/jeremiah/)
-
 M{ zoomableImg(`Jeremiah_BP`) }M
 
+M{ youTube(`RSK36cHbrk0`) }M
 
 **{{book.SpokenGospel}}**
 

@@ -1,20 +1,12 @@
 # Micah
 
-**Micah announces God's judgment against Israel.**
-
-Israel has exploited the poor and twisted the laws of the Torah, and
-God’s justice means that he will deal with them severely. But Micah’s
-prophecies are not without hope. The God of Israel is also faithful
-and full of mercy. God promises to preserve a faithful remnant, from
-which he will create a new Jerusalem on the other side of sin and
-exile.
-
-**The Good Shepherd**
-
-The book of Micah paints a picture of a just yet merciful God. Like a
-shepherd, God will one day gather and restore a faithful remnant to
-the land. He will rebuild Jerusalem, defeat evil forever, and send a
-messianic King to rule over the people and bless all the nations.
+In the book of Micah, the prophet indicts Israel’s kings and prophets
+for using their power to prey on their citizens and failing to lead
+their nation towards justice. Micah then laments for his people
+because he knows Israel must pay for her sin, and that Jerusalem will
+soon fall. Jesus embodies the judgment of Micah, even to the point of
+death. Ultimately, Micah reveals to us that in Jesus’ death, there is
+the hope of a new Kingdom.
 
 
 ### At a Glance
@@ -53,8 +45,9 @@ messianic King to rule over the people and bless all the nations.
 **{{book.BibleProject}}**
 
 > [Micah Introduction](https://bibleproject.com/explore/video/micah/)
-
 M{ zoomableImg(`Micah_BP`) }M
+
+M{ youTube(`MFEUEcylwLc`) }M
 
 
 **{{book.SpokenGospel}}**

@@ -1,27 +1,15 @@
 # Hosea
 
-**Hosea accuses Israel of breaking their covenant with God**
+God promised to protect Israel, but the kings of Israel drained their
+own people to buy weapons and protection from foreign lords
+instead. God is angry. The prophet Hosea calls this type of idolatrous
+foreign policy "adultery." So the book of Hosea asks an unsettling
+question: "What will God do when his bride becomes a whore?" But the
+book of Hosea also gives a disturbingly gracious answer: "God's
+compassion is far hotter than his wrath." See how Hosea points us to
+Jesus as the husband who buys us out of our political adultery and
+loves us with great compassion.
 
-The northern kingdom of Israel enjoyed moderate success from
-conquering neighboring kingdoms, but they were spiritually
-bankrupt. King Jeroboam II, one of the worst kings in Israel's
-history, grew apathetic and allowed idol worship in the nation,
-opening the doorway for Israelites to cheat, steal, have unlawful sex,
-and even murder each other. Growing cold and distant, they had
-forgotten about God’s unending love for them, ushering in tragic
-consequences.
-
-But God does not forget Israel even in their self-destruction. There
-is still hope. God will send a Messiah to restore Israel to covenant
-faithfulness and relationship with him.
-
-**God Is Forever Faithful**
-
-In the book of Hosea, God sends Hosea to Israel during the reign of
-King Jeroboam II to communicate God’s despair over their perpetual
-idol worship and dependence on outside nations. Though the people have
-failed to be faithful covenant partners to God, his commitment to them
-remains.
 
 ### At a Glance
 
@@ -66,8 +54,10 @@ remains.
 **{{book.BibleProject}}**
 
 > [Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
-
 M{ zoomableImg(`Hosea_BP`) }M
+
+M{ youTube(`kE6SZ1ogOVU`) }M
+
 
 
 **{{book.SpokenGospel}}**
