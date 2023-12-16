@@ -5,6 +5,13 @@ Persecution from outside
 &bull; Despair from false doctrine
 &bull; Busybodies in the church.
 
+Paul's two letters to the Thessalonians talk more explicitly about
+Jesus' second coming than, perhaps, any of Paul's other
+letters. That's because these believers were oppressed, persecuted,
+and especially needed the hope of Jesus' return. Jesus would not only
+return to heal and restore them but also bring justice against those
+oppressing them.
+
 
 ### At a Glance
 
@@ -44,8 +51,9 @@ Persecution from outside
 **{{book.BibleProject}}**
 
 > [2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)
-
 M{ zoomableImg(`2Thessalonians_BP`) }M
+M{ youTube(`kbPBDKOn1cc`) }M
+
 
 **{{book.SpokenGospel}}**
 
