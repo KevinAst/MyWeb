@@ -7,6 +7,13 @@ generosity, humility, and weakness. 2 Cornithians is a letter about
 living in a totally counter-cultural way as we seek to live like Jesus
 did.
 
+2 Corinthians shows how God's strength is made perfect in
+weakness. This is seen most clearly in Paul's dealings with the
+so-called "Super Apostles" that had taken over leadership of the
+church he planted in Corinth. The Super Apostles boasted in their
+abilities, connections, and power. But Paul showed that, for those in
+Christ, true power comes in weakness.
+
 
 ### At a Glance
 
@@ -48,8 +55,8 @@ did.
 **{{book.BibleProject}}**
 
 > [2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)
-
 M{ zoomableImg(`2Corinthians_BP`) }M
+M{ youTube(`3lfPK2vfC54`) }M
 
 
 **{{book.SpokenGospel}}**

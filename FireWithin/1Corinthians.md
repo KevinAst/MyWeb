@@ -5,6 +5,14 @@ through the lens of the Gospel. Specifically, Paul addresses divisions
 among believers, food, sexual integrity, worship gatherings, and the
 resurrection.
 
+In 1 Corinthians, Paul applies the Gospel to the sin, conflicts, and
+problems within the church at Corinth.  Many of these problems stemmed
+from the Greek's views about wisdom, which informed many of their
+moral and religious decisions. The Gospel of Jesus counteracts the
+world's wisdom because Jesus' death did not look like wisdom to most
+people. However, in this letter, Paul proves that Jesus going to the
+cross is the wisest thing that has ever happened.
+
 
 ### At a Glance
 
@@ -45,8 +53,9 @@ resurrection.
 **{{book.BibleProject}}**
 
 > [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
-
 M{ zoomableImg(`1Corinthians_BP`) }M
+M{ youTube(`yiHf8klCCc4`) }M
+
 
 **{{book.SpokenGospel}}**
 
