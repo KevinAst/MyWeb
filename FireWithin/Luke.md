@@ -5,6 +5,13 @@ by the physician Luke.  It emphasizes the upside-down nature of God’s
 Kingdom - a place where all are welcome and power structures are
 reversed.
 
+Luke's Gospel emphasizes Jesus' care for the marginalized. Jesus'
+compassion for the poor, captive, oppressed, and blind fulfills
+scriptures about the final deliverance God will bring to all who are
+in need. But people couldn't see it. That is because they, like all of
+us, were spiritually blind. But when Jesus heals our spiritual
+blindness, we can see him and the scriptures as they truly are.
+
 
 ### At a Glance
 
@@ -50,11 +57,14 @@ reversed.
 
 **{{book.BibleProject}}**
 
-> **Luke Introduction**
-> [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
-> [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
-
+> [Luke Introduction](https://bibleproject.com/explore/video/luke/)
 M{ zoomableImg(`Luke_BP`) }M
+
+> [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
+M{ youTube(`XIb_dCIxzr0`) }M
+
+> [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
+M{ youTube(`26z_KhwNdD8`) }M
 
 
 **{{book.SpokenGospel}}**
