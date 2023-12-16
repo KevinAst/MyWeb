@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
 [v19.0](#v19_0)   | Selectable Translations,<br/> Book Completions, & more | *Dec 5, 2023*
 [v18.0](#v18_0)   | Lamentations, Current Events & more                    | *Aug 23, 2023*
 [v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
@@ -50,6 +51,71 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v20_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v20.0 - Book Completion <i>(Dec 16, 2023)</i>
+</h3>
+<br/>
+
+This is a **Major Release** that finialized **All Books of the Bible**!
+This includes:
+
+- **{{book.OldTestament}}** books (27):
+  {{book.Joshua}} &bull;
+  {{book.Judges}} &bull;
+  {{book.Ruth}} &bull;
+  {{book.1Samuel}} &bull;
+  {{book.2Samuel}} &bull;
+  {{book.1Kings}} &bull;
+  {{book.2Kings}} &bull;
+  {{book.1Chronicles}} &bull;
+  {{book.2Chronicles}} &bull;
+  {{book.Ezra}} &bull;
+  {{book.Nehemiah}} &bull;
+  {{book.Esther}} &bull;
+  {{book.Job}} &bull;
+  {{book.Psalms}} &bull;
+  {{book.Proverbs}} &bull;
+  {{book.Ecclesiastes}} &bull;
+  {{book.SongOfSolomon}} &bull;
+  {{book.Isaiah}} &bull;
+  {{book.Ezekiel}} &bull;
+  {{book.Joel}} &bull;
+  {{book.Obadiah}} &bull;
+  {{book.Nahum}} &bull;
+  {{book.Habakkuk}} &bull;
+  {{book.Zephaniah}} &bull;
+  {{book.Haggai}} &bull;
+  {{book.Zechariah}} &bull;
+  {{book.Malachi}}
+
+- **{{book.NewTestament}}** books (16):
+  {{book.Matthew}} &bull;
+  {{book.Ephesians}} &bull;
+  {{book.Philippians}} &bull;
+  {{book.Colossians}} &bull;
+  {{book.1Timothy}} &bull;
+  {{book.2Timothy}} &bull;
+  {{book.Titus}} &bull;
+  {{book.Philemon}} &bull;
+  {{book.Hebrews}} &bull;
+  {{book.James}} &bull;
+  {{book.1Peter}} &bull;
+  {{book.2Peter}} &bull;
+  {{book.1John}} &bull;
+  {{book.2John}} &bull;
+  {{book.3John}} &bull;
+  {{book.Jude}}
+
+Other enhancements include:
+
+- Made YouTube videos responsive to better display on mobile devices.
+- Provided a note in the {{book.GettingStarted}} page highlighting the
+  blog's {{book.Search}} feature.
+
+
 
 <!-- ************************************************************* -->
 <br/>

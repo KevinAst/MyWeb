@@ -51,11 +51,14 @@ all things are made new.
 
 **{{book.BibleProject}}**
 
-> **Revelation Introduction**
-> [Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
-> [Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
-
+> [Revelation Introduction](https://bibleproject.com/explore/video/revelation/)
 M{ zoomableImg(`Revelation_BP`) }M
+
+> [Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
+M{ youTube(`5nvVVcYD-0w`) }M
+
+> [Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
+M{ youTube(`QpnIrbq2bKo`) }M
 
 
 <!-- NOTE:  layout for "cell phone" responsive show/hide -->

@@ -5,6 +5,13 @@ am holy.” Leviticus is a book of laws, but it’s also a book of
 worship. This book is filled with details on how the people of God
 should live, eat, sacrifice, celebrate, and more.
 
+How can we live in God’s presence? The answer is given to us in the
+book of Leviticus. If we are ever to dwell with God we must become
+like God, we must be holy as he is holy. Atonement provided a
+temporary way to take our darkness and make it light, but we needed a
+more permanent solution. That is why Jesus, who is God's light itself,
+took on our darkness to make us holy like him.
+
 ### At a Glance
 
 - [Overview](#overview)
@@ -50,8 +57,9 @@ should live, eat, sacrifice, celebrate, and more.
 **{{book.BibleProject}}**
 
 > [Leviticus Introduction](https://bibleproject.com/explore/video/leviticus/)
-
 M{ zoomableImg(`Leviticus_BP`) }M
+
+M{ youTube(`IJ-FekWUZzE`) }M
 
 
 **{{book.SpokenGospel}}**

@@ -1,30 +1,11 @@
 # Lamentations
 
-**Jerusalem has fallen**
-
-Israel’s exile was the direct result of their constant rebellion
-against God's covenant despite his persistent warnings through
-prophets. After the exile, now surrounded by war, grief and suffering,
-the people of Israel acknowledge their sin and cry out to God for
-restoration and repentance in these lament poems.
-
-These poems are powerful and raw expressions of confusion, anger, and
-heartbreak. The poet is unafraid of being brutally honest with God,
-helping us understand how a true and honest expression of our pain to
-God is not only good, it is holy—a sign of a covenant partnership and
-trust in a holy God. Lament is an appropriate response to evil in the
-world, and it’s something we can learn to practice through meditating
-on the words of Lamentations.
-
-**A God Who Hears**
-
-The book of Lamentations is a collection of funeral poems offered on
-behalf of Jerusalem after its destruction by Babylon. Despite its
-bleak subject matter, it offers a biblical view of how humans can
-respond to God in their grief and distress. Hope is found through the
-complicated process of lament, a process that leads to true intimacy
-with a God who hears the cries of his people.
-
+Lamentations is like a eulogy. But instead of mourning a loved one's
+passing, this book laments over the death of Israel and her
+temple. The mourners admit they are responsible for Israel's demise
+and they grieve the possibility that they have been utterly rejected
+by God. But in the middle of their grief, there is a message of
+hope–God's mercies are new every morning!
 
 
 ### At a Glance
@@ -63,8 +44,9 @@ with a God who hears the cries of his people.
 **{{book.BibleProject}}**
 
 > [Lamentations Introduction](https://bibleproject.com/explore/video/lamentations/)
-
 M{ zoomableImg(`Lamentations_BP`) }M
+
+M{ youTube(`p8GDFPdaQZQ`) }M
 
 
 **{{book.SpokenGospel}}**

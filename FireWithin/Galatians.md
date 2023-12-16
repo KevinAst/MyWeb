@@ -12,6 +12,20 @@ trust in Jesus as the Messiah, his life, death, and resurrection
 become theirs. They are new creations, free from the laws and the old
 covenant.
 
+Galatians addresses the sensitive and complex issue of the role Old
+Testament Law plays in salvation, specifically regarding
+circumcision. Paul's main goal in his letter to the Galatians is to
+defend salvation by faith in Jesus, not by works of the Law. But in
+order to follow his argument and understand the good news he is
+sharing, we must grasp the true purpose of circumcision.
+
+This sign was given to point to Abraham's future descendent who would
+be a blessing to all nations. That sign was fulfilled in
+Jesus. Therefore, faith in Jesus is the fulfillment of the command to
+be circumcised. As you meditate on this truth, along with its wider
+implications, we pray that the free and finished gift of the Gospel
+becomes more and more beautiful to you.
+
 
 ### At a Glance
 
@@ -56,8 +70,8 @@ covenant.
 **{{book.BibleProject}}**
 
 > [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
-
 M{ zoomableImg(`Galatians_BP`) }M
+M{ youTube(`vmx4UjRFp0M`) }M
 
 
 **{{book.SpokenGospel}}**

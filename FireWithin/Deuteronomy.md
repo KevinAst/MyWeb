@@ -5,6 +5,13 @@ they do, Moses rallies the people to remind them of God’s law—and why
 they should obey Him. This is how the book of Deuteronomy gets its
 name: it’s the “second giving” of God’s law.
 
+Deuteronomy tells the story of Israel's inability to obey God's
+Law. This disobedience leads to death, exile, and hopelessness. But
+since Jesus keeps the whole Law for us, we can be free from death and
+enter into eternal life with him. Beyond this, Jesus writes the Law on
+our hearts by his Spirit. This enables us to finally be Law keepers
+instead of Law breakers.
+
 
 ### At a Glance
 
@@ -44,8 +51,9 @@ name: it’s the “second giving” of God’s law.
 **{{book.BibleProject}}**
 
 > [Deuteronomy Introduction](https://bibleproject.com/explore/video/deuteronomy/)
-
 M{ zoomableImg(`Deuteronomy_BP`) }M
+
+M{ youTube(`q5QEH9bH8AU`) }M
 
 
 **{{book.SpokenGospel}}**

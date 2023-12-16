@@ -5,6 +5,16 @@ Major themes include: Jesus returns to the Father &bull; the Holy
 Spirit comes to the church &bull; and Jesus' followers spread his
 gospel throughout the world.
 
+Acts details the birth and spread of the church. But there is
+something deeply significant in the way it is laid out and
+described. Acts shows the Gospel going to Jerusalem, Judea and
+Samaria, and then to the ends of the earth. This growth, from the
+center out, is what was supposed to happen back in the Garden of
+Eden. Acts, then, shows us that God's purposes for humanity, that he
+began at creation, are finally being brought to completion through
+Jesus, the Gospel, and his Church.
+
+
 ### At a Glance
 
 - [Overview](#overview)
@@ -43,11 +53,15 @@ gospel throughout the world.
 
 **{{book.BibleProject}}**
 
-> **Acts Introduction**
-> [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
-> [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
-
+> [Acts Introduction](https://bibleproject.com/explore/video/acts/)
 M{ zoomableImg(`Acts_BP`) }M
+
+> [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
+M{ youTube(`CGbNw855ksw`) }M
+
+> [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
+M{ youTube(`Z-17KxpjL0Q`) }M
+
 
 
 **{{book.SpokenGospel}}**

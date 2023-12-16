@@ -86,6 +86,17 @@ phone)_.
 >   4. select the desired book (ex: Acts)
 
 
+## Search
+
+You may search the content of the blog through the search box found at
+the top of the **Left Nav Bar**.
+
+**Please Note** that because the blog content is primarily links to
+other resources, this feature is only useful when the term you are
+searching for is contained in the sermon title, or the introductory
+pros.
+
+
 ## Resource Links
 
 As mentioned in the [Welcome Page](intro.md), this site is merely an

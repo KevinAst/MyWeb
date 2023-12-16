@@ -4,6 +4,14 @@ Paul has heard a good report on the church at Thessalonica, and
 encourages the persecuted believers to "excel still more" in faith,
 hope, and love.
 
+Paul's two letters to the Thessalonians talk more explicitly about
+Jesus' second coming than, perhaps, any of Paul's other
+letters. That's because these believers were oppressed, persecuted,
+and especially needed the hope of Jesus' return. Jesus would not only
+return to heal and restore them but also bring justice against those
+oppressing them.
+
+
 ### At a Glance
 
 - [Overview](#overview)
@@ -48,8 +56,8 @@ hope, and love.
 **{{book.BibleProject}}**
 
 > [1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)
-
 M{ zoomableImg(`1Thessalonians_BP`) }M
+M{ youTube(`No7Nq6IX23c`) }M
 
 
 **{{book.SpokenGospel}}**

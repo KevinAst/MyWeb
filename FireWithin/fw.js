@@ -22,7 +22,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '19';
+    const CUR_VER = '20';
 
 
     //***************************************************************************

@@ -2,7 +2,7 @@
 
 {{book.CornerstoneChapel}}
 
-> NOTE: These are a few recent entries have aired.  At some future
+> NOTE: These are a few recent entries that have aired.  At some future
 > point, I will do a more exhaustive search of the Cornerstone
 > library.
 

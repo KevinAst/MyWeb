@@ -45,6 +45,3 @@ _([find out more](https://overviewbible.com/new-testament-books/))_:
    - M{ completedCheckBox(`3John`) }M           {{book.3John}}
    - M{ completedCheckBox(`Jude`) }M            {{book.Jude}}
    - M{ completedCheckBox(`Revelation`) }M      {{book.Revelation}}
-
-> Please note that this Bible Study Guide is not yet complete _(asteric indicates **ToDo**)_.
-> To request a specific book to be added, please see the {{book.WorkInProgress}} section.

@@ -5,6 +5,12 @@ en route to the promised land of Canaan. Numbers begins and ends with
 Moses counting all the people in the nation, which is how the book
 gets its name.
 
+Numbers shows us what it looks like to get trapped in the cycle of
+sin. Whether it was Israel in the wilderness or ourselves in the city,
+we all disobey and are headed toward punishment. Only Jesus can break
+the cycle of sin, intercede for us, and bring us out of the wilderness
+to himself.
+
 
 ### At a Glance
 
@@ -51,8 +57,9 @@ gets its name.
 **{{book.BibleProject}}**
 
 > [Numbers Introduction](https://bibleproject.com/explore/video/numbers/)
-
 M{ zoomableImg(`Numbers_BP`) }M
+
+M{ youTube(`tp5MIrMZFqo`) }M
 
 
 **{{book.SpokenGospel}}**

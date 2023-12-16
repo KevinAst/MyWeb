@@ -106,26 +106,26 @@ function processCustomTags(_forPage, markdown) {
   // define our generic customTag regular expression matcher
   // ... a global matcher to find all occurances (see /g)
   // EX: M{ zoomableImg(`Mark_BP`) }M
-  //forPage==='WorkInProgress.md' && console.log(`XX before customTagRegex`);
+  //forPage==='MyFaith.md' && console.log(`XX before customTagRegex`);
 //const customTagRegex = /M{\s*\w*.*\s*}M/g;       // ORIGINAL
   const customTagRegex = /M{\s*\w*[\w\W]*?\s*}M/g; // FIX: Multi Line (see "BOTTOM LINE" note above)
 //const customTagRegex = /\d+/g; // TEMP - used for TEST (two digits) ... "ONE:[22] ... TWO:[44] ... THREE[33]";
 
   // Process each match separately
   // NOTE: RegExp.exec() API: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
-  //forPage==='WorkInProgress.md' && console.log(`XX before match loop`);
+  //forPage==='MyFaith.md' && console.log(`XX before match loop`);
   let match;
   while ((match = customTagRegex.exec(markdown)) !== null) {
-    //forPage==='WorkInProgress.md' && console.log(`XX INSIDE match loop`);
+    //forPage==='MyFaith.md' && console.log(`XX INSIDE match loop`);
 
     // the matched substring (customTag)
     const customTag = match[0];
-    //forPage==='WorkInProgress.md' && console.log(`\n\n\n\n\nXX in page ${forPage}, found customTag: ${customTag}`);
+    //forPage==='MyFaith.md' && console.log(`\n\n\n\n\nXX in page ${forPage}, found customTag: ${customTag}`);
 
     // the starting index of the match
     const startIndex = match.index;
 
-    // forPage==='WorkInProgress.md' && console.log(`XX found customTag match: `, {customTag, startIndex});
+    // forPage==='MyFaith.md' && console.log(`XX found customTag match: `, {customTag, startIndex});
 
     // resolve the dynamic content
     // ... which varies by customTag (identifying the function, params, etc.)
@@ -136,7 +136,7 @@ function processCustomTags(_forPage, markdown) {
                dynamicContent +
                markdown.substring(startIndex + customTag.length);
 
-    //forPage==='WorkInProgress.md' && console.log(`\n\n\nXX ITTERATE RESULT: ${markdown}`); // TOO BIG (entire page)
+    //forPage==='MyFaith.md' && console.log(`\n\n\nXX ITTERATE RESULT: ${markdown}`); // TOO BIG (entire page)
   }
 
   return markdown;
@@ -172,7 +172,7 @@ function resolveDynamicContent(customTag) {
   // setup assertion utility
   const verify = check.prefix(`violation in page: ${forPage} ... `);
 
-  //forPage==='WorkInProgress.md' && console.log(`XX DYNO for customTag: '${customTag}'`);
+  //forPage==='MyFaith.md' && console.log(`XX DYNO for customTag: '${customTag}'`);
 
   // extract the function to call
   const fnNameMatch = customTag.match(/\s*(\w*)\(.*/); // ORIGINAL - is fine as fnName cannot span multi-lines (see "BOTTOM LINE" note above)
@@ -187,7 +187,7 @@ function resolveDynamicContent(customTag) {
 
   const argStr   = argMatch && argMatch[1];
   let   argObj;
-  //forPage==='WorkInProgress.md' && console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
+  //forPage==='MyFaith.md' && console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
 
   // convert to a json object
   if (argStr === null || argStr === undefined) { // something like a missmatch of string literal ... ('id`)
@@ -203,7 +203,7 @@ function resolveDynamicContent(customTag) {
       //       To solve this we use eval(), which is typically a security risk (but I am in a closed environment here - so I trust the markdown)
       // argObj = JSON.parse(argStr);
       argObj = eval(`(${argStr})`); // ... the extra parans ensure the string is treated as an expression
-      //forPage==='WorkInProgress.md' && console.log(`XX DYNO argObj: `, {argObj});
+      //forPage==='MyFaith.md' && console.log(`XX DYNO argObj: `, {argObj});
     }
     catch (err) {
       verify(false, `argument is NOT a valid JavaScript reference, for argStr: "${argStr}" in customTag: "${customTag}" ... ${err.message}`);
@@ -304,16 +304,16 @@ function zoomableImg(id) {
 //*   M{ youTube(`ZBLKrNVffgo`) }M
 //* 
 //* Replaced With:
-//*   <p align="center">
-//*     <iframe name="ZBLKrNVffgo"
-//*             id="ZBLKrNVffgo"
-//*             width="577"
-//*             height="325"
-//*             src="https://www.youtube.com/embed/ZBLKrNVffgo"
+//*   
+//*   <div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
+//*     <iframe name="${id}"
+//*             id="${id}"
+//*             style="width: 80%; height: 100%;"
+//*             src="https://www.youtube.com/embed/${id}"
 //*             frameborder="0"
 //*             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 //*             allowfullscreen></iframe>
-//*   </p>
+//*   </div>
 //*-----------------------------------------------------------------------------
 function youTube(id) {
 
@@ -332,16 +332,16 @@ function youTube(id) {
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   return `${diag}
 <!-- START Custom Tag: ${self} -->
-<p align="center">
+
+<div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
   <iframe name="${id}"
           id="${id}"
-          width="577"
-          height="325"
+          style="width: 80%; height: 100%;"
           src="https://www.youtube.com/embed/${id}"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
-</p>
+</div>
 
 <!-- END Custom Tag: ${self} -->
 `;
