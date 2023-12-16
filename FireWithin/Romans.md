@@ -10,6 +10,15 @@ Jesus established a new covenant that is open to all people, Jew and
 Gentile, creating a multiethnic family of God where self-giving love
 and forgiveness are at the center of everything.
 
+Romans is one of the most famous, quoted, and dearly loved books in
+the whole Bible. This may be because it contains some of the clearest
+and strong statements of the Gospel we have in Scripture. But other
+parts of Romans, and how it all fits together, can be difficult to
+follow. That is because there is a story behind the book of Romans. It
+is the story of the conflict which arose between Jews and Gentiles as
+they began integrating in synagogues and house churches throughout
+Rome, and how Jesus brings them together.
+
 
 ### At a Glance
 
@@ -52,11 +61,14 @@ and forgiveness are at the center of everything.
 
 **{{book.BibleProject}}**
 
-> **Romans Introduction**
-> [Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/) ...
-> [Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
-
+> [Romans Introduction](https://bibleproject.com/explore/video/romans/)
 M{ zoomableImg(`Romans_BP`) }M
+
+> [Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/)
+M{ youTube(`ej_6dVdJSIU`) }M
+
+> [Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
+M{ youTube(`0SVTl4Xa5fY`) }M
 
 
 **{{book.SpokenGospel}}**
