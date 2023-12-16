@@ -1,8 +1,13 @@
 # Mark
 
-Mark is the story of what Jesus did for us. The author, John Mark,
-wrote this book based on the apostle Peter’s memories of Jesus’ words
-and deeds.
+The author of Mark, John Mark, wrote this book based on the apostle
+Peter’s memories of Jesus’ words and deeds.
+
+The Gospel of Mark seeks to answer the question, "How can Jesus' death
+be good news?" In the aftermath of Jesus' crucifixion, people were
+wondering how Jesus could have been the promised Messiah if he died on
+a cross. Mark answers this question by showing how everything Jesus
+did in his life prepares us for and informs us about his death.
 
 
 ### At a Glance
@@ -47,13 +52,12 @@ and deeds.
 
 
 **{{book.BibleProject}}**
-
 > [Mark Introduction](https://bibleproject.com/explore/video/mark/)
-
 M{ zoomableImg(`Mark_BP`) }M
+M{ youTube(`HGHqu9-DtXk`) }M
+
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`ZBLKrNVffgo`) }M
 
 
