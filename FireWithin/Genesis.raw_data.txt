@@ -1,156 +1,3 @@
-*----------------------
-* 2011 Series (Sundays) WITH Study Guide
-*----------------------
-
-NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
-
-06/03/2012
-Forgive and Be Forgiven
-Gen 42-45
-gen.42
-
-06/10/2012
-The Legacy We Leave
-Gen 46-50
-gen.46
-
-05/20/2012
-In Your Dreams
-Gen 40-41
-gen.40
-
-05/13/2012
-Fighting Temptation
-Gen 39
-gen.39
-
-05/06/2012
-Understanding Temptation
-Gen 39
-gen.39
-
-04/29/2012
-The Providence of God
-Gen 36-38
-gen.36
-
-04/22/2012
-Burying the Past
-Gen 33-35
-gen.33
-
-04/01/2012
-Wrestling with God
-Gen 30-32
-gen.30
-
-03/25/2012
-For the Love of Leah
-Gen 29
-gen.29
-
-03/18/2012
-Lessons From A Ladder
-Gen 28
-gen.28
-
-03/11/2012
-In The Grip Of A Grudge
-Gen 27:41-46
-gen.27
-
-03/04/2012
-A Web of Deception
-Gen 27:1-40
-gen.27
-
-02/26/2012
-Jacob And Esau: Double Trouble
-Gen 25-26
-gen.25
-
-02/19/2012
-A Wedding Story
-Gen 23-24
-gen.23
-
-02/12/2012
-A Sacrifice of Love
-Gen 20-22
-gen.20
-
-02/05/2012
-The Cost of Compromise
-Gen 18-19
-gen.18
-
-01/29/2012
-Learning to Wait
-Gen 16-17
-gen.16
-
-01/22/2012
-God is a Covenant God
-Gen 14-15
-gen.14
-
-01/08/2012
-A Calling and a Blessing
-Gen 12-13
-gen.12
-
-12/11/2011
-What's the Babble at Babel About?
-Gen 10-11
-gen.10
-
-12/04/2011
-Lessons From The Flood
-Gen 5-9
-gen.5
-
-11/06/2011
-Envy Kills
-Gen 4:8-16
-gen.4
-
-10/30/2011
-Rejecting Cain
-Gen 3:21-4:7
-gen.3
-
-10/23/2011
-Reverse the Curse
-Gen 3:14-20
-gen.3
-
-10/16/2011
-Don't Eat That!
-Gen 3:6-13
-gen.3
-
-10/09/2011
-Satan's Subtle Seduction
-Gen 3:1-5
-gen.3
-
-09/25/2011
-Adam, Meet Madam
-Gen 2
-gen.2
-
-09/18/2011
-Creation Sensation
-Gen 1
-gen.1
-
-09/11/2011
-Introduction To Genesis
-Genesis Intro
-gen.1
-
-
-
 *-----------------------
 * 2010 Series (Mid Week) NO Study Guide
 *-----------------------
@@ -364,6 +211,158 @@ gen.1
 
 11/10/2010
 Teaching
+Genesis Intro
+gen.1
+
+
+*----------------------
+* 2011 Series (Sundays) WITH Study Guide
+*----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+06/03/2012
+Forgive and Be Forgiven
+Gen 42-45
+gen.42
+
+06/10/2012
+The Legacy We Leave
+Gen 46-50
+gen.46
+
+05/20/2012
+In Your Dreams
+Gen 40-41
+gen.40
+
+05/13/2012
+Fighting Temptation
+Gen 39
+gen.39
+
+05/06/2012
+Understanding Temptation
+Gen 39
+gen.39
+
+04/29/2012
+The Providence of God
+Gen 36-38
+gen.36
+
+04/22/2012
+Burying the Past
+Gen 33-35
+gen.33
+
+04/01/2012
+Wrestling with God
+Gen 30-32
+gen.30
+
+03/25/2012
+For the Love of Leah
+Gen 29
+gen.29
+
+03/18/2012
+Lessons From A Ladder
+Gen 28
+gen.28
+
+03/11/2012
+In The Grip Of A Grudge
+Gen 27:41-46
+gen.27
+
+03/04/2012
+A Web of Deception
+Gen 27:1-40
+gen.27
+
+02/26/2012
+Jacob And Esau: Double Trouble
+Gen 25-26
+gen.25
+
+02/19/2012
+A Wedding Story
+Gen 23-24
+gen.23
+
+02/12/2012
+A Sacrifice of Love
+Gen 20-22
+gen.20
+
+02/05/2012
+The Cost of Compromise
+Gen 18-19
+gen.18
+
+01/29/2012
+Learning to Wait
+Gen 16-17
+gen.16
+
+01/22/2012
+God is a Covenant God
+Gen 14-15
+gen.14
+
+01/08/2012
+A Calling and a Blessing
+Gen 12-13
+gen.12
+
+12/11/2011
+What's the Babble at Babel About?
+Gen 10-11
+gen.10
+
+12/04/2011
+Lessons From The Flood
+Gen 5-9
+gen.5
+
+11/06/2011
+Envy Kills
+Gen 4:8-16
+gen.4
+
+10/30/2011
+Rejecting Cain
+Gen 3:21-4:7
+gen.3
+
+10/23/2011
+Reverse the Curse
+Gen 3:14-20
+gen.3
+
+10/16/2011
+Don't Eat That!
+Gen 3:6-13
+gen.3
+
+10/09/2011
+Satan's Subtle Seduction
+Gen 3:1-5
+gen.3
+
+09/25/2011
+Adam, Meet Madam
+Gen 2
+gen.2
+
+09/18/2011
+Creation Sensation
+Gen 1
+gen.1
+
+09/11/2011
+Introduction To Genesis
 Genesis Intro
 gen.1
 
