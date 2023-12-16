@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v20.0](#v20_0)   | Book Completion!     | *Dec 20, 2023*
+[v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
 [v19.0](#v19_0)   | Selectable Translations,<br/> Book Completions, & more | *Dec 5, 2023*
 [v18.0](#v18_0)   | Lamentations, Current Events & more                    | *Aug 23, 2023*
 [v17.0](#v17_0)   | Jeremiah             | *Jun 3, 2023*
@@ -55,63 +55,59 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v20_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v20.0 - Book Completion <i>(Dec 20, 2023)</i>
+  v20.0 - Book Completion <i>(Dec 16, 2023)</i>
 </h3>
 <br/>
 
-?? Verify NO asterisk (shown when NOT done)
-
-?? Replace number (1. ) with &bull; for in-line bullets
-
 This is a **Major Release** that finialized **All Books of the Bible**!
-This includes the:
+This includes:
 
-- **{{book.OldTestament}}** books:
-  1. {{book.Joshua}}
-  1. {{book.Judges}}
-  1. {{book.Ruth}}
-  1. {{book.1Samuel}}
-  1. {{book.2Samuel}}
-  1. {{book.1Kings}}
-  1. {{book.2Kings}}
-  1. {{book.1Chronicles}}
-  1. {{book.2Chronicles}}
-  1. {{book.Ezra}}
-  1. {{book.Nehemiah}}
-  1. {{book.Esther}}
-  1. {{book.Job}}
-  1. {{book.Psalms}}
-  1. {{book.Proverbs}}
-  1. {{book.Ecclesiastes}}
-  1. {{book.SongOfSolomon}}
-  1. {{book.Isaiah}}
-  1. {{book.Ezekiel}}
-  1. {{book.Joel}}
-  1. {{book.Obadiah}}
-  1. {{book.Nahum}}
-  1. {{book.Habakkuk}}
-  1. {{book.Zephaniah}}
-  1. {{book.Haggai}}
-  1. {{book.Zechariah}}
-  1. {{book.Malachi}}
+- **{{book.OldTestament}}** books (27):
+  {{book.Joshua}} &bull;
+  {{book.Judges}} &bull;
+  {{book.Ruth}} &bull;
+  {{book.1Samuel}} &bull;
+  {{book.2Samuel}} &bull;
+  {{book.1Kings}} &bull;
+  {{book.2Kings}} &bull;
+  {{book.1Chronicles}} &bull;
+  {{book.2Chronicles}} &bull;
+  {{book.Ezra}} &bull;
+  {{book.Nehemiah}} &bull;
+  {{book.Esther}} &bull;
+  {{book.Job}} &bull;
+  {{book.Psalms}} &bull;
+  {{book.Proverbs}} &bull;
+  {{book.Ecclesiastes}} &bull;
+  {{book.SongOfSolomon}} &bull;
+  {{book.Isaiah}} &bull;
+  {{book.Ezekiel}} &bull;
+  {{book.Joel}} &bull;
+  {{book.Obadiah}} &bull;
+  {{book.Nahum}} &bull;
+  {{book.Habakkuk}} &bull;
+  {{book.Zephaniah}} &bull;
+  {{book.Haggai}} &bull;
+  {{book.Zechariah}} &bull;
+  {{book.Malachi}}
 
-- **{{book.NewTestament}}** books:
-  1. {{book.Matthew}}
-  1. {{book.Ephesians}}
-  1. {{book.Philippians}}
-  1. {{book.Colossians}}
-  1. {{book.1Timothy}}
-  1. {{book.2Timothy}}
-  1. {{book.Titus}}
-  1. {{book.Philemon}}
-  1. {{book.Hebrews}}
-  1. {{book.James}}
-  1. {{book.1Peter}}
-  1. {{book.2Peter}}
-  1. {{book.1John}}
-  1. {{book.2John}}
-  1. {{book.3John}}
-  1. {{book.Jude}}
+- **{{book.NewTestament}}** books (16):
+  {{book.Matthew}} &bull;
+  {{book.Ephesians}} &bull;
+  {{book.Philippians}} &bull;
+  {{book.Colossians}} &bull;
+  {{book.1Timothy}} &bull;
+  {{book.2Timothy}} &bull;
+  {{book.Titus}} &bull;
+  {{book.Philemon}} &bull;
+  {{book.Hebrews}} &bull;
+  {{book.James}} &bull;
+  {{book.1Peter}} &bull;
+  {{book.2Peter}} &bull;
+  {{book.1John}} &bull;
+  {{book.2John}} &bull;
+  {{book.3John}} &bull;
+  {{book.Jude}}
 
 Other enhancements include:
 
