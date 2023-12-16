@@ -2,6 +2,12 @@
 
 Jesus came to bring God's love and the gift of eternal life to the world.
 
+The Gospel of John shows us many of Jesus’ signs. These signs are
+meant to point us to who Jesus is so that we might believe. Whether it
+is turning water to wine or turning over tables in the Temple,
+everything John shows Jesus doing is meant to help us believe that
+Jesus is the Son of God who died for our sins.
+
 
 ### At a Glance
 
@@ -42,11 +48,15 @@ Jesus came to bring God's love and the gift of eternal life to the world.
 
 **{{book.BibleProject}}**
 
-> **John Introduction**
-> [Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
-> [Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
-
+> [John Introduction](https://bibleproject.com/explore/video/john/)
 M{ zoomableImg(`John_BP`) }M
+
+> [Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
+M{ youTube(`G-2e9mMf7E8`) }M
+
+> [Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
+M{ youTube(`RUfh_wOsauk`) }M
+
 
 
 **{{book.SpokenGospel}}**
