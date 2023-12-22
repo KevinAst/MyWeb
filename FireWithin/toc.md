@@ -25,11 +25,11 @@
 
 ----
 - [My Faith](MyFaith.md)
-  * [Why does this matter?](MyFaith.md#why-does-this-matter)
   * [What is a Christian?](MyFaith.md#what-does-it-mean-to-be-a-christian)
   * [God is Holy](MyFaith.md#god-is-holy)
   * [In the Beginning](MyFaith.md#in-the-beginning)
   * [Am I good enough?](MyFaith.md#am-i-good-enough)
+  * [Why does this matter?](MyFaith.md#why-does-this-matter)
   * [The Gospel](MyFaith.md#the-gospel)
   * [My Faith](MyFaith.md#my-faith)
   * [A Renewed Faith](MyFaith.md#a-renewed-faith)

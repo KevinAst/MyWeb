@@ -8,16 +8,16 @@
 
 Welcome to my _**"Fire Within"**_ Bible Study Guide!
 
-You may have guessed that I am a believer and follower of Jesus Christ
-_(i.e. a Christian)_.  The short version of my faith is I accepted
-Christ at an early age, and was active in my Church for many years.
-However I felt something lacking in my faith.  I actually fell away
-from God much later in life, and through a series of _(what I believe
-were miraculous events)_, God called me back into His fold.  Through
-the empowerment of the Holy Spirit, I now have a passion to be in His
+As you may have already guessed, I am a believer and follower of Jesus
+Christ _(i.e. a Christian)_.  The short version of my faith is I
+accepted Christ at an early age, and was active in my Church for many
+years.  However I felt something lacking in my faith.  I actually fell
+away from God much later in life, and through a series of _(what I
+believe were miraculous events)_, God called me back into His fold.
+With the help of the Holy Spirit, I now have a passion to be in His
 word daily, allowing it to guide my life and decisions.
 
-I share more about my Christian faith in the {{book.MyFaith}} section.
+I share more about my Christian faith in the {{book.MyFaith}} page.
 
 ## Technology
 
@@ -36,10 +36,9 @@ and difficult to organize and keep track of _(in the context of a
 Bible study)_.
 
 As a result I created this site.  It is merely an accumulation of
-resource links that guide me through the books of the Bible.  Because
-they are concisely organized, it helps in keeping track of where you
-are in your study.
-
+resource links that guide me through the books of the Bible.  I have
+attempted to organize them in a concise list, so as to help keep track
+of where I am in my study.
 
 ## How I Study
 
@@ -84,9 +83,11 @@ promoting the following:
    Hamrick)_.  This is a non denominational evangelical church in
    Leesburg, VA. I have grown to love the ministry of Pastor Gary.  He
    provides so much insight to the scriptures, making them simply come
-   alive _(somewhat akin to watching [The
-   Chosen](https://watch.angelstudios.com/thechosen) series on the
-   life of Christ )_.
+   alive.
+   <!-- 
+     _(somewhat akin to watching [The Chosen](https://thechosen.tv) series
+     on thelife of Christ )_.
+    -->
 
 I am so grateful for these biblical resources, and the men and women
 of God that have made them possible.
