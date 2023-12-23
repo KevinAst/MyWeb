@@ -49,41 +49,6 @@ all fall short of God's perfect righteousness.
 _**Not at all** - please keep reading_ ...
 
 
-## God is Holy
-
-In reality, there is a deep chasm between us and the Holy God.  It is
-difficult to even comprehend how Holy our God is.  What separates us
-from God is our sinful nature, and there is nothing we can do _in and
-of ourselves_ to bridge that gap.
-
-## In the Beginning
-
-It wasn't always this way.  When God created the world, we had a pure
-relationship with Him _(in Adam and Eve)_.  They regularly communed
-with God in the garden and exerienced sheer happiness and joy.
-
-But God gave us free will, and Adam and Eve chose to disobey God
-_(and so by inference - us)_.  Hence ushered in the severing of our
-relationship with God.
-
-From that very moment in time, God formulated a plan to bring us back
-into His fold.
-
-
-## Am I good enough?
-
-You might be saying, well I'm a relatively good person ... I look out
-for others, I'm not a cheat or a thief, etc.  Those are all good
-things, but it doesn't come close to the standard of a Holy God.
-
-- Jesus reveals that even our thoughts can be sinful
-  (M{ bibleLink(`mat.5.22@@Matthew 5:22`) }M, M{ bibleLink(`mat.5.28@@Matthew 5:28`) }M)
-  
-- James tells us that it is our desires that give birth to sinful action
-  (M{ bibleLink(`jas.1.14-15@@James 1:14-15`) }M)
-
-
-
 ## Why does this matter?
 
 <!-- 
@@ -145,6 +110,43 @@ The reason this matter is so important is that it determines how we
 will live out eternity.  Whether we accept the truth or not, it is
 still the truth, and it will be the truth at the end of our lives when
 we stand before a Holy God.
+
+
+
+## God is Holy
+
+In reality, there is a deep chasm between us and the Holy God.  It is
+difficult to even comprehend how Holy our God is.  What separates us
+from God is our sinful nature, and there is nothing we can do _in and
+of ourselves_ to bridge that gap.
+
+## In the Beginning
+
+It wasn't always this way.  When God created the world, we had a pure
+relationship with Him _(in Adam and Eve)_.  They regularly communed
+with God in the garden and exerienced sheer happiness and joy.
+
+But God gave us free will, and Adam and Eve chose to disobey God
+_(and so by inference - us)_.  Hence ushered in the severing of our
+relationship with God.
+
+From that very moment in time, God formulated a plan to bring us back
+into His fold.
+
+
+## Am I good enough?
+
+You might be saying, well I'm a relatively good person ... I look out
+for others, I'm not a cheat or a thief, etc.  Those are all good
+things, but it doesn't come close to the standard of a Holy God.
+
+- Jesus reveals that even our thoughts can be sinful
+  (M{ bibleLink(`mat.5.22@@Matthew 5:22`) }M, M{ bibleLink(`mat.5.28@@Matthew 5:28`) }M)
+  
+- James tells us that it is our desires that give birth to sinful action
+  (M{ bibleLink(`jas.1.14-15@@James 1:14-15`) }M)
+
+
 
 
 ## The Gospel
@@ -219,7 +221,7 @@ church_, that can assist and disciple you in your new found faith!
 
 ## My Faith
 
-In my personal life, I made this profession of faith as a young boy,
+In my personal life, I asked Jesus to come into my life as a young boy,
 during a revival of my parents church.
 
 I was active in my church, trying to live a life that honored God.  I
