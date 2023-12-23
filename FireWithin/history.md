@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
 [v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
 [v19.0](#v19_0)   | Selectable Translations,<br/> Book Completions, & more | *Dec 5, 2023*
 [v18.0](#v18_0)   | Lamentations, Current Events & more                    | *Aug 23, 2023*
@@ -51,6 +52,17 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v20_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v20.1 - Misc <i>(Dec 22, 2022)</i>
+</h3>
+<br/>
+
+- Minor adjustments to the {{book.MyFaith}} page.
+
 
 <!-- ************************************************************* -->
 <br/>
