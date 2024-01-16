@@ -89,8 +89,8 @@ function preProcessPage(page) {
 </script>`;
 
   // start/end scripts needed for the proper activation/initialization of fw.js in our client pages
-  const startScript = `<script type="module" src="fw.js"></script>`;     // inject fw.js script in every page
-  const endScript   = `<script> withFW( ()=>fw.pageSetup() ) </script>`; // auto run pageSetup() at end (when page is rendered)
+  const startScript = `<script type="module" src="./js/fw.js"></script>`; // inject fw.js script in every page
+  const endScript   = `<script> withFW( ()=>fw.pageSetup() ) </script>`;  // auto run pageSetup() at end (when page is rendered)
 
   // surround the page with the necessary JavaScript constructs
   // ... utilize cr/lf (\n) to NOT conflict with various markdown constructs (like "### Title", etc.)

@@ -32,7 +32,7 @@ It does the following:
    **At the START:**
    ... _inject fw.js script in every page_
    ```
-   <script type="module" src="fw.js"></script>
+   <script type="module" src="./js/fw.js"></script>
    ```
 
    **At the END:**
