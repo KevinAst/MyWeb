@@ -23,7 +23,7 @@ through this setting:
 
 <select id="bibleTranslations"></select>
 <script>
-  fw.genBibleTranslationsSelection('bibleTranslations');
+  withFW( ()=>fw.genBibleTranslationsSelection('bibleTranslations') )
 </script>
 
 Your active Bible Translation is visible at the top of the LeftNav
@@ -38,5 +38,5 @@ Bar.
 > or Direct Message me on [Twitter](https://twitter.com/kevinast)
 
 <script>
-  fw.addInquire('Fire%20Within%20Bible%20Translation%20Request');
+  withFW( ()=>fw.addInquire('Fire%20Within%20Bible%20Translation%20Request') )
 </script>

@@ -284,7 +284,7 @@ function zoomableImg(id) {
   </figure>
 </center>
 <script>
-  fw.addZoomableImage('${id}', '${id}.png', 75);
+  withFW( ()=>fw.addZoomableImage('${id}', '${id}.png', 75) )
 </script>
 
 <!-- END Custom Tag: ${self} -->

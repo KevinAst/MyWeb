@@ -9,16 +9,29 @@
 //*            fw.fooBar = function() { ... }
 //*-----------------------------------------------------------------------------
 
-console.log('***NOTE*** including fw.js module');
+// NOTE: now that fw.js is expanded in a module-scope, we only see this log ONCE!
+console.log('fw:fw ***NOTE*** expanding fw.js module');
+
+// ?? QUICK AND DIRTY TEST of import
+// THIS WORKS:
+//? import {initializeApp} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+//? if (initializeApp) {
+//?   console.log('XX WowZee: I just imported firebase function from the internet');
+//?   // initializeApp(); // XX expecting error with no parms ... YES 
+//? }
+//? else {
+//?   console.log('XX SO SAD: was NOT able to import firebase function from the internet');
+//? }
+
 
 if (!window.fw) { // only expand this module once (conditionally)
 
-  console.log('***NOTE*** expanding our one-and-only "module scoped" fw obj');
+  console.log('fw:fw ***NOTE*** defining our one-and-only "module scoped" fw obj');
 
   //*************
-  //* start IIFE -and- promotion of the "module scoped" fw obj
+  //* start IIFE -and- promotion of the "pseudo module scoped" fw obj
   //*************
-  window.fw = (function () {
+  (function () {
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
@@ -170,7 +183,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       const ro = new ResizeObserver( entries => {
         for (let entry of entries) {
           gitbookContainerWidth = entry.target.clientWidth; // adjust width
-          widthInPx = widthPercent/100*gitbookContainerWidth;
+          let widthInPx = widthPercent/100*gitbookContainerWidth;
           Object.assign(imageContainer.style, {
             width:      `${widthInPx}px`,
             height:     `${widthInPx*ratio}px`, // height is proportioned to display entire image
@@ -429,11 +442,19 @@ if (!window.fw) { // only expand this module once (conditionally)
     }
 
 
+    //*************************************
+    //* promote our "module scoped" fw obj
+    //*************************************
+    window.fw = fw;
 
-    //***********
-    //* end IIFE -and- promotion of the "module scoped" fw obj
-    //***********
-    return fw;
+
+    //*******************************************************
+    //* execute any queued functions that requires window.fw
+    //*******************************************************
+
+    window.withFWQue.forEach( (fn) => console.log(`fw:withFW() executing DELAYED fn ... now that fw.js HAS BEEN expanded`) || fn() );
+    window.withFWQue = [];  // clear the que
+
   })(); // IIFE end
 
 } // ... end of ... if (!window.fw) {

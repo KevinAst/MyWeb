@@ -69,14 +69,33 @@ function preProcessPage(page) {
   // NOTES:
   // - This MUST be done LAST, to insure these constructs "sandwich" the entire page
 
+  // define our in-line withFW() function that: executes supplied fn in the context of when window.fw is available (delaying as needed via a que)
+  // NOTE: We CANNOT use our sophisticated logger in this code snippet
+  //       BECAUSE this code executes in a non-module script (by design)
+  //       SO we do not have access to the logger :-(
+  const withFW = `
+<script>
+  window.withFWQue = window.withFWQue || [];
+  window.withFW    = window.withFW    || function(fn) {
+    if (window.fw) {
+      //console.log('fw:withFW() executing fn immediately ... fw.js HAS BEEN expanded'); // too verbose: comment out
+      fn();
+    }
+    else {
+      console.log('fw:withFW() delaying fn execution ... to allow fw.js to be expanded'); // of interest
+      window.withFWQue.push(fn);
+    }
+  }
+</script>`;
+
   // start/end scripts needed for the proper activation/initialization of fw.js in our client pages
-  const startScript = `<script src="fw.js"></script>`;      // inject fw.js script in every page
-  const endScript   = `<script> fw.pageSetup(); </script>`; // auto run pageSetup() at end (when page is rendered)
+  const startScript = `<script type="module" src="fw.js"></script>`;     // inject fw.js script in every page
+  const endScript   = `<script> withFW( ()=>fw.pageSetup() ) </script>`; // auto run pageSetup() at end (when page is rendered)
 
   // surround the page with the necessary JavaScript constructs
   // ... utilize cr/lf (\n) to NOT conflict with various markdown constructs (like "### Title", etc.)
   //     for some reason, double cr/lf are needed (not sure why)
-  page.content = `${startScript}\n\n${page.content}\n\n${endScript}`;
+  page.content = `${withFW}\n\n${startScript}\n\n${page.content}\n\n${endScript}`;
 
 
   //***

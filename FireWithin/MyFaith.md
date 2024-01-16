@@ -309,5 +309,5 @@ _Yours In Christ,_
 <br/>**&lt;/Kevin&gt;**
 <br/><span id="inquire"></span>
 <script>
-  fw.addInquire('Fire%20Within%20Feedback');
+  withFW( ()=>fw.addInquire('Fire%20Within%20Feedback') )
 </script>
