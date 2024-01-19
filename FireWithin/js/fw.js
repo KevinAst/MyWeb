@@ -9,29 +9,34 @@
 //*            fw.fooBar = function() { ... }
 //*-----------------------------------------------------------------------------
 
+import logger from './util/logger/index.js';
+const  logPrefix = 'fw:core';
+const  log = logger(`${logPrefix}`);
+
 // NOTE: now that fw.js is expanded in a module-scope, we only see this log ONCE!
-console.log('fw:fw ***NOTE*** expanding fw.js module');
+log.f('expanding fw.js module');
 
 // ?? QUICK AND DIRTY TEST of import
-// THIS WORKS:
+// THIS WORKS: ... really part of Firebase -or- auth
 //? import {initializeApp} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 //? if (initializeApp) {
-//?   console.log('XX WowZee: I just imported firebase function from the internet');
+//?   log('?? WowZee: I just imported firebase function from the internet');
 //?   // initializeApp(); // XX expecting error with no parms ... YES 
 //? }
 //? else {
-//?   console.log('XX SO SAD: was NOT able to import firebase function from the internet');
+//?   log('?? SO SAD: was NOT able to import firebase function from the internet');
 //? }
 
-
 if (!window.fw) { // only expand this module once (conditionally)
-
-  console.log('fw:fw ***NOTE*** defining our one-and-only "module scoped" fw obj');
 
   //*************
   //* start IIFE -and- promotion of the "pseudo module scoped" fw obj
   //*************
   (function () {
+    const log = logger(`${logPrefix}:defineFwIIFE()`);
+
+    log.f('defining our one-and-only "module scoped" fw obj');
+
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
@@ -53,14 +58,16 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* This function is automatically invoked whenever a GitBook page changes.
     //*--------------------------------------------------------------------------
     function syncCompletedChecksOnPage() {
+      const log = logger(`${logPrefix}:syncCompletedChecksOnPage()`);
+
       // fetch all checkbox input elements (representing completed sessions)
       const completedElms = document.querySelectorAll('input[type="checkbox"]');
-      // console.log('XX completedElms: ', completedElms);
+      log.enabled && log('completedElms: ', {completedElms});
 
       // initialize each completed checkbox from our persistent store (localStorage)
       const fireWithinCompletedObj = fetchFireWithinCompletedObj();
       for (const completedElm of completedElms) {
-        //console.log('XX processing completedElm: ', {completedElm, id: completedElm.id });
+        log.v(`processing completedElm.id: "${completedElm.id}"`);
 
         // sync our UI state from our persistent store (localStorage)
         // ... THIS IS IT
@@ -74,7 +81,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Event handler that retain the status checkbox changes in localStorage.
     //*--------------------------------------------------------------------------
     fw.handleCompletedCheckChange = function(completedElm) {
-      // console.log('XX completedElm changed: ', {completedElm, id: completedElm.id, checked: completedElm.checked });
+      const log = logger(`${logPrefix}:handleCompletedCheckChange()`);
+
+      log(`completedElm changed ... id: "${completedElm.id}", checked: ${completedElm.checked}`);
 
       // retain this state change into our persistent store (localStorage)
       const fireWithinCompletedObj = fetchFireWithinCompletedObj();
@@ -138,8 +147,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*          </script>
     //*--------------------------------------------------------------------------
     fw.addZoomableImage = function(imageContainerId, imgSrc, widthPercent) {
+      const log = logger(`${logPrefix}:addZoomableImage()`);
 
-      //console.log(`XX EXECUTING fw.addZoomableImage( function ... for ${imgSrc}`);
+      log(`processing parms: `, {imageContainerId, imgSrc, widthPercent});
 
       const imageContainer = document.getElementById(imageContainerId);
 
@@ -163,7 +173,7 @@ if (!window.fw) { // only expand this module once (conditionally)
         // apply baseline css style to render image as a background
         // ... we do this inside our temporary image on-load so as to have access to the updated ratio
         let widthInPx = widthPercent/100*gitbookContainerWidth;
-        // console.log(`XX showing ${imgSrc} at ${widthPercent}% or ${widthInPx}px`);
+        log(`img.onLoad() showing ${imgSrc} at ${widthPercent}% or ${widthInPx}px`);
         Object.assign(imageContainer.style, {
           // honor the desired width 
           width:      `${widthInPx}px`,
@@ -209,7 +219,7 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // register mouse leave event to reset the zoom
       imageContainer.onmouseleave = (e) => {
-        // console.log(`XX mouse leave for ${imgSrc}`);
+        log(`imageContainer.onmouseleave() for ${imgSrc} ... resetting image`);
         Object.assign(imageContainer.style, {
           backgroundPosition: 'center',
           backgroundSize:     'cover'
@@ -326,6 +336,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*   <a href="#" onmouseover="alterBibleVerseLink(event, 'mrk.1.2')" target="_blank">Mark 1:2</a>
     //*--------------------------------------------------------------------------
     fw.alterBibleVerseLink = function(e, scriptureRef) {
+      const log = logger(`${logPrefix}:alterBibleVerseLink()`);
       
       // extract the bibleTranslation from our settings (User Preferences)
       const bibleTranslation     = settings.bibleTranslation;                // ex: 'NLT'
@@ -340,7 +351,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       // overwrite the href of the invoking <a> tag
       // NOTE: because e.preventDefault() is not used, the browser
       //       will open the link in a new tab based on the updated href
-      // console.log(`XX updating href with: ${url}`);
+      log(`updating href with: ${url}`);
       e.currentTarget.href = url;
     }
 
@@ -398,6 +409,7 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     // register event handler that monitors bibleTranslation changes, syncing them to our UI
     document.addEventListener('bible-translation-changed', function(e) {
+      const log = logger(`${logPrefix}:syncBibleTranslationChange()`);
 
       // locate OUR well-known header (in GitBook'se LeftNav)
       // ... example:
@@ -409,11 +421,11 @@ if (!window.fw) { // only expand this module once (conditionally)
       //             ... snip snip
       const headerElm = document.querySelector('.book-summary nav ul li.header');
       if (!headerElm) {
-        console.log(`**BAD** syncBibleTranslationChange(): can't find well-known headerElm ... NO-OP synchronization :-(`);
+        log.f(`**BAD** can't find well-known headerElm ... NO-OP synchronization :-(`);
         return;
       }
 
-      //console.log(`XX Event Handler processing 'bible-translation-changed' with ${e.detail.bibleTranslation} ... syncing our UI`);
+      log(`processing 'bible-translation-changed' with ${e.detail.bibleTranslation} ... syncing our UI`);
 
       // sync our UI
       headerElm.textContent = `Fire Within (v${CUR_VER} - ${e.detail.bibleTranslation})`;
@@ -432,7 +444,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
     fw.pageSetup = function() {
-      console.log('***NOTE*** perform common setup of each page (once it is loaded)');
+      const log = logger(`${logPrefix}:pageSetup()`);
+
+      log('performing common setup of each page (once it is loaded)');
 
       // sync ALL completed checkboxes on the current page
       syncCompletedChecksOnPage();
@@ -452,7 +466,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* execute any queued functions that requires window.fw
     //*******************************************************
 
-    window.withFWQue.forEach( (fn) => console.log(`fw:withFW() executing DELAYED fn ... now that fw.js HAS BEEN expanded`) || fn() );
+    window.withFWQue.forEach( (fn) => log.f(`fw:withFW() executing DELAYED fn ... now that fw.js HAS BEEN expanded`) || fn() );
     window.withFWQue = [];  // clear the que
 
   })(); // IIFE end
