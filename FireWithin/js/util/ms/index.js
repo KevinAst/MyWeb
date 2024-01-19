@@ -10,6 +10,8 @@ var w = d * 7;
 var y = d * 365.25;
 
 /**
+ * KJB: the ms() function default export ... convert various time formats to milliseconds
+ *
  * Parse or format the given `val`.
  *
  * Options:
@@ -23,7 +25,10 @@ var y = d * 365.25;
  * @api public
  */
 
-module.exports = function (val, options) {
+// KJB: OLD:
+// module.exports = function (val, options) {
+// KJB: NEW:
+function ms(val, options) {
   options = options || {};
   var type = typeof val;
   if (type === 'string' && val.length > 0) {
@@ -36,6 +41,8 @@ module.exports = function (val, options) {
     JSON.stringify(val)
   );
 };
+// KJB: NEW:
+export default ms;
 
 /**
  * Parse the given `str` and return milliseconds.

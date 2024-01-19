@@ -1,5 +1,5 @@
 *-------------------------------------------------------------------------------
-* debug logger utility
+* debug logger utility ... a JavaScript logger modelled after Node.js core's debugging technique
 *-------------------------------------------------------------------------------
 
 - This utility was pulled from the npm registery:

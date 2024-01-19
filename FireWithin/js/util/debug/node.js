@@ -9,6 +9,13 @@ const util = require('util');
  * This is the Node.js implementation of `debug()`.
  */
 
+// KJB:
+// TODO: This IS a CommonJS module, but it needs to be  converted to ES Modules
+//       - I am punting on this now ... because:
+//         * it has some additional dependencies (tty/util) 
+//         * and I have no way to test it (FireWithin has NO node component)
+//       - Currently it is NOT being referenced (see: index.js)
+
 exports.init = init;
 exports.log = log;
 exports.formatArgs = formatArgs;

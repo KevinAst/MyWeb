@@ -4,12 +4,38 @@
  * This is the web browser implementation of `debug()`.
  */
 
-exports.formatArgs = formatArgs;
-exports.save = save;
-exports.load = load;
-exports.useColors = useColors;
-exports.storage = localstorage();
-exports.destroy = (() => {
+// KJB: this WAS a CommonJS module ... NOW CONVERTED TO: ES Modules
+//      - this module's public API exports a SINGLE log creator function (what they call debug, I call logger)
+//        ... see: assignment of module.exports (can be an object for named exports -or- a single item (in this case function) - a default export
+//      - in addition, they are exporting a variety of "named" exports (via the exports.xyz assignment)
+//        * this is a special feature of CommonJS, where the exports is kinda an alias to module.exports BUT used for named exports
+//        * HOWEVER: because this code transfers everything in the exports to properties of the exposed default function,
+//                   I can get by with simply using the single default function (at least in MY usage)
+
+// KJB: suspect browser.js refines characteristics of common.js
+//      > L8TR: FIND THIS IN CODE (for now I'm primarly interested in converting to ES Modules)
+//      - utilize devtools console, 
+//      - with proper colors, 
+//      - and LocalStorage filter
+
+// KJB: Convert FROM: CommonJS Modules TO: ES Modules
+//      - I think I have a fairly good handle on this
+//      - a single default export (see module.exports close to end)
+//      - DO THIS:
+//        1. resolve what this.useColors is doing (in formatArgs(args) below)
+//        2. migrate the exports object to our own obj
+//           - call it fnAddOns ... const fnAddOns = {}
+//           - retrofitting ALL exports.xyz assignments
+//        3. do the one-and-only default export
+//        4. resolve the ms dependancy ... held has humanize
+
+const fnAddOns = {}
+fnAddOns.formatArgs = formatArgs;
+fnAddOns.save       = save;
+fnAddOns.load       = load;
+fnAddOns.useColors  = useColors;
+fnAddOns.storage    = localstorage(); // KJB: generically storage ... for browser, this will be the browsers localStorage ... for node.js this is undefined
+fnAddOns.destroy    = (() => {
   let warned = false;
 
   return () => {
@@ -24,7 +50,7 @@ exports.destroy = (() => {
  * Colors.
  */
 
-exports.colors = [
+fnAddOns.colors = [
   '#0000CC',
   '#0000FF',
   '#0033CC',
@@ -142,14 +168,22 @@ function useColors() {
  *
  * @api public
  */
-
 function formatArgs(args) {
-  args[0] = (this.useColors ? '%c' : '') +
+  //  KJB: NOTES:
+  //       1. `this` is the log function (returned from debug(...))
+  //           BECAUSE: it is invoked as follows: createDebug.formatArgs.call(self, args) ... see: common.js
+  //           CAUTION: evidently, this is considered to be an internal function (even though it is publically promoted on the function)
+  //                    because of how it needs to be invoked
+  //       2. UNSURE what it means to assign the first arg?
+  args[0] = (this.useColors ? '%c' : '') + // KJB: add color formatter when useColors is defined
             this.namespace +
-      (this.useColors ? ' %c' : ' ') +
+             (this.useColors ? ' %c' : ' ') +
             args[0] +
-      (this.useColors ? '%c ' : ' ') +
-            '+' + module.exports.humanize(this.diff);
+             (this.useColors ? '%c ' : ' ') +
+            // KJB: OLD:
+            //          '+' + module.exports.humanize(this.diff); // KJB: the one-and-only dependancy (defined in common.js): convert various time formats to milliseconds
+            // KJB: NEW:
+            '+' + logger.humanize(this.diff);
 
   if (!this.useColors) {
     return;
@@ -186,7 +220,8 @@ function formatArgs(args) {
  *
  * @api public
  */
-exports.log = console.debug || console.log || (() => {});
+// KJB: the general log function ... for browser, this is console.debug ... for node.js it is it's own function tapped into the node process
+fnAddOns.log = console.debug || console.log || (() => {});
 
 /**
  * Save `namespaces`.
@@ -197,9 +232,9 @@ exports.log = console.debug || console.log || (() => {});
 function save(namespaces) {
   try {
     if (namespaces) {
-      exports.storage.setItem('debug', namespaces);
+      fnAddOns.storage.setItem('debug', namespaces); // KJB: they are using the "storage" alias to localStorage (when defined ... when NOT - NO-OP with catch below)
     } else {
-      exports.storage.removeItem('debug');
+      fnAddOns.storage.removeItem('debug');
     }
   } catch (error) {
     // Swallow
@@ -216,7 +251,7 @@ function save(namespaces) {
 function load() {
   let r;
   try {
-    r = exports.storage.getItem('debug');
+    r = fnAddOns.storage.getItem('debug');
   } catch (error) {
     // Swallow
     // XXX (@Qix-) should we be logging these?
@@ -252,9 +287,24 @@ function localstorage() {
   }
 }
 
-module.exports = require('./common')(exports);
+// KJB: common.js is common to BOTH browser.js and node.js
+//      - it exposes a single default export, 
+//      - which is a setup function
+//        - passing fnAddOns
+//          ... whose properties get transfered to the returned debug/logger function
+//        - RETURNING the debug/logger function ... which in turn is our default export!
+// KJB: OLD:
+//      module.exports = require('./common')(fnAddOns);
+// KJB: NEW:
+import setup from './common.js';
+const  logger = setup(fnAddOns);
+export default logger;
 
-const {formatters} = module.exports;
+// KJB: extract formatters (defined in common) ... which in turn is transfered to the returned function (above) ... using that (I think)
+// KJB: OLD:
+//      const {formatters} = module.exports;
+// KJB: NEW:
+const {formatters} = logger;
 
 /**
  * Map %j to `JSON.stringify()`, since no Web Inspectors do that by default.

@@ -1,19 +1,24 @@
-
+import msFn from '../ms/index.js'; // KJB: NEW: pull in from local dev (converted FROM: CommonJS Modules TO: ES Modules)
+                                   // KJB: this is the ONE external dependancy ... converts various time formats to milliseconds
 /**
  * This is the common logic for both the Node.js and web browser
  * implementations of `debug()`.
  */
 
 function setup(env) {
-  createDebug.debug = createDebug;
-  createDebug.default = createDebug;
-  createDebug.coerce = coerce;
-  createDebug.disable = disable;
-  createDebug.enable = enable;
-  createDebug.enabled = enabled;
-  createDebug.humanize = require('ms');
-  createDebug.destroy = destroy;
+  // KJB: createDebug is the inner function that is returned from setup() ... what they call debug (I call logger) ... used to create a log function
+  //      ... see: function createDebug(...)
+  createDebug.debug    = createDebug;
+  createDebug.default  = createDebug;
+  createDebug.coerce   = coerce;
+  createDebug.disable  = disable;
+  createDebug.enable   = enable;
+  createDebug.enabled  = enabled;
+//createDebug.humanize = require('ms'); // KJB: OLD
+  createDebug.humanize = msFn;          // KJB: NEW
+  createDebug.destroy  = destroy;
 
+  // KJB: transfer items from supplied env param TO the createDebug function (just like above)
   Object.keys(env).forEach(key => {
     createDebug[key] = env[key];
   });
@@ -22,8 +27,8 @@ function setup(env) {
    * The currently active debug mode names, and names to skip.
    */
 
-  createDebug.names = [];
-  createDebug.skips = [];
+  createDebug.names = []; // KJB: LogEnablement: regexp to "include" (set via enable() ... tested in enabled())
+  createDebug.skips = []; // KJB: LogEnablement: regexp to "exclude" (set via enable() ... tested in enabled())
 
   /**
    * Map of special "%n" handling functions, for the debug "format" argument.
@@ -57,12 +62,14 @@ function setup(env) {
    * @return {Function}
    * @api public
    */
+  // KJB: this is the inner function that is returned from setup() ... what they call debug (I call logger) ... used to create a log function
   function createDebug(namespace) {
     let prevTime;
     let enableOverride = null;
     let namespacesCache;
     let enabledCache;
 
+    //  KJB: this is the log function ... returned from createDebug
     function debug(...args) {
       // Disabled?
       if (!debug.enabled) {
@@ -113,11 +120,12 @@ function setup(env) {
       logFn.apply(self, args);
     }
 
+    //  KJB: we add props onto the returned debug logger function
     debug.namespace = namespace;
     debug.useColors = createDebug.useColors();
-    debug.color = createDebug.selectColor(namespace);
-    debug.extend = extend;
-    debug.destroy = createDebug.destroy; // XXX Temporary. Will be removed in the next major release.
+    debug.color     = createDebug.selectColor(namespace);
+    debug.extend    = extend;
+    debug.destroy   = createDebug.destroy; // XXX Temporary. Will be removed in the next major release.
 
     Object.defineProperty(debug, 'enabled', {
       enumerable: true,
@@ -143,6 +151,7 @@ function setup(env) {
       createDebug.init(debug);
     }
 
+    // KJB: return from createDebug() ... returning the debug/logger log function
     return debug;
   }
 
@@ -156,15 +165,18 @@ function setup(env) {
    * Enables a debug mode by namespaces. This can include modes
    * separated by a colon and wildcards.
    *
+   * KJB: LogEnablement: resets skips/names for a specific logger (funct) ... this is attached to a logger function
+   *
    * @param {String} namespaces
    * @api public
    */
   function enable(namespaces) {
+    // KJB: createDebug is associated associated to the instance of the logger via the fact that it is an inner function passed out (with closure)
     createDebug.save(namespaces);
     createDebug.namespaces = namespaces;
 
-    createDebug.names = [];
-    createDebug.skips = [];
+    createDebug.names = []; // KJB: LogEnablement: regexp to "include" (set via enable() ... tested in enabled())
+    createDebug.skips = []; // KJB: LogEnablement: regexp to "exclude" (set via enable() ... tested in enabled())
 
     let i;
     const split = (typeof namespaces === 'string' ? namespaces : '').split(/[\s,]+/);
@@ -179,9 +191,9 @@ function setup(env) {
       namespaces = split[i].replace(/\*/g, '.*?');
 
       if (namespaces[0] === '-') {
-        createDebug.skips.push(new RegExp('^' + namespaces.slice(1) + '$'));
+        createDebug.skips.push(new RegExp('^' + namespaces.slice(1) + '$')); // KJB: LogEnablement: minus - skips
       } else {
-        createDebug.names.push(new RegExp('^' + namespaces + '$'));
+        createDebug.names.push(new RegExp('^' + namespaces + '$'));          // KJB: LogEnablement: otherwise - include
       }
     }
   }
@@ -216,12 +228,14 @@ function setup(env) {
     let i;
     let len;
 
+    // KJB: LogEnablement: if any of the .skips reqexp arr matches the supplied name, it is disabled
     for (i = 0, len = createDebug.skips.length; i < len; i++) {
       if (createDebug.skips[i].test(name)) {
         return false;
       }
     }
 
+    // KJB: LogEnablement: if any of the .names reqexp arr matches the supplied name, it is enabled
     for (i = 0, len = createDebug.names.length; i < len; i++) {
       if (createDebug.names[i].test(name)) {
         return true;
@@ -268,7 +282,13 @@ function setup(env) {
 
   createDebug.enable(createDebug.load());
 
+  // KJB: return from setup() ... returning the debug creator (what they call debug, what I call logger)
   return createDebug;
 }
 
-module.exports = setup;
+// KJB: this is a default export ... a single function
+// KJB: from a usage perspective, I think this is what they call debug (or I call logger) ... invoke this to create the log function
+// KJB: OLD:
+// module.exports = setup;
+// KJB: NEW:
+export default setup;

@@ -1,5 +1,5 @@
 *-------------------------------------------------------------------------------
-* ms utility
+* ms utility ... convert various time formats to milliseconds
 *-------------------------------------------------------------------------------
 
 - The one-and-only dependancy of the debug logger utility
