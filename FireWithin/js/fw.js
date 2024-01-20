@@ -473,8 +473,14 @@ if (!window.fw) { // only expand this module once (conditionally)
     window.withFWLog = withFWLog;
 
     // process queued withFW() functions ... now that window.fw is defined (via fw.js expansion)
-    window.withFWQue.forEach( (fn) => withFWLog.f(`executing DELAYED function ... now that window.fw is defined (via fw.js expansion)`) || fn() );
-    window.withFWQue = [];  // clear the que
+    window.withFWQue.forEach( (fn) => {
+      const fnName = fn.name || 'anonymous';
+      withFWLog.f(`executing DELAYED function: '${fnName}' ... now that window.fw is defined (via fw.js expansion)`);
+      fn();
+    });
+
+    // clear the que
+    window.withFWQue = [];
 
   })(); // IIFE end
 

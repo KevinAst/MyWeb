@@ -77,11 +77,12 @@ function preProcessPage(page) {
 <script>
   window.withFWQue = window.withFWQue || [];
   window.withFW    = window.withFW    || function(fn) {
+    const fnName = fn.name || 'anonymous';
     if (window.fw) {
       // generate a VERBOSE logging probe
       // ... typically don't want to see
       //     BECAUSE will generate A LOT OF ENTRIES (the happy path)
-      window.withFWLog.v('executing function IMMEDIATELY ... fw.js HAS BEEN expanded');
+      window.withFWLog.v(\`executing function '\$\{fnName\}' IMMEDIATELY ... fw.js HAS BEEN expanded\`);
 
       // process NOW
       fn();
@@ -92,7 +93,7 @@ function preProcessPage(page) {
       //     AND FEW ENTRIES (during bootstrap of initial load of site)
       // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
       //           BUT because it is a FORCED probe, we mimic it with a console.log()
-      console.log('fw:core:withFW() IMPORTANT: DELAYING function execution ... to allow fw.js to be expanded');
+      console.log(\`fw:core:withFW() IMPORTANT: DELAYING function '\$\{fnName\}' execution ... to allow fw.js to be expanded\`);
 
       // process LATER
       window.withFWQue.push(fn);
