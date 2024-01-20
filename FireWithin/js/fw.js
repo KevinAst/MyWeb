@@ -466,7 +466,14 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* execute any queued functions that requires window.fw
     //*******************************************************
 
-    window.withFWQue.forEach( (fn) => log.f(`fw:withFW() executing DELAYED fn ... now that fw.js HAS BEEN expanded`) || fn() );
+    // define a logger that is available to window.withFW() function
+    // ... a non-module-scoped script
+    // ... see definition in: MyWeb/FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
+    const withFWLog  = logger(`${logPrefix}:withFW()`);
+    window.withFWLog = withFWLog;
+
+    // process queued withFW() functions ... now that window.fw is defined (via fw.js expansion)
+    window.withFWQue.forEach( (fn) => withFWLog.f(`executing DELAYED function ... now that window.fw is defined (via fw.js expansion)`) || fn() );
     window.withFWQue = [];  // clear the que
 
   })(); // IIFE end

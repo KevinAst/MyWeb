@@ -78,11 +78,23 @@ function preProcessPage(page) {
   window.withFWQue = window.withFWQue || [];
   window.withFW    = window.withFW    || function(fn) {
     if (window.fw) {
-      //console.log('fw:withFW() executing fn immediately ... fw.js HAS BEEN expanded'); // too verbose: comment out
+      // generate a VERBOSE logging probe
+      // ... typically don't want to see
+      //     BECAUSE will generate A LOT OF ENTRIES (the happy path)
+      window.withFWLog.v('executing function IMMEDIATELY ... fw.js HAS BEEN expanded');
+
+      // process NOW
       fn();
     }
     else {
-      console.log('fw:withFW() delaying fn execution ... to allow fw.js to be expanded'); // of interest
+      // generate a FORCED logging probe
+      // ... of interest to insure our cache is working
+      //     AND FEW ENTRIES (during bootstrap of initial load of site)
+      // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
+      //           BUT because it is a FORCED probe, we mimic it with a console.log()
+      console.log('fw:core:withFW() IMPORTANT: DELAYING function execution ... to allow fw.js to be expanded');
+
+      // process LATER
       window.withFWQue.push(fn);
     }
   }
