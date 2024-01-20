@@ -158,6 +158,37 @@ within your code by using:
 + logger.setLogFilters(filterStr)
 ```
 
+**<mark>KEY NOTE</mark>**: the `showLogFilters()` and
+`setLogFilters(filterStr)` are promoted to the browser devTools, which
+allow you to see/adjust the global logging filter on-the-fly :-)
+**<mark>This is SOOOO KOOL</mark>**
+
+```
+WITHIN devTools:
+
+> showLogFilters()
+  util:logger IMPORTANT: current global logging filters are: "fw:*"
+
+> setLogFilters('fw*')
+  util:logger IMPORTANT: setting global logging filters to: "fw*" (previously: "fw:*")
+
+  ... new filter in-place - mega logs emitted (regular AND verbose) ...
+  ... snip snip ...
+
+> setLogFilters('fw* -*syncCompleted*')
+  util:logger IMPORTANT: setting global logging filters to: "fw* -*syncCompleted*" (previously: "fw*")
+
+  ... new filter in-place - toned down logs emitted (minus syncCompleted entries) ...
+  ... snip snip ...
+
+> setLogFilters('fw:*')
+  util:logger IMPORTANT: setting global logging filters to: "fw:*" (previously: "fw* -*syncCompleted*")
+
+  ... new filter in-place - normal filter (regular NOT verbose) ...
+  ... snip snip ...
+```
+
+
 **Example Filters**
 
 Assuming log namespace as follows: 'mpj:logger:testLog', where:

@@ -68,6 +68,25 @@ logger.setLogFilters = function (filterStr) {
   debug.enable(filterStr); // I tested debug.enable(filterStr) and it ALWAYS returns void (i.e. undefined) IN ALL CASES (even with nothing passed in)
 }
 
+// promote showLogFilters() and setLogFilters(filterStr) to the browser devTools
+// ... allowing the developer to see/adjust the global logging filter on-the-fly :-)
+// ... THIS is SOOO KOOL
+if (window && !window.setLogFilters) {
+
+  // setLogFilters(filterStr)
+  log.f(`in devTools, use setLogFilters(filterStr) to adjust the global logging filter :-)`);
+  window.setLogFilters = (filterStr) => {
+    log.f(`setting global logging filters to: "${filterStr}" (previously: "${_currentLogFilters}")`);
+    logger.setLogFilters(filterStr);
+  }
+
+  // showLogFilters()
+  log.f(`in devTools, use showLogFilters(filterStr) to see the current global logging filter :-)`);
+  window.showLogFilters = () => {
+    log.f(`current global logging filters are: "${_currentLogFilters}"`);
+  }
+}
+
 // clear our global log filter
 // RETURNS string: priorFilter
 logger.clearLogFilters = function() {
