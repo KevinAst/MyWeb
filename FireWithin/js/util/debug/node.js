@@ -11,9 +11,25 @@ const util = require('util');
 
 // KJB:
 // TODO: This IS a CommonJS module, but it needs to be  converted to ES Modules
-//       - I am punting on this now ... because:
-//         * it has some additional dependencies (tty/util) 
-//         * and I have no way to test it (FireWithin has NO node component)
+//       - It has 3 dependencies (see: require(...))
+//         1. 'tty'            - node built-in ... used in function: useColors() ... NOT REQUIRED at module expansion
+//         2. 'util'           - node built-in ... used in functions -and- in-line ... the in-line usage can be thwarted
+//         3. 'supports-color' - optional ........ has conditional logic to only use if available
+//                                                 - BAD: don't think import has any way to be conditional
+//                                                        - could do run-time import() 
+//                                                          * but NOT when you need to export the result synchronously
+//                                                        - one option would be to NIX color support for node PERIOD
+//       - The main issue in converting to ES Modules (import/export) is:
+//         * imports are static and unconditional
+//           - UNLIKE require, which is runtime and therefore can be included conditionally
+//         * SO we cannot provide any dynamics in index.js
+//         * RATHER, it may be possible to use async import IN the node.js module itself
+//           - we could asynchronously hold on to them
+//           - PROVIDING the dependencies are used at a later point in time (e.g. within a function)
+//         * AS an ALTERNATIVE: we could NIX color support for node PERIOD
+//           - I believe that is the main crux of dependencies here
+//       - I am punting on this now:
+//         * BECAUSE: I have no way to test it (FireWithin has NO node component)
 //       - Currently it is NOT being referenced (see: index.js)
 
 exports.init = init;
