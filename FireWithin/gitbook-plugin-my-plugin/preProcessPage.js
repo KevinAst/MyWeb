@@ -1,18 +1,13 @@
 //***
 //*** Pre Process the supplied GitBook page, adding local JavaScript
-//*** contexts, processing customeTags, etc.
+//*** contexts, processing customTags, etc.
 //***
 //*** This function should be registered to the GitBook 'page:before'
 //*** hook, which is run before the templating engine is applied on the page.
+//*** >>> IN OTHER WORDS: it is processing MarkDown
 //***
 
-const {initCustomTags, processCustomTags, completedCheckBox} = require('./customTagsProcessor');
-
-// init(): triggered after parsing the book, before generating output and pages
-function init(config) {
-  // expose this config to various modules
-  initCustomTags(config);
-}
+const {processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
 function preProcessPage(page) {
 
@@ -93,7 +88,8 @@ function preProcessPage(page) {
       //     AND FEW ENTRIES (during bootstrap of initial load of site)
       // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
       //           BUT because it is a FORCED probe, we mimic it with a console.log()
-      console.log(\`fw:core:withFW() IMPORTANT: DELAYING function '\$\{fnName\}' execution ... to allow fw.js to be expanded\`);
+      //           HOWEVER, I subsequently took off the FORCE, so I am punting this (comment out the log)
+      // console.log(\`fw:core:withFW() IMPORTANT: DELAYING function '\$\{fnName\}' execution ... to allow fw.js to be expanded\`);
 
       // process LATER
       window.withFWQue.push(fn);
@@ -121,6 +117,5 @@ function preProcessPage(page) {
 }
 
 module.exports = {
-  init,
   preProcessPage,
 };

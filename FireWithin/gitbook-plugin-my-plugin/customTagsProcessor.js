@@ -19,6 +19,22 @@ function initCustomTags(_config) {
 //*-----------------------------------------------------------------------------
 //* Our Custom Tag Processors
 //*    
+//* ENHANCEMENT NOTE (2/12/2024)
+//* ============================
+//* Any of these Custom Tags can be applied:
+//*    
+//*  - "pre"  processor: to the markdown
+//*           - using an 'M' Custom Tag Delimiter (standing for "Macro", per the original release)
+//*             ... e.g. M{ fn(arg) }M
+//*           - This is the "normal" usage pattern BY FAR!
+//*    
+//*  - "post" processor: to the HTML
+//*           - using a 'P' Custom Tag Delimiter (standing for "Post Macro", a NEW enhancement)
+//*             ... e.g. P{ fn(arg) }P
+//*           - This option is NOT used very often.
+//*           - However it is VERY useful to inject html containers to a large section of markdown,
+//*             without disrupting MarkDown process (see: inject() custom tag below)
+//*    
 //* Regular Expressions
 //* ===================
 //* Here is some insight on the regular expressions found in this process:
@@ -98,24 +114,38 @@ function initCustomTags(_config) {
 //*      5:29`) }M
 //*   
 //*-----------------------------------------------------------------------------
-function processCustomTags(_forPage, markdown) {
+function processCustomTags(_forPage,  // ex: 'Hosea.md'
+                           content,   // can be markdown -or- HTML (depending on when invoked: pre/post processor)
+                           custTagDelim='M') { // either 'M' for preProcessor -or- 'P' for postProcessor (see: "ENHANCEMENT NOTE" above)
 
   // retain our active forPage diagnostic
   forPage = _forPage;
+
+  // TEMP DIAG (for a single page of interest) to see what the html looks like BEFORE WE TOUCH IT
+  // if (forPage === 'settings.md' && custTagDelim === 'P') {
+  //   console.log(`HERE IS THE ENTIRE PAGE BEFORE PROCESSING: ${content}`);
+  // }
 
   // define our generic customTag regular expression matcher
   // ... a global matcher to find all occurances (see /g)
   // EX: M{ zoomableImg(`Mark_BP`) }M
   //forPage==='MyFaith.md' && console.log(`XX before customTagRegex`);
 //const customTagRegex = /M{\s*\w*.*\s*}M/g;       // ORIGINAL
-  const customTagRegex = /M{\s*\w*[\w\W]*?\s*}M/g; // FIX: Multi Line (see "BOTTOM LINE" note above)
+  let   customTagRegex = /M{\s*\w*[\w\W]*?\s*}M/g; // FIX: Multi Line (see "BOTTOM LINE" note above)
 //const customTagRegex = /\d+/g; // TEMP - used for TEST (two digits) ... "ONE:[22] ... TWO:[44] ... THREE[33]";
+
+  // for postProcessor, use Post Macro tags ..........................    P{ fn(arg) }P     (see: "ENHANCEMENT NOTE" above)
+  // ... we also SUCK UP the <p>...</p> tags injected by Markdown: ... <p>P{ fn(arg) }P</p> ... allowing us to place html containers across markdown processed code!
+  if (custTagDelim !== 'M') {
+//  customTagRegex = /P{\s*\w*[\w\W]*?\s*}P/g;         // SAME as above, just replace P for M
+    customTagRegex = /<p>P{\s*\w*[\w\W]*?\s*}P<\/p>/g; // SUCK UP "extraneous paragraph tags too": <p>...</p>
+  }
 
   // Process each match separately
   // NOTE: RegExp.exec() API: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
   //forPage==='MyFaith.md' && console.log(`XX before match loop`);
   let match;
-  while ((match = customTagRegex.exec(markdown)) !== null) {
+  while ((match = customTagRegex.exec(content)) !== null) {
     //forPage==='MyFaith.md' && console.log(`XX INSIDE match loop`);
 
     // the matched substring (customTag)
@@ -129,17 +159,17 @@ function processCustomTags(_forPage, markdown) {
 
     // resolve the dynamic content
     // ... which varies by customTag (identifying the function, params, etc.)
-    const dynamicContent = resolveDynamicContent(customTag);
+    const dynamicContent = resolveDynamicContent(customTag, custTagDelim);
 
     // replace the  customTag with our dynamicContent
-    markdown = markdown.substring(0, startIndex) +
+    content = content.substring(0, startIndex) +
                dynamicContent +
-               markdown.substring(startIndex + customTag.length);
+               content.substring(startIndex + customTag.length);
 
-    //forPage==='MyFaith.md' && console.log(`\n\n\nXX ITTERATE RESULT: ${markdown}`); // TOO BIG (entire page)
+    //forPage==='MyFaith.md' && console.log(`\n\n\nXX ITTERATE RESULT: ${content}`); // TOO BIG (entire page)
   }
 
-  return markdown;
+  return content;
 }
 
 module.exports = {
@@ -162,12 +192,15 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
+  inject,
+  userName,
+  userPhone,
 };
 
 //***
 //*** ENTRY POINT: resolve the dynamic content of the supplied customTag
 //*** ... we glean the function to invoke -AND- the arg ... from the supplied customTag
-function resolveDynamicContent(customTag) {
+function resolveDynamicContent(customTag, custTagDelim) {
 
   // setup assertion utility
   const verify = check.prefix(`violation in page: ${forPage} ... `);
@@ -183,11 +216,41 @@ function resolveDynamicContent(customTag) {
   // extract the arg "{id: 'myid'}" part
 //const argMatch = customTag.match(/.*\((.*?)\).*/);                  // ORIGINAL
 //const argMatch = customTag.match(/[\w\W]*?\(([\w\W]*?)\)[\w\W]*?/); // FIX: Multi Line (see "BOTTOM LINE" note above), PROB: premature right paren
-  const argMatch = customTag.match(/[\w\W]*?\(([\w\W]*?)\)\s*}M/);    // FIX: Multi Line (see "BOTTOM LINE" note above), FIX:  premature right paren
+  let   argMatch = customTag.match(/[\w\W]*?\(([\w\W]*?)\)\s*}M/);    // FIX: Multi Line (see "BOTTOM LINE" note above), FIX:  premature right paren
 
-  const argStr   = argMatch && argMatch[1];
-  let   argObj;
+  // for postProcessor, use Post Macro tags ... P{ fn(arg) }P  (see: "ENHANCEMENT NOTE" above)
+  if (custTagDelim !== 'M') {
+    argMatch = customTag.match(/[\w\W]*?\(([\w\W]*?)\)\s*}P/); // ... SAME as above, just replace P for M ... extraneous paragraph tags just work (because we are in the arg)
+  }
+
+  let argStr = argMatch && argMatch[1];
+  let argObj;
   //forPage==='MyFaith.md' && console.log(`XX in page ${forPage}, DYNO extracted: `, {fnName, argStr});
+
+  // NOTE: String Literals in "post" Processing
+  // for "post" processing of HTML, we have to be careful of what the Markdown has done to our CustomTag
+  //   1. We can't use template strings in the usage of our tags (the argument)
+  //      THIS:    P{ inject(`<div id="sign-in-form-guest">`) }P
+  //      BECOMES: P{ inject(<code>&lt;div id=&quot;sign-in-form-guest&quot;&gt;</code>) }P
+  //      OUCH!!
+  //      BOTTOM LINE: use single tics (not template strings)
+  //                   P{ inject('<div id="sign-in-form-guest">') }P
+  //   2. Even after using single tics for our argument, MarkDown does some stuff (less intrusive):
+  //      THIS:    P{ inject('<div id="sign-in-form-guest">') }P
+  //      BECOMES: P{ inject(&#39;<div id="sign-in-form-guest">&#39;) }P
+  //      THIS IS SALVAGEABLE ... we simply replace "&#39;" with "'" <<< in the next expression!!!
+  argStr = argStr.replace(/&#39;/g, "'");
+
+  // ALSO:
+  // CHANGE: &lt;  TO: <
+  // CHANGE: &gt;  TO: >
+  argStr = argStr.replace(/&lt;/g, '<');
+  argStr = argStr.replace(/&gt;/g, '>');
+
+  // TEMP DIAG: see what the argStr looks like (for a specific example) in both pre/post processing
+  // if (argStr && argStr.includes('sign-in-form-guest')) {
+  //   console.log(`xx DIAG: argStr: "${argStr}" in customTag: "${customTag}"`);
+  // }
 
   // convert to a json object
   if (argStr === null || argStr === undefined) { // something like a missmatch of string literal ... ('id`)
@@ -813,4 +876,153 @@ function formatDate(year, month, day) {
   const monthStr = month.toString().padStart(2, '0');
   const dayStr   = day.toString()  .padStart(2, '0');
   return `${monthStr}/${dayStr}/${year}`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* inject(content)
+//* 
+//* Inject the supplied content in the page.
+//* 
+//* This is tag is very specialized.  It is useful in "post" processing HTML
+//* (e.g. `P{ inject(...) }P`), to inject html containers to a large section
+//*  of markdown, without disrupting MarkDown process.  If you inject these
+//*  html directly in the markdown, mardown will stop interpreting anything 
+//*  in that section.
+//* 
+//* NOTE: A "post" process requires the user to use a single tick (') for it's 
+//*       string parameter ... see: "String Literals in "post" Processing" (above).
+//* 
+//* Example:
+//* 
+//*   - Without inject:
+//*       <div id="whatever">
+//*         Markdown interpretion **is disabled** _within an html block_ :-(
+//*       </div>
+//* 
+//*   - WITH inject:
+//*       P{ inject('<div id="whatever">') }P
+//*         Can **continue** to _use_ MarkDown!
+//*       P{ inject('</div>') }P
+//* 
+//* NOTE: The internals of this implementation is ONLY KNOWN to operate correctly 
+//*       by placing this custom tag on it's own dedicated markdown paragraph/line.
+//*       - This is because the post-processer has to remove the extrainous paragraph
+//*         wrappers injected by the pre-processed MarkDown (e.g. <p>...</p>).
+//*       - This allows us to introduce html fragments, surrounding a section of content.
+//*       - The implementation of this is very crude (see: "extraneous paragraph tags" note above), 
+//*         ... and is the reason it needs to be on a seperate line!
+//* 
+//* Parms:
+//*   - content: The content to inject.
+//* 
+//* Custom Tag:
+//*   P{ inject('<div id="123">') }P
+//* 
+//* Replaced With:
+//*   <div id="123">
+//*-----------------------------------------------------------------------------
+function inject(content) {
+
+  // parameter validation
+  const tick       = isString(content) ? "'" : "";
+  const self       = `inject(${tick}${content}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... content
+  checkParam(content,           'content is required');
+  checkParam(isString(content), `content must be a string (the content to inject)`);
+
+  // expand our customTag as follows
+  // NOTE: Regarding `diag`, in this case we have to be carful, as any html content is 
+  //       interpreted as such in the `diag` insertion.
+  //       - We could  "protect" this content and prevent it from rendering as actual html
+  //       - We opted for a more simple ... just show: inject(see-embedded-html-comment)
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: inject(see-embedded-html-comment)</mark>` : '';
+  return `${diag}
+<!-- START Custom Tag: ${self} -->
+${content}
+
+<!-- END Custom Tag: ${self} -->
+`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* userName()
+//* 
+//* Inject the html that will dynamically reflect the userName of the active user.
+//* 
+//* Parms:
+//*   NONE
+//* 
+//* Custom Tag:
+//*   M{ userName() }M
+//* 
+//* Replaced With:
+//*   <b data-fw-user-name>sync-name</b>
+//*-----------------------------------------------------------------------------
+function userName(arg) {
+
+  // parameter validation
+  const tick       = isString(arg) ? "`" : "";
+  const self       = `userName(${tick}${arg}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... arg
+  checkParam(!arg, 'NO argument is expected');
+
+  // ... devise our html to inject
+  const html = '<b data-fw-user-name>sync-name</b>';
+
+  // expand our customTag as follows
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: UN ... for userName
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
+  const diag = config.revealCustomTags ? `<mark>UN</mark>` : '';
+  return `${diag}${html}`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* userPhone()
+//* 
+//* Inject the html that will dynamically reflect the userPhone of the active user.
+//* 
+//* Parms:
+//*   NONE
+//* 
+//* Custom Tag:
+//*   M{ userPhone() }M
+//* 
+//* Replaced With:
+//*   <b data-fw-user-phone>sync-phone</b>
+//*-----------------------------------------------------------------------------
+function userPhone(arg) {
+
+  // parameter validation
+  const tick       = isString(arg) ? "`" : "";
+  const self       = `userPhone(${tick}${arg}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... arg
+  checkParam(!arg, 'NO argument is expected');
+
+  // ... devise our html to inject
+  const html = '<b data-fw-user-phone>sync-phone</b>';
+
+  // expand our customTag as follows
+  // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
+  //       We simplify:
+  //       - No HTML comment
+  //       - diag: UP ... for userPhone
+  // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
+  const diag = config.revealCustomTags ? `<mark>UP</mark>` : '';
+  return `${diag}${html}`;
 }
