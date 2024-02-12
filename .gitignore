@@ -9,6 +9,9 @@
 # our gitbook plugins
 /FireWithin/node_modules/
 
+# our encoder ... obfuscated in dd.js
+/FireWithin/js/util/encoder*
+
 # logs
 logs
 *.log

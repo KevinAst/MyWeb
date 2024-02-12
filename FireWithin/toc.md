@@ -11,6 +11,7 @@
 ----
 - [Settings](settings.md)
   * [Bible Translation](settings.md#bible-translation)
+  * [User Account](settings.md#user-account)
 
 ----
 - [Getting Started](start.md)

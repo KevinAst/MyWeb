@@ -1,20 +1,67 @@
 //*-----------------------------------------------------------------------------
-//* fw.js - a pseudo plugin that is specific to the "Fire Within" blog,
-//*         promoting a one-and-only "module scoped" fw obj.
+//* fw.js: the "core" module of the "Fire Within" web-app:
 //*
+//* - explicitly run at the start of every gitbook page
+//*   * injected via our local gitbook plugin:
+//*     ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
+//*              <script type="module" src="./js/fw.js"></script>
+//*   * NOTE: Because this is an ES Module (type="module") 
+//*           - it only expands ONE TIME
+//*           - so the conditional logic with the IIFE (below) is technically NOT required
+//*           - PREVIOUSLY: this was required (when it was a "non-module scoped" script)
+//*           - HOWEVER: this logic was kept (it doesn't hurt anything)
+//*
+//* - this module provides a "bridge" between "module-scoped" and "non-module scoped" scripts
+//*
+//*   * KEY: some "non-module scoped" scripts are still used, 
+//*          BECAUSE: in-line scripts are conceptually executed at the same time of the
+//*                   surrounding html expansion (within the gitbook framework)
+//*                   ... see USAGE (below)
+//*
+//*   * this "bridge" is promoted through the one-and-only "module scoped" window.fw object:
+//*
+//*       DEFINITIONS (below):
 //*         INTERNAL FUNCTIONS ... simply:
-//*            function fooBar() { ... }
-//*
-//*         PUBLIC FUNCTIONS ... promoted via one-and-only "module scoped" fw object
+//*            function myUtil() { ... }
+//*         PUBLIC FUNCTIONS ... promoted via the fw qualifier
 //*            fw.fooBar = function() { ... }
+//*
+//*       USAGE:
+//*
+//*         A "non-module scoped" script can access these functions as follows:
+//*
+//*           <script> fw.fooBar() </script> ... this is conceptual: keep reading (NOTE)
+//*
+//*         NOTE: To resolve timing issues between the co-existence of the two script types,
+//*               any "non-module scoped" script that uses the fw object, 
+//*               must use the withFW() function (introduced by the gitbook plugin - above):
+//*
+//*           <script> withFW( ()=>fw.fooBar() ) </script>
 //*-----------------------------------------------------------------------------
+
+// our active User singleton object (ALWAYS up-to-date)
+// ??$$ NEW
+import {fwUser} from './fwAuth.js';
+
+
+// our completions state singleton object (ALWAYS up-to-date)
+// ... state-related-completions
+import {fwCompletions} from './fwCompletions.js';
+
+// our settings state singleton object (ALWAYS up-to-date)
+// ... state-related-settings
+import {fwSettings} from './fwSettings.js';
+
+import {handlePhoneSignIn,
+        handlePhoneVerification,
+        handleSignOut}            from './fwAuth.js'; // ??$$ NEW
 
 import logger from './util/logger/index.js';
 const  logPrefix = 'fw:core';
 const  log = logger(`${logPrefix}`);
 
-// NOTE: now that fw.js is expanded in a module-scope, we only see this log ONCE!
-log.f('expanding fw.js module');
+// NOTE: now that fw.js is expanded in a module-scope, we only see this log ONCE (see NOTE above)!
+log('expanding fw.js module');
 
 // ?? QUICK AND DIRTY TEST of import
 // THIS WORKS: ... really part of Firebase -or- auth
@@ -35,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
   (function () {
     const log = logger(`${logPrefix}:defineFwIIFE()`);
 
-    log.f('defining our one-and-only "module scoped" fw obj');
+    log('defining our one-and-only "module scoped" fw obj');
 
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
@@ -45,81 +92,61 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     //***************************************************************************
     //***************************************************************************
-    //* Code Related to our completed checkboxes
+    //* Code Related to our completed checkboxes ... state-related-completions
     //***************************************************************************
     //***************************************************************************
+
+    // register reflective code that syncs our UI on completion changes
+    // ... state-related-completions
+    fwCompletions.onChange(syncUICompletions);
     
     //*--------------------------------------------------------------------------
-    //* INTERNAL: syncCompletedChecksOnPage()
+    //* INTERNAL: syncUICompletions()
     //* 
-    //* Synchronize ALL completed checkboxes on the current page 
-    //* with the current status, retained in localStorage.
+    //* Synchronize ALL the completions checkboxes on the current page 
+    //* to reflect our current "completions" state.
     //* 
-    //* This function is automatically invoked whenever a GitBook page changes.
+    //* This function is "poor mans" reflexive synchronization process
+    //* ... a sledge hammer if you will.
+    //* ... the overhead is still VERY LOW (responsiveness is excellent)
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - completions state changes ... see: fwCompletions.onChange()
     //*--------------------------------------------------------------------------
-    function syncCompletedChecksOnPage() {
-      const log = logger(`${logPrefix}:syncCompletedChecksOnPage()`);
-
+    // ... state-related-completions
+    function syncUICompletions(key) { // NOTE: `key` param NOT USED: we sync ALL refs on a page.
+                                      //       There are some dupliate hidden check-boxes used in our responsive technique (screen size changes)
+      const log = logger(`${logPrefix}:syncUICompletions()`);
+      
       // fetch all checkbox input elements (representing completed sessions)
       const completedElms = document.querySelectorAll('input[type="checkbox"]');
       log.enabled && log('completedElms: ', {completedElms});
-
-      // initialize each completed checkbox from our persistent store (localStorage)
-      const fireWithinCompletedObj = fetchFireWithinCompletedObj();
+      
+      // initialize each completed checkbox from our state
       for (const completedElm of completedElms) {
         log.v(`processing completedElm.id: "${completedElm.id}"`);
-
-        // sync our UI state from our persistent store (localStorage)
+      
+        // sync our UI from our state
         // ... THIS IS IT
-        completedElm.checked = fireWithinCompletedObj[completedElm.id] === 'Y';
+        completedElm.checked = fwCompletions.isComplete(completedElm.id);
       }
     }
 
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.handleCompletedCheckChange(completedElm)
     //* 
-    //* Event handler that retain the status checkbox changes in localStorage.
+    //* Event handler that retains changes to our completions state
     //*--------------------------------------------------------------------------
+    // ... state-related-completions:
     fw.handleCompletedCheckChange = function(completedElm) {
       const log = logger(`${logPrefix}:handleCompletedCheckChange()`);
 
       log(`completedElm changed ... id: "${completedElm.id}", checked: ${completedElm.checked}`);
 
-      // retain this state change into our persistent store (localStorage)
-      const fireWithinCompletedObj = fetchFireWithinCompletedObj();
-      fireWithinCompletedObj[completedElm.id] = completedElm.checked ? 'Y' : 'N';
-      storeFireWithinCompletedObj(fireWithinCompletedObj);
-
-      // sync this state to duplicate checkboxes
-      // ... duplicates exist because of the responsive web approach where we alter the layout for desktop/cell-phone
-      const checkElms = document.querySelectorAll('input[type="checkbox"]');
-      for (const checkElm of checkElms) {
-        // sync any duplicate checkboxes (with same ID that is NOT the element we are servicing)
-        if (checkElm !== completedElm && checkElm.id === completedElm.id) {
-          checkElm.checked = completedElm.checked;
-        }
-      }
-    }
-
-    //*--------------------------------------------------------------------------
-    //* INTERNAL: fetchFireWithinCompletedObj()
-    //*
-    //* Fetch the persistent state of ALL completed items
-    //*--------------------------------------------------------------------------
-    function fetchFireWithinCompletedObj() {
-      const objStr = localStorage.getItem('fireWithinCompleted') || '{}';
-      const obj    = JSON.parse(objStr);
-      return obj;
-    }
-
-    //*--------------------------------------------------------------------------
-    //* INTERNAL: storeFireWithinCompletedObj(obj)
-    //*
-    //* Retain the persistent state for the supplied obj holding ALL completed items
-    //*--------------------------------------------------------------------------
-    function storeFireWithinCompletedObj(obj) {
-      const objStr = JSON.stringify(obj);
-      localStorage.setItem('fireWithinCompleted', objStr);
+      // retain this change in our state
+      // ... handles persistance/reflection automatically
+      fwCompletions.setComplete(completedElm.id, completedElm.checked);
     }
 
 
@@ -264,53 +291,17 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //* Code Related to our settings (User Preferences)
     //* 
-    //* INTERNAL: ALL
+    //* ... state-related-settings: ... the ONLY settings we currently have is: bibleTranslation
     //***************************************************************************
     //***************************************************************************
-
-    // our default settings ... revealing our settings structure
-    const settingsDEFAULT = {
-      bibleTranslation: 'NLT',
-    };
-
-    // our current settings (persisted in localStorage):
-    const settings = JSON.parse( localStorage.getItem('fireWithinSettings') ) || settingsDEFAULT;
-
-    // retain our settings in localStorage (invoked when settings change)
-    function persistSettings() {
-      const settingsStr = JSON.stringify(settings);
-      localStorage.setItem('fireWithinSettings', settingsStr);
-    }
 
 
     //***************************************************************************
     //***************************************************************************
     //* Code Related to Bible Translation (in support of dynamic selection)
+    //* ... state-related-settings: ... the ONLY settings we currently have is: bibleTranslation
     //***************************************************************************
     //***************************************************************************
-
-    // Bible Translation Codes (as defined by YouVersion)
-    const bibleTranslations = {
-      SEP1: { code: 'GROUP', desc: 'Paraphrased (everyday lang):' },
-      MSG:  { code: '97',    desc: 'The Message' },
-      GNT:  { code: '68',    desc: 'Good News Translation' },
-      NLT:  { code: '116',   desc: 'New Living Translation' },
-
-      SEP2: { code: 'GROUP', desc: 'Literal (some moderate):' },
-      CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
-      NIV:  { code: '111',   desc: 'New International Ver' },
-      ESV:  { code: '59',    desc: 'English Standard Ver 2016' },
-      NET:  { code: '107',   desc: 'New English Translation' },
-
-      SEP3: { code: 'GROUP', desc: 'Traditional:' },
-      NKJV: { code: '114',   desc: 'New King James Ver' },
-      KJV:  { code: '1',     desc: 'King James Ver' },
-
-      SEP4: { code: 'GROUP', desc: 'Amplified:' },
-      AMP:  { code: '1588',  desc: 'Amplified Bible' },
-      AMPC: { code: '8',     desc: 'Amplified Bible Classic' },
-    };
-
 
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.alterBibleVerseLink(e, scriptureRef)
@@ -330,7 +321,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*  - The bible site URL is centralized.  Any changes by YouVersion Bible app
     //*    can be isolated in this routine.
     //*  - The Bible translation (ex: NIV, KJV, etc.) is dynamically determined
-    //*    via a user preference, persisted in localStorage.
+    //*    via a user preference.
     //* 
     //* USAGE: 
     //*   <a href="#" onmouseover="alterBibleVerseLink(event, 'mrk.1.2')" target="_blank">Mark 1:2</a>
@@ -339,8 +330,9 @@ if (!window.fw) { // only expand this module once (conditionally)
       const log = logger(`${logPrefix}:alterBibleVerseLink()`);
       
       // extract the bibleTranslation from our settings (User Preferences)
-      const bibleTranslation     = settings.bibleTranslation;                // ex: 'NLT'
-      let   bibleTranslationCode = bibleTranslations[bibleTranslation].code; // ex: '116'
+      // ... state-related-settings:
+      const bibleTranslation     = fwSettings.getBibleTranslation();     // ex: 'NLT'
+      const bibleTranslationCode = fwSettings.getBibleTranslationCode(); // ex: '116'
       
       // define the full URL
       // EX: https://bible.com/bible/111/mrk.1.2.NIV
@@ -370,6 +362,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     fw.genBibleTranslationsSelection = function(bibleTranslationsElmId) {
       const selectElm = document.getElementById(bibleTranslationsElmId);
       let   groupElm  = null; // running value
+      const bibleTranslations = fwSettings.bibleTranslations;
       for (const bibleTranslationKey in bibleTranslations) {
         const bibleTranslation = bibleTranslations[bibleTranslationKey];
         if (bibleTranslation.code === 'GROUP') {
@@ -386,30 +379,54 @@ if (!window.fw) { // only expand this module once (conditionally)
       }
 
       // default the list selection to what is retained in our persistent settings
-      selectElm.value = settings.bibleTranslation;
+      // ... state-related-settings:
+      selectElm.value = fwSettings.getBibleTranslation();
 
       // add an event handler to retain the current selection in localStorage  
+      // ... state-related-settings:
       selectElm.addEventListener('change', function(e) {
 
         // retain the selected bibleTranslation in our active settings
-        settings.bibleTranslation = e.target.value;
-
-        // persistretain our settings as they have changed
-        persistSettings();
-
-        // reflect this change to interested parties (REACTIVITY)
-        emitBibleTranslationChange();
+        // ... handles persistance/reflection automatically
+        fwSettings.setBibleTranslation(e.target.value);
       });
 
     }
 
-    //*--------------------------------------------------------------------------
-    //* INTERNAL: Reactively sync bibleTranslation changes to our UI
-    //*--------------------------------------------------------------------------
+    // register reflective code that syncs our UI on bibleTranslation setting changes
+    // ... state-related-settings
+    fwSettings.onBibleTranslationChange( syncBibleTranslationChanges );
 
-    // register event handler that monitors bibleTranslation changes, syncing them to our UI
-    document.addEventListener('bible-translation-changed', function(e) {
-      const log = logger(`${logPrefix}:syncBibleTranslationChange()`);
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: syncBibleTranslationChanges()
+    //* 
+    //* Syncs our UI when bibleTranslation changes.
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - bibleTranslation settings changes ... see: fwSettings.onBibleTranslationChange()
+    //*--------------------------------------------------------------------------
+    // ... state-related-settings
+    function syncBibleTranslationChanges() {
+      const log = logger(`${logPrefix}:syncBibleTranslationChanges()`);
+
+      // sync our GitBook LeftNav Header
+      syncLeftNavHeader();
+
+      // ALSO, sync the "Bible Translation" selection list
+      // - when we are on the settings page
+      // - this is needed for seperate app instances, that did NOT initiate the change
+      const selectElm = document.getElementById('bibleTranslations'); // ... kinda bad that this id is simply globally known :-(
+      if (selectElm) { // ... if NOT defined, then we are NOT on the settings page - NO WORRIES
+        selectElm.value = fwSettings.getBibleTranslation();
+      }
+    }
+
+    // synchronize our GitBook LeftNav Header
+    // ... common to a couple of processes
+    // ??$$ NEW break-out
+    function syncLeftNavHeader() {
+      const log = logger(`${logPrefix}:syncLeftNavHeader()`);
 
       // locate OUR well-known header (in GitBook'se LeftNav)
       // ... example:
@@ -425,16 +442,81 @@ if (!window.fw) { // only expand this module once (conditionally)
         return;
       }
 
-      log(`processing 'bible-translation-changed' with ${e.detail.bibleTranslation} ... syncing our UI`);
+      // sync our UI LeftNav that contains the active bibleTranslation
+      const bibleTranslation = fwSettings.getBibleTranslation();
+      const userName         = fwUser.getUserName();
+      log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
+      headerElm.textContent = `FireWithin (v${CUR_VER} ${bibleTranslation} ${userName})`;
+    }
 
-      // sync our UI
-      headerElm.textContent = `Fire Within (v${CUR_VER} - ${e.detail.bibleTranslation})`;
-    });
-      
-    // helper that emits our custom bible-translation-changed event
-    function emitBibleTranslationChange() {
-      const e = new CustomEvent('bible-translation-changed', { detail: { bibleTranslation: settings.bibleTranslation } });
-      document.dispatchEvent(e);
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to User Authentication Changes ... sign-in / sign-out
+    //***************************************************************************
+    //***************************************************************************
+
+    // promote sign-in/sign-out utils
+    // ??$$ NEW
+    fw.handlePhoneSignIn       = handlePhoneSignIn;
+    fw.handlePhoneVerification = handlePhoneVerification;
+    fw.handleSignOut           = handleSignOut;
+
+    // register reflective code that syncs our UI on changes in User Identity
+    // ??$$ NEW
+    fwUser.onChange(syncUserChangeInUI);
+    
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: syncUserChangeInUI()
+    //* 
+    //* Syncs our UI for User Identity changes.
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - User Identity changes ... see: fwUser.onChange()
+    //*--------------------------------------------------------------------------
+    // ??$$ NEW
+    function syncUserChangeInUI() {
+      const log = logger(`${logPrefix}:syncUserChangeInUI()`);
+
+      // sync our GitBook LeftNav Header (it contains userName)
+      syncLeftNavHeader();
+
+      // dynamically reflect the userName of the active user
+      // ... auto synced on user identity change (because that is the controller we are in)
+      const userName = fwUser.getUserName();
+      // ... obtain all userName elements on this page (using dom element attribute: data-fw-user-name)
+      const userNameElms = document.querySelectorAll('[data-fw-user-name]');
+      // ... sync them
+      userNameElms.forEach(elm => {
+        elm.textContent = userName;
+      });
+
+      // dynamically reflect the userPhone of the active user
+      // ... auto synced on user identity change (because that is the controller we are in)
+      const userPhone = fwUser.getPhone();
+      // ... obtain all userPhone elements on this page (using dom element attribute: data-fw-user-phone)
+      const userPhoneElms = document.querySelectorAll('[data-fw-user-phone]');
+      // ... sync them
+      userPhoneElms.forEach(elm => {
+        elm.textContent = userPhone;
+      });
+
+      // manage the tri-state visuals of our sign-in page (found in settings.md)
+      const domGuest = document.getElementById('sign-in-form-guest');
+      // ... process if we are ON the settings.md sign-in page
+      //     ALL THREE are on the same page, so we just reason about the existance of the first
+      if (domGuest) {
+        const domVerifying = document.getElementById('sign-in-form-verifying');
+        const domVerified  = document.getElementById('sign-in-form-verified');
+
+        let showGuest     = fwUser.isSignedOut() && !fwUser.isVerifying();
+        let showVerifying = fwUser.isVerifying();
+        let showVerified  = fwUser.isSignedIn();
+        
+        domGuest.style.display     = showGuest     ? 'block' : 'none';
+        domVerifying.style.display = showVerifying ? 'block' : 'none';
+        domVerified.style.display  = showVerified  ? 'block' : 'none';
+      }
     }
 
     
@@ -448,17 +530,25 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       log('performing common setup of each page (once it is loaded)');
 
+      // sync User Identity related
+      // ??$$ NEW
+      syncUserChangeInUI();
+
       // sync ALL completed checkboxes on the current page
-      syncCompletedChecksOnPage();
+      // ... state-related-completions
+      syncUICompletions();
 
       // reflect the dynamic bibleTranslation on initial page load
-      emitBibleTranslationChange();
+      // ... state-related-settings
+      syncBibleTranslationChanges();
     }
-
 
     //*************************************
     //* promote our "module scoped" fw obj
     //*************************************
+
+    // NOTE: we do this here (rather setting from the IIFE invoker)
+    //       to allow our subsequent steps to operate (with this context in-place)
     window.fw = fw;
 
 
@@ -472,10 +562,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     const withFWLog  = logger(`${logPrefix}:withFW()`);
     window.withFWLog = withFWLog;
 
-    // process queued withFW() functions ... now that window.fw is defined (via fw.js expansion)
+    // process queued withFW() functions
+    // ... now that window.fw is defined (via our fw.js expansion)
     window.withFWQue.forEach( (fn) => {
       const fnName = fn.name || 'anonymous';
-      withFWLog.f(`executing DELAYED function: '${fnName}' ... now that window.fw is defined (via fw.js expansion)`);
+      withFWLog(`executing DELAYED function: '${fnName}' ... now that window.fw is defined (via fw.js expansion)`);
       fn();
     });
 
