@@ -25,4 +25,4 @@ const  log = logger(`${logPrefix}`);
 // NOTES:
 //   - initializeApp() is synchronous (it used to be async)
 const app = initializeApp(doodle(getFBAC()));
-log(`Firebase Initialized: `);
+log(`Firebase Initialized: `, {app});
