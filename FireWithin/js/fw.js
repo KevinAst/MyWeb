@@ -530,6 +530,16 @@ if (!window.fw) { // only expand this module once (conditionally)
         domVerifying.style.display = showVerifying ? 'block' : 'none';
         domVerified.style.display  = showVerified  ? 'block' : 'none';
       }
+
+      // manage the state synchronization note, that dynamically changes,
+      // based on whether the user is signed-in or signed-out.
+      const domStateNoteSignedOut = document.getElementById('state-sync-note-signed-out');
+      if (domStateNoteSignedOut) {
+        const domStateNoteSignedIn = document.getElementById('state-sync-note-signed-in');
+
+        domStateNoteSignedOut.style.display  = fwUser.isSignedOut() ? 'block' : 'none';
+        domStateNoteSignedIn.style.display   = fwUser.isSignedIn() ? 'block' : 'none';
+      }
     }
 
     

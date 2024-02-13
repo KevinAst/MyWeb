@@ -37,6 +37,7 @@
     "Welcome":            "[Welcome](/intro.md)",
     "Settings":           "[Settings](/settings.md)",
       "BibleTranslation": "[Bible Translation](/settings.md#bible-translation)",
+      "UserAccount":      "[User Account](/settings.md#user-account)",
     "GettingStarted":     "[Getting Started](/start.md)",
       "WhereAmI":         "[Where Am I?](/start.md#where-am-i)",
       "Search":           "[Search](/start.md#search)",

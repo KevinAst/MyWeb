@@ -195,6 +195,7 @@ const customTagProcessors = {
   inject,
   userName,
   userPhone,
+  injectSyncNote,
 };
 
 //***
@@ -1025,4 +1026,76 @@ function userPhone(arg) {
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   const diag = config.revealCustomTags ? `<mark>UP</mark>` : '';
   return `${diag}${html}`;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* injectSyncNote(ctx)
+//* 
+//* Inject a state synchronization note, that will dynamically change, based on
+//* whether the user is signed-in or signed-out.
+//* 
+//* SO KOOL: This custom tag generates:
+//*          - BOTH: post macros (that control note dynamics)
+//*          - AND: markdown (for the note itself)
+//* 
+//* Parms:
+//*   - ctx - The contextual variation of the note
+//*           ... either: 'settings'
+//*           ... or:     'completed checks'
+//* 
+//* Custom Tag:
+//*   M{ injectSyncNote(`completed checks`) }M
+//* 
+//* Replaced With:
+//*   P{ inject('<div id="state-sync-note-signed-out">') }P
+//*     ... signed-out note WITH markdown AND ctx param
+//*   P{ inject('</div><div id="state-sync-note-signed-in">') }P
+//*     ... signed-in note WITH markdown AND ctx param
+//*   P{ inject('</div>') }P
+//*-----------------------------------------------------------------------------
+function injectSyncNote(ctx) {
+
+  // parameter validation
+  const self       = `injectSyncNote('${ctx}')`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+  // ... ctx
+  checkParam(ctx,           'ctx is required');
+  checkParam(isString(ctx), 'ctx must be a string (the context of the note)');
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  return `${diag}
+<!-- START Custom Tag: ${self} -->
+
+P{ inject('<div id="state-sync-note-signed-out">') }P
+
+> **Please Note** that because you are a "Guest" user, these ${ctx}
+> are retained on your local device.  That means they will not follow
+> you when you use multiple devices _(say a laptop and a cell
+> phone)_. In other words, it's really the state of the device you are
+> using.
+> 
+> You can overcome this limitation by **establishing a Fire Within user
+> account**.  When you do this, your state is maintained in the cloud,
+> and **automatically syncs across all devices** _(that are signed-in to
+> the same account)_.
+> 
+> For more information on this topic, go to the {{book.UserAccount}} section
+> of the {{book.Settings}} page.
+
+P{ inject('</div><div id="state-sync-note-signed-in">') }P
+
+> **Please Note** that because you have signed-in to the Fire Within site, these ${ctx}
+> will **automatically sync to all of your devices**  _(that are signed-in to
+> the same account)_ ... **life is good!**.
+
+P{ inject('</div>') }P
+
+<!-- END Custom Tag: ${self} -->
+`;
 }

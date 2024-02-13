@@ -5,14 +5,7 @@ Preference** settings _(found here)_, which are retained between
 sessions.  In other words, you can leave the site and come back, and
 these settings will be remembered.
 
-> Please Note that these settings ares retained in your local device.
-> That means they will not follow you when you use multiple devices
-> _(say a laptop and a cell phone)_.  In other words, it's really the
-> settings of the device you are using.
-> 
-> This feature is merely meant to be a convenience, and was
-> implemented using the simplest technique.
-
+M{ injectSyncNote(`settings`) }M
 
 ## Bible Translation
 
