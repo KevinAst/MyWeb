@@ -172,8 +172,10 @@ export function handlePhoneSignIn(event) {
       log(`333: in signInWithPhoneNumber() .then() ... HAPPY PATH ... SMS Text SENT ... it worked!`);
 
       // update UI (just for fun)
-      // ... user will NOT see this, because the UI will be morphed into Step 2
-      msgElm.textContent = `SMS Text has been sent`;
+      // ... NOT THIS, because the user will NOT see it, as the UI is morphed into Step 2
+      // msgElm.textContent = `SMS Text has been sent`;
+      // ... RATHER clear sign-in message to remove any residual residue (should we come back to this page)
+      msgElm.textContent = '';
 
       // retain our confirmationResult for use in Step 2
       _confirmationResult = confirmationResult;
