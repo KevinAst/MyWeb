@@ -40,7 +40,6 @@
 //*-----------------------------------------------------------------------------
 
 // our active User singleton object (ALWAYS up-to-date)
-// ??$$ NEW
 import {fwUser} from './fwAuth.js';
 
 
@@ -54,7 +53,7 @@ import {fwSettings} from './fwSettings.js';
 
 import {handlePhoneSignIn,
         handlePhoneVerification,
-        handleSignOut}            from './fwAuth.js'; // ??$$ NEW
+        handleSignOut}            from './fwAuth.js';
 
 import logger from './util/logger/index.js';
 const  logPrefix = 'fw:core';
@@ -62,17 +61,6 @@ const  log = logger(`${logPrefix}`);
 
 // NOTE: now that fw.js is expanded in a module-scope, we only see this log ONCE (see NOTE above)!
 log('expanding fw.js module');
-
-// ?? QUICK AND DIRTY TEST of import
-// THIS WORKS: ... really part of Firebase -or- auth
-//? import {initializeApp} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-//? if (initializeApp) {
-//?   log('?? WowZee: I just imported firebase function from the internet');
-//?   // initializeApp(); // XX expecting error with no parms ... YES 
-//? }
-//? else {
-//?   log('?? SO SAD: was NOT able to import firebase function from the internet');
-//? }
 
 if (!window.fw) { // only expand this module once (conditionally)
 
@@ -424,7 +412,6 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     // synchronize our GitBook LeftNav Header
     // ... common to a couple of processes
-    // ??$$ NEW break-out
     function syncLeftNavHeader() {
       const log = logger(`${logPrefix}:syncLeftNavHeader()`);
 
@@ -456,13 +443,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
 
     // promote sign-in/sign-out utils
-    // ??$$ NEW
     fw.handlePhoneSignIn       = handlePhoneSignIn;
     fw.handlePhoneVerification = handlePhoneVerification;
     fw.handleSignOut           = handleSignOut;
 
     // register reflective code that syncs our UI on changes in User Identity
-    // ??$$ NEW
     fwUser.onChange(syncUserChangeInUI);
     
     //*--------------------------------------------------------------------------
@@ -474,7 +459,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
     //*  - User Identity changes ... see: fwUser.onChange()
     //*--------------------------------------------------------------------------
-    // ??$$ NEW
     function syncUserChangeInUI() {
       const log = logger(`${logPrefix}:syncUserChangeInUI()`);
 
@@ -531,7 +515,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       log('performing common setup of each page (once it is loaded)');
 
       // sync User Identity related
-      // ??$$ NEW
       syncUserChangeInUI();
 
       // sync ALL completed checkboxes on the current page
