@@ -44,29 +44,31 @@ Bar.
 
 ## User Account
 
-??$$ NEW User Account
+P{ inject('<div id="sign-in-form-guest">') }P
 
-P{ inject('<div id="sign-in-form-guest" style="color: red;">') }P
+**You are a Guest User**
 
-**guest**
+The Fire Within page does NOT require an account to use.  By default,
+you are a "Guest" user.
 
-The Fire Within page does NOT require an account to use it.  By
-default, you are a "Guest" user.  In this case, your state is
-maintained on your local device _(state consists of your completions
-and settings)_.  The down-side of this is when you use multiple
-devices _(say your laptop and your phone)_.  As a "Guest" user, you
-must manually sync your state across all the devices you use.
+For "Guest" users, we maintain your state on your local device.
+**Your state consists of your _completions_ and _settings_.**. The
+**only limitation** of this approach is when you use multiple devices
+_(say your laptop and your phone)_ ... then you must manually sync
+your state across all the devices you use _(because each device has
+it's own copy of the state)_.
 
-To overcome this problem, you can establish a Fire Within user
-account.  When you do this, your state is maintained in the cloud, and
-automatically syncs across multiple devices _(for the same user)_.
+To overcome this limitation, you can **establish a Fire Within user
+account**.  When you do this, your state is maintained in the cloud,
+and **automatically syncs across all devices** _(that are signed-in to
+the same account)_.
 
-Creating an account is easy.  We simply use your phone number as an
-account identifier.  Your phone is "verified" by texting a short-lived
-"verification code", which you use to sign-in.  It's very simple.
-There is no need to remember "yet another password".  Because the
-sign-in is "long lived", you only have to do this once _(per device)_,
-unless you sign-out for some reason.
+**Creating an account is easy**.  We simply use your phone number as
+an account identifier.  Your phone is "verified" by texting a
+temporary "verification code", which you use to sign-in.  **It's that
+simple** _(no need to remember "yet another password")_.  Because the
+sign-in is "long lived", you only have to do this once _(per device)_
+... unless you sign-out for some reason.
 
 <!-- Our sign-in form, that gathers phone number.
      - A "submit" button type is used to facilitate auto submit on text-box enter
@@ -74,7 +76,7 @@ unless you sign-out for some reason.
        "reCAPTCHA verifier widget" ... see: js/fwAuth.js
  -->
 <form id="signInForm" onsubmit="fw.handlePhoneSignIn(event)">
-    <label for="signInPhoneNum">Phone Number:</label>
+    <label for="signInPhoneNum">Phone:</label>
     <input type="tel" id="signInPhoneNum" name="signInPhoneNum" placeholder="nnn-nnn-nnnn">
     <button type="submit" id="signInButton">Sign In</button>
     <i>standard text rates apply</i>
@@ -90,13 +92,11 @@ unless you sign-out for some reason.
 
 P{ inject('</div> <div id="sign-in-form-verifying" style="color: green;">') }P
 
-**verifying**
-
-Your sign-in request is in-progress.
+Your sign-in request is **in-progress**.
 
 A text message has been sent to your phone at: M{ userPhone() }M.
 
-To complete your sign-in, please enter the verification code (from that text) and click "Verify".
+To complete your sign-in, please enter the verification code _(from that text)_.
 
 <!-- Our verification form, that gathers the one-time-code.
      - A "submit" button type is used to facilitate auto submit on text-box enter
@@ -110,23 +110,24 @@ To complete your sign-in, please enter the verification code (from that text) an
 
 P{ inject('</div> <div id="sign-in-form-verified" style="color: blue;">') }P
 
-**verified**
-
 Hello M{ userName() }M,
 
 You have signed-in to your Fire Within account, using phone: M{ userPhone() }M.
 
-As a result, your state _(completions and settings)_ is retained in a
-cloud database, and automatically synced to all devices _(signed in to
-this account)_.
+As a result, your state _(i.e. completions and settings)_ are retained
+in the cloud, and automatically synced to all devices _(that are
+signed in to this account)_.
 
-As a signed-in user, you can specify your name here: ?? Text Box
-pre-populated & implicitly executes fwSettings.setUserName(name)
+<div>
+As a signed-in user, you may change your name here:
+<input type="text" id="maintainUserName" maxlength="15" onblur="fw.maintainUserName(event)"/>
+<p id="maintainUserNameMsg" style="color: red;"></p>
+</div>
 
-Your sign-in is long lived, so you should not need to sign-in again
-_(on this device)_, unless you sign-out for some reason.
+Your sign-in is **long lived**, so you do not need to sign-in again
+_(on this device)_ ... _unless you sign-out for some reason_.
 
-If you do need to sign-out, remember:
+If you do sign-out, remember:
 - your state will revert back to your device storage
 - ?? which will be reset to your existing state _(at sign-out time)_
 

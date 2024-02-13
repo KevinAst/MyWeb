@@ -446,6 +446,30 @@ if (!window.fw) { // only expand this module once (conditionally)
     fw.handlePhoneSignIn       = handlePhoneSignIn;
     fw.handlePhoneVerification = handlePhoneVerification;
     fw.handleSignOut           = handleSignOut;
+    fw.maintainUserName        = maintainUserName;
+
+    // function to maintain userName for signed-in users
+    function maintainUserName(e) {
+      // fetch new value from our text box
+      const newVal = e.target.value.trim();
+
+      // validate it
+      const msgElm = document.getElementById('maintainUserNameMsg');
+      // ... must be signed-in (sanity check - UI already facilitates this)
+      if (fwUser.isSignedOut()) {
+        msgElm.textContent = 'user name can only be altered for signed-in users.';
+        return;
+      }
+      // ... may NOT contain 'guest'
+      if (newVal.toLowerCase().indexOf('guest') !== -1) {
+        msgElm.textContent = `user name may NOT contain 'guest'.`;
+        return;
+      }
+
+      // update userName in our persistent settings
+      fwSettings.setUserName(newVal);
+      msgElm.textContent = ''; // clear msg
+    }
 
     // register reflective code that syncs our UI on changes in User Identity
     fwUser.onChange(syncUserChangeInUI);
@@ -474,6 +498,11 @@ if (!window.fw) { // only expand this module once (conditionally)
       userNameElms.forEach(elm => {
         elm.textContent = userName;
       });
+      // ... also, the userName maintenance form (found in settings.md of a signed-in user)
+      const maintainUserNameElm = document.getElementById('maintainUserName');
+      if (maintainUserNameElm) {
+        maintainUserNameElm.value = userName;
+      }
 
       // dynamically reflect the userPhone of the active user
       // ... auto synced on user identity change (because that is the controller we are in)
