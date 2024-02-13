@@ -75,7 +75,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '20.1';
+    const CUR_VER = '21';
 
 
     //***************************************************************************
@@ -433,7 +433,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       const bibleTranslation = fwSettings.getBibleTranslation();
       const userName         = fwUser.getUserName();
       log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
-      headerElm.textContent = `FireWithin (v${CUR_VER} ${bibleTranslation} ${userName})`;
+      headerElm.textContent = `Fire Within • v${CUR_VER} • ${bibleTranslation} • ${userName}`;
     }
 
     //***************************************************************************
