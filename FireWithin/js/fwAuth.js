@@ -200,17 +200,22 @@ export function handlePhoneSignIn(event) {
         const domExplainSmsExceeded  = document.getElementById('explain-sms-text-exceeded');
         domExplainSmsExceeded.style.display = 'block';
 
-        // ??$$ suspect reset needed here too?
+        // we also need to reset the "reCAPTCHA verifier widget" on this page
+        // ... soooo the user can sign-in WITHOUT navigating off/on this page
+        // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
+        //          ... so I can't use it here, as we will loose the error message :-(
+        //? resetSigninProcess()
       }
       else { // unexpected error <<< KJB: can test this by clicking Sign-In button 2nd time (MUST enable all-three sections of the sign-in screen)
         const msg = `UNEXPECTED ERROR: in signInWithPhoneNumber().catch(err) ... ${err} ... SMS Text NOT sent`;
         log.f(`${msg}, err: `, {err});
         msgElm.textContent = `Something went wrong in sending the SMS Text ... see logs`;
 
-        // ??$$ WOWZEE ... this is IT for below ... figure this out
-        // reset the reCAPTCHA so the user can try again
-        // ... KJB: WHAAA: have NO idea what this is <<< forget it
-        // grecaptcha.reset(window.recaptchaWidgetId);
+        // we also need to reset the "reCAPTCHA verifier widget" on this page
+        // ... soooo the user can sign-in WITHOUT navigating off/on this page
+        // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
+        //          ... so I can't use it here, as we will loose the error message :-(
+        //? resetSigninProcess()
       }
     });
 
@@ -334,6 +339,13 @@ export function signOut() {
  * @private
  */
 function resetSigninProcess() {
+  // KJB: I have found this code
+  //      - but I have NO idea what the grecaptcha reference is
+  //      - AI Bard: - tells me it is an internal Firebase reference
+  //                   and should NOT be used by a client
+  //                 - Bard also says I should NOT need to reset this
+  // grecaptcha.reset(window.recaptchaWidgetId);
+
   // NOT fully understanding the details of the setup here,
   // ... the simplest thing to do is refresh the page
   // ... a Sledge Hammer, but it works :-(
