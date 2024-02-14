@@ -76,12 +76,16 @@ sign-in is "long lived", you only have to do this once _(per device)_
     <p id="signInMsg" style="color: red;"></p>
 </form>
 
-<mark><b>SMS Text Limit Exceeded:</b></mark> ?? dynamically rendered
+P{ inject('<div id="explain-sms-text-exceeded" style="display: none;">') }P
+
+<mark><b>SMS Text Limit Exceeded:</b></mark>
 - Fire Within accounts use an entry-level service plan to persist it's data in the cloud
 - This plan is limits the number of SMS Text messages allowed at a given time
 - If you receive an **"SMS Text Limit Exceeded"** message, simply try again in a short time _(20-30 mins)_
 - This **limitation should NOT be an issue** because sign-ins are **"long lived"** _(basically forever)_
-  ... _sign-ins do not need to be repeated on a given device, unless you sign-out for some reason_
+  ... _in other words, sign-ins do not need to be repeated on a given device, unless you sign-out for some reason_
+
+P{ inject('</div>') }P
 
 P{ inject('</div> <div id="sign-in-form-verifying" style="color: green;">') }P
 

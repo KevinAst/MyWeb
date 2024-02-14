@@ -189,17 +189,25 @@ export function handlePhoneSignIn(event) {
         msgElm.textContent = "The phone Number you entered is invalid, please try again.";
       }
       // SMS Text Limit Exceeded ... Firebase Blaze Plan:
-      //  - 6 txts in rapid sucecssion
-      //  - additional texts allowd after 30 mins or so
+      //  - MY EXPERIENCE (Firebase is very elusive on this):
+      //    * 6 txts in rapid sucecssion
+      //    * additional texts allowed after 30 mins or so
       else if (err.code === 'auth/too-many-requests') {
         msgElm.textContent = "SMS Text Limit Exceeded.  Try again later ... see note (below)";
-        // ?? AI: also enable full description on screen
+        
+        // also dynamically enable the full description (giving user more info)
+        // ... don't worry about taking this down (KISS: minimal impact to UI experience)
+        const domExplainSmsExceeded  = document.getElementById('explain-sms-text-exceeded');
+        domExplainSmsExceeded.style.display = 'block';
+
+        // ??$$ suspect reset needed here too?
       }
       else { // unexpected error <<< KJB: can test this by clicking Sign-In button 2nd time (MUST enable all-three sections of the sign-in screen)
         const msg = `UNEXPECTED ERROR: in signInWithPhoneNumber().catch(err) ... ${err} ... SMS Text NOT sent`;
         log.f(`${msg}, err: `, {err});
         msgElm.textContent = `Something went wrong in sending the SMS Text ... see logs`;
 
+        // ??$$ WOWZEE ... this is IT for below ... figure this out
         // reset the reCAPTCHA so the user can try again
         // ... KJB: WHAAA: have NO idea what this is <<< forget it
         // grecaptcha.reset(window.recaptchaWidgetId);
