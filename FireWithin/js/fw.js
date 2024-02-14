@@ -52,8 +52,9 @@ import {fwCompletions} from './fwCompletions.js';
 import {fwSettings} from './fwSettings.js';
 
 import {handlePhoneSignIn,
-        handlePhoneVerification,
-        handleSignOut}            from './fwAuth.js';
+        handlePhoneVerify,
+        verifyPhoneCancel,
+        signOut}     from './fwAuth.js';
 
 import logger from './util/logger/index.js';
 const  logPrefix = 'fw:core';
@@ -443,10 +444,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
 
     // promote sign-in/sign-out utils
-    fw.handlePhoneSignIn       = handlePhoneSignIn;
-    fw.handlePhoneVerification = handlePhoneVerification;
-    fw.handleSignOut           = handleSignOut;
-    fw.maintainUserName        = maintainUserName;
+    fw.handlePhoneSignIn = handlePhoneSignIn;
+    fw.handlePhoneVerify = handlePhoneVerify;
+    fw.verifyPhoneCancel = verifyPhoneCancel;
+    fw.signOut           = signOut;
+    fw.maintainUserName  = maintainUserName;
 
     // function to maintain userName for signed-in users
     function maintainUserName(e) {

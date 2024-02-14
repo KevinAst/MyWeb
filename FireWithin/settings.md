@@ -94,12 +94,14 @@ To complete your sign-in, please enter the verification code _(from that text)_.
 <!-- Our verification form, that gathers the one-time-code.
      - A "submit" button type is used to facilitate auto submit on text-box enter
  -->
-<form id="verifyForm" onsubmit="fw.handlePhoneVerification(event)">
+<form id="verifyForm" onsubmit="fw.handlePhoneVerify(event)">
     <label for="verifyCode">Code:</label>
     <input type="text" id="verifyCode" name="verifyCode">
     <button type="submit">Verify</button>
+    <button onclick="fw.verifyPhoneCancel()">Cancel</button>
     <p id="verifyMsg" style="color: red;"></p>
 </form>
+
 
 P{ inject('</div> <div id="sign-in-form-verified" style="color: blue;">') }P
 
@@ -124,6 +126,6 @@ If you do sign-out, remember:
 - your state will revert back to your device storage
 - ?? which will be reset to your existing state _(at sign-out time)_
 
-<button onclick="fw.handleSignOut()">Sign Out</button>
+<button onclick="fw.signOut()">Sign Out</button>
 
 P{ inject('</div>') }P

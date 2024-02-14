@@ -219,9 +219,9 @@ export function handlePhoneSignIn(event) {
  *
  * @public
  */
-export function handlePhoneVerification(event) {
+export function handlePhoneVerify(event) {
   event.preventDefault(); // prevent default form submission
-  const log = logger(`${logPrefix}:handlePhoneVerification()`);
+  const log = logger(`${logPrefix}:handlePhoneVerify()`);
 
   // obtain aspects of the verificaion form - including the user supplied code
   const verificationCode = document.getElementById('verifyCode').value.trim();
@@ -265,13 +265,34 @@ export function handlePhoneVerification(event) {
     });
 }
 
+
+/**
+ * Cancel the phone verification process.
+ *
+ * The user no longer wishes to continue this verification 
+ * step of our sign-in process.
+ *
+ * @public
+ */
+export function verifyPhoneCancel() {
+  // the primary thing we do is sign-out the user
+  // ... BECAUSE we are already in a signed-out mode
+  //     just need to clear the phone number
+  fwUser.setSignedOut();
+
+  // we also need to reset the "reCAPTCHA verifier widget" on this page
+  // ... soooo the user can sign-in WITHOUT navigating off/on this page
+  resetSigninProcess()
+}
+
+
 /**
  * sign-out of our account
  *
  * @public
  */
-export function handleSignOut() {
-  const log = logger(`${logPrefix}:handleSignOut()`);
+export function signOut() {
+  const log = logger(`${logPrefix}:signOut()`);
 
   // this signs out user from a single device
   auth.signOut()
@@ -283,8 +304,32 @@ export function handleSignOut() {
         // ... this is accomplished via the responsive monitors of the change to our user
         // NOTE: this is NOT needed, as it is accomplished in the onAuthStateChanged() listener (above)
         // fwUser.setSignedOut();
+
+        // we also need to reset the "reCAPTCHA verifier widget" on this page
+        // ... soooo the user can sign-in WITHOUT navigating off/on this page
+        //     in the "rare" case where they sign-in/sign-out without leaving the page
+        resetSigninProcess();
       })
       .catch((err) => {
-        showUnexpectedError(log, 'sign-out user', err);
+       showUnexpectedError(log, 'sign-out user', err);
       });
+}
+
+/**
+ * Reset the "reCAPTCHA verifier widget" on this page
+ *
+ * WITHOUT THIS: 
+ *   - If the the user attempts to sign-in from this page again,
+ *     without navigating off/on the page ... 
+ *   - it basically no-ops :-(
+ *
+ * @private
+ */
+function resetSigninProcess() {
+  // NOT fully understanding the details of the setup here,
+  // ... the simplest thing to do is refresh the page
+  // ... a Sledge Hammer, but it works :-(
+  //     NOTE: Don't worry about an additional state retrieval from Firebase DB
+  //           BECAUSE: we are signed-out, so any state is pulled from the device LocalStorage
+  window.location.reload();
 }
