@@ -429,7 +429,7 @@ function youTube(id) {
 //*   M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed (in table)
 //* 
 //* Replaced With:
-//*   <label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
+//*   <label><input type="checkbox" data-completions onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
 //*-----------------------------------------------------------------------------
 function completedCheckBox(_id) {
 
@@ -456,7 +456,7 @@ function completedCheckBox(_id) {
   //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
-  return `${diag}<label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  return `${diag}<label><input type="checkbox" data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
 
 

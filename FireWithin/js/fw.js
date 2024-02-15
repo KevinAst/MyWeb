@@ -109,33 +109,33 @@ if (!window.fw) { // only expand this module once (conditionally)
       const log = logger(`${logPrefix}:syncUICompletions()`);
       
       // fetch all checkbox input elements (representing completed sessions)
-      const completedElms = document.querySelectorAll('input[type="checkbox"]');
-      log.enabled && log('completedElms: ', {completedElms});
+      const completionElms = document.querySelectorAll('input[type="checkbox"][data-completions]');
+      log.enabled && log('completionElms: ', {completionElms});
       
       // initialize each completed checkbox from our state
-      for (const completedElm of completedElms) {
-        log.v(`processing completedElm.id: "${completedElm.id}"`);
+      for (const completionElm of completionElms) {
+        log.v(`processing completionElm.id: "${completionElm.id}"`);
       
         // sync our UI from our state
         // ... THIS IS IT
-        completedElm.checked = fwCompletions.isComplete(completedElm.id);
+        completionElm.checked = fwCompletions.isComplete(completionElm.id);
       }
     }
 
     //*--------------------------------------------------------------------------
-    //* PUBLIC: fw.handleCompletedCheckChange(completedElm)
+    //* PUBLIC: fw.handleCompletedCheckChange(completionElm)
     //* 
     //* Event handler that retains changes to our completions state
     //*--------------------------------------------------------------------------
     // ... state-related-completions:
-    fw.handleCompletedCheckChange = function(completedElm) {
+    fw.handleCompletedCheckChange = function(completionElm) {
       const log = logger(`${logPrefix}:handleCompletedCheckChange()`);
 
-      log(`completedElm changed ... id: "${completedElm.id}", checked: ${completedElm.checked}`);
+      log(`completionElm changed ... id: "${completionElm.id}", checked: ${completionElm.checked}`);
 
       // retain this change in our state
       // ... handles persistance/reflection automatically
-      fwCompletions.setComplete(completedElm.id, completedElm.checked);
+      fwCompletions.setComplete(completionElm.id, completionElm.checked);
     }
 
 
