@@ -270,6 +270,12 @@ export function handlePhoneVerify(event) {
       if (err.code === 'auth/invalid-verification-code') {
         msgElm.textContent = "The code you entered is NOT correct ... please enter the code you received from the verification text message.";
       }
+      else if (err.code === 'auth/code-expired') {
+        msgElm.textContent = "The verification time has expired ... please cancel and try again.";
+      }
+      else if (err.code === 'auth/credential-already-in-use') {
+        msgElm.textContent = "This verification code has already been used.";
+      }
       else { // unexpected error
         const msg = `UNEXPECTED ERROR: in confirmationResult.confirm().catch(err) ... ${err}`;
         log.f(`${msg}, err: `, {err});
