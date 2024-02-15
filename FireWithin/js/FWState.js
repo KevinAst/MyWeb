@@ -446,7 +446,7 @@ export default class FWState {
    *
    * @param {string} [diagMsg] - optional diagnostic message to relay in our logs (used in our 'initial first-time bootstrap')
    */
-  setupOnUserChange(diagMsg) {
+  setupOnUserChange(diagMsg='') {
     const log = logger(`${this._logPrefix}:setupOnUserChange(${diagMsg})`);
     
     // IMPORTANT: We NO-OP if our user identity HAS NOT CHANGED
