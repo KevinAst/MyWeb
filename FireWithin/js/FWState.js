@@ -378,7 +378,7 @@ export default class FWState {
    *   changes.
    *
    * - This process includes the necessary registrations that are
-   *   required to syncronize our in-memory-state from external changes
+   *   required to synchronize our in-memory-state from external changes
    *   to the persistent-store.
    *
    * MORE CONTEXT ...
@@ -391,11 +391,12 @@ export default class FWState {
    *                       * EITHER:
    *                         - the Central Cloud Firebase DB (for authorized users)
    *                         - or the Device's Browser LocalStorage (for guest users)
-   *                       * the only synchronization between these two persistent-stores,
-   *                         occur when a BRAND NEW user establishes their account
-   *                         ... this will set the Firebase DB from the current 
-   *                             in-memory-state of the guest user
-   *                             ?? surely this DOES NOT need to be repeated HERE (from below) ... hmmmmmm
+   *                       * the synchronization between these two persistent-stores
+   *                         is very limited:
+   *                         1. when a BRAND NEW user establishes their account (the first time they sign-in)
+   *                            - the initial Firebase image is set from the Device Storage (see: "SideBar (Initial Firebase DB Image)")
+   *                         2. when the user signs-out
+   *                            - the Device Storage can be synced from the Firebase image, per user request (see: "SideBar (Sync Device Storage From Cloud on Sign-Out)")
    *
    * Invocation Context:
    *  - this function is invoked:
@@ -412,11 +413,11 @@ export default class FWState {
    *
    *   - initialize (or reset) our in-memory-state from the user's persistent-store
    *     * because the user identity has changed (see context above), their state will be different
-   *     * for sign-out, the user will be a guest user, and their state will be reset from the device storage
-   *       ?? NO (CLARIFY): unless we decide to leave it alone (?? BUT we can't do that if we expect the app start-up to initialize this)
+   *     * for signed-in users, their in-memory-state is reflective of the Firebase DB
+   *     * for signed-out users, their in-memory-state is reflective of the Device LocalStorage
    *
-   *   > SideBar:
-   *   - detects a non-existent persistent-store (for a BRAND NEW user account),
+   *   > SideBar (Initial Firebase DB Image):
+   *   - this process also detects a non-existent persistent-store (for a BRAND NEW user account),
    *     and establishes the persistent-store's initial state for that user
    *     * this is done ONE TIME (per user), for a BRAND NEW user
    *       ... the first time they establish their account
@@ -427,24 +428,28 @@ export default class FWState {
    *              should be done on the device that has the most accurate state!
    *       - ultimately, first-time guest user state is initialized from default semantics
    *
+   *   > SideBar (Sync Device Storage From Cloud on Sign-Out):
+   *   - on sign-out, this process will conditionally sync the Device LocalStorage from the Firebase DB
+   *     * per user request (in fwSettings)
+   *
    * App start-up progression of in-memory-state (highlighting our default semantics):
    *   0. Our initial state ALWAYS contains the appropriate default semantics, as follows:
    *   1. Our in-memory-state is initialized with our default semantics:
-   *      ... the FWState class constructor accepts the ONE-AND-ONLY defaultSemantis param
-   *      ... NOTE: this step 1 is very short-lived, as step 2 happens immediately
+   *      - the FWState class constructor accepts the ONE-AND-ONLY defaultSemantis param
+   *      - NOTE: this step 1 is very short-lived, as step 2 happens immediately
    *   2. Once our app start-up initially invokes THIS function, our in-memory-state will be reset
    *      from the Device's Browser LocalStorage
-   *      ... because the initial user will be a guest user
-   *      ... see: fetchStateFromDevice()
-   *               ... invoked from THIS function's signed-out logic path
-   *               ... when NO localStorage exists, fetchStateFromDevice() falls back to our existing in-memory-state
-   *                   - WHICH HAS the default semantics built-in (see step 1)
+   *      - because the initial user will be a guest user
+   *      - see: fetchStateFromDevice()
+   *             * invoked from THIS function's signed-out logic path
+   *             * when NO localStorage exists, fetchStateFromDevice() falls back to our existing in-memory-state
+   *               - WHICH HAS the default semantics built-in (see step 1)
    *   3. If and when authentication occurs (either a sign-in or re-authentication)
    *      our in-memory-state will be reset from the user's persistent-store.
-   *      ... which in-turn, has initially been defined from our in-memory-state (initialized from step 1/2)
-   *          - WHICH HAS the default semantics built-in
+   *      - which in-turn, has initially been defined from our in-memory-state (initialized from step 1/2)
+   *        * WHICH HAS the default semantics built-in
    *
-   * @param {string} [diagMsg] - optional diagnostic message to relay in our logs (used in our 'initial first-time bootstrap')
+   * @param {string} [diagMsg] - optional diagnostic message to relay in our logs (used in our 'initial-first-time-bootstrap')
    */
   setupOnUserChange(diagMsg='') {
     const log = logger(`${this._logPrefix}:setupOnUserChange(${diagMsg})`);
