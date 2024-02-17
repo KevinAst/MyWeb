@@ -100,8 +100,10 @@ export default class FWState {
    *
    * @param {JSONObj} defaultSemantics - the initial starting point of
    * our state ... used in the initial session as our defaults (ex:
-   * default settings).  This is overlayed with any persistent state,
-   * retained from prior sessions.
+   * default settings).  Internally, a copy of this is retained in
+   * self so the client reference will NOT be mutated.  Even though
+   * this is our starting point, it will ultimatly be overlayed with
+   * any persistent state, retained from prior sessions.
    *
    * @param {string} category - the category of state managed by this
    * object instance (ex: "completions"/"settings").  This is used as
@@ -123,7 +125,9 @@ export default class FWState {
     this._lastProcessedUid = 'NO-UID-ON-STARTUP';
     
     // initialize state with our "starting"/"default" state
-    this.setAllState(defaultSemantics);
+    // ... make a copy so as to not polute our client's defaultSemantics
+    //     CONSIDER: doing this at the setAllState() level ... NOT needed at this time
+    this.setAllState( { ...defaultSemantics } );
 
     // register the StorageEvent listener that syncs LocalStorage changes to other app instances
     // Please Note: this is a global registration ... see: USER-SPECIFIC-REGISTRATION-NOT-REQUIRED

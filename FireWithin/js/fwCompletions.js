@@ -30,8 +30,6 @@ class FWCompletions {
   constructor() {
     // define our ONE-AND-ONLY default semantics
     // - technically, completions default is simply an empty state
-    // - NOTE: mutation of this object is acceptable, 
-    //         because it is always re-created within the context of this constructor function
     const defaultSemantics = {};
 
     // create our internal FWState object

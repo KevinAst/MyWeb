@@ -14,6 +14,16 @@
 
 import FWState from './FWState.js'; 
 
+// our ONE-AND-ONLY default semantics
+// ... DO NOT mutate this
+// - NOTE: mutation of this object is acceptable, 
+//         because it is always re-created within the context of this constructor function
+const defaultSemantics = {
+  bibleTranslation: 'NLT',
+  userName:         '',
+  syncDeviceStoreOnSignOut: true,
+};
+
 /**
  * The FWSettings class ... internal to this module
  *
@@ -28,15 +38,6 @@ class FWSettings {
    * @constructor
    */
   constructor() {
-    // define our ONE-AND-ONLY default semantics
-    // - NOTE: mutation of this object is acceptable, 
-    //         because it is always re-created within the context of this constructor function
-    const defaultSemantics = {
-      bibleTranslation: 'NLT',
-      userName:         '',
-      syncDeviceStoreOnSignOut: true,
-    };
-
     // create our internal FWState object
     // ... specific to our "settings" category
     // ... that does ALL our heavy lifting
@@ -77,6 +78,34 @@ class FWSettings {
     this._fwState.onChange(onChangeHandler);
   }
 
+  /**
+   * Get supplied property, applying defaultSemantics appropriatly.
+   *
+   * NOTE: Because new properties introduced in new releases, are not
+   *       immediately stored for existing users, till they are
+   *       altered, we apply the default heuristic to insure our
+   *       in-memory-state is accurate.
+   *
+   * @private
+   *
+   * @param {string} key - the property key of the value to return.
+   *
+   * @returns {any} the property value (with default semantics applied)
+   */
+  getValue(key) {
+    // pass through to our worker object
+    let val = this._fwState.getValue(key);
+
+    // apply default semantics
+    // ... when NOT YET defined
+    if (val === undefined || val === null) {
+      val = defaultSemantics[key];
+    }
+
+    // that's all folks :-)
+    return val;
+  }
+
 
   //*-----------------------------------------------------------------------------
   //* bibleTranslation
@@ -114,8 +143,7 @@ class FWSettings {
    * @returns {string} self's bibleTranslation property (ex: 'KJV').
    */
   getBibleTranslation() {
-    // pass through to our worker object
-    return this._fwState.getValue('bibleTranslation');
+    return this.getValue('bibleTranslation'); // provides value-added default semantics
   }
 
   /**
@@ -181,8 +209,7 @@ class FWSettings {
    * @returns {string} self's userName property (ex: 'KJV').
    */
   getUserName() {
-    // pass through to our worker object
-    return this._fwState.getValue('userName') || ''; // add fallback when undefined (older software version migration)
+    return this.getValue('userName'); // provides value-added default semantics
   }
 
   /**
@@ -234,8 +261,7 @@ class FWSettings {
    * @returns {boolean} self's syncDeviceStoreOnSignOut property (true/false).
    */
   isSyncDeviceStoreOnSignOut() {
-    // pass through to our worker object
-    return this._fwState.getValue('syncDeviceStoreOnSignOut') || false; // add fallback when undefined (older software version migration)
+    return this.getValue('syncDeviceStoreOnSignOut'); // provides value-added default semantics
   }
 
   /**
