@@ -35,10 +35,12 @@ export default class FWUser {
    * @constructor
    */
   constructor() {
-    // carve out the collector of registered observers to changes of self
+    // initial state
+    // ... carve out the collector of registered observers to changes of self
     this._onChangeHandlers = [];
-
-    // always starts out as signed-out
+    // ... sign-out confirmation
+    this._confirmSignOut = false;
+    // ... always starts out as signed-out
     this.setSignedOut();
 
     // BECAUSE our userName abstraction depends on fwSettings.userName,
@@ -226,9 +228,45 @@ export default class FWUser {
   }
 
 
-  //*********************************************************************************
+  //********************************
+  //* sign-out confirmation related
+  //********************************
+
+  /**
+   * Indicate in self that we are requesting a sign-out verification.
+   * @private
+   */
+  requestSignOutConfirmation() {
+    // change our setting
+    this._confirmSignOut = true;
+    // trigger change notifications
+    this.notifyChanged();
+  }
+
+  /**
+   * Indicate in self that we are NOT requesting a sign-out verification.
+   * @private
+   */
+  cancelSignOutConfirmation() {
+    // change our setting
+    this._confirmSignOut = false;
+    // trigger change notifications
+    this.notifyChanged();
+  }
+
+  /**
+   * Return self's indicator as to whether we are requesting a sign-out verification.
+   *
+   * @returns {string} see description.
+   */
+  isSignOutBeingConfirmed() {
+    return this._confirmSignOut;
+  }
+
+
+  //******************************************
   //* Promote Changes to Interested Observers
-  //*********************************************************************************
+  //******************************************
 
   /**
    * Registered observers of self's change.

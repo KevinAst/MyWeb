@@ -448,6 +448,8 @@ export default class FWState {
    */
   setupOnUserChange(diagMsg='') {
     const log = logger(`${this._logPrefix}:setupOnUserChange(${diagMsg})`);
+
+    const runningInAppStartup = diagMsg === 'initial-first-time-bootstrap';
     
     // IMPORTANT: We NO-OP if our user identity HAS NOT CHANGED
     //            - Our original assumption did NOT last long
@@ -540,7 +542,23 @@ export default class FWState {
       // N/A: register state changes via LoalStorage monitors
       // THIS IS NOT REQUIRED!
       // ... see: USER-SPECIFIC-REGISTRATION-NOT-REQUIRED (note below)
-      
+
+      // conditionally, sync our device LocalStorage state from the Firebase cloud
+      // ... pur user request, found in our fwSettings
+      // ... critical to do BEFORE subsequent steps
+      if (!runningInAppStartup) { // a true sign-out ... NOT a sign-out when we are running in our app startup initialization
+        if (_syncDeviceStoreOnSignOut) {  // user has requested to sync Device LocalStorage from Firebase
+          log(`SYNCING Device LocalStorage FROM Firebase Cloud -AT- Sign-Out Time (per user request)`);
+
+          // copy current state to LocalStorage
+          // ... our current in-memory-state is an image of our Firebase (because we are currently signed-in)
+          this.storeStateToDevice(this._state);
+        }
+        else {
+          log(`NOT SYNCING Device LocalStorage FROM Firebase Cloud -ON- Sign-Out Time (user did NOT request)`);
+        }
+      } 
+
       // retrieve all category state from LocalStorage, retaining this state in our app
       // ... pull from Device LocalStorage
       const state = this.fetchStateFromDevice();
@@ -754,13 +772,49 @@ export default class FWState {
 } // end of ... FWState class definition
 
 
+//********************************************************************************
+//* syncDeviceStoreOnSignOut - Sync Device Storage From Cloud on Sign-Out
+//* 
+//* The determination of when to "Sync Device Storage From Cloud on
+//* Sign-Out" is made in this module (see: usage in setupOnUserChange()
+//* function).
+//* 
+//* Ultimately this is driven by an fwSetting property:
+//* fwSetting.isSyncDeviceStoreOnSignOut().
+//* 
+//* HOWEVER there are two quirky aspects of why we cannot directly use
+//* fwSetting to make this determination:
+//* 
+//* 1. This process occurs multiple times for a sign-out, because we have
+//*    multiple state categories.
+//* 
+//*    In other words, there are separate instances of FWState, one for
+//*    each state category (e.g. completions and settings).
+//* 
+//* 2. This process is actually changing the source of our settings (going
+//*    from Firebase to Device LocalStorage), so it can be unstable.
+//* 
+//*    We want the Firebase rendition, but the settings may have already
+//*    changed to the LocalStorage rendition - because of the multiple
+//*    object instances highlighted in step 1.
+//* 
+//* As a result, the determination is made early in the sign-out process
+//* (see: signOut() function in fwAuth.js), and retain it here using the
+//* retain_syncDeviceStoreOnSignOut() function below.
+//********************************************************************************
+
+let _syncDeviceStoreOnSignOut = true;
+export function retain_syncDeviceStoreOnSignOut(val) {
+  _syncDeviceStoreOnSignOut = val;
+}
+
 
 //********************************************************************************
-//* a migration patch utility to standadarize LocalStorage state keys to use
-//* "category" ... consistent with what is used in our Firebase DB
+//* A migration patch (release V21): to standadarize LocalStorage state keys
+//* to use "category" ... consistent with what is used in our Firebase DB
 //* 
-//* This ia a performs a one-time localStorage converion with the 
-//* global knowledge of old/new keys.
+//* This performs a one-time localStorage converion with global knowledge
+//* of old/new keys.
 //********************************************************************************
 // ??## STANDARDIZE: deviceStateKey to use "category" <<< ENABLE THIS A BIT LATER
 //? function migrateToNewDeviceStateKeys() {

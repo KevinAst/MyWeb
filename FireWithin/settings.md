@@ -141,10 +141,21 @@ As a signed-in user, you may change your name here:
 Your sign-in is **long lived**, so you do not need to sign-in again
 _(on this device)_ ... _unless you sign-out for some reason_.
 
-If you do sign-out, remember:
-- your state will revert back to your device storage
-- ?? which will be reset to your existing state _(at sign-out time)_
+<button onclick="fw.requestSignOutConfirmation()">Sign Out</button>
 
-<button onclick="fw.signOut()">Sign Out</button>
+P{ inject('</div> <div id="sign-out-confirmation" style="color: red;">') }P
+
+**Please confirm your request to Sign-Out: **
+
+<mark><b>Remember:</b></mark>
+
+- Your state _(i.e. completions and settings)_ will revert back to your device storage.
+  - Which can optionally be reset to the latest copy from the cloud, **per this option**:
+    <label><input type="checkbox" onclick="fw.handleSetting_syncDeviceStoreOnSignOut(this);" id="setting_syncDeviceStoreOnSignOut"> Copy Device Storage from the Cloud <i>(ON Sign-Out)</i></label>
+- From that point forward, however, your device state will be an independent copy, held on this device.
+  - **Which will NOT be synced to the cloud**
+
+<button onclick="fw.signOut()">Confirm Sign Out</button>
+<button onclick="fw.cancelSignOutConfirmation()">Cancel</button>
 
 P{ inject('</div>') }P

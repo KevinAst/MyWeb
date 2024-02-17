@@ -54,7 +54,9 @@ import {fwSettings} from './fwSettings.js';
 import {handlePhoneSignIn,
         handlePhoneVerify,
         verifyPhoneCancel,
-        signOut}     from './fwAuth.js';
+        requestSignOutConfirmation,
+        cancelSignOutConfirmation,
+        signOut} from './fwAuth.js';
 
 import logger from './util/logger/index.js';
 const  logPrefix = 'fw:core';
@@ -279,17 +281,65 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
     //* Code Related to our settings (User Preferences)
+    //* ... state-related-settings
+    //***************************************************************************
+    //***************************************************************************
+
+    //***************************************************************************
+    //* Code Related to syncDeviceStoreOnSignOut - Sync Device Storage From Cloud on Sign-Out
+    //* ... state-related-settings
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.handleSetting_syncDeviceStoreOnSignOut(copyOptCheckBoxElm)
     //* 
-    //* ... state-related-settings: ... the ONLY settings we currently have is: bibleTranslation
-    //***************************************************************************
-    //***************************************************************************
+    //* Event handler that retains changes to our settings state
+    //*--------------------------------------------------------------------------
+    // ... state-related-settings:
+    fw.handleSetting_syncDeviceStoreOnSignOut = function(copyOptCheckBoxElm) {
+      const log = logger(`${logPrefix}:handleSetting_syncDeviceStoreOnSignOut()`);
+
+      log(`changed: ${copyOptCheckBoxElm.checked}`);
+
+      // retain this change in our state
+      // ... handles persistance/reflection automatically
+      fwSettings.setSyncDeviceStoreOnSignOut(copyOptCheckBoxElm.checked);
+    }
+    
+    // register reflective code that syncs our UI on syncDeviceStoreOnSignOut setting changes
+    // ... state-related-settings
+    fwSettings.onSyncDeviceStoreOnSignOutChange( syncSyncDeviceStoreOnSignOutChanges );
+
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: syncSyncDeviceStoreOnSignOutChanges()
+    //* 
+    //* hmmmm - this fn name is a bit querky (syncSync...), but is a standard BECAUSE we are:
+    //* Syncing our UI when syncDeviceStoreOnSignOut changes.
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - syncDeviceStoreOnSignOut settings changes ... see: fwSettings.onSyncDeviceStoreOnSignOutChange()
+    //*--------------------------------------------------------------------------
+    // ... state-related-settings
+    function syncSyncDeviceStoreOnSignOutChanges() {
+      const log = logger(`${logPrefix}:syncSyncDeviceStoreOnSignOutChanges()`);
+
+      // found on settings.md page (when active)
+      const copyOptCheckBox = document.getElementById('setting_syncDeviceStoreOnSignOut');
+      if (copyOptCheckBox) {
+        const val = fwSettings.isSyncDeviceStoreOnSignOut();
+        log(`syncing UI: ${val}`);
+        copyOptCheckBox.checked = val;
+      }  
+      else {
+        log(`nothing to sync in UI`);
+      }
+    }
 
 
-    //***************************************************************************
     //***************************************************************************
     //* Code Related to Bible Translation (in support of dynamic selection)
-    //* ... state-related-settings: ... the ONLY settings we currently have is: bibleTranslation
-    //***************************************************************************
+    //* ... state-related-settings
     //***************************************************************************
 
     //*--------------------------------------------------------------------------
@@ -444,11 +494,13 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
 
     // promote sign-in/sign-out utils
-    fw.handlePhoneSignIn = handlePhoneSignIn;
-    fw.handlePhoneVerify = handlePhoneVerify;
-    fw.verifyPhoneCancel = verifyPhoneCancel;
-    fw.signOut           = signOut;
-    fw.maintainUserName  = maintainUserName;
+    fw.handlePhoneSignIn          = handlePhoneSignIn;
+    fw.handlePhoneVerify          = handlePhoneVerify;
+    fw.verifyPhoneCancel          = verifyPhoneCancel;
+    fw.requestSignOutConfirmation = requestSignOutConfirmation;
+    fw.cancelSignOutConfirmation  = cancelSignOutConfirmation;
+    fw.signOut                    = signOut;
+    fw.maintainUserName           = maintainUserName;
 
     // function to maintain userName for signed-in users
     function maintainUserName(e) {
@@ -516,21 +568,24 @@ if (!window.fw) { // only expand this module once (conditionally)
         elm.textContent = userPhone;
       });
 
-      // manage the tri-state visuals of our sign-in page (found in settings.md)
+      // manage the quad-state visuals of our sign-in page (found in settings.md)
       const domGuest = document.getElementById('sign-in-form-guest');
       // ... process if we are ON the settings.md sign-in page
       //     ALL THREE are on the same page, so we just reason about the existance of the first
       if (domGuest) {
-        const domVerifying = document.getElementById('sign-in-form-verifying');
-        const domVerified  = document.getElementById('sign-in-form-verified');
+        const domVerifying       = document.getElementById('sign-in-form-verifying');
+        const domVerified        = document.getElementById('sign-in-form-verified');
+        const domConfirmSignOut  = document.getElementById('sign-out-confirmation');
 
-        let showGuest     = fwUser.isSignedOut() && !fwUser.isVerifying();
-        let showVerifying = fwUser.isVerifying();
-        let showVerified  = fwUser.isSignedIn();
+        const showGuest          = fwUser.isSignedOut() && !fwUser.isVerifying();
+        const showVerifying      = fwUser.isSignedOut() && fwUser.isVerifying();
+        const showVerified       = fwUser.isSignedIn()  && !fwUser.isSignOutBeingConfirmed();
+        const showConfirmSignOut = fwUser.isSignedIn()  && fwUser.isSignOutBeingConfirmed();
         
-        domGuest.style.display     = showGuest     ? 'block' : 'none';
-        domVerifying.style.display = showVerifying ? 'block' : 'none';
-        domVerified.style.display  = showVerified  ? 'block' : 'none';
+        domGuest.style.display          = showGuest          ? 'block' : 'none';
+        domVerifying.style.display      = showVerifying      ? 'block' : 'none';
+        domVerified.style.display       = showVerified       ? 'block' : 'none';
+        domConfirmSignOut.style.display = showConfirmSignOut ? 'block' : 'none';
       }
 
       // manage the state synchronization note, that dynamically changes,
@@ -565,6 +620,10 @@ if (!window.fw) { // only expand this module once (conditionally)
       // reflect the dynamic bibleTranslation on initial page load
       // ... state-related-settings
       syncBibleTranslationChanges();
+
+      // reflect change on sign-out confirmation (settings.md)
+      // ... state-related-settings
+      syncSyncDeviceStoreOnSignOutChanges();
     }
 
     //*************************************

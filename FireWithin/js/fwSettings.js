@@ -34,6 +34,7 @@ class FWSettings {
     const defaultSemantics = {
       bibleTranslation: 'NLT',
       userName:         '',
+      syncDeviceStoreOnSignOut: true,
     };
 
     // create our internal FWState object
@@ -181,7 +182,7 @@ class FWSettings {
    */
   getUserName() {
     // pass through to our worker object
-    return this._fwState.getValue('userName');
+    return this._fwState.getValue('userName') || ''; // add fallback when undefined (older software version migration)
   }
 
   /**
@@ -215,6 +216,59 @@ class FWSettings {
       //  - NO key supplied - ALL settings have hanged (our property is part of "all")
       //  - key supplied - only when it is our property interest
       const ofInterest = (!key) || (key === 'userName');
+
+      // pass through, when this change matches our filter
+      if (ofInterest) {
+        onChangeHandler(key);
+      }
+    });
+  }
+
+  //*-----------------------------------------------------------------------------
+  //* syncDeviceStoreOnSignOut - Sync Device Storage From Cloud on Sign-Out
+  //*-----------------------------------------------------------------------------
+
+  /**
+   * Get self's syncDeviceStoreOnSignOut property ... only referenced for signed-in users.
+   *
+   * @returns {boolean} self's syncDeviceStoreOnSignOut property (true/false).
+   */
+  isSyncDeviceStoreOnSignOut() {
+    // pass through to our worker object
+    return this._fwState.getValue('syncDeviceStoreOnSignOut') || false; // add fallback when undefined (older software version migration)
+  }
+
+  /**
+   * Set self's syncDeviceStoreOnSignOut property.
+   *
+   * Under the covers:
+   * - our persistance store is maintained:
+   *   * either device storage (for guest users)
+   *   * or Firebase DB (for registered users)
+   * - triggers change notifications to registered clients
+   *   ... see: onChange()
+   * 
+   * @param {boolean} val - The syncDeviceStoreOnSignOut value to set.
+   */
+  setSyncDeviceStoreOnSignOut(val) {
+    // pass through to our worker object
+    this._fwState.setValue('syncDeviceStoreOnSignOut', val);
+  }
+
+  /**
+   * Register notificaiton monitors that are triggered when the 
+   * syncDeviceStoreOnSignOut property has changed.
+   *
+   * @param {onChangeHandlerFn} onChangeHandler - the client supplied listener
+   *                            (see: onChange() documentation)
+   */
+  onSyncDeviceStoreOnSignOutChange(onChangeHandler) {
+    // utilize generic handler, filtering pass-through at run-time
+    this.onChange( (key) => {
+      // filter callbacks ofInterest
+      //  - NO key supplied - ALL settings have hanged (our property is part of "all")
+      //  - key supplied - only when it is our property interest
+      const ofInterest = (!key) || (key === 'syncDeviceStoreOnSignOut');
 
       // pass through, when this change matches our filter
       if (ofInterest) {

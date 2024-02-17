@@ -17,6 +17,9 @@ import {getAuth,
 
 import FWUser from './FWUser.js';
 
+import {fwSettings} from './fwSettings.js';
+import {retain_syncDeviceStoreOnSignOut} from './FWState.js';
+
 import {showUnexpectedError} from './util/showUnexpectedError.js';
 
 import logger from './util/logger/index.js';
@@ -313,11 +316,17 @@ export function verifyPhoneCancel() {
 export function signOut() {
   const log = logger(`${logPrefix}:signOut()`);
 
+  // instruct FWState how to syncDeviceStoreOnSignOut
+  retain_syncDeviceStoreOnSignOut( fwSettings.isSyncDeviceStoreOnSignOut() );
+
   // this signs out user from a single device
   auth.signOut()
       .then(() => { // sign-out successful
 
         log(`sign-out successful`);
+
+        // we are signed-out so clear fWUser's sign-out confirmation setting
+        fwUser.cancelSignOutConfirmation();
 
         // morph our user interface into a guest user
         // ... this is accomplished via the responsive monitors of the change to our user
@@ -333,6 +342,33 @@ export function signOut() {
        showUnexpectedError(log, 'sign-out user', err);
       });
 }
+
+/**
+ * request sign-out confirmation of our account
+ *
+ * @public
+ */
+export function requestSignOutConfirmation() {
+  const log = logger(`${logPrefix}:requestSignOutConfirmation()`);
+
+  // simply update fWUser's sign-out confirmation setting
+  // ... this will reflect appropriatly
+  fwUser.requestSignOutConfirmation();
+}
+
+/**
+ * cancel sign-out confirmation of our account
+ *
+ * @public
+ */
+export function cancelSignOutConfirmation() {
+  const log = logger(`${logPrefix}:cancelSignOutConfirmation()`);
+
+  // simply update fWUser's sign-out confirmation setting
+  // ... this will reflect appropriatly
+  fwUser.cancelSignOutConfirmation();
+}
+
 
 /**
  * Reset the "reCAPTCHA verifier widget" on this page
@@ -357,5 +393,6 @@ function resetSigninProcess() {
   // ... a Sledge Hammer, but it works :-(
   //     NOTE: Don't worry about an additional state retrieval from Firebase DB
   //           BECAUSE: we are signed-out, so any state is pulled from the device LocalStorage
+  // ... WHEN NEEDED, temporarly PAUSE THIS SO I CAN SEE THE LOGS ON sign-out
   window.location.reload();
 }
