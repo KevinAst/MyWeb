@@ -472,7 +472,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       //         ... snip snip
       //         <nav role="navigation">
       //           <ul class="summary">
-      //             <li class="header">Fire Within (18.0)</li>  <<< locates this
+      //             <li class="header">FW v18.0 • KJV • Guest</li>  <<< locates this
       //             ... snip snip
       const headerElm = document.querySelector('.book-summary nav ul li.header');
       if (!headerElm) {
@@ -484,7 +484,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       const bibleTranslation = fwSettings.getBibleTranslation();
       const userName         = fwUser.getUserName();
       log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
-      headerElm.textContent = `Fire Within • v${CUR_VER} • ${bibleTranslation} • ${userName}`;
+      headerElm.textContent = `FW v${CUR_VER} • ${bibleTranslation} • ${userName}`;
     }
 
     //***************************************************************************
