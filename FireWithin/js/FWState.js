@@ -474,6 +474,7 @@ export default class FWState {
 
     // when user is signed-in ... our setup is from the Firebase DB Cloud
     if (fwUser.isSignedIn()) {
+      log(`user is signed-in (or re-authenticated)`);
       
       // NOTE: Firebase API is an asynchronous process
       
@@ -493,6 +494,7 @@ export default class FWState {
       });
       
       // retrieve all category state from firebase, retaining this state in our app
+      log(`retrieving state from Firebase`);
       get(dbRef)
         .then( (stateSnapshot) => {
           
@@ -551,7 +553,8 @@ export default class FWState {
     // when user signed-out ... initialize from Device LocalStorage
     // ... also handles starting state (on first-time use)
     else {
-      
+      log(`user is signed-out (a Guest)`);
+
       // un-register any state change firebase monitors
       // ... we are no longer interested in firebase monitors
       // ... RATHER LocalStorage monitors
@@ -565,7 +568,7 @@ export default class FWState {
       // THIS IS NOT REQUIRED!
       // ... see: USER-SPECIFIC-REGISTRATION-NOT-REQUIRED (note below)
 
-      // conditionally, sync our device LocalStorage state from the Firebase cloud
+      // conditionally, sync our device LocalStorage state from the Firebase cloud ON user sign-out
       // ... pur user request, found in our fwSettings
       // ... critical to do BEFORE subsequent steps
       if (!runningInAppStartup) { // a true sign-out ... NOT a sign-out when we are running in our app startup initialization
@@ -583,10 +586,11 @@ export default class FWState {
 
       // retrieve all category state from LocalStorage, retaining this state in our app
       // ... pull from Device LocalStorage
+      log(`retrieving state from Device LocalStorage for 'guest' user`);
       const state = this.fetchStateFromDevice();
       
       // ... retain the Device LocalStorage data in our in-memory-state
-      log(`setting in-memory-state from Device LocalStorage for authorized 'guest' user`, {state});
+      log(`setting in-memory-state from Device LocalStorage for 'guest' user`, {state});
       this.setAllState(state);
     }
     
