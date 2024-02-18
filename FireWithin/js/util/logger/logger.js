@@ -63,7 +63,7 @@ logger.isLogFilterEnabled = function(nameSpace) {
 
 // alter our global log filter
 // RETURNS void
-logger.setLogFilters = function (filterStr) {
+logger.setLogFilters = function (filterStr='') {
   _currentLogFilters = filterStr;
   debug.enable(filterStr); // I tested debug.enable(filterStr) and it ALWAYS returns void (i.e. undefined) IN ALL CASES (even with nothing passed in)
 }
@@ -75,7 +75,7 @@ if (window && !window.setLogFilters) {
 
   // setLogFilters(filterStr)
   log.f(`in devTools, use setLogFilters(filterStr) to adjust the global logging filter :-)`);
-  window.setLogFilters = (filterStr) => {
+  window.setLogFilters = (filterStr='') => {
     log.f(`setting global logging filters to: "${filterStr}" (previously: "${_currentLogFilters}")`);
     logger.setLogFilters(filterStr);
   }
