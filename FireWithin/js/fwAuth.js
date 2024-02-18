@@ -113,29 +113,30 @@ export function handlePhoneSignIn(event) {
   // prevent default form submission
   event.preventDefault();
 
-  // obtain aspects of the sign-in form - including the user supplied phone number
-  const phoneUser = document.getElementById('signInPhoneNum').value.trim();
-  const msgElm    = document.getElementById('signInMsg');
+  // obtain aspects of the sign-in form - including the user supplied phone number (phoneInput)
+  const phoneInput = document.getElementById('signInPhoneNum').value.trim();
+  const msgElm     = document.getElementById('signInMsg');
 
-  // ?? refine phone entry to support common US phone (as below), but also allow pass-through E.164 option for international use (begin with +)
-  // validate/format the phoneUser
-  // ... remove non-numeric characters: 9995551212
-  const phoneNumeric = phoneUser.replace(/\D/g, "");
-  // ... insure 10 digits
-  if (phoneNumeric.length !== 10) {
-    msgElm.textContent = "Invalid phone number. Please enter 10 digits.";
-    return;
+  // ?? all other formats NOT used
+  // format phone entry into an E.164 format
+  // ... with limited local validation (on US entry only)
+  // ... MOST validation occurs in Firebase (via signInWithPhoneNumber() below)
+  let phoneE164 = phoneInput; // ... assume entry is already in E.164 format (when "+nnnnn")
+  if ( ! phoneInput.startsWith('+') ) { // ... when NO "+", morph US phone entries into E.164 format
+    // limited validation: (extract numbers only and insure 10 digits)
+    const phoneNumeric = phoneInput.replace(/\D/g, "");
+    if (phoneNumeric.length !== 10) {
+      msgElm.textContent = "Invalid US phone number ... please enter a 10 digit entry (ex: nnn-nnn-nnnn).";
+      return;
+    }
+    // format into US E.164 format
+    // ... [+][country code][subscriber number including area code]
+    // ... US: +19995551212
+    phoneE164 = `+1${phoneNumeric}`;
   }
-  // ... format for human consumption: 999-555-1212
-  const phoneFormattedUS = `${phoneNumeric.slice(0, 3)}-${phoneNumeric.slice(3, 6)}-${phoneNumeric.slice(6)}`;
-
-  // signInWithPhoneNumber() requires an E.164 format
-  // ... [+][country code][subscriber number including area code]
-  // ... US: +19995551212
-  const phoneE164 = `+1${phoneNumeric}`;
 
   // display the processed number (just for fun)
-  msgElm.textContent = `Processeing phone: ${phoneFormattedUS}`;
+  msgElm.textContent = `Processeing phone: ${phoneE164}`;
 
   // setup our reCAPTCHA verifier widget (detecting bots and fraudulent access)
   // - this can be done late in our process
@@ -168,7 +169,7 @@ export function handlePhoneSignIn(event) {
   // UI Step 1: Request SMS text message to be sent (containing the verificationCode)
   //            NOTE: This is initiated FIRST, and interacts with the appVerifier
   const appVerifier = window.recaptchaVerifier;
-  log(`111: invoking signInWithPhoneNumber() `, {phoneUser, phoneNumeric, phoneFormattedUS, phoneE164});
+  log(`111: invoking signInWithPhoneNumber('${phoneE164}')`);
   signInWithPhoneNumber(auth, phoneE164, appVerifier)
     .then((confirmationResult) => { // SMS Text has been sent
 
@@ -185,10 +186,11 @@ export function handlePhoneSignIn(event) {
 
       // morph our user interface into a prompt for the user to enter the OTP code received from the text
       // ... this is accomplished via the responsive monitors of the change to our user
-      fwUser.setVerifying(phoneFormattedUS);
+      fwUser.setVerifying(phoneE164);
     })
     .catch((err) => { // Error: SMS not sent
-      if (err.code === 'auth/invalid-phone-number') { // bad phone number (something we didn't find in our local validation - above)
+      // bad phone number - more extensive validation that what we do locally (above)
+      if (err.code === 'auth/invalid-phone-number') {
         msgElm.textContent = "The phone Number you entered is invalid, please try again.";
       }
       // SMS Text Limit Exceeded ... Firebase Blaze Plan:
@@ -202,24 +204,19 @@ export function handlePhoneSignIn(event) {
         // ... don't worry about taking this down (KISS: minimal impact to UI experience)
         const domExplainSmsExceeded  = document.getElementById('explain-sms-text-exceeded');
         domExplainSmsExceeded.style.display = 'block';
-
-        // we also need to reset the "reCAPTCHA verifier widget" on this page
-        // ... soooo the user can sign-in WITHOUT navigating off/on this page
-        // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
-        //          ... so I can't use it here, as we will loose the error message :-(
-        //? resetSigninProcess()
       }
-      else { // unexpected error <<< KJB: can test this by clicking Sign-In button 2nd time (MUST enable all-three sections of the sign-in screen)
+      // unexpected error <<< KJB: can test this by clicking Sign-In button 2nd time (MUST enable all-three sections of the sign-in screen)
+      else {
         const msg = `UNEXPECTED ERROR: in signInWithPhoneNumber().catch(err) ... ${err} ... SMS Text NOT sent`;
         log.f(`${msg}, err: `, {err});
         msgElm.textContent = `Something went wrong in sending the SMS Text ... see logs`;
-
-        // we also need to reset the "reCAPTCHA verifier widget" on this page
-        // ... soooo the user can sign-in WITHOUT navigating off/on this page
-        // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
-        //          ... so I can't use it here, as we will loose the error message :-(
-        //? resetSigninProcess()
       }
+
+      // we also need to reset the "reCAPTCHA verifier widget" on this page
+      // ... soooo the user can sign-in WITHOUT navigating off/on this page
+      // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
+      //          ... so I can't use it here, as we will loose the error message :-(
+      //? resetSigninProcess()
     });
 
 }

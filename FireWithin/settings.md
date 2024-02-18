@@ -76,20 +76,22 @@ sign-in is "long lived", you only have to do this once _(per device)_
     <p id="signInMsg" style="color: red;"></p>
 </form>
 
-<mark><b>IMPORTANT:</b></mark> When your account is first created
-_(the first time you sign-in)_, the state **from your device** will be
-**transferred to the cloud**.  As a result, your **initial sign-in**
-should be done **on the device that has the most accurate state.**
+- **International Users:** use a direct E.164 format _(beginning with "+")_
 
-- Remember, for Guest users, each device has it's own copy of the
-  state.
+- <mark><b>IMPORTANT:</b></mark> When your account is first created
+  _(the first time you sign-in)_, the state **from your device** will be
+  **transferred to the cloud**.  As a result, your **initial sign-in**
+  should be done **on the device that has the most accurate state.**
 
-- The state transfer _(from device to cloud)_ only happens one time:
-  **the first time you sign-in!**
+  - Remember, for Guest users, each device has it's own copy of the
+    state.
 
-- For all subsequent sign-ins, the cloud will have already been
-  established _(from your first sign-in)_, and is considered the
-  master.
+  - The state transfer _(from device to cloud)_ only happens one time:
+    **the first time you sign-in!**
+
+  - For all subsequent sign-ins, the cloud will have already been
+    established _(from your first sign-in)_, and is considered the
+    master.
 
 P{ inject('<div id="explain-sms-text-exceeded" style="display: none;">') }P
 
