@@ -38,7 +38,6 @@ class FWCompletions {
     this._fwState = new FWState({
       defaultSemantics,
       category:       'completions',
-      deviceStateKey: 'fireWithinCompleted', // ??## soon to be eliminated ... STANDARDIZE: deviceStateKey to use "category" <<< ENABLE THIS A BIT LATER (see migration utility AT BOTTOM)
     });
   }
 

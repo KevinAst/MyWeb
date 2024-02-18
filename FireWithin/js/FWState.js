@@ -109,19 +109,16 @@ export default class FWState {
    * object instance (ex: "completions"/"settings").  This is used as
    * a persistence-qualifier, and a logging-identity.
    *
-   * @param {string} deviceStateKey - the device browser key used to hold self's state in LocalStorage
-   * ??## STANDARDIZE: deviceStateKey to use "category" <<< ENABLE THIS A BIT LATER (see migration utility AT BOTTOM)
-   *
    * @constructor
    */
-  constructor({defaultSemantics={}, category, deviceStateKey}={}) {
+  constructor({defaultSemantics={}, category}={}) {
     this._logPrefix = `fw:state:${category}`; // inject the run-time category in our logging prefix
     const log = logger(`${this._logPrefix}:constructor()`);
 
     // initialize our basic core items
     this._onChangeHandlers = []; // registered observers of state change
     this._category         = category;
-    this._deviceStateKey   = deviceStateKey;
+    this._deviceStateKey   = `fw_${category}`; // ... ex: fw_completions -or- fw_settings
     this._lastProcessedUid = 'NO-UID-ON-STARTUP';
     
     // initialize state with our "starting"/"default" state
@@ -193,6 +190,8 @@ export default class FWState {
 
   /**
    * The device browser key used to hold self's state in LocalStorage.
+   *
+   * EX:: fw_completions -or- fw_settings
    *
    * @type {string} 
    *
@@ -839,24 +838,29 @@ export function retain_syncDeviceStoreOnSignOut(val) {
 //* This performs a one-time localStorage converion with global knowledge
 //* of old/new keys.
 //********************************************************************************
-// ??## STANDARDIZE: deviceStateKey to use "category" <<< ENABLE THIS A BIT LATER
-//? function migrateToNewDeviceStateKeys() {
-//?   const log = logger(`fw:state:migrateToNewDeviceStateKeys()`);
-//? 
-//?   // MIGRATE: 'fireWithinSettings' TO: 'fw_settings' ... for the well-known 'settings' category
-//?   const settingsVal = localStorage.getItem('fireWithinSettings');
-//?   if (settingsVal) {
-//?     log.f(`converting localStorage entry FROM: 'fireWithinSettings' TO: 'fw_settings'`);
-//?     localStorage.setItem('fw_settings', settingsVal);
-//?     localStorage.removeItem('fireWithinSettings');
-//?   }
-//? 
-//?   // MIGRATE: 'fireWithinCompleted' TO: 'fw_completions' ... for the well-known 'settings' category
-//?   const settingsVal = localStorage.getItem('fireWithinCompleted');
-//?   if (settingsVal) {
-//?     log.f(`converting localStorage entry FROM: 'fireWithinCompleted' TO: 'fw_completions'`);
-//?     localStorage.setItem('fw_completions', settingsVal);
-//?     localStorage.removeItem('fireWithinCompleted');
-//?   }
-//? }
-//? migrateToNewDeviceStateKeys(); // perform migration (the first time this new release is run)
+function migrateToNewDeviceStateKeys() {
+  const log = logger(`fw:state:migrateToNewDeviceStateKeys()`);
+
+  // MIGRATE: 'fireWithinSettings' TO: 'fw_settings' ... for the well-known 'settings' category
+  const settingsVal = localStorage.getItem('fireWithinSettings');
+  if (settingsVal) {
+    log.f(`V21 Migration: converting Device LocalStorage entry FROM: 'fireWithinSettings' TO: 'fw_settings'`);
+    localStorage.setItem('fw_settings', settingsVal);
+    localStorage.removeItem('fireWithinSettings');
+  }
+
+  // MIGRATE: 'fireWithinCompleted' TO: 'fw_completions' ... for the well-known 'settings' category
+  const completionsVal = localStorage.getItem('fireWithinCompleted');
+  if (completionsVal) {
+    log.f(`V21 Migration: converting Device LocalStorage entry FROM: 'fireWithinCompleted' TO: 'fw_completions'`);
+    localStorage.setItem('fw_completions', completionsVal);
+    localStorage.removeItem('fireWithinCompleted');
+  }
+}
+
+// AUTO EXECUTE
+//   CONFIRMED via logs: executes at the very start of our app start-up
+//     fw:init Firebase Initialized: {app: FirebaseAppImpl}
+//     fw:state:migrateToNewDeviceStateKeys() IMPORTANT: V21 Migration: converting Device LocalStorage entry FROM: 'fireWithinSettings'  TO: 'fw_settings'
+//     fw:state:migrateToNewDeviceStateKeys() IMPORTANT: V21 Migration: converting Device LocalStorage entry FROM: 'fireWithinCompleted' TO: 'fw_completions'
+migrateToNewDeviceStateKeys();
