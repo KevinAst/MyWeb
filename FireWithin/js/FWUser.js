@@ -126,24 +126,7 @@ export default class FWUser {
     return fwSettings.getUserName() || this._phone.slice(-4);
   }
 
-  /**
-   * Determine equality to the supplied FWUser object (based on uid
-   * semantics).
-   *
-   * @param {FWUser} other - the other FWUser object to compare with.
-   * @returns {boolean} true: objects are equivalent, false: otherwise.
-   */
-  // ?? DO NOT THINK this is being used ... TRASH if everything is running fine (could NOT find any usage)
-  //? isEqual(other) {
-  //?   if (other instanceof FWUser) {
-  //?     return this._uid === other._uid; // for FWUser instances, compare uid
-  //?   } 
-  //?   else {
-  //?     return false; // for NON FWUser instances, is NOT equal
-  //?   }
-  //? }
-
-  // ?? may need a toString() ... NOT SURE
+  // AI: toString() may be nice (for logs) SINCE our object is mutated
   // ... showing userName and phone (when signed-in) ... NOT uid (too sensitive)
 
   //*----------------------------------------------------------------------------
