@@ -111,13 +111,18 @@ export function handlePhoneSignIn(event) {
   const log = logger(`${logPrefix}:handlePhoneSignIn()`);
 
   // prevent default form submission
-  event.preventDefault();
+  // - no longer applicable
+  // - at one point, this was on our form (for the purpose of registering enter key to action
+  //   * and we needed to prevent form submition
+  // - this is NO LONGER THE CASE
+  if (event) {
+    event.preventDefault();
+  }
 
   // obtain aspects of the sign-in form - including the user supplied phone number (phoneInput)
   const phoneInput = document.getElementById('signInPhoneNum').value.trim();
   const msgElm     = document.getElementById('signInMsg');
 
-  // ?? all other formats NOT used
   // format phone entry into an E.164 format
   // ... with limited local validation (on US entry only)
   // ... MOST validation occurs in Firebase (via signInWithPhoneNumber() below)
@@ -145,26 +150,39 @@ export function handlePhoneSignIn(event) {
   //   ... the user will NOT see the "I'm not a robot" widget
   // - 'signInButton' is the id of the button that was clicked on the form
   //   ... checked by reCAPTCHA (in 'invisible' mode) to verify user is NOT a robot
+  //   ... see settings.md (containing our sign-in screens)
   // - NOTE: This verifier IS REQUIRED by signInWithPhoneNumber()
-  //         -and- must be created EACH TIME
-  log(`defining window.recaptchaVerifier`);
-  window.recaptchaVerifier = new RecaptchaVerifier(auth, 'signInButton', {
-    'size': 'invisible',
-    // NOTE: These callbacks are invoked FROM signInWithPhoneNumber()
-    //       KJB: I think they are WORTHLESS,
-    //            I am STRCITLY processing all logic paths via signInWithPhoneNumber()
-    //            COMMENT OUT / DISABLE
-    // 'callback': (response) => {  // ? the happy path ... it worked
-    //   const msg = `222: in RecaptchaVerifier 'callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
-    //   log(msg);
-    //   msgElm.textContent = msg;
-    // },
-    // 'expired-callback': () => { // response expired ... ask user to solve reCAPTCHA again
-    //   const msg = `222: in RecaptchaVerifier 'expired-callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
-    //   log(msg);
-    //   msgElm.textContent = msg;
-    // },
-  });
+  if (window.recaptchaVerifier) {
+    // re-use existing verifier widget, by resetting it
+    // - this occurs when handlePhoneSignIn() is invoked multiple times on a given page
+    //   * EX: when user errors are involved
+    //   * EX: when user signs-out and signs-in while staying on same page
+    // - this is the official way to do the reset (from Firebase docs)
+    //   * the Firebase docs are VERY CONFUSING in this area
+    log(`re-use window.recaptchaVerifier ... reset it`);
+    window.grecaptcha.reset( window.recaptchaVerifier.widgetId );
+  }
+  else {
+    // create our verifier widget (the first time)
+    log(`defining window.recaptchaVerifier`);
+    window.recaptchaVerifier = new RecaptchaVerifier(auth, 'signInButton', {
+      'size': 'invisible',
+      // NOTE: These callbacks are invoked FROM signInWithPhoneNumber()
+      //       KJB: I think they are WORTHLESS,
+      //            I am STRCITLY processing all logic paths via signInWithPhoneNumber()
+      //            COMMENT OUT / DISABLE
+      // 'callback': (response) => {  // ? the happy path ... it worked
+      //   const msg = `222: in RecaptchaVerifier 'callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
+      //   log(msg);
+      //   msgElm.textContent = msg;
+      // },
+      // 'expired-callback': () => { // response expired ... ask user to solve reCAPTCHA again
+      //   const msg = `222: in RecaptchaVerifier 'expired-callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
+      //   log(msg);
+      //   msgElm.textContent = msg;
+      // },
+    });
+  }
 
   // UI Step 1: Request SMS text message to be sent (containing the verificationCode)
   //            NOTE: This is initiated FIRST, and interacts with the appVerifier
@@ -189,7 +207,7 @@ export function handlePhoneSignIn(event) {
       fwUser.setVerifying(phoneE164);
     })
     .catch((err) => { // Error: SMS not sent
-      // bad phone number - more extensive validation that what we do locally (above)
+      // bad phone number - firebase does MORE extensive validation that what we do locally (above)
       if (err.code === 'auth/invalid-phone-number') {
         msgElm.textContent = "The phone Number you entered is invalid, please try again.";
       }
@@ -211,12 +229,6 @@ export function handlePhoneSignIn(event) {
         log.f(`${msg}, err: `, {err});
         msgElm.textContent = `Something went wrong in sending the SMS Text ... see logs`;
       }
-
-      // we also need to reset the "reCAPTCHA verifier widget" on this page
-      // ... soooo the user can sign-in WITHOUT navigating off/on this page
-      // HOWEVER: the current implementation of resetSigninProcess() refreshes the page
-      //          ... so I can't use it here, as we will loose the error message :-(
-      //? resetSigninProcess()
     });
 
 }
@@ -235,6 +247,7 @@ export function handlePhoneSignIn(event) {
 export function handlePhoneVerify(event) {
   event.preventDefault(); // prevent default form submission
   const log = logger(`${logPrefix}:handlePhoneVerify()`);
+  log(`verifing code entered by user`);
 
   // obtain aspects of the verificaion form - including the user supplied code
   const verificationCode = document.getElementById('verifyCode').value.trim();
@@ -264,7 +277,10 @@ export function handlePhoneVerify(event) {
       // NOTE: this is NOT needed, as it is accomplished in the onAuthStateChanged() listener (above)
       // fwUser.setSignedIn(fbUser.uid, fbUser.phoneNumber);
 
-      msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
+      // MESSAGE NOT NEEDED:
+      // ... sign-in screen will morph into signed-in state
+      // ... we don't want this message as a remnite, if user signs-out and back in again (on same page)
+      // msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
     })
     .catch((err) => {
       if (err.code === 'auth/invalid-verification-code') {
@@ -294,14 +310,13 @@ export function handlePhoneVerify(event) {
  * @public
  */
 export function verifyPhoneCancel() {
+  const log = logger(`${logPrefix}:verifyPhoneCancel()`);
+  log(`canceling phone verifiation request (where code is entered from SMS text msg)`);
+
   // the primary thing we do is sign-out the user
   // ... BECAUSE we are already in a signed-out mode
   //     just need to clear the phone number
   fwUser.setSignedOut();
-
-  // we also need to reset the "reCAPTCHA verifier widget" on this page
-  // ... soooo the user can sign-in WITHOUT navigating off/on this page
-  resetSigninProcess()
 }
 
 
@@ -329,11 +344,6 @@ export function signOut() {
         // ... this is accomplished via the responsive monitors of the change to our user
         // NOTE: this is NOT needed, as it is accomplished in the onAuthStateChanged() listener (above)
         // fwUser.setSignedOut();
-
-        // we also need to reset the "reCAPTCHA verifier widget" on this page
-        // ... soooo the user can sign-in WITHOUT navigating off/on this page
-        //     in the "rare" case where they sign-in/sign-out without leaving the page
-        resetSigninProcess();
       })
       .catch((err) => {
        showUnexpectedError(log, 'sign-out user', err);
@@ -364,32 +374,4 @@ export function cancelSignOutConfirmation() {
   // simply update fWUser's sign-out confirmation setting
   // ... this will reflect appropriatly
   fwUser.cancelSignOutConfirmation();
-}
-
-
-/**
- * Reset the "reCAPTCHA verifier widget" on this page
- *
- * WITHOUT THIS: 
- *   - If the the user attempts to sign-in from this page again,
- *     without navigating off/on the page ... 
- *   - it basically no-ops :-(
- *
- * @private
- */
-function resetSigninProcess() {
-  // KJB: I have found this code
-  //      - but I have NO idea what the grecaptcha reference is
-  //      - AI Bard: - tells me it is an internal Firebase reference
-  //                   and should NOT be used by a client
-  //                 - Bard also says I should NOT need to reset this
-  // grecaptcha.reset(window.recaptchaWidgetId);
-
-  // NOT fully understanding the details of the setup here,
-  // ... the simplest thing to do is refresh the page
-  // ... a Sledge Hammer, but it works :-(
-  //     NOTE: Don't worry about an additional state retrieval from Firebase DB
-  //           BECAUSE: we are signed-out, so any state is pulled from the device LocalStorage
-  // ... WHEN NEEDED, temporarly PAUSE THIS SO I CAN SEE THE LOGS ON sign-out
-  window.location.reload();
 }

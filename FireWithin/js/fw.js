@@ -610,6 +610,12 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       log('performing common setup of each page (once it is loaded)');
 
+      // we need to reset the reCAPTCHA verifier widget
+      // ... used in our sign-in process
+      //     to detecting bots and fraudulent access
+      // ... see: fwAuth.js
+      window.recaptchaVerifier = null;
+
       // sync User Identity related
       syncUserChangeInUI();
 

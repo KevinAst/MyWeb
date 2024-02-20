@@ -71,10 +71,20 @@ sign-in is "long lived", you only have to do this once _(per device)_
 <form id="signInForm" onsubmit="fw.handlePhoneSignIn(event)">
     <label for="signInPhoneNum">Phone:</label>
     <input type="tel" id="signInPhoneNum" name="signInPhoneNum" placeholder="nnn-nnn-nnnn">
-    <button type="submit" id="signInButton">Sign In</button>
+    <button type="submit" id="NOT_signInButton">Sign In</button>
     <i>standard text rates apply</i>
     <p id="signInMsg" style="color: red;"></p>
 </form>
+
+<!-- OK ... This is REALLY QUERKY ...
+     - when the "signInButton" is registered to the submit button (above)
+       * it works the first time
+       * but it no-ops on subsequent attempts (when user errors/msgs are in the mix)
+     - when the "signInButton" is registered outside the form, it works in ALL cases
+       * and appariently it does NOT have to be on a button that is clicked
+     - FYI: this is where the "invisible" reCAPTCHA verifier widget is rendered
+ -->
+<div id="signInButton"></div>
 
 - **International Users:** use a direct E.164 format _(beginning with "+")_
 
@@ -119,7 +129,7 @@ To complete your sign-in, please enter the verification code _(from that text)_.
     <label for="verifyCode">Code:</label>
     <input type="text" id="verifyCode" name="verifyCode">
     <button type="submit">Verify</button>
-    <button onclick="fw.verifyPhoneCancel()">Cancel</button>
+    <button onclick="fw.verifyPhoneCancel(); return false;">Cancel</button>
     <p id="verifyMsg" style="color: red;"></p>
 </form>
 
