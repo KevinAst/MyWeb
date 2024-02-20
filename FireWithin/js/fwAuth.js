@@ -164,6 +164,9 @@ export function handlePhoneSignIn(event) {
   }
   else {
     // create our verifier widget (the first time)
+    // - NOTE: this resource is reset on page loads, 
+    //         allowing us to start fresh on our sign-in page (found in settings.md)
+    //         ... see: `window.recaptchaVerifier` reference in fw.js
     log(`defining window.recaptchaVerifier`);
     window.recaptchaVerifier = new RecaptchaVerifier(auth, 'signInButton', {
       'size': 'invisible',
@@ -185,10 +188,9 @@ export function handlePhoneSignIn(event) {
   }
 
   // UI Step 1: Request SMS text message to be sent (containing the verificationCode)
-  //            NOTE: This is initiated FIRST, and interacts with the appVerifier
-  const appVerifier = window.recaptchaVerifier;
+  //            NOTE: This function is executed at the start, and interacts with window.recaptchaVerifier
   log(`111: invoking signInWithPhoneNumber('${phoneE164}')`);
-  signInWithPhoneNumber(auth, phoneE164, appVerifier)
+  signInWithPhoneNumber(auth, phoneE164, window.recaptchaVerifier)
     .then((confirmationResult) => { // SMS Text has been sent
 
       log(`333: in signInWithPhoneNumber() .then() ... HAPPY PATH ... SMS Text SENT ... it worked!`);

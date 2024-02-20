@@ -612,8 +612,8 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // we need to reset the reCAPTCHA verifier widget
       // ... used in our sign-in process
-      //     to detecting bots and fraudulent access
-      // ... see: fwAuth.js
+      //     that detect's bots and fraudulent access
+      // ... see: `window.recaptchaVerifier` in fwAuth.js
       window.recaptchaVerifier = null;
 
       // sync User Identity related
