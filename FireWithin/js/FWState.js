@@ -6,7 +6,7 @@ import {getDatabase,
         get,
         set,
         update,
-        onChildChanged}  from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+        onChildChanged} from './pkg/firebase/database.js';
 
 import {showUnexpectedError} from './util/showUnexpectedError.js';
 

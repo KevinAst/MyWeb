@@ -13,7 +13,7 @@ import './fwInit.js';
 import {getAuth, 
         onAuthStateChanged,
         RecaptchaVerifier, 
-        signInWithPhoneNumber}    from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+        signInWithPhoneNumber} from './pkg/firebase/auth.js';
 
 import FWUser from './FWUser.js';
 

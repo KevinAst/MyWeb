@@ -12,7 +12,7 @@
 //*         ... again insuring it is the FIRST import (within each module)
 //*-----------------------------------------------------------------------------
 
-import {initializeApp} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import {initializeApp} from './pkg/firebase/app.js';
 
 import {getFBAC} from './fbac.js';
 import {doodle}  from './util/dd.js';
