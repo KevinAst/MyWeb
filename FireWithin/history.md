@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
 [v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
 [v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
 [v19.0](#v19_0)   | Selectable Translations,<br/> Book Completions, & more | *Dec 5, 2023*
@@ -56,8 +57,23 @@ Release           | What                 | *When*
 
 <!-- ************************************************************* -->
 <br/>
+<h3 id="v21_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v21.0 - Device Sync <i>(Feb 21, 2024)</i>
+</h3>
+<br/>
+
+- This is a **Major Release** that allows you to **synchronize your state
+  across all of your devices** _(laptop, phone, tablet, etc.)_!  Your state
+  includes both your **completions** and **settings**!
+  
+  For more information, see the {{book.UserAccount}} section of the
+  {{book.Settings}} page.
+
+
+<!-- ************************************************************* -->
+<br/>
 <h3 id="v20_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v20.1 - Misc <i>(Dec 22, 2022)</i>
+  v20.1 - Misc <i>(Dec 22, 2023)</i>
 </h3>
 <br/>
 

@@ -1,18 +1,13 @@
 //***
 //*** Pre Process the supplied GitBook page, adding local JavaScript
-//*** contexts, processing customeTags, etc.
+//*** contexts, processing customTags, etc.
 //***
 //*** This function should be registered to the GitBook 'page:before'
 //*** hook, which is run before the templating engine is applied on the page.
+//*** >>> IN OTHER WORDS: it is processing MarkDown
 //***
 
-const {initCustomTags, processCustomTags, completedCheckBox} = require('./customTagsProcessor');
-
-// init(): triggered after parsing the book, before generating output and pages
-function init(config) {
-  // expose this config to various modules
-  initCustomTags(config);
-}
+const {processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
 function preProcessPage(page) {
 
@@ -69,14 +64,47 @@ function preProcessPage(page) {
   // NOTES:
   // - This MUST be done LAST, to insure these constructs "sandwich" the entire page
 
+  // define our in-line withFW() function that: executes supplied fn in the context of when window.fw is available (delaying as needed via a que)
+  // NOTE: We CANNOT use our sophisticated logger in this code snippet
+  //       BECAUSE this code executes in a non-module script (by design)
+  //       SO we do not have access to the logger :-(
+  const withFW = `
+<script>
+  window.withFWQue = window.withFWQue || [];
+  window.withFW    = window.withFW    || function(fn) {
+    const fnName = fn.name || 'anonymous';
+    if (window.fw) {
+      // generate a VERBOSE logging probe
+      // ... typically don't want to see
+      //     BECAUSE will generate A LOT OF ENTRIES (the happy path)
+      window.withFWLog.v(\`executing function '\$\{fnName\}' IMMEDIATELY ... fw.js HAS BEEN expanded\`);
+
+      // process NOW
+      fn();
+    }
+    else {
+      // generate a FORCED logging probe
+      // ... of interest to insure our cache is working
+      //     AND FEW ENTRIES (during bootstrap of initial load of site)
+      // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
+      //           BUT because it is a FORCED probe, we mimic it with a console.log()
+      //           HOWEVER, I subsequently took off the FORCE, so I am punting this (comment out the log)
+      // console.log(\`fw:core:withFW() IMPORTANT: DELAYING function '\$\{fnName\}' execution ... to allow fw.js to be expanded\`);
+
+      // process LATER
+      window.withFWQue.push(fn);
+    }
+  }
+</script>`;
+
   // start/end scripts needed for the proper activation/initialization of fw.js in our client pages
-  const startScript = `<script src="fw.js"></script>`;      // inject fw.js script in every page
-  const endScript   = `<script> fw.pageSetup(); </script>`; // auto run pageSetup() at end (when page is rendered)
+  const startScript = `<script type="module" src="./js/fw.js"></script>`; // inject fw.js script in every page
+  const endScript   = `<script> withFW( ()=>fw.pageSetup() ) </script>`;  // auto run pageSetup() at end (when page is rendered)
 
   // surround the page with the necessary JavaScript constructs
   // ... utilize cr/lf (\n) to NOT conflict with various markdown constructs (like "### Title", etc.)
   //     for some reason, double cr/lf are needed (not sure why)
-  page.content = `${startScript}\n\n${page.content}\n\n${endScript}`;
+  page.content = `${withFW}\n\n${startScript}\n\n${page.content}\n\n${endScript}`;
 
 
   //***
@@ -89,6 +117,5 @@ function preProcessPage(page) {
 }
 
 module.exports = {
-  init,
   preProcessPage,
 };
