@@ -198,6 +198,19 @@
             
         </li>
     
+        <li class="chapter " data-level="2.1.2" data-path="settings.html">
+            
+                <a href="settings.html#user-account">
+            
+                    
+                    User Account
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -1542,21 +1555,79 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <script src="fw.js"></script>
+                                <script>
+  window.withFWQue = window.withFWQue || [];
+  window.withFW    = window.withFW    || function(fn) {
+    const fnName = fn.name || 'anonymous';
+    if (window.fw) {
+      // generate a VERBOSE logging probe
+      // ... typically don't want to see
+      //     BECAUSE will generate A LOT OF ENTRIES (the happy path)
+      window.withFWLog.v(`executing function '${fnName}' IMMEDIATELY ... fw.js HAS BEEN expanded`);
+
+      // process NOW
+      fn();
+    }
+    else {
+      // generate a FORCED logging probe
+      // ... of interest to insure our cache is working
+      //     AND FEW ENTRIES (during bootstrap of initial load of site)
+      // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
+      //           BUT because it is a FORCED probe, we mimic it with a console.log()
+      //           HOWEVER, I subsequently took off the FORCE, so I am punting this (comment out the log)
+      // console.log(`fw:core:withFW() IMPORTANT: DELAYING function '${fnName}' execution ... to allow fw.js to be expanded`);
+
+      // process LATER
+      window.withFWQue.push(fn);
+    }
+  }
+</script>
+
+<script type="module" src="./js/fw.js"></script>
 
 <h1 id="settings">Settings</h1>
 <p>The <em><strong>&quot;Fire Within&quot;</strong></em> Bible Study Guide has a small number of <strong>User
 Preference</strong> settings <em>(found here)</em>, which are retained between
 sessions.  In other words, you can leave the site and come back, and
 these settings will be remembered.</p>
+<!-- START Custom Tag: injectSyncNote('settings') -->
+
+<!-- START Custom Tag: inject('<div id="state-sync-note-signed-out">') -->
+<div id="state-sync-note-signed-out">
+
+<!-- END Custom Tag: inject('<div id="state-sync-note-signed-out">') -->
+
 <blockquote>
-<p>Please Note that these settings ares retained in your local device.
-That means they will not follow you when you use multiple devices
-<em>(say a laptop and a cell phone)</em>.  In other words, it&apos;s really the
-settings of the device you are using.</p>
-<p>This feature is merely meant to be a convenience, and was
-implemented using the simplest technique.</p>
+<p><strong>Please Note</strong> that because you are a &quot;Guest&quot; user, these settings
+are retained on your local device.  That means they will not follow
+you when you use multiple devices <em>(say a laptop and a cell
+phone)</em>. In other words, it&apos;s really the state of the device you are
+using.</p>
+<p>You can overcome this limitation by <strong>establishing a Fire Within user
+account</strong>.  When you do this, your state is maintained in the cloud,
+and <strong>automatically syncs across all devices</strong> <em>(that are signed-in to
+the same account)</em>.</p>
+<p>For more information on this topic, go to the <a href="settings.html#user-account">User Account</a> section
+of the <a href="settings.html">Settings</a> page.</p>
 </blockquote>
+
+<!-- START Custom Tag: inject('</div><div id="state-sync-note-signed-in">') -->
+</div><div id="state-sync-note-signed-in">
+
+<!-- END Custom Tag: inject('</div><div id="state-sync-note-signed-in">') -->
+
+<blockquote>
+<p><strong>Please Note</strong> that because you have signed-in to the Fire Within site, these settings
+will <strong>automatically sync to all of your devices</strong>  <em>(that are signed-in to
+the same account)</em> ... <strong>life is good!</strong>.</p>
+</blockquote>
+
+<!-- START Custom Tag: inject('</div>') -->
+</div>
+
+<!-- END Custom Tag: inject('</div>') -->
+
+<!-- END Custom Tag: injectSyncNote('settings') -->
 <h2 id="bible-translation">Bible Translation</h2>
 <p>All scripture references within this site utilize the <a href="https://www.youversion.com/" target="_blank">YouVersion
 Bible App</a>, which supports many different
@@ -1564,7 +1635,7 @@ Bible Translations.  You can specify which version you wish to use
 through this setting:</p>
 <p><select id="bibleTranslations"></select></p>
 <script>
-  fw.genBibleTranslationsSelection('bibleTranslations');
+  withFW( ()=>fw.genBibleTranslationsSelection('bibleTranslations') )
 </script>
 
 <p>Your active Bible Translation is visible at the top of the LeftNav
@@ -1578,11 +1649,170 @@ please contact me and I will be glad to add it.</p>
 or Direct Message me on <a href="https://twitter.com/kevinast" target="_blank">Twitter</a></p>
 </blockquote>
 <script>
-  fw.addInquire('Fire%20Within%20Bible%20Translation%20Request');
+  withFW( ()=>fw.addInquire('Fire%20Within%20Bible%20Translation%20Request') )
 </script>
 
 
-<script> fw.pageSetup(); </script>
+<h2 id="user-account">User Account</h2>
+
+<!-- START Custom Tag: inject('<div id="sign-in-form-guest">') -->
+<div id="sign-in-form-guest">
+
+<!-- END Custom Tag: inject('<div id="sign-in-form-guest">') -->
+
+<p><strong>You are a Guest User</strong></p>
+<p>The Fire Within page does NOT require an account to use.  By default,
+you are a &quot;Guest&quot; user.</p>
+<p>For &quot;Guest&quot; users, we maintain your state on your local device.
+<strong>Your state consists of your <em>completions</em> and <em>settings</em>.</strong>. The
+<strong>only limitation</strong> of this approach is when you use multiple devices
+<em>(say your laptop and your phone)</em> ... then you must manually sync
+your state across all the devices you use <em>(because each device has
+it&apos;s own copy of the state)</em>.</p>
+<p>To overcome this limitation, you can <strong>establish a Fire Within user
+account</strong>.  When you do this, your state is maintained in the cloud,
+and <strong>automatically syncs across all devices</strong> <em>(that are signed-in to
+the same account)</em>.</p>
+<p><strong>Creating an account is easy</strong>.  We simply use your phone number as
+an account identifier.  Your phone is &quot;verified&quot; by texting a
+temporary &quot;verification code&quot;, which you use to sign-in.  <strong>It&apos;s that
+simple</strong> <em>(no need to remember &quot;yet another password&quot;)</em>.  Because the
+sign-in is &quot;long lived&quot;, you only have to do this once <em>(per device)</em>
+... unless you sign-out for some reason.</p>
+<!-- Our sign-in form, that gathers phone number.
+     - A "submit" button type is used to facilitate auto submit on text-box enter
+     - The id on the "submit" button IS REQUIRED to integrate with the invisible
+       "reCAPTCHA verifier widget" ... see: js/fwAuth.js
+ -->
+<form id="signInForm" onsubmit="fw.handlePhoneSignIn(event)">
+    <label for="signInPhoneNum">Phone:</label>
+    <input type="tel" id="signInPhoneNum" name="signInPhoneNum" placeholder="nnn-nnn-nnnn">
+    <button type="submit" id="NOT_signInButton">Sign In</button>
+    <i>standard text rates apply</i>
+    <p id="signInMsg" style="color: red;"></p>
+</form>
+
+<!-- OK ... This is REALLY QUERKY ...
+     - when the "signInButton" is registered to the submit button (above)
+       * it works the first time
+       * but it no-ops on subsequent attempts (when user errors/msgs are in the mix)
+     - when the "signInButton" is registered outside the form, it works in ALL cases
+       * and appariently it does NOT have to be on a button that is clicked
+     - FYI: this is where the "invisible" reCAPTCHA verifier widget is rendered
+ -->
+<div id="signInButton"></div>
+
+<ul>
+<li><p><strong>International Users:</strong> use a direct E.164 format <em>(beginning with &quot;+&quot;)</em></p>
+</li>
+<li><p><mark><b>IMPORTANT:</b></mark> When your account is first created
+<em>(the first time you sign-in)</em>, the state <strong>from your device</strong> will be
+<strong>transferred to the cloud</strong>.  As a result, your <strong>initial sign-in</strong>
+should be done <strong>on the device that has the most accurate state.</strong></p>
+<ul>
+<li><p>Remember, for Guest users, each device has it&apos;s own copy of the
+state.</p>
+</li>
+<li><p>The state transfer <em>(from device to cloud)</em> only happens one time:
+<strong>the first time you sign-in!</strong></p>
+</li>
+<li><p>For all subsequent sign-ins, the cloud will have already been
+established <em>(from your first sign-in)</em>, and is considered the
+master.</p>
+</li>
+</ul>
+</li>
+</ul>
+
+<!-- START Custom Tag: inject('<div id="explain-sms-text-exceeded" style="display: none;">') -->
+<div id="explain-sms-text-exceeded" style="display: none;">
+
+<!-- END Custom Tag: inject('<div id="explain-sms-text-exceeded" style="display: none;">') -->
+
+<p><mark><b>SMS Text Limit Exceeded:</b></mark></p>
+<ul>
+<li>Fire Within accounts use an entry-level service plan to persist it&apos;s data in the cloud</li>
+<li>This plan is limits the number of SMS Text messages allowed at a given time</li>
+<li>If you receive an <strong>&quot;SMS Text Limit Exceeded&quot;</strong> message, simply try again in a short time <em>(20-30 mins)</em></li>
+<li>This <strong>limitation should NOT be an issue</strong> because sign-ins are <strong>&quot;long lived&quot;</strong> <em>(basically forever)</em>
+... <em>in other words, sign-ins do not need to be repeated on a given device, unless you sign-out for some reason</em></li>
+</ul>
+
+<!-- START Custom Tag: inject('</div>') -->
+</div>
+
+<!-- END Custom Tag: inject('</div>') -->
+
+
+<!-- START Custom Tag: inject('</div> <div id="sign-in-form-verifying" style="color: green;">') -->
+</div> <div id="sign-in-form-verifying" style="color: green;">
+
+<!-- END Custom Tag: inject('</div> <div id="sign-in-form-verifying" style="color: green;">') -->
+
+<p>Your sign-in request is <strong>in-progress</strong>.</p>
+<p>A text message has been sent to your phone at: <b data-fw-user-phone="">sync-phone</b>.</p>
+<p>To complete your sign-in, please enter the verification code <em>(from that text)</em>.</p>
+<!-- Our verification form, that gathers the one-time-code.
+     - A "submit" button type is used to facilitate auto submit on text-box enter
+ -->
+<form id="verifyForm" onsubmit="fw.handlePhoneVerify(event)">
+    <label for="verifyCode">Code:</label>
+    <input type="text" id="verifyCode" name="verifyCode">
+    <button type="submit">Verify</button>
+    <button onclick="fw.verifyPhoneCancel(); return false;">Cancel</button>
+    <p id="verifyMsg" style="color: red;"></p>
+</form>
+
+
+
+<!-- START Custom Tag: inject('</div> <div id="sign-in-form-verified" style="color: blue;">') -->
+</div> <div id="sign-in-form-verified" style="color: blue;">
+
+<!-- END Custom Tag: inject('</div> <div id="sign-in-form-verified" style="color: blue;">') -->
+
+<p>Hello <b data-fw-user-name="">sync-name</b>,</p>
+<p>You have signed-in to your Fire Within account, using phone: <b data-fw-user-phone="">sync-phone</b>.</p>
+<p>As a result, your state <em>(i.e. completions and settings)</em> are retained
+in the cloud, and automatically synced to all devices <em>(that are
+signed in to this account)</em>.</p>
+<div>
+As a signed-in user, you may change your name here:
+<input type="text" id="maintainUserName" maxlength="15" onblur="fw.maintainUserName(event)">
+<p id="maintainUserNameMsg" style="color: red;"></p>
+</div>
+
+<p>Your sign-in is <strong>long lived</strong>, so you do not need to sign-in again
+<em>(on this device)</em> ... <em>unless you sign-out for some reason</em>.</p>
+<button onclick="fw.requestSignOutConfirmation()">Sign Out</button>
+
+
+<!-- START Custom Tag: inject('</div> <div id="sign-out-confirmation" style="color: red;">') -->
+</div> <div id="sign-out-confirmation" style="color: red;">
+
+<!-- END Custom Tag: inject('</div> <div id="sign-out-confirmation" style="color: red;">') -->
+
+<p><strong>Please confirm your request to Sign-Out: </strong></p>
+<p><mark><b>Remember:</b></mark></p>
+<ul>
+<li>Your state <em>(i.e. completions and settings)</em> will revert back to your device storage.<ul>
+<li>Which can optionally be reset to the latest copy from the cloud, <strong>per this option</strong>:<label><input type="checkbox" onclick="fw.handleSetting_syncDeviceStoreOnSignOut(this);" id="setting_syncDeviceStoreOnSignOut"> Copy Device Storage from the Cloud <i>(ON Sign-Out)</i></label></li>
+</ul>
+</li>
+<li>From that point forward, however, your device state will be an independent copy, held on this device.<ul>
+<li><strong>Which will NOT be synced to the cloud</strong></li>
+</ul>
+</li>
+</ul>
+<button onclick="fw.signOut()">Confirm Sign Out</button>
+<button onclick="fw.cancelSignOutConfirmation()">Cancel</button>
+
+
+<!-- START Custom Tag: inject('</div>') -->
+</div>
+
+<!-- END Custom Tag: inject('</div>') -->
+
+<script> withFW( ()=>fw.pageSetup() ) </script>
                                 
                                 </section>
                             
@@ -1625,7 +1855,7 @@ or Direct Message me on <a href="https://twitter.com/kevinast" target="_blank">T
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Settings","level":"2.1","depth":1,"next":{"title":"Bible Translation","level":"2.1.1","depth":2,"anchor":"#bible-translation","path":"settings.md","ref":"settings.md#bible-translation","articles":[]},"previous":{"title":"God Bless You","level":"1.1.4","depth":2,"anchor":"#god-bless-you","path":"intro.md","ref":"intro.md#god-bless-you","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"settings.md","mtime":"2023-11-26T14:11:28.721Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2023-12-23T13:15:30.072Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Settings","level":"2.1","depth":1,"next":{"title":"Bible Translation","level":"2.1.1","depth":2,"anchor":"#bible-translation","path":"settings.md","ref":"settings.md#bible-translation","articles":[]},"previous":{"title":"God Bless You","level":"1.1.4","depth":2,"anchor":"#god-bless-you","path":"intro.md","ref":"intro.md#god-bless-you","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","UserAccount":"[User Account](/settings.md#user-account)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"settings.md","mtime":"2024-02-20T15:44:02.179Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2024-02-21T15:36:41.391Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

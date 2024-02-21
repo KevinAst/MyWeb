@@ -198,6 +198,19 @@
             
         </li>
     
+        <li class="chapter " data-level="2.1.2" data-path="settings.html">
+            
+                <a href="settings.html#user-account">
+            
+                    
+                    User Account
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -1542,7 +1555,35 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <script src="fw.js"></script>
+                                <script>
+  window.withFWQue = window.withFWQue || [];
+  window.withFW    = window.withFW    || function(fn) {
+    const fnName = fn.name || 'anonymous';
+    if (window.fw) {
+      // generate a VERBOSE logging probe
+      // ... typically don't want to see
+      //     BECAUSE will generate A LOT OF ENTRIES (the happy path)
+      window.withFWLog.v(`executing function '${fnName}' IMMEDIATELY ... fw.js HAS BEEN expanded`);
+
+      // process NOW
+      fn();
+    }
+    else {
+      // generate a FORCED logging probe
+      // ... of interest to insure our cache is working
+      //     AND FEW ENTRIES (during bootstrap of initial load of site)
+      // ... NOTE: window.withFWLog has NOT YET BEEN DEFINED
+      //           BUT because it is a FORCED probe, we mimic it with a console.log()
+      //           HOWEVER, I subsequently took off the FORCE, so I am punting this (comment out the log)
+      // console.log(`fw:core:withFW() IMPORTANT: DELAYING function '${fnName}' execution ... to allow fw.js to be expanded`);
+
+      // process LATER
+      window.withFWQue.push(fn);
+    }
+  }
+</script>
+
+<script type="module" src="./js/fw.js"></script>
 
 <h1 id="old-testament">Old Testament</h1>
 <p>The Old Testament includes 39 books which were written long before Jesus was born.</p>
@@ -1554,61 +1595,61 @@
 <em>(<a href="https://overviewbible.com/old-testament-books/" target="_blank">find out more</a>)</em>:</p>
 <ol>
 <li>Torah (Law of Moses):<ul>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Genesis"></label>        <a href="Genesis.html">Genesis</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Exodus"></label>         <a href="Exodus.html">Exodus</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Leviticus"></label>      <a href="Leviticus.html">Leviticus</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Numbers"></label>        <a href="Numbers.html">Numbers</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Deuteronomy"></label>    <a href="Deuteronomy.html">Deuteronomy</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Genesis"></label>        <a href="Genesis.html">Genesis</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Exodus"></label>         <a href="Exodus.html">Exodus</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Leviticus"></label>      <a href="Leviticus.html">Leviticus</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Numbers"></label>        <a href="Numbers.html">Numbers</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Deuteronomy"></label>    <a href="Deuteronomy.html">Deuteronomy</a></li>
 </ul>
 </li>
 <li>Historical Writings:<ul>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Joshua"></label>         <a href="Joshua.html">Joshua</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Judges"></label>         <a href="Judges.html">Judges</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Ruth"></label>           <a href="Ruth.html">Ruth</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="1Samuel"></label>        <a href="1Samuel.html">1 Samuel</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="2Samuel"></label>        <a href="2Samuel.html">2 Samuel</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="1Kings"></label>         <a href="1Kings.html">1 Kings</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="2Kings"></label>         <a href="2Kings.html">2 Kings</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="1Chronicles"></label>    <a href="1Chronicles.html">1 Chronicles</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="2Chronicles"></label>    <a href="1Chronicles.html">2 Chronicles</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Ezra"></label>           <a href="Ezra.html">Ezra</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Nehemiah"></label>       <a href="Nehemiah.html">Nehemiah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Esther"></label>         <a href="Esther.html">Esther</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Joshua"></label>         <a href="Joshua.html">Joshua</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Judges"></label>         <a href="Judges.html">Judges</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Ruth"></label>           <a href="Ruth.html">Ruth</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="1Samuel"></label>        <a href="1Samuel.html">1 Samuel</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="2Samuel"></label>        <a href="2Samuel.html">2 Samuel</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="1Kings"></label>         <a href="1Kings.html">1 Kings</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="2Kings"></label>         <a href="2Kings.html">2 Kings</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="1Chronicles"></label>    <a href="1Chronicles.html">1 Chronicles</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="2Chronicles"></label>    <a href="1Chronicles.html">2 Chronicles</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Ezra"></label>           <a href="Ezra.html">Ezra</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Nehemiah"></label>       <a href="Nehemiah.html">Nehemiah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Esther"></label>         <a href="Esther.html">Esther</a></li>
 </ul>
 </li>
 <li>Wisdom and Poetry:<ul>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Job"></label>            <a href="Job.html">Job</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Psalms"></label>         <a href="Psalms.html">Psalms</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Proverbs"></label>       <a href="Proverbs.html">Proverbs</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Ecclesiastes"></label>   <a href="Ecclesiastes.html">Ecclesiastes</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="SongOfSolomon"></label>  <a href="SongOfSolomon.html">Song of Solomon</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Job"></label>            <a href="Job.html">Job</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Psalms"></label>         <a href="Psalms.html">Psalms</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Proverbs"></label>       <a href="Proverbs.html">Proverbs</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Ecclesiastes"></label>   <a href="Ecclesiastes.html">Ecclesiastes</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="SongOfSolomon"></label>  <a href="SongOfSolomon.html">Song of Solomon</a></li>
 </ul>
 </li>
 <li>Major Prophets:<ul>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Isaiah"></label>         <a href="Isaiah.html">Isaiah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Jeremiah"></label>       <a href="Jeremiah.html">Jeremiah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Lamentations"></label>   <a href="Lamentations.html">Lamentations</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Ezekiel"></label>        <a href="Ezekiel.html">Ezekiel</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Daniel"></label>         <a href="Daniel.html">Daniel</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Isaiah"></label>         <a href="Isaiah.html">Isaiah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Jeremiah"></label>       <a href="Jeremiah.html">Jeremiah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Lamentations"></label>   <a href="Lamentations.html">Lamentations</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Ezekiel"></label>        <a href="Ezekiel.html">Ezekiel</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Daniel"></label>         <a href="Daniel.html">Daniel</a></li>
 </ul>
 </li>
 <li>Minor Prophets:<ul>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Hosea"></label>          <a href="Hosea.html">Hosea</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Joel"></label>           <a href="Joel.html">Joel</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Amos"></label>           <a href="Amos.html">Amos</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Obadiah"></label>        <a href="Obadiah.html">Obadiah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Jonah"></label>          <a href="Jonah.html">Jonah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Micah"></label>          <a href="Micah.html">Micah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Nahum"></label>          <a href="Nahum.html">Nahum</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Habakkuk"></label>       <a href="Habakkuk.html">Habakkuk</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Zephaniah"></label>      <a href="Zephaniah.html">Zephaniah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Haggai"></label>         <a href="Haggai.html">Haggai</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Zechariah"></label>      <a href="Zechariah.html">Zechariah</a></li>
-<li><label><input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Malachi"></label>        <a href="Malachi.html">Malachi</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Hosea"></label>          <a href="Hosea.html">Hosea</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Joel"></label>           <a href="Joel.html">Joel</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Amos"></label>           <a href="Amos.html">Amos</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Obadiah"></label>        <a href="Obadiah.html">Obadiah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Jonah"></label>          <a href="Jonah.html">Jonah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Micah"></label>          <a href="Micah.html">Micah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Nahum"></label>          <a href="Nahum.html">Nahum</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Habakkuk"></label>       <a href="Habakkuk.html">Habakkuk</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Zephaniah"></label>      <a href="Zephaniah.html">Zephaniah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Haggai"></label>         <a href="Haggai.html">Haggai</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Zechariah"></label>      <a href="Zechariah.html">Zechariah</a></li>
+<li><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Malachi"></label>        <a href="Malachi.html">Malachi</a></li>
 </ul>
 </li>
 </ol>
-<script> fw.pageSetup(); </script>
+<script> withFW( ()=>fw.pageSetup() ) </script>
                                 
                                 </section>
                             
@@ -1651,7 +1692,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Old Testament","level":"5.1","depth":1,"next":{"title":"Genesis","level":"5.1.1","depth":2,"path":"Genesis.md","ref":"Genesis.md","articles":[]},"previous":{"title":"May the Lord Bless You","level":"4.1.9","depth":2,"anchor":"#may-the-lord-bless-you","path":"MyFaith.md","ref":"MyFaith.md#may-the-lord-bless-you","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"OldTestament.md","mtime":"2023-12-14T18:28:56.638Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2023-12-23T13:15:30.072Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Old Testament","level":"5.1","depth":1,"next":{"title":"Genesis","level":"5.1.1","depth":2,"path":"Genesis.md","ref":"Genesis.md","articles":[]},"previous":{"title":"May the Lord Bless You","level":"4.1.9","depth":2,"anchor":"#may-the-lord-bless-you","path":"MyFaith.md","ref":"MyFaith.md#may-the-lord-bless-you","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","UserAccount":"[User Account](/settings.md#user-account)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"OldTestament.md","mtime":"2023-12-14T18:28:56.638Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2024-02-21T15:36:41.391Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
