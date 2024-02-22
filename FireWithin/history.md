@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v21.1](#v21_1)   | Misc Content Updates | *Feb 24, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
 [v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
 [v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
@@ -53,6 +54,15 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v21_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v21.1 - Misc Content Updates <i>(Feb 24, 2024)</i>
+</h3>
+<br/>
+
+- ??
 
 
 <!-- ************************************************************* -->
