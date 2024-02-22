@@ -122,9 +122,9 @@ function processCustomTags(_forPage,  // ex: 'Hosea.md'
   forPage = _forPage;
 
   // TEMP DIAG (for a single page of interest) to see what the html looks like BEFORE WE TOUCH IT
-  if (forPage === 'settings.md' && custTagDelim === 'P') {
-    console.log(`HERE IS THE ENTIRE PAGE BEFORE PROCESSING: ${content}`);
-  }
+  // if (forPage === 'settings.md' && custTagDelim === 'P') {
+  //   console.log(`HERE IS THE ENTIRE PAGE BEFORE PROCESSING: ${content}`);
+  // }
 
   // define our generic customTag regular expression matcher
   // ... a global matcher to find all occurances (see /g)
