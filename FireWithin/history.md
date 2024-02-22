@@ -65,7 +65,7 @@ Release           | What                 | *When*
 - Updated {{book.Christmas}} section with current 2023 entry, **and**
   added "A Charlie Brown Christmas" from 1965.
 - Added **"The God Delusion Debate" - Richard Dawkins vs John Lennox**
-  in the {{book.MoralDecay}} section of the {{book.CurrentEvents}}
+  in the {{book.MoralDecay}} section of {{book.CurrentEvents}}
   _(under {{book.SpecialEvents}})_.
 - ?? more
 
