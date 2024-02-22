@@ -48,6 +48,7 @@ M{ sermonSeries({
     { id: `20150705`, sermon: `America, Will You Stand?`,                                                             studyGuide: `NONE`, },
     { id: `20220727`, sermon: `Evening Special with Patti Height`,                                                    studyGuide: `NONE`, extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
     { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture: `rom.1@@Romans 1:18-28`,                     },
+    { id: `20240114`, sermon: `When a Culture Excludes God`,                      scripture: `rom.1@@Rom 1:24-32`,                        },
   ]
 }) }M
 

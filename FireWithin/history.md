@@ -62,7 +62,11 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Updated {{book.Christmas}} section with current 2023 entry, **and**
+- Added the new 2024 {{book.Romans}} series _(ongoing)_, and noted the
+  2009 series has been archived.
+  - Also added the 1/14/2024 Romans sermon to the {{book.LGBTQ}}
+    section of {{book.CurrentEvents}}.
+- Updated the {{book.Christmas}} section with the current 2023 entry, **and**
   added "A Charlie Brown Christmas" from 1965.
 - Added **"The God Delusion Debate" - Richard Dawkins vs John Lennox**
   in the {{book.MoralDecay}} section of {{book.CurrentEvents}}
