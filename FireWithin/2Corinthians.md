@@ -18,8 +18,8 @@ Christ, true power comes in weakness.
 ### At a Glance
 
 - [Overview](#overview)
-- [2009-2010 2 Corinthians Series](#2009-2010-2-corinthians-series-sundays)
-- [2017 2 Corinthians Series](#2017-2-corinthians-series-mid-week)
+- [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
+- [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
 
 
 ## Overview

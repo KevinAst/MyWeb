@@ -18,7 +18,7 @@ make them virgin brides once again.
 ### At a Glance
 
 - [Overview](#overview)
-- [2019 Jeremiah Series](#2019-jeremiah-series-sundays)
+- [2019 Jeremiah Series (Sundays)](#2019-jeremiah-series-sundays)
 - [2023 Jeremiah Series (My Small Group)](#2023-jeremiah-series-my-small-group)
 
 

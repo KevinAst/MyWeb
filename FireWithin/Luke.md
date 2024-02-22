@@ -16,8 +16,8 @@ blindness, we can see him and the scriptures as they truly are.
 ### At a Glance
 
 - [Overview](#overview)
-- [2014-2015 Luke Series](#2014-2015-luke-series-mid-week)
-- [2021-2022 Luke Series](#2021-2022-luke-series-sundays)
+- [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
+- [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
 
 
 ## Overview

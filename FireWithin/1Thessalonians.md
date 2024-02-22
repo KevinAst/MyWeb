@@ -15,8 +15,8 @@ oppressing them.
 ### At a Glance
 
 - [Overview](#overview)
-- [2010 1 Thessalonians Series](#2010-1-thessalonians-series-sundays)
-- [2018 1 Thessalonians Series](#2018-1-thessalonians-series-mid-week)
+- [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
+- [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
 
 
 ## Overview

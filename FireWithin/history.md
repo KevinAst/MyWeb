@@ -71,6 +71,7 @@ Release           | What                 | *When*
 - Added **"The God Delusion Debate" - Richard Dawkins vs John Lennox**
   in the {{book.MoralDecay}} section of {{book.CurrentEvents}}
   _(under {{book.SpecialEvents}})_.
+- Standardized ALL Table-of-Content entries to include Sunday/Mid-Week delineators.
 - ?? more
 
 

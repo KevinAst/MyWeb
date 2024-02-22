@@ -30,8 +30,8 @@ becomes more and more beautiful to you.
 ### At a Glance
 
 - [Overview](#overview)
-- [2010 Galatians Series](#2010-galatians-series-sundays)
-- [2017 Galatians Series](#2017-galatians-series-mid-week)
+- [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
+- [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 
 
 ## Overview

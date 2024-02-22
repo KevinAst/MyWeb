@@ -9,8 +9,8 @@ all things are made new.
 ### At a Glance
 
 - [Overview](#overview)
-- [2011 Revelation Series](#2011-revelation-series-sundays)
-- [2020-2021 Revelation Series](#2020-2021-revelation-series-mid-week)
+- [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
+- [2020-2021 Revelation Series (Mid Week)](#2020-2021-revelation-series-mid-week)
 
 
 ## Overview

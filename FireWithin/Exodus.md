@@ -15,8 +15,7 @@ a new and better salvation.
 
 - [Overview](#overview)
 - [The Ten Commandments](#the-ten-commandments)
-- [Exodus Series](#exodus-series)
-
+- [Exodus Series (Sundays)](#exodus-series-sundays)
 
 ## Overview
 
@@ -94,7 +93,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Exodus Series
+## Exodus Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

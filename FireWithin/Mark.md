@@ -13,8 +13,8 @@ did in his life prepares us for and informs us about his death.
 ### At a Glance
 
 - [Overview](#overview)
-- [2013-2014 Mark Series](#2013-2014-mark-series-mid-week)
-- [2021 Mark Series](#2021-mark-series-sundays)
+- [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
+- [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 - [2023 Mark Series (My Small Group)](#2023-mark-series-my-small-group)
 
 
