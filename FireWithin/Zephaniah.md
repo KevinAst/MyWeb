@@ -57,7 +57,7 @@ M{ youTube(`oFZknKPNvz8`) }M
 
 **{{book.SpokenGospel}}**
 
-> _As of 12/2023 Spoken Gospel has no zephaniah introduction_
+M{ youTube(`eENvjSouW9Y`) }M
 
 
 

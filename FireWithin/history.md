@@ -67,6 +67,7 @@ Release           | What                 | *When*
   - Also added the 1/14/2024 Romans sermon to the {{book.LGBTQ}}
     section of {{book.CurrentEvents}}.
 - Added the new {{book.Genesis}} Small Group sessions, starting in 03/03/2024.
+- Added new Spoken Gospel Overview for {{book.Zephaniah}}.
 - Updated the {{book.Christmas}} section with the current 2023 entry, **and**
   added "A Charlie Brown Christmas" from 1965.
 - Added **"The God Delusion Debate" - Richard Dawkins vs John Lennox**
