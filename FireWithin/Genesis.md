@@ -188,5 +188,19 @@ M{ sermonSeries({
     { id: `SG20240211`, sermon: `TXT@@Impatience*`,         scripture: `gen.15@@Genesis 15:1-6; 16:1-6`,    date:`02/11/2024`, },
     { id: `SG20240218`, sermon: `TXT@@Established`,         scripture: `gen.17@@Genesis 17:1-10,15-19`,     date:`02/18/2024`, },
     { id: `SG20240225`, sermon: `TXT@@Purged`,              scripture: `gen.19@@Genesis 19:12-26`,          date:`02/25/2024`, },
+
+    { id: `SG20240303`, sermon: `TXT@@A Substitute`,        scripture: `gen.22@@Genesis 22:1-14`,           date:`03/03/2024`, },
+    { id: `SG20240310`, sermon: `TXT@@Guidance Needed`,     scripture: `gen.24@@Genesis 24:12-20,24-27`,    date:`03/10/2024`, },
+    { id: `SG20240317`, sermon: `TXT@@A Deceiver`,          scripture: `gen.27@@Genesis 27:18-30`,          date:`03/17/2024`, },
+    { id: `SG20240324`, sermon: `TXT@@A Stairway`,          scripture: `gen.28@@Genesis 28:10-22`,          date:`03/24/2024`, },
+    { id: `SG20240331`, sermon: `TXT@@Believe!`,            scripture: `jhn.20@@John 20:1-17`,              date:`03/31/2024`, },
+    { id: `SG20240407`, sermon: `TXT@@Blessed`,             scripture: `gen.30@@Genesis 30:25-34,41-43`,    date:`04/07/2024`, },
+    { id: `SG20240414`, sermon: `TXT@@Wrestled`,            scripture: `gen.32@@Genesis 32:22-32`,          date:`04/14/2024`, },
+    { id: `SG20240421`, sermon: `TXT@@Renewed`,             scripture: `gen.35@@Genesis 35:1-15`,           date:`04/21/2024`, },
+    { id: `SG20240428`, sermon: `TXT@@Dreamer`,             scripture: `gen.37@@Genesis 37:5-8,18-28`,      date:`04/28/2024`, },
+    { id: `SG20240505`, sermon: `TXT@@Accused`,             scripture: `gen.39@@Genesis 39:7-21`,           date:`05/05/2024`, },
+    { id: `SG20240512`, sermon: `TXT@@Revealed`,            scripture: `gen.41@@Genesis 41:14-20,33-37`,    date:`05/12/2024`, },
+    { id: `SG20240519`, sermon: `TXT@@Reconcile`,           scripture: `gen.45@@Genesis 45:1-15`,           date:`05/19/2024`, },
+    { id: `SG20240526`, sermon: `TXT@@Revenge?`,            scripture: `gen.50@@Genesis 50:15-26`,          date:`05/26/2024`, },
   ]
 }) }M
