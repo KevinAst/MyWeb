@@ -54,14 +54,13 @@ M{ sermonSeries({
 
 ## Moral Decay
 
-{{book.CornerstoneChapel}}
-
 M{ sermonSeries({
   settings: {
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`,    },
-    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`,  },
+    { id: `20071003`, sermon: `https://www.youtube.com/watch?v=zF5bPI92-5o@@The God Delusion Debate - Richard Dawkins vs John Lennox`, extraScriptureLink: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`,    },
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`,                    extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`,   },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                                     extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`, },
   ]
 }) }M
