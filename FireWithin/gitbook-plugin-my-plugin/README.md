@@ -252,15 +252,21 @@ the desired Bible Translation.
 * ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
        and title (delimited with @@).
 
+       Multiple Entries are supported (delimited with ##).
+ 
+       Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
+
   ```
   EXAMPLE:
-    - 'rev.21.6-8@@Revelation 21:6-8'
+    - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+    - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
+    - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
   ```
 
 **Custom Tag**
 
 ```
-M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
+M{ bibleLink(`rev.21.6-8@@Rev 21:6-8`) }M
 ```
 
 
@@ -307,7 +313,9 @@ content of an entire sermon series.
                              // - OMITTED: nothing
 
         scripture:  string,  // per bibleLink() API (OPTIONAL)
-                             // - `mrk.1@@Mark 1`
+                             // - `mrk.1@@Mark 1`                   <<< single entry
+                             // - `mrk.1@@Mark 1##mrk.2@@Mark 2`    <<< multiple entries
+                             // - `mrk.1@@Mark 1##mrk.2@@CR:Mark 2` <<< multiple entries, with line breaks (cr/lf)
                              // - OMITTED: No Scripture for this entry
 
         extraScriptureLink:  // additional url link in the scripture cell (OPTIONAL)

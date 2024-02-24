@@ -148,7 +148,7 @@ M{ sermonSeries({
     { id: `20220227`, sermon: `Small Man, Big Change`,                                  scripture: `luk.19@@Luke 19:1-10`,  },
     { id: `20220306`, sermon: `Why Jesus Weeps`,                                        scripture: `luk.19@@Luke 19:41-44`, },
     { id: `20220313`, sermon: `A Glimpse of Life in Heaven`,                            scripture: `luk.20@@Luke 20`,       },
-    { id: `20220320`, sermon: `The Rise of Russia and the End Times`,                   scripture: `luk.21@@Luke 21`,       studyGuide: `NONE`, extraScriptureLink: `https://bible.com/bible/116/ezk.38.NLT@@Ezekiel 38`, },
+    { id: `20220320`, sermon: `The Rise of Russia and the End Times`,                   scripture: `luk.21@@Luke 21##ezk.38@@CR:Ezekiel 38`, studyGuide: `NONE`, },
     { id: `20220327`, sermon: `Jesus: Our Passover Lamb`,                               scripture: `luk.21@@LUKE 22:1-20`,  },
     { id: `20220403`, sermon: `Kissers and Weepers`,                                    scripture: `luk.22@@LUKE 22:20-62`, },
     { id: `20220410`, sermon: `We are Barabbas`,                                        scripture: `luk.23@@LUKE 23`,       },

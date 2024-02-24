@@ -580,13 +580,14 @@ function studyGuideLink(ref) {
 //*   - ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
 //*          and title (delimited with @@).
 //* 
-//*          EXAMPLE:
-//*            - 'rev.21.6-8@@Revelation 21:6-8'
+//*          Multiple Entries are supported (delimited with ##).
 //* 
-//* ??$$ add support MANY scriptures
-//*      FORMAT: `mrk.1@@Mark 1##mrk.2@@Mark 2##mrk.3@@[CR:]Mark 3`
-//*              ... with optional 'CR:' to inject cr/lf
-//* ??$$ DOCUMENT in README.md too
+//*          Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
+//* 
+//*          EXAMPLE:
+//*            - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+//*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
+//*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
 //* 
 //* Custom Tag:
 //*   M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
@@ -608,13 +609,36 @@ function bibleLink(_ref) {
   checkParam(_ref,           'ref is required');
   checkParam(isString(_ref), `ref must be a string (the Bible verse)`);
 
-  // ... split out the title
-  const [ref, title] = _ref.split('@@');
-
-  // ... title
-  checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+  // our content to return
+  let content = '';
 
   // expand our customTag as follows
+  // ... iterate over all entries found in the supplied reference
+  const entries      = _ref.split('##');
+  let   isFirstEntry = true;
+  entries.forEach( (entry) => {
+
+    // split out the ref/title
+    let [ref, title] = entry.split('@@');
+    // ... validate title
+    checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+
+    // process optional cr/lf
+    const isCR = title.startsWith('CR:');
+    let   crLf = isFirstEntry ? '' : ', ';
+    if (isCR) {
+      title = title.slice(3);
+      crLf  = '<br/>';
+    }
+
+    // update our content
+    content += `${crLf}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+
+    // no longer first entry :-)
+    isFirstEntry = false;
+  });
+
+  // that's all folks :-)
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
   //       We simplify:
   //       - No HTML comment
@@ -624,7 +648,7 @@ function bibleLink(_ref) {
   //          1. M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>BL</mark>` : '';
-  return `${diag}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+  return `${diag}${content}`;
 }
 
 
@@ -834,7 +858,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
   // scripture (when supplied)
-  content += scripture ? bibleLink(scripture) : ''; // ??$$ this function has added support of MANY scriptures
+  content += scripture ? bibleLink(scripture) : '';
   content += extraScriptureLink ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraScriptureLink)}` : '';
   content += `</td><td>`;
 

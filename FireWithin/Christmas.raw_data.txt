@@ -55,7 +55,8 @@ Matthew 1
 mat.1
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://bible.com/bible/116/luk.2.NLT@@Luke 2`
+ALTER `scripture` entry to handle multiple refs
+scripture: `mat.1@@Matthew 1##luk.2@@CR:Luke 2`
 
 12/23/2018
 A Stable Heart
