@@ -230,6 +230,14 @@ Inject an html link (via the `<a>` tag) for the Study Guide of a specific sermon
 
 * ref: The sermon reference, for this Study Guide.
 
+  ALSO, this can be used to inject a completely different link (say a devotion)
+  using the following format: `url@@label`
+
+  ```
+  EXAMPLE: 
+    - `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`
+  ```
+
 **Custom Tag**
 
 ```
@@ -325,6 +333,7 @@ content of an entire sermon series.
         studyGuide: string,  // study guide ref (when ref varies from id - a CornerStone mismatch/bug) (OPTIONAL - DEFAULT: use entry id)
                              // - OMITTED: use entry id (per CornerStone standard)
                              // - `NONE`: NO Study Guide for this entry
+                             // - `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`: a devotion (not a standard Study Guide)
                              // NOTE: when settings.includeStudyGuide: false ... this directive is completely ignored
 
         date:       string,  // `MM/DD/YYYY` (OPTIONAL - DEFAULT: derivation of entry id)

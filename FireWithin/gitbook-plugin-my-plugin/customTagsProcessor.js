@@ -530,7 +530,9 @@ function sermonLink(_ref) {
 //* Parms:
 //*   - ref: The sermon reference, for this Study Guide.
 //* 
-//* ??## enhance to support completely different link via: http@@label ... in support of things like a devotion URL
+//*     ALSO, this can be used to inject a completely different link (say a devotion)
+//*     using the following format: `url@@label`
+//*       EXAMPLE: `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`
 //* 
 //* Custom Tag:
 //*   M{ studyGuideLink(`20210418`) }M
@@ -549,10 +551,15 @@ function studyGuideLink(ref) {
   checkParam(ref,           'ref is required');
   checkParam(isString(ref), `ref must be a string (the sermon reference for this Study Guide)`);
 
-  // ??##
-
-  // ... devise our url - to a Cornerstone sermon Study Guide
-  const url = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
+  // DEFAULT our url/link - to a Cornerstone sermon Study Guide
+  let url  = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
+  let aTag = `<a href="${url}" target="_blank">Study Guide</a>`;
+  // interpret independant link
+  if (ref.includes('@@')) {
+    const [ref2, title] = ref.split('@@');
+    checkParam(isString(title), `expecting 'link@@title' for this Study Guide`);
+    aTag = `<a href="${ref2}" target="_blank">${title}</a>`;
+  }
 
   // expand our customTag as follows
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
@@ -564,7 +571,7 @@ function studyGuideLink(ref) {
   //          1. M{ studyGuideLink(`20210418`) }M ........... in theory (not used outside of table series)
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SGL</mark>` : '';
-  return `${diag}<a href="${url}" target="_blank">Study Guide</a>`;
+  return `${diag}${aTag}`;
 }
 
 
@@ -794,7 +801,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     checkParam(scripture.includes('@@'), `scripture (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
   
-  // ??## studyGuide: add more options for URL-Based link ... EX: http...@@Devotion ... I think this logic is OK
   // ... studyGuide
   let studyGuideRef = ''; // ... derivation used in studyGuideLink(studyGuideRef) <<< USE THIS when supplied
   // only applicable when enabled via global settings
@@ -871,7 +877,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
     // study guide (when supplied)
-    content += studyGuideRef ? studyGuideLink(studyGuideRef) : ''; //??## this is it
+    content += studyGuideRef ? studyGuideLink(studyGuideRef) : '';
     content += `</td>`;
   }
   else { // study guide NOT enabled (via global settings)
