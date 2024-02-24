@@ -29,7 +29,7 @@ none
 
 >> FOR ABOVE ********************************************************************************
 studyGuide: `NONE`,
-extraScriptureLink: `https://RadianceFoundation.org/@@Ryan Bomberger`
+extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`
 
 
 *----------------------------
@@ -112,7 +112,7 @@ none
 
 >> FOR ABOVE (Patti Height) ********************************************************************************
 studyGuide: `NONE`,
-extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
+extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
 
 06/04/2023
 A Biblical Response to the 'Transing' of America
@@ -136,7 +136,7 @@ NO SCRIPTURE
 none
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`
+extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`
 
 11/08/2012
 https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism
@@ -144,7 +144,7 @@ NO SCRIPTURE
 none
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`
+extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`
 
 05/21/2023
 Wanted: The Brave
@@ -152,5 +152,5 @@ NO SCRIPTURE
 none
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`,
+extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`,
 

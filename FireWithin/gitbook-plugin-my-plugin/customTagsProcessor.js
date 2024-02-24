@@ -767,7 +767,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const {id, sermon='Teaching', scripture, studyGuide, date, extraSermonLink, extraScriptureLink, ...unknownProps} = entry;
+  const {id, sermon='Teaching', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, ...unknownProps} = entry;
 
   // ... id <<< USE THIS
   checkParam(id,           'entry id is required');
@@ -827,11 +827,11 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     checkParam(extraSermonLink.startsWith('http'), `extraSermonLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
     checkParam(extraSermonLink.includes('@@'),     `extraSermonLink (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
-  // ... extraScriptureLink
-  if (extraScriptureLink) {
-    checkParam(isString(extraScriptureLink), `extraScriptureLink (when supplied) must be a string, NOT: ${extraScriptureLink}`);
-    checkParam(extraScriptureLink.startsWith('http'), `extraScriptureLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
-    checkParam(extraScriptureLink.includes('@@'),     `extraScriptureLink (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
+  // ... extraLinkInScriptureCell
+  if (extraLinkInScriptureCell) {
+    checkParam(isString(extraLinkInScriptureCell), `extraLinkInScriptureCell (when supplied) must be a string, NOT: ${extraLinkInScriptureCell}`);
+    checkParam(extraLinkInScriptureCell.startsWith('http'), `extraLinkInScriptureCell (when supplied) must begin with 'http' ... for entry id: '${id}'`);
+    checkParam(extraLinkInScriptureCell.includes('@@'),     `extraLinkInScriptureCell (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
 
   // ... unrecognized entry properties
@@ -859,7 +859,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
 
   // scripture (when supplied)
   content += scripture ? bibleLink(scripture) : '';
-  content += extraScriptureLink ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraScriptureLink)}` : '';
+  content += extraLinkInScriptureCell ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraLinkInScriptureCell)}` : '';
   content += `</td><td>`;
 
   // date

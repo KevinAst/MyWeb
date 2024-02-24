@@ -164,5 +164,5 @@ Luke 2:8-14
 luk.2.8-14
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas@@History`
+extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas@@History`
 

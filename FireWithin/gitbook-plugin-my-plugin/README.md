@@ -318,7 +318,7 @@ content of an entire sermon series.
                              // - `mrk.1@@Mark 1##mrk.2@@CR:Mark 2` <<< multiple entries, with line breaks (cr/lf)
                              // - OMITTED: No Scripture for this entry
 
-        extraScriptureLink:  // additional url link in the scripture cell (OPTIONAL)
+        extraLinkInScriptureCell:  // additional url link in the scripture cell (OPTIONAL)
                     string,  // - `https://www.youtube.com/...@@Label`: another URL link
                              // - OMITTED: nothing
 
@@ -407,7 +407,7 @@ M{ sermonSeries({
   entries: [
     { id: `20120205`, sermon: `The Cost of Compromise`,                           scripture:`gen.18@@Genesis 18-19`, },
     { id: `20150705`, sermon: `America, Will You Stand?`,                         studyGuide: `NONE`, },
-    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
+    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
     { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture:`rom.1@@Romans 1:18-28`, },
   ]
 }) }M
@@ -418,8 +418,8 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`, },
-    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`, },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },
   ]
 }) }M
 ```
