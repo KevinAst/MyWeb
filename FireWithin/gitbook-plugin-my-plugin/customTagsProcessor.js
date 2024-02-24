@@ -530,6 +530,8 @@ function sermonLink(_ref) {
 //* Parms:
 //*   - ref: The sermon reference, for this Study Guide.
 //* 
+//* ??## enhance to support completely different link via: http@@label ... in support of things like a devotion URL
+//* 
 //* Custom Tag:
 //*   M{ studyGuideLink(`20210418`) }M
 //* 
@@ -546,6 +548,8 @@ function studyGuideLink(ref) {
   // ... ref
   checkParam(ref,           'ref is required');
   checkParam(isString(ref), `ref must be a string (the sermon reference for this Study Guide)`);
+
+  // ??##
 
   // ... devise our url - to a Cornerstone sermon Study Guide
   const url = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
@@ -578,6 +582,11 @@ function studyGuideLink(ref) {
 //* 
 //*          EXAMPLE:
 //*            - 'rev.21.6-8@@Revelation 21:6-8'
+//* 
+//* ??$$ add support MANY scriptures
+//*      FORMAT: `mrk.1@@Mark 1##mrk.2@@Mark 2##mrk.3@@[CR:]Mark 3`
+//*              ... with optional 'CR:' to inject cr/lf
+//* ??$$ DOCUMENT in README.md too
 //* 
 //* Custom Tag:
 //*   M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
@@ -761,6 +770,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     checkParam(scripture.includes('@@'), `scripture (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
   
+  // ??## studyGuide: add more options for URL-Based link ... EX: http...@@Devotion ... I think this logic is OK
   // ... studyGuide
   let studyGuideRef = ''; // ... derivation used in studyGuideLink(studyGuideRef) <<< USE THIS when supplied
   // only applicable when enabled via global settings
@@ -824,7 +834,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
   // scripture (when supplied)
-  content += scripture ? bibleLink(scripture) : ''
+  content += scripture ? bibleLink(scripture) : ''; // ??$$ this function has added support of MANY scriptures
   content += extraScriptureLink ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraScriptureLink)}` : '';
   content += `</td><td>`;
 
@@ -837,7 +847,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
     // study guide (when supplied)
-    content += studyGuideRef ? studyGuideLink(studyGuideRef) : '';
+    content += studyGuideRef ? studyGuideLink(studyGuideRef) : ''; //??## this is it
     content += `</td>`;
   }
   else { // study guide NOT enabled (via global settings)
