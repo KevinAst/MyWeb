@@ -3,13 +3,53 @@
 ### At a Glance
 
 - [Overview](#overview)
+- [Usage](#usage)
 - [Season 1](#season-1)
 - [Season 2](#season-2)
 - [Season 3](#season-3)
 
 ## Overview
 
-> [The Chosen](https://watch.thechosen.tv/) _(The Official App)_
+> [The Chosen](https://thechosen.tv/) _(The Official App)_
+
+?? what the series is
+
+?? some objections to the series ... That's OK
+
+
+## Usage
+
+**Install the Apps?**
+
+- When you have installed the appropriate applications (i.e. "The
+  Chosen App", or the "YouVersion Bible App"), the links below will be
+  serviced by the app itself.  If you have NOT installed these apps,
+  the links will be serviced by your browser.
+
+  Either way works.  Typically it is recommended to install the apps
+  (it's really your preference).
+
+
+**Devotions Notes:**
+
+- For some reason there is NOT a devotion for every episode. ?? expand
+
+- To Run a Devotion: **long-press** the `Devotion` link, and click the
+  "**open in browser**" option.
+
+  _Background:_
+
+  Normally, you must subscribe to a Bible Reading Plan, in order to
+  use it.  This allows the Bible App to track your progress.
+  The devotion links, provided below, are generic - in that they do
+  NOT contain any of your account subscription information.  This
+  works when running in a browser, however, when clicked on a mobile
+  device, it is serviced by your installed Bible App, and generates an
+  error, stating: "**No reading plan content**".
+
+  To work around this, simply **long-press** the `Devotion` link, and
+  click the "**open in browser**" option.
+
 
 
 ## Season 1 
