@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [Season 1](#season-1)
 - [Season 2](#season-2)
+- [Season 3](#season-3)
 
 ## Overview
 
@@ -179,6 +180,90 @@ M{ sermonSeries({
       scripture:          `mat.5.1-16@@Matthew 5:1-16##1pe.2.11-12@@CR:1 Peter 2:11-12`,
       studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/6@@Devotion`,
       date:               `04/04/2021`,
+    },
+  ]
+}) }M
+
+
+## Season 3
+
+> [Season 3 Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) _(The Bible App)_
+>
+> [Season 3 Reading Plan](https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan) _(The Bible App)_
+
+M{ sermonSeries({
+  entries: [
+    {
+      id:                 `TC-S3-E1`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594324@@Homecoming`,
+      extraSermonLink:    `https://www.bible.com/videos/42359-301-homecoming?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Jesus delivers the most life-altering sermon in history. The result? More followers, more enemies, and disciples ready to follow Jesus anywhere. Simon and Eden reunite, Matthew faces his past, and Andrew visits John the Baptist in prison.`,
+      scripture:          `mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E2`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594325@@Two by Two`,
+      extraSermonLink:    `https://www.bible.com/videos/42360-302-two-by-two?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Jesus is a problem for the Romans. With pilgrims from everywhere setting up a tent city at the gates of Capernaum to see Jesus, tensions rise. Jesus officially sends the twelve apostles on an exciting but dangerous mission, causing Little James to ask why he hasn’t been healed.`,
+      scripture:          `psa.133@@Psalms 133##mat.5.23-26@@CR:Matthew 5:23-26`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/2@@Devotion`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E3`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594326@@Physician, Heal Yourself`,
+      extraSermonLink:    `https://www.bible.com/videos/42361-303-physician-heal-yourself?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Jesus returns to his childhood home for the big Jewish new year celebration. His childhood friends and family are all buzzing with what they’ve heard about Jesus…until he tells them the truth of who He is.`,
+      scripture:          `isa.61.1-2@@Isaiah 61:1-2##luk.4.14-30@@CR:Luke 4:14-30`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/3@@Devotion`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E4`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594327@@Clean, Part 1`,
+      extraSermonLink:    `https://www.bible.com/videos/42362-304-clean-part-1?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Two by two, the disciples carry out Jesus’ mission to heal, cast out demons, and preach his words. But upon returning, they struggle with understanding what happened while Simon and Eden struggle to reconnect.`,
+//    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
+      studyGuide:         `NONE`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E5`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594328@@Clean, Part 2`,
+      extraSermonLink:    `https://www.bible.com/videos/42368-305-clean-part-2?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `As tensions mount at home, Simon and Gaius work together to fix the water problem in Capernaum. Meanwhile, Jairus and Veronica are equally desperate to find Jesus as the only hope for their crises.`,
+      scripture:          `mrk.5.24-34@@Mark 5:24-34##jas.2.1-9@@CR:James 2:1-9##jas.2.12-13@@CR:James 2:12-13`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/4@@Devotion`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E6`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594331@@Intensity in Tent City`,
+      extraSermonLink:    `https://www.bible.com/videos/42369-306-intensity-in-tent-city?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Andrew and Philip discover their previous mission resulted in devastation that will require a return. Simon Z is finally forced to confront his past, but then two disciples of John the Baptist come to Capernaum with an important question for Jesus.`,
+      scripture:          `mat.11.2-19@@Matthew 11:2-19`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/5@@Devotion`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E7`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594333@@Ears to Hear`,
+      extraSermonLink:    `https://www.bible.com/videos/42371-307-ears-to-hear?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Andrew and Philip return from their trip with desperate news: they need Jesus’ help to solve a huge crisis in the Decapolis. Jesus leads them on a trip to the dangerous region, where they face opposition from all sides. Literally. Meanwhile, John is assigned to bring an angry Simon to Jesus.`,
+//    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
+      studyGuide:         `NONE`,
+      date:               `11/05/2022`,
+    },
+    {
+      id:                 `TC-S3-E8`, 
+      sermon:             `https://watch.thechosen.tv/video/184683594332@@Sustenance`,
+      extraSermonLink:    `https://www.bible.com/videos/42372-308-sustenance?collection=1393@@&nbsp;&nbsp;<i>Alt Stream (The Bible App)</i>`,
+//    desc:               `Thousands arrive to first argue with, then listen to Jesus as he preaches. Shmuel and Atticus hear what’s happening and journey towards the Decapolis to catch Jesus in the act of a possible revolt. Meanwhile, as the preaching extends to the next day, the disciples realize they have a significant problem: the thousands are hungry, and there’s no food.`,
+      scripture:          `mat.14.22-36@@Matthew 14:22-36##col.3.1-3@@CR:Colossians 3:1-3`,
+      studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/6@@Devotion`,
+      date:               `11/05/2022`,
     },
   ]
 }) }M
