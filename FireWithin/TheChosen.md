@@ -51,8 +51,20 @@
   click the "**open in browser**" option.
 
 
-
 ## Season 1 
+
+Season 1 is set in 1st century Galilee, where Jesus starts to build a
+group for his ministry, inviting several people with different
+backgrounds.
+
+As he performs his first miracles, Jesus calls the redeemed woman Mary
+Magdalene; the stonemason Thaddeus; the choir member Little James; the
+fishermen Simon, Andrew, Big James, and John; the caterer Thomas and
+vintner Ramah; and the tax collector Matthew to follow him.
+
+As the group travels through Samaria and following his meeting with
+Nicodemus, Jesus launches his public ministry after revealing himself
+to Photina, a Samaritan woman.
 
 > [Season 1 Movies](https://www.bible.com/videos/collections/208-the-chosen-season-1) _(The Bible App)_
 >
@@ -140,6 +152,20 @@ M{ sermonSeries({
 
 ## Season 2
 
+Beginning in Samaria, Season 2 moves into nearby regions such as Syria
+and Judea, where Jesus continues to build his group of students.
+
+As He continues to perform miracles while preparing for an important
+sermon, Jesus additionally calls John the Baptizer's disciple Philip,
+the architect Nathanael, and the Zealot Simon Z.
+
+As word of Jesus continues to spread throughout the region, He
+encounters both opportunities and difficulties.
+
+The season culminates with preparations being made for the Sermon on
+the Mount, with the help of the business apprentice Judas Iscariot.
+
+
 > [Season 2 Movies](https://www.bible.com/videos/collections/1389-the-chosen-season-2) _(The Bible App)_
 >
 > [Season 2 Reading Plan](https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan) _(The Bible App)_
@@ -226,6 +252,26 @@ M{ sermonSeries({
 
 
 ## Season 3
+
+“Come to me, you who are weary and heavy-laden, and I will give you
+rest.” 
+Season 3 picks up where Season 2 left off, with Jesus delivering
+the most famous sermon in history.
+What follows are the consequences of living out his teachings. The
+world changes because of this sermon, and the believers in (and
+enemies of) Jesus increase exponentially. 
+
+Following the Sermon on the Mount, Jesus sends his twelve apostles,
+two by two, to preach and perform miracles without him, leading to the
+disciples facing their biggest challenge yet.
+
+Jesus then returns to his hometown, Nazareth, which results in a shift
+to his ministry at the year of his popularity.
+
+At the climactic end of the season in the Decapolis and at the Sea of
+Galilee, Jesus feeds thousands with loaves and fishes and then walks
+on the water.
+
 
 > [Season 3 Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) _(The Bible App)_
 >
