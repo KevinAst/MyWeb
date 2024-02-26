@@ -774,7 +774,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const {id, sermon='Teaching', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, ...unknownProps} = entry;
+  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, ...unknownProps} = entry;
 
   // ... id <<< USE THIS
   checkParam(id,           'entry id is required');
@@ -861,6 +861,9 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // sermon (when supplied)
   content += sermonRef ? sermonLink(sermonRef) : '';
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
+  if (desc && !vertical) { // add description ONLY on horizontal layout (more real estate)
+    content += `<br/><i>${desc}</i>`;
+  }
   content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
   // scripture (when supplied)

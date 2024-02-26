@@ -320,6 +320,9 @@ content of an entire sermon series.
                     string,  // - `https://www.youtube.com/...@@Label`: another URL link
                              // - OMITTED: nothing
 
+        desc:       string,  // description (OPTIONAL - DEFAULT: ``)
+                             // - only displayed when on horizontal layout (more real estate)
+
         scripture:  string,  // per bibleLink() API (OPTIONAL)
                              // - `mrk.1@@Mark 1`                   <<< single entry
                              // - `mrk.1@@Mark 1##mrk.2@@Mark 2`    <<< multiple entries
