@@ -119,7 +119,7 @@
 ----
 - [The Chosen](TheChosen.md)
   * [Season 1](TheChosen.md#season-1)
-
+  * [Season 2](TheChosen.md#season-2)
 
 ----
 * [Revision History](history.md)
