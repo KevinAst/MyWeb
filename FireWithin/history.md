@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v21.1](#v21_1)   | Misc Content Updates | *Feb 24, 2024*
+[v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
 [v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
 [v20.0](#v20_0)   | Book Completion!     | *Dec 16, 2023*
@@ -58,14 +58,14 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v21_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v21.1 - Misc Content Updates <i>(Feb 24, 2024)</i>
+  v21.1 - The Chosen, & more <i>(Feb 27, 2024)</i>
 </h3>
 <br/>
 
+- **{{book.TheChosen}}** page is now available, that consolidates
+  links for the series/episodes, and devotions!
 - Added the new 2024 {{book.Romans}} series _(ongoing)_, and noted the
   2009 series has been archived.
-  - Also added the 1/14/2024 Romans sermon to the {{book.LGBTQ}}
-    section of {{book.CurrentEvents}}.
 - Added Abraham genealogy diagram to {{book.Genesis}}.
 - Added the new {{book.Genesis}} Small Group sessions, starting in 03/03/2024.
 - Added new Spoken Gospel Overview for {{book.Zephaniah}}.
@@ -75,8 +75,8 @@ Release           | What                 | *When*
   in the {{book.MoralDecay}} section of {{book.CurrentEvents}}
   _(under {{book.SpecialEvents}})_.
 - Standardized ALL Table-of-Content entries to include Sunday/Mid-Week delineators.
-- ?? more
-
+- Added the 1/14/2024 Romans sermon to the {{book.LGBTQ}} section of
+  {{book.CurrentEvents}}.
 
 
 <!-- ************************************************************* -->
