@@ -203,7 +203,8 @@ Luke 21
 luk.21
 
 >> FOR ABOVE ********************************************************************************
-extraScriptureLink: `https://bible.com/bible/116/ezk.38.NLT@@Ezekiel 38`,
+ALTER `scripture` entry to handle multiple refs
+scripture: `luk.21@@Luke 21##ezk.38@@CR:Ezekiel 38`
 
 03/13/2022
 A Glimpse of Life in Heaven

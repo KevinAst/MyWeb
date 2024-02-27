@@ -530,6 +530,10 @@ function sermonLink(_ref) {
 //* Parms:
 //*   - ref: The sermon reference, for this Study Guide.
 //* 
+//*     ALSO, this can be used to inject a completely different link (say a devotion)
+//*     using the following format: `url@@label`
+//*       EXAMPLE: `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`
+//* 
 //* Custom Tag:
 //*   M{ studyGuideLink(`20210418`) }M
 //* 
@@ -547,8 +551,15 @@ function studyGuideLink(ref) {
   checkParam(ref,           'ref is required');
   checkParam(isString(ref), `ref must be a string (the sermon reference for this Study Guide)`);
 
-  // ... devise our url - to a Cornerstone sermon Study Guide
-  const url = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
+  // DEFAULT our url/link - to a Cornerstone sermon Study Guide
+  let url  = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
+  let aTag = `<a href="${url}" target="_blank">Study Guide</a>`;
+  // interpret independant link
+  if (ref.includes('@@')) {
+    const [ref2, title] = ref.split('@@');
+    checkParam(isString(title), `expecting 'link@@title' for this Study Guide`);
+    aTag = `<a href="${ref2}" target="_blank">${title}</a>`;
+  }
 
   // expand our customTag as follows
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
@@ -560,7 +571,7 @@ function studyGuideLink(ref) {
   //          1. M{ studyGuideLink(`20210418`) }M ........... in theory (not used outside of table series)
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SGL</mark>` : '';
-  return `${diag}<a href="${url}" target="_blank">Study Guide</a>`;
+  return `${diag}${aTag}`;
 }
 
 
@@ -576,8 +587,14 @@ function studyGuideLink(ref) {
 //*   - ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
 //*          and title (delimited with @@).
 //* 
+//*          Multiple Entries are supported (delimited with ##).
+//* 
+//*          Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
+//* 
 //*          EXAMPLE:
-//*            - 'rev.21.6-8@@Revelation 21:6-8'
+//*            - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+//*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
+//*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
 //* 
 //* Custom Tag:
 //*   M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
@@ -599,13 +616,36 @@ function bibleLink(_ref) {
   checkParam(_ref,           'ref is required');
   checkParam(isString(_ref), `ref must be a string (the Bible verse)`);
 
-  // ... split out the title
-  const [ref, title] = _ref.split('@@');
-
-  // ... title
-  checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+  // our content to return
+  let content = '';
 
   // expand our customTag as follows
+  // ... iterate over all entries found in the supplied reference
+  const entries      = _ref.split('##');
+  let   isFirstEntry = true;
+  entries.forEach( (entry) => {
+
+    // split out the ref/title
+    let [ref, title] = entry.split('@@');
+    // ... validate title
+    checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+
+    // process optional cr/lf
+    const isCR = title.startsWith('CR:');
+    let   crLf = isFirstEntry ? '' : ', ';
+    if (isCR) {
+      title = title.slice(3);
+      crLf  = '<br/>';
+    }
+
+    // update our content
+    content += `${crLf}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+
+    // no longer first entry :-)
+    isFirstEntry = false;
+  });
+
+  // that's all folks :-)
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
   //       We simplify:
   //       - No HTML comment
@@ -615,7 +655,7 @@ function bibleLink(_ref) {
   //          1. M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>BL</mark>` : '';
-  return `${diag}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+  return `${diag}${content}`;
 }
 
 
@@ -734,7 +774,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const {id, sermon='Teaching', scripture, studyGuide, date, extraSermonLink, extraScriptureLink, ...unknownProps} = entry;
+  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, ...unknownProps} = entry;
 
   // ... id <<< USE THIS
   checkParam(id,           'entry id is required');
@@ -793,11 +833,11 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     checkParam(extraSermonLink.startsWith('http'), `extraSermonLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
     checkParam(extraSermonLink.includes('@@'),     `extraSermonLink (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
-  // ... extraScriptureLink
-  if (extraScriptureLink) {
-    checkParam(isString(extraScriptureLink), `extraScriptureLink (when supplied) must be a string, NOT: ${extraScriptureLink}`);
-    checkParam(extraScriptureLink.startsWith('http'), `extraScriptureLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
-    checkParam(extraScriptureLink.includes('@@'),     `extraScriptureLink (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
+  // ... extraLinkInScriptureCell
+  if (extraLinkInScriptureCell) {
+    checkParam(isString(extraLinkInScriptureCell), `extraLinkInScriptureCell (when supplied) must be a string, NOT: ${extraLinkInScriptureCell}`);
+    checkParam(extraLinkInScriptureCell.startsWith('http'), `extraLinkInScriptureCell (when supplied) must begin with 'http' ... for entry id: '${id}'`);
+    checkParam(extraLinkInScriptureCell.includes('@@'),     `extraLinkInScriptureCell (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
 
   // ... unrecognized entry properties
@@ -821,11 +861,14 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // sermon (when supplied)
   content += sermonRef ? sermonLink(sermonRef) : '';
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
+  if (desc) { // add description WHEN defined ... typically LARGE - conditionally displayed at user request
+    content += `<i data-fw-desc style="display: none;"><br/>${desc}</i>`;
+  }
   content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 
   // scripture (when supplied)
-  content += scripture ? bibleLink(scripture) : ''
-  content += extraScriptureLink ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraScriptureLink)}` : '';
+  content += scripture ? bibleLink(scripture) : '';
+  content += extraLinkInScriptureCell ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraLinkInScriptureCell)}` : '';
   content += `</td><td>`;
 
   // date

@@ -78,7 +78,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '21.0';
+    const CUR_VER = '21.1';
 
 
     //***************************************************************************
@@ -597,6 +597,34 @@ if (!window.fw) { // only expand this module once (conditionally)
         domStateNoteSignedOut.style.display  = fwUser.isSignedOut() ? 'block' : 'none';
         domStateNoteSignedIn.style.display   = fwUser.isSignedIn() ? 'block' : 'none';
       }
+    }
+
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Misc Code
+    //***************************************************************************
+    //***************************************************************************
+
+    // toggle display of length descriptions
+    fw.toggleDesc = function() {
+      const log = logger(`${logPrefix}:toggleDesc()`);
+
+      // determine our target state: show/hide
+      const buttons = document.querySelectorAll('[data-fw-desc-toggle]');
+      const show = buttons.length > 0 && buttons[0].textContent.toLowerCase().includes('show');
+      log(`toggle display of lengthy descriptions: ${show ? 'show' : 'hide'}`);
+
+      // toggle any data-fw-desc-toggle button label (there can be many)
+      buttons.forEach(buttonElm => {
+        buttonElm.textContent = `${show ? 'Hide' : 'Show'} Descriptions`;
+      });
+
+      // apply directive to all data-fw-desc elements
+      const descElms = document.querySelectorAll('[data-fw-desc]');
+      descElms.forEach(elm => {
+        elm.style.display = show ? 'block' : 'none';
+      });
     }
 
     

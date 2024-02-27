@@ -79,3 +79,8 @@ input[type="checkbox"] {
   .desktop { display: block; }
   .phone   { display: none;  }
 }
+
+/* all table cell entries alighn to top */
+td {
+  vertical-align: top;
+}
