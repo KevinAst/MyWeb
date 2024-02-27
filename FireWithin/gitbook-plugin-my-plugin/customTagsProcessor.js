@@ -861,8 +861,8 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // sermon (when supplied)
   content += sermonRef ? sermonLink(sermonRef) : '';
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
-  if (desc && !vertical) { // add description ONLY on horizontal layout (more real estate)
-    content += `<br/><i>${desc}</i>`;
+  if (desc) { // add description WHEN defined ... typically LARGE - conditionally displayed at user request
+    content += `<i data-fw-desc style="display: none;"><br/>${desc}</i>`;
   }
   content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
 

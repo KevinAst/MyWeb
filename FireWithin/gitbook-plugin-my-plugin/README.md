@@ -321,7 +321,10 @@ content of an entire sermon series.
                              // - OMITTED: nothing
 
         desc:       string,  // description (OPTIONAL - DEFAULT: ``)
-                             // - only displayed when on horizontal layout (more real estate)
+                             // - by default, starts out hidden.
+                             // - developer must supply user with toggle to show/hide
+                             //   ... EX: <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button>
+                             //   ... see: fw.js - fw.toggleDesc()
 
         scripture:  string,  // per bibleLink() API (OPTIONAL)
                              // - `mrk.1@@Mark 1`                   <<< single entry

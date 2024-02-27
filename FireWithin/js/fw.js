@@ -599,6 +599,34 @@ if (!window.fw) { // only expand this module once (conditionally)
       }
     }
 
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Misc Code
+    //***************************************************************************
+    //***************************************************************************
+
+    // toggle display of length descriptions
+    fw.toggleDesc = function() {
+      const log = logger(`${logPrefix}:toggleDesc()`);
+
+      // determine our target state: show/hide
+      const buttons = document.querySelectorAll('[data-fw-desc-toggle]');
+      const show = buttons.length > 0 && buttons[0].textContent.toLowerCase().includes('show');
+      log(`toggle display of lengthy descriptions: ${show ? 'show' : 'hide'}`);
+
+      // toggle any data-fw-desc-toggle button label (there can be many)
+      buttons.forEach(buttonElm => {
+        buttonElm.textContent = `${show ? 'Hide' : 'Show'} Descriptions`;
+      });
+
+      // apply directive to all data-fw-desc elements
+      const descElms = document.querySelectorAll('[data-fw-desc]');
+      descElms.forEach(elm => {
+        elm.style.display = show ? 'block' : 'none';
+      });
+    }
+
     
     //***************************************************************************
     //***************************************************************************

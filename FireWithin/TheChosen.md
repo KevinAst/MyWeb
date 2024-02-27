@@ -27,7 +27,17 @@
   the links will be serviced by your browser.
 
   Either way works.  Typically it is recommended to install the apps
-  (it's really your preference).
+  _(it's really your preference)_.
+
+
+**Descriptions:**
+
+- The descriptions have been compiled for both the series and each
+  episode.  However, because of limited space, these descriptions
+  are hidden by default.
+
+  You can toggle their display by simply clicking the **"Show
+  Descriptions"** button (at the top of each series).
 
 
 **Devotions Notes:**
@@ -53,6 +63,8 @@
 
 ## Season 1 
 
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
 Season 1 is set in 1st century Galilee, where Jesus starts to build a
 group for his ministry, inviting several people with different
 backgrounds.
@@ -66,9 +78,13 @@ As the group travels through Samaria and following his meeting with
 Nicodemus, Jesus launches his public ministry after revealing himself
 to Photina, a Samaritan woman.
 
+P{ inject('</div>') }P
+
 > [Season 1 Movies](https://www.bible.com/videos/collections/208-the-chosen-season-1) _(Bible App)_
 >
 > [Season 1 Reading Plan](https://www.bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan) _(Bible App)_
+
+<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
@@ -152,6 +168,8 @@ M{ sermonSeries({
 
 ## Season 2
 
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
 Beginning in Samaria, Season 2 moves into nearby regions such as Syria
 and Judea, where Jesus continues to build his group of students.
 
@@ -165,10 +183,13 @@ encounters both opportunities and difficulties.
 The season culminates with preparations being made for the Sermon on
 the Mount, with the help of the business apprentice Judas Iscariot.
 
+P{ inject('</div>') }P
 
 > [Season 2 Movies](https://www.bible.com/videos/collections/1389-the-chosen-season-2) _(Bible App)_
 >
 > [Season 2 Reading Plan](https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan) _(Bible App)_
+
+<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
@@ -253,6 +274,8 @@ M{ sermonSeries({
 
 ## Season 3
 
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
 “Come to me, you who are weary and heavy-laden, and I will give you
 rest.” 
 Season 3 picks up where Season 2 left off, with Jesus delivering
@@ -272,10 +295,13 @@ At the climactic end of the season in the Decapolis and at the Sea of
 Galilee, Jesus feeds thousands with loaves and fishes and then walks
 on the water.
 
+P{ inject('</div>') }P
 
 > [Season 3 Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) _(Bible App)_
 >
 > [Season 3 Reading Plan](https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan) _(Bible App)_
+
+<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
