@@ -10,11 +10,59 @@
 
 ## Overview
 
-> [The Chosen](https://thechosen.tv/) _(The Official App)_
+**What is it?** ... FROM [The Chosen](https://thechosen.tv/) site:
 
-?? what the series is
+The Chosen is a historical drama based on the life of Jesus Christ,
+seen through the eyes of those who knew him. Set against the backdrop
+of Roman oppression in first-century Israel, the seven-season show
+shares an authentic and intimate look at Jesus’ revolutionary life and
+teachings.
 
-?? some objections to the series ... That's OK
+The Chosen is based on the true stories of the Gospels of Jesus
+Christ. Some locations and timelines have been combined or
+condensed. Backstories and some characters or dialog have been added.
+
+However, all the bible and historical context and any artistic
+imagination are designed to support the truth and intention of the
+Scriptures. Viewers are encouraged to read the scripture and the
+Gospels.
+
+**Is it for me?**
+
+<!-- https://www.gotquestions.org/The-Chosen.html -->
+
+Watching **The Chosen** is a matter of conscience.  Some Christians
+appreciate the retelling of Jesus’ life, while others have
+difficulty with the artistic license involved with portraying Jesus’
+life on film _(and that's OK)_.
+
+I personally fall in the former camp.  This is not like any other
+"religious program" you have seen before.  It simply brings the
+biblical characters to life, and you realize they had many of the same
+experiences and struggles that we do today.
+
+I would encourage you to prayerfully discern whether watching the show
+will be a benefit or a hindrance to your walk with the Lord.
+
+**Why I created this page**
+
+This page was created to have a concise and consolidated set of links
+to the various _(somewhat disjointed)_ resources (i.e. the **streaming
+service**, and **devotions**).
+
+Consistent with all **"Fire Within"** studies, you have the
+"completion status" check boxes - to help keep track of where you are
+at in the series.
+
+**Season Release Dates**
+
+- Season 1: 04/21/2019
+- Season 2: 04/04/2021
+- Season 3: 11/05/2022
+- Season 4: 03/11/2024 ... _(best guess)_
+- Season 5: _TBD_
+- Season 6: _TBD_
+- Season 7: _TBD_
 
 
 ## Usage
@@ -32,17 +80,22 @@
 
 **Descriptions:**
 
-- The descriptions have been compiled for both the series and each
+- Descriptions have been compiled for both the series, and each
   episode.  However, because of limited space, these descriptions
-  are hidden by default.
+  **are hidden by default**.
 
   You can toggle their display by simply clicking the **"Show
   Descriptions"** button (at the top of each series).
 
 
-**Devotions Notes:**
+**Devotions:**
 
-- For some reason there is NOT a devotion for every episode. ?? expand
+- The devotions listed here are provided by "The Chosen" team.
+
+- There is not a devotion for every episode _(not quite sure why that
+  is)_.  If an episode does not have a devotion, that slot is blank.
+
+- The scripture references for each episode, come from the devotion.
 
 - To Run a Devotion: **long-press** the `Devotion` link, and click the
   "**open in browser**" option.
