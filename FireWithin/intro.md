@@ -83,11 +83,8 @@ promoting the following:
    Hamrick)_.  This is a non denominational evangelical church in
    Leesburg, VA. I have grown to love the ministry of Pastor Gary.  He
    provides so much insight to the scriptures, making them simply come
-   alive.
-   <!-- 
-     _(somewhat akin to watching [The Chosen](https://thechosen.tv) series
-     on thelife of Christ )_.
-    -->
+   alive _(somewhat akin to watching {{book.TheChosen}} series on the
+   life of Christ )_.
 
 I am so grateful for these biblical resources, and the men and women
 of God that have made them possible.
