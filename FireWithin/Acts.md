@@ -18,9 +18,9 @@ Jesus, the Gospel, and his Church.
 ### At a Glance
 
 - [Overview](#overview)
-- [2009 Acts Series](#2009-acts-series-sundays)
-- [2015-2016 Acts Series](#2015-2016-acts-series-mid-week)
-- [2023 Acts Series](#2023-acts-series-sundays)
+- [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
+- [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
+- [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
 
 
 ## Overview

@@ -23,9 +23,10 @@ Rome, and how Jesus brings them together.
 ### At a Glance
 
 - [Overview](#overview)
-- [2009 Romans Series](#2009-romans-series-sundays)
-- [2016 Romans Series](#2016-romans-series-mid-week)
+- [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
+- [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
 - [2021 Romans Misc](#2021-romans-misc)
+- [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
 
 
 ## Overview
@@ -81,6 +82,10 @@ M{ youTube(`kPsSW4Q3o9o`) }M
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2024, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 M{ sermonSeries({
   entries: [
     { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Rom 1-2`,    studyGuide: `NONE`, },
@@ -135,5 +140,23 @@ M{ sermonSeries({
     { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Rom 11:25`,  },
     { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Rom 12:1-2`, },
     { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Rom 13`,     },
+  ]
+}) }M
+
+
+## 2024 Romans Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+  //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
+  },
+  entries: [
+    { id: `20240107`, sermon: `First, the Bad News`,         scripture: `rom.1@@Rom 1:1-25`,  }, // studyGuide: `NONE`, date:`01/07/2024`
+    { id: `20240114`, sermon: `When a Culture Excludes God`, scripture: `rom.1@@Rom 1:24-32`, }, // studyGuide: `NONE`, date:`01/14/2024`
+    { id: `20240121`, sermon: `Guilty as Charged`,           scripture: `rom.2@@Rom 2`,       }, // studyGuide: `NONE`, date:`01/21/2024`
+    { id: `20240128`, sermon: `And Now, the Good News!`,     scripture: `rom.3@@Rom 3-4`,     }, // studyGuide: `NONE`, date:`01/28/2024`
+    { id: `20240204`, sermon: `Stepping Stones to Hope`,     scripture: `rom.5@@Rom 5`,       }, // studyGuide: `NONE`, date:`02/04/2024`
   ]
 }) }M

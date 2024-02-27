@@ -117,4 +117,12 @@
   * [Current Events](CurrentEvents.md)
 
 ----
+- [The Chosen](TheChosen.md)
+  * [Overview](TheChosen.md#overview)
+  * [Usage](TheChosen.md#usage)
+  * [Season 1](TheChosen.md#season-1)
+  * [Season 2](TheChosen.md#season-2)
+  * [Season 3](TheChosen.md#season-3)
+
+----
 * [Revision History](history.md)

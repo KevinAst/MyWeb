@@ -15,7 +15,7 @@ took on our darkness to make us holy like him.
 ### At a Glance
 
 - [Overview](#overview)
-- [2013 Leviticus Series](#2013-leviticus-series)
+- [2013 Leviticus Series (Sundays)](#2013-leviticus-series-sundays)
 
 
 ## Overview
@@ -68,7 +68,7 @@ M{ youTube(`9UKwweQFOec`) }M
 
 
 
-## 2013 Leviticus Series
+## 2013 Leviticus Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

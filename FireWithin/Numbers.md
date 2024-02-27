@@ -15,8 +15,7 @@ to himself.
 ### At a Glance
 
 - [Overview](#overview)
-- [2013 Numbers Series](#2013-numbers-series)
-
+- [2013 Numbers Series (Sundays)](#2013-numbers-series-sundays)
 
 ## Overview
 
@@ -68,7 +67,7 @@ M{ youTube(`3PfJ14JcLwE`) }M
 
 
 
-## 2013 Numbers Series
+## 2013 Numbers Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

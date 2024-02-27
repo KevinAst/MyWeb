@@ -230,6 +230,14 @@ Inject an html link (via the `<a>` tag) for the Study Guide of a specific sermon
 
 * ref: The sermon reference, for this Study Guide.
 
+  ALSO, this can be used to inject a completely different link (say a devotion)
+  using the following format: `url@@label`
+
+  ```
+  EXAMPLE: 
+    - `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`
+  ```
+
 **Custom Tag**
 
 ```
@@ -252,15 +260,21 @@ the desired Bible Translation.
 * ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
        and title (delimited with @@).
 
+       Multiple Entries are supported (delimited with ##).
+ 
+       Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
+
   ```
   EXAMPLE:
-    - 'rev.21.6-8@@Revelation 21:6-8'
+    - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+    - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
+    - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
   ```
 
 **Custom Tag**
 
 ```
-M{ bibleLink(`rev.21.6-8@@Revelation 21:6-8`) }M
+M{ bibleLink(`rev.21.6-8@@Rev 21:6-8`) }M
 ```
 
 
@@ -306,17 +320,26 @@ content of an entire sermon series.
                     string,  // - `https://www.youtube.com/...@@Label`: another URL link
                              // - OMITTED: nothing
 
+        desc:       string,  // description (OPTIONAL - DEFAULT: ``)
+                             // - by default, starts out hidden.
+                             // - developer must supply user with toggle to show/hide
+                             //   ... EX: <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button>
+                             //   ... see: fw.js - fw.toggleDesc()
+
         scripture:  string,  // per bibleLink() API (OPTIONAL)
-                             // - `mrk.1@@Mark 1`
+                             // - `mrk.1@@Mark 1`                   <<< single entry
+                             // - `mrk.1@@Mark 1##mrk.2@@Mark 2`    <<< multiple entries
+                             // - `mrk.1@@Mark 1##mrk.2@@CR:Mark 2` <<< multiple entries, with line breaks (cr/lf)
                              // - OMITTED: No Scripture for this entry
 
-        extraScriptureLink:  // additional url link in the scripture cell (OPTIONAL)
+        extraLinkInScriptureCell:  // additional url link in the scripture cell (OPTIONAL)
                     string,  // - `https://www.youtube.com/...@@Label`: another URL link
                              // - OMITTED: nothing
 
         studyGuide: string,  // study guide ref (when ref varies from id - a CornerStone mismatch/bug) (OPTIONAL - DEFAULT: use entry id)
                              // - OMITTED: use entry id (per CornerStone standard)
                              // - `NONE`: NO Study Guide for this entry
+                             // - `https://bible.com/reading-plans/snip.snip@@Devotion (Bible App)`: a devotion (not a standard Study Guide)
                              // NOTE: when settings.includeStudyGuide: false ... this directive is completely ignored
 
         date:       string,  // `MM/DD/YYYY` (OPTIONAL - DEFAULT: derivation of entry id)
@@ -399,7 +422,7 @@ M{ sermonSeries({
   entries: [
     { id: `20120205`, sermon: `The Cost of Compromise`,                           scripture:`gen.18@@Genesis 18-19`, },
     { id: `20150705`, sermon: `America, Will You Stand?`,                         studyGuide: `NONE`, },
-    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraScriptureLink: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
+    { id: `20220727`, sermon: `Evening Special with Patti Height`,                studyGuide: `NONE`, extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
     { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture:`rom.1@@Romans 1:18-28`, },
   ]
 }) }M
@@ -410,8 +433,8 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraScriptureLink: `https://www.johnlennox.org/@@John Lennox`, },
-    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraScriptureLink: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`, },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },
   ]
 }) }M
 ```

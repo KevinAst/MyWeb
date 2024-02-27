@@ -16,8 +16,7 @@ instead of Law breakers.
 ### At a Glance
 
 - [Overview](#overview)
-- [2013 Deuteronomy Series](#2013-deuteronomy-series)
-
+- [2013 Deuteronomy Series (Sundays)](#2013-deuteronomy-series-sundays)
 
 ## Overview
 
@@ -62,7 +61,7 @@ M{ youTube(`DfHlvrAKMoU`) }M
 
 
 
-## 2013 Deuteronomy Series
+## 2013 Deuteronomy Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

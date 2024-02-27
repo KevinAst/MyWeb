@@ -12,8 +12,8 @@ Jesus is the Son of God who died for our sins.
 ### At a Glance
 
 - [Overview](#overview)
-- [2015 John Series](#2015-john-series-mid-week)
-- [2022 John Series](#2022-john-series-sundays)
+- [2015 John Series (Mid Week)](#2015-john-series-mid-week)
+- [2022 John Series (Sundays)](#2022-john-series-sundays)
 - [2023 John Series (My Small Group)](#2023-john-series-my-small-group)
 
 

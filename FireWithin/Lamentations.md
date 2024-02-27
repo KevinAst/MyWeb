@@ -11,9 +11,8 @@ hope–God's mercies are new every morning!
 ### At a Glance
 
 - [Overview](#overview)
-- [2019 Lamentations Series](#2019-lamentations-series-sundays)
+- [2019 Lamentations Series (Sundays)](#2019-lamentations-series-sundays)
 - [2023 Lamentations Series (My Small Group)](#2023-lamentations-series-my-small-group)
-
 
 ## Overview
 

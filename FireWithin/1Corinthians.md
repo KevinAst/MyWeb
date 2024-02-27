@@ -17,8 +17,8 @@ cross is the wisest thing that has ever happened.
 ### At a Glance
 
 - [Overview](#overview)
-- [2009 1 Corinthians Series](#2009-1-corinthians-series-sundays)
-- [2016-2017 1 Corinthians Series](#2016-2017-1-corinthians-series-mid-week)
+- [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
+- [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
 
 
 ## Overview

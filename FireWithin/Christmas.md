@@ -4,6 +4,7 @@
 
 M{ sermonSeries({
   entries: [
+    { id: `19651209`, sermon: `https://www.youtube.com/watch?v=FL6_lPd7kkY@@A Charlie Brown Christmas`, scripture: `luk.2.8-14@@Luke 2:8-14`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas@@History`, studyGuide: `NONE`, },
     { id: `20081221`, sermon: `Taking the Right Approach to Christmas`, scripture: `luk.1@@Luke 1-2`,          studyGuide: `NONE`, },
     { id: `20091224`, sermon: `Midweek Bible Study - Christmas Eve`,                                           studyGuide: `NONE`, },
     { id: `20101219`, sermon: `REMEMBER the Christmas Meaning`,         scripture: `luk.2@@Luke 2:1-20`,       studyGuide: `NONE`, },
@@ -24,7 +25,7 @@ M{ sermonSeries({
     { id: `20181209`, sermon: `The Road to Christmas – The Virgin`,     scripture: `isa.7@@Isaiah 7`,          studyGuide: `NONE`, },
     { id: `20181216`, sermon: `The Road to Christmas – the Prophets`,   scripture: `mat.1@@Matthew 1-2`,       studyGuide: `NONE`, },
     { id: `20181223`, sermon: `A Stable Heart`,                         scripture: `luk.2@@Luke 2`,            studyGuide: `NONE`, },
-    { id: `20191224`, sermon: `God's Gift to the World`,                scripture: `mat.1@@Matthew 1`,         studyGuide: `NONE`, extraScriptureLink: `https://bible.com/bible/116/luk.2.NLT@@Luke 2`, },
+    { id: `20191224`, sermon: `God's Gift to the World`,                scripture: `mat.1@@Matthew 1##luk.2@@CR:Luke 2`,  studyGuide: `NONE`, },
     { id: `20201213`, sermon: `Season of Peace`,                        scripture: `luk.2@@Luke 2:8-17`,       studyGuide: `NONE`, },
     { id: `20201220`, sermon: `Season of Joy`,                          scripture: `luk.2@@Luke 2:8-11`,       studyGuide: `NONE`, },
     { id: `20201224`, sermon: `Season of Hope`,                         scripture: `mat.1@@Matthew 1`,         studyGuide: `NONE`, },
@@ -33,5 +34,6 @@ M{ sermonSeries({
     { id: `20221211`, sermon: `Lessons From A Teenager`,                scripture: `luk.1@@Luke 1`,                                },
     { id: `20221224`, sermon: `A Census, An Angel, and a Star`,                                                studyGuide: `NONE`, },
     { id: `20221225`, sermon: `God’s Gift to the World`,                scripture: `mat.1@@Matthew 1`,         studyGuide: `NONE`, },
+    { id: `20231224`, sermon: `No Greater Gift`,                        scripture: `isa.9.6-7@@Isaiah 9:6-7`,  studyGuide: `NONE`, },
   ]
 }) }M
