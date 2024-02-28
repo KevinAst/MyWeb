@@ -133,11 +133,10 @@ to Photina, a Samaritan woman.
 
 P{ inject('</div>') }P
 
-> [Season 1 Movies](https://www.bible.com/videos/collections/208-the-chosen-season-1) _(Bible App)_
->
-> [Season 1 Reading Plan](https://www.bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan) _(Bible App)_
-
-<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+> Bible App (Season 1) ... 
+> [Movies](https://www.bible.com/videos/collections/208-the-chosen-season-1) • 
+> [Devotions](https://www.bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan)
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
@@ -238,11 +237,10 @@ the Mount, with the help of the business apprentice Judas Iscariot.
 
 P{ inject('</div>') }P
 
-> [Season 2 Movies](https://www.bible.com/videos/collections/1389-the-chosen-season-2) _(Bible App)_
->
-> [Season 2 Reading Plan](https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan) _(Bible App)_
-
-<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+> Bible App (Season 2) ... 
+> [Movies](https://www.bible.com/videos/collections/1389-the-chosen-season-2) • 
+> [Devotions](https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan)
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
@@ -350,11 +348,10 @@ on the water.
 
 P{ inject('</div>') }P
 
-> [Season 3 Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) _(Bible App)_
->
-> [Season 3 Reading Plan](https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan) _(Bible App)_
-
-<button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+> Bible App (Season 3) ... 
+> [Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) • 
+> [Devotions](https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan)
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
 M{ sermonSeries({
   entries: [
