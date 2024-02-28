@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v21.2](#v21_2)   | The Chosen Season 4  | *Mar 11, 2024*
 [v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
 [v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
@@ -54,6 +55,17 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v21_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v21.2 - The Chosen Season 4 <i>(Mar 11, 2024)</i>
+</h3>
+<br/>
+
+- ?? **{{book.TheChosen}}** Season 4 was released on ??, and has now been added to our site!
+
 
 <!-- ************************************************************* -->
 <br/>
