@@ -65,6 +65,10 @@ Release           | What                 | *When*
 <br/>
 
 - ?? **{{book.TheChosen}}** Season 4 was released on ??, and has now been added to our site!
+- More **{{book.TheChosen}}** refinements:
+  * Streamline "Bible App" main links for each season
+  * Add Devotion Day indicator _(ex: Devotion-3)_, making it easier to correlate manually
+  * Season 2 Devotion-3 has been fixed on Bible App ... apply it to Episode 4 and add scripture
 
 
 <!-- ************************************************************* -->
