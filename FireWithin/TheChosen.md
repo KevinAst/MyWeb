@@ -262,16 +262,13 @@ M{ sermonSeries({
       studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/2@@Devotion-2`,
       date:               `04/04/2021`,
     },
-
-    // NOTE: Day 3 of Reading Plan IS MISSING ... don't know 1) if it is Episode 3 or 4, 2) don't know scripture
-    //       ... https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/3
     {
       id:                 `TC-S2-E3`, 
       sermon:             `https://watch.thechosen.tv/video/184683594355@@Matthew 4:24`,
 //    extraSermonLink:    `https://www.bible.com/videos/41882-203-matthew-4-24@@&nbsp;&nbsp;<i>Alt Stream (Bible App)</i>`,
       desc:               `A long, exhausting day turns into night as the disciples help Jesus deal with a large crowd hoping to be healed. Around the campfire, over dinner, the group tried to get to know each other better. But tensions erupt.`,
-//    scripture:          `UNKNOWN - see NOTE above`,
-      studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/3@@Devotion-3 (MISSING)`,
+//    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
+      studyGuide:         `NONE`,
       date:               `04/04/2021`,
     },
     {
@@ -279,8 +276,8 @@ M{ sermonSeries({
       sermon:             `https://watch.thechosen.tv/video/184683594356@@The Perfect Opportunity`,
 //    extraSermonLink:    `https://www.bible.com/videos/41883-204-the-perfect-opportunity@@&nbsp;&nbsp;<i>Alt Stream (Bible App)</i>`,
       desc:               `As Jesus and the disciples head to Jerusalem to celebrate the Feast of Tabernacles, a new enemy follows them, while a familiar enemy awaits.`,
-//    scripture:          `UNKNOWN - see NOTE above`,
-      studyGuide:         `NONE`,
+      scripture:          `jhn.5.1-18@@John 5:1-18`,
+      studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/3@@Devotion-3`,
       date:               `04/04/2021`,
     },
     {
