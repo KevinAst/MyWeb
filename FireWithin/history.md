@@ -66,9 +66,11 @@ Release           | What                 | *When*
 
 - ?? **{{book.TheChosen}}** Season 4 was released on ??, and has now been added to our site!
 - More **{{book.TheChosen}}** refinements:
-  * Streamline "Bible App" main links for each season
-  * Add Devotion Day indicator _(ex: Devotion-3)_, making it easier to correlate manually
-  * Season 2 Devotion-3 has been fixed on Bible App ... apply it to Episode 4 and add scripture
+  * Re-formated the sections of the {{book.TCOverviewM}}/{{book.TCUsageM}} and added "Casting Instructions".
+  * Added a "crowdfunding" description in {{book.TCOverviewM}}.
+  * Streamlined the main "Bible App" links for each season.
+  * Added devotion day indicators _(ex: Devotion-3)_, making it easier to correlate manually.
+  * Devotion-3 of {{book.TCSeason2M}} has been fixed on the Bible App.  Applied this to Episode 4 and added scriptures.
 
 
 <!-- ************************************************************* -->

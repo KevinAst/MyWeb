@@ -10,108 +10,126 @@
 
 ## Overview
 
-**What is it?** ... FROM [The Chosen](https://thechosen.tv/) site:
+- **What is it?** ... _from [The Chosen](https://thechosen.tv/) site:_
 
-The Chosen is a historical drama based on the life of Jesus Christ,
-seen through the eyes of those who knew him. Set against the backdrop
-of Roman oppression in first-century Israel, the seven-season show
-shares an authentic and intimate look at Jesus’ revolutionary life and
-teachings.
+  The Chosen is a historical drama based on the life of Jesus Christ,
+  seen through the eyes of those who knew him. Set against the backdrop
+  of Roman oppression in first-century Israel, the seven-season show
+  shares an authentic and intimate look at Jesus’ revolutionary life and
+  teachings.
 
-The Chosen is based on the true stories of the Gospels of Jesus
-Christ. Some locations and timelines have been combined or
-condensed. Backstories and some characters or dialog have been added.
+  The Chosen is based on the true stories of the Gospels of Jesus
+  Christ. Some locations and timelines have been combined or
+  condensed. Backstories and some characters or dialog have been added.
 
-However, all the bible and historical context and any artistic
-imagination are designed to support the truth and intention of the
-Scriptures. Viewers are encouraged to read the scripture and the
-Gospels.
+  However, all the bible and historical context and any artistic
+  imagination are designed to support the truth and intention of the
+  Scriptures. Viewers are encouraged to read the scripture and the
+  Gospels.
 
-**Is it for me?**
+- **It's Free!**
 
-<!-- https://www.gotquestions.org/The-Chosen.html -->
+  The Chosen uses a "crowdfunding" approach, so it's completely free
+  to watch.  They utilize a "Pay it Forward" model, so you can
+  contribute if you wish, offsetting some of their costs, keeping
+  the show free.
 
-Watching **The Chosen** is a matter of conscience.  Some Christians
-appreciate the retelling of Jesus’ life, while others have
-difficulty with the artistic license involved with portraying Jesus’
-life on film _(and that's OK)_.
+  From the onset of Season 2, they will pre-release a new season in
+  theaters for a short time.  After that, they will make the new
+  season available through their free app.
 
-I personally fall in the former camp.  This is not like any other
-"religious program" you have seen before.  It simply brings the
-biblical characters to life, and you realize they had many of the same
-experiences and struggles that we do today.
+- **Is it for me?**
 
-I would encourage you to prayerfully discern whether watching the show
-will be a benefit or a hindrance to your walk with the Lord.
+  <!-- https://www.gotquestions.org/The-Chosen.html -->
 
-**Why I created this page**
+  Watching **The Chosen** is a matter of conscience.  Some Christians
+  appreciate the retelling of Jesus’ life, while others have
+  difficulty with the artistic license involved with portraying Jesus’
+  life on film _(and that's OK)_.
 
-This page was created to have a concise and consolidated set of links
-to the various _(somewhat disjointed)_ resources (i.e. the **streaming
-service**, and **devotions**).
+  I personally fall in the former camp.  This is not like any other
+  "religious program" you have seen before.  It simply brings the
+  biblical characters to life, and you realize they had many of the same
+  experiences and struggles that we do today.
 
-Consistent with all **"Fire Within"** studies, you have the
-"completion status" check boxes - to help keep track of where you are
-at in the series.
+  I would encourage you to prayerfully discern whether watching the show
+  will be a benefit or a hindrance to your walk with the Lord.
 
-**Season Release Dates**
+- **Why I created this page**
 
-- Season 1: 04/21/2019
-- Season 2: 04/04/2021
-- Season 3: 11/05/2022
-- Season 4: 03/11/2024 ... _(best guess)_
-- Season 5: _TBD_
-- Season 6: _TBD_
-- Season 7: _TBD_
+  This page was created to have a concise and consolidated set of links
+  to the various _(somewhat disjointed)_ resources (i.e. the **streaming
+  service**, and **devotions**).
+  
+  Consistent with all **"Fire Within"** studies, you have the
+  "completion status" check boxes - to help keep track of where you are
+  at in the series.
+  
+- **Release Dates**
+  
+  - {{book.TCSeason1M}}: 04/21/2019
+  - {{book.TCSeason2M}}: 04/04/2021
+  - {{book.TCSeason3M}}: 11/05/2022
+  - Season 4: 03/11/2024 ... _(TBD: best guess)_
+  - Season 5: _TBD_
+  - Season 6: _TBD_
+  - Season 7: _TBD_
 
 
 ## Usage
 
-**Install the Apps?**
-
-- When you have installed the appropriate applications (i.e. "The
+- **Install the Apps?**
+  
+  When you have installed the appropriate applications (i.e. "The
   Chosen App", or the "YouVersion Bible App"), the links below will be
   serviced by the app itself.  If you have NOT installed these apps,
   the links will be serviced by your browser.
-
+  
   Either way works.  Typically it is recommended to install the apps
   _(it's really your preference)_.
+  
+- **Casting**
+  
+  Even though you are streaming an episode from your mobile device,
+  you can cast it to your SmartTV, allowing everyone to enjoy it
+  together.
 
-
-**Descriptions:**
-
-- Descriptions have been compiled for both the series, and each
+  Here are some instructions that walk you through the process:
+  [How to cast to your TV?](https://support.angel.com/hc/en-us/articles/4410287250327-How-to-cast-to-your-TV)
+  
+- **Descriptions**
+  
+  Descriptions have been compiled for both the series, and each
   episode.  However, because of limited space, these descriptions
   **are hidden by default**.
-
+  
   You can toggle their display by simply clicking the **"Show
   Descriptions"** button (at the top of each series).
-
-
-**Devotions:**
-
-- The devotions listed here are provided by "The Chosen" team.
-
-- There is not a devotion for every episode _(not quite sure why that
+  
+- **Devotions**
+  
+  The devotions listed here are provided by "The Chosen" team.
+  
+  There is not a devotion for every episode _(not quite sure why that
   is)_.  If an episode does not have a devotion, that slot is blank.
-
-- The scripture references for each episode, come from the devotion.
-
-- To Run a Devotion: **long-press** the `Devotion` link, and click the
+  
+  The scripture references for each episode, come from the devotion.
+  
+  To Run a Devotion: **long-press** the `Devotion` link, and click the
   "**open in browser**" option.
-
-  _Background:_
-
-  Normally, you must subscribe to a Bible Reading Plan, in order to
-  use it.  This allows the Bible App to track your progress.
-  The devotion links, provided below, are generic - in that they do
-  NOT contain any of your account subscription information.  This
-  works when running in a browser, however, when clicked on a mobile
-  device, it is serviced by your installed Bible App, and generates an
-  error, stating: "**No reading plan content**".
-
-  To work around this, simply **long-press** the `Devotion` link, and
-  click the "**open in browser**" option.
+  
+  - _Background:_
+  
+    Normally, you must subscribe to a Bible Reading Plan, in order to
+    use it.  This allows the Bible App to track your progress.
+    The devotion links, provided below, are generic - in that they do
+    NOT contain any of your account subscription information.  This
+    works when running in a browser, however, when clicked on a mobile
+    device, it is serviced by your installed Bible App, and generates an
+    error, stating: "**No reading plan content**".
+  
+    To work around this, simply **long-press** the `Devotion` link, and
+    click the "**open in browser**" option.
 
 
 ## Season 1 
