@@ -33,6 +33,38 @@ extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`
 
 
 *----------------------------
+* Marriage & Divorce
+*----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+05/07/2023
+The Unashamed Life
+Romans 1:16-17
+rom.1.16-17
+
+>> FOR ABOVE ********************************************************************************
+sermon: `the-unashamed-life@@The Unashamed Life`,
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://alandlisarobertson.com/our-story@@Al Robertson`,
+
+01/22/2023
+The God of Restoration
+John 21
+jhn.21
+
+08/30/2020
+Jesus on Divorce
+Matthew 5:31-32
+mat.5.31-32
+
+10/25/2009
+Singleness, Marriage, Sex, and Divorce
+1 Corinthians 7
+1co.7
+
+
+*----------------------------
 * Election Day Sermons
 *----------------------------
 

@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v21.2](#v21_2)   | The Chosen Season 4  | *Mar 11, 2024*
+[v21.2](#v21_2)   | Misc                 | *Mar 5, 2024*
 [v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
 [v20.1](#v20_1)   | Misc                 | *Dec 22, 2023*
@@ -60,17 +60,17 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v21_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v21.2 - The Chosen Season 4 <i>(Mar 11, 2024)</i>
+  v21.2 - Misc <i>(Mar 5, 2024)</i>
 </h3>
 <br/>
 
-- ?? **{{book.TheChosen}}** Season 4 was released on ??, and has now been added to our site!
-- More **{{book.TheChosen}}** refinements:
+- **{{book.TheChosen}}** refinements:
   * Re-formated the sections of the {{book.TCOverviewM}}/{{book.TCUsageM}} and added "Casting Instructions".
   * Added a "crowdfunding" description in {{book.TCOverviewM}}.
   * Streamlined the main "Bible App" links for each season.
   * Added devotion day indicators _(ex: Devotion-3)_, making it easier to correlate manually.
   * Devotion-3 of {{book.TCSeason2M}} has been fixed on the Bible App.  Applied this to Episode 4 and added scriptures.
+- Added {{book.MarriageAndDivorce}} series in {{book.CurrentEvents}} _(under {{book.SpecialEvents}})_.
 
 
 <!-- ************************************************************* -->
