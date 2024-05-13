@@ -106,5 +106,12 @@ M{ sermonSeries({
     { id: `20231018`, scripture: `2sa.12@@2 Samuel 12:1-23`,     },
     { id: `20231101`, scripture: `2sa.12@@2 Samuel 12:24-13:39`, },
     { id: `20231115`, scripture: `2sa.14@@2 Samuel 14-15:6`,     },
+    { id: `20240103`, scripture: `2sa.15@@2 Samuel 15:7-37`,     },
+    { id: `20240110`, scripture: `2sa.16@@2 Samuel 16-17`,       },
+    { id: `20240117`, scripture: `2sa.18@@2 Samuel 18`,          },
+    { id: `20240124`, scripture: `2sa.19@@2 Samuel 19`,          },
+    { id: `20240131`, scripture: `2sa.20@@2 Samuel 20`,          },
+    { id: `20240313`, scripture: `2sa.21@@2 Samuel 21-22`,       },
+    { id: `20240320`, scripture: `2sa.23@@2 Samuel 23-24`,       },
   ]
 }) }M

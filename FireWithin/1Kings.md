@@ -15,6 +15,7 @@ to us in the death and resurrection of Jesus.
 
 - [Overview](#overview)
 - [2015 1 Kings Series (Sundays)](#2015-1-kings-series-sundays)
+- [2024 1 Kings Series (Mid Week)](#2024-1-kings-series-mid-week)
 
 
 ## Overview
@@ -83,5 +84,21 @@ M{ sermonSeries({
     { id: `20150308`, sermon: `Divided Kingdom, Divided Hearts`,             scripture: `1ki.12@@1 Kings 12-18`, },
     { id: `20150315`, sermon: `God Help, I'm Depressed`,                     scripture: `1ki.19@@1 Kings 19`,    },
     { id: `20150322`, sermon: `Stand Your Ground`,                           scripture: `1ki.20@@1 Kings 20-22`, },
+  ]
+}) }M
+
+## 2024 1 Kings Series (Mid Week)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20240403`, scripture: `1ki.1@@1 Kings 1`, },
+    { id: `20240417`, scripture: `1ki.2@@1 Kings 2`, },
+    { id: `20240424`, scripture: `1ki.3@@1 Kings 3`, },
+    { id: `20240508`, scripture: `1ki.4@@1 Kings 4`, },
   ]
 }) }M
