@@ -31,7 +31,7 @@
     "ext": "md,js,css,jpg,png"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^6.1.1",
     "gitbook-cli": "^2.3.2",
     "http-server": "^14.1.1",
     "nodemon": "^2.0.15",

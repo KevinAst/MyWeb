@@ -153,10 +153,15 @@ M{ sermonSeries({
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
   entries: [
-    { id: `20240107`, sermon: `First, the Bad News`,         scripture: `rom.1@@Rom 1:1-25`,  }, // studyGuide: `NONE`, date:`01/07/2024`
-    { id: `20240114`, sermon: `When a Culture Excludes God`, scripture: `rom.1@@Rom 1:24-32`, }, // studyGuide: `NONE`, date:`01/14/2024`
-    { id: `20240121`, sermon: `Guilty as Charged`,           scripture: `rom.2@@Rom 2`,       }, // studyGuide: `NONE`, date:`01/21/2024`
-    { id: `20240128`, sermon: `And Now, the Good News!`,     scripture: `rom.3@@Rom 3-4`,     }, // studyGuide: `NONE`, date:`01/28/2024`
-    { id: `20240204`, sermon: `Stepping Stones to Hope`,     scripture: `rom.5@@Rom 5`,       }, // studyGuide: `NONE`, date:`02/04/2024`
+    { id: `20240107`, sermon: `First, the Bad News`,               scripture: `rom.1@@Rom 1:1-25`,  },
+    { id: `20240114`, sermon: `When a Culture Excludes God`,       scripture: `rom.1@@Rom 1:24-32`, },
+    { id: `20240121`, sermon: `Guilty as Charged`,                 scripture: `rom.2@@Rom 2`,       },
+    { id: `20240128`, sermon: `And Now, the Good News!`,           scripture: `rom.3@@Rom 3-4`,     },
+    { id: `20240204`, sermon: `Stepping Stones to Hope`,           scripture: `rom.5@@Rom 5`,       },
+    { id: `20240303`, sermon: `What Adam Ruined, Jesus Redeemed`,  scripture: `rom.5@@Rom 5:12-21`, },
+    { id: `20240310`, sermon: `Getting Victory over Sin`,          scripture: `rom.6@@Rom 6:1-14`,  },
+    { id: `20240317`, sermon: `The Importance of God's Law`,       scripture: `rom.7@@Rom 7`,       },
+    { id: `20240407`, sermon: `No Condemnation, No Separation`,    scripture: `rom.8@@Rom 8`,       },
+    { id: `20240414`, sermon: `Winning the War Within`,            scripture: `rom.8@@Rom 8`,       },
   ]
 }) }M
