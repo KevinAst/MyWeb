@@ -21,6 +21,7 @@ Jesus, the Gospel, and his Church.
 - [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
+- [2024 Acts Series (My Small Group)](#2024-acts-series-my-small-group)
 
 
 ## Overview
@@ -175,3 +176,30 @@ M{ sermonSeries({
     { id: `20231203`, sermon: `Being Relatable for Christ`,                                    scripture: `act.28@@Acts 28`,       },
   ]
 }) }M
+
+
+## 2024 Acts Series (My Small Group)
+
+{{book.FBM}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20240602`, sermon: `TXT@@Commissioned`, scripture: `act.1@@Acts 1:4-11,23-26`, date:`06/02/2024`, },
+    { id: `SG20240609`, sermon: `TXT@@Empowered`,    scripture: `act.2@@Acts 2:5-16,36-38`, date:`06/09/2024`, },
+    { id: `SG20240616`, sermon: `TXT@@United`,       scripture: `act.2@@Acts 2:41-47`,      date:`06/16/2024`, },
+    { id: `SG20240623`, sermon: `TXT@@Placed`,       scripture: `act.3@@Acts 3:12-26`,      date:`06/23/2024`, },
+    { id: `SG20240630`, sermon: `TXT@@Emboldened`,   scripture: `act.4@@Acts 4:8-21`,       date:`06/30/2024`, },
+    { id: `SG20240707`, sermon: `TXT@@Accountable`,  scripture: `act.4@@Acts 4:36–5:11`,    date:`07/07/2024`, },
+    { id: `SG20240714`, sermon: `TXT@@Worthy`,       scripture: `act.5@@Acts 5:29-42`,      date:`07/14/2024`, },
+    { id: `SG20240721`, sermon: `TXT@@Serving`,      scripture: `act.6@@Acts 6:1-15`,       date:`07/21/2024`, },
+    { id: `SG20240728`, sermon: `TXT@@Baptizing*`,   scripture: `act.8@@Acts 8:26-39`,      date:`07/28/2024`, },
+    { id: `SG20240804`, sermon: `TXT@@Calling`,      scripture: `act.9@@Acts 9:3-16`,       date:`08/04/2024`, },
+    { id: `SG20240811`, sermon: `TXT@@Healing`,      scripture: `act.9@@Acts 9:32-43`,      date:`08/11/2024`, },
+    { id: `SG20240818`, sermon: `TXT@@Including`,    scripture: `act.10@@Acts 10:34-48`,    date:`08/18/2024`, },
+    { id: `SG20240825`, sermon: `TXT@@Praying`,      scripture: `act.12@@Acts 12:6-18`,     date:`08/25/2024`, },
+  ]
+}) }M
+

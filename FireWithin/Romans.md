@@ -163,5 +163,7 @@ M{ sermonSeries({
     { id: `20240317`, sermon: `The Importance of God's Law`,       scripture: `rom.7@@Rom 7`,       },
     { id: `20240407`, sermon: `No Condemnation, No Separation`,    scripture: `rom.8@@Rom 8`,       },
     { id: `20240414`, sermon: `Winning the War Within`,            scripture: `rom.8@@Rom 8`,       },
+    { id: `20240512`, sermon: `All Things Work Together for Good`, scripture: `rom.8@@Rom 8:28`,    },
+    { id: `20240519`, sermon: `Israel: Past, Present, and Future`, scripture: `rom.9@@Rom 9-11`,    studyGuide: `NONE`, },
   ]
 }) }M

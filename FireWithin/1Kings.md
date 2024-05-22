@@ -100,5 +100,6 @@ M{ sermonSeries({
     { id: `20240417`, scripture: `1ki.2@@1 Kings 2`, },
     { id: `20240424`, scripture: `1ki.3@@1 Kings 3`, },
     { id: `20240508`, scripture: `1ki.4@@1 Kings 4`, },
+    { id: `20240515`, scripture: `1ki.5@@1 Kings 5-6`, },
   ]
 }) }M
