@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v21.4](#v21_4)   | Sync Current Sermon Series  | *May 22, 2024*
 [v21.3](#v21_3)   | Sync Current Sermon Series  | *May 13, 2024*
 [v21.2](#v21_2)   | Misc                 | *Mar 5, 2024*
 [v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
@@ -56,6 +57,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v21_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v21.4 - Sync Current Sermon Series <i>(May 22, 2024)</i>
+</h3>
+<br/>
+
+- Sync Current {{book.Romans}} Series (Sundays)
+- Sync Current {{book.1Kings}} Series (Mid Week)
+
+
 
 <!-- ************************************************************* -->
 <br/>
