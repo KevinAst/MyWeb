@@ -68,7 +68,7 @@ Release           | What                 | *When*
 
 - Sync Current {{book.Romans}} Series (Sundays)
 - Sync Current {{book.1Kings}} Series (Mid Week)
-
+- Added "My Small Group" section in {{book.Acts}}
 
 
 <!-- ************************************************************* -->
