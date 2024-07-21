@@ -56,37 +56,36 @@ account**.  When you do this, your state is maintained in the cloud,
 and **automatically syncs across all devices** _(that are signed-in to
 the same account)_.
 
-**Creating an account is easy**.  We simply use your phone number as
-an account identifier.  Your phone is "verified" by texting a
-temporary "verification code", which you use to sign-in.  **It's that
-simple** _(no need to remember "yet another password")_.  Because the
-sign-in is "long lived", you only have to do this once _(per device)_
-... unless you sign-out for some reason.
+**Establishing and using a Fire Within user account is easy!**
 
-<!-- Our sign-in form, that gathers phone number.
+<!-- Our sign-in form, that gathers email/pass.
      - A "submit" button type is used to facilitate auto submit on text-box enter
-     - The id on the "submit" button IS REQUIRED to integrate with the invisible
-       "reCAPTCHA verifier widget" ... see: js/fwAuth.js
  -->
-<form id="signInForm" onsubmit="fw.handlePhoneSignIn(event)">
-    <label for="signInPhoneNum">Phone:</label>
-    <input type="tel" id="signInPhoneNum" name="signInPhoneNum" placeholder="nnn-nnn-nnnn">
-    <button type="submit" id="NOT_signInButton">Sign In</button>
-    <i>standard text rates apply</i>
-    <p id="signInMsg" style="color: red;"></p>
-</form>
 
-<!-- OK ... This is REALLY QUERKY ...
-     - when the "signInButton" is registered to the submit button (above)
-       * it works the first time
-       * but it no-ops on subsequent attempts (when user errors/msgs are in the mix)
-     - when the "signInButton" is registered outside the form, it works in ALL cases
-       * and appariently it does NOT have to be on a button that is clicked
-     - FYI: this is where the "invisible" reCAPTCHA verifier widget is rendered
- -->
-<div id="signInButton"></div>
+<ul> <!-- poor-man's indentation -->
+  <form id="signInForm" onsubmit="fw.handleSignInWithEmailPass(event)">
+  
+      <!-- ?? changed "signInEmail" with "username" per standards recomendation  -->
+      <label for="username"><b>Email:</b></label>
+      <input type="email" id="username" name="username" autocomplete="username" required placeholder="me@gmail.com">
+  
+      <!-- ?? changed "signInPass" with "current-password" per standards recomendation  -->
+      <label for="current-password"><b>Password:</b></label>
+      <input type="password" id="current-password" name="current-password" autocomplete="current-password" required>
+  
+      <button type="submit">Sign In</button>
+      <button onclick="fw.handleSignUpWithEmailPass(event)">Sign Up</button>
+  
+      <p id="signInMsg" style="color: red;"></p>
+  </form>
+</ul>
 
-- **International Users:** use a direct E.164 format _(beginning with "+")_
+- Just enter your email & password _(specific to your **Fire Within** account)_
+  - and click **Sign In** for existing accounts
+  - or **Sign Up** to establish a new account _(i.e. your first time)_
+
+
+- Forgot your password? ?? WHAT DO I DO?
 
 - <mark><b>IMPORTANT:</b></mark> When your account is first created
   _(the first time you sign-in)_, the state **from your device** will be
@@ -114,31 +113,11 @@ P{ inject('<div id="explain-sms-text-exceeded" style="display: none;">') }P
 
 P{ inject('</div>') }P
 
-P{ inject('</div> <div id="sign-in-form-verifying" style="color: green;">') }P
-
-Your sign-in request is **in-progress**.
-
-A text message has been sent to your phone at: M{ userPhone() }M.
-
-To complete your sign-in, please enter the verification code _(from that text)_.
-
-<!-- Our verification form, that gathers the one-time-code.
-     - A "submit" button type is used to facilitate auto submit on text-box enter
- -->
-<form id="verifyForm" onsubmit="fw.handlePhoneVerify(event)">
-    <label for="verifyCode">Code:</label>
-    <input type="text" id="verifyCode" name="verifyCode">
-    <button type="submit">Verify</button>
-    <button onclick="fw.verifyPhoneCancel(); return false;">Cancel</button>
-    <p id="verifyMsg" style="color: red;"></p>
-</form>
-
-
-P{ inject('</div> <div id="sign-in-form-verified" style="color: blue;">') }P
+P{ inject('</div> <div id="sign-in-form-signed-in" style="color: blue;">') }P
 
 Hello M{ userName() }M,
 
-You have signed-in to your Fire Within account, using phone: M{ userPhone() }M.
+You have signed-in to your Fire Within account, using email: M{ userEmail() }M.
 
 As a result, your state _(i.e. completions and settings)_ are retained
 in the cloud, and automatically synced to all devices _(that are

@@ -51,9 +51,8 @@ import {fwCompletions} from './fwCompletions.js';
 // ... state-related-settings
 import {fwSettings} from './fwSettings.js';
 
-import {handlePhoneSignIn,
-        handlePhoneVerify,
-        verifyPhoneCancel,
+import {handleSignInWithEmailPass,
+        handleSignUpWithEmailPass,
         requestSignOutConfirmation,
         cancelSignOutConfirmation,
         signOut} from './fwAuth.js';
@@ -494,9 +493,8 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
 
     // promote sign-in/sign-out utils
-    fw.handlePhoneSignIn          = handlePhoneSignIn;
-    fw.handlePhoneVerify          = handlePhoneVerify;
-    fw.verifyPhoneCancel          = verifyPhoneCancel;
+    fw.handleSignInWithEmailPass  = handleSignInWithEmailPass;
+    fw.handleSignUpWithEmailPass  = handleSignUpWithEmailPass;
     fw.requestSignOutConfirmation = requestSignOutConfirmation;
     fw.cancelSignOutConfirmation  = cancelSignOutConfirmation;
     fw.signOut                    = signOut;
@@ -558,14 +556,14 @@ if (!window.fw) { // only expand this module once (conditionally)
         maintainUserNameElm.value = userName;
       }
 
-      // dynamically reflect the userPhone of the active user
+      // dynamically reflect the userEmail of the active user
       // ... auto synced on user identity change (because that is the controller we are in)
-      const userPhone = fwUser.getPhone();
-      // ... obtain all userPhone elements on this page (using dom element attribute: data-fw-user-phone)
-      const userPhoneElms = document.querySelectorAll('[data-fw-user-phone]');
+      const userEmail = fwUser.getEmail();
+      // ... obtain all userEmail elements on this page (using dom element attribute: data-fw-user-email)
+      const userEmailElms = document.querySelectorAll('[data-fw-user-email]');
       // ... sync them
-      userPhoneElms.forEach(elm => {
-        elm.textContent = userPhone;
+      userEmailElms.forEach(elm => {
+        elm.textContent = userEmail;
       });
 
       // manage the quad-state visuals of our sign-in page (found in settings.md)
@@ -573,18 +571,15 @@ if (!window.fw) { // only expand this module once (conditionally)
       // ... process if we are ON the settings.md sign-in page
       //     ALL THREE are on the same page, so we just reason about the existance of the first
       if (domGuest) {
-        const domVerifying       = document.getElementById('sign-in-form-verifying');
-        const domVerified        = document.getElementById('sign-in-form-verified');
+        const domSignedIn        = document.getElementById('sign-in-form-signed-in');
         const domConfirmSignOut  = document.getElementById('sign-out-confirmation');
 
-        const showGuest          = fwUser.isSignedOut() && !fwUser.isVerifying();
-        const showVerifying      = fwUser.isSignedOut() && fwUser.isVerifying();
-        const showVerified       = fwUser.isSignedIn()  && !fwUser.isSignOutBeingConfirmed();
+        const showGuest          = fwUser.isSignedOut();
+        const showSignedIn       = fwUser.isSignedIn()  && !fwUser.isSignOutBeingConfirmed();
         const showConfirmSignOut = fwUser.isSignedIn()  && fwUser.isSignOutBeingConfirmed();
         
         domGuest.style.display          = showGuest          ? 'block' : 'none';
-        domVerifying.style.display      = showVerifying      ? 'block' : 'none';
-        domVerified.style.display       = showVerified       ? 'block' : 'none';
+        domSignedIn.style.display       = showSignedIn       ? 'block' : 'none';
         domConfirmSignOut.style.display = showConfirmSignOut ? 'block' : 'none';
       }
 
@@ -637,12 +632,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       const log = logger(`${logPrefix}:pageSetup()`);
 
       log('performing common setup of each page (once it is loaded)');
-
-      // we need to reset the reCAPTCHA verifier widget
-      // ... used in our sign-in process
-      //     that detect's bots and fraudulent access
-      // ... see: `window.recaptchaVerifier` in fwAuth.js
-      window.recaptchaVerifier = null;
 
       // sync User Identity related
       syncUserChangeInUI();
