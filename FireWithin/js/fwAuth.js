@@ -104,17 +104,10 @@ onAuthStateChanged(auth, (fbUser) => {
 // ?? NEW NEW NEW NEW
 export function handleSignInWithEmailPass(event) {
   const log = logger(`${logPrefix}:handleSignInWithEmailPass()`);
+  log(`processing`);
 
   // prevent default form submission
-  // - no longer applicable ?? verify if needed? ... I THINK I NEED IT when form submition
-  // - at one point, this was on our form (for the purpose of registering enter key to action
-  //   * and we needed to prevent form submition
-  // - this is NO LONGER THE CASE
-  if (event) {
-    event.preventDefault();
-  }
-
-  log(`here we are in our new code that implements SignIn with email/pass`);
+  event.preventDefault();
 
   // obtain aspects of the sign-in form - including the user supplied email/pass
   const email   = document.getElementById('username').value.trim();
@@ -125,22 +118,25 @@ export function handleSignInWithEmailPass(event) {
   msgElm.textContent = "";
 
   // validate email/pass
+  // ... email
   if (email.length === 0) {
     msgElm.textContent = "Email IS required.";
     return;
   }
+  // ... password
   if (pass.length === 0) {
     msgElm.textContent = "Password IS required.";
     return;
   }
-  // ?? more validations ... does Firebase do further validations? ... possibly in creation of account
+  // ... no more validations required
+  //     - either the credentials exist or not (as determined by Firebase)
 
   // invoke Firebase email/pass SignIn
-  log(`invoking FireBase signInWithEmailAndPassword( for '${email}')`);
-  if (pass === 'poop') { // ?? very temp
+  if (pass === 'poop') { // ?? very temp (allowing us to enter code without executing)
     msgElm.textContent = "'poop' is NOT a valid password.";
     return;
   }
+  log(`invoking FireBase signInWithEmailAndPassword( for '${email}')`);
   signInWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
       // user signed in successfully
@@ -164,9 +160,8 @@ export function handleSignInWithEmailPass(event) {
       const errMsg  = err.message;
 
       if (errCode === 'auth/invalid-credential') {
-        msgElm.textContent = "The email/password you entered are NOT valid credentials ... please correct and re-try.";
+        msgElm.textContent = "The Email/Password you entered are NOT valid credentials ... please correct and re-try.";
       }
-      // ?? ARE THERE OTHER CODES TO CHECK?
       else { // unexpected error
         const msg = `UNEXPECTED ERROR: in firebase signInWithEmailAndPassword().catch(err) ... ${err}`;
         log.f(`${msg}, err: `, {errCode, errMsg, err});
@@ -185,42 +180,45 @@ export function handleSignInWithEmailPass(event) {
  * @public
  */
 // ?? NEW NEW NEW NEW
-export function handleSignUpWithEmailPass(event) { // ?? SUSPECT event is NOT the form ... not really using this however
+export function handleSignUpWithEmailPass(event) {
   const log = logger(`${logPrefix}:handleSignUpWithEmailPass()`);
+  log(`processing`);
 
   // prevent default form submission
-  // - no longer applicable ?? verify if needed?
-  // - at one point, this was on our form (for the purpose of registering enter key to action
-  //   * and we needed to prevent form submition
-  // - this is NO LONGER THE CASE
-  if (event) {
-    event.preventDefault();
-  }
-
-  log(`here we are in our new code that implements SignUp with email/pass`);
+  event.preventDefault();
 
   // obtain aspects of the sign-in form - including the user supplied email/pass
   const email   = document.getElementById('username').value.trim();
   const pass    = document.getElementById('current-password').value.trim();
   const msgElm  = document.getElementById('signInMsg');
 
+  // clear any prior message - don't want it lingering when this function has success
+  msgElm.textContent = "";
+
   // validate email/pass
+  // ... email
+  //     NOTE: actual email format is validated by html ... <input type="email">
   if (email.length === 0) {
     msgElm.textContent = "Email IS required.";
     return;
   }
+  // ... password
   if (pass.length === 0) {
     msgElm.textContent = "Password IS required.";
     return;
   }
-  // ?? more validations ... does Firebase do further validations? ... possibly in creation of account <<< HERE in SignUp
+  // ... password strength
+  if (!isPasswordStrong(pass)) {
+    msgElm.innerHTML = "Password must be a minimum of 8 alpha-numeric characters, <br/>... with at least ONE lower-case, upper-case, number, and special-character.";
+    return;
+  }
 
   // invoke Firebase email/pass SignUp
-  log(`invoking FireBase createUserWithEmailAndPassword( for '${email}')`);
-  if (pass === 'poop') { // ?? very temp
+  if (pass === 'poop') { // ?? very temp (allowing us to enter code without executing)
     msgElm.textContent = "'poop' is NOT a valid password.";
     return;
   }
+  log(`invoking FireBase createUserWithEmailAndPassword( for '${email}')`);
   createUserWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
       // user signed up / in successfully
@@ -242,18 +240,42 @@ export function handleSignUpWithEmailPass(event) { // ?? SUSPECT event is NOT th
     .catch((err) => {
       const errCode = err.code;
       const errMsg  = err.message;
-
-      if (errCode === 'auth/weak-password') { // NOTE: Firebase has VERY MINIMAL REQUREMENTS
-        msgElm.textContent = errMsg;          //       EX: Password should be at least 6 characters (auth/weak-password).
+                                              
+      if (errCode === 'auth/weak-password') { // NOTE: Firebase has VERY MINIMAL REQUREMENTS: minimum of 6 chars
+        msgElm.textContent = errMsg;          //       Should never get this, because I have more rigid pre-check (see "password strength" above)
       }
-      // ??$$ CURRENT POINT ********************************************************************************
-      // ?? any other codes to check?
+      else if (errCode === 'auth/email-already-in-use') {
+        msgElm.innerHTML = `This email is already being used as an "account identifier".  <br/>... If this is you, "Sign In" with your existing password.  <br/>... If this is NOT you, someone else is using your email as an "account identifer" :-(`;
+      }
       else { // unexpected error
         const msg = `UNEXPECTED ERROR: in firebase createUserWithEmailAndPassword().catch(err) ... ${err}`;
         log.f(`${msg}, err: `, {errCode, errMsg, err});
         msgElm.textContent = `Something went wrong in Sign Up ... see logs`;
       }
     });
+}
+
+
+/**
+ * Verify the supplied password is of the proper strength.
+ *
+ * ... a minimum of 8 alpha-numeric characters, 
+ *     with at least ONE lower-case, upper-case, number, and special-character
+ *
+ * @param {string} pass - the password to check.
+ *
+ * @returns {boolean} true: IS strong, false: is NOT strong.
+ */
+// ?? NEW NEW NEW NEW
+function isPasswordStrong(pass) {
+  // regular expression guide:
+  // ^(?=.*[a-z]):          Asserts that there is at least one lowercase letter
+  // (?=.*[A-Z]):           Asserts that there is at least one uppercase letter
+  // (?=.*\d):              Asserts that there is at least one number
+  // (?=.*[@$!%*?&]):       Asserts that there is at least one special character
+  // [A-Za-z\d@$!%*?&]{8,}: Matches any combination of alphanumeric characters and special characters for a minimum of 8 characters
+  const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  return passRegex.test(pass);
 }
 
 

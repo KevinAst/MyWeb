@@ -601,6 +601,13 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
 
+    // toggle the visibility of supplied password input element
+    fw.togglePasswordVisibility = function(passElmId) {
+      const passElm    = document.getElementById(passElmId);
+      const toggleType = passElm.type === 'password' ? 'text' : 'password';
+      passElm.type     = toggleType;
+    }
+
     // toggle display of length descriptions
     fw.toggleDesc = function() {
       const log = logger(`${logPrefix}:toggleDesc()`);
