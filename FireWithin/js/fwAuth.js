@@ -13,7 +13,8 @@ import './fwInit.js';
 import {getAuth, 
         onAuthStateChanged,
         signInWithEmailAndPassword,
-        createUserWithEmailAndPassword} from './pkg/firebase/auth.js';
+        createUserWithEmailAndPassword,
+        sendPasswordResetEmail}          from './pkg/firebase/auth.js';
 
 import FWUser from './FWUser.js';
 
@@ -276,6 +277,57 @@ function isPasswordStrong(pass) {
   // [A-Za-z\d@$!%*?&]{8,}: Matches any combination of alphanumeric characters and special characters for a minimum of 8 characters
   const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
   return passRegex.test(pass);
+}
+
+
+/**
+ * Request my password to be reset.
+ *
+ * CURRENTLY: has tight integration to our UI sign-in form (found in settings.md).
+ *
+ * @param {FormEvent} event - the form event for this request.
+ *
+ * @public
+ */
+// ?? NEW NEW NEW NEW
+export function handlePasswordReset(event) {
+  const log = logger(`${logPrefix}:handlePasswordReset()`);
+  log(`processing`);
+
+  // prevent default form submission
+  event.preventDefault();
+
+  // obtain aspects of the sign-in form - including the user supplied email
+  const email   = document.getElementById('username').value.trim();
+  const msgElm  = document.getElementById('signInMsg');
+
+  // clear any prior message - don't want it lingering when this function has success
+  msgElm.textContent = "";
+
+  // validate email
+  // ... email
+  //     NOTE: actual email format is validated by html ... <input type="email">
+  if (email.length === 0) {
+    msgElm.innerHTML = "Email IS required! <br/> - Supply the email used for your account. <br/> - We will send an email that facilitates the resetting of your password.";
+    return;
+  }
+
+  // invoke Firebase reset password request
+  log(`invoking FireBase sendPasswordResetEmail( for '${email}')`);
+  sendPasswordResetEmail(auth, email)
+    .then(() => {
+      // email sent successfully
+      log(`in sendPasswordResetEmail() .then() ... HAPPY PATH ... Email has been sent to facilitate password reset!`);
+      msgElm.textContent = `An email has been sent to ${email} that facilitates the resetting of your password.`;
+    })
+    .catch((err) => {
+      const errCode = err.code;
+      const errMsg  = err.message;
+
+      const msg = `UNEXPECTED ERROR: in firebase sendPasswordResetEmail().catch(err) ... ${err}`;
+      log.f(`${msg}, err: `, {errCode, errMsg, err});
+      msgElm.textContent = `Something went wrong in Sign Up ... see logs`;
+    });
 }
 
 

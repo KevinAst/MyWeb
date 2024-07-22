@@ -83,7 +83,7 @@ the same account)_.
       <button onclick="fw.handleSignUpWithEmailPass(event)">Sign Up</button> <i>... to create a new account <b>(first time only)</b></i>
       
       <br/>
-      <button onclick="alert('??L8TR')">Forgot Password</button> <i>... we'll send you an email to reset your password</i>
+      <button onclick="fw.handlePasswordReset(event)">Forgot Password</button> <i>... we'll send you an email to reset your password</i>
     </div>  
     <br/>
   </form>

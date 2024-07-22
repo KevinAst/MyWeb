@@ -53,6 +53,7 @@ import {fwSettings} from './fwSettings.js';
 
 import {handleSignInWithEmailPass,
         handleSignUpWithEmailPass,
+        handlePasswordReset,
         requestSignOutConfirmation,
         cancelSignOutConfirmation,
         signOut} from './fwAuth.js';
@@ -495,6 +496,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     // promote sign-in/sign-out utils
     fw.handleSignInWithEmailPass  = handleSignInWithEmailPass;
     fw.handleSignUpWithEmailPass  = handleSignUpWithEmailPass;
+    fw.handlePasswordReset        = handlePasswordReset;
     fw.requestSignOutConfirmation = requestSignOutConfirmation;
     fw.cancelSignOutConfirmation  = cancelSignOutConfirmation;
     fw.signOut                    = signOut;
