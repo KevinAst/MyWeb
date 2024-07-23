@@ -27,8 +27,9 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v21.4](#v21_4)   | Sync Current Sermon Series  | *May 22, 2024*
-[v21.3](#v21_3)   | Sync Current Sermon Series  | *May 13, 2024*
+[v22.0](#v22_0)   | Email/Password Authentication  | *July 23, 2024*
+[v21.4](#v21_4)   | Sync Current Sermon Series     | *May 22, 2024*
+[v21.3](#v21_3)   | Sync Current Sermon Series     | *May 13, 2024*
 [v21.2](#v21_2)   | Misc                 | *Mar 5, 2024*
 [v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
@@ -57,6 +58,67 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v22_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v22.0 - Email/Password Authentication <i>(July 23, 2024)</i>
+</h3>
+<br/>
+
+User account authentication has moved from a phone-based SMS text
+message, to an email/password.  This enhancement avoids additional
+costs imposed by our entry-level cloud service plan.
+
+**Migration Process**:
+
+Use this process to move your phone-based account to the new
+email/password account.
+
+**Follow these steps completely**, _so as to not loose any of your data_.
+
+**NOTE**: This procedure assumes you are already signed in to your old
+phone-based account.  This is a valid assumption, since account
+sign-ins are "long lived".
+
+1. Sign Out of your existing phone-based account.
+
+   - From the {{book.UserAccount}} section of the {{book.Settings}}
+     page, **click** the "Sign Out" button.
+
+   - **IMPORTANT** In the Sign Out confirmation section, make sure to
+     **check** the "Sync Device Storage from the Cloud (ON Sign-Out)"
+     option.
+
+     This will insure the latest copy of you cloud state is copied to
+     your device storage _(i.e. your completions and settings)_.
+
+2. Sign Up for a new email/password account.
+
+   - Enter the **Email** and **Password** you wish to use for your new account.
+
+   - **Click** the "Sign Up" button.
+
+     **NOTE**: In creating your new account, our process will copy
+     your device storage to the cloud.  Because you "synced" this from
+     your old account _(in Step 1)_, you will not loose any of your
+     data.
+
+   - As always, retain the Email/Password you used for this account
+     _(in the same way to do for other accounts)_.
+
+3. For all other devices that you are using (cell phone, tablet, etc.),
+
+   - Simply "Sign Out" of your old phone-based account,
+
+   - And "Sign In" to your new email/password account.
+
+     **NOTE**: Here you are using "Sign In" _(because you have created
+     this account in Step 2 - which used "Sign Up")_.
+
+
+
 
 
 <!-- ************************************************************* -->
