@@ -12,8 +12,10 @@ import './fwInit.js';
 
 import {getAuth, 
         onAuthStateChanged,
-        RecaptchaVerifier, 
-        signInWithPhoneNumber} from './pkg/firebase/auth.js';
+        signInWithEmailAndPassword,
+        createUserWithEmailAndPassword,
+        sendEmailVerification,
+        sendPasswordResetEmail}          from './pkg/firebase/auth.js';
 
 import FWUser from './FWUser.js';
 
@@ -58,16 +60,16 @@ export const fwUser = new FWUser();
 //             ... https://firebase.google.com/docs/reference/js/auth.user
 //                 ex: auth.currentUser.uid
 //           - WHEN signed-out, fbUser IS null
-//           - WHEN signed-in,  fbUser IS defined -AND- BOTH fbUser.uid/fbUser.phoneNumber are defined
-//                                                      BECAUSE: we are using phone authentication exclusively
+//           - WHEN signed-in,  fbUser IS defined -AND- BOTH fbUser.uid/fbUser.email are defined
+//                                                      BECAUSE: we are using email authentication exclusively
 //   NOTE: there should only be ONE onAuthStateChanged listener in the entire app!
 onAuthStateChanged(auth, (fbUser) => {
   const log = logger(`${logPrefix}:onAuthStateChanged()`);
 
-  // define uid/phone from fbUser object (see: "fbUser parameter" NOTE - above)
+  // define uid/email from fbUser object (see: "fbUser parameter" NOTE - above)
   // ... with protection, insuring empty string ('') EVEN when fbUser.prop is null/undefined
-  const uid   = fbUser ? fbUser.uid         : '' || '';
-  const phone = fbUser ? fbUser.phoneNumber : '' || '';
+  const uid   = fbUser ? fbUser.uid   : '' || '';
+  const email = fbUser ? fbUser.email : '' || '';
 
   // NO-OP when the user identity has NOT changed
   // ... we are certainly NOT interested in this
@@ -83,7 +85,7 @@ onAuthStateChanged(auth, (fbUser) => {
 
     // morph our fwUser into a representation of the current active user
     // ... this will automatically trigger FWUser change notifications
-    fwUser.morphIdentity(uid, phone);
+    fwUser.morphIdentity(uid, email);
   }
 });
 
@@ -92,233 +94,257 @@ onAuthStateChanged(auth, (fbUser) => {
 //* Sign-In / Sign-Out Related
 //********************************************************************************
 
-// confirmationResult from signInWithPhoneNumber() callback
-// ... used in Step 2: verifying the OTP code received from the text message
-let _confirmationResult = null;
-
 /**
- * Step 1 of our sign-in process.
+ * Sign-In existing user with email/pass (obtained from form elements).
  *
- * Request SMS text message to be sent, containing a verification code.
- *
- * CURRENTLY: has tight integration to our UI sign-in form.
+ * CURRENTLY: has tight integration to our UI sign-in form (found in settings.md).
  *
  * @param {FormEvent} event - the form event for this request.
  *
  * @public
  */
-export function handlePhoneSignIn(event) {
-  const log = logger(`${logPrefix}:handlePhoneSignIn()`);
+export function handleSignInWithEmailPass(event) {
+  const log = logger(`${logPrefix}:handleSignInWithEmailPass()`);
+  log(`processing`);
 
   // prevent default form submission
-  // - no longer applicable
-  // - at one point, this was on our form (for the purpose of registering enter key to action
-  //   * and we needed to prevent form submition
-  // - this is NO LONGER THE CASE
-  if (event) {
-    event.preventDefault();
-  }
+  event.preventDefault();
 
-  // obtain aspects of the sign-in form - including the user supplied phone number (phoneInput)
-  const phoneInput = document.getElementById('signInPhoneNum').value.trim();
-  const msgElm     = document.getElementById('signInMsg');
+  // obtain aspects of the sign-in form - including the user supplied email/pass
+  const email   = document.getElementById('acctEmail').value.trim();
+  const pass    = document.getElementById('acctPass').value.trim();
+  const msgElm  = document.getElementById('signInMsg');
 
-  // format phone entry into an E.164 format
-  // ... with limited local validation (on US entry only)
-  // ... MOST validation occurs in Firebase (via signInWithPhoneNumber() below)
-  let phoneE164 = phoneInput; // ... assume entry is already in E.164 format (when "+nnnnn")
-  if ( ! phoneInput.startsWith('+') ) { // ... when NO "+", morph US phone entries into E.164 format
-    // limited validation: (extract numbers only and insure 10 digits)
-    const phoneNumeric = phoneInput.replace(/\D/g, "");
-    if (phoneNumeric.length !== 10) {
-      msgElm.textContent = "Invalid US phone number ... please enter a 10 digit entry (ex: nnn-nnn-nnnn).";
-      return;
-    }
-    // format into US E.164 format
-    // ... [+][country code][subscriber number including area code]
-    // ... US: +19995551212
-    phoneE164 = `+1${phoneNumeric}`;
-  }
+  // clear any prior message - don't want it lingering when this function has success
+  msgElm.textContent = "";
 
-  // display the processed number (just for fun)
-  msgElm.textContent = `Processeing phone: ${phoneE164}`;
-
-  // setup our reCAPTCHA verifier widget (detecting bots and fraudulent access)
-  // - this can be done late in our process
-  //   ... this works!
-  // - we use an 'invisible' reCAPTCHA widget
-  //   ... the user will NOT see the "I'm not a robot" widget
-  // - 'signInButton' is the id of the button that was clicked on the form
-  //   ... checked by reCAPTCHA (in 'invisible' mode) to verify user is NOT a robot
-  //   ... see settings.md (containing our sign-in screens)
-  // - NOTE: This verifier IS REQUIRED by signInWithPhoneNumber()
-  if (window.recaptchaVerifier) {
-    // re-use existing verifier widget, by resetting it
-    // - this occurs when handlePhoneSignIn() is invoked multiple times on a given page
-    //   * EX: when user errors are involved
-    //   * EX: when user signs-out and signs-in while staying on same page
-    // - this is the official way to do the reset (from Firebase docs)
-    //   * the Firebase docs are VERY CONFUSING in this area
-    log(`re-use window.recaptchaVerifier ... reset it`);
-    window.grecaptcha.reset( window.recaptchaVerifier.widgetId );
-  }
-  else {
-    // create our verifier widget (the first time)
-    // - NOTE: this resource is reset on page loads, 
-    //         allowing us to start fresh on our sign-in page (found in settings.md)
-    //         ... see: `window.recaptchaVerifier` reference in fw.js
-    log(`defining window.recaptchaVerifier`);
-    window.recaptchaVerifier = new RecaptchaVerifier(auth, 'signInButton', {
-      'size': 'invisible',
-      // NOTE: These callbacks are invoked FROM signInWithPhoneNumber()
-      //       KJB: I think they are WORTHLESS,
-      //            I am STRCITLY processing all logic paths via signInWithPhoneNumber()
-      //            COMMENT OUT / DISABLE
-      // 'callback': (response) => {  // ? the happy path ... it worked
-      //   const msg = `222: in RecaptchaVerifier 'callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
-      //   log(msg);
-      //   msgElm.textContent = msg;
-      // },
-      // 'expired-callback': () => { // response expired ... ask user to solve reCAPTCHA again
-      //   const msg = `222: in RecaptchaVerifier 'expired-callback' ... what do I do? ... SUSPECT should just work with signInWithPhoneNumber() ... KEY: which will be subsequently called`;
-      //   log(msg);
-      //   msgElm.textContent = msg;
-      // },
-    });
-  }
-
-  // UI Step 1: Request SMS text message to be sent (containing the verificationCode)
-  //            NOTE: This function is executed at the start, and interacts with window.recaptchaVerifier
-  log(`111: invoking signInWithPhoneNumber('${phoneE164}')`);
-  signInWithPhoneNumber(auth, phoneE164, window.recaptchaVerifier)
-    .then((confirmationResult) => { // SMS Text has been sent
-
-      log(`333: in signInWithPhoneNumber() .then() ... HAPPY PATH ... SMS Text SENT ... it worked!`);
-
-      // update UI (just for fun)
-      // ... NOT THIS, because the user will NOT see it, as the UI is morphed into Step 2
-      // msgElm.textContent = `SMS Text has been sent`;
-      // ... RATHER clear sign-in message to remove any residual residue (should we come back to this page)
-      msgElm.textContent = '';
-
-      // retain our confirmationResult for use in Step 2
-      _confirmationResult = confirmationResult;
-
-      // morph our user interface into a prompt for the user to enter the OTP code received from the text
-      // ... this is accomplished via the responsive monitors of the change to our user
-      fwUser.setVerifying(phoneE164);
-    })
-    .catch((err) => { // Error: SMS not sent
-      // bad phone number - firebase does MORE extensive validation that what we do locally (above)
-      if (err.code === 'auth/invalid-phone-number') {
-        msgElm.textContent = "The phone Number you entered is invalid, please try again.";
-      }
-      // SMS Text Limit Exceeded ... Firebase Blaze Plan:
-      //  - MY EXPERIENCE (Firebase is very elusive on this):
-      //    * 6 txts in rapid sucecssion
-      //    * additional texts allowed after 30 mins or so
-      else if (err.code === 'auth/too-many-requests') {
-        msgElm.textContent = "SMS Text Limit Exceeded.  Try again later ... see note (below)";
-        
-        // also dynamically enable the full description (giving user more info)
-        // ... don't worry about taking this down (KISS: minimal impact to UI experience)
-        const domExplainSmsExceeded  = document.getElementById('explain-sms-text-exceeded');
-        domExplainSmsExceeded.style.display = 'block';
-      }
-      // unexpected error <<< KJB: can test this by clicking Sign-In button 2nd time (MUST enable all-three sections of the sign-in screen)
-      else {
-        const msg = `UNEXPECTED ERROR: in signInWithPhoneNumber().catch(err) ... ${err} ... SMS Text NOT sent`;
-        log.f(`${msg}, err: `, {err});
-        msgElm.textContent = `Something went wrong in sending the SMS Text ... see logs`;
-      }
-    });
-
-}
-
-/**
- * Step 2 of our sign-in process.
- *
- * Confirm verificationCode entered from user.
- *
- * CURRENTLY: has tight integration to our UI sign-in form.
- *
- * @param {FormEvent} event - the form event for this request.
- *
- * @public
- */
-export function handlePhoneVerify(event) {
-  event.preventDefault(); // prevent default form submission
-  const log = logger(`${logPrefix}:handlePhoneVerify()`);
-  log(`verifing code entered by user`);
-
-  // obtain aspects of the verificaion form - including the user supplied code
-  const verificationCode = document.getElementById('verifyCode').value.trim();
-  const msgElm           = document.getElementById('verifyMsg');
-
-  // validate the code
-  // ... verify only digits
-  if ( ! /^\d+$/.test(verificationCode) ) {
-    msgElm.textContent = "The digit verification code must be all numeric.";
+  // validate email/pass
+  // ... email
+  if (email.length === 0) {
+    msgElm.textContent = "Email IS required.";
     return;
   }
-  // ... insure 6 digits
-  if (verificationCode.length !== 6) {
-    msgElm.textContent = "Please enter a 6 digit verification code.";
+  // ... password
+  if (pass.length === 0) {
+    msgElm.textContent = "Password IS required.";
     return;
   }
+  // ... no more validations required
+  //     - either the credentials exist or not (as determined by Firebase)
 
-  // UI Step 2: Confirm verificationCode entered from user
-  // ... sign-in the user with the verification code
-  _confirmationResult.confirm(verificationCode)
+  // invoke Firebase email/pass SignIn
+  log(`invoking FireBase signInWithEmailAndPassword( for '${email}')`);
+  signInWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
+      // user signed in successfully
+      log(`in signInWithEmailAndPassword() .then() ... HAPPY PATH ... User Signed In ... it worked!`);
+
       // user signed in successfully ... assume get notification from listener
       const fbUser = userCredential.user;
 
       // morph our user interface into a confirmation that the user is signed-in
       // ... this is accomplished via the responsive monitors of the change to our user
       // NOTE: this is NOT needed, as it is accomplished in the onAuthStateChanged() listener (above)
-      // fwUser.setSignedIn(fbUser.uid, fbUser.phoneNumber);
+      // fwUser.setSignedIn(fbUser.uid, fbUser.email);
 
       // MESSAGE NOT NEEDED:
       // ... sign-in screen will morph into signed-in state
       // ... we don't want this message as a remnite, if user signs-out and back in again (on same page)
       // msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
+
+      // confirm user owns their signed-in email
+      confirmUserOwnsEmail(fbUser);
     })
     .catch((err) => {
-      if (err.code === 'auth/invalid-verification-code') {
-        msgElm.textContent = "The code you entered is NOT correct ... please enter the code you received from the verification text message.";
-      }
-      else if (err.code === 'auth/code-expired') {
-        msgElm.textContent = "The verification time has expired ... please cancel and try again.";
-      }
-      else if (err.code === 'auth/credential-already-in-use') {
-        msgElm.textContent = "This verification code has already been used.";
+      const errCode = err.code;
+      const errMsg  = err.message;
+
+      if (errCode === 'auth/invalid-credential') {
+        msgElm.textContent = "The Email/Password you entered are NOT valid credentials ... please correct and re-try.";
       }
       else { // unexpected error
-        const msg = `UNEXPECTED ERROR: in confirmationResult.confirm().catch(err) ... ${err}`;
-        log.f(`${msg}, err: `, {err});
-        msgElm.textContent = `Something went wrong in verifying the code ... see logs`;
+        const msg = `UNEXPECTED ERROR: in firebase signInWithEmailAndPassword().catch(err) ... ${err}`;
+        log.f(`${msg}, err: `, {errCode, errMsg, err});
+        msgElm.textContent = `Something went wrong in Sign In ... see logs`;
+      }
+    });
+}
+
+/**
+ * Sign-Up new user with email/pass (obtained from form elements).
+ *
+ * CURRENTLY: has tight integration to our UI sign-in form (found in settings.md).
+ *
+ * @param {FormEvent} event - the form event for this request.
+ *
+ * @public
+ */
+export function handleSignUpWithEmailPass(event) {
+  const log = logger(`${logPrefix}:handleSignUpWithEmailPass()`);
+  log(`processing`);
+
+  // prevent default form submission
+  event.preventDefault();
+
+  // obtain aspects of the sign-in form - including the user supplied email/pass
+  const email   = document.getElementById('acctEmail').value.trim();
+  const pass    = document.getElementById('acctPass').value.trim();
+  const msgElm  = document.getElementById('signInMsg');
+
+  // clear any prior message - don't want it lingering when this function has success
+  msgElm.textContent = "";
+
+  // validate email/pass
+  // ... email
+  //     NOTE: actual email format is validated by html ... <input type="email">
+  if (email.length === 0) {
+    msgElm.textContent = "Email IS required.";
+    return;
+  }
+  // ... password
+  if (pass.length === 0) {
+    msgElm.textContent = "Password IS required.";
+    return;
+  }
+  // ... password strength
+  if (!isPasswordStrong(pass)) {
+    msgElm.innerHTML = "Password must be a minimum of 8 alpha-numeric characters, <br/>... with at least ONE lower-case, upper-case, number, and special-character.";
+    return;
+  }
+
+  // invoke Firebase email/pass SignUp
+  log(`invoking FireBase createUserWithEmailAndPassword( for '${email}')`);
+  createUserWithEmailAndPassword(auth, email, pass)
+    .then((userCredential) => {
+      // user signed up / in successfully
+      log(`in createUserWithEmailAndPassword() .then() ... HAPPY PATH ... User Signed Up / In ... it worked!`);
+
+      // user signed in successfully ... assume get notification from listener
+      const fbUser = userCredential.user;
+
+      // morph our user interface into a confirmation that the user is signed-in
+      // ... this is accomplished via the responsive monitors of the change to our user
+      // NOTE: this is NOT needed, as it is accomplished in the onAuthStateChanged() listener (above)
+      // fwUser.setSignedIn(fbUser.uid, fbUser.email);
+
+      // MESSAGE NOT NEEDED:
+      // ... sign-in screen will morph into signed-in state
+      // ... we don't want this message as a remnite, if user signs-out and back in again (on same page)
+      // msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
+
+      // confirm user owns their signed-in email
+      confirmUserOwnsEmail(fbUser);
+    })
+    .catch((err) => {
+      const errCode = err.code;
+      const errMsg  = err.message;
+                                              
+      if (errCode === 'auth/weak-password') { // NOTE: Firebase has VERY MINIMAL REQUREMENTS: minimum of 6 chars
+        msgElm.textContent = errMsg;          //       Should never get this, because I have more rigid pre-check (see "password strength" above)
+      }
+      else if (errCode === 'auth/email-already-in-use') {
+        msgElm.innerHTML = `This email is already being used as an "account identifier".  <br/>... If this is you, "Sign In" with your existing password.  <br/>... If this is NOT you, someone else is using your email as an "account identifer" :-(`;
+      }
+      else { // unexpected error
+        const msg = `UNEXPECTED ERROR: in firebase createUserWithEmailAndPassword().catch(err) ... ${err}`;
+        log.f(`${msg}, err: `, {errCode, errMsg, err});
+        msgElm.textContent = `Something went wrong in Sign Up ... see logs`;
       }
     });
 }
 
 
 /**
- * Cancel the phone verification process.
+ * Conditionally send supplied user a verification email, asking them
+ * to prove they own their signed-in email.
  *
- * The user no longer wishes to continue this verification 
- * step of our sign-in process.
+ * When user clicks the email link, the fbUser.emailVerified setting is set to true.
+ *
+ * This is invoked in both sign-up and sign-in (assuming they did not
+ * respond in the sign-up).
+ *
+ * NOTE: Unfortunately This is done AFTER the user has signed-in.
+ *       Firebase does NOT have the ability to do this up-front (when using email/password).
+ *       So we just pretend that it is necessary.
+ *
+ * @param {User} fbUser - the firebase user
+ */
+function confirmUserOwnsEmail(fbUser) {
+  if (!fbUser.emailVerified) {
+    sendEmailVerification(fbUser);
+    alert(`An email has been sent to ${fbUser.email}.  Please click the enclosed link to verify you own this email.`);
+  }
+}
+
+/**
+ * Verify the supplied password is of the proper strength.
+ *
+ * ... a minimum of 8 alpha-numeric characters, 
+ *     with at least ONE lower-case, upper-case, number, and special-character
+ *
+ * @param {string} pass - the password to check.
+ *
+ * @returns {boolean} true: IS strong, false: is NOT strong.
+ */
+function isPasswordStrong(pass) {
+  // regular expression guide:
+  // ^(?=.*[a-z]):          Asserts that there is at least one lowercase letter
+  // (?=.*[A-Z]):           Asserts that there is at least one uppercase letter
+  // (?=.*\d):              Asserts that there is at least one number
+  // (?=.*[@$!%*?&]):       Asserts that there is at least one special character
+  // [A-Za-z\d@$!%*?&]{8,}: Matches any combination of alphanumeric characters and special characters for a minimum of 8 characters
+  const passRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+  return passRegex.test(pass);
+}
+
+
+/**
+ * Request my password to be reset.
+ *
+ * CURRENTLY: has tight integration to our UI sign-in form (found in settings.md).
+ *
+ * @param {FormEvent} event - the form event for this request.
  *
  * @public
  */
-export function verifyPhoneCancel() {
-  const log = logger(`${logPrefix}:verifyPhoneCancel()`);
-  log(`canceling phone verifiation request (where code is entered from SMS text msg)`);
+export function handlePasswordReset(event) {
+  const log = logger(`${logPrefix}:handlePasswordReset()`);
+  log(`processing`);
 
-  // the primary thing we do is sign-out the user
-  // ... BECAUSE we are already in a signed-out mode
-  //     just need to clear the phone number
-  fwUser.setSignedOut();
+  // prevent default form submission
+  event.preventDefault();
+
+  // obtain aspects of the sign-in form - including the user supplied email
+  const email   = document.getElementById('acctEmail').value.trim();
+  const msgElm  = document.getElementById('signInMsg');
+
+  // clear any prior message - don't want it lingering when this function has success
+  msgElm.textContent = "";
+
+  // validate email
+  // ... email
+  //     NOTE: actual email format is validated by html ... <input type="email">
+  if (email.length === 0) {
+    msgElm.innerHTML = "Email IS required! <br/> - Supply the email used for your account. <br/> - We will send an email that facilitates the resetting of your password.";
+    return;
+  }
+
+  // invoke Firebase reset password request
+  log(`invoking FireBase sendPasswordResetEmail( for '${email}')`);
+  sendPasswordResetEmail(auth, email)
+    .then(() => {
+      // email sent successfully
+      log(`in sendPasswordResetEmail() .then() ... HAPPY PATH ... Email has been sent to facilitate password reset!`);
+      msgElm.textContent = `An email has been sent to ${email} that facilitates the resetting of your password.`;
+    })
+    .catch((err) => {
+      const errCode = err.code;
+      const errMsg  = err.message;
+
+      const msg = `UNEXPECTED ERROR: in firebase sendPasswordResetEmail().catch(err) ... ${err}`;
+      log.f(`${msg}, err: `, {errCode, errMsg, err});
+      msgElm.textContent = `Something went wrong in Sign Up ... see logs`;
+    });
 }
 
 

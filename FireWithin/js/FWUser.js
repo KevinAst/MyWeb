@@ -60,11 +60,11 @@ export default class FWUser {
   _uid;
 
   /**
-   * The user's phone number ... possibly verified depending on if _uid is defined.
+   * The user's email ... possibly verified depending on if _uid is defined.
    * @private
    * @type {string}
    */
-  _phone;
+  _email;
 
   /**
    * Return an indicator as to whether this user is signed-in or not.
@@ -86,21 +86,22 @@ export default class FWUser {
 
   /**
    * Return an indicator as to whether this user is in the process of
-   * verifying their phone (they have to be signed-out to do this).
+   * verifying their email (they have to be signed-out to do this).
    *
-   * @returns {boolean} true: verifying their phone -and- signed-out, false: NOT verifying their phone.
+   * @returns {boolean} true: verifying their email -and- signed-out, false: NOT verifying their email.
    */
-  isVerifying() {
-    return this.isSignedOut() && this._phone;
-  }
+  //?$ TRASH
+  //? isVerifying() {
+  //?   return this.isSignedOut() && this._email;
+  //? }
 
   /**
-   * Return self's phone (used as the authenticating authority).
+   * Return self's email (used as the authenticating authority).
    *
-   * @returns {string} self's phone.
+   * @returns {string} self's email.
    */
-  getPhone() {
-    return this._phone;
+  getEmail() {
+    return this._email;
   }
 
   /**
@@ -111,7 +112,7 @@ export default class FWUser {
    * - 'Guest' for signed-out users
    * - for signed-in users
    *   * fwSettings.userName
-   *   * fallback to the last 4 digits of their authenticated phone
+   *   * fallback to the email account (content before the "@")
    *
    * @returns {string} self's publically consumable user name.
    */
@@ -122,28 +123,29 @@ export default class FWUser {
     }
     
     // for signed-in users, use our setting's userName (when defined)
-    // ... fallback on the last 4 digits of their authenticated phone
-    return fwSettings.getUserName() || this._phone.slice(-4);
+    // ... fallback to the email account (content before the "@")
+    const atIndx   = this._email.indexOf('@');
+    const userName = atIndx === -1 ? '' : this._email.substring(0, atIndx);
+    return fwSettings.getUserName() || userName;
   }
 
   // AI: toString() may be nice (for logs) SINCE our object is mutated
-  // ... showing userName and phone (when signed-in) ... NOT uid (too sensitive)
+  // ... showing userName and email (when signed-in) ... NOT uid (too sensitive)
 
   //*----------------------------------------------------------------------------
   //* Various setters, changing the user identiy as follows:
   //* 
-  //*                             _uid   _phone
+  //*                             _uid   _email
   //*                             ====    ====
   //*  - constructor()              ''      ''  ... via setSignedOut() ... always starts out as signed-out
-  //*  - setSignedIn(uid, phone)     Y       Y  ... technically NOT used (implicitly done by FireBase user identity changes (see: onAuthStateChanged() of fwAuth.js)
-  //*  - setVerifying(phone)        ''       Y  ... intermediate state when verifying phone (part of sign-in process) (see: signInWithPhoneNumber() in fwAuth.js)
+  //*  - setSignedIn(uid, email)     Y       Y  ... technically NOT used (implicitly done by FireBase user identity changes (see: onAuthStateChanged() of fwAuth.js)
   //*  - setSignedOut()             ''      ''  ... technically NOT used (implicitly done by FireBase user identity changes (see: onAuthStateChanged() of fwAuth.js)
   //*  - morphIdentity()             Y       Y  ... via FireBase user identity changes (see: onAuthStateChanged() of fwAuth.js)
   //*                                               equivalent to either: setSignedIn() or setSignedOut()
   //*
   //* All these methods automatically trigger FWUser change notifications.
   //*
-  //* NOTE: They should be considered a private methods, only available
+  //* NOTE: They should be considered private methods, only available
   //*       to the proper authority.
   //*----------------------------------------------------------------------------
 
@@ -151,28 +153,14 @@ export default class FWUser {
    * Set self to a signed-in state.
    *
    * @param {string} uid   - The user's unique identifier (via Firebase)
-   * @param {string} phone - The user's verified phone number ("sign-in with SMS Phone"),.
+   * @param {string} email - The user's verified email number ("sign-in with email"),.
    *
    * @private
    */
-  setSignedIn(uid, phone) {
+  setSignedIn(uid, email) {
     // ... with protection, insuring null/undefined is ''
     this._uid   = uid    || '';;
-    this._phone = phone  || '';;
-    this.notifyChanged();
-  }
-
-  /**
-   * Set self to a verifying state.
-   *
-   * @param {string} phone - The user's phone number being verified.
-   *
-   * @private
-   */
-  setVerifying(phone) {
-    // ... with protection, insuring null/undefined is ''
-    this._uid   = '';
-    this._phone = phone || '';
+    this._email = email  || '';;
     this.notifyChanged();
   }
 
@@ -183,7 +171,7 @@ export default class FWUser {
    */
   setSignedOut() {
     this._uid   = '';
-    this._phone = '';
+    this._email = '';
     this.notifyChanged();
   }
 
@@ -196,15 +184,15 @@ export default class FWUser {
    *  - or sign-out (both values as '')
    *
    * @param {string} uid   - The user's unique identifier (via Firebase)
-   * @param {string} phone - The user's verified phone number ("sign-in with SMS Phone"),.
+   * @param {string} email - The user's verified email ("sign-in with email"),.
    *
    * @private
    */
-  morphIdentity(uid, phone) {
+  morphIdentity(uid, email) {
     // change's user identity of self
     // ... with protection, insuring null/undefined is ''
     this._uid   = uid   || '';
-    this._phone = phone || '';
+    this._email = email || '';
 
     // trigger change notifications
     this.notifyChanged();
@@ -290,7 +278,7 @@ export default class FWUser {
    */
   notifyChanged() {
     const log = logger(`${logPrefix}:notifyChanged()`);
-    log(`fwUser has changed: uid: '${this._uid}', phone: '${this._phone}'`);
+    log(`fwUser has changed: uid: '${this._uid}', email: '${this._email}'`);
     this._onChangeHandlers.forEach( (handler) => handler() );
   }
     

@@ -44,101 +44,71 @@ P{ inject('<div id="sign-in-form-guest">') }P
 The Fire Within page does NOT require an account to use.  By default,
 you are a "Guest" user.
 
-For "Guest" users, we maintain your state on your local device.
+For "Guest" users, your state is maintained on your local device.
 **Your state consists of your _completions_ and _settings_.**. The
 **only limitation** of this approach is when you use multiple devices
 _(say your laptop and your phone)_ ... then you must manually sync
 your state across all the devices you use _(because each device has
 it's own copy of the state)_.
 
-To overcome this limitation, you can **establish a Fire Within user
+To overcome this limitation, you can **establish a Fire Within
 account**.  When you do this, your state is maintained in the cloud,
 and **automatically syncs across all devices** _(that are signed-in to
 the same account)_.
 
-**Creating an account is easy**.  We simply use your phone number as
-an account identifier.  Your phone is "verified" by texting a
-temporary "verification code", which you use to sign-in.  **It's that
-simple** _(no need to remember "yet another password")_.  Because the
-sign-in is "long lived", you only have to do this once _(per device)_
-... unless you sign-out for some reason.
+**Establishing and using a Fire Within account is easy!**
 
-<!-- Our sign-in form, that gathers phone number.
+<!-- Our sign-in form, that gathers email/pass.
      - A "submit" button type is used to facilitate auto submit on text-box enter
-     - The id on the "submit" button IS REQUIRED to integrate with the invisible
-       "reCAPTCHA verifier widget" ... see: js/fwAuth.js
  -->
-<form id="signInForm" onsubmit="fw.handlePhoneSignIn(event)">
-    <label for="signInPhoneNum">Phone:</label>
-    <input type="tel" id="signInPhoneNum" name="signInPhoneNum" placeholder="nnn-nnn-nnnn">
-    <button type="submit" id="NOT_signInButton">Sign In</button>
-    <i>standard text rates apply</i>
+
+<div style="margin-left: 20px">  
+  <form id="signInForm" onsubmit="fw.handleSignInWithEmailPass(event)">
+  
+    <label for="acctEmail"><b>Email:</b></label>
+    <input type="email" id="acctEmail" name="acctEmail" autocomplete="email" placeholder="me@gmail.com">
+  
+    <label for="acctPass"><b>Password:</b></label>
+    <input type="password" id="acctPass" name="acctPass" autocomplete="current-password">
+    <span onclick="fw.togglePasswordVisibility('acctPass')" style=cursor:help>👁</span>
+
     <p id="signInMsg" style="color: red;"></p>
-</form>
 
-<!-- OK ... This is REALLY QUERKY ...
-     - when the "signInButton" is registered to the submit button (above)
-       * it works the first time
-       * but it no-ops on subsequent attempts (when user errors/msgs are in the mix)
-     - when the "signInButton" is registered outside the form, it works in ALL cases
-       * and appariently it does NOT have to be on a button that is clicked
-     - FYI: this is where the "invisible" reCAPTCHA verifier widget is rendered
- -->
-<div id="signInButton"></div>
-
-- **International Users:** use a direct E.164 format _(beginning with "+")_
+    <div style="margin-left: 20px">  
+      <button type="submit">Sign In</button> <i>... for existing accounts</i>
+      
+      <br/>
+      <button onclick="fw.handleSignUpWithEmailPass(event)">Sign Up</button> <i>... to create a new account <b>(first time only)</b></i>
+      
+      <br/>
+      <button onclick="fw.handlePasswordReset(event)">Forgot Password</button> <i>... we'll send you an email to reset your password</i>
+    </div>  
+    <br/>
+  </form>
+</div>
 
 - <mark><b>IMPORTANT:</b></mark> When your account is first created
-  _(the first time you sign-in)_, the state **from your device** will be
-  **transferred to the cloud**.  As a result, your **initial sign-in**
-  should be done **on the device that has the most accurate state.**
+  _(the first time you Sign Up)_, the state **from your device**
+  _(i.e. completions and settings)_ will be **transferred to the
+  cloud**.  As a result, your **initial Sign Up** should be done **on
+  the device that has the most accurate state.**
 
   - Remember, for Guest users, each device has it's own copy of the
     state.
 
   - The state transfer _(from device to cloud)_ only happens one time:
-    **the first time you sign-in!**
+    **the first time you Sign Up!**
 
-  - For all subsequent sign-ins, the cloud will have already been
-    established _(from your first sign-in)_, and is considered the
+  - For all subsequent Sign Ins, the cloud will have already been
+    established _(from your first Sign Up)_, and is considered the
     master.
 
-P{ inject('<div id="explain-sms-text-exceeded" style="display: none;">') }P
 
-<mark><b>SMS Text Limit Exceeded:</b></mark>
-- Fire Within accounts use an entry-level service plan to persist it's data in the cloud
-- This plan is limits the number of SMS Text messages allowed at a given time
-- If you receive an **"SMS Text Limit Exceeded"** message, simply try again in a short time _(20-30 mins)_
-- This **limitation should NOT be an issue** because sign-ins are **"long lived"** _(basically forever)_
-  ... _in other words, sign-ins do not need to be repeated on a given device, unless you sign-out for some reason_
-
-P{ inject('</div>') }P
-
-P{ inject('</div> <div id="sign-in-form-verifying" style="color: green;">') }P
-
-Your sign-in request is **in-progress**.
-
-A text message has been sent to your phone at: M{ userPhone() }M.
-
-To complete your sign-in, please enter the verification code _(from that text)_.
-
-<!-- Our verification form, that gathers the one-time-code.
-     - A "submit" button type is used to facilitate auto submit on text-box enter
- -->
-<form id="verifyForm" onsubmit="fw.handlePhoneVerify(event)">
-    <label for="verifyCode">Code:</label>
-    <input type="text" id="verifyCode" name="verifyCode">
-    <button type="submit">Verify</button>
-    <button onclick="fw.verifyPhoneCancel(); return false;">Cancel</button>
-    <p id="verifyMsg" style="color: red;"></p>
-</form>
-
-
-P{ inject('</div> <div id="sign-in-form-verified" style="color: blue;">') }P
+P{ inject('</div> <div id="sign-in-form-signed-in" style="color: blue;">') }P
 
 Hello M{ userName() }M,
 
-You have signed-in to your Fire Within account, using phone: M{ userPhone() }M.
+You have signed-in to your Fire Within account, using email: M{ userEmail() }M.
 
 As a result, your state _(i.e. completions and settings)_ are retained
 in the cloud, and automatically synced to all devices _(that are
@@ -163,7 +133,7 @@ P{ inject('</div> <div id="sign-out-confirmation" style="color: red;">') }P
 
 - Your state _(i.e. completions and settings)_ will revert back to your device storage.
   - Which can optionally be reset to the latest copy from the cloud, **per this option**:
-    <label><input type="checkbox" onclick="fw.handleSetting_syncDeviceStoreOnSignOut(this);" id="setting_syncDeviceStoreOnSignOut"> Copy Device Storage from the Cloud <i>(ON Sign-Out)</i></label>
+    <label><input type="checkbox" onclick="fw.handleSetting_syncDeviceStoreOnSignOut(this);" id="setting_syncDeviceStoreOnSignOut"> Sync Device Storage from the Cloud <i>(ON Sign-Out)</i></label>
 - From that point forward, however, your device state will be an independent copy, held on this device.
   - **Which will NOT be synced to the cloud**
 
