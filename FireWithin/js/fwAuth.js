@@ -111,8 +111,8 @@ export function handleSignInWithEmailPass(event) {
   event.preventDefault();
 
   // obtain aspects of the sign-in form - including the user supplied email/pass
-  const email   = document.getElementById('username').value.trim();
-  const pass    = document.getElementById('current-password').value.trim();
+  const email   = document.getElementById('acctEmail').value.trim();
+  const pass    = document.getElementById('acctPass').value.trim();
   const msgElm  = document.getElementById('signInMsg');
 
   // clear any prior message - don't want it lingering when this function has success
@@ -189,8 +189,8 @@ export function handleSignUpWithEmailPass(event) {
   event.preventDefault();
 
   // obtain aspects of the sign-in form - including the user supplied email/pass
-  const email   = document.getElementById('username').value.trim();
-  const pass    = document.getElementById('current-password').value.trim();
+  const email   = document.getElementById('acctEmail').value.trim();
+  const pass    = document.getElementById('acctPass').value.trim();
   const msgElm  = document.getElementById('signInMsg');
 
   // clear any prior message - don't want it lingering when this function has success
@@ -298,7 +298,7 @@ export function handlePasswordReset(event) {
   event.preventDefault();
 
   // obtain aspects of the sign-in form - including the user supplied email
-  const email   = document.getElementById('username').value.trim();
+  const email   = document.getElementById('acctEmail').value.trim();
   const msgElm  = document.getElementById('signInMsg');
 
   // clear any prior message - don't want it lingering when this function has success

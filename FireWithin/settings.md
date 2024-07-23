@@ -65,14 +65,12 @@ the same account)_.
 <div style="margin-left: 20px">  
   <form id="signInForm" onsubmit="fw.handleSignInWithEmailPass(event)">
   
-    <!-- USED: "username" per standards recomendation -->
-    <label for="username"><b>Email:</b></label>
-    <input type="email" id="username" name="username" autocomplete="username" placeholder="me@gmail.com">
+    <label for="acctEmail"><b>Email:</b></label>
+    <input type="email" id="acctEmail" name="acctEmail" autocomplete="email" placeholder="me@gmail.com">
   
-    <!-- USED: "current-password" per standards recomendation -->
-    <label for="current-password"><b>Password:</b></label>
-    <input type="password" id="current-password" name="current-password" autocomplete="current-password">
-    <span onclick="fw.togglePasswordVisibility('current-password')" style=cursor:help>👁</span>
+    <label for="acctPass"><b>Password:</b></label>
+    <input type="password" id="acctPass" name="acctPass" autocomplete="current-password">
+    <span onclick="fw.togglePasswordVisibility('acctPass')" style=cursor:help>👁</span>
 
     <p id="signInMsg" style="color: red;"></p>
 
