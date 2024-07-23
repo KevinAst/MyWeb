@@ -1034,7 +1034,6 @@ function userName(arg) {
 }
 
 
-// ?? CHECK THIS OUT - CHANGED to email ... not sure I understand this ... used in settings.md and possibly others
 //*-----------------------------------------------------------------------------
 //* userEmail()
 //* 

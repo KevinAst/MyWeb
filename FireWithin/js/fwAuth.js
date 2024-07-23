@@ -103,7 +103,6 @@ onAuthStateChanged(auth, (fbUser) => {
  *
  * @public
  */
-// ?? NEW NEW NEW NEW
 export function handleSignInWithEmailPass(event) {
   const log = logger(`${logPrefix}:handleSignInWithEmailPass()`);
   log(`processing`);
@@ -134,10 +133,6 @@ export function handleSignInWithEmailPass(event) {
   //     - either the credentials exist or not (as determined by Firebase)
 
   // invoke Firebase email/pass SignIn
-  if (pass === 'poop') { // ?? very temp (allowing us to enter code without executing)
-    msgElm.textContent = "'poop' is NOT a valid password.";
-    return;
-  }
   log(`invoking FireBase signInWithEmailAndPassword( for '${email}')`);
   signInWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
@@ -184,7 +179,6 @@ export function handleSignInWithEmailPass(event) {
  *
  * @public
  */
-// ?? NEW NEW NEW NEW
 export function handleSignUpWithEmailPass(event) {
   const log = logger(`${logPrefix}:handleSignUpWithEmailPass()`);
   log(`processing`);
@@ -219,10 +213,6 @@ export function handleSignUpWithEmailPass(event) {
   }
 
   // invoke Firebase email/pass SignUp
-  if (pass === 'poop') { // ?? very temp (allowing us to enter code without executing)
-    msgElm.textContent = "'poop' is NOT a valid password.";
-    return;
-  }
   log(`invoking FireBase createUserWithEmailAndPassword( for '${email}')`);
   createUserWithEmailAndPassword(auth, email, pass)
     .then((userCredential) => {
@@ -279,7 +269,6 @@ export function handleSignUpWithEmailPass(event) {
  *
  * @param {User} fbUser - the firebase user
  */
-// ?? NEW NEW NEW NEW
 function confirmUserOwnsEmail(fbUser) {
   if (!fbUser.emailVerified) {
     sendEmailVerification(fbUser);
@@ -297,7 +286,6 @@ function confirmUserOwnsEmail(fbUser) {
  *
  * @returns {boolean} true: IS strong, false: is NOT strong.
  */
-// ?? NEW NEW NEW NEW
 function isPasswordStrong(pass) {
   // regular expression guide:
   // ^(?=.*[a-z]):          Asserts that there is at least one lowercase letter
@@ -319,7 +307,6 @@ function isPasswordStrong(pass) {
  *
  * @public
  */
-// ?? NEW NEW NEW NEW
 export function handlePasswordReset(event) {
   const log = logger(`${logPrefix}:handlePasswordReset()`);
   log(`processing`);
