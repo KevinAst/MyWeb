@@ -194,7 +194,7 @@ const customTagProcessors = {
   sermonSeries,
   inject,
   userName,
-  userPhone,
+  userEmail,
   injectSyncNote,
 };
 
@@ -1035,37 +1035,37 @@ function userName(arg) {
 
 
 //*-----------------------------------------------------------------------------
-//* userPhone()
+//* userEmail()
 //* 
-//* Inject the html that will dynamically reflect the userPhone of the active user.
+//* Inject the html that will dynamically reflect the userEmail of the active user.
 //* 
 //* Parms:
 //*   NONE
 //* 
 //* Custom Tag:
-//*   M{ userPhone() }M
+//*   M{ userEmail() }M
 //* 
 //* Replaced With:
-//*   <b data-fw-user-phone>sync-phone</b>
+//*   <b data-fw-user-email>sync-email</b>
 //*-----------------------------------------------------------------------------
-function userPhone(arg) {
+function userEmail(arg) {
 
   // parameter validation
   const tick       = isString(arg) ? "`" : "";
-  const self       = `userPhone(${tick}${arg}${tick})`;
+  const self       = `userEmail(${tick}${arg}${tick})`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
   // ... arg
   checkParam(!arg, 'NO argument is expected');
 
   // ... devise our html to inject
-  const html = '<b data-fw-user-phone>sync-phone</b>';
+  const html = '<b data-fw-user-email>sync-email</b>';
 
   // expand our customTag as follows
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
   //       We simplify:
   //       - No HTML comment
-  //       - diag: UP ... for userPhone
+  //       - diag: UP ... for userEmail
   // NOTE: To avoid problems intermizing MarkDown and HTML, we just in-line our insertion (i.e. NO cr/lf).
   const diag = config.revealCustomTags ? `<mark>UP</mark>` : '';
   return `${diag}${html}`;

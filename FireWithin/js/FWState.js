@@ -504,7 +504,7 @@ export default class FWState {
           // when Firebase data exists ...
           if (state) {
             // retain the Firebase data in our in-memory-state
-            log(`setting in-memory-state from Firebase DB for authorized user ${fwUser.getPhone()}`, {state});
+            log(`setting in-memory-state from Firebase DB for authorized user ${fwUser.getEmail()}`, {state});
             this.setAllState(state);
           }
           
@@ -520,33 +520,33 @@ export default class FWState {
             // ... NOTE: we should NOT see this propogate to other app instances (with same user)
             //           BECAUSE: this is the first-use of the user account
             //           SO: there are NO other app instances (with this user)
-            log(`initializing Firebase DB for first time use by new user ${fwUser.getPhone()} ... ${this}`);
+            log(`initializing Firebase DB for first time use by new user ${fwUser.getEmail()} ... ${this}`);
             set(dbRef, this._state)
               .then(() => {
                 // NOTE: we can LEAVE our in-memory-state AS-IS (from LocalStorage) ... it has now been synced to Firebase
               })
               .catch((err) => {
-                showUnexpectedError(log, `initialize Firebase DB (first time usage for user: ${fwUser.getPhone()})`, err);
+                showUnexpectedError(log, `initialize Firebase DB (first time usage for user: ${fwUser.getEmail()})`, err);
               });
 
-            // also, as a convenience of the Firebase DB console, retain the authorizing phone in a top-level 'auth' entry
+            // also, as a convenience of the Firebase DB console, retain the authorizing email in a top-level 'auth' entry
             // ... this strictly makes it easier to correlate the account used within the DB entries
             if (this._category === 'settings') { // ... only need to do once - choose one (completions or settings)
-              log(`retain the authorizing phone in a top-level 'auth' entry: '${fwUser.getPhone()}'`);
+              log(`retain the authorizing email in a top-level 'auth' entry: '${fwUser.getEmail()}'`);
               const dbAuthRef = ref(database, `users/${fwUser._uid}/auth`);
-              set(dbAuthRef, fwUser.getPhone())
+              set(dbAuthRef, fwUser.getEmail())
                 .then(() => {
                   // success
                 })
                 .catch((err) => {
-                  showUnexpectedError(log, `initialize Firebase DB auth entry (first time usage for user: ${fwUser.getPhone()})`, err);
+                  showUnexpectedError(log, `initialize Firebase DB auth entry (first time usage for user: ${fwUser.getEmail()})`, err);
                 });
             }
           }
           
         })
         .catch((err) => {
-          showUnexpectedError(log, `retrieve user state from Firebase for user: ${fwUser.getPhone()}`, err);
+          showUnexpectedError(log, `retrieve user state from Firebase for user: ${fwUser.getEmail()}`, err);
         });
     }
     
