@@ -7,6 +7,7 @@ import {getAuth,
         onAuthStateChanged,
         signInWithEmailAndPassword,
         createUserWithEmailAndPassword,
+        sendEmailVerification,
         sendPasswordResetEmail}         from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 // accumulated exports
@@ -14,4 +15,5 @@ export {getAuth,
         onAuthStateChanged,
         signInWithEmailAndPassword,
         createUserWithEmailAndPassword,
+        sendEmailVerification,
         sendPasswordResetEmail};

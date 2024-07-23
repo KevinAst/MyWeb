@@ -14,6 +14,7 @@ import {getAuth,
         onAuthStateChanged,
         signInWithEmailAndPassword,
         createUserWithEmailAndPassword,
+        sendEmailVerification,
         sendPasswordResetEmail}          from './pkg/firebase/auth.js';
 
 import FWUser from './FWUser.js';
@@ -155,6 +156,9 @@ export function handleSignInWithEmailPass(event) {
       // ... sign-in screen will morph into signed-in state
       // ... we don't want this message as a remnite, if user signs-out and back in again (on same page)
       // msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
+
+      // confirm user owns their signed-in email
+      confirmUserOwnsEmail(fbUser);
     })
     .catch((err) => {
       const errCode = err.code;
@@ -237,6 +241,9 @@ export function handleSignUpWithEmailPass(event) {
       // ... sign-in screen will morph into signed-in state
       // ... we don't want this message as a remnite, if user signs-out and back in again (on same page)
       // msgElm.textContent = "Welcome ... you are now successfully signed-in!!";
+
+      // confirm user owns their signed-in email
+      confirmUserOwnsEmail(fbUser);
     })
     .catch((err) => {
       const errCode = err.code;
@@ -256,6 +263,29 @@ export function handleSignUpWithEmailPass(event) {
     });
 }
 
+
+/**
+ * Conditionally send supplied user a verification email, asking them
+ * to prove they own their signed-in email.
+ *
+ * When user clicks the email link, the fbUser.emailVerified setting is set to true.
+ *
+ * This is invoked in both sign-up and sign-in (assuming they did not
+ * respond in the sign-up).
+ *
+ * NOTE: Unfortunately This is done AFTER the user has signed-in.
+ *       Firebase does NOT have the ability to do this up-front (when using email/password).
+ *       So we just pretend that it is necessary.
+ *
+ * @param {User} fbUser - the firebase user
+ */
+// ?? NEW NEW NEW NEW
+function confirmUserOwnsEmail(fbUser) {
+  if (!fbUser.emailVerified) {
+    sendEmailVerification(fbUser);
+    alert(`An email has been sent to ${fbUser.email}.  Please click the enclosed link to verify you own this email.`);
+  }
+}
 
 /**
  * Verify the supplied password is of the proper strength.
