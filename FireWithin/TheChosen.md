@@ -7,6 +7,7 @@
 - [Season 1](#season-1)
 - [Season 2](#season-2)
 - [Season 3](#season-3)
+- [Season 4](#season-4)
 
 ## Overview
 
@@ -70,7 +71,7 @@
   - {{book.TCSeason1M}}: 04/21/2019
   - {{book.TCSeason2M}}: 04/04/2021
   - {{book.TCSeason3M}}: 11/05/2022
-  - Season 4: 03/11/2024 ... _(TBD: best guess)_
+  - {{book.TCSeason4M}}: 06/02/2024
   - Season 5: _TBD_
   - Season 6: _TBD_
   - Season 7: _TBD_
@@ -444,3 +445,8 @@ M{ sermonSeries({
     },
   ]
 }) }M
+
+
+## Season 4
+
+?? TODO!
