@@ -70,8 +70,8 @@ Release           | What                 | *When*
 - ?? **{{book.TheChosen}}** page was updated to include {{book.TCSeason4M}}
 - ?? <mark>Exciting:</mark> **{{book.TheChosen}}** page now includes links
   to **"The Chosen Sleuth"**, which breaks down each episode with scripture!
-- ?? Sync Current {{book.Romans}} Series (Sundays)
-- ?? Sync Current {{book.1Kings}} Series (Mid Week)
+- Sync Current {{book.Romans}} Series (Sundays)
+- Sync Current {{book.1Kings}} Series (Mid Week) **NO CHANGE**
 
 
 <!-- ************************************************************* -->
