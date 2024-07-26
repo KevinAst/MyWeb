@@ -449,4 +449,103 @@ M{ sermonSeries({
 
 ## Season 4
 
-?? TODO!
+<mark><b>Please NOTE:</b></mark> Season 4 requires you to **sign-in** to stream the episodes _(it's a free account)_.
+
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
+<!-- Description found here: https://www.thechosenriseup.com/  -->
+
+Clashing kingdoms. Rival rulers. The enemies of Jesus close in while
+His followers struggle to keep up, leaving him to carry the burden
+alone.
+
+Threatened by the reality of Jesus’ growing influence, religious
+leaders do the unthinkable — ally with their Roman oppressors. As the
+seeds of betrayal are planted and opposition to Jesus’ message turns
+violent, he’s left with no alternative but demand his followers RISE
+UP.
+
+P{ inject('</div>') }P
+
+> Bible App (Season 4) ... 
+> [Movies](https://watch.thechosen.tv/page/season%204) • 
+> [Devotions](https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan)
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+
+M{ sermonSeries({
+  entries: [
+    {
+      id:                 `TC-S4-E1`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596182@@Promises`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `An intoxicating dance leads Herod to put an end to John the Baptizer, but no one can stop what—or Who—he’s ushered in.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E2`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596183@@Confessions`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Jesus founds his church on unholy ground and Simon goes public with Jesus’ true identity, getting a new name in the process. But can the new “Peter” forgive old wrongs?`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E3`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596185@@Moon to Blood`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `When Jesus heals a blind man on the Sabbath, religious leaders confront him, drawing a riotous crowd. Gaius defies a direct order leading Quintus to take matters—and someone’s life—into his own hands.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E4`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596186@@Calm Before`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Beginning with a funeral procession, time marches rapidly toward the final days of Jesus’ ministry. While the disciples seek status for themselves, a Roman ruler comes with a humble request.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E5`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596187@@Sitting, Serving, Scheming`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Roman soldiers demand the disciples carry their armor, but Jesus goes one step farther. Frustrated by the direction of Jesus’ ministry, Judas visits an old friend for advice.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E6`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596188@@Dedication`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Jesus and the disciples celebrate Hanukkah. Matthew confronts Judas about irregularities, and the festival turns into a fight, then flight. The disciples escape with their lives, but learn a friend hasn’t been so lucky.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E7`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596184@@The Last Sign`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Jesus brings Lazarus back to life—and sets off the chain of events that will lead to His own death.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+    {
+      id:                 `TC-S4-E8`, 
+      sermon:             `https://watch.thechosen.tv/video/184683596189@@Humble`,
+//    extraSermonLink:    `Season 4 DOES NOT appear to be available on YouVersion :-(`,
+      desc:               `Jesus refuses to look and act like the Messiah everyone expects—arriving like a lamb instead of a lion and riding a donkey instead of a war horse.`,
+      scripture:          `?? mat.6.25-34@@Matthew 6:25-34`,
+      studyGuide:         `?? https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devotion-1`,
+      date:               `06/02/2024`,
+    },
+  ]
+}) }M
+
