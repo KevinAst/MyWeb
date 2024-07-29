@@ -393,7 +393,7 @@ M{ sermonSeries({
       desc:               `Jesus delivers the most life-altering sermon in history. The result? More followers, more enemies, and disciples ready to follow Jesus anywhere. Simon and Eden reunite, Matthew faces his past, and Andrew visits John the Baptist in prison.`,
       scripture:          `mat.6.25-34@@Matthew 6:25-34`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/1@@Devo-1`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:BUsDbiTsZB8@@Judas##Bs7jkuLHsFM@@Relationships##to0Yy1pH5Rs@@Andrew's Anxiety##zOQwSoI_CFY@@Sermon on the Mount##VuupQ9Yl_1w@@Matthew`,
     },
     {
       id:                 `TC-S3-E2`, 
@@ -402,7 +402,7 @@ M{ sermonSeries({
       desc:               `Jesus is a problem for the Romans. With pilgrims from everywhere setting up a tent city at the gates of Capernaum to see Jesus, tensions rise. Jesus officially sends the twelve apostles on an exciting but dangerous mission, causing Little James to ask why he hasn’t been healed.`,
       scripture:          `psa.133@@Psalms 133##mat.5.23-26@@CR:Matthew 5:23-26`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/2@@Devo-2`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:I6bHYv-rjJA@@Gaius & Atticus##N9vena-l1-A@@Simon the Zealot##TvEPLhZoxCY@@Simon & Eden##5eUGWPVm8GQ@@Thomas & Ramah##bMFmBl3E2_0@@Made Me Cry##JNchqQOCZcs@@Two by Two`,
     },
     {
       id:                 `TC-S3-E3`, 
@@ -411,7 +411,7 @@ M{ sermonSeries({
       desc:               `Jesus returns to his childhood home for the big Jewish new year celebration. His childhood friends and family are all buzzing with what they’ve heard about Jesus…until he tells them the truth of who He is.`,
       scripture:          `isa.61.1-2@@Isaiah 61:1-2##luk.4.14-30@@CR:Luke 4:14-30`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/3@@Devo-3`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:am7oPVQF_rg@@Rundown##Apf2ucbxfAk@@Rosh Hashanah##BxwNYdqiMrk@@Non-Biblical Bridle##7JhhIr2H4B0@@Synagogue Scene`,
     },
     {                     // NO Devotion for this episode
       id:                 `TC-S3-E4`, 
@@ -420,7 +420,7 @@ M{ sermonSeries({
       desc:               `Two by two, the disciples carry out Jesus’ mission to heal, cast out demons, and preach his words. But upon returning, they struggle with understanding what happened while Simon and Eden struggle to reconnect.`,
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:dqPj7FUebZw@@Simon & Eden##L8zIP7kbNyQ@@Two by Two##_MCcjbb4jZw@@Tamar & Mary##MwEDZ-bv5h0@@Apostle Power Danger##LsUNKIgS9rg@@Pharisees Return`,
     },
     {
       id:                 `TC-S3-E5`, 
@@ -429,7 +429,7 @@ M{ sermonSeries({
       desc:               `As tensions mount at home, Simon and Gaius work together to fix the water problem in Capernaum. Meanwhile, Jairus and Veronica are equally desperate to find Jesus as the only hope for their crises.`,
       scripture:          `mrk.5.24-34@@Mark 5:24-34##jas.2.1-9@@CR:James 2:1-9##jas.2.12-13@@CR:James 2:12-13`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/4@@Devo-4`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:507iY16UH1M@@Eden's Journey##i3kXi8DJ1x0@@Jairus##4fdbvf0sUnQ@@Bleeding Woman`,
     },
     {
       id:                 `TC-S3-E6`, 
@@ -438,7 +438,7 @@ M{ sermonSeries({
       desc:               `Andrew and Philip discover their previous mission resulted in devastation that will require a return. Simon Z is finally forced to confront his past, but then two disciples of John the Baptist come to Capernaum with an important question for Jesus.`,
       scripture:          `mat.11.2-19@@Matthew 11:2-19`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/5@@Devo-5`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:PMTexT3wNko@@Leander NOT Matthias##L3sQu6S8APc@@John the Baptist##8xXRKBjs2Tc@@What did Mary Magdalene see##cKgE7ycVlW4@@Simon the Zealot##9HD243-KErE@@Simon & Eden##6kffWBA2Keg@@Gaius##CgFkSEGhTn8@@Barnaby and Shula##y4CEUaEW5DI@@Mary & Tamar##x4QwjO0HF8k@@Disciples Sharping Weapons`,
     },
     {                     // NO Devotion for this episode
       id:                 `TC-S3-E7`, 
@@ -447,7 +447,7 @@ M{ sermonSeries({
       desc:               `Andrew and Philip return from their trip with desperate news: they need Jesus’ help to solve a huge crisis in the Decapolis. Jesus leads them on a trip to the dangerous region, where they face opposition from all sides. Literally. Meanwhile, John is assigned to bring an angry Simon to Jesus.`,
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:SJWZqX4GZzI@@Andrew & Phillip##kWI6-HsLPvw@@Matthew's Restoration##YFIejQojHOo@@Kafni Rejects Thomas##7-PDrY-AmJs@@Gaius Seeks, Simon Runs##oyQ6n7EXUck@@John's Ego, Simon's Suffering`,
     },
     {
       id:                 `TC-S3-E8`, 
@@ -456,7 +456,7 @@ M{ sermonSeries({
       desc:               `Thousands arrive to first argue with, then listen to Jesus as he preaches. Shmuel and Atticus hear what’s happening and journey towards the Decapolis to catch Jesus in the act of a possible revolt. Meanwhile, as the preaching extends to the next day, the disciples realize they have a significant problem: the thousands are hungry, and there’s no food.`,
       scripture:          `mat.14.22-36@@Matthew 14:22-36##col.3.1-3@@CR:Colossians 3:1-3`,
       studyGuide:         `https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan/day/6@@Devo-6`,
-      date:               `11/05/2022`,
+      date:               `DeepDive:8_Ar5QGtq0c@@King David Cameo##pfEUJ1N-aVk@@Feeding 5000##E5CJzKhX4T4@@Simon's Weakness##VTjL9euDlvc@@Shmuel##Wnaz205S04M@@Feeding 5000 Miracle##R6oQyFFZVsI@@Eden's Mask Breaks##cXgNiD9fR5s@@Parable of the Two Sons##a1m7ODwVWlA@@Season 3 Thoughts`,
     },
   ]
 }) }M
