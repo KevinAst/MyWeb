@@ -1,0 +1,216 @@
+********************************************************************************
+* The Chosen Sleuth YouTube Videos (The Deep Dives)
+********************************************************************************
+
+*-------------------------------------------------------------------------------
+* Season 1
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+      https://www.youtube.com/watch?v=8Fs_PpeFlNo&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=1&t=27s&pp=iAQB
+   2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+      https://www.youtube.com/watch?v=yCafoz6lKwg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=2&pp=iAQB
+   3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+      https://www.youtube.com/watch?v=VdUPmi7vl8I&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=3&pp=iAQB
+   4. The CHOSEN SEASON 1| Character Guide
+      https://www.youtube.com/watch?v=jfHlTrTgc4w&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=4&pp=iAQB
+   5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+      https://www.youtube.com/watch?v=7bMaiOwYjhg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=5&pp=iAQB
+   6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+      https://www.youtube.com/watch?v=kZyrhFdNuJw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=6&pp=iAQB
+   7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+      https://www.youtube.com/watch?v=H37YA8LyCLE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=7&pp=iAQB
+   8. More than one Sanhedrin?!?! Understanding The Chosen!
+      https://www.youtube.com/watch?v=NTqiBcJ62NU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=8&pp=iAQB
+   9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+      https://www.youtube.com/watch?v=_O7U3Pn_kMA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=9&pp=iAQB
+  10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+      https://www.youtube.com/watch?v=1mHmfkCEl0M&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=10&pp=iAQB
+  11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+      https://www.youtube.com/watch?v=lbsJ19B3lWM&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=11&pp=iAQB
+  12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+      https://www.youtube.com/watch?v=oH2XU-QZJeE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=12&pp=iAQB
+  13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+      https://www.youtube.com/watch?v=Xq-ugp-u2Ks&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=13&pp=iAQB
+  14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+      https://www.youtube.com/watch?v=r3jcFfSL58s&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=14&pp=iAQB
+  15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+      https://www.youtube.com/watch?v=kskQBLoZEuE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=15&pp=iAQB
+  16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+      https://www.youtube.com/watch?v=e-cXGiVU2rw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=16&pp=iAQB
+  17. RANKING Every Episode of THE CHOSEN Season 1!
+      https://www.youtube.com/watch?v=zkok2f-pgXU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=17&pp=iAQB
+  18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+      https://www.youtube.com/watch?v=647-s2nPDYA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=18&pp=iAQB
+  19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+      https://www.youtube.com/watch?v=FXV381GrlME&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=19&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+  NAH                          1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+                                  https://www.youtube.com/watch?v=8Fs_PpeFlNo
+
+
+                              
+1 Nicodemus                    2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+                                  https://www.youtube.com/watch?v=yCafoz6lKwg
+1 Mary Magdalene               3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+                                  https://www.youtube.com/watch?v=VdUPmi7vl8I
+1 Simon/Andrew/Eden            5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+                                  https://www.youtube.com/watch?v=7bMaiOwYjhg
+1 Character Guide              4. The CHOSEN SEASON 1| Character Guide
+                                  https://www.youtube.com/watch?v=jfHlTrTgc4w
+  ENTRY:                          `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
+
+
+                              
+2 Shabbat                      6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+                                  https://www.youtube.com/watch?v=kZyrhFdNuJw
+2 Eden                         7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+                                  https://www.youtube.com/watch?v=H37YA8LyCLE
+2 Sanhedrin                    8. More than one Sanhedrin?!?! Understanding The Chosen!
+                                  https://www.youtube.com/watch?v=NTqiBcJ62NU
+  ENTRY:                          `DeepDive:kZyrhFdNuJw@@Shabbat##H37YA8LyCLE@@Eden##NTqiBcJ62NU@@Sanhedrin`
+
+
+
+3 Jesus' Humanity              9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+                                  https://www.youtube.com/watch?v=_O7U3Pn_kMA
+  ENTRY:                          `DeepDive:_O7U3Pn_kMA@@Jesus' Humanity`
+
+
+
+4 Fish & Brothers             10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+                                  https://www.youtube.com/watch?v=1mHmfkCEl0M
+4 Simon's Marriage            11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+                                  https://www.youtube.com/watch?v=lbsJ19B3lWM
+  ENTRY:                          `DeepDive:1mHmfkCEl0M@@Fish & Brothers##lbsJ19B3lWM@@Simon's Marriage`
+
+
+
+5 John the Baptist            12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+                                  https://www.youtube.com/watch?v=oH2XU-QZJeE
+5 Simon's Calling             13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+                                  https://www.youtube.com/watch?v=Xq-ugp-u2Ks
+  ENTRY:                          `DeepDive:oH2XU-QZJeE@@John the Baptist##Xq-ugp-u2Ks@@Simon's Calling`
+
+
+                              
+6 Matthew/Nicodemus/Tamar     14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+                                  https://www.youtube.com/watch?v=r3jcFfSL58s
+6 Nicodemus/Shmuel            15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+                                  https://www.youtube.com/watch?v=kskQBLoZEuE
+6 Tamar                       16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+                                  https://www.youtube.com/watch?v=e-cXGiVU2rw
+  ENTRY:                          `DeepDive:r3jcFfSL58s@@Matthew/Nicodemus/Tamar##kskQBLoZEuE@@Nicodemus/Shmuel##e-cXGiVU2rw@@Tamar`
+
+
+
+                              
+  NAH                         17. RANKING Every Episode of THE CHOSEN Season 1!
+                                  https://www.youtube.com/watch?v=zkok2f-pgXU
+
+
+
+                              
+7 Matthew Follows Jesus       18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=647-s2nPDYA
+  ENTRY:                          `DeepDive:647-s2nPDYA@@Matthew Follows Jesus`
+
+
+                              
+8 Woman at the Well           19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=FXV381GrlME
+  ENTRY:                          `DeepDive:FXV381GrlME@@Woman at the Well`
+
+
+
+
+*-------------------------------------------------------------------------------
+* Season 2
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. ??
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+1                              1. ??
+                                  https://www.youtube.com/watch?v=??
+
+
+
+
+*-------------------------------------------------------------------------------
+* Season 3
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. ??
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+1                              1. ??
+                                  https://www.youtube.com/watch?v=??
+
+
+
+
+*-------------------------------------------------------------------------------
+* Season 4
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS
+  >>> FROM: The Chosen Sleuth / Playlists ... https://www.youtube.com/@TheChosenSleuth/playlists
+            Find "Deep Dives" for each "Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. ??
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+1                              1. ??
+                                  https://www.youtube.com/watch?v=??
+

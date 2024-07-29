@@ -27,10 +27,10 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v22.1](#v22_1)   | Sync The Chosen & Sermon Series | *July 26, 2024*
-[v22.0](#v22_0)   | Email/Password Authentication   | *July 23, 2024*
-[v21.4](#v21_4)   | Sync Current Sermon Series      | *May 22, 2024*
-[v21.3](#v21_3)   | Sync Current Sermon Series      | *May 13, 2024*
+[v22.1](#v22_1)   | Update The Chosen & Sermon Series | *July 29, 2024*
+[v22.0](#v22_0)   | Email/Password Authentication     | *July 23, 2024*
+[v21.4](#v21_4)   | Update Current Sermon Series      | *May 22, 2024*
+[v21.3](#v21_3)   | Update Current Sermon Series      | *May 13, 2024*
 [v21.2](#v21_2)   | Misc                 | *Mar 5, 2024*
 [v21.1](#v21_1)   | The Chosen, & more   | *Feb 27, 2024*
 [v21.0](#v21_0)   | Device Sync          | *Feb 21, 2024*
@@ -63,15 +63,15 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v22_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v22.1 - Sync The Chosen & Sermon Series  <i>(July 26, 2024)</i>
+  v22.1 - Update The Chosen & Sermon Series  <i>(July 29, 2024)</i>
 </h3>
 <br/>
 
-- ?? **{{book.TheChosen}}** page was updated to include {{book.TCSeason4M}}
-- ?? <mark>Exciting:</mark> **{{book.TheChosen}}** page now includes links
+- **{{book.TheChosen}}** page was updated to include {{book.TCSeason4M}}
+- <mark>Exciting:</mark> **{{book.TheChosen}}** page now includes links
   to **"The Chosen Sleuth"**, which breaks down each episode with scripture!
-- Sync Current {{book.Romans}} Series (Sundays)
-- Sync Current {{book.1Kings}} Series (Mid Week) **NO CHANGE**
+- Update Current {{book.Romans}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week) **NO CHANGE**
 
 
 <!-- ************************************************************* -->
@@ -138,25 +138,25 @@ sign-ins are "long lived".
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v21_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v21.4 - Sync Current Sermon Series <i>(May 22, 2024)</i>
+  v21.4 - Update Current Sermon Series <i>(May 22, 2024)</i>
 </h3>
 <br/>
 
-- Sync Current {{book.Romans}} Series (Sundays)
-- Sync Current {{book.1Kings}} Series (Mid Week)
+- Update Current {{book.Romans}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week)
 - Added "My Small Group" section in {{book.Acts}}
 
 
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v21_3" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v21.3 - Sync Current Sermon Series <i>(May 13, 2024)</i>
+  v21.3 - Update Current Sermon Series <i>(May 13, 2024)</i>
 </h3>
 <br/>
 
-- Sync Current {{book.Romans}} Series (Sundays)
-- Sync Current {{book.2Samuel}} Series (Mid Week)
-- Sync Current {{book.1Kings}} Series (Mid Week)
+- Update Current {{book.Romans}} Series (Sundays)
+- Update Current {{book.2Samuel}} Series (Mid Week)
+- Update Current {{book.1Kings}} Series (Mid Week)
 
 
 <!-- ************************************************************* -->
