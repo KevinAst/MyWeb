@@ -303,7 +303,7 @@ M{ sermonSeries({
       desc:               `A long, exhausting day turns into night as the disciples help Jesus deal with a large crowd hoping to be healed. Around the campfire, over dinner, the group tried to get to know each other better. But tensions erupt.`,
       scripture:          `mat.4.24@@Matthew 4:24`,
       studyGuide:         `NONE`,
-      date:               `DeepDive:LEZElYsFb3k@@Mary/Jesus##ZS8GLzyAWIY@@Overview##cN8J4p37k04@@Disdain for Matthew`,
+      date:               `DeepDive:LEZElYsFb3k@@Mary/Jesus##ZS8GLzyAWIY@@Rundown##cN8J4p37k04@@Disdain for Matthew`,
     },
     {
       id:                 `TC-S2-E4`, 
@@ -312,7 +312,7 @@ M{ sermonSeries({
       desc:               `As Jesus and the disciples head to Jerusalem to celebrate the Feast of Tabernacles, a new enemy follows them, while a familiar enemy awaits.`,
       scripture:          `jhn.5.1-18@@John 5:1-18`,
       studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/3@@Devo-3`,
-      date:               `DeepDive:Re5viFQG8sA@@Overview##Een00ofHr4w@@Simon the Zealot`,
+      date:               `DeepDive:Re5viFQG8sA@@Rundown##Een00ofHr4w@@Simon the Zealot`,
     },
     {
       id:                 `TC-S2-E5`, 
@@ -321,7 +321,7 @@ M{ sermonSeries({
       desc:               `After stirring the water, Jesus is now pursued by Simon the Zealot, Atticus, and Shmuel. John the Baptizer visits the group and tells Jesus his dangerous mission. Meanwhile, back at the camp, Mary Magdalene is devastated by an encounter with a mysterious and dangerous stranger.`,
       scripture:          `luk.11.14@@Luke 11:14##mrk.1.32-34@@CR:Mark 1:32-34##luk.8.26-34@@CR:Luke 8:26-34##mat.9.32-33@@CR:Matthew 9:32-33##jhn.14.12@@CR:John 14:12`,
       studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/4@@Devo-4`,
-      date:               `DeepDive:KLcsELrv8uQ@@Review 1##QGGz6qJMFCM@@Mary Magdalene's Relapse##sUXuVBD1Fag@@Pharisees Yani & Shmuel`,
+      date:               `DeepDive:KLcsELrv8uQ@@Rundown##QGGz6qJMFCM@@Mary Magdalene's Relapse##sUXuVBD1Fag@@Pharisees Yani & Shmuel`,
     },
     {
       id:                 `TC-S2-E6`, 
@@ -330,7 +330,7 @@ M{ sermonSeries({
       desc:               `Matthew and Simon try to get along as they search for Mary in dark places. The group fears for Mary as they struggle with lack of food and bad news about John the Baptist. Meanwhile, Jesus continues to upset Pharisees across multiple regions.`,
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
-      date:               `DeepDive:BAct64ljpE8@@Review 1##Xq6NjOfIUOE@@Mary Magdalene's Journey##xdYM7Pqs54Q@@Character Development`,
+      date:               `DeepDive:BAct64ljpE8@@Rundown##Xq6NjOfIUOE@@Mary Magdalene's Journey##xdYM7Pqs54Q@@Character Development`,
     },
     {
       id:                 `TC-S2-E7`, 
@@ -339,7 +339,7 @@ M{ sermonSeries({
       desc:               `After learning of Jesus' whereabouts, Quintus sends Gaius to arrest him. The disciples lose control as they argue about how to respond. While seeking information about where Jesus has been taken, Andrew and Philip encounter old friends.`,
       scripture:          `mat.6.5-14@@Matthew 6:5-14`,
       studyGuide:         `https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan/day/5@@Devo-5`,
-      date:               `DeepDive:6svSVb_bwrg@@Review 1##jhGfu5CgwPM@@Jesus Interactions##D7ja5V2nPrc@@Andrew's Anger##lSfhgbXZWnE@@Roman System`,
+      date:               `DeepDive:6svSVb_bwrg@@Rundown##jhGfu5CgwPM@@Jesus Interactions##D7ja5V2nPrc@@Andrew's Anger##lSfhgbXZWnE@@Roman System`,
     },
     {
       id:                 `TC-S2-E8`, 
