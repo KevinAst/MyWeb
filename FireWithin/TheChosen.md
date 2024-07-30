@@ -496,7 +496,7 @@ M{ sermonSeries({
       desc:               `An intoxicating dance leads Herod to put an end to John the Baptizer, but no one can stop what—or Who—he’s ushered in.`,
       scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:YkWva_okb_M@@John the Baptist##uzy4NxkSQCc@@Simon the Zealot & Judas##ybI4fGcUxh0@@Thomas & Ramah`,
     },
     {
       id:                 `TC-S4-E2`, 
@@ -505,7 +505,7 @@ M{ sermonSeries({
       desc:               `Jesus founds his church on unholy ground and Simon goes public with Jesus’ true identity, getting a new name in the process. But can the new “Peter” forgive old wrongs?`,
       scripture:          `mrk.8.27-30@@Mark 8:27-30##mat.16.13-20@@CR:Matthew 16:13-20`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/2@@Devo-2`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:4NnIQ8e19sY@@Simon Renamed to Peter##g96DCXOHBN8@@Thomas & Ramah##_uxI6xyuZEM@@Matthew & Peter`,
     },
     {
       id:                 `TC-S4-E3`, 
@@ -514,7 +514,7 @@ M{ sermonSeries({
       desc:               `When Jesus heals a blind man on the Sabbath, religious leaders confront him, drawing a riotous crowd. Gaius defies a direct order leading Quintus to take matters—and someone’s life—into his own hands.`,
       scripture:          `mat.7.7-11@@Matthew 7:7-11##mat.20.20-28@@CR:Matthew 20:20-28##jhn.15.7-8@@CR:John 15:7-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/3@@Devo-3`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:RgNnSNz9kiM@@Ramah's Death##W2bPFfNiXRQ@@Blind Man Healed##mHPQAUPukqM@@King David Prays/Fasts##3lK1E-zFSO4@@Sign of the Son of Man`,
     },
     {
       id:                 `TC-S4-E4`, 
@@ -523,7 +523,7 @@ M{ sermonSeries({
       desc:               `Beginning with a funeral procession, time marches rapidly toward the final days of Jesus’ ministry. While the disciples seek status for themselves, a Roman ruler comes with a humble request.`,
       scripture:          `mat.5.38-42@@Matthew 5:38-42##1jn.4.15-19@@CR:1 John 4:15-19`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/4@@Devo-4`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:-puzmAYQ9wA@@The Truth about Ramah##TIyWqFvOeYM@@James & John (Left & Right)`,
     },
     {
       id:                 `TC-S4-E5`, 
@@ -532,7 +532,7 @@ M{ sermonSeries({
       desc:               `Roman soldiers demand the disciples carry their armor, but Jesus goes one step farther. Frustrated by the direction of Jesus’ ministry, Judas visits an old friend for advice.`,
       scripture:          `jhn.10.1-21@@John 10:1-21`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/5@@Devo-5`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:iZnRqwgiGAY@@Sanhedrin##U3jMs2e6t-k@@Romans Mistreat Jesus##X_AJqvs25pQ@@Judas##ErkLP0Lneks@@Mary & Martha`,
     },
     {
       id:                 `TC-S4-E6`, 
@@ -541,7 +541,7 @@ M{ sermonSeries({
       desc:               `Jesus and the disciples celebrate Hanukkah. Matthew confronts Judas about irregularities, and the festival turns into a fight, then flight. The disciples escape with their lives, but learn a friend hasn’t been so lucky.`,
       scripture:          `jhn.11.1-4@@John 11:1-4##jhn.11.17-27@@CR:John 11:17-27##jhn.11.32-44@@CR:John 11:32-44`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/6@@Devo-6`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:COKS24Gaw-A@@John 10##RfFPJqtHglw@@Judas - No Turning Back##bf-e13k7I4g@@Hanukkah Explained`,
     },
     {
       id:                 `TC-S4-E7`, 
@@ -550,7 +550,7 @@ M{ sermonSeries({
       desc:               `Jesus brings Lazarus back to life—and sets off the chain of events that will lead to His own death.`,
       scripture:          `mic.6.8-9@@Micah 6:8-9##mat.25.31-40@@CR:Matthew 25:31-40`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/7@@Devo-7`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:0ae91iU-tHw@@Flash Forward##L54X-WnpfHI@@The Apostles##fz1CGbY1qmM@@Lazarus' Resurrection##MtZhwS_7XCY@@Mystery Man##PXzUL79DAEM@@Reactopms tp Lazarus`,
     },
     {                     // NO Devotion for this episode
       id:                 `TC-S4-E8`, 
@@ -559,7 +559,7 @@ M{ sermonSeries({
       desc:               `Jesus refuses to look and act like the Messiah everyone expects—arriving like a lamb instead of a lion and riding a donkey instead of a war horse.`,
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
-      date:               `06/02/2024`,
+      date:               `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`,
     },
   ]
 }) }M
