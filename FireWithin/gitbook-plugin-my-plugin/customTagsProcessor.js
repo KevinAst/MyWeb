@@ -820,7 +820,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... date
   let formattedDate = ''; // <<< USE THIS
   if (date) {
-    formattedDate = date; // used supplied date
+    formattedDate = processDateEntry(date); // use supplied date
   }
   else { 
     formattedDate = formattedDateStrFromId; // when NOT supplied, use derivation from id (may be blank)
@@ -920,6 +920,44 @@ function formatDate(year, month, day) {
   const monthStr = month.toString().padStart(2, '0');
   const dayStr   = day.toString()  .padStart(2, '0');
   return `${monthStr}/${dayStr}/${year}`;
+}
+
+// internal helper
+// extra processor of date entry
+// ... supporting:
+//     'DeepDive:ytHash@@desc[##ytHash@@desc...]'
+function processDateEntry(date) {
+
+  // use supplied date as-is (when NO special processing)
+  if (!date.startsWith('DeepDive:')) {
+    return date;
+  }
+
+  // OTHERWISE: interpret 'DeepDive:ytHash@@desc[##ytHash@@desc...]'
+
+  // parameter validation
+  const tick       = isString(date) ? "`" : "";
+  const self       = `processDateEntry(${tick}${date}${tick})`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // our content to return
+  let content = '';
+
+  const entries = date.slice(9).split('##'); // remove 'DeepDive:' and split by '##' entry delimiter
+  let   crLf    = '';
+  entries.forEach( (entry) => {
+    // split out the ref/title
+    let [ytHash, desc] = entry.split('@@');
+    // ... validate desc
+    checkParam(desc, 'desc is required (the second part of the date string parameter, delimited with @@)');
+
+    // update our content with a YouTube linke
+    content += `${crLf}<a href="https://www.youtube.com/watch?v=${ytHash}" target="_blank">DD:${desc}</a>`;
+
+    crLf = '<br/>'; // subsequent entries have a cr/lf
+  });
+
+  return content;
 }
 
 

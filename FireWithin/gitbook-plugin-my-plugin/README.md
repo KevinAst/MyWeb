@@ -344,6 +344,8 @@ content of an entire sermon series.
 
         date:       string,  // `MM/DD/YYYY` (OPTIONAL - DEFAULT: derivation of entry id)
                              // - `04/18/2021` - when entry id is either NOT accurate, or is in a NON-CornerStone format
+                             // - `DeepDive:ytHash@@desc[##ytHash@@desc...]` - SPECIAL CHOSEN PROCESSOR
+                             //                                                replace date entry with one or more "Deep Dive" YouTube video links
       },
       ... repeat
     ]

@@ -1,0 +1,782 @@
+********************************************************************************
+* The Chosen Sleuth YouTube Videos (The Deep Dives)
+********************************************************************************
+
+*-------------------------------------------------------------------------------
+* Season 1
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+      https://www.youtube.com/watch?v=8Fs_PpeFlNo&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=1&t=27s&pp=iAQB
+   2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+      https://www.youtube.com/watch?v=yCafoz6lKwg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=2&pp=iAQB
+   3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+      https://www.youtube.com/watch?v=VdUPmi7vl8I&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=3&pp=iAQB
+   4. The CHOSEN SEASON 1| Character Guide
+      https://www.youtube.com/watch?v=jfHlTrTgc4w&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=4&pp=iAQB
+   5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+      https://www.youtube.com/watch?v=7bMaiOwYjhg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=5&pp=iAQB
+   6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+      https://www.youtube.com/watch?v=kZyrhFdNuJw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=6&pp=iAQB
+   7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+      https://www.youtube.com/watch?v=H37YA8LyCLE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=7&pp=iAQB
+   8. More than one Sanhedrin?!?! Understanding The Chosen!
+      https://www.youtube.com/watch?v=NTqiBcJ62NU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=8&pp=iAQB
+   9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+      https://www.youtube.com/watch?v=_O7U3Pn_kMA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=9&pp=iAQB
+  10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+      https://www.youtube.com/watch?v=1mHmfkCEl0M&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=10&pp=iAQB
+  11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+      https://www.youtube.com/watch?v=lbsJ19B3lWM&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=11&pp=iAQB
+  12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+      https://www.youtube.com/watch?v=oH2XU-QZJeE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=12&pp=iAQB
+  13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+      https://www.youtube.com/watch?v=Xq-ugp-u2Ks&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=13&pp=iAQB
+  14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+      https://www.youtube.com/watch?v=r3jcFfSL58s&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=14&pp=iAQB
+  15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+      https://www.youtube.com/watch?v=kskQBLoZEuE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=15&pp=iAQB
+  16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+      https://www.youtube.com/watch?v=e-cXGiVU2rw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=16&pp=iAQB
+  17. RANKING Every Episode of THE CHOSEN Season 1!
+      https://www.youtube.com/watch?v=zkok2f-pgXU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=17&pp=iAQB
+  18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+      https://www.youtube.com/watch?v=647-s2nPDYA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=18&pp=iAQB
+  19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+      https://www.youtube.com/watch?v=FXV381GrlME&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=19&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+  NAH                          1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+                                  https://www.youtube.com/watch?v=8Fs_PpeFlNo
+
+
+                              
+1 Nicodemus                    2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+                                  https://www.youtube.com/watch?v=yCafoz6lKwg
+1 Mary Magdalene               3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+                                  https://www.youtube.com/watch?v=VdUPmi7vl8I
+1 Simon/Andrew/Eden            5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+                                  https://www.youtube.com/watch?v=7bMaiOwYjhg
+1 Character Guide              4. The CHOSEN SEASON 1| Character Guide
+                                  https://www.youtube.com/watch?v=jfHlTrTgc4w
+  ENTRY:                          `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
+
+
+                              
+2 Shabbat                      6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+                                  https://www.youtube.com/watch?v=kZyrhFdNuJw
+2 Eden                         7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+                                  https://www.youtube.com/watch?v=H37YA8LyCLE
+2 Sanhedrin                    8. More than one Sanhedrin?!?! Understanding The Chosen!
+                                  https://www.youtube.com/watch?v=NTqiBcJ62NU
+  ENTRY:                          `DeepDive:kZyrhFdNuJw@@Shabbat##H37YA8LyCLE@@Eden##NTqiBcJ62NU@@Sanhedrin`
+
+
+
+3 Jesus' Humanity              9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+                                  https://www.youtube.com/watch?v=_O7U3Pn_kMA
+  ENTRY:                          `DeepDive:_O7U3Pn_kMA@@Jesus' Humanity`
+
+
+
+4 Fish & Brothers             10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+                                  https://www.youtube.com/watch?v=1mHmfkCEl0M
+4 Simon's Marriage            11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+                                  https://www.youtube.com/watch?v=lbsJ19B3lWM
+  ENTRY:                          `DeepDive:1mHmfkCEl0M@@Fish & Brothers##lbsJ19B3lWM@@Simon's Marriage`
+
+
+
+5 John the Baptist            12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+                                  https://www.youtube.com/watch?v=oH2XU-QZJeE
+5 Simon's Calling             13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+                                  https://www.youtube.com/watch?v=Xq-ugp-u2Ks
+  ENTRY:                          `DeepDive:oH2XU-QZJeE@@John the Baptist##Xq-ugp-u2Ks@@Simon's Calling`
+
+
+                              
+6 Matthew/Nicodemus/Tamar     14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+                                  https://www.youtube.com/watch?v=r3jcFfSL58s
+6 Nicodemus/Shmuel            15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+                                  https://www.youtube.com/watch?v=kskQBLoZEuE
+6 Tamar                       16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+                                  https://www.youtube.com/watch?v=e-cXGiVU2rw
+  ENTRY:                          `DeepDive:r3jcFfSL58s@@Matthew/Nicodemus/Tamar##kskQBLoZEuE@@Nicodemus/Shmuel##e-cXGiVU2rw@@Tamar`
+
+
+
+                              
+  NAH                         17. RANKING Every Episode of THE CHOSEN Season 1!
+                                  https://www.youtube.com/watch?v=zkok2f-pgXU
+
+
+
+                              
+7 Matthew Follows Jesus       18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=647-s2nPDYA
+  ENTRY:                          `DeepDive:647-s2nPDYA@@Matthew Follows Jesus`
+
+
+                              
+8 Woman at the Well           19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=FXV381GrlME
+  ENTRY:                          `DeepDive:FXV381GrlME@@Woman at the Well`
+
+
+
+
+*-------------------------------------------------------------------------------
+* Season 2
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. The Chosen S2-E1 DEEP DIVE into ...THE GOOD SAMARITAN ?
+      https://www.youtube.com/watch?v=FpQB_3ImScU&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=1&pp=iAQB
+   2. Meeting NATHANAEL | The CHOSEN S2-E2 DEEP DIVE into Nathanael's story
+      https://www.youtube.com/watch?v=wCTiw8KhpxE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=2&pp=iAQB
+   3. The Chosen S2-E1 DEEP DIVE into John, the disciple who Jesus loved | Things you might've missed...
+      https://www.youtube.com/watch?v=Rqn2lTl4sy4&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=3&pp=iAQB
+   4. Meeting PHILLIP the DISCIPLE | THE CHOSEN S2-E2 DEEP DIVE into Phillips and Matthew's growth
+      https://www.youtube.com/watch?v=24zp4deYk0A&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=4&pp=iAQB
+   5. MOTHER MARY of Nazareth | THE CHOSEN S2-E3 Mary's relationship with Jesus as an adult.
+      https://www.youtube.com/watch?v=LEZElYsFb3k&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=5&pp=iAQB
+   6. THE CHOSEN'S INSANE CINEMATOGRAPHY | S2-E3 DEEP DIVE INTO the 15 Minute One Shot
+      https://www.youtube.com/watch?v=ZS8GLzyAWIY&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=6&pp=iAQB
+   7. WHY EVERYONE HATES MATTHEW The Tax Collector |THE CHOSEN Season 2 EP 3
+      https://www.youtube.com/watch?v=cN8J4p37k04&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=7&pp=iAQB
+   8. The Chosen Season 2 Episode 4 | The Two Brothers Story ( Part 1)
+      https://www.youtube.com/watch?v=Re5viFQG8sA&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=8&pp=iAQB
+   9. THE CHOSEN Season 2 Episode 4 Stream Chat LIVE!
+      https://www.youtube.com/watch?v=Ayzo3-BU1sE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=9&pp=iAQB
+  10. The Chosen Season 2 Episode 4 | Simon The ZEALOT & The COHORTES URBANAE (part 2)
+      https://www.youtube.com/watch?v=Een00ofHr4w&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=10&pp=iAQB
+  11. DALLAS JENKINS Addresses S2 EP 5 CONTROVERSY!
+      https://www.youtube.com/watch?v=KLcsELrv8uQ&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=11&pp=iAQB
+  12. Mary Magdalene Relapsed after meeting Jesus? The Chosen Season 2 Episode 5 ( Part 3)
+      https://www.youtube.com/watch?v=QGGz6qJMFCM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=12&pp=iAQB
+  13. THE CHOSEN Season 2 Episode 5| Did you understand this? Let me help! (part 4)
+      https://www.youtube.com/watch?v=sUXuVBD1Fag&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=13&pp=iAQB
+  14. The Chosen SEASON 2 Episode 6 | MARY & EDEN Return, John arrested, Pharisee's Scheme
+      https://www.youtube.com/watch?v=3Oh8K4vhNws&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=14&pp=iAQB
+  15. The Chosen Season 2 Episode 6 (Part 1) | Did the Chosen team make a mistake?
+      https://www.youtube.com/watch?v=BAct64ljpE8&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=15&pp=iAQB
+  16. The Chosen Season 2 Episode 6 (part 2) | The Beauty of Redemption ( Mary Magdalene's Journey)
+      https://www.youtube.com/watch?v=Xq6NjOfIUOE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=16&pp=iAQB
+  17. What's coming in Episode 7? Jesus Arrested? Quintas,Gaius,Tamar return! What else ?
+      https://www.youtube.com/watch?v=x51cI35J_fk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=17&pp=iAQB
+  18. The Chosen Season 2 Episode 7 | Episode Premiere Discussion!
+      https://www.youtube.com/watch?v=6svSVb_bwrg&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=18&pp=iAQB
+  19. Who is Simon peter becoming?... ( is this good? )! The Chosen Season 2 Episode 6 ( Part 3)
+      https://www.youtube.com/watch?v=xdYM7Pqs54Q&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=19&pp=iAQB
+  20. Did you see how well Jesus handled this? The Chosen Season 2 Episode 7 (Part 1)
+      https://www.youtube.com/watch?v=jhGfu5CgwPM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=20&pp=iAQB
+  21. Will We see JUDAS!? The Chosen SEASON 2 FINALE Predictions!
+      https://www.youtube.com/watch?v=hte1fQSerNc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=21&pp=iAQB
+  22. The Chosen Season 2 Finale Reaction | Live Discussion of Season 2 Episode 8
+      https://www.youtube.com/watch?v=5Zmn1ftuMVM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=22&pp=iAQB
+  23. The Truth About Andrew's ANGER | The Chosen season 2 episode 7 (Part 2)
+      https://www.youtube.com/watch?v=D7ja5V2nPrc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=23&pp=iAQB
+  24. Getting to know QUINTUS, GAIUS, AND ATTICUS | The Chosen Season 2 Episode 7 (Part 3)
+      https://www.youtube.com/watch?v=lSfhgbXZWnE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=24&pp=iAQB
+  25. Jesus Needed Matthew when He wrote the Sermon! | The Chosen Season 2 Episode 8 (Part 1)
+      https://www.youtube.com/watch?v=pawP8xz3lpY&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=25&pp=iAQB
+  26. Could Judas Iscariot be saved?
+      https://www.youtube.com/watch?v=C6LlmyQHZ64&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=26&pp=iAQB
+  27. What are the Pharisees ACTUALLY planning? | The Chosen Season 2 Episode 8 (Part 3)
+      https://www.youtube.com/watch?v=aS-daWezmGk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=27&pp=iAQB
+  28. The Chosen Season 2 DEEP DIVE W/ @BrandonRobbinsMinistry @ChrisDurban @NowLetsBeHonest
+      https://www.youtube.com/watch?v=LrK23SlGrHc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=28&pp=iAQB
+  29. The Chosen's Writer Speaks for the FIRST TIME *hints at season 3*
+      https://www.youtube.com/watch?v=K79DyqqsAiw&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=29&pp=iAQB
+  30. The WORST Episode of THE CHOSEN Season 2...
+      https://www.youtube.com/watch?v=ycQ6T9hvodk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=30&pp=iAQB
+  31. The Chosen Cast reveals secrets of SEASON 3!
+      https://www.youtube.com/watch?v=554wAwoGols&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=31&pp=iAQB
+  32. The Chosen: Season 3 official trailer BREAKDOWN!
+      https://www.youtube.com/watch?v=jqCeYrVh3iQ&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=32&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+1 Bad Samaritan (Malek)        1. The Chosen S2-E1 DEEP DIVE into ...THE GOOD SAMARITAN ?
+                                  https://www.youtube.com/watch?v=FpQB_3ImScU
+1 John                         3. The Chosen S2-E1 DEEP DIVE into John, the disciple who Jesus loved | Things you might've missed...
+                                  https://www.youtube.com/watch?v=Rqn2lTl4sy4
+  ENTRY:                          `DeepDive:FpQB_3ImScU@@Bad Samaritan (Malek)##Rqn2lTl4sy4@@John`
+
+2 Nathanael                    2. Meeting NATHANAEL | The CHOSEN S2-E2 DEEP DIVE into Nathanael's story
+                                  https://www.youtube.com/watch?v=wCTiw8KhpxE
+2 Phillip/Matthew              4. Meeting PHILLIP the DISCIPLE | THE CHOSEN S2-E2 DEEP DIVE into Phillips and Matthew's growth
+                                  https://www.youtube.com/watch?v=24zp4deYk0A
+  ENTRY:                          `DeepDive:wCTiw8KhpxE@@Nathanael##24zp4deYk0A@@Phillip/Matthew`
+
+3 Mary/Jesus                   5. MOTHER MARY of Nazareth | THE CHOSEN S2-E3 Mary's relationship with Jesus as an adult.
+                                  https://www.youtube.com/watch?v=LEZElYsFb3k
+3 Rundownw                     6. THE CHOSEN'S INSANE CINEMATOGRAPHY | S2-E3 DEEP DIVE INTO the 15 Minute One Shot
+                                  https://www.youtube.com/watch?v=ZS8GLzyAWIY
+3 Disdain for Matthew          7. WHY EVERYONE HATES MATTHEW The Tax Collector |THE CHOSEN Season 2 EP 3
+                                  https://www.youtube.com/watch?v=cN8J4p37k04
+  ENTRY:                          `DeepDive:LEZElYsFb3k@@Mary/Jesus##ZS8GLzyAWIY@@Rundown##cN8J4p37k04@@Disdain for Matthew`
+
+4 Rundown                      8. The Chosen Season 2 Episode 4 | The Two Brothers Story ( Part 1)
+                                  https://www.youtube.com/watch?v=Re5viFQG8sA
+4 NAH                          9. THE CHOSEN Season 2 Episode 4 Stream Chat LIVE!
+                                  https://www.youtube.com/watch?v=Ayzo3-BU1sE
+4 Simon the Zealot            10. The Chosen Season 2 Episode 4 | Simon The ZEALOT & The COHORTES URBANAE (part 2)
+                                  https://www.youtube.com/watch?v=Een00ofHr4w
+  ENTRY:                          `DeepDive:Re5viFQG8sA@@Rundown##Een00ofHr4w@@Simon the Zealot`
+
+5 Rundown                     11. DALLAS JENKINS Addresses S2 EP 5 CONTROVERSY!
+                                  https://www.youtube.com/watch?v=KLcsELrv8uQ
+5 Mary Magdalene's Relapse    12. Mary Magdalene Relapsed after meeting Jesus? The Chosen Season 2 Episode 5 ( Part 3)
+                                  https://www.youtube.com/watch?v=QGGz6qJMFCM
+5 Pharisees Yani & Shmuel     13. THE CHOSEN Season 2 Episode 5| Did you understand this? Let me help! (part 4)
+                                  https://www.youtube.com/watch?v=sUXuVBD1Fag
+  ENTRY:                          `DeepDive:KLcsELrv8uQ@@Rundown##QGGz6qJMFCM@@Mary Magdalene's Relapse##sUXuVBD1Fag@@Pharisees Yani & Shmuel`
+
+6 NAH - A Preview             14. The Chosen SEASON 2 Episode 6 | MARY & EDEN Return, John arrested, Pharisee's Scheme
+                                  https://www.youtube.com/watch?v=3Oh8K4vhNws
+6 Rundown                     15. The Chosen Season 2 Episode 6 (Part 1) | Did the Chosen team make a mistake?
+                                  https://www.youtube.com/watch?v=BAct64ljpE8
+6 Mary Magdalene's Journey    16. The Chosen Season 2 Episode 6 (part 2) | The Beauty of Redemption ( Mary Magdalene's Journey)
+                                  https://www.youtube.com/watch?v=Xq6NjOfIUOE
+6 Character Development       19. Who is Simon peter becoming?... ( is this good? )! The Chosen Season 2 Episode 6 ( Part 3)
+                                  https://www.youtube.com/watch?v=xdYM7Pqs54Q
+  ENTRY:                          `DeepDive:BAct64ljpE8@@Rundown##Xq6NjOfIUOE@@Mary Magdalene's Journey##xdYM7Pqs54Q@@Character Development`
+
+7 NAH                         17. What's coming in Episode 7? Jesus Arrested? Quintas,Gaius,Tamar return! What else ?
+                                  https://www.youtube.com/watch?v=x51cI35J_fk
+7 Rundown                     18. The Chosen Season 2 Episode 7 | Episode Premiere Discussion!
+                                  https://www.youtube.com/watch?v=6svSVb_bwrg
+7 Jesus Interactions          20. Did you see how well Jesus handled this? The Chosen Season 2 Episode 7 (Part 1)
+                                  https://www.youtube.com/watch?v=jhGfu5CgwPM
+7 Andrew's Anger              23. The Truth About Andrew's ANGER | The Chosen season 2 episode 7 (Part 2)
+                                  https://www.youtube.com/watch?v=D7ja5V2nPrc
+7 Roman System                24. Getting to know QUINTUS, GAIUS, AND ATTICUS | The Chosen Season 2 Episode 7 (Part 3)
+                                  https://www.youtube.com/watch?v=lSfhgbXZWnE
+  ENTRY:                          `DeepDive:6svSVb_bwrg@@Rundown##jhGfu5CgwPM@@Jesus Interactions##D7ja5V2nPrc@@Andrew's Anger##lSfhgbXZWnE@@Roman System`
+
+  NAH                         21. Will We see JUDAS!? The Chosen SEASON 2 FINALE Predictions!
+                                  https://www.youtube.com/watch?v=hte1fQSerNc
+
+8 NAH - Live Chat             22. The Chosen Season 2 Finale Reaction | Live Discussion of Season 2 Episode 8
+                                  https://www.youtube.com/watch?v=5Zmn1ftuMVM
+8 Sermon Prep                 25. Jesus Needed Matthew when He wrote the Sermon! | The Chosen Season 2 Episode 8 (Part 1)
+                                  https://www.youtube.com/watch?v=pawP8xz3lpY
+8 Judas                       26. Could Judas Iscariot be saved?
+                                  https://www.youtube.com/watch?v=C6LlmyQHZ64
+8 Pharisees Plans             27. What are the Pharisees ACTUALLY planning? | The Chosen Season 2 Episode 8 (Part 3)
+                                  https://www.youtube.com/watch?v=aS-daWezmGk
+  ENTRY:                          `DeepDive:pawP8xz3lpY@@Sermon Prep##C6LlmyQHZ64@@Judas##aS-daWezmGk@@Pharisees Plans`
+
+  NAH                         28. The Chosen Season 2 DEEP DIVE W/ @BrandonRobbinsMinistry @ChrisDurban @NowLetsBeHonest
+                                  https://www.youtube.com/watch?v=LrK23SlGrHc
+  NAH                         29. The Chosen's Writer Speaks for the FIRST TIME *hints at season 3*
+                                  https://www.youtube.com/watch?v=K79DyqqsAiw
+  NAH                         30. The WORST Episode of THE CHOSEN Season 2...
+                                  https://www.youtube.com/watch?v=ycQ6T9hvodk
+  NAH                         31. The Chosen Cast reveals secrets of SEASON 3!
+                                  https://www.youtube.com/watch?v=554wAwoGols
+  NAH                         32. The Chosen: Season 3 official trailer BREAKDOWN!
+                                  https://www.youtube.com/watch?v=jqCeYrVh3iQ
+
+
+
+*-------------------------------------------------------------------------------
+* Season 3
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. The Chosen: Season 3 official trailer REACTION!
+      https://www.youtube.com/watch?v=Pq_dm_5WspM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=1&t=4s&pp=iAQB
+   2. THE CHOSEN SEASON 3 PREMIERE IN ATLANTA GEORGIA!
+      https://www.youtube.com/watch?v=1r6BV7XdAE4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=2&pp=iAQB
+   3. I was WRONG about THE CHOSEN SEASON 3...
+      https://www.youtube.com/watch?v=KaR9COkIqic&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=3&pp=iAQB
+   4. I was WRONG about THE CHOSEN SEASON 3 Characters... (spoilers)
+      https://www.youtube.com/watch?v=JoE1nn69sHM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=4&pp=iAQB
+   5. JUDAS REVEALS how He Plans to BETRAY JESUS | The Chosen Season 3 Ep1 BREAKDOWN
+      https://www.youtube.com/watch?v=BUsDbiTsZB8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=5&pp=iAQB
+   6. REALISTIC Relationships in THE CHOSEN SEASON 3
+      https://www.youtube.com/watch?v=Bs7jkuLHsFM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=6&pp=iAQB
+   7. The Chosen Season 3 : Overcoming MENTAL ILLNESS
+      https://www.youtube.com/watch?v=to0Yy1pH5Rs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=7&pp=iAQB
+   8. The IMPORTANCE of Jesus' Sermon on the Mount | The Chosen Season 3
+      https://www.youtube.com/watch?v=zOQwSoI_CFY&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=8&pp=iAQB
+   9. The Chosen: Season 3, Episode One Discussion
+      https://www.youtube.com/watch?v=b7B9WBWQ_ec&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=9&pp=iAQB
+  10. WHY DID JESUS REJECT MATTHEW!? | The Chosen Season 3 episode 1 Breakdown
+      https://www.youtube.com/watch?v=VuupQ9Yl_1w&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=10&pp=iAQB
+  11. The Chosen Season 3 Ep 2 Reaction and Breakdown!
+      https://www.youtube.com/watch?v=f1yunuT7ThM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=11&pp=iAQB
+  12. Gaius has more FAITH than the 12 APOSTLES! The Chosen Season 3 Episode 2 Breakdown
+      https://www.youtube.com/watch?v=I6bHYv-rjJA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=12&pp=iAQB
+  13. The CONSEQUENCES of FOLLOWING JESUS (SIMON Z's Journey)
+      https://www.youtube.com/watch?v=N9vena-l1-A&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=13&pp=iAQB
+  14. EDEN IS PREGNANT?! Simon and Eden Family planning in The Chosen Season 3 Episode 2
+      https://www.youtube.com/watch?v=TvEPLhZoxCY&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=14&pp=iAQB
+  15. THOMAS AND RAMAH MAY NEVER GET MARRIED... The Chosen Season 3 Episode 2 Breakdown
+      https://www.youtube.com/watch?v=5eUGWPVm8GQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=15&pp=iAQB
+  16. The Chosen Season 3 FINALLY made me CRY...
+      https://www.youtube.com/watch?v=bMFmBl3E2_0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=16&pp=iAQB
+  17. 30 Things you missed in the TWO BY TWO Scene! | The Chosen Season 3 Episode 2 "Two by Two"
+      https://www.youtube.com/watch?v=JNchqQOCZcs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=17&pp=iAQB
+  18. The Chosen Season 3 Episode Three REACTION / Breakdown
+      https://www.youtube.com/watch?v=L4XcLeVf6n0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=18&pp=iAQB
+  19. Does Mother Mary KNOW that JESUS will DIE!? The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=am7oPVQF_rg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=19&pp=iAQB
+  20. Could the SON OF GOD be BEATEN like this? | The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=Apf2ucbxfAk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=20&pp=iAQB
+  21. Why add in THIS NON-BIBLICAL Bridle? The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=BxwNYdqiMrk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=21&pp=iAQB
+  22. The Chosen SYNAGOGUE SCENE Breakdown!
+      https://www.youtube.com/watch?v=7JhhIr2H4B0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=22&pp=iAQB
+  23. The Chosen Season 3 Episode Four REACTION / Breakdown
+      https://www.youtube.com/watch?v=NYq5Up3oruI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=23&pp=iAQB
+  24. WHY IS EDEN SO MAD?! Is Simon wrong? The Chosen Season 3 Episode 4 BREAKDOWN
+      https://www.youtube.com/watch?v=dqPj7FUebZw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=24&pp=iAQB
+  25. JUDAS Casts out DEMONS!? Is this BIBLICAL? | The Chosen Season 3 Episode 4 DEEP DIVE
+      https://www.youtube.com/watch?v=L8zIP7kbNyQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=25&pp=iAQB
+  26. Hidden Scene of Gaius and Simon!? | The Chosen Season 3 NEW SCENE
+      https://www.youtube.com/watch?v=I752IAXq5sA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=26&pp=iAQB
+  27. Is TAMAR Stuck in Her Pagan past? Mary's concerned | The Chosen Season 3 Ep. 4
+      https://www.youtube.com/watch?v=_MCcjbb4jZw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=27&pp=iAQB
+  28. Giving the Apostles POWER was a DANGEROUS decision! | The Chosen Season 3 Episode 4
+      https://www.youtube.com/watch?v=MwEDZ-bv5h0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=28&pp=iAQB
+  29. The Pharisees return, but Where's NICODEMUS? | The Chosen Season 3 Episode 4
+      https://www.youtube.com/watch?v=LsUNKIgS9rg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=29&pp=iAQB
+  30. The Chosen Season 3 Episode Five: Clean Part 2 | FULL LIVE BREAKDOWN
+      https://www.youtube.com/watch?v=lenXLn_ZrhE&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=30&pp=iAQB
+  31. I WISH I was WRONG about The Chosen this time.... The Chosen Season 3 Episode 5 Eden's Journey...
+      https://www.youtube.com/watch?v=507iY16UH1M&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=31&pp=iAQB
+  32. WHY did THE CHOSEN Change this BIBLE VERSE? Jairus' Daughter in The Chosen Season 3 Episode 5
+      https://www.youtube.com/watch?v=i3kXi8DJ1x0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=32&pp=iAQB
+  33. The Chosen's BLEEDING Woman has a SECRET! | The Chosen Season 3 Episode 5 BREAKDOWN
+      https://www.youtube.com/watch?v=4fdbvf0sUnQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=33&pp=iAQB
+  34. The Chosen Season 3 Episode SIX | FULL LIVE BREAKDOWN
+      https://www.youtube.com/watch?v=9AR8_fNKjBM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=34&pp=iAQB
+  35. I Was WRONG about THE CHOSEN... Again... | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=PMTexT3wNko&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=35&pp=iAQB
+  36. Why does JESUS REBUKE John the Baptist? | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=L3sQu6S8APc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=36&pp=iAQB
+  37. Watch THIS Before THE CHOSEN SEASON 3 FINALE!
+      https://www.youtube.com/watch?v=onTYqVNCJY4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=37&pp=iAQB
+  38. What did MARY MAGDALENE SEE? Is Judas STEALING? | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=8xXRKBjs2Tc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=38&pp=iAQB
+  39. Simon The Sicarius is DEAD... | The Chosen Season 3 Episode 6
+      https://www.youtube.com/watch?v=cKgE7ycVlW4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=39&pp=iAQB
+  40. WHY Didn’t Eden tell Simon SOONER?! | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=9HD243-KErE&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=40&pp=iAQB
+  41. Is GAIUS The Centurion with the SICK SERVANT? . | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=6kffWBA2Keg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=41&pp=iAQB
+  42. Barnaby and Shula HEALED in The Chosen Season 3! | Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=CgFkSEGhTn8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=42&pp=iAQB
+  43. The Tension BREAKS between Mary and Tamar... | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=y4CEUaEW5DI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=43&pp=iAQB
+  44. Phillip's FAILURE, Andrew's TRIUMPH | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=SJWZqX4GZzI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=44&pp=iAQB
+  45. Are the Disciples Preparing for WAR? | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=x4QwjO0HF8k&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=45&pp=iAQB
+  46. DEEP DIVE into the RESTORATION of MATTHEW | The Chosen Season 3 episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=kWI6-HsLPvw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=46&pp=iAQB
+  47. THOMAS Rejected by KAFNI.... Will Ramah Return? | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=YFIejQojHOo&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=47&pp=iAQB
+  48. Gaius SEEKS OUT CHRIST, Simon Runs away... | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=7-PDrY-AmJs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=48&pp=iAQB
+  49. The Hidden TRUTH behind KING DAVID! | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=8_Ar5QGtq0c&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=49&pp=iAQB
+  50. John's Massive EGO shattered by Simon's Suffering | The Chosen Season 3 Episode 7 Breakdown!
+      https://www.youtube.com/watch?v=oyQ6n7EXUck&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=50&pp=iAQB
+  51. Why are these Three Groups so mad at JESUS!? | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=pfEUJ1N-aVk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=51&pp=iAQB
+  52. SIMON'S Weakness makes him the PERFECT LEADER | The Chosen Season 3 Episode 8 FINALE!
+      https://www.youtube.com/watch?v=E5CJzKhX4T4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=52&pp=iAQB
+  53. Shmuel Becoming a CHRISTIAN!? NO WAY... right? | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=VTjL9euDlvc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=53&pp=iAQB
+  54. The Most IMPRESSIVE Thing the Chosen has EVER done | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=Wnaz205S04M&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=54&pp=iAQB
+  55. Eden's Mask FINALLY BREAKS, SALOME steps up! | The Chosen Season 3 episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=R6oQyFFZVsI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=55&pp=iAQB
+  56. I took 34 people to Israel!
+      https://www.youtube.com/watch?v=tCu5lCCJNoc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=56&pp=iAQB
+  57. My Honest thoughts about THE CHOSEN Season 3...
+      https://www.youtube.com/watch?v=ko-E0w0aD4U&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=57&pp=iAQB
+  58. My UNFILTERED thoughts about The Chosen Season 3..
+      https://www.youtube.com/watch?v=a1m7ODwVWlA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=58&pp=iAQB
+  59. RATING The Chosen SEASON 3 Episodes!
+      https://www.youtube.com/watch?v=LBdEbKnROLk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=59&pp=iAQB
+  60. THE CHOSEN Season 3 predictions GONE WRONG
+      https://www.youtube.com/watch?v=lM598l8Uqy8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=60&pp=iAQB
+  61. The HIDDEN TRUTH Behind This PARABLE | The Chosen Season 3 Episode 8
+      https://www.youtube.com/watch?v=cXgNiD9fR5s&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=61&pp=iAQB
+
+
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+x NAH - Trailer                1. The Chosen: Season 3 official trailer REACTION!
+                                  https://www.youtube.com/watch?v=Pq_dm_5WspM
+x NAH - Premier Event          2. THE CHOSEN SEASON 3 PREMIERE IN ATLANTA GEORGIA!
+                                  https://www.youtube.com/watch?v=1r6BV7XdAE4
+x NAH - Brian was wrong hmmm   3. I was WRONG about THE CHOSEN SEASON 3...
+                                  https://www.youtube.com/watch?v=KaR9COkIqic
+x NAH - Brian was wrong hmmm   4. I was WRONG about THE CHOSEN SEASON 3 Characters... (spoilers)
+                                  https://www.youtube.com/watch?v=JoE1nn69sHM
+
+1 Judas                        5. JUDAS REVEALS how He Plans to BETRAY JESUS | The Chosen Season 3 Ep1 BREAKDOWN
+                                  https://www.youtube.com/watch?v=BUsDbiTsZB8
+1 Relationships                6. REALISTIC Relationships in THE CHOSEN SEASON 3
+                                  https://www.youtube.com/watch?v=Bs7jkuLHsFM
+1 Andrew's Anxiety             7. The Chosen Season 3 : Overcoming MENTAL ILLNESS
+                                  https://www.youtube.com/watch?v=to0Yy1pH5Rs
+1 Sermon on the Mount          8. The IMPORTANCE of Jesus' Sermon on the Mount | The Chosen Season 3
+                                  https://www.youtube.com/watch?v=zOQwSoI_CFY
+1 NAH - Discussion             9. The Chosen: Season 3, Episode One Discussion
+                                  https://www.youtube.com/watch?v=b7B9WBWQ_ec
+1 Matthew                     10. WHY DID JESUS REJECT MATTHEW!? | The Chosen Season 3 episode 1 Breakdown
+                                  https://www.youtube.com/watch?v=VuupQ9Yl_1w
+  ENTRY:                          `DeepDive:BUsDbiTsZB8@@Judas##Bs7jkuLHsFM@@Relationships##to0Yy1pH5Rs@@Andrew's Anxiety##zOQwSoI_CFY@@Sermon on the Mount##VuupQ9Yl_1w@@Matthew`
+
+2 NAH - Discussion            11. The Chosen Season 3 Ep 2 Reaction and Breakdown!
+                                  https://www.youtube.com/watch?v=f1yunuT7ThM
+2 Gaius & Atticus             12. Gaius has more FAITH than the 12 APOSTLES! The Chosen Season 3 Episode 2 Breakdown
+                                  https://www.youtube.com/watch?v=I6bHYv-rjJA
+2 Simon the Zealot            13. The CONSEQUENCES of FOLLOWING JESUS (SIMON Z's Journey)
+                                  https://www.youtube.com/watch?v=N9vena-l1-A
+2 Simon & Eden                14. EDEN IS PREGNANT?! Simon and Eden Family planning in The Chosen Season 3 Episode 2
+                                  https://www.youtube.com/watch?v=TvEPLhZoxCY
+2 Thomas & Ramah              15. THOMAS AND RAMAH MAY NEVER GET MARRIED... The Chosen Season 3 Episode 2 Breakdown
+                                  https://www.youtube.com/watch?v=5eUGWPVm8GQ
+2 Made Me Cry                 16. The Chosen Season 3 FINALLY made me CRY...
+                                  https://www.youtube.com/watch?v=bMFmBl3E2_0
+2 Two by Two                  17. 30 Things you missed in the TWO BY TWO Scene! | The Chosen Season 3 Episode 2 "Two by Two"
+                                  https://www.youtube.com/watch?v=JNchqQOCZcs
+  ENTRY:                          `DeepDive:I6bHYv-rjJA@@Gaius & Atticus##N9vena-l1-A@@Simon the Zealot##TvEPLhZoxCY@@Simon & Eden##5eUGWPVm8GQ@@Thomas & Ramah##bMFmBl3E2_0@@Made Me Cry##JNchqQOCZcs@@Two by Two`
+
+
+3 NAH - Member Only           18. The Chosen Season 3 Episode Three REACTION / Breakdown
+                                  https://www.youtube.com/watch?v=L4XcLeVf6n0
+3 Rundown                     19. Does Mother Mary KNOW that JESUS will DIE!? The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=am7oPVQF_rg
+3 Rosh Hashanah               20. Could the SON OF GOD be BEATEN like this? | The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=Apf2ucbxfAk
+3 Non-Biblical Bridle         21. Why add in THIS NON-BIBLICAL Bridle? The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=BxwNYdqiMrk
+3 Synagogue Scene             22. The Chosen SYNAGOGUE SCENE Breakdown!
+                                  https://www.youtube.com/watch?v=7JhhIr2H4B0
+  ENTRY:                          `DeepDive:am7oPVQF_rg@@Rundown##Apf2ucbxfAk@@Rosh Hashanah##BxwNYdqiMrk@@Non-Biblical Bridle##7JhhIr2H4B0@@Synagogue Scene`
+
+
+4 NAH - Member Only Content   23. The Chosen Season 3 Episode Four REACTION / Breakdown
+                                  https://www.youtube.com/watch?v=NYq5Up3oruI
+4 Simon & Eden                24. WHY IS EDEN SO MAD?! Is Simon wrong? The Chosen Season 3 Episode 4 BREAKDOWN
+                                  https://www.youtube.com/watch?v=dqPj7FUebZw
+4 Two by Two                  25. JUDAS Casts out DEMONS!? Is this BIBLICAL? | The Chosen Season 3 Episode 4 DEEP DIVE
+                                  https://www.youtube.com/watch?v=L8zIP7kbNyQ
+x NAH - Discussion            26. Hidden Scene of Gaius and Simon!? | The Chosen Season 3 NEW SCENE
+                                  https://www.youtube.com/watch?v=I752IAXq5sA
+4 Tamar & Mary                27. Is TAMAR Stuck in Her Pagan past? Mary's concerned | The Chosen Season 3 Ep. 4
+                                  https://www.youtube.com/watch?v=_MCcjbb4jZw
+4 Apostle Power Danger        28. Giving the Apostles POWER was a DANGEROUS decision! | The Chosen Season 3 Episode 4
+                                  https://www.youtube.com/watch?v=MwEDZ-bv5h0
+4 Pharisees Return            29. The Pharisees return, but Where's NICODEMUS? | The Chosen Season 3 Episode 4
+                                  https://www.youtube.com/watch?v=LsUNKIgS9rg
+  ENTRY:                          `DeepDive:dqPj7FUebZw@@Simon & Eden##L8zIP7kbNyQ@@Two by Two##_MCcjbb4jZw@@Tamar & Mary##MwEDZ-bv5h0@@Apostle Power Danger##LsUNKIgS9rg@@Pharisees Return`
+
+
+5 NAH - Member Only Content   30. The Chosen Season 3 Episode Five: Clean Part 2 | FULL LIVE BREAKDOWN
+                                  https://www.youtube.com/watch?v=lenXLn_ZrhE
+5 Eden's Journey              31. I WISH I was WRONG about The Chosen this time.... The Chosen Season 3 Episode 5 Eden's Journey...
+                                  https://www.youtube.com/watch?v=507iY16UH1M
+5 Jairus                      32. WHY did THE CHOSEN Change this BIBLE VERSE? Jairus' Daughter in The Chosen Season 3 Episode 5
+                                  https://www.youtube.com/watch?v=i3kXi8DJ1x0
+5 Bleeding Woman              33. The Chosen's BLEEDING Woman has a SECRET! | The Chosen Season 3 Episode 5 BREAKDOWN
+                                  https://www.youtube.com/watch?v=4fdbvf0sUnQ
+  ENTRY:                          `DeepDive:507iY16UH1M@@Eden's Journey##i3kXi8DJ1x0@@Jairus##4fdbvf0sUnQ@@Bleeding Woman`
+
+
+6 NAH - Member Only Content   34. The Chosen Season 3 Episode SIX | FULL LIVE BREAKDOWN
+                                  https://www.youtube.com/watch?v=9AR8_fNKjBM
+6 Leander NOT Matthias        35. I Was WRONG about THE CHOSEN... Again... | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=PMTexT3wNko
+6 John the Baptist            36. Why does JESUS REBUKE John the Baptist? | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=L3sQu6S8APc
+x NAH - Member Only Content   37. Watch THIS Before THE CHOSEN SEASON 3 FINALE!
+                                  https://www.youtube.com/watch?v=onTYqVNCJY4
+6 What did Mary Magdalene see 38. What did MARY MAGDALENE SEE? Is Judas STEALING? | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=8xXRKBjs2Tc
+6 Simon the Zealot            39. Simon The Sicarius is DEAD... | The Chosen Season 3 Episode 6
+                                  https://www.youtube.com/watch?v=cKgE7ycVlW4
+6 Simon & Eden                40. WHY Didn’t Eden tell Simon SOONER?! | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=9HD243-KErE
+6 Gaius                       41. Is GAIUS The Centurion with the SICK SERVANT? . | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=6kffWBA2Keg
+6 Barnaby and Shula           42. Barnaby and Shula HEALED in The Chosen Season 3! | Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=CgFkSEGhTn8
+6 Mary & Tamar                43. The Tension BREAKS between Mary and Tamar... | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=y4CEUaEW5DI
+6 Disciples Sharping Weapons  45. Are the Disciples Preparing for WAR? | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=x4QwjO0HF8k
+  ENTRY:                          `DeepDive:PMTexT3wNko@@Leander NOT Matthias##L3sQu6S8APc@@John the Baptist##8xXRKBjs2Tc@@What did Mary Magdalene see##cKgE7ycVlW4@@Simon the Zealot##9HD243-KErE@@Simon & Eden##6kffWBA2Keg@@Gaius##CgFkSEGhTn8@@Barnaby and Shula##y4CEUaEW5DI@@Mary & Tamar##x4QwjO0HF8k@@Disciples Sharping Weapons`
+
+
+7 Andrew & Phillip            44. Phillip's FAILURE, Andrew's TRIUMPH | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=SJWZqX4GZzI
+7 Matthew's Restoration       46. DEEP DIVE into the RESTORATION of MATTHEW | The Chosen Season 3 episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=kWI6-HsLPvw
+7 Kafni Rejects Thomas        47. THOMAS Rejected by KAFNI.... Will Ramah Return? | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=YFIejQojHOo
+7 Gaius Seeks, Simon Runs     48. Gaius SEEKS OUT CHRIST, Simon Runs away... | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=7-PDrY-AmJs
+7 John's Ego, Simon's Suffering 50. John's Massive EGO shattered by Simon's Suffering | The Chosen Season 3 Episode 7 Breakdown!
+                                    https://www.youtube.com/watch?v=oyQ6n7EXUck
+  ENTRY:                          `DeepDive:SJWZqX4GZzI@@Andrew & Phillip##kWI6-HsLPvw@@Matthew's Restoration##YFIejQojHOo@@Kafni Rejects Thomas##7-PDrY-AmJs@@Gaius Seeks, Simon Runs##oyQ6n7EXUck@@John's Ego, Simon's Suffering`
+
+
+
+8 King David Cameo            49. The Hidden TRUTH behind KING DAVID! | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=8_Ar5QGtq0c
+8 Feeding 5000                51. Why are these Three Groups so mad at JESUS!? | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=pfEUJ1N-aVk
+8 Simon's Weakness            52. SIMON'S Weakness makes him the PERFECT LEADER | The Chosen Season 3 Episode 8 FINALE!
+                                  https://www.youtube.com/watch?v=E5CJzKhX4T4
+8 Shmuel                      53. Shmuel Becoming a CHRISTIAN!? NO WAY... right? | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=VTjL9euDlvc
+8 Feeding 5000 Miracle        54. The Most IMPRESSIVE Thing the Chosen has EVER done | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=Wnaz205S04M
+8 Eden's Mask Breaks          55. Eden's Mask FINALLY BREAKS, SALOME steps up! | The Chosen Season 3 episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=R6oQyFFZVsI
+8 Parable of the Two Sons     61. The HIDDEN TRUTH Behind This PARABLE | The Chosen Season 3 Episode 8
+                                  https://www.youtube.com/watch?v=cXgNiD9fR5s
+8 NAH - Israel Trip           56. I took 34 people to Israel!
+                                  https://www.youtube.com/watch?v=tCu5lCCJNoc
+8 NAH - Members Only          57. My Honest thoughts about THE CHOSEN Season 3...
+                                  https://www.youtube.com/watch?v=ko-E0w0aD4U
+8 Season 3 Thoughts           58. My UNFILTERED thoughts about The Chosen Season 3..
+                                  https://www.youtube.com/watch?v=a1m7ODwVWlA
+x NAH - Rating                59. RATING The Chosen SEASON 3 Episodes!
+                                  https://www.youtube.com/watch?v=LBdEbKnROLk
+x NAH - Bad Predictions       60. THE CHOSEN Season 3 predictions GONE WRONG
+                                  https://www.youtube.com/watch?v=lM598l8Uqy8
+  ENTRY:                          `DeepDive:8_Ar5QGtq0c@@King David Cameo##pfEUJ1N-aVk@@Feeding 5000##E5CJzKhX4T4@@Simon's Weakness##VTjL9euDlvc@@Shmuel##Wnaz205S04M@@Feeding 5000 Miracle##R6oQyFFZVsI@@Eden's Mask Breaks##cXgNiD9fR5s@@Parable of the Two Sons##a1m7ODwVWlA@@Season 3 Thoughts`
+
+
+*-------------------------------------------------------------------------------
+* Season 4
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS
+  >>> FROM: The Chosen Sleuth / Playlists ... https://www.youtube.com/@TheChosenSleuth/playlists
+            Find "Deep Dives" for each "Season X"
+
+  > NOTE: "The Chosen Sleuth" REVERSES the order here:
+- Raw Entries (moused from Playlist above)
+   1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
+      https://www.youtube.com/watch?v=DU7wgqVqkJo&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=1&t=509s&pp=iAQB
+   2. EVERYONE MISSED THIS MASSIVE CONNECTION In THE CHOSEN SEASON 4 EPISODE 8 | DEEP DIVE
+      https://www.youtube.com/watch?v=vj44U_-bsMA&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=2&pp=iAQB
+   3. DALLAS Told Me SOMETHING HUGE About The WATCHER!
+      https://www.youtube.com/watch?v=9H6E5qCi6Po&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=3&pp=iAQB
+   4. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+      https://www.youtube.com/watch?v=1Q9iCKEM4C0&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=4&pp=iAQB
+   5. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+      https://www.youtube.com/watch?v=SBVCTtFe1Gw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=5&pp=iAQB
+   6. Massive REACTIONS To the Resurrection of LAZARUS! | The Chosen Season 4 Episode 7!
+      https://www.youtube.com/watch?v=PXzUL79DAEM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=6&t=429s&pp=iAQB
+   7. The TRUTH about the Mystery man.... | The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=MtZhwS_7XCY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=7&t=12s&pp=iAQB
+   8. The TRUTH about LAZARUS' Resurrection! | The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=fz1CGbY1qmM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=8&pp=iAQB
+   9. The Apostles COMPLETELY Lose it in this Episode! The Chosen Season 4 Episode 7 DEEP DIVE
+      https://www.youtube.com/watch?v=L54X-WnpfHI&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=9&t=789s&pp=iAQB
+  10. 30 YEARS after CHRIST The Church HAS BEGUN! The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=0ae91iU-tHw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=10&pp=iAQB
+  11. How Could JESUS do THIS? The Chosen SEASON 4 Episode 7 DEEP DIVE
+      https://www.youtube.com/watch?v=_Q0QcTkseuM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=11&pp=iAQB
+  12. 99% of People MISSED THIS in The Chosen Season 4 Episode 6!
+      https://www.youtube.com/watch?v=bf-e13k7I4g&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=12&t=49s&pp=iAQB
+  13. JUDAS Cannot TURN BACK now... | The Chosen Season 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=RfFPJqtHglw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=13&pp=iAQB
+  14. Jesus' BIGGEST Statement EVER Leads To THIS! | The Chosen Season 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=COKS24Gaw-A&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=14&t=820s&pp=iAQB
+  15. The Chosen Is GETTING EVEN MORE INTENSE!? The Chosen SEASON 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=STSmHbOe2J8&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=15&pp=iAQB
+  16. To SIT like MARY Or SERVE like MARTHA? | The Chosen Season 4 Episode 5 DEEP DIVE
+      https://www.youtube.com/watch?v=ErkLP0Lneks&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=16&t=536s&pp=iAQB
+  17. We will NEVER See JUDAS The Same after THIS! | The Chosen Season 4 Episode 5 DEEP DIVE
+      https://www.youtube.com/watch?v=X_AJqvs25pQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=17&t=1412s&pp=iAQB
+  18. Romans MISTREATING JESUS, This is a HARD Lesson| The Chosen Season 4 Episode 5
+      https://www.youtube.com/watch?v=U3jMs2e6t-k&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=18&t=1022s&pp=iAQB
+  19. Jesus Rebukes Big James and John ... The Chosen season 4 Episode 4 DEEP DIVE
+      https://www.youtube.com/watch?v=TIyWqFvOeYM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=19&t=618s&pp=iAQB
+  20. The TRUTH about Yussif REVEALED in The Chosen Season 4 Episode 5
+      https://www.youtube.com/watch?v=iZnRqwgiGAY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=20&pp=iAQB
+  21. Yussif's TRUE IDENTITY REVEALED!? The Chosen SEASON 4 Episode 5
+      https://www.youtube.com/watch?v=FEjOMDPuXTg&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=21&pp=iAQB
+  22. The TRUTH About Ramah & The Consequences of her DEATH | The Chosen Season 4 Episode 4
+      https://www.youtube.com/watch?v=-puzmAYQ9wA&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=22&pp=iAQB
+  23. Ramah's FATHER has a MUCH BIGGER Role To Play! The Chosen SEASON 4 Episode 4
+      https://www.youtube.com/watch?v=JtnVjAcAC5s&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=23&pp=iAQB
+  24. Mother Mary’s hidden part in this scene! The Chosen Season 4 Episode 3
+      https://www.youtube.com/watch?v=3lK1E-zFSO4&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=24&pp=iAQB
+  25. She Didn't Deserve this... The Chosen Season 4
+      https://www.youtube.com/watch?v=mHPQAUPukqM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=25&pp=iAQB
+  26. The Chosen Made a MASSIVE BIBLICAL Change, I don't like it.
+      https://www.youtube.com/watch?v=W2bPFfNiXRQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=26&t=215s&pp=iAQB
+  27. How Could The Chosen DO THIS!? The Chosen Season 4 Episode 3
+      https://www.youtube.com/watch?v=RgNnSNz9kiM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=27&pp=iAQB
+  28. YOU HAVE QUESTIONS ABOUT EPISODE 3... Let's Talk.
+      https://www.youtube.com/watch?v=N4Ny5K3591o&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=28&pp=iAQB
+  29. Dallas Jenkins planned THIS For 6 YEARS! | The Chosen Season 4 Episode 2
+      https://www.youtube.com/watch?v=_uxI6xyuZEM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=29&pp=iAQB
+  30. Thomas and Ramah are WRONG...? | The Chosen Season 4 Episode 2
+      https://www.youtube.com/watch?v=g96DCXOHBN8&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=30&t=582s&pp=iAQB
+  31. What Jesus ACTUALLY meant when He Renamed SIMON | The Chosen Season 4 Episode 2 DEEP DIVE
+      https://www.youtube.com/watch?v=4NnIQ8e19sY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=31&pp=iAQB
+  32. The Chosen Season 4, Episode 2 DEEP DIVE
+      https://www.youtube.com/watch?v=UJQ_sfqvfIY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=32&pp=iAQB
+  33. Ramah is not INNOCENT here... | The Chosen Season 4 episode 1
+      https://www.youtube.com/watch?v=ybI4fGcUxh0&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=33&t=19s&pp=iAQB
+  34. There’s something HIDDEN In The Chosen Season 4 Episode One!
+      https://www.youtube.com/watch?v=uzy4NxkSQCc&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=34&t=950s&pp=iAQB
+  35. EVERYTHING YOU MISSED about JOHN The BAPTIZER | The Chosen Season 4 Episode 1
+      https://www.youtube.com/watch?v=YkWva_okb_M&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=35&t=32s&pp=iAQB
+  36. The Chosen Season 4, Episode 1 DEEP DIVE
+      https://www.youtube.com/watch?v=UbTCvvRc_aQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=36&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+                              >>> NOTE: "The Chosen Sleuth" REVERSES the order here:
+
+1 NAH - Members Only          36. The Chosen Season 4, Episode 1 DEEP DIVE
+                                  https://www.youtube.com/watch?v=UbTCvvRc_aQ
+1 John the Baptist            35. EVERYTHING YOU MISSED about JOHN The BAPTIZER | The Chosen Season 4 Episode 1
+                                  https://www.youtube.com/watch?v=YkWva_okb_M
+1 Simon the Zealot & Judas    34. There’s something HIDDEN In The Chosen Season 4 Episode One!
+                                  https://www.youtube.com/watch?v=uzy4NxkSQCc
+1 Thomas & Ramah              33. Ramah is not INNOCENT here... | The Chosen Season 4 episode 1
+                                  https://www.youtube.com/watch?v=ybI4fGcUxh0
+  ENTRY:                          `DeepDive:YkWva_okb_M@@John the Baptist##uzy4NxkSQCc@@Simon the Zealot & Judas##ybI4fGcUxh0@@Thomas & Ramah`
+
+2 NAH - Members Only          32. The Chosen Season 4, Episode 2 DEEP DIVE
+                                  https://www.youtube.com/watch?v=UJQ_sfqvfIY
+2 Simon Renamed to Peter      31. What Jesus ACTUALLY meant when He Renamed SIMON | The Chosen Season 4 Episode 2 DEEP DIVE
+                                  https://www.youtube.com/watch?v=4NnIQ8e19sY
+2 Thomas & Ramah              30. Thomas and Ramah are WRONG...? | The Chosen Season 4 Episode 2
+                                  https://www.youtube.com/watch?v=g96DCXOHBN8
+2 Matthew & Peter             29. Dallas Jenkins planned THIS For 6 YEARS! | The Chosen Season 4 Episode 2
+                                  https://www.youtube.com/watch?v=_uxI6xyuZEM
+  ENTRY:                          `DeepDive:4NnIQ8e19sY@@Simon Renamed to Peter##g96DCXOHBN8@@Thomas & Ramah##_uxI6xyuZEM@@Matthew & Peter`
+
+3 NAH - Members Only          28. YOU HAVE QUESTIONS ABOUT EPISODE 3... Let's Talk.
+                                  https://www.youtube.com/watch?v=N4Ny5K3591o
+3 Ramah's Death               27. How Could The Chosen DO THIS!? The Chosen Season 4 Episode 3
+                                  https://www.youtube.com/watch?v=RgNnSNz9kiM
+3 Blind Man Healed            26. The Chosen Made a MASSIVE BIBLICAL Change, I don't like it.
+                                  https://www.youtube.com/watch?v=W2bPFfNiXRQ
+3 King David Prays/Fasts      25. She Didn't Deserve this... The Chosen Season 4
+                                  https://www.youtube.com/watch?v=mHPQAUPukqM
+3 Sign of the Son of Man      24. Mother Mary’s hidden part in this scene! The Chosen Season 4 Episode 3
+                                  https://www.youtube.com/watch?v=3lK1E-zFSO4
+  ENTRY:                          `DeepDive:RgNnSNz9kiM@@Ramah's Death##W2bPFfNiXRQ@@Blind Man Healed##mHPQAUPukqM@@King David Prays/Fasts##3lK1E-zFSO4@@Sign of the Son of Man`
+
+4 NAH - Members Only          23. Ramah's FATHER has a MUCH BIGGER Role To Play! The Chosen SEASON 4 Episode 4
+                                  https://www.youtube.com/watch?v=JtnVjAcAC5s
+4 The Truth about Ramah       22. The TRUTH About Ramah 
+                                  https://www.youtube.com/watch?v=-puzmAYQ9wA
+4 James & John (Left & Right) 19. Jesus Rebukes Big James and John ... The Chosen season 4 Episode 4 DEEP DIVE
+                                  https://www.youtube.com/watch?v=TIyWqFvOeYM
+  ENTRY:                          `DeepDive:-puzmAYQ9wA@@The Truth about Ramah##TIyWqFvOeYM@@James & John (Left & Right)`
+
+5 NAH - Members Only          21. Yussif's TRUE IDENTITY REVEALED!? The Chosen SEASON 4 Episode 5
+                                  https://www.youtube.com/watch?v=FEjOMDPuXTg
+5 Sanhedrin                   20. The TRUTH about Yussif REVEALED in The Chosen Season 4 Episode 5
+                                  https://www.youtube.com/watch?v=iZnRqwgiGAY
+5 Romans Mistreat Jesus       18. Romans MISTREATING JESUS, This is a HARD Lesson| The Chosen Season 4 Episode 5
+                                  https://www.youtube.com/watch?v=U3jMs2e6t-k
+5 Judas                       17. We will NEVER See JUDAS The Same after THIS! | The Chosen Season 4 Episode 5 DEEP DIVE
+                                  https://www.youtube.com/watch?v=X_AJqvs25pQ
+5 Mary & Martha               16. To SIT like MARY Or SERVE like MARTHA? | The Chosen Season 4 Episode 5 DEEP DIVE
+                                  https://www.youtube.com/watch?v=ErkLP0Lneks
+  ENTRY:                          `DeepDive:iZnRqwgiGAY@@Sanhedrin##U3jMs2e6t-k@@Romans Mistreat Jesus##X_AJqvs25pQ@@Judas##ErkLP0Lneks@@Mary & Martha`
+
+6 NAH - Members Only          15. The Chosen Is GETTING EVEN MORE INTENSE!? The Chosen SEASON 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=STSmHbOe2J8
+6 John 10                     14. Jesus' BIGGEST Statement EVER Leads To THIS! | The Chosen Season 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=COKS24Gaw-A
+6 Judas - No Turning Back     13. JUDAS Cannot TURN BACK now... | The Chosen Season 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=RfFPJqtHglw
+6 Hanukkah Explained          12. 99% of People MISSED THIS in The Chosen Season 4 Episode 6!
+                                  https://www.youtube.com/watch?v=bf-e13k7I4g
+  ENTRY:                          `DeepDive:COKS24Gaw-A@@John 10##RfFPJqtHglw@@Judas - No Turning Back##bf-e13k7I4g@@Hanukkah Explained`
+
+7 NAH - Members Only          11. How Could JESUS do THIS? The Chosen SEASON 4 Episode 7 DEEP DIVE
+                                  https://www.youtube.com/watch?v=_Q0QcTkseuM
+7 Flash Forward               10. 30 YEARS after CHRIST The Church HAS BEGUN! The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=0ae91iU-tHw
+7 The Apostles                 9. The Apostles COMPLETELY Lose it in this Episode! The Chosen Season 4 Episode 7 DEEP DIVE
+                                  https://www.youtube.com/watch?v=L54X-WnpfHI
+7 Lazarus' Resurrection        8. The TRUTH about LAZARUS' Resurrection! | The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=fz1CGbY1qmM
+7 Mystery Man                  7. The TRUTH about the Mystery man.... | The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=MtZhwS_7XCY
+7 Reactopms tp Lazarus         6. Massive REACTIONS To the Resurrection of LAZARUS! | The Chosen Season 4 Episode 7!
+                                  https://www.youtube.com/watch?v=PXzUL79DAEM
+  ENTRY:                          `DeepDive:0ae91iU-tHw@@Flash Forward##L54X-WnpfHI@@The Apostles##fz1CGbY1qmM@@Lazarus' Resurrection##MtZhwS_7XCY@@Mystery Man##PXzUL79DAEM@@Reactopms tp Lazarus`
+
+8 NAH - Members Only           5. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+                                  https://www.youtube.com/watch?v=SBVCTtFe1Gw
+8 Shmuel's Story               4. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+                                  https://www.youtube.com/watch?v=1Q9iCKEM4C0
+8 The Watcher (Mystery Man)    3. DALLAS Told Me SOMETHING HUGE About The WATCHER!
+                                  https://www.youtube.com/watch?v=9H6E5qCi6Po
+8 Misc Points                  2. EVERYONE MISSED THIS MASSIVE CONNECTION In THE CHOSEN SEASON 4 EPISODE 8 | DEEP DIVE
+                                  https://www.youtube.com/watch?v=vj44U_-bsMA
+8 Experts Break Down Season 4  1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
+                                  https://www.youtube.com/watch?v=DU7wgqVqkJo
+  ENTRY:                          `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`
