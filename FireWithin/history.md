@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v22.1](#v22_1)   | Update The Chosen & Sermon Series | *July 30, 2024*
+[v22.1](#v22_1)   | Chosen Season 4 & Sermon Series Updates | *July 30, 2024*
 [v22.0](#v22_0)   | Email/Password Authentication     | *July 23, 2024*
 [v21.4](#v21_4)   | Update Current Sermon Series      | *May 22, 2024*
 [v21.3](#v21_3)   | Update Current Sermon Series      | *May 13, 2024*
@@ -63,7 +63,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v22_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v22.1 - Update The Chosen & Sermon Series  <i>(July 30, 2024)</i>
+  v22.1 - Chosen Season 4 & Sermon Series Updates <i>(July 30, 2024)</i>
 </h3>
 <br/>
 
