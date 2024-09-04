@@ -165,6 +165,35 @@ rom.1
 
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
+09/02/2024
+Crushing Satan
+Rom 16 (Part 2)
+rom.16
+
+>> FOR ABOVE ********************************************************************************
+date: `09/01/2024`, /* registered date 09/02/2024 is wrong day, should be  (09/01/2024) */
+studyGuide: `NONE`, /* missing study guide ... suspect temporary */
+
+08/25/2024
+A House Divided
+Rom 16
+rom.16
+
+08/18/2024
+The God of Encouragement
+Rom 15
+rom.15
+
+08/04/2024
+Can't We All Get Along?
+Rom 14
+rom.14
+
+07/28/2024
+What Time Is It?
+Rom 13:11-14
+rom.13
+
 06/23/2024
 God and Government
 Rom 13
