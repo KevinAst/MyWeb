@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v22.2](#v22_2)   | Update Current Sermon Series            | *Sep 4, 2024*
 [v22.1](#v22_1)   | Chosen Season 4 & Sermon Series Updates | *July 30, 2024*
 [v22.0](#v22_0)   | Email/Password Authentication     | *July 23, 2024*
 [v21.4](#v21_4)   | Update Current Sermon Series      | *May 22, 2024*
@@ -59,6 +60,17 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v22_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v22.2 - Update Current Sermon Series <i>(Sep 4, 2024)</i>
+</h3>
+<br/>
+
+- Update Current {{book.Romans}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week) **NO CHANGE**
+
 
 <!-- ************************************************************* -->
 <br/>
