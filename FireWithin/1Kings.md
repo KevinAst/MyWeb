@@ -101,5 +101,8 @@ M{ sermonSeries({
     { id: `20240424`, scripture: `1ki.3@@1 Kings 3`, },
     { id: `20240508`, scripture: `1ki.4@@1 Kings 4`, },
     { id: `20240515`, scripture: `1ki.5@@1 Kings 5-6`, },
+    { id: `20240807`, scripture: `1ki.7@@1 Kings 7`,   },
+    { id: `20240814`, scripture: `1ki.8@@1 Kings 8`,   },
+    { id: `20240821`, scripture: `1ki.8@@1 Kings 8:54-9:28`, },
   ]
 }) }M

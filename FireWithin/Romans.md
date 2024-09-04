@@ -169,5 +169,10 @@ M{ sermonSeries({
     { id: `20240602`, sermon: `What is God's Will for my Life?`,              scripture: `rom.12@@Rom 12`,           },
     { id: `20240616`, sermon: `How to Treat One Another`,                     scripture: `rom.12@@Rom 12`,           },
     { id: `20240623`, sermon: `God and Government`,                           scripture: `rom.13@@Rom 13`,           },
+    { id: `20240728`, sermon: `What Time Is It?`,                             scripture: `rom.13@@Rom 13:11-14`,     },
+    { id: `20240804`, sermon: `Can't We All Get Along?`,                      scripture: `rom.14@@Rom 14`,           },
+    { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Rom 15`,           },
+    { id: `20240825`, sermon: `A House Divided`,                              scripture: `rom.16@@Rom 16`,           },
+    { id: `20240902`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Rom 16 (Part 2)`,  date: `09/01/2024`, /* registered date 09/02/2024 is wrong day, should be (09/01/2024) */ studyGuide: `NONE`, /* missing study guide ... suspect temporary */ },
   ]
 }) }M
