@@ -165,14 +165,10 @@ rom.1
 
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
-09/02/2024
+09/01/2024
 Crushing Satan
 Rom 16 (Part 2)
 rom.16
-
->> FOR ABOVE ********************************************************************************
-date: `09/01/2024`, /* registered date 09/02/2024 is wrong day, should be  (09/01/2024) */
-studyGuide: `NONE`, /* missing study guide ... suspect temporary */
 
 08/25/2024
 A House Divided
