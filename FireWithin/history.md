@@ -71,6 +71,7 @@ Release           | What                 | *When*
 
 - Added {{book.ElectionDaySermons}} for 2024
 - Added delayed Study Guide for {{book.Romans}} sermon: "Crushing Satan"
+- Updated "My Small Group" section in {{book.Acts}}
 
 
 <!-- ************************************************************* -->
