@@ -173,6 +173,6 @@ M{ sermonSeries({
     { id: `20240804`, sermon: `Can't We All Get Along?`,                      scripture: `rom.14@@Rom 14`,           },
     { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Rom 15`,           },
     { id: `20240825`, sermon: `A House Divided`,                              scripture: `rom.16@@Rom 16`,           },
-    { id: `20240902`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Rom 16 (Part 2)`,  date: `09/01/2024`, /* registered date 09/02/2024 is wrong day, should be (09/01/2024) */ studyGuide: `NONE`, /* missing study guide ... suspect temporary */ },
+    { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Rom 16 (Part 2)`,  },
   ]
 }) }M

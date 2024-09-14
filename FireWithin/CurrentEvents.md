@@ -42,13 +42,16 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20121104`, sermon: `Election Day Sermon`,                                                                   studyGuide: `NONE`, },
-    { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,        scripture: `1sa.8@@1 Samuel 8-11`,                        },
-    { id: `20161016`, sermon: `Election Day Sermon`,                             scripture: `psa.33@@Psalm 33`,        studyGuide: `NONE`, },
-    { id: `20201018`, sermon: `Church in America, Wake Up!`,                     scripture: `jer.6@@Jeremiah 6:16-19`, studyGuide: `NONE`, },
-    { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                     studyGuide: `NONE`, },
-    { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,     scripture: `mat.8@@Matthew 8:23-27`,                      },
-    { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`, scripture: `mat.10@@Matthew 10`,                          },
+    { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
+    { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
+    { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalm 33`,            studyGuide: `NONE`, },
+    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
+    { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
+    { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
+    { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
+
+    { id: `20240908`, sermon: `** Election Day Sermon 2024 (Church, Unite for the Soul of America!)`, scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
+    { id: `20240911`, sermon: `** Night Of Prayer For America`,                                       scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
   ]
 }) }M
 
