@@ -70,6 +70,7 @@ Release           | What                 | *When*
 <br/>
 
 - Added {{book.ElectionDaySermons}} for 2024
+- Added delayed Study Guide for {{book.Romans}} sermon: "Crushing Satan"
 
 
 <!-- ************************************************************* -->
