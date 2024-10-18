@@ -18,6 +18,8 @@ c:/data/tech/dev/project/MyWeb/projectSetup.txt).
   - [Initialize NPM Project]
   - [Setup Blog Tooling]
   - [Setup wiiBridges.com domain]
+- [Clone Project From Scratch]
+
 
 <!--- *** SECTION *************************************************************** --->
 # NPM Scripts
@@ -564,6 +566,218 @@ wiiBridges.com domain.
 FYI: See details of this at c:/data/tech/isp/domain.GitHubDNS.txt.
 
 
+
+<!--- *** SUB-SECTION *************************************************************** --->
+# Clone Project From Scratch
+
+These are the complete steps in getting this project up-and-running
+from the github repository.  I performed this 10/18/2024 in setting up
+my new development machine.  There are some manual steps in the
+process, and some things that should be revisited when I have time.
+
+1. Clone the ([MyWeb](https://github.com/KevinAst/MyWeb)) GitHub
+   project to your local development environment.
+
+   - use your preferred git process.
+   - I use GitHub Desktop as follows:
+     * from the ([MyWeb](https://github.com/KevinAst/MyWeb))
+     * click dropdown: `Code / Open with GitHub Desktop`
+     * this will launch a clone process on the  **GitHub Desktop** on your local machine.
+       - use the following local directory: `C:\dev\MyWeb`
+       - click: `clone`
+     * make sure you are using the current development branch (at the
+       time of this writing: `next3`).
+   - optionally setup a VSCode workspace (currently I never open the project in VSCode)
+
+2. Install the main project dependencies:
+
+   ```
+   c:/dev/MyWeb/
+      .gitignore
+      FireWithin/
+      LICENSE.md
+      MyPage/
+      node_modules/ <<< CREATING THIS DIRECTORY
+      package.json
+      README.md
+      TOOLING.md
+   ```
+
+   ```bash
+   $ cd c:/dev/MyWeb
+
+   $ npm install
+
+       npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+       npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+       npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+       npm warn deprecated q@1.5.0: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+       npm warn deprecated
+       npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+       added 142 packages, and audited 700 packages in 13s
+
+       28 packages are looking for funding
+         run `npm fund` for details
+
+       58 vulnerabilities (1 low, 15 moderate, 31 high, 11 critical)
+
+   $ ls
+       NOTE: The node_modules directory NOW EXISTS!
+   ```
+
+3. Setup GitBook and the GitBook Plugins used by this project.
+
+   Please Note that the GitBook project has transitioned to a
+   commercial platform, and the open-source version is no longer
+   maintained.  The open-source version is still however heavily used.
+
+   There are some manual patches required, to get it running.  When I
+   have time, I plan to move over to Honkit - a fork of the original
+   GitBook which is actively maintained by the community, providing
+   compatibility with the GitBook ecosystem.
+
+   - Apply the following **hack** to the installed lib to make the
+     unstable gitbook operational.
+
+     This is making a change to an **installed** node_module library
+     (i.e. a hack).  It is mentioned in Step 9 (above), but the file
+     tends to move around (based on enhancements to this low-level
+     library).
+
+     Avoiding Following Error (executing gitbook command):
+     ```
+     TypeError: cb.apply is not a function
+     ```
+
+     File Location:
+     ```
+     ORIGINALLY (from Step 9 above): 
+       c:/dev/MyWeb/node_modules/npm/node_modules/graceful-fs/polyfills.js
+
+     CURRENTLY (greping for content, found 2: update both):
+       c:/dev/MyWeb/node_modules/npm/node_modules/graceful-fs/polyfills.js
+       c:/dev/MyWeb/node_modules/graceful-fs/polyfills.js
+     ```
+
+     DO THIS: Comment Out Following Lines:
+     ```js
+     // KJB: HACK to fix STALE gitbook-cli (see: TOOLING.md)
+     // fs.stat = statFix(fs.stat)
+     // fs.fstat = statFix(fs.fstat)
+     // fs.lstat = statFix(fs.lstat)
+     ```
+
+   - Temporarly remove `my-plugin` (MY local plugin) from book.json.
+
+     NEEDED, so as to NOT halt the plugin installation (my-plugin is a
+     local plugin that is symlinked into node_modules).
+
+     book.json
+     ```json
+       "plugins": [
+         "my-plugin",     <<< TEMPORARILY REMOVE THIS (before executing subsequent commands)
+         "-livereload",
+         "-sharing",
+         "toolbar",
+         "folding-menu"
+       ],
+     ```
+
+   - Now install the gitbook plugins
+
+     ```bash
+
+     $ cd C:/dev/MyWeb/FireWithin
+
+     $ lsd # list directories
+
+         gitbook-plugin-my-plugin
+         js
+         styles
+
+     $ npx gitbook install # install gitbook and it's plugins (directed from book.json)
+
+         info: installing 2 plugins using npm@3.9.2 
+         info:  
+         info: installing plugin "toolbar"              <<< NOTE: FIRST PLUGIN INSTALLED
+         info: install plugin "toolbar" (*) from NPM with version 0.6.0 
+         C:\dev\MyWeb\FireWithin
+         `-- gitbook-plugin-toolbar@0.6.0 
+         info: >> plugin "toolbar" installed with success 
+         
+         info: installing plugin "folding-menu"         <<< NOTE: SECOND PLUGIN INSTALLED
+         info: install plugin "folding-menu" (*) from NPM with version 1.0.1 
+         C:\dev\MyWeb\FireWithin
+         +-- gitbook-plugin-folding-menu@1.0.1 
+         `-- gitbook-plugin-toolbar@0.6.0 
+         
+         info: >> plugin "folding-menu" installed with success 
+
+     $ lsd # list directories again
+
+         gitbook-plugin-my-plugin
+         js
+         node_modules     <<< NOTE: Process ADDED node_modules (with plugins)
+         styles
+     ```
+
+   - Add `my-plugin` (MY local plugin) back into book.json.
+
+     book.json
+     ```json
+       "plugins": [
+         "my-plugin",     <<< ADD THIS BACK (will be manually referenced from symlink on next step)
+         "-livereload",
+         "-sharing",
+         "toolbar",
+         "folding-menu"
+       ],
+     ```
+
+   - Create the symlink for MY local plugin
+
+     ```bash
+     $ cd C:/dev/MyWeb/FireWithin/node_modules
+           
+     # make the hard link by referencing the master source (THIS IS A DOS command)
+     $ mklink /J gitbook-plugin-my-plugin ..\gitbook-plugin-my-plugin
+     ```
+
+     This sets up the following directory structure:
+
+     ```
+     c:/dev/
+        MyWeb/
+          FireWithin/
+            gitbook-plugin-my-plugin/ <<< MASTER of MY "local" specialized plugin for FireWithin
+            js/
+            node_modules/
+              gitbook-plugin-folding-menu/
+              gitbook-plugin-my-plugin -> c:/dev/MyWeb/FireWithin/gitbook-plugin-my-plugin/ <<< symlink link referencing parent master gitbook-plugin-my-plugin
+              gitbook-plugin-toolbar/
+            styles/
+            tons of .md files, etc.
+     ```
+
+4. The project should now be operational!
+
+   Try the normal development build/browse steps.
+
+   ```bash
+   # run web server:
+     $ cd C:/dev/MyWeb
+     $ npm run blog:devServe
+
+   # run build process
+     $ cd C:/dev/MyWeb
+     $ npm run blog:dev
+
+   # IN BROWSER
+     http://localhost:8080/
+   ```
+
+
 <!--- *** LINKS ***************************************************************** --->
 
 [NPM Scripts]:                    #npm-scripts
@@ -576,6 +790,7 @@ FYI: See details of this at c:/data/tech/isp/domain.GitHubDNS.txt.
   [Setup wiiBridges.com domain]:  #setup-wiibridgescom-domain
 [Publish to Web]:                 #publish-to-web
 [Setup New Feature Branch]:       #setup-new-feature-branch
+[Clone Project From Scratch]:     #clone-project-from-scratch
 
 [GitBook]:                         https://docs.gitbook.com/
 [GitBook command-line interface]:  https://www.npmjs.com/package/gitbook-cli
