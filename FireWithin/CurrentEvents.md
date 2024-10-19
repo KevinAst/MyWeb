@@ -75,11 +75,16 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   settings: {
-    includeStudyGuide: false,
+    includeStudyGuide: true,
   },
   entries: [
-    { id: `20071003`, sermon: `https://www.youtube.com/watch?v=zF5bPI92-5o@@The God Delusion Debate - Richard Dawkins vs John Lennox`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`,    },
-    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`,                    extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`,   },
-    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                                     extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+    { id: `20071003`, sermon: `https://www.youtube.com/watch?v=zF5bPI92-5o@@The God Delusion Debate - Richard Dawkins vs John Lennox`, studyGuide: `NONE`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`,    },
+    { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`,                    studyGuide: `NONE`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`,   },
+    { id: `20230521`, sermon: `Wanted: The Brave`,                                                                                     studyGuide: `NONE`, extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },
+
+    { id: `20240915`, sermon: `Truth or Truthiness?`,                                                                                  studyGuide: `NONE`, extraLinkInScriptureCell: `https://www.moodychurch.org/staff-directory/erwin-lutzer/@@Dr. Erwin Lutzer`,     },
+    { id: `20241002`, sermon: `Representing Christ In The Cultural Crisis (James Ward)`, scripture: `2co.5.20@@2 Corinthians 5:20`,    studyGuide: `NONE`, },
+    { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalm 83`,                                    },
+    { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
   ]
 }) }M
