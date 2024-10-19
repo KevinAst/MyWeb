@@ -199,3 +199,29 @@ none
 >> FOR ABOVE ********************************************************************************
 extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`,
 
+09/15/2024
+Truth or Truthiness?
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://www.moodychurch.org/staff-directory/erwin-lutzer/@@Dr. Erwin Lutzer`,
+
+10/02/2024
+Representing Christ In The Cultural Crisis (James Ward)
+2 Corinthians 5:20
+2co.5.20
+
+10/06/2024
+Remembering October 7th
+Psalm 83
+psa.83
+
+10/13/2024
+Discerning The Devil's Playbook
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`,
+

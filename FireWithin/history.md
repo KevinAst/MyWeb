@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v22.4](#v22_4)   | Update Current Sermon Series            | *Oct 19, 2024*
 [v22.3](#v22_3)   | Added Election Day Sermons for 2024     | *Sep 14, 2024*
 [v22.2](#v22_2)   | Update Current Sermon Series            | *Sep 4, 2024*
 [v22.1](#v22_1)   | Chosen Season 4 & Sermon Series Updates | *July 30, 2024*
@@ -61,6 +62,20 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v22_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v22.4 - Update Current Sermon Series <i>(Oct 19, 2024)</i>
+</h3>
+<br/>
+
+- Update Current {{book.1Corinthians}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week)
+- Update the {{book.MoralDecay}} section of {{book.CurrentEvents}}
+  _(under {{book.SpecialEvents}})_
+
 
 <!-- ************************************************************* -->
 <br/>

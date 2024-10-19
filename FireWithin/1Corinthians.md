@@ -19,6 +19,7 @@ cross is the wisest thing that has ever happened.
 - [Overview](#overview)
 - [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
 - [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
+- [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
 
 ## Overview
@@ -63,6 +64,10 @@ M{ youTube(`0_LhiD-XNr0`) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)
+
+**Note:** _As of 2024, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
 
 {{book.CornerstoneChapel}}
 
@@ -109,5 +114,17 @@ M{ sermonSeries({
     { id: `20170315`,                                           scripture: `1co.14@@1 Cor 14:6-40`,      },
     { id: `20170322`,                                           scripture: `1co.15@@1 Cor 15:1-34`,      },
     { id: `20170329`,                                           scripture: `1co.15@@1 Cor 15:35-16:24`,  },
+  ]
+}) }M
+
+
+## 2024 1 Corinthians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20240922`, sermon: `It's Time to Grow Up!`,         scripture: `1co.1@@1 Corinthians 1`,  },
+    { id: `20240929`, sermon: `What God has Prepared for Us`,  scripture: `1co.2@@1 Corinthians 2`,  },
   ]
 }) }M
