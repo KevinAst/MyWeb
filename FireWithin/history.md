@@ -74,9 +74,6 @@ Release           | What                 | *When*
 - Update Current {{book.1Corinthians}} Series (Sundays)
 - Update Current {{book.1Kings}} Series (Mid Week)
 
-> ?? YES:
-- Updated "My Small Group" section in {{book.Acts}}
-
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v22_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
