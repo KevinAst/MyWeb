@@ -1,0 +1,141 @@
+********************************************************************************
+* encoder.js ... dd.js
+********************************************************************************
+
+- provides encode/decode utility of sensitive content promoted directly to a client
+  ... example project keys needed to register credentials to a service (ex: Firebase)
+
+- because of the sensitive nature of this implementation, and the fact that it is deployed
+  on the client:
+  * we DO NOT use the encoder.js in production
+  * encoder.js & encoder.readme.txt (this file)    ARE: .gitignored
+    - AND copied into c:/data/tech/dev/encoder/ (as a safeguard)
+  * RATHER encoder.js is morphed into:
+    - dd.js 
+      ... promoting deedle (encode), doodle (decode)
+
+- INSTRUCTIONS for morphing encoder.js into into: dd.js
+  >> I KNOW: I should automate this ... but hey
+  >> DO THIS IN ORDER:
+  0. start with a clean dd.js, containing a copy of encoder.js
+  x. remove all check dependancies and usage (param validation)
+     ... we can live without this validation
+     ... search for "check"
+  x. remove all comments
+  x. add the isString/isPlainObject functions (removed from import)
+     ... by making it self-sufficient, we can mouse this into a JS tester and run it
+     - isString,
+     - isPlainObject} from './check.js';
+     - remove their exports too
+  x. rename: clearTxt          TO: ctx
+  x. rename: deobfuscate       TO: clr ... for make clear
+  x. rename: obfuscate         TO: bbl ... for make babel
+  x. rename: demarkObjEncoding TO: doe ... for demarkObjEncoding
+  x. rename: demarkSafeguard   TO: dsg ... for demarkSafeguard
+  x. rename: encoding          TO: e
+  x. rename: result            TO: rsl
+  x. rename: isString          TO: istr
+  x. rename: isPlainObject     TO: ipo
+  x. rename: safeguard         TO: sfgd
+  x. rename: ref               TO: r
+  x. rename: encode            TO: deedle <<< THIS IS OUR PUBLIC API
+  x. rename: decode            TO: doodle <<< THIS IS OUR PUBLIC API
+  x. format ENTIRE FILE on a single line
+
+- TEST THIS: 
+  * mouse dd.js code into an on-line sand-box
+    ... https://playcode.io/javascript <<< WORKS
+    ... http://es6.zloirock.ru/        <<< WORKS: have to 1. remove exports, and 2. change test: console.log TO log
+  * mouse below "CRUDE TEST" ... inline
+    - MAY need to remove my export
+    - MAY need to change console.log() to log()
+  * verify by looking at logs
+
+// CRUDE TEST ... has been sanitized ... get real credentials from YOU-KNOW
+const encoded1 = deedle({
+  apiKey:            "you-know1",
+  authDomain:        "you-know2",
+  projectId:         "you-know3",
+  storageBucket:     "you-know4",
+  messagingSenderId: "you-know5",
+  appId:             "you-know6",
+  measurementId:     "you-know7"
+}, true);
+const decoded1 = doodle(encoded1);
+console.log(`deedle/doodle TEST ...
+  encoded1: '${encoded1}'
+  decoded1: ${JSON.stringify(decoded1, undefined, 2)}`);
+
+
+
+*--------------------------
+* sample result from above ... before single line
+*--------------------------
+
+function istr(r) {
+  return typeof r === 'string' || r instanceof String;
+}
+function ipo(r) {
+  return typeof r === 'object' && r.constructor === Object;
+}
+export function deedle(r, sfgd=false) {
+  let e = r;
+  if (ipo(e)) {
+    e = doe + JSON.stringify(e);
+  }
+  if (sfgd) {
+    e = dsg + bbl(e);
+  }
+  return e;
+}
+export function doodle(r) {
+  if (!istr(r)) {
+    return r;
+  }
+  let rsl = r;
+  if (rsl.indexOf(dsg) === 0) {
+    rsl = rsl.substring(dsg.length);
+    rsl = clr(rsl);
+  }
+  if (rsl.indexOf(doe) === 0) {
+    rsl = rsl.substring(doe.length);
+    rsl = JSON.parse(rsl);
+  }
+  return rsl;
+}
+const doe = 'obj2str:';
+const dsg   = 'afesa';
+function bbl(str) {
+  if (!window.btoa) {
+    throw new Error('*** ERROR *** bbl(): NOT supported by this browser (btoa).');
+  }
+  const e = window.btoa(str);
+  return e;
+}
+function clr(str) {
+  if (!window.atob) {
+    throw new Error('*** ERROR *** clr(): NOT supported by this browser (atob).');
+  }
+  const ctx = window.atob(str);
+  return ctx;
+}
+
+*--------------------------
+* sample result from above ... one function per line
+*--------------------------
+
+function istr(r) { return typeof r === 'string' || r instanceof String; }
+function ipo(r) { return typeof r === 'object' && r.constructor === Object; }
+export function deedle(r, sfgd=false) { let e = r; if (ipo(e)) { e = doe + JSON.stringify(e); } if (sfgd) { e = dsg + bbl(e); } return e; }
+export function doodle(r) { if (!istr(r)) { return r; } let rsl = r; if (rsl.indexOf(dsg) === 0) { rsl = rsl.substring(dsg.length); rsl = clr(rsl); } if (rsl.indexOf(doe) === 0) { rsl = rsl.substring(doe.length); rsl = JSON.parse(rsl); } return rsl; }
+const doe = 'obj2str:';
+const dsg   = 'afesa';
+function bbl(str) { if (!window.btoa) { throw new Error('*** ERROR *** bbl(): NOT supported by this browser (btoa).'); } const e = window.btoa(str); return e; }
+function clr(str) { if (!window.atob) { throw new Error('*** ERROR *** clr(): NOT supported by this browser (atob).'); } const ctx = window.atob(str); return ctx; }
+
+
+*--------------------------
+* sample result from above ... single line
+*--------------------------
+
+function istr(r) { return typeof r === 'string' || r instanceof String; } function ipo(r) { return typeof r === 'object' && r.constructor === Object; } export function deedle(r, sfgd=false) { let e = r; if (ipo(e)) { e = doe + JSON.stringify(e); } if (sfgd) { e = dsg + bbl(e); } return e; } export function doodle(r) { if (!istr(r)) { return r; } let rsl = r; if (rsl.indexOf(dsg) === 0) { rsl = rsl.substring(dsg.length); rsl = clr(rsl); } if (rsl.indexOf(doe) === 0) { rsl = rsl.substring(doe.length); rsl = JSON.parse(rsl); } return rsl; } const doe = 'obj2str:'; const dsg = 'afesa'; function bbl(str) { if (!window.btoa) { throw new Error('*** ERROR *** bbl(): NOT supported by this browser (btoa).'); } const e = window.btoa(str); return e; } function clr(str) { if (!window.atob) { throw new Error('*** ERROR *** clr(): NOT supported by this browser (atob).'); } const ctx = window.atob(str); return ctx; }
