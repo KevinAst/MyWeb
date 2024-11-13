@@ -32,6 +32,7 @@ M{ sermonSeries({
     { id: `20200830`, sermon: `Jesus on Divorce`,                        scripture: `mat.5.31-32@@Matthew 5:31-32`, },
     { id: `20230122`, sermon: `The God of Restoration`,                  scripture: `jhn.21@@John 21`,              },
     { id: `20230507`, sermon: `the-unashamed-life@@The Unashamed Life`,  scripture: `rom.1.16-17@@Romans 1:16-17`,  studyGuide: `NONE`, extraLinkInScriptureCell: `https://alandlisarobertson.com/our-story@@Al Robertson`, },
+    { id: `20241110`, sermon: `God's View of Singleness & Marriage`,     scripture: `1co.7@@1 Corinthians 7`,       },
   ]
 }) }M
 
@@ -50,8 +51,10 @@ M{ sermonSeries({
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
 
-    { id: `20240908`, sermon: `** Election Day Sermon 2024 (Church, Unite for the Soul of America!)`, scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
-    { id: `20240911`, sermon: `** Night Of Prayer For America`,                                       scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
+    { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
+    { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
+    { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
+
   ]
 }) }M
 

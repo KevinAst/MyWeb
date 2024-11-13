@@ -124,7 +124,11 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20240922`, sermon: `It's Time to Grow Up!`,         scripture: `1co.1@@1 Corinthians 1`,  },
-    { id: `20240929`, sermon: `What God has Prepared for Us`,  scripture: `1co.2@@1 Corinthians 2`,  },
+    { id: `20240922`, sermon: `It's Time to Grow Up!`,               scripture: `1co.1@@1 Corinthians 1`,       },
+    { id: `20240929`, sermon: `What God has Prepared for Us`,        scripture: `1co.2@@1 Corinthians 2`,       },
+    { id: `20241020`, sermon: `Biblical Tolerance`,                  scripture: `1co.5@@1 Corinthians 5`,       },
+    { id: `20241027`, sermon: `Lawsuits and Lifestyles`,             scripture: `1co.6@@1 Corinthians 6:1-11`,  },
+    { id: `20241103`, sermon: `God’s View of Sex`,                   scripture: `1co.6@@1 Corinthians 6:12-18`, },
+    { id: `20241110`, sermon: `God's View of Singleness & Marriage`, scripture: `1co.7@@1 Corinthians 7`,       },
   ]
 }) }M
