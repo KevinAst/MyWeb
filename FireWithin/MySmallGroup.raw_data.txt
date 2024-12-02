@@ -557,4 +557,85 @@ act.27
 * Exodus/Leviticus Series (My Small Group)
 *------------------------------------------
 
-?? TODO
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+12/01/2024
+Seen and Heard
+Exodus 2:23-25; 3:7-15
+exo.2
+
+>> FOR ABOVE ********************************************************************************
+REPLACE scripture: `exo.2@@Exodus 2:23-25##exo.3@@CR:Exodus 3:7-15`
+
+12/08/2024
+Freedom Promised
+Exodus 5:1-4; 6:2-9
+exo.5
+
+>> FOR ABOVE ********************************************************************************
+REPLACE scripture: `exo.5@@Exodus 5:1-4##exo.6@@CR:Exodus 6:2-9`
+
+12/15/2024
+Delivered from Egypt
+Exodus 12:21-32
+exo.12
+
+12/22/2024
+Delivered from Sin
+Luke 1:26-38
+luk.1
+
+12/29/2024
+Power Revealed
+Exodus 14:19-31
+exo.14
+
+01/05/2025
+Provision Given
+Exodus 16:11-19; 17:1-6
+exo.16
+
+>> FOR ABOVE ********************************************************************************
+REPLACE scripture: `exo.16@@Exodus 16:11-19##exo.17@@CR:Exodus 17:1-6`
+
+01/12/2025
+God’s Commands
+Exodus 20:1-17
+exo.20
+
+01/19/2025
+Protection
+Exodus 22:21-27; Leviticus 19:9-10
+exo.22
+
+>> FOR ABOVE ********************************************************************************
+REPLACE scripture: `exo.22@@Exodus 22:21-27##lev.19@@CR:Leviticus 19:9-10`
+
+01/26/2025
+Instructions
+Exodus 25:1-9; 31:1-6
+exo.25
+
+>> FOR ABOVE ********************************************************************************
+REPLACE scripture: `exo.25@@Exodus 25:1-9##exo.31@@CR:Exodus 31:1-6`
+
+02/02/2025
+Inhabited!
+Exodus 40:16-21,34-38
+exo.40
+
+02/09/2025
+Separation
+Leviticus 9:15–10:3
+lev.9
+
+02/16/2025
+Atonement*
+Leviticus 16:1-10,29-30
+lev.16
+
+02/23/2025
+Holy Living
+Leviticus 26:1-13
+lev.26
+

@@ -190,4 +190,23 @@ M{ sermonSeries({
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Exodus}}, {{book.Leviticus}}
 
-?? TODO
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20241201`, sermon: `TXT@@Seen and Heard`,        scripture: `exo.2@@Exodus 2:23-25##exo.3@@CR:Exodus 3:7-15`,         date:`12/01/2024`, },
+    { id: `SG20241208`, sermon: `TXT@@Freedom Promised`,      scripture: `exo.5@@Exodus 5:1-4##exo.6@@CR:Exodus 6:2-9`,            date:`12/08/2024`, },
+    { id: `SG20241215`, sermon: `TXT@@Delivered from Egypt`,  scripture: `exo.12@@Exodus 12:21-32`,                                date:`12/15/2024`, },
+    { id: `SG20241222`, sermon: `TXT@@Delivered from Sin`,    scripture: `luk.1@@Luke 1:26-38`,                                    date:`12/22/2024`, },
+    { id: `SG20241229`, sermon: `TXT@@Power Revealed`,        scripture: `exo.14@@Exodus 14:19-31`,                                date:`12/29/2024`, },
+    { id: `SG20250105`, sermon: `TXT@@Provision Given`,       scripture: `exo.16@@Exodus 16:11-19##exo.17@@CR:Exodus 17:1-6`,      date:`01/05/2025`, },
+    { id: `SG20250112`, sermon: `TXT@@God’s Commands`,        scripture: `exo.20@@Exodus 20:1-17`,                                 date:`01/12/2025`, },
+    { id: `SG20250119`, sermon: `TXT@@Protection`,            scripture: `exo.22@@Exodus 22:21-27##lev.19@@CR:Leviticus 19:9-10`,  date:`01/19/2025`, },
+    { id: `SG20250126`, sermon: `TXT@@Instructions`,          scripture: `exo.25@@Exodus 25:1-9##exo.31@@CR:Exodus 31:1-6`,        date:`01/26/2025`, },
+    { id: `SG20250202`, sermon: `TXT@@Inhabited!`,            scripture: `exo.40@@Exodus 40:16-21,34-38`,                          date:`02/02/2025`, },
+    { id: `SG20250209`, sermon: `TXT@@Separation`,            scripture: `lev.9@@Leviticus 9:15–10:3`,                             date:`02/09/2025`, },
+    { id: `SG20250216`, sermon: `TXT@@Atonement*`,            scripture: `lev.16@@Leviticus 16:1-10,29-30`,                        date:`02/16/2025`, },
+    { id: `SG20250223`, sermon: `TXT@@Holy Living`,           scripture: `lev.26@@Leviticus 26:1-13`,                              date:`02/23/2025`, },
+  ]
+}) }M
