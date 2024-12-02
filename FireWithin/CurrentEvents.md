@@ -33,6 +33,7 @@ M{ sermonSeries({
     { id: `20230122`, sermon: `The God of Restoration`,                  scripture: `jhn.21@@John 21`,              },
     { id: `20230507`, sermon: `the-unashamed-life@@The Unashamed Life`,  scripture: `rom.1.16-17@@Romans 1:16-17`,  studyGuide: `NONE`, extraLinkInScriptureCell: `https://alandlisarobertson.com/our-story@@Al Robertson`, },
     { id: `20241110`, sermon: `God's View of Singleness & Marriage`,     scripture: `1co.7@@1 Corinthians 7`,       },
+    { id: `20241117`, sermon: `God's View of Divorce`,                   scripture: `1co.7@@1 Corinthians 7`, studyGuide: `NONE`, },
   ]
 }) }M
 

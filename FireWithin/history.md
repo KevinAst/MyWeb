@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v22.6](#v22_6)   | Update Current Sermon Series            | *Dec 3, 2024*
 [v22.5](#v22_5)   | Update Current Sermon Series            | *Nov 13, 2024*
 [v22.4](#v22_4)   | Update Current Sermon Series            | *Oct 19, 2024*
 [v22.3](#v22_3)   | Added Election Day Sermons for 2024     | *Sep 14, 2024*
@@ -64,6 +65,18 @@ Release           | What                 | *When*
 
 ## Details:
 
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v22_6" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v22.6 - Update Current Sermon Series <i>(Dec 3, 2024)</i>
+</h3>
+<br/>
+
+- Update Current {{book.1Corinthians}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week)
+- ?? Updated latest study in "My Small Group" - NOW migrated to a new section of {{book.SpecialEvents}}
+
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v22_5" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
@@ -73,6 +86,7 @@ Release           | What                 | *When*
 
 - Update Current {{book.1Corinthians}} Series (Sundays)
 - Update Current {{book.1Kings}} Series (Mid Week)
+
 
 <!-- ************************************************************* -->
 <br/>
