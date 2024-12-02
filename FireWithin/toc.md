@@ -115,6 +115,7 @@
   * [Easter](Easter.md)
   * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
+  * [My Small Group](MySmallGroup.md)
 
 ----
 - [The Chosen](TheChosen.md)

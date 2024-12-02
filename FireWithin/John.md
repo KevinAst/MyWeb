@@ -14,7 +14,6 @@ Jesus is the Son of God who died for our sins.
 - [Overview](#overview)
 - [2015 John Series (Mid Week)](#2015-john-series-mid-week)
 - [2022 John Series (Sundays)](#2022-john-series-sundays)
-- [2023 John Series (My Small Group)](#2023-john-series-my-small-group)
 
 
 ## Overview
@@ -128,45 +127,5 @@ M{ sermonSeries({
     { id: `20221204`, sermon: `A Prayer for Unity`,              scripture: `jhn.17@@John 17`,           },
     { id: `20230108`, sermon: `Pilate the People-Pleaser`,       scripture: `jhn.18@@John 18-19`,        },
     { id: `20230122`, sermon: `The God of Restoration`,          scripture: `jhn.21@@John 21`,           },
-  ]
-}) }M
-
-
-
-## 2023 John Series (My Small Group)
-
-{{book.FBM}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `SG20221204`, sermon: `TXT@@In the Beginning (pg 13)`,       scripture: `jhn.1@@John 1:1-14`,             date:`12/04/2022`, },
-    { id: `SG20221211`, sermon: `TXT@@Come and See (pg 23)`,           scripture: `jhn.1@@John 1:40-51`,            date:`12/11/2022`, },
-    { id: `SG20221218`, sermon: `TXT@@I Will Raise (pg 33)`,           scripture: `jhn.2@@John 2:11-23`,            date:`12/18/2022`, },
-    { id: `SG20221225`, sermon: `TXT@@You Will Find (pg 43)`,          scripture: `luk.2@@Luke 2:1-15`,             date:`12/25/2022`, },
-    { id: `SG20230101`, sermon: `TXT@@Everyone Who Believes (pg 53)`,  scripture: `jhn.3@@John 3:4-18`,             date:`01/01/2023`, },
-    { id: `SG20230108`, sermon: `TXT@@But Whoever Drinks (pg 63)`,     scripture: `jhn.4@@John 4:11-26`,            date:`01/08/2023`, },
-    { id: `SG20230115`, sermon: `TXT@@Pick Up Your Mat (pg 73)`,       scripture: `jhn.5@@John 5:5-16`,             date:`01/15/2023`, },
-    { id: `SG20230122`, sermon: `TXT@@I Am the Bread (pg 83)`,         scripture: `jhn.6@@John 6:26-40`,            date:`01/22/2023`, },
-    { id: `SG20230129`, sermon: `TXT@@He Sent Me (pg 93)`,             scripture: `jhn.7@@John 7:14-29`,            date:`01/29/2023`, },
-    { id: `SG20230205`, sermon: `TXT@@I Am the Light (pg 103)`,        scripture: `jhn.8@@John 8:3-18`,             date:`02/05/2023`, },
-    { id: `SG20230212`, sermon: `TXT@@You Have Seen Him (pg 113)`,     scripture: `jhn.9@@John 9:24-38`,            date:`02/12/2023`, },
-    { id: `SG20230219`, sermon: `TXT@@I Know My Own (pg 123)`,         scripture: `jhn.10@@John 10:7-14,25-30`,     date:`02/19/2023`, },
-    { id: `SG20230226`, sermon: `TXT@@I Am the Resurrection (pg 133)`, scripture: `jhn.11@@John 11:32-46`,          date:`02/26/2023`, },
-    { id: `SG20230305`, sermon: `TXT@@Why Wasn’t This Sold?`,          scripture: `jhn.12@@John 12:1-11`,           date:`03/05/2023`, },
-    { id: `SG20230312`, sermon: `TXT@@If It Dies`,                     scripture: `jhn.12@@John 12:20-33`,          date:`03/12/2023`, },
-    { id: `SG20230319`, sermon: `TXT@@I Will Come Again`,              scripture: `jhn.13@@John 13:31-14:6`,        date:`03/19/2023`, },
-    { id: `SG20230326`, sermon: `TXT@@Peace I Leave`,                  scripture: `jhn.14@@John 14:16-29`,          date:`03/26/2023`, },
-    { id: `SG20230402`, sermon: `TXT@@Remain in Me`,                   scripture: `jhn.15@@John 15:1-17`,           date:`04/02/2023`, },
-    { id: `SG20230409`, sermon: `TXT@@I Have Seen*`,                   scripture: `jhn.20@@John 20:1-18`,           date:`04/09/2023`, },
-    { id: `SG20230416`, sermon: `TXT@@When the Spirit Comes`,          scripture: `jhn.15@@John 15:26-27; 16:7-15`, date:`04/16/2023`, },
-    { id: `SG20230423`, sermon: `TXT@@I Pray`,                         scripture: `jhn.17@@John 17:13-26`,          date:`04/23/2023`, },
-    { id: `SG20230430`, sermon: `TXT@@I Am He`,                        scripture: `jhn.18@@John 18:1-11`,           date:`04/30/2023`, },
-    { id: `SG20230507`, sermon: `TXT@@I Find No Fault`,                scripture: `jhn.18@@John 18:28-40`,          date:`05/07/2023`, },
-    { id: `SG20230514`, sermon: `TXT@@It Is Finished`,                 scripture: `jhn.19@@John 19:17-30`,          date:`05/14/2023`, },
-    { id: `SG20230521`, sermon: `TXT@@Reach out Your Hand`,            scripture: `jhn.20@@John 20:19-29`,          date:`05/21/2023`, },
-    { id: `SG20230528`, sermon: `TXT@@Do You Love Me?`,                scripture: `jhn.21@@John 21:15-23`,          date:`05/28/2023`, },
   ]
 }) }M

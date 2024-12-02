@@ -6,3 +6,4 @@ Special Events and Guest Speakers:
 - {{book.Christmas}}
 - {{book.Easter}}
 - {{book.CurrentEvents}}
+- {{book.MySmallGroup}}

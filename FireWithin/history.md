@@ -75,7 +75,7 @@ Release           | What                 | *When*
 
 - Update Current {{book.1Corinthians}} Series (Sundays)
 - Update Current {{book.1Kings}} Series (Mid Week)
-- ?? Updated latest study in "My Small Group" - NOW migrated to a new section of {{book.SpecialEvents}}
+- Updated latest study in {{book.MySmallGroup}} - NOW migrated to a new section of {{book.SpecialEvents}}
 
 <!-- ************************************************************* -->
 <br/>
