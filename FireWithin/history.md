@@ -77,6 +77,7 @@ Release           | What                 | *When*
 - Update Current {{book.1Kings}} Series (Mid Week)
 - Added Exodus/Leviticus Series to {{book.MySmallGroup}} - NOW migrated to a new section of {{book.SpecialEvents}}
 - Added {{book.Thanksgiving}} services for 2024.
+- **NOTE**: v22.6B for updates to {{book.1Corinthians}} Study Guide.
 
 <!-- ************************************************************* -->
 <br/>
