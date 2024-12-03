@@ -12,7 +12,6 @@ hope–God's mercies are new every morning!
 
 - [Overview](#overview)
 - [2019 Lamentations Series (Sundays)](#2019-lamentations-series-sundays)
-- [2023 Lamentations Series (My Small Group)](#2023-lamentations-series-my-small-group)
 
 ## Overview
 
@@ -61,20 +60,5 @@ M{ youTube(`ZjG3ys9DLcI`) }M
 M{ sermonSeries({
   entries: [
     { id: `20190407`, sermon: `Every Morning is Another Chance`, scripture: `lam.1@@Lamentations 1-5`, },
-  ]
-}) }M
-
-
-
-## 2023 Lamentations Series (My Small Group)
-
-{{book.FBM}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `SG20230827`, sermon: `TXT@@Good`, scripture: `lam.3@@Lamentations 3:19-33`, date:`08/27/2023`, },
   ]
 }) }M

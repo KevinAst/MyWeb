@@ -31,5 +31,7 @@ M{ sermonSeries({
     { id: `20221127`, sermon: `Sunday Service of Thanksgiving`,                                                               },
     { id: `20231122`, sermon: `Thanksgiving Eve Celebration Service`,                                                         },
     { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,                        scripture: `mat.25@@Matthew 25:14-30`, },
+    { id: `20241127`, sermon: `Thanksgiving Eve Celebration Service`,                                                         },
+    { id: `20241201`, sermon: `Sunday Service of Thanksgiving`,                                                               },
   ]
 }) }M

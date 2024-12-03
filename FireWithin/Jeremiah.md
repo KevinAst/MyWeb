@@ -19,7 +19,6 @@ make them virgin brides once again.
 
 - [Overview](#overview)
 - [2019 Jeremiah Series (Sundays)](#2019-jeremiah-series-sundays)
-- [2023 Jeremiah Series (My Small Group)](#2023-jeremiah-series-my-small-group)
 
 
 ## Overview
@@ -90,31 +89,5 @@ M{ sermonSeries({
     { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,     },
     { id: `20190317`, sermon: `Don't "Wine" About It`,              scripture: `jer.46@@Jeremiah 46-48`,  },
     { id: `20190331`, sermon: `Lessons from Babylon`,               scripture: `jer.49@@Jeremiah 49-52`,  },
-  ]
-}) }M
-
-
-## 2023 Jeremiah Series (My Small Group)
-
-{{book.FBM}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `SG20230604`, sermon: `TXT@@Prepares`,    scripture: `jer.1@@Jeremiah 1:4-19`,          date:`06/04/2023`, },
-    { id: `SG20230611`, sermon: `TXT@@Judges`,      scripture: `jer.2@@Jeremiah 2:1-13`,          date:`06/11/2023`, },
-    { id: `SG20230618`, sermon: `TXT@@Personal`,    scripture: `jer.7@@Jeremiah 7:1-15`,          date:`06/18/2023`, },
-    { id: `SG20230625`, sermon: `TXT@@Exclusive`,   scripture: `jer.12@@Jeremiah 12:1-13`,        date:`06/25/2023`, },
-    { id: `SG20230702`, sermon: `TXT@@Shapes`,      scripture: `jer.18@@Jeremiah 18:1-12`,        date:`07/02/2023`, },
-    { id: `SG20230709`, sermon: `TXT@@Rules`,       scripture: `jer.23@@Jeremiah 23:1-12`,        date:`07/09/2023`, },
-    { id: `SG20230716`, sermon: `TXT@@Present`,     scripture: `jer.29@@Jeremiah 29:4-14`,        date:`07/16/2023`, },
-    { id: `SG20230723`, sermon: `TXT@@Redeems`,     scripture: `jer.31@@Jeremiah 31:23-34`,       date:`07/23/2023`, },
-    { id: `SG20230730`, sermon: `TXT@@Worthy`,      scripture: `jer.35@@Jeremiah 35:5-19`,        date:`07/30/2023`, },
-    { id: `SG20230806`, sermon: `TXT@@Speaks`,      scripture: `jer.36@@Jeremiah 36:19-31`,       date:`08/06/2023`, },
-    { id: `SG20230813`, sermon: `TXT@@Trustworthy`, scripture: `jer.42@@Jeremiah 42:7-22`,        date:`08/13/2023`, },
-    { id: `SG20230820`, sermon: `TXT@@Just`,        scripture: `jer.50@@Jeremiah 50:11-20,33-34`, date:`08/20/2023`, },
-    { id: `SG20230827`, sermon: `TXT@@Good`,        scripture: `lam.3@@Lamentations 3:19-33`,     date:`08/27/2023`, },
   ]
 }) }M

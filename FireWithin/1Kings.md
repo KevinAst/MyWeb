@@ -107,5 +107,7 @@ M{ sermonSeries({
     { id: `20240918`, scripture: `1ki.10@@1 Kings 10:1-11:21`,  },
     { id: `20241009`, scripture: `1ki.11@@1 Kings 11:22-12:33`, },
     { id: `20241106`, scripture: `1ki.13@@1 Kings 13`,          },
+    { id: `20241113`, scripture: `1ki.14@@1 Kings 14`,          },
+    { id: `20241120`, scripture: `1ki.15@@1 Kings 15 & 16`,     },
   ]
 }) }M

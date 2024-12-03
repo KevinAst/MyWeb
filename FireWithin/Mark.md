@@ -15,7 +15,6 @@ did in his life prepares us for and informs us about his death.
 - [Overview](#overview)
 - [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
-- [2023 Mark Series (My Small Group)](#2023-mark-series-my-small-group)
 
 
 ## Overview
@@ -106,32 +105,5 @@ M{ sermonSeries({
     { id: `20210530`, sermon: `Opposition to Jesus and His Church`,    scripture: `mrk.12@@Mark 12`,       },
     { id: `20210613`, sermon: `What's the Cost?`,                      scripture: `mrk.12@@Mark 12:41-44`, },
     { id: `20210620`, sermon: `When God Tore a Curtain`,               scripture: `mrk.15@@Mark 15`,       },
-  ]
-}) }M
-
-
-
-## 2023 Mark Series (My Small Group)
-
-{{book.FBM}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false, 
-  },
-  entries: [
-    { id: `SG20230903`, sermon: `TXT@@Introduced`,  scripture: `mrk.1@@Mark 1:1-13`,    date:`09/03/2023`, },
-    { id: `SG20230910`, sermon: `TXT@@Proclaimed`,  scripture: `mrk.1@@Mark 1:35-45`,   date:`09/10/2023`, },
-    { id: `SG20230917`, sermon: `TXT@@Questioned`,  scripture: `mrk.3@@Mark 3:20-30`,   date:`09/17/2023`, },
-    { id: `SG20230924`, sermon: `TXT@@Satisfies`,   scripture: `mrk.6@@Mark 6:30-44`,   date:`09/24/2023`, },
-    { id: `SG20231001`, sermon: `TXT@@Includes`,    scripture: `mrk.7@@Mark 7:24-37`,   date:`10/01/2023`, },
-    { id: `SG20231008`, sermon: `TXT@@Followed`,    scripture: `mrk.8@@Mark 8:31-9:1`,  date:`10/08/2023`, },
-    { id: `SG20231015`, sermon: `TXT@@Strengthens`, scripture: `mrk.9@@Mark 9:17-29`,   date:`10/15/2023`, },
-    { id: `SG20231022`, sermon: `TXT@@Serves`,      scripture: `mrk.10@@Mark 10:32-45`, date:`10/22/2023`, },
-    { id: `SG20231029`, sermon: `TXT@@Clears`,      scripture: `mrk.11@@Mark 11:15-25`, date:`10/29/2023`, },
-    { id: `SG20231105`, sermon: `TXT@@Returning`,   scripture: `mrk.13@@Mark 13:24-37`, date:`11/05/2023`, },
-    { id: `SG20231112`, sermon: `TXT@@Willing`,     scripture: `mrk.14@@Mark 14:32-42`, date:`11/12/2023`, },
-    { id: `SG20231119`, sermon: `TXT@@Sacrificed`,  scripture: `mrk.15@@Mark 15:24-39`, date:`11/19/2023`, },
-    { id: `SG20231126`, sermon: `TXT@@Alive`,       scripture: `mrk.16@@Mark 16:1-14`,  date:`11/26/2023`, },
   ]
 }) }M

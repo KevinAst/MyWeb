@@ -130,5 +130,7 @@ M{ sermonSeries({
     { id: `20241027`, sermon: `Lawsuits and Lifestyles`,             scripture: `1co.6@@1 Corinthians 6:1-11`,  },
     { id: `20241103`, sermon: `God’s View of Sex`,                   scripture: `1co.6@@1 Corinthians 6:12-18`, },
     { id: `20241110`, sermon: `God's View of Singleness & Marriage`, scripture: `1co.7@@1 Corinthians 7`,       },
+    { id: `20241117`, sermon: `God's View of Divorce`,                      scripture: `1co.7@@1 Corinthians 7`, studyGuide: `NONE`, },
+    { id: `20241124`, sermon: `God’s View of Smoking (and Other Debates)`,  scripture: `1co.8@@1 Corinthians 8`, studyGuide: `NONE`, },
   ]
 }) }M
