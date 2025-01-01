@@ -35,5 +35,6 @@ M{ sermonSeries({
     { id: `20221224`, sermon: `A Census, An Angel, and a Star`,                                                studyGuide: `NONE`, },
     { id: `20221225`, sermon: `God’s Gift to the World`,                scripture: `mat.1@@Matthew 1`,         studyGuide: `NONE`, },
     { id: `20231224`, sermon: `No Greater Gift`,                        scripture: `isa.9.6-7@@Isaiah 9:6-7`,  studyGuide: `NONE`, },
+    { id: `20241224`, sermon: `in-the-fullness-of-time@@In the Fullness of Time`, scripture: `luk.2.1-14@@Luke 2:1-14`,  studyGuide: `NONE`, },
   ]
 }) }M

@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v22.7](#v22_7)   | Update Current Sermon Series            | *Jan 1, 2025*
 [v22.6](#v22_6)   | Update Current Sermon Series            | *Dec 3, 2024*
 [v22.5](#v22_5)   | Update Current Sermon Series            | *Nov 13, 2024*
 [v22.4](#v22_4)   | Update Current Sermon Series            | *Oct 19, 2024*
@@ -65,6 +66,16 @@ Release           | What                 | *When*
 
 ## Details:
 
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v22_7" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v22.7 - Update Current Sermon Series <i>(Jan 1, 2025)</i>
+</h3>
+<br/>
+
+- Update Current {{book.1Corinthians}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week)
+- Added {{book.Christmas}} services for 2024.
 
 <!-- ************************************************************* -->
 <br/>
@@ -77,6 +88,7 @@ Release           | What                 | *When*
 - Update Current {{book.1Kings}} Series (Mid Week)
 - Added Exodus/Leviticus Series to {{book.MySmallGroup}} - NOW migrated to a new section of {{book.SpecialEvents}}
 - Added {{book.Thanksgiving}} services for 2024.
+- **NOTE**: v22.6B for updates to {{book.1Corinthians}} Study Guide.
 
 <!-- ************************************************************* -->
 <br/>
