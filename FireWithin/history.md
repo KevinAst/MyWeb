@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v23.0](#v23_0)   | Questions and Answers & more            | *Jan 7, 2025*
 [v22.7](#v22_7)   | Update Current Sermon Series            | *Jan 1, 2025*
 [v22.6](#v22_6)   | Update Current Sermon Series            | *Dec 3, 2024*
 [v22.5](#v22_5)   | Update Current Sermon Series            | *Nov 13, 2024*
@@ -65,6 +66,17 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v23_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v23.0 - Questions and Answers & more <i>(Jan 7, 2025)</i>
+</h3>
+<br/>
+
+- Added new {{book.QA}} section.
+- Update Current {{book.2Corinthians}} Series (Sundays)
+
 
 <!-- ************************************************************* -->
 <br/>

@@ -20,6 +20,7 @@ Christ, true power comes in weakness.
 - [Overview](#overview)
 - [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
 - [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
+- [2025 2 Corinthians Series (Sundays)](#2025-2-corinthians-series-sundays)
 
 
 ## Overview
@@ -66,6 +67,10 @@ M{ youTube(`nmdsoTt_gv0`) }M
 
 ## 2009-2010 2 Corinthians Series (Sundays)
 
+**Note:** _As of 2025, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
@@ -97,5 +102,16 @@ M{ sermonSeries({
     { id: `20170531`, scripture: `2co.8@@2 Cor 8:16-10:5`,    },
     { id: `20170607`, scripture: `2co.10@@2 Cor 10:7-11:15`,  },
     { id: `20170614`, scripture: `2co.11@@2 Cor 11:16-13:14`, },
+  ]
+}) }M
+
+
+## 2025 2 Corinthians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20250105`, sermon: `Suffering Well`,         scripture: `2co.1@@2 Corinthians 1`,  }, // ?? waiting for ... studyGuide: `NONE`
   ]
 }) }M
