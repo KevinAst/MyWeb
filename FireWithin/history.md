@@ -75,8 +75,7 @@ Release           | What                 | *When*
 <br/>
 
 - Added new {{book.QA}} section.
-- ?? Update Current {{book.2Corinthians}} Series (Sundays)
-- ?? Update Current {{book.1Kings}} Series (Mid Week)
+- Update Current {{book.2Corinthians}} Series (Sundays)
 
 
 <!-- ************************************************************* -->
