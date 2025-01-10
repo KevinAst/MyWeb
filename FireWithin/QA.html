@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Habakkuk · FireWithin</title>
+        <title>Questions and Answers · FireWithin</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -59,10 +59,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="Zephaniah.html" />
+    <link rel="next" href="MySmallGroup.html" />
     
     
-    <link rel="prev" href="Nahum.html" />
+    <link rel="prev" href="CurrentEvents.html" />
     
 
     </head>
@@ -952,7 +952,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="5.1.35" data-path="Habakkuk.html">
+        <li class="chapter " data-level="5.1.35" data-path="Habakkuk.html">
             
                 <a href="Habakkuk.html">
             
@@ -1485,7 +1485,7 @@
             
         </li>
     
-        <li class="chapter " data-level="7.1.6" data-path="QA.html">
+        <li class="chapter active" data-level="7.1.6" data-path="QA.html">
             
                 <a href="QA.html">
             
@@ -1670,7 +1670,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Habakkuk</a>
+        <a href="." >Questions and Answers</a>
     </h1>
 </div>
 
@@ -1715,97 +1715,216 @@
 
 <script type="module" src="./js/fw.js"></script>
 
-<div style="text-align: right"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="Habakkuk">Book Completed</label></div>
+<h2 id="questions-and-answers">Questions and Answers</h2>
+<p><a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a> holds an annual Question and Answer Service
+where Pastor Gary and sons <em>(Pastor Tyler and Pastor Austin)</em> answer
+the congregation&apos;s Bible questions!</p>
+<p><strong>NOTE:</strong> Unlike most FireWithin links, we use YouTube references on
+this page, rather than Cornerstone links.  This allows us to
+time-slice directly into individual questions.  For each session, you
+have the choice of either starting from the beginning and watching all
+the way through, or you can directly link into the desired question.</p>
+<!-- DEV NOTE: 
 
-<h1 id="habakkuk">Habakkuk</h1>
-<p>In the book of Habakkuk God&#x2019;s prophet asks why God tolerates evil and
-why he seems slow in punishing injustice. God responds that he has a
-plan to judge all evil thoroughly and finally. But God also says that
-Habakkuk must learn to endure his current sufferings and trust his
-God.</p>
-<p>Ultimately, God&#x2019;s answer to the problem of evil begins to be answered
-in the death of Jesus. In Jesus God endured suffering, trusted his
-God, and was ultimately raised from the dead. Habakkuk shows us that
-because of Jesus we know that God will judge evil and rescue his
-people.</p>
+     Because of the large number of question, I wanted to utilize the same browser window for all questions.
+
+     - I initially attempted to use HTML <a> tag links (where the target= directive is available):
+       EX: <a href="https://www.youtube.com/watch?v=qOKtCXUoK74&t=01h06m59s" target="CornerstoneQuestAns">Is Cremation Ok?</a>
+
+     - This was my test progression:
+       1. GitBook markdown auto reverts html <a> tags to target="_blank", ignoring any target= directives
+       2. JavaScript hooks to force the target= directive is also ignored by modern browsers
+          <script>
+              document.querySelectorAll("a").forEach(link => {
+                  link.setAttribute("target", "CornerstoneQuestAns");
+              });
+          </script>
+       3. JavaScript hooks to use window.open() also DOES NOT WORK
+          <script>
+            document.querySelectorAll("a").forEach(link => {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    window.open(link.href, "CornerstoneQuestAns"); // Open in the named window
+                });
+            });
+          </script>
+
+     SINCE NOTHING I TRIED (ABOVE) WORKS, I punted and went back to the plain markdown solution :-(
+-->
 <h3 id="at-a-glance">At a Glance</h3>
 <ul>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#2012-habakkuk-series-mid-week">2012 Habakkuk Series (Mid Week)</a></li>
-<li><a href="#2020-habakkuk-series-sundays">2020 Habakkuk Series (Sundays)</a></li>
-<li><a href="#habakkuk-misc-selection">Habakkuk Misc Selection</a></li>
+<li><a href="#qa-service-01022022">Q&amp;A Service 01/02/2022</a></li>
+<li><a href="#qa-service-12312023">Q&amp;A Service 12/31/2023</a></li>
+<li><a href="#qa-service-12202024">Q&amp;A Service 12/20/2024</a></li>
 </ul>
-<h2 id="overview">Overview</h2>
-<p><strong><a href="https://www.thenivbible.com/" target="_blank">NIV Bible</a> Habakkuk Introduction</strong></p>
-<blockquote>
-<p>Near the time of the transition from the Assyrian to the Babylonian
-empires (late 7th century BC), the prophet Habakkuk engaged in a
-profound dialogue with Israel&#x2019;s God. The form of his book is a short
-series of complaints, or laments, followed by the divine
-responses. When Habakkuk&#x2019;s cries are answered, he closes with a hymn
-of confidence in God&#x2019;s expected victory.</p>
-<p>The prophet begins by asking how long God will allow evil to
-triumph. The divine reply is that God is raising up the Babylonians as
-his tool of correction. This leads to Habakkuk&#x2019;s second question: Why
-do you allow the wicked to swallow up those more righteous than
-themselves? God replies again, explaining that the Babylonians will be
-judged just like the Assyrians, and that the righteous must await this
-in faith and patience. The inevitability of Babylon&#x2019;s doom is
-emphasized when God pronounces a series of five woes against it.</p>
-<p>When Habakkuk&#x2019;s dialogue with God concludes, the book moves to what is
-called A prayer of Habakkuk. But its musical notations reveal that it
-is clearly meant to be sung. Habakkuk celebrates God&#x2019;s dramatic
-intervention for Israel in the past and prays that God will do it
-again. The prophet resolves in the meantime to wait patiently for
-God&#x2019;s coming.</p>
-</blockquote>
-<p><strong><a href="https://bibleproject.com/explore/book-overviews/" target="_blank">Bible Project</a></strong></p>
-<blockquote>
-<p><a href="https://bibleproject.com/explore/video/habakkuk/" target="_blank">Habakkuk Introduction</a></p>
-</blockquote>
-<!-- START Custom Tag: zoomableImg('Habakkuk_BP') -->
-<p><center>
-  <figure>
-    <div id="Habakkuk_BP"></div>
-    <figcaption>Hover to zoom, Click to open in new tab</figcaption>
-  </figure>
-</center></p>
-<script>
-  withFW( ()=>fw.addZoomableImage('Habakkuk_BP', 'Habakkuk_BP.png', 75) )
-</script>
-
-<!-- END Custom Tag: zoomableImg('Habakkuk_BP') -->
-<!-- START Custom Tag: youTube('OPMaRqGJPUU') -->
-<div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
-  <iframe name="OPMaRqGJPUU" id="OPMaRqGJPUU" style="width: 80%; height: 100%;" src="https://www.youtube.com/embed/OPMaRqGJPUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- END Custom Tag: youTube('OPMaRqGJPUU') -->
-<p><strong><a href="https://www.spokengospel.com/" target="_blank">Spoken Gospel</a></strong></p>
-<!-- START Custom Tag: youTube('zXasC09Gi34') -->
-<div style="width: 100%; aspect-ratio: 21/9; text-align: center; ">
-  <iframe name="zXasC09Gi34" id="zXasC09Gi34" style="width: 80%; height: 100%;" src="https://www.youtube.com/embed/zXasC09Gi34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- END Custom Tag: youTube('zXasC09Gi34') -->
-<h2 id="2012-habakkuk-series-mid-week">2012 Habakkuk Series (Mid Week)</h2>
+<h3 id="qa-service-01022022">Q&amp;A Service 01/02/2022</h3>
 <p><a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></p>
-<!-- START Custom Tag: sermonSeries(...) -->
-<div class="phone"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20121024"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20121024" target="_blank">Teaching</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-3</a></td><td>10/24/2012</td></tr></table></div><div class="desktop"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20121024"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20121024" target="_blank">Teaching</a></td><td><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-3</a></td><td>10/24/2012</td></tr></table></div>
-
-<!-- END Custom Tag: sermonSeries(...) -->
-<h2 id="2020-habakkuk-series-sundays">2020 Habakkuk Series (Sundays)</h2>
+<!-- CornerStone LINK: https://cornerstonechapel.net/teaching/20220102/
+     YouTube LINK:     https://www.youtube.com/watch?v=hTlkaX2He4I        <<< book.QA2022URL
+  -->
+<ol>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h00m00s" target="_blank">Welcome</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h00m42s" target="_blank">Introduction</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h01m54s" target="_blank">What is the meaning of Holiness?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h03m48s" target="_blank">Covid/Vacine Questions</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h16m03s" target="_blank">Are christians who have died, and are in heaven, able to see their families on earth?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h19m31s" target="_blank">Why do we pray to God and Jesus but not to the Holy Spirit? What is the Holy Spirits&#x2019; role?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h22m50s" target="_blank">Is it important to physically attend a local church?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h27m32s" target="_blank">How does the beast in Revelation compare to the one put up infront of the UN buildingin New York? What does this mean for us?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h32m41s" target="_blank">What does it mean to fear the Lord?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h35m52s" target="_blank">Questions about the Lambs book of Life</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h39m47s" target="_blank">What is the difference between Hell and the lake of fire?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h42m30s" target="_blank">Why don&#x2019;t we hear the audible voice of Jesus like Paul did in Acts 9?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h45m13s" target="_blank">Is cremation biblical?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h45m50s" target="_blank">Why the mandate about coffee in the sanctuary?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h46m32s" target="_blank">Why does God call David &#x201C;a man after God&#x2019;s own heart&#x201D; when he committed polygamy/adultery?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h47m29s" target="_blank">Who are the sons of God that are mentioned in Genesis?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h49m54s" target="_blank">Questions on Tithing</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h54m38s" target="_blank">Why must catholics confess sins to a priest?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h57m07s" target="_blank">What happens to the people who are saved during the tribulation?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=00h59m44s" target="_blank">How do you walk humbly with God?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h02m28s" target="_blank">Is there a teaching/resource for someone going through anxiety/depression?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h03m04s" target="_blank">What did God mean in Matthew 24:34 about this generation not passing away until all these things take place?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h04m43s" target="_blank">When are we going to have Communion again?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h07m32s" target="_blank">Can you explain why forgivness is so important to God? Its difficult to forgive those who have hurt me.</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h11m09s" target="_blank">What happens after the rapture?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h14m21s" target="_blank">Whats the status in married relationships in Heaven?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h16m21s" target="_blank">Question about same sex marriage</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h21m00s" target="_blank">Do Christians need to follow Old testament rules?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h25m36s" target="_blank">Is the Garden of Eden still on earth?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h28m32s" target="_blank">Since we are all descendants of Adam &amp; Eve how did all the skin and hair colors come to be?</a></li>
+<li><a href="https://www.youtube.com/watch?v=hTlkaX2He4I&amp;t=01h30m03s" target="_blank">Recommended Resources</a></li>
+</ol>
+<h3 id="qa-service-12312023">Q&amp;A Service 12/31/2023</h3>
 <p><a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></p>
-<!-- START Custom Tag: sermonSeries(...) -->
-<div class="phone"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20200202"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20200202" target="_blank">When God Doesn&#x2019;t Make Sense</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk</a></td><td>02/02/2020<br><a href="https://assets01.cornerstonechapel.net/documents/studyguides/20200202.pdf" target="_blank">Study Guide</a></td></tr></table></div><div class="desktop"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20200202"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20200202" target="_blank">When God Doesn&#x2019;t Make Sense</a></td><td><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk</a></td><td>02/02/2020</td><td><a href="https://assets01.cornerstonechapel.net/documents/studyguides/20200202.pdf" target="_blank">Study Guide</a></td></tr></table></div>
-
-<!-- END Custom Tag: sermonSeries(...) -->
-<h2 id="habakkuk-misc-selection">Habakkuk Misc Selection</h2>
+<!-- CornerStone LINK: https://cornerstonechapel.net/teaching/20231231/
+     YouTube LINK:     https://www.youtube.com/watch?v=x114o0T9lek        <<< book.QA2023URL
+  -->
+<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h00m00s" target="_blank"><strong>1st Service</strong></a></p>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h04m16s" target="_blank">Will people still be able to be saved after the rapture?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h06m12s" target="_blank">Will babies and small children be raptured with believers at the time of the rapture?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h08m14s" target="_blank">Can God still use us if my spouse and I weren&apos;t able to have children?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h11m06s" target="_blank">Does Cornerstone Chapel have elders?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h13m48s" target="_blank">Why aren&apos;t there crosses in the Church?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h15m04s" target="_blank">How was Satan able to get access to the Garden of Eden?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h18m12s" target="_blank">How do you give a problem over to God?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h22m16s" target="_blank">Are my divorced parents, who are Christians, able to remarry?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h29m44s" target="_blank">What should we expect in the new heaven and earth for eternity?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h33m12s" target="_blank">Why is it important to go to Church?</a></li>
+<li><p><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h37m01s" target="_blank">Why does God allow miscarriages?</a></p>
+<p><strong>2nd Service</strong></p>
+</li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h40m29s" target="_blank">What are the Nephilim in Genesis 6 about?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h45m19s" target="_blank">Why wasn&apos;t Moses allowed in to the promised land?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h49m57s" target="_blank">What is the difference between joy and happiness?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h51m15s" target="_blank">Can women be pastors?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=00h55m14s" target="_blank">Are aliens real?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h03m46s" target="_blank">Is Harry Potter demonic or just entertainment?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h12m59s" target="_blank">Is self defense permissible if we ever experience persecution?</a></li>
+<li><p><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h14m26s" target="_blank">Is there a two state solution to the Israel/Palestinian conflict?</a></p>
+<p><strong>3nd Service</strong></p>
+</li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h19m15s" target="_blank">List of Authors &amp; Speakers</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h20m22s" target="_blank">Did God create sin?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h24m04s" target="_blank">As a believer, why do I feel like I want to come forward for the altar call again and again?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h31m30s" target="_blank">If I watch Church online am I a part of the church?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h33m44s" target="_blank">What does it mean that the Jews are God&#x2019;s chosen people?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h39m49s" target="_blank">Do you believe the story of Adam and Eve is  literal or more of a parable?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h40m50s" target="_blank">Are Dinosaurs in the Bible?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h42m50s" target="_blank">When Cain murdered Abel and was sent away, who were the people he was sent away to that he feared?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h44m50s" target="_blank">Can I or should I be baptized again as an adult Christian? Is baptism required for Salvation?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h47m38s" target="_blank">Questions about Death and Heaven</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h54m21s" target="_blank">What&apos;s the purpose of the Millenium Kingdom?</a></li>
+<li><a href="https://www.youtube.com/watch?v=x114o0T9lek&amp;t=01h57m41s" target="_blank">More Resources</a></li>
+</ol>
+<h3 id="qa-service-12202024">Q&amp;A Service 12/20/2024</h3>
 <p><a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></p>
-<!-- START Custom Tag: sermonSeries(...) -->
-<div class="phone"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20220918"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20220918" target="_blank">God, Help us! (Don McClure)</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-2</a></td><td>09/18/2022</td></tr><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20230503"> 2.</label></td><td><a href="https://cornerstonechapel.net/teaching/20230503" target="_blank">Don&apos;t Worry About The Wicked (Tyler Hamrick)</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-3</a></td><td>05/03/2023</td></tr></table></div><div class="desktop"><table><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20220918"> 1.</label></td><td><a href="https://cornerstonechapel.net/teaching/20220918" target="_blank">God, Help us! (Don McClure)</a></td><td><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-2</a></td><td>09/18/2022</td></tr><tr><td><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="20230503"> 2.</label></td><td><a href="https://cornerstonechapel.net/teaching/20230503" target="_blank">Don&apos;t Worry About The Wicked (Tyler Hamrick)</a></td><td><a href="#" onmouseover="fw.alterBibleVerseLink(event, &apos;hab.1&apos;)" target="_blank">Habakkuk 1-3</a></td><td>05/03/2023</td></tr></table></div>
+<!-- CornerStone LINK: https://cornerstonechapel.net/teaching/20241229/
+     YouTube LINK:     https://www.youtube.com/watch?v=qOKtCXUoK74        <<< book.QA2024URL
 
-<!-- END Custom Tag: sermonSeries(...) -->
+     CONTINUATION WED:
+     YouTube LINK:     https://www.youtube.com/watch?v=as2EfOBqDqM        <<< book.QA2024WedURL
+  -->
+<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;<a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h00m00s" target="_blank"><strong>1st Service</strong></a></p>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h05m00s" target="_blank">Can You Talk About Vaping, Smoking, Marijuana, And Alcohol?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h06m53s" target="_blank">What Is The Apocrypha?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h11m20s" target="_blank">Who Is The Great White Throne Judgment For?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h13m54s" target="_blank">What Is The Trinity?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h18m05s" target="_blank">Jesus Did Not Say He Was God, So Why Do We Claim That From The Pulpit?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h23m56s" target="_blank">Does My Anxiety And Depression Suggest A Lack Of Faith In God?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h27m57s" target="_blank">What Promises From Scripture Can I Hold Onto When I Am Tormented By My Past?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h29m57s" target="_blank">Is Baptism Necessary For Salvation?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h33m36s" target="_blank">What Do You Make Of Aliens?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h36m09s" target="_blank">Do You Worry Some People Will Fall Away From Christianity After Coming Forward In An Altar Call?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h38m23s" target="_blank">What Is The Book Of Enoch?</a></li>
+<li><p><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h39m32s" target="_blank">Does The Great Cloud Of Witnesses Mean Dead Christians Are Watching Us?</a></p>
+<p><strong>2nd Service</strong></p>
+</li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h40m50s" target="_blank">What Translations Of The Bible Do You Recommend?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h42m51s" target="_blank">How Do We Live Like Job When Tragedy Happens Around Us?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h46m42s" target="_blank">What Does Jesus Mean By Paradise In Luke 23:43</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h50m12s" target="_blank">If Jesus Is God, Why Were His Last Words &quot;My God, Why Have You Forsaken Me?&quot;</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h51m50s" target="_blank">Ways To Help Muslims Come To Christ.</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h54m46s" target="_blank">What Will Happen To People In Religions Like Jehovah&apos;s Witnesses?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h56m16s" target="_blank">Good Resources If You Have Muslim Friends.</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=00h56m49s" target="_blank">What Does Spending Time With God Look Like?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h01m16s" target="_blank">Why Does God No Longer Speak To Us Like With Noah, Moses, And Abraham?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h04m15s" target="_blank">Another Resource For Trying To Reach Muslims.</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h05m04s" target="_blank">Is It Wrong For Us To Watch Cornerstone Online Without Being In A Local Church?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h06m59s" target="_blank">Is Cremation Ok?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h08m25s" target="_blank">What Advice Do You Have For An Adult Child Dealing With Their Parents Getting Divorced?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h12m11s" target="_blank">What Does The Bible Say About Extraterrestrial Life?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h15m52s" target="_blank">Do You Worry That You Push Catholics And Liberals Away When You Make Jokes About Them?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h17m23s" target="_blank">Why Doesn&apos;t Cornerstone Plant Other Churches?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h19m08s" target="_blank">What Is An Archangel?</a></li>
+<li><p><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h19m34s" target="_blank">Why Do You Think Song Of Solomon Is Included In The Bible?</a></p>
+<p><strong>3rd Service</strong></p>
+</li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h20m51s" target="_blank">Who Are The 24 Elders In Revelation?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h22m09s" target="_blank">Will We Still Have Our Spouse And Loved Ones In Heaven (How Will We Feel About Those Who Did Not Go To Heaven)?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h24m50s" target="_blank">Am I Saved Even If I Still Sin?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h27m46s" target="_blank">Why Do You Think There Were Nephilim After The Flood?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h30m57s" target="_blank">What Are Your Opinions On Pastor Alistair Begg?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h33m32s" target="_blank">Is Christmas A Pagan Holiday And Why Don&apos;t We Celebrate The Feasts And Sabbath From The Bible?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h37m43s" target="_blank">Should I Still Tithe If My Unbelieving Husband Says No?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h39m51s" target="_blank">How Do We Know When Jesus Is Returning?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h44m56s" target="_blank">What Is The Leviathan In The Bible?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h45m54s" target="_blank">Where In The Bible Is The Subject Of Abortion?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h47m52s" target="_blank">Why I Am Alone?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h52m33s" target="_blank">Does Cornerstone Have Actual Members?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h52m51s" target="_blank">What Bible Commentaries Do You Recommend?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h54m13s" target="_blank">Should I Be Baptized Again If I Was Baptized As A Baby?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h54m55s" target="_blank">What Are Your Views On Divorce?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h55m06s" target="_blank">What Does The Bible Say About Listening To Music That Has Swear Words?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h55m22s" target="_blank">Thoughts On Gambling?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h55m32s" target="_blank">Why Isn&apos;t The Church Named Calvary Chapel Leesburg?</a></li>
+<li><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h56m08s" target="_blank">What Is Repentance And Why Is It Important?</a></li>
+<li><p><a href="https://www.youtube.com/watch?v=qOKtCXUoK74&amp;t=01h57m41s" target="_blank">Ending Prayer</a></p>
+<p><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h00m00s" target="_blank"><strong>Continuation (Wed 1/8/2025)</strong></a></p>
+</li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h00m32s" target="_blank">What Does Judah Mean?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h01m45s" target="_blank">Why Do We Call Ourselves Sinners If Jesus Forgave All Sin?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h03m21s" target="_blank">How Do I Know If I Am Saved?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h05m22s" target="_blank">Can You Summarize The Significance Of The First And Second Temple In Jerusalem And Whether A Third Temple Is Possible?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h11m29s" target="_blank">Am I Sinning And Am I Going To Heaven If I Have Sexual Relations With My Boyfriend?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h14m36s" target="_blank">Are We Commanded To Honor The Jews?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h19m16s" target="_blank">Do Christians Get Rewards In Heaven?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h22m15s" target="_blank">Did The Wise Men Go To Bethlehem Or Nazareth?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h24m55s" target="_blank">Why Is Jesus Called Jesus Of Nazareth?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h25m34s" target="_blank">Why Do We Bow Our Heads When We Pray</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h26m14s" target="_blank">Does All Sickness Come From Sin?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h27m07s" target="_blank">What Is The Correct Way To Read The Bible</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h28m10s" target="_blank">How Do You Forgive Someone When You Really Don&apos;t Want To?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h31m26s" target="_blank">Did Joseph Have Any Children Before Jesus And How Many Did Mary And Joseph Have After Jesus?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h33m09s" target="_blank">Does It Make A Difference Make Any Difference To God If We Pray Out Loud Or In Our Head?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h35m08s" target="_blank">Since We Are Under Grace, What Parts Of The Law Should Christians Follow?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h39m44s" target="_blank">How Can You Discern Legitimate Modern Day Prophets?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h47m10s" target="_blank">Why Does God Choose To Heal Some And Not Others?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h48m44s" target="_blank">Is There A Level A Sin That Cannot Be Forgiven?</a></li>
+<li><a href="https://www.youtube.com/watch?v=as2EfOBqDqM&amp;t=00h51m14s" target="_blank">Are There Still Demon Possessed People Today?</a></li>
+</ol>
 <script> withFW( ()=>fw.pageSetup() ) </script>
                                 
                                 </section>
@@ -1833,12 +1952,12 @@ God&#x2019;s coming.</p>
 
             
                 
-                <a href="Nahum.html" class="navigation navigation-prev " aria-label="Previous page: Nahum">
+                <a href="CurrentEvents.html" class="navigation navigation-prev " aria-label="Previous page: Current Events">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="Zephaniah.html" class="navigation navigation-next " aria-label="Next page: Zephaniah">
+                <a href="MySmallGroup.html" class="navigation navigation-next " aria-label="Next page: My Small Group">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1849,7 +1968,7 @@ God&#x2019;s coming.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Habakkuk","level":"5.1.35","depth":2,"next":{"title":"Zephaniah","level":"5.1.36","depth":2,"path":"Zephaniah.md","ref":"Zephaniah.md","articles":[]},"previous":{"title":"Nahum","level":"5.1.34","depth":2,"path":"Nahum.md","ref":"Nahum.md","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"TCSeason2":"[The Chosen Season 2](/TheChosen.md#season-2)","Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","QA2023URL":"https://www.youtube.com/watch?v=x114o0T9lek","TCSeason3":"[The Chosen Season 3](/TheChosen.md#season-3)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","QA2022URL":"https://www.youtube.com/watch?v=hTlkaX2He4I","TCSeason4":"[The Chosen Season 4](/TheChosen.md#season-4)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","UserAccount":"[User Account](/settings.md#user-account)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","TheChosen":"[The Chosen](/TheChosen.md)","MySmallGroup":"[My Small Group](/MySmallGroup.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","TCOverviewM":"[Overview](/TheChosen.md#overview)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","TCOverview":"[The Chosen Overview](/TheChosen.md#overview)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","MarriageAndDivorce":"[Marriage & Divorce](/CurrentEvents.md#marriage--divorce)","QA2024WedURL":"https://www.youtube.com/watch?v=as2EfOBqDqM","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","TCSeason4M":"[Season 4](/TheChosen.md#season-4)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","TCSeason3M":"[Season 3](/TheChosen.md#season-3)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","TCSeason2M":"[Season 2](/TheChosen.md#season-2)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","TCSeason1M":"[Season 1](/TheChosen.md#season-1)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","QA":"[Questions and Answers](/QA.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","TCUsage":"[The Chosen Usage](/TheChosen.md#usage)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","TCUsageM":"[Usage](/TheChosen.md#usage)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","TCSeason1":"[The Chosen Season 1](/TheChosen.md#season-1)","QA2024URL":"https://www.youtube.com/watch?v=qOKtCXUoK74","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"Habakkuk.md","mtime":"2024-11-22T18:16:18.214Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2025-01-10T21:01:08.731Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Questions and Answers","level":"7.1.6","depth":2,"next":{"title":"My Small Group","level":"7.1.7","depth":2,"path":"MySmallGroup.md","ref":"MySmallGroup.md","articles":[]},"previous":{"title":"Current Events","level":"7.1.5","depth":2,"path":"CurrentEvents.md","ref":"CurrentEvents.md","articles":[]},"dir":"ltr"},"config":{"plugins":["my-plugin","-livereload","-sharing","toolbar","folding-menu"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"toolbar":{"buttons":[{"label":"Home","icon":"fa fa-home","url":"..","target":"_self"}]},"folding-menu":{"animationDuration":300,"sticky":false},"my-plugin":{"revealCustomTags":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Kevin J. Bridges <kevin@wiiBridges.com> (https://github.com/KevinAst)","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"intro.md","glossary":"GLOSSARY.md","summary":"toc.md"},"variables":{"TCSeason2":"[The Chosen Season 2](/TheChosen.md#season-2)","Leviticus":"[Leviticus](/Leviticus.md)","Zephaniah":"[Zephaniah](/Zephaniah.md)","QA2023URL":"https://www.youtube.com/watch?v=x114o0T9lek","TCSeason3":"[The Chosen Season 3](/TheChosen.md#season-3)","Haggai":"[Haggai](/Haggai.md)","Acts":"[Acts](/Acts.md)","SongOfSolomon":"[Song of Solomon](/SongOfSolomon.md)","QA2022URL":"https://www.youtube.com/watch?v=hTlkaX2He4I","TCSeason4":"[The Chosen Season 4](/TheChosen.md#season-4)","Philemon":"[Philemon](/Philemon.md)","Galatians":"[Galatians](/Galatians.md)","Welcome":"[Welcome](/intro.md)","Christmas":"[Christmas](/Christmas.md)","UserAccount":"[User Account](/settings.md#user-account)","Settings":"[Settings](/settings.md)","Luke":"[Luke](/Luke.md)","TheChosen":"[The Chosen](/TheChosen.md)","MySmallGroup":"[My Small Group](/MySmallGroup.md)","James":"[James](/James.md)","ElectionDaySermons":"[Election Day Sermons](/CurrentEvents.md#election-day-sermons)","Ezra":"[Ezra](/Ezra.md)","LGBTQ":"[LGBTQ](/CurrentEvents.md#lgbtq)","TCOverviewM":"[Overview](/TheChosen.md#overview)","BibleProject":"[Bible Project](https://bibleproject.com/explore/book-overviews/)","1Chronicles":"[1 Chronicles](/1Chronicles.md)","2Chronicles":"[2 Chronicles](/1Chronicles.md)","OldTestament":"[Old Testament](/OldTestament.md)","2Thessalonians":"[2 Thessalonians](/2Thessalonians.md)","Joshua":"[Joshua](/Joshua.md)","Exodus":"[Exodus](/Exodus.md)","Matthew":"[Matthew](/Matthew.md)","1Thessalonians":"[1 Thessalonians](/1Thessalonians.md)","Proverbs":"[Proverbs](/Proverbs.md)","TCOverview":"[The Chosen Overview](/TheChosen.md#overview)","Genesis":"[Genesis](/Genesis.md)","Hosea":"[Hosea](/Hosea.md)","Search":"[Search](/start.md#search)","Ephesians":"[Ephesians](/Ephesians.md)","MarriageAndDivorce":"[Marriage & Divorce](/CurrentEvents.md#marriage--divorce)","QA2024WedURL":"https://www.youtube.com/watch?v=as2EfOBqDqM","Easter":"[Easter](/Easter.md)","Numbers":"[Numbers](/Numbers.md)","2Kings":"[2 Kings](/2Kings.md)","2Corinthians":"[2 Corinthians](/2Corinthians.md)","TCSeason4M":"[Season 4](/TheChosen.md#season-4)","Revelation":"[Revelation](/Revelation.md)","John":"[John](/John.md)","1Corinthians":"[1 Corinthians](/1Corinthians.md)","1Kings":"[1 Kings](/1Kings.md)","CornerstoneChapel":"[Cornerstone Chapel](https://cornerstonechapel.net/)","Philippians":"[Philippians](/Philippians.md)","EndTimes":"[End Times](/EndTimes.md)","TCSeason3M":"[Season 3](/TheChosen.md#season-3)","Joel":"[Joel](/Joel.md)","Colossians":"[Colossians](/Colossians.md)","Jude":"[Jude](/Jude.md)","TCSeason2M":"[Season 2](/TheChosen.md#season-2)","Nahum":"[Nahum](/Nahum.md)","NewTestament":"[New Testament](/NewTestament.md)","Mark":"[Mark](/Mark.md)","Micah":"[Micah](/Micah.md)","SpokenGospel":"[Spoken Gospel](https://www.spokengospel.com/)","Habakkuk":"[Habakkuk](/Habakkuk.md)","1Samuel":"[1 Samuel](/1Samuel.md)","TCSeason1M":"[Season 1](/TheChosen.md#season-1)","Deuteronomy":"[Deuteronomy](/Deuteronomy.md)","Zechariah":"[Zechariah](/Zechariah.md)","2Samuel":"[2 Samuel](/2Samuel.md)","Esther":"[Esther](/Esther.md)","Jonah":"[Jonah](/Jonah.md)","QA":"[Questions and Answers](/QA.md)","Amos":"[Amos](/Amos.md)","Jeremiah":"[Jeremiah](/Jeremiah.md)","Lamentations":"[Lamentations](/Lamentations.md)","FBM":"[First Baptist Maryville](https://fbmaryville.org/)","TCUsage":"[The Chosen Usage](/TheChosen.md#usage)","SpecialEvents":"[Specials](/SpecialEvents.md)","CurrentEvents":"[Current Events](/CurrentEvents.md)","Hebrews":"[Hebrews](/Hebrews.md)","Psalms":"[Psalms](/Psalms.md)","Ezekiel":"[Ezekiel](/Ezekiel.md)","Romans":"[Romans](/Romans.md)","WhereAmI":"[Where Am I?](/start.md#where-am-i)","MyFaith":"[My Faith](/MyFaith.md)","Ruth":"[Ruth](/Ruth.md)","Nehemiah":"[Nehemiah](/Nehemiah.md)","Thanksgiving":"[Thanksgiving](/Thanksgiving.md)","RevisionHistory":"[Revision History](/history.md)","NivBible":"[NIV Bible](https://www.thenivbible.com/)","Isaiah":"[Isaiah](/Isaiah.md)","2Peter":"[2 Peter](/2Peter.md)","Obadiah":"[Obadiah](/Obadiah.md)","1Peter":"[1 Peter](/1Peter.md)","Malachi":"[Malachi](/Malachi.md)","TCUsageM":"[Usage](/TheChosen.md#usage)","Judges":"[Judges](/Judges.md)","Ecclesiastes":"[Ecclesiastes](/Ecclesiastes.md)","1John":"[1 John](/1John.md)","2Timothy":"[2 Timothy](/2Timothy.md)","Life":"[Life](/CurrentEvents.md#life)","2John":"[2 John](/2John.md)","GettingStarted":"[Getting Started](/start.md)","1Timothy":"[1 Timothy](/1Timothy.md)","BibleTranslation":"[Bible Translation](/settings.md#bible-translation)","Titus":"[Titus](/Titus.md)","Job":"[Job](/Job.md)","3John":"[3 John](/3John.md)","TCSeason1":"[The Chosen Season 1](/TheChosen.md#season-1)","QA2024URL":"https://www.youtube.com/watch?v=qOKtCXUoK74","MoralDecay":"[Moral Decay](/CurrentEvents.md#moral-decay)","Daniel":"[Daniel](/Daniel.md)"},"title":"FireWithin","gitbook":"3.2.2","description":"Fire Within (Bible Study Resources)"},"file":{"path":"QA.md","mtime":"2025-01-10T17:21:25.376Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2025-01-10T21:01:08.731Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
