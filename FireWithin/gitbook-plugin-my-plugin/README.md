@@ -350,7 +350,7 @@ content of an entire sermon series.
       ... repeat
     ]
   }
-  ```js
+  ```
 
 
 **sermonSeries() Custom Tag Examples**
