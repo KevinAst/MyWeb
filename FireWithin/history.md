@@ -76,6 +76,7 @@ Release           | What                 | *When*
 
 - Added new {{book.QA}} section.
 - Update Current {{book.2Corinthians}} Series (Sundays)
+- Added {{book.EyeWitness}} reference to the {{book.Acts}} Series
 
 
 <!-- ************************************************************* -->

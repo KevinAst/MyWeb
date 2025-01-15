@@ -69,6 +69,11 @@ M{ youTube(`Z-17KxpjL0Q`) }M
 M{ youTube(`lnCAkeBido0`) }M
 
 
+**{{book.EyeWitness}}**
+
+> An eyewitness introduction to the people found in scriptures ... [Acts](https://eyewitnessbible.org/acts/)
+
+
 **miscellaneous**
 
 > [What We Would Be Missing If We Didn't Have the Book of Acts](https://www.crossway.org/articles/what-we-would-be-missing-if-we-didnt-have-the-book-of-acts/)
