@@ -112,6 +112,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20250105`, sermon: `Suffering Well`,         scripture: `2co.1@@2 Corinthians 1`,  }, // ?? waiting for ... studyGuide: `NONE`
+    { id: `20250105`, sermon: `Suffering Well`,          scripture: `2co.1@@2 Cor 1`,  }, // ?? waiting for ... studyGuide: `NONE`
+    { id: `20250112`, sermon: `Spreading the Fragrance`, scripture: `2co.2@@2 Cor 2`,  }, // ?? waiting for ... studyGuide: `NONE`
   ]
 }) }M
