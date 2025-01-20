@@ -9,3 +9,4 @@ Special Events and Guest Speakers:
 - {{book.CurrentEvents}}
 - {{book.QA}}
 - {{book.MySmallGroup}}
+- {{book.Memorization}}

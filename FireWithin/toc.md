@@ -117,6 +117,7 @@
   * [Current Events](CurrentEvents.md)
   * [Questions and Answers](QA.md)
   * [My Small Group](MySmallGroup.md)
+  * [Memorization](Memorization.md)
 
 ----
 - [The Chosen](TheChosen.md)

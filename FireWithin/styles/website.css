@@ -84,3 +84,14 @@ input[type="checkbox"] {
 td {
   vertical-align: top;
 }
+
+/* provide indentation (typically used via: `P{ inject('<div class="indent">') }P`) */
+.indent {
+  margin-left: 20px;
+}
+
+/* resize the audio player (used in Memorization.md) */
+audio {
+  width:  250px;
+  height:  15px;
+}
