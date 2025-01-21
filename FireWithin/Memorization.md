@@ -1,36 +1,56 @@
-## Memorize God's Word
+## Memorizing God's Word
 
 This section contains selected scriptures that you may consider
 committing to memory.
 
 For me, this began in 2025, when my local church ({{book.FBM}})
-started a campaign to memorize God's Word.  It was called **[25 in
+started a campaign to memorize God's Word.  It is called **[25 in
 25](https://fbmaryville.org/25-in-25)** - memorizing 25 passages in
 2025, focused on five different themes.
 
-I have always struggled with this, so I created this page as an aid.
+I have always struggled with memorization, **_<mark>so I created this page as
+an aid</mark>_**.  
+
 For each passage:
 
+- An audio playback is provided, that can be used to listen repeatedly
+  **_(ingraining it into your memory)_**.  When you click the play
+  button the passage will repeat over and over, till you click stop!.
+
+- You may select your preferred Bible translation _(from 6 of the most
+  popular translations)_.  Your selection will be remembered **_for
+  each individual passage_**.
+
 - A link is provided into the [You Version](https://www.bible.com/)
-  Bible App, that you can use to dig deeper.
+  Bible App ... **_so that you can dig deeper_**.
 
-- You may select your preferred Bible translation _(from 4 of the most
-  popular translations)_.  The page will remember your selection
-  **(_for each individual passage_)**.
-
-- An audio playback is provided, that can be used to audibly practice
-  your memorization.
-
-- You can keep track of your progress, by simply checking the passages
-  you have memorized!
+- As always, you can keep track of your progress, by simply checking
+  the passages you have memorized!
 
 Lord Bless You!
 
-### Passages ...
+## At a Glance
+
+- [January](#january-flyer-for-25-in-25-campaign)
+  - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+### [January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign
+
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
 
-M{ completedCheckBox(`luk.9.23-24`) }M  [Luke 9:23-24](https://bible.com/bible/59/luk.9.23-24.ESV) **ESV** _(Discipleship)_
+<span id="luk_9_23-24"></span> <!-- my own "silent" index entry for TOC ?? cannot use "." or other special chars -->
+
+M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24](https://bible.com/bible/59/luk.9.23-24.ESV) _(Discipleship)_  <select id="Memorize-luk_9_23-24-Translation">
+  <option value="NLT">NLT</option>
+  <option value="NKJV">NKJV</option>
+  <option value="ESV">ESV</option>
+  <option value="CSB">CSB</option>
+  <option value="KJV">KJV</option>
+  <option value="NIV">NIV</option>
+</select>
 
 P{ inject('<div class="indent">') }P
 
@@ -41,7 +61,7 @@ P{ inject('<div class="indent">') }P
 
 <br/>
 <audio controls loop>
-  <source src="Memorization/luk.9.23-24.NLT.m4a" type="audio/mp4">
+  <source src="Memorization/luk_9_23-24.NLT.m4a" type="audio/mp4">
   audio NOT supported by this browser :-(
 </audio> 
  
@@ -72,9 +92,3 @@ what we want in order to trust that God knows better than we do.
 P{ inject('</div>') }P
 
 P{ inject('</div>') }P
-
-TODO: ??
-- ?? implement multiple versions selectable per passage
-- ?? check-box state to keep track of your progress
-- ?? indentation
-- ?? audio playback style (make smaller)

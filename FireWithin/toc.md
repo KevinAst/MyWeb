@@ -117,7 +117,10 @@
   * [Current Events](CurrentEvents.md)
   * [Questions and Answers](QA.md)
   * [My Small Group](MySmallGroup.md)
-  * [Memorization](Memorization.md)
+
+----
+- [Memorization](Memorization.md)
+  * [Luke 9:23-24 (Discipleship)](Memorization.md#luk_9_23-24)
 
 ----
 - [The Chosen](TheChosen.md)
