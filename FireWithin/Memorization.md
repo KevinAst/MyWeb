@@ -33,6 +33,7 @@ Lord Bless You!
 
 - [January](#january-flyer-for-25-in-25-campaign)
   - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
+  - M{ completedCheckBox(`php_4_8`) }M [Philippians 4:8](#php_4_8_TOP)
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
@@ -59,7 +60,6 @@ P{ inject('<div class="indent">') }P
 > save his life will lose it, but whoever loses his life for my sake
 > will save it."
 
-<br/>
 <audio controls loop>
   <source src="Memorization/luk_9_23-24.NLT.m4a" type="audio/mp4">
   audio NOT supported by this browser :-(
@@ -92,3 +92,18 @@ what we want in order to trust that God knows better than we do.
 P{ inject('</div>') }P
 
 P{ inject('</div>') }P
+
+<!-- *** NEW PASSAGE ?? TESTING MACRO ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:   `php.4.8`,
+  label: `Philippians 4:8`,
+  text: {
+    "*NLT":  `NLT text here`,
+    NKJV: `NKJV text here`,  
+    ESV:  `ESV text here`,
+    CSB:  `CSB text here`,
+    KJV:  `KJV text here`,
+    NIV:  `NIV text here`,
+  },
+}) }M

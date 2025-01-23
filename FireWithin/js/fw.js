@@ -47,6 +47,11 @@ import {fwUser} from './fwAuth.js';
 // ... state-related-completions
 import {fwCompletions} from './fwCompletions.js';
 
+// our memoryVerseTranslation state singleton object (ALWAYS up-to-date)
+// ... state-related-completions
+// ?? NEW ... USE THIS ... ??$$ how is this auto-initialized in our state?
+import {fwMemoryVerseTranslation} from './fwMemoryVerseTranslation.js';
+
 // our settings state singleton object (ALWAYS up-to-date)
 // ... state-related-settings
 import {fwSettings} from './fwSettings.js';
@@ -86,6 +91,8 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Code Related to our completed checkboxes ... state-related-completions
     //***************************************************************************
     //***************************************************************************
+
+    // ?? TEMPLATE DRIVER? - YES
 
     // register reflective code that syncs our UI on completion changes
     // ... state-related-completions
@@ -140,6 +147,84 @@ if (!window.fw) { // only expand this module once (conditionally)
       fwCompletions.setComplete(completionElm.id, completionElm.checked);
     }
 
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
+    //***************************************************************************
+    //***************************************************************************
+
+    // ??$$ NEW CODE START --------------------------------------------------------------------------------
+    // ?? EVENTUALLY REMOVE ALL: comp (completion)
+    // ?? EVENTUALLY REMOVE ALL: check (checkbox)
+    
+    // register reflective code that syncs our UI on memoryVerseTranslation changes
+    // ... state-related-memoryVerseTranslation
+    fwMemoryVerseTranslation.onChange(syncUIMemoryVerseTranslation);
+    
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: syncUIMemoryVerseTranslation()
+    //* 
+    //* Synchronize ALL the memoryVerseTranslation selections on the current page 
+    //* to reflect our current "memoryVerseTranslations" state.
+    //* 
+    //* This function is "poor mans" reflexive synchronization process
+    //* ... a sledge hammer if you will
+    //* ... the overhead is still VERY LOW (responsiveness is excellent)
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - memoryVerseTranslation state changes  ... see: fwMemoryVerseTranslation.onChange()
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation
+    function syncUIMemoryVerseTranslation(key) { // NOTE: `key` param NOT USED: we sync ALL refs on a page.
+                                                 //       There are some dupliate hidden sections used in our responsive technique
+      const log = logger(`${logPrefix}:syncUIMemoryVerseTranslation()`);
+      
+      // ?? RETROFIT TO: memoryVerseTranslation
+      // ? // fetch all checkbox input elements (representing completed sessions)
+      // ? const completionElms = document.querySelectorAll('input[type="checkbox"][data-completions]');
+      // ? log.enabled && log('completionElms: ', {completionElms});
+      // ?   
+      // ? // initialize each completed checkbox from our state
+      // ? for (const completionElm of completionElms) {
+      // ?   log.v(`processing completionElm.id: "${completionElm.id}"`);
+      // ?   
+      // ?   // sync our selection UI from our state
+      // ?   // ... THIS IS IT
+      // ?   // ?? do it ... different
+      // ?   completionElm.checked = fwMemoryVerseTranslation.isComplete(completionElm.id);
+      // ? 
+      // ?   // sync the scripture link to match the proper translation from our state
+      // ?   // ?? do this
+      // ?   
+      // ?   // activate the correct translation text and audio control
+      // ?   // ?? do this
+      // ? }
+    }
+    
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.handleMemoryVerseTranslationChange(translationSelectionElm)
+    //* 
+    //* Event handler that retains changes to our memoryVerseTranslation state
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation:
+    fw.handleMemoryVerseTranslationChange = function(event) {
+      const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
+
+      // ?? have access to: event.target.value
+      log(`?? setting ${event.target.value}`);
+      console.log(`?? setting ${event.target.value}`);
+
+      // ?? RETROFIT TO: memoryVerseTranslation
+      //? log(`completionElm changed ... id: "${completionElm.id}", checked: ${completionElm.checked}`);
+      //? 
+      //? // retain this change in our state
+      //? // ... handles persistance/reflection automatically
+      //? fwMemoryVerseTranslation.setComplete(completionElm.id, completionElm.checked);
+    }
+
+    // ??$$ NEW CODE END --------------------------------------------------------------------------------
 
     //***************************************************************************
     //***************************************************************************
@@ -284,6 +369,8 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* ... state-related-settings
     //***************************************************************************
     //***************************************************************************
+
+    // ?? TEMPLATE DRIVER? - NO: I DON'T THINK SO
 
     //***************************************************************************
     //* Code Related to syncDeviceStoreOnSignOut - Sync Device Storage From Cloud on Sign-Out
@@ -656,6 +743,12 @@ if (!window.fw) { // only expand this module once (conditionally)
       // reflect change on sign-out confirmation (settings.md)
       // ... state-related-settings
       syncSyncDeviceStoreOnSignOutChanges();
+
+      // sync aspects of the Memorization page (Memorization.md)
+      // ?? pattern after syncUICompletions() NOT: syncSyncDeviceStoreOnSignOutChanges()
+      // ... state-related-memoryVerseTranslation
+      // ??$$ NEW
+      syncUIMemoryVerseTranslation();
     }
 
     //*************************************
