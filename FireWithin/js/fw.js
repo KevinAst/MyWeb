@@ -49,7 +49,7 @@ import {fwCompletions} from './fwCompletions.js';
 
 // our memoryVerseTranslation state singleton object (ALWAYS up-to-date)
 // ... state-related-completions
-// ?? NEW ... USE THIS ... ??$$ how is this auto-initialized in our state?
+// ?? NEW
 import {fwMemoryVerseTranslation} from './fwMemoryVerseTranslation.js';
 
 // our settings state singleton object (ALWAYS up-to-date)
@@ -91,8 +91,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Code Related to our completed checkboxes ... state-related-completions
     //***************************************************************************
     //***************************************************************************
-
-    // ?? TEMPLATE DRIVER? - YES
 
     // register reflective code that syncs our UI on completion changes
     // ... state-related-completions
@@ -155,8 +153,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
 
     // ??$$ NEW CODE START --------------------------------------------------------------------------------
-    // ?? EVENTUALLY REMOVE ALL: comp (completion)
-    // ?? EVENTUALLY REMOVE ALL: check (checkbox)
     
     // register reflective code that syncs our UI on memoryVerseTranslation changes
     // ... state-related-memoryVerseTranslation
@@ -180,27 +176,86 @@ if (!window.fw) { // only expand this module once (conditionally)
     function syncUIMemoryVerseTranslation(key) { // NOTE: `key` param NOT USED: we sync ALL refs on a page.
                                                  //       There are some dupliate hidden sections used in our responsive technique
       const log = logger(`${logPrefix}:syncUIMemoryVerseTranslation()`);
-      
-      // ?? RETROFIT TO: memoryVerseTranslation
-      // ? // fetch all checkbox input elements (representing completed sessions)
-      // ? const completionElms = document.querySelectorAll('input[type="checkbox"][data-completions]');
-      // ? log.enabled && log('completionElms: ', {completionElms});
-      // ?   
-      // ? // initialize each completed checkbox from our state
-      // ? for (const completionElm of completionElms) {
-      // ?   log.v(`processing completionElm.id: "${completionElm.id}"`);
-      // ?   
-      // ?   // sync our selection UI from our state
-      // ?   // ... THIS IS IT
-      // ?   // ?? do it ... different
-      // ?   completionElm.checked = fwMemoryVerseTranslation.isComplete(completionElm.id);
-      // ? 
-      // ?   // sync the scripture link to match the proper translation from our state
-      // ?   // ?? do this
-      // ?   
-      // ?   // activate the correct translation text and audio control
-      // ?   // ?? do this
-      // ? }
+
+      // determine if this page containsReflectiveMemorizationData
+      const containsReflectiveMemorizationData = document.getElementById("ContainsReflectiveMemorizationData") !== null;
+      if (!containsReflectiveMemorizationData) {
+        log(`this page DOES NOT containsReflectiveMemorizationData ... no-oping`);
+        return;
+      }
+
+      log(`processing page that containsReflectiveMemorizationData`);
+
+      // access all of our top-level memory-verse elements
+      // ... <div> elements with the 'data-memory-verse' attribute
+      const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
+
+      // process each memory verse
+      memoryVerseDivs.forEach(memoryVerseDiv => {
+        const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
+        const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
+        log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
+
+        // fetch the desired translation for this verse
+        // ??$$ must handle default (from our html) NOT heuristics of fwMemoryVerseTranslation
+        const activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
+        log(`our activeTranslation: ${activeTranslation}`);
+
+        // force the <select> to the desired translation (from our state)
+        // ... obtain the selector under this memoryVerseDiv
+        const memoryVerseSelector = memoryVerseDiv.querySelector('select');
+        // ... set it's value to the desired translation ?? assumes the default semantics are correct (above)
+        memoryVerseSelector.value = activeTranslation;
+
+        // change scripture link to the desired translation
+        // ... obtain the scripture link
+        const memoryVerseLink = memoryVerseDiv.querySelector('a');
+        // ... set it's href value
+        const youVersionCode = { // YouVersion Bible App Code conversion indexed by translation ... youVersionCode['KJV']
+          NLT:    '116',
+          NKJV:   '114',
+          ESV:    '59',
+          CSB:    '1713',
+          KJV:    '1',
+          NIV:    '111',
+        };
+        // ?? determine if I can tap into the same technique used for changing URL
+        //    ... see: syncBibleTranslationChanges()
+        //             - the link is created from the bibleLink() macro (see: LINE 643 of FireWithin/gitbook-plugin-my-plugin/customTagsProcessor.js)
+        //             - the link has onmouseover="fw.alterBibleVerseLink(event, '${ref}') <<< THIS IS IT
+        //             - SOOO: check out: fw.alterBibleVerseLink(event, 'mrk.1.2')
+        //               * internally it uses:
+        //                 const bibleTranslation     = fwSettings.getBibleTranslation();     // ex: 'NLT'
+        //                 const bibleTranslationCode = fwSettings.getBibleTranslationCode(); // ex: '116'
+        //               * ?? fwSettings has the internals of what we need
+        //                 - see: bibleTranslations lookup
+        //                 - ?? could provide new method there
+        //                   ex: fwSettings.translateBibleCode(translationKey): code
+        //                 - ?? and ELIMITATE the table (above)
+        memoryVerseLink.href = `https://bible.com/bible/${youVersionCode[activeTranslation]}/${memoryVerseScriptRef}.${activeTranslation}`;
+
+        // ???$$$ I THINK I'M DONE
+
+        // manage the visibility of the su subordinate "translation" <div>'s
+        // ... only one visible at a time (base on the verse's translation state
+        const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
+        translationDivs.forEach(translationDiv => {
+          // obtain the translation of this translationDiv
+          const divsTranslation = translationDiv.dataset.memoryVerseTranslation;
+
+          log(`processing divsTranslation: ${divsTranslation}`);
+
+          // show/hide div base on if it is our active translation
+          if (divsTranslation === activeTranslation) {
+            translationDiv.style.display = 'block'; // or 'flex', 'inline', etc., depending on your layout
+            log(`SHOWING: ${divsTranslation}`);
+          }
+          else {
+            translationDiv.style.display = 'none';
+          }
+        });
+
+      });
     }
     
     //*--------------------------------------------------------------------------
@@ -209,19 +264,18 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Event handler that retains changes to our memoryVerseTranslation state
     //*--------------------------------------------------------------------------
     // ... state-related-memoryVerseTranslation:
-    fw.handleMemoryVerseTranslationChange = function(event) {
+    fw.handleMemoryVerseTranslationChange= function(event) {
       const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
 
-      // ?? have access to: event.target.value
-      log(`?? setting ${event.target.value}`);
-      console.log(`?? setting ${event.target.value}`);
+      const selectElm      = event.target;
+      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is deticated to this context
+      const translation    = selectElm.value; // our translation value is the selected translation
 
-      // ?? RETROFIT TO: memoryVerseTranslation
-      //? log(`completionElm changed ... id: "${completionElm.id}", checked: ${completionElm.checked}`);
-      //? 
-      //? // retain this change in our state
-      //? // ... handles persistance/reflection automatically
-      //? fwMemoryVerseTranslation.setComplete(completionElm.id, completionElm.checked);
+      log(`retaining state for memory verse translation: `, {memoryVerseKey, translation});
+
+      // retain this change in our state
+      // ... handles persistance/reflection automatically
+      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
     }
 
     // ??$$ NEW CODE END --------------------------------------------------------------------------------
@@ -369,8 +423,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* ... state-related-settings
     //***************************************************************************
     //***************************************************************************
-
-    // ?? TEMPLATE DRIVER? - NO: I DON'T THINK SO
 
     //***************************************************************************
     //* Code Related to syncDeviceStoreOnSignOut - Sync Device Storage From Cloud on Sign-Out
@@ -544,7 +596,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       // - this is needed for seperate app instances, that did NOT initiate the change
       const selectElm = document.getElementById('bibleTranslations'); // ... kinda bad that this id is simply globally known :-(
       if (selectElm) { // ... if NOT defined, then we are NOT on the settings page - NO WORRIES
-        selectElm.value = fwSettings.getBibleTranslation();
+        selectElm.value = fwSettings.getBibleTranslation(); // ?? is this the other technique to set the url ... I don't think so ?? no no ... there is a hover in the html link that changes it
       }
     }
 
@@ -745,7 +797,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       syncSyncDeviceStoreOnSignOutChanges();
 
       // sync aspects of the Memorization page (Memorization.md)
-      // ?? pattern after syncUICompletions() NOT: syncSyncDeviceStoreOnSignOutChanges()
       // ... state-related-memoryVerseTranslation
       // ??$$ NEW
       syncUIMemoryVerseTranslation();

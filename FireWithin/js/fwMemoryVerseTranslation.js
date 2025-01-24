@@ -71,6 +71,11 @@ class FWMemoryVerseTranslation {
   getTranslation(memoryVerseKey) {
     // pass through to our worker object
     // ... default fallback (when NOT explicitly set)
+
+    // ?? TRASH (temp diagnostic)
+    //? const rawValue = this._fwState.getValue(memoryVerseKey);
+    //? console.log(`?? in fwMemoryVerseTranslation.getTranslation('${memoryVerseKey}') ... rawValue from DB: ${rawValue}`);
+
     return this._fwState.getValue(memoryVerseKey) || defaultTranslation;
   }
 

@@ -998,15 +998,16 @@ function memorizeVerse(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {ref, label, text, ...unknownNamedArgs} = namedParams;
+  const {ref:scriptRef, label, text, ...unknownNamedArgs} = namedParams;
 
   // ... ref
-  checkParam(ref,           'ref is required');
-  checkParam(isString(ref), 'ref must be a string (the scripture reference code [YouVersion format])');
+  checkParam(scriptRef,           'ref is required');
+  checkParam(isString(scriptRef), 'ref must be a string (the scripture reference code [YouVersion format])');
   // ... must be alpha numeric with "." and "-"
-  checkParam(/^[a-zA-Z0-9.-]+$/.test(ref), `ref ('${ref}') is NOT a valid YouVersion format (it can only contain alpha numeric characters, with a '.' and '-' ... EX: 'luk.9.23-24')`);
-  // retain scrubbed refId (translating "." <--> "_")
-  const refId = ref.replace(/\./g, "_");
+  checkParam(/^[a-zA-Z0-9.-]+$/.test(scriptRef), `ref ('${scriptRef}') is NOT a valid YouVersion format (it can only contain alpha numeric characters, with a '.' and '-' ... EX: 'luk.9.23-24')`);
+
+  // our internal "sanitized" scriptRef (translating "." <--> "_") making it suitable to be used in DB and DOM ids
+  const scriptRefSanitized = scriptRef.replace(/\./g, "_");
 
   // ... label
   checkParam(label,           'label is required');
@@ -1078,16 +1079,13 @@ function memorizeVerse(namedParams={}) {
   //       - I have seen this before
   //       - unsure what it is, but I can't seem to fix
   //       - just live with it :-(
-  content += `<div class="memory-verse" id="${refId}_TOP">`; // make id unique with _TOP (if NOT, completed checkbox has same id)
+  content += `<div data-memory-verse="${scriptRef}" id="${scriptRefSanitized}">`;
 
   // distinguishing section break - solid grey centered (auto) 70% wide with rounded corners
   content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
-
-  // starting main paragraph
-  // ?? content += `<p>`;
   
   // completed checkbox
-  content += completedCheckBox(refId);
+  content += completedCheckBox(`verseMemorized-${scriptRefSanitized}`); // ... added "verseMemorized-" prefix, so as to NOT conflict with top-level ID
 
   // verse link
   // NOTE 1: We do NOT use bibleLink(ref) because THIS link is NOT controlled by the 
@@ -1096,10 +1094,10 @@ function memorizeVerse(namedParams={}) {
   // NOTE 2: The link href parameter is set at run-time (see: syncUIMemoryVerseTranslation() in fw.js)
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
-
   // translation selector
-  // ?? may NOT need id (prob doesn't hurt)
-  content += `&nbsp;&nbsp;<select id="Memorize-${refId}-Translation"onchange=" fw.handleMemoryVerseTranslationChange(event)">`;
+  // ?? may NOT need id (prob doesn't hurt) ?? YEAH ... at minimum, streamline this
+  content += `&nbsp;&nbsp;<select id="Memorize-${scriptRefSanitized}-Translation" data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
+
   translationKeys.forEach(translationKey => {
     content += `<option value="${translationKey}">${translationKey}</option>`;
   });
@@ -1111,10 +1109,10 @@ function memorizeVerse(namedParams={}) {
   // generate all our translation divs
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
-    content += `<div class="indent" id="${translationKey}-${refId}">`;
+    content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p><i>${text[translationKey]}</i>/p></blockquote>`; // verse text
     content +=   `<audio controls loop>`; // audio playback controls
-    content +=     `<source src="Memorization/${ref}.${translationKey}.m4a" type="audio/mp4">`;
+    content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;
     content +=   `<p>&nbsp;</p>`;
