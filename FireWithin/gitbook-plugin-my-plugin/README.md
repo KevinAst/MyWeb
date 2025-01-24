@@ -445,8 +445,6 @@ M{ sermonSeries({
  
 ### memorizeVerse()
 
-?? NEW
-
 **API**: `memorizeVerse(namedParams)`
 
 Inject the html to render a scripture verse to memorize, including all
@@ -459,23 +457,23 @@ verse text, and audio playback controls).
 
   ```js
   {
-    ref:   `luk.9.23-24`,   // scripture reference code (YouVersion format)
-                            // NOTE: Linkable TOP level entry id is: "luk_9_23-24_TOP"
-                            //       see NOTE (below)
-                            //       EX Link: [Luke 9:23-24](#luk_9_23-24_TOP)
-    label: `Luke 9:23-24`,  // scripture label
-    text: {                 // scripture text for given translation: 
-                            // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV
-                            // - order specifies selection list dropdown order
-                            // - "*" prefix indicates the DEFAULT
-                            //   (when no selection state has been persisted)
-                            //   DEFAULTS TO: NLT (when no "*" is specified)
-    "*NLT": `text here`,    // ... here NLT is defined as the DEFAULT (because of the *)
-      NKJV: `text here`,  
-      ESV:  `text here`,
-      CSB:  `text here`,
-      KJV:  `text here`,
-      NIV:  `text here`,
+    ref:   `luk.9.23-24`,     // scripture reference code (YouVersion format)
+                              // NOTE: Linkable TOP level entry id is: "luk_9_23-24_TOP"
+                              //       see NOTE (below)
+                              //       EX Link: [Luke 9:23-24](#luk_9_23-24_TOP)
+    label: `Luke 9:23-24`,    // scripture label
+    text: {                   // scripture text for given translation: 
+                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV
+                              // - order specifies selection list dropdown order
+                              // - "*" suffix indicates the DEFAULT
+                              //   (when no selection state has been persisted)
+                              //   DEFAULTS TO: NLT (when no "*" is specified)
+     "NLT*": `NLT text here`, // ... here NLT is defined as the DEFAULT (because of the *)
+      NKJV:  `NKJV text here`,  
+      ESV:   `ESV text here`,
+      CSB:   `CSB text here`,
+      KJV:   `KJV text here`,
+      NIV:   `NIV text here`,
     },
   }
   ```
@@ -489,8 +487,7 @@ verse text, and audio playback controls).
   ```
   FireWithin/
     Memorization/
-      luk.9.23-24.NLT.m4a ?? this is a change - we use "." instead of "_"
-      luk.9.23-24.NKJV.m4a
+      luk.9.23-24.NLT.m4a
       ... etc.
   ```
 
@@ -522,11 +519,6 @@ verse text, and audio playback controls).
 
   - or if you wish to generate an html reference link to the generated
     scripture verse
-
-    NOTE: The TOP level entry to this memory verse contains a "_TOP"
-          suffix because the completed checkbox has the unabridged id.
-          Example link to this TOP level entry:
-          [Luke 9:23-24](#luk_9_23-24)
 
   This is done to provide valid identifiers that can be used for the
   two cases highlighted above.  For example, Firebase DB keys cannot

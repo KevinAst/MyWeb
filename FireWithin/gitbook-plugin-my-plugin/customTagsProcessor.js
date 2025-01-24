@@ -192,7 +192,7 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
-  memorizeVerse, // ?? new
+  memorizeVerse,
   inject,
   userName,
   userEmail,
@@ -973,22 +973,25 @@ function processDateEntry(date) {
 //*   - namedParams: a comprehensive structure that describes all aspects of the memory verse.
 //*                  Please refer to the README for details.
 //* 
-//* Custom Tag:
+//* Custom Tag: ?? make this a P{ tag
 //*   M{ memorizeVerse(`{ ton-of-options-see-README }`) }M
 //* 
 //* Replaced With:
-//*   <div class="memory-verse" id="luk_9_23-24">
-//*     completed checkbox
-//*     verse link
-//*     translation selector
-//*     <!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->
-//*     <div class="indent" id="NLT-luk_9_23-24">
+//*   <div data-memory-verse="luk.9.23-24" id="luk_9_23-24"> ... container (used as top-level entry, linkable by TOC)
+//*     distinguishing visual section break (horizontal line)
+//*     <p>
+//*       completed checkbox
+//*       verse link
+//*       translation selector
+//*     </p>
+//*     <!-- many translation divs (under data-memory-verse div) ... only ONE visible at a time -->
+//*     <div class="indent" data-memory-verse-translation="NLT" style="display: none;">`; ... NLT: sample translation
 //*       verse text
 //*       audio playback controls
 //*     </div>
+//*     ... snip snip: more translation divs
 //*   </div>
 //*-----------------------------------------------------------------------------
-// ??$$ new code
 function memorizeVerse(namedParams={}) {
 
   // parameter validation
@@ -1012,8 +1015,6 @@ function memorizeVerse(namedParams={}) {
   // ... label
   checkParam(label,           'label is required');
   checkParam(isString(label), 'label must be a string (the scripture label)');
-
-  // ?? add category YES -or- theme NO
 
   // ... text
   checkParam(text,                'text object is required');
@@ -1081,9 +1082,12 @@ function memorizeVerse(namedParams={}) {
   //       - just live with it :-(
   content += `<div data-memory-verse="${scriptRef}" id="${scriptRefSanitized}">`;
 
-  // distinguishing section break - solid grey centered (auto) 70% wide with rounded corners
+  // distinguishing visual section break (horizontal line) - solid grey centered (auto) 70% wide with rounded corners
   content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
-  
+
+  // initial paragraph
+  content += `<p>`;
+
   // completed checkbox
   content += completedCheckBox(`verseMemorized-${scriptRefSanitized}`); // ... added "verseMemorized-" prefix, so as to NOT conflict with top-level ID
 
@@ -1095,15 +1099,14 @@ function memorizeVerse(namedParams={}) {
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
   // translation selector
-  // ?? may NOT need id (prob doesn't hurt) ?? YEAH ... at minimum, streamline this
-  content += `&nbsp;&nbsp;<select id="Memorize-${scriptRefSanitized}-Translation" data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
+  content += `&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
 
   translationKeys.forEach(translationKey => {
     content += `<option value="${translationKey}">${translationKey}</option>`;
   });
   content += `</select>`;
 
-  // ending main paragraph
+  // end of initial paragraph
   content += `</p>`;
 
   // generate all our translation divs
