@@ -3,6 +3,16 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 ## Memorizing God's Word
 
+## At a Glance
+
+- [Overview](#overview)
+- [January](#january-flyer-for-25-in-25-campaign)
+  - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
+  - M{ completedCheckBox(`verseMemorized-php_4_8`) }M [Philippians 4:8](#php_4_8)
+
+
+### Overview
+
 This section contains selected scriptures that you may consider
 committing to memory.
 
@@ -32,12 +42,6 @@ For each passage:
 
 Lord Bless You!
 
-
-## At a Glance
-
-- [January](#january-flyer-for-25-in-25-campaign)
-  - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
-  - M{ completedCheckBox(`verseMemorized-php_4_8`) }M [Philippians 4:8](#php_4_8)
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
