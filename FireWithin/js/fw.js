@@ -49,7 +49,6 @@ import {fwCompletions} from './fwCompletions.js';
 
 // our memoryVerseTranslation state singleton object (ALWAYS up-to-date)
 // ... state-related-completions
-// ?? NEW
 import {fwMemoryVerseTranslation} from './fwMemoryVerseTranslation.js';
 
 // our settings state singleton object (ALWAYS up-to-date)
@@ -151,8 +150,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
     //***************************************************************************
     //***************************************************************************
-
-    // ??$$ NEW CODE START --------------------------------------------------------------------------------
     
     // register reflective code that syncs our UI on memoryVerseTranslation changes
     // ... state-related-memoryVerseTranslation
@@ -197,7 +194,7 @@ if (!window.fw) { // only expand this module once (conditionally)
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
 
         // fetch the desired translation for this verse
-        // ??$$ must handle default (from our html) NOT heuristics of fwMemoryVerseTranslation
+        // ?? must handle default (from our html) NOT heuristics of fwMemoryVerseTranslation
         const activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
         log(`our activeTranslation: ${activeTranslation}`);
 
@@ -211,30 +208,7 @@ if (!window.fw) { // only expand this module once (conditionally)
         // ... obtain the scripture link
         const memoryVerseLink = memoryVerseDiv.querySelector('a');
         // ... set it's href value
-        const youVersionCode = { // YouVersion Bible App Code conversion indexed by translation ... youVersionCode['KJV']
-          NLT:    '116',
-          NKJV:   '114',
-          ESV:    '59',
-          CSB:    '1713',
-          KJV:    '1',
-          NIV:    '111',
-        };
-        // ?? determine if I can tap into the same technique used for changing URL
-        //    ... see: syncBibleTranslationChanges()
-        //             - the link is created from the bibleLink() macro (see: LINE 643 of FireWithin/gitbook-plugin-my-plugin/customTagsProcessor.js)
-        //             - the link has onmouseover="fw.alterBibleVerseLink(event, '${ref}') <<< THIS IS IT
-        //             - SOOO: check out: fw.alterBibleVerseLink(event, 'mrk.1.2')
-        //               * internally it uses:
-        //                 const bibleTranslation     = fwSettings.getBibleTranslation();     // ex: 'NLT'
-        //                 const bibleTranslationCode = fwSettings.getBibleTranslationCode(); // ex: '116'
-        //               * ?? fwSettings has the internals of what we need
-        //                 - see: bibleTranslations lookup
-        //                 - ?? could provide new method there
-        //                   ex: fwSettings.translateBibleCode(translationKey): code
-        //                 - ?? and ELIMITATE the table (above)
-        memoryVerseLink.href = `https://bible.com/bible/${youVersionCode[activeTranslation]}/${memoryVerseScriptRef}.${activeTranslation}`;
-
-        // ???$$$ I THINK I'M DONE
+        memoryVerseLink.href = fwSettings.constructBibleURL(memoryVerseScriptRef, activeTranslation);
 
         // manage the visibility of the su subordinate "translation" <div>'s
         // ... only one visible at a time (base on the verse's translation state
@@ -278,7 +252,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
     }
 
-    // ??$$ NEW CODE END --------------------------------------------------------------------------------
 
     //***************************************************************************
     //***************************************************************************
@@ -506,18 +479,10 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*--------------------------------------------------------------------------
     fw.alterBibleVerseLink = function(e, scriptureRef) {
       const log = logger(`${logPrefix}:alterBibleVerseLink()`);
-      
-      // extract the bibleTranslation from our settings (User Preferences)
-      // ... state-related-settings:
-      const bibleTranslation     = fwSettings.getBibleTranslation();     // ex: 'NLT'
-      const bibleTranslationCode = fwSettings.getBibleTranslationCode(); // ex: '116'
-      
+
       // define the full URL
-      // EX: https://bible.com/bible/111/mrk.1.2.NIV
-      //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .NIV)
-      //           ... it is functionally redundent of the bibleTranslationCode
-      const url = `https://bible.com/bible/${bibleTranslationCode}/${scriptureRef.trim()}.${bibleTranslation}`;
-      
+      const url = fwSettings.constructBibleURL(scriptureRef); // use translation defined in fwSettings (because 2nd param [translation] is NOT specified)
+
       // overwrite the href of the invoking <a> tag
       // NOTE: because e.preventDefault() is not used, the browser
       //       will open the link in a new tab based on the updated href
@@ -596,7 +561,7 @@ if (!window.fw) { // only expand this module once (conditionally)
       // - this is needed for seperate app instances, that did NOT initiate the change
       const selectElm = document.getElementById('bibleTranslations'); // ... kinda bad that this id is simply globally known :-(
       if (selectElm) { // ... if NOT defined, then we are NOT on the settings page - NO WORRIES
-        selectElm.value = fwSettings.getBibleTranslation(); // ?? is this the other technique to set the url ... I don't think so ?? no no ... there is a hover in the html link that changes it
+        selectElm.value = fwSettings.getBibleTranslation();
       }
     }
 
@@ -798,7 +763,6 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // sync aspects of the Memorization page (Memorization.md)
       // ... state-related-memoryVerseTranslation
-      // ??$$ NEW
       syncUIMemoryVerseTranslation();
     }
 

@@ -146,12 +146,30 @@ class FWSettings {
   }
 
   /**
-   * Get self's bibleTranslationCode property (ex: '1') ... corresponding to our bibleTranslation property.
+   * Construct a URL for the YouVersion Bible App, for the specified scriptureRef/translation.
    *
-   * @returns {string} self's bibleTranslationCode property (ex: '1').
+   * @param {string} scriptureRef - The YouVersion scripture ref (ex: 'luk.9.23-24').
+   *
+   * @param {string} translation - The optional bible translation (ex: 'KJV').
+   *                               If NOT specified, use self's bibleTranslation setting.
+   *
+   * @returns {string} the https URL for the requested scriptureRef/translation.
    */
-  getBibleTranslationCode() {
-    return this.bibleTranslations[this.getBibleTranslation()].code;
+  constructBibleURL(scriptureRef, translation) {
+    // default non-specified translation to self's bibleTranslation setting.
+    translation = translation || this.getBibleTranslation();
+
+    // convert translation ('KJV') to translationCode ('1')
+    const translationCode = this.bibleTranslations[translation].code;
+
+    // construct the URL
+    // EX: https://bible.com/bible/1/luk.9.23-24.KJV
+    //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .KJV)
+    //           ... it is functionally redundent of the bibleTranslationCode
+    const url = `https://bible.com/bible/${translationCode}/${scriptureRef}.${translation}`;
+
+    // that's all folks
+    return url;
   }
 
   /**
@@ -339,7 +357,6 @@ class FWSettings {
  *
  *   // access state
  *   const trans = fwSettings.getBibleTranslation();
- *   const code  = fwSettings.getBibleTranslationCode();
  *
  * API: see FWSettings class (above) for details
  *
