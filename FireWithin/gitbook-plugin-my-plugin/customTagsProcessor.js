@@ -1103,7 +1103,7 @@ function memorizeVerse(namedParams={}) {
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
-    content +=   `<blockquote><p><i>${text[translationKey]}</i>/p></blockquote>`; // verse text
+    content +=   `<blockquote><p><i>${text[translationKey]}</i></p></blockquote>`; // verse text
     content +=   `<audio controls loop>`; // audio playback controls
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;

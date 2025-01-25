@@ -8,7 +8,7 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 - [Overview](#overview)
 - [January](#january-flyer-for-25-in-25-campaign)
   - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
-  - M{ completedCheckBox(`verseMemorized-php_4_8`) }M [Philippians 4:8](#php_4_8)
+  - M{ completedCheckBox(`verseMemorized-php_4_8`) }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
 
 
 ### Overview
@@ -101,17 +101,52 @@ P{ inject('</div>') }P
 
 P{ inject('</div>') }P
 
-<!-- *** NEW PASSAGE ?? TESTING MACRO ******************************************************************************** -->
-
+<!-- *** NEW PASSAGE ******************************************************************************** -->
 M{ memorizeVerse({
   ref:   `php.4.8`,
-  label: `Philippians 4:8`,
+  label: `Philippians 4:8 (ChristianLiving)`,
   text: {
-    NLT:  `NLT text here`,
-    NKJV: `NKJV text here`,  
-    ESV:  `ESV text here`,
-    CSB:  `CSB text here`,
-    KJV:  `KJV text here`,
-    NIV:  `NIV text here`,
+    NIV:  `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
+    ESV:  `Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.`,
+    NLT:  `And now, dear brothers and sisters, one final thing. Fix your thoughts on what is true, and honorable, and right, and pure, and lovely, and admirable. Think about things that are excellent and worthy of praise.`,
+    KJV:  `Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.`,
+    NKJV: `Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things.`,  
+    CSB:  `Finally  brothers and sisters, whatever is true,  whatever is honorable,  whatever is just,  whatever is pure,  whatever is lovely, whatever is commendable — if there is any moral excellence  and if there is anything praiseworthy — dwell on these things.`,
   },
 }) }M
+
+P{ inject('<div class="indent">') }P
+
+**Application:**
+
+P{ inject('<div class="indent">') }P
+
+What we think about is important. We Often allow our minds
+to wander and end up in some pretty dark places. It's when
+we allow our thoughts to reach their conclusion that we get
+in trouble. 
+
+Instead, we should "take every thought captive to obey Christ" (2
+Corinthians 10:5). 
+
+LINK: 2 Corinthians 10:5 - https://bible.com/bible/59/2co.10.5.ESV
+
+In Philippians 4:8, the Apostle Paul teaches us how to begin taking
+every thought captive. 
+
+Next time you have a thought you can ask, "Is this line of thinking
+true, noble, or right? Are these thoughts pure, lovely, or
+admirable? 
+
+P{ inject('<div class="indent">') }P
+
+Is this an excellent or praiseworthy way of thinking?" 
+
+If the answer to any of these questions is "NO" , then you know
+what to do. Take those thoughts captive and bring them into
+obedience to Christ.  Allow the Holy Spirit to lead you in truth
+instead of your thoughts leading you into dark places.
+
+P{ inject('</div>') }P
+P{ inject('</div>') }P
+P{ inject('</div>') }P

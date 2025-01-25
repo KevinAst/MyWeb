@@ -121,6 +121,7 @@
 ----
 - [Memorization](Memorization.md)
   * [Luke 9:23-24 (Discipleship)](Memorization.md#luk_9_23-24)
+  * [Philippians 4:8 (ChristianLiving)](Memorization.md#php_4_8)
 
 ----
 - [The Chosen](TheChosen.md)
