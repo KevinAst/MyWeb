@@ -458,22 +458,26 @@ verse text, and audio playback controls).
   ```js
   {
     ref:   `luk.9.23-24`,     // scripture reference code (YouVersion format)
-                              // NOTE: Linkable TOP level entry id is: "luk_9_23-24_TOP"
+                              // NOTE: the linkable TOC entry id is: "luk_9_23-24"
                               //       see NOTE (below)
-                              //       EX Link: [Luke 9:23-24](#luk_9_23-24_TOP)
+                              //       EX Link: [Luke 9:23-24](#luk_9_23-24)
     label: `Luke 9:23-24`,    // scripture label
     text: {                   // scripture text for given translation: 
                               // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV
-                              // - order specifies selection list dropdown order
-                              // - "*" suffix indicates the DEFAULT
-                              //   (when no selection state has been persisted)
-                              //   DEFAULTS TO: NLT (when no "*" is specified)
-     "NLT*": `NLT text here`, // ... here NLT is defined as the DEFAULT (because of the *)
-      NKJV:  `NKJV text here`,  
-      ESV:   `ESV text here`,
-      CSB:   `CSB text here`,
-      KJV:   `KJV text here`,
-      NIV:   `NIV text here`,
+                              // - order specifies selection control order
+                              // - not all translations are required - each memory verse
+                              //   can have a different translation selection
+                              // - DEFAULT: When NO translation is selected:
+                              //            - we use the User Settings Default Translation
+                              //            - if that translation is NOT supported by
+                              //              this memory verse, we use the first translation
+                              //              defined in this definition (i.e. here)
+      NLT:  `NLT text here`,
+      NKJV: `NKJV text here`,  
+      ESV:  `ESV text here`,
+      CSB:  `CSB text here`,
+      KJV:  `KJV text here`,
+      NIV:  `NIV text here`,
     },
   }
   ```
@@ -517,15 +521,15 @@ verse text, and audio playback controls).
   - if you are reviewing state content (either in Local Storage, or
     the Firebase DB)
 
-  - or if you wish to generate an html reference link to the generated
-    scripture verse
+  - or if you wish to generate an html reference TOC link to the
+    generated scripture verse
 
   This is done to provide valid identifiers that can be used for the
   two cases highlighted above.  For example, Firebase DB keys cannot
   contain: ".", "#", "$", "/", "[", "]".  A different list of
   characters are invalid for HTML DOM IDs.  The underscore ("_") is
   valid in both cases, and not a character that would appear in the
-  YouVersion cripture reference code ... so it was selected on that
+  YouVersion scripture reference code ... so it was selected on that
   basis.
 
 

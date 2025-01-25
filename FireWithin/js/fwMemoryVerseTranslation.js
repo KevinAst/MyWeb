@@ -14,7 +14,7 @@
 
 import FWState from './FWState.js'; 
 
-const validTranslations = [ // ?? do we need this here?
+const validTranslations = [ // NOTE: currently NOT used ... AI: we could validate using this
   'NLT',
   'NKJV',
   'ESV',
@@ -22,8 +22,6 @@ const validTranslations = [ // ?? do we need this here?
   'KJV',
   'NIV',
 ];
-
-const defaultTranslation = validTranslations[0]; // ?? do we need this?
 
 /**
  * The FWMemoryVerseTranslation class ... internal to this module
@@ -62,21 +60,15 @@ class FWMemoryVerseTranslation {
   _fwState;
 
   /**
-   * Get the translation in affect for the supplied memoryVerse (defaulted when not set).
+   * Get the translation in affect for the supplied memoryVerse.
    *
    * @param {string} memoryVerseKey - The memoryVerse key (EX: 'luk_9_23-24')
    *
-   * @returns {string} the translation in affect for the supplied memoryVerseKey (EX: 'NKJV')
+   * @returns {string} the translation in affect for the supplied memoryVerseKey (EX: 'NKJV'), undefined when NOT SET.
    */
   getTranslation(memoryVerseKey) {
     // pass through to our worker object
-    // ... default fallback (when NOT explicitly set)
-
-    // ?? TRASH (temp diagnostic)
-    //? const rawValue = this._fwState.getValue(memoryVerseKey);
-    //? console.log(`?? in fwMemoryVerseTranslation.getTranslation('${memoryVerseKey}') ... rawValue from DB: ${rawValue}`);
-
-    return this._fwState.getValue(memoryVerseKey) || defaultTranslation;
+    return this._fwState.getValue(memoryVerseKey);
   }
 
   /**
@@ -95,7 +87,7 @@ class FWMemoryVerseTranslation {
    */
   setTranslation(memoryVerseKey, translation) {
     // pass through to our worker object
-    // ?? validate please ?? example of exception to throw
+    // AI: consider run-tim validation using validTranslations ... need example of exception to throw
     this._fwState.setValue(memoryVerseKey, translation);
   }
 

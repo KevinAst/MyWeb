@@ -973,7 +973,7 @@ function processDateEntry(date) {
 //*   - namedParams: a comprehensive structure that describes all aspects of the memory verse.
 //*                  Please refer to the README for details.
 //* 
-//* Custom Tag: ?? make this a P{ tag
+//* Custom Tag: TODO: ?? eventually this will be a P{ tag
 //*   M{ memorizeVerse(`{ ton-of-options-see-README }`) }M
 //* 
 //* Replaced With:
@@ -1038,18 +1038,8 @@ function memorizeVerse(namedParams={}) {
 
   const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV'];
 
-  // ... validate the supplied translations (the textKeys) -AND- resolve default semantics (starting with a '*')
-  let defaultTranslation = null;
+  // ... validate the supplied translations (the textKeys)
   const translationKeys = textKeys.map(key => {
-    if (key.startsWith("*")) { // entries starting with '*' represent the default translation
-      // prune the starting '*'
-      key = key.slice(1);
-      // morph the key/value pair in text[] array to the real key (without the * default semantics)
-      text[key] = text[`*${key}`]
-      // retain the defaultTranslation, after insuring multiple defaults ARE NOT defined
-      checkParam(defaultTranslation === null, `you may only specify ONE default translation (by prefexing the text object key with a "*" ... you have multiple in: ${textKeys}`);
-      defaultTranslation = key;
-    }
 
     // ... the translationKey must be a well known supported value
     checkParam(supportedTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${supportedTranslations}`);
@@ -1062,9 +1052,6 @@ function memorizeVerse(namedParams={}) {
     // continue iteration
     return key;
   });
-  if (defaultTranslation === null) { // retain a fall-back default (if none specified)
-    defaultTranslation = 'NLT';
-  }
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -1105,6 +1092,9 @@ function memorizeVerse(namedParams={}) {
     content += `<option value="${translationKey}">${translationKey}</option>`;
   });
   content += `</select>`;
+
+  // add control to clear the memory verse selection
+  content += `&nbsp;&nbsp;<button type="button" data-script-ref-sanitized="${scriptRefSanitized}" onclick="fw.clearMemoryVerseTranslation(event)">Clear Selection</button>`;
 
   // end of initial paragraph
   content += `</p>`;

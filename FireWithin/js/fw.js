@@ -193,15 +193,36 @@ if (!window.fw) { // only expand this module once (conditionally)
         const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
 
-        // fetch the desired translation for this verse
-        // ?? must handle default (from our html) NOT heuristics of fwMemoryVerseTranslation
-        const activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
+        // access all the translation divs for this memory verse
+        const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
+
+        // glean all the translations available for this memoryVerse
+        // ... EX: ['NLT', 'NKJV', ... ]
+        // ... NOTE: the spread syntax below [...translationDivs] converts to an array, so we can use the map() method
+        const memoryVerseTranslations = [...translationDivs].map(translationDiv => translationDiv.dataset.memoryVerseTranslation);
+
+        // resolve the desired translation for this verse
+        // ... fetch the selected translation for this verse (if any)
+        let activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
+        // ... when NO verse-specific translation has been explicity set,
+        //     fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+        if (!activeTranslation) {
+          activeTranslation = fwSettings.getBibleTranslation();
+
+          // insure the User Settings Translation has been configured for this specific memory verse
+          // ... if not: fallback fallback TO: the first translation available for this memory verse
+          if (!memoryVerseTranslations.includes(activeTranslation)) { 
+            activeTranslation = memoryVerseTranslations[0];
+          }
+
+          // ?? TODO: we can keep track of this to set the selector's NEW entry ... EX: ESV (via User Settings default translation)
+        }
         log(`our activeTranslation: ${activeTranslation}`);
 
         // force the <select> to the desired translation (from our state)
         // ... obtain the selector under this memoryVerseDiv
         const memoryVerseSelector = memoryVerseDiv.querySelector('select');
-        // ... set it's value to the desired translation ?? assumes the default semantics are correct (above)
+        // ... set it's value to the desired translation
         memoryVerseSelector.value = activeTranslation;
 
         // change scripture link to the desired translation
@@ -210,9 +231,8 @@ if (!window.fw) { // only expand this module once (conditionally)
         // ... set it's href value
         memoryVerseLink.href = fwSettings.constructBibleURL(memoryVerseScriptRef, activeTranslation);
 
-        // manage the visibility of the su subordinate "translation" <div>'s
+        // manage the visibility of the subordinate "translation" <div>'s
         // ... only one visible at a time (base on the verse's translation state
-        const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
         translationDivs.forEach(translationDiv => {
           // obtain the translation of this translationDiv
           const divsTranslation = translationDiv.dataset.memoryVerseTranslation;
@@ -238,11 +258,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Event handler that retains changes to our memoryVerseTranslation state
     //*--------------------------------------------------------------------------
     // ... state-related-memoryVerseTranslation:
-    fw.handleMemoryVerseTranslationChange= function(event) {
+    fw.handleMemoryVerseTranslationChange = function(event) {
       const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
 
       const selectElm      = event.target;
-      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is deticated to this context
+      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is dedicated to this context
       const translation    = selectElm.value; // our translation value is the selected translation
 
       log(`retaining state for memory verse translation: `, {memoryVerseKey, translation});
@@ -250,6 +270,26 @@ if (!window.fw) { // only expand this module once (conditionally)
       // retain this change in our state
       // ... handles persistance/reflection automatically
       fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
+    }
+
+    
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.clearMemoryVerseTranslation(translationSelectionElm)
+    //* 
+    //* Event handler that clears the our memoryVerseTranslation state for a given memory verse.
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation:
+    fw.clearMemoryVerseTranslation = function(event) {
+      const log = logger(`${logPrefix}:clearMemoryVerseTranslation()`);
+
+      const selectElm      = event.target;
+      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our activation elm (data-script-ref-sanitized attribute) - which is dedicated to this context
+
+      log(`deleting entry for "${memoryVerseKey}"`);
+
+      // delete the memoryVerseKey
+      // ... handles persistance/reflection automatically
+      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, ''); // ... poor man delete, setting value to '' (which evaluates to an "iffy" false)
     }
 
 

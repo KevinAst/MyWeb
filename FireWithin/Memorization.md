@@ -103,7 +103,7 @@ M{ memorizeVerse({
   ref:   `php.4.8`,
   label: `Philippians 4:8`,
   text: {
-    "*NLT":  `NLT text here`,
+    NLT:  `NLT text here`,
     NKJV: `NKJV text here`,  
     ESV:  `ESV text here`,
     CSB:  `CSB text here`,
