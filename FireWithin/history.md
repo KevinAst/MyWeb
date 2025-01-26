@@ -76,7 +76,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Added new {{book.Memorization}} section.
+- Added new {{book.Memorization}} page.
 - ?? Update Current {{book.2Corinthians}} Series (Sundays)
 
 
