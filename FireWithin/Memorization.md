@@ -7,9 +7,8 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 - [Overview](#overview)
 - [January](#january-flyer-for-25-in-25-campaign)
-  - M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
-  - M{ completedCheckBox(`verseMemorized-php_4_8`) }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
-
+  - M{ completedCheckBox(`verseMemorized-luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
+  - M{ completedCheckBox(`verseMemorized-php_4_8`)     }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
 
 ### Overview
 
@@ -45,35 +44,28 @@ Lord Bless You!
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-### [January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
 
+### [January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
 
-<span id="luk_9_23-24"></span> <!-- my own "silent" index entry for TOC ?? cannot use "." or other special chars -->
-
-M{ completedCheckBox(`luk_9_23-24`) }M [Luke 9:23-24](https://bible.com/bible/59/luk.9.23-24.ESV) _(Discipleship)_  <select id="Memorize-luk_9_23-24-Translation">
-  <option value="NLT">NLT</option>
-  <option value="NKJV">NKJV</option>
-  <option value="ESV">ESV</option>
-  <option value="CSB">CSB</option>
-  <option value="KJV">KJV</option>
-  <option value="NIV">NIV</option>
-</select>
+M{ memorizeVerse({
+  ref:   `luk.9.23-24`,
+  label: `Luke 9:23-24 (Discipleship)`,
+  text: {
+    NIV:  `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
+    ESV:  `And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it."`,
+    NLT:  `Then he said to the crowd, "If any of you wants to be my follower, you must give up your own way, take up your cross daily, and follow me. If you try to hang on to your life, you will lose it. But if you give up your life for my sake, you will save it."`,
+    KJV:  `And he said to them all, "If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it."`,
+    NKJV: `Then He said to them all, "If anyone desires to come after Me, let him deny himself, and take up his cross daily, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake will save it."`,  
+    CSB:  `Then he said to them all, "If anyone wants to follow after   me, let him deny himself,   take up his cross daily,   and follow me.   For whoever wants to save his life will lose it, but whoever loses his life because of me will save it."`,
+  },
+}) }M
 
 P{ inject('<div class="indent">') }P
 
-> And he said to all, "If anyone would come after me, let him deny
-> himself and take up his cross daily and follow me. For whoever would
-> save his life will lose it, but whoever loses his life for my sake
-> will save it."
-
-<audio controls loop>
-  <source src="Memorization/luk_9_23-24.NLT.m4a" type="audio/mp4">
-  audio NOT supported by this browser :-(
-</audio> 
- 
-<br/>**Application:**<br/>
+**Application:**
 
 P{ inject('<div class="indent">') }P
 
@@ -98,10 +90,11 @@ cross daily, and following Jesus. Simply put, obedience is laying down
 what we want in order to trust that God knows better than we do.
 
 P{ inject('</div>') }P
-
 P{ inject('</div>') }P
 
+
 <!-- *** NEW PASSAGE ******************************************************************************** -->
+
 M{ memorizeVerse({
   ref:   `php.4.8`,
   label: `Philippians 4:8 (ChristianLiving)`,
@@ -128,8 +121,6 @@ in trouble.
 
 Instead, we should "take every thought captive to obey Christ" (2
 Corinthians 10:5). 
-
-LINK: 2 Corinthians 10:5 - https://bible.com/bible/59/2co.10.5.ESV
 
 In Philippians 4:8, the Apostle Paul teaches us how to begin taking
 every thought captive. 
