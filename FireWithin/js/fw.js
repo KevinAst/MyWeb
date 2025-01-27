@@ -147,6 +147,52 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     //***************************************************************************
     //***************************************************************************
+    //* Code Related to Audio Controls
+    //***************************************************************************
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: stopAudioPlayback
+    //* 
+    //* Stop the supplied audioElm playback.
+    //*
+    //* PARMS:
+    //*   audioElm: The <audio> element to stop playback on
+    //* 
+    //*--------------------------------------------------------------------------
+    function stopAudioPlayback(audioElm) {
+      const log = logger(`${logPrefix}:stopAudioPlayback()`);
+      log(`stopping <audio> control from playing`);
+
+      audioElm.pause();         // pause the audio
+      audioElm.currentTime = 0; // reset playback to the start
+    }
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.preventConcurrentAudioPlayback(currentAudioElm)
+    //* 
+    //* Event handler that stops ALL current page <audio> playback except the
+    //* supplied currentAudioElm
+    //* 
+    //* PARMS:
+    //*   currentAudioElm: The <audio> element that has just started to play it's audio.
+    //*
+    //*--------------------------------------------------------------------------
+    fw.preventConcurrentAudioPlayback = function(currentAudioElm) {
+      // get all <audio> elements on our page
+      const audioElms = document.querySelectorAll('audio');
+
+      // pause all other audio elements
+      audioElms.forEach(audioElm => {
+        if (audioElm !== currentAudioElm) {
+          stopAudioPlayback(audioElm);
+        }
+      });
+    }
+
+
+    //***************************************************************************
+    //***************************************************************************
     //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
     //***************************************************************************
     //***************************************************************************
@@ -270,6 +316,18 @@ if (!window.fw) { // only expand this module once (conditionally)
       // retain this change in our state
       // ... handles persistance/reflection automatically
       fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
+
+      // stop any audio playback within this scripture reference
+      // BECAUSE a change of translation will hide all other translations (one of which may be playing)
+
+      // ... locate the scriptureContainerElm (a grandparent <div> of our selectElm)
+      const scriptureContainerElm = selectElm.parentElement.parentElement;
+
+      // ... iterate over ALL <audio> elements within this scripture, stopping their playback
+      const audioElements = scriptureContainerElm.querySelectorAll("audio");
+      audioElements.forEach((audioElm) => {
+        stopAudioPlayback(audioElm);
+      });
     }
 
     

@@ -1104,7 +1104,7 @@ function memorizeVerse(namedParams={}) {
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
-    content +=   `<audio controls loop>`; // audio playback controls
+    content +=   `<audio controls loop onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;
