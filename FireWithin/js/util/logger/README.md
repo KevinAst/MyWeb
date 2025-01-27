@@ -163,6 +163,16 @@ within your code by using:
 allow you to see/adjust the global logging filter on-the-fly :-)
 **<mark>This is SOOOO KOOL</mark>**
 
+- While you can update LocalStorage directly in the browser devTools,
+  this will NOT take effect till you refresh the browser.  THEREFORE, it
+  is better to invoke the `setLogFilters(filterStr)` from the devTools
+  console.
+
+- To apply multiple filters, simply space-delimit them.
+
+- To clear the log filters, simply pass the empty string: `setLogFilters('')`
+
+
 ```
 WITHIN devTools:
 
