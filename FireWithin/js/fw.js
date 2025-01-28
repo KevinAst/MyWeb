@@ -82,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '24.01';
+    const CUR_VER = '24.02';
 
 
     //***************************************************************************
@@ -147,6 +147,52 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     //***************************************************************************
     //***************************************************************************
+    //* Code Related to Audio Controls
+    //***************************************************************************
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: stopAudioPlayback
+    //* 
+    //* Stop the supplied audioElm playback.
+    //*
+    //* PARMS:
+    //*   audioElm: The <audio> element to stop playback on
+    //* 
+    //*--------------------------------------------------------------------------
+    function stopAudioPlayback(audioElm) {
+      const log = logger(`${logPrefix}:stopAudioPlayback()`);
+      log(`stopping <audio> control from playing`);
+
+      audioElm.pause();         // pause the audio
+      audioElm.currentTime = 0; // reset playback to the start
+    }
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.preventConcurrentAudioPlayback(currentAudioElm)
+    //* 
+    //* Event handler that stops ALL current page <audio> playback except the
+    //* supplied currentAudioElm
+    //* 
+    //* PARMS:
+    //*   currentAudioElm: The <audio> element that has just started to play it's audio.
+    //*
+    //*--------------------------------------------------------------------------
+    fw.preventConcurrentAudioPlayback = function(currentAudioElm) {
+      // get all <audio> elements on our page
+      const audioElms = document.querySelectorAll('audio');
+
+      // pause all other audio elements
+      audioElms.forEach(audioElm => {
+        if (audioElm !== currentAudioElm) {
+          stopAudioPlayback(audioElm);
+        }
+      });
+    }
+
+
+    //***************************************************************************
+    //***************************************************************************
     //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
     //***************************************************************************
     //***************************************************************************
@@ -193,6 +239,9 @@ if (!window.fw) { // only expand this module once (conditionally)
         const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
 
+        // access the "Clear Translation Selection" control for this memory verse
+        const clearTranslationSelectionButton = memoryVerseDiv.querySelector("button");
+
         // access all the translation divs for this memory verse
         const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
 
@@ -209,14 +258,20 @@ if (!window.fw) { // only expand this module once (conditionally)
         if (!activeTranslation) {
           activeTranslation = fwSettings.getBibleTranslation();
 
+          // inactivate the "Clear Translation Selection" control when NO selection has been made
+          clearTranslationSelectionButton.style.display = "none";
+
           // insure the User Settings Translation has been configured for this specific memory verse
           // ... if not: fallback fallback TO: the first translation available for this memory verse
           if (!memoryVerseTranslations.includes(activeTranslation)) { 
             activeTranslation = memoryVerseTranslations[0];
           }
-
-          // ?? TODO: we can keep track of this to set the selector's NEW entry ... EX: ESV (via User Settings default translation)
         }
+        else {
+          // activate the "Clear Translation Selection" control when a selection has been made
+          clearTranslationSelectionButton.style.display = "inline";
+        }
+
         log(`our activeTranslation: ${activeTranslation}`);
 
         // force the <select> to the desired translation (from our state)
@@ -270,6 +325,18 @@ if (!window.fw) { // only expand this module once (conditionally)
       // retain this change in our state
       // ... handles persistance/reflection automatically
       fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
+
+      // stop any audio playback within this scripture reference
+      // BECAUSE a change of translation will hide all other translations (one of which may be playing)
+
+      // ... locate the scriptureContainerElm (a grandparent <div> of our selectElm)
+      const scriptureContainerElm = selectElm.parentElement.parentElement;
+
+      // ... iterate over ALL <audio> elements within this scripture, stopping their playback
+      const audioElements = scriptureContainerElm.querySelectorAll("audio");
+      audioElements.forEach((audioElm) => {
+        stopAudioPlayback(audioElm);
+      });
     }
 
     

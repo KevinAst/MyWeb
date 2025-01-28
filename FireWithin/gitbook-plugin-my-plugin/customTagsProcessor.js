@@ -1001,7 +1001,7 @@ function memorizeVerse(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {ref:scriptRef, label, text, ...unknownNamedArgs} = namedParams;
+  const {ref:scriptRef, label, context, text, ...unknownNamedArgs} = namedParams;
 
   // ... ref
   checkParam(scriptRef,           'ref is required');
@@ -1015,6 +1015,11 @@ function memorizeVerse(namedParams={}) {
   // ... label
   checkParam(label,           'label is required');
   checkParam(isString(label), 'label must be a string (the scripture label)');
+
+  // ... context (optional)
+  if (context) {
+    checkParam(isString(context), 'context (when supplied) must be a string (a short context of the scripture)');
+  }
 
   // ... text
   checkParam(text,                'text object is required');
@@ -1086,7 +1091,7 @@ function memorizeVerse(namedParams={}) {
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
   // translation selector
-  content += `&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
+  content += `<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
 
   translationKeys.forEach(translationKey => {
     content += `<option value="${translationKey}">${translationKey}</option>`;
@@ -1099,12 +1104,17 @@ function memorizeVerse(namedParams={}) {
   // end of initial paragraph
   content += `</p>`;
 
+  // add the context, when supplied (a short context of the scripture)
+  if (context) {
+    content += `<p class="indent"><i>${context}</i></p>`;
+  }
+
   // generate all our translation divs
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
-    content +=   `<audio controls loop>`; // audio playback controls
+    content +=   `<audio controls loop onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;
