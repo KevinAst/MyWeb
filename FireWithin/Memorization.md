@@ -20,8 +20,8 @@ For me, this journey began in 2025, when my local church
 25](https://fbmaryville.org/25-in-25)** — aimed at memorizing 25
 passages in 2025, each focused on one of five key themes.
 
-I’ve always struggled with memorization, so **_<mark>I created this
-page as a helpful resource</mark>_**.
+I’ve always struggled with memorization, so **_<mark>this page was
+created as as a helpful resource</mark>_**.
 
 For each passage:
 
@@ -33,31 +33,44 @@ For each passage:
   memory!**_
 
 - You can choose your preferred Bible translation from a selection of
-  the most popular versions. _**Your choice is saved for each individual
-  passage, ensuring it is retained once selected**_.
+  the most popular versions.  _**Your choice will be remembered for
+  each individual passage** (once it is explicitly selected)_!
 
-- A link is provided to the [You Version](https://www.bible.com/)
+- A scripture link is provided to the [You Version](https://www.bible.com/)
   Bible App, so you can explore the passage in greater depth.
 
 - As always, you can _**track your progress by checking the completion
   box next to the passages you've memorized!**_
 
-- The [Navigators'](https://www.navigators.org/) approach to scripture
+- ?? OLD: The [Navigators'](https://www.navigators.org/) approach to scripture
   memorization involves reciting the scripture reference both before
   and after the passage. _**It's important not to forget the
   'address'!**_ :-) However, because our audio playback automatically
-  loops, this effect is already achieved . As a result, the audio only
-  announces the reference at the beginning _(along with the Bible
-  translation)_.
+  loops, this effect has been implicitly achieved. As a result, the
+  audio only announces the reference at the beginning _(along with the
+  Bible translation)_.
 
-Currently, there are only a few passages.  I am following the **[25 in
-25](https://fbmaryville.org/25-in-25)** campaign, and will be adding
-passages from that resource throughout the year.  I plan to add more
-scriptures to this list.  If you have one that you would like me to
-add, please reach out to me at <span id="inquire"></span>
+- Regarding the audio playback: 
+
+  * I follow the [Navigators'](https://www.navigators.org/) approach
+    to Scripture memorization, which involves reciting the Scripture
+    reference both before and after the passage. _**Remembering the
+    'address' is important!**_ :-)
+
+  * Additionally, I find it helpful to include a brief context of the
+    Scripture _(in the first reference)_ and specify the translation
+    used _(in the second reference)_.
+
+Currently, there are only a few passages on this page.  I am following
+the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
+will be adding passages from that resource throughout the year.
+
+In addition, I plan to add more scriptures to this list.  If you have
+one that you would like added, please reach out to me
+at <span id="inquire"></span>
 
 <script>
-  withFW( ()=>fw.addInquire('Fire%20Within%20Feedback') )
+  withFW( ()=>fw.addInquire('Add%20Memory%20Scripture') )
 </script>
 
 Lord Bless You!
@@ -107,7 +120,7 @@ Holy Spirit's help can we take this first step of self denial (turning
 from sin). And the same is true about each and every step of self
 denial.
  
-The Holy Spirit is our helper in denying ourselves, taking up our
+_**The Holy Spirit is our helper**_ in denying ourselves, taking up our
 cross daily, and following Jesus. Simply put, obedience is laying down
 what we want in order to trust that God knows better than we do.
 
@@ -141,25 +154,27 @@ to wander and end up in some pretty dark places. It's when
 we allow our thoughts to reach their conclusion that we get
 in trouble. 
 
-Instead, we should "take every thought captive to obey Christ" (2
-Corinthians 10:5). 
+Instead, we should "_take every thought captive to obey Christ_"
+[2 Corinthians 10:5 ESV](https://bible.com/bible/59/2co.10.5.ESV).
 
-In Philippians 4:8, the Apostle Paul teaches us how to begin taking
-every thought captive. 
+In M{ bibleLink(`php.4.8@@2 Philippians 4:8`) }M, the Apostle Paul
+teaches us how to begin taking every thought captive.
 
-Next time you have a thought you can ask, "Is this line of thinking
-true, noble, or right? Are these thoughts pure, lovely, or
-admirable? 
+Next time you have a thought you can ask, 
 
-P{ inject('<div class="indent">') }P
+- Is this line of thinking true, honorable, or right?
+  
+- Are these thoughts pure, lovely, or admirable?
+  
+- Is this an excellent or praiseworthy way of thinking?
 
-Is this an excellent or praiseworthy way of thinking?" 
+If the answer to any of these questions is "NO", then you know
+what to do. 
 
-If the answer to any of these questions is "NO" , then you know
-what to do. Take those thoughts captive and bring them into
-obedience to Christ.  Allow the Holy Spirit to lead you in truth
-instead of your thoughts leading you into dark places.
+- Take those thoughts captive and bring them into obedience to Christ.
 
-P{ inject('</div>') }P
+- _**Allow the Holy Spirit to lead you in truth**_ instead of your
+  thoughts leading you into dark places.
+
 P{ inject('</div>') }P
 P{ inject('</div>') }P
