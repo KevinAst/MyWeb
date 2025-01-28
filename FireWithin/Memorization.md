@@ -86,8 +86,8 @@ Lord Bless You!
 <!-- *** NEW PASSAGE ******************************************************************************** -->
 
 M{ memorizeVerse({
-  ref:   `luk.9.23-24`,
-  label: `Luke 9:23-24 (Discipleship)`,
+  ref:     `luk.9.23-24`,
+  label:   `Luke 9:23-24 (Discipleship)`,
   context: `Jesus delineates a true Christian`,
   text: {
     NIV:  `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
@@ -132,8 +132,8 @@ P{ inject('</div>') }P
 <!-- *** NEW PASSAGE ******************************************************************************** -->
 
 M{ memorizeVerse({
-  ref:   `php.4.8`,
-  label: `Philippians 4:8 (ChristianLiving)`,
+  ref:     `php.4.8`,
+  label:   `Philippians 4:8 (ChristianLiving)`,
   context: `Paul's parting instruction to the Church at Philippi`,
   text: {
     NIV:  `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
