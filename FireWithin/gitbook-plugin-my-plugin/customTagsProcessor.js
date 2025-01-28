@@ -1086,7 +1086,7 @@ function memorizeVerse(namedParams={}) {
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
   // translation selector
-  content += `&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
+  content += `<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
 
   translationKeys.forEach(translationKey => {
     content += `<option value="${translationKey}">${translationKey}</option>`;

@@ -160,7 +160,7 @@ Instead, we should "_take every thought captive to obey Christ_"
 In M{ bibleLink(`php.4.8@@2 Philippians 4:8`) }M, the Apostle Paul
 teaches us how to begin taking every thought captive.
 
-Next time you have a thought you can ask, 
+Next time you have a thought you can ask:
 
 - Is this line of thinking true, honorable, or right?
   

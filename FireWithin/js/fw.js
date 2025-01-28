@@ -239,6 +239,9 @@ if (!window.fw) { // only expand this module once (conditionally)
         const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
 
+        // access the "Clear Translation Selection" control for this memory verse
+        const clearTranslationSelectionButton = memoryVerseDiv.querySelector("button");
+
         // access all the translation divs for this memory verse
         const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
 
@@ -255,14 +258,20 @@ if (!window.fw) { // only expand this module once (conditionally)
         if (!activeTranslation) {
           activeTranslation = fwSettings.getBibleTranslation();
 
+          // inactivate the "Clear Translation Selection" control when NO selection has been made
+          clearTranslationSelectionButton.style.display = "none";
+
           // insure the User Settings Translation has been configured for this specific memory verse
           // ... if not: fallback fallback TO: the first translation available for this memory verse
           if (!memoryVerseTranslations.includes(activeTranslation)) { 
             activeTranslation = memoryVerseTranslations[0];
           }
-
-          // ?? TODO: we can keep track of this to set the selector's NEW entry ... EX: ESV (via User Settings default translation)
         }
+        else {
+          // activate the "Clear Translation Selection" control when a selection has been made
+          clearTranslationSelectionButton.style.display = "inline";
+        }
+
         log(`our activeTranslation: ${activeTranslation}`);
 
         // force the <select> to the desired translation (from our state)
