@@ -1001,7 +1001,7 @@ function memorizeVerse(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {ref:scriptRef, label, text, ...unknownNamedArgs} = namedParams;
+  const {ref:scriptRef, label, context, text, ...unknownNamedArgs} = namedParams;
 
   // ... ref
   checkParam(scriptRef,           'ref is required');
@@ -1015,6 +1015,11 @@ function memorizeVerse(namedParams={}) {
   // ... label
   checkParam(label,           'label is required');
   checkParam(isString(label), 'label must be a string (the scripture label)');
+
+  // ... context (optional)
+  if (context) {
+    checkParam(isString(context), 'context (when supplied) must be a string (a short context of the scripture)');
+  }
 
   // ... text
   checkParam(text,                'text object is required');
@@ -1098,6 +1103,11 @@ function memorizeVerse(namedParams={}) {
 
   // end of initial paragraph
   content += `</p>`;
+
+  // add the context, when supplied (a short context of the scripture)
+  if (context) {
+    content += `<p class="indent"><i>${context}</i></p>`;
+  }
 
   // generate all our translation divs
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
