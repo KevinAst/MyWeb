@@ -140,6 +140,8 @@
         "QA2024WedURL":       "https://www.youtube.com/watch?v=as2EfOBqDqM",
       "MySmallGroup":       "[My Small Group](/MySmallGroup.md)",
 
+    "Memorization":      "[Memorization](/Memorization.md)",
+
     "TheChosen":         "[The Chosen](/TheChosen.md)",
       "TCOverview":        "[The Chosen Overview](/TheChosen.md#overview)",
       "TCUsage":           "[The Chosen Usage](/TheChosen.md#usage)",
@@ -158,6 +160,7 @@
     "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",
     "SpokenGospel":      "[Spoken Gospel](https://www.spokengospel.com/)",
+    "EyeWitness":        "[Eye Witness](https://eyewitnessbible.org/)",
     "CornerstoneChapel": "[Cornerstone Chapel](https://cornerstonechapel.net/)",
     "FBM":               "[First Baptist Maryville](https://fbmaryville.org/)"
   }

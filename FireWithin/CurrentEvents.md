@@ -18,6 +18,7 @@ M{ sermonSeries({
     { id: `20210117`, sermon: `For the Love of Children`, scripture: `mat.18@@Matthew 18-19`,   },
     { id: `20220123`, sermon: `The Value of Life`,        scripture: `psa.103@@Psalm 103:2-4`,  studyGuide: `NONE`, },
     { id: `20221113`, sermon: `LIFE Principles`,                                                studyGuide: `NONE`, extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`, },
+    { id: `20250122`, sermon: `A Conversation with Seth Gruber and Pastor Gary Hamrick`,        studyGuide: `NONE`, extraLinkInScriptureCell: `https://sethgruber.com//@@Seth Gruber` },
   ]
 }) }M
 
@@ -55,7 +56,7 @@ M{ sermonSeries({
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
     { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
     { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
-
+    { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalm 146`,          studyGuide: `NONE`  },
   ]
 }) }M
 

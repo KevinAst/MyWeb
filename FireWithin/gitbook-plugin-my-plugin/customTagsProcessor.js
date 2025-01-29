@@ -192,6 +192,7 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
+  memorizeVerse,
   inject,
   userName,
   userEmail,
@@ -957,6 +958,174 @@ function processDateEntry(date) {
     crLf = '<br/>'; // subsequent entries have a cr/lf
   });
 
+  return content;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* memorizeVerse(namedParams)
+//* 
+//* Inject the html to render a scripture verse to memorize, including
+//* all the controls (completion checkbox, verse link, translation
+//* selector, verse text, and audio playback controls).
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes all aspects of the memory verse.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag: TODO: ?? eventually this will be a P{ tag
+//*   M{ memorizeVerse(`{ ton-of-options-see-README }`) }M
+//* 
+//* Replaced With:
+//*   <div data-memory-verse="luk.9.23-24" id="luk_9_23-24"> ... container (used as top-level entry, linkable by TOC)
+//*     distinguishing visual section break (horizontal line)
+//*     <p>
+//*       completed checkbox
+//*       verse link
+//*       translation selector
+//*     </p>
+//*     <!-- many translation divs (under data-memory-verse div) ... only ONE visible at a time -->
+//*     <div class="indent" data-memory-verse-translation="NLT" style="display: none;">`; ... NLT: sample translation
+//*       verse text
+//*       audio playback controls
+//*     </div>
+//*     ... snip snip: more translation divs
+//*   </div>
+//*-----------------------------------------------------------------------------
+function memorizeVerse(namedParams={}) {
+
+  // parameter validation
+  const self       = `memorizeVerse(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {ref:scriptRef, label, context, text, ...unknownNamedArgs} = namedParams;
+
+  // ... ref
+  checkParam(scriptRef,           'ref is required');
+  checkParam(isString(scriptRef), 'ref must be a string (the scripture reference code [YouVersion format])');
+  // ... must be alpha numeric with "." and "-"
+  checkParam(/^[a-zA-Z0-9.-]+$/.test(scriptRef), `ref ('${scriptRef}') is NOT a valid YouVersion format (it can only contain alpha numeric characters, with a '.' and '-' ... EX: 'luk.9.23-24')`);
+
+  // our internal "sanitized" scriptRef (translating "." <--> "_") making it suitable to be used in DB and DOM ids
+  const scriptRefSanitized = scriptRef.replace(/\./g, "_");
+
+  // ... label
+  checkParam(label,           'label is required');
+  checkParam(isString(label), 'label must be a string (the scripture label)');
+
+  // ... context (optional)
+  if (context) {
+    checkParam(isString(context), 'context (when supplied) must be a string (a short context of the scripture)');
+  }
+
+  // ... text
+  checkParam(text,                'text object is required');
+  checkParam(isPlainObject(text), 'text must be an object object with scripture text for given translations (the object keys)');
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // extract -and- validate individual translation keys (each key is the translation)
+  const textKeys = Object.keys(text);
+
+  // ... at minimum, must have one scripture text
+  checkParam(textKeys.length > 0, `at least one translation scripture text must be supplied ... ex: text: { NLT: '... scripture text here' }`);
+
+  const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV'];
+
+  // ... validate the supplied translations (the textKeys)
+  const translationKeys = textKeys.map(key => {
+
+    // ... the translationKey must be a well known supported value
+    checkParam(supportedTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${supportedTranslations}`);
+
+    // ... the text entry must be supplied as a string
+    const scriptureText = text[key];
+    checkParam(scriptureText,           `the text.${key} value must be supplied`);
+    checkParam(isString(scriptureText), `the text.${key} value must be a string (the scripture text for a given translation`);
+
+    // continue iteration
+    return key;
+  });
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // starting container (used as top-level entry, linkable by TOC)
+  // NOTE: TOC links to this top-level item generates obsecure gitbook theme.js error (reading property of undefined (invoking split())
+  //       - I have seen this before
+  //       - unsure what it is, but I can't seem to fix
+  //       - just live with it :-(
+  content += `<div data-memory-verse="${scriptRef}" id="${scriptRefSanitized}">`;
+
+  // distinguishing visual section break (horizontal line) - solid grey centered (auto) 70% wide with rounded corners
+  content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
+
+  // expose the context, when supplied (a short context of the scripture)
+  if (context) {
+    content += `<p class="indent" style="text-align: center;"><i>${context}</i></p>`;
+  }
+
+  // scripture paragraph
+  content += `<p>`;
+
+  // completed checkbox
+  content += completedCheckBox(`verseMemorized-${scriptRefSanitized}`); // ... added "verseMemorized-" prefix, so as to NOT conflict with top-level ID
+
+  // verse link
+  // NOTE 1: We do NOT use bibleLink(ref) because THIS link is NOT controlled by the 
+  //         dynamic behavior of bible translations directed from global user settings
+  //         RATHER it is a specific translation
+  // NOTE 2: The link href parameter is set at run-time (see: syncUIMemoryVerseTranslation() in fw.js)
+  content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
+  
+  // translation selector
+  content += `<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
+
+  translationKeys.forEach(translationKey => {
+    content += `<option value="${translationKey}">${translationKey}</option>`;
+  });
+  content += `</select>`;
+
+  // add control to clear the memory verse selection
+  content += `&nbsp;&nbsp;<button type="button" data-script-ref-sanitized="${scriptRefSanitized}" onclick="fw.clearMemoryVerseTranslation(event)">Clear Selection</button>`;
+
+  // end of initial paragraph
+  content += `</p>`;
+
+  // generate all our translation divs
+  content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
+  translationKeys.forEach(translationKey => {
+    content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
+    content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
+    content +=   `<audio controls loop onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
+    content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
+    content +=     `audio NOT supported by this browser :-(`;
+    content +=   `</audio>`;
+    content +=   `<p>&nbsp;</p>`;
+    content += `</div>`;
+  });
+
+  // ending container
+  content += `</div>`;
+
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
 

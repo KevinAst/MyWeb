@@ -47,6 +47,10 @@ import {fwUser} from './fwAuth.js';
 // ... state-related-completions
 import {fwCompletions} from './fwCompletions.js';
 
+// our memoryVerseTranslation state singleton object (ALWAYS up-to-date)
+// ... state-related-completions
+import {fwMemoryVerseTranslation} from './fwMemoryVerseTranslation.js';
+
 // our settings state singleton object (ALWAYS up-to-date)
 // ... state-related-settings
 import {fwSettings} from './fwSettings.js';
@@ -78,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '23.0';
+    const CUR_VER = '24.0';
 
 
     //***************************************************************************
@@ -138,6 +142,221 @@ if (!window.fw) { // only expand this module once (conditionally)
       // retain this change in our state
       // ... handles persistance/reflection automatically
       fwCompletions.setComplete(completionElm.id, completionElm.checked);
+    }
+
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to Audio Controls
+    //***************************************************************************
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: stopAudioPlayback
+    //* 
+    //* Stop the supplied audioElm playback.
+    //*
+    //* PARMS:
+    //*   audioElm: The <audio> element to stop playback on
+    //* 
+    //*--------------------------------------------------------------------------
+    function stopAudioPlayback(audioElm) {
+      const log = logger(`${logPrefix}:stopAudioPlayback()`);
+      log(`stopping <audio> control from playing`);
+
+      audioElm.pause();         // pause the audio
+      audioElm.currentTime = 0; // reset playback to the start
+    }
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.preventConcurrentAudioPlayback(currentAudioElm)
+    //* 
+    //* Event handler that stops ALL current page <audio> playback except the
+    //* supplied currentAudioElm
+    //* 
+    //* PARMS:
+    //*   currentAudioElm: The <audio> element that has just started to play it's audio.
+    //*
+    //*--------------------------------------------------------------------------
+    fw.preventConcurrentAudioPlayback = function(currentAudioElm) {
+      // get all <audio> elements on our page
+      const audioElms = document.querySelectorAll('audio');
+
+      // pause all other audio elements
+      audioElms.forEach(audioElm => {
+        if (audioElm !== currentAudioElm) {
+          stopAudioPlayback(audioElm);
+        }
+      });
+    }
+
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
+    //***************************************************************************
+    //***************************************************************************
+    
+    // register reflective code that syncs our UI on memoryVerseTranslation changes
+    // ... state-related-memoryVerseTranslation
+    fwMemoryVerseTranslation.onChange(syncUIMemoryVerseTranslation);
+    
+    //*--------------------------------------------------------------------------
+    //* INTERNAL: syncUIMemoryVerseTranslation()
+    //* 
+    //* Synchronize ALL the memoryVerseTranslation selections on the current page 
+    //* to reflect our current "memoryVerseTranslations" state.
+    //* 
+    //* This function is "poor mans" reflexive synchronization process
+    //* ... a sledge hammer if you will
+    //* ... the overhead is still VERY LOW (responsiveness is excellent)
+    //* 
+    //* It is automatically invoked for:
+    //*  - page navigation (GitBook page change) ... see: fw.pageSetup()
+    //*  - memoryVerseTranslation state changes  ... see: fwMemoryVerseTranslation.onChange()
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation
+    function syncUIMemoryVerseTranslation(key) { // NOTE: `key` param NOT USED: we sync ALL refs on a page.
+                                                 //       There are some dupliate hidden sections used in our responsive technique
+      const log = logger(`${logPrefix}:syncUIMemoryVerseTranslation()`);
+
+      // determine if this page containsReflectiveMemorizationData
+      const containsReflectiveMemorizationData = document.getElementById("ContainsReflectiveMemorizationData") !== null;
+      if (!containsReflectiveMemorizationData) {
+        log(`this page DOES NOT containsReflectiveMemorizationData ... no-oping`);
+        return;
+      }
+
+      log(`processing page that containsReflectiveMemorizationData`);
+
+      // access all of our top-level memory-verse elements
+      // ... <div> elements with the 'data-memory-verse' attribute
+      const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
+
+      // process each memory verse
+      memoryVerseDivs.forEach(memoryVerseDiv => {
+        const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
+        const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
+        log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
+
+        // access the "Clear Translation Selection" control for this memory verse
+        const clearTranslationSelectionButton = memoryVerseDiv.querySelector("button");
+
+        // access all the translation divs for this memory verse
+        const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
+
+        // glean all the translations available for this memoryVerse
+        // ... EX: ['NLT', 'NKJV', ... ]
+        // ... NOTE: the spread syntax below [...translationDivs] converts to an array, so we can use the map() method
+        const memoryVerseTranslations = [...translationDivs].map(translationDiv => translationDiv.dataset.memoryVerseTranslation);
+
+        // resolve the desired translation for this verse
+        // ... fetch the selected translation for this verse (if any)
+        let activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
+        // ... when NO verse-specific translation has been explicity set,
+        //     fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+        if (!activeTranslation) {
+          activeTranslation = fwSettings.getBibleTranslation();
+
+          // inactivate the "Clear Translation Selection" control when NO selection has been made
+          clearTranslationSelectionButton.style.display = "none";
+
+          // insure the User Settings Translation has been configured for this specific memory verse
+          // ... if not: fallback fallback TO: the first translation available for this memory verse
+          if (!memoryVerseTranslations.includes(activeTranslation)) { 
+            activeTranslation = memoryVerseTranslations[0];
+          }
+        }
+        else {
+          // activate the "Clear Translation Selection" control when a selection has been made
+          clearTranslationSelectionButton.style.display = "inline";
+        }
+
+        log(`our activeTranslation: ${activeTranslation}`);
+
+        // force the <select> to the desired translation (from our state)
+        // ... obtain the selector under this memoryVerseDiv
+        const memoryVerseSelector = memoryVerseDiv.querySelector('select');
+        // ... set it's value to the desired translation
+        memoryVerseSelector.value = activeTranslation;
+
+        // change scripture link to the desired translation
+        // ... obtain the scripture link
+        const memoryVerseLink = memoryVerseDiv.querySelector('a');
+        // ... set it's href value
+        memoryVerseLink.href = fwSettings.constructBibleURL(memoryVerseScriptRef, activeTranslation);
+
+        // manage the visibility of the subordinate "translation" <div>'s
+        // ... only one visible at a time (base on the verse's translation state
+        translationDivs.forEach(translationDiv => {
+          // obtain the translation of this translationDiv
+          const divsTranslation = translationDiv.dataset.memoryVerseTranslation;
+
+          log(`processing divsTranslation: ${divsTranslation}`);
+
+          // show/hide div base on if it is our active translation
+          if (divsTranslation === activeTranslation) {
+            translationDiv.style.display = 'block'; // or 'flex', 'inline', etc., depending on your layout
+            log(`SHOWING: ${divsTranslation}`);
+          }
+          else {
+            translationDiv.style.display = 'none';
+          }
+        });
+
+      });
+    }
+    
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.handleMemoryVerseTranslationChange(translationSelectionElm)
+    //* 
+    //* Event handler that retains changes to our memoryVerseTranslation state
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation:
+    fw.handleMemoryVerseTranslationChange = function(event) {
+      const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
+
+      const selectElm      = event.target;
+      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is dedicated to this context
+      const translation    = selectElm.value; // our translation value is the selected translation
+
+      log(`retaining state for memory verse translation: `, {memoryVerseKey, translation});
+
+      // retain this change in our state
+      // ... handles persistance/reflection automatically
+      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
+
+      // stop any audio playback within this scripture reference
+      // BECAUSE a change of translation will hide all other translations (one of which may be playing)
+
+      // ... locate the scriptureContainerElm (a grandparent <div> of our selectElm)
+      const scriptureContainerElm = selectElm.parentElement.parentElement;
+
+      // ... iterate over ALL <audio> elements within this scripture, stopping their playback
+      const audioElements = scriptureContainerElm.querySelectorAll("audio");
+      audioElements.forEach((audioElm) => {
+        stopAudioPlayback(audioElm);
+      });
+    }
+
+    
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.clearMemoryVerseTranslation(translationSelectionElm)
+    //* 
+    //* Event handler that clears the our memoryVerseTranslation state for a given memory verse.
+    //*--------------------------------------------------------------------------
+    // ... state-related-memoryVerseTranslation:
+    fw.clearMemoryVerseTranslation = function(event) {
+      const log = logger(`${logPrefix}:clearMemoryVerseTranslation()`);
+
+      const selectElm      = event.target;
+      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our activation elm (data-script-ref-sanitized attribute) - which is dedicated to this context
+
+      log(`deleting entry for "${memoryVerseKey}"`);
+
+      // delete the memoryVerseKey
+      // ... handles persistance/reflection automatically
+      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, ''); // ... poor man delete, setting value to '' (which evaluates to an "iffy" false)
     }
 
 
@@ -367,18 +586,10 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*--------------------------------------------------------------------------
     fw.alterBibleVerseLink = function(e, scriptureRef) {
       const log = logger(`${logPrefix}:alterBibleVerseLink()`);
-      
-      // extract the bibleTranslation from our settings (User Preferences)
-      // ... state-related-settings:
-      const bibleTranslation     = fwSettings.getBibleTranslation();     // ex: 'NLT'
-      const bibleTranslationCode = fwSettings.getBibleTranslationCode(); // ex: '116'
-      
+
       // define the full URL
-      // EX: https://bible.com/bible/111/mrk.1.2.NIV
-      //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .NIV)
-      //           ... it is functionally redundent of the bibleTranslationCode
-      const url = `https://bible.com/bible/${bibleTranslationCode}/${scriptureRef.trim()}.${bibleTranslation}`;
-      
+      const url = fwSettings.constructBibleURL(scriptureRef); // use translation defined in fwSettings (because 2nd param [translation] is NOT specified)
+
       // overwrite the href of the invoking <a> tag
       // NOTE: because e.preventDefault() is not used, the browser
       //       will open the link in a new tab based on the updated href
@@ -656,6 +867,10 @@ if (!window.fw) { // only expand this module once (conditionally)
       // reflect change on sign-out confirmation (settings.md)
       // ... state-related-settings
       syncSyncDeviceStoreOnSignOutChanges();
+
+      // sync aspects of the Memorization page (Memorization.md)
+      // ... state-related-memoryVerseTranslation
+      syncUIMemoryVerseTranslation();
     }
 
     //*************************************

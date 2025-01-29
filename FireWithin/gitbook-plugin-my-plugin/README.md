@@ -12,6 +12,7 @@
   - [studyGuideLink()]
   - [bibleLink()]
   - [sermonSeries()]
+  - [memorizeVerse()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -121,6 +122,7 @@ The following **Custom Tags** are available:
 - [studyGuideLink()]
 - [bibleLink()]
 - [sermonSeries()]
+- [memorizeVerse()]
 
 
 ### zoomableImg()
@@ -440,6 +442,95 @@ M{ sermonSeries({
   ]
 }) }M
 ```
+ 
+### memorizeVerse()
+
+**API**: `memorizeVerse(namedParams)`
+
+Inject the html to render a scripture verse to memorize, including all
+the controls (completion checkbox, verse link, translation selector,
+verse text, and audio playback controls).
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes all aspects of the memory verse.
+
+  ```js
+  {
+    ref:   `luk.9.23-24`,     // scripture reference code (YouVersion format)
+                              // NOTE: the linkable TOC entry id is: "luk_9_23-24"
+                              //       see NOTE (below)
+                              //       EX Link: [Luke 9:23-24](#luk_9_23-24)
+    label: `Luke 9:23-24`,    // scripture label
+    text: {                   // scripture text for given translation: 
+                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV
+                              // - order specifies selection control order
+                              // - not all translations are required - each memory verse
+                              //   can have a different translation selection
+                              // - DEFAULT: When NO translation is selected:
+                              //            - we use the User Settings Default Translation
+                              //            - if that translation is NOT supported by
+                              //              this memory verse, we use the first translation
+                              //              defined in this definition (i.e. here)
+      NLT:  `NLT text here`,
+      NKJV: `NKJV text here`,  
+      ESV:  `ESV text here`,
+      CSB:  `CSB text here`,
+      KJV:  `KJV text here`,
+      NIV:  `NIV text here`,
+    },
+  }
+  ```
+
+**NOTES**:
+
+- It is implied that you supply audio playback files (in the
+  FireWithin/Memorization/ directory).  One file is needed for
+  every ref/text combination.  For example:
+
+  ```
+  FireWithin/
+    Memorization/
+      luk.9.23-24.NLT.m4a
+      ... etc.
+  ```
+
+  For consistancy, record each audio file with following speech pattern:
+  - scripture reference - EX: "Luke 9, 23 and 24"
+  - version - EX: "From the New Living Testament" 
+  - text - EX: "And he said to all ... snip snip"
+  - scripture reference (repeated)
+
+- Internally, the scripture reference code is morphed ever so slightly in two areas:
+  * HTML DOM IDs
+  * State Keys
+
+  In essence the period (".") is changed to an underscore ("_") for
+  the two cases above.
+
+  ```
+  "_" <--> "."
+
+  ```
+
+  As an example, a `luk.9.23-24` reference is morphed into `luk_9_23-24`.
+
+  For the most part, this is an internal detail.  However, you need to
+  be aware of this:
+
+  - if you are reviewing state content (either in Local Storage, or
+    the Firebase DB)
+
+  - or if you wish to generate an html reference TOC link to the
+    generated scripture verse
+
+  This is done to provide valid identifiers that can be used for the
+  two cases highlighted above.  For example, Firebase DB keys cannot
+  contain: ".", "#", "$", "/", "[", "]".  A different list of
+  characters are invalid for HTML DOM IDs.  The underscore ("_") is
+  valid in both cases, and not a character that would appear in the
+  YouVersion scripture reference code ... so it was selected on that
+  basis.
 
 
 
@@ -541,6 +632,7 @@ attempted it.  It would require some additional research, for example:
   [studyGuideLink()]:     #studyguidelink
   [bibleLink()]:          #biblelink
   [sermonSeries()]:       #sermonseries
+  [memorizeVerse()]:      #memorizeverse
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
 [GitBook Docs]:   #gitbook-docs
