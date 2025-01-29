@@ -42,24 +42,25 @@ For each passage:
 - As always, you can _**track your progress by checking the completion
   box next to the passages you've memorized!**_
 
-- ?? OLD: The [Navigators'](https://www.navigators.org/) approach to scripture
-  memorization involves reciting the scripture reference both before
-  and after the passage. _**It's important not to forget the
-  'address'!**_ :-) However, because our audio playback automatically
-  loops, this effect has been implicitly achieved. As a result, the
-  audio only announces the reference at the beginning _(along with the
-  Bible translation)_.
+- The audio recordings follow the
+  [Navigators'](https://www.navigators.org/) approach to Scripture
+  memorization, which involves reciting the Scripture reference both
+  before and after the passage. _**Remembering the 'address' is
+  important!**_ :-)
 
-- Regarding the audio playback: 
+  Additionally, I find that including a brief **context phrase** can
+  serve as a helpful hint for remembering the Scripture passage. For
+  example, the phrase _"Paul's parting instruction to the church at
+  Philippi"_ reminds us that this passage appears at the end of
+  Philippians … _**Ding, ding, ding!**_ … that’s **Philippians 4:8!**  
 
-  * I follow the [Navigators'](https://www.navigators.org/) approach
-    to Scripture memorization, which involves reciting the Scripture
-    reference both before and after the passage. _**Remembering the
-    'address' is important!**_ :-)
+  As a result, each audio recording will include the following elements:  
 
-  * Additionally, I find it helpful to include a brief context of the
-    Scripture _(in the first reference)_ and specify the translation
-    used _(in the second reference)_.
+  - **Context** (e.g., _Paul's parting instruction to the church at Philippi_)  
+  - **Scripture Reference** (e.g., _Philippians 4:8_)  
+  - **Translation** (e.g., _New Living Translation_)  
+  - **Scripture Passage** (recited in the selected translation)  
+  - **Scripture Reference (repeated** – per recommendation of The Navigators)
 
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
@@ -88,14 +89,14 @@ Lord Bless You!
 M{ memorizeVerse({
   ref:     `luk.9.23-24`,
   label:   `Luke 9:23-24 (Discipleship)`,
-  context: `Jesus delineates a true Christian`,
+  context: `Jesus highlights the importance of submission`,
   text: {
-    NIV:  `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
-    ESV:  `And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it."`,
     NLT:  `Then he said to the crowd, "If any of you wants to be my follower, you must give up your own way, take up your cross daily, and follow me. If you try to hang on to your life, you will lose it. But if you give up your life for my sake, you will save it."`,
     NKJV: `Then He said to them all, "If anyone desires to come after Me, let him deny himself, and take up his cross daily, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake will save it."`,  
     KJV:  `And he said to them all, "If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it."`,
+    ESV:  `And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it."`,
     CSB:  `Then he said to them all, "If anyone wants to follow after   me, let him deny himself,   take up his cross daily,   and follow me.   For whoever wants to save his life will lose it, but whoever loses his life because of me will save it."`,
+    NIV:  `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
   },
 }) }M
 
@@ -136,12 +137,12 @@ M{ memorizeVerse({
   label:   `Philippians 4:8 (ChristianLiving)`,
   context: `Paul's parting instruction to the Church at Philippi`,
   text: {
-    NIV:  `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
-    ESV:  `Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.`,
     NLT:  `And now, dear brothers and sisters, one final thing. Fix your thoughts on what is true, and honorable, and right, and pure, and lovely, and admirable. Think about things that are excellent and worthy of praise.`,
     NKJV: `Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things.`,  
     KJV:  `Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.`,
+    ESV:  `Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.`,
     CSB:  `Finally  brothers and sisters, whatever is true,  whatever is honorable,  whatever is just,  whatever is pure,  whatever is lovely, whatever is commendable — if there is any moral excellence  and if there is anything praiseworthy — dwell on these things.`,
+    NIV:  `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
   },
 }) }M
 
@@ -159,7 +160,7 @@ in trouble.
 Instead, we should "_take every thought captive to obey Christ_"
 [2 Corinthians 10:5 ESV](https://bible.com/bible/59/2co.10.5.ESV).
 
-In M{ bibleLink(`php.4.8@@2 Philippians 4:8`) }M, the Apostle Paul
+In M{ bibleLink(`php.4.8@@Philippians 4:8`) }M, the Apostle Paul
 teaches us how to begin taking every thought captive.
 
 Next time you have a thought you can ask:

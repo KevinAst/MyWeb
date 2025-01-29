@@ -1077,7 +1077,12 @@ function memorizeVerse(namedParams={}) {
   // distinguishing visual section break (horizontal line) - solid grey centered (auto) 70% wide with rounded corners
   content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
 
-  // initial paragraph
+  // expose the context, when supplied (a short context of the scripture)
+  if (context) {
+    content += `<p class="indent" style="text-align: center;"><i>${context}</i></p>`;
+  }
+
+  // scripture paragraph
   content += `<p>`;
 
   // completed checkbox
@@ -1103,11 +1108,6 @@ function memorizeVerse(namedParams={}) {
 
   // end of initial paragraph
   content += `</p>`;
-
-  // add the context, when supplied (a short context of the scripture)
-  if (context) {
-    content += `<p class="indent"><i>${context}</i></p>`;
-  }
 
   // generate all our translation divs
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
