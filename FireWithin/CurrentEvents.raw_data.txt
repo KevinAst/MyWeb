@@ -31,6 +31,15 @@ none
 studyGuide: `NONE`,
 extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`
 
+01/22/2025
+A Conversation with Seth Gruber and Pastor Gary Hamrick
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://sethgruber.com//@@Seth Gruber`
+
 
 *----------------------------
 * Marriage & Divorce
@@ -79,6 +88,14 @@ Singleness, Marriage, Sex, and Divorce
 *----------------------------
 
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+01/19/2025
+Donald Trump, the Church, and Israel
+Psalm 146
+psa.146
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
 
 10/30/2024
 Night of Prayer for the 2024 Elections
