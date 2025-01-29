@@ -110,5 +110,6 @@ M{ sermonSeries({
     { id: `20241113`, scripture: `1ki.14@@1 Kings 14`,          },
     { id: `20241120`, scripture: `1ki.15@@1 Kings 15 & 16`,     },
     { id: `20241204`, scripture: `1ki.17@@1 Kings 17 & 18`,     },
+    { id: `20250115`, scripture: `1ki.19@@1 Kings 19`,          },
   ]
 }) }M

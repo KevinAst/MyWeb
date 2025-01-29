@@ -77,8 +77,11 @@ Release           | What                 | *When*
 <br/>
 
 - Added new {{book.Memorization}} page.
-<!-- - ?? Update Current {{book.2Corinthians}} Series (Sundays) -->
-
+- Update Current {{book.2Corinthians}} Series (Sundays)
+- Update Current {{book.1Kings}} Series (Mid Week)
+- Added 2025 entries under {{book.SpecialEvents}} / {{book.CurrentEvents}} for:
+  * {{book.Life}}
+  * {{book.ElectionDaySermons}}
 
 <!-- ************************************************************* -->
 <br/>
