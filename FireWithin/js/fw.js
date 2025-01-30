@@ -229,6 +229,17 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       log(`processing page that containsReflectiveMemorizationData`);
 
+      // glean all MemoryVerse run-time state that is held in our html
+      // ... this state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
+      //     BECAUSE this state WILL NOT CHANGE!
+      if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
+        log(`creating fw.memoryVerseState (only once)`);
+        fw.memoryVerseState = {
+          myTempTest: `?? TEST STATE GATHERED ONE TIME ONLY!!`,
+        }
+      }
+      log(`using fw.memoryVerseState: ${fw.memoryVerseState.myTempTest}`);
+
       // access all of our top-level memory-verse elements
       // ... <div> elements with the 'data-memory-verse' attribute
       const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
