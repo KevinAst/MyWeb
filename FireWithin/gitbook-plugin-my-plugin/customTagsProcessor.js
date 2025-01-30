@@ -1109,6 +1109,13 @@ function memorizeVerse(namedParams={}) {
   // end of initial paragraph
   content += `</p>`;
 
+  // ?? quick-and-dirty test to see how much space is used (on cell phone) if the translation selector were buttons
+  content += `<p class="indent" style="text-align: center;">`;
+  translationKeys.forEach(translationKey => {
+    content += `&nbsp;<button type="button">${translationKey}</button>`;
+  });
+  content += `</p>`;
+
   // generate all our translation divs
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
