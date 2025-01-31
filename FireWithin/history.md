@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 1, 2025*
 [v24.0](#v24_0)   | Memorize God's Word & more              | *Jan 29, 2025*
 [v23.0](#v23_0)   | Questions and Answers & more            | *Jan 7, 2025*
 [v22.7](#v22_7)   | Update Current Sermon Series            | *Jan 1, 2025*
@@ -67,6 +68,16 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.1 - Memorization Page Enhancements & more <i>(Feb 1, 2025)</i>
+</h3>
+<br/>
+
+- Enhanced {{book.Memorization}} page as follows:
+  * ??
 
 
 <!-- ************************************************************* -->
