@@ -1115,29 +1115,22 @@ function memorizeVerse(namedParams={}) {
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
   // translation selector
-  content += `<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
-
+  // ... keep center/not in sync with <audio> ... centered inline: style="justify-content: center;"  (HACK: add data-style= to disable it)
+  content += `<p class="indent radio-memory-verse-translation" style="justify-content: center;" data-script-ref-sanitized="${scriptRefSanitized}">`;
   translationKeys.forEach(translationKey => {
-    content += `<option value="${translationKey}">${translationKey}</option>`;
-  });
-  content += `</select>`;
-
-  // end of initial paragraph
-  content += `</p>`;
-
-  // ?? quick-and-dirty test to see how much space is used (on cell phone) if the translation selector were buttons
-  content += `<p class="indent" style="text-align: center;">`;
-  translationKeys.forEach(translationKey => {
-    content += `&nbsp;<button type="button">${translationKey}</button>`;
+    // we use `name="NLT"` to make it unique, insuring single selection for GIVEN verse 
+    // ... suspect we can use this, and eliminate data-script-ref-sanitized in containing div (above)
+    content += `<label><input type="radio" name="${scriptRefSanitized}" value="${translationKey}"  onchange="fw.handleMemoryVerseTranslationChange(event)"><span>${translationKey}</span></label>`;
   });
   content += `</p>`;
 
   // generate all our translation divs
+  // ... keep center/not in sync with translation selector ... centered inline: style="display: block; margin: 0 auto;" (HACK: add data-style= to disable it)
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
-    content +=   `<audio controls loop onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
+    content +=   `<audio controls loop style="display: block; margin: 0 auto;" onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;

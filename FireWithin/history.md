@@ -78,7 +78,12 @@ Release           | What                 | *When*
 
 - Enhanced {{book.Memorization}} page as follows:
 
-  * removed memorization scripture entries from the LeftNav bar
+  * Improved the Scripture Translation selector to a horizontal list of
+    buttons, with a visual distinction for the selected translation.
+    This is an improved interface, as it allows the user to readily
+    see all the available translation - at a glance.
+
+  * Removed scripture entries from the LeftNav Bar "Memorization" section.
 
   * Added support to maintain Default Translations for each memory
     verse (allowing a Church Campaigns to specify a consistent version

@@ -95,3 +95,38 @@ audio {
   width:  350px;
   height:  25px;
 }
+
+
+/*** style Memory Verse Translation Radio (used in Memorization.md ***/
+.radio-memory-verse-translation {
+  display: flex; /* align horizontally */
+  gap:     5px;  /* spacing between options */
+}
+
+.radio-memory-verse-translation label {
+  cursor:        pointer;
+  border-radius: 5px;
+  transition:    background-color 0.3s, color 0.3s; /* smooth transition effect when the background color or text color changes */
+  user-select:   none; /* prevents text selection */
+}
+
+/* hide the default radio cicle */
+.radio-memory-verse-translation input[type="radio"] {
+  display: none;
+}
+
+/* style for ALL item text */
+.radio-memory-verse-translation span {
+  border:           2px solid black;
+  padding:          3px 3px;
+  background-color: #E0E0E0;
+  color:            #333333; 
+  font-weight:      bold;  /* text stand out */
+  border-radius:    5px;   /* rounded edges */
+}
+
+/* style for selected item text */
+.radio-memory-verse-translation input[type="radio"]:checked + span {
+  background-color: #555555; 
+  color:            white;
+}

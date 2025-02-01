@@ -323,11 +323,12 @@ if (!window.fw) { // only expand this module once (conditionally)
 
         log(`our activeTranslation: ${activeTranslation}`);
 
-        // force the <select> to the desired translation (from our state)
-        // ... obtain the selector under this memoryVerseDiv
-        const memoryVerseSelector = memoryVerseDiv.querySelector('select');
+        // force the <radio> to the desired translation (from our state)
+        // ... obtain the radio under this memoryVerseDiv
+        //                                  EX: querySelector('input[name="luk_9_23-24"][value="NLT"]').checked = true;
+        const memoryVerseRadio = memoryVerseDiv.querySelector(`input[name="${memoryVerseScriptRefSanitized}"][value="${activeTranslation}"]`);
         // ... set it's value to the desired translation
-        memoryVerseSelector.value = activeTranslation;
+        memoryVerseRadio.checked = true;
 
         // change scripture link to the desired translation
         // ... obtain the scripture link
@@ -365,9 +366,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     fw.handleMemoryVerseTranslationChange = function(event) {
       const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
 
-      const selectElm      = event.target;
-      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is dedicated to this context
-      const translation    = selectElm.value; // our translation value is the selected translation
+      const radioElm       = event.target;
+      const memoryVerseKey = radioElm.name;  // EX: "luk_9_23-24"
+      const translation    = radioElm.value; // EX: "NLT"
 
       log(`retaining state for memory verse translation: `, {memoryVerseKey, translation});
 
@@ -378,8 +379,8 @@ if (!window.fw) { // only expand this module once (conditionally)
       // stop any audio playback within this scripture reference
       // BECAUSE a change of translation will hide all other translations (one of which may be playing)
 
-      // ... locate the scriptureContainerElm (a grandparent <div> of our selectElm)
-      const scriptureContainerElm = selectElm.parentElement.parentElement;
+      // ... locate the scriptureContainerElm (a grandparent <div> of our radioElm)
+      const scriptureContainerElm = radioElm.parentElement.parentElement;
 
       // ... iterate over ALL <audio> elements within this scripture, stopping their playback
       const audioElements = scriptureContainerElm.querySelectorAll("audio");
