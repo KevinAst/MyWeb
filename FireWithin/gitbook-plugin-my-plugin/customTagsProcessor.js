@@ -1041,10 +1041,29 @@ function memorizeVerse(namedParams={}) {
   // ... at minimum, must have one scripture text
   checkParam(textKeys.length > 0, `at least one translation scripture text must be supplied ... ex: text: { NLT: '... scripture text here' }`);
 
-  const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV'];
+  const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV']; // ??## update for NEW ICB translation ... can we centralize this somewhere?
 
-  // ... validate the supplied translations (the textKeys)
+  // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
+  //     NOTE: When NO DEFAULT is is specified
+  //           - We fallback to FireWithin "Bible Translation" Settings (at runtime)
+  //             NOTE: If the run-time setting is NOT included
+  //                   in THIS Memory Verse, we use the FIRST Translation
+  //                   defined in THIS definition (i.e. here)
+  //                   ... done at runtime (in fw.js - syncUIMemoryVerseTranslation())
+  let defaultTranslation = '';
+
+  // ... validate the supplied translations (the textKeys) -AND- resolve the defaultTranslation (ending with a '*')
   const translationKeys = textKeys.map(key => {
+
+    if (key.endsWith("*")) { // entry ending with '*' represents the defaultTranslation
+      // prune the ending '*'
+      key = key.slice(0, -1);
+      // retain the defaultTranslation, after insuring multiple defaults ARE NOT defined
+      checkParam(defaultTranslation === '', `you may only specify ONE default translation (by suffixing the text object key with a "*" ... you have multiple in: ${textKeys}`);
+      defaultTranslation = key;
+      // morph the key/value pair in text[] array to the real key (without the * default semantics)
+      text[key] = text[`${key}*`]
+    }
 
     // ... the translationKey must be a well known supported value
     checkParam(supportedTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${supportedTranslations}`);
@@ -1072,7 +1091,7 @@ function memorizeVerse(namedParams={}) {
   //       - I have seen this before
   //       - unsure what it is, but I can't seem to fix
   //       - just live with it :-(
-  content += `<div data-memory-verse="${scriptRef}" id="${scriptRefSanitized}">`;
+  content += `<div id="${scriptRefSanitized}" data-memory-verse="${scriptRef}" data-default-translation="${defaultTranslation}">`;
 
   // distinguishing visual section break (horizontal line) - solid grey centered (auto) 70% wide with rounded corners
   content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
@@ -1102,9 +1121,6 @@ function memorizeVerse(namedParams={}) {
     content += `<option value="${translationKey}">${translationKey}</option>`;
   });
   content += `</select>`;
-
-  // add control to clear the memory verse selection
-  content += `&nbsp;&nbsp;<button type="button" data-script-ref-sanitized="${scriptRefSanitized}" onclick="fw.clearMemoryVerseTranslation(event)">Clear Selection</button>`;
 
   // end of initial paragraph
   content += `</p>`;

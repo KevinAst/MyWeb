@@ -463,21 +463,24 @@ verse text, and audio playback controls).
                               //       EX Link: [Luke 9:23-24](#luk_9_23-24)
     label: `Luke 9:23-24`,    // scripture label
     text: {                   // scripture text for given translation: 
-                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV
-                              // - order specifies selection control order
+                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV/ICB ??## NEW Translation to support
+                              // - entry order defines UI order
                               // - not all translations are required - each memory verse
                               //   can have a different translation selection
-                              // - DEFAULT: When NO translation is selected:
-                              //            - we use the User Settings Default Translation
-                              //            - if that translation is NOT supported by
-                              //              this memory verse, we use the first translation
-                              //              defined in this definition (i.e. here)
-      NLT:  `NLT text here`,
-      NKJV: `NKJV text here`,  
-      ESV:  `ESV text here`,
-      CSB:  `CSB text here`,
-      KJV:  `KJV text here`,
-      NIV:  `NIV text here`,
+                              // - DEFAULT: Specified by a "*" suffix (see below)
+                              //            ... allowing Church Campaigns to define
+                              //                a consistent version for the entire group
+                              //            When NO Default Translation is specified (i.e. NO "*"):
+                              //            - We fallback to FireWithin "Bible Translation" Settings (at runtime)
+                              //              NOTE: If the run-time setting is NOT defined
+                              //                    for THIS Memory Verse, we use the FIRST Translation
+                              //                    defined in THIS definition (i.e. here)
+      NLT:   `NLT text here`,
+      NKJV:  `NKJV text here`,  
+      ESV:   `ESV text here`,
+      CSB:   `CSB text here`,
+      KJV:   `KJV text here`,
+     "NIV*": `NIV text here`, // ... here NLT is defined as the DEFAULT (because of the "*")
     },
   }
   ```

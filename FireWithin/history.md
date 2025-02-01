@@ -77,7 +77,35 @@ Release           | What                 | *When*
 <br/>
 
 - Enhanced {{book.Memorization}} page as follows:
-  * ??
+
+  * removed memorization scripture entries from the LeftNav bar
+
+  * Added support to maintain Default Translations for each memory
+    verse (allowing a Church Campaigns to specify a consistent version
+    for their entire group).  This default specification is optional
+    (please refer to the next bullet point).
+
+  * Simplified default memory verse translation heuristics as follows:
+
+    When no explicit translation has selected by the user, the default
+    kicks in, as follows:
+
+    1. Honor any Default Translation specified in the verse's
+       definition (when defined).
+
+    2. Otherwise (when no default is defined for the verse): fallback to
+       the FireWithin "Bible Translation" Settings.
+
+       NOTE: If this translation has NOT been defined, for the specific
+       verse, we default to the 1st translation in the memory verse
+       definition.
+
+  * Eliminated the "Clear Selection" button (a confusing concept for the
+    user to grasp).
+
+  * ?? MORE
+
+- ?? any thing else?
 
 
 <!-- ************************************************************* -->

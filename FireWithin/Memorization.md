@@ -91,12 +91,12 @@ M{ memorizeVerse({
   label:   `Luke 9:23-24 (Discipleship)`,
   context: `Jesus highlights the importance of submission`,
   text: {
-    NLT:  `Then he said to the crowd, "If any of you wants to be my follower, you must give up your own way, take up your cross daily, and follow me. If you try to hang on to your life, you will lose it. But if you give up your life for my sake, you will save it."`,
-    NKJV: `Then He said to them all, "If anyone desires to come after Me, let him deny himself, and take up his cross daily, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake will save it."`,  
-    KJV:  `And he said to them all, "If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it."`,
-    ESV:  `And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it."`,
-    CSB:  `Then he said to them all, "If anyone wants to follow after   me, let him deny himself,   take up his cross daily,   and follow me.   For whoever wants to save his life will lose it, but whoever loses his life because of me will save it."`,
-    NIV:  `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
+    NLT:   `Then he said to the crowd, "If any of you wants to be my follower, you must give up your own way, take up your cross daily, and follow me. If you try to hang on to your life, you will lose it. But if you give up your life for my sake, you will save it."`,
+    NKJV:  `Then He said to them all, "If anyone desires to come after Me, let him deny himself, and take up his cross daily, and follow Me. For whoever desires to save his life will lose it, but whoever loses his life for My sake will save it."`,  
+    KJV:   `And he said to them all, "If any man will come after me, let him deny himself, and take up his cross daily, and follow me. For whosoever will save his life shall lose it: but whosoever will lose his life for my sake, the same shall save it."`,
+    ESV:   `And he said to all, "If anyone would come after me, let him deny himself and take up his cross daily and follow me. For whoever would save his life will lose it, but whoever loses his life for my sake will save it."`,
+    CSB:   `Then he said to them all, "If anyone wants to follow after   me, let him deny himself,   take up his cross daily,   and follow me.   For whoever wants to save his life will lose it, but whoever loses his life because of me will save it."`,
+   "NIV*": `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
   },
 }) }M
 
@@ -137,12 +137,12 @@ M{ memorizeVerse({
   label:   `Philippians 4:8 (ChristianLiving)`,
   context: `Paul's parting instruction to the Church at Philippi`,
   text: {
-    NLT:  `And now, dear brothers and sisters, one final thing. Fix your thoughts on what is true, and honorable, and right, and pure, and lovely, and admirable. Think about things that are excellent and worthy of praise.`,
-    NKJV: `Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things.`,  
-    KJV:  `Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.`,
-    ESV:  `Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.`,
-    CSB:  `Finally  brothers and sisters, whatever is true,  whatever is honorable,  whatever is just,  whatever is pure,  whatever is lovely, whatever is commendable — if there is any moral excellence  and if there is anything praiseworthy — dwell on these things.`,
-    NIV:  `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
+    NLT:   `And now, dear brothers and sisters, one final thing. Fix your thoughts on what is true, and honorable, and right, and pure, and lovely, and admirable. Think about things that are excellent and worthy of praise.`,
+    NKJV:  `Finally, brethren, whatever things are true, whatever things are noble, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report, if there is any virtue and if there is anything praiseworthy—meditate on these things.`,  
+    KJV:   `Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things.`,
+    ESV:   `Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.`,
+    CSB:   `Finally  brothers and sisters, whatever is true,  whatever is honorable,  whatever is just,  whatever is pure,  whatever is lovely, whatever is commendable — if there is any moral excellence  and if there is anything praiseworthy — dwell on these things.`,
+   "NIV*": `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
   },
 }) }M
 

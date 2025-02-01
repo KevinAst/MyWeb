@@ -226,32 +226,51 @@ if (!window.fw) { // only expand this module once (conditionally)
         log(`this page DOES NOT containsReflectiveMemorizationData ... no-oping`);
         return;
       }
-
       log(`processing page that containsReflectiveMemorizationData`);
-
-      // glean all MemoryVerse run-time state that is held in our html
-      // ... this state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
-      //     BECAUSE this state WILL NOT CHANGE!
-      if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
-        log(`creating fw.memoryVerseState (only once)`);
-        fw.memoryVerseState = {
-          myTempTest: `?? TEST STATE GATHERED ONE TIME ONLY!!`,
-        }
-      }
-      log(`using fw.memoryVerseState: ${fw.memoryVerseState.myTempTest}`);
 
       // access all of our top-level memory-verse elements
       // ... <div> elements with the 'data-memory-verse' attribute
       const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
+
+      // glean all MemoryVerse run-time state that is held in the MemoryVerse.md page
+      // ... this state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
+      //     BECAUSE this state WILL NOT CHANGE!
+      // >>> NO NO NO NO: DO NOT DO THIS:
+      //                  We need to access the <divs> each time we process this page, 
+      //                  ... so we can gean any state we need from the data attributes
+      //                  ... NO NEED TO COMPLICATE THINGS
+      //                  ... HOWEVER: KEEP THIS (COMMENTED OUT) - THE TECHNIQUE IS GOOD, IF WE EVER NEED IT
+      //if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
+      //  log(`creating fw.memoryVerseState (only once)`);
+      //
+      //  fw.memoryVerseState = {
+      //    // SAMPLE of what each memory verse contains
+      //    "luk_9_23-24": {      // indexed by: id
+      //      ref: 'luk.9.23-24', // scripture reference
+      //    }
+      //
+      //  }
+      //
+      //  // pull data out of our html and hold onto it
+      //  // ... process each memory verse
+      //  memoryVerseDivs.forEach(memoryVerseDiv => {
+      //    const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
+      //    const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
+      //
+      //    // see SAMPLE (above)
+      //    const mvEntry = fw.memoryVerseState[memoryVerseScriptRefSanitized] = {};
+      //    mvEntry.ref = memoryVerseScriptRef;
+      //
+      //    // glean more ...
+      //  });
+      //
+      //}
 
       // process each memory verse
       memoryVerseDivs.forEach(memoryVerseDiv => {
         const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
         const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
-
-        // access the "Clear Translation Selection" control for this memory verse
-        const clearTranslationSelectionButton = memoryVerseDiv.querySelector("button");
 
         // access all the translation divs for this memory verse
         const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
@@ -262,25 +281,44 @@ if (!window.fw) { // only expand this module once (conditionally)
         const memoryVerseTranslations = [...translationDivs].map(translationDiv => translationDiv.dataset.memoryVerseTranslation);
 
         // resolve the desired translation for this verse
-        // ... fetch the selected translation for this verse (if any)
+        // ... FIRST from the persistent state for this verse
+        //     IF ANY: will not exist on the FIRST TIME this verse is seen
         let activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
-        // ... when NO verse-specific translation has been explicity set,
-        //     fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+        // ... when NO verse-specific translation has been explicity set
         if (!activeTranslation) {
-          activeTranslation = fwSettings.getBibleTranslation();
 
-          // inactivate the "Clear Translation Selection" control when NO selection has been made
-          clearTranslationSelectionButton.style.display = "none";
+          // fallback to the verse-specific default (optionally specified within the definition of this memory verse)
+          activeTranslation = memoryVerseDiv.dataset.defaultTranslation;
 
-          // insure the User Settings Translation has been configured for this specific memory verse
+          // if NO verse-specific default has been specified
+          // ... fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+          if (!activeTranslation) {
+            activeTranslation = fwSettings.getBibleTranslation();
+          }
+
+          // insure the translation has been configured for this specific memory verse
           // ... if not: fallback fallback TO: the first translation available for this memory verse
+          //     NOTE: this happenswhen the User Settings Translation has NOT been defined for the memory verse
           if (!memoryVerseTranslations.includes(activeTranslation)) { 
             activeTranslation = memoryVerseTranslations[0];
           }
-        }
-        else {
-          // activate the "Clear Translation Selection" control when a selection has been made
-          clearTranslationSelectionButton.style.display = "inline";
+
+          // persist the activeTranslation ... so the user will never see it oscillate
+          // DO NOT DO THIS: CAUSING A LOT OF HAVOC THAT I CAN'T TOTALLY EXPLAIN
+          // ... see: temp.analyze.autoPersistMemoryVerseTranslation.txt
+          //          * when refreshing on the Memorization page
+          //            - we get an initial page load (presumably from GitBook)
+          //              WHERE we are getting FireBase retrievals of undefined
+          //              BAD: setting the values here is BAD ... it is a false indicator
+          //            - THEN there are subsequent page loads (again presumably from GitBook)
+          //              WHERE Firebase retrievals are working
+          //            - I suspect this is standard behavior, I just have never noticed it before
+          //          * SOLUTION: PUNT, and DO NOT ATTEMPT TO persist the activeTranslation
+          //            - Ramifications are NOT BIG: 
+          //              * IN VERY RARE CASES: User may just see some oscillation
+          //                - THEY WOULD HAVE TO BE CHANGING THEIR User Setting Translation
+          //                - AND THEY WOULD HAVE NEVER EXPLICITLY SET THE VERSE TRANSLATION
+       // fwMemoryVerseTranslation.setTranslation(memoryVerseScriptRefSanitized, activeTranslation);
         }
 
         log(`our activeTranslation: ${activeTranslation}`);
@@ -348,26 +386,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       audioElements.forEach((audioElm) => {
         stopAudioPlayback(audioElm);
       });
-    }
-
-    
-    //*--------------------------------------------------------------------------
-    //* PUBLIC: fw.clearMemoryVerseTranslation(translationSelectionElm)
-    //* 
-    //* Event handler that clears the our memoryVerseTranslation state for a given memory verse.
-    //*--------------------------------------------------------------------------
-    // ... state-related-memoryVerseTranslation:
-    fw.clearMemoryVerseTranslation = function(event) {
-      const log = logger(`${logPrefix}:clearMemoryVerseTranslation()`);
-
-      const selectElm      = event.target;
-      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our activation elm (data-script-ref-sanitized attribute) - which is dedicated to this context
-
-      log(`deleting entry for "${memoryVerseKey}"`);
-
-      // delete the memoryVerseKey
-      // ... handles persistance/reflection automatically
-      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, ''); // ... poor man delete, setting value to '' (which evaluates to an "iffy" false)
     }
 
 
