@@ -6,7 +6,7 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 ## At a Glance
 
 - [Overview](#overview)
-- [January](#january-flyer-for-25-in-25-campaign)
+- [January](#january)
   - M{ completedCheckBox(`verseMemorized-luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
   - M{ completedCheckBox(`verseMemorized-php_4_8`)     }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
 
@@ -100,7 +100,10 @@ P{ collapsibleSectionEnd() }P
 
 <hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
 
-### [January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign
+<span id="january"></span>
+
+_**[January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
 
