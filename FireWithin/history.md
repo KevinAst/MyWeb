@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 1, 2025*
+[v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 4, 2025*
 [v24.0](#v24_0)   | Memorize God's Word & more              | *Jan 29, 2025*
 [v23.0](#v23_0)   | Questions and Answers & more            | *Jan 7, 2025*
 [v22.7](#v22_7)   | Update Current Sermon Series            | *Jan 1, 2025*
@@ -72,7 +72,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v24_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v24.1 - Memorization Page Enhancements & more <i>(Feb 1, 2025)</i>
+  v24.1 - Memorization Page Enhancements & more <i>(Feb 4, 2025)</i>
 </h3>
 <br/>
 
@@ -83,7 +83,11 @@ Release           | What                 | *When*
     This is an improved interface, as it allows the user to readily
     see all the available translation - at a glance.
 
-  * Removed scripture entries from the LeftNav Bar "Memorization" section.
+  * The devotional content for each scripture can now be collapsed, by
+    using the **collapsible section** title as a toggle.  Collapsing
+    these sections helps keep the memory scriptures more prominent. Each
+    section is stateful, so when you return to the page, it will be just
+    as you left it.
 
   * Added support to maintain Default Translations for each memory
     verse (allowing a Church Campaigns to specify a consistent version
@@ -105,12 +109,10 @@ Release           | What                 | *When*
        verse, we default to the 1st translation in the memory verse
        definition.
 
-  * Eliminated the "Clear Selection" button (a confusing concept for the
-    user to grasp).
+  * Eliminated the "Clear Selection" button _(a confusing concept for the
+    user to grasp)_.
 
-  * ?? MORE
-
-- ?? any thing else?
+  * Removed scripture entries from the LeftNav Bar "Memorization" section.
 
 
 <!-- ************************************************************* -->

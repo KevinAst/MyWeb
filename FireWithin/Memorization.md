@@ -15,6 +15,11 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 This section contains selected scriptures that you may consider
 committing to memory.
 
+P{ collapsibleSection({
+  id:     'memVerseOverview',
+  label:  'Tell Me More',
+}) }P
+
 For me, this journey began in 2025, when my local church
 ({{book.FBM}}) launched a memorization campaign called **[25 in
 25](https://fbmaryville.org/25-in-25)** — aimed at memorizing 25
@@ -62,6 +67,17 @@ For each passage:
   - **Scripture Passage** (recited in the selected translation)  
   - **Scripture Reference (repeated** – per recommendation of The Navigators)
 
+
+- The devotional content for each scripture _(including this
+  discussion)_ is contained within a **collapsible section**. Click the
+  section title to expand or collapse it.
+  
+  Collapsing these sections helps keep the memory scriptures more
+  prominent.
+  
+  Each section is stateful, so when you return to the page, it will be
+  just as you left it.
+
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
 will be adding passages from that resource throughout the year.
@@ -76,6 +92,8 @@ at <span id="inquire"></span>
 
 Lord Bless You!
 <br/>**&lt;/Kevin&gt;**
+
+P{ collapsibleSectionEnd() }P
 
 
 <!-- *** NEW MONTH ******************************************************************************** -->
@@ -102,9 +120,10 @@ M{ memorizeVerse({
 
 P{ inject('<div class="indent">') }P
 
-**Application:**
-
-P{ inject('<div class="indent">') }P
+P{ collapsibleSection({
+  id:     'more_luk_9_23-24',
+  label:  'Additional Thoughts',
+}) }P
 
 If we want to have a new life (eternal life), we must deny ourselves
 and give up our lives (our own way of living) here on earth.
@@ -126,7 +145,8 @@ _**The Holy Spirit is our helper**_ in denying ourselves, taking up our
 cross daily, and following Jesus. Simply put, obedience is laying down
 what we want in order to trust that God knows better than we do.
 
-P{ inject('</div>') }P
+P{ collapsibleSectionEnd() }P
+
 P{ inject('</div>') }P
 
 
@@ -148,9 +168,10 @@ M{ memorizeVerse({
 
 P{ inject('<div class="indent">') }P
 
-**Application:**
-
-P{ inject('<div class="indent">') }P
+P{ collapsibleSection({
+  id:     'more_php_4_8',
+  label:  'Additional Thoughts',
+}) }P
 
 What we think about is important. We Often allow our minds
 to wander and end up in some pretty dark places. It's when
@@ -179,5 +200,6 @@ what to do.
 - _**Allow the Holy Spirit to lead you in truth**_ instead of your
   thoughts leading you into dark places.
 
-P{ inject('</div>') }P
+P{ collapsibleSectionEnd() }P
+
 P{ inject('</div>') }P

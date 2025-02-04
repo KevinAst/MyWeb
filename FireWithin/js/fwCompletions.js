@@ -82,6 +82,76 @@ class FWCompletions {
     this._fwState.setValue(key, val ? 'Y' : 'N');
   }
 
+
+  // internal utility
+  qualifiedKey(key) {
+    return `collapsibleSect_${key}`;
+  }
+
+  /**
+   * Return an indicator as to whether the collapsibleSection is open.
+   *
+   * @param {string} key  - The collapsibleSection key
+   * @param {string} initialExpansion - The initialExpansion to use when no state exists ('open'/'close').
+   *
+   * @returns {boolean} true: the collapsibleSection IS open, false: is closed
+   */
+  isOpen(key, initialExpansion) {
+
+    const qualifiedKey = this.qualifiedKey(key);
+
+    // pass through to our worker object
+    let value = this._fwState.getValue(qualifiedKey);
+
+    // apply default semantics (when NO state exists)
+    if (value === undefined) {
+      value = initialExpansion;
+    }
+
+    // this is it
+    return value === 'open';
+  }
+
+  /**
+   * Set the visibility (expansiont state) of the supplied collapsibleSection;
+   *
+   * Under the covers:
+   * - our persistance store is maintained:
+   *   * either device storage (for guest users)
+   *   * or Firebase DB (for registered users)
+   * - triggers change notifications to registered clients
+   *   ... see: onChange()
+   *
+   * @param {string} key  - The collapsibleSection key
+   * @param {boolean} val - The visibility (true: open, false: close).
+   */
+  setVisibility(key, val) {
+
+    const qualifiedKey = this.qualifiedKey(key);
+
+    // pass through to our worker object
+    this._fwState.setValue(qualifiedKey, val ? 'open' : 'close');
+  }
+
+  /**
+   * Toggle the visibility (expansiont state) of the supplied collapsibleSection;
+   *
+   * Under the covers:
+   * - our persistance store is maintained:
+   *   * either device storage (for guest users)
+   *   * or Firebase DB (for registered users)
+   * - triggers change notifications to registered clients
+   *   ... see: onChange()
+   *
+   * @param {string} key  - The collapsibleSection key
+   * @param {string} initialExpansion - The initialExpansion to use when no state exists ('open'/'close').
+   */
+  toggleVisibility(key, initialExpansion) {
+    // simply negate our current state (i.e. toggle)
+    this.setVisibility(key, ! this.isOpen(key, initialExpansion));
+  }
+
+
   /**
    * Register notificaiton monitors that are triggered when self's
    * completion state has changed.

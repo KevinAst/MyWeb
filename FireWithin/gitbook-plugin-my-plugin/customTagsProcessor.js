@@ -193,6 +193,8 @@ const customTagProcessors = {
   bibleLink,
   sermonSeries,
   memorizeVerse,
+  collapsibleSection,
+  collapsibleSectionEnd,
   inject,
   userName,
   userEmail,
@@ -1141,6 +1143,107 @@ function memorizeVerse(namedParams={}) {
   // ending container
   content += `</div>`;
 
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+  return content;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* collapsibleSection(namedParams)
+//* 
+//* Inject the html to render a Collapsible Section.
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes all aspects of the Collapsible Section.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag:
+//*   P{ collapsibleSection(`{ several-options-see-README }`) }P
+//*   ... authored content USING markdown
+//*   P{ collapsibleSectionEnd() }P
+//* 
+//* Replaced With:
+//*   <div id="{id}" data-initial-expansion="{initialExpansion}">
+//*     <span class="collapsible-toggle" onclick="fw.toggleSection('{id}')">
+//*         <span class="collapsible-arrow">▶</span> {label}
+//*     </span>
+//*     <div class="collapsible-content indent">`;
+//*   ... authored content USING markdown
+//*   </div> ... supplied by collapsibleSectionEnd() macro
+//*   
+//*-----------------------------------------------------------------------------
+function collapsibleSection(namedParams={}) {
+
+  // parameter validation
+  const self       = `collapsibleSection(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {id, label, indent=true, initialExpansion='open', ...unknownNamedArgs} = namedParams;
+
+  // ... id
+  checkParam(id,           'id is required');
+  checkParam(isString(id), 'id must be a string (the unique identifier for this section)');
+  
+  // ... label (optional)
+  if (label) {
+    checkParam(isString(label), 'label (when supplied) must be a string (the label serving as the expand/collapse control)');
+  }
+
+  // ... indent
+  checkParam(isBoolean(indent), 'indent (when supplied) must be a boolean (should the content be indented?) DEFAULT: true');
+  
+  // ... initialExpansion
+  checkParam(isString(initialExpansion), `initialExpansion (when supplied) must be a string (Initial state on "first use" [before persistence has been defined]) DEFAULT: 'open'`);
+  checkParam(['open', 'close'].includes(initialExpansion), `initialExpansion (when supplied) must either be 'open' or 'close' (Initial state on "first use" [before persistence has been defined]) DEFAULT: 'open'`);
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // the outer container for the collapsable section
+  content += `<div id="${id}" data-initial-expansion="${initialExpansion}">`;
+
+  // the expand/collapse control ... when supplied
+  if (label) {
+    content += `<span class="collapsible-toggle" onclick="fw.toggleSection('${id}')">`;
+    content += `<span class="collapsible-arrow">▶</span> ${label}`;
+    content += `</span>`;
+  }
+
+  // the collapsable container ... NOTE: NOT closed (requires user to subsequently supply: collapsibleSectionEnd() macro)
+  const indentCSS = indent ? 'indent' : '';
+  content += `<div class="collapsible-content ${indentCSS}">`;
+
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+//console.log(`***INFO*** collapsibleSection() emitting following html:\n\n` + content + `\n\nTHAT IS ALL`);
+  return content;
+}
+
+// ending macro for collapsibleSection()
+function collapsibleSectionEnd() {
+  const self    = `collapsibleSectionEnd(...)`;
+  const diag    = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let   content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+  content += `</div></div>`;
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }

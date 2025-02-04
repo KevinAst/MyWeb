@@ -130,3 +130,35 @@ audio {
   background-color: #555555; 
   color:            white;
 }
+
+/*** styles for Collapsible Section ***/
+.collapsible-toggle {
+    background:  none;
+    border:      none;
+    font-size:   1.2em; /* bigger, relative to the GitBook sizing framework */
+    font-weight: bold;
+    cursor:      pointer;
+    text-align:  left;
+    display:     flex;
+    align-items: center;
+    width:       100%;
+    padding:     5px;
+}
+
+.collapsible-arrow {
+    display:      inline-block;
+    margin-right: 5px;
+    transition:   transform 0.2s ease-in-out;
+}
+
+.collapsible-content {
+    display: block; /* Default: Open */
+    padding: 0px 5px;
+/*  border: 1px solid #ccc; /* dev diag: to see the section */
+
+    /* animated open/close ... adjusted by JavaScript (because our content DOES NOT have a fixed height */
+    max-height: 0;
+    opacity:    0;
+    overflow:   hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}

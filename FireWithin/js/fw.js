@@ -126,6 +126,45 @@ if (!window.fw) { // only expand this module once (conditionally)
         // ... THIS IS IT
         completionElm.checked = fwCompletions.isComplete(completionElm.id);
       }
+
+      // ALSO: sync any "Collapsable Sections"
+      // ... BECAUSE we piggy back Collapsable Section state within the completion state
+
+      // .. access all of our top-level collapsableSectionDivs
+      const collapsableSectionDivs = document.querySelectorAll('div[data-initial-expansion]');
+      // ... process them
+      collapsableSectionDivs.forEach(section => {
+        const id               = section.id;
+        const content          = section.querySelector(".collapsible-content");
+        const arrow            = section.querySelector(".collapsible-arrow");
+        const initialExpansion = section.dataset.initialExpansion;
+
+        // open/close is driven by what our state says we should be
+        // ... this will sync our page from
+        //     - BOTH the start of a page navigation
+        //     - AND an reflective change by a user
+        // ... falling back to our initialExpansion, when no state yet exists (defined in our html)
+        const isOpen = fwCompletions.isOpen(id, initialExpansion);
+
+        // make it so
+        // NOTE: our expansion technique uses JavaScript
+        //       BECAUSE: Our content is author controlled, and DOES NOT have a known/fixed height
+        //       THEREFORE: We adjust the styling:
+        //                  - maxHeighte (for visibility)
+        //                  - opacity (for a fade effect - a smoother transition ... in some browsers)
+        if (isOpen) { // ... open it
+          content.style.maxHeight = `${content.scrollHeight}px`;
+          content.style.opacity   = 1;
+          arrow.style.transform   = "rotate(90deg)";  // arrow points down
+        }
+        else { // ... close it
+          content.style.maxHeight = null;
+          content.style.opacity   = 0;
+          arrow.style.transform   = "rotate(0deg)";  // arrow points right
+        }
+
+      });
+
     }
 
     //*--------------------------------------------------------------------------
@@ -191,6 +230,31 @@ if (!window.fw) { // only expand this module once (conditionally)
     }
 
 
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to Collapsible Sections
+    //***************************************************************************
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.toggleSection(id)
+    //* 
+    //* Event handler to toggle the Collapsible Section (open/close).
+    //* 
+    //* PARMS:
+    //*   id: The id of the section to toggle.
+    //*--------------------------------------------------------------------------
+    fw.toggleSection = function(id) {
+      var section = document.getElementById(id);
+      const initialExpansion = section.dataset.initialExpansion;
+
+      // toggle our state
+      // ... taking into consideration our initialExpansion, when no state yet exists (defined in our html)
+      // ... handles persistance/reflection automatically
+      fwCompletions.toggleVisibility(id, initialExpansion);
+    }
+
+    
     //***************************************************************************
     //***************************************************************************
     //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
