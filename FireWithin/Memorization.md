@@ -35,10 +35,19 @@ For each passage:
 
 - An _**audio playback is provided**_, that allows you to listen to
   the passage repeatedly. The playback _**automatically loops**_ until
-  you click stop, making it easy to hear the scripture
+  you click stop - making it easy to hear the scripture
   continuously. When using this feature on your phone, you can simply
   _**pop in your earbuds and let the scripture take root in your
   memory!**_
+
+  Each audio playback includes the following elements:  
+
+  - **Context** (e.g., _Paul's parting instruction to the church at Philippi_)  
+  - **Scripture Reference** (e.g., _Philippians 4:8_)  
+  - **Translation** (e.g., _New Living Translation_)  
+  - **Scripture Passage** (recited in the selected translation)  
+  - **Scripture Reference** (repeated – per recommendation of The [Navigators'](https://www.navigators.org/))
+
 
 - You can choose your preferred Bible translation from a selection of
   the most popular versions.  _**Your choice will be remembered for
@@ -50,36 +59,13 @@ For each passage:
 - As always, you can _**track your progress by checking the completion
   box next to the passages you've memorized!**_
 
-- The audio recordings follow the
-  [Navigators'](https://www.navigators.org/) approach to Scripture
-  memorization, which involves reciting the Scripture reference both
-  before and after the passage. _**Remembering the 'address' is
-  important!**_ :-)
-
-  Additionally, I find that including a brief **context phrase** can
-  serve as a helpful hint for remembering the Scripture passage. For
-  example, the phrase _"Paul's parting instruction to the church at
-  Philippi"_ reminds us that this passage appears at the end of
-  Philippians … _**Ding, ding, ding!**_ … that’s **Philippians 4:8!**  
-
-  As a result, each audio recording will include the following elements:  
-
-  - **Context** (e.g., _Paul's parting instruction to the church at Philippi_)  
-  - **Scripture Reference** (e.g., _Philippians 4:8_)  
-  - **Translation** (e.g., _New Living Translation_)  
-  - **Scripture Passage** (recited in the selected translation)  
-  - **Scripture Reference (repeated** – per recommendation of The Navigators)
-
-
-- The devotional content for each scripture _(including this
-  discussion)_ is contained within a **collapsible section**. Click the
-  section title to expand or collapse it.
-  
-  Collapsing these sections helps keep the memory scriptures more
-  prominent.
-  
-  Each section is stateful, so when you return to the page, it will be
-  just as you left it.
+- This page includes several collapsible sections, such as the
+  devotional content for each memory verse, and even this
+  overview. You can toggle these sections by clicking their titles
+  _(shown with an arrow)_. Collapsing them helps better promote the
+  memory verses _(making them more prominent)_. The collapsed state is
+  preserved, so when you leave and return, everything will appear just
+  as you left it.
 
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
