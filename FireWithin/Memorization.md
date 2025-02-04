@@ -9,6 +9,9 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 - [January](#january)
   - M{ completedCheckBox(`verseMemorized-luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
   - M{ completedCheckBox(`verseMemorized-php_4_8`)     }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
+- [February](#february)
+  - M{ completedCheckBox(`verseMemorized-rom_12_1-2`)  }M [Romans 12:1-2 (ChristianLiving)](#rom_12_1-2)
+  - M{ completedCheckBox(`verseMemorized-rom_2_4`) }M [Romans 2:4 (God)](#rom_2_4)
 
 ### Overview
 
@@ -102,7 +105,7 @@ P{ collapsibleSectionEnd() }P
 
 <span id="january"></span>
 
-_**[January Flyer](https://static1.squarespace.com/static/5b8548d5365f02b26106abe7/t/67573d80603d70651866cc8c/1733770624902/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+_**[January Flyer](https://fbmaryville.org/s/25in25cards_Jan.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
 
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
@@ -206,3 +209,106 @@ what to do.
 P{ collapsibleSectionEnd() }P
 
 P{ inject('</div>') }P
+
+
+
+
+
+
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+
+<span id="february"></span>
+
+_**[February Flyer](https://fbmaryville.org/s/_25in25cards_Feb.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+                    
+                    
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.12.1-2`,
+  label:   `Romans 12:1-2 (ChristianLiving)`,
+  context: `A surrendered life, a renewed mind`,
+  text: {
+    NLT:   `And so, dear brothers and sisters, I plead with you to give your bodies to God because of all he has done for you. Let them be a living and holy sacrifice—the kind he will find acceptable. This is truly the way to worship him. Don’t copy the behavior and customs of this world, but let God transform you into a new person by changing the way you think. Then you will learn to know God’s will for you, which is good and pleasing and perfect.`,
+    NKJV:  `I beseech you therefore, brethren, by the mercies of God, that you present your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service. And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is that good and acceptable and perfect will of God.`,  
+    KJV:   `I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service. And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.`,
+    ESV:   `I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship. Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect.`,
+    CSB:   `Therefore, brothers and sisters, in view of the mercies of God, I urge you  to present your bodies as a living sacrifice,  holy and pleasing to God; this is your true worship.  Do not be conformed  to this age,  but be transformed by the renewing of your mind,  so that you may discern what is the good, pleasing, and perfect will  of God.`,
+   "NIV*": `Therefore, I urge you, brothers and sisters, in view of God’s mercy, to offer your bodies as a living sacrifice, holy and pleasing to God—this is your true and proper worship. Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.`,
+  },
+}) }M
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_12_1-2',
+  label:  'Additional Thoughts',
+}) }P
+
+Knowing that our thoughts direct our behaviors, renewing our mind
+becomes our greatest transformational aspiration.
+
+With a renewed mind, we are able to discern what is God's will and
+what is a scheme of the evil one.  _**In other words, we can better
+understand God's ways versus the ways of the world.**_
+
+Once we are able to discern these things, it becomes possible for us
+to _offer our bodies to God as a living sacrifice_.  _**We can walk in
+obedience to Him.**_ _We are pleasing to Him!_
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.2.4`,
+  label:   `Romans 2:4 (God)`,
+  context: `God's kindness leads to repentance`,
+  text: {
+    NLT:   `Don’t you see how wonderfully kind, tolerant, and patient God is with you? Does this mean nothing to you? Can’t you see that his kindness is intended to turn you from your sin?`,
+    NKJV:  `Or do you despise the riches of His goodness, forbearance, and longsuffering, not knowing that the goodness of God leads you to repentance?`,  
+    KJV:   `Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance?`,
+    ESV:   `Or do you presume on the riches of his kindness and forbearance and patience, not knowing that God’s kindness is meant to lead you to repentance?`,
+    CSB:   `Or do you despise the riches of his kindness,  restraint,  and patience,  not recognizing  that God’s kindness  is intended to lead you to repentance?`,
+    NIV:   `Or do you show contempt for the riches of his kindness, forbearance and patience, not realizing that God’s kindness is intended to lead you to repentance?`,
+   "ICB*": `God has been very kind to you, and he has been patient with you. God has been waiting for you to change. But you think nothing of his kindness. Perhaps you do not understand that God is kind to you so that you will change your hearts and lives.`,
+  },
+}) }M
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_2_4',
+  label:  'Additional Thoughts',
+}) }P
+
+God is patient and kind. 
+
+However, many times we mistake His patience and kindness as a lack of
+response. We begin fooling ourselves into thinking sin isn't sin or
+that God isn't real because there was no immediate consequence for our
+sin.
+
+This verse tells us that _**it's His kindness that leads to
+repentance**_. Without His kindness, we wouldn't even have a chance to
+repent. 
+
+_**Thank God for His kindness today!**_
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+

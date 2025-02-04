@@ -78,6 +78,8 @@ Release           | What                 | *When*
 
 - Enhanced {{book.Memorization}} page as follows:
 
+  * Added FBM's Memory Verses for February - Romans 12:1-2 & Romans 2:4
+
   * Improved the Scripture Translation selector to a horizontal list of
     buttons, with a visual distinction for the selected translation.
     This is an improved interface, as it allows the user to readily
