@@ -162,3 +162,54 @@ audio {
     overflow:   hidden;
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
 }
+
+
+/*** Checkbox Style - simple approach using unicode characters           ***/
+/*** NOTE: we use "em" units to scale appropriatly with GitBooks styling ***/
+
+/* hide the default checkbox */
+input[type="checkbox"] {
+    appearance:    none; /* remove default styling */
+
+    width:         1.2em;
+    height:        1.2em;
+    border-radius: 0.2em;  /* rounded corners */
+
+    background-color: #e0e0e0;
+
+    border:           0.1em solid #767676;
+
+    position:      relative;
+    cursor:        pointer;
+    outline:       none;
+
+    vertical-align: middle; /* aligns checkbox vertically centered */
+}
+
+/* custom checkmark when checked */
+input[type="checkbox"]:checked::after {
+
+    /* YES: completion checkboxes */
+    content:       "\2714"; /* unicode: Check ✔ */
+
+    /* YES: OR: audio playback checks ... use this in a qualifier selector */
+/*  content:     "\1F508"; /* unicode Speaker - Low Volume <<< WORKS with font-family help */
+/*  font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif; /* forces browser to render Unicode as text (honoring color attr) instead of an emoji (which ignoring color attr - what the colored audio unicodes are) */
+    /* runner-up audio TRASH */
+/*  content:       "\1F50A"; /* unicode Speaker - High Volume <<< LIKE THIS (but light - needs darker background ... see "helps" */
+/*  content:       "\1F4E3"; /* unicode Megaphone <<< HMMM (ditto lightness) */
+/*  background-color: #145a32; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #154360; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #17202a; /* helps with lighter icons << good in most GitBook themes ... a bit dark for white themes */
+/*  background-color: #424949; /* helps with lighter icons << LIKE THIS THE BEST */
+
+    font-size:     1em;
+    font-weight:   bold;
+
+    color: green;
+
+    position:      absolute; /* ... hmmm allows the check to be placed inside the checkbox element at an exact location */
+    top:           50%;
+    left:          50%;
+    transform:     translate(-50%, -50%);
+}
