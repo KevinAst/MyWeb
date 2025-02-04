@@ -114,6 +114,8 @@ Release           | What                 | *When*
 
   * Removed scripture entries from the LeftNav Bar "Memorization" section.
 
+- Added support for the ICB Bible Translation (International Children's Bible).
+
 
 <!-- ************************************************************* -->
 <br/>
