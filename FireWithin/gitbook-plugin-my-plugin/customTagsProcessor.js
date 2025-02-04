@@ -1043,7 +1043,12 @@ function memorizeVerse(namedParams={}) {
   // ... at minimum, must have one scripture text
   checkParam(textKeys.length > 0, `at least one translation scripture text must be supplied ... ex: text: { NLT: '... scripture text here' }`);
 
-  const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV']; // ??## update for NEW ICB translation ... can we centralize this somewhere?
+  // supported translations (used in our build process)
+  // NOTE: The master source for this is found in fwSettings.js (see `bibleTranslations`)
+  //       ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
+  //       BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
+  //       just PUNT and dupicate it (for now)
+  const supportedTranslations = ['MSG', 'GNT', 'NLT', 'ICB', 'CSB', 'NIV', 'ESV', 'NET', 'NKJV', 'KJV', 'AMP', 'AMPC'];
 
   // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
   //     NOTE: When NO DEFAULT is is specified
