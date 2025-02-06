@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 6, 2025*
 [v24.0](#v24_0)   | Memorize God's Word & more              | *Jan 29, 2025*
 [v23.0](#v23_0)   | Questions and Answers & more            | *Jan 7, 2025*
 [v22.7](#v22_7)   | Update Current Sermon Series            | *Jan 1, 2025*
@@ -67,6 +68,58 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.1 - Memorization Page Enhancements & more <i>(Feb 6, 2025)</i>
+</h3>
+<br/>
+
+- Enhanced {{book.Memorization}} page as follows:
+
+  * Added FBM's Memory Verses for February - Romans 12:1-2 & Romans 2:4
+
+  * Introduced an ADVANCED feature to Audio Play Multiple Verses
+    through ONE audio control (found near the TOC).
+ 
+  * Enhanced the UI selector of Bible Translations to be a horizontal
+    list of buttons, with a visual distinction for the selected
+    translation.  This is an improved interface, as it allows the user
+    to readily see all the available translation - at a glance.
+
+  * The devotional content for each scripture can now be collapsed, by
+    toggling the **section title**..  Collapsing these sections helps
+    keep the memory scriptures more prominent. Each section is
+    stateful, so when you return to the page, it will be just as you
+    left it.
+
+  * Added support to maintain Default Translations for each memory
+    verse (allowing a Church Campaign to specify a consistent version
+    for their entire group).  This default specification is optional
+    (please refer to the next bullet point).
+
+  * Simplified the default memory verse translation heuristics as follows:
+
+    When no explicit translation has been selected by the user, the default
+    kicks in, as follows:
+
+    1. Honor any Default Translation specified in the verse's
+       definition (when defined).
+
+    2. Otherwise (when no default is defined for the verse): fallback to
+       the FireWithin "Bible Translation" Settings.
+
+       NOTE: If this translation has NOT been defined for the specific
+       verse, we default to the 1st translation in the memory verse
+       definition.
+
+  * Eliminated the "Clear Selection" button _(a confusing concept for the
+    user to grasp)_.
+
+  * Removed scripture entries from the LeftNav Bar's "Memorization" section.
+
+- Added support for the ICB Bible Translation (International Children's Bible).
 
 
 <!-- ************************************************************* -->
