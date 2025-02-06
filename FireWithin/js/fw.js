@@ -82,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '24.0';
+    const CUR_VER = '24.1';
 
 
     //***************************************************************************
@@ -126,6 +126,45 @@ if (!window.fw) { // only expand this module once (conditionally)
         // ... THIS IS IT
         completionElm.checked = fwCompletions.isComplete(completionElm.id);
       }
+
+      // ALSO: sync any "Collapsable Sections"
+      // ... BECAUSE we piggy back Collapsable Section state within the completion state
+
+      // .. access all of our top-level collapsableSectionDivs
+      const collapsableSectionDivs = document.querySelectorAll('div[data-initial-expansion]');
+      // ... process them
+      collapsableSectionDivs.forEach(section => {
+        const id               = section.id;
+        const content          = section.querySelector(".collapsible-content");
+        const arrow            = section.querySelector(".collapsible-arrow");
+        const initialExpansion = section.dataset.initialExpansion;
+
+        // open/close is driven by what our state says we should be
+        // ... this will sync our page from
+        //     - BOTH the start of a page navigation
+        //     - AND an reflective change by a user
+        // ... falling back to our initialExpansion, when no state yet exists (defined in our html)
+        const isOpen = fwCompletions.isOpen(id, initialExpansion);
+
+        // make it so
+        // NOTE: our expansion technique uses JavaScript
+        //       BECAUSE: Our content is author controlled, and DOES NOT have a known/fixed height
+        //       THEREFORE: We adjust the styling:
+        //                  - maxHeighte (for visibility)
+        //                  - opacity (for a fade effect - a smoother transition ... in some browsers)
+        if (isOpen) { // ... open it
+          content.style.maxHeight = `${content.scrollHeight}px`;
+          content.style.opacity   = 1;
+          arrow.style.transform   = "rotate(90deg)";  // arrow points down
+        }
+        else { // ... close it
+          content.style.maxHeight = null;
+          content.style.opacity   = 0;
+          arrow.style.transform   = "rotate(0deg)";  // arrow points right
+        }
+
+      });
+
     }
 
     //*--------------------------------------------------------------------------
@@ -193,6 +232,31 @@ if (!window.fw) { // only expand this module once (conditionally)
 
     //***************************************************************************
     //***************************************************************************
+    //* Code Related to Collapsible Sections
+    //***************************************************************************
+    //***************************************************************************
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.toggleSection(id)
+    //* 
+    //* Event handler to toggle the Collapsible Section (open/close).
+    //* 
+    //* PARMS:
+    //*   id: The id of the section to toggle.
+    //*--------------------------------------------------------------------------
+    fw.toggleSection = function(id) {
+      var section = document.getElementById(id);
+      const initialExpansion = section.dataset.initialExpansion;
+
+      // toggle our state
+      // ... taking into consideration our initialExpansion, when no state yet exists (defined in our html)
+      // ... handles persistance/reflection automatically
+      fwCompletions.toggleVisibility(id, initialExpansion);
+    }
+
+    
+    //***************************************************************************
+    //***************************************************************************
     //* Code Related to our memoryVerseTranslation selection ... state-related-memoryVerseTranslation
     //***************************************************************************
     //***************************************************************************
@@ -226,21 +290,82 @@ if (!window.fw) { // only expand this module once (conditionally)
         log(`this page DOES NOT containsReflectiveMemorizationData ... no-oping`);
         return;
       }
-
       log(`processing page that containsReflectiveMemorizationData`);
 
       // access all of our top-level memory-verse elements
       // ... <div> elements with the 'data-memory-verse' attribute
       const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
 
+      // glean all MemoryVerse run-time state that is held in the MemoryVerse.md page
+      // 
+      // NOTE: This state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
+      //       BECAUSE this state WILL NOT CHANGE!
+      // 
+      //       As a general rule, this state is NOT used for overall page processing.
+      //       BECAUSE: We need to access the <divs> each time we process this page
+      //                Sooo we can gean any state we need from the data attributes
+      // 
+      //       HOWEVER: We do use this state for: MVAP: Multi-Verse Audio Play (mvap)
+      // 
+      if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
+        log(`creating fw.memoryVerseState (only once)`);
+
+        fw.memoryVerseState = {
+
+          // NOTE: This is mostly documentation (i.e. comments), so you can easily see what the contents are.
+          //       This structure is built in the code following this doc :-)
+
+          // all verse references
+          allRefs: [/*'luk.9.23-24', ...*/],
+
+          // one entry for each verse (a sample - for reference)
+          // "luk_9_23-24": {      // indexed by: id
+          //   ref: 'luk.9.23-24', // scripture reference
+          //   activeTranlsation: 'NLT', // maintained at run-time for convenience
+          // },
+          // ... repeat and rinse
+        }
+        
+        // pull data out of our html and hold onto it
+        // ... process each memory verse
+        memoryVerseDivs.forEach(memoryVerseDiv => {
+          const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
+          const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
+
+          // build up the structure documented above
+          fw.memoryVerseState.allRefs.push(memoryVerseScriptRef);
+
+          const mvEntry = fw.memoryVerseState[memoryVerseScriptRefSanitized] = {};
+          mvEntry.ref = memoryVerseScriptRef;
+        });
+
+        log(`ONE TIME ONLY - built up fw.memoryVerseState: `, fw.memoryVerseState);
+      }
+
+      // activate our audio control
+      // - this loads it with our starting audio src
+      //   * this is necessary to enable the controls (otherwise the controls are disabled)
+      // - this is the right spot to activate the control
+      //   * it is required for:
+      //     - page refreshes .... otherwise the audio control is NOT active
+      //     - page navigation ... ditto
+      //   * HOWEVER: we do NOT "desire" it to be done on just normal translation-related state changes
+      //              ... what this function is syncing
+      //              ... such as a translation selection
+      //              - BECAUSE: we want the Multi-Verse Audio Play to continue to play
+      //                         and pick up these changes dynamically (during it's play)
+      //                         ... very kook indeed
+      //              - THEREFORE: we "conditionally" do this, when the audo has NO src
+      const audio = document.getElementById("mvap_audio_player"); // audio player for our mvap control
+      if (! audio.src) {
+        fw.mvap_reset();
+      }
+
       // process each memory verse
       memoryVerseDivs.forEach(memoryVerseDiv => {
         const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
         const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
         log(`processing memoryVerse: `, {memoryVerseScriptRef, memoryVerseScriptRefSanitized});
-
-        // access the "Clear Translation Selection" control for this memory verse
-        const clearTranslationSelectionButton = memoryVerseDiv.querySelector("button");
 
         // access all the translation divs for this memory verse
         const translationDivs = memoryVerseDiv.querySelectorAll('div[data-memory-verse-translation]');
@@ -251,34 +376,58 @@ if (!window.fw) { // only expand this module once (conditionally)
         const memoryVerseTranslations = [...translationDivs].map(translationDiv => translationDiv.dataset.memoryVerseTranslation);
 
         // resolve the desired translation for this verse
-        // ... fetch the selected translation for this verse (if any)
+        // ... FIRST from the persistent state for this verse
+        //     IF ANY: will not exist on the FIRST TIME this verse is seen
         let activeTranslation = fwMemoryVerseTranslation.getTranslation(memoryVerseScriptRefSanitized);
-        // ... when NO verse-specific translation has been explicity set,
-        //     fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+        // ... when NO verse-specific translation has been explicity set
         if (!activeTranslation) {
-          activeTranslation = fwSettings.getBibleTranslation();
 
-          // inactivate the "Clear Translation Selection" control when NO selection has been made
-          clearTranslationSelectionButton.style.display = "none";
+          // fallback to the verse-specific default (optionally specified within the definition of this memory verse)
+          activeTranslation = memoryVerseDiv.dataset.defaultTranslation;
 
-          // insure the User Settings Translation has been configured for this specific memory verse
+          // if NO verse-specific default has been specified
+          // ... fallback to User Settings Translation (which has it's OWN fallback default: ['NLT'])
+          if (!activeTranslation) {
+            activeTranslation = fwSettings.getBibleTranslation();
+          }
+
+          // insure the translation has been configured for this specific memory verse
           // ... if not: fallback fallback TO: the first translation available for this memory verse
+          //     NOTE: this happenswhen the User Settings Translation has NOT been defined for the memory verse
           if (!memoryVerseTranslations.includes(activeTranslation)) { 
             activeTranslation = memoryVerseTranslations[0];
           }
+
+          // persist the activeTranslation ... so the user will never see it oscillate
+          // DO NOT DO THIS: CAUSING A LOT OF HAVOC THAT I CAN'T TOTALLY EXPLAIN
+          // ... see: temp.analyze.autoPersistMemoryVerseTranslation.txt
+          //          * when refreshing on the Memorization page
+          //            - we get an initial page load (presumably from GitBook)
+          //              WHERE we are getting FireBase retrievals of undefined
+          //              BAD: setting the values here is BAD ... it is a false indicator
+          //            - THEN there are subsequent page loads (again presumably from GitBook)
+          //              WHERE Firebase retrievals are working
+          //            - I suspect this is standard behavior, I just have never noticed it before
+          //          * SOLUTION: PUNT, and DO NOT ATTEMPT TO persist the activeTranslation
+          //            - Ramifications are NOT BIG: 
+          //              * IN VERY RARE CASES: User may just see some oscillation
+          //                - THEY WOULD HAVE TO BE CHANGING THEIR User Setting Translation
+          //                - AND THEY WOULD HAVE NEVER EXPLICITLY SET THE VERSE TRANSLATION
+       // fwMemoryVerseTranslation.setTranslation(memoryVerseScriptRefSanitized, activeTranslation);
         }
-        else {
-          // activate the "Clear Translation Selection" control when a selection has been made
-          clearTranslationSelectionButton.style.display = "inline";
-        }
+
+        // retain this active translation in our in-memory structure (for convenience)
+        // ... currently used by our Multi-Verse Audio Play
+        fw.memoryVerseState[memoryVerseScriptRefSanitized].activeTranlsation = activeTranslation;
 
         log(`our activeTranslation: ${activeTranslation}`);
 
-        // force the <select> to the desired translation (from our state)
-        // ... obtain the selector under this memoryVerseDiv
-        const memoryVerseSelector = memoryVerseDiv.querySelector('select');
+        // force the <radio> to the desired translation (from our state)
+        // ... obtain the radio under this memoryVerseDiv
+        //                                  EX: querySelector('input[name="luk_9_23-24"][value="NLT"]').checked = true;
+        const memoryVerseRadio = memoryVerseDiv.querySelector(`input[name="${memoryVerseScriptRefSanitized}"][value="${activeTranslation}"]`);
         // ... set it's value to the desired translation
-        memoryVerseSelector.value = activeTranslation;
+        memoryVerseRadio.checked = true;
 
         // change scripture link to the desired translation
         // ... obtain the scripture link
@@ -316,9 +465,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     fw.handleMemoryVerseTranslationChange = function(event) {
       const log = logger(`${logPrefix}:handleMemoryVerseTranslationChange()`);
 
-      const selectElm      = event.target;
-      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our <select> elm (data-script-ref-sanitized attribute) - which is dedicated to this context
-      const translation    = selectElm.value; // our translation value is the selected translation
+      const radioElm       = event.target;
+      const memoryVerseKey = radioElm.name;  // EX: "luk_9_23-24"
+      const translation    = radioElm.value; // EX: "NLT"
 
       log(`retaining state for memory verse translation: `, {memoryVerseKey, translation});
 
@@ -329,8 +478,8 @@ if (!window.fw) { // only expand this module once (conditionally)
       // stop any audio playback within this scripture reference
       // BECAUSE a change of translation will hide all other translations (one of which may be playing)
 
-      // ... locate the scriptureContainerElm (a grandparent <div> of our selectElm)
-      const scriptureContainerElm = selectElm.parentElement.parentElement;
+      // ... locate the scriptureContainerElm (a great grandparent <div> of our radioElm)
+      const scriptureContainerElm = radioElm.parentElement.parentElement.parentElement;
 
       // ... iterate over ALL <audio> elements within this scripture, stopping their playback
       const audioElements = scriptureContainerElm.querySelectorAll("audio");
@@ -340,24 +489,135 @@ if (!window.fw) { // only expand this module once (conditionally)
     }
 
     
-    //*--------------------------------------------------------------------------
-    //* PUBLIC: fw.clearMemoryVerseTranslation(translationSelectionElm)
-    //* 
-    //* Event handler that clears the our memoryVerseTranslation state for a given memory verse.
-    //*--------------------------------------------------------------------------
-    // ... state-related-memoryVerseTranslation:
-    fw.clearMemoryVerseTranslation = function(event) {
-      const log = logger(`${logPrefix}:clearMemoryVerseTranslation()`);
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to MVAP: Multi-Verse Audio Play (mvap)
+    //* ... a specialized area of memoryVerseTranslation
+    //***************************************************************************
+    //***************************************************************************
 
-      const selectElm      = event.target;
-      const memoryVerseKey = selectElm.dataset.scriptRefSanitized; // pull our key from our activation elm (data-script-ref-sanitized attribute) - which is dedicated to this context
+    // USE CONSISTENT TERMS for the audio being played:
+    // > I KINDA GAVE UP ON THIS ... I think it is OK
+    // - N: track ... generic term for an audio track (only used in a single comment)
+    // - N: clip .... another generic term (current usage in startingMultiVerseAudioClip.m4a)
+    // - Y: verse ... specific to our app domain (used BOTH in verse refs [e.g. 'jhn.3.16'], and audio file refs [e.g. 'Memorization/php.4.8.NIV.m4a'])
 
-      log(`deleting entry for "${memoryVerseKey}"`);
+    // the starting track (a short intro, needed to activate/reset the audio controls)
+    const startingMultiVerseAudioClip = 'Memorization/startingMultiVerseAudioClip.m4a';
 
-      // delete the memoryVerseKey
-      // ... handles persistance/reflection automatically
-      fwMemoryVerseTranslation.setTranslation(memoryVerseKey, ''); // ... poor man delete, setting value to '' (which evaluates to an "iffy" false)
+    // audio control "play" button
+    // ... INVOKED FROM: user click -OR- programmatically indirectly via audio.play()
+    // INTERESTING: Don't really need this code (it does nothing)
+    fw.mvap_play = function(audioElm) {
+      const log = logger(`${logPrefix}:mvap_play()`);
+      log(`play button pressed`);
+
+      // NOTE: We don't want to do anything here
+      //       ... the user uses this to kick off the whole process
+      //       ... programmatically, we use it kick of the next verse
+
+      // we do however want to stop any other audio element from playing
+      fw.preventConcurrentAudioPlayback(audioElm);
     }
+    
+    // audio control "pause" button (actually the play/pause controls toggle ... it's the same button but changes meaning)
+    // ... INVOKED FROM: user click -OR- programmatically indirectly via audio.pause()
+    // INTERESTING: Don't really need this code (it does nothing)
+    fw.mvap_pause = function() {
+      const log = logger(`${logPrefix}:mvap_pause()`);
+      log(`audio paused`);
+
+      // NOTE: We don't want to do anything here
+      //       ... the user just wants to "pause" (i.e. stop the play)
+    }
+
+    // audio play has just ended
+    // ... INVOKED FROM: implicitly - when the clip is complete (NOTE: there is ALWAYS a starting clip: startingMultiVerseAudioClip ... which allows the audio control to be active/enabled)
+    fw.mvap_audioEnded = function() {
+      const log = logger(`${logPrefix}:mvap_audioEnded()`);
+      log(`audio ended ... loading next verse`);
+
+      // this is where the action happens!!!
+      // ... we programmatically advance to the next verse
+
+      // advance to our next verse to play
+      const nextVerse = advanceToNextVerse();
+
+      // we glean the translation from our cached memory state (derived from the html)
+      // - it would be easier to pull it from our persistent state
+      //   * BUT ifthe translation has never been explicitly selected, it will not be set in our persistent state!
+      //   * By gleaning this from our cached memory state, we use what is displayed to the user (with the default semantics applied)
+      const nextVerseSanitized = nextVerse.replaceAll('.', '_');
+      const activeTranslation  = fw.memoryVerseState[nextVerseSanitized].activeTranlsation;
+
+      // format our verse to the audio file entry
+      // EX: src="Memorization/php.4.8.NIV.m4a"
+      const nextAudioFile = `Memorization/${nextVerse}.${activeTranslation}.m4a`;
+
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      // advance our active play to our next verse
+      log(`setting the nextAudioFile: '${nextAudioFile}'`);
+      audio.pause();    // pause audio ... not needed in this case, but doesn't hurt
+      audio.src = nextAudioFile;
+      audio.load();     // reload the new audio source
+      audio.play();     // start playing the new file
+    }
+
+    // utility to advance to the next verse
+    function advanceToNextVerse() {
+      const log = logger(`${logPrefix}:advanceToNextVerse()`);
+
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      const curVerse = audio.src;
+      let   nextVerse;
+      if (curVerse === startingMultiVerseAudioClip) {
+        // if we are at the start, use the first verse ... WILL NEVER BE EMPTY providing there is at least one memory verse on our page (A GIVEN)
+        nextVerse = fw.memoryVerseState.allRefs[0];
+        log(`at the start ... nextVerse is first entry: '${nextVerse}'`);
+      }
+      else {
+        // find the entry whose content is in curVerse
+        // ... EX: curVerse (e.g. 'Memorization/php.4.8.NIV.m4a') that matches fw.memoryVerseState.allRefs (e.g. ['php.4.8', ...])
+        let indx = fw.memoryVerseState.allRefs.findIndex(ref => curVerse.includes(ref)); // -1 if NOT found ... TODO: consider allowing the **if** (above) to use this
+
+        // advance to the next entry, looping  back to the beginning [0] when at the end
+        // IN ADVANCED PRODUCTION: TODO:   this is NOT just a simple advancement (when considering the dynamics of filtering and re-checking the verses, etc.)
+        //                         RATHER: the next verse:
+        //                                 - that is CHECKED for play
+        //                                 - AND is visible (per filtering)
+        //                                 - etc.
+        //                                 MUST ALSO: catch scenerio where the dynamics result in NOTHING to be played
+        indx = (indx + 1) % fw.memoryVerseState.allRefs.length;
+        nextVerse = fw.memoryVerseState.allRefs[indx];
+        log(`advanced to next entry (looping back when at end) ... nextVerse is: '${nextVerse}' ... indx: ${indx}`);
+      }
+
+      return nextVerse;
+    }
+    
+    // reset the audio control to the start
+    // ... INVOKED FROM: user click (of "Reset" Button) -OR- programmatically in our initialization setup
+    // IN PRODUCTION: for the BETA (all play), we can get by WITHOUT the "reset" button in the UI
+    //                - TODO: may need it when we get to the dynamic stuff
+    //                - I'm thinking we may NEVER need it in the UI (only in our internal reset - on page navigation in/out of this page)
+    fw.mvap_reset = function() {
+      const log = logger(`${logPrefix}:mvap_reset()`);
+      log(`resetting the audio control to the start`);
+      
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      // STOP our playback, RESETTING it to the beginning
+      audio.pause();    // pause any previous audio ... necessary when the audio is currently playing
+      audio.src = startingMultiVerseAudioClip;
+      audio.load();     // load the starting audio source
+      // audio.play();     // NOT: start playing the new file ... NOT in the context of reset() ... we want to STOP PLAY COMPLEXLY
+    }
+
 
 
     //***************************************************************************

@@ -120,6 +120,7 @@ class FWSettings {
     MSG:  { code: '97',    desc: 'The Message' },
     GNT:  { code: '68',    desc: 'Good News Translation' },
     NLT:  { code: '116',   desc: 'New Living Translation' },
+    ICB:  { code: '1359',  desc: `International Children's Bible` },
 
     SEP2: { code: 'GROUP', desc: 'Literal (some moderate):' },
     CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
@@ -159,8 +160,14 @@ class FWSettings {
     // default non-specified translation to self's bibleTranslation setting.
     translation = translation || this.getBibleTranslation();
 
-    // convert translation ('KJV') to translationCode ('1')
-    const translationCode = this.bibleTranslations[translation].code;
+    // locate our internal tranlation control structure
+    const bibleTranslation = this.bibleTranslations[translation];
+    if (!bibleTranslation) {
+      throw new Error(`*** Error *** fwSettings.constructBibleURL() - UNSUPPORTED translation: '${translation}'`);
+    }
+
+    // convert translation (EX: 'KJV') to translationCode (EX: '1')
+    const translationCode = bibleTranslation.code;
 
     // construct the URL
     // EX: https://bible.com/bible/1/luk.9.23-24.KJV

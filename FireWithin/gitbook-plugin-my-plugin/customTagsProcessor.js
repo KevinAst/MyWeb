@@ -193,6 +193,8 @@ const customTagProcessors = {
   bibleLink,
   sermonSeries,
   memorizeVerse,
+  collapsibleSection,
+  collapsibleSectionEnd,
   inject,
   userName,
   userEmail,
@@ -1041,10 +1043,34 @@ function memorizeVerse(namedParams={}) {
   // ... at minimum, must have one scripture text
   checkParam(textKeys.length > 0, `at least one translation scripture text must be supplied ... ex: text: { NLT: '... scripture text here' }`);
 
-  const supportedTranslations = ['NLT', 'NKJV', 'ESV', 'CSB', 'KJV', 'NIV'];
+  // supported translations (used in our build process)
+  // NOTE: The master source for this is found in fwSettings.js (see `bibleTranslations`)
+  //       ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
+  //       BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
+  //       just PUNT and dupicate it (for now)
+  const supportedTranslations = ['MSG', 'GNT', 'NLT', 'ICB', 'CSB', 'NIV', 'ESV', 'NET', 'NKJV', 'KJV', 'AMP', 'AMPC'];
 
-  // ... validate the supplied translations (the textKeys)
+  // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
+  //     NOTE: When NO DEFAULT is is specified
+  //           - We fallback to FireWithin "Bible Translation" Settings (at runtime)
+  //             NOTE: If the run-time setting is NOT included
+  //                   in THIS Memory Verse, we use the FIRST Translation
+  //                   defined in THIS definition (i.e. here)
+  //                   ... done at runtime (in fw.js - syncUIMemoryVerseTranslation())
+  let defaultTranslation = '';
+
+  // ... validate the supplied translations (the textKeys) -AND- resolve the defaultTranslation (ending with a '*')
   const translationKeys = textKeys.map(key => {
+
+    if (key.endsWith("*")) { // entry ending with '*' represents the defaultTranslation
+      // prune the ending '*'
+      key = key.slice(0, -1);
+      // retain the defaultTranslation, after insuring multiple defaults ARE NOT defined
+      checkParam(defaultTranslation === '', `you may only specify ONE default translation (by suffixing the text object key with a "*" ... you have multiple in: ${textKeys}`);
+      defaultTranslation = key;
+      // morph the key/value pair in text[] array to the real key (without the * default semantics)
+      text[key] = text[`${key}*`]
+    }
 
     // ... the translationKey must be a well known supported value
     checkParam(supportedTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${supportedTranslations}`);
@@ -1072,7 +1098,7 @@ function memorizeVerse(namedParams={}) {
   //       - I have seen this before
   //       - unsure what it is, but I can't seem to fix
   //       - just live with it :-(
-  content += `<div data-memory-verse="${scriptRef}" id="${scriptRefSanitized}">`;
+  content += `<div id="${scriptRefSanitized}" data-memory-verse="${scriptRef}" data-default-translation="${defaultTranslation}">`;
 
   // distinguishing visual section break (horizontal line) - solid grey centered (auto) 70% wide with rounded corners
   content += `<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">`;
@@ -1096,25 +1122,22 @@ function memorizeVerse(namedParams={}) {
   content += `&nbsp;&nbsp;<a href="#" target="_blank" style="font-size: 18px; font-weight: bold;">${label}</a>`;
   
   // translation selector
-  content += `<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select data-script-ref-sanitized="${scriptRefSanitized}" onchange="fw.handleMemoryVerseTranslationChange(event)">`;
-
+  // ... keep center/not in sync with <audio> ... centered inline: style="justify-content: center;"  (HACK: add data-style= to disable it)
+  content += `<p class="indent radio-memory-verse-translation" style="justify-content: center;" data-script-ref-sanitized="${scriptRefSanitized}">`;
   translationKeys.forEach(translationKey => {
-    content += `<option value="${translationKey}">${translationKey}</option>`;
+    // we use `name="NLT"` to make it unique, insuring single selection for GIVEN verse 
+    // ... suspect we can use this, and eliminate data-script-ref-sanitized in containing div (above)
+    content += `<label><input type="radio" name="${scriptRefSanitized}" value="${translationKey}"  onchange="fw.handleMemoryVerseTranslationChange(event)"><span>${translationKey}</span></label>`;
   });
-  content += `</select>`;
-
-  // add control to clear the memory verse selection
-  content += `&nbsp;&nbsp;<button type="button" data-script-ref-sanitized="${scriptRefSanitized}" onclick="fw.clearMemoryVerseTranslation(event)">Clear Selection</button>`;
-
-  // end of initial paragraph
   content += `</p>`;
 
   // generate all our translation divs
+  // ... keep center/not in sync with translation selector ... centered inline: style="display: block; margin: 0 auto;" (HACK: add data-style= to disable it)
   content += `<!-- many translation divs (under memory-verse div) ... only ONE visible at a time -->`;
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
-    content +=   `<audio controls loop onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
+    content +=   `<audio controls loop style="display: block; margin: 0 auto;" onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;
@@ -1125,6 +1148,107 @@ function memorizeVerse(namedParams={}) {
   // ending container
   content += `</div>`;
 
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+  return content;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* collapsibleSection(namedParams)
+//* 
+//* Inject the html to render a Collapsible Section.
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes all aspects of the Collapsible Section.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag:
+//*   P{ collapsibleSection(`{ several-options-see-README }`) }P
+//*   ... authored content USING markdown
+//*   P{ collapsibleSectionEnd() }P
+//* 
+//* Replaced With:
+//*   <div id="{id}" data-initial-expansion="{initialExpansion}">
+//*     <span class="collapsible-toggle" onclick="fw.toggleSection('{id}')">
+//*         <span class="collapsible-arrow">▶</span> {label}
+//*     </span>
+//*     <div class="collapsible-content indent">`;
+//*   ... authored content USING markdown
+//*   </div> ... supplied by collapsibleSectionEnd() macro
+//*   
+//*-----------------------------------------------------------------------------
+function collapsibleSection(namedParams={}) {
+
+  // parameter validation
+  const self       = `collapsibleSection(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {id, label, indent=true, initialExpansion='open', ...unknownNamedArgs} = namedParams;
+
+  // ... id
+  checkParam(id,           'id is required');
+  checkParam(isString(id), 'id must be a string (the unique identifier for this section)');
+  
+  // ... label (optional)
+  if (label) {
+    checkParam(isString(label), 'label (when supplied) must be a string (the label serving as the expand/collapse control)');
+  }
+
+  // ... indent
+  checkParam(isBoolean(indent), 'indent (when supplied) must be a boolean (should the content be indented?) DEFAULT: true');
+  
+  // ... initialExpansion
+  checkParam(isString(initialExpansion), `initialExpansion (when supplied) must be a string (Initial state on "first use" [before persistence has been defined]) DEFAULT: 'open'`);
+  checkParam(['open', 'close'].includes(initialExpansion), `initialExpansion (when supplied) must either be 'open' or 'close' (Initial state on "first use" [before persistence has been defined]) DEFAULT: 'open'`);
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // the outer container for the collapsable section
+  content += `<div id="${id}" data-initial-expansion="${initialExpansion}">`;
+
+  // the expand/collapse control ... when supplied
+  if (label) {
+    content += `<span class="collapsible-toggle" onclick="fw.toggleSection('${id}')">`;
+    content += `<span class="collapsible-arrow">▶</span> ${label}`;
+    content += `</span>`;
+  }
+
+  // the collapsable container ... NOTE: NOT closed (requires user to subsequently supply: collapsibleSectionEnd() macro)
+  const indentCSS = indent ? 'indent' : '';
+  content += `<div class="collapsible-content ${indentCSS}">`;
+
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+//console.log(`***INFO*** collapsibleSection() emitting following html:\n\n` + content + `\n\nTHAT IS ALL`);
+  return content;
+}
+
+// ending macro for collapsibleSection()
+function collapsibleSectionEnd() {
+  const self    = `collapsibleSectionEnd(...)`;
+  const diag    = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let   content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+  content += `</div></div>`;
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
