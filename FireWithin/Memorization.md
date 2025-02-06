@@ -13,6 +13,25 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
   - M{ completedCheckBox(`verseMemorized-rom_12_1-2`)  }M [Romans 12:1-2 (ChristianLiving)](#rom_12_1-2)
   - M{ completedCheckBox(`verseMemorized-rom_2_4`) }M [Romans 2:4 (God)](#rom_2_4)
 
+
+<div style="text-align: center;">
+
+<br/><br/>
+
+<p><b>Multi-Verse Audio Review</b> - <i>Hear ALL the memory verses in a loop (not just an individual verse)!!</i></p>
+
+<audio id="mvap_audio_player" controls 
+       onplay="fw.mvap_play(this)"
+       onpause="fw.mvap_pause()"
+       onended="fw.mvap_audioEnded()">
+  Your browser does not support the audio tag.
+</audio>
+
+<!-- NOT NEEDED YET: <button onclick="fw.mvap_reset()">Reset</button>  -->
+
+</div>
+
+
 ### Overview
 
 This section contains selected scriptures that you may consider

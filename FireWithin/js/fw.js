@@ -297,38 +297,69 @@ if (!window.fw) { // only expand this module once (conditionally)
       const memoryVerseDivs = document.querySelectorAll('div[data-memory-verse]');
 
       // glean all MemoryVerse run-time state that is held in the MemoryVerse.md page
-      // ... this state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
-      //     BECAUSE this state WILL NOT CHANGE!
-      // >>> NO NO NO NO: DO NOT DO THIS:
-      //                  We need to access the <divs> each time we process this page, 
-      //                  ... so we can gean any state we need from the data attributes
-      //                  ... NO NEED TO COMPLICATE THINGS
-      //                  ... HOWEVER: KEEP THIS (COMMENTED OUT) - THE TECHNIQUE IS GOOD, IF WE EVER NEED IT
-      //if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
-      //  log(`creating fw.memoryVerseState (only once)`);
-      //
-      //  fw.memoryVerseState = {
-      //    // SAMPLE of what each memory verse contains
-      //    "luk_9_23-24": {      // indexed by: id
-      //      ref: 'luk.9.23-24', // scripture reference
-      //    }
-      //
-      //  }
-      //
-      //  // pull data out of our html and hold onto it
-      //  // ... process each memory verse
-      //  memoryVerseDivs.forEach(memoryVerseDiv => {
-      //    const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
-      //    const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
-      //
-      //    // see SAMPLE (above)
-      //    const mvEntry = fw.memoryVerseState[memoryVerseScriptRefSanitized] = {};
-      //    mvEntry.ref = memoryVerseScriptRef;
-      //
-      //    // glean more ...
-      //  });
-      //
-      //}
+      // 
+      // NOTE: This state is gathered ONE time only (on FIRST NAVIGATION to the Memorization.md page)
+      //       BECAUSE this state WILL NOT CHANGE!
+      // 
+      //       As a general rule, this state is NOT used for overall page processing.
+      //       BECAUSE: We need to access the <divs> each time we process this page
+      //                Sooo we can gean any state we need from the data attributes
+      // 
+      //       HOWEVER: We do use this state for: MVAP: Multi-Verse Audio Play (mvap)
+      // 
+      if (!fw.memoryVerseState) { // ... VERIFIED: executed on FIRST NAVIGATION to the Memorization.md page (NOT subsequent navigations)
+        log(`creating fw.memoryVerseState (only once)`);
+
+        fw.memoryVerseState = {
+
+          // NOTE: This is mostly documentation (i.e. comments), so you can easily see what the contents are.
+          //       This structure is built in the code following this doc :-)
+
+          // all verse references
+          allRefs: [/*'luk.9.23-24', ...*/],
+
+          // one entry for each verse (a sample - for reference)
+          // "luk_9_23-24": {      // indexed by: id
+          //   ref: 'luk.9.23-24', // scripture reference
+          //   activeTranlsation: 'NLT', // maintained at run-time for convenience
+          // },
+          // ... repeat and rinse
+        }
+        
+        // pull data out of our html and hold onto it
+        // ... process each memory verse
+        memoryVerseDivs.forEach(memoryVerseDiv => {
+          const memoryVerseScriptRef          = memoryVerseDiv.dataset.memoryVerse;
+          const memoryVerseScriptRefSanitized = memoryVerseDiv.id;
+
+          // build up the structure documented above
+          fw.memoryVerseState.allRefs.push(memoryVerseScriptRef);
+
+          const mvEntry = fw.memoryVerseState[memoryVerseScriptRefSanitized] = {};
+          mvEntry.ref = memoryVerseScriptRef;
+        });
+
+        log(`ONE TIME ONLY - built up fw.memoryVerseState: `, fw.memoryVerseState);
+      }
+
+      // activate our audio control
+      // - this loads it with our starting audio src
+      //   * this is necessary to enable the controls (otherwise the controls are disabled)
+      // - this is the right spot to activate the control
+      //   * it is required for:
+      //     - page refreshes .... otherwise the audio control is NOT active
+      //     - page navigation ... ditto
+      //   * HOWEVER: we do NOT "desire" it to be done on just normal translation-related state changes
+      //              ... what this function is syncing
+      //              ... such as a translation selection
+      //              - BECAUSE: we want the Multi-Verse Audio Play to continue to play
+      //                         and pick up these changes dynamically (during it's play)
+      //                         ... very kook indeed
+      //              - THEREFORE: we "conditionally" do this, when the audo has NO src
+      const audio = document.getElementById("mvap_audio_player"); // audio player for our mvap control
+      if (! audio.src) {
+        fw.mvap_reset();
+      }
 
       // process each memory verse
       memoryVerseDivs.forEach(memoryVerseDiv => {
@@ -384,6 +415,10 @@ if (!window.fw) { // only expand this module once (conditionally)
           //                - AND THEY WOULD HAVE NEVER EXPLICITLY SET THE VERSE TRANSLATION
        // fwMemoryVerseTranslation.setTranslation(memoryVerseScriptRefSanitized, activeTranslation);
         }
+
+        // retain this active translation in our in-memory structure (for convenience)
+        // ... currently used by our Multi-Verse Audio Play
+        fw.memoryVerseState[memoryVerseScriptRefSanitized].activeTranlsation = activeTranslation;
 
         log(`our activeTranslation: ${activeTranslation}`);
 
@@ -443,8 +478,8 @@ if (!window.fw) { // only expand this module once (conditionally)
       // stop any audio playback within this scripture reference
       // BECAUSE a change of translation will hide all other translations (one of which may be playing)
 
-      // ... locate the scriptureContainerElm (a grandparent <div> of our radioElm)
-      const scriptureContainerElm = radioElm.parentElement.parentElement;
+      // ... locate the scriptureContainerElm (a great grandparent <div> of our radioElm)
+      const scriptureContainerElm = radioElm.parentElement.parentElement.parentElement;
 
       // ... iterate over ALL <audio> elements within this scripture, stopping their playback
       const audioElements = scriptureContainerElm.querySelectorAll("audio");
@@ -452,6 +487,137 @@ if (!window.fw) { // only expand this module once (conditionally)
         stopAudioPlayback(audioElm);
       });
     }
+
+    
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to MVAP: Multi-Verse Audio Play (mvap)
+    //* ... a specialized area of memoryVerseTranslation
+    //***************************************************************************
+    //***************************************************************************
+
+    // USE CONSISTENT TERMS for the audio being played:
+    // > I KINDA GAVE UP ON THIS ... I think it is OK
+    // - N: track ... generic term for an audio track (only used in a single comment)
+    // - N: clip .... another generic term (current usage in startingMultiVerseAudioClip.m4a)
+    // - Y: verse ... specific to our app domain (used BOTH in verse refs [e.g. 'jhn.3.16'], and audio file refs [e.g. 'Memorization/php.4.8.NIV.m4a'])
+
+    // the starting track (a short intro, needed to activate/reset the audio controls)
+    const startingMultiVerseAudioClip = 'Memorization/startingMultiVerseAudioClip.m4a';
+
+    // audio control "play" button
+    // ... INVOKED FROM: user click -OR- programmatically indirectly via audio.play()
+    // INTERESTING: Don't really need this code (it does nothing)
+    fw.mvap_play = function(audioElm) {
+      const log = logger(`${logPrefix}:mvap_play()`);
+      log(`play button pressed`);
+
+      // NOTE: We don't want to do anything here
+      //       ... the user uses this to kick off the whole process
+      //       ... programmatically, we use it kick of the next verse
+
+      // we do however want to stop any other audio element from playing
+      fw.preventConcurrentAudioPlayback(audioElm);
+    }
+    
+    // audio control "pause" button (actually the play/pause controls toggle ... it's the same button but changes meaning)
+    // ... INVOKED FROM: user click -OR- programmatically indirectly via audio.pause()
+    // INTERESTING: Don't really need this code (it does nothing)
+    fw.mvap_pause = function() {
+      const log = logger(`${logPrefix}:mvap_pause()`);
+      log(`audio paused`);
+
+      // NOTE: We don't want to do anything here
+      //       ... the user just wants to "pause" (i.e. stop the play)
+    }
+
+    // audio play has just ended
+    // ... INVOKED FROM: implicitly - when the clip is complete (NOTE: there is ALWAYS a starting clip: startingMultiVerseAudioClip ... which allows the audio control to be active/enabled)
+    fw.mvap_audioEnded = function() {
+      const log = logger(`${logPrefix}:mvap_audioEnded()`);
+      log(`audio ended ... loading next verse`);
+
+      // this is where the action happens!!!
+      // ... we programmatically advance to the next verse
+
+      // advance to our next verse to play
+      const nextVerse = advanceToNextVerse();
+
+      // we glean the translation from our cached memory state (derived from the html)
+      // - it would be easier to pull it from our persistent state
+      //   * BUT ifthe translation has never been explicitly selected, it will not be set in our persistent state!
+      //   * By gleaning this from our cached memory state, we use what is displayed to the user (with the default semantics applied)
+      const nextVerseSanitized = nextVerse.replaceAll('.', '_');
+      const activeTranslation  = fw.memoryVerseState[nextVerseSanitized].activeTranlsation;
+
+      // format our verse to the audio file entry
+      // EX: src="Memorization/php.4.8.NIV.m4a"
+      const nextAudioFile = `Memorization/${nextVerse}.${activeTranslation}.m4a`;
+
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      // advance our active play to our next verse
+      log(`setting the nextAudioFile: '${nextAudioFile}'`);
+      audio.pause();    // pause audio ... not needed in this case, but doesn't hurt
+      audio.src = nextAudioFile;
+      audio.load();     // reload the new audio source
+      audio.play();     // start playing the new file
+    }
+
+    // utility to advance to the next verse
+    function advanceToNextVerse() {
+      const log = logger(`${logPrefix}:advanceToNextVerse()`);
+
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      const curVerse = audio.src;
+      let   nextVerse;
+      if (curVerse === startingMultiVerseAudioClip) {
+        // if we are at the start, use the first verse ... WILL NEVER BE EMPTY providing there is at least one memory verse on our page (A GIVEN)
+        nextVerse = fw.memoryVerseState.allRefs[0];
+        log(`at the start ... nextVerse is first entry: '${nextVerse}'`);
+      }
+      else {
+        // find the entry whose content is in curVerse
+        // ... EX: curVerse (e.g. 'Memorization/php.4.8.NIV.m4a') that matches fw.memoryVerseState.allRefs (e.g. ['php.4.8', ...])
+        let indx = fw.memoryVerseState.allRefs.findIndex(ref => curVerse.includes(ref)); // -1 if NOT found ... TODO: consider allowing the **if** (above) to use this
+
+        // advance to the next entry, looping  back to the beginning [0] when at the end
+        // IN ADVANCED PRODUCTION: TODO:   this is NOT just a simple advancement (when considering the dynamics of filtering and re-checking the verses, etc.)
+        //                         RATHER: the next verse:
+        //                                 - that is CHECKED for play
+        //                                 - AND is visible (per filtering)
+        //                                 - etc.
+        //                                 MUST ALSO: catch scenerio where the dynamics result in NOTHING to be played
+        indx = (indx + 1) % fw.memoryVerseState.allRefs.length;
+        nextVerse = fw.memoryVerseState.allRefs[indx];
+        log(`advanced to next entry (looping back when at end) ... nextVerse is: '${nextVerse}' ... indx: ${indx}`);
+      }
+
+      return nextVerse;
+    }
+    
+    // reset the audio control to the start
+    // ... INVOKED FROM: user click (of "Reset" Button) -OR- programmatically in our initialization setup
+    // IN PRODUCTION: for the BETA (all play), we can get by WITHOUT the "reset" button in the UI
+    //                - TODO: may need it when we get to the dynamic stuff
+    //                - I'm thinking we may NEVER need it in the UI (only in our internal reset - on page navigation in/out of this page)
+    fw.mvap_reset = function() {
+      const log = logger(`${logPrefix}:mvap_reset()`);
+      log(`resetting the audio control to the start`);
+      
+      // our <audio> control
+      const audio = document.getElementById("mvap_audio_player");
+
+      // STOP our playback, RESETTING it to the beginning
+      audio.pause();    // pause any previous audio ... necessary when the audio is currently playing
+      audio.src = startingMultiVerseAudioClip;
+      audio.load();     // load the starting audio source
+      // audio.play();     // NOT: start playing the new file ... NOT in the context of reset() ... we want to STOP PLAY COMPLEXLY
+    }
+
 
 
     //***************************************************************************
