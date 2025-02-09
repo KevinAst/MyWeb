@@ -83,6 +83,8 @@ Release           | What                 | *When*
   * ?? more
 
 
+- Re-categorized the "NTL" Translation to be a "Literal Translation"
+
 - ?? more
 
 

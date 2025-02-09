@@ -1048,7 +1048,7 @@ function memorizeVerse(namedParams={}) {
   //       ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
   //       BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
   //       just PUNT and dupicate it (for now)
-  const supportedTranslations = ['MSG', 'GNT', 'NLT', 'ICB', 'CSB', 'NIV', 'ESV', 'NET', 'NKJV', 'KJV', 'AMP', 'AMPC'];
+  const supportedTranslations = ['NLT', 'ESV', 'NIV', 'CSB', 'NET', 'NKJV', 'KJV', 'MSG', 'GNT', 'ICB', 'AMP', 'AMPC'];
 
   // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
   //     NOTE: When NO DEFAULT is is specified
