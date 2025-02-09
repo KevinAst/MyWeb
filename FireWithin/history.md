@@ -80,6 +80,8 @@ Release           | What                 | *When*
 
 - Enhanced {{book.Memorization}} page as follows:
 
+  * The default translation for each memory verse is now displayed in red.
+
   * ?? more
 
 

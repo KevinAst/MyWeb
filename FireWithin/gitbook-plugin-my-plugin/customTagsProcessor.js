@@ -1125,9 +1125,11 @@ function memorizeVerse(namedParams={}) {
   // ... keep center/not in sync with <audio> ... centered inline: style="justify-content: center;"  (HACK: add data-style= to disable it)
   content += `<p class="indent radio-memory-verse-translation" style="justify-content: center;" data-script-ref-sanitized="${scriptRefSanitized}">`;
   translationKeys.forEach(translationKey => {
+    // demark the default translation text in redish ALL THE TIME (LightCoral - a color that is visible in all contexts)
+    const defaultStyle = translationKey === defaultTranslation ? 'style="color: LightCoral !important;"' : '';
     // we use `name="NLT"` to make it unique, insuring single selection for GIVEN verse 
     // ... suspect we can use this, and eliminate data-script-ref-sanitized in containing div (above)
-    content += `<label><input type="radio" name="${scriptRefSanitized}" value="${translationKey}"  onchange="fw.handleMemoryVerseTranslationChange(event)"><span>${translationKey}</span></label>`;
+    content += `<label><input type="radio" name="${scriptRefSanitized}" value="${translationKey}"  onchange="fw.handleMemoryVerseTranslationChange(event)"><span ${defaultStyle}>${translationKey}</span></label>`;
   });
   content += `</p>`;
 
