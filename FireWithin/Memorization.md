@@ -37,11 +37,6 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 This section contains selected scriptures that you may consider
 committing to memory.
 
-P{ collapsibleSection({
-  id:     'memVerseOverview',
-  label:  'Tell Me More',
-}) }P
-
 For me, this journey began in 2025, when my local church
 ({{book.FBM}}) launched a memorization campaign called **[25 in
 25](https://fbmaryville.org/25-in-25)** — aimed at memorizing 25
@@ -50,16 +45,20 @@ passages in 2025, each focused on one of five key themes.
 I’ve always struggled with memorization, so **_<mark>this page was
 created as as a helpful resource</mark>_**.
 
-For each passage:
+P{ collapsibleSection({
+  id:     'memVerseOverview',
+  label:  'Tell Me More',
+  initialExpansion: 'close',
+}) }P
 
-- An _**audio playback is provided**_, that allows you to listen to
-  the passage repeatedly. The playback _**automatically loops**_ until
-  you click stop - making it easy to hear the scripture
-  continuously. When using this feature on your phone, you can simply
-  _**pop in your earbuds and let the scripture take root in your
-  memory!**_
+Here are the features of this page:
 
-  Each audio playback includes the following elements:  
+- _**Audio Playback**_: You can listen to each passage _**on repeat**_ until
+  you stop it. This is especially handy on your phone — _**just pop in
+  your earbuds and let the Scripture take root in your memory!**_
+
+  You will find the **Audio Playback Control** after each scripture
+  _(below)_.  The following elements are included for each audio:
 
   - **Context** (e.g., _Paul's parting instruction to the church at Philippi_)  
   - **Scripture Reference** (e.g., _Philippians 4:8_)  
@@ -68,31 +67,59 @@ For each passage:
   - **Scripture Reference** (repeated – per recommendation of The [Navigators'](https://www.navigators.org/))
 
 
-- You can choose your preferred Bible translation from a selection of
-  the most popular versions.  _**Your choice will be remembered for
-  each individual passage** (once it is explicitly selected)_!
+- _**Customizable Translations**_: For each memory verse, you may
+  select the Bible translation you wish to memorize, from a selection
+  of the most popular versions.
 
-- A scripture link is provided to the [You Version](https://www.bible.com/)
-  Bible App, so you can explore the passage in greater depth.
+  Initially, the default translation _(promoted by the **[25 in
+  25](https://fbmaryville.org/25-in-25)** campaign)_ will be selected,
+  and **it's selector will always be shown in red**.
 
-- As always, you can _**track your progress by checking the completion
-  box next to the passages you've memorized!**_
+- _**YouVersion Links**_: Each memory verse is a link to the
+  [YouVersion](https://www.bible.com/) Bible App, so you can explore
+  the passage in greater depth.
 
-- This page includes several collapsible sections, such as the
-  devotional content for each memory verse, and even this
-  overview. You can toggle these sections by clicking their titles
-  _(shown with an arrow)_. Collapsing them helps better promote the
-  memory verses _(making them more prominent)_. The collapsed state is
-  preserved, so when you leave and return, everything will appear just
-  as you left it.
+- _**Progress Tracking**_: As is the case with several aspects of this
+  {{book.FireWithin}} site, you can keep track of your progress _(for
+  this page - the verses you have memorized)_ with the "completed"
+  check boxes ✔.
+
+- _**Minimalist View**_: You can collapse both this overview and
+  devotional sections found in this page - **to give more prominence to
+  the scripture itself**.  
+
+  Simply click the title of any collapsible section _(indicated by an
+  arrow - ▶)_, to toggle between expanded and collapsed views.
+
+- _**Multi-Verse Playback**_: In addition to listening to each
+  individual memory verse _(one at a time)_, you can choose to listen
+  to multiple verses of your choosing.  This audio control is at the
+  top of the page _(just under the **Table of Contents**)_.
+
+  You simply select the verses you want to review _(through the
+  &#x1F508; audio checkboxes to the right of each verse in the TOC)_,
+  and click play on the audio control.
+
+- _**Total Recall**_: All these settings are automatically saved, so when
+  you return to the site, it will be just as you left it.
+
+  > **Please Note**: By default these settings are stored locally on
+  > your device. This works well when you are using one device.  
+  > 
+  > If however you use multiple devices _(say your laptop and your
+  > phone)_, each one will have its own settings _(that you must sync
+  > manually)_.  **To solve this problem**, you simply create an
+  > account (on the {{book.Settings}} page) - which then saves your
+  > settings to the cloud, and any device signed-in to this account
+  > will sync automatically!
 
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
 will be adding passages from that resource throughout the year.
 
-In addition, I plan to add more scriptures to this list.  If you have
-one that you would like added, please reach out to me
-at <span id="inquire"></span>
+I also plan to add additional scriptures to this page.  _**Would you like
+to see a particular passage added?**_ Reach out to me at <span
+id="inquire"></span>
 
 <script>
   withFW( ()=>fw.addInquire('Add%20Memory%20Scripture') )

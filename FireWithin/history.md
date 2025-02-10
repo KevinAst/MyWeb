@@ -82,8 +82,9 @@ Release           | What                 | *When*
 
   * The default translation for each memory verse is now displayed in red.
 
-  * ?? more
+  * The "Tell Me More" section of the Overview has been streamlined.
 
+  * ?? more
 
 - Re-categorized the "NTL" Translation to be a "Literal Translation"
 
