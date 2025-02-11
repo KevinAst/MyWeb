@@ -34,16 +34,22 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 ### Overview
 
-This section contains selected scriptures that you may consider
-committing to memory.
+This page contains _**selected scriptures that you may consider
+committing to memory**_.
 
-For me, this journey began in 2025, when my local church
-({{book.FBM}}) launched a memorization campaign called **[25 in
-25](https://fbmaryville.org/25-in-25)** — aimed at memorizing 25
-passages in 2025, each focused on one of five key themes.
+For me, this journey began in 2020, when God got my attention and took
+hold of my life.  I have a bit of a prodigal son story _(I share more
+about my Christian faith in the {{book.MyFaith}} page)_.
 
-I’ve always struggled with memorization, so **_<mark>this page was
-created as as a helpful resource</mark>_**.
+Recently, my local church ({{book.FBM}}) launched a memorization
+campaign called **[25 in 25](https://fbmaryville.org/25-in-25)** — a
+challenge to memorize 25 passages in 2025, each centered on one of
+five themes.
+
+Memorization has always been a challenge for me. This time, however,
+rather than using that as an excuse, I felt God directing me to do
+something about it. _**This page is the result — <mark>one I hope will
+be a helpful resource</mark>.**_
 
 P{ collapsibleSection({
   id:     'memVerseOverview',
@@ -51,11 +57,14 @@ P{ collapsibleSection({
   initialExpansion: 'close',
 }) }P
 
-Here are the features of this page:
+Explore the features of this page _(along with some quick tips on how to use them)_:.
 
 - _**Audio Playback**_: You can listen to each passage _**on repeat**_ until
   you stop it. This is especially handy on your phone — _**just pop in
   your earbuds and let the Scripture take root in your memory!**_
+
+  This is the **<mark>key feature</mark>** of this page and _**the
+  reason I created it**_ :-)
 
   You will find the **Audio Playback Control** after each scripture
   _(below)_.  The following elements are included for each audio:
@@ -80,8 +89,8 @@ Here are the features of this page:
   the passage in greater depth.
 
 - _**Progress Tracking**_: As is the case with several aspects of this
-  {{book.FireWithin}} site, you can keep track of your progress _(for
-  this page - the verses you have memorized)_ with the "completed"
+  {{book.FireWithin}} site, you can keep track of your progress _(in 
+  this case - the verses you have memorized)_ with the "completed"
   check boxes ✔.
 
 - _**Minimalist View**_: You can collapse both this overview and
@@ -104,12 +113,12 @@ Here are the features of this page:
   you return to the site, it will be just as you left it.
 
   > **Please Note**: By default these settings are stored locally on
-  > your device. This works well when you are using one device.  
+  > your device. This works well when you are using a single device.  
   > 
   > If however you use multiple devices _(say your laptop and your
-  > phone)_, each one will have its own settings _(that you must sync
-  > manually)_.  **To solve this problem**, you simply create an
-  > account (on the {{book.Settings}} page) - which then saves your
+  > phone)_, each one will have their own settings _(that you must sync
+  > manually)_.  **To solve this problem**, you simply create a **FireWithin
+  > Account** (on the {{book.Settings}} page) - which then saves your
   > settings to the cloud, and any device signed-in to this account
   > will sync automatically!
 
