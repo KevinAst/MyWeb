@@ -318,6 +318,11 @@ if (!window.fw) { // only expand this module once (conditionally)
           // all verse references
           allRefs: [/*'luk.9.23-24', ...*/],
 
+          // current verse being played
+          // EX: 'luk.9.23-24'
+          // OR: '' for RESET (start from beginning)
+          curVerse: '',
+
           // one entry for each verse (a sample - for reference)
           // "luk_9_23-24": {      // indexed by: id
           //   ref: 'luk.9.23-24', // scripture reference
@@ -518,9 +523,12 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // we do however want to stop any other audio element from playing
       fw.preventConcurrentAudioPlayback(audioElm);
+
+      // we also want to clear any left-over user message
+      mvap_userMsg();
     }
-    
-    // audio control "pause" button (actually the play/pause controls toggle ... it's the same button but changes meaning)
+        
+        // audio control "pause" button (actually the play/pause controls toggle ... it's the same button but changes meaning)
     // ... INVOKED FROM: user click -OR- programmatically indirectly via audio.pause()
     // INTERESTING: Don't really need this code (it does nothing)
     fw.mvap_pause = function() {
@@ -543,9 +551,17 @@ if (!window.fw) { // only expand this module once (conditionally)
       // advance to our next verse to play
       const nextVerse = advanceToNextVerse();
 
+      // if there is NO nextVerse to play, we reset our control (with a user message)
+      if (!nextVerse) {
+        log(`NO nextVerse to play ... resetting control`);
+        fw.mvap_reset();
+        mvap_userMsg(`You must select at least one verse to play (from the audio checkboxes - far right of the TOC [above]).`);
+        return;
+      }
+
       // we glean the translation from our cached memory state (derived from the html)
       // - it would be easier to pull it from our persistent state
-      //   * BUT ifthe translation has never been explicitly selected, it will not be set in our persistent state!
+      //   * BUT if the translation has never been explicitly selected, it will not be set in our persistent state!
       //   * By gleaning this from our cached memory state, we use what is displayed to the user (with the default semantics applied)
       const nextVerseSanitized = nextVerse.replaceAll('.', '_');
       const activeTranslation  = fw.memoryVerseState[nextVerseSanitized].activeTranlsation;
@@ -559,51 +575,69 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // advance our active play to our next verse
       log(`setting the nextAudioFile: '${nextAudioFile}'`);
+      fw.memoryVerseState.curVerse = nextVerse;
       audio.pause();    // pause audio ... not needed in this case, but doesn't hurt
       audio.src = nextAudioFile;
       audio.load();     // reload the new audio source
       audio.play();     // start playing the new file
     }
 
+
     // utility to advance to the next verse
+    // NOTES:
+    // - More intuitive for users who expect to continue from the next verse in sequence.
+    // - No sudden jumps to the first verse unless necessary.
     function advanceToNextVerse() {
       const log = logger(`${logPrefix}:advanceToNextVerse()`);
 
-      // our <audio> control
-      const audio = document.getElementById("mvap_audio_player");
+      // the current verse that just played
+      const curVerse = fw.memoryVerseState.curVerse;
 
-      const curVerse = audio.src;
-      let   nextVerse;
-      if (curVerse === startingMultiVerseAudioClip) {
-        // if we are at the start, use the first verse ... WILL NEVER BE EMPTY providing there is at least one memory verse on our page (A GIVEN)
-        nextVerse = fw.memoryVerseState.allRefs[0];
-        log(`at the start ... nextVerse is first entry: '${nextVerse}'`);
-      }
-      else {
-        // find the entry whose content is in curVerse
-        // ... EX: curVerse (e.g. 'Memorization/php.4.8.NIV.m4a') that matches fw.memoryVerseState.allRefs (e.g. ['php.4.8', ...])
-        let indx = fw.memoryVerseState.allRefs.findIndex(ref => curVerse.includes(ref)); // -1 if NOT found ... TODO: consider allowing the **if** (above) to use this
+      // convenient alias
+      // ... EX: allRefs: ['luk.9.23-24', ...],
+      const allRefs = fw.memoryVerseState.allRefs;
 
-        // advance to the next entry, looping  back to the beginning [0] when at the end
-        // IN ADVANCED PRODUCTION: TODO:   this is NOT just a simple advancement (when considering the dynamics of filtering and re-checking the verses, etc.)
-        //                         RATHER: the next verse:
-        //                                 - that is CHECKED for play
-        //                                 - AND is visible (per filtering)
-        //                                 - etc.
-        //                                 MUST ALSO: catch scenerio where the dynamics result in NOTHING to be played
-        indx = (indx + 1) % fw.memoryVerseState.allRefs.length;
-        nextVerse = fw.memoryVerseState.allRefs[indx];
-        log(`advanced to next entry (looping back when at end) ... nextVerse is: '${nextVerse}' ... indx: ${indx}`);
+      // determine our "to play" verses from allRefs through our filter
+      // NOTE: this filter is applied once (here)!
+      const toPlayRefs = allRefs.filter( (scriptRef) => {
+        // apply our various filters
+        if (fwCompletions.isPlay(scriptRef)) { // ... is selected for Multi-Verse Audio Play
+          return true;
+        }
+        // TODO: apply MORE criteria in the future ... such as - is the verse section filtere out
+        return false;
+      });
+
+      // no-op if no verses are selected
+      // ... possibly the user NEVER selected any verses to play, or deselected all mid-play
+      if (toPlayRefs.length === 0) {
+        return undefined; // NOTHING to play
       }
 
-      return nextVerse;
+      // locate index of curVerse from allRefs
+      // ... -1 if NOT THERE (on a reset control, when nothing is being played)
+      const curIndex = allRefs.indexOf(curVerse);
+      
+      // iterate over allRefs, but use toPlayRefs for matching
+      // ... see NOTE (in description)
+      for (let i=1; i<=allRefs.length; i++) {
+        const nextIndex = (curIndex + i) % allRefs.length;
+        const nextVerse = allRefs[nextIndex];
+        
+        if (toPlayRefs.includes(nextVerse)) {
+          return nextVerse; // located the next verse to play (within our `toPlay` filtered items)
+        }
+      }
+      
+      // for completeness
+      // ... should never get here if at least one verse is available "toPlay" (see "NOTHING to play" above)
+      return undefined;
     }
     
     // reset the audio control to the start
     // ... INVOKED FROM: user click (of "Reset" Button) -OR- programmatically in our initialization setup
-    // IN PRODUCTION: for the BETA (all play), we can get by WITHOUT the "reset" button in the UI
-    //                - TODO: may need it when we get to the dynamic stuff
-    //                - I'm thinking we may NEVER need it in the UI (only in our internal reset - on page navigation in/out of this page)
+    //                   CURRENTLY we do NOT believe the user (i.e. UI) needs this control
+    //                   ... the button is commened out in Memorization.md
     fw.mvap_reset = function() {
       const log = logger(`${logPrefix}:mvap_reset()`);
       log(`resetting the audio control to the start`);
@@ -612,10 +646,17 @@ if (!window.fw) { // only expand this module once (conditionally)
       const audio = document.getElementById("mvap_audio_player");
 
       // STOP our playback, RESETTING it to the beginning
+      fw.memoryVerseState.curVerse = ''; // reset to initial state (NOT playing anything)
       audio.pause();    // pause any previous audio ... necessary when the audio is currently playing
       audio.src = startingMultiVerseAudioClip;
       audio.load();     // load the starting audio source
-      // audio.play();     // NOT: start playing the new file ... NOT in the context of reset() ... we want to STOP PLAY COMPLEXLY
+   // audio.play();     // NOT: start playing the new file ... NOT in the context of reset() ... we want to STOP PLAY COMPLEXLY
+    }
+
+    // utility to display user message under the Multi-Verse Audio Play
+    // PARAM: msg - message to display to user (omit to clear message)
+    function mvap_userMsg(msg='') {
+      document.getElementById("multi-verse-user-msg").innerText = msg;
     }
 
 

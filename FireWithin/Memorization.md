@@ -5,20 +5,35 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 ## At a Glance
 
-- [Overview](#overview)
-- [January](#january)
-  - M{ completedCheckBox(`verseMemorized-luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
-  - M{ completedCheckBox(`verseMemorized-php_4_8`)     }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
-- [February](#february)
-  - M{ completedCheckBox(`verseMemorized-rom_12_1-2`)  }M [Romans 12:1-2 (ChristianLiving)](#rom_12_1-2)
-  - M{ completedCheckBox(`verseMemorized-rom_2_4`) }M [Romans 2:4 (God)](#rom_2_4)
+M{ toc({
+   entries: [
+    { href: `#overview`,    label: `Overview`,                                          },
 
+    { href: `#january`,     label: `January`,                                           },
+    { ref:  `luk.9.23-24`,  label: `Luke 9:23-24 (Discipleship)`,        indent: true,  },
+    { ref:  `php.4.8`,      label: `Philippians 4:8 (ChristianLiving)`,  indent: true,  },
+
+    { href: `#february`,    label: `February`,                                          },
+    { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,    indent: true,  },
+    { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                   indent: true,  },
+  ]
+}) }M
+
+
+<!-- our Multi-Verse Audio Review controls ******************************************************************************** -->
 
 <div style="text-align: center;">
 
-<br/><br/>
+<br/>
 
-<p><b>Multi-Verse Audio Review</b> - <i>Hear ALL the memory verses in a loop (not just an individual verse)!!</i></p>
+<p>
+  <b>Multi-Verse Audio Review</b> <br/>
+  <i>
+    Listen to multiple verses of your choice <br/>
+    by selecting the &#x1F508; audio checkboxes (above), <br/>
+    then press play on this audio control:
+  </i>
+</p>
 
 <audio id="mvap_audio_player" controls 
        onplay="fw.mvap_play(this)"
@@ -28,6 +43,8 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 </audio>
 
 <!-- NOT NEEDED YET: <button onclick="fw.mvap_reset()">Reset</button>  -->
+
+<p id="multi-verse-user-msg" style="font-weight: bold; color: red; font-style: italic;"></p>
 
 </div>
 

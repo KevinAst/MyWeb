@@ -186,22 +186,11 @@ input[type="checkbox"] {
     vertical-align: middle; /* aligns checkbox vertically centered */
 }
 
-/* custom checkmark when checked */
+/* standard styling of checkmark when checked */
 input[type="checkbox"]:checked::after {
 
     /* YES: completion checkboxes */
     content:       "\2714"; /* unicode: Check ✔ */
-
-    /* YES: OR: audio playback checks ... use this in a qualifier selector */
-/*  content:     "\1F508"; /* unicode Speaker - Low Volume <<< WORKS with font-family help */
-/*  font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif; /* forces browser to render Unicode as text (honoring color attr) instead of an emoji (which ignoring color attr - what the colored audio unicodes are) */
-    /* runner-up audio TRASH */
-/*  content:       "\1F50A"; /* unicode Speaker - High Volume <<< LIKE THIS (but light - needs darker background ... see "helps" */
-/*  content:       "\1F4E3"; /* unicode Megaphone <<< HMMM (ditto lightness) */
-/*  background-color: #145a32; /* helps with lighter icons << good in most GitBook themes */
-/*  background-color: #154360; /* helps with lighter icons << good in most GitBook themes */
-/*  background-color: #17202a; /* helps with lighter icons << good in most GitBook themes ... a bit dark for white themes */
-/*  background-color: #424949; /* helps with lighter icons << LIKE THIS THE BEST */
 
     font-size:     1em;
     font-weight:   bold;
@@ -212,4 +201,42 @@ input[type="checkbox"]:checked::after {
     top:           50%;
     left:          50%;
     transform:     translate(-50%, -50%);
+}
+
+/* additional styling for checkboxes with the "audio-play" class */
+input[type="checkbox"].audio-play:checked::after {
+    /* YES: audio playback checks */
+    content:     "\1F508"; /* unicode Speaker - Low Volume <<< WORKS with font-family help */
+    font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif; /* forces browser to render Unicode as text (honoring color attr) instead of an emoji (which ignoring color attr - what the colored audio unicodes are) */
+
+    /* runner-up audio TRASH */
+/*  content:       "\1F50A"; /* unicode Speaker - High Volume <<< LIKE THIS (but light - needs darker background ... see "helps" */
+/*  content:       "\1F4E3"; /* unicode Megaphone <<< HMMM (ditto lightness) */
+/*  background-color: #145a32; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #154360; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #17202a; /* helps with lighter icons << good in most GitBook themes ... a bit dark for white themes */
+/*  background-color: #424949; /* helps with lighter icons << LIKE THIS THE BEST */
+}
+
+/*** Memory Verse Table of Contents Style ... need !important to override gitbook table styling ***/
+.MV-TOC {
+    border-collapse: collapse !important;
+}
+.MV-TOC th, .MV-TOC td {
+    padding:        2px 4px !important; /* 2px top/bottom, 4px left/right */
+    text-align:     left !important;    /* left alignment */
+    vertical-align: top !important;     /* top alignment */
+
+ /* border:         1px solid black;    /* DIAG ONLY */
+    border:         none !important;    /* ensure no cell borders (gitbook override) <<< WORKS - MINOR ADJUSTMENT (NO BORDERS) */
+}
+.MV-TOC th.indent, .MV-TOC td.indent {  /* indentation <td class="indent" */
+    padding-left: 30px !important;
+}
+.MV-TOC th {
+    background-color: #f2f2f2 !important;
+}
+.MV-TOC ul {                       /* ul/li used for bullet points - in first column */
+    margin:       0 !important;    /* remove the default top/bottom margin */
+    padding-left: 10px !important; /* reduce the default left padding */
 }

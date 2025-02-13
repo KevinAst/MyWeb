@@ -193,6 +193,7 @@ const customTagProcessors = {
   bibleLink,
   sermonSeries,
   memorizeVerse,
+  toc,
   collapsibleSection,
   collapsibleSectionEnd,
   inject,
@@ -422,14 +423,25 @@ function youTube(id) {
 //* completed status of the blog.
 //* 
 //* Parms:
-//*   - id:    the blog's completed status id, with an optional label (delimited with @@)
+//*   - id:    the blog's completed status id, 
+//*            with an optional label (delimited with @@),
+//*            and an optional additionalHTML (delimited with ##)
 //*            EX: - 'Mark' ........... 'Mark' id with no label
 //*                - '20100425@@1.' ... '20100425' id with '1.' label
+//*                - 'audioPlay_php_4_8##class="audio-play"@@Hello' ... 'audioPlay_php_4_8' id,
+//*                                                                     with 'Hello' label, 
+//*                                                                     and 'class="audio-play"' additionalHTML
+//*                - 'audioPlay_php_4_8##class="audio-play"' .......... 'audioPlay_php_4_8' id, with no label,
+//*                                                                     and 'class="audio-play"' additionalHTML
+//* 
+//*   NOTE: additionalHTML: an optional string, that is injected in the `<input type-checkbox" ...>` element.
+//*                         EX: `class="audio-play"` that can orchestrate additional styling.
 //* 
 //* Custom Tag:
 //*   M{ completedCheckBox(`Mark@@Book Completed`) }M ... for book completed
 //*   M{ completedCheckBox(`Mark`) }M                 ... label is optional
 //*   M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed (in table)
+//*   M{ completedCheckBox(`audioPlay_php_4_8##class="audio-play"`) }M  ... a specialty checkbox styled with an audio icon
 //* 
 //* Replaced With:
 //*   <label><input type="checkbox" data-completions onclick="fw.handleCompletedCheckChange(this);" id="Mark">Book Completed</label>
@@ -445,8 +457,9 @@ function completedCheckBox(_id) {
   checkParam(_id,           'id is required');
   checkParam(isString(_id), `id must be a string (the blog's completed status id)`);
 
-  // ... split out the optional label
-  const [id, label=''] = _id.split('@@');
+  // ... split out the optional label and optional additionalHTML
+  const [idStaged, label='']    = _id.split('@@');
+  const [id, additionalHTML=''] = idStaged.split('##');
 
   // expand our customTag as follows
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
@@ -459,7 +472,7 @@ function completedCheckBox(_id) {
   //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
-  return `${diag}<label><input type="checkbox" data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  return `${diag}<label><input type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
 
 
@@ -1150,6 +1163,167 @@ function memorizeVerse(namedParams={}) {
   // ending container
   content += `</div>`;
 
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+  return content;
+}
+
+
+
+//*-----------------------------------------------------------------------------
+//* toc(namedParams)
+//* 
+//* A Table of Contents (TOC) generator.
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes the complete TOC.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag: 
+//*   ... see README
+//* 
+//* Replaced With:
+//*   ... see README
+//*-----------------------------------------------------------------------------
+function toc(namedParams={}) {
+
+  // parameter validation
+  const self       = `toc(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  // ... NOTE: currently we only have one param (entries), but this outer structure will support potential future directives
+  const {entries, ...unknownNamedArgs} = namedParams;
+
+  // ... entries
+  checkParam(entries,          'entries is required');
+  checkParam(isArray(entries), `entries must an array of objects (TOC entries)`);
+  checkParam(entries.length>0, `entries array must have at least one entry`);
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // our outer container
+  content += `<div class="indent">`;
+
+  // our opening TOC table (aligning various elements)
+  content += `<table class="MV-TOC">
+  <tbody>
+    <!-- pseudo header -->
+    <tr>
+      <td></td>
+      <td>&#x2714;</td>  <!-- unicode check -->
+      <td>&#x1F508;</td> <!-- unicode speaker -->
+    </tr>
+  `;
+
+  // iterrate over each entry, expanding it's content
+  entries.forEach( (entry, indx) => {
+
+    // validate entry
+    // ... must be an object
+    checkParam(isPlainObject(entry), `entry number ${indx+1} is invalid ... all entries must be plain objects`);
+    // ... label
+    checkParam(entry.label,           `entry number ${indx+1} is invalid ... label prop is required`);
+    checkParam(isString(entry.label), `entry number ${indx+1} is invalid ... label prop must be a string (the TOC label)`);
+    // ... indent
+    if (entry.indent) {
+      checkParam(isBoolean(entry.indent), `entry number ${indx+1} is invalid ... indent prop (when supplied) must be a boolean (should the content be indented?) DEFAULT: false)`);
+    }
+
+    const indentClass = entry.indent ? `class="indent"` : ``;
+
+    // process "general" TOC entry (with `href` property)
+    if (entry.href) {
+      content += `<tr>`;
+
+      // further validate object
+      // ... href
+      // ... href
+      checkParam(isString(entry.href), `entry number ${indx+1} is invalid ... href prop must be a string (the href link)`);
+
+      content += `
+      <td ${indentClass}>
+        <ul>
+          <li>
+            <a href="${entry.href}">${entry.label}</a>
+          </li>
+        </ul>
+      </td>
+      `;
+      content += `<td></td>`;
+      content += `<td></td>`;
+      
+      content += `</tr>`;
+    }
+
+    // process "scripture" TOC entry (with `ref` property)
+    else if (entry.ref) {
+
+      // further validate object
+      // ... ref
+      checkParam(isString(entry.ref), `entry number ${indx+1} is invalid ... ref prop must be a string (the scripture reference code [YouVersion format])`);
+      // ... must be alpha numeric with "." and "-"
+      checkParam(/^[a-zA-Z0-9.-]+$/.test(entry.ref), `entry number ${indx+1} is invalid ... ref ('${entry.ref}') is NOT a valid YouVersion format (it can only contain alpha numeric characters, with a '.' and '-' ... EX: 'luk.9.23-24')`);
+
+      // our internal "sanitized" entry.ref (translating "." <--> "_") making it suitable to be used in DB and DOM ids
+      const scriptRefSanitized = entry.ref.replace(/\./g, "_");
+
+      content += `<tr>`;
+
+      content += `
+      <td ${indentClass}>
+        <ul>
+          <li>
+            <a href="#${scriptRefSanitized}">${entry.label}</a>
+          </li>
+        </ul>
+      </td>
+      `;
+      
+      content += `<td>`;
+      content += completedCheckBox(`verseMemorized-${scriptRefSanitized}`);
+      content += `</td>`;
+      
+      content += `<td>`;
+      content += completedCheckBox(`audioPlay_${scriptRefSanitized}##class="audio-play"`)
+      content += `</td>`;
+
+      content += `</tr>`;
+    }
+
+    // invalid entry
+    else {
+      checkParam(false, `entry number ${indx+1} was NOT recognized ... must either have a 'href' or 'ref' property`);
+    }
+
+  });
+
+
+  // close our TOC table
+  content += `</tbody></table>`;
+
+  // close our outer container
+  content += `</div>`;
+
+  // that's all folks
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
