@@ -116,21 +116,21 @@ class FWSettings {
    * NOTE: Technically, this is a static member, but since our fwSettings is a singleton, just "Keep it Simple"
    */
   bibleTranslations = {
-    SEP1: { code: 'GROUP', desc: 'Paraphrased (everyday lang):' },
-    MSG:  { code: '97',    desc: 'The Message' },
-    GNT:  { code: '68',    desc: 'Good News Translation' },
+    SEP1: { code: 'GROUP', desc: 'Literal (some moderate):' },
     NLT:  { code: '116',   desc: 'New Living Translation' },
-    ICB:  { code: '1359',  desc: `International Children's Bible` },
-
-    SEP2: { code: 'GROUP', desc: 'Literal (some moderate):' },
-    CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
-    NIV:  { code: '111',   desc: 'New International Ver' },
     ESV:  { code: '59',    desc: 'English Standard Ver 2016' },
+    NIV:  { code: '111',   desc: 'New International Ver' },
+    CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
     NET:  { code: '107',   desc: 'New English Translation' },
 
-    SEP3: { code: 'GROUP', desc: 'Traditional:' },
+    SEP2: { code: 'GROUP', desc: 'Traditional:' },
     NKJV: { code: '114',   desc: 'New King James Ver' },
     KJV:  { code: '1',     desc: 'King James Ver' },
+
+    SEP3: { code: 'GROUP', desc: 'Paraphrased (everyday lang):' },
+    MSG:  { code: '97',    desc: 'The Message' },
+    GNT:  { code: '68',    desc: 'Good News Translation' },
+    ICB:  { code: '1359',  desc: `International Children's Bible` },
 
     SEP4: { code: 'GROUP', desc: 'Amplified:' },
     AMP:  { code: '1588',  desc: 'Amplified Bible' },

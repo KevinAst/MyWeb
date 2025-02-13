@@ -51,6 +51,13 @@ class FWCompletions {
   _fwState;
 
 
+  //***--------------------------------------------------------------------------------
+  //*** Basic API:
+  //***   + isComplete(key): boolean            ... EX: fwCompletions.isComplete('20090419')         <<< data retained in: '20090419': 'Y'/'N'
+  //***   + setComplete(key, val): void         ... EX: fwCompletions.setComplete('20090419', true)
+  //***--------------------------------------------------------------------------------
+
+
   /**
    * Return an indicator as to whether the supplied key is complete.
    *
@@ -83,8 +90,59 @@ class FWCompletions {
   }
 
 
+  //***--------------------------------------------------------------------------------
+  //*** Audio Play API (strictly convenience methods):
+  //***   + isPlay(key): boolean      ... EX: fwCompletions.isPlay('php_4_8')        <<< data retained in: 'audioPlay_php_4_8': 'Y'/'N'
+  //***   + setPlay(key, val): void   ... EX: fwCompletions.setPlay('php_4_8', true)
+  //***--------------------------------------------------------------------------------
+
   // internal utility
-  qualifiedKey(key) {
+  audioPlay_qualifiedKey(key) {
+    const keySanitized = key.replaceAll('.', '_');
+    return `audioPlay_${keySanitized}`;
+  }
+
+  /**
+   * Return an indicator as to whether the audio is playing (or "is to be played").
+   *
+   * @param {string} key  - The audio key (can be the scripture ref -or- the scripture id)
+   *
+   * @returns {boolean} true: the audio is playing, false: is NOT playing.
+   */
+  isPlay(key) {
+    const qualifiedKey = this.audioPlay_qualifiedKey(key);
+    return this.isComplete(qualifiedKey);
+  }
+
+  /**
+   * Set the audio play (expansion state) of the supplied audio key.
+   *
+   * Under the covers:
+   * - our persistance store is maintained:
+   *   * either device storage (for guest users)
+   *   * or Firebase DB (for registered users)
+   * - triggers change notifications to registered clients
+   *   ... see: onChange()
+   *
+   * @param {string} key  - The audio key (can be the scripture ref -or- the scripture id)
+   * @param {boolean} val - The play indicator (true: play, false: not-play).
+   */
+  setPlay(key, val) {
+    const qualifiedKey = this.audioPlay_qualifiedKey(key);
+    this.setComplete(qualifiedKey, val);
+  }
+
+
+  //***--------------------------------------------------------------------------------
+  //*** Collapsible Section API:
+  //***   + isOpen(key, initialExpansion): boolean        ... EX: fwCompletions.isOpen('more_php_4_8', 'open')       <<< data retained in: 'collapsibleSect_more_php_4_8': 'open'/'close'
+  //***   + setVisibility(key, val): void                 ... EX: fwCompletions.setVisibility('more_php_4_8', true)
+  //***   + toggleVisibility(key, initialExpansion): void ... EX: fwCompletions.toggleVisibility('more_php_4_8', 'open')
+  //***--------------------------------------------------------------------------------
+
+  
+  // internal utility
+  collapsibleSect_qualifiedKey(key) {
     return `collapsibleSect_${key}`;
   }
 
@@ -98,7 +156,7 @@ class FWCompletions {
    */
   isOpen(key, initialExpansion) {
 
-    const qualifiedKey = this.qualifiedKey(key);
+    const qualifiedKey = this.collapsibleSect_qualifiedKey(key);
 
     // pass through to our worker object
     let value = this._fwState.getValue(qualifiedKey);
@@ -127,7 +185,7 @@ class FWCompletions {
    */
   setVisibility(key, val) {
 
-    const qualifiedKey = this.qualifiedKey(key);
+    const qualifiedKey = this.collapsibleSect_qualifiedKey(key);
 
     // pass through to our worker object
     this._fwState.setValue(qualifiedKey, val ? 'open' : 'close');
@@ -151,6 +209,10 @@ class FWCompletions {
     this.setVisibility(key, ! this.isOpen(key, initialExpansion));
   }
 
+
+  //***--------------------------------------------------------------------------------
+  //*** onChange API:
+  //***--------------------------------------------------------------------------------
 
   /**
    * Register notificaiton monitors that are triggered when self's

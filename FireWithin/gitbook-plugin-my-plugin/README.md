@@ -13,6 +13,7 @@
   - [bibleLink()]
   - [sermonSeries()]
   - [memorizeVerse()]
+  - [toc()]
   - [collapsibleSection()]
   - [inject()]
 - [Activation]
@@ -181,6 +182,7 @@ The following **Custom Tags** are available:
 - [bibleLink()]
 - [sermonSeries()]
 - [memorizeVerse()]
+- [toc()]
 - [collapsibleSection()]
 - [inject()]
 
@@ -232,9 +234,24 @@ completed status of the blog.
 **Parms**:
 
 * id - the blog's completed status id, with an optional label (delimited with @@)
+       with an optional label (delimited with @@),
+       and an optional additionalHTML (delimited with ##)
+
+  NOTE: additionalHTML: an optional string, that is injected in the `<input type-checkbox" ...>` element.
+
+  EX: `class="audio-play"` that can orchestrate additional styling.
+
+
   ```
   EX: - 'Mark' ........... 'Mark' id with no label
       - '20100425@@1.' ... '20100425' id with '1.' label
+      - '20100425@@1.' ... '20100425' id with '1.' label
+      - 'audioPlay_php_4_8##class="audio-play"@@Hello' ... 'audioPlay_php_4_8' id,
+                                                           with 'Hello' label, 
+                                                           and 'class="audio-play"' additionalHTML
+      - 'audioPlay_php_4_8##class="audio-play"' .......... 'audioPlay_php_4_8' id, 
+                                                           with no label,
+                                                           and 'class="audio-play"' additionalHTML
   ```
 
 **Custom Tag**
@@ -243,6 +260,7 @@ completed status of the blog.
 M{ completedCheckBox(`Mark@@Book Completed`) }M ... for book completed
 M{ completedCheckBox(`Mark`) }M                 ... label is optional
 M{ completedCheckBox(`20100425@@1.`) }M         ... for sermon series completed (in table)
+M{ completedCheckBox(`audioPlay_php_4_8##class="audio-play"`) }M  ... a specialty checkbox styled with an audio icon
 ```
 
 
@@ -523,7 +541,7 @@ verse text, and audio playback controls).
                               //       EX Link: [Luke 9:23-24](#luk_9_23-24)
     label: `Luke 9:23-24`,    // scripture label
     text: {                   // scripture text for given translation: 
-                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV/ICB ??## NEW Translation to support
+                              // - supported translations are: NLT/NKJV/ESV/CSB/KJV/NIV/ICB
                               // - entry order defines UI order
                               // - not all translations are required - each memory verse
                               //   can have a different translation selection
@@ -594,6 +612,111 @@ verse text, and audio playback controls).
   valid in both cases, and not a character that would appear in the
   YouVersion scripture reference code ... so it was selected on that
   basis.
+
+
+### toc()
+
+**API**: `toc(namedParams)`
+
+Inject the html to render a Table of Contents (TOC).
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes all aspects of the TOC
+
+  ```js
+
+  {
+    future: whatever, // we currently we only have one param (entries), 
+                      // but this outer structure will support potential future directives
+
+    entries: [        // an array of objects, each representing a TOC entry
+
+      {                          // a "general" TOC entry (with `href` property
+        href:   `#january`,      // ... href link
+        label:  `January`,       // ... label
+        indent: boolean,         // ... optional indent entry (DEFAULT: false)
+      },
+      
+      {                          // a "scripture" TOC entry (with `ref` property
+        ref:    `luk.9.23-24`,   // ... the scripture reference code (YouVersion format)
+        label:  `Luke 9:23-24`,  // ... scripture label
+        indent: boolean,         // ... optional indent entry (DEFAULT: false)
+      },
+      
+      ... repeat and rinse for EVERY TOC entry
+    ]
+  }
+  ```
+
+**Example:**
+
+```
+M{ toc({
+   entries: [
+    { href: `#overview`,    label: `Overview`,                                          },
+
+    { href: `#january`,     label: `January`,                                           },
+    { ref:  `luk.9.23-24`,  label: `Luke 9:23-24 (Discipleship)`,        indent: true,  },
+    { ref:  `php.4.8`,      label: `Philippians 4:8 (ChristianLiving)`,  indent: true,  },
+
+    { href: `#february`,    label: `February`,                                          },
+    { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,    indent: true,  },
+    { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                   indent: true,  },
+  ]
+}) }M
+```
+
+**Generates**:
+
+```html
+<div class="indent">          <<< our outer container
+  <table class="MV-TOC">      <<< our TOC table (aligning various elements)
+    <tbody>
+      <!-- pseudo header -->
+      <tr>
+        <td></td>
+        <td>&#x2714;</td>  <!-- unicode check -->
+        <td>&#x1F508;</td> <!-- unicode speaker -->
+      </tr>
+
+      <tr>                    <<< a "general" TOC entry
+        <td> ... OPTIONAL class="indent"
+          <ul>
+            <li><a href="#january">January</a></li>
+          </ul>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>                    <<< a "scripture" TOC entry
+        <td> ... OPTIONAL class="indent"
+          <ul>
+            <li> ... DIRECT INJECT
+              <a href="#luk_9_23-24">Luke 9:23-24 (Discipleship)</a>
+            </li>
+          </ul>
+        </td>
+        <td>        ... the scripture's completed checkbox, via macro: completedCheckBox(`verseMemorized-luk_9_23-24`)
+                        NICELY ALIGNED
+                        EXAMPLE:
+          <label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="verseMemorized-luk_9_23-24"></label>
+        </td>
+        <td>        ... the scripture's audio play checkbox, via macro: completedCheckBox(`audioPlay_luk_9_23-24##class="audio-play"`)
+                        NICELY ALIGNED
+                        EXAMPLE:
+          <label><input type="checkbox" class="audio-play" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="audioPlay_luk_9_23-24"></label>
+        </td>
+      </tr>
+
+      ... repeat and rinse for EVERY TOC entry
+
+    </tbody>
+  </table>
+</div>
+
+```
 
 
 ### collapsibleSection()
@@ -785,6 +908,7 @@ attempted it.  It would require some additional research, for example:
   [bibleLink()]:          #biblelink
   [sermonSeries()]:       #sermonseries
   [memorizeVerse()]:      #memorizeverse
+  [toc()]:                #toc
   [collapsibleSection()]: #collapsiblesection
   [inject()]:             #inject
 
