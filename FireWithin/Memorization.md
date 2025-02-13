@@ -5,20 +5,35 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 ## At a Glance
 
-- [Overview](#overview)
-- [January](#january)
-  - M{ completedCheckBox(`verseMemorized-luk_9_23-24`) }M [Luke 9:23-24 (Discipleship)](#luk_9_23-24)
-  - M{ completedCheckBox(`verseMemorized-php_4_8`)     }M [Philippians 4:8 (ChristianLiving)](#php_4_8)
-- [February](#february)
-  - M{ completedCheckBox(`verseMemorized-rom_12_1-2`)  }M [Romans 12:1-2 (ChristianLiving)](#rom_12_1-2)
-  - M{ completedCheckBox(`verseMemorized-rom_2_4`) }M [Romans 2:4 (God)](#rom_2_4)
+M{ toc({
+   entries: [
+    { href: `#overview`,    label: `Overview`,                                          },
 
+    { href: `#january`,     label: `January`,                                           },
+    { ref:  `luk.9.23-24`,  label: `Luke 9:23-24 (Discipleship)`,        indent: true,  },
+    { ref:  `php.4.8`,      label: `Philippians 4:8 (ChristianLiving)`,  indent: true,  },
+
+    { href: `#february`,    label: `February`,                                          },
+    { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,    indent: true,  },
+    { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                   indent: true,  },
+  ]
+}) }M
+
+
+<!-- our Multi-Verse Audio Review controls ******************************************************************************** -->
 
 <div style="text-align: center;">
 
-<br/><br/>
+<br/>
 
-<p><b>Multi-Verse Audio Review</b> - <i>Hear ALL the memory verses in a loop (not just an individual verse)!!</i></p>
+<p>
+  <b>Multi-Verse Audio Review</b> <br/>
+  <i>
+    Listen to multiple verses of your choice <br/>
+    by selecting the &#x1F508; audio checkboxes (above), <br/>
+    then press play on this audio control:
+  </i>
+</p>
 
 <audio id="mvap_audio_player" controls 
        onplay="fw.mvap_play(this)"
@@ -29,37 +44,47 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 <!-- NOT NEEDED YET: <button onclick="fw.mvap_reset()">Reset</button>  -->
 
+<p id="multi-verse-user-msg" style="font-weight: bold; color: red; font-style: italic;"></p>
+
 </div>
 
 
 ### Overview
 
-This section contains selected scriptures that you may consider
-committing to memory.
+This page contains _**selected scriptures that you may consider
+committing to memory**_.
+
+For me, this journey began in 2020, when God got my attention and took
+hold of my life.  I have a bit of a prodigal son story _(I share more
+about my Christian faith in the {{book.MyFaith}} page)_.
+
+Recently, my local church ({{book.FBM}}) launched a memorization
+campaign called **[25 in 25](https://fbmaryville.org/25-in-25)** — a
+challenge to memorize 25 passages in 2025, each centered on one of
+five themes.
+
+Memorization has always been a challenge for me. This time, however,
+rather than using that as an excuse, I felt God directing me to do
+something about it. _**This page is the result — <mark>one I hope will
+be a helpful resource</mark>.**_
 
 P{ collapsibleSection({
   id:     'memVerseOverview',
   label:  'Tell Me More',
+  initialExpansion: 'close',
 }) }P
 
-For me, this journey began in 2025, when my local church
-({{book.FBM}}) launched a memorization campaign called **[25 in
-25](https://fbmaryville.org/25-in-25)** — aimed at memorizing 25
-passages in 2025, each focused on one of five key themes.
+Explore the features of this page _(along with some quick tips on how to use them)_:.
 
-I’ve always struggled with memorization, so **_<mark>this page was
-created as as a helpful resource</mark>_**.
+- _**Audio Playback**_: You can listen to each passage _**on repeat**_ until
+  you stop it. This is especially handy on your phone — _**just pop in
+  your earbuds and let the Scripture take root in your memory!**_
 
-For each passage:
+  This is the **<mark>key feature</mark>** of this page and _**the
+  reason I created it**_ :-)
 
-- An _**audio playback is provided**_, that allows you to listen to
-  the passage repeatedly. The playback _**automatically loops**_ until
-  you click stop - making it easy to hear the scripture
-  continuously. When using this feature on your phone, you can simply
-  _**pop in your earbuds and let the scripture take root in your
-  memory!**_
-
-  Each audio playback includes the following elements:  
+  You will find the **Audio Playback Control** after each scripture
+  _(below)_.  The following elements are included for each audio:
 
   - **Context** (e.g., _Paul's parting instruction to the church at Philippi_)  
   - **Scripture Reference** (e.g., _Philippians 4:8_)  
@@ -68,31 +93,59 @@ For each passage:
   - **Scripture Reference** (repeated – per recommendation of The [Navigators'](https://www.navigators.org/))
 
 
-- You can choose your preferred Bible translation from a selection of
-  the most popular versions.  _**Your choice will be remembered for
-  each individual passage** (once it is explicitly selected)_!
+- _**Customizable Translations**_: For each memory verse, you may
+  select the Bible translation you wish to memorize, from a selection
+  of the most popular versions.
 
-- A scripture link is provided to the [You Version](https://www.bible.com/)
-  Bible App, so you can explore the passage in greater depth.
+  Initially, the default translation _(promoted by the **[25 in
+  25](https://fbmaryville.org/25-in-25)** campaign)_ will be selected,
+  and **it's selector will always be shown in red**.
 
-- As always, you can _**track your progress by checking the completion
-  box next to the passages you've memorized!**_
+- _**YouVersion Links**_: Each memory verse is a link to the
+  [YouVersion](https://www.bible.com/) Bible App, so you can explore
+  the passage in greater depth.
 
-- This page includes several collapsible sections, such as the
-  devotional content for each memory verse, and even this
-  overview. You can toggle these sections by clicking their titles
-  _(shown with an arrow)_. Collapsing them helps better promote the
-  memory verses _(making them more prominent)_. The collapsed state is
-  preserved, so when you leave and return, everything will appear just
-  as you left it.
+- _**Progress Tracking**_: As is the case with several aspects of this
+  {{book.FireWithin}} site, you can keep track of your progress _(in 
+  this case - the verses you have memorized)_ with the "completed"
+  check boxes ✔.
+
+- _**Minimalist View**_: You can collapse both this overview and
+  devotional sections found in this page - **to give more prominence to
+  the scripture itself**.  
+
+  Simply click the title of any collapsible section _(indicated by an
+  arrow - ▶)_, to toggle between expanded and collapsed views.
+
+- _**Multi-Verse Playback**_: In addition to listening to each
+  individual memory verse _(one at a time)_, you can choose to listen
+  to multiple verses of your choosing.  This audio control is at the
+  top of the page _(just under the **Table of Contents**)_.
+
+  You simply select the verses you want to review _(through the
+  &#x1F508; audio checkboxes to the right of each verse in the TOC)_,
+  and click play on the audio control.
+
+- _**Total Recall**_: All these settings are automatically saved, so when
+  you return to the site, it will be just as you left it.
+
+  > **Please Note**: By default these settings are stored locally on
+  > your device. This works well when you are using a single device.  
+  > 
+  > If however you use multiple devices _(say your laptop and your
+  > phone)_, each one will have their own settings _(that you must sync
+  > manually)_.  **To solve this problem**, you simply create a **FireWithin
+  > Account** (on the {{book.Settings}} page) - which then saves your
+  > settings to the cloud, and any device signed-in to this account
+  > will sync automatically!
 
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
 will be adding passages from that resource throughout the year.
 
-In addition, I plan to add more scriptures to this list.  If you have
-one that you would like added, please reach out to me
-at <span id="inquire"></span>
+I also plan to add additional scriptures to this page.  _**Would you like
+to see a particular passage added?**_ Reach out to me at <span
+id="inquire"></span>
 
 <script>
   withFW( ()=>fw.addInquire('Add%20Memory%20Scripture') )

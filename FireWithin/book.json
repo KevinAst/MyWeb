@@ -34,6 +34,7 @@
     }
   },
   "variables": { 
+    "FireWithin":         "[Fire Within](/intro.md)",
     "Welcome":            "[Welcome](/intro.md)",
     "Settings":           "[Settings](/settings.md)",
       "BibleTranslation": "[Bible Translation](/settings.md#bible-translation)",
