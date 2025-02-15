@@ -82,9 +82,11 @@ Release           | What                 | *When*
 - ?? Enabled Google Analytics for wiiBridges.com (and FireWithin) to
   monitor overall activity and bandwidth usage.
 
-- ?? Update Current Sermon Series
-  * ? {{book.2Corinthians}} Series (Sundays)
-  * ? {{book.1Kings}} Series (Mid Week)
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.1Kings}} Series (Mid Week)
+  * {{book.EndTimes}} page
+
 
 - Minor adjustments to the {{book.Memorization}} page, including quick
   links to the FireWithin Bible Study Book for each scripture.
