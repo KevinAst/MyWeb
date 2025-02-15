@@ -31,7 +31,7 @@ M{ toc({
   <i>
     Listen to multiple verses of your choice <br/>
     by selecting the &#x1F508; audio checkboxes (above), <br/>
-    then press play on this audio control:
+    then play <b>this</b> audio control:
   </i>
 </p>
 
@@ -74,7 +74,7 @@ P{ collapsibleSection({
   initialExpansion: 'close',
 }) }P
 
-Explore the features of this page _(along with some quick tips on how to use them)_:.
+Explore the features of this page _(with some quick tips on how to use them)_:.
 
 - _**Audio Playback**_: You can listen to each passage _**on repeat**_ until
   you stop it. This is especially handy on your phone — _**just pop in
@@ -104,6 +104,10 @@ Explore the features of this page _(along with some quick tips on how to use the
 - _**YouVersion Links**_: Each memory verse is a link to the
   [YouVersion](https://www.bible.com/) Bible App, so you can explore
   the passage in greater depth.
+
+  In addition there are _**"... explore {Book}"**_ links _(below the
+  audio controls)_ that navigate further into the {{book.FireWithin}}
+  Bible Study Guide.
 
 - _**Progress Tracking**_: As is the case with several aspects of this
   {{book.FireWithin}} site, you can keep track of your progress _(in 
@@ -139,6 +143,9 @@ Explore the features of this page _(along with some quick tips on how to use the
   > settings to the cloud, and any device signed-in to this account
   > will sync automatically!
 
+P{ collapsibleSectionEnd() }P
+
+
 Currently, there are only a few passages on this page.  I am following
 the **[25 in 25](https://fbmaryville.org/25-in-25)** campaign, and
 will be adding passages from that resource throughout the year.
@@ -153,8 +160,6 @@ id="inquire"></span>
 
 Lord Bless You!
 <br/>**&lt;/Kevin&gt;**
-
-P{ collapsibleSectionEnd() }P
 
 
 <!-- *** NEW MONTH ******************************************************************************** -->
@@ -181,6 +186,8 @@ M{ memorizeVerse({
    "NIV*": `Then he said to them all: "Whoever wants to be my disciple must deny themselves and take up their cross daily and follow me. For whoever wants to save their life will lose it, but whoever loses their life for me will save it."`,
   },
 }) }M
+
+<p style="text-align: center;"><i>... explore <a href="Luke.html">Luke</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
@@ -229,6 +236,8 @@ M{ memorizeVerse({
    "NIV*": `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`,
   },
 }) }M
+
+<p style="text-align: center;"><i>... explore <a href="Philippians.html">Philippians</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
@@ -303,6 +312,8 @@ M{ memorizeVerse({
   },
 }) }M
 
+<p style="text-align: center;"><i>... explore <a href="Romans.html">Romans</a></i></p>
+
 P{ inject('<div class="indent">') }P
 
 P{ collapsibleSection({
@@ -345,6 +356,8 @@ M{ memorizeVerse({
    "ICB*": `God has been very kind to you, and he has been patient with you. God has been waiting for you to change. But you think nothing of his kindness. Perhaps you do not understand that God is kind to you so that you will change your hearts and lives.`,
   },
 }) }M
+
+<p style="text-align: center;"><i>... explore <a href="Romans.html">Romans</a></i></p>
 
 P{ inject('<div class="indent">') }P
 

@@ -86,8 +86,9 @@ Release           | What                 | *When*
   * ? {{book.2Corinthians}} Series (Sundays)
   * ? {{book.1Kings}} Series (Mid Week)
 
-- ?? Enhanced {{book.Memorization}} page as follows:
-  * ? minor stuff
+- Minor adjustments to the {{book.Memorization}} page, including quick
+  links to the FireWithin Bible Study Book for each scripture.
+
 
 
 <!-- ************************************************************* -->
