@@ -187,7 +187,7 @@ M{ memorizeVerse({
   },
 }) }M
 
-<p style="text-align: center;"><i>... explore <a href="Luke.html">Luke</a></i></p>
+<p style="text-align: center;"><i><a href="Luke.html">... explore Luke</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
@@ -237,7 +237,7 @@ M{ memorizeVerse({
   },
 }) }M
 
-<p style="text-align: center;"><i>... explore <a href="Philippians.html">Philippians</a></i></p>
+<p style="text-align: center;"><i><a href="Philippians.html">... explore Philippians</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
@@ -312,7 +312,7 @@ M{ memorizeVerse({
   },
 }) }M
 
-<p style="text-align: center;"><i>... explore <a href="Romans.html">Romans</a></i></p>
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
@@ -357,7 +357,7 @@ M{ memorizeVerse({
   },
 }) }M
 
-<p style="text-align: center;"><i>... explore <a href="Romans.html">Romans</a></i></p>
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
 
 P{ inject('<div class="indent">') }P
 
