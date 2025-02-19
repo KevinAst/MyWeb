@@ -26,6 +26,21 @@ function postProcessPage(page) {
   //   sections: [Getter/Setter]
   // }
 
+
+  //***
+  //*** inject the <script> tag to enable Google Analytics on every page
+  //***
+
+  // NOTES:
+  //   1. The path is relative to ALL our GitBook pages (lucky for us they are all in a flat directory)
+  //   2. I wanted to inject this in the <head> section, but what we are given here is strictly an implied <body>
+  //      ... presumably all the headers are added at a different stage
+  //      ... just PUNT and place it at the start of the implied <body> (NOT IDEAL, but works)
+  //   3. I wanted to use ES Modules (via type="module") but could not get this to work for GitBook :-(
+  const scriptTag = '\n<script src="./js/gAnalytics.js"></script>\n';
+  page.content = scriptTag + page.content;
+
+
   //***
   //*** apply customTag processing
   //***
