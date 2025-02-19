@@ -1156,7 +1156,7 @@ function memorizeVerse(namedParams={}) {
     content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
     content +=     `audio NOT supported by this browser :-(`;
     content +=   `</audio>`;
-    content +=   `<p>&nbsp;</p>`;
+  //content +=   `<p>&nbsp;</p>`; // ... replaced by `... study Luke` in Memorization.md
     content += `</div>`;
   });
 
