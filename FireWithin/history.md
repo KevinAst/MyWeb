@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.3](#v24_3)   | Web-Site Analytics & more               | *Feb 18, 2025*
 [v24.2](#v24_2)   | Memorization Page Enhancements & more   | *Feb 13, 2025*
 [v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 6, 2025*
 [v24.0](#v24_0)   | Memorize God's Word & more              | *Jan 29, 2025*
@@ -69,6 +70,27 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_3" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.3 - Web-Site Analytics & more <i>(Feb 18, 2025)</i>
+</h3>
+<br/>
+
+- Enabled Google Analytics for wiiBridges.com (and FireWithin) to
+  monitor overall activity (unfortunately NOT bandwidth).
+
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.1Kings}} Series (Mid Week)
+  * {{book.EndTimes}} page
+
+
+- Minor adjustments to the {{book.Memorization}} page, including quick
+  links to the FireWithin Bible Study Book for each scripture.
+
 
 
 <!-- ************************************************************* -->
