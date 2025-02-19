@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.4](#v24_4)   | March Memory Verses & more              | *Feb 19, 2025*
 [v24.3](#v24_3)   | Web-Site Analytics & more               | *Feb 18, 2025*
 [v24.2](#v24_2)   | Memorization Page Enhancements & more   | *Feb 13, 2025*
 [v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 6, 2025*
@@ -71,6 +72,16 @@ Release           | What                 | *When*
 
 ## Details:
 
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.4 - March Memory Verses & more <i>(Feb 19, 2025)</i>
+</h3>
+<br/>
+
+- Enhanced {{book.Memorization}} page as follows:
+  * ?? Added FBM's Memory Verses for March - Philemon 1:4-7 & 1 John 4:7-9
 
 <!-- ************************************************************* -->
 <br/>
