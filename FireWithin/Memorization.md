@@ -16,6 +16,10 @@ M{ toc({
     { href: `#february`,    label: `February`,                                          },
     { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,    indent: true,  },
     { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                   indent: true,  },
+
+    { href: `#march`,       label: `March`,                                             },
+    { ref:  `phm.1.4-7`,    label: `Philemon 1:4-7 (Prayer)`,            indent: true,  },
+    { ref:  `1jn.4.7-9`,    label: `1 John 4:7-9 (God)`,                 indent: true,  },
   ]
 }) }M
 
@@ -383,3 +387,101 @@ P{ collapsibleSectionEnd() }P
 
 P{ inject('</div>') }P
 
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+
+<span id="march"></span>
+
+_**[March Flyer](https://fbmaryville.org/s/25in25cards_march.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `phm.1.4-7`,
+  label:   `Philemon 1:4-7 (Prayer)`,
+  context: `faith and love refreshes hearts`,
+  text: {
+    NLT:   `I always thank my God when I pray for you, Philemon, because I keep hearing about your faith in the Lord Jesus and your love for all of God’s people. And I am praying that you will put into action the generosity that comes from your faith as you understand and experience all the good things we have in Christ. Your love has given me much joy and comfort, my brother, for your kindness has often refreshed the hearts of God’s people.`,
+    NKJV:  `I thank my God, making mention of you always in my prayers, hearing of your love and faith which you have toward the Lord Jesus and toward all the saints, that the sharing of your faith may become effective by the acknowledgment of every good thing which is in you in Christ Jesus. For we have great joy and consolation in your love, because the hearts of the saints have been refreshed by you, brother.`,  
+    KJV:   `I thank my God, making mention of thee always in my prayers, hearing of thy love and faith, which thou hast toward the Lord Jesus, and toward all saints; that the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus. For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.`,
+    ESV:   `I thank my God always when I remember you in my prayers, because I hear of your love and of the faith that you have toward the Lord Jesus and for all the saints, and I pray that the sharing of your faith may become effective for the full knowledge of every good thing that is in us for the sake of Christ. For I have derived much joy and comfort from your love, my brother, because the hearts of the saints have been refreshed through you.`,
+    CSB:   `I always thank my God when I mention you in my prayers, because I hear of your love  for all the saints and the faith that you have in the Lord Jesus. I pray that your participation in the faith may become effective  through knowing every good thing  that is in us  for the glory of Christ. For I have great joy and encouragement from your love, because the hearts of the saints have been refreshed  through you, brother.`,
+   "NIV*": `I always thank my God as I remember you in my prayers, because I hear about your love for all his holy people and your faith in the Lord Jesus. I pray that your partnership with us in the faith may be effective in deepening your understanding of every good thing we share for the sake of Christ. Your love has given me great joy and encouragement, because you, brother, have refreshed the hearts of the Lord’s people.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Philemon.html">... explore Philemon</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_phm_1_4-7',
+  label:  'Additional Thoughts',
+}) }P
+
+When you pray for someone, you can _**follow Paul's example**_.  As an
+example, _if you are praying for your pastor_:
+
+- Thank God for your pastor. 
+- Thank God for the love your pastor has for the church and for his
+  love for the Lord!
+- Pray that your pastor's work in the church might deepen his own
+  understanding of every good thing we share in the faith.
+- Thank God for the times your heart has been refreshed by
+  his words or actions. 
+- Thank God for bringing joy and encouragement to His people through
+  your pastor.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `1jn.4.7-9`,
+  label:   `1 John 4:7-9 (God)`,
+  context: `defined by God’s revealed love`,
+  text: {
+    NLT:   `Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. But anyone who does not love does not know God, for God is love. God showed how much he loved us by sending his one and only Son into the world so that we might have eternal life through him.`,
+    NKJV:  `Beloved, let us love one another, for love is of God; and everyone who loves is born of God and knows God. He who does not love does not know God, for God is love. In this the love of God was manifested toward us, that God has sent His only begotten Son into the world, that we might live through Him.`,  
+    KJV:   `Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God. He that loveth not knoweth not God; for God is love. In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.`,
+    ESV:   `Beloved, let us love one another, for love is from God, and whoever loves has been born of God and knows God. Anyone who does not love does not know God, because God is love. In this the love of God was made manifest among us, that God sent his only Son into the world, so that we might live through him.`,
+    CSB:   `Dear friends, let us love one another, because love is from God, and everyone who loves has been born of God  and knows God. The one who does not love does not know God, because God is love. God’s love was revealed among us  in this way: God sent  his one and only Son  into the world so that we might live  through him.`,
+   "NIV*": `Dear friends, let us love one another, for love comes from God. Everyone who loves has been born of God and knows God. Whoever does not love does not know God, because God is love. This is how God showed his love among us: He sent his one and only Son into the world that we might live through him.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="1John.html">... explore 1 John</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_1jn_4_7-9',
+  label:  'Additional Thoughts',
+}) }P
+
+God is love. God loves us. His love for us is shown in His patience
+and kindness towards us so that we might come to repent of our sin and
+follow His perfect ways (and not our own ways).
+
+- If we have been born again, God's love will be on display in our
+  life. 
+  
+- If God's love is not on display in our life, then we are not born
+  again.  
+
+God's love is displayed through our obedience to God and the love and
+kindness we show others.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
