@@ -79,7 +79,7 @@ if (!window.gAnalytics) {
       window.gtag = gtag; // expose gtag globally
       gtag('js', new Date());
       log(`gtag('config', MEASUREMENT_ID);`);
-      gtag('config', MEASUREMENT_ID);
+      gtag('config', MEASUREMENT_ID, { cookie_flags:'SameSite=None;Secure' }); // adding cookie_flags in hopes of picking up data within iframe (via FBM)
 
       // because GitBook navigation (LeftNav, or just inner links) DO NOT do a full page reload,
       // we must manually tell Google Analytics about the new page :-)
@@ -94,7 +94,7 @@ if (!window.gAnalytics) {
       //             - wiiBridges.com PAGE CHANGE          <<< WORKS
       if (pathname.startsWith('/FireWithin')) {
         log(`ADDITIONAL GitBook navigation notice: gtag("event", "page_view", { page_path: '${pathname}'}`)
-        gtag("event", "page_view", { page_path: pathname });
+        gtag("event", "page_view", { page_path: pathname, cookie_flags:'SameSite=None;Secure' }); // adding cookie_flags in hopes of picking up data within iframe (via FBM)
       }
 
       // OPTION 2: handle GitBook navigation THE RIGHT WAY - GitBook event handlers

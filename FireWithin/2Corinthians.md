@@ -116,5 +116,6 @@ M{ sermonSeries({
     { id: `20250112`, sermon: `Spreading the Fragrance`,       scripture: `2co.2@@2 Cor 2`,       },
     { id: `20250126`, sermon: `Step into the Light`,           scripture: `2co.4@@2 Cor 4`,       },
     { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,   scripture: `2co.4@@2 Cor 4:7-5:8`, },
+    { id: `20250216`, sermon: `Judgment is Coming`,            scripture: `2co.5@@2 Cor 5:9–11`,  },
   ]
 }) }M
