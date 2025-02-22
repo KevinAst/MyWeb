@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v24.4](#v24_4)   | March Memory Verses & more              | *Feb 19, 2025*
+[v24.4](#v24_4)   | March Memory Verses & more              | *Feb 22, 2025*
 [v24.3](#v24_3)   | Web-Site Analytics & more               | *Feb 18, 2025*
 [v24.2](#v24_2)   | Memorization Page Enhancements & more   | *Feb 13, 2025*
 [v24.1](#v24_1)   | Memorization Page Enhancements & more   | *Feb 6, 2025*
@@ -76,7 +76,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v24_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v24.4 - March Memory Verses & more <i>(Feb 19, 2025)</i>
+  v24.4 - March Memory Verses & more <i>(Feb 22, 2025)</i>
 </h3>
 <br/>
 
@@ -91,8 +91,8 @@ Release           | What                 | *When*
   * INTERNAL: Added cookie_flags in Google Analytics, in hopes of
     picking up data within iframes (from FBM).
 
-- ?? more
-
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
 
 
 <!-- ************************************************************* -->
