@@ -81,7 +81,16 @@ Release           | What                 | *When*
 <br/>
 
 - Enhanced {{book.Memorization}} page as follows:
-  * ?? Added FBM's Memory Verses for March - Philemon 1:4-7 & 1 John 4:7-9
+
+  * Added FBM's Memory Verses for March - Philemon 1:4-7 & 1 John 4:7-9
+
+  * The Multi-Verse Audio Review now supports "viewing the verse being
+    played".  When enabled (via user check), the verse will scroll into
+    view during it's play.
+
+- ?? more
+
+
 
 <!-- ************************************************************* -->
 <br/>

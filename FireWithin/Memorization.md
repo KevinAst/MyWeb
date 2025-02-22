@@ -46,6 +46,10 @@ M{ toc({
   Your browser does not support the audio tag.
 </audio>
 
+<br/>
+
+M{ completedCheckBox(`multiVerseView@@ view verse being played`) }M
+
 <!-- NOT NEEDED YET: <button onclick="fw.mvap_reset()">Reset</button>  -->
 
 <p id="multi-verse-user-msg" style="font-weight: bold; color: red; font-style: italic;"></p>
@@ -132,7 +136,12 @@ Explore the features of this page _(with some quick tips on how to use them)_:.
 
   You simply select the verses you want to review _(through the
   &#x1F508; audio checkboxes to the right of each verse in the TOC)_,
-  and click play on the audio control.
+  and click play on the audio control.  
+
+  When you check the "view verse being played" option, the verse will
+  scroll into view during it's play.  **Please Note**: This feature
+  seems to be intermittent on cell-phone use _(only on selected
+  verses)_.
 
 - _**Total Recall**_: All these settings are automatically saved, so when
   you return to the site, it will be just as you left it.

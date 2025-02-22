@@ -580,6 +580,16 @@ if (!window.fw) { // only expand this module once (conditionally)
       audio.src = nextAudioFile;
       audio.load();     // reload the new audio source
       audio.play();     // start playing the new file
+
+      // scroll to verse being played (per user request)
+      // NOTE 1: cell phone in sleep mode: STILL WORKS (I was supprised to see this)
+      // NOTE 2: cell phone usage is intermedent
+      //         - appears to be selected verses that SIMPLY DOES NOT navigate too :-(
+      //         - CAN'T DETERMINE WHY (NO ERROR GENERATED)
+      if (fwCompletions.isComplete('multiVerseView')) {
+        const nextVerseElm = document.getElementById(nextVerseSanitized);
+        nextVerseElm.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     }
 
 
