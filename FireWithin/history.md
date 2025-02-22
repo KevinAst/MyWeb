@@ -88,6 +88,9 @@ Release           | What                 | *When*
     played".  When enabled (via user check), the verse will scroll into
     view during it's play.
 
+  * INTERNAL: Added cookie_flags in Google Analytics, in hopes of
+    picking up data within iframes (from FBM).
+
 - ?? more
 
 
