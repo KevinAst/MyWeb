@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more | *Feb 25, 2025*
 [v24.4](#v24_4)   | March Memory Verses & more              | *Feb 22, 2025*
 [v24.3](#v24_3)   | Web-Site Analytics & more               | *Feb 18, 2025*
 [v24.2](#v24_2)   | Memorization Page Enhancements & more   | *Feb 13, 2025*
@@ -71,6 +72,19 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_5" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.5 - Released FBM "25 in 25" Memorization App & more <i>(Feb 25, 2025)</i>
+</h3>
+<br/>
+
+- Released {{book.FBM}} {{book.25in25}} **Isolated** Memorization App.
+
+- Added ?? Exodus/Leviticus Series to {{book.MySmallGroup}}
+
 
 
 <!-- ************************************************************* -->
