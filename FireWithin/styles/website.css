@@ -240,3 +240,11 @@ input[type="checkbox"].audio-play:checked::after {
     margin:       0 !important;    /* remove the default top/bottom margin */
     padding-left: 10px !important; /* reduce the default left padding */
 }
+
+/*** ISOLATED PAGE DIRECTIVES: Hide the gitbook naviation controls ... see: 25in25.md ***/
+body.isolated-page .book-header, 
+body.isolated-page .book-summary, 
+body.isolated-page .navigation-prev,
+body.isolated-page .navigation-next { 
+    display: none; 
+}

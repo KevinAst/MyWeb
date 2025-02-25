@@ -10,6 +10,7 @@
 - [Genesis Series](#genesis-series)
 - [Acts Series](#acts-series)
 - [Exodus/Leviticus Series](#exodusleviticus-series)
+- [1/2 Peter Series](#12-peter-series)
 
 
 
@@ -208,5 +209,31 @@ M{ sermonSeries({
     { id: `SG20250209`, sermon: `TXT@@Separation`,            scripture: `lev.9.15-24@@Leviticus 9:15-24##lev.10.1-3@@CR:Leviticus 10:1-3`,      date:`02/09/2025`,  },
     { id: `SG20250216`, sermon: `TXT@@Atonement*`,            scripture: `lev.16.1-10@@Leviticus 16:1-10##lev.16.29-30@@CR:Leviticus 16:29-30`,  date:`02/16/2025`,  },
     { id: `SG20250223`, sermon: `TXT@@Holy Living`,           scripture: `lev.26.1-13@@Leviticus 26:1-13`,                                       date:`02/23/2025`,  },
+  ]
+}) }M
+
+
+## 1/2 Peter Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.1Peter}}, {{book.2Peter}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20250302`, sermon: `TXT@@Our Inheritance`,    scripture: `1pe.1.3-12@@1 Peter 1:3-12`,                                                              date:`03/02/2025`, },
+    { id: `SG20250309`, sermon: `TXT@@Our Mandate`,        scripture: `1pe.1.13-25@@1 Peter 1:13-25`,                                                            date:`03/09/2025`, },
+    { id: `SG20250316`, sermon: `TXT@@Our Identity`,       scripture: `1pe.2.1-10@@1 Peter 2:1-10`,                                                              date:`03/16/2025`, },
+    { id: `SG20250323`, sermon: `TXT@@Our Witness`,        scripture: `1pe.2.11-17@@1 Peter 2:11-17##1pe.2.21-25@@CR:1 Peter 2:21-25`,                           date:`03/23/2025`, },
+    { id: `SG20250330`, sermon: `TXT@@Our Relationships`,  scripture: `1pe.3.1-12@@1 Peter 3:1-12`,                                                              date:`03/30/2025`, },
+    { id: `SG20250406`, sermon: `TXT@@Our Defense`,        scripture: `1pe.3.13-22@@1 Peter 3:13-22`,                                                            date:`04/06/2025`, },
+    { id: `SG20250413`, sermon: `TXT@@Our Faith`,          scripture: `1pe.4.1-11@@1 Peter 4:1-11`,                                                              date:`04/13/2025`, },
+    { id: `SG20250420`, sermon: `TXT@@Our Savior*`,        scripture: `mrk.15.33-39@@Mark 15:33-39##mrk.16.1-8@@CR:Mark 16:1-8`,                                 date:`04/20/2025`, },
+    { id: `SG20250427`, sermon: `TXT@@Be Prepared`,        scripture: `1pe.4.12-19@@1 Peter 4:12-19`,                                                            date:`04/27/2025`, },
+    { id: `SG20250504`, sermon: `TXT@@Be Humble`,          scripture: `1pe.5.1-11@@1 Peter 5:1-11`,                                                              date:`05/04/2025`, },
+    { id: `SG20250511`, sermon: `TXT@@Be Equipped`,        scripture: `2pe.1.3-8@@2 Peter 1:3-8##2pe.1.16-21@@CR:2 Peter 1:16-21`,                               date:`05/11/2025`, },
+    { id: `SG20250518`, sermon: `TXT@@Be Alert`,           scripture: `2pe.2.1-3@@2 Peter 2:1-3##2pe.2.17-19@@CR:2 Peter 2:17-19##jud.1.17-23@@CR:Jude 1:17-23`, date:`05/18/2025`, },
+    { id: `SG20250525`, sermon: `TXT@@Be Encouraged`,      scripture: `2pe.3.8-18@@2 Peter 3:8-18`,                                                              date:`05/25/2025`, },
   ]
 }) }M
