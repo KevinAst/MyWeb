@@ -83,7 +83,7 @@ Release           | What                 | *When*
 
 - Released {{book.FBM}} {{book.25in25}} **Isolated** Memorization App.
 
-- Added ?? Exodus/Leviticus Series to {{book.MySmallGroup}}
+- Added 1/2 Peter Series to {{book.MySmallGroup}}
 
 
 
