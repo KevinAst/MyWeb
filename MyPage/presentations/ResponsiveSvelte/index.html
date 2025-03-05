@@ -218,67 +218,6 @@
 
       </div>
 
-      <!-- *** TEMP START: Sample iframe injection **************************************************** -->
-      <script>
-        // prevent focus from going to iframe
-        // PREVENTING: GitBook saves the last scroll position when navigating between pages, and if an iframe loads slowly, the page may scroll to it.
-        document.addEventListener("DOMContentLoaded", function() {
-        
-            // brute force - scroll window to top
-            // ... timeout required to fix AFTER THE FACT (i.e. load)
-            // ... WORKS, assuming load occurs after timeout
-            //     HOWEVER - anoying flash
-            setTimeout(function() {
-              console.log(`FORCING PAGE TO START AT TOP`);
-              window.scrollTo(0, 0); // force page to start at the top
-            }, 500);  // must be longer time (rather arbitrary)
-        
-            // tell iframe to prevent focus
-            // NO WORK :-(
-            //? var iframe = document.querySelector("iframe");
-            //? if (iframe) {
-            //?   console.log(`PREVENTING FOCUS ON iframe`);
-            //?   iframe.setAttribute("tabindex", "-1"); // prevents focus
-            //? }
-        });
-      </script>
-      <!-- Styling -->
-      <style>
-        .container25in25 {
-          display: flex;
-          justify-content: center;  /* centers horizontally */
-          align-items: center;      /* centers vertically */
-        }
-        iframe {
-          /* basic border
-          border: 1px solid #ccc;
-          */
-      
-          /* phone/tablet style with rounded corners */
-          border:        2px solid #ccc;
-          border-radius: 20px;   /* adjust for more/less roundness */
-          overflow:      hidden; /* ensures content respects the border */
-      
-          /* SIZE: iPhone XR - 414 x 896 (adding 20px to width for scroll bar)
-          width:  434px;
-          height: 896px;
-          */
-      
-          /* SIZE: Surface Duo - 540 x 720 (adding 20px to width for scroll bar) */
-          width:  560px;
-          height: 720px;
-        }
-      </style>
-      <!-- External Link -->
-      <div class="container25in25">
-        <a href="../../FireWithin/25in25.html" class="more" target="_blank">Memorization App</a></br>
-      </div>
-      <!-- iFrame Content -->
-      <div class="container25in25">
-        <iframe src="../../FireWithin/25in25.html" title="FBM 25 in 25"></iframe>
-      </div>
-      <!-- *** TEMP END: Sample iframe injection **************************************************** -->
-
     </section>
 
 
