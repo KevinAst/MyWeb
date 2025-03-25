@@ -117,5 +117,8 @@ M{ sermonSeries({
     { id: `20250126`, sermon: `Step into the Light`,           scripture: `2co.4@@2 Cor 4`,       },
     { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,   scripture: `2co.4@@2 Cor 4:7-5:8`, },
     { id: `20250216`, sermon: `Judgment is Coming`,            scripture: `2co.5@@2 Cor 5:9–11`,  },
+    { id: `20250302`, sermon: `Reconciliation`,                scripture: `2co.5@@2 Corinthians 5:17-21`, },
+    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,    scripture: `2co.6@@2 Corinthians 6:1`,     },
+    { id: `20250323`, sermon: `The Yoke’s on You`,             scripture: `2co.6@@2 Corinthians 6:14-18`, }, // ?? waiting for studyGuide
   ]
 }) }M

@@ -82,11 +82,17 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Added FBM's April Memory Verses in {{book.Memorization}} page - 1 John 1:9 & Romans 3:21-23
+- Added FBM's April Memory Verses in {{book.Memorization}} page - 1 John 1:9 & Romans 3:21-23
 
 - Updated Current Sermon Series
-  * ?? {{book.2Corinthians}} Series (Sundays)
-  * ?? more?
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.1Kings}} Series (Mid Week)
+
+
+- Added new {{book.QA}} for 03/19/2025
+
+- Added new category under {{book.SpecialEvents}} / {{book.CurrentEvents}} for:
+  * {{book.Misc}}
 
 
 <!-- ************************************************************* -->

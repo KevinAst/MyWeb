@@ -7,6 +7,7 @@
 - [Election Day Sermons](#election-day-sermons)
 - [LGBTQ](#lgbtq)
 - [Moral Decay](#moral-decay)
+- [Misc](#misc)
 
 ## Life
 
@@ -91,5 +92,16 @@ M{ sermonSeries({
     { id: `20241002`, sermon: `Representing Christ In The Cultural Crisis (James Ward)`, scripture: `2co.5.20@@2 Corinthians 5:20`,    studyGuide: `NONE`, },
     { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalm 83`,                                    },
     { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
+  ]
+}) }M
+
+
+## Misc
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`, scripture: `jhn.8@@John 8`, studyGuide: `NONE`, },
   ]
 }) }M
