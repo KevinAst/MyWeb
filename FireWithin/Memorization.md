@@ -20,6 +20,10 @@ M{ toc({
     { href: `#march`,       label: `March`,                                             },
     { ref:  `phm.1.4-7`,    label: `Philemon 1:4-7 (Prayer)`,            indent: true,  },
     { ref:  `1jn.4.7-9`,    label: `1 John 4:7-9 (God)`,                 indent: true,  },
+
+    { href: `#april`,       label: `April`,                                             },
+    { ref:  `1jn.1.9`,      label: `1 John 1:9 (Evangelism)`,            indent: true,  },
+    { ref:  `rom.3.21-23`,  label: `Romans 3:21-23 (Evangelism)`,        indent: true,  },
   ]
 }) }M
 
@@ -490,6 +494,106 @@ follow His perfect ways (and not our own ways).
 
 God's love is displayed through our obedience to God and the love and
 kindness we show others.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+
+
+<span id="april"></span>
+
+_**[April Flyer](https://fbmaryville.org/s/25in25cards_April.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `1jn.1.9`,
+  label:   `1 John 1:9 (Evangelism)`,
+  context: `confess, cleanse, forgiven!`,
+  text: {
+    NLT:    `But if we confess our sins to him, he is faithful and just to forgive us our sins and to cleanse us from all wickedness.`,
+    NKJV:   `If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.`,  
+    KJV:    `If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.`,
+    ESV:    `If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.`,
+    CSB:    `If we confess our sins, he is faithful and righteous to forgive  us our sins and to cleanse us from all unrighteousness.`,
+    "NIV*": `If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="1John.html">... explore 1 John</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_phm_1_4-7',
+  label:  'Additional Thoughts',
+}) }P
+
+Does God really forgive all our sins? Even the really bad ones? The
+secret ones?
+
+**Yes, He does!**
+
+When we humble ourselves and confess our sins to Him, we are forgiven
+and purified.
+
+Think of it like this: If our sins were dirty spots on our shirt, when
+we confess our sins, all the dirty spots on our shirt are wiped away
+and we are made clean in God's eyes.
+
+He forgives us when we ask for forgiveness and He wipes our record
+clean.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.3.21-23`,
+  label:   `Romans 3:21-23 (Evangelism)`,
+  context: `God's righteousness revealed in Christ`,
+  text: {
+    NLT:    `But now God has shown us a way to be made right with him without keeping the requirements of the law, as was promised in the writings of Moses and the prophets long ago. We are made right with God by placing our faith in Jesus Christ. And this is true for everyone who believes, no matter who we are. For everyone has sinned; we all fall short of God’s glorious standard.`,
+    NKJV:   `But now the righteousness of God apart from the law is revealed, being witnessed by the Law and the Prophets, even the righteousness of God, through faith in Jesus Christ, to all and on all who believe. For there is no difference; for all have sinned and fall short of the glory of God`,  
+    KJV:    `But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe: for there is no difference: for all have sinned, and come short of the glory of God`,
+    ESV:    `But now the righteousness of God has been manifested apart from the law, although the Law and the Prophets bear witness to it - the righteousness of God through faith in Jesus Christ for all who believe. For there is no distinction: for all have sinned and fall short of the glory of God`,
+    CSB:    `But now, apart from the law, the righteousness of God has been revealed,  attested by the Law and the Prophets. The righteousness of God is through faith in Jesus Christ, to all who believe,  since there is no distinction.  For all have sinned  and fall short of the  glory of God`,
+    "NIV*": `But now apart from the law the righteousness of God has been made known, to which the Law and the Prophets testify. This righteousness is given through faith in Jesus Christ to all who believe. There is no difference between Jew and Gentile, for all have sinned and fall short of the glory of God`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_phm_1_4-7',
+  label:  'Additional Thoughts',
+}) }P
+
+Through faith in Jesus, we can have a right relationship with God. By
+believing in Jesus, we are given the righteousness of God. 
+
+**This is amazing news!**
+
+Apart from Jesus, we are all sinners who have fallen short of the
+glorious standard of God. 
+
+On our own merit, we fall short. We need Jesus in order to have a
+right relationship with God.
 
 P{ collapsibleSectionEnd() }P
 

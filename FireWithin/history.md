@@ -27,7 +27,8 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more | *Feb 25, 2025*
+[v24.6](#v24_6)   | April Memory Verses & Sync Current Sermon Series | *Mar 26, 2025*
+[v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more  | *Feb 25, 2025*
 [v24.4](#v24_4)   | March Memory Verses & more              | *Feb 22, 2025*
 [v24.3](#v24_3)   | Web-Site Analytics & more               | *Feb 18, 2025*
 [v24.2](#v24_2)   | Memorization Page Enhancements & more   | *Feb 13, 2025*
@@ -72,6 +73,25 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_6" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.6 - April Memory Verses & Sync Current Sermon Series <i>(Mar 26, 2025)</i>
+</h3>
+<br/>
+
+- Added FBM's April Memory Verses in {{book.Memorization}} page - 1 John 1:9 & Romans 3:21-23
+
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.1Kings}} Series (Mid Week)
+
+
+- Added new {{book.QA}} for 03/19/2025
+
+- Added new {{book.Misc}} category under {{book.SpecialEvents}} / {{book.CurrentEvents}}
 
 
 <!-- ************************************************************* -->
