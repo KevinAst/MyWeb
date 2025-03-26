@@ -91,8 +91,7 @@ Release           | What                 | *When*
 
 - Added new {{book.QA}} for 03/19/2025
 
-- Added new category under {{book.SpecialEvents}} / {{book.CurrentEvents}} for:
-  * {{book.Misc}}
+- Added new {{book.Misc}} category under {{book.SpecialEvents}} / {{book.CurrentEvents}}
 
 
 <!-- ************************************************************* -->
