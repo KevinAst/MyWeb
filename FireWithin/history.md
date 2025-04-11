@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.7](#v24_7)   | Chosen Updates & more                            | *Apr xx, 2025*
 [v24.6](#v24_6)   | April Memory Verses & Sync Current Sermon Series | *Mar 26, 2025*
 [v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more  | *Feb 25, 2025*
 [v24.4](#v24_4)   | March Memory Verses & more              | *Feb 22, 2025*
@@ -73,6 +74,15 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_7" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.7 - Chosen Updates & more <i>(Apr xx, 2025)</i>
+</h3>
+<br/>
+
+- ?? 
 
 
 <!-- ************************************************************* -->
