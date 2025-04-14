@@ -8,6 +8,8 @@
 - [Season 2](#season-2)
 - [Season 3](#season-3)
 - [Season 4](#season-4)
+- [Characters](#characters)
+
 
 ## Overview
 
@@ -563,3 +565,485 @@ M{ sermonSeries({
     },
   ]
 }) }M
+
+
+## Characters
+
+With so many characters in The Chosen, it’s easy to lose track. This
+visual guide highlights the key players to help you follow along with
+the unfolding story.
+
+- [Jesus](#jesus)
+- [The Twelve Apostles](#the-twelve-apostles)
+- [The Women In Jesus's Ministry](#the-women-in-jesuss-ministry)
+- [Jesus's Family](#jesuss-family)
+- [Jesus's Friends](#jesuss-friends)
+- [Religious Leaders](#religious-leaders)
+- [The Romans and Herodians](#the-romans-and-herodians)
+- [Miracle Recipients](#miracle-recipients)
+
+**Visual Guide** – Use these images to visually identify each
+character, then click to explore their story and role in the series.
+
+<div class="char-visual-index">
+
+  <a class="char-thumbnail" href="#jesus">
+    <img src="TheChosenImg/Jesus.png" alt="Jesus">
+    <div>Jesus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#simon-peter">
+    <img src="TheChosenImg/SimonPeter.png" alt="Simon Peter">
+    <div>Simon Peter</div>
+  </a>
+
+  <a class="char-thumbnail" href="#andrew">
+    <img src="TheChosenImg/Andrew.png" alt="Andrew">
+    <div>Andrew</div>
+  </a>
+
+  <a class="char-thumbnail" href="#big-james">
+    <img src="TheChosenImg/BigJames_S2plus.png" alt="Big James">
+    <div>Big James</div>
+  </a>
+
+  <a class="char-thumbnail" href="#big-james">
+    <img src="TheChosenImg/BigJames_S1E5-8.png" alt="Big James">
+    <div>Big James</div>
+  </a>
+
+  <a class="char-thumbnail" href="#big-james">
+    <img src="TheChosenImg/BigJames_S1E1-4.png" alt="Big James">
+    <div>Big James</div>
+  </a>
+
+  <a class="char-thumbnail" href="#john">
+    <img src="TheChosenImg/John.png" alt="John">
+    <div>John</div>
+  </a>
+
+  <a class="char-thumbnail" href="#philip">
+    <img src="TheChosenImg/Philip_S4plus.png" alt="Philip">
+    <div>Philip</div>
+  </a>
+
+  <a class="char-thumbnail" href="#philip">
+    <img src="TheChosenImg/Philip_S2-3.png" alt="Philip">
+    <div>Philip</div>
+  </a>
+
+  <a class="char-thumbnail" href="#nathanael">
+    <img src="TheChosenImg/Nathanael.png" alt="Nathanael">
+    <div>Nathanael</div>
+  </a>
+
+  <a class="char-thumbnail" href="#thomas">
+    <img src="TheChosenImg/Thomas.png" alt="Thomas">
+    <div>Thomas</div>
+  </a>
+
+  <a class="char-thumbnail" href="#matthew">
+    <img src="TheChosenImg/Matthew.png" alt="Matthew">
+    <div>Matthew</div>
+  </a>
+
+  <a class="char-thumbnail" href="#little-james">
+    <img src="TheChosenImg/LittleJames.png" alt="Little James">
+    <div>Little James</div>
+  </a>
+
+  <a class="char-thumbnail" href="#thaddaeus">
+    <img src="TheChosenImg/Thaddaeus.png" alt="Thaddaeus">
+    <div>Thaddaeus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#simon-z">
+    <img src="TheChosenImg/SimonZ.png" alt="Simon Z">
+    <div>Simon Z</div>
+  </a>
+
+  <a class="char-thumbnail" href="#judas-iscariot">
+    <img src="TheChosenImg/JudasIscariot.png" alt="Judas Iscariot">
+    <div>Judas Iscariot</div>
+  </a>
+
+</div>
+
+### Jesus
+
+<div class="char-card" id="jesus">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Jesus.png" alt="Jonathan Roumie">
+      <div class="char-actor-caption">Jonathan Roumie</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Jesus – the long awaited Messiah</div>
+    <div class="char-info-desc">
+      <p>
+        Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Jesus" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+### The Twelve Apostles
+
+<div class="char-card" id="simon-peter">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/SimonPeter.png" alt="Shahar Isaac">
+      <div class="char-actor-caption">Shahar Isaac</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Simon Peter</div>
+    <div class="char-info-desc">
+      <p>
+        Simon Peter was a former fisherman in Capernaum and one of the
+        Twelve Apostles of Jesus.  He is one of the sons of Jonah, the
+        older brother of Andrew, the husband of Eden, the son-in-law
+        of Dasha, and a former fishing partner of Zebedee and his
+        sons.  Alongside the two brothers, Big James and John, Simon
+        Peter is a part of Jesus's inner circle.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Simon_Peter" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="char-card" id="andrew">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Andrew.png" alt="Noah James">
+      <div class="char-actor-caption">Noah James</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Andrew</div>
+    <div class="char-info-desc">
+      <p>
+        Andrew was a former fisherman in Capernaum and one of the
+        Twelve Apostles of Jesus. He is one of the sons of Jonah, the
+        younger brother of Simon Peter, a former disciple of John the
+        Baptizer, a friend of Philip from his hometown, Bethsaida, and
+        a former fishing partner of Zebedee and his sons. Alongside
+        Philip, he is a former comrade of Avner and Nadab.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Andrew" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="char-card" id="big-james">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/BigJames_S2plus.png" alt="Abe Bueno-Jallad (Season 2+)">
+      <div class="char-actor-caption">Abe Bueno-Jallad (Season 2+)</div>
+    </div>
+    <div class="char-image-block">
+      <img src="TheChosenImg/BigJames_S1E5-8.png" alt="Kian Kavousi (Season 1 E5-8)">
+      <div class="char-actor-caption">Kian Kavousi (Season 1 E5-8)</div>
+    </div>
+    <div class="char-image-block">
+      <img src="TheChosenImg/BigJames_S1E1-4.png" alt="Shayan Sobhian (Season 1 E1-4)">
+      <div class="char-actor-caption">Shayan Sobhian (Season 1 E1-4)</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Big James</div>
+    <div class="char-info-desc">
+      <p>
+        James, nicknamed Big James, is a former fisherman in Capernaum
+        and one of the Twelve Apostles of Jesus.  He is one of the
+        sons of Zebedee and Salome, the older brother of John, and a
+        former fishing partner of Simon Peter and Andrew.  Jesus
+        nicknames him and his brother, John, the "sons of
+        thunder". Alongside Simon Peter and John, Big James is a part
+        of Jesus's inner circle.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Big_James" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="char-card" id="john">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/John.png" alt="George H. Xanthis">
+      <div class="char-actor-caption">George H. Xanthis</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">John</div>
+    <div class="char-info-desc">
+      <p>
+        John is a former fisherman in Capernaum and one of the Twelve
+        Apostles of Jesus. He is one of the sons of Zebedee and
+        Salome, the younger brother of Big James, and a former fishing
+        partner of Simon Peter and Andrew. Jesus nicknames him and his
+        brother, Big James, the "sons of thunder". Alongside Simon
+        Peter and Big James, John is a part of Jesus's inner circle.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/John_the_Apostle" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="philip">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Philip_S4plus.png" alt="Reza Diako (Season 4+)">
+      <div class="char-actor-caption">Reza Diako (Season 4+)</div>
+    </div>
+    <div class="char-image-block">
+      <img src="TheChosenImg/Philip_S2-3.png" alt="Yoshi Barrigas (Season 2 & 3)">
+      <div class="char-actor-caption">Yoshi Barrigas (Season 2 & 3)</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Philip</div>
+    <div class="char-info-desc">
+      <p>
+        Philip is a former disciple of John the Baptizer and one of the
+        Twelve Apostles of Jesus. He is both a companion of Andrew from
+        his hometown, Bethsaida, and an old friend of
+        Nathanael. Alongside Andrew, he is a former comrade of Avner and
+        Nadab.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Philip" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="nathanael">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Nathanael.png" alt="Austin Reed Alleman">
+      <div class="char-actor-caption">Austin Reed Alleman</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Nathanael</div>
+    <div class="char-info-desc">
+      <p>
+        Nathanael, also known as Bartholomew, is a former architect in
+        Caesarea Philippi from Cana and one of the Twelve Apostles of
+        Jesus. He is the son of Talmai and an old friend of Philip.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Nathanael" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="thomas">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Thomas.png" alt="Joey Vahedi">
+      <div class="char-actor-caption">Joey Vahedi</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Thomas</div>
+    <div class="char-info-desc">
+      <p>
+        Thomas, also known as Didymus, is a former caterer from the
+        Plains of Sharon, the partner of Ramah, and one of the Twelve
+        Apostles of Jesus.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Thomas" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="matthew">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Matthew.png" alt="Paras Patel">
+      <div class="char-actor-caption">Paras Patel</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Matthew</div>
+    <div class="char-info-desc">
+      <p>
+        Matthew, also known as Levi, is a former tax collector in
+        Capernaum and one of the Twelve Apostles of Jesus. He is the
+        son of Alphaeus and the former publican of Simon Peter and
+        Andrew.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Matthew_the_Apostle" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="little-james">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/LittleJames.png" alt="Jordan Walker Ross">
+      <div class="char-actor-caption">Jordan Walker Ross</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Little James</div>
+    <div class="char-info-desc">
+      <p>
+        James, nicknamed Little James, is a former prospective member
+        of the 288 Jerusalem Temple choir and one of the Twelve
+        Apostles of Jesus. He is the son of Alphaeus.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Little_James" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="thaddaeus">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Thaddaeus.png" alt="Giavani Cairo">
+      <div class="char-actor-caption">Giavani Cairo</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Thaddaeus</div>
+    <div class="char-info-desc">
+      <p>
+        Thaddaeus, also known as Judas and Lebbaeus, is a former
+        stonemason in Bethsaida and one of the Twelve Apostles of
+        Jesus.  He is the son of James.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Thaddaeus" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="simon-z">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/SimonZ.png" alt="Alaa Safi">
+      <div class="char-actor-caption">Alaa Safi</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Simon Z</div>
+    <div class="char-info-desc">
+      <p>
+        Simon, also known as Simon Z. or Zee, is a former Zealot from
+        Ashkelon and one of the Twelve Apostles of Jesus. He is the
+        brother of Jesse, the healed paralytic at the Pool of
+        Bethesda.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Simon_Z." target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="char-card" id="judas-iscariot">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/JudasIscariot.png" alt="Luke Dimyan">
+      <div class="char-actor-caption">Luke Dimyan</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Judas Iscariot</div>
+    <div class="char-info-desc">
+      <p>
+        Judas Iscariot, also known as Judas, is a former business
+        apprentice from Kerioth, who is the treasurer and one of the
+        Twelve Apostles of Jesus. He is the son of Simon Iscariot.
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/Judas_Iscariot" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ?? more ... replace ALL: <<< basis for macro
+     XXid
+     XXmore
+     XXimg.png
+     XXname
+     XXactor
+     XXdesc
+<div class="char-card" id="XXid">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/XXimg.png" alt="XXactor">
+      <div class="char-actor-caption">XXactor</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">XXname</div>
+    <div class="char-info-desc">
+      <p>
+        XXdesc
+      </p>
+      <p>
+        <a href="https://the-chosen.fandom.com/wiki/XXmore" target="_blank">... more</a>
+      </p>
+    </div>
+  </div>
+</div>
+-->
+
+### The Women In Jesus's Ministry
+
+... coming soon
+
+### Jesus's Family
+
+... coming soon
+
+### Jesus's Friends
+
+... coming soon
+
+### Religious Leaders
+
+... coming soon
+
+### The Romans and Herodians
+
+... coming soon
+
+### Miracle Recipients
+
+... coming soon
