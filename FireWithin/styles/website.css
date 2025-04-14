@@ -248,3 +248,124 @@ body.isolated-page .navigation-prev,
 body.isolated-page .navigation-next { 
     display: none; 
 }
+
+/*** Characters/Actors - initially used in TheChosen.md ***/
+
+/* Visual Index Grid */
+.char-visual-index {
+    display:         flex;
+    flex-wrap:       wrap;
+    gap:             15px;
+    justify-content: center;
+    margin:          30px auto;
+    max-width:       900px;
+}
+
+.char-thumbnail {
+    text-align:      center;
+    font-size:       0.9em;
+    color:           #333;
+    text-decoration: none;
+}
+
+.char-thumbnail img {
+    width:         100px;
+    height:        100px;
+    object-fit:    cover;
+    border-radius: 50%;
+    border:        2px solid #ccc;
+    transition:    transform 0.2s;
+}
+
+.char-thumbnail:hover img {
+    transform:     scale(1.7); /* original: scale(1.05); */
+    border-color:  #999;
+}
+
+
+/* Character Cards
+   Highlights:
+   - Multiple images supported in a vertical column on desktop.
+   - Images shift to a horizontal wrap layout on smaller screens.
+   - Clean and accessible, with alt tags for each version.
+*/
+.char-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 900px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    gap: 20px;
+}
+
+.char-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.char-image-block {
+    text-align: center;
+}
+
+.char-image-block img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.char-actor-caption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.char-info {
+    flex: 1;
+}
+
+.char-info-subtitle {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.char-info-desc {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Responsive for small screens */
+@media (max-width: 700px) {
+    .char-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .char-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .char-image-block {
+        margin: 0 10px;
+    }
+
+    .char-image-block img {
+        max-width: 120px;
+    }
+
+    .char-info {
+        text-align: left;
+        width: 100%;
+    }
+}
