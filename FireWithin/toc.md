@@ -129,6 +129,7 @@
   * [Season 2](TheChosen.md#season-2)
   * [Season 3](TheChosen.md#season-3)
   * [Season 4](TheChosen.md#season-4)
+  * [Characters](TheChosen.md#characters)
 
 ----
 - [Revision History](history.md)
