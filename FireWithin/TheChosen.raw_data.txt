@@ -1,5 +1,9 @@
 ********************************************************************************
+********************************************************************************
+********************************************************************************
 * The Chosen Sleuth YouTube Videos (The Deep Dives)
+********************************************************************************
+********************************************************************************
 ********************************************************************************
 
 *-------------------------------------------------------------------------------
@@ -786,3 +790,606 @@ v  v
 8 Experts Break Down Season 4  1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
                                   https://www.youtube.com/watch?v=DU7wgqVqkJo
   ENTRY:                          `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+* The Chosen Characters
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+- Source (this is hard)
+  - NAH: Season 1, Episode 1, the Slueth has a Deep Dive video of the early charters
+    ... https://www.youtube.com/watch?v=jfHlTrTgc4w
+  - Google: Characters in The Chosen
+    * YES: Brief Description of ALL characters
+      ... https://the-chosen.fandom.com/wiki/Cast_and_Characters
+          https://the-chosen.fandom.com/wiki/Category:Characters      <<< USE THIS
+          https://en.wikipedia.org/wiki/List_of_The_Chosen_characters <<< NO PICS or descriptions
+
+
+*-------------------------
+* SUMMARY (FIRST ATTEMPT)
+*-------------------------
+
+SOURCE:     https://the-chosen.fandom.com/wiki/Category:Characters <<< LINK to this
+IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
+
+1          Cast
+1.1        Main
+1.2        Recurring
+1.3        Guest
+1.4        Special
+
+2          Characters
+2.1    Y   Jesus          ... Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesus
+                              IMAGE: Jesus.png
+                              ACTOR: Jonathan Roumie
+
+2.2        The Twelve Apostles
+2.2.1  Y   Simon Peter    ... Simon Peter was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Jonah, the older brother of Andrew, the husband of Eden, the son-in-law of Dasha, and a former fishing partner of Zebedee and his sons.  Alongside the two brothers, Big James and John, Simon Peter is a part of Jesus's inner circle. 
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Peter
+                              IMAGE: SimonPeter.png
+                              ACTOR: Shahar Isaac
+2.2.2  Y   Andrew         ... Andrew was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Jonah, the younger brother of Simon Peter, a former disciple of John the Baptizer, a friend of Philip from his hometown, Bethsaida, and a former fishing partner of Zebedee and his sons. Alongside Philip, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Andrew
+                              IMAGE: Andrew.png
+                              ACTOR: Noah James
+2.2.3  Y   Big James      ... James, nicknamed Big James, is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Zebedee and Salome, the older brother of John, and a former fishing partner of Simon Peter and Andrew.  Jesus nicknames him and his brother, John, the "sons of thunder". Alongside Simon Peter and John, Big James is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/Big_James
+                              IMAGE: BigJames_S2plus.png
+                              ACTOR: Abe Bueno-Jallad (Season 2+)
+                              IMAGE: BigJames_S1E5-8.png
+                              ACTOR: Kian Kavousi (Season 1 E5-8)
+                              IMAGE: BigJames_S1E1-4.png
+                              ACTOR: Shayan Sobhian (Season 1 E1-4)
+2.2.4  Y   John           ... John is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Zebedee and Salome, the younger brother of Big James, and a former fishing partner of Simon Peter and Andrew. Jesus nicknames him and his brother, Big James, the "sons of thunder". Alongside Simon Peter and Big James, John is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/John_the_Apostle
+                              IMAGE: John.png
+                              ACTOR: George H. Xanthis
+2.2.5  Y   Philip         ... Philip is a former disciple of John the Baptizer and one of the Twelve Apostles of Jesus. He is both a companion of Andrew from his hometown, Bethsaida, and an old friend of Nathanael. Alongside Andrew, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Philip
+                              IMAGE: Philip_S4plus.png
+                              ACTOR: Reza Diako
+                              IMAGE: Philip_S2-3.png
+                              ACTOR: Yoshi Barrigas
+2.2.6  Y   Nathanael      ... Nathanael, also known as Bartholomew, is a former architect in Caesarea Philippi from Cana and one of the Twelve Apostles of Jesus. He is the son of Talmai and an old friend of Philip.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nathanael
+                              IMAGE: Nathanael.png
+                              ACTOR: Austin Reed Alleman
+2.2.7  Y   Thomas         ... Thomas, also known as Didymus, is a former caterer from the Plains of Sharon, the partner of Ramah, and one of the Twelve Apostles of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thomas
+                              IMAGE: Thomas.png
+                              ACTOR: Joey Vahedi
+2.2.8  Y   Matthew        ... Matthew, also known as Levi, is a former tax collector in Capernaum and one of the Twelve Apostles of Jesus. He is the son of Alphaeus and the former publican of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Matthew_the_Apostle
+                              IMAGE: Matthew.png
+                              ACTOR: Paras Patel
+2.2.9  Y   Little James   ... James, nicknamed Little James, is a former prospective member of the 288 Jerusalem Temple choir and one of the Twelve Apostles of Jesus. He is the son of Alphaeus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Little_James
+                              IMAGE: LittleJames.png
+                              ACTOR: Jordan Walker Ross
+2.2.10 Y   Thaddaeus      ... Thaddaeus, also known as Judas and Lebbaeus, is a former stonemason in Bethsaida and one of the Twelve Apostles of Jesus.  He is the son of James.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thaddaeus
+                              IMAGE: Thaddaeus.png
+                              ACTOR: Giavani Cairo
+2.2.11 Y   Simon Z        ... Simon, also known as Simon Z. or Zee, is a former Zealot from Ashkelon and one of the Twelve Apostles of Jesus. He is the brother of Jesse, the healed paralytic at the Pool of Bethesda.
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Z.
+                              IMAGE: SimonZ.png
+                              ACTOR: Alaa Safi
+2.2.12 Y   Judas Iscariot ... Judas Iscariot, also known as Judas, is a former business apprentice from Kerioth, who is the treasurer and one of the Twelve Apostles of Jesus. He is the son of Simon Iscariot.
+                              MORE:  https://the-chosen.fandom.com/wiki/Judas_Iscariot
+                              IMAGE: JudasIscariot.png
+                              ACTOR: Luke Dimyan
+
+
+2.3        The Women In Jesus's Ministry
+2.3.1  Y?  Mary Magdalene ... xxx
+                              ?? GOOGLE "The Chosen" xxx
+2.3.2  Y?  Joanna
+2.3.3  Y?  Salome
+2.3.4  Y?  Eden
+2.3.5  Y?  Martha
+2.3.6  Y?  Mary
+2.3.7  Y?  Ramah
+2.3.8  Y?  Tamar
+
+2.4        Jesus's Family
+2.4.1  Y?  Mary
+2.4.2      Joseph
+2.4.3  Y?  John the Baptizer
+2.4.4  Y?  Elizabeth
+2.4.5  Y?  Zechariah
+
+2.5        Jesus's Friends, Acquaintances, and Other Followers
+2.5.1  Y?  Zebedee
+2.5.2  Y?  Lazarus
+2.5.3  Y?  Photina
+2.5.4  Y?  Alphaeus
+2.5.5  Y?  Avner
+2.5.6  Y?  Nadab
+2.5.7  Y?  Leander
+2.5.8  Y?  Fatiyah
+2.5.9  Y?  Dion
+2.5.10 Y?  Zechariah
+2.5.11 Y?  Melech
+2.5.12 Y?  Neriah
+
+2.6        Religious Leaders
+2.6.1  Y?  Nicodemus
+2.6.2  Y?  Joseph Ben Caiaphas
+2.6.3  Y?  Yussif
+2.6.4  Y?  Jairus
+2.6.5  Y?  Shammai
+2.6.6  Y?  Shimon
+2.6.7  Y?  Shmuel
+2.6.8  Y?  Josiah
+2.6.9  Y?  Yanni
+2.6.10 Y?  Madai
+2.6.11 Y?  Lamech
+2.6.12 Y?  Akiva
+2.6.13 Y?  Ozem
+2.6.14 Y?  Zebadiah
+2.6.15 Y?  Gedera
+
+2.7        The Romans and Herodians
+2.7.1  Y?  Gaius
+2.7.2  Y?  Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
+                              MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
+                              IMAGE: PontiusPilate.png
+                              ACTOR: Andrew James Allen
+2.7.3  Y?  Herod Antipas
+2.7.4  Y?  Herodias
+2.7.5  Y?  Claudia        ... Claudia is the wife of Pontius Pilate.
+                              MORE:  https://the-chosen.fandom.com/wiki/Claudia
+                              IMAGE: Claudia.png
+                              ACTOR: Sarah J. Bartholomew
+2.7.6  Y?  Salome
+2.7.7  Y?  Chuza
+2.7.8  Y?  Atticus Aemilius Pulcher
+2.7.9  Y?  Quintus Benedictus Dio
+
+2.8        Miracle Recipients (and their families)
+2.8.1  Y?  The Master of the Banquet
+2.8.2  Y?  The Leper on the Road
+2.8.3  Y?  Ethan
+2.8.4  Y?  Dasha
+2.8.5  Y?  Jesse
+2.8.6  Y?  Caleb / Belial
+2.8.7  Y?  Elam
+2.8.8  Y?  Veronica
+2.8.9  Y?  Nili
+2.8.10 Y?  Michal
+2.8.11 Y?  Argo
+2.8.12 Y?  Telemachus
+2.8.13 Y?  Uzziah
+2.8.14 Y?  Father of Uzziah
+2.8.15 Y?  Mother of Uzziah
+2.8.16 Y?  The Blind Beggar
+2.8.17 Y?  Ivo
+
+           ?? STOP HERE
+
+2.9        Old Testament Figures
+2.9.1      Jacob
+2.9.2      Moses
+2.9.3      Joshua
+2.9.4      David
+2.9.5      Ahimelech
+2.9.6      Abiathar
+2.9.7      Asaph
+2.9.8      Bathsheba
+2.9.9      Jeduthun
+2.9.10     Abigail
+2.9.11     Daniel
+
+2.10       The Early Church
+2.10.1     Tychicus
+2.10.2     Luke
+
+2.11       The Shepherds
+2.11.1     Simon the Shepherd
+2.11.2     Matthew the Shepherd
+
+
+
+????????????????????????????????????????????????????????????????????????????????
+??? TRASH
+????????????????????????????????????????????????????????????????????????????????
+
+
+>>> USING THIS (modified class names)
+?? Visual Index at Top ... ALL link to Jesus (for now)
+
+<div class="visual-index">
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Jesus.png" alt="Jesus">
+    <div>Jesus</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Peter.png" alt="Peter">
+    <div>Peter</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Andrew.png" alt="Andrew">
+    <div>Andrew</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/BigJames.png" alt="BigJames">
+    <div>BigJames</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/John.png" alt="John">
+    <div>John</div>
+  </a>
+
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Philip_S4plus.png" alt="Philip_S4plus">
+    <div>Philip_S4plus</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Philip_S2-3.png" alt="Philip_S2-3">
+    <div>Philip_S2-3</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Nathanael.png" alt="Nathanael">
+    <div>Nathanael</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Thomas.png" alt="Thomas">
+    <div>Thomas</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Matthew.png" alt="Matthew">
+    <div>Matthew</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/LittleJames.png" alt="LittleJames">
+    <div>LittleJames</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/Thaddaeus.png" alt="Thaddaeus">
+    <div>Thaddaeus</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/SimonZ.png" alt="SimonZ">
+    <div>SimonZ</div>
+  </a>
+
+  <a class="thumbnail" href="#jesus">
+    <img src="TheChosenImg/JudasIscariot.png" alt="JudasIscariot">
+    <div>JudasIscariot</div>
+  </a>
+
+</div>
+
+<style>
+/* Visual Index Grid */
+
+.visual-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 900px;
+}
+
+.thumbnail {
+  text-align: center;
+  font-size: 0.9em;
+  color: #333;
+  text-decoration: none;
+}
+
+.thumbnail img {
+  width:  100px;  /* ?? WAS 80pc */
+  height: 100px;  /* ?? WAS 80pc */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  transition: transform 0.2s;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.05);
+  border-color: #999;
+}
+
+</style>
+
+
+### Jesus
+
+>>> USING THIS (modified class names)
+
+?? TRY 4 Multiple images for changes in actors (current)
+
+- Multiple images supported in a vertical column on desktop.
+- Images shift to a horizontal wrap layout on smaller screens.
+- Clean and accessible, with alt tags for each version.
+
+<div class="character-card">
+  <div class="character-images">
+    <div class="image-block">
+      <img src="TheChosenImg/Philip_S2-3.png" alt="Philip">
+      <!-- ?? Actor Name and Season [optionally] -->
+      <div class="caption">Philip – Season 2 & 3</div>
+    </div>
+    <!-- ?? optional
+    -->
+    <div class="image-block">
+      <img src="TheChosenImg/Philip_S4plus.png" alt="Philip">
+      <!-- ?? Actor Name and Season [optionally] -->
+      <div class="caption">Philip – Season 4+</div>
+    </div>
+  </div>
+  <div class="character-info">
+    <div class="subtitle">Philip – ?? Bla Bla</div>
+    <div class="description">
+      Philip is a former disciple of John the Baptizer and one of the
+      Twelve Apostles of Jesus. He is both a companion of Andrew from
+      his hometown, Bethsaida, and an old friend of
+      Nathanael. Alongside Andrew, he is a former comrade of Avner and
+      Nadab.
+    </div>
+  </div>
+</div>
+
+
+<style>
+    .character-card {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin: 20px auto;
+      max-width: 900px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #f9f9f9;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      gap: 20px;
+    }
+
+    .character-images {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .image-block {
+      text-align: center;
+    }
+
+    .image-block img {
+      max-width: 180px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .caption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .character-info {
+      flex: 1;
+    }
+
+    .subtitle {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 1em;
+      color: #555;
+    }
+
+    /* Responsive for small screens */
+    @media (max-width: 700px) {
+      .character-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .character-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .image-block {
+        margin: 0 10px;
+      }
+
+      .image-block img {
+        max-width: 120px;
+      }
+
+      .character-info {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  </style>
+
+
+
+
+
+
+?? TRY 3 REFLEXIVE FOR PHONES (current)
+
+<div class="character3-card">
+  <img src="TheChosenImg/Peter.png" alt="Simon Peter">
+  <div class="character3-info">
+    <div class="subtitle3">Simon Peter – The Fisherman Called by Jesus</div>
+    <div class="description3">
+      One of the first disciples called by Jesus, Peter is a passionate and impulsive man. Over the course of the series, we see his transformation from a struggling fisherman to a foundational leader in the early Church.
+    </div>
+  </div>
+</div>
+
+
+<style>
+    .character3-card {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin: 20px auto;
+      max-width: 800px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #f9f9f9;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .character3-card img {
+      max-width: 200px;
+      height: auto;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+
+    .character3-info {
+      flex: 1;
+    }
+
+    .subtitle3 {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .description3 {
+      font-size: 1em;
+      color: #555;
+    }
+
+    /* Responsive layout for small screens */
+    @media (max-width: 600px) {
+      .character3-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .character3-card img {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+
+      .character3-info {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  </style>
+
+
+
+
+
+?? TRY 2
+
+<div class="character2-card">
+  <img src="TheChosenImg/Peter.png" alt="Simon Peter">
+  <div class="character2-info">
+    <div class="subtitle2">Simon Peter – The Fisherman Called by Jesus</div>
+    <div class="description2">
+      One of the first disciples called by Jesus, Peter is a passionate and impulsive man. Over the course of the series, we see his transformation from a struggling fisherman to a foundational leader in the early Church.
+    </div>
+  </div>
+</div>
+
+
+<style>
+  .character2-card {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+  max-width: 800px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .character2-card img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  }
+  
+  .character2-info {
+  flex: 1;
+  }
+  
+  .subtitle2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .description2 {
+  font-size: 1em;
+  color: #555;
+  }
+</style>
+
+
+?? TRY 1
+
+<div class="character1-card">
+  <img src="TheChosenImg/Jesus.png" alt="Jesus">
+  <div class="subtitle1">Jesus</div>
+</div>
+
+?? if this style works, place in common css
+
+<style>
+  .character1-card {
+  text-align: center;
+  margin: 10px;
+  }
+
+  .character1-card img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  }
+
+  .subtitle1 {
+  font-size: 1.2em;
+  /* color: #444; */
+  margin-top: 5px;
+  }
+</style>
+
+
