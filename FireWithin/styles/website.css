@@ -290,23 +290,21 @@ body.isolated-page .navigation-next {
    - Clean and accessible, with alt tags for each version.
 */
 .char-card {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 20px auto;
-    max-width: 900px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    border-radius: 12px;
-    background-color: #f9f9f9;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-    gap: 20px;
+    display:          flex;
+    flex-direction:   row;
+    align-items:      flex-start;
+    margin:           20px auto;
+    max-width:        900px;
+    padding:          15px;
+    border-radius:    12px;
+    background-color: #dfbf9f;
+    gap:              20px;
 }
 
 .char-images {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    gap: 15px;
+    gap:            15px;
 }
 
 .char-image-block {
@@ -314,17 +312,18 @@ body.isolated-page .navigation-next {
 }
 
 .char-image-block img {
-    max-width: 180px;
-    height: auto;
+    max-width:     300px; /* image size */
+    height:        auto;
     border-radius: 10px;
-    display: block;
-    margin: 0 auto;
+    display:       block;
+    margin:        0 auto;
 }
 
 .char-actor-caption {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
+    font-size:   0.9em;
+    font-weight: bold;
+    color:       #704214;
+    margin-top:  5px;
 }
 
 .char-info {
@@ -332,27 +331,28 @@ body.isolated-page .navigation-next {
 }
 
 .char-info-subtitle {
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size:     1.4em;
+    font-weight:   bold;
     margin-bottom: 10px;
+    color:         #704214;
 }
 
 .char-info-desc {
     font-size: 1em;
-    color: #555;
+    color:     #555;
 }
 
 /* Responsive for small screens */
 @media (max-width: 700px) {
     .char-card {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items:    center;
+        text-align:     center;
     }
 
     .char-images {
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction:  row;
+        flex-wrap:       wrap;
         justify-content: center;
     }
 
@@ -361,11 +361,11 @@ body.isolated-page .navigation-next {
     }
 
     .char-image-block img {
-        max-width: 120px;
+        max-width: 300px;  /* image size ... SAME (I like this for phones too) */
     }
 
     .char-info {
         text-align: left;
-        width: 100%;
+        width:      100%;
     }
 }

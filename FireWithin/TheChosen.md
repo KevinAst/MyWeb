@@ -671,7 +671,7 @@ character, then click to explore their story and role in the series.
 
 ### Jesus
 
-<div class="char-card" id="jesus">
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Jesus.png" alt="Jonathan Roumie">
@@ -679,13 +679,16 @@ character, then click to explore their story and role in the series.
     </div>
   </div>
   <div class="char-info">
-    <div class="char-info-subtitle">Jesus – the long awaited Messiah</div>
+    <div class="char-info-subtitle">Jesus</div>
     <div class="char-info-desc">
       <p>
         Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
       </p>
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Jesus" target="_blank">... more</a>
+      </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
       </p>
     </div>
   </div>
@@ -694,7 +697,11 @@ character, then click to explore their story and role in the series.
 
 ### The Twelve Apostles
 
-<div class="char-card" id="simon-peter">
+<!-- CHARACTER -->
+
+#### Simon Peter
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/SimonPeter.png" alt="Shahar Isaac">
@@ -715,11 +722,21 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Simon_Peter" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
-<div class="char-card" id="andrew">
+
+
+
+<!-- CHARACTER -->
+
+#### Andrew
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Andrew.png" alt="Noah James">
@@ -740,11 +757,20 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Andrew" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
-<div class="char-card" id="big-james">
+
+
+<!-- CHARACTER -->
+
+#### Big James
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/BigJames_S2plus.png" alt="Abe Bueno-Jallad (Season 2+)">
@@ -774,11 +800,21 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Big_James" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
-<div class="char-card" id="john">
+
+
+
+<!-- CHARACTER -->
+
+#### John
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/John.png" alt="George H. Xanthis">
@@ -799,12 +835,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/John_the_Apostle" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="philip">
+
+
+
+<!-- CHARACTER -->
+
+#### Philip
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Philip_S4plus.png" alt="Reza Diako (Season 4+)">
@@ -828,12 +874,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Philip" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="nathanael">
+
+
+
+<!-- CHARACTER -->
+
+#### Nathanael
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Nathanael.png" alt="Austin Reed Alleman">
@@ -851,12 +907,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Nathanael" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="thomas">
+
+
+
+<!-- CHARACTER -->
+
+#### Thomas
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Thomas.png" alt="Joey Vahedi">
@@ -874,12 +940,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Thomas" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="matthew">
+
+
+
+<!-- CHARACTER -->
+
+#### Matthew
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Matthew.png" alt="Paras Patel">
@@ -898,12 +974,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Matthew_the_Apostle" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="little-james">
+
+
+
+<!-- CHARACTER -->
+
+#### Little James
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/LittleJames.png" alt="Jordan Walker Ross">
@@ -921,12 +1007,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Little_James" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="thaddaeus">
+
+
+
+<!-- CHARACTER -->
+
+#### Thaddaeus
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/Thaddaeus.png" alt="Giavani Cairo">
@@ -944,12 +1040,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Thaddaeus" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="simon-z">
+
+
+
+<!-- CHARACTER -->
+
+#### Simon Z
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/SimonZ.png" alt="Alaa Safi">
@@ -968,12 +1074,22 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Simon_Z." target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<div class="char-card" id="judas-iscariot">
+
+
+
+<!-- CHARACTER -->
+
+#### Judas Iscariot
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/JudasIscariot.png" alt="Luke Dimyan">
@@ -991,19 +1107,29 @@ character, then click to explore their story and role in the series.
       <p>
         <a href="https://the-chosen.fandom.com/wiki/Judas_Iscariot" target="_blank">... more</a>
       </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
+      </p>
     </div>
   </div>
 </div>
 
 
-<!-- ?? more ... replace ALL: <<< basis for macro
-     XXid
+<!-- ?? more ... replace ALL: <<< CONSIDER creating macro (however complications for desc links, etc.)
      XXmore
      XXimg.png
      XXname
      XXactor
      XXdesc
-<div class="char-card" id="XXid">
+     DON'T FORGET TO: Update the  "Visual Guide" for EACH character
+
+
+<!-- CHARACTER -->
+
+<!-- 
+#### XXname
+
+<div class="char-card">
   <div class="char-images">
     <div class="char-image-block">
       <img src="TheChosenImg/XXimg.png" alt="XXactor">
@@ -1018,6 +1144,9 @@ character, then click to explore their story and role in the series.
       </p>
       <p>
         <a href="https://the-chosen.fandom.com/wiki/XXmore" target="_blank">... more</a>
+      </p>
+      <p>
+        ... back to <a href="#characters">Characters</a>
       </p>
     </div>
   </div>
