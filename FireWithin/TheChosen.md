@@ -1115,43 +1115,6 @@ character, then click to explore their story and role in the series.
 </div>
 
 
-<!-- ?? more ... replace ALL: <<< CONSIDER creating macro (however complications for desc links, etc.)
-     XXmore
-     XXimg.png
-     XXname
-     XXactor
-     XXdesc
-     DON'T FORGET TO: Update the  "Visual Guide" for EACH character
-
-
-<!-- CHARACTER -->
-
-<!-- 
-#### XXname
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/XXimg.png" alt="XXactor">
-      <div class="char-actor-caption">XXactor</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">XXname</div>
-    <div class="char-info-desc">
-      <p>
-        XXdesc
-      </p>
-      <p>
-        <a href="https://the-chosen.fandom.com/wiki/XXmore" target="_blank">... more</a>
-      </p>
-      <p>
-        ... back to <a href="#characters">Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
--->
 
 ### The Women In Jesus's Ministry
 
