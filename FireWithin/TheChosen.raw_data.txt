@@ -992,28 +992,55 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 2.5        Jesus's Friends, Acquaintances, and Other Followers
 
+2.5.1  Y   Zebedee        ... Zebedee is a former fisherman in Capernaum, the father of Big James and John, the husband of Salome, and a former fishing partner of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebedee
+                              IMAGE: Zebedee.png
+                              ACTOR: Nick Shakoour
+2.5.2  Y   Lazarus        ... Lazarus is a businessman in Bethany, a childhood friend of Jesus, and the brother of Mary and Martha.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lazarus
+                              IMAGE: Lazarus.png
+                              ACTOR: Demetrios Troy
+2.5.3  Y   Photina        ... Photina is a Samaritan woman in Sychar and the wife of Neriah.
+                              MORE:  https://the-chosen.fandom.com/wiki/Photina
+                              IMAGE: Photina.png
+                              ACTOR: Vanessa DeSilvio
+2.5.4  N  Alphaeus        ... Alphaeus is the father of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Alphaeus
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BNTQwN2Y0ZjYtNjZkMS00YzgxLWJlNGEtYmI0YWVlNGNhYWM0XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg
+                              ACTOR: Troy Caylak
+2.5.5  N  Avner           ... Avner is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Nadab, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Avner
+                              IMAGE: N/A ... can't even find this
+                              ACTOR: Ash Kahn
+2.5.6  N  Nadab           ... Nadab is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Avner, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nadab
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BYjUwMWQzNjUtYmIzZC00MTRlLWI5MjQtYTNiODAyYmRjYzgwXkEyXkFqcGc@._V1_QL75_UX291_.jpg
+                              ACTOR: Austen Parros
+2.5.7  N  Leander
+2.5.8  N  Fatiyah
+2.5.9  N  Dion
+2.5.10 N  Zechariah       ... owner of the donkey
+2.5.11 N  Melech
+2.5.12 N  Neriah
+
+2.6        Religious Leaders
+
 ?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.5.1  Y?  Zebedee
+2.6.1  Y?  Nicodemus
                           ... XXdesc
                               MORE:  XXmore
                               IMAGE: XXimg.png
                               ACTOR: XXactor
 
-2.5.2  Y?  Lazarus
-2.5.3  Y?  Photina
-2.5.4  Y?  Alphaeus
-2.5.5  Y?  Avner
-2.5.6  Y?  Nadab
-2.5.7  Y?  Leander
-2.5.8  Y?  Fatiyah
-2.5.9  Y?  Dion
-2.5.10 Y?  Zechariah
-2.5.11 Y?  Melech
-2.5.12 Y?  Neriah
 
-2.6        Religious Leaders
-2.6.1  Y?  Nicodemus
+
+?? NEW                        ??$$ GOOGLE "The Chosen" xxx
 2.6.2  Y?  Joseph Ben Caiaphas
+                          ... XXdesc
+                              MORE:  XXmore
+                              IMAGE: XXimg.png
+                              ACTOR: XXactor
+
 2.6.3  Y?  Yussif
 2.6.4  Y?  Jairus
 2.6.5  Y?  Shammai

@@ -732,6 +732,21 @@ character, then click to explore their story and role in the series.
     <div>Zechariah (JTB Dad)</div>
   </a>
 
+  <a class="char-thumbnail" href="#zebedee">
+    <img src="TheChosenImg/Zebedee.png" alt="Zebedee">
+    <div>Zebedee</div>
+  </a>
+
+  <a class="char-thumbnail" href="#lazarus">
+    <img src="TheChosenImg/Lazarus.png" alt="Lazarus">
+    <div>Lazarus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#photina">
+    <img src="TheChosenImg/Photina.png" alt="Photina">
+    <div>Photina</div>
+  </a>
+
 </div>
 
 ?? more
@@ -1510,14 +1525,89 @@ character, then click to explore their story and role in the series.
 </div>
 
 
-?? MORE
-
 
 ---
 
 ### Jesus's Friends
 
-... coming soon
+<!-- CHARACTER -->
+
+#### Zebedee
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Zebedee.png" alt="Nick Shakoour">
+      <div class="char-actor-caption">Nick Shakoour</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Zebedee</div>
+    <div class="char-info-desc">
+      <p>
+        Zebedee is a former fisherman in Capernaum, the father of Big James and John, the husband of Salome, and a former fishing partner of Simon Peter and Andrew.
+        <a href="https://the-chosen.fandom.com/wiki/Zebedee" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Lazarus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Lazarus.png" alt="Demetrios Troy">
+      <div class="char-actor-caption">Demetrios Troy</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Lazarus</div>
+    <div class="char-info-desc">
+      <p>
+        Lazarus is a businessman in Bethany, a childhood friend of Jesus, and the brother of Mary and Martha.
+        <a href="https://the-chosen.fandom.com/wiki/Lazarus" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Photina
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Photina.png" alt="Vanessa DeSilvio">
+      <div class="char-actor-caption">Vanessa DeSilvio</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Photina</div>
+    <div class="char-info-desc">
+      <p>
+        Photina is a Samaritan woman in Sychar and the wife of Neriah.
+        <a href="https://the-chosen.fandom.com/wiki/Photina" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+?? MORE
 
 ---
 
