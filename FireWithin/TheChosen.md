@@ -667,7 +667,53 @@ character, then click to explore their story and role in the series.
     <div>Judas Iscariot</div>
   </a>
 
+  <a class="char-thumbnail" href="#mary-magdalene">
+    <img src="TheChosenImg/MaryMagdalene.png" alt="Mary Magdalene">
+    <div>Mary Magdalene</div>
+  </a>
+
+  <a class="char-thumbnail" href="#joanna">
+    <img src="TheChosenImg/Joanna.png" alt="Joanna">
+    <div>Joanna</div>
+  </a>
+
+  <a class="char-thumbnail" href="#salome">
+    <img src="TheChosenImg/Salome.png" alt="Salome">
+    <div>Salome</div>
+  </a>
+
+  <a class="char-thumbnail" href="#eden">
+    <img src="TheChosenImg/Eden.png" alt="Eden">
+    <div>Eden</div>
+  </a>
+
+  <a class="char-thumbnail" href="#martha">
+    <img src="TheChosenImg/Martha.png" alt="Martha">
+    <div>Martha</div>
+  </a>
+
+  <a class="char-thumbnail" href="#mary-of-bethany">
+    <img src="TheChosenImg/MaryOfBethany.png" alt="Mary of Bethany">
+    <div>Mary of Bethany</div>
+  </a>
+
+  <a class="char-thumbnail" href="#ramah">
+    <img src="TheChosenImg/Ramah.png" alt="Ramah">
+    <div>Ramah</div>
+  </a>
+
+  <a class="char-thumbnail" href="#tamar">
+    <img src="TheChosenImg/Tamar.png" alt="Tamar">
+    <div>Tamar</div>
+  </a>
+
 </div>
+
+?? more
+
+---
+
+<!-- CHARACTER -->
 
 ### Jesus
 
@@ -683,17 +729,16 @@ character, then click to explore their story and role in the series.
     <div class="char-info-desc">
       <p>
         Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Jesus" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
 </div>
 
+---
 
 ### The Twelve Apostles
 
@@ -718,12 +763,10 @@ character, then click to explore their story and role in the series.
         of Dasha, and a former fishing partner of Zebedee and his
         sons.  Alongside the two brothers, Big James and John, Simon
         Peter is a part of Jesus's inner circle.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Simon_Peter" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -753,12 +796,10 @@ character, then click to explore their story and role in the series.
         Baptizer, a friend of Philip from his hometown, Bethsaida, and
         a former fishing partner of Zebedee and his sons. Alongside
         Philip, he is a former comrade of Avner and Nadab.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Andrew" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -796,12 +837,10 @@ character, then click to explore their story and role in the series.
         nicknames him and his brother, John, the "sons of
         thunder". Alongside Simon Peter and John, Big James is a part
         of Jesus's inner circle.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Big_James" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -831,12 +870,10 @@ character, then click to explore their story and role in the series.
         partner of Simon Peter and Andrew. Jesus nicknames him and his
         brother, Big James, the "sons of thunder". Alongside Simon
         Peter and Big James, John is a part of Jesus's inner circle.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/John_the_Apostle" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -870,12 +907,10 @@ character, then click to explore their story and role in the series.
         his hometown, Bethsaida, and an old friend of
         Nathanael. Alongside Andrew, he is a former comrade of Avner and
         Nadab.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Philip" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -903,12 +938,10 @@ character, then click to explore their story and role in the series.
         Nathanael, also known as Bartholomew, is a former architect in
         Caesarea Philippi from Cana and one of the Twelve Apostles of
         Jesus. He is the son of Talmai and an old friend of Philip.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Nathanael" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -936,12 +969,10 @@ character, then click to explore their story and role in the series.
         Thomas, also known as Didymus, is a former caterer from the
         Plains of Sharon, the partner of Ramah, and one of the Twelve
         Apostles of Jesus.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Thomas" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -970,12 +1001,10 @@ character, then click to explore their story and role in the series.
         Capernaum and one of the Twelve Apostles of Jesus. He is the
         son of Alphaeus and the former publican of Simon Peter and
         Andrew.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Matthew_the_Apostle" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -1003,12 +1032,10 @@ character, then click to explore their story and role in the series.
         James, nicknamed Little James, is a former prospective member
         of the 288 Jerusalem Temple choir and one of the Twelve
         Apostles of Jesus. He is the son of Alphaeus.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Little_James" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -1036,12 +1063,10 @@ character, then click to explore their story and role in the series.
         Thaddaeus, also known as Judas and Lebbaeus, is a former
         stonemason in Bethsaida and one of the Twelve Apostles of
         Jesus.  He is the son of James.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Thaddaeus" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -1070,12 +1095,10 @@ character, then click to explore their story and role in the series.
         Ashkelon and one of the Twelve Apostles of Jesus. He is the
         brother of Jesse, the healed paralytic at the Pool of
         Bethesda.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Simon_Z." target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -1103,12 +1126,92 @@ character, then click to explore their story and role in the series.
         Judas Iscariot, also known as Judas, is a former business
         apprentice from Kerioth, who is the treasurer and one of the
         Twelve Apostles of Jesus. He is the son of Simon Iscariot.
-      </p>
-      <p>
         <a href="https://the-chosen.fandom.com/wiki/Judas_Iscariot" target="_blank">... more</a>
       </p>
       <p>
-        ... back to <a href="#characters">Characters</a>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+---
+
+### The Women In Jesus's Ministry
+
+<!-- CHARACTER -->
+
+#### Mary Magdalene
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/MaryMagdalene.png" alt="Elizabeth Tabish">
+      <div class="char-actor-caption">Elizabeth Tabish</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Mary Magdalene</div>
+    <div class="char-info-desc">
+      <p>
+        Mary Magdalene is a redeemed formerly demon-possessed woman from Magdala and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Mary_Magdalene" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Joanna
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Joanna.png" alt="Amy Bailey">
+      <div class="char-actor-caption">Amy Bailey</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Joanna</div>
+    <div class="char-info-desc">
+      <p>
+        Joanna is the wife of the household manager Chuza, a woman who works in King Herod Antipas's court in Machaerus, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Joanna" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Salome
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Salome.png" alt="Nina Rose Leon">
+      <div class="char-actor-caption">Nina Rose Leon</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Salome</div>
+    <div class="char-info-desc">
+      <p>
+        Salome is the wife of Zebedee, the mother of Big James and John, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Salome_(Mother_of_the_Sons_of_Zebedee)" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
       </p>
     </div>
   </div>
@@ -1116,25 +1219,163 @@ character, then click to explore their story and role in the series.
 
 
 
-### The Women In Jesus's Ministry
+<!-- CHARACTER -->
 
-... coming soon
+#### Eden
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Eden.png" alt="Lara Silva">
+      <div class="char-actor-caption">Lara Silva</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Eden</div>
+    <div class="char-info-desc">
+      <p>
+        Eden is the wife of Simon Peter, the daughter of Dasha, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Eden" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Martha
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Martha.png" alt="Sophia Cameron Blum">
+      <div class="char-actor-caption">Sophia Cameron Blum</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Martha</div>
+    <div class="char-info-desc">
+      <p>
+        Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Mary of Bethany
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/MaryOfBethany.png" alt="Catherine Lidstone">
+      <div class="char-actor-caption">Catherine Lidstone</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Mary of Bethany</div>
+    <div class="char-info-desc">
+      <p>
+        Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Mary_of_Bethany" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Ramah
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Ramah.png" alt="Yasmine Al-Bustami">
+      <div class="char-actor-caption">Yasmine Al-Bustami</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Ramah</div>
+    <div class="char-info-desc">
+      <p>
+        Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
+        <a href="https://the-chosen.fandom.com/wiki/Ramah" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Tamar
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Tamar.png" alt="Amber Shana Williams">
+      <div class="char-actor-caption">Amber Shana Williams</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Tamar</div>
+    <div class="char-info-desc">
+      <p>
+        Tamar is an Ethiopian friend of Ethan, the healed paralytic in Capernaum, from Heliopolis, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Tamar" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+---
 
 ### Jesus's Family
 
-... coming soon
+?? MORE
+
+
+---
 
 ### Jesus's Friends
 
 ... coming soon
 
+---
+
 ### Religious Leaders
 
 ... coming soon
 
+---
+
 ### The Romans and Herodians
 
 ... coming soon
+
+---
 
 ### Miracle Recipients
 
