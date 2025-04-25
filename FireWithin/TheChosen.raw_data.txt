@@ -1088,8 +1088,48 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 2.7        The Romans and Herodians
 
+2.7.1  Y   Gaius          ... Gaius is a former high-ranking Roman centurion and a Roman magistrate in Capernaum, the father of his servant named Ivo, and the current Praetor of Galilee. He is the former guard of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gaius
+                              IMAGE: Gaius.png
+                              ACTOR: Kirk B.R. Woller
+2.7.2  Y   Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
+                              MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
+                              IMAGE: PontiusPilate.png
+                              ACTOR: Andrew James Allen
+2.7.3  Y   Herod Antipas  ... Herod Antipas is the tetrarch who serves as the client king of Galilee and Perea. The stepfather of Salome, he is the husband of Queen Herodias, who is his brother's, Philip's, former wife.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herod_Antipas
+                              IMAGE: HerodAntipas.png
+                              ACTOR: Paul Ben-Victor
+2.7.4  Y   Herodias       ... Herodias is the wife of King Herod Antipas and the mother of Salome. She has been formerly married to King Herod Antipas's brother, Philip.  Herodias prompted Salome, her daughter, to request the head of John the Baptist on a platter from King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herodias
+                              IMAGE: Herodias.png
+                              ACTOR: Shereen Khan
+2.7.5  Y   Claudia        ... Claudia is the wife of Pontius Pilate.
+                              MORE:  https://the-chosen.fandom.com/wiki/Claudia
+                              IMAGE: Claudia.png
+                              ACTOR: Sarah J. Bartholomew
+2.7.6  Y   Salome         ... Salome is the daughter of Queen Herodias and the stepdaughter of King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Salome_(Daughter_of_Herodias)
+                              IMAGE: Salome_Daughter_of_Herodias.png
+                              ACTOR: Briar Nolet
+2.7.7  N   Chuza          ... Chuza is the household manager of King Herod Antipas and the husband of Joanna.
+                              MORE:  https://the-chosen.fandom.com/wiki/Chuza
+                              IMAGE: N/A OBSECURE CHARE ... can't find image
+                              ACTOR: Nick Chinlund
+2.7.8  Y   Atticus        ... Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher
+                              IMAGE: Atticus.png
+                              ACTOR: Elijah Alexander
+2.7.9  Y   Quintus        ... Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
+                              MORE:  https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio
+                              IMAGE: Quintus.png
+                              ACTOR: Brandon Potter
+
+
+2.8        Miracle Recipients (and their families)
+
 ?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.7.1  Y?  Gaius
+2.8.1  Y?  The Master of the Banquet
                           ... XXdesc
                               MORE:  XXmore
                               IMAGE: XXimg.png
@@ -1097,23 +1137,6 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 
 
-2.7.2  Y?  Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
-                              MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
-                              IMAGE: PontiusPilate.png
-                              ACTOR: Andrew James Allen
-2.7.3  Y?  Herod Antipas
-2.7.4  Y?  Herodias
-2.7.5  Y?  Claudia        ... Claudia is the wife of Pontius Pilate.
-                              MORE:  https://the-chosen.fandom.com/wiki/Claudia
-                              IMAGE: Claudia.png
-                              ACTOR: Sarah J. Bartholomew
-2.7.6  Y?  Salome
-2.7.7  Y?  Chuza
-2.7.8  Y?  Atticus Aemilius Pulcher
-2.7.9  Y?  Quintus Benedictus Dio
-
-2.8        Miracle Recipients (and their families)
-2.8.1  Y?  The Master of the Banquet
 2.8.2  Y?  The Leper on the Road
 2.8.3  Y?  Ethan
 2.8.4  Y?  Dasha

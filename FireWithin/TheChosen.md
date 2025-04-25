@@ -787,6 +787,46 @@ character, then click to explore their story and role in the series.
     <div>Akiva</div>
   </a>
 
+  <a class="char-thumbnail" href="#gaius">
+    <img src="TheChosenImg/Gaius.png" alt="Gaius">
+    <div>Gaius</div>
+  </a>
+
+  <a class="char-thumbnail" href="#pontius-pilate">
+    <img src="TheChosenImg/PontiusPilate.png" alt="Pontius Pilate">
+    <div>Pontius Pilate</div>
+  </a>
+
+  <a class="char-thumbnail" href="#herod-antipas">
+    <img src="TheChosenImg/HerodAntipas.png" alt="Herod Antipas">
+    <div>Herod Antipas</div>
+  </a>
+
+  <a class="char-thumbnail" href="#herodias">
+    <img src="TheChosenImg/Herodias.png" alt="Herodias">
+    <div>Herodias</div>
+  </a>
+
+  <a class="char-thumbnail" href="#claudia">
+    <img src="TheChosenImg/Claudia.png" alt="Claudia">
+    <div>Claudia</div>
+  </a>
+
+  <a class="char-thumbnail" href="#salome-daughter-of-herodias">
+    <img src="TheChosenImg/Salome_Daughter_of_Herodias.png" alt="Salome (Daughter of Herodias)">
+    <div>Salome</div>
+  </a>
+
+  <a class="char-thumbnail" href="#atticus">
+    <img src="TheChosenImg/Atticus.png" alt="Atticus">
+    <div>Atticus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#quintus">
+    <img src="TheChosenImg/Quintus.png" alt="Quintus">
+    <div>Quintus</div>
+  </a>
+
 </div>
 
 ?? more
@@ -1860,17 +1900,222 @@ character, then click to explore their story and role in the series.
 </div>
 
 
-?? MORE
-
-
 ---
 
 ### The Romans and Herodians
 
-... coming soon
+
+<!-- CHARACTER -->
+
+#### Gaius
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Gaius.png" alt="Kirk B.R. Woller">
+      <div class="char-actor-caption">Kirk B.R. Woller</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Gaius</div>
+    <div class="char-info-desc">
+      <p>
+        Gaius is a former high-ranking Roman centurion and a Roman magistrate in Capernaum, the father of his servant named Ivo, and the current Praetor of Galilee. He is the former guard of Matthew.
+        <a href="https://the-chosen.fandom.com/wiki/Gaius" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Pontius Pilate
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/PontiusPilate.png" alt="Andrew James Allen">
+      <div class="char-actor-caption">Andrew James Allen</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Pontius Pilate</div>
+    <div class="char-info-desc">
+      <p>
+        Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
+        <a href="https://the-chosen.fandom.com/wiki/Pontius_Pilate" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Herod Antipas
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/HerodAntipas.png" alt="Paul Ben-Victor">
+      <div class="char-actor-caption">Paul Ben-Victor</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Herod Antipas</div>
+    <div class="char-info-desc">
+      <p>
+        Herod Antipas is the tetrarch who serves as the client king of Galilee and Perea. The stepfather of Salome, he is the husband of Queen Herodias, who is his brother's, Philip's, former wife.
+        <a href="https://the-chosen.fandom.com/wiki/Herod_Antipas" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Herodias
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Herodias.png" alt="Shereen Khan">
+      <div class="char-actor-caption">Shereen Khan</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Herodias</div>
+    <div class="char-info-desc">
+      <p>
+        Herodias is the wife of King Herod Antipas and the mother of Salome. She has been formerly married to King Herod Antipas's brother, Philip.  Herodias prompted Salome, her daughter, to request the head of John the Baptist on a platter from King Herod Antipas.
+        <a href="https://the-chosen.fandom.com/wiki/Herodias" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Claudia
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Claudia.png" alt="Sarah J. Bartholomew">
+      <div class="char-actor-caption">Sarah J. Bartholomew</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Claudia</div>
+    <div class="char-info-desc">
+      <p>
+        Claudia is the wife of Pontius Pilate.
+        <a href="https://the-chosen.fandom.com/wiki/Claudia" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Salome (Daughter of Herodias)
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Salome_Daughter_of_Herodias.png" alt="Briar Nolet">
+      <div class="char-actor-caption">Briar Nolet</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Salome (Daughter of Herodias)</div>
+    <div class="char-info-desc">
+      <p>
+        Salome is the daughter of Queen Herodias and the stepdaughter of King Herod Antipas.
+        <a href="https://the-chosen.fandom.com/wiki/Salome_(Daughter_of_Herodias)" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Atticus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Atticus.png" alt="Elijah Alexander">
+      <div class="char-actor-caption">Elijah Alexander</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Atticus</div>
+    <div class="char-info-desc">
+      <p>
+        Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Quintus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Quintus.png" alt="Brandon Potter">
+      <div class="char-actor-caption">Brandon Potter</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Quintus</div>
+    <div class="char-info-desc">
+      <p>
+        Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
+        <a href="https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 
 ---
 
 ### Miracle Recipients
 
-... coming soon
+
+?? MORE
