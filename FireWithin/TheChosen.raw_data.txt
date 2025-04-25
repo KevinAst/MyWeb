@@ -1114,7 +1114,7 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
                               ACTOR: Briar Nolet
 2.7.7  N   Chuza          ... Chuza is the household manager of King Herod Antipas and the husband of Joanna.
                               MORE:  https://the-chosen.fandom.com/wiki/Chuza
-                              IMAGE: N/A OBSECURE CHARE ... can't find image
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
                               ACTOR: Nick Chinlund
 2.7.8  Y   Atticus        ... Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
                               MORE:  https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher
@@ -1128,33 +1128,70 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 2.8        Miracle Recipients (and their families)
 
-?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.8.1  Y?  The Master of the Banquet
-                          ... XXdesc
-                              MORE:  XXmore
-                              IMAGE: XXimg.png
-                              ACTOR: XXactor
-
-
-
-2.8.2  Y?  The Leper on the Road
-2.8.3  Y?  Ethan
-2.8.4  Y?  Dasha
-2.8.5  Y?  Jesse
-2.8.6  Y?  Caleb / Belial
-2.8.7  Y?  Elam
-2.8.8  Y?  Veronica
-2.8.9  Y?  Nili
-2.8.10 Y?  Michal
-2.8.11 Y?  Argo
-2.8.12 Y?  Telemachus
-2.8.13 Y?  Uzziah
-2.8.14 Y?  Father of Uzziah
-2.8.15 Y?  Mother of Uzziah
-2.8.16 Y?  The Blind Beggar
-2.8.17 Y?  Ivo
-
-           ?? STOP HERE
+2.8.1  N   The Master of the Banquet
+                          ... The Master of the Banquet is the host of the wedding in Cana, where Jesus turns water into wine.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Master_of_the_Banquet
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Phil Mendoza
+2.8.2  N  The Leper on the Road
+                          ... The Leper on the Road is a miracle recipient of Jesus on the way to Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Leper_on_the_Road
+                              IMAGE: N/A OBSECURE CHAR ... https://media.tenor.com/athzC9H583oAAAAe/the-chosen-leper.png
+                              ACTOR: Stephen Hailo
+2.8.3  Y   Ethan          ... Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ethan
+                              IMAGE: Ethan.png
+                              ACTOR: Noe de la Garza
+2.8.4  Y   Dasha          ... Dasha is the mother-in-law of Simon Peter and the mother of Eden.
+                              MORE:  https://the-chosen.fandom.com/wiki/Dasha
+                              IMAGE: Dasha.png
+                              ACTOR: Leticia Magana
+2.8.5  Y   Jesse          ... Jesse is a former paralytic from Ashkelon, who is healed by Jesus at the Pool of Bethesda. He is the brother of Simon Z.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesse
+                              IMAGE: Jesse.png
+                              ACTOR: Dennis Apergis
+2.8.6  N   Caleb / Belial ... Belial is the spawn of Oriax and the Fifth Knight of Legion. He is the demon who has formerly possesed Caleb.
+                              MORE:  https://the-chosen.fandom.com/wiki/Caleb/Belial
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Anthony Michael Irizarr
+2.8.7  N   Elam           ... Elam is a synagogue congregant in Wadi Kelt, who formerly has a withered hand and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elam
+                              IMAGE: N/A OBSECURE CHAR ... https://static1.personalitydatabase.net/2/pdb-images-prod/d164f0c9/profile_images/79cffd1e5c0c4205b94cb55c2b5a007a.png
+                              ACTOR: Shaun Bedgood
+2.8.8  Y   Veronica       ... Veronica is a woman from Caesarea Philippi, who has formerly suffered from a discharge of blood for twelve years and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Veronica
+                              IMAGE: Veronica.png
+                              ACTOR: Zhaleh Vossough
+2.8.9  N   Nili           ... Nili is the daughter of Jairus and Michal.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nili
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ella McCain
+2.8.10 N   Michal         ... Michal is the wife of Jairus and the mother of Nili.
+                              MORE:  https://the-chosen.fandom.com/wiki/Michal
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Mel Mehrabian
+2.8.11 M   Argo           ... Argo is a Gentile former deaf-mute from Abila in the Decapolis, who is healed by Jesus. He is the father of Telemachus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Argo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Greg Roman
+2.8.12 N   Telemachus     ... Telemachus is a boy from Abila in the Decapolis, who offers five loaves of bread and two fishes. He is the son of Argo.
+                              MORE:  https://the-chosen.fandom.com/wiki/Telemachus
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BNmZmMTI3NmUtODJjZC00Y2UzLWJlNzAtODE0M2Q4NWQ5NjFhXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Kace Winfield
+2.8.13 N   Uzziah         ... Uzziah is a former man born blind in Capernaum, who is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Uzziah
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ryan Radis
+2.8.14 N   Father of Uzziah
+2.8.15 N   Mother of Uzziah
+2.8.16 N   The Blind Beggar.. The Blind Beggar is a miracle recipient of Jesus on the road in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Blind_Beggar
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Andrew Flagg
+2.8.17 N   Ivo            ... Ivo is the servant son of Gaius.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ivo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Malachi Grayson
 
 2.9        Old Testament Figures
 2.9.1      Jacob
@@ -1169,9 +1206,22 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 2.9.10     Abigail
 2.9.11     Daniel
 
+????????
+
 2.10       The Early Church
 2.10.1     Tychicus
 2.10.2     Luke
+
+
+
+           ?? STOP HERE
+
+?? NEW                        ??$$ GOOGLE "The Chosen" xxx
+                          ... XXdesc
+                              MORE:  XXmore
+                              IMAGE: XXimg.png
+                              ACTOR: XXactor
+
 
 2.11       The Shepherds
 2.11.1     Simon the Shepherd

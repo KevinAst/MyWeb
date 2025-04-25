@@ -827,6 +827,26 @@ character, then click to explore their story and role in the series.
     <div>Quintus</div>
   </a>
 
+  <a class="char-thumbnail" href="#ethan">
+    <img src="TheChosenImg/Ethan.png" alt="Ethan">
+    <div>Ethan</div>
+  </a>
+
+  <a class="char-thumbnail" href="#dasha">
+    <img src="TheChosenImg/Dasha.png" alt="Dasha">
+    <div>Dasha</div>
+  </a>
+
+  <a class="char-thumbnail" href="#jesse">
+    <img src="TheChosenImg/Jesse.png" alt="Jesse">
+    <div>Jesse</div>
+  </a>
+
+  <a class="char-thumbnail" href="#veronica">
+    <img src="TheChosenImg/Veronica.png" alt="Veronica">
+    <div>Veronica</div>
+  </a>
+
 </div>
 
 ?? more
@@ -2116,6 +2136,110 @@ character, then click to explore their story and role in the series.
 ---
 
 ### Miracle Recipients
+
+
+<!-- CHARACTER -->
+
+#### Ethan
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Ethan.png" alt="Noe de la Garza">
+      <div class="char-actor-caption">Noe de la Garza</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Ethan</div>
+    <div class="char-info-desc">
+      <p>
+        Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
+        <a href="https://the-chosen.fandom.com/wiki/Ethan" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Dasha
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Dasha.png" alt="Leticia Magana">
+      <div class="char-actor-caption">Leticia Magana</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Dasha</div>
+    <div class="char-info-desc">
+      <p>
+        Dasha is the mother-in-law of Simon Peter and the mother of Eden.
+        <a href="https://the-chosen.fandom.com/wiki/Dasha" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Jesse
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Jesse.png" alt="Dennis Apergis">
+      <div class="char-actor-caption">Dennis Apergis</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Jesse</div>
+    <div class="char-info-desc">
+      <p>
+        Jesse is a former paralytic from Ashkelon, who is healed by Jesus at the Pool of Bethesda. He is the brother of Simon Z.
+        <a href="https://the-chosen.fandom.com/wiki/Jesse" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Veronica
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Veronica.png" alt="Zhaleh Vossough">
+      <div class="char-actor-caption">Zhaleh Vossough</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Veronica</div>
+    <div class="char-info-desc">
+      <p>
+        Veronica is a woman from Caesarea Philippi, who has formerly suffered from a discharge of blood for twelve years and is healed by Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Veronica" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
 
 
 ?? MORE
