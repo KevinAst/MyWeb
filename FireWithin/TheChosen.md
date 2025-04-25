@@ -707,6 +707,31 @@ character, then click to explore their story and role in the series.
     <div>Tamar</div>
   </a>
 
+  <a class="char-thumbnail" href="#mary-of-nazareth">
+    <img src="TheChosenImg/MaryOfNazareth.png" alt="Mary of Nazareth">
+    <div>Mary of Nazareth</div>
+  </a>
+
+  <a class="char-thumbnail" href="#joseph">
+    <img src="TheChosenImg/Joseph.png" alt="Joseph">
+    <div>Joseph</div>
+  </a>
+
+  <a class="char-thumbnail" href="#john-the-baptizer">
+    <img src="TheChosenImg/JohnTheBaptizer.png" alt="John the Baptizer">
+    <div>John the Baptizer</div>
+  </a>
+
+  <a class="char-thumbnail" href="#elizabeth">
+    <img src="TheChosenImg/Elizabeth.png" alt="Elizabeth">
+    <div>Elizabeth</div>
+  </a>
+
+  <a class="char-thumbnail" href="#zechariah-father-of-john-the-baptizer">
+    <img src="TheChosenImg/Zechariah_fatherOfJTB.png" alt="Zechariah (Father of John the Baptizer)">
+    <div>Zechariah (JTB Dad)</div>
+  </a>
+
 </div>
 
 ?? more
@@ -1353,6 +1378,137 @@ character, then click to explore their story and role in the series.
 ---
 
 ### Jesus's Family
+
+
+<!-- CHARACTER -->
+
+#### Mary of Nazareth
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/MaryOfNazareth.png" alt="Vanessa Benavente">
+      <div class="char-actor-caption">Vanessa Benavente</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Mary of Nazareth</div>
+    <div class="char-info-desc">
+      <p>
+        Mary is the earthly mother of Jesus, the widowed wife of Joseph, the daughter of Joachim of Nazareth, and one of the women helping Jesus's ministry. She is a relative of the couple, Elizabeth and Zechariah, and the aunt of John the Baptizer.
+        <a href="https://the-chosen.fandom.com/wiki/Mary_of_Nazareth" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Joseph
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Joseph.png" alt="Raj Bond">
+      <div class="char-actor-caption">Raj Bond</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Joseph</div>
+    <div class="char-info-desc">
+      <p>
+        Joseph is a carpenter from Nazareth, the husband of Mary, and the earthly father of Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Joseph" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### John the Baptizer
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/JohnTheBaptizer.png" alt="David Amito">
+      <div class="char-actor-caption">David Amito</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">John the Baptizer</div>
+    <div class="char-info-desc">
+      <p>
+        John, also known as John the Baptizer, is a rabbi, a wandering preacher in the wilderness who baptizes in the Jordan River, and the deceased cousin of Jesus. He is the son of Elizabeth and Zechariah, and a nephew of Mary. He is the former rabbi of Andrew and Philip and the rabbi of Avner and Nadab.
+        <a href="https://the-chosen.fandom.com/wiki/John_the_Baptizer" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Elizabeth
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Elizabeth.png" alt="K Callan">
+      <div class="char-actor-caption">K Callan</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Elizabeth</div>
+    <div class="char-info-desc">
+      <p>
+        Elizabeth is the wife of Zechariah, the mother of John the Baptizer, and a relative of Mary and Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Elizabeth" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Zechariah (Father of John the Baptizer)
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Zechariah_fatherOfJTB.png" alt="Tony Amendola">
+      <div class="char-actor-caption">Tony Amendola</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Zechariah (Father of John the Baptizer)</div>
+    <div class="char-info-desc">
+      <p>
+        Zechariah is a priest in Jerusalem, the husband of Elizabeth, and the father of John the Baptizer.
+        <a href="https://the-chosen.fandom.com/wiki/Zechariah_(Father_of_John_the_Baptizer)" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 
 ?? MORE
 

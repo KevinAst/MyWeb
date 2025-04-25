@@ -969,20 +969,36 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 2.4        Jesus's Family
 
+2.4.1  Y   Mary of Nazareth   ... Mary is the earthly mother of Jesus, the widowed wife of Joseph, the daughter of Joachim of Nazareth, and one of the women helping Jesus's ministry. She is a relative of the couple, Elizabeth and Zechariah, and the aunt of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_of_Nazareth
+                              IMAGE: MaryOfNazareth.png
+                              ACTOR: Vanessa Benavente
+2.4.2  Y    Joseph        ... Joseph is a carpenter from Nazareth, the husband of Mary, and the earthly father of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph
+                              IMAGE: Joseph.png
+                              ACTOR: Raj Bond
+2.4.3  Y   John the Baptizer ... John, also known as John the Baptizer, is a rabbi, a wandering preacher in the wilderness who baptizes in the Jordan River, and the deceased cousin of Jesus. He is the son of Elizabeth and Zechariah, and a nephew of Mary. He is the former rabbi of Andrew and Philip and the rabbi of Avner and Nadab.
+                                 MORE:  https://the-chosen.fandom.com/wiki/John_the_Baptizer
+                                 IMAGE: JohnTheBaptizer.png
+                                 ACTOR: David Amito
+2.4.4  Y   Elizabeth      ... Elizabeth is the wife of Zechariah, the mother of John the Baptizer, and a relative of Mary and Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elizabeth
+                              IMAGE: Elizabeth.png
+                              ACTOR: K Callan
+2.4.5  Y   Zechariah      ... Zechariah is a priest in Jerusalem, the husband of Elizabeth, and the father of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zechariah_(Father_of_John_the_Baptizer)
+                              IMAGE: Zechariah_fatherOfJTB.png
+                              ACTOR: Tony Amendola
+
+2.5        Jesus's Friends, Acquaintances, and Other Followers
+
 ?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.4.1  Y?  Mary
+2.5.1  Y?  Zebedee
                           ... XXdesc
                               MORE:  XXmore
                               IMAGE: XXimg.png
                               ACTOR: XXactor
 
-2.4.2      Joseph
-2.4.3  Y?  John the Baptizer
-2.4.4  Y?  Elizabeth
-2.4.5  Y?  Zechariah
-
-2.5        Jesus's Friends, Acquaintances, and Other Followers
-2.5.1  Y?  Zebedee
 2.5.2  Y?  Lazarus
 2.5.3  Y?  Photina
 2.5.4  Y?  Alphaeus
