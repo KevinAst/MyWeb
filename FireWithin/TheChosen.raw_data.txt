@@ -1025,38 +1025,78 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 
 2.6        Religious Leaders
 
-?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.6.1  Y?  Nicodemus
-                          ... XXdesc
-                              MORE:  XXmore
-                              IMAGE: XXimg.png
-                              ACTOR: XXactor
-
-
-
-?? NEW                        ??$$ GOOGLE "The Chosen" xxx
-2.6.2  Y?  Joseph Ben Caiaphas
-                          ... XXdesc
-                              MORE:  XXmore
-                              IMAGE: XXimg.png
-                              ACTOR: XXactor
-
-2.6.3  Y?  Yussif
-2.6.4  Y?  Jairus
-2.6.5  Y?  Shammai
-2.6.6  Y?  Shimon
-2.6.7  Y?  Shmuel
-2.6.8  Y?  Josiah
-2.6.9  Y?  Yanni
-2.6.10 Y?  Madai
-2.6.11 Y?  Lamech
-2.6.12 Y?  Akiva
-2.6.13 Y?  Ozem
-2.6.14 Y?  Zebadiah
-2.6.15 Y?  Gedera
+2.6.1  Y   Nicodemus      ... Nicodemus is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nicodemus
+                              IMAGE: Nicodemus.png
+                              ACTOR: Erick Avari
+2.6.2  Y   Caiaphas       ... Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas
+                              IMAGE: Caiaphas.png
+                              ACTOR: Richard Fancy
+2.6.3  Y   Yussif         ... Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yussif
+                              IMAGE: Yussif.png
+                              ACTOR: Ivan Jasso
+2.6.4  Y   Jairus         ... Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jairus
+                              IMAGE: Jairus.png
+                              ACTOR: Alessandro Colla
+2.6.5  Y   Shammai        ... Shammai is a leading Pharisee in Jerusalem and both a high-ranking member and the Av Beit Din of the Sanhedrin whose influential house opposes the House of Shimon, son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shammai
+                              IMAGE: Shammai.png
+                              ACTOR: Ric Sarabia
+2.6.6  N   Shimon         ... Shimon is a leading Pharisee in Jerusalem and a high-ranking member of the Sanhedrin whose influential house opposes the House of Shammai. He is the son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shimon
+                              IMAGE: N/A VERY OBSECURE CHAR ...  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzbygnMcXUvbhRWb3EuNplY-r0fq2cliANw&s
+                              ACTOR: Juri Henley-Cohn
+2.6.7  Y   Shmuel         ... Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shmuel
+                              IMAGE: Shmuel.png
+                              ACTOR: Shaan Sharma
+2.6.8  N  Josiah          ... Josiah is a Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Josiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BMjIxZDg0NzYtNjliYy00MGVhLWIzZTgtYzk1ZmQ5NjUwZjcyXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Steve Shermett
+2.6.9  Y   Yanni          ... Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yanni
+                              IMAGE: Yanni.png
+                              ACTOR: Wasim No'mani
+2.6.10 N  Madai           ... Madai is a leading Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Madai
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Tony Sears
+2.6.11 N  Lamech          ... Lamech is a Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lamech
+                              IMAGE: N/A OBSECURE CHAR ... https://www.google.com/imgres?q=%22The%20Chosen%22%20Lamech%20(Sergio%20Lanza)&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BZDZiZWFmMDQtODZhYy00ZGZlLThmYzItYmY5ZTc4ZjcyMjc4XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw%40%40._V1_QL75_UX500_CR0%2C0%2C500%2C281_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm1944774%2F&docid=tDwt6TvPZ0nEUM&tbnid=1g6DRC7wJAdevM&vet=12ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA..i&w=500&h=281&hcb=2&ved=2ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA
+                              ACTOR: Sergio Lanza
+2.6.12 Y  Akiva           ... Akiva is a leading Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Akiva
+                              IMAGE: Akiva.png
+                              ACTOR: Philip Shahbaz
+2.6.13 N  Ozem            ... Ozem is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ozem
+                              IMAGE: N/A OBSECURE CHAR ... https://static.tvtropes.org/pmwiki/pub/images/img_2577.jpeg
+                              ACTOR: Ethan Flower
+2.6.14 N  Zebadiah        ... Zebadiah is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebadiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BM2E0ZWJiMzQtNzhiZS00NDQ0LTljZGUtYWE2NWI0MzNjYzRkXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Brad Culver
+2.6.15 N  Gedera          ... Gedera is a leading Sadducee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gedera
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Liche Ariza
 
 2.7        The Romans and Herodians
+
+?? NEW                        ??$$ GOOGLE "The Chosen" xxx
 2.7.1  Y?  Gaius
+                          ... XXdesc
+                              MORE:  XXmore
+                              IMAGE: XXimg.png
+                              ACTOR: XXactor
+
+
+
 2.7.2  Y?  Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
                               MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
                               IMAGE: PontiusPilate.png

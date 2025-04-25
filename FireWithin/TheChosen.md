@@ -747,6 +747,46 @@ character, then click to explore their story and role in the series.
     <div>Photina</div>
   </a>
 
+  <a class="char-thumbnail" href="#nicodemus">
+    <img src="TheChosenImg/Nicodemus.png" alt="Nicodemus">
+    <div>Nicodemus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#caiaphas">
+    <img src="TheChosenImg/Caiaphas.png" alt="Caiaphas">
+    <div>Caiaphas</div>
+  </a>
+
+  <a class="char-thumbnail" href="#yussif">
+    <img src="TheChosenImg/Yussif.png" alt="Yussif">
+    <div>Yussif</div>
+  </a>
+
+  <a class="char-thumbnail" href="#jairus">
+    <img src="TheChosenImg/Jairus.png" alt="Jairus">
+    <div>Jairus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#shammai">
+    <img src="TheChosenImg/Shammai.png" alt="Shammai">
+    <div>Shammai</div>
+  </a>
+
+  <a class="char-thumbnail" href="#shmuel">
+    <img src="TheChosenImg/Shmuel.png" alt="Shmuel">
+    <div>Shmuel</div>
+  </a>
+
+  <a class="char-thumbnail" href="#yanni">
+    <img src="TheChosenImg/Yanni.png" alt="Yanni">
+    <div>Yanni</div>
+  </a>
+
+  <a class="char-thumbnail" href="#akiva">
+    <img src="TheChosenImg/Akiva.png" alt="Akiva">
+    <div>Akiva</div>
+  </a>
+
 </div>
 
 ?? more
@@ -1607,13 +1647,221 @@ character, then click to explore their story and role in the series.
   </div>
 </div>
 
-?? MORE
 
 ---
 
 ### Religious Leaders
 
-... coming soon
+<!-- CHARACTER -->
+
+#### Nicodemus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Nicodemus.png" alt="Erick Avari">
+      <div class="char-actor-caption">Erick Avari</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Nicodemus</div>
+    <div class="char-info-desc">
+      <p>
+        Nicodemus is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Nicodemus" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Caiaphas
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Caiaphas.png" alt="Richard Fancy">
+      <div class="char-actor-caption">Richard Fancy</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Caiaphas</div>
+    <div class="char-info-desc">
+      <p>
+        Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
+        <a href="https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Yussif
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Yussif.png" alt="Ivan Jasso">
+      <div class="char-actor-caption">Ivan Jasso</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Yussif</div>
+    <div class="char-info-desc">
+      <p>
+        Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Yussif" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Jairus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Jairus.png" alt="Alessandro Colla">
+      <div class="char-actor-caption">Alessandro Colla</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Jairus</div>
+    <div class="char-info-desc">
+      <p>
+        Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Jairus" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Shammai
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Shammai.png" alt="Ric Sarabia">
+      <div class="char-actor-caption">Ric Sarabia</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Shammai</div>
+    <div class="char-info-desc">
+      <p>
+        Shammai is a leading Pharisee in Jerusalem and both a high-ranking member and the Av Beit Din of the Sanhedrin whose influential house opposes the House of Shimon, son of Hillel.
+        <a href="https://the-chosen.fandom.com/wiki/Shammai" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Shmuel
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Shmuel.png" alt="Shaan Sharma">
+      <div class="char-actor-caption">Shaan Sharma</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Shmuel</div>
+    <div class="char-info-desc">
+      <p>
+        Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
+        <a href="https://the-chosen.fandom.com/wiki/Shmuel" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Yanni
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Yanni.png" alt="Wasim No'mani">
+      <div class="char-actor-caption">Wasim No'mani</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Yanni</div>
+    <div class="char-info-desc">
+      <p>
+        Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+        <a href="https://the-chosen.fandom.com/wiki/Yanni" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Akiva
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Akiva.png" alt="Philip Shahbaz">
+      <div class="char-actor-caption">Philip Shahbaz</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Akiva</div>
+    <div class="char-info-desc">
+      <p>
+        Akiva is a leading Pharisee in Capernaum.
+        <a href="https://the-chosen.fandom.com/wiki/Akiva" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+?? MORE
+
 
 ---
 
