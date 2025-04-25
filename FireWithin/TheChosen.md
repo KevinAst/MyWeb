@@ -849,7 +849,6 @@ character, then click to explore their story and role in the series.
 
 </div>
 
-?? more
 
 ---
 
@@ -2240,6 +2239,3 @@ character, then click to explore their story and role in the series.
     </div>
   </div>
 </div>
-
-
-?? MORE

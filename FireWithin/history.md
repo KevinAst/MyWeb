@@ -82,7 +82,10 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? v24.7a: **{{book.TheChosen}}** page was updated to include the initial rendering of **Characters**.
+- **{{book.TheChosen}}** page was updated as follows
+  * a new **Characters** section promotes a **Visual Guide** (v24.7b)
+  * ?? more
+
 
 - ?? more
 

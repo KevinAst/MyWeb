@@ -815,7 +815,7 @@ v  v
 * TEMPLATE
 *----------
 
-> ??$$ stage in temp.temp
+> XX$$ stage in temp.temp
 - replace ALL: <<< CONSIDER creating macro (however complications for desc links, etc.)
   * XXmore
   * XXimg.png
@@ -823,7 +823,7 @@ v  v
   * XXactor
   * XXdesc
   * ALSO: Update the  "Visual Guide" for EACH character
-  <a class="char-thumbnail" href="#XXname??NORMALIXED">
+  <a class="char-thumbnail" href="#XXnameXXNORMALIXED">
     <img src="TheChosenImg/XXimg.png" alt="XXname">
     <div>XXname</div>
   </a>
@@ -1206,17 +1206,19 @@ IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
 2.9.10     Abigail
 2.9.11     Daniel
 
-????????
-
 2.10       The Early Church
-2.10.1     Tychicus
-2.10.2     Luke
+2.10.1 Y?  Tychicus       ... Tychicus is an early Christian as a follower of the Way, who is a companion of Paul.
+                              MORE:  https://the-chosen.fandom.com/wiki/Tychicus
+                              IMAGE: N/A TOO SOON ... https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnO2JVR7-95cb88Jgm6T8iBA0ey5jRBSl--A&s
+                              ACTOR: Alican Barlas
+2.10.2 Y?  Luke           ... Luke is a physician, an early Christian as a follower of the Way, and a companion of Paul, who records an account of the life of Jesus by collecting historical accounts and eyewitnesses stories.
+                              MORE:  https://the-chosen.fandom.com/wiki/Luke
+                              IMAGE: N/A TOO SOON ... can't find images yet
+                              ACTOR: Alex Veadov
 
+           XX STOP HERE
 
-
-           ?? STOP HERE
-
-?? NEW                        ??$$ GOOGLE "The Chosen" xxx
+XX NEW                        XX$$ GOOGLE "The Chosen" xxx
                           ... XXdesc
                               MORE:  XXmore
                               IMAGE: XXimg.png
