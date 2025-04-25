@@ -1,5 +1,9 @@
 ********************************************************************************
+********************************************************************************
+********************************************************************************
 * The Chosen Sleuth YouTube Videos (The Deep Dives)
+********************************************************************************
+********************************************************************************
 ********************************************************************************
 
 *-------------------------------------------------------------------------------
@@ -786,3 +790,441 @@ v  v
 8 Experts Break Down Season 4  1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
                                   https://www.youtube.com/watch?v=DU7wgqVqkJo
   ENTRY:                          `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+* The Chosen Characters
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+- Source (this is hard)
+  - NAH: Season 1, Episode 1, the Slueth has a Deep Dive video of the early charters
+    ... https://www.youtube.com/watch?v=jfHlTrTgc4w
+  - Google: Characters in The Chosen
+    * YES: Brief Description of ALL characters
+      ... https://the-chosen.fandom.com/wiki/Cast_and_Characters
+          https://the-chosen.fandom.com/wiki/Category:Characters      <<< USE THIS
+          https://en.wikipedia.org/wiki/List_of_The_Chosen_characters <<< NO PICS or descriptions
+
+
+
+*----------
+* TEMPLATE
+*----------
+
+> XX$$ stage in temp.temp
+- replace ALL: <<< CONSIDER creating macro (however complications for desc links, etc.)
+  * XXmore
+  * XXimg.png
+  * XXname
+  * XXactor
+  * XXdesc
+  * ALSO: Update the  "Visual Guide" for EACH character
+  <a class="char-thumbnail" href="#XXnameXXNORMALIXED">
+    <img src="TheChosenImg/XXimg.png" alt="XXname">
+    <div>XXname</div>
+  </a>
+
+
+- TEMPLATE:
+
+<!-- CHARACTER -->
+
+#### XXname
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/XXimg.png" alt="XXactor">
+      <div class="char-actor-caption">XXactor</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">XXname</div>
+    <div class="char-info-desc">
+      <p>
+        XXdesc
+        <a href="XXmore" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+*-------------------------
+* SUMMARY (FIRST ATTEMPT)
+*-------------------------
+
+SOURCE:     https://the-chosen.fandom.com/wiki/Category:Characters <<< LINK to this
+IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
+
+1          Cast
+1.1        Main
+1.2        Recurring
+1.3        Guest
+1.4        Special
+
+2          Characters
+2.1    Y   Jesus          ... Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesus
+                              IMAGE: Jesus.png
+                              ACTOR: Jonathan Roumie
+
+2.2        The Twelve Apostles
+2.2.1  Y   Simon Peter    ... Simon Peter was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Jonah, the older brother of Andrew, the husband of Eden, the son-in-law of Dasha, and a former fishing partner of Zebedee and his sons.  Alongside the two brothers, Big James and John, Simon Peter is a part of Jesus's inner circle. 
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Peter
+                              IMAGE: SimonPeter.png
+                              ACTOR: Shahar Isaac
+2.2.2  Y   Andrew         ... Andrew was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Jonah, the younger brother of Simon Peter, a former disciple of John the Baptizer, a friend of Philip from his hometown, Bethsaida, and a former fishing partner of Zebedee and his sons. Alongside Philip, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Andrew
+                              IMAGE: Andrew.png
+                              ACTOR: Noah James
+2.2.3  Y   Big James      ... James, nicknamed Big James, is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Zebedee and Salome, the older brother of John, and a former fishing partner of Simon Peter and Andrew.  Jesus nicknames him and his brother, John, the "sons of thunder". Alongside Simon Peter and John, Big James is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/Big_James
+                              IMAGE: BigJames_S2plus.png
+                              ACTOR: Abe Bueno-Jallad (Season 2+)
+                              IMAGE: BigJames_S1E5-8.png
+                              ACTOR: Kian Kavousi (Season 1 E5-8)
+                              IMAGE: BigJames_S1E1-4.png
+                              ACTOR: Shayan Sobhian (Season 1 E1-4)
+2.2.4  Y   John           ... John is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Zebedee and Salome, the younger brother of Big James, and a former fishing partner of Simon Peter and Andrew. Jesus nicknames him and his brother, Big James, the "sons of thunder". Alongside Simon Peter and Big James, John is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/John_the_Apostle
+                              IMAGE: John.png
+                              ACTOR: George H. Xanthis
+2.2.5  Y   Philip         ... Philip is a former disciple of John the Baptizer and one of the Twelve Apostles of Jesus. He is both a companion of Andrew from his hometown, Bethsaida, and an old friend of Nathanael. Alongside Andrew, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Philip
+                              IMAGE: Philip_S4plus.png
+                              ACTOR: Reza Diako
+                              IMAGE: Philip_S2-3.png
+                              ACTOR: Yoshi Barrigas
+2.2.6  Y   Nathanael      ... Nathanael, also known as Bartholomew, is a former architect in Caesarea Philippi from Cana and one of the Twelve Apostles of Jesus. He is the son of Talmai and an old friend of Philip.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nathanael
+                              IMAGE: Nathanael.png
+                              ACTOR: Austin Reed Alleman
+2.2.7  Y   Thomas         ... Thomas, also known as Didymus, is a former caterer from the Plains of Sharon, the partner of Ramah, and one of the Twelve Apostles of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thomas
+                              IMAGE: Thomas.png
+                              ACTOR: Joey Vahedi
+2.2.8  Y   Matthew        ... Matthew, also known as Levi, is a former tax collector in Capernaum and one of the Twelve Apostles of Jesus. He is the son of Alphaeus and the former publican of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Matthew_the_Apostle
+                              IMAGE: Matthew.png
+                              ACTOR: Paras Patel
+2.2.9  Y   Little James   ... James, nicknamed Little James, is a former prospective member of the 288 Jerusalem Temple choir and one of the Twelve Apostles of Jesus. He is the son of Alphaeus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Little_James
+                              IMAGE: LittleJames.png
+                              ACTOR: Jordan Walker Ross
+2.2.10 Y   Thaddaeus      ... Thaddaeus, also known as Judas and Lebbaeus, is a former stonemason in Bethsaida and one of the Twelve Apostles of Jesus.  He is the son of James.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thaddaeus
+                              IMAGE: Thaddaeus.png
+                              ACTOR: Giavani Cairo
+2.2.11 Y   Simon Z        ... Simon, also known as Simon Z. or Zee, is a former Zealot from Ashkelon and one of the Twelve Apostles of Jesus. He is the brother of Jesse, the healed paralytic at the Pool of Bethesda.
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Z.
+                              IMAGE: SimonZ.png
+                              ACTOR: Alaa Safi
+2.2.12 Y   Judas Iscariot ... Judas Iscariot, also known as Judas, is a former business apprentice from Kerioth, who is the treasurer and one of the Twelve Apostles of Jesus. He is the son of Simon Iscariot.
+                              MORE:  https://the-chosen.fandom.com/wiki/Judas_Iscariot
+                              IMAGE: JudasIscariot.png
+                              ACTOR: Luke Dimyan
+
+
+2.3        The Women In Jesus's Ministry
+2.3.1  Y   Mary Magdalene ... Mary Magdalene is a redeemed formerly demon-possessed woman from Magdala and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_Magdalene
+                              IMAGE: MaryMagdalene.png
+                              ACTOR: Elizabeth Tabish
+2.3.2  Y   Joanna         ... Joanna is the wife of the household manager Chuza, a woman who works in King Herod Antipas's court in Machaerus, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joanna
+                              IMAGE: Joanna.png
+                              ACTOR: Amy Bailey
+2.3.3  Y   Salome         ... Salome is the wife of Zebedee, the mother of Big James and John, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Salome_(Mother_of_the_Sons_of_Zebedee)
+                              IMAGE: Salome.png
+                              ACTOR: Nina Rose Leon
+2.3.4  Y   Eden           ... Eden is the wife of Simon Peter, the daughter of Dasha, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Eden
+                              IMAGE: Eden.png
+                              ACTOR: Lara Silva
+2.3.5  Y   Martha         ... Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Martha
+                              IMAGE: Martha.png
+                              ACTOR: Sophia Cameron Blum
+2.3.6  Y   Mary of Bethany... Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_of_Bethany
+                              IMAGE: MaryOfBethany.png
+                              ACTOR: Catherine Lidstone
+2.3.7  Y   Ramah          ... Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ramah
+                              IMAGE: Ramah.png
+                              ACTOR: Yasmine Al-Bustami
+2.3.8  Y   Tamar          ... Tamar is an Ethiopian friend of Ethan, the healed paralytic in Capernaum, from Heliopolis, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Tamar
+                              IMAGE: Tamar.png
+                              ACTOR: Amber Shana Williams
+
+2.4        Jesus's Family
+
+2.4.1  Y   Mary of Nazareth   ... Mary is the earthly mother of Jesus, the widowed wife of Joseph, the daughter of Joachim of Nazareth, and one of the women helping Jesus's ministry. She is a relative of the couple, Elizabeth and Zechariah, and the aunt of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_of_Nazareth
+                              IMAGE: MaryOfNazareth.png
+                              ACTOR: Vanessa Benavente
+2.4.2  Y    Joseph        ... Joseph is a carpenter from Nazareth, the husband of Mary, and the earthly father of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph
+                              IMAGE: Joseph.png
+                              ACTOR: Raj Bond
+2.4.3  Y   John the Baptizer ... John, also known as John the Baptizer, is a rabbi, a wandering preacher in the wilderness who baptizes in the Jordan River, and the deceased cousin of Jesus. He is the son of Elizabeth and Zechariah, and a nephew of Mary. He is the former rabbi of Andrew and Philip and the rabbi of Avner and Nadab.
+                                 MORE:  https://the-chosen.fandom.com/wiki/John_the_Baptizer
+                                 IMAGE: JohnTheBaptizer.png
+                                 ACTOR: David Amito
+2.4.4  Y   Elizabeth      ... Elizabeth is the wife of Zechariah, the mother of John the Baptizer, and a relative of Mary and Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elizabeth
+                              IMAGE: Elizabeth.png
+                              ACTOR: K Callan
+2.4.5  Y   Zechariah      ... Zechariah is a priest in Jerusalem, the husband of Elizabeth, and the father of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zechariah_(Father_of_John_the_Baptizer)
+                              IMAGE: Zechariah_fatherOfJTB.png
+                              ACTOR: Tony Amendola
+
+2.5        Jesus's Friends, Acquaintances, and Other Followers
+
+2.5.1  Y   Zebedee        ... Zebedee is a former fisherman in Capernaum, the father of Big James and John, the husband of Salome, and a former fishing partner of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebedee
+                              IMAGE: Zebedee.png
+                              ACTOR: Nick Shakoour
+2.5.2  Y   Lazarus        ... Lazarus is a businessman in Bethany, a childhood friend of Jesus, and the brother of Mary and Martha.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lazarus
+                              IMAGE: Lazarus.png
+                              ACTOR: Demetrios Troy
+2.5.3  Y   Photina        ... Photina is a Samaritan woman in Sychar and the wife of Neriah.
+                              MORE:  https://the-chosen.fandom.com/wiki/Photina
+                              IMAGE: Photina.png
+                              ACTOR: Vanessa DeSilvio
+2.5.4  N  Alphaeus        ... Alphaeus is the father of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Alphaeus
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BNTQwN2Y0ZjYtNjZkMS00YzgxLWJlNGEtYmI0YWVlNGNhYWM0XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg
+                              ACTOR: Troy Caylak
+2.5.5  N  Avner           ... Avner is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Nadab, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Avner
+                              IMAGE: N/A ... can't even find this
+                              ACTOR: Ash Kahn
+2.5.6  N  Nadab           ... Nadab is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Avner, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nadab
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BYjUwMWQzNjUtYmIzZC00MTRlLWI5MjQtYTNiODAyYmRjYzgwXkEyXkFqcGc@._V1_QL75_UX291_.jpg
+                              ACTOR: Austen Parros
+2.5.7  N  Leander
+2.5.8  N  Fatiyah
+2.5.9  N  Dion
+2.5.10 N  Zechariah       ... owner of the donkey
+2.5.11 N  Melech
+2.5.12 N  Neriah
+
+2.6        Religious Leaders
+
+2.6.1  Y   Nicodemus      ... Nicodemus is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nicodemus
+                              IMAGE: Nicodemus.png
+                              ACTOR: Erick Avari
+2.6.2  Y   Caiaphas       ... Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas
+                              IMAGE: Caiaphas.png
+                              ACTOR: Richard Fancy
+2.6.3  Y   Yussif         ... Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yussif
+                              IMAGE: Yussif.png
+                              ACTOR: Ivan Jasso
+2.6.4  Y   Jairus         ... Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jairus
+                              IMAGE: Jairus.png
+                              ACTOR: Alessandro Colla
+2.6.5  Y   Shammai        ... Shammai is a leading Pharisee in Jerusalem and both a high-ranking member and the Av Beit Din of the Sanhedrin whose influential house opposes the House of Shimon, son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shammai
+                              IMAGE: Shammai.png
+                              ACTOR: Ric Sarabia
+2.6.6  N   Shimon         ... Shimon is a leading Pharisee in Jerusalem and a high-ranking member of the Sanhedrin whose influential house opposes the House of Shammai. He is the son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shimon
+                              IMAGE: N/A VERY OBSECURE CHAR ...  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzbygnMcXUvbhRWb3EuNplY-r0fq2cliANw&s
+                              ACTOR: Juri Henley-Cohn
+2.6.7  Y   Shmuel         ... Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shmuel
+                              IMAGE: Shmuel.png
+                              ACTOR: Shaan Sharma
+2.6.8  N  Josiah          ... Josiah is a Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Josiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BMjIxZDg0NzYtNjliYy00MGVhLWIzZTgtYzk1ZmQ5NjUwZjcyXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Steve Shermett
+2.6.9  Y   Yanni          ... Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yanni
+                              IMAGE: Yanni.png
+                              ACTOR: Wasim No'mani
+2.6.10 N  Madai           ... Madai is a leading Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Madai
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Tony Sears
+2.6.11 N  Lamech          ... Lamech is a Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lamech
+                              IMAGE: N/A OBSECURE CHAR ... https://www.google.com/imgres?q=%22The%20Chosen%22%20Lamech%20(Sergio%20Lanza)&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BZDZiZWFmMDQtODZhYy00ZGZlLThmYzItYmY5ZTc4ZjcyMjc4XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw%40%40._V1_QL75_UX500_CR0%2C0%2C500%2C281_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm1944774%2F&docid=tDwt6TvPZ0nEUM&tbnid=1g6DRC7wJAdevM&vet=12ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA..i&w=500&h=281&hcb=2&ved=2ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA
+                              ACTOR: Sergio Lanza
+2.6.12 Y  Akiva           ... Akiva is a leading Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Akiva
+                              IMAGE: Akiva.png
+                              ACTOR: Philip Shahbaz
+2.6.13 N  Ozem            ... Ozem is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ozem
+                              IMAGE: N/A OBSECURE CHAR ... https://static.tvtropes.org/pmwiki/pub/images/img_2577.jpeg
+                              ACTOR: Ethan Flower
+2.6.14 N  Zebadiah        ... Zebadiah is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebadiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BM2E0ZWJiMzQtNzhiZS00NDQ0LTljZGUtYWE2NWI0MzNjYzRkXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Brad Culver
+2.6.15 N  Gedera          ... Gedera is a leading Sadducee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gedera
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Liche Ariza
+
+2.7        The Romans and Herodians
+
+2.7.1  Y   Gaius          ... Gaius is a former high-ranking Roman centurion and a Roman magistrate in Capernaum, the father of his servant named Ivo, and the current Praetor of Galilee. He is the former guard of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gaius
+                              IMAGE: Gaius.png
+                              ACTOR: Kirk B.R. Woller
+2.7.2  Y   Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
+                              MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
+                              IMAGE: PontiusPilate.png
+                              ACTOR: Andrew James Allen
+2.7.3  Y   Herod Antipas  ... Herod Antipas is the tetrarch who serves as the client king of Galilee and Perea. The stepfather of Salome, he is the husband of Queen Herodias, who is his brother's, Philip's, former wife.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herod_Antipas
+                              IMAGE: HerodAntipas.png
+                              ACTOR: Paul Ben-Victor
+2.7.4  Y   Herodias       ... Herodias is the wife of King Herod Antipas and the mother of Salome. She has been formerly married to King Herod Antipas's brother, Philip.  Herodias prompted Salome, her daughter, to request the head of John the Baptist on a platter from King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herodias
+                              IMAGE: Herodias.png
+                              ACTOR: Shereen Khan
+2.7.5  Y   Claudia        ... Claudia is the wife of Pontius Pilate.
+                              MORE:  https://the-chosen.fandom.com/wiki/Claudia
+                              IMAGE: Claudia.png
+                              ACTOR: Sarah J. Bartholomew
+2.7.6  Y   Salome         ... Salome is the daughter of Queen Herodias and the stepdaughter of King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Salome_(Daughter_of_Herodias)
+                              IMAGE: Salome_Daughter_of_Herodias.png
+                              ACTOR: Briar Nolet
+2.7.7  N   Chuza          ... Chuza is the household manager of King Herod Antipas and the husband of Joanna.
+                              MORE:  https://the-chosen.fandom.com/wiki/Chuza
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Nick Chinlund
+2.7.8  Y   Atticus        ... Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher
+                              IMAGE: Atticus.png
+                              ACTOR: Elijah Alexander
+2.7.9  Y   Quintus        ... Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
+                              MORE:  https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio
+                              IMAGE: Quintus.png
+                              ACTOR: Brandon Potter
+
+
+2.8        Miracle Recipients (and their families)
+
+2.8.1  N   The Master of the Banquet
+                          ... The Master of the Banquet is the host of the wedding in Cana, where Jesus turns water into wine.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Master_of_the_Banquet
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Phil Mendoza
+2.8.2  N  The Leper on the Road
+                          ... The Leper on the Road is a miracle recipient of Jesus on the way to Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Leper_on_the_Road
+                              IMAGE: N/A OBSECURE CHAR ... https://media.tenor.com/athzC9H583oAAAAe/the-chosen-leper.png
+                              ACTOR: Stephen Hailo
+2.8.3  Y   Ethan          ... Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ethan
+                              IMAGE: Ethan.png
+                              ACTOR: Noe de la Garza
+2.8.4  Y   Dasha          ... Dasha is the mother-in-law of Simon Peter and the mother of Eden.
+                              MORE:  https://the-chosen.fandom.com/wiki/Dasha
+                              IMAGE: Dasha.png
+                              ACTOR: Leticia Magana
+2.8.5  Y   Jesse          ... Jesse is a former paralytic from Ashkelon, who is healed by Jesus at the Pool of Bethesda. He is the brother of Simon Z.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesse
+                              IMAGE: Jesse.png
+                              ACTOR: Dennis Apergis
+2.8.6  N   Caleb / Belial ... Belial is the spawn of Oriax and the Fifth Knight of Legion. He is the demon who has formerly possesed Caleb.
+                              MORE:  https://the-chosen.fandom.com/wiki/Caleb/Belial
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Anthony Michael Irizarr
+2.8.7  N   Elam           ... Elam is a synagogue congregant in Wadi Kelt, who formerly has a withered hand and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elam
+                              IMAGE: N/A OBSECURE CHAR ... https://static1.personalitydatabase.net/2/pdb-images-prod/d164f0c9/profile_images/79cffd1e5c0c4205b94cb55c2b5a007a.png
+                              ACTOR: Shaun Bedgood
+2.8.8  Y   Veronica       ... Veronica is a woman from Caesarea Philippi, who has formerly suffered from a discharge of blood for twelve years and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Veronica
+                              IMAGE: Veronica.png
+                              ACTOR: Zhaleh Vossough
+2.8.9  N   Nili           ... Nili is the daughter of Jairus and Michal.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nili
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ella McCain
+2.8.10 N   Michal         ... Michal is the wife of Jairus and the mother of Nili.
+                              MORE:  https://the-chosen.fandom.com/wiki/Michal
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Mel Mehrabian
+2.8.11 M   Argo           ... Argo is a Gentile former deaf-mute from Abila in the Decapolis, who is healed by Jesus. He is the father of Telemachus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Argo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Greg Roman
+2.8.12 N   Telemachus     ... Telemachus is a boy from Abila in the Decapolis, who offers five loaves of bread and two fishes. He is the son of Argo.
+                              MORE:  https://the-chosen.fandom.com/wiki/Telemachus
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BNmZmMTI3NmUtODJjZC00Y2UzLWJlNzAtODE0M2Q4NWQ5NjFhXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Kace Winfield
+2.8.13 N   Uzziah         ... Uzziah is a former man born blind in Capernaum, who is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Uzziah
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ryan Radis
+2.8.14 N   Father of Uzziah
+2.8.15 N   Mother of Uzziah
+2.8.16 N   The Blind Beggar.. The Blind Beggar is a miracle recipient of Jesus on the road in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Blind_Beggar
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Andrew Flagg
+2.8.17 N   Ivo            ... Ivo is the servant son of Gaius.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ivo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Malachi Grayson
+
+2.9        Old Testament Figures
+2.9.1      Jacob
+2.9.2      Moses
+2.9.3      Joshua
+2.9.4      David
+2.9.5      Ahimelech
+2.9.6      Abiathar
+2.9.7      Asaph
+2.9.8      Bathsheba
+2.9.9      Jeduthun
+2.9.10     Abigail
+2.9.11     Daniel
+
+2.10       The Early Church
+2.10.1 Y?  Tychicus       ... Tychicus is an early Christian as a follower of the Way, who is a companion of Paul.
+                              MORE:  https://the-chosen.fandom.com/wiki/Tychicus
+                              IMAGE: N/A TOO SOON ... https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnO2JVR7-95cb88Jgm6T8iBA0ey5jRBSl--A&s
+                              ACTOR: Alican Barlas
+2.10.2 Y?  Luke           ... Luke is a physician, an early Christian as a follower of the Way, and a companion of Paul, who records an account of the life of Jesus by collecting historical accounts and eyewitnesses stories.
+                              MORE:  https://the-chosen.fandom.com/wiki/Luke
+                              IMAGE: N/A TOO SOON ... can't find images yet
+                              ACTOR: Alex Veadov
+
+           XX STOP HERE
+
+XX NEW                        XX$$ GOOGLE "The Chosen" xxx
+                          ... XXdesc
+                              MORE:  XXmore
+                              IMAGE: XXimg.png
+                              ACTOR: XXactor
+
+
+2.11       The Shepherds
+2.11.1     Simon the Shepherd
+2.11.2     Matthew the Shepherd
