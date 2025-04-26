@@ -673,6 +673,21 @@ about, and click to learn more about their role in the series.
     <div>Mary Magdalene</div>
   </a>
 
+  <a class="char-thumbnail" href="#tamar">
+    <img src="TheChosenImg/Tamar.png" alt="Tamar">
+    <div>Tamar</div>
+  </a>
+
+  <a class="char-thumbnail" href="#ramah">
+    <img src="TheChosenImg/Ramah.png" alt="Ramah">
+    <div>Ramah</div>
+  </a>
+
+  <a class="char-thumbnail" href="#eden">
+    <img src="TheChosenImg/Eden.png" alt="Eden">
+    <div>Eden</div>
+  </a>
+
   <a class="char-thumbnail" href="#joanna">
     <img src="TheChosenImg/Joanna.png" alt="Joanna">
     <div>Joanna</div>
@@ -681,31 +696,6 @@ about, and click to learn more about their role in the series.
   <a class="char-thumbnail" href="#salome">
     <img src="TheChosenImg/Salome.png" alt="Salome">
     <div>Salome</div>
-  </a>
-
-  <a class="char-thumbnail" href="#eden">
-    <img src="TheChosenImg/Eden.png" alt="Eden">
-    <div>Eden</div>
-  </a>
-
-  <a class="char-thumbnail" href="#martha">
-    <img src="TheChosenImg/Martha.png" alt="Martha">
-    <div>Martha</div>
-  </a>
-
-  <a class="char-thumbnail" href="#mary-of-bethany">
-    <img src="TheChosenImg/MaryOfBethany.png" alt="Mary of Bethany">
-    <div>Mary of Bethany</div>
-  </a>
-
-  <a class="char-thumbnail" href="#ramah">
-    <img src="TheChosenImg/Ramah.png" alt="Ramah">
-    <div>Ramah</div>
-  </a>
-
-  <a class="char-thumbnail" href="#tamar">
-    <img src="TheChosenImg/Tamar.png" alt="Tamar">
-    <div>Tamar</div>
   </a>
 
 </div>
@@ -738,7 +728,7 @@ about, and click to learn more about their role in the series.
 
   <a class="char-thumbnail" href="#zechariah-father-of-john-the-baptizer">
     <img src="TheChosenImg/Zechariah_fatherOfJTB.png" alt="Zechariah (Father of John the Baptizer)">
-    <div>Zechariah (JTB Dad)</div>
+    <div>Zechariah</div>
   </a>
 
 </div>
@@ -759,6 +749,16 @@ about, and click to learn more about their role in the series.
     <div>Lazarus</div>
   </a>
 
+  <a class="char-thumbnail" href="#martha">
+    <img src="TheChosenImg/Martha.png" alt="Martha">
+    <div>Martha</div>
+  </a>
+
+  <a class="char-thumbnail" href="#mary-of-bethany">
+    <img src="TheChosenImg/MaryOfBethany.png" alt="Mary of Bethany">
+    <div>Mary of Bethany</div>
+  </a>
+
   <a class="char-thumbnail" href="#photina">
     <img src="TheChosenImg/Photina.png" alt="Photina">
     <div>Photina</div>
@@ -777,19 +777,9 @@ about, and click to learn more about their role in the series.
     <div>Nicodemus</div>
   </a>
 
-  <a class="char-thumbnail" href="#caiaphas">
-    <img src="TheChosenImg/Caiaphas.png" alt="Caiaphas">
-    <div>Caiaphas</div>
-  </a>
-
   <a class="char-thumbnail" href="#yussif">
     <img src="TheChosenImg/Yussif.png" alt="Yussif">
     <div>Yussif</div>
-  </a>
-
-  <a class="char-thumbnail" href="#jairus">
-    <img src="TheChosenImg/Jairus.png" alt="Jairus">
-    <div>Jairus</div>
   </a>
 
   <a class="char-thumbnail" href="#shammai">
@@ -802,14 +792,24 @@ about, and click to learn more about their role in the series.
     <div>Shmuel</div>
   </a>
 
-  <a class="char-thumbnail" href="#yanni">
-    <img src="TheChosenImg/Yanni.png" alt="Yanni">
-    <div>Yanni</div>
-  </a>
-
   <a class="char-thumbnail" href="#akiva">
     <img src="TheChosenImg/Akiva.png" alt="Akiva">
     <div>Akiva</div>
+  </a>
+
+  <a class="char-thumbnail" href="#jairus">
+    <img src="TheChosenImg/Jairus.png" alt="Jairus">
+    <div>Jairus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#caiaphas">
+    <img src="TheChosenImg/Caiaphas.png" alt="Caiaphas">
+    <div>Caiaphas</div>
+  </a>
+
+  <a class="char-thumbnail" href="#yanni">
+    <img src="TheChosenImg/Yanni.png" alt="Yanni">
+    <div>Yanni</div>
   </a>
 
 </div>
@@ -825,9 +825,24 @@ about, and click to learn more about their role in the series.
     <div>Gaius</div>
   </a>
 
+  <a class="char-thumbnail" href="#quintus">
+    <img src="TheChosenImg/Quintus.png" alt="Quintus">
+    <div>Quintus</div>
+  </a>
+
+  <a class="char-thumbnail" href="#atticus">
+    <img src="TheChosenImg/Atticus.png" alt="Atticus">
+    <div>Atticus</div>
+  </a>
+
   <a class="char-thumbnail" href="#pontius-pilate">
     <img src="TheChosenImg/PontiusPilate.png" alt="Pontius Pilate">
     <div>Pontius Pilate</div>
+  </a>
+
+  <a class="char-thumbnail" href="#claudia">
+    <img src="TheChosenImg/Claudia.png" alt="Claudia">
+    <div>Claudia</div>
   </a>
 
   <a class="char-thumbnail" href="#herod-antipas">
@@ -840,24 +855,9 @@ about, and click to learn more about their role in the series.
     <div>Herodias</div>
   </a>
 
-  <a class="char-thumbnail" href="#claudia">
-    <img src="TheChosenImg/Claudia.png" alt="Claudia">
-    <div>Claudia</div>
-  </a>
-
   <a class="char-thumbnail" href="#salome-daughter-of-herodias">
     <img src="TheChosenImg/Salome_Daughter_of_Herodias.png" alt="Salome (Daughter of Herodias)">
     <div>Salome</div>
-  </a>
-
-  <a class="char-thumbnail" href="#atticus">
-    <img src="TheChosenImg/Atticus.png" alt="Atticus">
-    <div>Atticus</div>
-  </a>
-
-  <a class="char-thumbnail" href="#quintus">
-    <img src="TheChosenImg/Quintus.png" alt="Quintus">
-    <div>Quintus</div>
   </a>
 
 </div>
@@ -868,14 +868,14 @@ about, and click to learn more about their role in the series.
 
 <div class="char-visual-index">
 
-  <a class="char-thumbnail" href="#ethan">
-    <img src="TheChosenImg/Ethan.png" alt="Ethan">
-    <div>Ethan</div>
-  </a>
-
   <a class="char-thumbnail" href="#dasha">
     <img src="TheChosenImg/Dasha.png" alt="Dasha">
     <div>Dasha</div>
+  </a>
+
+  <a class="char-thumbnail" href="#ethan">
+    <img src="TheChosenImg/Ethan.png" alt="Ethan">
+    <div>Ethan</div>
   </a>
 
   <a class="char-thumbnail" href="#jesse">
@@ -1348,6 +1348,85 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
+#### Tamar
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Tamar.png" alt="Amber Shana Williams">
+      <div class="char-actor-caption">Amber Shana Williams</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Tamar</div>
+    <div class="char-info-desc">
+      <p>
+        Tamar is an Ethiopian friend of Ethan, the healed paralytic in Capernaum, from Heliopolis, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Tamar" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Ramah
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Ramah.png" alt="Yasmine Al-Bustami">
+      <div class="char-actor-caption">Yasmine Al-Bustami</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Ramah</div>
+    <div class="char-info-desc">
+      <p>
+        Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
+        <a href="https://the-chosen.fandom.com/wiki/Ramah" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- CHARACTER -->
+
+#### Eden
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Eden.png" alt="Lara Silva">
+      <div class="char-actor-caption">Lara Silva</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Eden</div>
+    <div class="char-info-desc">
+      <p>
+        Eden is the wife of Simon Peter, the daughter of Dasha, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Eden" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
 #### Joanna
 
 <div class="char-card">
@@ -1396,138 +1475,6 @@ about, and click to learn more about their role in the series.
     </div>
   </div>
 </div>
-
-
-
-<!-- CHARACTER -->
-
-#### Eden
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Eden.png" alt="Lara Silva">
-      <div class="char-actor-caption">Lara Silva</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Eden</div>
-    <div class="char-info-desc">
-      <p>
-        Eden is the wife of Simon Peter, the daughter of Dasha, and one of the women helping Jesus's ministry.
-        <a href="https://the-chosen.fandom.com/wiki/Eden" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Martha
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Martha.png" alt="Sophia Cameron Blum">
-      <div class="char-actor-caption">Sophia Cameron Blum</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Martha</div>
-    <div class="char-info-desc">
-      <p>
-        Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
-        <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Mary of Bethany
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/MaryOfBethany.png" alt="Catherine Lidstone">
-      <div class="char-actor-caption">Catherine Lidstone</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Mary of Bethany</div>
-    <div class="char-info-desc">
-      <p>
-        Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
-        <a href="https://the-chosen.fandom.com/wiki/Mary_of_Bethany" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Ramah
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Ramah.png" alt="Yasmine Al-Bustami">
-      <div class="char-actor-caption">Yasmine Al-Bustami</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Ramah</div>
-    <div class="char-info-desc">
-      <p>
-        Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
-        <a href="https://the-chosen.fandom.com/wiki/Ramah" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Tamar
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Tamar.png" alt="Amber Shana Williams">
-      <div class="char-actor-caption">Amber Shana Williams</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Tamar</div>
-    <div class="char-info-desc">
-      <p>
-        Tamar is an Ethiopian friend of Ethan, the healed paralytic in Capernaum, from Heliopolis, and one of the women helping Jesus's ministry.
-        <a href="https://the-chosen.fandom.com/wiki/Tamar" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
 
 
 ---
@@ -1724,6 +1671,58 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
+#### Martha
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Martha.png" alt="Sophia Cameron Blum">
+      <div class="char-actor-caption">Sophia Cameron Blum</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Martha</div>
+    <div class="char-info-desc">
+      <p>
+        Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Mary of Bethany
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/MaryOfBethany.png" alt="Catherine Lidstone">
+      <div class="char-actor-caption">Catherine Lidstone</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Mary of Bethany</div>
+    <div class="char-info-desc">
+      <p>
+        Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Mary_of_Bethany" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
 #### Photina
 
 <div class="char-card">
@@ -1780,32 +1779,6 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
-#### Caiaphas
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Caiaphas.png" alt="Richard Fancy">
-      <div class="char-actor-caption">Richard Fancy</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Caiaphas</div>
-    <div class="char-info-desc">
-      <p>
-        Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
-        <a href="https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
 #### Yussif
 
 <div class="char-card">
@@ -1821,32 +1794,6 @@ about, and click to learn more about their role in the series.
       <p>
         Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Yussif" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Jairus
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Jairus.png" alt="Alessandro Colla">
-      <div class="char-actor-caption">Alessandro Colla</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Jairus</div>
-    <div class="char-info-desc">
-      <p>
-        Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
-        <a href="https://the-chosen.fandom.com/wiki/Jairus" target="_blank">... more</a>
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1910,32 +1857,6 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
-#### Yanni
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Yanni.png" alt="Wasim No'mani">
-      <div class="char-actor-caption">Wasim No'mani</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Yanni</div>
-    <div class="char-info-desc">
-      <p>
-        Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
-        <a href="https://the-chosen.fandom.com/wiki/Yanni" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
 #### Akiva
 
 <div class="char-card">
@@ -1951,6 +1872,84 @@ about, and click to learn more about their role in the series.
       <p>
         Akiva is a leading Pharisee in Capernaum.
         <a href="https://the-chosen.fandom.com/wiki/Akiva" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Jairus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Jairus.png" alt="Alessandro Colla">
+      <div class="char-actor-caption">Alessandro Colla</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Jairus</div>
+    <div class="char-info-desc">
+      <p>
+        Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Jairus" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Caiaphas
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Caiaphas.png" alt="Richard Fancy">
+      <div class="char-actor-caption">Richard Fancy</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Caiaphas</div>
+    <div class="char-info-desc">
+      <p>
+        Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
+        <a href="https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Yanni
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Yanni.png" alt="Wasim No'mani">
+      <div class="char-actor-caption">Wasim No'mani</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Yanni</div>
+    <div class="char-info-desc">
+      <p>
+        Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+        <a href="https://the-chosen.fandom.com/wiki/Yanni" target="_blank">... more</a>
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1993,6 +1992,58 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
+#### Quintus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Quintus.png" alt="Brandon Potter">
+      <div class="char-actor-caption">Brandon Potter</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Quintus</div>
+    <div class="char-info-desc">
+      <p>
+        Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
+        <a href="https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Atticus
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Atticus.png" alt="Elijah Alexander">
+      <div class="char-actor-caption">Elijah Alexander</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Atticus</div>
+    <div class="char-info-desc">
+      <p>
+        Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
+        <a href="https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
 #### Pontius Pilate
 
 <div class="char-card">
@@ -2008,6 +2059,32 @@ about, and click to learn more about their role in the series.
       <p>
         Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
         <a href="https://the-chosen.fandom.com/wiki/Pontius_Pilate" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Claudia
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Claudia.png" alt="Sarah J. Bartholomew">
+      <div class="char-actor-caption">Sarah J. Bartholomew</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Claudia</div>
+    <div class="char-info-desc">
+      <p>
+        Claudia is the wife of Pontius Pilate.
+        <a href="https://the-chosen.fandom.com/wiki/Claudia" target="_blank">... more</a>
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2071,32 +2148,6 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
-#### Claudia
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Claudia.png" alt="Sarah J. Bartholomew">
-      <div class="char-actor-caption">Sarah J. Bartholomew</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Claudia</div>
-    <div class="char-info-desc">
-      <p>
-        Claudia is the wife of Pontius Pilate.
-        <a href="https://the-chosen.fandom.com/wiki/Claudia" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
 #### Salome (Daughter of Herodias)
 
 <div class="char-card">
@@ -2121,87 +2172,9 @@ about, and click to learn more about their role in the series.
 </div>
 
 
-<!-- CHARACTER -->
-
-#### Atticus
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Atticus.png" alt="Elijah Alexander">
-      <div class="char-actor-caption">Elijah Alexander</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Atticus</div>
-    <div class="char-info-desc">
-      <p>
-        Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
-        <a href="https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
-#### Quintus
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Quintus.png" alt="Brandon Potter">
-      <div class="char-actor-caption">Brandon Potter</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Quintus</div>
-    <div class="char-info-desc">
-      <p>
-        Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
-        <a href="https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
 ---
 
 ### Miracle Recipients
-
-
-<!-- CHARACTER -->
-
-#### Ethan
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Ethan.png" alt="Noe de la Garza">
-      <div class="char-actor-caption">Noe de la Garza</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Ethan</div>
-    <div class="char-info-desc">
-      <p>
-        Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
-        <a href="https://the-chosen.fandom.com/wiki/Ethan" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
 
 
 <!-- CHARACTER -->
@@ -2221,6 +2194,32 @@ about, and click to learn more about their role in the series.
       <p>
         Dasha is the mother-in-law of Simon Peter and the mother of Eden.
         <a href="https://the-chosen.fandom.com/wiki/Dasha" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Ethan
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Ethan.png" alt="Noe de la Garza">
+      <div class="char-actor-caption">Noe de la Garza</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Ethan</div>
+    <div class="char-info-desc">
+      <p>
+        Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
+        <a href="https://the-chosen.fandom.com/wiki/Ethan" target="_blank">... more</a>
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
