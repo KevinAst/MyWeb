@@ -83,8 +83,8 @@ Release           | What                 | *When*
 <br/>
 
 - **{{book.TheChosen}}** page was updated as follows
-  * a new **Characters** section promotes a **Visual Guide** (v24.7b)
-  * ?? more
+  * a new **Characters** section promotes a **Visual Guide**
+  * updated Season 1 Deep Dives with the latest revised entries
 
 
 - ?? more
