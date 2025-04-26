@@ -569,21 +569,14 @@ M{ sermonSeries({
 
 ## Characters
 
-With so many characters in The Chosen, it’s easy to lose track. This
-visual guide highlights the key players to help you follow along with
-the unfolding story.
+The Chosen features many characters, and it’s easy to lose track. This
+visual guide highlights the key players to help you follow the story
+as it unfolds. Simply match the images to the character you're curious
+about, and click to learn more about their role in the series.
 
-- [Jesus](#jesus)
-- [The Twelve Apostles](#the-twelve-apostles)
-- [The Women In Jesus's Ministry](#the-women-in-jesuss-ministry)
-- [Jesus's Family](#jesuss-family)
-- [Jesus's Friends](#jesuss-friends)
-- [Religious Leaders](#religious-leaders)
-- [The Romans and Herodians](#the-romans-and-herodians)
-- [Miracle Recipients](#miracle-recipients)
-
-**Visual Guide** – Use these images to visually identify each
-character, then click to explore their story and role in the series.
+<nav class="char-category-nav">
+  <a href="#jesus--the-apostles">Jesus & The Apostles</a>
+</nav>
 
 <div class="char-visual-index">
 
@@ -667,6 +660,14 @@ character, then click to explore their story and role in the series.
     <div>Judas Iscariot</div>
   </a>
 
+</div>
+
+<nav class="char-category-nav">
+  <a href="#the-women-in-jesuss-ministry">The Women In Jesus's Ministry</a>
+</nav>
+
+<div class="char-visual-index">
+
   <a class="char-thumbnail" href="#mary-magdalene">
     <img src="TheChosenImg/MaryMagdalene.png" alt="Mary Magdalene">
     <div>Mary Magdalene</div>
@@ -707,6 +708,14 @@ character, then click to explore their story and role in the series.
     <div>Tamar</div>
   </a>
 
+</div>
+
+<nav class="char-category-nav">
+  <a href="#jesuss-family">Jesus's Family</a>
+</nav>
+
+<div class="char-visual-index">
+
   <a class="char-thumbnail" href="#mary-of-nazareth">
     <img src="TheChosenImg/MaryOfNazareth.png" alt="Mary of Nazareth">
     <div>Mary of Nazareth</div>
@@ -732,6 +741,14 @@ character, then click to explore their story and role in the series.
     <div>Zechariah (JTB Dad)</div>
   </a>
 
+</div>
+
+<nav class="char-category-nav">
+  <a href="#jesuss-friends">Jesus's Friends</a>
+</nav>
+
+<div class="char-visual-index">
+
   <a class="char-thumbnail" href="#zebedee">
     <img src="TheChosenImg/Zebedee.png" alt="Zebedee">
     <div>Zebedee</div>
@@ -746,6 +763,14 @@ character, then click to explore their story and role in the series.
     <img src="TheChosenImg/Photina.png" alt="Photina">
     <div>Photina</div>
   </a>
+
+</div>
+
+<nav class="char-category-nav">
+  <a href="#religious-leaders">Religious Leaders</a>
+</nav>
+
+<div class="char-visual-index">
 
   <a class="char-thumbnail" href="#nicodemus">
     <img src="TheChosenImg/Nicodemus.png" alt="Nicodemus">
@@ -787,6 +812,14 @@ character, then click to explore their story and role in the series.
     <div>Akiva</div>
   </a>
 
+</div>
+
+<nav class="char-category-nav">
+  <a href="#the-romans-and-herodians">The Romans and Herodians</a>
+</nav>
+
+<div class="char-visual-index">
+
   <a class="char-thumbnail" href="#gaius">
     <img src="TheChosenImg/Gaius.png" alt="Gaius">
     <div>Gaius</div>
@@ -827,6 +860,14 @@ character, then click to explore their story and role in the series.
     <div>Quintus</div>
   </a>
 
+</div>
+
+<nav class="char-category-nav">
+  <a href="#miracle-recipients">Miracle Recipients</a>
+</nav>
+
+<div class="char-visual-index">
+
   <a class="char-thumbnail" href="#ethan">
     <img src="TheChosenImg/Ethan.png" alt="Ethan">
     <div>Ethan</div>
@@ -852,9 +893,12 @@ character, then click to explore their story and role in the series.
 
 ---
 
+### Jesus & The Apostles
+
+
 <!-- CHARACTER -->
 
-### Jesus
+#### Jesus
 
 <div class="char-card">
   <div class="char-images">
@@ -877,9 +921,6 @@ character, then click to explore their story and role in the series.
   </div>
 </div>
 
----
-
-### The Twelve Apostles
 
 <!-- CHARACTER -->
 
