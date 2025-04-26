@@ -251,6 +251,25 @@ body.isolated-page .navigation-next {
 
 /*** Characters/Actors - initially used in TheChosen.md ***/
 
+/* Navigation headers */
+
+.char-category-nav {
+    text-align:    center;
+    margin-bottom: 10px;
+    font-size:     1.5em;
+    font-weight:   bold;
+}
+
+.char-category-nav a {
+    margin:          0 10px;
+    text-decoration: none;
+}
+
+.char-category-nav a:hover {
+    text-decoration: underline;
+}
+
+
 /* Visual Index Grid */
 .char-visual-index {
     display:         flex;
