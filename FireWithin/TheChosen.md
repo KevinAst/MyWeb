@@ -749,14 +749,14 @@ about, and click to learn more about their role in the series.
     <div>Lazarus</div>
   </a>
 
-  <a class="char-thumbnail" href="#martha">
-    <img src="TheChosenImg/Martha.png" alt="Martha">
-    <div>Martha</div>
-  </a>
-
   <a class="char-thumbnail" href="#mary-of-bethany">
     <img src="TheChosenImg/MaryOfBethany.png" alt="Mary of Bethany">
     <div>Mary of Bethany</div>
+  </a>
+
+  <a class="char-thumbnail" href="#martha">
+    <img src="TheChosenImg/Martha.png" alt="Martha">
+    <div>Martha</div>
   </a>
 
   <a class="char-thumbnail" href="#photina">
@@ -1671,32 +1671,6 @@ about, and click to learn more about their role in the series.
 
 <!-- CHARACTER -->
 
-#### Martha
-
-<div class="char-card">
-  <div class="char-images">
-    <div class="char-image-block">
-      <img src="TheChosenImg/Martha.png" alt="Sophia Cameron Blum">
-      <div class="char-actor-caption">Sophia Cameron Blum</div>
-    </div>
-  </div>
-  <div class="char-info">
-    <div class="char-info-subtitle">Martha</div>
-    <div class="char-info-desc">
-      <p>
-        Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
-        <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
-      </p>
-      <p>
-        <a href="#characters">... back to Characters</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-<!-- CHARACTER -->
-
 #### Mary of Bethany
 
 <div class="char-card">
@@ -1712,6 +1686,32 @@ about, and click to learn more about their role in the series.
       <p>
         Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
         <a href="https://the-chosen.fandom.com/wiki/Mary_of_Bethany" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- CHARACTER -->
+
+#### Martha
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/Martha.png" alt="Sophia Cameron Blum">
+      <div class="char-actor-caption">Sophia Cameron Blum</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">Martha</div>
+    <div class="char-info-desc">
+      <p>
+        Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
+        <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
