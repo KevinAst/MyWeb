@@ -193,7 +193,7 @@ M{ sermonSeries({
       scripture:          `isa.43.1@@Isaiah 43:1##isa.42.1-3@@CR:Isaiah 42:1-3##mat.18.12-14@@CR:Matthew 18:12-14##luk.8.2@@CR:Luke 8:2`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/1@@Devo-1`,
 //OLD date:               `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
-      date:               `DeepDive:D_LBTz8mGW0@@Intro##JaedLqA5lpI@@Matthew##kA0pOpzV_9U@@Nicodemus##AlBBrSObPHA@@Simon/Andrew/Eden`,
+      date:               `DeepDive:D_LBTz8mGW0@@Intro##VdUPmi7vl8I@@Mary Magdalene##JaedLqA5lpI@@Matthew##kA0pOpzV_9U@@Nicodemus##AlBBrSObPHA@@Simon/Andrew/Eden`,
     },
     {
       id:                 `TC-S1-E2`, 
