@@ -5,7 +5,7 @@
   "homepage": "https://wiibridges.com/",
   "scripts": {
     "blog:devServe": "http-server MyPage",
-    "blog:devREM": "for more diagnostics, use: '--debug' after the build option",
+    "blog:devREM": "for more diagnostics, use: '--debug' at the end of the npx command",
     "blog:dev": "nodemon --exec \"npx gitbook build FireWithin MyPage/FireWithin\"",
     "blog:build": "npx gitbook build FireWithin MyPage/FireWithin",
     "blog:clean": "rimraf MyPage/FireWithin",
