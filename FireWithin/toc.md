@@ -122,14 +122,16 @@
 - [Memorization](Memorization.md)
 
 ----
-- [The Chosen](TheChosen.md)
-  * [Overview](TheChosen.md#overview)
-  * [Usage](TheChosen.md#usage)
-  * [Season 1](TheChosen.md#season-1)
-  * [Season 2](TheChosen.md#season-2)
-  * [Season 3](TheChosen.md#season-3)
-  * [Season 4](TheChosen.md#season-4)
-  * [Characters](TheChosen.md#characters)
+- [Christian Media](ChristianMedia.md)
+  * [The Chosen](TheChosen.md)
+    - [Overview](TheChosen.md#overview)
+    - [Usage](TheChosen.md#usage)
+    - [Season 1](TheChosen.md#season-1)
+    - [Season 2](TheChosen.md#season-2)
+    - [Season 3](TheChosen.md#season-3)
+    - [Season 4](TheChosen.md#season-4)
+    - [Characters](TheChosen.md#characters)
+  * [House of David](HouseOfDavid.md)
 
 ----
 - [Revision History](history.md)

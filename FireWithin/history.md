@@ -83,8 +83,8 @@ Release           | What                 | *When*
 <br/>
 
 - **{{book.TheChosen}}** page was updated as follows
-  * a new **Characters** section promotes a **Visual Guide**
-  * updated Season 1 Deep Dives with the latest revised entries
+  * a new **{{book.TCCharactersM}}** section promotes a **Visual Guide**
+  * updated {{book.TCSeason1M}} **Deep Dives** with the latest revised entries
   * added the &#10022;RoundTables&#10022;, _from Dallas Jenkins and his advisers,_ 
     linked directly below each episode link
 
