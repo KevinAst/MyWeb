@@ -20,5 +20,10 @@ M{ sermonSeries({
     { id: `20210404`, sermon: `It is Finished`,                                                                                       },
     { id: `20220417`, sermon: `Evidence for the Head, Hope for the Heart`,                    scripture: `luk.24@@Luke 24`,           },
     { id: `20230409`, sermon: `Jesus is the cure!`,                                           scripture: `jhn.20@@John 20:26-31`,     },
+
+    { id: `20240331`, sermon: `Peace To You!`,                                                scripture: `luk.24@@Luke 24:36-53`,     },
+    { id: `20250413`, sermon: `The Deliberate, Unusual, and Royal Arrival of Jesus Christ (Palm Sunday - David Guzik)`, 
+                                                                                              scripture: `mat.21@@Matthew 21`,        },
+    { id: `20250420`, sermon: `A Tale of Two Gardens`,                                        scripture: `jhn.19@@John 19-20`,        },
   ]
 }) }M

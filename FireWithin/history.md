@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v24.7](#v24_7)   | Chosen Updates & more                            | *Apr xx, 2025*
+[v24.7](#v24_7)   | Chosen Updates, Memory Verse, & Sermon Sync      | *Apr xx, 2025*
 [v24.6](#v24_6)   | April Memory Verses & Sync Current Sermon Series | *Mar 26, 2025*
 [v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more  | *Feb 25, 2025*
 [v24.4](#v24_4)   | March Memory Verses & more              | *Feb 22, 2025*
@@ -78,18 +78,24 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v24_7" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v24.7 - Chosen Updates & more <i>(Apr xx, 2025)</i>
+  v24.7 - Chosen Updates, Memory Verse, & Sermon Sync <i>(Apr xx, 2025)</i>
 </h3>
 <br/>
 
 - **{{book.TheChosen}}** page was updated as follows
   * a new **Characters** section promotes a **Visual Guide**
   * updated Season 1 Deep Dives with the latest revised entries
-  * the RoundTables, _from Dallas Jenkins and his advisers,_ are now
+  * added the &#10022;RoundTables&#10022;, _from Dallas Jenkins and his advisers,_ 
     linked directly below each episode link
 
 
-- ?? more
+- ?? Added FBM's May Memory Verses in {{book.Memorization}} page - ?? 1 John 1:9 & Romans 3:21-23
+
+
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.Easter}} 2025 Speicals
+
 
 
 <!-- ************************************************************* -->
@@ -100,6 +106,7 @@ Release           | What                 | *When*
 <br/>
 
 - Added FBM's April Memory Verses in {{book.Memorization}} page - 1 John 1:9 & Romans 3:21-23
+
 
 - Updated Current Sermon Series
   * {{book.2Corinthians}} Series (Sundays)
