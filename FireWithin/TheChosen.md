@@ -193,7 +193,7 @@ M{ sermonSeries({
       scripture:          `isa.43.1@@Isaiah 43:1##isa.42.1-3@@CR:Isaiah 42:1-3##mat.18.12-14@@CR:Matthew 18:12-14##luk.8.2@@CR:Luke 8:2`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/1@@Devo-1`,
 //OLD date:               `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
-      date:               `DeepDive:D_LBTz8mGW0@@Intro##VdUPmi7vl8I@@Mary Magdalene##JaedLqA5lpI@@Matthew##kA0pOpzV_9U@@Nicodemus##AlBBrSObPHA@@Simon/Andrew/Eden`,
+      date:               `DeepDive:D_LBTz8mGW0@@Intro##VdUPmi7vl8I@@??Mary Magdalene##JaedLqA5lpI@@Matthew##kA0pOpzV_9U@@Nicodemus##AlBBrSObPHA@@Simon/Andrew/Eden`,
     },
     {
       id:                 `TC-S1-E2`, 
@@ -204,7 +204,7 @@ M{ sermonSeries({
       scripture:          `jhn.9.1-6@@John 9:1-6##jhn.9.18-25@@CR:John 9:18-25##mat.11.28-29@@CR:Matthew 11:28-29`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/2@@Devo-2`,
 //OLD date:               `DeepDive:kZyrhFdNuJw@@Shabbat##H37YA8LyCLE@@Eden##NTqiBcJ62NU@@Sanhedrin`,
-      date:               `DeepDive:k3MX6omaHCc@@Intro##5P0UqGJ-tI8@@Matthew`,
+      date:               `DeepDive:k3MX6omaHCc@@Intro##5P0UqGJ-tI8@@Matthew##kZyrhFdNuJw@@??Shabbat##H37YA8LyCLE@@??Eden##NTqiBcJ62NU@@??Sanhedrin`,
     },
     {
       id:                 `TC-S1-E3`, 
@@ -226,7 +226,7 @@ M{ sermonSeries({
       scripture:          `luk.5.1-11@@Luke 5:1-11##eph.2.4-8@@CR:Ephesians 2:4-8`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/4@@Devo-4`,
 //OLD date:               `DeepDive:1mHmfkCEl0M@@Fish & Brothers##lbsJ19B3lWM@@Simon's Marriage`,
-      date:               `DeepDive:rGhvQpj9O7Q@@Simon##AaOCUkjETqg@@More Matthew`,
+      date:               `DeepDive:rGhvQpj9O7Q@@Simon##1mHmfkCEl0M@@??Fish & Brothers##lbsJ19B3lWM@@??Simon's Marriage##AaOCUkjETqg@@More Matthew`,
     },
     {                     // NO Devotion for this episode
       id:                 `TC-S1-E5`, 
@@ -237,7 +237,7 @@ M{ sermonSeries({
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
 //OLD date:               `DeepDive:oH2XU-QZJeE@@John the Baptist##Xq-ugp-u2Ks@@Simon's Calling`,
-      date:               `DeepDive:gaMxQAVBQ2g@@Mary##6gU-s1NDkPk@@Simon & Eden##EgwAsAs52z8@@First Miracle##xyRdFXeXZwE@@John the Baptist`,
+      date:               `DeepDive:gaMxQAVBQ2g@@Mary##6gU-s1NDkPk@@Simon & Eden##Xq-ugp-u2Ks@@??Simon's Calling##EgwAsAs52z8@@First Miracle##xyRdFXeXZwE@@John the Baptist`,
     },
     {
       id:                 `TC-S1-E6`, 
@@ -248,7 +248,7 @@ M{ sermonSeries({
       scripture:          `mrk.2.1-12@@Mark 2:1-12##rom.13.8-10@@CR:Romans 13:8-10`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/5@@Devo-5`,
 //OLD date:               `DeepDive:r3jcFfSL58s@@Matthew/Nicodemus/Tamar##kskQBLoZEuE@@Nicodemus/Shmuel##e-cXGiVU2rw@@Tamar`,
-      date:               `DeepDive:soi8xIVsvpk@@Paralytic Healing##rIibE-G5ufA@@Jesus in New Light##QAgZySJ-klM@@Nicodemus/Shmuel`,
+      date:               `DeepDive:soi8xIVsvpk@@Paralytic Healing##rIibE-G5ufA@@Jesus in New Light##QAgZySJ-klM@@Nicodemus/Shmuel##r3jcFfSL58s@@??Matthew/Nicodemus/Tamar##e-cXGiVU2rw@@??Tamar`,
     },
     {
       id:                 `TC-S1-E7`, 
