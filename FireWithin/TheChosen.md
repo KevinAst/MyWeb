@@ -963,6 +963,15 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Jesus" target="_blank">... more</a>
       </p>
       <p>
+        Jesus is recognized not only as the Messiah and Son of God, but also
+        as the fulfillment of Old Testament prophecies 
+        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.5.17`)" target="_blank">Matthew 5:17</a>).
+        His teachings, death, and resurrection are the foundation of
+        Christianity, as He offers salvation to all who believe 
+        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.16`)" target="_blank">John 3:16</a>;
+        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.4.12`)" target="_blank">Acts 4:12</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -992,6 +1001,23 @@ about, and click to learn more about their role in the series.
         sons.  Alongside the two brothers, Big James and John, Simon
         Peter is a part of Jesus's inner circle.
         <a href="https://the-chosen.fandom.com/wiki/Simon_Peter" target="_blank">... more</a>
+      </p>
+      <p>
+        Simon Peter is featured prominently in the Gospels, where he is
+        called by Jesus to follow Him 
+
+        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-20`)" target="_blank">Matthew 4:18-20</a>; 
+        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-18`)" target="_blank">Mark 1:16-18</a>; 
+        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.1-11`)" target="_blank">Luke 5:1-11</a>)
+
+        and later becomes a leader among the apostles, known for his
+        boldness, his denial of Jesus 
+
+        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.22.61-61`)" target="_blank">Luke 22:61-62</a>),
+
+        and his role in spreading the early Christian church
+
+        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.2.14-41`)" target="_blank">Acts 2:14-41</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1025,6 +1051,20 @@ about, and click to learn more about their role in the series.
         a former fishing partner of Zebedee and his sons. Alongside
         Philip, he is a former comrade of Avner and Nadab.
         <a href="https://the-chosen.fandom.com/wiki/Andrew" target="_blank">... more</a>
+      </p>
+      <p>
+  Andrew is mentioned in the Gospels as the first disciple called by
+  Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.35-42`)" target="_blank">John 1:35-42</a>)
+
+  and plays a key role in bringing others to Christ, including his
+  brother Simon Peter 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.41`)" target="_blank">John 1:41</a>).
+
+  Though he is often in the background, he is still recognized as an
+  important figure in the early church.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1068,6 +1108,19 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Big_James" target="_blank">... more</a>
       </p>
       <p>
+  Big James is mentioned in the Gospels as one of the first disciples
+  called by Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-22`)" target="_blank">Matthew 4:18-22</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-20`)" target="_blank">Mark 1:16-20</a>)
+
+  and, along with his brother John, is known for his passionate
+  dedication to Jesus. He is later martyred for his faith, becoming
+  the first apostle to be killed 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.12.1-2`)" target="_blank">Acts 12:1-2</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1099,6 +1152,19 @@ about, and click to learn more about their role in the series.
         brother, Big James, the "sons of thunder". Alongside Simon
         Peter and Big James, John is a part of Jesus's inner circle.
         <a href="https://the-chosen.fandom.com/wiki/John_the_Apostle" target="_blank">... more</a>
+      </p>
+      <p>
+  John, often referred to as the "beloved disciple," is prominently
+  featured in the Gospels, particularly as the author of the 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1`)" target="_blank">Gospel of John</a>,
+
+  the three epistles of John, and the book of Revelation. He is known
+  for his close relationship with Jesus and is present at key moments,
+  such as the Last Supper and the crucifixion
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.13.23`)" target="_blank">John 13:23</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.26`)" target="_blank">19:26</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1138,6 +1204,24 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Philip" target="_blank">... more</a>
       </p>
       <p>
+  Philip is mentioned in the Gospels as one of the first disciples
+  called by Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.43-44`)" target="_blank">John 1:43-44</a>)
+
+  and plays a key role in bringing Nathanael to Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-46`)" target="_blank">John 1:45-46</a>).
+
+  He is also present at the feeding of the 5,000 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.6.5-7`)" target="_blank">John 6:5-7</a>)
+
+  and the request of the Greeks to see Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.20-22`)" target="_blank">John 12:20-22</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1169,6 +1253,22 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Nathanael" target="_blank">... more</a>
       </p>
       <p>
+  Nathanael, also known as Bartholomew, is mentioned in the Gospels as
+  a man of honest character 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.47`)" target="_blank">John 1:47</a>)
+
+  and is called by Jesus after
+  Philip invites him to follow 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-51`)" target="_blank">John 1:45-51</a>).
+
+  He is also one of the apostles who witnesses Jesus'
+  post-resurrection appearance by the Sea of Tiberias 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.21.2`)" target="_blank">John 21:2</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1198,6 +1298,18 @@ about, and click to learn more about their role in the series.
         Plains of Sharon, the partner of Ramah, and one of the Twelve
         Apostles of Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Thomas" target="_blank">... more</a>
+      </p>
+      <p>
+  Thomas, often referred to as "Doubting Thomas" due to his initial
+  skepticism about Jesus' resurrection 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.24-29`)" target="_blank">John 20:24-29</a>),
+
+  is also known for his boldness in expressing loyalty to Jesus, as
+  seen when he urges the disciples to go with Jesus to Judea despite
+  the danger 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.16`)" target="_blank">John 11:16</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1232,6 +1344,21 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Matthew_the_Apostle" target="_blank">... more</a>
       </p>
       <p>
+  Matthew, also known as Levi, is called by Jesus to follow Him while
+  at his tax booth 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.9.9`)" target="_blank">Matthew 9:9</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.14`)" target="_blank">Mark 2:14</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.27`)" target="_blank">Luke 5:27</a>).
+
+  He is traditionally credited with writing the 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.1`)" target="_blank">Gospel of Matthew</a>,
+
+  which emphasizes Jesus as the Messiah and the fulfillment of Old
+  Testament prophecy.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1263,6 +1390,12 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Little_James" target="_blank">... more</a>
       </p>
       <p>
+  Little James, often distinguished from Big James, is mentioned in
+  the Gospels as one of the twelve apostles, though he is not
+  highlighted as much in the narrative. His inclusion with the twelve
+  demonstrates the breadth of Jesus' chosen followers.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1292,6 +1425,19 @@ about, and click to learn more about their role in the series.
         stonemason in Bethsaida and one of the Twelve Apostles of
         Jesus.  He is the son of James.
         <a href="https://the-chosen.fandom.com/wiki/Thaddaeus" target="_blank">... more</a>
+      </p>
+      <p>
+  Thaddaeus, also called Lebbaeus or Judas (to avoid confusion with
+  Judas Iscariot), is mentioned briefly in the Gospels as one of the
+  twelve apostles 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.10.3`)" target="_blank">Matthew 10:3</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.3.18`)" target="_blank">Mark 3:18</a>).
+
+  He is known for asking Jesus during the Last Supper about His
+  revelation to the disciples 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.14.22`)" target="_blank">John 14:22</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1326,6 +1472,18 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Simon_Z." target="_blank">... more</a>
       </p>
       <p>
+  Simon Z, also known as the Zealot, is one of the twelve apostles,
+  often associated with the zealot movement which sought to overthrow
+  Roman rule in Judea 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.6.15`)" target="_blank">Luke 6:15</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.13`)" target="_blank">Acts 1:13</a>).
+
+  His designation as a Zealot highlights the diversity within Jesus'
+  followers, as he was called to work alongside Matthew, a former tax
+  collector.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1355,6 +1513,18 @@ about, and click to learn more about their role in the series.
         apprentice from Kerioth, who is the treasurer and one of the
         Twelve Apostles of Jesus. He is the son of Simon Iscariot.
         <a href="https://the-chosen.fandom.com/wiki/Judas_Iscariot" target="_blank">... more</a>
+      </p>
+      <p>
+  Judas Iscariot is infamously known for betraying Jesus to the
+  religious authorities for thirty pieces of silver 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.14-16`)" target="_blank">Matthew 26:14-16</a>). 
+
+  Despite his role as the treasurer, his actions ultimately lead to
+  his tragic end, with his betrayal marking a pivotal moment in the
+  Passion narrative 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.3-10`)" target="_blank">Matthew 27:3-10</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1387,6 +1557,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Mary_Magdalene" target="_blank">... more</a>
       </p>
       <p>
+  Mary Magdalene is mentioned multiple times in the Bible, notably in
+  
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.2`)" target="_blank">Luke 8:2</a>
+
+  as a woman from whom seven demons had been cast out, and she is
+  present at both the crucifixion and the resurrection of Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.1-18`)" target="_blank">John 20:1-18</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1413,6 +1593,14 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Tamar" target="_blank">... more</a>
       </p>
       <p>
+  Tamar is a fictional character in The Chosen.  While the story of
+  the paralytic lowered through the roof is found in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>,
+
+  the people who assist him are not named in the biblical account.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1437,6 +1625,11 @@ about, and click to learn more about their role in the series.
       <p>
         Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
         <a href="https://the-chosen.fandom.com/wiki/Ramah" target="_blank">... more</a>
+      </p>
+      <p>
+  Ramah is a fictional character in The Chosen.  There is no mention
+  of her, or of a romantic partner for the Apostle Thomas, in the
+  Bible.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1466,6 +1659,15 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Eden" target="_blank">... more</a>
       </p>
       <p>
+  While Eden is not named in the Bible, the Gospels do mention that
+  Simon Peter had a wife.  Jesus heals Peter’s mother-in-law in
+  passages such as 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>.
+
+  This character is derived from this brief biblical reference.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1492,6 +1694,17 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Joanna" target="_blank">... more</a>
       </p>
       <p>
+  Joanna is a historical figure mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.3`)" target="_blank">Luke 8:3</a>
+
+  as the wife of Chuza, Herod’s household manager.  She supported
+  Jesus’s ministry and is also named among the women who witnessed the
+  resurrection in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.24.10`)" target="_blank">Luke 24:10</a>.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1516,6 +1729,16 @@ about, and click to learn more about their role in the series.
       <p>
         Salome is the wife of Zebedee, the mother of Big James and John, and one of the women helping Jesus's ministry.
         <a href="https://the-chosen.fandom.com/wiki/Salome_(Mother_of_the_Sons_of_Zebedee)" target="_blank">... more</a>
+      </p>
+      <p>
+  Salome is mentioned in the Bible as the mother of James and John,
+  the sons of Zebedee 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.56`)" target="_blank">Matthew 27:56</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.40`)" target="_blank">Mark 15:40</a>),
+
+  and she is one of the women who followed Jesus and witnessed His
+  crucifixion and resurrection.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1549,6 +1772,24 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Mary_of_Nazareth" target="_blank">... more</a>
       </p>
       <p>
+  Mary is a central figure in the Gospels, first introduced in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1`)" target="_blank">Luke 1</a>
+
+  during the Annunciation; she is present throughout Jesus’s life,
+  including at His birth 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2`)" target="_blank">Luke 2</a>),
+
+  the crucifixion 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.25-27`)" target="_blank">John 19:25-27</a>),
+
+  and among the early believers after His resurrection 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.14`)" target="_blank">Acts 1:14</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1573,6 +1814,13 @@ about, and click to learn more about their role in the series.
       <p>
         Joseph is a carpenter from Nazareth, the husband of Mary, and the earthly father of Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Joseph" target="_blank">... more</a>
+      </p>
+      <p>
+  Joseph is mentioned in the Gospels of Matthew and Luke as the
+  husband of Mary, though the Bible offers little detail about his
+  later life.  He is last mentioned in the context of Jesus’s youth
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2.41-50`)" target="_blank">Luke 2:41-50</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1601,6 +1849,20 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/John_the_Baptizer" target="_blank">... more</a>
       </p>
       <p>
+  John is prominently featured in all four Gospels, with his ministry
+  of baptism and repentance preparing the way for Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.3.1-12`)" target="_blank">Matthew 3:1-12</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.4-8`)" target="_blank">Mark 1:4-8</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.3.1-20`)" target="_blank">Luke 3:1-20</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.19-34`)" target="_blank">John 1:19-34</a>). 
+
+  He is also mentioned as being imprisoned and executed by King Herod
+  Antipas 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1627,6 +1889,19 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Elizabeth" target="_blank">... more</a>
       </p>
       <p>
+  Elizabeth is mentioned in the 
+
+  Gospel of Luke
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">1:5-25</a>,
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.39-45`)" target="_blank">39-45</a>)
+
+  as the mother of John the Baptizer, whose miraculous conception
+  parallels that of Jesus.  She is described as being in her old age
+  and as one of the first to recognize the significance of Mary's
+  pregnancy.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1651,6 +1926,16 @@ about, and click to learn more about their role in the series.
       <p>
         Zechariah is a priest in Jerusalem, the husband of Elizabeth, and the father of John the Baptizer.
         <a href="https://the-chosen.fandom.com/wiki/Zechariah_(Father_of_John_the_Baptizer)" target="_blank">... more</a>
+      </p>
+      <p>
+  Zechariah is mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">Luke 1:5-25</a>
+
+  as a priest who, after being visited by the angel Gabriel, was
+  struck mute for his disbelief in the announcement of his son’s
+  birth; he regains his speech upon naming his son John, fulfilling
+  the angel's prophecy.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1684,6 +1969,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Zebedee" target="_blank">... more</a>
       </p>
       <p>
+  Zebedee is mentioned briefly in the Gospels 
+
+  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.21`)" target="_blank">Matthew 4:21</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.19`)" target="_blank">Mark 1:19</a>),
+
+  primarily as the father of James and John, the sons of thunder; he
+  is part of the early group of disciples called by Jesus to follow
+  Him, but little else is known about his life.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1708,6 +2003,15 @@ about, and click to learn more about their role in the series.
       <p>
         Lazarus is a businessman in Bethany, a childhood friend of Jesus, and the brother of Mary and Martha.
         <a href="https://the-chosen.fandom.com/wiki/Lazarus" target="_blank">... more</a>
+      </p>
+      <p>
+  Lazarus is best known in the Bible for being raised from the dead by
+  Jesus in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.1-44`)" target="_blank">John 11:1-44</a>, 
+
+  an event that led many to believe in Jesus, but also contributed to
+  the religious leaders plotting His death.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1736,6 +2040,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Mary_of_Bethany" target="_blank">... more</a>
       </p>
       <p>
+  Mary of Bethany appears in several key Gospel scenes, including
+  sitting at Jesus’s feet to listen to His teaching 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+
+  and anointing His feet with expensive perfume as an act of devotion
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.1-8`)" target="_blank">John 12:1-8</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1762,6 +2076,17 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Martha" target="_blank">... more</a>
       </p>
       <p>
+  Martha is featured in the Gospels as a devoted follower of Jesus,
+  known for her hospitality 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+
+  and her confession of faith in Jesus as the Messiah before He raised
+  her brother Lazarus from the dead 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.20-27`)" target="_blank">John 11:20-27</a>).
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1786,6 +2111,15 @@ about, and click to learn more about their role in the series.
       <p>
         Photina (the woman at the Well) is a Samaritan woman in Sychar and the wife of Neriah.
         <a href="https://the-chosen.fandom.com/wiki/Photina" target="_blank">... more</a>
+      </p>
+      <p>
+  The woman at the well appears in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.4.1-42`)" target="_blank">John 4:1-42</a>,
+
+  where Jesus speaks with her in Samaria.  She is unnamed in the
+  Bible, but later Christian tradition refers to her as Photina and
+  honors her as an early evangelist.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1818,6 +2152,17 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Nicodemus" target="_blank">... more</a>
       </p>
       <p>
+  Nicodemus appears in the Gospel of John 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.1-21`)" target="_blank">John 3:1-21</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.7.50-52`)" target="_blank">7:50-52</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.39-42`)" target="_blank">19:39-42</a>),
+
+  where he first visits Jesus at night to ask questions, later defends
+  Him before the Sanhedrin, and finally helps bury Jesus with Joseph
+  of Arimathea, suggesting his growing faith.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1842,6 +2187,12 @@ about, and click to learn more about their role in the series.
       <p>
         Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Yussif" target="_blank">... more</a>
+      </p>
+      <p>
+  Yussif is a fictional character created for The Chosen.  While there
+  were members of the Sanhedrin who believed in Jesus secretly (like
+  Nicodemus and Joseph of Arimathea), Yussif is not named in the
+  biblical text.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1870,6 +2221,13 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Shammai" target="_blank">... more</a>
       </p>
       <p>
+  Shammai is a historical figure from first-century Judaism, known as
+  a strict and influential Pharisaic teacher who led the House of
+  Shammai, often contrasted with the more lenient House of Hillel.
+  While he is not mentioned in the Bible, his teachings shaped the
+  religious context of Jesus’s time.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1894,6 +2252,11 @@ about, and click to learn more about their role in the series.
       <p>
         Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
         <a href="https://the-chosen.fandom.com/wiki/Shmuel" target="_blank">... more</a>
+      </p>
+      <p>
+  Shmuel is a fictional character created for The Chosen. While
+  Pharisees are frequently mentioned in the Gospels as opponents of
+  Jesus, no individual named Shmuel appears in the biblical text.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1922,6 +2285,11 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Akiva" target="_blank">... more</a>
       </p>
       <p>
+  Akiva is a fictional character created for The Chosen.  While there
+  were many Pharisees in Capernaum during the time of Jesus, Akiva is
+  not mentioned in the Bible.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1946,6 +2314,17 @@ about, and click to learn more about their role in the series.
       <p>
         Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Jairus" target="_blank">... more</a>
+      </p>
+      <p>
+  Jairus is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.21-43`)" target="_blank">Mark 5:21-43</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.40-56`)" target="_blank">Luke 8:40-56</a>)
+
+  as a synagogue ruler who pleads with Jesus to heal his dying
+  daughter.  After her resurrection, Jairus's faith in Jesus is
+  evident, though the Bible does not indicate whether he remained a
+  secret disciple.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1974,6 +2353,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas" target="_blank">... more</a>
       </p>
       <p>
+  Caiaphas is a historical figure mentioned in the Gospels as the high
+  priest who played a central role in the trial and condemnation of
+  Jesus 
+
+  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.57-68`)" target="_blank">Matthew 26:57-68</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.13-28`)" target="_blank">John 18:13-28</a>),
+
+  and his actions are key in the plot to have Jesus crucified.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -1998,6 +2387,11 @@ about, and click to learn more about their role in the series.
       <p>
         Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
         <a href="https://the-chosen.fandom.com/wiki/Yanni" target="_blank">... more</a>
+      </p>
+      <p>
+  Yanni is a fictional character created for The Chosen.  While there
+  were numerous Pharisees in Jerusalem during Jesus's time, no
+  individual named Yanni is mentioned in the Bible.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2031,6 +2425,11 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Gaius" target="_blank">... more</a>
       </p>
       <p>
+  Gaius is a fictional character created for The Chosen.  The
+  character of Gaius, as well as his backstory and role as a
+  magistrate, is a creative addition for the series.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2055,6 +2454,12 @@ about, and click to learn more about their role in the series.
       <p>
         Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
         <a href="https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio" target="_blank">... more</a>
+      </p>
+      <p>
+  Quintus is a fictional character created for The Chosen. Although
+  the Bible references Roman officials in the region, such as Pilate
+  and the centurion, no individual named Quintus is mentioned in the
+  biblical text.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2083,6 +2488,12 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher" target="_blank">... more</a>
       </p>
       <p>
+  Atticus is a fictional character created for The Chosen. While the
+  Roman cohortes urbanae did play a role in maintaining order and
+  investigating threats, no character named Atticus appears in the
+  Bible or historical records related to Jesus.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2107,6 +2518,15 @@ about, and click to learn more about their role in the series.
       <p>
         Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
         <a href="https://the-chosen.fandom.com/wiki/Pontius_Pilate" target="_blank">... more</a>
+      </p>
+      <p>
+  Pontius Pilate is a historical figure mentioned in all four Gospels,
+  notably for his role in condemning Jesus to crucifixion 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.11-26`)" target="_blank">Matthew 27:11-26</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.1-15`)" target="_blank">Mark 15:1-15</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.1-25`)" target="_blank">Luke 23:1-25</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.28-40`)" target="_blank">John 18:28-40</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2135,6 +2555,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Claudia" target="_blank">... more</a>
       </p>
       <p>
+  Claudia is briefly mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.19`)" target="_blank">Matthew 27:19</a>,
+
+  where she sends a message to her husband, Pontius Pilate, urging him
+  to have nothing to do with condemning Jesus, as she had suffered in
+  a dream because of Him. However, little else is known about her from
+  biblical texts.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2159,6 +2589,18 @@ about, and click to learn more about their role in the series.
       <p>
         Herod Antipas is the tetrarch who serves as the client king of Galilee and Perea. The stepfather of Salome, he is the husband of Queen Herodias, who is his brother's, Philip's, former wife.
         <a href="https://the-chosen.fandom.com/wiki/Herod_Antipas" target="_blank">... more</a>
+      </p>
+      <p>
+  Herod Antipas is a historical figure mentioned in the Gospels,
+  particularly in relation to his involvement in the execution of John
+  the Baptist 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.14-29`)" target="_blank">Mark 6:14-29</a>)
+
+  and his role in the trial of Jesus, where he sends Jesus back to
+  Pilate 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.6-12`)" target="_blank">Luke 23:6-12</a>).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2187,6 +2629,15 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Herodias" target="_blank">... more</a>
       </p>
       <p>
+  Herodias is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>)
+
+  as the woman who orchestrated the beheading of John the Baptist,
+  driven by her hatred for his condemnation of her marriage to Herod
+  Antipas, which was unlawful according to Jewish law.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2211,6 +2662,15 @@ about, and click to learn more about their role in the series.
       <p>
         Salome is the daughter of Queen Herodias and the stepdaughter of King Herod Antipas.
         <a href="https://the-chosen.fandom.com/wiki/Salome_(Daughter_of_Herodias)" target="_blank">... more</a>
+      </p>
+      <p>
+  Salome is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.22-28`)" target="_blank">Mark 6:22-28</a>)
+
+  as the young woman who, at the prompting of her mother, requested
+  the beheading of John the Baptist from Herod Antipas, an act that
+  led to the prophet's execution.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2244,6 +2704,16 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Dasha" target="_blank">... more</a>
       </p>
       <p>
+  Simon Peter's mother-in-law is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.29-31`)" target="_blank">Mark 1:29-31</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.4.38-39`)" target="_blank">Luke 4:38-39</a>),
+
+  though her name is not provided in the Bible.  Dasha is an addition
+  for The Chosen to give her more depth in the story.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2268,6 +2738,16 @@ about, and click to learn more about their role in the series.
       <p>
         Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
         <a href="https://the-chosen.fandom.com/wiki/Ethan" target="_blank">... more</a>
+      </p>
+      <p>
+  While the Gospels recount the story of a paralytic being lowered
+  through the roof for healing 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.17-26`)" target="_blank">Luke 5:17-26</a>),
+
+  the Bible does not provide specific names for those involved,
+  including Ethan.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2296,6 +2776,14 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Jesse" target="_blank">... more</a>
       </p>
       <p>
+  While the Gospels mention a healing at the Pool of Bethesda 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.5.1-9`)" target="_blank">John 5:1-9</a>),
+
+  the Bible does not provide specific names for those healed,
+  including Jesse.
+      </p>
+      <p>
         <a href="#characters">... back to Characters</a>
       </p>
     </div>
@@ -2320,6 +2808,16 @@ about, and click to learn more about their role in the series.
       <p>
         Veronica is a woman from Caesarea Philippi, who has formerly suffered from a discharge of blood for twelve years and is healed by Jesus.
         <a href="https://the-chosen.fandom.com/wiki/Veronica" target="_blank">... more</a>
+      </p>
+      <p>
+  While the Bible recounts the story of a woman healed from a
+  long-term hemorrhage 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.25-34`)" target="_blank">Mark 5:25-34</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.43-48`)" target="_blank">Luke 8:43-48</a>),
+
+  she is not named in the Gospels, and Veronica is an addition for the
+  series.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
