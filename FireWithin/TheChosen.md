@@ -111,8 +111,11 @@
   
 - **&#10022;RoundTables&#10022;**
 
-  Dallas Jenkins and his advisers _(a Catholic, a Jew, and an
-  Evangelical)_ dive deeper into each episode!
+  Dallas Jenkins and his advisers _(
+  a Catholic - [Father David Guffey](https://angelusnews.com/local/california/fr-guffey-named-family-theater-head/),
+  a Jew - [Rabbi Jason Sobel](https://www.fusionglobal.org/about-us/rabbi-jason/),
+  and an Evangelical - [Dr. Doug Huffman](https://www.biola.edu/directory/people/douglas-huffman)
+  )_ dive deeper into each episode!
 
   There is one RoundTable for each episode, and you can find them
   linked directly below each episode link.
@@ -619,8 +622,14 @@ M{ sermonSeries({
 
 The Chosen features many characters, and it’s easy to lose track. This
 visual guide highlights the key players to help you follow the story
-as it unfolds. Simply match the images to the character you're curious
-about, and click to learn more about their role in the series.
+as it unfolds. 
+
+Simply match the images to the character you're curious about, **and
+click to learn more** about their role in the series, including:
+
+- a **storyline summary**, 
+- **Bible references** when applicable,
+- _or an explanation when the character was uniquely created for The Chosen to help enrich the narrative_.
 
 <nav class="char-category-nav">
   <a href="#jesus--the-apostles">Jesus & The Apostles</a>
@@ -731,9 +740,24 @@ about, and click to learn more about their role in the series.
     <div>Ramah</div>
   </a>
 
+  <a class="char-thumbnail" href="#mary-of-nazareth">
+    <img src="TheChosenImg/MaryOfNazareth.png" alt="Mary of Nazareth">
+    <div><i>Mary of Nazareth</i></div>
+  </a>
+
   <a class="char-thumbnail" href="#eden">
     <img src="TheChosenImg/Eden.png" alt="Eden">
     <div>Eden</div>
+  </a>
+
+  <a class="char-thumbnail" href="#mary-of-bethany">
+    <img src="TheChosenImg/MaryOfBethany.png" alt="Mary of Bethany">
+    <div><i>Mary of Bethany</i></div>
+  </a>
+
+  <a class="char-thumbnail" href="#martha">
+    <img src="TheChosenImg/Martha.png" alt="Martha">
+    <div><i>Martha</i></div>
   </a>
 
   <a class="char-thumbnail" href="#joanna">
@@ -916,6 +940,11 @@ about, and click to learn more about their role in the series.
 
 <div class="char-visual-index">
 
+  <a class="char-thumbnail" href="#mary-magdalene">
+    <img src="TheChosenImg/MaryMagdalene.png" alt="Mary Magdalene">
+    <div><i>Mary Magdalene</i></div>
+  </a>
+
   <a class="char-thumbnail" href="#dasha">
     <img src="TheChosenImg/Dasha.png" alt="Dasha">
     <div>Dasha</div>
@@ -931,9 +960,24 @@ about, and click to learn more about their role in the series.
     <div>Jesse</div>
   </a>
 
+  <a class="char-thumbnail" href="#photina">
+    <img src="TheChosenImg/Photina.png" alt="Photina">
+    <div><i>Photina</i></div>
+  </a>
+
   <a class="char-thumbnail" href="#veronica">
     <img src="TheChosenImg/Veronica.png" alt="Veronica">
     <div>Veronica</div>
+  </a>
+
+  <a class="char-thumbnail" href="#jairus">
+    <img src="TheChosenImg/Jairus.png" alt="Jairus">
+    <div><i>Jairus</i></div>
+  </a>
+
+  <a class="char-thumbnail" href="#lazarus">
+    <img src="TheChosenImg/Lazarus.png" alt="Lazarus">
+    <div><i>Lazarus</i></div>
   </a>
 
 </div>
@@ -1593,7 +1637,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Tamar" target="_blank">... more</a>
       </p>
       <p>
-  Tamar is a fictional character in The Chosen.  While the story of
+  Tamar was uniquely created for The Chosen.  While the story of
   the paralytic lowered through the roof is found in 
 
   <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>,
@@ -1627,9 +1671,9 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Ramah" target="_blank">... more</a>
       </p>
       <p>
-  Ramah is a fictional character in The Chosen.  There is no mention
-  of her, or of a romantic partner for the Apostle Thomas, in the
-  Bible.
+  Ramah was uniquely created for The Chosen to help enrich the
+  narrative.  There is no mention of her, or of a romantic partner for
+  the Apostle Thomas, in the Bible.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2189,7 +2233,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Yussif" target="_blank">... more</a>
       </p>
       <p>
-  Yussif is a fictional character created for The Chosen.  While there
+  Yussif was uniquely created for The Chosen. While there
   were members of the Sanhedrin who believed in Jesus secretly (like
   Nicodemus and Joseph of Arimathea), Yussif is not named in the
   biblical text.
@@ -2254,7 +2298,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Shmuel" target="_blank">... more</a>
       </p>
       <p>
-  Shmuel is a fictional character created for The Chosen. While
+  Shmuel was uniquely created for The Chosen. While
   Pharisees are frequently mentioned in the Gospels as opponents of
   Jesus, no individual named Shmuel appears in the biblical text.
       </p>
@@ -2285,7 +2329,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Akiva" target="_blank">... more</a>
       </p>
       <p>
-  Akiva is a fictional character created for The Chosen.  While there
+  Akiva was uniquely created for The Chosen.  While there
   were many Pharisees in Capernaum during the time of Jesus, Akiva is
   not mentioned in the Bible.
       </p>
@@ -2389,7 +2433,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Yanni" target="_blank">... more</a>
       </p>
       <p>
-  Yanni is a fictional character created for The Chosen.  While there
+  Yanni was uniquely created for The Chosen.  While there
   were numerous Pharisees in Jerusalem during Jesus's time, no
   individual named Yanni is mentioned in the Bible.
       </p>
@@ -2425,8 +2469,8 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Gaius" target="_blank">... more</a>
       </p>
       <p>
-  Gaius is a fictional character created for The Chosen.  The
-  character of Gaius, as well as his backstory and role as a
+  Gaius was uniquely created for The Chosen to help enrich the narrative.
+  The character of Gaius, as well as his backstory and role as a
   magistrate, is a creative addition for the series.
       </p>
       <p>
@@ -2456,7 +2500,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio" target="_blank">... more</a>
       </p>
       <p>
-  Quintus is a fictional character created for The Chosen. Although
+  Quintus was uniquely created for The Chosen. Although
   the Bible references Roman officials in the region, such as Pilate
   and the centurion, no individual named Quintus is mentioned in the
   biblical text.
@@ -2488,7 +2532,7 @@ about, and click to learn more about their role in the series.
         <a href="https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher" target="_blank">... more</a>
       </p>
       <p>
-  Atticus is a fictional character created for The Chosen. While the
+  Atticus was uniquely created for The Chosen to help enrich the narrative.  While the
   Roman cohortes urbanae did play a role in maintaining order and
   investigating threats, no character named Atticus appears in the
   Bible or historical records related to Jesus.
@@ -2780,8 +2824,7 @@ about, and click to learn more about their role in the series.
 
   (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.5.1-9`)" target="_blank">John 5:1-9</a>),
 
-  the Bible does not provide specific names for those healed,
-  including Jesse.
+  the Bible does not name Jesse as the one that was healed.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
