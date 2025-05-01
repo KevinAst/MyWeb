@@ -24,6 +24,10 @@ M{ toc({
     { href: `#april`,       label: `April`,                                             },
     { ref:  `1jn.1.9`,      label: `1 John 1:9 (Evangelism)`,            indent: true,  },
     { ref:  `rom.3.21-23`,  label: `Romans 3:21-23 (Evangelism)`,        indent: true,  },
+
+    { href: `#may`,         label: `May`,                                               },
+    { ref:  `rom.6.23`,     label: `Romans 6:23 (Evangelism)`,           indent: true,  },
+    { ref:  `rom.10.9-10`,  label: `Romans 10:9-10 (Evangelism)`,        indent: true,  },
   ]
 }) }M
 
@@ -594,6 +598,95 @@ glorious standard of God.
 
 On our own merit, we fall short. We need Jesus in order to have a
 right relationship with God.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+
+
+<span id="may"></span>
+
+_**[May Flyer](https://fbmaryville.org/s/25in25cards_may.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.6.23`,
+  label:   `Romans 6:23 (Evangelism)`,
+  context: `earned death, offered life`,
+  text: {
+    NLT:    `For the wages of sin is death, but the free gift of God is eternal life through Christ Jesus our Lord.`,
+    NKJV:   `For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.`,  
+    ESV:    `For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.`,
+    "NIV*": `For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_6_23',
+  label:  'Additional Thoughts',
+}) }P
+
+Since none of us are perfect, we are all sinners. 
+Because of our sin, we have earned the wages of our sin, death. 
+Death is eternal separation from the presence Of God. 
+
+Thankfully, God has given us the gift of eternal life through Jesus.
+_**Jesus paid for our sins by dying on the cross.**_
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.10.9-10`,
+  label:   `Romans 10:9-10 (Evangelism)`,
+  context: `say it, believe it, be saved`,
+  text: {
+    NLT:    `If you openly declare that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved. For it is by believing in your heart that you are made right with God, and it is by openly declaring your faith that you are saved.`,
+    NKJV:   `that if you confess with your mouth the Lord Jesus and believe in your heart that God has raised Him from the dead, you will be saved. For with the heart one believes unto righteousness, and with the mouth confession is made unto salvation.`,  
+    ESV:    `because, if you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved. For with the heart one believes and is justified, and with the mouth one confesses and is saved.`,
+    "NIV*": `If you declare with your mouth, “Jesus is Lord,” and believe in your heart that God raised him from the dead, you will be saved. For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_10_9-10',
+  label:  'Additional Thoughts',
+}) }P
+
+In our hearts we believe. 
+Our mouths say what is in our heart. 
+The way we live our life shows what is in our heart. 
+
+_**What does your mouth and life say about what you believe?**_
+
+Believe in your heart _(have faith)_ that Jesus is Lord and that God raised Him from the dead. 
+Do this and you will be justified. 
+Profess your faith _(make it known to others)_ and you will be saved!
+
+Next, you can live out your faith every day!
 
 P{ collapsibleSectionEnd() }P
 

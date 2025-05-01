@@ -112,13 +112,14 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20250105`, sermon: `Suffering Well`,                scripture: `2co.1@@2 Cor 1`,       },
-    { id: `20250112`, sermon: `Spreading the Fragrance`,       scripture: `2co.2@@2 Cor 2`,       },
-    { id: `20250126`, sermon: `Step into the Light`,           scripture: `2co.4@@2 Cor 4`,       },
-    { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,   scripture: `2co.4@@2 Cor 4:7-5:8`, },
-    { id: `20250216`, sermon: `Judgment is Coming`,            scripture: `2co.5@@2 Cor 5:9–11`,  },
-    { id: `20250302`, sermon: `Reconciliation`,                scripture: `2co.5@@2 Corinthians 5:17-21`, },
-    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,    scripture: `2co.6@@2 Corinthians 6:1`,     },
-    { id: `20250323`, sermon: `The Yoke’s on You`,             scripture: `2co.6@@2 Corinthians 6:14-18`, }, // ?? waiting for studyGuide
+    { id: `20250105`, sermon: `Suffering Well`,                  scripture: `2co.1@@2 Cor 1`,       },
+    { id: `20250112`, sermon: `Spreading the Fragrance`,         scripture: `2co.2@@2 Cor 2`,       },
+    { id: `20250126`, sermon: `Step into the Light`,             scripture: `2co.4@@2 Cor 4`,       },
+    { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,     scripture: `2co.4@@2 Cor 4:7-5:8`, },
+    { id: `20250216`, sermon: `Judgment is Coming`,              scripture: `2co.5@@2 Cor 5:9–11`,  },
+    { id: `20250302`, sermon: `Reconciliation`,                  scripture: `2co.5@@2 Corinthians 5:17-21`, },
+    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,     },
+    { id: `20250323`, sermon: `The Yoke’s on You`,               scripture: `2co.6@@2 Corinthians 6:14-18`, },
+    { id: `20250330`, sermon: `Outside Conflicts, Inside Fears`, scripture: `2co.7@@2 Corinthians 7`,       },
   ]
 }) }M
