@@ -89,6 +89,11 @@ Release           | What                 | *When*
     linked directly below each episode link
 
 
+- Created an isolated promotional page (a gist of sorts) to introduce
+  FireWithin's "The Chosen" page.
+  * see: https://wiiBridges.com/FireWithin/TheChosenPromo.html
+
+
 - Added FBM's May Memory Verses in {{book.Memorization}} page - Romans 6:23 & Romans 10:9-10
 
 - Updated Current Sermon Series
