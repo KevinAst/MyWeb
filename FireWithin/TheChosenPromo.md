@@ -37,10 +37,10 @@ more - all in one place.
 
 Below are a few annotated screenshots to highlight what’s available.
 
-- [📚 Consolidated Resource Links](#📚-consolidated-resource-links)
-- [📝 Descriptions](#📝-descriptions)
-- [🎭 Visual Character Guide](#🎭-visual-character-guide)
-- [✅ Final Note](#✅-final-note)
+- [Consolidated Resource Links](#📚-consolidated-resource-links)
+- [Descriptions](#📝-descriptions)
+- [Visual Character Guide](#🎭-visual-character-guide)
+- [Final Note](#✅-final-note)
 
 
 ## 📚 Consolidated Resource Links
