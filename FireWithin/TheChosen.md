@@ -160,6 +160,15 @@
     To work around this, simply **long-press** the `Devo-x` link, and
     click the "**open in browser**" option.
 
+- **Characters**
+
+  Don't forget to use the [Visual Character Guide](#characters) to
+  sort out **"who is who"**!  With so many characters in *The Chosen*,
+  it's easy to lose track.
+
+  <a href="/TheChosenPromo.md" target="_blank">This Promo</a> shows how to use it!!
+
+
 
 ## Season 1 
 

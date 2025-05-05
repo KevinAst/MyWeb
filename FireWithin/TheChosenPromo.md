@@ -24,6 +24,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # The Chosen (FireWithin)
 
+_**I'm very exited to announce**_ that 
+[version 24.7](https://wiibridges.com/FireWithin/history.html#v24_7) 
+of [FireWithin](https://wiibridges.com/FireWithin) has added a 
+[Visual Character Guide](https://wiibridges.com/FireWithin/TheChosen.html#characters)
+to "The Chosen" page!  _To get a feel for this, check out the screen
+shots (**below**)._
+
+
+## At a Glance
+
 If you're a fan of [*The Chosen*](https://thechosen.tv/), you know how
 rich and layered the series is - both spiritually and narratively. To
 make it easier to navigate all the supporting content, I’ve put
@@ -37,10 +47,45 @@ more - all in one place.
 
 Below are a few annotated screenshots to highlight what’s available.
 
+- [Visual Character Guide](#🎭-visual-character-guide)
 - [Consolidated Resource Links](#📚-consolidated-resource-links)
 - [Descriptions](#📝-descriptions)
-- [Visual Character Guide](#🎭-visual-character-guide)
 - [Final Note](#✅-final-note)
+
+
+## 🎭 Visual Character Guide
+
+With so many characters in *The Chosen*, it can be easy to lose track.  
+
+The latest release of this page promotes a 
+[Visual Guide](https://wiibridges.com/FireWithin/TheChosen.html#characters)
+that highlights the key players _**(50+ and counting)**_ to help you follow
+the story as it unfolds.
+
+![Visual Character Guide](TheChosenImg/promo_visualCharGuide_annotate.png)
+
+<!-- IMAGE ANNOTATION NOTES:
+
+- TEXT: Hover over Image & Click TO Show Detail
+
+-->
+
+Simply match a face to the character you’re curious about - **and click
+to learn more** about their role in the series, including:
+
+- A brief **storyline summary**  
+- Relevant **Bible references** (when applicable)  
+- _Or an explanation for characters uniquely created for *The Chosen* to support the narrative_
+
+![Visual Character Detail](TheChosenImg/promo_visualCharDetail_annotate.png)
+
+<!-- IMAGE ANNOTATION NOTES:
+
+- TEXT: Storyline Summary <<< TIMES TWO (BOTH Mary Magdalene & Tamar)
+- TEXT: Bible References  <<< Mary Magdalene
+- TEXT: Non Biblical Character Explanation <<< Tamar
+
+-->
 
 
 ## 📚 Consolidated Resource Links
@@ -81,42 +126,7 @@ and compact._
 -->
 
 
-## 🎭 Visual Character Guide
-
-With so many characters in *The Chosen*, it can be easy to lose track.  
-
-The latest release of this page promotes a 
-[Visual Guide](https://wiibridges.com/FireWithin/TheChosen.html#characters)
-that highlights the key players _**(50+ and counting)**_ to help you follow
-the story as it unfolds.
-
-![Visual Character Guide](TheChosenImg/promo_visualCharGuide_annotate.png)
-
-<!-- IMAGE ANNOTATION NOTES:
-
-- TEXT: Hover over Image & Click TO Show Detail
-
--->
-
-Simply match a face to the character you’re curious about - **and click
-to learn more** about their role in the series, including:
-
-- A brief **storyline summary**  
-- Relevant **Bible references** (when applicable)  
-- _Or an explanation for characters uniquely created for *The Chosen* to support the narrative_
-
-![Visual Character Detail](TheChosenImg/promo_visualCharDetail_annotate.png)
-
-<!-- IMAGE ANNOTATION NOTES:
-
-- TEXT: Storyline Summary <<< TIMES TWO (BOTH Mary Magdalene & Tamar)
-- TEXT: Bible References  <<< Mary Magdalene
-- TEXT: Non Biblical Character Explanation <<< Tamar
-
--->
-
-
-### ✅ Final Note
+## ✅ Final Note
 
 This resource was built to support deeper engagement with *The
 Chosen*-whether you're watching for the first time, rewatching with a

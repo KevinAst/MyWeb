@@ -84,6 +84,7 @@ Release           | What                 | *When*
 
 - **{{book.TheChosen}}** page was updated as follows
   * a new **{{book.TCCharactersM}}** section promotes a **Visual Guide**
+    _([check out the promo](https://wiiBridges.com/FireWithin/TheChosenPromo.html))_
   * updated {{book.TCSeason1M}} **Deep Dives** with the latest revised entries
   * added the &#10022;RoundTables&#10022;, _from Dallas Jenkins and his advisers,_ 
     linked directly below each episode link
