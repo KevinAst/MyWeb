@@ -84,15 +84,16 @@ Release           | What                 | *When*
 
 - **{{book.TheChosen}}** page was updated as follows
   * a new **{{book.TCCharactersM}}** section promotes a **Visual Guide**
-    _([check out the promo](https://wiiBridges.com/FireWithin/TheChosenPromo.html))_
+    _(<a href="/TheChosenPromo.html" target="_blank">check out the promo</a>)_
+
   * updated {{book.TCSeason1M}} **Deep Dives** with the latest revised entries
   * added the &#10022;RoundTables&#10022;, _from Dallas Jenkins and his advisers,_ 
     linked directly below each episode link
 
 
-- Created an isolated promotional page (a gist of sorts) to introduce
-  FireWithin's "The Chosen" page.
-  * see: https://wiiBridges.com/FireWithin/TheChosenPromo.html
+- Created an
+  <a href="/TheChosenPromo.html" target="_blank">isolated promotional page</a>
+  _(a gist of sorts)_ to introduce FireWithin's "{{book.TheChosen}}" page.
 
 
 - Added FBM's May Memory Verses in {{book.Memorization}} page - Romans 6:23 & Romans 10:9-10

@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
 # The Chosen (FireWithin)
 
 _**I'm very exited to announce**_ that 
-[version 24.7](https://wiibridges.com/FireWithin/history.html#v24_7) 
-of [FireWithin](https://wiibridges.com/FireWithin) has added a 
-[Visual Character Guide](https://wiibridges.com/FireWithin/TheChosen.html#characters)
+<a href="/history.html#v24_7" target="_blank">version 24.7</a>
+of <a href="/" target="_blank">FireWithin</a> has added a 
+<a href="/TheChosen.html#characters" target="_blank">Visual Character Guide</a>
 to "The Chosen" page!  _To get a feel for this, check out the screen
 shots (**below**)._
 
@@ -38,9 +38,9 @@ If you're a fan of [*The Chosen*](https://thechosen.tv/), you know how
 rich and layered the series is - both spiritually and narratively. To
 make it easier to navigate all the supporting content, I’ve put
 together a dedicated 
-[**Chosen Resources Page**](https://wiibridges.com/FireWithin/TheChosen.html), 
+<a href="/TheChosen.html" target="_blank"><b>Chosen Resources Page</b></a>,
 part of my
-[**FireWithin**](https://wiibridges.com/FireWithin/) Bible Study Blog.
+<b><a href="/" target="_blank">FireWithin</a></b> Bible Study Blog.
 
 This page consolidates episode links, commentary, study materials, and
 more - all in one place.
@@ -58,7 +58,7 @@ Below are a few annotated screenshots to highlight what’s available.
 With so many characters in *The Chosen*, it can be easy to lose track.  
 
 The latest release of this page promotes a 
-[Visual Guide](https://wiibridges.com/FireWithin/TheChosen.html#characters)
+<a href="/TheChosen.html#characters" target="_blank">Visual Guide</a>
 that highlights the key players _**(50+ and counting)**_ to help you follow
 the story as it unfolds.
 
@@ -136,7 +136,7 @@ Feel free to **share the page** with others who might find it
 helpful. And if you have suggestions for additional features or links,
 I’d love to hear them!
 
-[Explore **The Chosen** page → here](https://wiibridges.com/FireWithin/TheChosen.html)
+<a href="/TheChosen.html" target="_blank">Explore <b>The Chosen</b> page → here</a>
 
 
 <!-- Brief words in promotion (email/TXT/ETC):
