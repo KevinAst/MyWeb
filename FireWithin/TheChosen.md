@@ -204,8 +204,11 @@ M{ sermonSeries({
       desc:               `Two brothers struggle with their tax debts to Rome while a woman in the Red Quarter wrestles with her demons.`,
       scripture:          `isa.43.1@@Isaiah 43:1##isa.42.1-3@@CR:Isaiah 42:1-3##mat.18.12-14@@CR:Matthew 18:12-14##luk.8.2@@CR:Luke 8:2`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/1@@Devo-1`,
-//OLD date:               `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
       date:               `DeepDive:D_LBTz8mGW0@@Intro##VdUPmi7vl8I@@Mary Magdalene (O)##JaedLqA5lpI@@Matthew##kA0pOpzV_9U@@Nicodemus##AlBBrSObPHA@@Simon/Andrew/Eden`,
+                          // OLD DeepDives:
+                          //     - yCafoz6lKwg@@Nicodemus (O)         ... REPEAT OF: kA0pOpzV_9U@@Nicodemus
+                          //     - 7bMaiOwYjhg@@Simon/Andrew/Eden (O) ... REPEAT OF: AlBBrSObPHA@@Simon/Andrew/Eden
+                          //     - jfHlTrTgc4w@@Character Guide (O)   ... NO NEED FOR THIS (with my Characters section - below)
     },
     {
       id:                 `TC-S1-E2`, 
@@ -215,8 +218,9 @@ M{ sermonSeries({
       desc:               `Matthew validates Simon's claims with Praetor Quintus, Nicodemus investigates the miracle reported in the Red Quarter, and Mary receives surprise guests at her Shabbat dinner.`,
       scripture:          `jhn.9.1-6@@John 9:1-6##jhn.9.18-25@@CR:John 9:18-25##mat.11.28-29@@CR:Matthew 11:28-29`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/2@@Devo-2`,
-//OLD date:               `DeepDive:kZyrhFdNuJw@@Shabbat##H37YA8LyCLE@@Eden##NTqiBcJ62NU@@Sanhedrin`,
       date:               `DeepDive:k3MX6omaHCc@@Overview##5P0UqGJ-tI8@@Matthew##kZyrhFdNuJw@@Shabbat (O)##H37YA8LyCLE@@Eden (O)##NTqiBcJ62NU@@Sanhedrin (O)`,
+                          // OLD DeepDives:
+                          //     - kept all the OLD DeepDives!
     },
     {
       id:                 `TC-S1-E3`, 
@@ -226,8 +230,9 @@ M{ sermonSeries({
       desc:               `Jesus befriends and teaches the group of children who discover His camp on the outskirts of Capernaum.`,
       scripture:          `mat.5.43-45@@Matthew 5:43-45##mat.18.1-5@@CR:Matthew 18:1-5##mat.19.13-14@@CR:Matthew 19:13-14`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/3@@Devo-3`,
-//OLD date:               `DeepDive:_O7U3Pn_kMA@@Jesus' Humanity`,
       date:               `DeepDive:TEA5wigjzTs@@Jesus' Humanity`,
+                          // OLD DeepDives:
+                          //     - _O7U3Pn_kMA@@Jesus' Humanity (O) ...  REPEAT OF: TEA5wigjzTs@@Jesus' Humanity
     },
     {
       id:                 `TC-S1-E4`, 
@@ -237,8 +242,9 @@ M{ sermonSeries({
       desc:               `With his life and family under threat from Rome, Simon spends one last night fishing in a desperate attempt to square his debts. Andrew spots a familiar face waiting for them on the shores of Galilee.`,
       scripture:          `luk.5.1-11@@Luke 5:1-11##eph.2.4-8@@CR:Ephesians 2:4-8`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/4@@Devo-4`,
-//OLD date:               `DeepDive:1mHmfkCEl0M@@Fish & Brothers##lbsJ19B3lWM@@Simon's Marriage`,
-      date:               `DeepDive:rGhvQpj9O7Q@@Simon##1mHmfkCEl0M@@Fish & Brothers (O??)##lbsJ19B3lWM@@Simon's Marriage (O??)##AaOCUkjETqg@@More Matthew`,
+      date:               `DeepDive:rGhvQpj9O7Q@@Simon##1mHmfkCEl0M@@Fish & Brothers (O)##AaOCUkjETqg@@Matthew`,
+                          // OLD DeepDives:
+                          //     - lbsJ19B3lWM@@Simon's Marriage (O) ... REPEAT OF: rGhvQpj9O7Q@@Simon
     },
     {                     // NO Devotion for this episode
       id:                 `TC-S1-E5`, 
@@ -248,8 +254,10 @@ M{ sermonSeries({
       desc:               `Nicodemus interrogates John the Baptizer while Jesus and his students make their way to a wedding celebration in Cana. When the wine runs low, Mary asks her son to intervene on behalf of the bridegroom's family.`,
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
-//OLD date:               `DeepDive:oH2XU-QZJeE@@John the Baptist##Xq-ugp-u2Ks@@Simon's Calling`,
-      date:               `DeepDive:gaMxQAVBQ2g@@Mary##6gU-s1NDkPk@@Simon & Eden##Xq-ugp-u2Ks@@Simon's Calling (O??)##EgwAsAs52z8@@First Miracle##xyRdFXeXZwE@@John the Baptist`,
+      date:               `DeepDive:gaMxQAVBQ2g@@Mary##6gU-s1NDkPk@@Simon & Eden##EgwAsAs52z8@@First Miracle##xyRdFXeXZwE@@John the Baptist`,
+                          // OLD DeepDives:
+                          //     - oH2XU-QZJeE@@John the Baptist (O) ... REPEAT OF: John the Baptist
+                          //     - Xq-ugp-u2Ks@@Simon's Calling (O)  ... REPEAT OF: 6gU-s1NDkPk@@Simon & Eden
     },
     {
       id:                 `TC-S1-E6`, 
@@ -259,8 +267,10 @@ M{ sermonSeries({
       desc:               `After witnessing the healing of a leper on the road to Capernaum, a woman forces her paralytic friend through the crowd to meet Jesus.`,
       scripture:          `mrk.2.1-12@@Mark 2:1-12##rom.13.8-10@@CR:Romans 13:8-10`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/5@@Devo-5`,
-//OLD date:               `DeepDive:r3jcFfSL58s@@Matthew/Nicodemus/Tamar##kskQBLoZEuE@@Nicodemus/Shmuel##e-cXGiVU2rw@@Tamar`,
-      date:               `DeepDive:soi8xIVsvpk@@Paralytic Healing##rIibE-G5ufA@@Jesus in New Light##QAgZySJ-klM@@Nicodemus/Shmuel##r3jcFfSL58s@@Matthew/Nicodemus/Tamar (O??)##e-cXGiVU2rw@@Tamar (O??)`,
+      date:               `DeepDive:soi8xIVsvpk@@Paralytic Healing##rIibE-G5ufA@@Jesus in New Light##QAgZySJ-klM@@Nicodemus/Shmuel##r3jcFfSL58s@@Matthew/Nicodemus/Tamar (O)`,
+                          // OLD DeepDives:
+                          //     - kskQBLoZEuE@@Nicodemus/Shmuel (O) ... REPEAT OF: QAgZySJ-klM@@Nicodemus/Shmuel
+                          //     - e-cXGiVU2rw@@Tamar (O)            ... REPEAT OF: soi8xIVsvpk@@Paralytic Healing
     },
     {
       id:                 `TC-S1-E7`, 
@@ -270,8 +280,9 @@ M{ sermonSeries({
       desc:               `Matthew struggles to reconcile the miracles he has witnessed with reality. Nicodemus meets with Jesus by night.`,
       scripture:          `jhn.3.1-17@@John 3:1-17`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/6@@Devo-6`,
-//OLD date:               `DeepDive:647-s2nPDYA@@Matthew Follows Jesus`,
       date:               `DeepDive:wsscoeJ9Bh4@@Matthew Follows Jesus`,
+                          // OLD DeepDives:
+                          //     - 647-s2nPDYA@@Matthew Follows Jesus (O) ... REPEAT OF: wsscoeJ9Bh4@@Matthew Follows Jesus
     },
     {
       id:                 `TC-S1-E8`, 
@@ -282,8 +293,9 @@ M{ sermonSeries({
 //    scripture: TRASH    `gen.33.18-20@@Genesis 33:18-20##mrk.2.13-17@@CR:Mark 2:13-17##mat.9.9-13@@CR:Matthew 9:9-13##jhn.4.1-42@@CR:John 4:1-42`,
       scripture:          `jhn.4.4-26@@John 4:4-26##jhn.4.39-42@@CR:John 4:39-42`,
       studyGuide:         `https://bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan/day/7@@Devo-7`,
-//OLD date:               `DeepDive:FXV381GrlME@@Woman at the Well`,
       date:               `DeepDive:a6g3rpy6QVU@@Dasha Healing##V6J-RNl43iQ@@Woman at the Well`,
+                          // OLD DeepDives:
+                          //     - FXV381GrlME@@Woman at the Well (O) ... REPEAT OF: V6J-RNl43iQ@@Woman at the Well
     },
   ]
 }) }M
