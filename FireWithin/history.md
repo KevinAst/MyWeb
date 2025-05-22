@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 23, 2025*
+[v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 22, 2025*
 [v24.7](#v24_7)   | Chosen Updates, Memory Verse, & Sermon Sync      | *May 1, 2025*
 [v24.6](#v24_6)   | April Memory Verses & Sync Current Sermon Series | *Mar 26, 2025*
 [v24.5](#v24_5)   | Released FBM "25 in 25" Memorization App & more  | *Feb 25, 2025*
@@ -80,17 +80,22 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v24_8" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v24.8 - June Memory Verses & Sync Current Sermon Series <i>(May 23, 2025)</i>
+  v24.8 - June Memory Verses & Sync Current Sermon Series <i>(May 22, 2025)</i>
 </h3>
 <br/>
 
 - Added FBM's June Memory Verses in {{book.Memorization}} page - Ephesians 4:31-32 & Hebrews 3:12-14
 
 
-- ?? Updated Current Sermon Series
+- Updated Current Sermon Series
   * {{book.2Corinthians}} Series (Sundays)
-  * {{book.1Kings}} Series (Mid Week)
-
+  * {{book.2Kings}} Series (Mid Week)
+  * added **"Reclaiming the Cultural Mandate (Seth Gruber)"** in the
+    {{book.MoralDecay}} section of {{book.CurrentEvents}} _(under
+    {{book.SpecialEvents}})_
+  * added **Angel Series** in the
+    {{book.Misc}} section of {{book.CurrentEvents}} _(under
+    {{book.SpecialEvents}})_
 
 
 

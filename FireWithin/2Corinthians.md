@@ -121,5 +121,7 @@ M{ sermonSeries({
     { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,     },
     { id: `20250323`, sermon: `The Yoke’s on You`,               scripture: `2co.6@@2 Corinthians 6:14-18`, },
     { id: `20250330`, sermon: `Outside Conflicts, Inside Fears`, scripture: `2co.7@@2 Corinthians 7`,       },
+    { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,     },
+    { id: `20250518`, sermon: `Weapons of our Warfare`,          scripture: `2co.10@@2 Corinthians 10`,     },
   ]
 }) }M
