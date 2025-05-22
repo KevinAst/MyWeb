@@ -92,6 +92,7 @@ M{ sermonSeries({
     { id: `20241002`, sermon: `Representing Christ In The Cultural Crisis (James Ward)`, scripture: `2co.5.20@@2 Corinthians 5:20`,    studyGuide: `NONE`, },
     { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalm 83`,                                    },
     { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
+    { id: `20250504`, sermon: `Reclaiming the Cultural Mandate (Seth Gruber)`,           scripture: `gen.1@@Genesis 1`,                studyGuide: `NONE`, },
   ]
 }) }M
 
@@ -102,6 +103,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`, scripture: `jhn.8@@John 8`, studyGuide: `NONE`, },
+    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`,                             scripture: `jhn.8@@John 8`,      studyGuide: `NONE`, },
+    { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,  scripture: `mat.28@@Matthew 28`, studyGuide: `NONE`, },
+    { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,   scripture: `heb.13@@Hebrews 13`, studyGuide: `NONE`, },
   ]
 }) }M

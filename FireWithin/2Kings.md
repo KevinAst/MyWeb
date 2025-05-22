@@ -15,6 +15,7 @@ to us in the death and resurrection of Jesus.
 
 - [Overview](#overview)
 - [2015 2 Kings Series (Sundays)](#2015-2-kings-series-sundays)
+- [2025 2 Kings Series (Mid Week)](#2025-2-kings-series-mid-week)
 
 
 ## Overview
@@ -86,5 +87,20 @@ M{ sermonSeries({
     { id: `20150614`, sermon: `Don't Be So Full of Yourself`,          scripture: `2ki.18@@2 Kings 18-20`, },
     { id: `20150621`, sermon: `The Effect of God's Word`,              scripture: `2ki.21@@2 Kings 21-23`, },
     { id: `20150628`, sermon: `God Has Not Forsaken His People`,       scripture: `2ki.24@@2 Kings 24-25`, },
+  ]
+}) }M
+
+
+## 2025 2 Kings Series (Mid Week)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20250507`, scripture: `2ki.1@@2 Kings 1&2`,  },
+    { id: `20250514`, scripture: `2ki.3@@2 Kings 3-4`,  },
   ]
 }) }M
