@@ -84,7 +84,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Added FBM's June Memory Verses in {{book.Memorization}} page - Ephesians 4:31-32 & Hebrews 3:12-14
+- Added FBM's June Memory Verses in {{book.Memorization}} page - Ephesians 4:31-32 & Hebrews 3:12-14
 
 
 - ?? Updated Current Sermon Series
