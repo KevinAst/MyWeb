@@ -98,6 +98,9 @@ Release           | What                 | *When*
     {{book.SpecialEvents}})_
 
 
+- Added Psalms Series to {{book.MySmallGroup}} _(v24.8B)_
+
+
 
 <!-- ************************************************************* -->
 <br/>
