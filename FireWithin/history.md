@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *June 28, 2025*
 [v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 22, 2025*
 [v24.7](#v24_7)   | Chosen Updates, Memory Verse, & Sermon Sync      | *May 1, 2025*
 [v24.6](#v24_6)   | April Memory Verses & Sync Current Sermon Series | *Mar 26, 2025*
@@ -75,6 +76,23 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v24_9" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v24.9 - July Memory Verses & Sync Current Sermon Series <i>(June 28, 2025)</i>
+</h3>
+<br/>
+
+- ?? Added FBM's July Memory Verses in {{book.Memorization}} page - ?? Ephesians 4:31-32 & Hebrews 3:12-14
+
+
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.2Kings}} Series (Mid Week)
+  * added {{book.Psalms}} Misc Sermon (06/22/2025: When in Times of Trouble)
+
 
 
 <!-- ************************************************************* -->
