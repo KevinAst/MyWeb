@@ -1152,13 +1152,17 @@ function memorizeVerse(namedParams={}) {
   translationKeys.forEach(translationKey => {
     content += `<div class="indent" data-memory-verse-translation="${translationKey}">`;
     content +=   `<blockquote><p style="font-size: 1.4em; font-weight: bold; font-style: italic;">${text[translationKey]}</p></blockquote>`; // verse text ... 1.4em - 40% larger than it's parent element
-    content +=   `<audio controls loop style="display: block; margin: 0 auto;" onplay="fw.preventConcurrentAudioPlayback(this)">`; // audio playback controls
-    content +=     `<source src="Memorization/${scriptRef}.${translationKey}.m4a" type="audio/mp4">`;
-    content +=     `audio NOT supported by this browser :-(`;
-    content +=   `</audio>`;
-  //content +=   `<p>&nbsp;</p>`; // ... replaced by `... study Luke` in Memorization.md
     content += `</div>`;
   });
+
+  // our custom audio control buttons that tap into the one-and-only <audio>
+  content += `<div class="audio-controls">`;
+  content += `  <button class="audio-button" title="Play"  onclick="fw.audio_play('${scriptRef}')">▶️</button>`;
+  content += `  <button class="audio-button" title="Pause" onclick="fw.audio_pause()">⏸</button>`;
+  content += `  <span class="audio-label" id="verseRef">${label}</span>`;
+  content += `  <button class="audio-button" title="Volume Down" onclick="fw.audio_volumeDown()">🔉</button>`;
+  content += `  <button class="audio-button" title="Volume Up"   onclick="fw.audio_volumeUp()">🔊</button>`;
+  content += `</div>`;
 
   // ending container
   content += `</div>`;

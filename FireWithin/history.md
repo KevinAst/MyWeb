@@ -94,6 +94,17 @@ Release           | What                 | *When*
   * added {{book.Psalms}} Misc Sermon (06/22/2025: When in Times of Trouble)
 
 
+- Internal: 
+
+  Refactored the {{book.Memorization}} page to use a single
+  &lt;audio&gt; control for both single-verse and multi-verse
+  playback. This change consolidates all audio handling into one
+  hidden &lt;audio&gt; element, managed through JavaScript logic.
+
+  The update significantly reduces page resource usage and improves
+  load times, which had been increasing as more verses were added.
+
+
 
 <!-- ************************************************************* -->
 <br/>
