@@ -415,7 +415,12 @@ if (!window.fw) { // only expand this module once (conditionally)
       // retain this change in our state
       // ... handles persistance/reflection automatically
       fwMemoryVerseTranslation.setTranslation(memoryVerseKey, translation);
+
+      // reactively reset our audio playback to reactively adapt to translation changes (when it is configured to play this verse)
+      const verse = memoryVerseKey.replaceAll('_', '.'); // EX: "luk.9.23-24"
+      audioResetOnVerseTranslationChange(verse);
     }
+
     
     //***************************************************************************
     //***************************************************************************
@@ -719,6 +724,57 @@ if (!window.fw) { // only expand this module once (conditionally)
       document.getElementById("multi-verse-user-msg").innerText = msg;
     }
 
+    // reset our audio control when a verse translation changes
+    // - ONLY WHEN it is configured to play the supplied memoryVerse
+    // - retaining it's active play status (pause/play)
+    // 
+    // PARM: verse ... the memory verse that who's translation just changed (ex: "luk.9.23-24")
+    function audioResetOnVerseTranslationChange(verse) {
+      const log = logger(`${logPrefix}:audioResetOnVerseTranslationChange()`);
+      log(`in audioResetOnVerseTranslationChange(verse: '${verse}')`);
+
+      // our <audio> control
+      const audio = document.getElementById("audio_player");
+
+      // no-op if the audio control is NOT configured to play this verse
+      if (!audio.src.includes(verse)) {
+        log(`NO-OPing ... our audio control is NOT configured to play this verse ... audio.src: '${audio.src}'`);
+        return;
+      }
+
+      // when the audio control is configured to play this verse ...
+      log(`our audio control is configured to play this verse`);
+      
+      // determine if the audio is is activally playing
+      // ... needed for subsequent reset
+      const audioActivelyPlaying = isAudioPlaying();
+
+      // re-configure the audio control to play the same verse, re-configured to the updated translation
+      // ... this will automatically pause the playback (if it is currently playing)
+      log(`re-configure the audio control to play the same verse, re-configured to the updated translation`);
+      setAudioSrc(verse);
+
+      // re-activate the audio play, when it was playing previously
+      if (audioActivelyPlaying) {
+        log(`re-activate the audio play, because it was playing previously`);
+        audio.play();
+      }
+      else {
+        log(`the audio play was previously NOT playing, so leave it in that state`);
+      }
+
+      // via ChatGPT ... simple inner function (for now)
+      function isAudioPlaying() {
+        // NOTE: this is rather involved, but it is accurate in all cases
+        //       You may think you can simply interogate audio.paused, 
+        //       but this can give false indicators due to the
+        //       asynchronous nature of audio, and/or when buffering occurs, etc.
+        return (audio.currentTime > 0 && // playback has started
+                !audio.paused         && // is currently playing ... see NOTE (above)
+                !audio.ended          && // playback has NOT ended
+                audio.readyState >= 3);  // browser has enough data to play (HAVE_FUTURE_DATA or higher)
+      }
+    }
 
 
     //***************************************************************************

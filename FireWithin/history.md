@@ -87,14 +87,16 @@ Release           | What                 | *When*
 
 - ?? Added FBM's July Memory Verses in {{book.Memorization}} page - ?? Ephesians 4:31-32 & Hebrews 3:12-14
 
+- Enhanced the audio playback (of the {{book.Memorization}} page) to
+  auto respond to verse translation changes in both single-verse and
+  multi-verse modes.
+  Previously, changing the translation mid-playback would simply stop
+  the audio.
+  This update allows playback to automatically switch to the
+  corresponding verse of the newly selected translation without
+  interruption.
 
-- Updated Current Sermon Series
-  * {{book.2Corinthians}} Series (Sundays)
-  * {{book.2Kings}} Series (Mid Week)
-  * added {{book.Psalms}} Misc Sermon (06/22/2025: When in Times of Trouble)
-
-
-- Internal: 
+- **Internal:**
 
   Refactored the {{book.Memorization}} page to use a single
   &lt;audio&gt; control for both single-verse and multi-verse
@@ -103,6 +105,12 @@ Release           | What                 | *When*
 
   The update significantly reduces page resource usage and improves
   load times, which had been increasing as more verses were added.
+
+
+- Updated Current Sermon Series
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.2Kings}} Series (Mid Week)
+  * added {{book.Psalms}} Misc Sermon (06/22/2025: When in Times of Trouble)
 
 
 
