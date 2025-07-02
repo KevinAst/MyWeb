@@ -1159,7 +1159,7 @@ function memorizeVerse(namedParams={}) {
   content += `<div class="audio-controls">`;
   content += `  <button class="audio-button" title="Play"  onclick="fw.audio_play('${scriptRef}')">▶️</button>`;
   content += `  <button class="audio-button" title="Pause" onclick="fw.audio_pause()">⏸</button>`;
-  content += `  <span class="audio-label" id="verseRef">${label}</span>`;
+  content += `  <span class="audio-label" id="verseRef">${label.split(' (')[0]}</span>`; // ... from: 'Luke 9:23-24 (Discipleship)' ... remove the category: 'Luke 9:23-24'
   content += `  <button class="audio-button" title="Volume Down" onclick="fw.audio_volumeDown()">🔉</button>`;
   content += `  <button class="audio-button" title="Volume Up"   onclick="fw.audio_volumeUp()">🔊</button>`;
   content += `</div>`;
