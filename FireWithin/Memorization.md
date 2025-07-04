@@ -7,31 +7,36 @@ P{ inject('<span id="ContainsReflectiveMemorizationData"></span>') }P
 
 M{ toc({
    entries: [
-    { href: `#overview`,    label: `Overview`,                                          },
+    { href: `#overview`,    label: `Overview`,                                           },
 
-    { href: `#january`,     label: `January`,                                           },
-    { ref:  `luk.9.23-24`,  label: `Luke 9:23-24 (Discipleship)`,        indent: true,  },
-    { ref:  `php.4.8`,      label: `Philippians 4:8 (ChristianLiving)`,  indent: true,  },
+    { href: `#january`,     label: `January`,                                            },
+    { ref:  `luk.9.23-24`,  label: `Luke 9:23-24 (Discipleship)`,         indent: true,  },
+    { ref:  `php.4.8`,      label: `Philippians 4:8 (ChristianLiving)`,   indent: true,  },
 
-    { href: `#february`,    label: `February`,                                          },
-    { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,    indent: true,  },
-    { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                   indent: true,  },
+    { href: `#february`,    label: `February`,                                           },
+    { ref:  `rom.12.1-2`,   label: `Romans 12:1-2 (ChristianLiving)`,     indent: true,  },
+    { ref:  `rom.2.4`,      label: `Romans 2:4 (God)`,                    indent: true,  },
 
-    { href: `#march`,       label: `March`,                                             },
-    { ref:  `phm.1.4-7`,    label: `Philemon 1:4-7 (Prayer)`,            indent: true,  },
-    { ref:  `1jn.4.7-9`,    label: `1 John 4:7-9 (God)`,                 indent: true,  },
+    { href: `#march`,       label: `March`,                                              },
+    { ref:  `phm.1.4-7`,    label: `Philemon 1:4-7 (Prayer)`,             indent: true,  },
+    { ref:  `1jn.4.7-9`,    label: `1 John 4:7-9 (God)`,                  indent: true,  },
 
-    { href: `#april`,       label: `April`,                                             },
-    { ref:  `1jn.1.9`,      label: `1 John 1:9 (Evangelism)`,            indent: true,  },
-    { ref:  `rom.3.21-23`,  label: `Romans 3:21-23 (Evangelism)`,        indent: true,  },
+    { href: `#april`,       label: `April`,                                              },
+    { ref:  `1jn.1.9`,      label: `1 John 1:9 (Evangelism)`,             indent: true,  },
+    { ref:  `rom.3.21-23`,  label: `Romans 3:21-23 (Evangelism)`,         indent: true,  },
 
-    { href: `#may`,         label: `May`,                                               },
-    { ref:  `rom.6.23`,     label: `Romans 6:23 (Evangelism)`,           indent: true,  },
-    { ref:  `rom.10.9-10`,  label: `Romans 10:9-10 (Evangelism)`,        indent: true,  },
+    { href: `#may`,         label: `May`,                                                },
+    { ref:  `rom.6.23`,     label: `Romans 6:23 (Evangelism)`,            indent: true,  },
+    { ref:  `rom.10.9-10`,  label: `Romans 10:9-10 (Evangelism)`,         indent: true,  },
 
-    { href: `#june`,        label: `June` ,                                               },
-    { ref:  `eph.4.31-32`,  label: `Ephesians 4:31-32 (ChristianLiving)`,  indent: true,  },
-    { ref:  `heb.3.12-14`,  label: `Hebrews 3:12-14 (Discipleship)`,       indent: true,  },
+    { href: `#june`,        label: `June` ,                                              },
+    { ref:  `eph.4.31-32`,  label: `Ephesians 4:31-32 (ChristianLiving)`, indent: true,  },
+    { ref:  `heb.3.12-14`,  label: `Hebrews 3:12-14 (Discipleship)`,      indent: true,  },
+
+    { href: `#july`,        label: `July` ,                                              },
+    { ref:  `psa.18.30`,    label: `Psalms 18:30 (God)`,                  indent: true,  },
+    { ref:  `2pe.3.9`,      label: `2 Peter 3:9 (God)`,                   indent: true,  },
+    { ref:  `1th.3.13`,     label: `1 Thessalonians 3:13 (Prayer)`,       indent: true,  },
   ]
 }) }M
 
@@ -798,6 +803,137 @@ and walk in obedience.
 Find believers that can be encouraging to you. Find believers to whom
 you can be an encouragement to. These kinds of relationships are key
 in the life of the believer.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+
+<span id="july"></span>
+
+_**[July Flyer](https://fbmaryville.org/s/25in25cards_July.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `psa.18.30`,
+  label:   `Psalms 18:30 (God)`,
+  context: `perfect path, proven word`,
+  text: {
+    NLT:    `God’s way is perfect. All the LORD’s promises prove true. He is a shield for all who look to him for protection.`,
+    NKJV:   `As for God, His way is perfect; The word of the LORD is proven; He is a shield to all who trust in Him.`,  
+    ESV:    `This God - his way is perfect; the word of the LORD proves true; he is a shield for all those who take refuge in him.`,
+    "NIV*": `As for God, his way is perfect: The LORD’s word is flawless; he shields all who take refuge in him.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Psalms.html">... explore Psalms</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_psa_18_30',
+  label:  'Additional Thoughts',
+}) }P
+
+There is no fault or failure in God. His ways (not ours) are perfect
+and He speaks absolute truth.
+
+The more we know about the Lord, the more we can trust Him. The better
+we understand His ways, the better we can follow His way and not our
+own. The more clear we are about what He has said, the more clearly we
+can follow His Word.
+
+Thankfully, God takes care of those who follow His ways, believe His
+Word, and put their trust in Him.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `2pe.3.9`,
+  label:   `2 Peter 3:9 (God)`,
+  context: `patient for repentance`,
+  text: {
+    NLT:    `The Lord isn’t really being slow about his promise, as some people think. No, he is being patient for your sake. He does not want anyone to be destroyed, but wants everyone to repent.`,
+    NKJV:   `The Lord is not slack concerning His promise, as some count slackness, but is longsuffering toward us, not willing that any should perish but that all should come to repentance.`,  
+    ESV:    `The Lord is not slow to fulfill his promise as some count slowness, but is patient toward you, not wishing that any should perish, but that all should reach repentance.`,
+    "NIV*": `The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="2Peter.html">... explore 2 Peter</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_2pe_3_9',
+  label:  'Additional Thoughts',
+}) }P
+
+Have you ever been impatient? 
+
+Thankfully, God is patient with us. God doesn't want anyone to perish
+(die without knowing Jesus). He desires for everyone to come to
+repentance and faith in Jesus. 
+
+While God is patient, He is also just. When we are apart from Christ,
+we are dead in our sin and our eternal destination is Hell (eternal
+separation from God's presence). 
+
+Just because we don't suffer the terrible wrath of God the instant we
+sin, it does not mean that punishment isn't coming. God will swiftly
+bring about His wrath the moment we die. 
+
+His patience is not weakness, it is mercy. His patience is not a free
+pass. He will keep his promise; both to save the lost and punish the
+wicked.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `1th.3.13`,
+  label:   `1 Thessalonians 3:13 (Prayer)`,
+  context: `ready for Christ’s return`,
+  text: {
+    NLT:    `May he, as a result, make your hearts strong, blameless, and holy as you stand before God our Father when our Lord Jesus comes again with all his holy people. Amen.`,
+    NKJV:   `so that He may establish your hearts blameless in holiness before our God and Father at the coming of our Lord Jesus Christ with all His saints.`,  
+    ESV:    `so that he may establish your hearts blameless in holiness before our God and Father, at the coming of our Lord Jesus with all his saints.`,
+    "NIV*": `May he strengthen your hearts so that you will be blameless and holy in the presence of our God and Father when our Lord Jesus comes with all his holy ones.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="1Thessalonians.html">... explore 1 Thessalonians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_1th_3_13',
+  label:  'Additional Thoughts',
+}) }P
+
+When you pray for someone, you can follow Paul's example. For example,
+if you are praying for your small group, ask God to strengthen their
+hearts so that they would be blameless and holy before Him. Pray that
+whatever they experience here on earth would not cause them to doubt
+or fall away from the Lord. Pray for them to be faithful until Jesus
+comes again!
 
 P{ collapsibleSectionEnd() }P
 
