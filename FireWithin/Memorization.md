@@ -204,7 +204,7 @@ Lord Bless You!
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 <span id="january"></span>
 
@@ -327,7 +327,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 <span id="february"></span>
 
@@ -428,7 +428,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 <span id="march"></span>
 
@@ -527,7 +527,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 
 <span id="april"></span>
@@ -626,7 +626,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 
 <span id="may"></span>
@@ -715,7 +715,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 
 <span id="june"></span>
@@ -813,7 +813,7 @@ P{ inject('</div>') }P
 
 <!-- *** NEW MONTH ******************************************************************************** -->
 
-<hr style="height: 9px; background-color: #616a6b; border: none; width: 70%; margin: 20px auto; border-radius: 5px;">
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
 
 <span id="july"></span>
 
