@@ -11,6 +11,7 @@
 - [Acts Series](#acts-series)
 - [Exodus/Leviticus Series](#exodusleviticus-series)
 - [1/2 Peter Series](#12-peter-series)
+- [Psalms Series](#psalms-series)
 
 
 
@@ -235,5 +236,31 @@ M{ sermonSeries({
     { id: `SG20250511`, sermon: `TXT@@Be Equipped`,        scripture: `2pe.1.3-8@@2 Peter 1:3-8##2pe.1.16-21@@CR:2 Peter 1:16-21`,                               date:`05/11/2025`, },
     { id: `SG20250518`, sermon: `TXT@@Be Alert`,           scripture: `2pe.2.1-3@@2 Peter 2:1-3##2pe.2.17-19@@CR:2 Peter 2:17-19##jud.1.17-23@@CR:Jude 1:17-23`, date:`05/18/2025`, },
     { id: `SG20250525`, sermon: `TXT@@Be Encouraged`,      scripture: `2pe.3.8-18@@2 Peter 3:8-18`,                                                              date:`05/25/2025`, },
+  ]
+}) }M
+
+## Psalms Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Psalms}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20250601`, sermon: `TXT@@God's Wisdom`,        scripture: `psa.1.1-6@@Psalm 1:1-6`,             date:`06/01/2025`, },
+    { id: `SG20250608`, sermon: `TXT@@God's Truth`,         scripture: `psa.119.1-16@@Psalm 119:1-16`,       date:`06/08/2025`, },
+    { id: `SG20250615`, sermon: `TXT@@God's Glory`,         scripture: `psa.19.1-11@@Psalm 19:1-11`,         date:`06/15/2025`, },
+    { id: `SG20250622`, sermon: `TXT@@God's Reign`,         scripture: `psa.96.1-13@@Psalm 96:1-13`,         date:`06/22/2025`, },
+    { id: `SG20250629`, sermon: `TXT@@God's Promise`,       scripture: `psa.132.1-18@@Psalm 132:1-14,17-18`, date:`06/29/2025`, },
+    { id: `SG20250706`, sermon: `TXT@@God's Messiah`,       scripture: `psa.110.1-7@@Psalm 110:1-7`,         date:`07/06/2025`, },
+    { id: `SG20250713`, sermon: `TXT@@God's Deliverance`,   scripture: `psa.18.16-29@@Psalm 18:16-29`,       date:`07/13/2025`, },
+    { id: `SG20250720`, sermon: `TXT@@God's Faithfulness`,  scripture: `psa.105@@Psalm 105:1-11,42-45`,      date:`07/20/2025`, },
+    { id: `SG20250727`, sermon: `TXT@@God's Conviction*`,   scripture: `psa.38@@Psalm 38:1-8,18-22`,         date:`07/27/2025`, },
+    { id: `SG20250803`, sermon: `TXT@@God's Forgiveness`,   scripture: `psa.32.1-11@@Psalm 32:1-11`,         date:`08/03/2025`, },
+    { id: `SG20250810`, sermon: `TXT@@God's Care`,          scripture: `psa.23.1-6@@Psalm 23:1-6`,           date:`08/10/2025`, },
+    { id: `SG20250817`, sermon: `TXT@@God's Greatness`,     scripture: `psa.139.1-16@@Psalm 139:1-4,7-16`,   date:`08/17/2025`, },
+    { id: `SG20250824`, sermon: `TXT@@God's Righteousness`, scripture: `psa.5.1-12@@Psalm 5:1-12`,           date:`08/24/2025`, },
+    { id: `SG20250831`, sermon: `TXT@@God's Presence`,      scripture: `psa.42.1-11@@Psalm 42:1-11`,         date:`08/31/2025`, },
   ]
 }) }M
