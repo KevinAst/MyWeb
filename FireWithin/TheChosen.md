@@ -8,6 +8,7 @@
 - [Season 2](#season-2)
 - [Season 3](#season-3)
 - [Season 4](#season-4)
+- [Season 5](#season-5)
 - [Characters](#characters)
 
 
@@ -74,7 +75,7 @@
   - {{book.TCSeason2M}}: 04/04/2021
   - {{book.TCSeason3M}}: 11/05/2022
   - {{book.TCSeason4M}}: 06/02/2024
-  - Season 5: _TBD_
+  - {{book.TCSeason5M}}: 09/13/2025
   - Season 6: _TBD_
   - Season 7: _TBD_
 
@@ -634,6 +635,113 @@ M{ sermonSeries({
 //    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
       studyGuide:         `NONE`,
       date:               `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`,
+    },
+  ]
+}) }M
+
+
+## Season 5
+
+<mark><b>Please NOTE:</b></mark> Season 5 requires you to **sign-in** to stream the episodes _(it's a free account)_.
+
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
+<!-- Description found here: https://www.thechosenriseup.com/  -->
+
+From triumph to betrayal: Jesus enters Jerusalem acclaimed as king and
+confronts corrupt temple merchants. 
+
+While religious leaders plot against his growing influence, he shares
+a final meal with his disciples. 
+
+In the shadows, Judas' treachery sets in motion events that would
+transform history. 
+
+This tale of sacrifice becomes humanity's most profound story.
+
+
+P{ inject('</div>') }P
+
+> Bible App (Season 5 Released 09/13/2025) ... 
+> [Movies??](https://watch.thechosen.tv/page/season%204) • 
+> [Devotions??](https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan)
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+
+<!-- ?? initial release are Amazon Prime links -->
+
+M{ sermonSeries({
+  entries: [
+    {
+      id:                 `TC-S5-E1`, 
+      sermon:             `https://www.amazon.com/gp/video/detail/0JVH46NRJ3WCOAUJG9R9B8V9ZD/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Entry`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Jesus rides into the holy city as king, but finds that the rulers have turned His Father’s house from a place of prayer to a corrupt market.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:N8MuWp7vSmk@@Last Supper##l4ZlrpcppGI@@Jesus Weeps##9H3dDDm9nEo@@God's Voice Shocks`,
+    },
+    {
+      id:                 `TC-S5-E2`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0QOSPLAYBLU8UCWVSNB1JY1WQ6/ref=atv_dp_btf_el_prime_uhd_tv_resume_t1ADAAAAAA0wr0@@House of Cards`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Why kill Jesus when Rome can do it for you? As the Jewish High Priest schemes to bring Him down, Jesus strikes first: turning the tables.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:v25hUOabGH8@@Fall Away##4-VIOW6MeLI@@Ramah Returns##jYnKj68jHmo@@Seminal Discharge##DU46ZFMUspY@@Best Scene`,
+    },
+    {
+      id:                 `TC-S5-E3`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0RXOR2VGW37UESNVBACVSUUKQA/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Woes`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Jesus preaches one last time to the massive Passover crowd, and the religious leaders try to trap him in his words.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:mtSNIO-qxXU@@I am the Way##d0wHSnZoo80@@Joseph##Trbqu8fCxh8@@Judas Doubts Jesus' Divinity##7JzTjaXzQ4Y@@Jesus' Biggest Condemnation##_SAq0GFsGTI@@Luke 21 Comes to Life`,
+    },
+    {
+      id:                 `TC-S5-E4`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0Q60E7EOTGQ6JF1DU2ZX834HUR/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Same Coin`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Afraid of public outcry—and further embarrassment—Caiaphas resolves to arrest Jesus quietly at night. Only one problem: no one knows how to find Him.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:Ds8O9t9lGDU@@Wrecking Scene##PsqldTc3ahw@@Jesus Tried to Save Judas##rS9zXMkfXzs@@Deal with Jesus' Death##cCrXGnlfCg0@@Shmuel`,
+    },
+    {
+      id:                 `TC-S5-E5`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0KP8FZVK4XTLZ0WOVI972CKJQ9/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Because of Me`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `he decision to arrest Jesus leads to a fiery debate. Roman soldiers track down a troublemaking crowd. Shmuel finds help from an unexpected source.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+    },
+    {
+      id:                 `TC-S5-E6`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0LDVIRJUI1YL9QT1M30SNDNENO/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Reunions`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `As Jesus’ followers gather for the Passover meal, His enemies assemble for a man hunt. Judas holds a secret meeting.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+    },
+    {
+      id:                 `TC-S5-E7`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0LV6VDY3DQQ85LSVD3CF3UDJ4Y/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part I`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Jesus arrives at the Last Supper. The disciples fear for their safety as Jesus’ enemies close ranks around them.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+    },
+    {
+      id:                 `TC-S5-E8`,
+      sermon:             `https://www.amazon.com/gp/video/detail/0OA6SJ3FX0XH6TMJWV1G857MW1/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part II`,
+//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+      desc:               `Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.`,
+//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
+      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
     },
   ]
 }) }M
