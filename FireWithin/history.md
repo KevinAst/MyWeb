@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v25.0](#v25_0)   | Chosen Season 5                                 | *July 8, 2025*
+[v25.0](#v25_0)   | Chosen Season 5 & House of David                | *July 12, 2025*
 [v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *July 3, 2025*
 [v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 22, 2025*
 [v24.7](#v24_7)   | Chosen Updates, Memory Verse, & Sermon Sync      | *May 1, 2025*
@@ -81,11 +81,13 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v25_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v25.0 - Chosen Season 5 <i>(July 8, 2025)</i>
+  v25.0 - Chosen Season 5 & House of David <i>(July 12, 2025)</i>
 </h3>
 <br/>
 
 - ?? **{{book.TheChosen}}** page was updated to include {{book.TCSeason5M}}
+
+- The **{{book.HouseOfDavid}}** page has been added to the {{book.ChristianMedia}} section, which includes {{book.HODSeason1M}}.
 
 
 

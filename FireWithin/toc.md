@@ -133,6 +133,8 @@
     - [Season 5](TheChosen.md#season-5)
     - [Characters](TheChosen.md#characters)
   * [House of David](HouseOfDavid.md)
+    - [Overview](HouseOfDavid.md#overview)
+    - [Season 1](HouseOfDavid.md#season-1)
 
 ----
 - [Revision History](history.md)
