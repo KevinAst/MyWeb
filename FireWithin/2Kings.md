@@ -100,12 +100,14 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20250507`,                                              scripture: `2ki.1@@2 Kings 1&2`,  },
-    { id: `20250514`,                                              scripture: `2ki.3@@2 Kings 3-4`,  },
-    { id: `20250521`,                                              scripture: `2ki.4@@2 Kings 4:23-5:14`, },
-    { id: `20250528`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.5@@2 Kings 5:14-6:6`,  },
-    { id: `20250604`, sermon: `Teaching (Pastor Tyler Hamrick)`,   scripture: `2ki.6@@2 Kings 6:7-7:9`,   },
-    { id: `20250611`, sermon: `Teaching (Pastor Andy Wagner)`,     scripture: `2ki.8@@2 Kings 8`,         },
-    { id: `20250618`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.9@@2 Kings 9-10`,      },
+    { id: `20250507`,                                              scripture: `2ki.1@@2 Kings 1&2`,           },
+    { id: `20250514`,                                              scripture: `2ki.3@@2 Kings 3-4`,           },
+    { id: `20250521`,                                              scripture: `2ki.4@@2 Kings 4:23-5:14`,     },
+    { id: `20250528`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.5@@2 Kings 5:14-6:6`,      },
+    { id: `20250604`, sermon: `Teaching (Pastor Tyler Hamrick)`,   scripture: `2ki.6@@2 Kings 6:7-7:9`,       },
+    { id: `20250611`, sermon: `Teaching (Pastor Andy Wagner)`,     scripture: `2ki.8@@2 Kings 8`,             },
+    { id: `20250618`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.9@@2 Kings 9-10`,          },
+    { id: `20250702`, sermon: `Teaching (Pastor Andy Wagner)`,     scripture: `2ki.11@@2 Kings 11-12`,        },
+    { id: `20250723`,                                              scripture: `2ki.13@@2 Kings 13 & 14:1-14`, },
   ]
 }) }M
