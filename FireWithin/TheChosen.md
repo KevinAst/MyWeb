@@ -714,7 +714,7 @@ M{ sermonSeries({
       desc:               `he decision to arrest Jesus leads to a fiery debate. Roman soldiers track down a troublemaking crowd. Shmuel finds help from an unexpected source.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+      date:               `DeepDive:rsL5VV1InmI@@WhoIsTheGreatest##g04ObQLldjQ@@KillJesus##fZwdRclVRa0@@NicodemusEpicEntrance##Z9GLNRHOoeE@@PilatesChoice##esen6N01U8g@@FigTree`,
     },
     {
       id:                 `TC-S5-E6`,
@@ -723,7 +723,7 @@ M{ sermonSeries({
       desc:               `As Jesus’ followers gather for the Passover meal, His enemies assemble for a man hunt. Judas holds a secret meeting.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+      date:               `DeepDive:9RZxV99JQCI@@Communion##pNgPCReqz3g@@Matthias##HY4_2ZnOFCw@@JudasSecretMeeting`,
     },
     {
       id:                 `TC-S5-E7`,
@@ -732,7 +732,7 @@ M{ sermonSeries({
       desc:               `Jesus arrives at the Last Supper. The disciples fear for their safety as Jesus’ enemies close ranks around them.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+      date:               `DeepDive:P6VDLa6Zd8g@@WashJudasFeet##ZCPMGXQl1ak@@Mark##ysaOIClARs8@@JudasSister`,
     },
     {
       id:                 `TC-S5-E8`,
@@ -741,7 +741,7 @@ M{ sermonSeries({
       desc:               `Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:cCrXGnlfCg0@@MORE??`,
+      date:               `DeepDive:cCrXGnlfCg0@@MORE-STILL-STREAMING??`,
     },
   ]
 }) }M
