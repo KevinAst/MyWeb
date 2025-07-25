@@ -85,7 +85,10 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- **{{book.TheChosen}}** page was updated to include {{book.TCSeason5M}}
+- **{{book.TheChosen}}** page was updated to include {{book.TCSeason5M}}!
+
+  <mark><b>Please NOTE:</b></mark> Currently Season 5 is only available on Amazon Prime (which requires a subscription to view).
+  After 09/13/2025 these links will be updated to the free Chosen App.
 
 - The **{{book.HouseOfDavid}}** page has been added to the {{book.ChristianMedia}} section, which includes {{book.HODSeason1M}}.
 

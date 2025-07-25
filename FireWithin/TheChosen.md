@@ -642,7 +642,12 @@ M{ sermonSeries({
 
 ## Season 5
 
+<!-- ?? Temporarly Promote THIS NOTE -->
+<mark><b>Please NOTE:</b></mark> Currently Season 5 is only available on Amazon Prime (which requires a subscription to view).  After 09/13/2025 these links will be updated to the free Chosen App.
+
+<!-- ?? Eventually promote this
 <mark><b>Please NOTE:</b></mark> Season 5 requires you to **sign-in** to stream the episodes _(it's a free account)_.
+ -->
 
 P{ inject('<div data-fw-desc style="display: none;">') }P
 
