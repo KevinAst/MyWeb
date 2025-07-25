@@ -125,5 +125,6 @@ M{ sermonSeries({
     { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`, scripture: `psa.119@@Psalms 119`,     studyGuide: `NONE`, },
     { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                 scripture: `psa.91@@Psalms 91`,                           },
     { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalm 27`,                            },
+    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalm 13`,                            },
   ]
 }) }M

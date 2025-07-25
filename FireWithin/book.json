@@ -155,6 +155,7 @@
         "TCSeason2":         "[The Chosen Season 2](/TheChosen.md#season-2)",
         "TCSeason3":         "[The Chosen Season 3](/TheChosen.md#season-3)",
         "TCSeason4":         "[The Chosen Season 4](/TheChosen.md#season-4)",
+        "TCSeason5":         "[The Chosen Season 5](/TheChosen.md#season-5)",
         "TCCharacters":      "[The Chosen Characters](/TheChosen.md#characters)",
       
         "TCOverviewM":       "[Overview](/TheChosen.md#overview)",
@@ -163,9 +164,15 @@
         "TCSeason2M":        "[Season 2](/TheChosen.md#season-2)",
         "TCSeason3M":        "[Season 3](/TheChosen.md#season-3)",
         "TCSeason4M":        "[Season 4](/TheChosen.md#season-4)",
+        "TCSeason5M":        "[Season 5](/TheChosen.md#season-5)",
         "TCCharactersM":     "[Characters](/TheChosen.md#characters)",
       
       "HouseOfDavid":        "[House of David](/HouseOfDavid.md)",
+        "HODOverview":       "[House of David Overview](/HouseOfDavid.md#overview)",
+        "HODSeason1":        "[House of David Season 1](/HouseOfDavid.md#season-1)",
+
+        "HODOverviewM":      "[Overview](/HouseOfDavid.md#overview)",
+        "HODSeason1M":       "[Season 1](/HouseOfDavid.md#season-1)",
 
     "NivBible":          "[NIV Bible](https://www.thenivbible.com/)",
     "BibleProject":      "[Bible Project](https://bibleproject.com/explore/book-overviews/)",

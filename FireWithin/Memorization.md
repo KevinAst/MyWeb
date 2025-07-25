@@ -37,6 +37,10 @@ M{ toc({
     { ref:  `psa.18.30`,    label: `Psalms 18:30 (God)`,                  indent: true,  },
     { ref:  `2pe.3.9`,      label: `2 Peter 3:9 (God)`,                   indent: true,  },
     { ref:  `1th.3.13`,     label: `1 Thessalonians 3:13 (Prayer)`,       indent: true,  },
+
+    { href: `#august`,      label: `August` ,                                            },
+    { ref:  `eph.4.29`,     label: `Ephesians 4:29 (ChristianLiving)`,    indent: true,  },
+    { ref:  `mat.28.19-20`, label: `Matthew 28:19-20 (Discipleship)`,     indent: true,  },
   ]
 }) }M
 
@@ -934,6 +938,107 @@ hearts so that they would be blameless and holy before Him. Pray that
 whatever they experience here on earth would not cause them to doubt
 or fall away from the Lord. Pray for them to be faithful until Jesus
 comes again!
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
+
+<span id="august"></span>
+
+_**[August Flyer](https://fbmaryville.org/s/25in25cards_August.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `eph.4.29`,
+  label:   `Ephesians 4:29 (ChristianLiving)`,
+  context: `edify with every word`,
+  text: {
+    "NLT*": `Don’t use foul or abusive language. Let everything you say be good and helpful, so that your words will be an encouragement to those who hear them.`,
+    NKJV:   `Let no corrupt word proceed out of your mouth, but what is good for necessary edification, that it may impart grace to the hearers.`,  
+    ESV:    `Let no corrupting talk come out of your mouths, but only such as is good for building up, as fits the occasion, that it may give grace to those who hear.`,
+    NIV:    `Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up according to their needs, that it may benefit those who listen.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Ephesians.html">... explore Ephesians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_eph_4_29',
+  label:  'Additional Thoughts',
+}) }P
+
+We all know that one person who everybody loves to be around. They are
+encouraging and positive. You feel more energized and happy when you
+are around them. 
+
+Why is this? 
+
+Well, it’s all because of the way they use their words. Let’s face it,
+there are times we say a lot of words but a lot of what we say isn’t
+good and helpful. 
+
+You might not use foul language (or maybe you do), but how often are
+your words negative or even critical? How about abusive? Would anyone
+accuse you of nagging? 
+
+While we might have the best intentions, when our words are not used
+carefully they can have a negative effect instead of a positive one.
+Our words can be harmful instead of helpful.
+
+Let’s be the kind of people that use words that give “life” to those
+who hear them.  Remember, encouraging words come from a place of
+obedience to Christ.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `mat.28.19-20`,
+  label:   `Matthew 28:19-20 (Discipleship)`,
+  context: `the great commission`,
+  text: {
+    NLT:    `Therefore, go and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit. Teach these new disciples to obey all the commands I have given you. And be sure of this: I am with you always, even to the end of the age.`,
+    NKJV:   `Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I have commanded you; and lo, I am with you always, even to the end of the age. Amen.`,  
+    ESV:    `Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.`,
+    "NIV*": `Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Matthew.html">... explore Matthew</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_mat_28_19-20',
+  label:  'Additional Thoughts',
+}) }P
+
+Jesus was pretty clear about what He wants His followers to do. 
+
+He wanted His followers to tell others about Him (make new disciples),
+baptize all who believe, and teach these new followers how to be
+obedient to Jesus’ teachings.
+
+In the same way, Jesus wants new followers to be baptized, learn His
+teachings and walk in obedience; all while sharing the Gospel with
+others who didn’t yet know Jesus. 
+
+Now that you know this, it’s time to “Go” and do likewise!
 
 P{ collapsibleSectionEnd() }P
 

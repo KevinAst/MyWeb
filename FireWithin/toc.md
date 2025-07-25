@@ -130,8 +130,11 @@
     - [Season 2](TheChosen.md#season-2)
     - [Season 3](TheChosen.md#season-3)
     - [Season 4](TheChosen.md#season-4)
+    - [Season 5](TheChosen.md#season-5)
     - [Characters](TheChosen.md#characters)
   * [House of David](HouseOfDavid.md)
+    - [Overview](HouseOfDavid.md#overview)
+    - [Season 1](HouseOfDavid.md#season-1)
 
 ----
 - [Revision History](history.md)
