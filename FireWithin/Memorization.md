@@ -952,7 +952,7 @@ P{ inject('</div>') }P
 
 <span id="august"></span>
 
-_**[August Flyer](https://fbmaryville.org/s/25in25cards_August.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+_**[August Flyer](https://fbmaryville.org/s/_25in25cards_August.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
 
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
