@@ -124,5 +124,7 @@ M{ sermonSeries({
     { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,     },
     { id: `20250518`, sermon: `Weapons of our Warfare`,          scripture: `2co.10@@2 Corinthians 10`,     },
     { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,     },
+    { id: `20250727`, sermon: `The Hope of Heaven`,              scripture: `2co.12@@2 Corinthians 12`,     },
+    { id: `20250803`, sermon: `A Thorn in the Flesh`,            scripture: `2co.12@@2 Corinthians 12`,     },
   ]
 }) }M

@@ -87,10 +87,14 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Synced Current Sermon Series
-  * ? {{book.2Kings}} Series (Mid Week)
-  * ? added {{book.Psalms}} Sermon (07/13/2025: “Why, God?" Trusting God in Tragedy)
-  * ? added {{book.EndTimes}} Sermon (07/09/2025: Russia, Iran, and Israel: Are We Seeing Prophecy Unfold?)
+- Synced Current Sermon Series
+  * {{book.2Kings}} Series (Mid Week)
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.Galatians}} Series (Sundays)
+  * added **Ryan Ries** sermon in the
+    {{book.Misc}} section of {{book.CurrentEvents}} _(under
+    {{book.SpecialEvents}})_
+  * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
 
 
 - ?? Added FBM's September Memory Verses in {{book.Memorization}}
