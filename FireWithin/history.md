@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v25.1](#v25_1)   | Sync Sermon Series, Sept Memory Verses, More Deep Dives         | *Aug 25, 2025*
 [v25.0](#v25_0)   | Chosen Season 5 & House of David & August Memory Verses & more  | *July 25, 2025*
 [v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *July 3, 2025*
 [v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 22, 2025*
@@ -77,6 +78,27 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.1 - Sync Sermon Series, Sept Memory Verses, More Deep Dives <i>(Aug 25, 2025)</i>
+</h3>
+<br/>
+
+- ?? Synced Current Sermon Series
+  * ? {{book.2Kings}} Series (Mid Week)
+  * ? added {{book.Psalms}} Sermon (07/13/2025: “Why, God?" Trusting God in Tragedy)
+  * ? added {{book.EndTimes}} Sermon (07/09/2025: Russia, Iran, and Israel: Are We Seeing Prophecy Unfold?)
+
+
+- ?? Added FBM's September Memory Verses in {{book.Memorization}}
+  page: 2 Corinthians 10:5, 1 Corinthians 10:13
+
+- ?? Synced Latest Deep Dives in the **{{book.TheChosen}}** and
+  **{{book.HouseOfDavid}}** pages
+
 
 <!-- ************************************************************* -->
 <br/>
