@@ -97,7 +97,7 @@ Release           | What                 | *When*
   * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
 
 
-- ?? Added FBM's September Memory Verses in {{book.Memorization}}
+- Added FBM's September Memory Verses in {{book.Memorization}}
   page: 2 Corinthians 10:5, 1 Corinthians 10:13
 
 - ?? Synced Latest Deep Dives in the **{{book.TheChosen}}** and
