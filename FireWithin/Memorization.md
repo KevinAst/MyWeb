@@ -41,6 +41,10 @@ M{ toc({
     { href: `#august`,      label: `August` ,                                            },
     { ref:  `eph.4.29`,     label: `Ephesians 4:29 (ChristianLiving)`,    indent: true,  },
     { ref:  `mat.28.19-20`, label: `Matthew 28:19-20 (Discipleship)`,     indent: true,  },
+
+    { href: `#september`,   label: `September` ,                                         },
+    { ref:  `2co.10.5`,     label: `2 Corinthians 10:5 (ChristianLiving)`,indent: true,  },
+    { ref:  `1co.10.13`,    label: `1 Corinthians 10:13 (God)`,           indent: true,  },
   ]
 }) }M
 
@@ -952,7 +956,7 @@ P{ inject('</div>') }P
 
 <span id="august"></span>
 
-_**[August Flyer](https://fbmaryville.org/s/25in25cards_August.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+_**[August Flyer](https://fbmaryville.org/s/_25in25cards_August.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
 
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
@@ -1039,6 +1043,97 @@ teachings and walk in obedience; all while sharing the Gospel with
 others who didn’t yet know Jesus. 
 
 Now that you know this, it’s time to “Go” and do likewise!
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
+
+<span id="september"></span>
+
+_**[September Flyer](https://fbmaryville.org/s/_25in25cards_September.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `2co.10.5`,
+  label:   `2 Corinthians 10:5 (ChristianLiving)`,
+  context: `test every thought`,
+  text: {
+    NLT:    `We destroy every proud obstacle that keeps people from knowing God. We capture their rebellious thoughts and teach them to obey Christ.`,
+    NKJV:   `casting down arguments and every high thing that exalts itself against the knowledge of God, bringing every thought into captivity to the obedience of Christ`, 
+    "ESV*": `We destroy arguments and every lofty opinion raised against the knowledge of God, and take every thought captive to obey Christ,`,
+    NIV:    `We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="2Corinthians.html">... explore 2 Corinthians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_2co_10_5',
+  label:  'Additional Thoughts',
+}) }P
+
+When you hear something new, do you examine what you are hearing or
+take it as true?  In a world full of fake news, hot takes, “click
+bait”, and outright lies, it is necessary to examine what we hear and
+allow ourselves to believe.
+
+Fortunately, God has provided us with truth! His Word! With God’s Word
+as our authority, we can be certain of who God is and what pleases
+Him. 
+
+This verse gives us a detailed look into what our thought life should
+be like. For Christians, this verse is valuable each and every day.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `1co.10.13`,
+  label:   `1 Corinthians 10:13 (God)`,
+  context: `faithful God, sure escape`,
+  text: {
+    "NLT*": `The temptations in your life are no different from what others experience. And God is faithful. He will not allow the temptation to be more than you can stand. When you are tempted, he will show you a way out so that you can endure.`,
+    NKJV:   `No temptation has overtaken you except such as is common to man; but God is faithful, who will not allow you to be tempted beyond what you are able, but with the temptation will also make the way of escape, that you may be able to bear it.`,  
+    ESV:    `No temptation has overtaken you that is not common to man. God is faithful, and he will not let you be tempted beyond your ability, but with the temptation he will also provide the way of escape, that you may be able to endure it.`,
+    NIV:    `No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="1Corinthians.html">... explore 1 Corinthians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_1co_10_13',
+  label:  'Additional Thoughts',
+}) }P
+
+God is faithful. His ways are perfect. 
+
+When we face temptation we cannot say, “This temptation is harder than
+anything ever known to mankind!” Nothing that we face is different
+from what others have experienced. 
+
+God knows what we can handle and will help us endure through the
+temptation.
+
+When we are tempted, God is faithful to show us a way out!
+
+Thank you Lord!
 
 P{ collapsibleSectionEnd() }P
 

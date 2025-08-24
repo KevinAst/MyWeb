@@ -12,7 +12,7 @@
 - [Exodus/Leviticus Series](#exodusleviticus-series)
 - [1/2 Peter Series](#12-peter-series)
 - [Psalms Series](#psalms-series)
-
+- [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
 
 
 ## John Series
@@ -262,5 +262,31 @@ M{ sermonSeries({
     { id: `SG20250817`, sermon: `TXT@@God's Greatness`,     scripture: `psa.139.1-16@@Psalm 139:1-4,7-16`,   date:`08/17/2025`, },
     { id: `SG20250824`, sermon: `TXT@@God's Righteousness`, scripture: `psa.5.1-12@@Psalm 5:1-12`,           date:`08/24/2025`, },
     { id: `SG20250831`, sermon: `TXT@@God's Presence`,      scripture: `psa.42.1-11@@Psalm 42:1-11`,         date:`08/31/2025`, },
+  ]
+}) }M
+
+
+## Numbers & Deuteronomy Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Numbers}}, {{book.Deuteronomy}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20250907`, sermon: `TXT@@The Journey`,             scripture: `num.9@@Numbers 9:15-23`,             date:`09/07/2025`, },
+    { id: `SG20250914`, sermon: `TXT@@Provision`,               scripture: `num.11@@Numbers 11:4-17`,            date:`09/14/2025`, },
+    { id: `SG20250921`, sermon: `TXT@@The Land`,                scripture: `num.13@@Numbers 13:17-31`,           date:`09/21/2025`, },
+    { id: `SG20250928`, sermon: `TXT@@Rebellion and Judgment`,  scripture: `num.14@@Numbers 14:11-24`,           date:`09/28/2025`, },
+    { id: `SG20251005`, sermon: `TXT@@Lack of Trust`,           scripture: `num.20@@Numbers 20:2-13`,            date:`10/05/2025`, },
+    { id: `SG20251012`, sermon: `TXT@@God’s Plans`,             scripture: `num.22@@Numbers 22:22-35`,           date:`10/12/2025`, },
+    { id: `SG20251019`, sermon: `TXT@@Instructions Given`,      scripture: `num.33@@Numbers 33:50-56; 34:13-15`, date:`10/19/2025`, },
+    { id: `SG20251026`, sermon: `TXT@@Remember`,                scripture: `deu.4@@Deuteronomy 4:1-9,15-20`,     date:`10/26/2025`, },
+    { id: `SG20251102`, sermon: `TXT@@Love`,                    scripture: `deu.6@@Deuteronomy 6:1-9,20-25`,     date:`11/02/2025`, },
+    { id: `SG20251109`, sermon: `TXT@@Undivided Worship`,       scripture: `deu.12@@Deuteronomy 12:1-11,29-32`,  date:`11/09/2025`, },
+    { id: `SG20251116`, sermon: `TXT@@Covenant Relationship`,   scripture: `deu.28@@Deuteronomy 28:1-6,15-19`,   date:`11/16/2025`, },
+    { id: `SG20251123`, sermon: `TXT@@Fully Committed`,         scripture: `deu.30@@Deuteronomy 30:11-20`,       date:`11/23/2025`, },
+    { id: `SG20251130`, sermon: `TXT@@God’s Power`,             scripture: `deu.33@@Deuteronomy 33:1-5,26-29`,   date:`11/30/2025`, },
   ]
 }) }M

@@ -68,11 +68,12 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20120205`, sermon: `The Cost of Compromise`,                           scripture: `gen.18@@Genesis 18-19`,                     },
-    { id: `20150705`, sermon: `America, Will You Stand?`,                                                             studyGuide: `NONE`, },
-    { id: `20220727`, sermon: `Evening Special with Patti Height`,                                                    studyGuide: `NONE`, extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
-    { id: `20230604`, sermon: `A Biblical Response to the 'Transing' of America`, scripture: `rom.1@@Romans 1:18-28`,                     },
-    { id: `20240114`, sermon: `When a Culture Excludes God`,                      scripture: `rom.1@@Rom 1:24-32`,                        },
+    { id: `20120205`,   sermon: `The Cost of Compromise`,                           scripture: `gen.18@@Genesis 18-19`,                     },
+    { id: `20150705`,   sermon: `America, Will You Stand?`,                                                             studyGuide: `NONE`, },
+    { id: `20220727`,   sermon: `Evening Special with Patti Height`,                                                    studyGuide: `NONE`, extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
+    { id: `20230604`,   sermon: `A Biblical Response to the 'Transing' of America`, scripture: `rom.1@@Romans 1:18-28`,                     },
+    { id: `20240114`,   sermon: `When a Culture Excludes God`,                      scripture: `rom.1@@Rom 1:24-32`,                        },
+    { id: `PH20250817`, sermon: `https://www.youtube.com/watch?v=AdzHnvL5iZM@@From Gender Confusion to Freedom in Christ (Patti Height & Gary Hamrick)`, studyGuide: `NONE`, date:`08/17/2025`,  extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`, },
   ]
 }) }M
 
@@ -103,8 +104,9 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`,                             scripture: `jhn.8@@John 8`,      studyGuide: `NONE`, },
-    { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,  scripture: `mat.28@@Matthew 28`, studyGuide: `NONE`, },
-    { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,   scripture: `heb.13@@Hebrews 13`, studyGuide: `NONE`, },
+    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`,                                            scripture: `jhn.8@@John 8`,               studyGuide: `NONE`, },
+    { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,                 scripture: `mat.28@@Matthew 28`,          studyGuide: `NONE`, },
+    { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,                  scripture: `heb.13@@Hebrews 13`,          studyGuide: `NONE`, },
+    { id: `20250810`, sermon: `Walk In The Light (Ryan Ries)`, extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`,    scripture: `jhn.12.31-33@@John 12:31-33`, studyGuide: `NONE`, },
   ]
 }) }M

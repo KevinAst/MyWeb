@@ -27,7 +27,8 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v25.0](#v25_0)   | Chosen Season 5 & House of David & August Memory Verses & more  | *July 25, 2025*
+[v25.1](#v25_1)   | Sync Sermons, Sept Memory Verses, Deep Dives & more     | *Aug 24, 2025*
+[v25.0](#v25_0)   | Chosen Season 5, House of David, Aug Mem Verses & more  | *July 25, 2025*
 [v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *July 3, 2025*
 [v24.8](#v24_8)   | June Memory Verses & Sync Current Sermon Series | *May 22, 2025*
 [v24.7](#v24_7)   | Chosen Updates, Memory Verse, & Sermon Sync      | *May 1, 2025*
@@ -78,10 +79,37 @@ Release           | What                 | *When*
 
 ## Details:
 
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.1 - Sync Sermons, Sept Memory Verses, Deep Dives & more <i>(Aug 24, 2025)</i>
+</h3>
+<br/>
+
+- Synced Current Sermon Series
+  * {{book.2Kings}} Series (Mid Week)
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.Galatians}} Series (Sundays)
+  * added **Ryan Ries** sermon in the
+    {{book.Misc}} section of {{book.CurrentEvents}} _(under
+    {{book.SpecialEvents}})_
+  * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
+
+
+- Added FBM's September Memory Verses in {{book.Memorization}}
+  page: 2 Corinthians 10:5, 1 Corinthians 10:13
+
+- Synced Latest Deep Dives in the **{{book.TheChosen}}**
+
+- Added Numbers & Deuteronomy Series to {{book.MySmallGroup}}
+
+
+
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v25_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v25.0 - Chosen Season 5 & House of David & August Memory Verses & more <i>(July 25, 2025)</i>
+  v25.0 - Chosen Season 5, House of David, Aug Mem Verses & more <i>(July 25, 2025)</i>
 </h3>
 <br/>
 

@@ -109,5 +109,9 @@ M{ sermonSeries({
     { id: `20250618`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.9@@2 Kings 9-10`,          },
     { id: `20250702`, sermon: `Teaching (Pastor Andy Wagner)`,     scripture: `2ki.11@@2 Kings 11-12`,        },
     { id: `20250723`,                                              scripture: `2ki.13@@2 Kings 13 & 14:1-14`, },
+    { id: `20250730`,                                              scripture: `2ki.14@@2 Kings 14:14-15:31`,  },
+    { id: `20250806`,                                              scripture: `2ki.15@@2 Kings 15:32-16:16`,  },
+    { id: `20250813`,                                              scripture: `2ki.16@@2 Kings 16:17-17:33`,  },
+    { id: `20250820`,                                              scripture: `2ki.17@@2 Kings 17:34-18:37`,  },
   ]
 }) }M

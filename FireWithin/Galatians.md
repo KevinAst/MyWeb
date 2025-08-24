@@ -32,6 +32,7 @@ becomes more and more beautiful to you.
 - [Overview](#overview)
 - [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
+- [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
 
 ## Overview
@@ -84,10 +85,14 @@ M{ youTube(`SnBQG07x0ow`) }M
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2025, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 M{ sermonSeries({
   entries: [
-    { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Gal 1-3`, },
-    { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Gal 4-6`, },
+    { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Galatians 1-3`, },
+    { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Galatians 4-6`, },
   ]
 }) }M
 
@@ -101,10 +106,21 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20170621`, scripture: `gal.1@@Gal 1`,         },
-    { id: `20170628`, scripture: `gal.2@@Gal 2`,         },
-    { id: `20170705`, scripture: `gal.3@@Gal 3`,         },
-    { id: `20170712`, scripture: `gal.4@@Gal 4-5:13`,    },
-    { id: `20170719`, scripture: `gal.5@@Gal 5:13-6:18`, },
+    { id: `20170621`, scripture: `gal.1@@Galatians 1`,         },
+    { id: `20170628`, scripture: `gal.2@@Galatians 2`,         },
+    { id: `20170705`, scripture: `gal.3@@Galatians 3`,         },
+    { id: `20170712`, scripture: `gal.4@@Galatians 4-5:13`,    },
+    { id: `20170719`, scripture: `gal.5@@Galatians 5:13-6:18`, },
+  ]
+}) }M
+
+
+## 2025 Galatians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
   ]
 }) }M

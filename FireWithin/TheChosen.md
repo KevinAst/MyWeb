@@ -737,7 +737,7 @@ M{ sermonSeries({
       desc:               `Jesus arrives at the Last Supper. The disciples fear for their safety as Jesus’ enemies close ranks around them.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:P6VDLa6Zd8g@@WashJudasFeet##ZCPMGXQl1ak@@Mark##ysaOIClARs8@@JudasSister`,
+      date:               `DeepDive:P6VDLa6Zd8g@@WashJudasFeet##ZCPMGXQl1ak@@Mark##ysaOIClARs8@@JudasSister##irg_NJvuhgE@@Flashbacks`,
     },
     {
       id:                 `TC-S5-E8`,
@@ -746,7 +746,7 @@ M{ sermonSeries({
       desc:               `Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.`,
 //??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
       studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
-      date:               `DeepDive:cCrXGnlfCg0@@MORE-STILL-STREAMING??`,
+      date:               `DeepDive:uZfsEolfYhg@@Thaddeus##Ui9wOQVEykU@@JudasBetrayal##3JwxOQdLPco@@LastSupper`,
     },
   ]
 }) }M

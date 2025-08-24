@@ -205,6 +205,18 @@ When a Culture Excludes God
 Rom 1:24-32
 rom.1
 
+08/17/2025
+https://www.youtube.com/watch?v=AdzHnvL5iZM@@From Gender Confusion to Freedom in Christ (Patti Height & Gary Hamrick)
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+id: `PH20250817`,
+date:`08/17/2025`, 
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
+
+
 *-------------
 * Moral Decay
 *-------------
@@ -273,18 +285,26 @@ gen.1
 
 NOTE: Cronological Order (i.e. SAME as web-page promotion)
 
-04/30/2025
-Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2
-Hebrews 13
-heb.13
+02/23/2025
+Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)
+John 8
+jhn.8
 
 04/09/2025
 Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2
 Matthew 28
 mat.28
 
-02/23/2025
-Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)
-John 8
-jhn.8
+04/30/2025
+Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2
+Hebrews 13
+heb.13
+
+08/10/2025
+Walk In The Light (Ryan Ries)
+John 12:31-33
+jhn.12.31-33
+
+>> FOR ABOVE ********************************************************************************
+extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`
 
