@@ -100,8 +100,7 @@ Release           | What                 | *When*
 - Added FBM's September Memory Verses in {{book.Memorization}}
   page: 2 Corinthians 10:5, 1 Corinthians 10:13
 
-- Synced Latest Deep Dives in the **{{book.TheChosen}}** ?? and
-  **{{book.HouseOfDavid}}** pages
+- Synced Latest Deep Dives in the **{{book.TheChosen}}**
 
 
 <!-- ************************************************************* -->
