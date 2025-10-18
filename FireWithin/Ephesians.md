@@ -13,6 +13,7 @@ and is working within us to bring unity where there was division.
 - [Overview](#overview)
 - [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
 - [2017 Ephesians Series (Mid Week)](#2017-ephesians-series-mid-week)
+- [2025 Ephesians Series (Sundays)](#2025-ephesians-series-sundays)
 - [Ephesians Misc Selection](#ephesians-misc-selection)
 
 
@@ -66,6 +67,10 @@ M{ youTube(`oJUVc_fpA14`) }M
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2025, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 M{ sermonSeries({
   entries: [
     { id: `20100221`, sermon: `Our Spiritual Blessings in Christ`, scripture: `eph.1@@Ephesians 1-2`, },
@@ -91,6 +96,18 @@ M{ sermonSeries({
     { id: `20170920`, scripture: `eph.4@@Ephesians 4:17-32`,   },
     { id: `20170927`, scripture: `eph.5@@Ephesians 5`,         },
     { id: `20171004`, scripture: `eph.6@@Ephesians 6:1-24`,    },
+  ]
+}) }M
+
+
+## 2025 Ephesians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20251005`, sermon: `The Answer to Identity Confusion`, scripture: `eph.1@@Ephesians 1`, },
+    { id: `20251012`, sermon: `Dead or Alive?`,                   scripture: `eph.2@@Ephesians 2`, }, // ?? studyGuide: `NONE`, ... waiting for Cornerstone to activate Study Guide
   ]
 }) }M
 

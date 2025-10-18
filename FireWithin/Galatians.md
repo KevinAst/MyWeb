@@ -122,5 +122,11 @@ M{ sermonSeries({
 M{ sermonSeries({
   entries: [
     { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
+    { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },
+    { id: `20250831`, sermon: `Reverse of the Curse`,                 scripture: `gal.3@@Galatians 3`,    },
+    { id: `20250907`, sermon: `One in Christ`,                        scripture: `gal.3@@Galatians 3`,    },
+    { id: `20250914`, sermon: `When Truth Draws Enemies`,             scripture: `gal.4@@Galatians 4:16`, },
+    { id: `20250921`, sermon: `The Battle of the Flesh and Spirit`,   scripture: `gal.5@@Galatians 5`,    },
+    { id: `20250928`, sermon: `You Reap What You Sow`,                scripture: `gal.6@@Galatians 6`,    },
   ]
 }) }M

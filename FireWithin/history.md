@@ -88,15 +88,11 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Synced Current Sermon Series
-  * ?? UPDATE THIS
-  * {{book.2Kings}} Series (Mid Week)
-  * {{book.2Corinthians}} Series (Sundays)
+- Synced Current Sermon Series
   * {{book.Galatians}} Series (Sundays)
-  * added **Ryan Ries** sermon in the
-    {{book.Misc}} section of {{book.CurrentEvents}} _(under
-    {{book.SpecialEvents}})_
-  * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
+  * {{book.Ephesians}} Series (Sundays)
+  * {{book.2Kings}} Series (Mid Week)
+  * added {{book.EndTimes}} Sermon (10/15/2025: Mysteries in the Bible: The Rapture (Pastor Tyler Hamrick))
 
 
 - ?? **{{book.TheChosen}}** page was updated to the Chosen App {{book.TCSeason5M}} free links (rather than Amazon Prime links).
