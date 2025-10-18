@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 25, 2025*
 [v25.1](#v25_1)   | Sync Sermons, Sept Memory Verses, Deep Dives & more     | *Aug 24, 2025*
 [v25.0](#v25_0)   | Chosen Season 5, House of David, Aug Mem Verses & more  | *July 25, 2025*
 [v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *July 3, 2025*
@@ -78,6 +79,34 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.2 - Sync Sermons, Chosen Updates, Memory Verses <i>(Oct 25, 2025)</i>
+</h3>
+<br/>
+
+- ?? Synced Current Sermon Series
+  * ?? UPDATE THIS
+  * {{book.2Kings}} Series (Mid Week)
+  * {{book.2Corinthians}} Series (Sundays)
+  * {{book.Galatians}} Series (Sundays)
+  * added **Ryan Ries** sermon in the
+    {{book.Misc}} section of {{book.CurrentEvents}} _(under
+    {{book.SpecialEvents}})_
+  * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
+
+
+- ?? **{{book.TheChosen}}** page was updated to the Chosen App {{book.TCSeason5M}} free links (rather than Amazon Prime links).
+  * ? any more Deep Dives Episode 5+ (once they are available) ... should be mostly in-place
+  * ? Round Table Links (once they are available)
+  * ? Devo Links (once they are available)
+  * ? Scripture Links (once they are available)
+
+
+- ?? Completed FBM's Memory Verses in the {{book.Memorization}} page
 
 
 <!-- ************************************************************* -->
