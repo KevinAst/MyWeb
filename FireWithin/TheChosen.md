@@ -191,7 +191,7 @@ to Photina, a Samaritan woman.
 P{ inject('</div>') }P
 
 > Bible App (Season 1 Released 04/21/2019) ... 
-> [Movies](https://www.bible.com/videos/collections/208-the-chosen-season-1) • 
+> [Movies](https://watch.thechosen.tv/page/season-1) • 
 > [Devotions](https://www.bible.com/reading-plans/41622-the-chosen-bibleproject-season-1-reading-plan)
 > <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
@@ -323,7 +323,7 @@ the Mount, with the help of the business apprentice Judas Iscariot.
 P{ inject('</div>') }P
 
 > Bible App (Season 2 Released 04/04/2021) ... 
-> [Movies](https://www.bible.com/videos/collections/1389-the-chosen-season-2) • 
+> [Movies](https://watch.thechosen.tv/page/season-2) • 
 > [Devotions](https://www.bible.com/reading-plans/41623-the-chosen-bibleproject-season-2-reading-plan)
 > <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
@@ -439,7 +439,7 @@ on the water.
 P{ inject('</div>') }P
 
 > Bible App (Season 3 Released 11/05/2022) ... 
-> [Movies](https://www.bible.com/videos/collections/1393-the-chosen-season-3) • 
+> [Movies](https://watch.thechosen.tv/page/season-3) • 
 > [Devotions](https://www.bible.com/reading-plans/41624-the-chosen-bibleproject-season-3-reading-plan)
 > <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
@@ -550,7 +550,7 @@ UP.
 P{ inject('</div>') }P
 
 > Bible App (Season 4 Released 06/02/2024) ... 
-> [Movies](https://watch.thechosen.tv/page/season%204) • 
+> [Movies](https://watch.thechosen.tv/page/season-4) • 
 > [Devotions](https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan)
 > <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
 
@@ -642,12 +642,12 @@ M{ sermonSeries({
 
 ## Season 5
 
-<!-- ?? Temporarly Promote THIS NOTE -->
+<!-- Temporarly Promote THIS NOTE
 <mark><b>Please NOTE:</b></mark> Currently Season 5 is only available on Amazon Prime (which requires a subscription to view).  After 09/13/2025 these links will be updated to the free Chosen App.
-
-<!-- ?? Eventually promote this
-<mark><b>Please NOTE:</b></mark> Season 5 requires you to **sign-in** to stream the episodes _(it's a free account)_.
  -->
+
+<!-- Eventually promote this  -->
+<mark><b>Please NOTE:</b></mark> Season 5 requires you to **sign-in** to stream the episodes _(it's a free account)_.
 
 P{ inject('<div data-fw-desc style="display: none;">') }P
 
@@ -668,84 +668,90 @@ This tale of sacrifice becomes humanity's most profound story.
 P{ inject('</div>') }P
 
 > Bible App (Season 5 Released 09/13/2025) ... 
-> [Movies??](https://watch.thechosen.tv/page/season%204) • 
-> [Devotions??](https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan)
+> [Movies](https://watch.thechosen.tv/page/season-5) • 
+> [Devotions](https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan)
 > <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
-
-<!-- ?? initial release are Amazon Prime links -->
 
 M{ sermonSeries({
   entries: [
     {
       id:                 `TC-S5-E1`, 
-      sermon:             `https://www.amazon.com/gp/video/detail/0JVH46NRJ3WCOAUJG9R9B8V9ZD/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Entry`,
-//??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0JVH46NRJ3WCOAUJG9R9B8V9ZD/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Entry`,
+      sermon:             `https://watch.thechosen.tv/video/184683621777@@Entry`,
+      extraSermonLink:    `https://watch.thechosen.tv/video/184683636503@@&#10022;RoundTable&#10022;`,
       desc:               `Jesus rides into the holy city as king, but finds that the rulers have turned His Father’s house from a place of prayer to a corrupt market.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
       date:               `DeepDive:N8MuWp7vSmk@@Last Supper##l4ZlrpcppGI@@Jesus Weeps##9H3dDDm9nEo@@God's Voice Shocks`,
     },
     {
       id:                 `TC-S5-E2`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0QOSPLAYBLU8UCWVSNB1JY1WQ6/ref=atv_dp_btf_el_prime_uhd_tv_resume_t1ADAAAAAA0wr0@@House of Cards`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0QOSPLAYBLU8UCWVSNB1JY1WQ6/ref=atv_dp_btf_el_prime_uhd_tv_resume_t1ADAAAAAA0wr0@@House of Cards`,
+      sermon:             `https://watch.thechosen.tv/video/184683621748@@House of Cards`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `Why kill Jesus when Rome can do it for you? As the Jewish High Priest schemes to bring Him down, Jesus strikes first: turning the tables.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `gen.12.1-3@@Genesis 12:1-3##jer.7.1-7@@CR:Jeremiah 7:1-7##mrk.11.15-19@@CR:Mark 11:15-19`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/2@@Devo-2`,
       date:               `DeepDive:v25hUOabGH8@@Fall Away##4-VIOW6MeLI@@Ramah Returns##jYnKj68jHmo@@Seminal Discharge##DU46ZFMUspY@@Best Scene`,
     },
     {
       id:                 `TC-S5-E3`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0RXOR2VGW37UESNVBACVSUUKQA/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Woes`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0RXOR2VGW37UESNVBACVSUUKQA/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Woes`,
+      sermon:             `https://watch.thechosen.tv/video/184683621750@@Woes`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `Jesus preaches one last time to the massive Passover crowd, and the religious leaders try to trap him in his words.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `mat.24.1-14@@Matthew 24:1-14##mat.24.36-44@@CR:Matthew 24:36-44##mat.25.1-13@@CR:Matthew 25:1-13`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/3@@Devo-3`,
       date:               `DeepDive:mtSNIO-qxXU@@I am the Way##d0wHSnZoo80@@Joseph##Trbqu8fCxh8@@Judas Doubts Jesus' Divinity##7JzTjaXzQ4Y@@Jesus' Biggest Condemnation##_SAq0GFsGTI@@Luke 21 Comes to Life`,
     },
     {
       id:                 `TC-S5-E4`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0Q60E7EOTGQ6JF1DU2ZX834HUR/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Same Coin`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0Q60E7EOTGQ6JF1DU2ZX834HUR/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Same Coin`,
+      sermon:             `https://watch.thechosen.tv/video/184683621752@@The Same Coin`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `Afraid of public outcry—and further embarrassment—Caiaphas resolves to arrest Jesus quietly at night. Only one problem: no one knows how to find Him.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `gen.2.15-17@@Genesis 2:15-17##gen.3.1-7@@CR:Genesis 3:1-7##deu.30.11-16@@CR:Deuteronomy 30:11-16##jhn.13.18-26@@CR:John 13:18-26`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/4@@Devo-4`,
       date:               `DeepDive:Ds8O9t9lGDU@@Wrecking Scene##PsqldTc3ahw@@Jesus Tried to Save Judas##rS9zXMkfXzs@@Deal with Jesus' Death##cCrXGnlfCg0@@Shmuel`,
     },
     {
       id:                 `TC-S5-E5`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0KP8FZVK4XTLZ0WOVI972CKJQ9/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Because of Me`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0KP8FZVK4XTLZ0WOVI972CKJQ9/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Because of Me`,
+      sermon:             `https://watch.thechosen.tv/video/184683621754@@Because of Me`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `he decision to arrest Jesus leads to a fiery debate. Roman soldiers track down a troublemaking crowd. Shmuel finds help from an unexpected source.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `mat.6.5-13@@Matthew 6:5-13##mat.26.1-5@@CR:Matthew 26:1-5##psa.79.8-10@@CR:Psalms 79:8-10`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/5@@Devo-5`,
       date:               `DeepDive:rsL5VV1InmI@@WhoIsTheGreatest##g04ObQLldjQ@@KillJesus##fZwdRclVRa0@@NicodemusEpicEntrance##Z9GLNRHOoeE@@PilatesChoice##esen6N01U8g@@FigTree`,
     },
     {
       id:                 `TC-S5-E6`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0LDVIRJUI1YL9QT1M30SNDNENO/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Reunions`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0LDVIRJUI1YL9QT1M30SNDNENO/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@Reunions`,
+      sermon:             `https://watch.thechosen.tv/video/184683621761@@Reunions`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `As Jesus’ followers gather for the Passover meal, His enemies assemble for a man hunt. Judas holds a secret meeting.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `luk.2.14-20@@Luke 2:14-20##mat.26.26-30@@CR:Matthew 26:26-30##jhn.15.1-17@@CR:John 15:1-17`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/6@@Devo-6`,
       date:               `DeepDive:9RZxV99JQCI@@Communion##pNgPCReqz3g@@Matthias##HY4_2ZnOFCw@@JudasSecretMeeting`,
     },
     {
       id:                 `TC-S5-E7`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0LV6VDY3DQQ85LSVD3CF3UDJ4Y/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part I`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0LV6VDY3DQQ85LSVD3CF3UDJ4Y/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part I`,
+      sermon:             `https://watch.thechosen.tv/video/184683621763@@The Upper Room Part I`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `Jesus arrives at the Last Supper. The disciples fear for their safety as Jesus’ enemies close ranks around them.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+      scripture:          `jhn.13.1-17@@John 13:1-17`,
+      studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/7@@Devo-7`,
       date:               `DeepDive:P6VDLa6Zd8g@@WashJudasFeet##ZCPMGXQl1ak@@Mark##ysaOIClARs8@@JudasSister##irg_NJvuhgE@@Flashbacks`,
     },
     {
       id:                 `TC-S5-E8`,
-      sermon:             `https://www.amazon.com/gp/video/detail/0OA6SJ3FX0XH6TMJWV1G857MW1/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part II`,
+//    sermon:             `https://www.amazon.com/gp/video/detail/0OA6SJ3FX0XH6TMJWV1G857MW1/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0@@The Upper Room Part II`,
+      sermon:             `https://watch.thechosen.tv/video/184683621765@@The Upper Room Part II`,
 //??  extraSermonLink:    `https://watch.thechosen.tv/video/184683597687@@&#10022;RoundTable&#10022;`,
       desc:               `Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.`,
-//??  scripture:          `luk.1.39-45@@Luke 1:39-45##luk.1.57-66@@CR:Luke 1:57-66##isa.40.3-8@@CR:Isaiah 40:3-8`,
-      studyGuide:         `https://www.bible.com/reading-plans/47980-the-chosen-bible-project-season-4-reading-plan/day/1@@Devo-1??`, // ?? retrofit this
+//    scripture:          `UNKNOWN ... NO Devotion to glean info from`,
+      studyGuide:         `NONE`,
       date:               `DeepDive:uZfsEolfYhg@@Thaddeus##Ui9wOQVEykU@@JudasBetrayal##3JwxOQdLPco@@LastSupper`,
     },
   ]

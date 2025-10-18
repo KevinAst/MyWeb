@@ -95,11 +95,11 @@ Release           | What                 | *When*
   * added {{book.EndTimes}} Sermon (10/15/2025: Mysteries in the Bible: The Rapture (Pastor Tyler Hamrick))
 
 
-- ?? **{{book.TheChosen}}** page was updated to the Chosen App {{book.TCSeason5M}} free links (rather than Amazon Prime links).
-  * ? any more Deep Dives Episode 5+ (once they are available) ... should be mostly in-place
-  * ? Round Table Links (once they are available)
-  * ? Devo Links (once they are available)
-  * ? Scripture Links (once they are available)
+- **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
+  * Links now reference the free Chosen App (rather than Amazon Prime links)
+  * Devo links were added
+  * Scripture links were added
+  * Round Table links were added (currently available on Episode 1)
 
 
 - ?? Completed FBM's Memory Verses in the {{book.Memorization}} page
