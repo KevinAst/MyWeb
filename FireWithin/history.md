@@ -102,7 +102,7 @@ Release           | What                 | *When*
   * Round Table links were added (currently available on Episode 1)
 
 
-- ?? Completed FBM's Memory Verses in the {{book.Memorization}} page
+- Completed FBM's Memory Verses in the {{book.Memorization}} page
 
 
 <!-- ************************************************************* -->
