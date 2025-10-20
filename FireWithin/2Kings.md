@@ -113,5 +113,9 @@ M{ sermonSeries({
     { id: `20250806`,                                              scripture: `2ki.15@@2 Kings 15:32-16:16`,  },
     { id: `20250813`,                                              scripture: `2ki.16@@2 Kings 16:17-17:33`,  },
     { id: `20250820`,                                              scripture: `2ki.17@@2 Kings 17:34-18:37`,  },
+    { id: `20250903`,                                              scripture: `2ki.19@@2 Kings 19-20:11`,     },
+    { id: `20250917`,                                              scripture: `2ki.20@@2 Kings 20:11-21:26`,  },
+    { id: `20251001`,                                              scripture: `2ki.22@@2 Kings 22:1-23:30.`,  },
+    { id: `20251008`,                                              scripture: `2ki.23@@2 Kings 23:30-25:20`,  },
   ]
 }) }M

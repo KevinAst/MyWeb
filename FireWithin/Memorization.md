@@ -45,6 +45,18 @@ M{ toc({
     { href: `#september`,   label: `September` ,                                         },
     { ref:  `2co.10.5`,     label: `2 Corinthians 10:5 (ChristianLiving)`,indent: true,  },
     { ref:  `1co.10.13`,    label: `1 Corinthians 10:13 (God)`,           indent: true,  },
+
+    { href: `#october`,     label: `October` ,                                           },
+    { ref:  `1ti.4.7`,      label: `1 Timothy 4:7 (Discipleship)`,        indent: true,  },
+    { ref:  `eph.3.16-19`,  label: `Ephesians 3:16-19 (Prayer)`,          indent: true,  },
+
+    { href: `#november`,    label: `November` ,                                          },
+    { ref:  `rom.5.8`,      label: `Romans 5:8 (Evangelism)`,             indent: true,  },
+    { ref:  `jhn.15.16-17`, label: `John 15:16-17 (Discipleship)`,        indent: true,  },
+
+    { href: `#december`,    label: `December` ,                                          },
+    { ref:  `rom.15.13`,    label: `Romans 15:13 (Prayer)`,               indent: true,  },
+    { ref:  `php.1.3-11`,   label: `Philippians 1:3-6, 9-11 (Prayer)`,    indent: true,  },
   ]
 }) }M
 
@@ -1056,7 +1068,7 @@ P{ inject('</div>') }P
 
 <span id="september"></span>
 
-_**[September Flyer](https://fbmaryville.org/s/_25in25cards_September.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+_**[September Flyer](https://fbmaryville.org/s/25in25cards_September.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
 
 
 <!-- *** NEW PASSAGE ******************************************************************************** -->
@@ -1134,6 +1146,264 @@ temptation.
 When we are tempted, God is faithful to show us a way out!
 
 Thank you Lord!
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
+
+<span id="october"></span>
+
+_**[October Flyer](https://fbmaryville.org/s/_25in25cards_October.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `1ti.4.7`,
+  label:   `1 Timothy 4:7 (Discipleship)`,
+  context: `Train for godliness`,
+  text: {
+    NLT:    `Do not waste time arguing over godless ideas and old wives' tales. Instead, train yourself to be godly.`,
+    NKJV:   `But reject profane and old wives' fables, and exercise yourself toward godliness.`,  
+    ESV:    `Have nothing to do with irreverent, silly myths. Rather train yourself for godliness`,
+    "NIV*": `Have nothing to do with godless myths and old wives' tales; rather, train yourself to be godly.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="1Timothy.html">... explore 1 Timothy</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_1ti_4_7',
+  label:  'Additional Thoughts',
+}) }P
+
+Godless myths and old wives’ tales are equivalent to “get rich quick
+schemes” and “quick fixes.” There are no shortcuts in growing in your
+relationship with God. 
+
+Godliness is only produced through the day-in and day-out walking with
+the Lord. Godliness comes through learning how to approach life in
+obedience to Him! 
+
+There is no “spiritual bro-science.” There are no “spiritual life
+hacks!” We should have nothing to do with spiritual shortcuts. We
+should embrace the hard work of godliness. It is training after all!
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `eph.3.16-19`,
+  label:   `Ephesians 3:16-19 (Prayer)`,
+  context: `Rooted in Christ’s love`,
+  text: {
+    "NLT*": `I pray that from his glorious, unlimited resources he will empower you with inner strength through his Spirit. Then Christ will make his home in your hearts as you trust in him. Your roots will grow down into God’s love and keep you strong. And may you have the power to understand, as all God’s people should, how wide, how long, how high, and how deep his love is. May you experience the love of Christ, though it is too great to understand fully. Then you will be made complete with all the fullness of life and power that comes from God.`,
+    NKJV:   `that He would grant you, according to the riches of His glory, to be strengthened with might through His Spirit in the inner man, that Christ may dwell in your hearts through faith; that you, being rooted and grounded in love, may be able to comprehend with all the saints what is the width and length and depth and height— to know the love of Christ which passes knowledge; that you may be filled with all the fullness of God.`,  
+    ESV:    `that according to the riches of his glory he may grant you to be strengthened with power through his Spirit in your inner being, so that Christ may dwell in your hearts through faith—that you, being rooted and grounded in love, may have strength to comprehend with all the saints what is the breadth and length and height and depth, and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.`,
+    NIV:    `I pray that out of his glorious riches he may strengthen you with power through his Spirit in your inner being, so that Christ may dwell in your hearts through faith. And I pray that you, being rooted and established in love, may have power, together with all the Lord’s holy people, to grasp how wide and long and high and deep is the love of Christ, and to know this love that surpasses knowledge—that you may be filled to the measure of all the fullness of God.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Ephesians.html">... explore Ephesians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_eph_3_16-19',
+  label:  'Additional Thoughts',
+}) }P
+
+When you are praying for someone you can follow Paul’s example. 
+
+For example, if you were praying for your best friend, you can pray
+that God would empower them through His Holy Spirit. That they would
+trust in Christ despite the challenges they face and that they would
+be kept strong in their faith. Pray for your friend to continually
+deepen their understanding of the love of Christ. Ask God to help them
+to have the fullness of life and the strength that only comes from
+God.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
+
+<span id="november"></span>
+
+_**[November Flyer](https://fbmaryville.org/s/25in25cards_November.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.5.8`,
+  label:   `Romans 5:8 (Evangelism)`,
+  context: `Love proven at the cross`,
+  text: {
+    NLT:    `But God showed his great love for us by sending Christ to die for us while we were still sinners.`,
+    NKJV:   `But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us.`,  
+    ESV:    `but God shows his love for us in that while we were still sinners, Christ died for us.`,
+    "NIV*": `But God demonstrates his own love for us in this: While we were still sinners, Christ died for us.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_5_8',
+  label:  'Additional Thoughts',
+}) }P
+
+God loves us. He loves us enough that even while we were sinning and
+rebellious towards Him, He sent Jesus. 
+
+Jesus died on the Cross to pay for our sin debt. Despite our sin, God
+is still patient and kind. 
+
+May we not take His patience for granted.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `jhn.15.16-17`,
+  label:   `John 15:16-17 (Discipleship)`,
+  context: `Chosen and sent in love`,
+  text: {
+    NLT:    `You didn’t choose me. I chose you. I appointed you to go and produce lasting fruit, so that the Father will give you whatever you ask for, using my name. This is my command: Love each other.`,
+    NKJV:   `You did not choose Me, but I chose you and appointed you that you should go and bear fruit, and that your fruit should remain, that whatever you ask the Father in My name He may give you. These things I command you, that you love one another.`,  
+    ESV:    `You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide, so that whatever you ask the Father in my name, he may give it to you. These things I command you, so that you will love one another.`,
+    "NIV*": `You did not choose me, but I chose you and appointed you so that you might go and bear fruit—fruit that will last—and so that whatever you ask in my name the Father will give you. This is my command: Love each other.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="John.html">... explore John</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_jhn_15_16-17',
+  label:  'Additional Thoughts',
+}) }P
+
+Jesus has chosen to have a relationship with you.  He did the work on
+the cross to make this relationship possible.  Jesus did this so that
+you might live in such a way that it produces good, lasting fruit that
+shows the goodness of the Father.
+
+The basis for showing the goodness of the Father is loving others.
+When an unbelieving world sees the goodness of the Father, He is
+glorified (lifted up) above any belief system, false deity,
+self-reliance that can be found in the world.
+
+So go love others. Show love.
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+
+<!-- *** NEW MONTH ******************************************************************************** -->
+
+<hr style="height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;">
+
+<span id="december"></span>
+
+_**[December Flyer](https://fbmaryville.org/s/25in25cards_December.pdf) for [25 in 25](https://fbmaryville.org/25-in-25) campaign**_
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `rom.15.13`,
+  label:   `Romans 15:13 (Prayer)`,
+  context: `Trust, joy, and overflowing hope`,
+  text: {
+    NLT:    `I pray that God, the source of hope, will fill you completely with joy and peace because you trust in him. Then you will overflow with confident hope through the power of the Holy Spirit.`,
+    NKJV:   `Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope by the power of the Holy Spirit.`,  
+    ESV:    `May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope.`,
+    "NIV*": `May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Romans.html">... explore Romans</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_rom_15_13',
+  label:  'Additional Thoughts',
+}) }P
+
+When you pray for someone you can follow Paul’s example.
+
+For example, if you are praying for your child, ask God to help your
+child be full of the power of the Holy Spirit. Pray that your child
+will always trust in God. Ask God to fill your child with joy and
+peace that he/she will overflow with hope!
+
+P{ collapsibleSectionEnd() }P
+
+P{ inject('</div>') }P
+
+
+<!-- *** NEW PASSAGE ******************************************************************************** -->
+
+M{ memorizeVerse({
+  ref:     `php.1.3-11`,
+  label:   `Philippians 1:3-6, 9-11 (Prayer)`,
+  context: `Strengthened for Christ’s work`,
+  text: {
+    NLT:    `Every time I think of you, I give thanks to my God. Whenever I pray, I make my requests for all of you with joy, for you have been my partners in spreading the Good News about Christ from the time you first heard it until now. And I am certain that God, who began the good work within you, will continue his work until it is finally finished on the day when Christ Jesus returns. ... I pray that your love will overflow more and more, and that you will keep on growing in knowledge and understanding. For I want you to understand what really matters, so that you may live pure and blameless lives until the day of Christ’s return. May you always be filled with the fruit of your salvation—the righteous character produced in your life by Jesus Christ—for this will bring much glory and praise to God.`,
+    NKJV:   `I thank my God upon every remembrance of you, always in every prayer of mine making request for you all with joy, for your fellowship in the gospel from the first day until now, being confident of this very thing, that He who has begun a good work in you will complete it until the day of Jesus Christ; ... And this I pray, that your love may abound still more and more in knowledge and all discernment, that you may approve the things that are excellent, that you may be sincere and without offense till the day of Christ, being filled with the fruits of righteousness which are by Jesus Christ, to the glory and praise of God.`,  
+    ESV:    `I thank my God in all my remembrance of you, always in every prayer of mine for you all making my prayer with joy, because of your partnership in the gospel from the first day until now. And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ. ... And it is my prayer that your love may abound more and more, with knowledge and all discernment, so that you may approve what is excellent, and so be pure and blameless for the day of Christ, filled with the fruit of righteousness that comes through Jesus Christ, to the glory and praise of God.`,
+    "NIV*": `I thank my God every time I remember you. In all my prayers for all of you, I always pray with joy because of your partnership in the gospel from the first day until now, being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus. ... And this is my prayer: that your love may abound more and more in knowledge and depth of insight, so that you may be able to discern what is best and may be pure and blameless for the day of Christ, filled with the fruit of righteousness that comes through Jesus Christ—to the glory and praise of God.`,
+  },
+}) }M
+
+<p style="text-align: center;"><i><a href="Philippians.html">... explore Philippians</a></i></p>
+
+P{ inject('<div class="indent">') }P
+
+P{ collapsibleSection({
+  id:     'more_php_1_3-11',
+  label:  'Additional Thoughts',
+}) }P
+
+When you pray for someone you can follow Paul’s example. 
+
+For example, if you are praying for a missionary, joyfully thank God
+for this missionary. Pray that God would continue to work in their
+life as they are serving others. Pray that their love would abound for
+God and others. Pray that they would have more and more knowledge and
+depth of insight to discern what is best. Pray they would be pure and
+blameless, filled with the results of righteousness that only come
+through a relationship with Jesus. Pray that all this would happen so
+that God would be glorified in them and through them so that everyone
+they meet would praise God!
 
 P{ collapsibleSectionEnd() }P
 
