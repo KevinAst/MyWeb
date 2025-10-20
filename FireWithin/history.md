@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 25, 2025*
+[v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 20, 2025*
 [v25.1](#v25_1)   | Sync Sermons, Sept Memory Verses, Deep Dives & more     | *Aug 24, 2025*
 [v25.0](#v25_0)   | Chosen Season 5, House of David, Aug Mem Verses & more  | *July 25, 2025*
 [v24.9](#v24_9)   | July Memory Verses & Sync Current Sermon Series | *July 3, 2025*
@@ -84,7 +84,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v25_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v25.2 - Sync Sermons, Chosen Updates, Memory Verses <i>(Oct 25, 2025)</i>
+  v25.2 - Sync Sermons, Chosen Updates, Memory Verses <i>(Oct 20, 2025)</i>
 </h3>
 <br/>
 
