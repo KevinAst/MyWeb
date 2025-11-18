@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v25.3](#v25_3)   | Billion Bible App Installs, Sync Sermons, ??Chosen Updates  | *Nov 20, 2025*
 [v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 20, 2025*
 [v25.1](#v25_1)   | Sync Sermons, Sept Memory Verses, Deep Dives & more     | *Aug 24, 2025*
 [v25.0](#v25_0)   | Chosen Season 5, House of David, Aug Mem Verses & more  | *July 25, 2025*
@@ -79,6 +80,26 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_3" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.3 - Billion Bible App Installs, Sync Sermons, ??Chosen Updates <i>(Nov 20, 2025)</i>
+</h3>
+<br/>
+
+- ?? Added new Specials Page: Bible App Billion Installs ?? LINK
+
+- ?? Synced Current Sermon Series
+  * {{book.Galatians}} Series (Sundays)
+  * {{book.Ephesians}} Series (Sundays)
+  * {{book.2Kings}} Series (Mid Week)
+  * added {{book.EndTimes}} Sermon (10/15/2025: Mysteries in the Bible: The Rapture (Pastor Tyler Hamrick))
+
+- ?? **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
+  * ? Devo links were added
+  * ? More Round Table links were added (?? currently available on Episode 1)
 
 
 <!-- ************************************************************* -->
