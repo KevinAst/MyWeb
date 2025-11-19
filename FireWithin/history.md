@@ -89,7 +89,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Added new {{book.SpecialEvents}} Page: {{book.billion}}
+- Added new {{book.SpecialEvents}} Page: {{book.billion}}
 
 - ?? Synced Current Sermon Series
   * {{book.Galatians}} Series (Sundays)
