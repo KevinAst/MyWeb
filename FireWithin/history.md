@@ -91,11 +91,11 @@ Release           | What                 | *When*
 
 - Added new {{book.SpecialEvents}} Page: {{book.billion}}
 
-- ?? Synced Current Sermon Series
-  * {{book.Galatians}} Series (Sundays)
+- Synced Current Sermon Series
   * {{book.Ephesians}} Series (Sundays)
-  * {{book.2Kings}} Series (Mid Week)
-  * added {{book.EndTimes}} Sermon (10/15/2025: Mysteries in the Bible: The Rapture (Pastor Tyler Hamrick))
+  * {{book.1Chronicles}} Series (Mid Week)
+  * added {{book.EndTimes}} Sermons (10/22/2025 & 10/26/2025)
+
 
 - ?? **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
   * ? Devo links were added

@@ -17,5 +17,7 @@ M{ sermonSeries({
     { id: `20250209`, sermon: `China and Bible Prophecy (Joel Rosenberg)`,                  scripture: `isa.49@@Isaiah 49:12`,     studyGuide: `NONE`, },
     { id: `20250709`, sermon: `Russia, Iran, and Israel: Are We Seeing Prophecy Unfold?`,   scripture: `ezk.38@@Ezekiel 38`,       studyGuide: `NONE`, },
     { id: `20251015`, sermon: `Mysteries in the Bible: The Rapture (Pastor Tyler Hamrick)`, scripture: `1co.15@@1 Corinthians 15`, studyGuide: `NONE`, },
+    { id: `20251022`, sermon: `Mysteries in the Bible: Time of Lawlessness (Pastor Tyler Hamrick)`,  scripture: `2th.2@@2 Thessalonians 2`,    studyGuide: `NONE`, },
+    { id: `20251026`, sermon: `The Rise of AI and the Future of the Church (Pastor Austin Hamrick)`, scripture: `rev.13@@Revelation 13:11-18`,                     },
   ]
 }) }M
