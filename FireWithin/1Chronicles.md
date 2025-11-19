@@ -19,6 +19,7 @@ for those studying specific facts in the Scriptures.
 
 - [Overview](#overview)
 - [2015 1 Chronicles Series (Sundays)](#2015-1-chronicles-series-sundays)
+- [2025 1 Chronicles Series (Mid Week)](#2025-1-chronicles-series-mid-week)
 - [1 Chronicles Misc Selection](#1-chronicles-misc-selection)
 
 
@@ -96,6 +97,21 @@ M{ sermonSeries({
   ]
 }) }M
 
+
+
+## 2025 1 Chronicles Series (Mid Week)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20251029`, sermon: `Where Did We Come From?`,           scripture: `1ch.1@@1 Chronicles 1-2`,   },
+    { id: `20251112`, sermon: `The Truth about Generational Sin`,  scripture: `1ch.2@@1 Chronicles 2-6.`,  },
+  ]
+}) }M
 
 
 ## 1 Chronicles Misc Selection

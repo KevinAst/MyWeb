@@ -8,4 +8,5 @@ Special Events and Guest Speakers:
 - {{book.EndTimes}}
 - {{book.CurrentEvents}}
 - {{book.QA}}
+- {{book.billion}}
 - {{book.MySmallGroup}}
