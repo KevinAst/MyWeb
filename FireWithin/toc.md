@@ -116,6 +116,7 @@
   * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
   * [Questions and Answers](QA.md)
+  * [Bible App Billion Installs](BibleAppBillion.md)
   * [My Small Group](MySmallGroup.md)
 
 ----
