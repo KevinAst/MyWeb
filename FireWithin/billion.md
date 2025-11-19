@@ -1,4 +1,4 @@
-## BEYOND a Billion - the Bible App has reached a billion installs!
+## BEYOND a Billion - the Bible App reaches a billion installs!
 
 ### At a Glance
 

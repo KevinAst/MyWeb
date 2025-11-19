@@ -8,5 +8,5 @@ Special Events and Guest Speakers:
 - {{book.EndTimes}}
 - {{book.CurrentEvents}}
 - {{book.QA}}
-- {{book.BibleAppBillion}}
+- {{book.billion}}
 - {{book.MySmallGroup}}
