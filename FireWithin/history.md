@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v25.4](#v25_4)   | Sync Sermons, Small Group, ?? Chosen  | *Dec 1, 2025*
 [v25.3](#v25_3)   | Billion Bible App Installs, Sync Sermons, Chosen Updates  | *Nov 19, 2025*
 [v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 20, 2025*
 [v25.1](#v25_1)   | Sync Sermons, Sept Memory Verses, Deep Dives & more     | *Aug 24, 2025*
@@ -80,6 +81,25 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.4 - Sync Sermons, Small Group, ?? Chosen <i>(Dec 1, 2025)</i>
+</h3>
+<br/>
+
+- ?? Synced Current Sermon Series
+  * {{book.Ephesians}} Series (Sundays)
+  * {{book.1Chronicles}} Series (Mid Week)
+  * added {{book.EndTimes}} Sermons (10/22/2025 & 10/26/2025)
+
+
+- ?? Updated "My Small Group" section in {{book.Matthew}}
+
+- ?? **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
+  * More Round Table links were added (now available through Episode 6)
+
 
 
 <!-- ************************************************************* -->
