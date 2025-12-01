@@ -13,6 +13,7 @@
 - [1/2 Peter Series](#12-peter-series)
 - [Psalms Series](#psalms-series)
 - [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
+- [Matthew Series](#matthew-series)
 
 
 ## John Series
@@ -288,5 +289,30 @@ M{ sermonSeries({
     { id: `SG20251116`, sermon: `TXT@@Covenant Relationship`,   scripture: `deu.28@@Deuteronomy 28:1-6,15-19`,   date:`11/16/2025`, },
     { id: `SG20251123`, sermon: `TXT@@Fully Committed`,         scripture: `deu.30@@Deuteronomy 30:11-20`,       date:`11/23/2025`, },
     { id: `SG20251130`, sermon: `TXT@@God’s Power`,             scripture: `deu.33@@Deuteronomy 33:1-5,26-29`,   date:`11/30/2025`, },
+  ]
+}) }M
+
+
+## Matthew Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Matthew}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20251207`, sermon: `TXT@@Affirmation`,             scripture: `mat.3@@Matthew 3:13-4:11`,           date:`12/07/2025`, },
+    { id: `SG20251214`, sermon: `TXT@@Invitation`,              scripture: `mat.4@@Matthew 4:12-25`,             date:`12/14/2025`, },
+    { id: `SG20251221`, sermon: `TXT@@Worship the King`,        scripture: `mat.2@@Matthew 2:1-12`,              date:`12/21/2025`, },
+    { id: `SG20251228`, sermon: `TXT@@True Righteousness`,      scripture: `mat.5@@Matthew 5:13-20,43-48`,       date:`12/28/2025`, },
+    { id: `SG20260104`, sermon: `TXT@@Treasure`,                scripture: `mat.6@@Matthew 6:19-34`,             date:`01/04/2026`, },
+    { id: `SG20260111`, sermon: `TXT@@Authority Acknowledged`,  scripture: `mat.7@@Matthew 7:15-29`,             date:`01/11/2026`, },
+    { id: `SG20260118`, sermon: `TXT@@Every Life Valued`,       scripture: `mat.8@@Matthew 8:1-4,14-17; 9:1-8`,  date:`01/18/2026`, },
+    { id: `SG20260125`, sermon: `TXT@@Mercy Extended`,          scripture: `mat.9@@Matthew 9:10-19,23-26`,       date:`01/25/2026`, },
+    { id: `SG20260201`, sermon: `TXT@@Loyalty Tested`,          scripture: `mat.10@@Matthew 10:16-20,26-34`,     date:`02/01/2026`, },
+    { id: `SG20260208`, sermon: `TXT@@Confronting Doubts`,      scripture: `mat.11@@Matthew 11:1-6,16-24`,       date:`02/08/2026`, },
+    { id: `SG20260215`, sermon: `TXT@@Rejecting Legalism`,      scripture: `mat.12@@Matthew 12:1-14`,            date:`02/15/2026`, },
+    { id: `SG20260222`, sermon: `TXT@@Judgment Coming`,         scripture: `mat.13@@Matthew 13:24-30,36-43`,     date:`02/22/2026`, },
   ]
 }) }M

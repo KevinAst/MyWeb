@@ -95,7 +95,7 @@ Release           | What                 | *When*
   * added {{book.EndTimes}} Sermons (10/22/2025 & 10/26/2025)
 
 
-- ?? Updated "My Small Group" section in {{book.Matthew}}
+- Updated "My Small Group" section in {{book.Matthew}}
 
 - ?? **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
   * More Round Table links were added (now available through Episode 6)
