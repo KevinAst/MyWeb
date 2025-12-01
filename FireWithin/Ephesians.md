@@ -106,11 +106,12 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20251005`, sermon: `The Answer to Identity Confusion`, scripture: `eph.1@@Ephesians 1`,   },
-    { id: `20251012`, sermon: `Dead or Alive?`,                   scripture: `eph.2@@Ephesians 2`,   },
-    { id: `20251102`, sermon: `A Prayer for You`,                 scripture: `eph.3@@Ephesians 3`,   },
-    { id: `20251109`, sermon: `Putting Feet to Your Faith`,       scripture: `eph.4@@Ephesians 4–5`, },
-    { id: `20251116`, sermon: `Marriage, Family, and Work`,       scripture: `eph.5@@Ephesians 5–6`, }, // ?? studyGuide: `NONE`, ... waiting for Cornerstone to activate Study Guide
+    { id: `20251005`, sermon: `The Answer to Identity Confusion`,    scripture: `eph.1@@Ephesians 1`,   },
+    { id: `20251012`, sermon: `Dead or Alive?`,                      scripture: `eph.2@@Ephesians 2`,   },
+    { id: `20251102`, sermon: `A Prayer for You`,                    scripture: `eph.3@@Ephesians 3`,   },
+    { id: `20251109`, sermon: `Putting Feet to Your Faith`,          scripture: `eph.4@@Ephesians 4–5`, },
+    { id: `20251116`, sermon: `Marriage, Family, and Work`,          scripture: `eph.5@@Ephesians 5–6`, },
+    { id: `20251123`, sermon: `Stand Your Ground against the Enemy`, scripture: `eph.6@@Ephesians 6`,   }, // ?? studyGuide: `NONE`, ... waiting for Cornerstone to activate Study Guide
   ]
 }) }M
 

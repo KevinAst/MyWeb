@@ -89,10 +89,9 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- ?? Synced Current Sermon Series
+- Synced Current Sermon Series
   * {{book.Ephesians}} Series (Sundays)
   * {{book.1Chronicles}} Series (Mid Week)
-  * added {{book.EndTimes}} Sermons (10/22/2025 & 10/26/2025)
 
 
 - Updated "My Small Group" section in {{book.Matthew}}
