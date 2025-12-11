@@ -26,38 +26,51 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## At a Glance
 
-- Totals _(this is why this album index is needed)_:
-  * Albums: 585
-  * Photos: 41,854
+- Totals _(the reason for this this album index)_:
+  * Albums: 587
+  * Photos: 41,902
 
 
 - [Birthdays](#birthdays)
-  - [Juni](#juni-birthday)
-  - [Emerson](#emerson-birthday)
-  - [Julian](#julian-birthday)
   - [Gaige](#gaige-birthday)
+    • [Emerson](#emerson-birthday)
+    • [Juni](#juni-birthday)
+    • [AJ](#aj-birthday)
+    • [Emily](#emily-birthday)
   - [Georgie](#georgie-birthday)
-  - [AJ](#aj-birthday)
-  - [Emily](#emily-birthday)
-  - [Charis](#charis-birthday)
-  - [Eddie](#eddie-birthday)
+    • [Julian](#julian-birthday)
+    • [Charis](#charis-birthday)
+    • [Eddie](#eddie-birthday)
   - [Resa](#resa-birthday)
-  - [Kevin](#kevin-birthday)
-  - [Sandy](#sandy-birthday)
-  - [Lenard](#lenard-birthday)
-  - [Clayton & Dana](#clayton--dana-birthday)
-- [Holiday](#holiday)
+    • [Kevin](#kevin-birthday)
+  - misc ...
+      [Sandy](#sandy-birthday)
+    • [Clayton & Dana](#clayton--dana-birthday)
+    • [Lenard](#lenard-birthday)
+
+
+- [Holidays](#holidays)
   - [Easter](#easter)
-  - [Mother's Day](#mothers-day)
-  - [Father's Day](#fathers-day)
-  - [4th of July](#4th-of-july)
-  - [Halloween](#halloween)
-  - [Thanksgiving](#thanksgiving)
-  - [Christmas](#christmas)
+    • [Mother's Day](#mothers-day)
+    • [Father's Day](#fathers-day)
+    • [4th of July](#4th-of-july)
+    • [Halloween](#halloween)
+    • [Thanksgiving](#thanksgiving)
+    • [Christmas](#christmas)
+
+
 - [Summer Camp](#summer-camp)
+
+
 - [Vacation](#vacation)
+
+
 - [Cycling](#cycling)
+
+
 - [Misc](#misc)
+
+
 - [You Know](#you-know)
 
 ---
@@ -66,53 +79,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Birthdays
 
-- [Juni](#juni-birthday)
-- [Emerson](#emerson-birthday)
-- [Julian](#julian-birthday)
 - [Gaige](#gaige-birthday)
+  • [Emerson](#emerson-birthday)
+  • [Juni](#juni-birthday)
+  • [AJ](#aj-birthday)
+  • [Emily](#emily-birthday)
 - [Georgie](#georgie-birthday)
-- [AJ](#aj-birthday)
-- [Emily](#emily-birthday)
-- [Charis](#charis-birthday)
-- [Eddie](#eddie-birthday)
+  • [Julian](#julian-birthday)
+  • [Charis](#charis-birthday)
+  • [Eddie](#eddie-birthday)
 - [Resa](#resa-birthday)
-- [Kevin](#kevin-birthday)
-- [Sandy](#sandy-birthday)
-- [Lenard](#lenard-birthday)
-- [Clayton & Dana](#clayton--dana-birthday)
-
-
-### Juni Birthday
-
-- 10/2025: 4 [2025-10-11 Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
-- 09/2025: 4 [2025-09-10 Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
-- 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
-- 09/2023: 2 [Juni Turns 2!](https://photos.google.com/share/AF1QipOfo976Wcsr0fgRH5R355UEt19SFfpxLzwjnO4b-rHxXjsXE-BUtTf53sU3Zimsww?key=Zkw5T05MaFZpSk5pRVJJaWlqZlMwRjJ2cU01cnln) _(179 pics)_
-- 09/2022: 1 [Juniper Rae turns 1 🥺](https://photos.google.com/share/AF1QipNZqq0qhG37Dw9FEgkUB01UXd3jJUuM7h2blc-jzDhkNe9RApt9knP-2eIphfyb8A) _(154 pics)_
-
-### Emerson Birthday
-
-- 04/2025: 6 [2025 0405 Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
-- 03/2025: 6 [Emerson is SIX!](https://photos.google.com/share/AF1QipMs1sWX-zaIOuw_TttLT1ms2B2e6aZ1IBVdzVvmFTqHRIC1p4fTrp0ASRoCNmd8rQ?key=M0Y3bnRvOGdjTThkRGpwQ2s2eXpKSUtQekp1Q1JR) _(168 pics)_
-- 03/2024: 5 MISSING
-- 03/2023: 4 [Emerson is 4!](https://photos.google.com/share/AF1QipP8c4zwe1DnS4t8ub3Jgdq7lqsQESxifF-IDUWQxHUe8uVEvDc5S4yjYn-t5iKlOw?key=V1BMdXVIYmNDc1owWWRNeFhrZFRWNEtDWW1GNElR) _(286 pics)_
-- 03/2022: 3 [Em turns 3!](https://photos.google.com/share/AF1QipNX4xL6fsyySkrGsnWwOAF_9_MreCr_3FF9au9FG5vgf0XGziwM9XcSxiMp47DAlA?key=aV9iVnlCUXNvRFFEMGZUR0xYTTJKUEVrdC1ucUtR) _(155 pics)_
-- 03/2021: 2 [Emerson is 2!](https://photos.google.com/share/AF1QipObGwTSbaEYxfsgTlN8QayeSDmefFTAnAdoXdtaNMe8_-HxDeR48Kv6P5YuHI2zww?key=UmFndF92cHdUNHRMLUNuU184WVdMVVJ3OFBWLWlB) _(64 pics)_
-- 03/2020: 1 MISSING
-
-### Julian Birthday
-
-- 09/2025: 10 [2025-09-30 Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
-- 10/2024:  9 [Julian is 9](https://photos.google.com/share/AF1QipPyQzqRaGp0_4ogJYkuoncivIIkSyggG8xl3P4wwBPjkuSOQ9FyXi16TA9WkqTAsg?key=SHJ2V09DYmJDWVJNcWtlU1JKSDhUN2JrejFmd0d3) _(207 pics)_
-- 10/2023:  8 [Julian Turns 8](https://photos.google.com/share/AF1QipMeTT8W7G7z6S7Wj9obe-45Jc_DELbhEfkUu9oENZeC_1m2HEw10GQIWog1YavmRw?key=UGVDTmRwdG8xeE5USTI5OUdPRzZlckdjMjdhbWlB) _(518 pics)_
-- 10/2022:  7 [Julian Turns 7 (10/2022)](https://photos.google.com/share/AF1QipOEImMZzOJrFTr854bw0c4QCikPhP5dU2gkaTrvQzz7wZ0xVAYN8sbVkREqoTdCGg?key=NGZwV295XzZIdlIwdTdDUUFBTDFfZkIzNlFob1F3) _(361 pics)_
-- 10/2021:  6 [MiMi & Papaw's Julian Birthday Trip 10/2021](https://photos.google.com/share/AF1QipOe8jmdD3jYHow0iv06FO2SqdOmDGxyYMyBL84RVQG9teKOj6bKbhQb9AEk0gKr7Q?key=d1MyaDQ0MmFQemFRLVNBY1pidjF1RWJEYTVQRHVn) _(235 pics)_
-- 10/2020:  5 MISSING
-- 10/2019:  4 [Julian is Four](https://photos.google.com/share/AF1QipNttjUM74CIweNAGv2t3qg50Flz2Cb_Gh3qvEIoanGzql-jcLbvDau1zl6-LtHb3g?key=Tnh5Uk1aTE5yN3JfRk5QS2J5TUhJMjM2WDBKVVFn) _(159 pics)_
-- 10/2018:  3 MISSING
-- 10/2017:  2 [Jules Birthday Trip 10/17](https://photos.google.com/share/AF1QipM-lwi3fpJ28sDDYZlKvUCpvFiDzqL8m97zL0oGA26uSKawgfHmlrl8IAe4A9C4ZQ?key=Mmc5YlVCVDk4SGxZQVRTUGlRalc0akF2Ni1jTjB3) _(149 pics)_
-- 10/2017:  2 [Jules is TWO!](https://photos.google.com/share/AF1QipNFjTbqqhrHiMiz0J7bcCt-wthhSLYZRLAih06b_wDtp3wx2jjDpyQfh54mzZLwrA?key=SG82Y25XdTlBeFNweXpQelZrNktHajY4TzlpaEtB) _(62 pics)_
-- 10/2016:  1 MISSING
+  • [Kevin](#kevin-birthday)
+- misc ...
+    [Sandy](#sandy-birthday)
+  • [Clayton & Dana](#clayton--dana-birthday)
+  • [Lenard](#lenard-birthday)
 
 ### Gaige Birthday
 
@@ -130,20 +111,23 @@ document.addEventListener("DOMContentLoaded", function() {
 - 04/2017: 2 [Birthday Boys 2017](https://photos.google.com/share/AF1QipPlDL233MKd2pueJunii4zfZ7h3vvAHc_cGanuzv5LyilVWpi6BlSATbrAC6pPxgw?key=Y3NpMGpwaC1naWkxU0pWSmtkSjRLMHFoMUFidlJB) _(185 pics)_
 - 04/2016: 1 MISSING
 
-### Georgie Birthday
+### Emerson Birthday
 
-- 05/2025: 11 MISSING
-- 05/2024: 10 [2024 Georgie is 10 ... Mimi and Papaw's Road Trip](https://photos.google.com/share/AF1QipO6Ob9HN_vzK7v1JxyWfRl2LQA3nUJulcKpR1KCatgKtPflLMkpKrOIKflBwfjlqg?key=SmlXb24wUEhxNjFhdkJxSU41LXU0cmY3VVlacTJR) _(555 pics)_
-- 04/2024: 10 [Georgie's 10](https://photos.google.com/share/AF1QipN3_rsq1JFM9qFHS8W1XIr1ovN8e4V1o3PmPn-yFcA7HBUDnY4MEXT9vh-o1-hEUA?key=T2dhM3ROdjdXSjFERXhjOUZWUENkVG5sc1hCM0hn) _(54 pics)_
-- 05/2023:  9 [Georgie is 9](https://photos.google.com/share/AF1QipNENka1vEU4WAw2AlMMWMsxjlb3YzUUN0yvgYMvEGNJfnin1ECFU5vpROeV2Kjdtg?key=NlRGM01adHgzV0g1UTZnMFlVczZaWHd1VjlwNWxR) _(375 pics)_
-- 05/2022:  8 [Georgie is 8 (5/2022)](https://photos.google.com/share/AF1QipN-iEXgXkP_ZpPzArOce1BaM5-gg4CJoOD3l87zTPhOIVo53mkU4VBPwa2_EVkBCg?key=QzFTNTZfVzNVbEhaNUFhaklFZnU3SmdMUlN4YUFn) _(245 pics)_
-- 05/2021:  7 [Georgie is 7](https://photos.google.com/share/AF1QipPXsuHlC_QtHXf0oVnM0br5zQ0cW_bo2XuOlHxhkcOvfVOZ5AI8BJhPhubojkxHOg?key=dVZHUC1ySlRLS0VvNkx5dDIzaW9ZVDg4TzVleTBn) _(308 pics)_
-- 05/2020:  6 MISSING
-- 05/2019:  5 MISSING
-- 05/2018:  4 [Georgie is Four!](https://photos.google.com/share/AF1QipM6pRNPEu4Dkiw6ZkhJ0b9hqgSv7xbAG9ulC-9xEVLSg5iV7uTf04SXJQzrwRDnug?key=SWlId1JpaVFQU3d2dTRIOTlEVnUwTnN2YllkOHBn) _(218 pics)_
-- 05/2017:  3 MISSING
-- 05/2016:  2 MISSING
-- 05/2015:  1 MISSING
+- 04/2025: 6 [2025 0405 Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
+- 03/2025: 6 [Emerson is SIX!](https://photos.google.com/share/AF1QipMs1sWX-zaIOuw_TttLT1ms2B2e6aZ1IBVdzVvmFTqHRIC1p4fTrp0ASRoCNmd8rQ?key=M0Y3bnRvOGdjTThkRGpwQ2s2eXpKSUtQekp1Q1JR) _(168 pics)_
+- 03/2024: 5 MISSING
+- 03/2023: 4 [Emerson is 4!](https://photos.google.com/share/AF1QipP8c4zwe1DnS4t8ub3Jgdq7lqsQESxifF-IDUWQxHUe8uVEvDc5S4yjYn-t5iKlOw?key=V1BMdXVIYmNDc1owWWRNeFhrZFRWNEtDWW1GNElR) _(286 pics)_
+- 03/2022: 3 [Em turns 3!](https://photos.google.com/share/AF1QipNX4xL6fsyySkrGsnWwOAF_9_MreCr_3FF9au9FG5vgf0XGziwM9XcSxiMp47DAlA?key=aV9iVnlCUXNvRFFEMGZUR0xYTTJKUEVrdC1ucUtR) _(155 pics)_
+- 03/2021: 2 [Emerson is 2!](https://photos.google.com/share/AF1QipObGwTSbaEYxfsgTlN8QayeSDmefFTAnAdoXdtaNMe8_-HxDeR48Kv6P5YuHI2zww?key=UmFndF92cHdUNHRMLUNuU184WVdMVVJ3OFBWLWlB) _(64 pics)_
+- 03/2020: 1 MISSING
+
+### Juni Birthday
+
+- 10/2025: 4 [2025-10-11 Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
+- 09/2025: 4 [2025-09-10 Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
+- 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
+- 09/2023: 2 [Juni Turns 2!](https://photos.google.com/share/AF1QipOfo976Wcsr0fgRH5R355UEt19SFfpxLzwjnO4b-rHxXjsXE-BUtTf53sU3Zimsww?key=Zkw5T05MaFZpSk5pRVJJaWlqZlMwRjJ2cU01cnln) _(179 pics)_
+- 09/2022: 1 [Juniper Rae turns 1 🥺](https://photos.google.com/share/AF1QipNZqq0qhG37Dw9FEgkUB01UXd3jJUuM7h2blc-jzDhkNe9RApt9knP-2eIphfyb8A) _(154 pics)_
 
 ### AJ Birthday
 
@@ -169,6 +153,35 @@ document.addEventListener("DOMContentLoaded", function() {
 - 02/2018: [Emily's Birthday Lunch (2018)!](https://photos.google.com/share/AF1QipPNN3NanGo6LhST5ycUuJztZ-WCV6yz0EGl2tq8O-l1Wn66LO8J_TwUBY2WKif_-Q?key=bnlmLVNHTVF5dXRBakFLck1fRkxLbmpOa3R4b1Z3) _(15 pics)_
 - 02/2018: [Em's Birthday 2018 (a look back)](https://photos.google.com/share/AF1QipP4zYC9a7-qhSrwxgHjwC9oC3-dZ2pWUAPx7CMWDwYSgcZdon5s_0pUDt_JBsC7yg?key=cWxmV0RJcm44MkZLUS1hT1poOWdPWWdGVlRDRk1n) _(17 pics)_
 
+### Georgie Birthday
+
+- 05/2025: 11 MISSING
+- 05/2024: 10 [2024 Georgie is 10 ... Mimi and Papaw's Road Trip](https://photos.google.com/share/AF1QipO6Ob9HN_vzK7v1JxyWfRl2LQA3nUJulcKpR1KCatgKtPflLMkpKrOIKflBwfjlqg?key=SmlXb24wUEhxNjFhdkJxSU41LXU0cmY3VVlacTJR) _(555 pics)_
+- 04/2024: 10 [Georgie's 10](https://photos.google.com/share/AF1QipN3_rsq1JFM9qFHS8W1XIr1ovN8e4V1o3PmPn-yFcA7HBUDnY4MEXT9vh-o1-hEUA?key=T2dhM3ROdjdXSjFERXhjOUZWUENkVG5sc1hCM0hn) _(54 pics)_
+- 05/2023:  9 [Georgie is 9](https://photos.google.com/share/AF1QipNENka1vEU4WAw2AlMMWMsxjlb3YzUUN0yvgYMvEGNJfnin1ECFU5vpROeV2Kjdtg?key=NlRGM01adHgzV0g1UTZnMFlVczZaWHd1VjlwNWxR) _(375 pics)_
+- 05/2022:  8 [Georgie is 8 (5/2022)](https://photos.google.com/share/AF1QipN-iEXgXkP_ZpPzArOce1BaM5-gg4CJoOD3l87zTPhOIVo53mkU4VBPwa2_EVkBCg?key=QzFTNTZfVzNVbEhaNUFhaklFZnU3SmdMUlN4YUFn) _(245 pics)_
+- 05/2021:  7 [Georgie is 7](https://photos.google.com/share/AF1QipPXsuHlC_QtHXf0oVnM0br5zQ0cW_bo2XuOlHxhkcOvfVOZ5AI8BJhPhubojkxHOg?key=dVZHUC1ySlRLS0VvNkx5dDIzaW9ZVDg4TzVleTBn) _(308 pics)_
+- 05/2020:  6 MISSING
+- 05/2019:  5 MISSING
+- 05/2018:  4 [Georgie is Four!](https://photos.google.com/share/AF1QipM6pRNPEu4Dkiw6ZkhJ0b9hqgSv7xbAG9ulC-9xEVLSg5iV7uTf04SXJQzrwRDnug?key=SWlId1JpaVFQU3d2dTRIOTlEVnUwTnN2YllkOHBn) _(218 pics)_
+- 05/2017:  3 MISSING
+- 05/2016:  2 MISSING
+- 05/2015:  1 MISSING
+
+### Julian Birthday
+
+- 09/2025: 10 [2025-09-30 Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
+- 10/2024:  9 [Julian is 9](https://photos.google.com/share/AF1QipPyQzqRaGp0_4ogJYkuoncivIIkSyggG8xl3P4wwBPjkuSOQ9FyXi16TA9WkqTAsg?key=SHJ2V09DYmJDWVJNcWtlU1JKSDhUN2JrejFmd0d3) _(207 pics)_
+- 10/2023:  8 [Julian Turns 8](https://photos.google.com/share/AF1QipMeTT8W7G7z6S7Wj9obe-45Jc_DELbhEfkUu9oENZeC_1m2HEw10GQIWog1YavmRw?key=UGVDTmRwdG8xeE5USTI5OUdPRzZlckdjMjdhbWlB) _(518 pics)_
+- 10/2022:  7 [Julian Turns 7 (10/2022)](https://photos.google.com/share/AF1QipOEImMZzOJrFTr854bw0c4QCikPhP5dU2gkaTrvQzz7wZ0xVAYN8sbVkREqoTdCGg?key=NGZwV295XzZIdlIwdTdDUUFBTDFfZkIzNlFob1F3) _(361 pics)_
+- 10/2021:  6 [MiMi & Papaw's Julian Birthday Trip 10/2021](https://photos.google.com/share/AF1QipOe8jmdD3jYHow0iv06FO2SqdOmDGxyYMyBL84RVQG9teKOj6bKbhQb9AEk0gKr7Q?key=d1MyaDQ0MmFQemFRLVNBY1pidjF1RWJEYTVQRHVn) _(235 pics)_
+- 10/2020:  5 MISSING
+- 10/2019:  4 [Julian is Four](https://photos.google.com/share/AF1QipNttjUM74CIweNAGv2t3qg50Flz2Cb_Gh3qvEIoanGzql-jcLbvDau1zl6-LtHb3g?key=Tnh5Uk1aTE5yN3JfRk5QS2J5TUhJMjM2WDBKVVFn) _(159 pics)_
+- 10/2018:  3 MISSING
+- 10/2017:  2 [Jules Birthday Trip 10/17](https://photos.google.com/share/AF1QipM-lwi3fpJ28sDDYZlKvUCpvFiDzqL8m97zL0oGA26uSKawgfHmlrl8IAe4A9C4ZQ?key=Mmc5YlVCVDk4SGxZQVRTUGlRalc0akF2Ni1jTjB3) _(149 pics)_
+- 10/2017:  2 [Jules is TWO!](https://photos.google.com/share/AF1QipNFjTbqqhrHiMiz0J7bcCt-wthhSLYZRLAih06b_wDtp3wx2jjDpyQfh54mzZLwrA?key=SG82Y25XdTlBeFNweXpQelZrNktHajY4TzlpaEtB) _(62 pics)_
+- 10/2016:  1 MISSING
+
 ### Charis Birthday
 
 - 09/20XX MISSING
@@ -176,7 +189,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Eddie Birthday
 
 - 09/20XX MISSING
-
 
 ### Resa Birthday
 
@@ -190,7 +202,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - 08/2017: [MiMi's Birthday Bash at Popeye's Chop House](https://photos.google.com/share/AF1QipOUcvSilRFpVQQrJOTx3NpMecBe5781QsXTWnzbWmyMo1vl167_XQ3Bnqu69J3lOw?key=emlvVlR2eFRsZjZpOWdlN0szMFhYZGRuN0dQOFBn) _(23 pics)_
 - 08/2016: MISSING
 
-
 ### Kevin Birthday
 
 - 12/2024: MISSING
@@ -201,7 +212,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - 12/2019: MISSING
 - 12/2018: MISSING
 - 12/2017: MISSING
-
 
 ### Sandy Birthday
 
@@ -216,13 +226,13 @@ document.addEventListener("DOMContentLoaded", function() {
 - 05/2017: MISSING
 - 05/2016: [Happy Birthday Sandy Two Years Ago (2016)](https://photos.google.com/share/AF1QipNRDSsJnCPB9JJcGtvlatGpmgi18ABGGBykymTnjVWFPawWyakvn6jdTzRo5XbQpw?key=eHljVGwzbFc1ZnV6U1dXcm1OSktMdUFNdUEtOEVn) _(8 pics)_
 
-### Lenard Birthday
-
-- 02/2020: [Happy 90th Birthday Lenard](https://photos.google.com/share/AF1QipMNBkDwSFpBa5yMhb7m22P2oFmJ-sgUV7ljUaxezlUp5XRbPoxXxsGUJQCqXPziOw?key=N2t2VFYtbjBCTi1hd3pVbWpSSVIxS0EyVVFHS0JR) _(5 pics)_
-
 ### Clayton & Dana Birthday
 
 - 07/2025: [Clayton & Dana Birthday (small set of pics)](https://photos.google.com/share/AF1QipPtAWgk7xz8GJ6JvCpDRPockxu-2C13dtMGc5OOz4Olwt47LiV3hHUEhY7-pgADAw?key=MEpVX3Fza3VvdnQxV3NTaVgxa0dCdVBORUNUQWNR) _(7 pics)_
+
+### Lenard Birthday
+
+- 02/2020: [Happy 90th Birthday Lenard](https://photos.google.com/share/AF1QipMNBkDwSFpBa5yMhb7m22P2oFmJ-sgUV7ljUaxezlUp5XRbPoxXxsGUJQCqXPziOw?key=N2t2VFYtbjBCTi1hd3pVbWpSSVIxS0EyVVFHS0JR) _(5 pics)_
 
 
 
@@ -230,15 +240,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- ************************************************************* -->
 <div style="page-break-before: always;"></div> <!-- printed page break :-)-->
 
-## Holiday
+## Holidays
 
 - [Easter](#easter)
-- [Mother's Day](#mothers-day)
-- [Father's Day](#fathers-day)
-- [4th of July](#4th-of-july)
-- [Halloween](#halloween)
-- [Thanksgiving](#thanksgiving)
-- [Christmas](#christmas)
+  • [Mother's Day](#mothers-day)
+  • [Father's Day](#fathers-day)
+  • [4th of July](#4th-of-july)
+  • [Halloween](#halloween)
+  • [Thanksgiving](#thanksgiving)
+  • [Christmas](#christmas)
 
 
 ### Easter
@@ -307,6 +317,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Christmas
+
+- 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(25 pics ?? many more coming)_
+
 
 - 2024: [Christmas 2024](https://photos.google.com/share/AF1QipPk1EqvSACMyLFj7AgLMF93aLZN2Spbpk9ZguziRs3NZC5gU2NEiumZKkbtg56lJw?key=bFV1amlweVEzRVJDc2pmcTBYZk9BVHBNbGdydHFR) _(263 pics)_
 - 2024: [Santa's Run 2024](https://photos.google.com/share/AF1QipP0NGf7MQ1gx1kMtT71a78PNy4kJtiX_yOJtd5GmvGbeD3Jjn6e3ZeEHP1ZzzZdZg?key=a1JoOHRnSlBKZHZIVkpQVk1HLVZ1Vk1JbXREdnJn) _(13 pics)_
