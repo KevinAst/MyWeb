@@ -142,4 +142,4 @@
 - [ ]()
   * [25in25](25in25.md)
   * [TheChosenPromo](TheChosenPromo.md)
-  * [photos](photos.md)
+  * [pics](pics/index.md)

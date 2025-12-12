@@ -24,12 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # My Photos
 
+> ### Albums: 587 _(this is WHY I have this index)_
+> ### Photos: 41,902
+
 ## At a Glance
-
-- Totals _(the reason for this this album index)_:
-  * Albums: 587
-  * Photos: 41,902
-
 
 - [Birthdays](#birthdays)
   - [Gaige](#gaige-birthday)
@@ -43,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Eddie](#eddie-birthday)
   - [Resa](#resa-birthday)
     • [Kevin](#kevin-birthday)
-  - misc ...
+  - _misc ..._
       [Sandy](#sandy-birthday)
     • [Clayton & Dana](#clayton--dana-birthday)
     • [Lenard](#lenard-birthday)
