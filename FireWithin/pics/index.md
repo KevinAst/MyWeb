@@ -29,6 +29,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## At a Glance
 
+- [Mimi & Papaw's Summer Camps](#mimi--papaws-summer-camps)
+
+
 - [Birthdays](#birthdays)
   - [Gaige](#gaige-birthday)
     • [Emerson](#emerson-birthday)
@@ -47,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Lenard](#lenard-birthday)
 
 
-- [Anniversary / Wedding](#anniversary--wedding)
+- [Anniversary & Weddings](#anniversary--weddings)
 
 
 - [Holidays](#holidays)
@@ -60,10 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Christmas](#christmas)
 
 
-- [Summer Camp](#summer-camp)
-
-
-- [Trips / Outings](#trips--outings)
+- [Trips & Outings](#trips--outings)
   - [Trips](#trips)
     • [Special Events](#special-events)
     • [Date Nights](#date-nights)
@@ -82,10 +82,42 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Bowling](#bowling)
 
 
+- [Tech](#tech)
+
+
+- [Household](#household)
+
+
 - [Misc](#misc)
 
 
 - [You Know](#you-know)
+
+
+
+---
+<!-- ************************************************************* -->
+<div style="page-break-before: always;"></div> <!-- printed page break :-)-->
+
+## Mimi & Papaw's Summer Camps
+
+- [Summary - Big Ball Progression](https://photos.google.com/share/AF1QipOD72QOO-c9fvXNEVI5M2ryIjlIL19Ogs864jL21fs89FNQio1S4aW2R-59EEKm7Q?key=MlFHYVdpc2RHaFR0MlhvTnhnTHhnT3NfUjE5LVN3) _(12 pics)_
+- [Big Ball Progression](https://photos.google.com/share/AF1QipNDoxm7_VdjMGKkTNHmoTj9ZmZoWsNH38JJBzDj74rSpq9NWbExZsndPpnlZCZq3A?key=NUlLUnZXUHFqaXJFalQ3bkFRYlh0MWRUcnFyUEVn) _(237 pics)_
+- [Big ball pics](https://photos.google.com/share/AF1QipNV1gfHvcrfXbbBfXqdjIYRYfCLLKyjD0XIkiVXCZXPoGm3CZdkyEjjczCFKAdN2A) _(5 pics)_ >>> **Resa Duplicate & Out-of-Date - USE ABOVE INSTEAD:** [Summary - Big Ball Progression](https://photos.google.com/share/AF1QipOD72QOO-c9fvXNEVI5M2ryIjlIL19Ogs864jL21fs89FNQio1S4aW2R-59EEKm7Q?key=MlFHYVdpc2RHaFR0MlhvTnhnTHhnT3NfUjE5LVN3)
+
+
+- 2025: [2025-08 Mimi & Papaw's Summer Camp](https://photos.google.com/share/AF1QipPNzIBUolkL1FIx8ljr_pLBWjkFBoOJYKzs0BpPuJ9Sgmnc1-5TT1zoC4GCvg7Psg?key=d1daMGw5VWJMUVQyYjlmSHpCQklIdWFtS1BhN2Nn) _(980 pics)_
+- 2025: [2025-07 Summer Camp Dry Run](https://photos.google.com/share/AF1QipPCXj9nvqqwA9PWYjVRzwliCeCncpsK_lGQv2Hlv2W3mbVXsTP99W_AXk6uNQqBpQ?key=UnVyeVA5X09Qd0RXUV9PbGotR2VVeEZTZVZQcUpR) _(7 pics)_
+- 2024: [Mimi & Papaw's Summer Camp 8/2024](https://photos.google.com/share/AF1QipNa1JnJtShfLc3hY_sP1_JtlAGm2lHHbLW5Kp5zeN9Vfy4EbaR4aC-0WXKDbJFYZw?key=eWZTUXBkVFEzV19EdFZOTFNrZ29LS1poQVpPdUZn) _(565 pics)_
+- 2023: [MiMi & Papaw's Summer Camp 8/2023](https://photos.google.com/share/AF1QipM_3pa4gur1IdCzw8hlME0xdo5sV1f3j2GccNxTEscpnzHnP22pugvf9WARgmdzjA?key=bDJ1NWV6NjB5djVzZGtEanRBdWt2OXFOSGNOdHdR) _(880 pics)_
+- 2022: [Mimi and Papaw's Summer Camp 2022](https://photos.google.com/share/AF1QipP5VO7fKs3-V5kewTNB5U6X3ylOdlPl8aT_Mm9E6Vti0czRWj9hWHnKnRSAMXUKcQ?key=R1RNb1dBazV6NUdpT3U2cUdaR2RiVFpwRGNiU1pB) _(518 pics)_
+- 2021: [Mimi and Papaw's Summer Camp 2021](https://photos.google.com/share/AF1QipO3mQO6xaN27cxgBQSJhGxkGB0Gojvtq8nXqjgW_X73u_jiNkTXut0ixaQKNMOJkA?key=QXZmZFMyR1NMclhfOUhmOGpELWVQbnRZaEJyRU9B) _(468 pics)_
+- 2020: [Mimi and Papaw's Summer Camp 2020](https://photos.google.com/share/AF1QipMKiatM4qt3p0s58kwtLShIwSLckH7s4NeFQIJYz69VRlhWwp8iVDzYjbze-e7N8w?key=N0J1aFk1dklTZkR2SzlpMmlwS3NCRnhBVjRVdTl3) _(267 pics)_
+- 2019: [Georgie/Jules/Gaige/bbEm 8/2019](https://photos.google.com/share/AF1QipNPYZxmGQcPwRfX_hfw3xCog-Vpf0wTaXPRCsDOYw8UFnzlRlbTt0oyyqD8wqs2MA?key=YmNRLW8wNlY2al9qZFByRzNuYnJFRXV5NENHS0hR) _(317 pics)_
+- 2018: [Georgie, Jules, and Gaige 2018](https://photos.google.com/share/AF1QipNo1sb4-ghhTYWHQwGEC0_8jnzZ5PFXOkY3f4GJQ8mmH5yjG57nv2X9JqHUgSwqrw?key=UjFiX0NKV3BjNFctSVMxWXJ5bnVqQjJyeU9hNnRn) _(454 pics)_
+
+
+
 
 ---
 <!-- ************************************************************* -->
@@ -253,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- ************************************************************* -->
 <div style="page-break-before: always;"></div> <!-- printed page break :-)-->
 
-## Anniversary / Wedding
+## Anniversary & Weddings
 
 - 2024 06: [Happy 50th Anniversary Bonnie and Jeff (Kevin/Resa Greeting)](https://photos.google.com/share/AF1QipOOjV49B-4IBLk8Uj4hIzoUe6ypHpT8NaH04ceYWVavan-N1ZdgxnQ7gX7aejEwoQ?key=M2tsOV8xSVpua1pZNTZDbDIxQW51RGFESTRPbW5R) _(2 pics)_ **SEMI-PRIVATE Staging Area**
 
@@ -412,28 +444,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- ************************************************************* -->
 <div style="page-break-before: always;"></div> <!-- printed page break :-)-->
 
-## Summer Camp
-
-- [Summary - Big Ball Progression](https://photos.google.com/share/AF1QipOD72QOO-c9fvXNEVI5M2ryIjlIL19Ogs864jL21fs89FNQio1S4aW2R-59EEKm7Q?key=MlFHYVdpc2RHaFR0MlhvTnhnTHhnT3NfUjE5LVN3) _(12 pics)_
-- [Big Ball Progression](https://photos.google.com/share/AF1QipNDoxm7_VdjMGKkTNHmoTj9ZmZoWsNH38JJBzDj74rSpq9NWbExZsndPpnlZCZq3A?key=NUlLUnZXUHFqaXJFalQ3bkFRYlh0MWRUcnFyUEVn) _(237 pics)_
-- [Big ball pics](https://photos.google.com/share/AF1QipNV1gfHvcrfXbbBfXqdjIYRYfCLLKyjD0XIkiVXCZXPoGm3CZdkyEjjczCFKAdN2A) _(5 pics)_ >>> **Resa Duplicate & Out-of-Date - USE ABOVE INSTEAD:** [Summary - Big Ball Progression](https://photos.google.com/share/AF1QipOD72QOO-c9fvXNEVI5M2ryIjlIL19Ogs864jL21fs89FNQio1S4aW2R-59EEKm7Q?key=MlFHYVdpc2RHaFR0MlhvTnhnTHhnT3NfUjE5LVN3)
-
-
-- 2025: [2025-08 Mimi & Papaw's Summer Camp](https://photos.google.com/share/AF1QipPNzIBUolkL1FIx8ljr_pLBWjkFBoOJYKzs0BpPuJ9Sgmnc1-5TT1zoC4GCvg7Psg?key=d1daMGw5VWJMUVQyYjlmSHpCQklIdWFtS1BhN2Nn) _(980 pics)_
-- 2025: [2025-07 Summer Camp Dry Run](https://photos.google.com/share/AF1QipPCXj9nvqqwA9PWYjVRzwliCeCncpsK_lGQv2Hlv2W3mbVXsTP99W_AXk6uNQqBpQ?key=UnVyeVA5X09Qd0RXUV9PbGotR2VVeEZTZVZQcUpR) _(7 pics)_
-- 2024: [Mimi & Papaw's Summer Camp 8/2024](https://photos.google.com/share/AF1QipNa1JnJtShfLc3hY_sP1_JtlAGm2lHHbLW5Kp5zeN9Vfy4EbaR4aC-0WXKDbJFYZw?key=eWZTUXBkVFEzV19EdFZOTFNrZ29LS1poQVpPdUZn) _(565 pics)_
-- 2023: [MiMi & Papaw's Summer Camp 8/2023](https://photos.google.com/share/AF1QipM_3pa4gur1IdCzw8hlME0xdo5sV1f3j2GccNxTEscpnzHnP22pugvf9WARgmdzjA?key=bDJ1NWV6NjB5djVzZGtEanRBdWt2OXFOSGNOdHdR) _(880 pics)_
-- 2022: [Mimi and Papaw's Summer Camp 2022](https://photos.google.com/share/AF1QipP5VO7fKs3-V5kewTNB5U6X3ylOdlPl8aT_Mm9E6Vti0czRWj9hWHnKnRSAMXUKcQ?key=R1RNb1dBazV6NUdpT3U2cUdaR2RiVFpwRGNiU1pB) _(518 pics)_
-- 2021: [Mimi and Papaw's Summer Camp 2021](https://photos.google.com/share/AF1QipO3mQO6xaN27cxgBQSJhGxkGB0Gojvtq8nXqjgW_X73u_jiNkTXut0ixaQKNMOJkA?key=QXZmZFMyR1NMclhfOUhmOGpELWVQbnRZaEJyRU9B) _(468 pics)_
-- 2020: [Mimi and Papaw's Summer Camp 2020](https://photos.google.com/share/AF1QipMKiatM4qt3p0s58kwtLShIwSLckH7s4NeFQIJYz69VRlhWwp8iVDzYjbze-e7N8w?key=N0J1aFk1dklTZkR2SzlpMmlwS3NCRnhBVjRVdTl3) _(267 pics)_
-- 2019: [Georgie/Jules/Gaige/bbEm 8/2019](https://photos.google.com/share/AF1QipNPYZxmGQcPwRfX_hfw3xCog-Vpf0wTaXPRCsDOYw8UFnzlRlbTt0oyyqD8wqs2MA?key=YmNRLW8wNlY2al9qZFByRzNuYnJFRXV5NENHS0hR) _(317 pics)_
-- 2018: [Georgie, Jules, and Gaige 2018](https://photos.google.com/share/AF1QipNo1sb4-ghhTYWHQwGEC0_8jnzZ5PFXOkY3f4GJQ8mmH5yjG57nv2X9JqHUgSwqrw?key=UjFiX0NKV3BjNFctSVMxWXJ5bnVqQjJyeU9hNnRn) _(454 pics)_
-
----
-<!-- ************************************************************* -->
-<div style="page-break-before: always;"></div> <!-- printed page break :-)-->
-
-## Trips / Outings
+## Trips & Outings
 
 - [Trips](#trips)
   • [Special Events](#special-events)
@@ -581,13 +592,39 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
+
+---
+<!-- ************************************************************* -->
+<div style="page-break-before: always;"></div> <!-- printed page break :-)-->
+
+## Tech
+
+
+?? NEW
+
+
+
+
+---
+<!-- ************************************************************* -->
+<div style="page-break-before: always;"></div> <!-- printed page break :-)-->
+
+## Household
+
+?? NEW: consider sub-catetories:
+- Home Improvement
+- Home Projects
+
+
+
 ---
 <!-- ************************************************************* -->
 <div style="page-break-before: always;"></div> <!-- printed page break :-)-->
 
 ## Misc
 
-- ?? straight list
+?? straight list
+
 
 
 ---
