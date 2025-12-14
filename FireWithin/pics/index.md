@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # My Photos
 
-> ### Albums: 587 _... this is WHY this summary exits!_
+> ### Albums: 587 _<mark>... this is WHY this summary exits!</mark>_
 > ### Photos: 41,902
 
 ## At a Glance
@@ -511,6 +511,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2024 02: [Gaige's Rankin Party](https://photos.google.com/share/AF1QipODt68-QphN8DxamASGMUHInakUwX8RGhV2pECtLmOF6cjS5Eq_V8LoArU2GapSxg?key=TkdHcm0ybFo3a18zazZ1V2RuRDFIRmFtZzcweU5n) _(9 pics)_
 - 2023 12: [Nutcracker w Mimi R](https://photos.google.com/share/AF1QipPiH3wUkKH46NXDsRAJ5gfhEaWbV984d7wcd_xgeBPAMYFjJcgUaOZzWyatwigr-g) _(21 pics)_ **Emily Album**
 - 2023 11: [A fun day with Gaige](https://photos.google.com/share/AF1QipORkHU79SaCd9UQGUwwwnnLAaBsMGwmhYOqo90vJVoMrRsWSTNmyHYWUkz-qTzEZw?key=eDcyVnhnVUs0V1FtUzFlM1dIZlNQdXNRQ0JQMUV3) _(23 pics)_
+- 2023 07: [Rich & Jennifer Trip 7/2023](https://photos.google.com/share/AF1QipNralLcVkzlHTLM4-obGVc9WZST-7FJ6uJzkYGSyg-L2hm7XQA_lclkWwaJ7Cvofg?key=UVRfX3A0MDV5RmZybmdBaV9KTHJNOUk1WU5tTVVR) _(25 pics)_
 - 2023 07: [Georgie & Julian Baptisms - July 2023](https://photos.google.com/share/AF1QipNpLnk-1Sz6JqOCf4zT6-8HF6S5KBb59oK6SFHoHN8pHIOvBdKqGMzvyzLNFS2FXw?key=VFN4RGc1cEwyWDV3MXg4YkJtRzJoa01FY3RMT1dn) _(2 pics)_
 - 2019 04: [Special Gaige/Papaw Outing: Touch-a-Truck at St. Jacob](https://photos.google.com/share/AF1QipPtJTvLr2r8TgaICvEZAhe8nyqUpuSDNQRamN_Nr8_Yi_4LTvGNgZusfqiSEO-25g?key=dG1HOFliQUhwcHJoUkhQdHI1eUJ6VHFsTTI4bXN3) _(69 pics)_
 - 2019 04: [YMCA Preschool Circus](https://photos.google.com/share/AF1QipM6qFU7hzFfA10q7MQTmETytJkMzhid9BUgoTj_neQexPLj2thrRz3mPvSl-NkEMA?key=YzNzdERCUkQtZUMydzRoMDVWSXc2WEVtMGY0bGlB) _(83 pics)_
@@ -521,6 +522,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2017 05: [Cardinal Game 5/30/2017](https://photos.google.com/share/AF1QipO6bwBM_0wJfPbQIFL6NET5Dgx7xaSeV05kxn6zcnTPi_Vn7_UyUn0tanO3qpF9XQ?key=dVpaRlYzTXhWWGZGQ193eGR3ZklkT0ZfWDVITVVR) _(20 pics)_
 - 2017 04: [Circus 2017](https://photos.google.com/share/AF1QipMbZi88gEBJNz6_lYLFWJG8iIKFIwvn8ucSmtA7SLZkrutaYLFlqeeBWhjxiHYIKQ?key=bHpSX2RqaUtIRVh4UU5HVndUdnJYd2xuOXE1RS1n) _(103 pics)_
 - 2011 09: [2011 0924 Charis Surprise party](https://photos.google.com/share/AF1QipMLGwk_5q80ipnux6KU-kvRNTEpo4XhvpKFoq5DWyr9Wd_eIbGnXfi4yrULy_umbA?key=clhvTWE0N2hfQ25PMkhWaUtnN3ctT2xtTXMyNWR3) _(unknown) pics)_ **Resa's Album - EMPTY :-(**
+
 
 
 ## Date Nights
@@ -585,6 +587,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2018 01: [Cycle Greece #honeymoon](https://photos.google.com/share/AF1QipP6uieStZlgH1xoo6hTu7DSA6Ebc1eAXYUCc6RUiGKAO2zZXES3UHT4iu9sQIPznA?key=bXFxN3ZMTUZIUHlTNE03WUNwLXRtV3IwZkNRMFpR) _(175 pics)_
 - 2017 09: [Spinnin with PaPaw to Miner Park](https://photos.google.com/share/AF1QipPzVvNNWJ2UFMbInf7MQdURDFM40ND9BNmvOZVhXmp3a0S1sjaMCjaOZgISIvyprA?key=LW83bzRiVkxzaGs4eWZvMVpwY2lUQUgtYlhnemdR) _(14 pics)_
 - 2017 08: [Edwardsville Criterium 2017](https://photos.google.com/share/AF1QipN2A2Fi2E5cElsXOA7B-iPP5rQ9eHPx6TFbQLfXExvQNmG9-EBpZyC16u8IKepZWw?key=aGlTaUdPWEtVSUtNaUpRTW5Ha0t3S0kzOEkxQ1BR) _(79 pics)_
+- 2023 07: [Tour de Donut 2023](https://photos.google.com/share/AF1QipN2qTDveWvktEWvOO-dPY_vSR7EwH1fR0wdyrB4pfxHeEwVkdzjRONtCGIRxvIVUw?key=X0pyRkJRSW92dVFMWHM0RkJWeHM5Y1RsZGVOOHpn) _(33 pics)_
 
 ### Running
 
@@ -615,6 +618,12 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2024 09: [Emily & Kevin take Bronze](https://photos.google.com/share/AF1QipMRTuxrdhzSnsVSrFlwbFhbwFRGZ983QEfw-tuzrA5sn1KsQzpd9sl6kgviGC8fCw?key=V3RfTndZUlA0WmhRWElwVUhvMm5OQ3hsWW5rcmh3) _(54 pics)_
 - 2024 09: [Emily & Laura take the GOLD!](https://photos.google.com/share/AF1QipNPRrmBO059OFSicTMkVWLxb8nhLOpivUlbnCeZaV4Vh8Z4YMFW1lSgmc19t4rzdw?key=VXdJWEZTRVlVeXM4cDB3dHVQbE84Uzlja1RfTWdR) _(78 pics)_
 - 2024 06: [Gaige Pickleball Youth Camp](https://photos.google.com/share/AF1QipNL7beCZztAYkkMX4w5Luhtr6-VKyJ_xVMcAYd1ft-NPe_xjNfSTKsPpXVUtWH0sg?key=YnA0dG1DYzdHWFUtSjF3YlpHSTA0a3Y0M2F6WmxR) _(35 pics)_
+- 2023 08: [Emily & Me](https://photos.google.com/share/AF1QipMeJol0aRsth0oeaBOYHry81wK6nVrs-oqEksrrZthSN7qNtvZWM3C-3RXhjsUX7g?key=Q2xPYWZLTnZ3VEJ2SEloY3FlWEk0bWdOcFM2N3RR) _(12 pics)_
+
+?? MORE (re-order):
+
+- YYYY MM:
+
 
 ### Water Park
 
@@ -700,15 +709,24 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2024 03: [Hail Damage (3/14/2024)](https://photos.google.com/share/AF1QipNdK6n7Xr4NI4gvHtuYsp--K322jP_QUE4NxZKsQiwxv4uCNlBxvm5kypt4kpNs_w?key=QlhwOUZUZzFVek1faFlHM3dCc29JemR6VkUtRF9B) _(15 pics)_
 - 2024 03: [Toro Zero Turn](https://photos.google.com/album/AF1QipOrr1ZGNXEN719GURUGtTqo38mug1UkjsPvR9Jy) _(4 pics)_
 
+
 - 2023 12: [TV Under Counter](https://photos.google.com/share/AF1QipMfD2ZW8GFergMBi8fQf6whxZrTM0wWWyvFRfJ5lKBC5_-iwMz17osadoeL-tkjwg?key=VmRzaUdOZWFQeG5VWnBqNFJXdzQxYkRua2ZLSUZ3) _(3 pics)_
 - 2023 09: [Deck Repair 9/2023](https://photos.google.com/share/AF1QipPBAG2cLUFqJqti_sjSm8Fap24F_FutuTQ6-SYbQoE7n1hnIES2shtbFc8AQv7eLw?key=a3AwZ0k5UmVsX292a05ZdVlSU3dCd2VuYV85ampn) _(14 pics)_
+- 2023 08: [Drainage issues](https://photos.google.com/share/AF1QipMDHkyaMK5aBHWk57IfqMRPlhsG4qdV7mwXzP3ld2D2etE3cjOWtwUSEgEWED1ttQ) _(3 pics)_
+- 2023 06: [Storm Damage 6/30/2023](https://photos.google.com/share/AF1QipPPPGBAgiWNJ63GpGfMuBzySTfmGU25OZSx_jdc2dC3BRZlVl9aItoeX-ukf4F5Bw?key=amtsY1JpVXJBeW9abVpEQTJmY3BDSHNGYWdZY3hn) _(127 pics)_
+- 2023 05: [Extreme Bush Trim Before/After Collage](https://photos.google.com/share/AF1QipOUWjZOxJxBCsUO02KLKmA4r3nGgMry49JcFu3FqmlpqbYrO7SGCFlSDp97awRo2w?key=Y0xaa2VSYVUxWUUxVkJ3WjE5TUJCWHlhMVZLMXp3) _(9 pics)_
+- 2023 05: [Extreme Bush Trim](https://photos.google.com/share/AF1QipPSCiN65l2LIObzNxOLKdrubIADL07J8RpvnW2FfjwIupVnnlXYerDqdHmL709O-g?key=MnVfelFLckM0dExPeTA1Z3dWbHVuZFFKVnM1Y3VB) _(28 pics)_
+
 
 - 2021 07: [New Basement Play Area WITH High-Speed WIFI Router](https://photos.google.com/share/AF1QipOWuw2bVZUgn8tXYqHVYfg0hRj5VXOx8bmw6nBSi57atmIglZf890rK6YAxD_gofw?key=TGs0M1dfdndBX2xYUldtUURUUFB6ZGNnM2ZZZnhR) _(103 pics)_
+
 
 - GENERAL: [Household](https://photos.google.com/album/AF1QipPm_xcyoB0ZERPdumLrcbcjrDTipHXbxSCOyE86) _(210 pics)_
 
 
 ?? MORE (re-order):
+
+- YYYY MM:
 
 
 ---
@@ -738,6 +756,16 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Paper Folding](https://photos.google.com/album/AF1QipPhJJxOWFk2n6sqpcejQ1FJHPx5PbugBrtzy9vZ) _(3 pics)_
 - 2023 12: [Dec 14-17](https://photos.google.com/share/AF1QipNeFPzHkLqVGu81AtvDVBJKef3WPSywzWAW1Cl40eJxQgxFjnA01AoXQvImfGYGDg) _(37 pics)_ **Emily Album**
 - 2023 09: [Piano - Gaige & Em](https://photos.google.com/share/AF1QipNAXakjt5G4QnyhwoI_fHCTHYLi3ueRSH4nLQQ7c0FOWuE2TvBcl6EksKOOCXXd-g?key=eEp0em96cmoyM3p4cGtKOEtmRGk1X0ttV0QzYjRn) _(6 pics)_
+- 2023 07: [2023 0718 Story Time](https://photos.google.com/share/AF1QipPbOnhspiqhHDDVOCjASLIBU9e6kw-uPbmIddH2UCi4kFv8stdp-TwNqAaMZex0iw) _(9 pics)_
+- 2023 07: [Dinner & Desert](https://photos.google.com/share/AF1QipMTiLYlG84iYdZFHx5VTjlfTeUlx2inwxfb0X95Qme2TblTJQXeyyr4unDri2FwPg?key=MndTVEYtTDhkNFRvNEwxZUhwc3dOWjRuTG15ZXpR) _(13 pics)_
+- 2023 07: [Pool Time](https://photos.google.com/share/AF1QipPJm8wkedjlAw0FKuMes8aCwz-dmz7w0lfJV6lfdMz62K0oZGoPC9foL1EV5OU27Q?key=ajJUbUJNTzJqLUQ2R0pZbi1WX3RJWndSU1hQR21n) _(11 pics)_
+- 2023 07: [AJ & Me - Troy Fireworks 7/4/2023](https://photos.google.com/share/AF1QipOzyz0kPfCsAhLWPOHLtZCdG-xMb9dJdZprvEeMvSzHDTCX_Xpss2OQ4vLjNvgVdw?key=Y3loM212VzBYLTVic0FPVkttUkVfYkhycXFRbjZB) _(44 pics)_
+- 2023 06: [Wells Swim Party 6/25/2023](https://photos.google.com/share/AF1QipMAaYvaqlGaiXaFJXSj5mgIrmTPkVfTHqgIeaMqLPFRu3rM6e9UCYNdScf9kA0GYA?key=QW94WksxTHRmWEY2bG1xUDJXNWdaUzlvMTBDYUN3) _(9 pics)_
+- 2023 06: [Gaige & Papaw Baseball Outing - Alton River Dragons vs. Jackson Rockabillys](https://photos.google.com/share/AF1QipOeP0v4FDMHfiv8Nb0zVO-Nr1dZ9T8GUl6tuHnyk2izXgawC_2rZ8olmtobnl30qw?key=NjU4WUdQQ01iRnZSaS13NlVZTjh1WkRBN1pKblRB) _(41 pics)_
+- 2023 06: [MiMi & Papaw Fun Fest](https://photos.google.com/share/AF1QipN5DMYe1fT0XA4SAFaTFOjlGW6OVJYCU6826kvUbgU3SMa_PnSpHOtXEwhHX_ttVg?key=VnBNbnVEaGk1MGFyX2lwWXBNSkJnVldZWURYT3pn) _(40 pics)_
+- 2023 05: [VBS 2023 - Twists & Turns](https://photos.google.com/share/AF1QipNaKFffcMpC_MeA01JYtvBVt5040UU0O7MvdC6B1DzFrWjqqTKjsisFa-7x_P1BsA?key=ZXZuNElmWE53enJ6c0JYMzkxTWVCaHZ2ZGpkSzdR) _(67 pics)_
+- 2023 06: [Gaige Batting Drills](https://photos.google.com/share/AF1QipPqVnbYLVqTXabn295U8qDB-K6H62nNpkwHt7gLP_HOTaY6YXcfEl0oLac4DiATmA?key=aWZ5TnNXUWlKRkhtU0pGQ3JfT2dRcEl6a0h1OElR) _(19 pics)_
+- 2023 05: [Millie's Castanet Performance (Edwardsville Symphony)](https://photos.google.com/share/AF1QipOJ-5Ni42vVKURUi3AaOaxsLF8E-_I-LX3-p_Qecb-EP6wOZCoH_V1I1LB_cSxpig?key=MVFYWmVxM1dSVFQ5bEstZG56WEdvcDd3QkdxRjFB) _(10 pics)_
 - 2023: [Pumpkin Pics to Choose From](https://photos.google.com/share/AF1QipM2MI8ti9LKcuRuViepy0RlS-zFC48ZURBq8zCJQSd9Bu28PLr1kQqSn7_Mu_e8oQ?key=by12MU5Uc0dHeS1Xb2ZTZEtidWlLbnBfODUwQ1pn) _(47 pics)_
 
 
@@ -756,4 +784,5 @@ document.addEventListener("DOMContentLoaded", function() {
 - [My 2024 SEARCH for Monitors / Laptops](https://photos.google.com/album/AF1QipPwL6Hd3qNHn9U-ltBz1KpZxplUqERAVuo0q7wg) _(13 pics)_
 - [My 2024 SEARCH for Laptops](https://photos.google.com/album/AF1QipOYMOHYl_NT0Fbu5HEUpIt1OJbzniY89QuWw-g6) _(9 pics)_
 - [bulldog liquidators](https://photos.google.com/share/AF1QipMyRkdKNqEwxR_o-kk3qMW8KaMZTiKo5UdVIjcYldTgHrb91V1pbXat8NhT-3cSag?key=T282V3F4Qk1xNzRyaGR5WnExUUdXWUNxR2tVZ0Jn) _(9 pics)_
+- [VBS 2023 INTERNAL (instructions, students, etc.)](https://photos.google.com/share/AF1QipNDBUAJ84qfzqv_rOaAjhdbBjbA5wq9kpAqQYNr4rBZlkpDC0uZqfV3hVufC1qbyA?key=c3c5V0JINEptMkNOb256Yy1FU2E2SGwwYl9hMXVB) _(36 pics)_
 
