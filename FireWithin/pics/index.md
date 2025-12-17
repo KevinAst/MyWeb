@@ -24,12 +24,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # My Photos
 
-> ### Albums: 588 _<mark>... this is WHY this summary exits!</mark>_
-> ### Photos: 41,981
+> ### <mark>Why this summary exits ...</mark>
+> ### Pages:  ?? _... in this summary!_
+> ### Albums: 588 _... categorized below!!_
+> ### Photos: 45,000+ _... WowZee!!!_
 
 ## At a Glance
 
-- [Transfer Photos to Kevin](https://photos.google.com/share/AF1QipOpZsS5jHx6zVDnU4MCEVv40wZ8t-K7N5gtBq-cVBDSm6barpyBf-FD__-GHaoLBA?key=Mm9ub2l4MGFQdTJRak5FbUhVRmw0RVNHOGJXUlZ3) _... use this to transfer photo **copies** to Kevin's Account :-)_
+- [Transfer Photos to Kevin](https://photos.google.com/share/AF1QipOpZsS5jHx6zVDnU4MCEVv40wZ8t-K7N5gtBq-cVBDSm6barpyBf-FD__-GHaoLBA?key=Mm9ub2l4MGFQdTJRak5FbUhVRmw0RVNHOGJXUlZ3) _... use this album to transfer photo **copies** to Kevin's Account :-)_
 
 
 - [Mimi & Papaw's Summer Camps](#mimi--papaws-summer-camps)
@@ -76,12 +78,12 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Sports & Recreation](#sports--recreation)
   - [Cycling](#cycling)
     • [Running](#running)
+    • [Iron Man](#iron-man)
     • [Hiking](#hiking)
     • [Soccer](#soccer)
     • [Pickleball](#pickleball)
-    • [Water Park](#water-park)
+  - [Water Park](#water-park)
     • [Playground](#playground)
-    • [Iron Man](#iron-man)
     • [Skateboarding](#skateboarding)
     • [Diving](#diving)
     • [Bowling](#bowling)
@@ -130,21 +132,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Birthdays
 
-- [Gaige](#gaige-birthday)
-  • [Emerson](#emerson-birthday)
-  • [Juni](#juni-birthday)
-  • [AJ](#aj-birthday)
-  • [Emily](#emily-birthday)
-- [Georgie](#georgie-birthday)
-  • [Julian](#julian-birthday)
-  • [Charis](#charis-birthday)
-  • [Eddie](#eddie-birthday)
-- [Resa](#resa-birthday)
-  • [Kevin](#kevin-birthday)
-- misc ...
-    [Sandy](#sandy-birthday)
-  • [Clayton & Dana](#clayton--dana-birthday)
-  • [Lenard](#lenard-birthday)
+> [Gaige](#gaige-birthday)
+> • [Emerson](#emerson-birthday)
+> • [Juni](#juni-birthday)
+> • [AJ](#aj-birthday)
+> • [Emily](#emily-birthday)
+> <br/>
+> [Georgie](#georgie-birthday)
+> • [Julian](#julian-birthday)
+> • [Charis](#charis-birthday)
+> • [Eddie](#eddie-birthday)
+> <br/>
+> [Resa](#resa-birthday)
+> • [Kevin](#kevin-birthday)
+> <br/>
+> misc ...
+>   [Sandy](#sandy-birthday)
+> • [Clayton & Dana](#clayton--dana-birthday)
+> • [Lenard](#lenard-birthday)
 
 ### Gaige Birthday
 
@@ -326,14 +331,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Holidays
 
-- [St. Pattys](#st-patricks-day)
-  • [Easter](#easter)
-  • [Mother's Day](#mothers-day)
-  • [Father's Day](#fathers-day)
-  • [4th of July](#4th-of-july)
-  • [Halloween](#halloween)
-  • [Thanksgiving](#thanksgiving)
-  • [Christmas](#christmas)
+> [St. Pattys](#st-patricks-day)
+> • [Easter](#easter)
+> • [Mother's Day](#mothers-day)
+> • [Father's Day](#fathers-day)
+> • [4th of July](#4th-of-july)
+> • [Halloween](#halloween)
+> • [Thanksgiving](#thanksgiving)
+> • [Christmas](#christmas)
 
 
 ### St. Patrick's Day
@@ -470,9 +475,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Trips & Outings
 
-- [Trips](#trips)
-  • [Special Events](#special-events)
-  • [Date Nights](#date-nights)
+> [Trips](#trips)
+> • [Special Events](#special-events)
+> • [Date Nights](#date-nights)
 
 ### Trips
 
@@ -554,17 +559,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Sports & Recreation
 
-- [Cycling](#cycling)
-  • [Running](#running)
-  • [Hiking](#hiking)
-  • [Soccer](#soccer)
-  • [Pickleball](#pickleball)
-  • [Water Park](#water-park)
-  • [Playground](#playground)
-  • [Iron Man](#iron-man)
-  • [Skateboarding](#skateboarding)
-  • [Diving](#diving)
-  • [Bowling](#bowling)
+> [Cycling](#cycling)
+> • [Running](#running)
+> • [Iron Man](#iron-man)
+> • [Hiking](#hiking)
+> • [Soccer](#soccer)
+> • [Pickleball](#pickleball)
+> <br/>
+> [Water Park](#water-park)
+> • [Playground](#playground)
+> • [Skateboarding](#skateboarding)
+> • [Diving](#diving)
+> • [Bowling](#bowling)
 
 ### Cycling
 
@@ -640,6 +646,13 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2022 04: [Rock n Roll Marathon - Nashville - 4/23/2022](https://photos.google.com/share/AF1QipNDEM4QAVJxonmJZqVXK_kZYLmNyDSOU6fLKLsSJYtrD2Mti-tqT5kR-h7dyLAYIg?key=M2I3TE1HMmhTWjhLSTA5bzA3ZVVhNlVZQloyV0xR) _(38 pics)_
 
 
+### Iron Man
+
+- 2024 08: [370 70.3](https://photos.google.com/share/AF1QipMxEzGvZyezdXG4_0NZ53yplcYif6cIKT6VAh8c6IqIthxzLAsrADokdOaWPaF2NA) _(29 pics)_ **Emily's Album**
+- 2017 08: [Half Iron Man (Em and AJ) PA](https://photos.google.com/share/AF1QipP6F_3gqSSvUBins3EdMQjfgVcmx0d-jgTN4bZx6cSlL6CJ-_2OiIcv-P4gzFQRLQ?key=Yl9KcUJWWDBSUURLTUtKXzFHc0V0dV9wUDAxMjVn) _(231 pics)_
+- 2016 09: [Em's Iron Man (9/11/2016)](https://photos.google.com/share/AF1QipP8wuaHG1OT2l6K__69nkHPiUZETGJHhIUITBoqWQrWtamYQUYFuStqFJAPSoiOkA?key=MnQzRDlONk82Rkladk8tdzk4UTRESDlTeW1RQzV3) _(4 pics)_
+
+
 ### Hiking
 
 - 2025 11: [Silver Lake Hike at Highland](https://photos.google.com/share/AF1QipMLFp5U1RFqO27SBh7cGbad5BSwiQdSaw4kNqaW8BjkTNQ-J-V_Vsqy-9PBXvYXcg?key=ZVNsNENUdDVjSldkT2VmV3J5cFRHRFFsTXJhc1pn) _(20 pics)_
@@ -683,12 +696,6 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Playground
 
 - 2017 11: [Gaige goes to the Indoor Playground (11/15/2017)](https://photos.google.com/share/AF1QipOaQC395wBkTFZ4ETeGC-yfVg3O-GnWjFBPNCUHuXsxlUDW3QWHYtVbGXIrD3tpyg?key=TGtSLW5EM3BnOGQxYkliMmplLW9HbW1Ub2NWUS1R) _(56 pics)_
-
-### Iron Man
-
-- 2024 08: [370 70.3](https://photos.google.com/share/AF1QipMxEzGvZyezdXG4_0NZ53yplcYif6cIKT6VAh8c6IqIthxzLAsrADokdOaWPaF2NA) _(29 pics)_ **Emily's Album**
-- 2017 08: [Half Iron Man (Em and AJ) PA](https://photos.google.com/share/AF1QipP6F_3gqSSvUBins3EdMQjfgVcmx0d-jgTN4bZx6cSlL6CJ-_2OiIcv-P4gzFQRLQ?key=Yl9KcUJWWDBSUURLTUtKXzFHc0V0dV9wUDAxMjVn) _(231 pics)_
-- 2016 09: [Em's Iron Man (9/11/2016)](https://photos.google.com/share/AF1QipP8wuaHG1OT2l6K__69nkHPiUZETGJHhIUITBoqWQrWtamYQUYFuStqFJAPSoiOkA?key=MnQzRDlONk82Rkladk8tdzk4UTRESDlTeW1RQzV3) _(4 pics)_
 
 ### Skateboarding
 
