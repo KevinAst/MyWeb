@@ -24,10 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 # My Photos
 
-> ### <mark>Why this summary exits ...</mark>
-> ### Pages:  ?? _... in this summary!_
-> ### Albums: 588 _... categorized below!!_
-> ### Photos: 45,000+ _... WowZee!!!_
+> **<mark>Why this summary exits ...</mark>**
+> <br/>
+> <br/> **Pages:  18** ??   _... in this summary!_
+> <br/> **Albums: 588**     _... categorized below!!_
+> <br/> **Photos: 45,000+** _... WowZee!!!_
 
 ## At a Glance
 
@@ -555,6 +556,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Date Nights
 
+- 2025 12: [2025 12 Missouri Botanical Garden - Garden Glow](https://photos.google.com/share/AF1QipOGKOt3Ae357L7aQZOGfXm4bl4BxmTvWxkAHRxatHvOiOrarSYcAJ8lxymnfMXEUQ?key=VG9YMWRoMWJXMmZUM3BNQ0lTV1JUd1RhRVkxRENB) _(75 pics)_
 - 2025 12: [2025 1210 For King & Country - Drummer Boy Christmas](https://photos.google.com/share/AF1QipOwgyFBibpKA-U0GD5xjy_WqlTMghIoHH8y60QcHcfz4hV3VfY8qxniDrO5m-mbag?key=T19mbjFqMlVPNDVFZGY3ckJXSkNzYzI3c2hqQlBn) _(23 pics)_
 - 2025 07: [Grant's Farm Outing with Gary & Sandy](https://photos.google.com/share/AF1QipMl-gsYnL5OsQ0cJxaorWDhIblBHxFh8ruEicK02nzVaD-gexpFRRUInZNliGa7MA?key=U2I0VGxOcmhlM2NvTkdCelYzMzlmUU5fRk5zUkZR) _(70 pics)_
 - 2025 07: [Date Day](https://photos.google.com/share/AF1QipN9nntvZknlmtT_XYNkfL7jjCScrTHEVtnQtyZ8ILGqgU6ON8ode-iMR7uL96qQWg?key=ZkNwY2VlbEQ4TWVRWWRzZ1JfYzlQSDVkMHJaZENn) _(10 pics)_ **AJ's Album (AJ, Emily)**
@@ -1019,6 +1021,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2019 03: [Dayton Road Trip (to pick up AJ/Em's car)](https://photos.google.com/share/AF1QipP6Z9_FENd-fJIc3KpQ_HCdEIUG9_U4q-ox9SKNZ7rSKiu4PG8kd8H6nhO1-c18Qw?key=ZGg0ODJJaVRUTWdHYnFnNGs1Mm96cUQwaWNtc2xB) _(19 pics)_
 
 ?? MORE (reorder):
+- YYYY MM:
+- YYYY MM:
+- YYYY MM:
 - YYYY MM:
 - YYYY MM:
 
