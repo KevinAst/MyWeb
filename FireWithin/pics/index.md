@@ -176,6 +176,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - 03/2022: 3 [Em turns 3!](https://photos.google.com/share/AF1QipNX4xL6fsyySkrGsnWwOAF_9_MreCr_3FF9au9FG5vgf0XGziwM9XcSxiMp47DAlA?key=aV9iVnlCUXNvRFFEMGZUR0xYTTJKUEVrdC1ucUtR) _(155 pics)_
 - 03/2021: 2 [Emerson is 2!](https://photos.google.com/share/AF1QipObGwTSbaEYxfsgTlN8QayeSDmefFTAnAdoXdtaNMe8_-HxDeR48Kv6P5YuHI2zww?key=UmFndF92cHdUNHRMLUNuU184WVdMVVJ3OFBWLWlB) _(64 pics)_
 - 03/2020: 1 MISSING
+- 03/2019: 0 [Baby Emerson](https://photos.google.com/share/AF1QipODA2A0oQo2AGDkEUFOjjponHV6n8E4s6BM-8w64Z5eGblQzFfwy-j8ftZNSpmzbg?key=eEltcy0tVW90ODFadjVCelJITFVfUFJHbTRTanln) _(452 pics)_
+
 
 ### Juni Birthday
 
@@ -231,7 +233,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 10/2023:  8 [Julian Turns 8](https://photos.google.com/share/AF1QipMeTT8W7G7z6S7Wj9obe-45Jc_DELbhEfkUu9oENZeC_1m2HEw10GQIWog1YavmRw?key=UGVDTmRwdG8xeE5USTI5OUdPRzZlckdjMjdhbWlB) _(518 pics)_
 - 10/2022:  7 [Julian Turns 7 (10/2022)](https://photos.google.com/share/AF1QipOEImMZzOJrFTr854bw0c4QCikPhP5dU2gkaTrvQzz7wZ0xVAYN8sbVkREqoTdCGg?key=NGZwV295XzZIdlIwdTdDUUFBTDFfZkIzNlFob1F3) _(361 pics)_
 - 10/2021:  6 [MiMi & Papaw's Julian Birthday Trip 10/2021](https://photos.google.com/share/AF1QipOe8jmdD3jYHow0iv06FO2SqdOmDGxyYMyBL84RVQG9teKOj6bKbhQb9AEk0gKr7Q?key=d1MyaDQ0MmFQemFRLVNBY1pidjF1RWJEYTVQRHVn) _(235 pics)_
-- 10/2020:  5 MISSING
+- 10/2020:  5 [Jules is 5](https://photos.google.com/share/AF1QipNSEToGxf1S86-k1O6a3557qb6E23VTs4FpHw6_jmPuQf_Ew9a612HzB7k2zG6gOw?key=aVB0RnRna3NYWmotODFQaXpVb0Y4T053bDJLQWlB) _(435 pics)_
 - 10/2019:  4 [Julian is Four](https://photos.google.com/share/AF1QipNttjUM74CIweNAGv2t3qg50Flz2Cb_Gh3qvEIoanGzql-jcLbvDau1zl6-LtHb3g?key=Tnh5Uk1aTE5yN3JfRk5QS2J5TUhJMjM2WDBKVVFn) _(159 pics)_
 - 10/2018:  3 [Jules is Three](https://photos.google.com/share/AF1QipPlCwv0DhZuaPHgDBEvH6fboFYAfhv37spbrvk3uFxcgDc7H4BMrpisb7utq96WlQ?key=ZlROUWhaWWdXekRLYnlQd2lFVlAwWTNWbWMzNG13) _(138 pics)_
 - 10/2017:  2 [Jules Birthday Trip 10/17](https://photos.google.com/share/AF1QipM-lwi3fpJ28sDDYZlKvUCpvFiDzqL8m97zL0oGA26uSKawgfHmlrl8IAe4A9C4ZQ?key=Mmc5YlVCVDk4SGxZQVRTUGlRalc0akF2Ni1jTjB3) _(149 pics)_
@@ -307,6 +309,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2022 06: [Happy Anniversary #43](https://photos.google.com/share/AF1QipNoZrV1rfX3xE69fRg9R52NE34FfRtd4fNDNpXVEUsrn0CpmjOSwEZ_OtHySWHTqg?key=SVdSaGxvZDhjZ0VQSTdnMmdtYTAwVzBKXzQ2VnpB) _(10 pics)_
 
 
+- 2019 06: [Happy 40th Anniversary](https://photos.google.com/share/AF1QipMtDWCJbjRAxKz4ZqNyotjWM-lmH2d9RNzLdHw3ZF85bsFGcKjNY3_1pKsssJIQTQ?key=OFpFSTlnU19QamNNWmFJM1Z6RHdBZ3FSU09aZ0R3) _(14 pics)_
+
+
 - 2018 06: [Kevin/Resa 39th Anniversary Road Trip to Indiana (met Rich & Jennifer)](https://photos.google.com/share/AF1QipNDvIHZwIwnK4hEWsn5_cNYHvzEghnEbFpSgsItUrEcxMxJCmV5h0O2erEw46RTWw?key=bzhXdXhtV0pZWjhNQ3NoQ294M0NrWlU0NFZ2UEZ3) _(120 pics)_
 
 
@@ -322,6 +327,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 - 2014 09: [Eddie and Charis Wedding - Photo Book](https://photos.google.com/share/AF1QipNlmmsb4O7LaCHY4YKu-iit4FYty73ILewBOtevdN4_6EoHZ_uQs7cKLxNXgDJp1g?key=SWJTQ0JCelA1VzlPaUpTWG9ONVJ0WW50Ump3ZmVB) _(42 pics)_ **Resa Album**
+
+
+- 1979 06: [Kevin & Resa Wedding (June 2, 1979)](https://photos.google.com/share/AF1QipOawumQOsn3vlspp78lyrTio3T1dgrAEwzjntwFtDPnyBMAJWKYpKZCEd8WRfWDFg?key=cElBX3I5bWg4NVNNWGRBTHFrbTlwRUY2THRENUl3) _(120 pics)_
 
 
 
@@ -497,6 +505,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2018 04: [Road Trip 4/2018 (Memphis, Vicksburg, New Orleans, Houston, Tulsa, Rolla)](https://photos.google.com/share/AF1QipMQwOinLCCoGdDNVme5eVLNoG5jV9IYOr2MQwCxLk0_nE_2ozNABywt_v8MtIRI2A?key=dG5ncENDWUhjT2ZhQ28zdEk2OXRFbElQRjhrTWx3) _(932 pics)_
 - 2016 10: [Vacation 2016 - Road Trip from PA back Home](https://photos.google.com/share/AF1QipOiyABJM08rYL5e972XgO99wPWDDW6WZrlczc_TN7bAOWiXf2r-oazw3lSil-qJMg?key=RlJ0ZW9ZaWxScjhRbGRqcTJMejJmVE9HRXJSeXNB) _(102 pics)_
 - 2000 08: [2000 0806 Eastern Caribbean Carnival Cruise](https://photos.google.com/share/AF1QipOwddNtV6M8TBwlojsU_kDy39U3i9iAXycBHEZ76ot7hAUtm2VM-H1kkIbebw-Z-A?key=ZWFCdjVPd0t3U2ROVXBvZ0dTYUJuSUFXQllKQWRR) _(71 pics)_ **Digitized From Film**
+- 2019 06: [Pentwater MI, Door County WI, Green Bay WI, Milwaukee WI, 2019](https://photos.google.com/share/AF1QipOgk8a5S3SopJyK-PPQr3CPbjsLC98ibQsy5yyTjZkJ4nDU9TRUtJMFNpfQ0r7bBw?key=eVpUNTRKQ3Fqdm9QcXpWc1BWbGNzRGdYdTVBTmJB) _(410 pics)_
+- 2019 05: [Disney 2019](https://photos.google.com/share/AF1QipPPrqVTObF0l2KBjKXxYkMVij2dmFhyuwPuNwv0Wf1h3nxl-2vWI7nSwbvNuYzy4Q?key=OVZwSWFlQkhlaHBkOEpyT1RqQWJPeC1kOWFndlV3) _(709 pics)_
 
 
 ### Special Events
@@ -611,11 +621,14 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2021 03: [Airplane Park Family Ride](https://photos.google.com/share/AF1QipPoIBbhMFG_VmqzsuuvNevnt63ymgRtEhTnmnKeYV2U_Miwspj9ZxosumO9TtdXTQ?key=c2pPZllqVEZUaEJ6b3BBNUxtaFI2alNEZGU5X3p3) _(5 pics)_
 
 
+- 2020 12: [3000 in 2020](https://photos.google.com/share/AF1QipPC1Ffo9AXGMAnIeQWQXhEuCH9QDfMbGG-OT5HP8xqczC2J3CLtqzMAiX7UUOS2yg?key=dW9VYnNmSVdiWE80SFR2UFE1a0tycXQ5anZNSU9B) _(52 pics)_
 - 2020 11: [Buddy Bike Ride (9 miles from bus stop to PaPaws house with a stop at Airplane Park)](https://photos.google.com/share/AF1QipOgp0V0ObUvGeVD1SYf_GrrYfVhV9KCwI1YMo3a35CK91Vbh6EkMEVtNXudJOEp6g?key=MXR6eW9LSndpS1pkb0V4RWl6ekZYY1VlOENCNUZn) _(15 pics)_
+- 2020 11: [Spinnin with Papaw](https://photos.google.com/share/AF1QipMPanQzYXoIoPiw44-JbX5eeboXxiGwNak_BtnUmhQpkBSLOzL5rsC916hYI5a6zQ?key=QWQ1UTc2aTA1cUZjRUV4UHFrOUctM0RSWi15SW5B) _(3 pics)_
 - 2020 09: [Ride and Hike](https://photos.google.com/share/AF1QipMv6IXhvPiCB024-pPjKo1AoTQC_Xm-X4lmu5IreITImSWXZcDFQA2GIBx9KI4jmg?key=NFZBY1dRcnFtc1FBaFo2Tkp6TXpvdUp0TnZ1T0pB) _(6 pics)_
 - 2020 08: [Family ride](https://photos.google.com/share/AF1QipPt4d9LIoDxW2fwAXCtrSnX64tKEmI0pmS2d-fPYYWT-peDwgG86_I4AL43QpK9Gg?key=ejNueC00RTczUkNnb0U4YWgza3M1SVVncF96OUZB) _(16 pics)_
 - 2020 08: [Family Ride](https://photos.google.com/share/AF1QipOAZ91wX87W30d9nr7r3kAQqbShqZMSjHkNdpCJcgO3iM1R-mrYvOCdhrIEJhMluQ?key=eWFHUjdhWllPY2Z3NkdrMGNaSnkxTUUySGdYRzBn) _(6 pics)_
 - 2020 08: [Treacherous Ride](https://photos.google.com/share/AF1QipOo7ZDASXb42Mvrf-WrOCEvITlP_HlSjx4KjVSwWH04PGX9gf0eUrTrYlvv2cstLg?key=eGRTX1JBbTJvYXQ5czBoaVhURjJCekttWE5XVk1R) _(10 pics)_
+- 2020 01: [bbEm's First Bike -and- Gaige Creations](https://photos.google.com/share/AF1QipNzzJ_sUi1ALcCS4DlVt2H1cOt6j5a2KqTT804GYvui-e4wt7TYJdkxIxVfNea-GQ?key=NDY1UXl0bDN2blRGZXZabDhjdEptOFkyQUFzRDNR) _(10 pics)_
 
 
 - 2019 09: [Ride - bbEm Papa and Me](https://photos.google.com/share/AF1QipMJ84LCZfPTlrlWE-9Vaa3ZNTB46nCEmrCqctF2cFoExbmvHxMSg7V7gb5E4uzGhg?key=UzJfMFpnbzctWnl4a2RTZlZjMXdhck9UdXQ3OVJ3) _(2 pics)_
@@ -634,8 +647,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2017 08: [Edwardsville Criterium 2017](https://photos.google.com/share/AF1QipN2A2Fi2E5cElsXOA7B-iPP5rQ9eHPx6TFbQLfXExvQNmG9-EBpZyC16u8IKepZWw?key=aGlTaUdPWEtVSUtNaUpRTW5Ha0t3S0kzOEkxQ1BR) _(79 pics)_
 
 
-?? MORE
-- YYYY MM: 
+?? MORE (reorder):
 - YYYY MM: 
 
 
@@ -659,6 +671,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2024 04: [Chandler Small Group Hike - 4/20/2024](https://photos.google.com/share/AF1QipPfX5BuECuRXOwHPJCEBjQzBm2M-4sSoUYNV_puZUMAumBJiQc9d6N9DpeD1vZdLg?key=dEp2dzNnTEgzNmxjbWFIVnFfZzh5dEYxVGRqaGJ3) _(94 pics)_
 - 2023 11: [Chandler Group Hike ... Pere Marquette](https://photos.google.com/share/AF1QipP35nqhPXRz0OAqFhRbjQTrSfW5f68ffpEfF_gSUXvO9vhQWNDLjD1DvEblP9lRbg?key=aTVQbExiVmF2bzVmZjd3MmYyN3ZwbS1XazNHRGhB) _(30 pics)_
 - 2022 10: [Chandler's Small Group Hike - Giant City State Park 10/29/2022](https://photos.google.com/share/AF1QipNDAE-FlIigRV81OPKIRl0OKmkON7hymX5HPG22fsqflV4DyYqafXUzu90vj_MfaA?key=ZF9hX0RDbW1JTGtJLTA3ZFF3MF9paGJVNFItMjdR) _(84 pics)_
+- 2020 07: [Edwardsville Watershed Nature Center](https://photos.google.com/share/AF1QipNnpNKhrPBizw92IQnLLnrcPCaRfoVinRSzghURqskVP26p3i359UZoduhL7x0mPA?key=NG1UQzA2am4wanpTaUdGNGFld1pISE9PcDhNV3lR) _(31 pics)_
 
 
 ### Soccer
@@ -684,7 +697,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2023 08: [Emily & Me](https://photos.google.com/share/AF1QipMeJol0aRsth0oeaBOYHry81wK6nVrs-oqEksrrZthSN7qNtvZWM3C-3RXhjsUX7g?key=Q2xPYWZLTnZ3VEJ2SEloY3FlWEk0bWdOcFM2N3RR) _(12 pics)_
 - 2023 04: [Pickleball Mishap](https://photos.google.com/share/AF1QipNhAf9mZ3loht5LDNciNh90G1KEx_weQ8W5zx8Y2d33dVgm1UrTyZ46TldMoMcBEg?key=TE5ITlRKSEgyTVBYRXhSZndLeHJMX1ZWWklYVi1n) _(4 pics)_
 
-?? MORE (re-order):
+?? MORE (reorder):
 - YYYY MM:
 
 
@@ -720,13 +733,26 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Tech
 
 - current: [Pixel Update](https://photos.google.com/album/AF1QipNU56EdARvJfS_71gzM0DAPkeH4Biju71AINZVU) _(49 pics)_
+
+
 - 2025 06: [Fiber Optic Internet Now Available :-)](https://photos.google.com/share/AF1QipNGoCg_7FrdugQAzx0DbeSE5rW_Toplh_uLwJjOVTwMrBzbrnomP5KFHrp7_eonzQ?key=cEhkaHBhbUczaEQ4T3ZXQ3BkRmZuU2p0RmxYcXhR) _(10 pics)_
 - 2025 04: [Kevin's New Laptop](https://photos.google.com/share/AF1QipMfdlIWrtEAX_YYmZVsOMdZDo2e7ivd-sSh6y2j3NZYY2Zp1Q-SkMs-mzJAU0Pj-A?key=REtiNUt1VnRVSWtTMkpyYUxRVG5fQ0Y4TTFvdE9B) _(21 pics)_
 - 2025 01: [AJ's Computer 🖥️](https://photos.google.com/share/AF1QipMzSjrue8XPhdBUsuPBKDQOLJ1-a6XM_mu_E-tpuVj667l_M5SygRRWkEyAyI14Ow?key=b3prRHFaaDYwOXpEcnhHNmw4ZjVhMEFEV1hrNUJn) _(6 pics)_
+
+
 - 2024 12: [Under Desk Keyboard Roll-Out Tray (for sale)](https://photos.google.com/share/AF1QipNZsnYAdBhLs3MTmqTVSiYGN0xexyBCDQL9GMDnnhDK4A6RnNdDprhoaqWn8pYURQ?key=UXVQMGk0SXpQUmp6OC1Pd2FiNnVZN0NhcDg0aUpB) _(3 pics)_
 - 2024 11: [HP Omen Docking Activate Timings](https://photos.google.com/share/AF1QipNHnUt5OKRuEvPlXh785qucxBp665L6ZV4x-xJ84KdnfyiAZ_TIPRrHswHyyBrVoA?key=Y0E4MVdBcC1YTTVYXzM2dzh4dmVMWGRVa3FfX2tR) _(30 pics)_
 - 2024 11: [HP Omen Docking Issues](https://photos.google.com/share/AF1QipNK45m7lDJy2jlr6drqqCkPS6Kcwg0ECV3EAitW1ZJVgknGUDMeB1VyNTmhTUToKg?key=bEtWYVRHUEotQmdBU3JIZzJpZzFHS0xLb1hIb2d3) _(4 pics)_
 - 2024 10: [Bad Desktop Protector :-(](https://photos.google.com/share/AF1QipOlDmFpkhABAt7DqZ0FwobffoIjSVyOF4I-18_iCsX3UjBIue3K7cZtEXpLpsyRNQ?key=QmZ6YjZiMEZFQk9sN1liMzhIV1NNZDdOenlRek9B) _(3 pics)_
+
+
+- 2019 09: [Playful Features Presentation](https://photos.google.com/share/AF1QipNui6CKVs3stnT0vlG4yVDq7kRy-pbJHl29nPwg6ski5UtqcjStQe-occbksiMnaw?key=bmFGblhzVlV1b3JoTWZSMTZTWnBqQkh1cTYzbEVR) _(5 pics)_
+- 2019 09: [MusicCityTech](https://photos.google.com/share/AF1QipOmX0Lds4yxycnHYOZgWY2_SbPp3PZqFIeNMiNJKNIs7BBSf5_KW8mcKRjsR5UHrA?key=QUVwY19ZUkFBTUJwY1ZDbUlQSDFkMnFoSm1qaDNn) _(27 pics)_
+- 2019 09: [2019-09-06 Music City Tech (full album)](https://photos.google.com/share/AF1QipO9fz2qD0uvyZXUhx9Kqxs4WEbcdDdPXme0WUJyN3wl3UGyLQ83orB_qx4_ThJzTQ?key=MGRJMnA3Z3VTNWdHSnF6OEhnSk9rclE3VTNVNmtR) _(229 pics)_
+- 2019 09: [2019-09-06 Music City Tech - Friday highlights](https://photos.google.com/share/AF1QipO3rUUcjgmYdWmD22pnPXBA4fO0Vig1Z_nqTJOZv11FDSruvjQnDW20xNalshaQnQ?key=TU14YW5POEdXdWhhOVFsekIzTlhrX1hBeXlOSDZ3) _(42 pics)_
+- 2019 09: [feature-u rehearsal](https://photos.google.com/album/AF1QipMCbZi-0ut8uf06jaekE4GFNeEf1TcPWLOZk2Gj) _(39 pics)_
+- 2019 09: [Presentation Shirts ... which one?](https://photos.google.com/share/AF1QipPdatFGMW0W34yxScrutfaWRnWTjEUINY88OoDSUA_1FuiHvjJhM-FJIXRSSWcAtQ?key=bkFFUkJTZHEycWFDRE5Memd4V0E1OGpIUVM0dklR) _(13 pics)_
+- 2019 04: [eatery-nod](https://photos.google.com/album/AF1QipPgjbve_j2GTe4bryHVRMwc8-WsRuO5ASIjU7ZQ) _(22 pics)_
 
 
 ---
@@ -785,9 +811,15 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2021 03: [Deck Repair 3/6/2021](https://photos.google.com/share/AF1QipNacbR4_aYBnV6SYSatnzGQWVVKZdMtIZVzRj3uWUiCJOTZwO2hw04Yr2pFnKrsGQ?key=NFpNZDFhbHhxUVVmVy1MaElwUTNqaDBZOWhFZmpn) _(21 pics)_
 
 
-?? MORE (re-order):
-- YYYY MM:
-- YYYY MM:
+- 2020 09: [Rock Sifter Test & Tree Climb](https://photos.google.com/share/AF1QipN7w_q6_0qbTPxyWGnOCW3ccFEik-HduOINRDOZw1RM3U1_7VGHdQS_jM2OWQZz5Q?key=WFBYbGpWV19hZVR2T256Y18xcVg5OWxERHVITENB) _(19 pics)_
+
+
+- 2019 09: [2016 Honda Pilot AC Venting Issue](https://photos.google.com/album/AF1QipNyOhHhX_X1Jh9CPnZ4Ooo-jkonYlMFgVOcRTN6) _(2 pics)_
+- 2019 05: [Our water leak is in the Pella door itself](https://photos.google.com/share/AF1QipMbXHICf7XFJsvf5BwMTVsac9SMFXuD22pAlwVp3TzDEjB3XJPteYPQx49BFtKSYw?key=V0VYSUpRaFpJd2ZMWkRtazVTZUFGLUFGWFpJeHlR) _(5 pics)_
+
+
+?? MORE (reorder):
+- YYYY MM: 
 
 
 
@@ -822,6 +854,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - [in the woods](https://photos.google.com/share/AF1QipNhxksjlF-OTnyJ5jsiqRV_ulJPOXbBY2flBgYTwOv8I93vRxjXrG14rHic8o0ayQ?key=YUs1YXFheHNrM1hhOEVBb0R1T2xFVUpaVUNQeHZB) _(11 pics)_
 - [Georgie Grows Up So Fast](https://photos.google.com/share/AF1QipMRyKRjjBzpUGjNHGtU3UydbhhenUBB9rTocKgAPFYKvFOfnl7MOcn3uXpE17iERw?key=LUdWa0RYRXk1dUs5OHB3YjdaeVN0U3ByOU5LdExR) _(unknown) pics)_
 - [Deadly Plants](https://photos.google.com/share/AF1QipMXI8WBDaSAaGWnK6xyrDbUiZjMdz6wZg5UNJgsBD8p-dVuyI5Ys5fu_JQaH2eCfg?key=bm1Lak5fTGVLMXItRlFlYjRsaUpvdUllYmIzMkNn) _(2 pics)_
+- [Cool Clouds](https://photos.google.com/share/AF1QipMcrmF3Hxr9PT4etBis6LrFcl5Gam_D9R1cT5CaPjW2Y0PRN4Aoqoan6FrVnKdoVQ?key=MURubGFTN1gtaXZFTEdlaEVJZXB2djZyclpqMi13) _(7 pics)_
 
 
 - 2023 12: [Dec 14-17](https://photos.google.com/share/AF1QipNeFPzHkLqVGu81AtvDVBJKef3WPSywzWAW1Cl40eJxQgxFjnA01AoXQvImfGYGDg) _(37 pics)_ **Emily Album**
@@ -941,10 +974,54 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2021 03: [Sullivan 3/5/2021](https://photos.google.com/share/AF1QipOTgEbQvgdcXj8TQlbV61cYCJfNn6iS4b2l-YucoqvIvPPrUKVZNhKwQAmFdcVEtQ?key=MkRPNHE0Zjhrazh2TS1WX04zejUzQ3ZNZ2VUd0Jn) _(6 pics)_
 - 2021 03: [Hide and Seek](https://photos.google.com/share/AF1QipPhclu-EPdWHJ9cN3do9EIzXWyjCJCWChxu20aMahytGHUo5GAGFsHy0vlJEFeQRw?key=c2FwNldabzdmUDFudnlUdHZkVU5PeW9mMnVISHJ3) _(21 pics)_
 
-?? MORE
+
+- 2020 12: [Tasty Treats](https://photos.google.com/share/AF1QipNZsyfnkISmKjybWsGRHoWbonpOlhQYTtBx1Qjlonl3s49ANWV84K_q7QSMPFPujg?key=T01HRGx6a29tUnktNno4LXVVeU00T0pFRUNyV3ZR) _(8 pics)_
+- 2020 12: [Resa's Tasty Treats](https://photos.google.com/share/AF1QipMS8qJ15NirPCXBknG2TYfVBptxmeqCbXUwceSupJrbqdYIojNQqWWsLWD8Iuu83w?key=dnBKdndTZDBpX2hLV3BYRE9FU3c0cFkzeXB4RHdR) _(6 pics)_
+- 2020 12: [Gaige, Georgie, and Julian (one bbEm)](https://photos.google.com/share/AF1QipMRwiyRuqzthAHOMynY_iqs2CATpRtXsVTHl-EKODGKA-CDADjs7TGrHmQIkMOiNA?key=SURXelJLY2xFZE0zVDczZWhET2FOeXUyRDhrUE93) _(15 pics)_
+- 2020 12: [AJ & Em](https://photos.google.com/share/AF1QipMU3x3qNlR4X1Bwd9unEdn5H6dr8iVkLwxHmeSoopvtys3lZO21Pz1qGtjvW5yz4g?key=VVdWTkNEODZjX1lUNjZSVUpPOXB4VmwzSC1JcmtR) _(14 pics)_
+- 2020 12: [bbEm and me](https://photos.google.com/share/AF1QipN3pkqVwSzHnunHd4pxQh2hg1YXImm2pSCY4E_UG4euUqQ3yCbdu30pFicIG9HMcA?key=RXFoNUlEZXpfdjVGdVRaN0p3dUpEb19sb040ZHB3) _(5 pics)_
+- 2020 12: [Gaige at Papaw and MiMi's Virtual School](https://photos.google.com/share/AF1QipP_LXPATvYoGwAeAbM_q933rdyyQ5vW0iHzXIZDLwg35vnieA1Zz1-AO3LWmHWhtw?key=VjY5Tm03ZDdsMEVjRFF3RkEtTHZBYUN4MUlUWFFB) _(9 pics)_
+- 2020 12: [Spotlight on Gaige](https://photos.google.com/share/AF1QipMQEs5D8BZC0jbzr0KAnUpCidSKszCgqSBWWj7xC8EGSCjWLUpqhLNpS23cGh7zFA?key=T20xaW10d3hFMzdXSVBiYjJfUU5haHFZRUJjYzNB) _(15 pics)_
+- 2020 12: [Gina & Kris Stopped By](https://photos.google.com/share/AF1QipOJHg-ckgNSUkhtdfcmKYHQ3OTTojHBwjSteKaAaPLW1sIiueb-vPUCkU4iizK5Uw?key=YllQZ21QZ0lEUVhUemhUdHg0ci1yclJPRC1TcnR3) _(3 pics)_
+- 2020 11: [Neigh Neigh (like brother like sister)](https://photos.google.com/share/AF1QipNkNFuS5_kmZvaa24r8EsMIhMhddIpHQMfXU8Ch1IpnNZK5X1NaPFhfSdNZuvRchA?key=cXplNE01VGZqZGdCRzJ0S2p5WFpUUFphYU45bktR) _(7 pics)_
+- 2020 11: [Tree Quake](https://photos.google.com/share/AF1QipOrnqnsKAYFV8VEP3bi6L9t_H2mZk_PJTmoS3KhsRLe_Lecpn7urx0q38c1kyZfIw?key=YkU2bWQtY0pvdzUyWngwdDVieVQxRlRRN2VaU193) _(5 pics)_
+- 2020 10: [Georgie & Papaw](https://photos.google.com/share/AF1QipOQ9GVyqAXAuCmscanNXdqSsbBU2Yc-Zcca0lPJhMlUvu_1d5pd4UEwnWe96dhXnQ?key=SEFpQ1VZV0UwVlBYWDFNc1JqbGx1OHJfUVNSeEtB) _(15 pics)_
+- 2020 10: [Rinkel Pumpkin Farm (2020)](https://photos.google.com/share/AF1QipM8k6KvQ3o-r04Psjbdcsji007ZCuEOeOSg_C_F6z8KnQp990Fwrkcjj-Iu7PUUVw?key=UDVKNFdMY0ZzZjVBN043amxkS0p6czVhV0NWakdB) _(39 pics)_
+- 2020 09: [AJ & bbEm - they grow up so fast](https://photos.google.com/share/AF1QipPCk8dNWQP4VXAbyLSiXciCGnLmB64gBL3ZvIUN-4P0W_Nq6rAojxeG5hNXbU0UuA?key=WE15R1Itb19laXJSMEJxVUJSd2FMY1ZGQnE4RnVB) _(5 pics)_
+- 2020 09: [Gaige and Papaw](https://photos.google.com/share/AF1QipOo19LYHMPeSdOCSpoN9ZsMpO-vHMuU4KeuD2S2N56IPepwrjBHavv_9dALF7h10A?key=akVFZHVpdDVRdzRsZFkyMHYyZzc4cTlMc0l0S0RR) _(15 pics)_
+- 2020 09: [Papaw's Buddy](https://photos.google.com/share/AF1QipOm8xBh0DXs7Cts9ipkPoEToDonLaXXMj-bLq3GzqPDAbX4QsnNd28ABVQKKieFvg?key=NFRCWF84ZE5Qd21lUWpXakd1ZnFtMm45VHNjTUNn) _(16 pics)_
+- 2020 09: [Fun at Willoughby Heritage Farm](https://photos.google.com/share/AF1QipPJOmcNvZfhQA8QUhn_IOjyl3ZvLVxmZ08a5IEtFq4N2uE3Ni7aIrZdUnmcOG3rKg?key=eUZQcXFQQnV4OUlEalk5NVY2RzgzWHJoakJEYWRn) _(46 pics)_
+- 2020 08: [Pool Party](https://photos.google.com/share/AF1QipOp3qikgBOkfXQohAFHiZJtaihhJwj7Z4_-HaR6yaLpeRSM4mTkNwuEPhcpvyUVwQ?key=d21MbFhKUll4TVU5NW9pXzRidGduampmc0NmSnBR) _(24 pics)_
+- 2020 08: [Family & Friends](https://photos.google.com/share/AF1QipPRcWQIzHj9AedW2thMWcNCBXzMGCdQ8rl7zODSdA2z-zOalKs0xwa8YSGHsSJkJQ?key=Z2N1UEl1eGswOGFGMVdqb20zaWFsT0p1cmdGSGlR) _(750 pics)_
+- 2020 08: [Fun with Gaige and bbEm!](https://photos.google.com/share/AF1QipNWxPg-O8fgMvg_a_9MFwxovUq7ndfw_mBkZtNgIkBbTNGjGFaaek0RSKz6oWnC_w?key=Rnd2eXlZUGJGbHdUYjlzckZraTgxSHhEVXV6VndR) _(13 pics)_
+- 2020 07: [Shucking Corn](https://photos.google.com/share/AF1QipONEe-1h1F7fAtI7TIji1Ge7CVX4KvgKZaJ05poj2WJaLKadROOlBk4ApzaG2hKgw?key=UW1pdW9ibjZPMDZjb2MxUWdIUFF2NkU1RW9Sa3N3) _(6 pics)_
+- 2020 06: [Gaige Demonstrates Krazy Gears 6/9/2020](https://photos.google.com/share/AF1QipPY_LCNUm_JllnHJolSdAtz818e8naFi5bPo87cK_OqUyF56xbRyK1_VjjCTnGm7g?key=ZURvZmdfZzR3TDZNWEdKVWswV1FZR09IQThMdk1R) _(8 pics)_
+- 2020 06: [Sandy Cut the Spectrum Chord!](https://photos.google.com/share/AF1QipOA7AOCDCd8AMClQc6kfHJDG1LybFPpWdefyp4upmpYpX0dJ5zsuhL1yKxx2jIhSQ?key=bXRZdkNFNXBrZ2l5aXRrRkc0aTFqekE5VV9oZTJB) _(38 pics)_
+- 2020 02: [2020 Scott](https://photos.google.com/share/AF1QipM93qcnSreh6LohXFCtOx5nsOIqdPTwwswh8fPw2DDZqFFpIu8pzypPRAEnpuTNyw?key=X2ZMUWE1Qm1JQkZRRVptMWk1LWVYX1VteGlDQnZR) _(87 pics)_ **Resa's Album**
+- 2020 02: [bbEm](https://photos.google.com/share/AF1QipNqrT3sbYM0El0iz3sesi5g-4yHJ5SWc-n_-47qQVSLZd0zRBS2xoo9fsbM_u6jqw?key=TmxTekZibkkzVVRpelBGZ2puRUlVd2V5SHVQTEJ3) _(6 pics)_
+- 2020 02: [Celebrating Bob](https://photos.google.com/share/AF1QipNbdHZ6dR0DpRhUPxQP_oG9mk-KOJWBH2l9hIXXdN3O-_feyL3q8Z5JY75IhTxcAA?key=ZnBXd1N6R0RqUm1TeXdyYlFsV3lyekVNRFhLZmlR) _(13 pics)_
+- 2020 01: [Hug It Out](https://photos.google.com/share/AF1QipNSGzv9ZVSYRinhtm7YFpBPmjOMWUUBprCaLCJC_6d5CFwCXhEuqwSilix_9axNng?key=YmFER21CNHdMSG1ocTh6YXpITDdyWmYyaUJ4VklR) _(14 pics)_
+
+
+- 2019 11: [Resa Knee Replacement 11/29/2019](https://photos.google.com/share/AF1QipNyjkIuujCE6T4o7zBij6fWZjVfieIsIMdSA-eR0nJTPy1jxPC5uiIAmGDDu_HPrg?key=akdCM1cxWjBHYnB6MzBZU3oyU2FFOXdibFRwcjZB) _(17 pics)_
+- 2019 12: [Gone Over to the Dark Side](https://photos.google.com/share/AF1QipPZ7pbfgFy_2hrv1aePncT8jcE333jjC5OXGMe54ppDKM6-vCIM3PRinCDMFX8JvA?key=RzB2UGFWRDFzTGtNelBzUG5fckJfcE9GM3dmek1R) _(5 pics)_
+- 2019 11: [Gaige Progression](https://photos.google.com/album/AF1QipNM-Si6Q2UdoLWvbh9P8w0iY_67HvXokt55XkIq) _(1746 pics)_
+- 2019 10: [A Day with bbEm](https://photos.google.com/share/AF1QipPldOlBE4skbiBF4kDxyQuHj0h9KYimfrqhUcxRtKAqo__MR9vBtkaa2m0NWbvKMA?key=d2VmeGktU28ycG5HT1JyNFJJc3lqTjM2b1hUNEpn) _(27 pics)_
+- 2019 10: [bbEm Time](https://photos.google.com/share/AF1QipMkF9axsjJ7ZVaA05Sls2lKaEVOvZWP0txD46t-IyVNUy5EINbUIb47GL7o3zXOhw?key=ZlZ0REg4U1A0UzlYQnpWZE4wTm1KSkoyaUJlTlZB) _(5 pics)_
+- 2019 09: [bbEm & Gaige](https://photos.google.com/share/AF1QipPhIC_xoIThGvFfZL3kqHaLSw_g4q7I-WLmTDqu_ccdtcsqerl8We_C6FwzLUcqTQ?key=UldJMkdNUktoN2J3TDdrek9PMkdGYkw4M2k3UXh3) _(13 pics)_
+- 2019 08: [Virtuoso](https://photos.google.com/share/AF1QipO3uZ4IxV-2vjdAA4ZH4C66tJf_kahkyPBhGPoYIW_Ao5VPn16Ay10d2-wuy6wkTw?key=MktKd1hZMXAzeE52dWhrXzBCX0puY0ozSlkyZFV3) _(unknown) pics)_
+- 2019 06: [Movie Time](https://photos.google.com/share/AF1QipNWgq81YfSG3RzJDNzHvfVVFG4qnVoQNG0lAz-HDtXIUiAeVnIGRkn31F-Aa-wlUA?key=YmM5VFpoZk94M2UwMEtZeVlXYnFuV2JVYnlsMTln) _(14 pics)_
+- 2019 06: [Route 66 Festival - 6/2019](https://photos.google.com/share/AF1QipMMa1jj_am6_eidTc6jX9iGiE1N36UpE1NwEhswJo38CZ78gnhkUoMptN_2rziDaw?key=UE5SUExRMk1IWTViamNtYklRWHhCdC1UVWd5S1d3) _(12 pics)_
+- 2019 06: [Zoo 6/3/2019 - Em/bbEm/Gaige/Papaw](https://photos.google.com/share/AF1QipPhDrIpohEgeluxAYPv6abZy98zecfaU5smNiFZ9IyaqKGi7zyU0fJeiEea6Iiprg?key=c2xrTkpsTzZKN0Q2anh1dUprZWFWeHBCX2lGbTFB) _(28 pics)_
+- 2019 05: [Broken Oak Barn Sale (Rolla)](https://photos.google.com/share/AF1QipMnGDu8FF8-aou825S5Mg54fzR4pjumG6YdX8b5UT8Pji_L1tI_9roIohlspIlA1A?key=UUM3NjJtYmtQN2pLU0tOU3JTa2xleFRkQ0JYSlhn) _(15 pics)_
+- 2019 05: [Gaige/Em/bbEm at Airplane Park](https://photos.google.com/share/AF1QipNRVlqQeEJVIj1BV6CspBGHa2F5GK9bowU75KVNVok6twVrpNcQpyUBZWY3fjiYBQ?key=UVAyRTc3VWt6M09DM1FIb2x1TDluQVpDRG9aTk13) _(9 pics)_
+- 2019 05: [Cinco de Mayo](https://photos.google.com/share/AF1QipNrqsJij_o927gndWkMRnXFEhsdakUxg0rymKZ5NUAUGLpUcq7UlthGIG3tUfUn0A?key=dEttUUZUY2I0RGgxZVpSYVM1Tl9URW41UDdyN1pR) _(16 pics)_
+- 2019 03: [Dayton Road Trip (to pick up AJ/Em's car)](https://photos.google.com/share/AF1QipP6Z9_FENd-fJIc3KpQ_HCdEIUG9_U4q-ox9SKNZ7rSKiu4PG8kd8H6nhO1-c18Qw?key=ZGg0ODJJaVRUTWdHYnFnNGs1Mm96cUQwaWNtc2xB) _(19 pics)_
+
+?? MORE (reorder):
 - YYYY MM:
 - YYYY MM:
-- YYYY MM:
+
 
 
 
