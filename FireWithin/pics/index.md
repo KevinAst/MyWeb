@@ -100,9 +100,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Misc](#misc)
 
 
-- [You Know](#you-know)
-
-
 
 ---
 <!-- ************************************************************* -->
@@ -1070,27 +1067,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 - 2016 04: [Various Pics - April 2016](https://photos.google.com/share/AF1QipOy4u7oi9RpZap1BSLv5kCyG8ezyzPgcIeZBTRB-VQP2yD-xPuaizncVf9RjBgvqQ?key=R083SnNEeHBKMURZaUVqUjZiWWFaYUJBOFhmWlp3) _(111 pics)_
-
-
-
----
-<!-- ************************************************************* -->
-<div style="page-break-before: always;"></div> <!-- printed page break :-)-->
-
-## You Know
-
-?? make private for ONLY ME (still visible from a tech perspective in 1. raw html, 2. github repo)
-
-## TRASH
-
-?? smash all these albums/pics
-
-- [FBM FY2025 Proposed Budget 8/1/2024 - 7/31/2025](https://photos.google.com/share/AF1QipNQFsK7UepfGfeNL0Q7YytByDbAyPwzj_7j63W33iZaVma-Lk8He4-PFBnOBx-5cA?key=U3hsMjBBempyZ2RPOUI3YzVTWEFFalVfd1lsV1RR) _(13 pics)_
-- [soccer tickets](https://photos.google.com/share/AF1QipNYdcV8NUfPNXGHO6-teBiah5E6SFNGZ2Qtn8a_lj66_Hnpn3mwvjF8l9whvGSKWg) _(6 pics)_
-- [For Sale (or give away)](https://photos.google.com/share/AF1QipO1l10YAfYKEdWxVypHqrCKGY2yogQt34jRomqiIP8t69QC5bNRtORJVxOlYd5vAA?key=WWpieWxrdTNfUGtjWG8tZHp3Z0J3NHVwSjZnSFVn) _(14 pics)_
-- [My 2024 SEARCH for Monitors / Laptops](https://photos.google.com/album/AF1QipPwL6Hd3qNHn9U-ltBz1KpZxplUqERAVuo0q7wg) _(13 pics)_
-- [My 2024 SEARCH for Laptops](https://photos.google.com/album/AF1QipOYMOHYl_NT0Fbu5HEUpIt1OJbzniY89QuWw-g6) _(9 pics)_
-- [bulldog liquidators](https://photos.google.com/share/AF1QipMyRkdKNqEwxR_o-kk3qMW8KaMZTiKo5UdVIjcYldTgHrb91V1pbXat8NhT-3cSag?key=T282V3F4Qk1xNzRyaGR5WnExUUdXWUNxR2tVZ0Jn) _(9 pics)_
-- [VBS 2023 INTERNAL (instructions, students, etc.)](https://photos.google.com/share/AF1QipNDBUAJ84qfzqv_rOaAjhdbBjbA5wq9kpAqQYNr4rBZlkpDC0uZqfV3hVufC1qbyA?key=c3c5V0JINEptMkNOb256Yy1FU2E2SGwwYl9hMXVB) _(36 pics)_
-- [Politics](https://photos.google.com/album/AF1QipNSi504WhrivjSFbD8MqIwQ41A9_lMHmUNhH8cc) _(unknown) pics)_
-- [Test PhotoSync](https://photos.google.com/album/AF1QipNLriId1ktrPnknEILMF1eUfj-JUa05I6GeVPvm) _(unknown) pics)_
