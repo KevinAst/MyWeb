@@ -40,18 +40,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 - [Birthdays](#birthdays)
-  - [Gaige](#gaige-birthday)
+  - _Bridges:_
+      [Gaige](#gaige-birthday)
     • [Emerson](#emerson-birthday)
     • [Juni](#juni-birthday)
     • [AJ](#aj-birthday)
     • [Emily](#emily-birthday)
-  - [Georgie](#georgie-birthday)
+  - _Lagos:_
+      [Georgie](#georgie-birthday)
     • [Julian](#julian-birthday)
     • [Charis](#charis-birthday)
     • [Eddie](#eddie-birthday)
-  - [Resa](#resa-birthday)
+  - _Us:_
+      [Resa](#resa-birthday)
     • [Kevin](#kevin-birthday)
-  - _misc ..._
+  - _Misc:_
       [Sandy](#sandy-birthday)
     • [Clayton & Dana](#clayton--dana-birthday)
     • [Lenard](#lenard-birthday)
@@ -131,21 +134,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Birthdays
 
-> [Gaige](#gaige-birthday)
+> Bridges:
+>   [Gaige](#gaige-birthday)
 > • [Emerson](#emerson-birthday)
 > • [Juni](#juni-birthday)
 > • [AJ](#aj-birthday)
 > • [Emily](#emily-birthday)
 > <br/>
-> [Georgie](#georgie-birthday)
+> Lagos:
+>   [Georgie](#georgie-birthday)
 > • [Julian](#julian-birthday)
 > • [Charis](#charis-birthday)
 > • [Eddie](#eddie-birthday)
 > <br/>
-> [Resa](#resa-birthday)
+> Us:
+>   [Resa](#resa-birthday)
 > • [Kevin](#kevin-birthday)
 > <br/>
-> misc ...
+> Misc:
 >   [Sandy](#sandy-birthday)
 > • [Clayton & Dana](#clayton--dana-birthday)
 > • [Lenard](#lenard-birthday)
