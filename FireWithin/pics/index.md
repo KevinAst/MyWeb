@@ -26,9 +26,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
-> <br/> **Pages:  18** ??   _... in this summary!_
-> <br/> **Albums: 588**     _... categorized below!!_
-> <br/> **Photos: 45,000+** _... WowZee!!!_
+> <br/> **Pages:  19**           _... in this summary!_
+> <br/> **Albums: 588**          _... categorized below!!_
+> <br/> **Photos: 45,000+**      _... WowZee!!!_
+> <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
 
@@ -476,6 +477,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2017: [Santa Hillmer](https://photos.google.com/share/AF1QipOt08AymGzYVUobN9o96luA3dQGtFu_Npsq3tBvP1UevjL2NnYorIXpFXEdR4Zntw?key=d1RNY3FsMGFla3p6M1VSbG96a2lvLXFGRkNIV2Fn) _(11 pics)_
 
 
+- 2016: [Christmas 2016](https://photos.google.com/share/AF1QipPG7RNSgCIX3kghlIL9x_vXyx4EZl04RLuYCSw4PjurKPuGOYSfog80-8K1o8AOrQ?key=bzU5UnJucEVXdW0tNXZzaFFnOFlHYnAzMUhLMVhn) _(26 pics)_
+
 
 
 ---
@@ -649,10 +652,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2017 08: [Edwardsville Criterium 2017](https://photos.google.com/share/AF1QipN2A2Fi2E5cElsXOA7B-iPP5rQ9eHPx6TFbQLfXExvQNmG9-EBpZyC16u8IKepZWw?key=aGlTaUdPWEtVSUtNaUpRTW5Ha0t3S0kzOEkxQ1BR) _(79 pics)_
 
 
-?? MORE (reorder):
-- YYYY MM: 
-
-
 
 ### Running
 
@@ -699,8 +698,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2023 08: [Emily & Me](https://photos.google.com/share/AF1QipMeJol0aRsth0oeaBOYHry81wK6nVrs-oqEksrrZthSN7qNtvZWM3C-3RXhjsUX7g?key=Q2xPYWZLTnZ3VEJ2SEloY3FlWEk0bWdOcFM2N3RR) _(12 pics)_
 - 2023 04: [Pickleball Mishap](https://photos.google.com/share/AF1QipNhAf9mZ3loht5LDNciNh90G1KEx_weQ8W5zx8Y2d33dVgm1UrTyZ46TldMoMcBEg?key=TE5ITlRKSEgyTVBYRXhSZndLeHJMX1ZWWklYVi1n) _(4 pics)_
 
-?? MORE (reorder):
-- YYYY MM:
 
 
 ### Water Park
@@ -763,7 +760,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Household
 
-?? NEW: consider sub-catetories: Home Improvement, Home Projects, Storm Damage, Yard Work
+?? consider sub-catetories: Home Improvement, Home Projects, Storm Damage, Yard Work
 
 - current: [AC Monitor](https://photos.google.com/album/AF1QipP3AH-x9ZM_3zkRyFpEb70PXg4TFXuHzRR_0-K3) _(6 pics)_
 - general: [Household](https://photos.google.com/album/AF1QipPm_xcyoB0ZERPdumLrcbcjrDTipHXbxSCOyE86) _(210 pics)_
@@ -820,8 +817,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2019 05: [Our water leak is in the Pella door itself](https://photos.google.com/share/AF1QipMbXHICf7XFJsvf5BwMTVsac9SMFXuD22pAlwVp3TzDEjB3XJPteYPQx49BFtKSYw?key=V0VYSUpRaFpJd2ZMWkRtazVTZUFGLUFGWFpJeHlR) _(5 pics)_
 
 
-?? MORE (reorder):
-- YYYY MM: 
+- 2013: [Reno (2013-2014)](https://photos.google.com/share/AF1QipOYy5L_UXHKMCtxEoYBNfLc05RAOAGti_MbQ-E0wnhKJk8d9NyRwQChGhdDX9kSUg?key=bFlwdWx3T3FxOXZkSFhwMGlSXzRzY1RMN2dfakt3) _(201 pics)_
+
 
 
 
@@ -831,10 +828,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Misc
 
-?? consider devising some categories: Food, Bees, Games
+?? consider sub-catetories: Food, Bees, Games -OOOORR- straight list
 
-?? -OR- straight list
-
+- [Quilts - Mary Alice Bridges](https://photos.google.com/share/AF1QipOPFKEeIsU1y9UHNKOogmJRbIdLeF3w4OOqwBGbe232sdQuboswPchsz38tzQBgQQ?key=bFRZMXBoLWlZRWNSNTFvYnczRzJfS19xVVlGaGpR) _(56 pics)_
+- [Machine Shop - Julius Bridges](https://photos.google.com/share/AF1QipOdxx6ljN8xUoViXR6z7ezd9hBZOa4_SgwqEqZENLDUwgnGOtu6J1a9AHQbeAfxXQ?key=WjE0czFzLVp2MFY2dVpaVUVCS2JXRXptcDdkSnlB) _(23 pics)_
+- [Grandpa B's Trailer](https://photos.google.com/share/AF1QipNheae6afxgFZll9H9X4opJ7_bWVSccqLK0fj_1gqfOmBmS0dgWECVRwG_6nDdbXQ?key=eWZPUUs5cUxqXy15bFBGckpqV3p4eWoxUWZRTElB) _(11 pics)_
 - [Resa Pics (ongoing)](https://photos.google.com/share/AF1QipMGqtHgUMKEF0UkV-onZrkA-sBZXeMIqCUsQpspU8RUW8xp1wZd2rZcI1P38rhqyA?key=NXdUVlVZalpjUzdQb2k0YkFZRjJ6MEcyU1R3LWh3) _(3722 pics)_
 - [Burnt Ends Pizza (Aldi's Style)](https://photos.google.com/share/AF1QipPrLpAnGkk78fD0a_7uFyZqsLqzXNZFzsYI7AhToOFj47aMVFq9Ro5Xpa2WaX4avQ?key=VlZENDBRSlBDZGlPRmZYQmVDeGx3RXpwS2pmOHZn) _(5 pics)_
 - [Melon Training Video](https://photos.google.com/share/AF1QipMy72jkuV0sOnrEBR0nKCCkYooRrbGLEIBGrkJWeJW1OrcILWoqLUDzngYaFi70UA?key=X21uQjJSNnlzWlc5cThHbEVncExsX3ZJY3Q5MVNB) _(2 pics)_
@@ -857,6 +855,8 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Georgie Grows Up So Fast](https://photos.google.com/share/AF1QipMRyKRjjBzpUGjNHGtU3UydbhhenUBB9rTocKgAPFYKvFOfnl7MOcn3uXpE17iERw?key=LUdWa0RYRXk1dUs5OHB3YjdaeVN0U3ByOU5LdExR) _(unknown) pics)_
 - [Deadly Plants](https://photos.google.com/share/AF1QipMXI8WBDaSAaGWnK6xyrDbUiZjMdz6wZg5UNJgsBD8p-dVuyI5Ys5fu_JQaH2eCfg?key=bm1Lak5fTGVLMXItRlFlYjRsaUpvdUllYmIzMkNn) _(2 pics)_
 - [Cool Clouds](https://photos.google.com/share/AF1QipMcrmF3Hxr9PT4etBis6LrFcl5Gam_D9R1cT5CaPjW2Y0PRN4Aoqoan6FrVnKdoVQ?key=MURubGFTN1gtaXZFTEdlaEVJZXB2djZyclpqMi13) _(7 pics)_
+- [Making Weeding Fun](https://photos.google.com/share/AF1QipNHwBlnkHjiE_RAna5B7_hvf9y0xYvfUSS2Np6Vax8-8h2aKQckoO5CdLgjr2q-5A?key=Um5GSUwwYzFyZlpVY3hjZE1nZFRucW5ESlIxeGVB) _(3 pics)_
+- [Lessons of a sharp blade!](https://photos.google.com/share/AF1QipP_V5TQtNUqEFNfifiiscqhXK9tlCArnewAUAEgL81hTRKF0yJoI6BHFn4mXVO4SA?key=R2xsTlRSX3ZXTTdrNVBZYkhsb1I0SGllM21ZMFV3) _(unknown) pics)_
 
 
 - 2023 12: [Dec 14-17](https://photos.google.com/share/AF1QipNeFPzHkLqVGu81AtvDVBJKef3WPSywzWAW1Cl40eJxQgxFjnA01AoXQvImfGYGDg) _(37 pics)_ **Emily Album**
@@ -1018,22 +1018,58 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2019 05: [Broken Oak Barn Sale (Rolla)](https://photos.google.com/share/AF1QipMnGDu8FF8-aou825S5Mg54fzR4pjumG6YdX8b5UT8Pji_L1tI_9roIohlspIlA1A?key=UUM3NjJtYmtQN2pLU0tOU3JTa2xleFRkQ0JYSlhn) _(15 pics)_
 - 2019 05: [Gaige/Em/bbEm at Airplane Park](https://photos.google.com/share/AF1QipNRVlqQeEJVIj1BV6CspBGHa2F5GK9bowU75KVNVok6twVrpNcQpyUBZWY3fjiYBQ?key=UVAyRTc3VWt6M09DM1FIb2x1TDluQVpDRG9aTk13) _(9 pics)_
 - 2019 05: [Cinco de Mayo](https://photos.google.com/share/AF1QipNrqsJij_o927gndWkMRnXFEhsdakUxg0rymKZ5NUAUGLpUcq7UlthGIG3tUfUn0A?key=dEttUUZUY2I0RGgxZVpSYVM1Tl9URW41UDdyN1pR) _(16 pics)_
+- 2019 04: [Georgie & Julian](https://photos.google.com/share/AF1QipPK64SdAmiOltkyrAy-LkN3ehT4MJfR4ODjzFQI6lBraDqJCKalf0sStGaYkP5xCA?key=aUhHeUpOWlN1STAwSWRSdnAyN3FFVWhLaVVmcnhn) _(916 pics)_
 - 2019 03: [Dayton Road Trip (to pick up AJ/Em's car)](https://photos.google.com/share/AF1QipP6Z9_FENd-fJIc3KpQ_HCdEIUG9_U4q-ox9SKNZ7rSKiu4PG8kd8H6nhO1-c18Qw?key=ZGg0ODJJaVRUTWdHYnFnNGs1Mm96cUQwaWNtc2xB) _(19 pics)_
-
-?? MORE (reorder):
-- YYYY MM:
-- YYYY MM:
-- YYYY MM:
-- YYYY MM:
-- YYYY MM:
-
-
-
+- 2019 03: [Geraldine's Funeral 3/20/2019](https://photos.google.com/share/AF1QipMcj1dh4dh8J7580CvKOaFVnViOXu6oORK29DpuFpf73pwhm2fyMrP6NmvNdYUVpA?key=T0xINktZR05BTWpCUl9LZURLMHBWX0d0R296YnlR) _(10 pics)_
+- 2019 03: [New Glasses Frame Selection Voting Now Open](https://photos.google.com/share/AF1QipPt5LDAk0eFhH7JeNUqDU66kL2Yr5b2qvzWURnMugsH2-gs-CK0BlU4m6FF2Vl9zw?key=di1hdjN3b1FsTFR0bjRBel8wNVJidmsyTWcxZElR) _(13 pics)_
+- 2019 02: [Breakfast with MiMi and Papaw](https://photos.google.com/share/AF1QipMNSPvAbervZO2ROX8-uw7XKtYVhgHxKGStOtO_e5-kDZ_fYIXmI3K8UBMAZfdEDA?key=bWlkVEl0N29mTmFWT05yQi0yamNldUwwV2dBVUJB) _(9 pics)_
+- 2019 02: [Georgie & Jules 2/2019](https://photos.google.com/share/AF1QipN16d0ybpciBZBVoluuJxfVsD470bDkom5MZQkCebcAj5xII8kXGcn-bnSkePdHqQ?key=R3JqY3l4YVZseG5ZV0VfRzN3aldvcFRVVDd1VFVn) _(96 pics)_
+- 2019 02: [Em+1 BB Shower](https://photos.google.com/share/AF1QipPKQOYJOP5YBdpKY-7rgFUSNatA7cptb_LbIVwUlBwrWri4ttuWP79SbvTlwLp6bQ?key=RFIxdnNZaWM3ODhReHp4MWVvMmNtTGZYSlhseDF3) _(100 pics)_
+- 2019 02: [Bouncing with Gaige/Em/Papaw 2/1/2019](https://photos.google.com/share/AF1QipO6lB2w-Y_AQOmlFgJ0n2QI0mck8AJ-FKHLyDIItYxTSgL0FQtnZRUEy4IeGlVmbA?key=bm1COXEwZE81azFZSkhmUUNOV2RQVklmb0wxQnFn) _(6 pics)_
+- 2019 01: [Lawson Scott meets the Bridges](https://photos.google.com/share/AF1QipPrDai8_TDmm7qrB-cTczFrSYcVYIHn_THS1HFxUa0wjjq0t4RLt6hSWpNKTkNbLg?key=VTFXTXlJT3JYanF0emtKNU5sNl82ZFVkaENQbTln) _(6 pics)_
+- 2019 01: [Em+1](https://photos.google.com/share/AF1QipPfAL_drIlbcoFUirrSlrp9mxP0CP-6aTH5Uepw6iC_mFmaVk0AIQHm9cFzxS4e-A?key=eTNzM2VxM2NlTnFSTjY4b3RKN3dma2g0UDBEY2h3) _(13 pics)_
 
 
+- 2018 12: [Gaige's Y Program](https://photos.google.com/share/AF1QipMS0YKuxn7uZNCcFKxn8QuywVB6BD_NeExXLa5IhJlWojbLKd2bCtSBMqvtrgapsA?key=N3pMS09UUXVrd3ZoczQ1dkNRajJmOTNOVTBLbHl3) _(11 pics)_
+- 2018 09: [Three Tier Plates](https://photos.google.com/share/AF1QipMS2ZzSd-JxKQZWIsMql3dJPvdKR0wzLsaACAnB6OCTJbtx_u5stjfkwS_SJi10xQ?key=cmFEVFdzMl8wdTgzZ19aOEpYeHhDOUVSUFJtZV9B) _(5 pics)_
+- 2018 09: [Gaige 9/2018](https://photos.google.com/share/AF1QipPNyQjM_JDBslKLGNJwiEoHK6MjgfLyoq-fWqOgRnEM-cBRdyMyIiZuuh8c0PbWpg?key=X0txaGhxMkNSNjVmMzNQbUZ1TUNPMEZXMzc0RjNR) _(8 pics)_
+- 2018 09: [The Hulk](https://photos.google.com/share/AF1QipO1fjyMaU1D55RakFGLbPbmOM5xRRaTy1iPy6NioxspPB7Axz2CShPD06RVw1DDKw?key=RkE0T3NTNVRhclU4ZWJybTI1V0x4U0hfcmRpYVl3) _(7 pics)_
+- 2018 09: [Mickey D's](https://photos.google.com/share/AF1QipOEESS5q0QFyFeVQQyGGHEk_noAvsVOIO_OdpjtjgyYvdQY14d7XgXd9dyH74AzfA?key=Y2l3RnZEQlJ6SlFyQy1WamRiTTBEVVRRWVpfblZn) _(16 pics)_
+- 2018 07: [Judy's Father's Funeral](https://photos.google.com/share/AF1QipObANlbQtDxL3F64Gyc7U7awatgT3QEBM_afe5HLgEstnxv6GIJvBzCnvyFZRQxGA?key=emdmZ29yU1NkN3FzN2NZR0txV3hhcW54a2VxbWJ3) _(4 pics)_
+- 2018 07: [Tea Set](https://photos.google.com/share/AF1QipNOKC3O0du0UI5NxUSAI3KYCus6Nq-Zdtfb6vhcEFwenma6B-F7yMRgT4TdtAct6Q?key=SUJkZEd0RHIxXzFTOFlUZ1RrYlF2MjZPLU9oZDhn) _(4 pics)_
+- 2018 06: [Pink Elephant Antique Mall](https://photos.google.com/share/AF1QipObN1wbnwIfSaeMAXpsAQRZEx__wDFriruEk3imUsZRrHkumCTUv5hYKu2YXo_NBg?key=YkEtdUh6cG5fZ0F4aHdGdjcycTU5bTNWSjdFTXdR) _(8 pics)_
+- 2018 06: [Egypt Before/After](https://photos.google.com/share/AF1QipOZpJQXbffu6djeyv9BVQ5VnVZAnB52Z4B7L0NHFj9P_t2-q-O4HSZ1UXU_HjavlA?key=R3FBUXVaZDIzNmV1RUdUYjZWZmdIRERUVjVBcENR) _(7 pics)_
+- 2018 05: [Bad Belt](https://photos.google.com/share/AF1QipOEsYv1HUdHsHx2H8uaF1UlRGzEYaPf9Z9uK3jE0lDesV6JQHfFZGy_dER1iDzVTg?key=RFl5RGZZWWVIYjFnQUF5UnAzMjFSWmVmdkpfYmFn) _(3 pics)_
+- 2018 05: [Robinson Clean Out - Round I](https://photos.google.com/share/AF1QipOd9VVoXT4RAI3k_KlS-_hKyvQhHNdk2_mrQddhJ_v7CzRIjDNEmACxCp2T46s8xQ?key=eERzTFlVaUpRcUZ0b0F2cWI4TktMRVViSXkyRVZn) _(22 pics)_
+- 2018 04: [Breaking in the new Fire-Pit Table](https://photos.google.com/share/AF1QipMipwAZP5X5qKYhD4X_h_W3uNDMnqm3K89XhJqumKCgq5trPvwwgy_QxKlRnDj9Pw?key=YTJEZWtNOVdZQzQ5NnJZcDdOaWdtNEZ1cmdaUUN3) _(5 pics)_
+- 2018 04: [More Fun with MiMi and Papaw](https://photos.google.com/share/AF1QipMNoQVIQkoSZVpNcytnHOLa5vv1vPjuT2vFeDAcH3jtbKq-pc1ZX1whik7SssPNcA?key=N1Z2MTZMdHZGajAwZlNqX21ob1lhU05IQ1JHWTVB) _(14 pics)_
+- 2018 04: [Cathy, Linda, Resa](https://photos.google.com/share/AF1QipPBxO8HmdtVf8CV2JYkhtKt3pIvaGNUIY9yxAWbj2DT7XAYUhBul7vYNiscDcPUfQ?key=cWJRV3JqMGpNT1JqWEFMQ3BUOWItdV9qZU12djRB) _(3 pics)_
+- 2018 04: [Evening at AJ/Em's](https://photos.google.com/share/AF1QipNkNFuIsEssIa314yRW9TZ3U-ldlWk38D96EYsWJseSvO_r8gU3dfjwtDmOo_ZxwA?key=WkR1SnMtMTFhalh6WUlYbFpLejFyRHFmTE9KNUpB) _(19 pics)_
+- 2018 04: [Fun with MiMi and Papaw](https://photos.google.com/share/AF1QipOMsu2TtSy-NWFRJVwllx4VvxLzj_VqFS0Cey9yAkInr7IV2AfOF4Nk7xlEDUfF3A?key=dUhrRjJRM0NMbWl6R2J4bFJuY2h4bEJsZGFzejBB) _(12 pics)_
+- 2018 04: [They Grow Up So Fast (Gaige)](https://photos.google.com/share/AF1QipPPh_qtek_gYX9Gh_5ncsfEY_T2BIWf9TOyDA0PbyBVodKegOA-5wOqFzgm95dEzQ?key=cjhWa01uVHFHaUFlb0piWDJzWFJMb2IzMHRIX3N3) _(unknown) pics)_
+- 2018 04: [Papaw](https://photos.google.com/share/AF1QipPomSz-e9s7ji8Fv9IFeO64cQXxlIufKlRxheAWn4ZLNv9yUVe70tgK-HHrgvye8A?key=R1lLVlVXYzFNUkU5ZWxEOVVvVVp2QmZ6ZXBFZDd3) _(unknown) pics)_
+- 2018 03: [Returning Em's Car (skiing departure from our house)](https://photos.google.com/share/AF1QipOuvgaYy9cOcz-PqYxnhzavGF21ynhwnLtfepMf71Rp_4j1g4bT7ssWP6aOxFeUuA?key=eENnaVFFOGZLa2c5ODM2QWRleXdNU1U4M3J6d2N3) _(3 pics)_
 
 
+- 2017 12: [Resa says I have to throw away my jeans :-(](https://photos.google.com/share/AF1QipN1LUZFh6PdoZwVaRZMhDNUrsSGmUE_Ozs-kUlu95yWNQgMgzvR3ArZvqwX06wHqg?key=ZGVjMllPeUhfWmRUSkpXWEV3RktXdDMtWWtDcnh3) _(4 pics)_
+- 2017 11: [Em's Reno Progress](https://photos.google.com/share/AF1QipMcYhA9o7Gj-81ssbcTG5kZq1HTmHgKEkx7IF7xu7PZ0HEykjsBXl-vQPWD_SyR9g?key=NzhsVDZPTXhnaDRNUjJsaWE2WXpMZVQzWDJnUF9n) _(9 pics)_
+- 2017 10: [Hangin with Papaw (10/18/2017)](https://photos.google.com/share/AF1QipNOg5XYQOtTp4J09ZRt--wASVASKrZFyCLTg-LyFSPjE-A5qSQbJEkmw5QGF-MnVA?key=RWVmS2VkQTZuU1c0ajFMVVlxWTNRUzRnUF84V1ZB) _(11 pics)_
+- 2017 09: [Gaige Sep 28-30](https://photos.google.com/share/AF1QipNjxVGrVNBUIaX90zwj1GRYh1QDc7WFoGsy0mHS06kY8ct3rUSV9nkfcPXIEdPcYg?key=M0podzNSanpPWXMzbnlWTkhCYXZIWTJSZnZ5cmtn) _(35 pics)_
+- 2017 09: [They Grow Up So Fast](https://photos.google.com/share/AF1QipPos5xzz6f2PU6NuxDWokLM1LJc9i8HEkHC7js6qKEl484VGc9tt1R45XM3IIH8Vw?key=NjBmVEJvZ3ZkSlZBQ0RIeGpwSzctS2hONFFDUnJR) _(unknown) pics)_
+- 2017 09: [Sunrise](https://photos.google.com/share/AF1QipM2FVFJVAg0piWhJyZEoxfxlNnkV4x9fqbRIZPu4qSkBs22rYIcea4r-XZB1Lnarg?key=WW41ZVNlOHJ0Mi1mVGNrSDUxenFHTHpjUVNQc1N3) _(5 pics)_
+- 2017 09: [A typical Friday with MiMi and Papaw](https://photos.google.com/share/AF1QipM70Xlix-Qm-dqlVBk-7t7d8Mq62JprYaDtMZvKLSGVAWJmrjRNRaZJoiX3FukknQ?key=Qm1ZVS02M0hjenBYLWtSdWx1dkEwX05FT3JhNl9B) _(37 pics)_
+- 2017 09: [Gaige LOVES Nellie (and the feeling is mutual)!](https://photos.google.com/share/AF1QipOuGsNjf-NJnWDK_vyoLpizVAjRSPSd9r8ukbTYzp80qIFEn9pM-aimk98uuW3jJg?key=V1BWX3VNZ0V1NjhtZGlnR2VRVi11R0lxNmdmX2N3) _(2 pics)_
+- 2017 08: [Gaige goes to the Science Center](https://photos.google.com/share/AF1QipPsgL_yCz4cdMxacVMf1pKhMKjjg3kqMZT_FBWvGCAD1-tdj-kun7bia6y5HySKEw?key=UVQ3bmRKakNZb0stbmlTMjZ0Wm9qRnc3eEpvTmxB) _(33 pics)_
+- 2017 08: [Gaige's First Cardinal Game](https://photos.google.com/share/AF1QipNU31loH7YwY8ylG_GDDwSwBDeHKHH7hdtAZJCGCtbKAErUWWUFSdvGAfusQxq0NQ?key=TU5GVnlMd2k5YWM1ckVOMVBVTjhuWEJyZWlmV09R) _(21 pics)_
+- 2017 08: [Scott's Shirt](https://photos.google.com/share/AF1QipOlLcuKJJKdbOu2NWB_Tdddk9BZplhp5WgfJDdzsSJI8hocDln0FiCqq682HWBq9w?key=UmllamNMSHJKVjczcUs4T1llNm1qdmJ1bEZTTEx3) _(19 pics)_
+- 2017 08: [Hangin with Papaw](https://photos.google.com/share/AF1QipNFvnQj_1_tt0ACJkklAApShYFhhoyw4tKN_MdixIxoH_-C3T306T9lipFnGS4QqQ?key=LThaOEYxenZKaE13clJ1aWFkZFRNZWJIUTQ0c253) _(14 pics)_
+- 2017 08: [Hangin with Em](https://photos.google.com/share/AF1QipOCPLGnQLcvVyAEIg0tOCSElZcZWSr2nx7E5KBwmFPHpA1j9RECLfasEyAVNqveRQ?key=cHAyNHdYZ3BQNFRLal9OTS1QMTdVZFBiLWZ3N25B) _(9 pics)_
+- 2017 05: [Eddie and Me (Off Road)](https://photos.google.com/share/AF1QipMC8QFOQ4rfQ4ylBeoW9UDI74RIr5j75I7vDrg_Qqu6Bef4KPtIx6VCY-XdK8lvvA?key=a2xaYXFaM0gwZDB6RXlkdE9NLXNNZDloZWc3N1pR) _(73 pics)_
+- 2017 04: [Tech](https://photos.google.com/album/AF1QipNC0sdp-UoX-a--3fln_HolcdelMmJdcfh8yO49) _(21 pics)_
+- 2017 04: [Favorites](https://photos.google.com/album/AF1QipMzQn1ZGpujxeEy8LnIDodB61ukaufNZb61ri6Z) _(82 pics)_
 
+
+- 2016 04: [Various Pics - April 2016](https://photos.google.com/share/AF1QipOy4u7oi9RpZap1BSLv5kCyG8ezyzPgcIeZBTRB-VQP2yD-xPuaizncVf9RjBgvqQ?key=R083SnNEeHBKMURZaUVqUjZiWWFaYUJBOFhmWlp3) _(111 pics)_
 
 
 
@@ -1047,6 +1083,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## TRASH
 
+?? smash all these albums/pics
+
+- [FBM FY2025 Proposed Budget 8/1/2024 - 7/31/2025](https://photos.google.com/share/AF1QipNQFsK7UepfGfeNL0Q7YytByDbAyPwzj_7j63W33iZaVma-Lk8He4-PFBnOBx-5cA?key=U3hsMjBBempyZ2RPOUI3YzVTWEFFalVfd1lsV1RR) _(13 pics)_
 - [soccer tickets](https://photos.google.com/share/AF1QipNYdcV8NUfPNXGHO6-teBiah5E6SFNGZ2Qtn8a_lj66_Hnpn3mwvjF8l9whvGSKWg) _(6 pics)_
 - [For Sale (or give away)](https://photos.google.com/share/AF1QipO1l10YAfYKEdWxVypHqrCKGY2yogQt34jRomqiIP8t69QC5bNRtORJVxOlYd5vAA?key=WWpieWxrdTNfUGtjWG8tZHp3Z0J3NHVwSjZnSFVn) _(14 pics)_
 - [My 2024 SEARCH for Monitors / Laptops](https://photos.google.com/album/AF1QipPwL6Hd3qNHn9U-ltBz1KpZxplUqERAVuo0q7wg) _(13 pics)_
@@ -1054,4 +1093,4 @@ document.addEventListener("DOMContentLoaded", function() {
 - [bulldog liquidators](https://photos.google.com/share/AF1QipMyRkdKNqEwxR_o-kk3qMW8KaMZTiKo5UdVIjcYldTgHrb91V1pbXat8NhT-3cSag?key=T282V3F4Qk1xNzRyaGR5WnExUUdXWUNxR2tVZ0Jn) _(9 pics)_
 - [VBS 2023 INTERNAL (instructions, students, etc.)](https://photos.google.com/share/AF1QipNDBUAJ84qfzqv_rOaAjhdbBjbA5wq9kpAqQYNr4rBZlkpDC0uZqfV3hVufC1qbyA?key=c3c5V0JINEptMkNOb256Yy1FU2E2SGwwYl9hMXVB) _(36 pics)_
 - [Politics](https://photos.google.com/album/AF1QipNSi504WhrivjSFbD8MqIwQ41A9_lMHmUNhH8cc) _(unknown) pics)_
-
+- [Test PhotoSync](https://photos.google.com/album/AF1QipNLriId1ktrPnknEILMF1eUfj-JUa05I6GeVPvm) _(unknown) pics)_
