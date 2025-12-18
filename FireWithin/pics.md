@@ -98,6 +98,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 - [Household](#household)
+  - [General](#general-household)
+    • [Home Improvement](#home-improvement--projects)
+    • [Storm Damage](#storm-damage)
+    • [Yard/Landscape](#yardlandscape)
+    • [Auto](#auto)
+    • [Misc](#misc-household)
 
 
 - [Misc](#misc)
@@ -763,45 +769,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Household
 
-?? consider sub-catetories: Home Improvement, Home Projects, Storm Damage, Yard Work
+> [General](#general-household)
+> • [Home Improvement](#home-improvement--projects)
+> • [Storm Damage](#storm-damage)
+> • [Yard/Landscape](#yardlandscape)
+> • [Auto](#auto)
+> • [Misc](#misc-household)
 
-- current: [AC Monitor](https://photos.google.com/album/AF1QipP3AH-x9ZM_3zkRyFpEb70PXg4TFXuHzRR_0-K3) _(6 pics)_
+
+### General Household
+
 - general: [Household](https://photos.google.com/album/AF1QipPm_xcyoB0ZERPdumLrcbcjrDTipHXbxSCOyE86) _(210 pics)_
+- current: [AC Monitor](https://photos.google.com/album/AF1QipP3AH-x9ZM_3zkRyFpEb70PXg4TFXuHzRR_0-K3) _(6 pics)_
+- 2024 06: [AC Monitor](https://photos.google.com/album/AF1QipOkrXD8Tq2MfRWFbDrHgXR17QgeMrRPcBAf5m_K) _(6 pics)_
 
+### Home Improvement & Projects
 
 - 2025 05: [Deck Furnishings Clean Up](https://photos.google.com/share/AF1QipOriTEX3vEI5yuG_caTu0VVtLPtM3AQN0FhK9WHr3UIp7NrG19aFYVyrcwuKzRbag?key=S3V4OUIzV2JoenFxTmQ1VUdEXzd2aWREdFJ5ZlVn) _(8 pics)_
 
 
-- 2025 06: [Mower](https://photos.google.com/share/AF1QipPiwZ8ssAWZWESsFpnpgFxNaLp7tqAbYPegWDBEPuCpF4wy-Ml5xMjbC7xgyMN2Pw?key=RlZEcmY4SHFwb0hBRkNSazdobTdXMk1rQUcxREV3) _(20 pics)_
-- 2025 05: [Clear Storm Damage from 5/16/2025](https://photos.google.com/share/AF1QipN4YU5MutRXpU8gxaT1XYGlI56xwg2uKytFrJ917bHoEux-CJl7rtOykACpZRU0Qw?key=V1kyYlBvRV83WEwyeHUwdVVtYVRFMW5MSG41ak9R) _(11 pics)_
-- 2025 05: [Japanese Maple Trim](https://photos.google.com/share/AF1QipMfLLLe_Nx4O-RmYfjbWwbxaLbCuGiD7XKXXWSieaEAaaWXa51L2PwCGtDs7PIwWg?key=aDNFY0pSZWtzejFUcThEWU5ldnBFQkoyV0s3Nk5R) _(3 pics)_
-- 2025 03: [Small Section of Siding Popped Out](https://photos.google.com/share/AF1QipNvHPmfvJbNe55ppFKdwh3bgEdci2UIuuSydK4hrEDlkbH1ZdvO1uZx7k3peAyFxA?key=cjlsaGhPQzZneDVYbWlHR25FYjNGUDNyYjU1b0hn) _(15 pics)_
-- 2025 03: [Siding Repair](https://photos.google.com/share/AF1QipN7WeX5aBKdBuaeK16gr2KaPobHO3gmifFMQUStkRhLyyGTJCTCV5fBJijPyLSsAQ?key=aF9oelBIRnphQ0xaRGQtQ2JQS2F2Ml85Sjg4cjB3) _(6 pics)_
-
-
-- 2024 11: [Trim Rhododendron Bush](https://photos.google.com/share/AF1QipMYJ8kC31unVxmyxpF61npGz4Gu8qF372CAiONn1ctI-4Ye8MJgAFkJZyGyqG_Q3Q?key=SGtuay1pck5hZGpwZDZBVUctbER6bW5Tb0k1akh3) _(7 pics)_
-- 2024 09: [Garage Door Synopsis (9/2024)](https://photos.google.com/share/AF1QipNMO6cgEtv2EmBZZG6-pdySMbJS8lQCJudDV2u_jsgmCoWEKJgd7D1JkD7TB1eWUA?key=SjRtNGdtZ25BdnluMEE4bWFld2kyZ005UExVc2dB) _(11 pics)_
-- 2024 09: [Garage Door Project (9/2024)](https://photos.google.com/share/AF1QipP1YN5E6cITFKSYNZlSChB3VcuXwVL76SEJbyyGdJFDndoEPYr8PRfCDrtK5QFUCg?key=LWw1b2VKUlA4Y2FJQUxsbWF0VklIMVR0YUo4UnJn) _(23 pics)_
-- 2024 09: [Betty's Roof 9/4/2024](https://photos.google.com/share/AF1QipO79v_sH1-jpMkqIUOTZUTl0fMViAKK5llYzZJJPMcmynYrtXKZiGtoQ5Mvo8zNTA?key=SFU2SFhTRVhOd3ZYUE9raXZyQThlWnlsWktJRTRn) _(8 pics)_
-- 2024 09: [Toro Titan Zero Turn ZX4800](https://photos.google.com/album/AF1QipOa5oN4sSmhwcZJfq17_fZIpVul2Dnq-MIatBoN) _(2 pics)_
-- 2024 07: [Rain and Storm Sewer Drainage (to be fixed)](https://photos.google.com/share/AF1QipMC93tq43MKJDAW1alOuR9K_AetXYIEK_y1F1_L5jBFq2EcMPXRCkJaENWInMRlQw?key=MTRrZmUxNUcxM3p2ci11MWFZZFkyNmdjemFVdGlB) _(21 pics)_
-- 2024 07: [Storm Sewer Re-Route](https://photos.google.com/share/AF1QipP3NczX52u1oNzvIEN0Z6fYTa93M-YvfKhY8cpD6LD3YhHRcDSa0nT0I_v0JPT9vA?key=NFRqVXZRUEV1QkVGbHdhMEJZSnJVUDNvSlBFcG53) _(15 pics)_
-- 2024 07: [Bay Window Siding Issue](https://photos.google.com/share/AF1QipO8KAiyG-eb2bCsa4W-lqbKwGN1J4_Eg6pANoSqif9v11vR_64AeZ3jYiyDnfE33w?key=ZDVoU3h5bUV5MXB6SURfUlR2MUZUVmRXU3VKZWl3) _(3 pics)_
-- 2024 07: [Cricket Working](https://photos.google.com/share/AF1QipMXqKgErhqyufAzBSJwjxTX5veJ2ONVzhY8KrdohooURxPbDEFSYmNCQJrVrAiahg?key=ZF9qZllTNDBNZklzQUVNUXllNHhiZjZnY3owNjF3) _(3 pics)_
-- 2024 06: [Roof & Siding Synopsis (6/2024)](https://photos.google.com/share/AF1QipP29xsgppkCxH-C2OfWytjGI7cDJD4dpfIKR6iVpq7ZFD9hirxGQNjixGFulN78rw?key=S2ZYRTVIWFdQWl9NYlRlN0R3X05ELVY2Wm03Zlpn) _(33 pics)_
-- 2024 06: [Roof / Siding Project (6/2024)](https://photos.google.com/share/AF1QipPvVXp8uIu5UOdr0fFhKGdywFyzRTistGjPIXxKsazzlaN6fMAgfKBv9PzNCQ7r-w?key=c2pPVmRGeFVmbEF2QTFtcVdvdlo0X1BSSC0wd3h3) _(188 pics)_
-- 2024 06: [More Siding Pics (For Insurance)](https://photos.google.com/share/AF1QipMBKsn2dgJyyjPgTLaffMFBuIsdlFiOUaYa7jXoO5yw1QGNEG-pfX5vVX8roUHzqQ?key=NkhkclE2WWJzUmNzR29rOG5PQTZxX000NmQ2RmVR) _(9 pics)_
-- 2024 06: [AC Monitor](https://photos.google.com/album/AF1QipOkrXD8Tq2MfRWFbDrHgXR17QgeMrRPcBAf5m_K) _(6 pics)_
-- 2024 03: [Hail Damage (3/14/2024)](https://photos.google.com/share/AF1QipNdK6n7Xr4NI4gvHtuYsp--K322jP_QUE4NxZKsQiwxv4uCNlBxvm5kypt4kpNs_w?key=QlhwOUZUZzFVek1faFlHM3dCc29JemR6VkUtRF9B) _(15 pics)_
-- 2024 03: [Toro Zero Turn](https://photos.google.com/album/AF1QipOrr1ZGNXEN719GURUGtTqo38mug1UkjsPvR9Jy) _(4 pics)_
+- 2021 03: [Deck Repair 3/6/2021](https://photos.google.com/share/AF1QipNacbR4_aYBnV6SYSatnzGQWVVKZdMtIZVzRj3uWUiCJOTZwO2hw04Yr2pFnKrsGQ?key=NFpNZDFhbHhxUVVmVy1MaElwUTNqaDBZOWhFZmpn) _(21 pics)_
 
 
 - 2023 12: [TV Under Counter](https://photos.google.com/share/AF1QipMfD2ZW8GFergMBi8fQf6whxZrTM0wWWyvFRfJ5lKBC5_-iwMz17osadoeL-tkjwg?key=VmRzaUdOZWFQeG5VWnBqNFJXdzQxYkRua2ZLSUZ3) _(3 pics)_
 - 2023 09: [Deck Repair 9/2023](https://photos.google.com/share/AF1QipPBAG2cLUFqJqti_sjSm8Fap24F_FutuTQ6-SYbQoE7n1hnIES2shtbFc8AQv7eLw?key=a3AwZ0k5UmVsX292a05ZdVlSU3dCd2VuYV85ampn) _(14 pics)_
-- 2023 08: [Drainage issues](https://photos.google.com/share/AF1QipMDHkyaMK5aBHWk57IfqMRPlhsG4qdV7mwXzP3ld2D2etE3cjOWtwUSEgEWED1ttQ) _(3 pics)_
-- 2023 06: [Storm Damage 6/30/2023](https://photos.google.com/share/AF1QipPPPGBAgiWNJ63GpGfMuBzySTfmGU25OZSx_jdc2dC3BRZlVl9aItoeX-ukf4F5Bw?key=amtsY1JpVXJBeW9abVpEQTJmY3BDSHNGYWdZY3hn) _(127 pics)_
-- 2023 05: [Extreme Bush Trim Before/After Collage](https://photos.google.com/share/AF1QipOUWjZOxJxBCsUO02KLKmA4r3nGgMry49JcFu3FqmlpqbYrO7SGCFlSDp97awRo2w?key=Y0xaa2VSYVUxWUUxVkJ3WjE5TUJCWHlhMVZLMXp3) _(9 pics)_
-- 2023 05: [Extreme Bush Trim](https://photos.google.com/share/AF1QipPSCiN65l2LIObzNxOLKdrubIADL07J8RpvnW2FfjwIupVnnlXYerDqdHmL709O-g?key=MnVfelFLckM0dExPeTA1Z3dWbHVuZFFKVnM1Y3VB) _(28 pics)_
 
 
 - 2022 11: [Siding Wash - 11/10/2022](https://photos.google.com/album/AF1QipOd4HYAd2RZURbMtuc2GTAifr_OCS8yQqJ2uqBz) _(3 pics)_
@@ -809,19 +800,69 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2021 08: [Final Basement Video Tour](https://photos.google.com/share/AF1QipOEon6UQP_FS8DBPD0yKq4q6inlmRN7v6KelHELQG9RYdO1nvihIffgJ2Qt_xA7ww?key=d0ZoRk4wUklCbUZ5WWg5TmhpcUNSVXh4TXljT3B3) _(12 pics)_
 - 2021 07: [New Basement Play Area WITH High-Speed WIFI Router](https://photos.google.com/share/AF1QipOWuw2bVZUgn8tXYqHVYfg0hRj5VXOx8bmw6nBSi57atmIglZf890rK6YAxD_gofw?key=TGs0M1dfdndBX2xYUldtUURUUFB6ZGNnM2ZZZnhR) _(103 pics)_
-- 2021 04: [Subdivision Road Resurfacing (4/2021)](https://photos.google.com/album/AF1QipOBj0_GuxDL1gXVq54YihEFjkvKLzIVFc-30a--) _(18 pics)_
-- 2021 03: [Deck Repair 3/6/2021](https://photos.google.com/share/AF1QipNacbR4_aYBnV6SYSatnzGQWVVKZdMtIZVzRj3uWUiCJOTZwO2hw04Yr2pFnKrsGQ?key=NFpNZDFhbHhxUVVmVy1MaElwUTNqaDBZOWhFZmpn) _(21 pics)_
+
+
+- 2019 05: [Our water leak is in the Pella door itself](https://photos.google.com/share/AF1QipMbXHICf7XFJsvf5BwMTVsac9SMFXuD22pAlwVp3TzDEjB3XJPteYPQx49BFtKSYw?key=V0VYSUpRaFpJd2ZMWkRtazVTZUFGLUFGWFpJeHlR) _(5 pics)_
+
+
+- 2013 mm: [Reno (2013-2014)](https://photos.google.com/share/AF1QipOYy5L_UXHKMCtxEoYBNfLc05RAOAGti_MbQ-E0wnhKJk8d9NyRwQChGhdDX9kSUg?key=bFlwdWx3T3FxOXZkSFhwMGlSXzRzY1RMN2dfakt3) _(201 pics)_
+
+
+### Storm Damage
+
+- 2025 05: [Clear Storm Damage from 5/16/2025](https://photos.google.com/share/AF1QipN4YU5MutRXpU8gxaT1XYGlI56xwg2uKytFrJ917bHoEux-CJl7rtOykACpZRU0Qw?key=V1kyYlBvRV83WEwyeHUwdVVtYVRFMW5MSG41ak9R) _(11 pics)_
+- 2025 03: [Small Section of Siding Popped Out](https://photos.google.com/share/AF1QipNvHPmfvJbNe55ppFKdwh3bgEdci2UIuuSydK4hrEDlkbH1ZdvO1uZx7k3peAyFxA?key=cjlsaGhPQzZneDVYbWlHR25FYjNGUDNyYjU1b0hn) _(15 pics)_
+- 2025 03: [Siding Repair](https://photos.google.com/share/AF1QipN7WeX5aBKdBuaeK16gr2KaPobHO3gmifFMQUStkRhLyyGTJCTCV5fBJijPyLSsAQ?key=aF9oelBIRnphQ0xaRGQtQ2JQS2F2Ml85Sjg4cjB3) _(6 pics)_
+
+
+- 2024 09: [Garage Door Synopsis (9/2024)](https://photos.google.com/share/AF1QipNMO6cgEtv2EmBZZG6-pdySMbJS8lQCJudDV2u_jsgmCoWEKJgd7D1JkD7TB1eWUA?key=SjRtNGdtZ25BdnluMEE4bWFld2kyZ005UExVc2dB) _(11 pics)_
+- 2024 09: [Garage Door Project (9/2024)](https://photos.google.com/share/AF1QipP1YN5E6cITFKSYNZlSChB3VcuXwVL76SEJbyyGdJFDndoEPYr8PRfCDrtK5QFUCg?key=LWw1b2VKUlA4Y2FJQUxsbWF0VklIMVR0YUo4UnJn) _(23 pics)_
+- 2024 07: [Rain and Storm Sewer Drainage (to be fixed)](https://photos.google.com/share/AF1QipMC93tq43MKJDAW1alOuR9K_AetXYIEK_y1F1_L5jBFq2EcMPXRCkJaENWInMRlQw?key=MTRrZmUxNUcxM3p2ci11MWFZZFkyNmdjemFVdGlB) _(21 pics)_
+- 2024 07: [Storm Sewer Re-Route](https://photos.google.com/share/AF1QipP3NczX52u1oNzvIEN0Z6fYTa93M-YvfKhY8cpD6LD3YhHRcDSa0nT0I_v0JPT9vA?key=NFRqVXZRUEV1QkVGbHdhMEJZSnJVUDNvSlBFcG53) _(15 pics)_
+- 2024 07: [Bay Window Siding Issue](https://photos.google.com/share/AF1QipO8KAiyG-eb2bCsa4W-lqbKwGN1J4_Eg6pANoSqif9v11vR_64AeZ3jYiyDnfE33w?key=ZDVoU3h5bUV5MXB6SURfUlR2MUZUVmRXU3VKZWl3) _(3 pics)_
+- 2024 07: [Cricket Working](https://photos.google.com/share/AF1QipMXqKgErhqyufAzBSJwjxTX5veJ2ONVzhY8KrdohooURxPbDEFSYmNCQJrVrAiahg?key=ZF9qZllTNDBNZklzQUVNUXllNHhiZjZnY3owNjF3) _(3 pics)_
+- 2024 06: [Roof & Siding Synopsis (6/2024)](https://photos.google.com/share/AF1QipP29xsgppkCxH-C2OfWytjGI7cDJD4dpfIKR6iVpq7ZFD9hirxGQNjixGFulN78rw?key=S2ZYRTVIWFdQWl9NYlRlN0R3X05ELVY2Wm03Zlpn) _(33 pics)_
+- 2024 06: [Roof / Siding Project (6/2024)](https://photos.google.com/share/AF1QipPvVXp8uIu5UOdr0fFhKGdywFyzRTistGjPIXxKsazzlaN6fMAgfKBv9PzNCQ7r-w?key=c2pPVmRGeFVmbEF2QTFtcVdvdlo0X1BSSC0wd3h3) _(188 pics)_
+- 2024 06: [More Siding Pics (For Insurance)](https://photos.google.com/share/AF1QipMBKsn2dgJyyjPgTLaffMFBuIsdlFiOUaYa7jXoO5yw1QGNEG-pfX5vVX8roUHzqQ?key=NkhkclE2WWJzUmNzR29rOG5PQTZxX000NmQ2RmVR) _(9 pics)_
+- 2024 03: [Hail Damage (3/14/2024)](https://photos.google.com/share/AF1QipNdK6n7Xr4NI4gvHtuYsp--K322jP_QUE4NxZKsQiwxv4uCNlBxvm5kypt4kpNs_w?key=QlhwOUZUZzFVek1faFlHM3dCc29JemR6VkUtRF9B) _(15 pics)_
+
+
+- 2023 08: [Drainage issues](https://photos.google.com/share/AF1QipMDHkyaMK5aBHWk57IfqMRPlhsG4qdV7mwXzP3ld2D2etE3cjOWtwUSEgEWED1ttQ) _(3 pics)_
+- 2023 06: [Storm Damage 6/30/2023](https://photos.google.com/share/AF1QipPPPGBAgiWNJ63GpGfMuBzySTfmGU25OZSx_jdc2dC3BRZlVl9aItoeX-ukf4F5Bw?key=amtsY1JpVXJBeW9abVpEQTJmY3BDSHNGYWdZY3hn) _(127 pics)_
+
+
+### Yard/Landscape
+
+- 2025 06: [Mower](https://photos.google.com/share/AF1QipPiwZ8ssAWZWESsFpnpgFxNaLp7tqAbYPegWDBEPuCpF4wy-Ml5xMjbC7xgyMN2Pw?key=RlZEcmY4SHFwb0hBRkNSazdobTdXMk1rQUcxREV3) _(20 pics)_
+- 2025 05: [Japanese Maple Trim](https://photos.google.com/share/AF1QipMfLLLe_Nx4O-RmYfjbWwbxaLbCuGiD7XKXXWSieaEAaaWXa51L2PwCGtDs7PIwWg?key=aDNFY0pSZWtzejFUcThEWU5ldnBFQkoyV0s3Nk5R) _(3 pics)_
+
+
+- 2024 11: [Trim Rhododendron Bush](https://photos.google.com/share/AF1QipMYJ8kC31unVxmyxpF61npGz4Gu8qF372CAiONn1ctI-4Ye8MJgAFkJZyGyqG_Q3Q?key=SGtuay1pck5hZGpwZDZBVUctbER6bW5Tb0k1akh3) _(7 pics)_
+- 2024 09: [Toro Titan Zero Turn ZX4800](https://photos.google.com/album/AF1QipOa5oN4sSmhwcZJfq17_fZIpVul2Dnq-MIatBoN) _(2 pics)_
+- 2024 03: [Toro Zero Turn](https://photos.google.com/album/AF1QipOrr1ZGNXEN719GURUGtTqo38mug1UkjsPvR9Jy) _(4 pics)_
+
+
+- 2023 05: [Extreme Bush Trim Before/After Collage](https://photos.google.com/share/AF1QipOUWjZOxJxBCsUO02KLKmA4r3nGgMry49JcFu3FqmlpqbYrO7SGCFlSDp97awRo2w?key=Y0xaa2VSYVUxWUUxVkJ3WjE5TUJCWHlhMVZLMXp3) _(9 pics)_
+- 2023 05: [Extreme Bush Trim](https://photos.google.com/share/AF1QipPSCiN65l2LIObzNxOLKdrubIADL07J8RpvnW2FfjwIupVnnlXYerDqdHmL709O-g?key=MnVfelFLckM0dExPeTA1Z3dWbHVuZFFKVnM1Y3VB) _(28 pics)_
 
 
 - 2020 09: [Rock Sifter Test & Tree Climb](https://photos.google.com/share/AF1QipN7w_q6_0qbTPxyWGnOCW3ccFEik-HduOINRDOZw1RM3U1_7VGHdQS_jM2OWQZz5Q?key=WFBYbGpWV19hZVR2T256Y18xcVg5OWxERHVITENB) _(19 pics)_
 
 
+- 2018 05:[Lessons of a sharp blade!](https://photos.google.com/share/AF1QipP_V5TQtNUqEFNfifiiscqhXK9tlCArnewAUAEgL81hTRKF0yJoI6BHFn4mXVO4SA?key=R2xsTlRSX3ZXTTdrNVBZYkhsb1I0SGllM21ZMFV3) _1 pics)_
+
+
+### Auto
+
 - 2019 09: [2016 Honda Pilot AC Venting Issue](https://photos.google.com/album/AF1QipNyOhHhX_X1Jh9CPnZ4Ooo-jkonYlMFgVOcRTN6) _(2 pics)_
-- 2019 05: [Our water leak is in the Pella door itself](https://photos.google.com/share/AF1QipMbXHICf7XFJsvf5BwMTVsac9SMFXuD22pAlwVp3TzDEjB3XJPteYPQx49BFtKSYw?key=V0VYSUpRaFpJd2ZMWkRtazVTZUFGLUFGWFpJeHlR) _(5 pics)_
 
 
-- 2013: [Reno (2013-2014)](https://photos.google.com/share/AF1QipOYy5L_UXHKMCtxEoYBNfLc05RAOAGti_MbQ-E0wnhKJk8d9NyRwQChGhdDX9kSUg?key=bFlwdWx3T3FxOXZkSFhwMGlSXzRzY1RMN2dfakt3) _(201 pics)_
+### Misc Household
 
+- 2024 09: [Betty's Roof 9/4/2024](https://photos.google.com/share/AF1QipO79v_sH1-jpMkqIUOTZUTl0fMViAKK5llYzZJJPMcmynYrtXKZiGtoQ5Mvo8zNTA?key=SFU2SFhTRVhOd3ZYUE9raXZyQThlWnlsWktJRTRn) _(8 pics)_
+
+
+- 2021 04: [Subdivision Road Resurfacing (4/2021)](https://photos.google.com/album/AF1QipOBj0_GuxDL1gXVq54YihEFjkvKLzIVFc-30a--) _(18 pics)_
 
 
 
@@ -859,7 +900,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Deadly Plants](https://photos.google.com/share/AF1QipMXI8WBDaSAaGWnK6xyrDbUiZjMdz6wZg5UNJgsBD8p-dVuyI5Ys5fu_JQaH2eCfg?key=bm1Lak5fTGVLMXItRlFlYjRsaUpvdUllYmIzMkNn) _(2 pics)_
 - [Cool Clouds](https://photos.google.com/share/AF1QipMcrmF3Hxr9PT4etBis6LrFcl5Gam_D9R1cT5CaPjW2Y0PRN4Aoqoan6FrVnKdoVQ?key=MURubGFTN1gtaXZFTEdlaEVJZXB2djZyclpqMi13) _(7 pics)_
 - [Making Weeding Fun](https://photos.google.com/share/AF1QipNHwBlnkHjiE_RAna5B7_hvf9y0xYvfUSS2Np6Vax8-8h2aKQckoO5CdLgjr2q-5A?key=Um5GSUwwYzFyZlpVY3hjZE1nZFRucW5ESlIxeGVB) _(3 pics)_
-- [Lessons of a sharp blade!](https://photos.google.com/share/AF1QipP_V5TQtNUqEFNfifiiscqhXK9tlCArnewAUAEgL81hTRKF0yJoI6BHFn4mXVO4SA?key=R2xsTlRSX3ZXTTdrNVBZYkhsb1I0SGllM21ZMFV3) _(unknown) pics)_
 
 
 - 2023 12: [Dec 14-17](https://photos.google.com/share/AF1QipNeFPzHkLqVGu81AtvDVBJKef3WPSywzWAW1Cl40eJxQgxFjnA01AoXQvImfGYGDg) _(37 pics)_ **Emily Album**
