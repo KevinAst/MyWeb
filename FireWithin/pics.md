@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 588**          _... categorized below!!_
-> <br/> **Photos: 45,000+**      _... WowZee!!!_
+> <br/> **Albums: 589**          _... categorized below!!_
+> <br/> **Photos: 45,009**       _... WowZee!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -860,6 +860,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - current: [Pixel Update](https://photos.google.com/album/AF1QipNU56EdARvJfS_71gzM0DAPkeH4Biju71AINZVU) _(49 pics)_
 
 
+- 2025 12: [Portable Monitor 12/20/2025](https://photos.google.com/share/AF1QipO9AIhJUlbttRQrcOFJ5c59qK5Yc5Vt_pMESdfOOGzidPZ6BbcHYYe10KdHpT_Oww?key=YXdnSjQzUlJaS0JQdWJjWTlVTk1FRGdLWHVTMHln) _(9 pics)_
 - 2025 06: [Fiber Optic Internet Now Available :-)](https://photos.google.com/share/AF1QipNGoCg_7FrdugQAzx0DbeSE5rW_Toplh_uLwJjOVTwMrBzbrnomP5KFHrp7_eonzQ?key=cEhkaHBhbUczaEQ4T3ZXQ3BkRmZuU2p0RmxYcXhR) _(10 pics)_
 - 2025 04: [Kevin's New Laptop](https://photos.google.com/share/AF1QipMfdlIWrtEAX_YYmZVsOMdZDo2e7ivd-sSh6y2j3NZYY2Zp1Q-SkMs-mzJAU0Pj-A?key=REtiNUt1VnRVSWtTMkpyYUxRVG5fQ0Y4TTFvdE9B) _(21 pics)_
 - 2025 01: [AJ's Computer 🖥️](https://photos.google.com/share/AF1QipMzSjrue8XPhdBUsuPBKDQOLJ1-a6XM_mu_E-tpuVj667l_M5SygRRWkEyAyI14Ow?key=b3prRHFaaDYwOXpEcnhHNmw4ZjVhMEFEV1hrNUJn) _(6 pics)_
