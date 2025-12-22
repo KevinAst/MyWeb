@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 589**          _... categorized below!!_
-> <br/> **Photos: 45,009**       _... WowZee!!!_
+> <br/> **Albums: 590**          _... categorized below!!_
+> <br/> **Photos: 45,041**       _... WowZee!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 ## At a Glance
 
@@ -562,6 +563,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
 - 2025 12: [2025 12 Missouri Botanical Garden - Garden Glow](https://photos.google.com/share/AF1QipOGKOt3Ae357L7aQZOGfXm4bl4BxmTvWxkAHRxatHvOiOrarSYcAJ8lxymnfMXEUQ?key=VG9YMWRoMWJXMmZUM3BNQ0lTV1JUd1RhRVkxRENB) _(75 pics)_
 - 2025 12: [2025 12 Gaige & Me - A Christmas Story (The Musical) at The Fabulous Fox](https://photos.google.com/share/AF1QipOXbooBjjXeUfNdzmaUeiueEHqWBueJTAXFWRTFrdIkVAGKP_hlC1dMe1MR79nLHw?key=Z09QSFBGOW1NdWFMMTI0NEZ3eHg5NFFCYTM2WTBB) _(79 pics)_
 - 2025 12: [2025 1210 For King & Country - Drummer Boy Christmas](https://photos.google.com/share/AF1QipOwgyFBibpKA-U0GD5xjy_WqlTMghIoHH8y60QcHcfz4hV3VfY8qxniDrO5m-mbag?key=T19mbjFqMlVPNDVFZGY3ckJXSkNzYzI3c2hqQlBn) _(23 pics)_
@@ -1185,6 +1187,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### First Baptist
+
+- 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
+
+
+- 2024 02: [Chandler Small Group 2/24/2024](https://photos.google.com/share/AF1QipOLiKstTLs945fTfgTm_TLQnJpRX1V5rUkpxaYg7xgckPtUUJF5Qee3SdSXyAaaJg?key=ekNpZGtuTWhsYkM5c1pYVWxVdjVya0RSOWJUVTFn) _(24 pics)_
+
 
 - 2023 05: [VBS 2023 - Twists & Turns](https://photos.google.com/share/AF1QipNaKFffcMpC_MeA01JYtvBVt5040UU0O7MvdC6B1DzFrWjqqTKjsisFa-7x_P1BsA?key=ZXZuNElmWE53enJ6c0JYMzkxTWVCaHZ2ZGpkSzdR) _(67 pics)_
 
