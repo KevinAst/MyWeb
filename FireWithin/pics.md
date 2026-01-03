@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
 > <br/> **Albums: 590**          _... categorized below!!_
-> <br/> **Photos: 45,041**       _... WowZee!!!_
+> <br/> **Photos: 45,596**       _... WowZee!!!_
+
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -438,8 +439,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - [Snow Light](https://photos.google.com/share/AF1QipOavFhOBYP6pmR3eNX6HokzWVJHhJv2wSMEKjH0AW2q92oHeMarNvwMyejvbu8Yiw?key=T0VvV3JTTktpSzREQmc1T2FKaTlqZTU5Mkd4VHdB) _(6 pics)_
 
-
-- 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(25 pics TODO: more to come)_
+- 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(555 pics)_
 - 2025: [Oooops - Snow Load on my Sail Shades](https://photos.google.com/share/AF1QipM9ueQTYEb4ijKC2V6cgGLCqogfgGRrROQKbhSN7rFYInEM_9TubL2C3sXzj7fysw?key=dmVTTXFib3cwOElJbmJQTmpoR2RVZjVJOGx1d2pR) _(7 pics)_
 
 
