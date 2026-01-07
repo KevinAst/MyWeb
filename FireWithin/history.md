@@ -91,8 +91,8 @@ Release           | What                 | *When*
 <br/>
 
 - Synced Current Sermon Series
-  * ?? {{book.Ephesians}} Series (Sundays)
-  * ?? {{book.1Chronicles}} Series (Mid Week)
+  * {{book.Ephesians}} Series (Sundays) _... nothing new this iteration_
+  * {{book.1Chronicles}} Series (Mid Week)
 
 
 - ?? Added {{book.Christmas}} services for 2025.
