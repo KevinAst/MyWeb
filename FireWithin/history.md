@@ -97,7 +97,7 @@ Release           | What                 | *When*
 
 - Added {{book.Thanksgiving}} services for 2025.
 
-- ?? Added {{book.Christmas}} services for 2025.
+- Added {{book.Christmas}} services for 2025.
 
 - **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
   * ?? Completed Round Table links (Episode 7 & 8)
