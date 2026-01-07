@@ -27,11 +27,13 @@ M{ sermonSeries({
     { id: `20201125`, sermon: `Thanksgiving Eve Celebration Service`,                                                         },
     { id: `20201129`, sermon: `Giving Thanks to God: A Progress Report on the Church`,                                        },
     { id: `20211128`, sermon: `Giving Thanks to God: A Progress Report on the Church`,                                        },
-    { id: `20221123`, sermon: `Thanksgiving Eve Service 2022 ?? NEW`,                                                         },
+    { id: `20221123`, sermon: `Thanksgiving Eve Service 2022 (NEW)`,                                                          },
     { id: `20221127`, sermon: `Sunday Service of Thanksgiving`,                                                               },
     { id: `20231122`, sermon: `Thanksgiving Eve Celebration Service`,                                                         },
     { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,                        scripture: `mat.25@@Matthew 25:14-30`, },
     { id: `20241127`, sermon: `Thanksgiving Eve Celebration Service`,                                                         },
     { id: `20241201`, sermon: `Sunday Service of Thanksgiving`,                                                               },
+    { id: `20251126`, sermon: `Thanksgiving Eve Service 2025`,                                                                },
+    { id: `20251130`, sermon: `Sunday Service Of Thanksgiving (Pastor Andy Wagner)`,                                          },
   ]
 }) }M

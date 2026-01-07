@@ -111,6 +111,7 @@ M{ sermonSeries({
     { id: `20251029`, sermon: `Where Did We Come From?`,           scripture: `1ch.1@@1 Chronicles 1-2`,   },
     { id: `20251112`, sermon: `The Truth about Generational Sin`,  scripture: `1ch.2@@1 Chronicles 2-6.`,  },
     { id: `20251119`, sermon: `From Exile to Inheritance`,         scripture: `1ch.6@@1 Chronicles 6-9`,   },
+    { id: `20251203`, sermon: `God’s Mercy Is in the Waiting`,     scripture: `1ch.9@@1 Chronicles 9-10`,  },
   ]
 }) }M
 

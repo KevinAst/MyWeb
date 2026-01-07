@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v25.5](#v25_5)   | Sync Sermons, Thanksgiving, Christmas, End Times, Q&A     | *Jan 7, 2026*
 [v25.4](#v25_4)   | Sync Sermons, Small Group, The Chosen  | *Dec 1, 2025*
 [v25.3](#v25_3)   | Billion Bible App Installs, Sync Sermons, Chosen Updates  | *Nov 19, 2025*
 [v25.2](#v25_2)   | Sync Sermons, Chosen Updates, Memory Verses             | *Oct 20, 2025*
@@ -81,6 +82,28 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v25_5" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v25.5 - Sync Sermons, Thanksgiving, Christmas, End Times, Q&A <i>(Jan 7, 2026)</i>
+</h3>
+<br/>
+
+- Synced Current Sermon Series
+  * {{book.Ephesians}} Series (Sundays) _... nothing new this iteration_
+  * {{book.1Chronicles}} Series (Mid Week)
+
+
+- Added {{book.Thanksgiving}} services for 2025.
+
+- Added {{book.Christmas}} services for 2025.
+
+- Added {{book.EndTimes}} Review of Pastor Gary's Book on Revelation
+
+- Added new {{book.QA}} for 01/04/2026.
+
+
 
 <!-- ************************************************************* -->
 <br/>

@@ -43,5 +43,8 @@ M{ sermonSeries({
       scripture: `luk.2.1-14@@Luke 2:1-14`,
       studyGuide: `NONE`,
     },
+    { id: `20251207`, sermon: `The Fall and Rising of Many (Pastor Austin Hamrick)`, scripture: `luk.2.25-35@@Luke 2:25-35`, },
+    { id: `20251224`, sermon: `I’ll Be Home for Christmas`,                          scripture: `luk.2.1-14@@Luke 2:1-14`,   },
+    { id: `20251228`, sermon: `Mystery of the Magi (Pastor Tyler Hamrick)`,          scripture: `mat.2@@Matthew 2`,          },
   ]
 }) }M
