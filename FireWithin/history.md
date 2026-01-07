@@ -101,7 +101,7 @@ Release           | What                 | *When*
 
 - Added {{book.EndTimes}} Review of Pastor Gary's Book on Revelation
 
-- ?? Added new {{book.QA}} for 01/04/2026.
+- Added new {{book.QA}} for 01/04/2026.
 
 
 

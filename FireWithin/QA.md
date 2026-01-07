@@ -44,6 +44,8 @@ the way through, or you can directly link into the desired question.
 - [Q&A Service 12/31/2023](#qa-service-12312023)
 - [Q&A Service 12/20/2024](#qa-service-12202024)
 - [Q&A Service 03/19/2025](#qa-service-03192025)
+- [Q&A Service 01/04/2026](#qa-service-01042026)
+
 
 
 ### Q&A Service 01/02/2022
@@ -259,3 +261,58 @@ the way through, or you can directly link into the desired question.
 1. [Is It Possible That The Giants Of The Old Testament Helped Build The Pyramids?]({{book.QA2025_03WedURL}}&t=00h44m17s)
 1. [Does The Garden Of Eden Still Exist?]({{book.QA2025_03WedURL}}&t=00h45m03s)
 1. [What Version Of The Bible Would You Recommend?]({{book.QA2025_03WedURL}}&t=00h46m08s)
+
+
+### Q&A Service 01/04/2026
+
+{{book.CornerstoneChapel}}
+
+<!-- CornerStone LINK: https://cornerstonechapel.net/teaching/20260104/
+     YouTube LINK:     https://www.youtube.com/watch?v=MniGAg2Tuoc        <<< book.QA2026URL
+  -->
+
+1. [Introduction]({{book.QA2026URL}}&t=00h00m00s)
+1. [Do Satan or Demons Have Access to Our Minds?]({{book.QA2026URL}}&t=00h03m29s)
+1. [What is the Purpose of Prayer?]({{book.QA2026URL}}&t=00h06m06s)
+1. [How Can I Deal with Depression?]({{book.QA2026URL}}&t=00h08m34s)
+   <br/>... Sermon Reference:
+   [God Help, I'm Depressed](https://cornerstonechapel.net/teaching/20150315) &bull;
+   M{ bibleLink(`1ki.19@@1 Kings 19`) }M &bull;
+   [Study Guide](https://assets01.cornerstonechapel.net/documents/studyguides/20150315.pdf) &bull;
+   03/15/2015
+1. [What Are The Talmud, Quran, and The Book of Mormon?]({{book.QA2026URL}}&t=00h10m44s)
+1. [Do the Gifts of the Holy Spirit Still Exist?]({{book.QA2026URL}}&t=00h17m39s)
+1. [Is Baptism Necessary For Salvation?]({{book.QA2026URL}}&t=00h21m28s)
+1. [Why Did Pastor Gary Switch from the NIV to the NJKV?]({{book.QA2026URL}}&t=00h26m12s)
+1. [What's the Unpardonable Sin?]({{book.QA2026URL}}&t=00h27m55s)
+1. [Should Christians Support Israel?]({{book.QA2026URL}}&t=00h28m24s)
+1. [Are There Different Levels of Heaven?]({{book.QA2026URL}}&t=00h38m57s)
+1. [Is the Gog and Magog War Before or During the Tribulation?]({{book.QA2026URL}}&t=00h39m12s)
+1. [Does God's Silence Mean He's Angry?]({{book.QA2026URL}}&t=00h39m42s)
+1. [What Are Your Thoughts on "The Chosen " Television Show?]({{book.QA2026URL}}&t=00h40m03s)
+1. [How Did Satan Sin In Heaven?]({{book.QA2026URL}}&t=00h41m48s)
+1. [Can Christians Practice Yoga?]({{book.QA2026URL}}&t=00h46m29s)
+1. [Is There a Hell?]({{book.QA2026URL}}&t=00h50m18s)
+1. [What are the Different Categories of the Afterlife?]({{book.QA2026URL}}&t=00h59m45s)
+1. [How Did People in the Old Testament Get Saved?]({{book.QA2026URL}}&t=01h04m31s)
+1. [Why Does the Catholic Bible Have More Books Than the Protestant Bible?]({{book.QA2026URL}}&t=01h05m52s)
+1. [Is Transubstantiation True?]({{book.QA2026URL}}&t=01h09m09s)
+1. [If I had an Abortion in the Past, Can I Truly Be Forgiven?]({{book.QA2026URL}}&t=01h12m22s)
+1. [Will We Have Jobs in the 1000 Year Reign?]({{book.QA2026URL}}&t=01h15m09s)
+1. [What Should a Young Woman Be Looking For in a Future Husband?]({{book.QA2026URL}}&t=01h17m55s)
+1. [What Should A Young Man Be Looking For in a Future Wife?]({{book.QA2026URL}}&t=01h20m23s)
+1. [Why Are There Ads in the Youtube Videos Now?]({{book.QA2026URL}}&t=01h22m03s)
+1. [Who Were the 144,000?]({{book.QA2026URL}}&t=01h23m53s)
+1. [Is It Considered Unloving to Stay Away from Toxic People?]({{book.QA2026URL}}&t=01h25m32s)
+1. [What Is A Wilderness Season?]({{book.QA2026URL}}&t=01h30m34s)
+1. [What Is the Sinner's Prayer?]({{book.QA2026URL}}&t=01h34m54s)
+1. [How Can You Bring Someone Older To Christ?]({{book.QA2026URL}}&t=01h38m36s)
+1. [How Do I Cope With My Anxiety?]({{book.QA2026URL}}&t=01h40m27s)
+1. [How Do I Fight the Voices in My Head Constantly Condemning Me?]({{book.QA2026URL}}&t=01h45m12s)
+1. [Is It Ok to Put My KIds In Public School?]({{book.QA2026URL}}&t=01h47m18s)
+1. [Could Babylon the Great from Revelation Be the United States?]({{book.QA2026URL}}&t=01h54m40s)
+1. [Should Believers Be Afraid Of Jesus Saying "I never knew you"?]({{book.QA2026URL}}&t=01h57m44s)
+1. [Do You Believe In Young or Old Earth?]({{book.QA2026URL}}&t=02h01m06s)
+1. [Have You Done a Sermon on the Holy Spirit?]({{book.QA2026URL}}&t=02h02m27s)
+1. [Was Nero the Anti-Christ?]({{book.QA2026URL}}&t=02h02m47s)
+1. [What Is a Good Devotional Series?]({{book.QA2026URL}}&t=02h03m02s)
