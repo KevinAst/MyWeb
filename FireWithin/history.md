@@ -95,6 +95,8 @@ Release           | What                 | *When*
   * {{book.1Chronicles}} Series (Mid Week)
 
 
+- Added {{book.Thanksgiving}} services for 2025.
+
 - ?? Added {{book.Christmas}} services for 2025.
 
 - **{{book.TheChosen}}** {{book.TCSeason5M}} section was updated:
