@@ -99,7 +99,7 @@ Release           | What                 | *When*
 
 - Added {{book.Christmas}} services for 2025.
 
-- ?? Added {{book.EndTimes}} Review of Pastor Gary's Book on Revelation
+- Added {{book.EndTimes}} Review of Pastor Gary's Book on Revelation
 
 - ?? Added new {{book.QA}} for 01/04/2026.
 
