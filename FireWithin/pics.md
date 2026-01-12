@@ -27,9 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 590**          _... categorized below!!_
-> <br/> **Photos: 45,596**       _... WowZee!!!_
-
+> <br/> **Albums: 591**          _... categorized below!!_
+> <br/> **Photos: 45,646**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -439,7 +438,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - [Snow Light](https://photos.google.com/share/AF1QipOavFhOBYP6pmR3eNX6HokzWVJHhJv2wSMEKjH0AW2q92oHeMarNvwMyejvbu8Yiw?key=T0VvV3JTTktpSzREQmc1T2FKaTlqZTU5Mkd4VHdB) _(6 pics)_
 
+
 - 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(555 pics)_
+- 2025: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
+- 2025: [2025 12 Missouri Botanical Garden - Garden Glow](https://photos.google.com/share/AF1QipOGKOt3Ae357L7aQZOGfXm4bl4BxmTvWxkAHRxatHvOiOrarSYcAJ8lxymnfMXEUQ?key=VG9YMWRoMWJXMmZUM3BNQ0lTV1JUd1RhRVkxRENB) _(75 pics)_
+- 2025: [2025 12 Gaige & Me - A Christmas Story (The Musical) at The Fabulous Fox](https://photos.google.com/share/AF1QipOXbooBjjXeUfNdzmaUeiueEHqWBueJTAXFWRTFrdIkVAGKP_hlC1dMe1MR79nLHw?key=Z09QSFBGOW1NdWFMMTI0NEZ3eHg5NFFCYTM2WTBB) _(79 pics)_
+- 2025: [2025 1210 For King & Country - Drummer Boy Christmas](https://photos.google.com/share/AF1QipOwgyFBibpKA-U0GD5xjy_WqlTMghIoHH8y60QcHcfz4hV3VfY8qxniDrO5m-mbag?key=T19mbjFqMlVPNDVFZGY3ckJXSkNzYzI3c2hqQlBn) _(23 pics)_
 - 2025: [Oooops - Snow Load on my Sail Shades](https://photos.google.com/share/AF1QipM9ueQTYEb4ijKC2V6cgGLCqogfgGRrROQKbhSN7rFYInEM_9TubL2C3sXzj7fysw?key=dmVTTXFib3cwOElJbmJQTmpoR2RVZjVJOGx1d2pR) _(7 pics)_
 
 
@@ -562,6 +566,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Outings
+
+- 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
+
 
 - 2025 12: [Julian & Gaige goes to Altitude Trampoline Park 12/29/2025](https://photos.google.com/share/AF1QipOdHO_IEn7j7JjtB58suCnU6bCkNnhN0SUb1E1nmKtKxQDS0B63_8tyyC6KQj9G2g?key=aWFZQm53WUhvQ3VfajlmZEdpa0NSYUlYLTdiWjF3) _(38 pics)_
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
