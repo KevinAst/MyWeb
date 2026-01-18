@@ -27,10 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 591**          _... categorized below!!_
-> <br/> **Photos: 45,646**       _... Yikes!!!_
+> <br/> **Albums: 592**          _... categorized below!!_
+> <br/> **Photos: 45,659**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
-
 
 ## At a Glance
 
@@ -942,6 +941,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Storm Damage
+
+- 2026 01: [Downed Tree at AJ & Em's](https://photos.google.com/share/AF1QipMAPHT7-mpIa4A-TjaeyWcX-FdVPMj-4-3YTG2Hn4vocG9jjyagTJKnrVy3uY97Iw?key=VGx0ZGg5V2VIMHVjd2d2ZDhMSTJjUUNzRmJrd3VR) _(13 pics)_
+
 
 - 2025 05: [Clear Storm Damage from 5/16/2025](https://photos.google.com/share/AF1QipN4YU5MutRXpU8gxaT1XYGlI56xwg2uKytFrJ917bHoEux-CJl7rtOykACpZRU0Qw?key=V1kyYlBvRV83WEwyeHUwdVVtYVRFMW5MSG41ak9R) _(11 pics)_
 - 2025 03: [Small Section of Siding Popped Out](https://photos.google.com/share/AF1QipNvHPmfvJbNe55ppFKdwh3bgEdci2UIuuSydK4hrEDlkbH1ZdvO1uZx7k3peAyFxA?key=cjlsaGhPQzZneDVYbWlHR25FYjNGUDNyYjU1b0hn) _(15 pics)_
