@@ -1060,6 +1060,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Grands
 
+- 2025 12: [Juni in January](https://photos.google.com/share/AF1QipMcFMcd-wAjn8E1a1G3MtdJ7fuztiomYbo2GDCzaJMHv20tMbbA5MQT1U_ysZxB4A/memory/AF1QipOCXfE1ai8gJmLWK0RY1QqjBR07IeJh_4cxbtrq6VI7bLQVEOIvjRko7L59_IiaEw?key=TGZTZ2U0NG5kaFYxd1pvMkRhYXdhV2Q2MEJKSnBR) _(17 pics)_
 - 2025 05: [Emily & Juni - Take Your Pick](https://photos.google.com/share/AF1QipOfxiSAISDhT4EoyZSmuCENqwfaQAa-dj7fhBmsDumfV84iUkLcX3RSE5f_NY-13w?key=WHpoYm5UR1FGbV9qZXZBMGdJYTlNcjhpZmw4N2V3) _(18 pics)_
 
 
