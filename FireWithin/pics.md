@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 592**          _... categorized below!!_
-> <br/> **Photos: 45,659**       _... Yikes!!!_
+> <br/> **Albums: 593**          _... categorized below!!_
+> <br/> **Photos: 45,671**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -556,6 +556,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2017 10: Birthday Trip - [Jules Birthday Trip 10/17](https://photos.google.com/share/AF1QipM-lwi3fpJ28sDDYZlKvUCpvFiDzqL8m97zL0oGA26uSKawgfHmlrl8IAe4A9C4ZQ?key=Mmc5YlVCVDk4SGxZQVRTUGlRalc0akF2Ni1jTjB3) _(149 pics)_
 - 2017 10: Birthday Trip - [Jules is TWO!](https://photos.google.com/share/AF1QipNFjTbqqhrHiMiz0J7bcCt-wthhSLYZRLAih06b_wDtp3wx2jjDpyQfh54mzZLwrA?key=SG82Y25XdTlBeFNweXpQelZrNktHajY4TzlpaEtB) _(62 pics)_
+- 2017 05: [Emily's Thailand Adventure with Kristy & Andrew - 5/22/2027](https://photos.google.com/share/AF1QipPaqUFs6dvD0DIl1yLwKGHiz6xdyfa7zAwMYDQnaE2JWsakk2UCWiUZLDtMWjbAyA?key=ZVV5VnlVVHV0emtxMW5QVXpRdlRLbGdqZ2RuUVNn) _(12 pics)_
 
 
 - 2016 10: [Vacation 2016 - Road Trip from PA back Home](https://photos.google.com/share/AF1QipOiyABJM08rYL5e972XgO99wPWDDW6WZrlczc_TN7bAOWiXf2r-oazw3lSil-qJMg?key=RlJ0ZW9ZaWxScjhRbGRqcTJMejJmVE9HRXJSeXNB) _(102 pics)_
