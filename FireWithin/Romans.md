@@ -165,7 +165,7 @@ M{ sermonSeries({
     { id: `20240414`, sermon: `Winning the War Within`,                       scripture: `rom.8@@Rom 8`,             },
     { id: `20240512`, sermon: `All Things Work Together for Good`,            scripture: `rom.8@@Rom 8:28`,          },
     { id: `20240519`, sermon: `Israel: Past, Present, and Future`,            scripture: `rom.9@@Rom 9-11`,          },
-    { id: `20240526`, sermon: `Predestination and Election (We were there!)`, scripture: `rom.9@@Rom 9-11 (Part 2)`, },
+    { id: `20240526`, sermon: `Predestination and Election<br/>... Our Homecoming Picnic!`, scripture: `rom.9@@Rom 9-11 (Part 2)`, extraSermonLink: `https://ccfergusfalls.com/calvinism-arminianism-the-word-of-god-a-calvary-chapel-perspective-by-chuck-smith/@@Calvinism, Arminianism, and the Word of God: A Calvary Chapel Perspective by Chuck Smith`, },
     { id: `20240602`, sermon: `What is God's Will for my Life?`,              scripture: `rom.12@@Rom 12`,           },
     { id: `20240616`, sermon: `How to Treat One Another`,                     scripture: `rom.12@@Rom 12`,           },
     { id: `20240623`, sermon: `God and Government`,                           scripture: `rom.13@@Rom 13`,           },
