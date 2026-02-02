@@ -510,6 +510,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
+- 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(?? pics)_
+
+
 - 2025 11: [Disney 2025](https://photos.google.com/share/AF1QipPo9ovUdpRnuZ5OEzhhcpzOvsgucOPE75WQFIROJrTn5Au3CmsUfIoWgdaK-0TgHg) _(720 pics)_ **AJ's Album (AJ, Emily, Gaige, Emerson, & Juni)**
 - 2025 09: Birthday Trip - [2025-09-30 Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
 - 2025 06: [Silver Dollar City 6/2025](https://photos.google.com/share/AF1QipOZlLT5r220TjSYx-p1Je2fSEYw5GGtYc56EdMTSyBI2asqukjmPempIGbqa54sUg?key=X2VGZTJudEMybnZXNWx2WjZ4d1p6MnNSWEJTNmpR) _(152 pics)_
