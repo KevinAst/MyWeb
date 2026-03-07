@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
 > <br/> **Albums: 593**          _... categorized below!!_
-> <br/> **Photos: 45,671**       _... Yikes!!!_
+> <br/> **Photos: 46,956**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -510,7 +510,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
-- 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(?? pics)_
+- 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
 
 
 - 2025 11: [Disney 2025](https://photos.google.com/share/AF1QipPo9ovUdpRnuZ5OEzhhcpzOvsgucOPE75WQFIROJrTn5Au3CmsUfIoWgdaK-0TgHg) _(720 pics)_ **AJ's Album (AJ, Emily, Gaige, Emerson, & Juni)**
