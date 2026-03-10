@@ -99,9 +99,9 @@ Release           | What                 | *When*
 - ?? Updated "My Small Group" section in {{book.Matthew}}
 
 
-- ?? Added `The Rise of Antisemitism in Christian and Conservative Circles` to the {{book.SpecialEvents}} section
-  * ?? both in the {{book.Misc}} section of {{book.CurrentEvents}}
-  * ?? and {{book.EndTimes}}
+- Added `The Rise of Antisemitism in Christian and Conservative Circles` to the {{book.SpecialEvents}} section
+  * both in the {{book.Misc}} section of {{book.CurrentEvents}}
+  * and in the {{book.EndTimes}} section
 
 
 <!-- ************************************************************* -->
