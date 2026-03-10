@@ -13,6 +13,7 @@ of persecution because they know they will be exalted with Christ.
 - [Overview](#overview)
 - [2010 Philippians Series (Sundays)](#2010-philippians-series-sundays)
 - [2017 Philippians Series (Mid Week)](#2017-philippians-series-mid-week)
+- [2026 Philippians Series (Sundays)](#2026-philippians-series-sundays)
 
 
 ## Overview
@@ -64,6 +65,10 @@ M{ youTube(`mbtdp1LdeAQ`) }M
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 M{ sermonSeries({
   entries: [
     { id: `20100321`, sermon: `Finding Joy When Life Is Hard`, scripture: `php.1@@Philippians 1-4`, },
@@ -86,5 +91,21 @@ M{ sermonSeries({
     { id: `20171129`, scripture: `php.2@@Philippians 2:12-30`, },
     { id: `20171206`, scripture: `php.3@@Philippians 3`,       },
     { id: `20171213`, scripture: `php.4@@Philippians 4:1-23`,  },
+  ]
+}) }M
+
+## 2026 Philippians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20260111`, sermon: `God Will Finish What He Starts`, scripture: `php.1@@Philippians 1:6`,     },
+    { id: `20260118`, sermon: `My Chains, God’s Glory`,         scripture: `php.1@@Philippians 1:12-18`, },
+    { id: `20260201`, sermon: `Torn between Two Worlds`,        scripture: `php.1@@Philippians 1:19–26`, },
+    { id: `20260208`, sermon: `Unity through Humility`,         scripture: `php.2@@Philippians 2:1–11`,  },
+    { id: `20260215`, sermon: `Our Witness Impacts Our World`,  scripture: `php.2@@Philippians 2:12–18`, },
+    { id: `20260301`, sermon: `Nothing Compares to Jesus!`,     scripture: `php.3@@Philippians 3:1–11`,  },
+    { id: `20260308`, sermon: `No Looking Back`,                scripture: `php.3@@Philippians 3:12–16`, },
   ]
 }) }M
