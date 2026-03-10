@@ -96,7 +96,7 @@ Release           | What                 | *When*
   * {{book.1Chronicles}} Series (Mid Week)
 
 
-- ?? Updated "My Small Group" section in {{book.Matthew}}
+- Updated {{book.MySmallGroup}} section in {{book.Matthew}}
 
 
 - Added `The Rise of Antisemitism in Christian and Conservative Circles` to the {{book.SpecialEvents}} section
