@@ -108,10 +108,18 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20251029`, sermon: `Where Did We Come From?`,           scripture: `1ch.1@@1 Chronicles 1-2`,   },
-    { id: `20251112`, sermon: `The Truth about Generational Sin`,  scripture: `1ch.2@@1 Chronicles 2-6.`,  },
-    { id: `20251119`, sermon: `From Exile to Inheritance`,         scripture: `1ch.6@@1 Chronicles 6-9`,   },
-    { id: `20251203`, sermon: `God’s Mercy Is in the Waiting`,     scripture: `1ch.9@@1 Chronicles 9-10`,  },
+    { id: `20251029`, sermon: `Where Did We Come From?`,                                                            scripture: `1ch.1@@1 Chronicles 1-2`,          },
+    { id: `20251112`, sermon: `The Truth about Generational Sin`,                                                   scripture: `1ch.2@@1 Chronicles 2-6.`,         },
+    { id: `20251119`, sermon: `From Exile to Inheritance`,                                                          scripture: `1ch.6@@1 Chronicles 6-9`,          },
+    { id: `20251203`, sermon: `God’s Mercy Is in the Waiting`,                                                      scripture: `1ch.9@@1 Chronicles 9-10`,         },
+    { id: `20260107`, sermon: `God's Way or the Wrong Way?`,                                                        scripture: `1ch.11@@1 Chronicles 11-13`,       },
+    { id: `20260114`, sermon: `How to Fight Our Enemies: Kneeling in Prayer`,                                       scripture: `1ch.14@@1 Chronicles 14-15`,       },
+    { id: `20260128`, sermon: `The Everlasting Covenant: God’s Promise to Israel`,                                  scripture: `1ch.16@@1 Chronicles 16`,          },
+    { id: `20260204`, sermon: `His Mercy Is Great: His Justice Is Coming`,                                          scripture: `1ch.16@@1 Chronicles 16:8-17:14`,  },
+    { id: `20260211`, sermon: `Lessons from David: His Victories & Defeats`,                                        scripture: `1ch.17@@1 Chronicles 17:15-20:3`,  },
+    { id: `20260218`, sermon: `When Success Becomes Sin: The Warning Behind David's Census (Pastor Tyler Hamrick)`, scripture: `1ch.20@@1 Chronicles 20:4-21:30`,  },
+    { id: `20260225`, sermon: `Wisdom Is Greater Than Knowledge`,                                                   scripture: `1ch.22@@1 Chronicles 22-24`,       },
+    { id: `20260304`, sermon: `Understanding God & Ourselves`,                                                      scripture: `1ch.24@@1 Chronicles 24:20-29:30`, },
   ]
 }) }M
 

@@ -92,8 +92,8 @@ Release           | What                 | *When*
 <br/>
 
 - Synced Current Sermon Series
-  * ?? {{book.Philippians}} Series (Sundays) ?? TODO: suspect I need to obsolete old series in Ephesians
-  * ?? {{book.1Chronicles}} Series (Mid Week)
+  * ?? {{book.Philippians}} Series (Sundays)
+  * {{book.1Chronicles}} Series (Mid Week)
 
 
 - ?? Updated "My Small Group" section in {{book.Matthew}}
