@@ -977,3 +977,75 @@ mat.12
 Judgment Coming
 Matthew 13:24-30,36-43
 mat.13
+
+>>> SECOND BOOK STARTS HERE (in Matthew)
+
+03/01/2026
+Courage
+Matthew 14:22-33
+mat.14
+
+03/08/2026
+Real Devotion
+Matthew 15:1-11,16-20
+mat.15
+
+03/15/2026
+Following Jesus
+Matthew 16:13-26
+mat.16
+
+03/22/2026
+Glory
+Matthew 17:1-13
+mat.17
+
+03/29/2026
+Forgiveness
+Matthew 18:21-35
+mat.18
+
+04/05/2026
+Our Task*
+Matthew 28:1-10,16-20
+mat.28
+
+04/12/2026
+Eternal Life
+Matthew 19:16-30
+mat.19
+
+04/19/2026
+Grace
+Matthew 20:1-16
+mat.20
+
+04/26/2026
+Authority
+Matthew 21:23-32
+mat.21
+
+05/03/2026
+Honor
+Matthew 22:15-22,34-40
+mat.22
+
+05/10/2026
+Alert
+Matthew 24:36-51
+mat.24
+
+05/17/2026
+Active Faith
+Matthew 25:31-46
+mat.25
+
+05/24/2026
+Our Atonement
+Matthew 26:17-30
+mat.26
+
+05/31/2026
+Our Savior
+Matthew 27:27-31,45-54
+mat.27

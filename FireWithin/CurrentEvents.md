@@ -108,5 +108,6 @@ M{ sermonSeries({
     { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,                 scripture: `mat.28@@Matthew 28`,          studyGuide: `NONE`, },
     { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,                  scripture: `heb.13@@Hebrews 13`,          studyGuide: `NONE`, },
     { id: `20250810`, sermon: `Walk In The Light (Ryan Ries)`, extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`,    scripture: `jhn.12.31-33@@John 12:31-33`, studyGuide: `NONE`, },
+    { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                                                     studyGuide: `NONE`, },
   ]
 }) }M

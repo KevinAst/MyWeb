@@ -27,11 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 590**          _... categorized below!!_
-> <br/> **Photos: 45,596**       _... WowZee!!!_
-
+> <br/> **Albums: 593**          _... categorized below!!_
+> <br/> **Photos: 46,956**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
-
 
 ## At a Glance
 
@@ -439,7 +437,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - [Snow Light](https://photos.google.com/share/AF1QipOavFhOBYP6pmR3eNX6HokzWVJHhJv2wSMEKjH0AW2q92oHeMarNvwMyejvbu8Yiw?key=T0VvV3JTTktpSzREQmc1T2FKaTlqZTU5Mkd4VHdB) _(6 pics)_
 
+
 - 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(555 pics)_
+- 2025: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
+- 2025: [2025 12 Missouri Botanical Garden - Garden Glow](https://photos.google.com/share/AF1QipOGKOt3Ae357L7aQZOGfXm4bl4BxmTvWxkAHRxatHvOiOrarSYcAJ8lxymnfMXEUQ?key=VG9YMWRoMWJXMmZUM3BNQ0lTV1JUd1RhRVkxRENB) _(75 pics)_
+- 2025: [2025 12 Gaige & Me - A Christmas Story (The Musical) at The Fabulous Fox](https://photos.google.com/share/AF1QipOXbooBjjXeUfNdzmaUeiueEHqWBueJTAXFWRTFrdIkVAGKP_hlC1dMe1MR79nLHw?key=Z09QSFBGOW1NdWFMMTI0NEZ3eHg5NFFCYTM2WTBB) _(79 pics)_
+- 2025: [2025 1210 For King & Country - Drummer Boy Christmas](https://photos.google.com/share/AF1QipOwgyFBibpKA-U0GD5xjy_WqlTMghIoHH8y60QcHcfz4hV3VfY8qxniDrO5m-mbag?key=T19mbjFqMlVPNDVFZGY3ckJXSkNzYzI3c2hqQlBn) _(23 pics)_
 - 2025: [Oooops - Snow Load on my Sail Shades](https://photos.google.com/share/AF1QipM9ueQTYEb4ijKC2V6cgGLCqogfgGRrROQKbhSN7rFYInEM_9TubL2C3sXzj7fysw?key=dmVTTXFib3cwOElJbmJQTmpoR2RVZjVJOGx1d2pR) _(7 pics)_
 
 
@@ -507,6 +510,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
+- 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
+
+
 - 2025 11: [Disney 2025](https://photos.google.com/share/AF1QipPo9ovUdpRnuZ5OEzhhcpzOvsgucOPE75WQFIROJrTn5Au3CmsUfIoWgdaK-0TgHg) _(720 pics)_ **AJ's Album (AJ, Emily, Gaige, Emerson, & Juni)**
 - 2025 09: Birthday Trip - [2025-09-30 Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
 - 2025 06: [Silver Dollar City 6/2025](https://photos.google.com/share/AF1QipOZlLT5r220TjSYx-p1Je2fSEYw5GGtYc56EdMTSyBI2asqukjmPempIGbqa54sUg?key=X2VGZTJudEMybnZXNWx2WjZ4d1p6MnNSWEJTNmpR) _(152 pics)_
@@ -516,6 +522,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2024 10: [Disney](https://photos.google.com/share/AF1QipPpPg4NuNlQBbODlePQRyAezxaKyn5-CoHJkNQo4cqkExKVl0M_6sYFkdDc3nX8hA?key=UzBlUEgydldmX1NfX0RrWThQeXBQUndmLWw2RF9n) _(480 pics)_ **AJ's Album (AJ, Emily, Gaige, Emerson, & Juni)**
 - 2024 10: Birthday Trip - [Julian is 9](https://photos.google.com/share/AF1QipPyQzqRaGp0_4ogJYkuoncivIIkSyggG8xl3P4wwBPjkuSOQ9FyXi16TA9WkqTAsg?key=SHJ2V09DYmJDWVJNcWtlU1JKSDhUN2JrejFmd0d3) _(207 pics)_
 - 2024 05: Birthday Trip - [2024 Georgie is 10 ... Mimi and Papaw's Road Trip](https://photos.google.com/share/AF1QipO6Ob9HN_vzK7v1JxyWfRl2LQA3nUJulcKpR1KCatgKtPflLMkpKrOIKflBwfjlqg?key=SmlXb24wUEhxNjFhdkJxSU41LXU0cmY3VVlacTJR) _(555 pics)_
+- 2024 05: [Chatt 70.3 2024](https://photos.google.com/share/AF1QipM-s2i2W_xudk23Jc-Y4PcIjPWfJHANDs-hepvpBAWlB8OuuFefig5zBuR-2h4xqQ?key=Y3J0TVF2TlRSb3JUbko1Mkp3VWJjdW5vZEJOaF93) _(77 pics)_ **AJ's Album**
 - 2024 04: [Cornerstone Bound](https://photos.google.com/share/AF1QipMSW3n5VD-KqdezpdQFhi75MU3Q_f3-IfRT3WifozxvA3WOFrs3rd_DabanGkUvZw?key=UjJtWHdJVm5fV09NM3pmbDB4bThVQ2l5NU9RTTBn) _(64 pics)_
 
 
@@ -553,6 +560,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2017 10: Birthday Trip - [Jules Birthday Trip 10/17](https://photos.google.com/share/AF1QipM-lwi3fpJ28sDDYZlKvUCpvFiDzqL8m97zL0oGA26uSKawgfHmlrl8IAe4A9C4ZQ?key=Mmc5YlVCVDk4SGxZQVRTUGlRalc0akF2Ni1jTjB3) _(149 pics)_
 - 2017 10: Birthday Trip - [Jules is TWO!](https://photos.google.com/share/AF1QipNFjTbqqhrHiMiz0J7bcCt-wthhSLYZRLAih06b_wDtp3wx2jjDpyQfh54mzZLwrA?key=SG82Y25XdTlBeFNweXpQelZrNktHajY4TzlpaEtB) _(62 pics)_
+- 2017 05: [Emily's Thailand Adventure with Kristy & Andrew - 5/22/2027](https://photos.google.com/share/AF1QipPaqUFs6dvD0DIl1yLwKGHiz6xdyfa7zAwMYDQnaE2JWsakk2UCWiUZLDtMWjbAyA?key=ZVV5VnlVVHV0emtxMW5QVXpRdlRLbGdqZ2RuUVNn) _(12 pics)_
 
 
 - 2016 10: [Vacation 2016 - Road Trip from PA back Home](https://photos.google.com/share/AF1QipOiyABJM08rYL5e972XgO99wPWDDW6WZrlczc_TN7bAOWiXf2r-oazw3lSil-qJMg?key=RlJ0ZW9ZaWxScjhRbGRqcTJMejJmVE9HRXJSeXNB) _(102 pics)_
@@ -562,6 +570,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Outings
+
+- 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
+
 
 - 2025 12: [Julian & Gaige goes to Altitude Trampoline Park 12/29/2025](https://photos.google.com/share/AF1QipOdHO_IEn7j7JjtB58suCnU6bCkNnhN0SUb1E1nmKtKxQDS0B63_8tyyC6KQj9G2g?key=aWFZQm53WUhvQ3VfajlmZEdpa0NSYUlYLTdiWjF3) _(38 pics)_
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
@@ -759,6 +770,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Iron Man
 
 - 2024 08: [370 70.3](https://photos.google.com/share/AF1QipMxEzGvZyezdXG4_0NZ53yplcYif6cIKT6VAh8c6IqIthxzLAsrADokdOaWPaF2NA) _(29 pics)_ **Emily's Album**
+- 2024 05: [Chatt 70.3 2024](https://photos.google.com/share/AF1QipM-s2i2W_xudk23Jc-Y4PcIjPWfJHANDs-hepvpBAWlB8OuuFefig5zBuR-2h4xqQ?key=Y3J0TVF2TlRSb3JUbko1Mkp3VWJjdW5vZEJOaF93) _(77 pics)_ **AJ's Album**
 
 
 - 2017 08: [Half Iron Man (Em and AJ) PA](https://photos.google.com/share/AF1QipP6F_3gqSSvUBins3EdMQjfgVcmx0d-jgTN4bZx6cSlL6CJ-_2OiIcv-P4gzFQRLQ?key=Yl9KcUJWWDBSUURLTUtKXzFHc0V0dV9wUDAxMjVn) _(231 pics)_
@@ -936,6 +948,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Storm Damage
 
+- 2026 01: [Downed Tree at AJ & Em's](https://photos.google.com/share/AF1QipMAPHT7-mpIa4A-TjaeyWcX-FdVPMj-4-3YTG2Hn4vocG9jjyagTJKnrVy3uY97Iw?key=VGx0ZGg5V2VIMHVjd2d2ZDhMSTJjUUNzRmJrd3VR) _(13 pics)_
+
+
 - 2025 05: [Clear Storm Damage from 5/16/2025](https://photos.google.com/share/AF1QipN4YU5MutRXpU8gxaT1XYGlI56xwg2uKytFrJ917bHoEux-CJl7rtOykACpZRU0Qw?key=V1kyYlBvRV83WEwyeHUwdVVtYVRFMW5MSG41ak9R) _(11 pics)_
 - 2025 03: [Small Section of Siding Popped Out](https://photos.google.com/share/AF1QipNvHPmfvJbNe55ppFKdwh3bgEdci2UIuuSydK4hrEDlkbH1ZdvO1uZx7k3peAyFxA?key=cjlsaGhPQzZneDVYbWlHR25FYjNGUDNyYjU1b0hn) _(15 pics)_
 - 2025 03: [Siding Repair](https://photos.google.com/share/AF1QipN7WeX5aBKdBuaeK16gr2KaPobHO3gmifFMQUStkRhLyyGTJCTCV5fBJijPyLSsAQ?key=aF9oelBIRnphQ0xaRGQtQ2JQS2F2Ml85Sjg4cjB3) _(6 pics)_
@@ -1051,6 +1066,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Grands
 
+- 2025 12: [Juni in January](https://photos.google.com/share/AF1QipMcFMcd-wAjn8E1a1G3MtdJ7fuztiomYbo2GDCzaJMHv20tMbbA5MQT1U_ysZxB4A/memory/AF1QipOCXfE1ai8gJmLWK0RY1QqjBR07IeJh_4cxbtrq6VI7bLQVEOIvjRko7L59_IiaEw?key=TGZTZ2U0NG5kaFYxd1pvMkRhYXdhV2Q2MEJKSnBR) _(17 pics)_
 - 2025 05: [Emily & Juni - Take Your Pick](https://photos.google.com/share/AF1QipOfxiSAISDhT4EoyZSmuCENqwfaQAa-dj7fhBmsDumfV84iUkLcX3RSE5f_NY-13w?key=WHpoYm5UR1FGbV9qZXZBMGdJYTlNcjhpZmw4N2V3) _(18 pics)_
 
 
