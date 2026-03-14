@@ -73,11 +73,15 @@ input[type="checkbox"] {
 /* RESPONSIVE default for "cell phone" (smaller device - less real estate) */
 .desktop { display: none;  }
 .phone   { display: block; }
+.desktop-inline { display: none;   }
+.phone-inline   { display: inline; }
 
 /* RESPONSIVE overide for "desktop/tablet" (bigger device - more real estate) */
 @media screen and (min-width: 768px) {
   .desktop { display: block; }
   .phone   { display: none;  }
+  .phone-inline   { display: none;   }
+  .desktop-inline { display: inline; }
 }
 
 /* all table cell entries alighn to top */
@@ -425,4 +429,20 @@ body.isolated-page .navigation-next {
     margin:      0 6px;
     color:       #333;
     font-weight: 500;
+}
+
+/*** Hide MEGA Daily Devotional ENTRIES from the LeftNav bar ***/
+.book-summary li.chapter[data-path="devo2026.html"] ul.articles {
+    display: none !important;
+}
+
+/*** Allow ellipsis-based text wrap with the starting ellipsis (...) stand out ***/
+.ellipsis-wrap {
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+/*** direct links to float to the right ***/
+.right-link {
+  float: right;
 }
