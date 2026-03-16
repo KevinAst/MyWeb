@@ -14,6 +14,8 @@ _**Daily Devotions from Gary Hamrick
 > (again the completion check-boxes help you keep track of where you
 > are at)._
 
+{{book.GoToLatestDevotion}}
+
 ## Devotions by Year
 
 - [2026 Devotions](/devo2026.md) <!-- _(the start of {{book.FireWithin}}'s transcription)_ -->
