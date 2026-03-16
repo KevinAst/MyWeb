@@ -16,6 +16,9 @@
   - [toc()]
   - [collapsibleSection()]
   - [inject()]
+  - [devoGHStart()]
+  - [devoGHEnd()]
+  - [devoGHTOC()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -185,6 +188,10 @@ The following **Custom Tags** are available:
 - [toc()]
 - [collapsibleSection()]
 - [inject()]
+- [devoGHStart()]
+- [devoGHEnd()]
+- [devoGHTOC()]
+
 
 
 ### zoomableImg()
@@ -808,6 +815,71 @@ P{ inject('</div>') }P
 
 ```
 
+### devoGHStart()
+
+**API**: `devoGHStart(namedParams)`
+
+Inject the HTML content to render the first part of a Daily Devotion
+by Gary Hamrick (of Cornerstone Chapel).  This uses a pre-defined
+content/style which is repeated in the CornerStone context/style.
+
+This macro renders everything up to the Devotion content - which will
+employ standard MarkDown.
+
+Becauses this macro will leave HTML constructs open (for indentation
+purposes), the macro should be used through the Post Process Tag
+(`P{`), followed by the devotional content (in markdown), and end
+with the [devoGHEnd()] macro which will close out all HTML constructs.
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes all aspects of the Daily Devotional.
+
+  ```js
+  {
+    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
+                                                    // ... EX: `Sat 02/28/2026`
+    topic:               `devotion topic here`,     // devotion topic
+    subTopic:            `devotion sub-topic here`, // devotion sub-topic
+    verse:               `Luke 17:28-30`,           // verse label
+    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
+    devoTranslation:     `NKJV`,                    // translation used in the devotion (YouVersion format))
+    devoTranslationCode: `114`,                     // translation code used in the devotion (YouVersion format))
+    devoTranslationText: `verse text here`,         // translation text displayed in the devotion
+  }
+
+  ```
+
+### devoGHEnd()
+
+Inject the HTML content that closes out the Daily Devotion with a prayer.
+
+This macro should be used with the Post Process Tag (`P{`), just like the 
+[devoGHStart()] macro.
+
+
+**API**: `devoGHEnd(prayer)`
+
+
+### devoGHTOC()
+
+Inject the HTML content for the TOC entry of the Daily Devotion.
+
+This macro should be used with the normal Pre Process Tag (`M{`).
+
+* namedParams: a structure that describes the partial aspects of the Daily Devotional.
+
+  ```js
+  {
+    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
+                                                    // ... EX: `Sat 02/28/2026`
+    topic:               `devotion topic here`,     // devotion topic
+    verse:               `Luke 17:28-30`,           // verse label
+    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
+  }
+
+  ```
+
 
 ## Activation
 
@@ -911,6 +983,9 @@ attempted it.  It would require some additional research, for example:
   [toc()]:                #toc
   [collapsibleSection()]: #collapsiblesection
   [inject()]:             #inject
+  [devoGHStart()]:        #devoghstart
+  [devoGHEnd()]:          #devoghend
+  [devoGHTOC()]:          #devoghtoc
 
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
