@@ -1259,6 +1259,41 @@ if (!window.fw) { // only expand this module once (conditionally)
       });
     }
 
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.goToMyNextDevotion()
+    //* 
+    //* Dynamic function that navigates to the next uncompleted devotion TOC entry
+    //*--------------------------------------------------------------------------
+    fw.goToMyNextDevotion = function () {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"][id^="devo"]');
+    
+      for (let i = 0; i < checkboxes.length; i++) {
+        const cb = checkboxes[i];
+    
+        // if the devotion is NOT completed (via checkbox status)
+        if (!cb.checked) {
+          // navigate to that part of the TOC
+
+          // ... don't use this, as GitBook's internal handler chokes on the hash change
+          // location.hash = cb.id;
+
+          // ... rather do this ... works well with GitBook
+          cb.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+          // highlight the target row briefly
+          cb.closest('li').classList.add('highlight');
+          setTimeout(() => {
+            cb.closest('li').classList.remove('highlight');
+          }, 2000);
+          
+          // that's all folks
+          return;
+        }
+      }
+    
+      // if ALL devotions are complete, let the user know
+      alert("🎉 You’ve completed all devotions for this year!");
+    }
     
     //***************************************************************************
     //***************************************************************************
