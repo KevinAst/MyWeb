@@ -120,6 +120,29 @@
   * [My Small Group](MySmallGroup.md)
 
 ----
+/*** NOTE: Mega Sub-Entries by Day are HIDDEN ... see: "Hide MEGA Daily Devotional" entry in website.css ***/
+- [Daily Devotions](devo.md)
+  * [2026 Devotions](devo2026.md)
+    - [02/28/2026 Devo](devo20260228.md)
+    - [03/01/2026 Devo](devo20260301.md)
+    - [03/02/2026 Devo](devo20260302.md)
+    - [03/03/2026 Devo](devo20260303.md)
+    - [03/04/2026 Devo](devo20260304.md)
+    - [03/05/2026 Devo](devo20260305.md)
+    - [03/06/2026 Devo](devo20260306.md)
+    - [03/07/2026 Devo](devo20260307.md)
+    - [03/08/2026 Devo](devo20260308.md)
+    - [03/09/2026 Devo](devo20260309.md)
+    - [03/10/2026 Devo](devo20260310.md)
+    - [03/11/2026 Devo](devo20260311.md)
+    - [03/12/2026 Devo](devo20260312.md)
+    - [03/13/2026 Devo](devo20260313.md)
+    - [03/14/2026 Devo](devo20260314.md)
+    - [03/15/2026 Devo](devo20260315.md)
+    - [03/16/2026 Devo](devo20260316.md)
+    - [03/17/2026 Devo](devo20260317.md)
+
+----
 - [Memorization](Memorization.md)
 
 ----

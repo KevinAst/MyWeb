@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v26.0](#v26_0)   | Daily Devotions      | *Mar 16, 2026*
 [v25.6](#v25_6)   | Sync Sermons, Small Group & more             | *Mar 10, 2026*
 [v25.5](#v25_5)   | Sync Sermons, Thanksgiving, Christmas, End Times, Q&A     | *Jan 7, 2026*
 [v25.4](#v25_4)   | Sync Sermons, Small Group, The Chosen  | *Dec 1, 2025*
@@ -83,6 +84,18 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v26_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v26.0 - Daily Devotions <i>(Mar 16, 2026)</i>
+</h3>
+<br/>
+
+- {{book.DailyDevotions}} from Gary Hamrick are now available!!
+
+
 
 <!-- ************************************************************* -->
 <br/>

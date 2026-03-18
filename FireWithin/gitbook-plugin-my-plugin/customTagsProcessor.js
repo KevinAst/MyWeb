@@ -200,6 +200,9 @@ const customTagProcessors = {
   userName,
   userEmail,
   injectSyncNote,
+  devoGHStart,
+  devoGHEnd,
+  devoGHTOC,
 };
 
 //***
@@ -988,7 +991,7 @@ function processDateEntry(date) {
 //*   - namedParams: a comprehensive structure that describes all aspects of the memory verse.
 //*                  Please refer to the README for details.
 //* 
-//* Custom Tag: TODO: ?? eventually this will be a P{ tag
+//* Custom Tag: TODO: eventually this will be a P{ tag ... KJB: NOT SURE THIS IS TRUE
 //*   M{ memorizeVerse(`{ ton-of-options-see-README }`) }M
 //* 
 //* Replaced With:
@@ -1652,4 +1655,337 @@ P{ inject('</div>') }P
 
 <!-- END Custom Tag: ${self} -->
 `;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* devoGHStart(namedParams)
+//* 
+//* Inject the HTML content to render the first part of a Daily Devotion
+//* by Gary Hamrick (of Cornerstone Chapel).  This uses a pre-defined
+//* content/style which is repeated in the CornerStone context/style.
+//* 
+//* This macro renders everything up to the Devotion content - which will
+//* employ standard MarkDown.
+//* 
+//* Becauses this macro will leave HTML constructs open (for indentation
+//* purposes), the macro should be used through the Post Process Tag
+//* (`P{`), followed by the devotional content (in markdown), and end
+//* with the [devoGHEnd()] macro which will close out all HTML constructs.
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes all aspects of the Daily Devotional.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag:
+//*   M{ devoGHStart(`{ ton-of-options-see-README }`) }M
+//* 
+//* Replaced With:
+//*   ALL STARTING CONTENT of the devotional page
+//*   ... with an OPEN `<div class="indent">` construct
+//*   ... ready for the devotional context (in markdown)
+//*-----------------------------------------------------------------------------
+function devoGHStart(namedParams={}) {
+
+  // parameter validation
+  const self       = `devoGHStart(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {
+    publicationDate,
+    topic,
+    subTopic,
+    verse,
+    verseRef,
+    devoTranslation,
+    devoTranslationCode,
+    devoTranslationText,
+    ...unknownNamedArgs
+  } = namedParams;
+
+  // ... publicationDate
+  checkParam(publicationDate,           'publicationDate is required');
+  checkParam(isString(publicationDate), `publicationDate must be a string: 'Day mm/dd/yyyy'`);
+  // ... must be of this format: `Day mm/dd/yyyy`
+  checkParam(/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) \d{2}\/\d{2}\/\d{4}$/.test(publicationDate), `publicationDate ('${publicationDate}') is NOT a valid format: 'Day mm/dd/yyyy' ... EX: 'Sat 02/28/2026')`);
+
+  // ... topic
+  checkParam(topic,                         'topic is required');
+  checkParam(isString(topic),               'topic must be a string (the devotion topic)');
+
+  // ... subTopic
+  checkParam(subTopic,                      'subTopic is required');
+  checkParam(isString(subTopic),            'subTopic must be a string (the devotion sub-topic)');
+
+  // ... verse
+  checkParam(verse,                         'verse is required');
+  checkParam(isString(verse),               'verse must be a string (the verse label - EX: `Luke 17:28-30`)');
+
+  // ... verseRef
+  checkParam(verseRef,                      'verseRef is required');
+  checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
+
+  // ... devoTranslation
+  checkParam(devoTranslation,               'devoTranslation is required');
+  checkParam(isString(devoTranslation),     'devoTranslation must be a string (the YouVersion translation used in the devotion - EX: `NKJV`');
+
+  // ... devoTranslationCode
+  checkParam(devoTranslationCode,           'devoTranslationCode is required');
+  checkParam(isString(devoTranslationCode), 'devoTranslationCode must be a string (the YouVersion translation code used in the devotion - EX: `114`');
+
+  // ... devoTranslationText
+  checkParam(devoTranslationText,           'devoTranslationText is required');
+  checkParam(isString(devoTranslationText), 'devoTranslationText must be a string (the translation text displayed in the devotion)');
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // extract our devoKey & pageUp link
+  const [, datePortion] = publicationDate.split(" ");
+  const [mm, dd, yyyy]  = datePortion.split("/");
+  const devoKey         = `devo${yyyy}${mm}${dd}`;
+  pageUpLink            = `/devo${yyyy}.md`;
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // ### A Daily Devotion
+  // ... our starting header
+  content += `<h3 id="a-daily-devotion">A Daily Devotion</h3>\n\n`;
+
+  // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
+  content += `<a class="right-link" href="${pageUpLink}">↰ UP</a>\n\n`;
+
+  // open indentation directive
+  content += `<div class="indent">\n\n`;
+
+  // from Gary Hamrick
+  // ... responsive for phone
+  content += `<p><em><strong>from Gary Hamrick <span class="phone-inline"><br></span> ... Senior Pastor of <a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></strong></em></p>\n\n`;
+
+  // the completion checkbox for this devo
+  // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+  content += completedCheckBox(`${devoKey}@@ ${publicationDate}`);
+
+  // close indentation directive
+  content += `</div>\n\n`;
+
+  // #### Faithful in the Days of the Son of Man
+  // ... the header containing our devotion topic
+  content += `<h4 id="devotion-topic">${topic}</h4>\n\n`;
+
+  // open indentation directive
+  content += `<div class="indent">\n\n`;
+
+  // our devotion subTopic
+  content += `<p class="ellipsis-wrap">... ${subTopic}</p>\n\n`;
+
+  // our devotion scripture reference
+  const devoVerseLink = bibleLink(`${verseRef}@@prefferred translation`);
+  content += `<p><a href="https://bible.com/bible/${devoTranslationCode}/${verseRef}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
+  content += `<div class="indent">\n`;
+  content += `  <p><em>${devoTranslationText}</em></p>\n`;
+  content += `  <p>... <em>${devoVerseLink} (via <a href="settings.html">Settings</a>)</em></p>\n`;
+  content += `</div>\n\n`;
+
+  // close indentation directive
+  content += `</div>\n\n`;
+
+  // #### Devotion
+  content += `<h4 id="devotion">Devotion:</h4>\n\n`;
+
+  // open indentation directive
+  // ... CRITICAL: this is left open to allow Markdown content to follow
+  content += `<div class="indent">\n\n`;
+
+  // diagnostic comment
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+
+  // that's all folks!
+  return content;
+}
+
+let pageUpLink = ''; // quick hack ... we retain pageUpLink in this global context to communicate between two macros (devoGHStart()/devoGHEnd())
+
+//*-----------------------------------------------------------------------------
+//* devoGHEnd(prayer)
+//* 
+//* Inject the HTML content to render the first part of a Daily Devotion
+//* by Gary Hamrick (of Cornerstone Chapel).  This uses a pre-defined
+//* content/style which is repeated in the CornerStone context/style.
+//* 
+//* This macro renders everything up to the Devotion content - which will
+//* employ standard MarkDown.
+//* 
+//* Becauses this macro will leave HTML constructs open (for indentation
+//* purposes), the macro should be used through the Post Process Tag
+//* (`P{`), followed by the devotional content (in markdown), and end
+//* with the [devoGHEnd()] macro which will close out all HTML constructs.
+//* 
+//* Custom Tag:
+//*   M{ devoGHEnd(`prayer content here`) }M
+//* 
+//* Replaced With:
+//*   ALL ENDING CONTENT of the devotional page
+//*-----------------------------------------------------------------------------
+function devoGHEnd(prayer) {
+
+  // parameter validation
+  const self       = `devoGHEnd(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... prayer
+  checkParam(prayer,           'prayer is required');
+  checkParam(isString(prayer), `prayer must be a string (the prayer to close out the devotion)`);
+
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // close indentation directive FROM devoGHStart()
+  content += `</div>\n\n`;
+
+  // ### Prayer:
+  // ... our ending header
+  content += `<h4 id="prayer">Prayer:</h4>\n\n`;
+
+  // open indentation directive
+  content += `<div class="indent">\n\n`;
+
+  // inject the prayer
+  content += `<p>${prayer}</p>\n\n`;
+
+  // close indentation directive
+  content += `</div>\n\n`;
+
+  // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
+  // ... NOTE: quick hack ... we retained pageUpLink from our devoGHStart() macro
+  content += `<p><a class="right-link" href="${pageUpLink}">↰ UP</a>\n\n`;
+
+  // diagnostic comment
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+
+  // that's all folks!
+  return content;
+}
+
+//*-----------------------------------------------------------------------------
+//* devoGHTOC(namedParams)
+//* 
+//* Inject the HTML content for the TOC entry of the Daily Devotion.
+//* 
+//* This macro should be used with the normal Pre Process Tag (M{).
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes necessary aspects of the Daily Devotional.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag:
+//*   M{ devoGHTOC(`{ various-options-see-README }`) }M
+//* 
+//* Replaced With:
+//*   ALL content neede for the TOC devotion entry
+//*-----------------------------------------------------------------------------
+function devoGHTOC(namedParams={}) {
+
+  // parameter validation
+  const self       = `devoGHTOC(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {
+    publicationDate,
+    topic,
+    verse,
+    verseRef,
+    ...unknownNamedArgs
+  } = namedParams;
+
+  // ... publicationDate
+  checkParam(publicationDate,           'publicationDate is required');
+  checkParam(isString(publicationDate), `publicationDate must be a string: 'Day mm/dd/yyyy'`);
+  // ... must be of this format: `Day mm/dd/yyyy`
+  checkParam(/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) \d{2}\/\d{2}\/\d{4}$/.test(publicationDate), `publicationDate ('${publicationDate}') is NOT a valid format: 'Day mm/dd/yyyy' ... EX: 'Sat 02/28/2026')`);
+
+  // ... topic
+  checkParam(topic,                         'topic is required');
+  checkParam(isString(topic),               'topic must be a string (the devotion topic)');
+
+  // ... verse
+  checkParam(verse,                         'verse is required');
+  checkParam(isString(verse),               'verse must be a string (the verse label - EX: `Luke 17:28-30`)');
+
+  // ... verseRef
+  checkParam(verseRef,                      'verseRef is required');
+  checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
+
+  // ... unrecognized named parameter
+  const unknownArgKeys = Object.keys(unknownNamedArgs);
+  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
+  // ... unrecognized positional parameter
+  //     NOTE:  When defaulting entire struct, arguments.length is 0
+  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
+  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
+  //            PUNT ON THIS - not all that big of a deal
+  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
+
+  // extract our devoKey & pageUp link
+  const [, datePortion] = publicationDate.split(" ");
+  const [mm, dd, yyyy]  = datePortion.split("/");
+  const devoKey         = `devo${yyyy}${mm}${dd}`;
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
+  // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // the completion checkbox for this devo
+  // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+  content += completedCheckBox(`${devoKey}@@ ${publicationDate}\n`);
+
+  // responsive cr/lf for phone
+  content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+
+  // the devotion TOC link
+  content += `<a href="${devoKey}.html">${topic}</a>\n`;
+  
+  // responsive '-' seperator for desktop
+  content += `<span class="desktop-inline">-</span>\n`;
+
+  // responsive cr/lf for phone
+  content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+
+  // our devotion scripture reference
+  const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+  content += `${devoVerseLink}`; // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+
+  // diagnostic comment
+  // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
+  // content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+
+  // that's all folks!
+  return content;
 }
