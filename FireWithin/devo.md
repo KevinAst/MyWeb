@@ -63,7 +63,14 @@ following benefits:
 > _**<mark>Also Note</mark>:** Devotions may occasionally be posted
 > with up to a one-week delay as I finalize the publishing process. If
 > so, you can simply follow along one week behind—again, using the
-> checkboxes to keep your place.
+> checkboxes to keep your place._
 
-My hope is that resource is a blessing to you and helps you grow in
-your daily walk with the Lord.
+My prayer is that this resource is a blessing to you and helps you
+grow in your daily walk with the Lord.
+
+_May the Lord bless you,_
+<br/>**&lt;/Kevin&gt;**
+<br/><span id="inquire"></span>
+<script>
+  withFW( ()=>fw.addInquire('Fire%20Within%20Devotions%20Feedback') )
+</script>
