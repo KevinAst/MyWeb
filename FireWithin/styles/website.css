@@ -446,3 +446,22 @@ body.isolated-page .navigation-next {
 .right-link {
   float: right;
 }
+
+/*** provide smooth scrolling for my programatic hash navigation (via: `location.hash = id;`)
+     in the context of Gitbook ... simulating what GitBook does under the covers.
+     ... see: ../js/fw.js (fw.goToMyNextDevotion())
+***/
+/* html {
+  scroll-behavior: smooth;
+} */
+/* GitBook uses its own scroll container (not html), so rather than above, use this: */
+.book-body,
+.body-inner,
+.page-wrapper,
+.page-inner {
+  scroll-behavior: smooth;
+}
+/* also adjust scroll offset for ANY input element with an id that begins with `devo` */
+input[id^="devo"] {
+  scroll-margin-top: 80px;
+}
