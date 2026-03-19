@@ -1259,40 +1259,105 @@ if (!window.fw) { // only expand this module once (conditionally)
       });
     }
 
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.goToLatestDevotion()
+    //* 
+    //* Fancy function to navigate to the "Latest" published devotion,
+    //* with highlighting, etc. ... patterned after fw.goToMyNextDevotion().
+    //* 
+    //* NOTE: When this function is invoked on the TOC page of the current year
+    //*       being published, it will do the fancy highlighting, 
+    //*       by navigating directly to the 'latest' hash.
+    //* 
+    //*       Otherwise, it will fallback to what is defined in book.json {{book.LatestDevotion}}
+    //*       passed in as a parameter.
+    //* 
+    //*       Only one 'latest' entry should be maintained within the devoYYYY.md pages,
+    //*       BECAUSE publishing occurs only in one specific year.
+    //*--------------------------------------------------------------------------
+    fw.goToLatestDevotion = function (latestFallback) {
+
+      // locate the latestElm to navigate to (assuming it is on this page)
+      // ... only the TOC page of the current publishing year should have this element on it!
+      const latestElm = document.getElementById('latest');
+
+      // when there is NO 'latest' element on this page ...
+      if (!latestElm) {
+
+        // fallback to what is defined in book.json {{book.LatestDevotion}}
+        // ... passed in as a parameter to us
+        window.location.href = '/FireWithin' + latestFallback;
+        return;
+      }
+
+      // navigate to this section of the TOC
+      // NOTE: We simply change the URL hash directly (very simple)!
+      //       GitBook intercepts this and does the right thing.
+      // WORK-AROUND: We first navigate to a well-known spot on the page (`quick-navigation`).
+      //              This is a work-around to make it work a second time,
+      //              when the user scrolls back up and activates the button again.
+      //              Without this, the second request no-ops (presumably because the hash is already in the URL.
+      location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
+      //? ORIGINAL: location.hash = 'latest';
+      // ?? TRY THIS just a bit later to see if it helps the cell-phone operate correctly
+      setTimeout(() => {
+        location.hash = 'latest'; // ?? this identifier happens to point to a <b> DOM element UNDER a <li>
+
+        // COOL: highlight the target briefly
+        latestElm.classList.add('highlight');
+        setTimeout(() => latestElm.classList.remove('highlight'), 2000);
+
+      }, 500); // ??? make as short as possible ... 1000 works, 500 works, 200/100 problematic ON THIS FUNCTTION ONLY
+    }
+
+
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.goToMyNextDevotion()
     //* 
-    //* Dynamic function that navigates to the next uncompleted devotion TOC entry
+    //* A dynamic function that navigates to the next Uncompleted Devotional TOC entry,
+    //* by dynamically looking at all the checkbox completion entries in the DOM.
     //*--------------------------------------------------------------------------
     fw.goToMyNextDevotion = function () {
+
+      // iterate through all TOC Page DOM checkbox entries
+      // ... to determine whether the devos have been completed or not
       const checkboxes = document.querySelectorAll('input[type="checkbox"][id^="devo"]');
-    
       for (let i = 0; i < checkboxes.length; i++) {
-        const cb = checkboxes[i];
+        const checkbox = checkboxes[i];
     
-        // if the devotion is NOT completed (via checkbox status)
-        if (!cb.checked) {
-          // navigate to that part of the TOC
+        // for the first NON-COMPLETED devo (within this TOC page) ...
+        if (!checkbox.checked) {
 
-          // ... don't use this, as GitBook's internal handler chokes on the hash change
-          // location.hash = cb.id;
+          // navigate to this section of the TOC
+          // NOTE: We simply change the URL hash directly (very simple)!
+          //       GitBook intercepts this and does the right thing.
+          // WORK-AROUND: We first navigate to a well-known spot on the page (`quick-navigation`).
+          //              This is a work-around to make it work a second time,
+          //              when the user scrolls back up and activates the button again.
+          //              Without this, the second request no-ops (presumably because the hash is already in the URL.
+          location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
+          //? ORIGINAL: location.hash = checkbox.id;
+          // ?? TRY THIS just a bit later to see if it helps the cell-phone operate correctly
+          setTimeout(() => { 
+            location.hash = checkbox.id; // ?? this identifier happens to point to an <input> DOM element UNDER a <label> UNDER a <li>
 
-          // ... rather do this ... works well with GitBook
-          cb.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // COOL: highlight the target list briefly
+            const li = checkbox.closest('li'); // ... locate the containg list element
+            if (li) {
+              li.classList.add('highlight');
+              setTimeout(() => li.classList.remove('highlight'), 2000);
+            }
 
-          // highlight the target row briefly
-          cb.closest('li').classList.add('highlight');
-          setTimeout(() => {
-            cb.closest('li').classList.remove('highlight');
-          }, 2000);
-          
+          }, 100); // ??? make as short as possible ... 1000 works, 100 works
+        
           // that's all folks
           return;
         }
       }
     
       // if ALL devotions are complete, let the user know
-      alert("🎉 You’ve completed all devotions for this year!");
+      alert("🎉 You have completed all available devotions on this year's page!");
     }
     
     //***************************************************************************

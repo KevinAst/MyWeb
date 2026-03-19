@@ -4,13 +4,16 @@ _**Daily Devotions from Gary Hamrick
 <span class="phone-inline"><br/></span>
 ... Senior Pastor of {{book.CornerstoneChapel}}**_
 
-## Quick Links
+## Quick Navigation
 
-- {{book.LatestDevotion}}
+<div class="indent">
+  <button type="button" onclick="fw.goToLatestDevotion('{{book.LatestDevotion}}');">Latest Published Devotion</button>
+</div>
+
 
 ## Devotions by Year
 
-- _... where this devotion archive began_
+- _... bookmark the current year for quick access_
 - [2026 Devotions](/devo2026.md)
 
 
