@@ -188,7 +188,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Emerson Birthday
 
-- 04/2025: 6 [2025 0405 Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
+- 03/2026: 7 [Em Turns 7!](https://photos.app.goo.gl/zTwMidY1qMEg3joBA) _(49 pics)_ **Emily Album**
+- 04/2025: 6 [Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
 - 03/2025: 6 [Emerson is SIX!](https://photos.google.com/share/AF1QipMs1sWX-zaIOuw_TttLT1ms2B2e6aZ1IBVdzVvmFTqHRIC1p4fTrp0ASRoCNmd8rQ?key=M0Y3bnRvOGdjTThkRGpwQ2s2eXpKSUtQekp1Q1JR) _(168 pics)_
 - 03/2024: 5 [Emerson's 5th Bday Party 🎉](https://photos.google.com/share/AF1QipOBnYABtw3hfbbWslR9kYORop5qg-Tv7aor8-kdP3FDAfg41B3cyZwB1pHMDLEnTA?key=WjZ4Y0psNEI0RGtEWko2SXVhcmtpdEMtYnBXVTB3) _(84 pics)_
 - 03/2023: 4 [Emerson is 4!](https://photos.google.com/share/AF1QipP8c4zwe1DnS4t8ub3Jgdq7lqsQESxifF-IDUWQxHUe8uVEvDc5S4yjYn-t5iKlOw?key=V1BMdXVIYmNDc1owWWRNeFhrZFRWNEtDWW1GNElR) _(286 pics)_
@@ -201,8 +202,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Juni Birthday
 
-- 10/2025: 4 [2025-10-11 Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
-- 09/2025: 4 [2025-09-10 Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
+- 10/2025: 4 [Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
+- 09/2025: 4 [Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
 - 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
 - 09/2023: 2 [Juni Turns 2!](https://photos.google.com/share/AF1QipOfo976Wcsr0fgRH5R355UEt19SFfpxLzwjnO4b-rHxXjsXE-BUtTf53sU3Zimsww?key=Zkw5T05MaFZpSk5pRVJJaWlqZlMwRjJ2cU01cnln) _(179 pics)_
 - 09/2022: 1 [Juniper Rae turns 1 🥺](https://photos.google.com/share/AF1QipNZqq0qhG37Dw9FEgkUB01UXd3jJUuM7h2blc-jzDhkNe9RApt9knP-2eIphfyb8A) _(154 pics)_
@@ -251,7 +252,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Julian Birthday
 
-- 09/2025: 10 [2025-09-30 Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
+- 09/2025: 10 [Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
 - 10/2024:  9 [Julian is 9](https://photos.google.com/share/AF1QipPyQzqRaGp0_4ogJYkuoncivIIkSyggG8xl3P4wwBPjkuSOQ9FyXi16TA9WkqTAsg?key=SHJ2V09DYmJDWVJNcWtlU1JKSDhUN2JrejFmd0d3) _(207 pics)_
 - 10/2023:  8 [Julian Turns 8](https://photos.google.com/share/AF1QipMeTT8W7G7z6S7Wj9obe-45Jc_DELbhEfkUu9oENZeC_1m2HEw10GQIWog1YavmRw?key=UGVDTmRwdG8xeE5USTI5OUdPRzZlckdjMjdhbWlB) _(518 pics)_
 - 10/2022:  7 [Julian Turns 7 (10/2022)](https://photos.google.com/share/AF1QipOEImMZzOJrFTr854bw0c4QCikPhP5dU2gkaTrvQzz7wZ0xVAYN8sbVkREqoTdCGg?key=NGZwV295XzZIdlIwdTdDUUFBTDFfZkIzNlFob1F3) _(361 pics)_
