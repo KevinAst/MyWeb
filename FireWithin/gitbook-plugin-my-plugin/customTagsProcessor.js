@@ -1765,9 +1765,9 @@ function devoGHStart(namedParams={}) {
   let content = ``;
   content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
-  // ### A Daily Devotion
+  // ### Your Daily Devotion
   // ... our starting header
-  content += `<h3 id="a-daily-devotion">A Daily Devotion</h3>\n\n`;
+  content += `<h3 id="a-daily-devotion">Your Daily Devotion</h3>\n\n`;
 
   // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
   content += `<a class="right-link" href="${pageUpLink}">↰ UP</a>\n\n`;
@@ -1781,7 +1781,7 @@ function devoGHStart(namedParams={}) {
 
   // the completion checkbox for this devo
   // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-  content += completedCheckBox(`${devoKey}@@ ${publicationDate}`);
+  content += 'for ' + completedCheckBox(`${devoKey}@@ ${publicationDate}`);
 
   // close indentation directive
   content += `</div>\n\n`;
@@ -1797,11 +1797,11 @@ function devoGHStart(namedParams={}) {
   content += `<p class="ellipsis-wrap">... ${subTopic}</p>\n\n`;
 
   // our devotion scripture reference
-  const devoVerseLink = bibleLink(`${verseRef}@@prefferred translation`);
+  const devoVerseLink = bibleLink(`${verseRef}@@your preferred translation`);
   content += `<p><a href="https://bible.com/bible/${devoTranslationCode}/${verseRef}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
   content += `<div class="indent">\n`;
   content += `  <p><em>${devoTranslationText}</em></p>\n`;
-  content += `  <p>... <em>${devoVerseLink} (via <a href="settings.html">Settings</a>)</em></p>\n`;
+  content += `  <p><em>${devoVerseLink} (via <a href="settings.html">Settings</a>)</em></p>\n`;
   content += `</div>\n\n`;
 
   // close indentation directive
