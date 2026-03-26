@@ -451,20 +451,10 @@ body.isolated-page .navigation-next {
    using the GitBook scroll container (which is NOT html).
    SEE: ../js/fw.js (fw.goToMyNextDevotion())
    BAD: I subsequently discovered THIS BREAKS Cell Phone Browser Scrolling in an unpredictable way!
-        BECAUSE of multiple nested containers (causing conflics on cell phone):
-          .book-body,    < BAD: this single selector BREAKS the Cell Phone scrolling AGAIN in an unpredictable way!
-          .body-inner,   < BAD: this single selector DOES NOT apply smooth scrolling at all (Laptop or Cell Phone)
-          .page-wrapper, < BAD: this single selector DOES NOT apply smooth scrolling at all (Laptop or Cell Phone)
-          .page-inner {  < BAD: this single selector DOES NOT apply smooth scrolling at all (Laptop or Cell Phone)
-            ... snip snip
-          }
-        FIX: use the single decisive container:
-          .body-inner {  < BAD: nothing works ... I even tried `html` selector RESULT: NO smooth scrolling at all
-            ... snip snip
-          }
+        I have NO IDEA WHY :-(
    PUNT: and live with NO smooth scrolling
-.body-inner {
-  scroll-behavior: smooth;
+.book-body {
+  scroll-behavior: smooth !important;
 }
 */
 
