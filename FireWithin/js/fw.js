@@ -1259,9 +1259,6 @@ if (!window.fw) { // only expand this module once (conditionally)
       });
     }
 
-    // ?? NEW START ********************************************************************************
-
-    // ?? consider adding logs to this so we can tell what is going on
 
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.goToEasterEgg()
@@ -1269,11 +1266,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* Interpret the "goTo" easter egg, allowing the user to change the "goTo" algorithm.
     //* 
     //* BACKGROUND: 
-    //*   We are having issues with the "goTo" function operating correctly on Cell phones.
+    //*   This was in support of diagnosing issues with the "goTo" function operating correctly on Cell phones.
     //*   This easter egg allows us to try different algorithms in production.
     //* 
     //* OPERATION: 
-    //*   This function is wired to the on-click function of the easter egg.
+    //*   This function is wired to the on-click function of the easter egg, found in devoYYYY.md
     //* 
     //*   - SINGLE-CLICK: Informs user of the current persisted algorithm (via a simple alert).
     //*   - DOUBLE-CLICK: Advances the persisted algorithm to the next one, also informing the user (via a simple alert).
@@ -1286,11 +1283,17 @@ if (!window.fw) { // only expand this module once (conditionally)
         clearTimeout(clickTimer);
         clickTimer = null;
 
+        // notify user when there are NO alternatives
+        // ... typically production has only ONE algorithm
+        if (goToAlgorithms.length === 1) {
+          alert(`There is only one goToAlgorithm (cannot advance):\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
+          return;
+        }
+        
         // advance algorithm to next, persist, alert user of change
         // ... increments the index, resetting to 0 when it reaches the end
         CUR_goToAlgorithm = (CUR_goToAlgorithm + 1) % goToAlgorithms.length;
         alert(`Advance goToAlgorithm to:\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
-
         return;
       }
 
@@ -1301,7 +1304,7 @@ if (!window.fw) { // only expand this module once (conditionally)
         // reveal current algorithm to user
         alert(`Current goToAlgorithm is:\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
 
-      }, 250); // delay threshold (ms)
+      }, 250); // double click threshold (ms)
     }
 
     //*--------------------------------------------------------------------------
@@ -1346,7 +1349,6 @@ if (!window.fw) { // only expand this module once (conditionally)
     //* A dynamic function that navigates to the next Uncompleted Devotional TOC entry,
     //* by dynamically looking at all the checkbox completion entries in the DOM.
     //*--------------------------------------------------------------------------
-    // ORIGINAL PUBLIC FUNCTION <<< NOW RETRIFITTED TO: goTo()
     fw.goToMyNextDevotion = function () {
 
       // iterate through all TOC Page DOM checkbox entries
@@ -1382,7 +1384,7 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // pass through to active algorithm
       const goToFn = goToAlgorithms[CUR_goToAlgorithm];
-      console.log(`?? EXECUTING: ${goToFn.desc}: `, {id, elm});
+   // console.log(`XX EXECUTING: ${goToFn.desc}: `, {id, elm});
       goToFn(id, elm); // NOTE: the id does NOT have to represent the exact elm >>> the concrete goToFn() can use either or both to do it's job
     }
 
@@ -1393,31 +1395,10 @@ if (!window.fw) { // only expand this module once (conditionally)
       return fn;
     }
 
+    // NOTE: THIS IS OUR GOLDEN WINNER THAT WORKS IN ALL CASES (EVEN ON CELL PHONE)
     const goToAlgorithm_hash = annotateFunction(
       {
-        desc:   '1a. hash: simple GitHub URL hash change (just programatic)',
-        result: 'Laptop: Works GREAT! / Cell Phone: Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-        // navigate to this section of the TOC
-        // NOTE: We simply change the URL hash directly (very simple)!
-        //       GitBook intercepts this and does the right thing.
-        // WORK-AROUND: We first navigate to a well-known spot on the page (`quick-navigation`).
-        //              This is a work-around to make it work a second time,
-        //              when the user scrolls back up and activates the button again.
-        //              Without this, the second request no-ops (presumably because the hash is already in the URL.
-        location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
-        location.hash = id;
-        
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
-    // ??$$ THIS IS THE GOLDEN ROUTINE THAT WORKS IN ALL CASES (EVEN ON CELL PHONE)
-    const goToAlgorithm_hashWithTimer = annotateFunction(
-      {
-        desc:   '1b. hashWithTimer: simple GitHub URL hash change',
+        desc:   '1a. hashWithTimer: simple GitHub URL hash change',
         result: 'Laptop: Works GREAT! / Cell Phone: Works GREAT :-(',
       },
       function(id, elm) {
@@ -1438,310 +1419,28 @@ if (!window.fw) { // only expand this module once (conditionally)
         setTimeout(() => elm.classList.remove('highlight'), 2000);
     });
 
-    const goToAlgorithm_hashStable = annotateFunction(
-      {
-        desc:   '1c. hashStable: LATEST ChatGPT - simple GitHub URL hash change (just programatic) BUT FIRST STABILIZE cell phone address bar',
-        result: `Laptop: Works / Cell Phone: NO WORK (as usual) :-(`,
-      },
-      function(id, elm) {
-
-        // perform a tiny scroll, hopefully triggering the address bar collapse (on cell phones)
-        window.scrollBy(0, 1);
-
-        // allow the layout to stabilize (a short delay)
-        setTimeout(() => {
-
-          // KEY: back to our original hash algorithm (1a)
-
-          // navigate to this section of the TOC
-          // NOTE: We simply change the URL hash directly (very simple)!
-          //       GitBook intercepts this and does the right thing.
-          location.hash = 'quick-navigation'; // not suggested by CharGPT ... still needed I THINK (when back-to-back operations where URL hash is the same)
-          // location.hash = 'latest'; // instead try something on the bottom - if this works, remember 'latest' is only on the current year page, also can't be latest for latest operation (it is the same) use a hidden item at bottom
-          location.hash = id;
-
-          // highlight the target briefly
-          elm.classList.add('highlight');
-          setTimeout(() => elm.classList.remove('highlight'), 2000);
-
-        }, 100);
-    });
-
-    const goToAlgorithm_hashFromBottom = annotateFunction(
-      {
-        desc:   '1d. hashFromBottom: simple GitHub URL hash change (just programatic) BUT FIRST SCROLL TO BOTTOM (MY REAL PIPE DREAM)',
-        result: 'Laptop: Works GREAT! / Cell Phone: FINGERS-CROSSED-FOR-NO-REASON Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-
-        // go to bottom of page first
-        location.hash = 'bottom'; // add bottom to page ... EXISTING item with id ... <a id="bottom" class="right-link" href="/devo.md">↰ UP</a>
-
-        // do real scroll once the layout is stabilize (a short delay)
-        setTimeout(() => {
-
-          // KEY: back to our original hash algorithm (1a)
-
-          // navigate to this section of the TOC
-          // NOTE: We simply change the URL hash directly (very simple)!
-          //       GitBook intercepts this and does the right thing.
-          location.hash = id;
-
-          // highlight the target briefly
-          elm.classList.add('highlight');
-          setTimeout(() => elm.classList.remove('highlight'), 2000);
-
-        }, 100);
-    });
-
-    const goToAlgorithm_hashUsingHistoryAPI = annotateFunction(
-      {
-        desc:   '1e. hashUsingHistoryAPI: update the hash with history API - NOT location.hash = id',
-        result: `DOES NOT WORK ANYWHERE (as expected) ... BECAUSE the history API does NOT Triggers browser + GitBook navigation behavior (THIS IS A BUST)`,
-      },
-      function(id, elm) {
-        // NOT:
-        //? location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
-        //? location.hash = id;
-        // RATHER:
-        history.replaceState(null, null, "#" + id);
-        
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
-    const goToAlgorithm_scrollIntoView = annotateFunction(
-      {
-        desc:   '2a. scrollIntoView: using DOM.scrollIntoView()',
-        result: 'Laptop: Works GREAT! / Cell Phone: Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-        // move to the target
-        // ... scrollIntoView
-        elm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
-    const goToAlgorithm_scrollIntoViewWithTimer = annotateFunction(
-      {
-        desc:   '2b. scrollIntoViewWithTimer: using DOM.scrollIntoView() BUT with timer hack',
-        result: 'Laptop: Works GREAT! / Cell Phone: Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-        // move to the target
-        // ... scrollIntoView, after a short timetout
-        setTimeout(() => elm.scrollIntoView({ behavior: 'smooth', block: 'center' }), 10);
-
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
-    const goToAlgorithm_scrollIntoViewAfterStabalized = annotateFunction(
-      {
-        desc:   '2c. scrollIntoViewAfterStabalized: using DOM.scrollIntoView() BUT wrapped in requestAnimationFrame',
-        result: 'Laptop: Works GREAT! / Cell Phone: Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-        // move to the target
-        // ... scrollIntoView, deferred until layout stabalizes
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            elm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-            // highlight the target briefly
-            elm.classList.add('highlight');
-            setTimeout(() => elm.classList.remove('highlight'), 2000);
-
-            //?? try timeout too?
-            //? setTimeout(() => {
-            //?   elm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            //? }, 50);
-          });
-        });
-    });
-
-    const goToAlgorithm_scrollIntoViewBottomFirst = annotateFunction(
-      {
-        desc:   '2d. scrollIntoViewBottomFirst: using DOM.scrollIntoView() BUT scroll to bottom first',
-        result: 'Laptop: Works GREAT! / Cell Phone: Partial Success - does NOT handle lower viewport :-(',
-      },
-      function(id, elm) {
-        // move to the target
-        // ... HACK: scroll to the bottom before issuing the real scroll
-        const container = document.querySelector('.page-inner') || document.scrollingElement;
-        // FIRST: force scroll to bottom
-        // ChatGPT says I switched from container. to elm. (below) ... but doesn't say how to change it
-        //? container.scrollTo({ top: container.scrollHeight }); // doesn't appear to do anything? ... MY ORIGINAL
-        elm.scrollTo({ top: container.scrollHeight }); // STILL doesn't appear to do anything? ... MY CHANGE attempting to interpret ChagGPT
-        // SECOND: then scroll to target (after a short delay)
-        setTimeout(() => {
-          elm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          
-          // highlight the target briefly
-          elm.classList.add('highlight');
-          setTimeout(() => elm.classList.remove('highlight'), 2000);
-        }, 100);
-    });
-
-    const goToAlgorithm_scrollIntoViewWithRetry = annotateFunction(
-      {
-        desc:   '2e. scrollIntoViewWithRetry: use DOM.scrollIntoView() WITH RETRY logic',
-        result: 'Laptop: Works (WEIRD, sometimes 2-3 attempts) \n        HOW was scrollIntoView() working on a single try? \n\n Cell Phone: intermittent (as usual) CAN EXCEED ATTEMPTS ... WEIRD can succeed on every other entry (does NOT appear to be lower position related)',
-      },
-      function(id, elm) {
-        const maxAttempts = 10; // XX KJB: can exceed attempts on cell phone (EVEN 30 attempts - when temporarly bumped up)
-        let   attempts    = 0;
-        
-        function tryScroll() {
-          attempts++;
-        
-          // move to the target ... via native scroll (scrollIntoView)
-          elm.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          
-          // NO: OPTIONAL: set URL hash WITHOUT triggering browser + GitBook navigation behavior (unlike `location.hash = id`)
-          // history.replaceState(null, null, "#" + id);
-        
-          // retry if we are NOT close enough
-          const rect = elm.getBoundingClientRect();
-       // const isVisible = rect.top    >= 0 && rect.top < window.innerHeight; // ORIGINAL
-          const isVisible = rect.bottom >  0 && rect.top < window.innerHeight; // BETTER
-
-          if (!isVisible && attempts < maxAttempts) {
-            setTimeout(tryScroll, 150); // XX try waiting different intervalse (500 vs 150) ... CAN STILL FAIL ... WEIRD: the different interval caused different entries to fail/succeed
-          }
-          else {
-            // temporary diagnostic: reveals what we did
-            // ... alert's BLOCK, so do this first so the highlight (below) will still be visable
-            console.log(`?? scrollIntoView() attempts: ${attempts}`); // ?? was alert() switched to console.log() now we have remote debugging
-
-            // highlight the target briefly
-            elm.classList.add('highlight');
-            setTimeout(() => elm.classList.remove('highlight'), 2000);
-          }
-        }
-        
-        // kick off process (initial delay is CRITICAL for mobile)
-     // setTimeout(tryScroll, 300); // KJB: ?? not sure this delay is necessary
-        tryScroll();                // KJB: ?? rather this (get rid of the scrolling double clutch)
-    });
-
-    const goToAlgorithm_scrollTo = annotateFunction(
-      {
-        desc:   '3a. scrollTo: using window.scrollTo()',
-        result: 'NONE OF THE SCROLLING WORKS on this algorithm - Laptop or Cell Phone ... I must have coded something wrong :-(',
-      },
-      function(id, elm) {
-        // move to the target
-        // ... calculate scroll postion relative to viewport
-        const rect      = elm.getBoundingClientRect();
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        const offset    = rect.top + scrollTop - (window.innerHeight / 2); // center in view
-        window.scrollTo({ top: offset, behavior: 'smooth' });
-
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
-    const goToAlgorithm_scrollToWithRetry = annotateFunction(
-      {
-        desc:   '3b. scrollToWithRetry: using window.scrollTo() WITH RETRY logic',
-        result: 'JUST LIKE 3a, NONE OF THE SCROLLING WORKS on this algorithm - Laptop or Cell Phone',
-      },
-      function(id, elm) {
-        const maxAttempts = 10; // XX KJB: can exceed attempts on cell phone (EVEN 30 attempts - when temporarly bumped up)
-        let   attempts    = 0;
-        
-        function tryScroll() {
-          attempts++;
-        
-          // move to the target ... via native scroll (scrollTo)
-          const y = elm.getBoundingClientRect().top + window.scrollY; // ?? slightly diff calc than other scrollTo()
-          window.scrollTo({ top: y, behavior: "smooth" });
-          
-          // NO: OPTIONAL: set URL hash WITHOUT triggering browser + GitBook navigation behavior (unlike `location.hash = id`)
-          // history.replaceState(null, null, "#" + id);
-        
-          // retry if we are NOT close enough
-          const rect = elm.getBoundingClientRect();
-       // const isVisible = rect.top    >= 0 && rect.top < window.innerHeight; // ORIGINAL
-          const isVisible = rect.bottom >  0 && rect.top < window.innerHeight; // BETTER
-
-          if (!isVisible && attempts < maxAttempts) {
-            setTimeout(tryScroll, 150); // XX try waiting different intervalse (500 vs 150) ... CAN STILL FAIL ... WEIRD: the different interval caused different entries to fail/succeed
-          }
-          else {
-            // temporary diagnostic: reveals what we did
-            // ... alert's BLOCK, so do this first so the highlight (below) will still be visable
-            console.log(`?? scrollTo() attempts: ${attempts}`); // ?? was alert() switched to console.log() now we have remote debugging
-            console.log('?? elm.offsetParent (if null (which its NOT) will not display - either "display: none" or in a detached/hidden subtree: ', elm.offsetParent);
-
-            // highlight the target briefly
-            elm.classList.add('highlight');
-            setTimeout(() => elm.classList.remove('highlight'), 2000);
-          }
-        }
-        
-        // kick off process (initial delay is CRITICAL for mobile)
-        setTimeout(tryScroll, 300);
-    });
-
-    const goToAlgorithm_scrollToContainer = annotateFunction(
-      {
-        desc:   '3c. scrollToContainer: FROM ChatGPT: scroll using the actual GitBook scroll container',
-        result: 'THIS ALGORITHM (from ChatGPT) DOES NOTHING EVEN ON MY LAPTOP ... ChatGPT EXPECTED: Works on BOTH Laptop and Cell Phone (including lower viewport)',
-      },
-      function(id, elm) {
-        // identify the correct scroll container
-        const container = document.querySelector('.page-inner') ||
-                          document.querySelector('.body-inner') ||
-                          document.querySelector('.book-body')  ||
-                          document.scrollingElement;
-    
-        // compute positions relative to container
-        const rect          = elm.getBoundingClientRect();
-        const containerRect = container.getBoundingClientRect();
-        const offset        = rect.top - containerRect.top + container.scrollTop - (container.clientHeight / 2);
-    
-        // scroll the container (NOT the window)
-        container.scrollTo({
-          top: offset,
-          behavior: 'smooth'
-        });
-    
-        // highlight the target briefly
-        elm.classList.add('highlight');
-        setTimeout(() => elm.classList.remove('highlight'), 2000);
-    });
-
     // catalog all of our goToAlgorithms
     const goToAlgorithms = [
-//?   goToAlgorithm_hash,
-      goToAlgorithm_hashWithTimer,                // ? location.hash = id; ... closest thing to production
-//?   goToAlgorithm_hashStable,
-//?   goToAlgorithm_hashFromBottom,
-//?   goToAlgorithm_hashUsingHistoryAPI,
-//?   goToAlgorithm_scrollIntoView,
-//?   goToAlgorithm_scrollIntoViewWithTimer,
-//?   goToAlgorithm_scrollIntoViewAfterStabalized,
-//?   goToAlgorithm_scrollIntoViewBottomFirst,
-      goToAlgorithm_scrollIntoViewWithRetry,       // ? latest scrollIntoView()
-//?   goToAlgorithm_scrollTo,
-//?   goToAlgorithm_scrollToWithRetry,
-//?   goToAlgorithm_scrollToContainer,
-      // goToAlgorithm_scrollToContainerWithRetry // NAH: consider this too ... I have NO luck with any scrollTo()
+      goToAlgorithm_hash,                      // OUR GOLDEN WINNER THAT WORKS IN ALL CASES (EVEN ON CELL PHONE) ... all others cached in: c:/data/tech/dev/project/MyWeb/fw.goTo.js
+//    goToAlgorithm_hashStable,
+//    goToAlgorithm_hashFromBottom,
+//    goToAlgorithm_hashUsingHistoryAPI,
+//    goToAlgorithm_scrollIntoView,
+//    goToAlgorithm_scrollIntoViewWithTimer,
+//    goToAlgorithm_scrollIntoViewAfterStabalized,
+//    goToAlgorithm_scrollIntoViewBottomFirst,
+//    goToAlgorithm_scrollIntoViewWithRetry,
+//    goToAlgorithm_scrollTo,
+//    goToAlgorithm_scrollToWithRetry,
+//    goToAlgorithm_scrollToContainer,
+//    goToAlgorithm_scrollToContainerWithRetry // NAH: consider this too ... I have NO luck with any scrollTo()
     ];
     let CUR_goToAlgorithm = 0;  // STATE: current index into goToAlgorithms (currently non-persistent, but only resets on page refresh)
     // console.log(`xXXexpanding fw.js module - resetting CUR_goToAlgorithm: ${CUR_goToAlgorithm} `); // ... this is done for a refresh NOT general navigation
 
     // NOTE: Regarding `CUR_goToAlgorithm` (above), I had considered making this persistent, 
-    //       similar to ourcheckboxes, but really NOT needed, because our existing
-    //       technique is persistent enough for a diagnostic tool.
+    //       similar to our checkboxes, but that is really NOT needed, because this existing
+    //       technique is persistent enough for a diagnostic tool (it only resets on a page refresh)
     //       
     //       To accomplish this, we could:
     //       - NO: go full bore and created a fwGoToAlgorithm.js
@@ -1749,7 +1448,8 @@ if (!window.fw) { // only expand this module once (conditionally)
     //       - CONSIDER: add a couple of methods to fwCompletions.js -OR- fwSettings.js
     //                   ... pattern after: "Collapsible Section API" in fwCompletions.js
 
-    // ?? NEW END ********************************************************************************
+
+
     
     //***************************************************************************
     //***************************************************************************
