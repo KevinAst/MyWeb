@@ -1259,6 +1259,197 @@ if (!window.fw) { // only expand this module once (conditionally)
       });
     }
 
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.goToEasterEgg()
+    //* 
+    //* Interpret the "goTo" easter egg, allowing the user to change the "goTo" algorithm.
+    //* 
+    //* BACKGROUND: 
+    //*   This was in support of diagnosing issues with the "goTo" function operating correctly on Cell phones.
+    //*   This easter egg allows us to try different algorithms in production.
+    //* 
+    //* OPERATION: 
+    //*   This function is wired to the on-click function of the easter egg, found in devoYYYY.md
+    //* 
+    //*   - SINGLE-CLICK: Informs user of the current persisted algorithm (via a simple alert).
+    //*   - DOUBLE-CLICK: Advances the persisted algorithm to the next one, also informing the user (via a simple alert).
+    //*--------------------------------------------------------------------------
+    let clickTimer = null;
+    fw.goToEasterEgg = function () {
+
+      // double click (when timer is active)
+      if (clickTimer) {
+        clearTimeout(clickTimer);
+        clickTimer = null;
+
+        // notify user when there are NO alternatives
+        // ... typically production has only ONE algorithm
+        if (goToAlgorithms.length === 1) {
+          alert(`There is only one goToAlgorithm (cannot advance):\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
+          return;
+        }
+        
+        // advance algorithm to next, persist, alert user of change
+        // ... increments the index, resetting to 0 when it reaches the end
+        CUR_goToAlgorithm = (CUR_goToAlgorithm + 1) % goToAlgorithms.length;
+        alert(`Advance goToAlgorithm to:\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
+        return;
+      }
+
+      // single click (setup timer to handle this)
+      clickTimer = setTimeout(() => {
+        clickTimer = null;
+
+        // reveal current algorithm to user
+        alert(`Current goToAlgorithm is:\n\n${goToAlgorithms[CUR_goToAlgorithm].desc}\n\nTest Result: ${goToAlgorithms[CUR_goToAlgorithm].result}`);
+
+      }, 250); // double click threshold (ms)
+    }
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.goToLatestDevotion()
+    //* 
+    //* Fancy function to navigate to the "Latest" published devotion,
+    //* with highlighting, etc. ... patterned after fw.goToMyNextDevotion().
+    //* 
+    //* NOTE: When this function is invoked on the TOC page of the current year
+    //*       being published, it will do the fancy highlighting, 
+    //*       by navigating directly to the 'latest' hash.
+    //* 
+    //*       Otherwise, it will fallback to what is defined in book.json {{book.LatestDevotion}}
+    //*       passed in as a parameter (latestFallback).
+    //* 
+    //*       Only one 'latest' entry should be maintained within the devoYYYY.md pages,
+    //*       BECAUSE publishing occurs only in one specific year.
+    //*--------------------------------------------------------------------------
+    // ORIGINAL PUBLIC FUNCTION <<< NOW RETRIFITTED TO: goTo()
+    fw.goToLatestDevotion = function (latestFallback) {
+
+      // locate the latestElm to navigate to (assuming it is on this page)
+      // ... only the TOC page of the current publishing year should have this element on it!
+      const latestElm = document.getElementById('latest');
+
+      // when there is NO 'latest' element on this page ...
+      if (!latestElm) {
+        // fallback to what is defined in book.json {{book.LatestDevotion}}
+        // ... passed in as a parameter to us
+        window.location.href = '/FireWithin' + latestFallback;
+        return;
+      }
+
+      // navigate to the "latest" on this page
+      goTo('latest');
+    }
+
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.goToMyNextDevotion()
+    //* 
+    //* A dynamic function that navigates to the next Uncompleted Devotional TOC entry,
+    //* by dynamically looking at all the checkbox completion entries in the DOM.
+    //*--------------------------------------------------------------------------
+    fw.goToMyNextDevotion = function () {
+
+      // iterate through all TOC Page DOM checkbox entries
+      // ... to determine whether the devos have been completed or not
+      const checkboxes = document.querySelectorAll('input[type="checkbox"][id^="devo"]');
+      for (let i = 0; i < checkboxes.length; i++) {
+        const checkbox = checkboxes[i];
+    
+        // for the first NON-COMPLETED devo (within this TOC page) ...
+        if (!checkbox.checked) {
+          goTo(checkbox.id);
+          return;
+        }
+      }
+    
+      // if ALL devotions are complete, let the user know
+      alert("🎉 You have completed all available devotions on this year's page!");
+    }
+
+    // clearing house entry point for all goTo functions
+    //  - applys all common heuristics, from known entry points
+    //  - filters all requests into the active algorithm
+    function goTo(id) {
+      let elm = document.getElementById(id);
+
+      if (id === 'latest') { // latest structure: <li> <b id="latest">Latest:</b> </li>  <li> ... subsquent entry is LATEST entry </li>
+        elm = elm.closest("li");
+        elm = elm.nextElementSibling;
+      }
+      else { // devo index sturcture: <li> <label> <input type="checkbox" ... id="devoYYYMMDD"> </label> MORE-DETAIL-OMITTED </li>
+        elm = elm.closest("li");
+      }
+
+      // pass through to active algorithm
+      const goToFn = goToAlgorithms[CUR_goToAlgorithm];
+   // console.log(`XX EXECUTING: ${goToFn.desc}: `, {id, elm});
+      goToFn(id, elm); // NOTE: the id does NOT have to represent the exact elm >>> the concrete goToFn() can use either or both to do it's job
+    }
+
+    // convenience utility allowing our desc/result to appear BEFORE the function definition
+    // ... basically reverses the params of Object.assign(),
+    function annotateFunction(annotate, fn) {
+      Object.assign(fn, annotate);
+      return fn;
+    }
+
+    // NOTE: THIS IS OUR GOLDEN WINNER THAT WORKS IN ALL CASES (EVEN ON CELL PHONE)
+    const goToAlgorithm_hash = annotateFunction(
+      {
+        desc:   '1a. hashWithTimer: simple GitHub URL hash change',
+        result: 'Laptop: Works GREAT! / Cell Phone: Works GREAT :-(',
+      },
+      function(id, elm) {
+        // navigate to this section of the TOC
+        // NOTE: We simply change the URL hash directly (very simple)!
+        //       GitBook intercepts this and does the right thing.
+        // WORK-AROUND: We first navigate to a well-known spot on the page (`quick-navigation`).
+        //              This is a work-around to make it work a second time,
+        //              when the user scrolls back up and activates the button again.
+        //              Without this, the second request no-ops (presumably because the hash is already in the URL)
+        location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
+        
+        // move to the target
+        location.hash = id;
+
+        // highlight the target briefly
+        elm.classList.add('highlight');
+        setTimeout(() => elm.classList.remove('highlight'), 2000);
+    });
+
+    // catalog all of our goToAlgorithms
+    const goToAlgorithms = [
+      goToAlgorithm_hash,                      // OUR GOLDEN WINNER THAT WORKS IN ALL CASES (EVEN ON CELL PHONE) ... all others cached in: c:/data/tech/dev/project/MyWeb/fw.goTo.js
+//    goToAlgorithm_hashStable,
+//    goToAlgorithm_hashFromBottom,
+//    goToAlgorithm_hashUsingHistoryAPI,
+//    goToAlgorithm_scrollIntoView,
+//    goToAlgorithm_scrollIntoViewWithTimer,
+//    goToAlgorithm_scrollIntoViewAfterStabalized,
+//    goToAlgorithm_scrollIntoViewBottomFirst,
+//    goToAlgorithm_scrollIntoViewWithRetry,
+//    goToAlgorithm_scrollTo,
+//    goToAlgorithm_scrollToWithRetry,
+//    goToAlgorithm_scrollToContainer,
+//    goToAlgorithm_scrollToContainerWithRetry // NAH: consider this too ... I have NO luck with any scrollTo()
+    ];
+    let CUR_goToAlgorithm = 0;  // STATE: current index into goToAlgorithms (currently non-persistent, but only resets on page refresh)
+    // console.log(`xXXexpanding fw.js module - resetting CUR_goToAlgorithm: ${CUR_goToAlgorithm} `); // ... this is done for a refresh NOT general navigation
+
+    // NOTE: Regarding `CUR_goToAlgorithm` (above), I had considered making this persistent, 
+    //       similar to our checkboxes, but that is really NOT needed, because this existing
+    //       technique is persistent enough for a diagnostic tool (it only resets on a page refresh)
+    //       
+    //       To accomplish this, we could:
+    //       - NO: go full bore and created a fwGoToAlgorithm.js
+    //             ... pattern after: fwSettings.js
+    //       - CONSIDER: add a couple of methods to fwCompletions.js -OR- fwSettings.js
+    //                   ... pattern after: "Collapsible Section API" in fwCompletions.js
+
+
+
     
     //***************************************************************************
     //***************************************************************************

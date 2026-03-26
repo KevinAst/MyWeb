@@ -4,39 +4,41 @@ _**Daily Devotions from Gary Hamrick
 <span class="phone-inline"><br/></span>
 ... Senior Pastor of {{book.CornerstoneChapel}}**_
 
-## Quick Links
+## Quick Navigation
 
-- {{book.LatestDevotion}}
+<div class="indent">
+  <button type="button" onclick="fw.goToLatestDevotion('{{book.LatestDevotion}}');">Latest Published Devotion</button>
+</div>
+
 
 ## Devotions by Year
 
-- _... the start of this archive_
+- _... bookmark the current year for quick access_
 - [2026 Devotions](/devo2026.md)
 
 
 ## Background
 
 I have been doing daily devotions since my renewed faith experience in
-2020—using both the 
-[YouVersion Bible App](https://www.youversion.com/) and a devotional
-from the pastor of my local church. For a time, I also shared a
-devotional email with a number of friends.
+2020 - using two different sources: one from the [YouVersion Bible
+App](https://www.youversion.com/) , and another from my local church
+({{book.FBM}}).  I also have shared these devotions through an email
+blast to a number of friends.
 
 Following my pastor’s retirement in February 2026, and noticing that
 many YouVersion devotions were repeating, I began looking for a new
 devotional source.
 
 That’s when I discovered that Pastor Gary Hamrick (of
-{{book.CornerstoneChapel}}) offers a daily devotion. This is the same
-ministry that was instrumental in my renewed faith experience, and I
-am deeply grateful for Pastor Gary. Through the Holy Spirit, his
-teaching often brings insights I might never have considered on my
-own.
+{{book.CornerstoneChapel}}) offered a daily devotional. This is the same
+ministry that was instrumental in my renewed faith experience. I am so
+grateful for Pastor Gary.  Through his teaching _(inspired by the Holy
+Spirit)_, I see insights that I might never have considered on my own.
 
 These devotions are published through the [Sermons
 Online](https://sermons-online.org/gary-hamrick/devotion)
-website. However, I found the platform somewhat clunky and
-distracting, with limited access to past content _(one month)_.
+website. However, I found this platform to be somewhat clunky and
+distracting.
 
 <!-- Tested window on 3/17/2026, and it promoted months worth, from 2/17 - 3/17 (in 5 pages) -->
 
@@ -46,24 +48,40 @@ following benefits:
 - **A distraction-free experience** — focused entirely on the
   devotional content
 
-- **Linked Scripture references** — each passage connects directly to
+- **Linked Scripture References** — each passage connects directly to
   the [YouVersion Bible App](https://www.youversion.com/), making it
   easy to dig deeper - **electronically**
 
-- **Progress tracking** — like other resources in {{book.FireWithin}},
-  completion checkboxes help you stay on track
+- **Digging Deeper** — some devotions may include an additional
+  "Digging Deeper" section that includes additional scripture
+  references
 
-- **Permanent access** — devotions are archived starting from
-  2/28/2026, so you can return to them anytime
+- **Progress Tracking** — like other resources on this site,
+  [completion checkboxes] help you stay on track
 
-> _**<mark>Please Note</mark>:** While the devotions are organized by
+- **Permanent Access** — these devotions have been permanently
+  archived, and are available in a very concise format, allowing you
+  to easily return to them at anytime
+
+> _**<mark>Please Note</mark>:** While these devotions are organized by
 > date of publication, you can begin at any point and move forward.
-> The completion checkboxes will help you track your progress._
+> The [completion checkboxes] will help you track your progress._
 
-> _**<mark>Also Note</mark>:** Devotions may occasionally be posted
-> with up to a one-week delay as I finalize the publishing process. If
-> so, you can simply follow along one week behind—again, using the
-> checkboxes to keep your place.
+> _**<mark>Also Note</mark>:** I am still working out the details of
+> when new content on this site is published (there may be a delay of up
+> to one week).  Even so, you can still follow along (even one week
+> behind) — again, using the [checkboxes] to keep your place._
 
-My hope is that resource is a blessing to you and helps you grow in
-your daily walk with the Lord.
+My prayer is that this resource is a blessing to you and helps you
+grow in your daily walk with the Lord.
+
+_May the Lord bless you,_
+<br/>**&lt;/Kevin&gt;**
+<br/><span id="inquire"></span>
+<script>
+  withFW( ()=>fw.addInquire('Fire%20Within%20Devotions%20Feedback') )
+</script>
+
+
+[completion checkboxes]: /start.md#where-am-i
+[checkboxes]:            /start.md#where-am-i

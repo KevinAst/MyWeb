@@ -446,3 +446,23 @@ body.isolated-page .navigation-next {
 .right-link {
   float: right;
 }
+
+/* Provide smooth scrolling for programatic hash changes (`location.hash = id;`)
+   using the GitBook scroll container (which is NOT html).
+   SEE: ../js/fw.js (fw.goToMyNextDevotion())
+   BAD: I subsequently discovered THIS BREAKS Cell Phone Browser Scrolling in an unpredictable way!
+        I have NO IDEA WHY :-(
+   PUNT: and live with NO smooth scrolling
+.book-body {
+  scroll-behavior: smooth !important;
+}
+*/
+
+/* adjust scroll offset for ANY input element with an id that begins with `devo`
+   USED in Daily Devotions programatic scrolling 
+   TO MAKE `location.hash = id;` NOT BUTT UP to the top
+   SEE: ../js/fw.js (fw.goToMyNextDevotion())
+*/
+input[id^="devo"] {
+  scroll-margin-top: 80px;
+}
