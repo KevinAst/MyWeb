@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
 > <br/> **Albums: 595**          _... categorized below!!_
-> <br/> **Photos: 47,044**       _... Yikes!!!_
+> <br/> **Photos: 47,389**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Georgie Birthday
 
-* 04/2026: 12 [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (xx pics)
+* 04/2026: 12 [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (345 pics)
 - 05/2025: 11 _look in_: [4/2025 Easter in PA with all the Grands](https://photos.google.com/share/AF1QipPKNBZ5q-wA4ppP1u1Qx22JJUNC3sNeqdeF_KQEg3_xs1VS2YtzngFI5f6K6lK0tw?key=eDA4Um5aWEF4eTY1Mnk0ckdrWDNmSGVkcGdNa19R) _(304 pics)_
 - 05/2024: 10 [2024 Georgie is 10 ... Mimi and Papaw's Road Trip](https://photos.google.com/share/AF1QipO6Ob9HN_vzK7v1JxyWfRl2LQA3nUJulcKpR1KCatgKtPflLMkpKrOIKflBwfjlqg?key=SmlXb24wUEhxNjFhdkJxSU41LXU0cmY3VVlacTJR) _(555 pics)_
 - 04/2024: 10 [Georgie's 10](https://photos.google.com/share/AF1QipN3_rsq1JFM9qFHS8W1XIr1ovN8e4V1o3PmPn-yFcA7HBUDnY4MEXT9vh-o1-hEUA?key=T2dhM3ROdjdXSjFERXhjOUZWUENkVG5sc1hCM0hn) _(54 pics)_
