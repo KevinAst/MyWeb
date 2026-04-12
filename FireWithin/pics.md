@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 595**          _... categorized below!!_
-> <br/> **Photos: 47,389**       _... Yikes!!!_
+> <br/> **Albums: 596**          _... categorized below!!_
+> <br/> **Photos: 47,398**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -214,6 +214,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### AJ Birthday
 
+- 04/2026: [Album: AJ is 38](https://photos.google.com/share/AF1QipPqTDpwzNdKcQ0voFvQJjrRnx5N4A7OZI-qmX_SXVhVhNkGtGec6kfsOsrP4ZH2qg?key=ZEdCX3dZMG5MVDJsOU1oYmpGOUtrOEtlOGV0THF3) _(9 pics)_
 - 04/2025: MISSING
 - 04/2024: [AJ's HaPpY BiRtHDaY (36th - 4/12/2024)](https://photos.google.com/share/AF1QipNCT_tRKdybIC0WaYsj7hBsa0L_RZJ2s_Tm576swUiaUitSkKVv-GQn11VpsRtRJQ?key=dHJZdVY2VnFmekRjSENiQ3JHQ3g2WjJNU3B3OFpB) _(5 pics)_
 - 04/2023: [Happy Birthday AJ & Gaige (4/2023)](https://photos.google.com/share/AF1QipOdV-9XKd7lv8jTyHyKvdQscFyw1aEr0W0or24xlUx93Ab8xjexNkKtN8IIbG2YmA?key=TExjbTJ1ZHlFMVZYMGNjOXgwYXdXM2dJYTU1b193) _(31 pics)_
