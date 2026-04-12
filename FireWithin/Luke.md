@@ -16,6 +16,7 @@ blindness, we can see him and the scriptures as they truly are.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
 - [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
 
@@ -71,6 +72,18 @@ M{ youTube(`26z_KhwNdD8`) }M
 
 M{ youTube(`4kMbN9bwgM8`) }M
 
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Sat 02/28/2026',
+       topic:               'Faithful in the Days of the Son of Man',
+       verse:               'Luke 17:28-30',
+       verseRef:            'luk.17.28-30',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014-2015 Luke Series (Mid Week)

@@ -1916,6 +1916,7 @@ function devoGHTOC(namedParams={}) {
     topic,
     verse,
     verseRef,
+    forBTB=false,
     ...unknownNamedArgs
   } = namedParams;
 
@@ -1936,6 +1937,9 @@ function devoGHTOC(namedParams={}) {
   // ... verseRef
   checkParam(verseRef,                      'verseRef is required');
   checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
+
+  // ... forBTB
+  checkParam(isBoolean(forBTB), 'forBTB (when supplied) must be a boolean (format entry for "by the book") DEFAULT: false');
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -1962,25 +1966,49 @@ function devoGHTOC(namedParams={}) {
   // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
   // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
-  // the completion checkbox for this devo
-  // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-  content += completedCheckBox(`${devoKey}@@ ${publicationDate}\n`);
+  // the layout varies for "by the book"
+  if (forBTB) { // "by the book" entry
+    // our devotion scripture reference
+    const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+    content += `${devoVerseLink}\n`;
 
-  // responsive cr/lf for phone
-  content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+    // responsive '-' seperator for desktop
+    content += `<span class="desktop-inline">-</span>\n`;
 
-  // the devotion TOC link
-  content += `<a href="${devoKey}.html">${topic}</a>\n`;
+    // responsive cr/lf for phone
+    content += `<span class="phone-inline"><br/></span>\n`;
+
+    // the devotion TOC link
+    content += `<a href="${devoKey}.html">${topic}</a>\n`;
+
+    // responsive cr/lf for phone
+    content += `<span class="phone-inline"><br/></span>\n`;
+
+    // the completion checkbox for this devo
+    // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+    content += `for ` + completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+  }
+  else { // normal entry
+    // the completion checkbox for this devo
+    // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+    content += completedCheckBox(`${devoKey}@@ ${publicationDate}\n`);
+
+    // responsive cr/lf for phone
+    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+
+    // the devotion TOC link
+    content += `<a href="${devoKey}.html">${topic}</a>\n`;
   
-  // responsive '-' seperator for desktop
-  content += `<span class="desktop-inline">-</span>\n`;
+    // responsive '-' seperator for desktop
+    content += `<span class="desktop-inline">-</span>\n`;
 
-  // responsive cr/lf for phone
-  content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+    // responsive cr/lf for phone
+    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
 
-  // our devotion scripture reference
-  const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-  content += `${devoVerseLink}`; // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+    // our devotion scripture reference
+    const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+    content += `${devoVerseLink}`; // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+  }
 
   // diagnostic comment
   // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
