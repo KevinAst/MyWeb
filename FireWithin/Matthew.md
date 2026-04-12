@@ -11,6 +11,7 @@ how Jesus fulfills it.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
 - [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
 - [Matthew Misc Selection](#matthew-misc-selection)
@@ -63,6 +64,26 @@ M{ youTube(`GGCF3OPWN14`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`F8QsCLwSMVM`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Sat 03/28/2026',
+       topic:               'Seeking a Godly Spouse',
+       verse:               'Matthew 6:33',
+       verseRef:            'mat.6.33',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 03/27/2026',
+       topic:               'Baptized in the Name of the Lord',
+       verse:               'Matthew 28:19',
+       verseRef:            'mat.28.19',
+       forBTB:              true,
+     }) }M
 
 
 

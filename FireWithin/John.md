@@ -12,6 +12,7 @@ Jesus is the Son of God who died for our sins.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 John Series (Mid Week)](#2015-john-series-mid-week)
 - [2022 John Series (Sundays)](#2022-john-series-sundays)
 
@@ -61,6 +62,33 @@ M{ youTube(`RUfh_wOsauk`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`Vi2bfQlGY4w`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 04/08/2026',
+       topic:               'God Is Not to Be Used',
+       verse:               'John 4:24',
+       verseRef:            'jhn.4.24',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 04/09/2026',
+       topic:               'Grace That Restores and Redirects',
+       verse:               'John 8:11',
+       verseRef:            'jhn.8.11',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 03/22/2026',
+       topic:               'Abiding in Christ',
+       verse:               'John 15:4',
+       verseRef:            'jhn.15.4',
+       forBTB:              true,
+     }) }M
 
 
 

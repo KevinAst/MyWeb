@@ -17,6 +17,7 @@ cross is the wisest thing that has ever happened.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
 - [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
@@ -61,6 +62,26 @@ M{ youTube(`yiHf8klCCc4`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`0_LhiD-XNr0`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Thu 03/19/2026',
+       topic:               'Holy Fellowship',
+       verse:               '1 Corinthians 5:11',
+       verseRef:            '1co.5.11',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 03/08/2026',
+       topic:               'Guarding the Heart from Small Compromises',
+       verse:               '1 Corinthians 10:12',
+       verseRef:            '1co.10.12',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)

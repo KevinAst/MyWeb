@@ -12,6 +12,7 @@ wait in this earthly exile for his return.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
 - [Psalms Misc Selection](#psalms-misc-selection)
 
@@ -60,6 +61,40 @@ M{ youTube(`j9phNEaPrv8`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`L6NSw20AkJQ`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Tue 03/17/2026',
+       topic:               'Led by the Light of God’s Word',
+       verse:               'Psalm 25:4',
+       verseRef:            'psa.25.4',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 04/06/2026',
+       topic:               'The Lord as Our True Security',
+       verse:               'Psalm 33:12',
+       verseRef:            'psa.33.12',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 03/26/2026',
+       topic:               'The Limits of Our Days',
+       verse:               'Psalm 90:10',
+       verseRef:            'psa.90.10',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sat 04/11/2026',
+       topic:               'Established in His Presence',
+       verse:               'Psalm 138:8',
+       verseRef:            'psa.138.8',
+       forBTB:              true,
+     }) }M
 
 
 

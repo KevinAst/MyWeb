@@ -18,6 +18,7 @@ Christ, true power comes in weakness.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
 - [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
 - [2025 2 Corinthians Series (Sundays)](#2025-2-corinthians-series-sundays)
@@ -63,6 +64,19 @@ M{ youTube(`3lfPK2vfC54`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`nmdsoTt_gv0`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Sun 03/29/2026',
+       topic:               'Present With the Lord',
+       verse:               '2 Corinthians 5:8',
+       verseRef:            '2co.5.8',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)

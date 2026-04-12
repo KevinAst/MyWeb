@@ -12,6 +12,7 @@ every proud king to bow.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 1 Samuel Series (Sundays)](#2014-1-samuel-series-sundays)
 - [2023 1 Samuel Series (Mid Week)](#2023-1-samuel-series-mid-week)
 
@@ -66,6 +67,26 @@ M{ youTube(`QJOju5Dw0V0`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`I97PwEJ5Ok0`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Tue 03/31/2026',
+       topic:               'Pouring Out the Soul Before God',
+       verse:               '1 Samuel 1:10',
+       verseRef:            '1sa.1.10',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 04/12/2026',
+       topic:               'Return to the Lord with All Your Heart',
+       verse:               '1 Samuel 7:3',
+       verseRef:            '1sa.7.3',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014 1 Samuel Series (Sundays)

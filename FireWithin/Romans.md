@@ -23,6 +23,7 @@ Rome, and how Jesus brings them together.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
 - [2021 Romans Misc](#2021-romans-misc)
@@ -75,6 +76,33 @@ M{ youTube(`0SVTl4Xa5fY`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`kPsSW4Q3o9o`) }M
+
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 04/01/2026',
+       topic:               'God Reveals Himself to All',
+       verse:               'Romans 1:20',
+       verseRef:            'rom.1.20',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 03/18/2026',
+       topic:               'The Grace That Covers Every Sin',
+       verse:               'Romans 3:23',
+       verseRef:            'rom.3.23',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 04/03/2026',
+       topic:               'Overcoming Hatred with Christlike Love',
+       verse:               'Romans 12:21',
+       verseRef:            'rom.12.21',
+       forBTB:              true,
+     }) }M
 
 
 

@@ -12,6 +12,7 @@ way that escapes vanity and builds meaning.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Ecclesiastes Series (Sundays)](#2018-ecclesiastes-series-sundays)
 
 
@@ -56,6 +57,18 @@ M{ youTube(`lrsQ1tc-2wk`) }M
 
 M{ youTube(`mCrtxkeQE_8`) }M
 
+
+## Devotions "by the book"
+
+Devotions organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 03/06/2026',
+       topic:               'Guarding Our Words Before the Lord',
+       verse:               'Ecclesiastes 5:4',
+       verseRef:            'ecc.5.4',
+       forBTB:              true,
+     }) }M
 
 
 ## 2018 Ecclesiastes Series (Sundays)
