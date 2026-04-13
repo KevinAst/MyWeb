@@ -1317,14 +1317,13 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*       being published, it will do the fancy highlighting, 
     //*       by navigating directly to the 'latest' hash.
     //* 
-    //*       Otherwise, it will fallback to what is defined in book.json {{book.LatestDevotion}}
-    //*       passed in as a parameter (latestFallback).
+    //*       Otherwise, it will fallback to the current year (e.g. `/devo2026.html#latest`)
     //* 
     //*       Only one 'latest' entry should be maintained within the devoYYYY.md pages,
     //*       BECAUSE publishing occurs only in one specific year.
     //*--------------------------------------------------------------------------
     // ORIGINAL PUBLIC FUNCTION <<< NOW RETRIFITTED TO: goTo()
-    fw.goToLatestDevotion = function (latestFallback) {
+    fw.goToLatestDevotion = function () {
 
       // locate the latestElm to navigate to (assuming it is on this page)
       // ... only the TOC page of the current publishing year should have this element on it!
@@ -1332,9 +1331,17 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // when there is NO 'latest' element on this page ...
       if (!latestElm) {
-        // fallback to what is defined in book.json {{book.LatestDevotion}}
-        // ... passed in as a parameter to us
-        window.location.href = '/FireWithin' + latestFallback;
+        // fallback to the current year (e.g. `/devo2026.html#latest`)
+        const curYear        = String(new Date().getFullYear());
+        const latestDevoPage = `/devo${curYear}.html#latest`;
+        window.location.href = '/FireWithin' + latestDevoPage;
+
+        // provide a delayed scroll/highlight via JavaScript logic
+        // ... once we are now on the latest devo page
+        // >>> does NOT do anything (unsure why) - suspect it is holding on to the old DOM
+        setTimeout(() => goTo('latest'), 300);
+
+        // we are done
         return;
       }
 
