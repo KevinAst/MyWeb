@@ -876,6 +876,7 @@ This macro should be used with the normal Pre Process Tag (`M{`).
     topic:               `devotion topic here`,     // devotion topic
     verse:               `Luke 17:28-30`,           // verse label
     verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
+    forBTB:              true/false,                // format entry for "by the book" (DEFAULT: false)
   }
 
   ```
