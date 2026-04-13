@@ -80,7 +80,7 @@ M{ youTube(`kPsSW4Q3o9o`) }M
 
 ## Devotions "by the book"
 
-Devotions organized by scripture reference, cataloged here - in the host book:
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
        publicationDate:     'Wed 04/01/2026',

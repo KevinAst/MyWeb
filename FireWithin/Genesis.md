@@ -77,7 +77,7 @@ M{ zoomableImg(`GenealogyAbraham`) }M
 
 ## Devotions "by the book"
 
-Devotions organized by scripture reference, cataloged here - in the host book:
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
        publicationDate:     'Wed 03/25/2026',
