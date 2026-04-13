@@ -7,7 +7,7 @@ _**Daily Devotions from Gary Hamrick
 ## Quick Navigation
 
 <div class="indent">
-  <button type="button" onclick="fw.goToLatestDevotion('{{book.LatestDevotion}}');">Latest Published Devotion</button>
+  <button type="button" onclick="fw.goToLatestDevotion();">Latest Published Devotion</button>
 </div>
 
 
