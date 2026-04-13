@@ -66,7 +66,7 @@ M{ youTube(`Vi2bfQlGY4w`) }M
 
 ## Devotions "by the book"
 
-Devotions organized by scripture reference, cataloged here - in the host book:
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
        publicationDate:     'Wed 04/08/2026',
@@ -80,6 +80,13 @@ Devotions organized by scripture reference, cataloged here - in the host book:
        topic:               'Grace That Restores and Redirects',
        verse:               'John 8:11',
        verseRef:            'jhn.8.11',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 04/13/2026',
+       topic:               'Eyes Opened by Christ',
+       verse:               'John 9:25',
+       verseRef:            'jhn.9.25',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
