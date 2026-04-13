@@ -1754,7 +1754,30 @@ function devoGHStart(namedParams={}) {
   const [, datePortion] = publicationDate.split(" ");
   const [mm, dd, yyyy]  = datePortion.split("/");
   const devoKey         = `devo${yyyy}${mm}${dd}`;
-  pageUpLink            = `/devo${yyyy}.md`;
+  devoPageUpLink        = `/devo${yyyy}.md`;
+
+  // devise our devotion book link (e.g. `/Matthew.md#devotions-by-the-book`)
+  function getBook(v) {
+    // extract book from regular expression
+    // `^`         - start of the string
+    // `[1-3]?`    - optional leading number (for books like 1 Samuel, 2 Kings)
+    // `\s?`       - optional space
+    // `[A-Za-z]+` - the book name
+    const  match = v.match(/^[1-3]?\s?[A-Za-z]+/);
+    let    book  = match ? match[0] : '';
+
+    // standardize Psalms ... Psalm is Psalms
+    if (book === 'Psalm') {
+      book = 'Psalms';
+    }
+
+    // remove all spaces ... e.g. '1 Samuel' becomes '1Samuel'
+    book = book.replace(/\s+/g, '');
+
+    // that's all folks
+    return book
+  }
+  devoBookLink = `/${getBook(verse)}.md#devotions-by-the-book`;
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -1770,7 +1793,7 @@ function devoGHStart(namedParams={}) {
   content += `<h3 id="a-daily-devotion">Your Daily Devotion</h3>\n\n`;
 
   // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
-  content += `<a class="right-link" href="${pageUpLink}">↰ UP</a>\n\n`;
+  content += `<p class="right-link"><a href="${devoPageUpLink}">↰ Devo</a> / <a href="${devoBookLink}">↰ Book</a></p>\n\n`;
 
   // open indentation directive
   content += `<div class="indent">\n\n`;
@@ -1821,7 +1844,9 @@ function devoGHStart(namedParams={}) {
   return content;
 }
 
-let pageUpLink = ''; // quick hack ... we retain pageUpLink in this global context to communicate between two macros (devoGHStart()/devoGHEnd())
+// quick hack ... these links are retained in our global context to communicate between two macros (devoGHStart()/devoGHEnd())
+let devoPageUpLink = ''; // ... the devotion page-up link (e.g. `/devo2026.md`)
+let devoBookLink   = ''; // ... the devotion book link    (e.g. `/Matthew.md#devotions-by-the-book`)
 
 //*-----------------------------------------------------------------------------
 //* devoGHEnd(prayer)
@@ -1875,8 +1900,9 @@ function devoGHEnd(prayer) {
   content += `</div>\n\n`;
 
   // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
-  // ... NOTE: quick hack ... we retained pageUpLink from our devoGHStart() macro
-  content += `<p><a class="right-link" href="${pageUpLink}">↰ UP</a>\n\n`;
+  // ... NOTE: quick hack ... we retained devoPageUpLink/devoBookLink from our devoGHStart() macro
+  content += `<p class="right-link"><a href="${devoPageUpLink}">↰ Devo</a> / <a href="${devoBookLink}">↰ Book</a></p>\n\n`;
+
 
   // diagnostic comment
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
