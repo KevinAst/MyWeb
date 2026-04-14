@@ -63,10 +63,11 @@ following benefits:
   "Digging Deeper" section that highlights additional scripture
   references
 
-- **Additional Organization** — these devotions can be located by `date
-  of publication` _(on this page)_, and by `scripture reference`
-  _(found in the host book [e.g. [Luke](/Luke.md#devotions-by-the-book)], 
-  through a section called `Devotions "by the book"`)_.
+- **Locate Devotions by Scripture Reference** — while this page
+  promotes devotions by `date of publication`, you can also locate
+  a devotion by `scripture reference` - found in the host book _(for
+  example [Luke](/Luke.md#devotions-by-the-book))_ through a section
+  entitled `Devotions "by the book"`.
 
 > _**<mark>Please Note</mark>:** While these devotions are organized by
 > date of publication, you can begin at any point and move forward.
