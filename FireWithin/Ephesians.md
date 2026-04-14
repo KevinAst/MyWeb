@@ -11,6 +11,7 @@ and is working within us to bring unity where there was division.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
 - [2017 Ephesians Series (Mid Week)](#2017-ephesians-series-mid-week)
 - [2025 Ephesians Series (Sundays)](#2025-ephesians-series-sundays)
@@ -60,6 +61,19 @@ M{ youTube(`Y71r-T98E2Q`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`oJUVc_fpA14`) }M
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Thu 03/12/2026',
+       topic:               'Strength to Finish Well',
+       verse:               'Ephesians 6:10',
+       verseRef:            'eph.6.10',
+       forBTB:              true,
+     }) }M
 
 
 

@@ -13,6 +13,7 @@ cross.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Isaiah Series (Sundays)](#2018-isaiah-series-sundays)
 - [Isaiah Misc Selection](#isaiah-misc-selection)
 
@@ -64,6 +65,19 @@ M{ youTube(`_TzdEPuqgQg`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`4jfKdCEGwF0`) }M
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Mon 03/16/2026',
+       topic:               'The Prince of Peace and the Sword',
+       verse:               'Isaiah 9:6',
+       verseRef:            'isa.9.6',
+       forBTB:              true,
+     }) }M
 
 
 ## 2018 Isaiah Series (Sundays)

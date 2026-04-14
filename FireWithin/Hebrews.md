@@ -11,6 +11,7 @@ sacrifice.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Hebrews Series (Sundays)](#2010-hebrews-series-sundays)
 - [2018-2019 Hebrews Series (Mid Week)](#2018-2019-hebrews-series-mid-week)
 
@@ -65,6 +66,24 @@ M{ youTube(`1fNWTZZwgbs`) }M
 > _As of 12/2023 Spoken Gospel has no hebrews introduction_
 
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Mon 03/30/2026',
+       topic:               'One Word One Message',
+       verse:               'Hebrews 4:12',
+       verseRef:            'heb.4.12',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 03/01/2026',
+       topic:               'The God Who Redeems the Weak',
+       verse:               'Hebrews 11:32-33',
+       verseRef:            'heb.11.32-33',
+       forBTB:              true,
+     }) }M
 
 
 ## 2010 Hebrews Series (Sundays)

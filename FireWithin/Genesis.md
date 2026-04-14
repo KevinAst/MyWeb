@@ -17,6 +17,7 @@ resurrection.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Genesis Series (Mid Week)](#2010-genesis-series-mid-week)
 - [2011 Genesis Series (Sundays)](#2011-genesis-series-sundays)
 
@@ -72,6 +73,26 @@ M{ youTube(`zIJBhEAIzj4`) }M
 **Genealogy Abraham**
 
 M{ zoomableImg(`GenealogyAbraham`) }M
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 03/25/2026',
+       topic:               'The Subtlety of Temptation',
+       verse:               'Genesis 3:1',
+       verseRef:            'gen.3.1',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 03/23/2026',
+       topic:               'God Sees Beyond Human Fear',
+       verse:               'Genesis 4:7',
+       verseRef:            'gen.4.7',
+       forBTB:              true,
+     }) }M
 
 
 

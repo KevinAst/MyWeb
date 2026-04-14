@@ -7,7 +7,7 @@ _**Daily Devotions from Gary Hamrick
 ## Quick Navigation
 
 <div class="indent">
-  <button type="button" onclick="fw.goToLatestDevotion('{{book.LatestDevotion}}');">Latest Published Devotion</button>
+  <button type="button" onclick="fw.goToLatestDevotion();">Latest Published Devotion</button>
 </div>
 
 
@@ -52,12 +52,17 @@ following benefits:
   the [YouVersion Bible App](https://www.youversion.com/), making it
   easy to dig deeper - **electronically**
 
-- **Digging Deeper** — some devotions may include an additional
-  "Digging Deeper" section that includes additional scripture
-  references
-
-- **Progress Tracking** — like other resources on this site,
+- **Progress Tracking** — like many resources on this site,
   [completion checkboxes] help you stay on track
+
+- **Digging Deeper** — many devotions include an additional "Digging
+  Deeper" section that highlights additional scripture references
+
+- **Locate Devotions by Scripture Reference** — while this page
+  promotes devotions by `date of publication`, you can also locate
+  a devotion by `scripture reference` - found in the host book _(for
+  example [Luke](/Luke.md#devotions-by-the-book))_ through a section
+  entitled `Devotions "by the book"`.
 
 - **Permanent Access** — these devotions have been permanently
   archived, and are available in a very concise format, allowing you

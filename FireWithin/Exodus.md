@@ -14,6 +14,7 @@ a new and better salvation.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [The Ten Commandments](#the-ten-commandments)
 - [Exodus Series (Sundays)](#exodus-series-sundays)
 
@@ -69,6 +70,19 @@ M{ youTube(`oNpTha80yyE`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`LpS50a4CmXM`) }M
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Tue 04/07/2026',
+       topic:               'Covered by the Blood',
+       verse:               'Exodus 12:13',
+       verseRef:            'exo.12.13',
+       forBTB:              true,
+     }) }M
 
 
 

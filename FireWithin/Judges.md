@@ -11,6 +11,7 @@ who both saves us from our enemies and from God's judgment.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 Judges Series (Sundays)](#2014-judges-series-sundays)
 - [2022 Judges Series (Mid Week)](#2022-judges-series-mid-week)
 
@@ -59,6 +60,25 @@ M{ youTube(`kOYy8iCfIJ4`) }M
 
 M{ youTube(`IRvDm7PJsAc`) }M
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 03/04/2026',
+       topic:               'God’s Compassion for a Repentant People',
+       verse:               'Judges 10:16',
+       verseRef:            'jdg.10.16',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Tue 03/03/2026',
+       topic:               'When God Is Removed',
+       verse:               'Judges 21:25',
+       verseRef:            'jdg.21.25',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014 Judges Series (Sundays)

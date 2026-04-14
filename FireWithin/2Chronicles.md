@@ -19,6 +19,7 @@ for those studying specific facts in the Scriptures.
 
 - [Overview](#overview)
 - [2015 2 Chronicles Series (Sundays)](#2015-2-chronicles-series-sundays)
+- [2026 2 Chronicles Series (Mid Week)](#2026-2-chronicles-series-mid-week)
 - [2 Chronicles Misc Selection](#2-chronicles-misc-selection)
 
 
@@ -99,7 +100,19 @@ M{ sermonSeries({
   ]
 }) }M
 
+## 2026 2 Chronicles Series (Mid Week)
 
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,  scripture: `2ch.1@@2 Chronicles 1-2`,          }, // studyGuide: `NONE`, date:`03/25/2026`
+    { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,               scripture: `2ch.3@@2 Chronicles 3-4`,          }, // studyGuide: `NONE`, date:`04/08/2026`
+  ]
+}) }M
 
 ## 2 Chronicles Misc Selection
 

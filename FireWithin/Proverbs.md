@@ -11,6 +11,7 @@ by Adam and Eve, earning the same result - death.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2017 Proverbs Series (Sundays)](#2017-proverbs-series-sundays)
 - [Proverbs Misc Selection](#proverbs-misc-selection)
 
@@ -57,6 +58,26 @@ M{ youTube(`AzmYV8GNAIM`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`JpEMDQsTy6k`) }M
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Sat 03/21/2026',
+       topic:               'Trusting God Beyond Bitterness',
+       verse:               'Proverbs 3:5',
+       verseRef:            'pro.3.5',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Tue 03/10/2026',
+       topic:               'Strength Without Self-Control',
+       verse:               'Proverbs 25:28',
+       verseRef:            'pro.25.28',
+       forBTB:              true,
+     }) }M
 
 
 ## 2017 Proverbs Series (Sundays)
