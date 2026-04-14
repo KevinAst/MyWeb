@@ -25,5 +25,8 @@ M{ sermonSeries({
     { id: `20250413`, sermon: `The Deliberate, Unusual, and Royal Arrival of Jesus Christ (Palm Sunday - David Guzik)`, 
                                                                                               scripture: `mat.21@@Matthew 21`,        },
     { id: `20250420`, sermon: `A Tale of Two Gardens`,                                        scripture: `jhn.19@@John 19-20`,        },
+    { id: `20260329`, sermon: `Welcoming Jesus on Palm Sunday (David Guzik)`,                 scripture: `luk.19@@Luke 19`,           },
+    { id: `20260401`, sermon: `A Conversation with Gary Hamrick and Lon Solomon (the true meaning of the Passover)`,                  },
+    { id: `20260405`, sermon: `4 Reasons Why Easter Should Matter for You`,                   scripture: `jhn.20@@John 20:1–18`,      },
   ]
 }) }M

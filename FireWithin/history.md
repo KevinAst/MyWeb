@@ -27,8 +27,9 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v26.0](#v26_0)   | Daily Devotions      | *Mar 17, 2026*
-[v25.6](#v25_6)   | Sync Sermons, Small Group & more             | *Mar 10, 2026*
+[v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
+[v26.0](#v26_0)   | Daily Devotions                    | *Mar 17, 2026*
+[v25.6](#v25_6)   | Sync Sermons, Small Group & more   | *Mar 10, 2026*
 [v25.5](#v25_5)   | Sync Sermons, Thanksgiving, Christmas, End Times, Q&A     | *Jan 7, 2026*
 [v25.4](#v25_4)   | Sync Sermons, Small Group, The Chosen  | *Dec 1, 2025*
 [v25.3](#v25_3)   | Billion Bible App Installs, Sync Sermons, Chosen Updates  | *Nov 19, 2025*
@@ -84,6 +85,24 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v26_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v26.1 - Sync Sermons, Easter & more <i>(April 14, 2026)</i>
+</h3>
+<br/>
+
+- Synced Current Sermon Series
+  * {{book.Philippians}} Series (Sundays)
+  * {{book.2Chronicles}} Series (Mid Week)
+
+
+- Updated following Speicals
+  * {{book.Easter}} 2026
+  * added reference to `Enduring Word Bible Commentary (by David Guzik)` in {{book.SpecialEvents}}
+  * added `Nothing is Impossible with God` in the {{book.Misc}} section of {{book.CurrentEvents}}
+  * added new {{book.QA}} for 03/11/2026
 
 
 <!-- ************************************************************* -->
