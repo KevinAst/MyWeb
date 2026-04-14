@@ -52,22 +52,21 @@ following benefits:
   the [YouVersion Bible App](https://www.youversion.com/), making it
   easy to dig deeper - **electronically**
 
-- **Progress Tracking** — like other resources on this site,
+- **Progress Tracking** — like many resources on this site,
   [completion checkboxes] help you stay on track
 
-- **Permanent Access** — these devotions have been permanently
-  archived, and are available in a very concise format, allowing you
-  to easily return to them at anytime
-
-- **Digging Deeper** — some devotions may include an additional
-  "Digging Deeper" section that highlights additional scripture
-  references
+- **Digging Deeper** — many devotions include an additional "Digging
+  Deeper" section that highlights additional scripture references
 
 - **Locate Devotions by Scripture Reference** — while this page
   promotes devotions by `date of publication`, you can also locate
   a devotion by `scripture reference` - found in the host book _(for
   example [Luke](/Luke.md#devotions-by-the-book))_ through a section
   entitled `Devotions "by the book"`.
+
+- **Permanent Access** — these devotions have been permanently
+  archived, and are available in a very concise format, allowing you
+  to easily return to them at anytime
 
 > _**<mark>Please Note</mark>:** While these devotions are organized by
 > date of publication, you can begin at any point and move forward.
