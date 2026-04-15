@@ -10,6 +10,7 @@ there freedom from the powers of guilt and shame.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [Colossians Misc Selection](#colossians-misc-selection)
@@ -58,6 +59,18 @@ M{ youTube(`pXTXlDxQsvc`) }M
 
 M{ youTube(`EvR4tIZAw7Y`) }M
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 04/15/2026',
+       topic:               'Worship from a Grateful Heart',
+       verse:               'Colossians 3:23',
+       verseRef:            'col.3.23',
+       forBTB:              true,
+     }) }M
 
 
 ## 2010 Colossians Series (Sundays)
