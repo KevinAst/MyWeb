@@ -55,8 +55,26 @@ following benefits:
 - **Progress Tracking** — like many resources on this site,
   [completion checkboxes] help you stay on track
 
-- **Digging Deeper** — many devotions include an additional "Digging
-  Deeper" section that highlights additional scripture references
+- **Digging Deeper** — Each devotion includes a short "Digging Deeper"
+  section with additional Scripture references to help you further
+  explore the topic in more depth.
+
+  > **Full Disclosure:** These references are generated _(in part)_ with the
+  > help of AI.  If that raises a red flag for you - I fully understand!
+  > 
+  > In that regard, I am careful to never use AI for something that is
+  > opinionated, to avoid the risk of introducing any bias.  Because this
+  > section simply references related Scripture _(rather than offering
+  > interpretation or opinion)_, I believe that risk is minimal.
+  > 
+  > The only potential issue would be highlighting a scripture passage
+  > "out of context", which may not relate to the topic.  That said, I
+  > do review the references before publishing.  As with any study
+  > aid, I encourage you to read each passage in its proper context.
+  > 
+  > **Most importantly,** the devotional content itself remains unchanged and
+  > reflects Pastor Gary’s original teaching _(per the inspiration of the
+  > Holy Spirit)_.
 
 - **Locate Devotions by Scripture Reference** — while this page
   promotes devotions by `date of publication`, you can also locate
