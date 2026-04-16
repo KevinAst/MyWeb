@@ -45,46 +45,49 @@ distracting.
 As a result, I decided to catalog these devotions here, with the
 following benefits:
 
-- **A distraction-free experience** — focused entirely on the
-  devotional content
+1. **A distraction-free experience** — focused entirely on the
+   devotional content.
 
-- **Linked Scripture References** — each passage connects directly to
-  the [YouVersion Bible App](https://www.youversion.com/), making it
-  easy to dig deeper - **electronically**
+   > These devotions have been permanently archived, and are available
+   > in a very concise format, allowing you to easily return to them at
+   > anytime.
 
-- **Progress Tracking** — like many resources on this site,
-  [completion checkboxes] help you stay on track
-
-- **Digging Deeper** — Each devotion includes a short "Digging Deeper"
-  section with additional Scripture references to help you further
-  explore the topic in more depth.
-
-  > **Full Disclosure:** These references are generated _(in part)_ with the
-  > help of AI.  If that raises a red flag for you - I fully understand!
-  > 
-  > In that regard, I am careful to never use AI for something that is
-  > opinionated, to avoid the risk of introducing any bias.  Because this
-  > section simply references related Scripture _(rather than offering
-  > interpretation or opinion)_, I believe that risk is minimal.
-  > 
-  > The only potential issue would be highlighting a scripture passage
-  > "out of context", which may not relate to the topic.  That said, I
-  > do review the references before publishing.  As with any study
-  > aid, I encourage you to read each passage in its proper context.
-  > 
-  > **Most importantly,** the devotional content itself remains unchanged and
-  > reflects Pastor Gary’s original teaching _(per the inspiration of the
-  > Holy Spirit)_.
-
-- **Locate Devotions by Scripture Reference** — while this page
-  promotes devotions by `date of publication`, you can also locate
-  a devotion by `scripture reference` - found in the host book _(for
-  example [Luke](/Luke.md#devotions-by-the-book))_ through a section
-  entitled `Devotions "by the book"`.
-
-- **Permanent Access** — these devotions have been permanently
-  archived, and are available in a very concise format, allowing you
-  to easily return to them at anytime
+2. **Linked Scripture References** — each passage connects directly to
+   the [YouVersion Bible App](https://www.youversion.com/), making it
+   easy to dig deeper - **electronically**.
+ 
+3. **Progress Tracking** — like many resources on this site,
+   [completion checkboxes] help you stay on track.
+ 
+4. **Digging Deeper** — Each devotion includes a short "Digging Deeper"
+   section with additional Scripture references to help you further
+   explore the topic in more depth.
+   
+   > **Full Disclosure:** These references are generated _(in part)_ with the
+   > help of AI.  If that raises a red flag for you - I fully understand!
+   > 
+   > In that regard, I am careful to never use AI for something that is
+   > opinionated, to avoid the risk of introducing any bias.  Because this
+   > section simply references related Scripture _(rather than offering
+   > interpretation or opinion)_, I believe that risk is minimal.
+   > 
+   > The only potential issue would be highlighting a scripture passage
+   > "out of context", which may not relate to the topic.  That said, I
+   > do review the references before publishing.  As with any study
+   > aid, I encourage you to read each passage in its proper context.
+   > 
+   > **Most importantly,** the devotional content itself remains unchanged and
+   > reflects Pastor Gary’s original teaching.
+   
+5. **Locate Devotions by Scripture Reference** — while this page
+   promotes devotions by `date of publication`, you can also locate a
+   devotion by `scripture reference` - found in the host book _(for
+   example [Luke](/Luke.md#devotions-by-the-book))_ through a section
+   entitled `Devotions "by the book"` _(a play on words)_.
+ 
+   > Each specific devotion has two `back-link` controls:
+   > - `↰ Devo` - navigates up to the `Daily Devotions` page
+   > - `↰ Book` - navigates up to the `Devotions "by the book"` page
 
 > _**<mark>Please Note</mark>:** While these devotions are organized by
 > date of publication, you can begin at any point and move forward.
