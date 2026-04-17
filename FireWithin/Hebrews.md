@@ -78,6 +78,13 @@ M{ youTube(`1fNWTZZwgbs`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Tue 02/17/2026',
+       topic:               'From Death to Life in Christ',
+       verse:               'Hebrews 9:27',
+       verseRef:            'heb.9.27',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/01/2026',
        topic:               'The God Who Redeems the Weak',
        verse:               'Hebrews 11:32-33',
