@@ -90,6 +90,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 04/17/2026',
+       topic:               'Walk While You Have the Light',
+       verse:               'John 12:46',
+       verseRef:            'jhn.12.46',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
