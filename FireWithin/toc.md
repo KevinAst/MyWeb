@@ -125,6 +125,7 @@
 - [Daily Devotions](devo.md)
   * [2026 Devotions](devo2026.md)
     - [02/17/2026 Devo](devo20260217.md)
+    - [02/18/2026 Devo](devo20260218.md)
     - [02/28/2026 Devo](devo20260228.md)
     - [03/01/2026 Devo](devo20260301.md)
     - [03/02/2026 Devo](devo20260302.md)

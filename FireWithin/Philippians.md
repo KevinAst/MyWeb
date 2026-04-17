@@ -11,6 +11,7 @@ of persecution because they know they will be exalted with Christ.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Philippians Series (Sundays)](#2010-philippians-series-sundays)
 - [2017 Philippians Series (Mid Week)](#2017-philippians-series-mid-week)
 - [2026 Philippians Series (Sundays)](#2026-philippians-series-sundays)
@@ -59,6 +60,17 @@ M{ youTube(`oE9qqW1-BkU`) }M
 
 M{ youTube(`mbtdp1LdeAQ`) }M
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 02/18/2026',
+       topic:               'Shining as Lights in a Crooked Generation',
+       verse:               'Philippians 2:14–15',
+       verseRef:            'php.2.14-15',
+       forBTB:              true,
+     }) }M
 
 
 ## 2010 Philippians Series (Sundays)
