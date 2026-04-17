@@ -30,10 +30,12 @@ many YouVersion devotions were repeating, I began looking for a new
 devotional source.
 
 That’s when I discovered that Pastor Gary Hamrick (of
-{{book.CornerstoneChapel}}) offered a daily devotional. This is the same
-ministry that was instrumental in my renewed faith experience. I am so
-grateful for Pastor Gary.  Through his teaching _(inspired by the Holy
-Spirit)_, I see insights that I might never have considered on my own.
+{{book.CornerstoneChapel}}) had just started a devotional series - on
+the same month of this transition - can you say providence? This is
+the same ministry that was instrumental in my renewed faith
+experience. I am so grateful for Pastor Gary.  Through his teaching
+_(inspired by the Holy Spirit)_, I see insights that I might never
+have considered on my own.
 
 These devotions are published through the [Sermons
 Online](https://sermons-online.org/gary-hamrick/devotion)
