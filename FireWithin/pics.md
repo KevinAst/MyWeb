@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 596**          _... categorized below!!_
+> <br/> **Albums: 597**          _... categorized below!!_
 > <br/> **Photos: 47,398**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -171,6 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Gaige Birthday
 
+- 04/2026: 11 [Gaige is 11!](https://photos.google.com/share/AF1QipPp9Z8gMYrOxwMDLnIeAhc6QbWzLlVp77cDKEUOMHh1k-mQwLw7QYyKDioOFrIOXQ?key=dEhCZWJ1Q1F6S1BTYTVaRlVqZWpVNlFwamdtamlB) _(xx pics)_
 - 04/2025: 10 _look in_: [4/2025 Easter in PA with all the Grands](https://photos.google.com/share/AF1QipPKNBZ5q-wA4ppP1u1Qx22JJUNC3sNeqdeF_KQEg3_xs1VS2YtzngFI5f6K6lK0tw?key=eDA4Um5aWEF4eTY1Mnk0ckdrWDNmSGVkcGdNa19R) _(304 pics)_
 - 04/2024: 9 [Happy 9th Birthday Gaige!](https://photos.google.com/share/AF1QipN8XfASSfVcoY_TMREF7r1-LP5NRGfLh0s2nE1mbPYOPP1XvPGaU_dmtE50S48_tA?key=Zml2cTlhTkFDX3NUc2ZoaFd5aUZFOFoyUERwbmV3) _(35 pics)_
 - 04/2023: 8 [Gaige Turns 8!](https://photos.google.com/share/AF1QipNs46M0nYudjtiZnz--ogH2ZzHIS5Qk5OsPNnMM5a2_ErxD3KsFH4tqKbZpgKzn7Q?key=LVh0bjU3X3Bidlh5YU5mcXlPWl92cjFxdDdSR3BR) _(69 pics)_
