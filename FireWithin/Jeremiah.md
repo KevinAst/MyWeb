@@ -18,6 +18,7 @@ make them virgin brides once again.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2019 Jeremiah Series (Sundays)](#2019-jeremiah-series-sundays)
 
 
@@ -63,6 +64,19 @@ M{ youTube(`RSK36cHbrk0`) }M
 
 M{ youTube(`TVdLahnSY3o`) }M
 
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Thu 02/26/2026',
+       topic:               'Known Before We Were Formed',
+       verse:               'Jeremiah 1:5',
+       verseRef:            'jer.1.5',
+       forBTB:              true,
+     }) }M
 
 
 ## 2019 Jeremiah Series (Sundays)
