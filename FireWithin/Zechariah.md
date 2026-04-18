@@ -19,6 +19,7 @@ faithfulness in the present.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Zechariah Series (Mid Week)](#2013-zechariah-series-mid-week)
 - [2020 Zechariah Series (Sundays)](#2020-zechariah-series-sundays)
 
@@ -69,6 +70,17 @@ M{ youTube(`_106IfO6Kc0`) }M
 > _As of 12/2023 Spoken Gospel has no zechariah introduction_
 
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Wed 02/25/2026',
+       topic:               'Strength in Dependence',
+       verse:               'Zechariah 4:6',
+       verseRef:            'zec.4.6',
+       forBTB:              true,
+     }) }M
 
 
 ## 2013 Zechariah Series (Mid Week)
