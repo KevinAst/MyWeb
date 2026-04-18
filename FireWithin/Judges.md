@@ -66,6 +66,13 @@ M{ youTube(`IRvDm7PJsAc`) }M
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Thu 02/19/2026',
+       topic:               'God Sees What We Do Not',
+       verse:               'Judges 6:12',
+       verseRef:            'jdg.6.12',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 03/04/2026',
        topic:               'God’s Compassion for a Repentant People',
        verse:               'Judges 10:16',
