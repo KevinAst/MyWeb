@@ -73,6 +73,13 @@ M{ youTube(`IRvDm7PJsAc`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 02/23/2026',
+       topic:               'The Lord Is With You',
+       verse:               'Judges 6:16',
+       verseRef:            'jdg.6.16',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 03/04/2026',
        topic:               'God’s Compassion for a Repentant People',
        verse:               'Judges 10:16',
