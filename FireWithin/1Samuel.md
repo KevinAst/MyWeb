@@ -81,6 +81,13 @@ M{ youTube(`I97PwEJ5Ok0`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 02/22/2026',
+       topic:               'The Lord Who Hears',
+       verse:               '1 Samuel 1:11',
+       verseRef:            '1sa.1.11',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 04/12/2026',
        topic:               'Return to the Lord with All Your Heart',
        verse:               '1 Samuel 7:3',
