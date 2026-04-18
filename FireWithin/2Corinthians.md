@@ -71,6 +71,13 @@ M{ youTube(`nmdsoTt_gv0`) }M
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Sat 02/21/2026',
+       topic:               'An Eternal Perspective',
+       verse:               '2 Corinthians 4:17',
+       verseRef:            '2co.4.17',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/29/2026',
        topic:               'Present With the Lord',
        verse:               '2 Corinthians 5:8',
