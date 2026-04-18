@@ -78,6 +78,13 @@ M{ youTube(`4kMbN9bwgM8`) }M
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Tue 02/24/2026',
+       topic:               'Faithful With What Belongs to God',
+       verse:               'Luke 16:13',
+       verseRef:            'luk.16.13',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 02/28/2026',
        topic:               'Faithful in the Days of the Son of Man',
        verse:               'Luke 17:28-30',
