@@ -77,6 +77,13 @@ M{ youTube(`nmdsoTt_gv0`) }M
        verseRef:            '2co.5.8',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sat 04/18/2026',
+       topic:               'Ambassadors of Reconciliation',
+       verse:               '2 Corinthians 5:20',
+       verseRef:            '2co.5.20',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)
