@@ -71,6 +71,13 @@ M{ youTube(`F8QsCLwSMVM`) }M
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Fri 02/20/2026',
+       topic:               'The Gift of Salvation',
+       verse:               'Matthew 1:21',
+       verseRef:            'mat.1.21',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 03/28/2026',
        topic:               'Seeking a Godly Spouse',
        verse:               'Matthew 6:33',
