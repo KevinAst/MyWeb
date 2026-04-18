@@ -82,6 +82,13 @@ M{ youTube(`0_LhiD-XNr0`) }M
        verseRef:            '1co.10.12',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 02/27/2026',
+       topic:               'Wisdom for a Life of Order',
+       verse:               '1 Corinthians 14:33',
+       verseRef:            '1co.14.33',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)
