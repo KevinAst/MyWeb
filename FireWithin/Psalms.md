@@ -75,6 +75,13 @@ M{ youTube(`L6NSw20AkJQ`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 04/20/2026',
+       topic:               'Waiting in Trust',
+       verse:               'Psalm 27:14',
+       verseRef:            'psa.27.14',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Mon 04/06/2026',
        topic:               'The Lord as Our True Security',
        verse:               'Psalm 33:12',
