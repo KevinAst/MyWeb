@@ -91,14 +91,11 @@ following benefits:
    > - `↰ Devo` - navigates up to the `Daily Devotions` page
    > - `↰ Book` - navigates up to the `Devotions "by the book"` page
 
-> _**<mark>Please Note</mark>:** While these devotions are organized by
-> date of publication, you can begin at any point and move forward.
-> The [completion checkboxes] will help you track your progress._
-
-> _**<mark>Also Note</mark>:** I am still working out the details of
-> when new content on this site is published (there may be a delay of up
-> to one week).  Even so, you can still follow along (even one week
-> behind) — again, using the [checkboxes] to keep your place._
+> **<mark>Please Note</mark>:** New devotions are published each
+> morning, typically between 6–9am _(times may vary)_. With that said,
+> it is not necessary to follow the current day—feel free to start at
+> the beginning of the archive and use the [completion checkboxes] to
+> track your progress.
 
 My prayer is that this resource is a blessing to you and helps you
 grow in your daily walk with the Lord.
