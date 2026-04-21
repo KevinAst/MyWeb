@@ -97,6 +97,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Tue 04/21/2026',
+       topic:               'The Pattern of Humble Service',
+       verse:               'John 13:14',
+       verseRef:            'jhn.13.14',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
