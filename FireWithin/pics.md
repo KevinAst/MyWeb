@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
 > <br/> **Albums: 597**          _... categorized below!!_
-> <br/> **Photos: 47,398**       _... Yikes!!!_
+> <br/> **Photos: 47,838**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Gaige Birthday
 
-- 04/2026: 11 [Gaige is 11!](https://photos.google.com/share/AF1QipPp9Z8gMYrOxwMDLnIeAhc6QbWzLlVp77cDKEUOMHh1k-mQwLw7QYyKDioOFrIOXQ?key=dEhCZWJ1Q1F6S1BTYTVaRlVqZWpVNlFwamdtamlB) _(xx pics)_
+- 04/2026: 11 [Gaige is 11!](https://photos.google.com/share/AF1QipPp9Z8gMYrOxwMDLnIeAhc6QbWzLlVp77cDKEUOMHh1k-mQwLw7QYyKDioOFrIOXQ?key=dEhCZWJ1Q1F6S1BTYTVaRlVqZWpVNlFwamdtamlB) _(60 pics)_
 - 04/2025: 10 _look in_: [4/2025 Easter in PA with all the Grands](https://photos.google.com/share/AF1QipPKNBZ5q-wA4ppP1u1Qx22JJUNC3sNeqdeF_KQEg3_xs1VS2YtzngFI5f6K6lK0tw?key=eDA4Um5aWEF4eTY1Mnk0ckdrWDNmSGVkcGdNa19R) _(304 pics)_
 - 04/2024: 9 [Happy 9th Birthday Gaige!](https://photos.google.com/share/AF1QipN8XfASSfVcoY_TMREF7r1-LP5NRGfLh0s2nE1mbPYOPP1XvPGaU_dmtE50S48_tA?key=Zml2cTlhTkFDX3NUc2ZoaFd5aUZFOFoyUERwbmV3) _(35 pics)_
 - 04/2023: 8 [Gaige Turns 8!](https://photos.google.com/share/AF1QipNs46M0nYudjtiZnz--ogH2ZzHIS5Qk5OsPNnMM5a2_ErxD3KsFH4tqKbZpgKzn7Q?key=LVh0bjU3X3Bidlh5YU5mcXlPWl92cjFxdDdSR3BR) _(69 pics)_
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Emerson Birthday
 
-- 03/2026: 7 [Emerson is 7!](https://photos.google.com/share/AF1QipMclHYr1-me79H2I3XZV1KpsntHiqKjGsr6zeDktJ4W0mmM7rGBnGKlY0iH1UaptQ?key=WmR1S25VTkd1eXp1aWNrVlFlS1BGTzM5bDF0dXZB) (88 pics)
+- 03/2026: 7 [Emerson is 7!](https://photos.google.com/share/AF1QipMclHYr1-me79H2I3XZV1KpsntHiqKjGsr6zeDktJ4W0mmM7rGBnGKlY0iH1UaptQ?key=WmR1S25VTkd1eXp1aWNrVlFlS1BGTzM5bDF0dXZB) (111 pics)
 - 03/2026: 7 [Em Turns 7!](https://photos.app.goo.gl/zTwMidY1qMEg3joBA) _(49 pics)_ **Emily Album**
 - 04/2025: 6 [Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
 - 03/2025: 6 [Emerson is SIX!](https://photos.google.com/share/AF1QipMs1sWX-zaIOuw_TttLT1ms2B2e6aZ1IBVdzVvmFTqHRIC1p4fTrp0ASRoCNmd8rQ?key=M0Y3bnRvOGdjTThkRGpwQ2s2eXpKSUtQekp1Q1JR) _(168 pics)_
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
-* 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (xx pics)
+* 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (357 pics)
 - 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
 
 
