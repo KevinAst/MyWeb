@@ -102,6 +102,13 @@ M{ youTube(`I97PwEJ5Ok0`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 04/22/2026',
+       topic:               'Obedience Without Excuse',
+       verse:               '1 Samuel 15:22',
+       verseRef:            '1sa.15.22',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 04/14/2026',
        topic:               'The Heart God Sees',
        verse:               '1 Samuel 16:7',
