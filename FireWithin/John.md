@@ -104,6 +104,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Thu 04/23/2026',
+       topic:               'Love As Christ Loved',
+       verse:               'John 13:34',
+       verseRef:            'jhn.13.34',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
