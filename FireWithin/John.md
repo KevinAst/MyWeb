@@ -111,6 +111,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sat 04/25/2026',
+       topic:               'The Way to the Father',
+       verse:               'John 14:6',
+       verseRef:            'jhn.14.6',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
