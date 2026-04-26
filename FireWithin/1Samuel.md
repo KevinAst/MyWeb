@@ -122,6 +122,13 @@ M{ youTube(`I97PwEJ5Ok0`) }M
        verseRef:            '1sa.16.7',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 04/26/2026',
+       topic:               'A Heart Known by God',
+       verse:               '1 Samuel 16:7',
+       verseRef:            '1sa.16.7',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014 1 Samuel Series (Sundays)
