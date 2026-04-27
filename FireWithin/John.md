@@ -118,6 +118,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 04/27/2026',
+       topic:               'The Helper Who Dwells Within',
+       verse:               'John 14:16',
+       verseRef:            'jhn.14.16',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
