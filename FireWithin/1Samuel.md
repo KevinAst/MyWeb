@@ -129,6 +129,13 @@ M{ youTube(`I97PwEJ5Ok0`) }M
        verseRef:            '1sa.16.7',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Tue 04/28/2026',
+       topic:               'The Battle Belongs to the Lord',
+       verse:               '1 Samuel 17:47',
+       verseRef:            '1sa.17.47',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014 1 Samuel Series (Sundays)
