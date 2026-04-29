@@ -61,12 +61,13 @@ following benefits:
 3. **Progress Tracking** — like many resources on this site,
    [completion checkboxes] help you stay on track.
  
-4. **Digging Deeper** — Each devotion includes a short "Digging Deeper"
-   section with additional Scripture references to help you further
-   explore the topic in more depth.
+4. **Digging Deeper** — Each devotion includes a short "Digging
+   Deeper" section with a "Related Sermon" _(when supplied by
+   {{book.CornerstoneChapel}}))_, **and** additional scripture
+   references to help you further explore the topic in more depth.
    
-   > **Full Disclosure:** These references are generated _(in part)_ with the
-   > help of AI.  If that raises a red flag for you - I fully understand!
+   > **Full Disclosure:** These scripture references are generated _(in part)_ with the
+   > help of AI.  If that raises a red flag for you - **I fully understand!**
    > 
    > In that regard, I am careful to never use AI for something that is
    > opinionated, to avoid the risk of introducing any bias.  Because this
@@ -74,7 +75,7 @@ following benefits:
    > interpretation or opinion)_, I believe that risk is minimal.
    > 
    > The only potential issue would be highlighting a scripture passage
-   > "out of context", which may not relate to the topic.  That said, I
+   > "out of context", which may not be related to the topic.  That said, I
    > do review the references before publishing.  As with any study
    > aid, I encourage you to read each passage in its proper context.
    > 
@@ -87,12 +88,12 @@ following benefits:
    example [Luke](/Luke.md#devotions-by-the-book))_ through a section
    entitled `Devotions "by the book"` _(a play on words)_.
  
-   > Each specific devotion has two `back-link` controls:
+   > Each devotion page has two `back-link` controls:
    > - `↰ Devo` - navigates up to the `Daily Devotions` page
    > - `↰ Book` - navigates up to the `Devotions "by the book"` page
 
 > **<mark>Please Note</mark>:** New devotions are published each
-> morning, typically between 6–9am _(times may vary)_. With that said,
+> morning, typically between 7–9am _(times may vary)_. With that said,
 > it is not necessary to follow the current day—feel free to start at
 > the beginning of the archive and use the [completion checkboxes] to
 > track your progress.

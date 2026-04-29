@@ -18,6 +18,7 @@
   - [inject()]
   - [devoGHStart()]
   - [devoGHEnd()]
+  - [devoGHClose()]
   - [devoGHTOC()]
 - [Activation]
 - [Local Plugin]
@@ -190,6 +191,7 @@ The following **Custom Tags** are available:
 - [inject()]
 - [devoGHStart()]
 - [devoGHEnd()]
+- [devoGHClose()]
 - [devoGHTOC()]
 
 
@@ -837,28 +839,53 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
 
   ```js
   {
-    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
-                                                    // ... EX: `Sat 02/28/2026`
-    topic:               `devotion topic here`,     // devotion topic
-    subTopic:            `devotion sub-topic here`, // devotion sub-topic
-    verse:               `Luke 17:28-30`,           // verse label
-    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
-    devoTranslation:     `NKJV`,                    // translation used in the devotion (YouVersion format))
-    devoTranslationCode: `114`,                     // translation code used in the devotion (YouVersion format))
-    devoTranslationText: `verse text here`,         // translation text displayed in the devotion
+    publicationDate:     `Day mm/dd/yyyy`,              // devotion publication date label
+                                                        // ... EX: `Sat 02/28/2026`
+    topic:               `devotion topic here`,         // devotion topic
+    subTopic:            `devotion sub-topic here`,     // devotion sub-topic
+    verse:               `Luke 17:28-30`,               // verse label
+    verseRef:            `luk.17.28-30`,                // verse reference code (YouVersion format)
+    devoTranslation:     `NKJV`,                        // translation used in the devotion (YouVersion format))
+    devoTranslationCode: `114`,                         // translation code used in the devotion (YouVersion format))
+    devoTranslationText: `verse text here`,             // translation text displayed in the devotion
+    relatedSermon:       `sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
+                                                        // ... for `sermonLinkRef`, see: sermonLink()
+                                                        // ... for OPTIONAL `bibleLinkRef`, see: bibleLink())
+                                                        // EXAMPLE:
+                                                        //   CornerStone Sermon WITH Scripture:
+                                                        //     '20220911@@Ways to Worship##jhn.12@@John 12',
+                                                        //   YouTube Sermon WITH NO Scripture:
+                                                        //     'https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained'
   }
 
   ```
 
 ### devoGHEnd()
 
-Inject the HTML content that closes out the Daily Devotion with a prayer.
+Continue injection of the second part of our Daily Devotion.
 
-This macro should be used with the Post Process Tag (`P{`), just like the 
-[devoGHStart()] macro.
+This macro injects the HTML that 
+- closes out the devotion content,
+- injects a prayer,
+- and starts the "Digging Deeper" section (with an optional related sermon)
 
+The content is left open (for indentation purposes) to allow additional
+"Digging Deeper" content.  For this reason, it should be used through the
+Post Process Tag (`P{`), followed by the additional "Digging Deeper" content
+(in markdown), and end with the `devoGHClose()` macro which will close out all 
+HTML constructs.
 
 **API**: `devoGHEnd(prayer)`
+
+
+### devoGHClose()
+
+Inject the HTML content that closes out the Daily Devotion.
+
+This macro should be used with the Post Process Tag (`P{`), just like the 
+`devoGHStart()` and `devoGHEnd()` macros.
+
+**API**: `devoGHClose()`
 
 
 ### devoGHTOC()
@@ -986,6 +1013,7 @@ attempted it.  It would require some additional research, for example:
   [inject()]:             #inject
   [devoGHStart()]:        #devoghstart
   [devoGHEnd()]:          #devoghend
+  [devoGHClose()]:        #devoghclose
   [devoGHTOC()]:          #devoghtoc
 
 [Activation]:     #activation

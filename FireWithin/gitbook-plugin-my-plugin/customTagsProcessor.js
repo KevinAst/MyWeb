@@ -202,6 +202,7 @@ const customTagProcessors = {
   injectSyncNote,
   devoGHStart,
   devoGHEnd,
+  devoGHClose,
   devoGHTOC,
 };
 
@@ -1703,6 +1704,7 @@ function devoGHStart(namedParams={}) {
     devoTranslation,
     devoTranslationCode,
     devoTranslationText,
+    relatedSermon,
     ...unknownNamedArgs
   } = namedParams;
 
@@ -1739,6 +1741,26 @@ function devoGHStart(namedParams={}) {
   // ... devoTranslationText
   checkParam(devoTranslationText,           'devoTranslationText is required');
   checkParam(isString(devoTranslationText), 'devoTranslationText must be a string (the translation text displayed in the devotion)');
+
+  // ... relatedSermon (optional)
+  if (relatedSermon) {
+    checkParam(isString(relatedSermon), 'relatedSermon must be a string (the devotions related sermon, EX: "sermonLinkRef##bibleLinkRef")');
+    // split out the sermonLinkRef/bibleLinkRef
+    [devoSermonLinkRef, devoSermonBibleLinkRef] = relatedSermon.split('##'); // NOTE: global scope (there is NO `let`) - for communication to subsequent macro - devoGHEnd()
+    if (devoSermonBibleLinkRef && !devoSermonLinkRef) {
+      checkParam(false, `bibleLinkRef CANNOT be supplied without sermonLinkRef IN param relatedSermon: '${relatedSermon}'`);
+    }
+    // NAH PUNT: pre-validate by using the ultimate code (executed in subsequent function), so as to better correlate user errors to this directive
+    // ... see:     sermonLink() - really only has rudimentary validation of string, 
+    //              bibleLink()  - rudementary validaiton of string -PLUS- second part (title) supplied (after the @@)
+    //                             ... shows up as a bibleLink error
+  }
+  else {
+    // clear the global state when NOT supplied for this devo (since it is optional)
+    // ... otherwize we would have this devotional related sermon for all subsequent devotions :-)
+    devoSermonLinkRef       = '';
+    devoSermonBibleLinkRef  = '';
+  }
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -1844,24 +1866,28 @@ function devoGHStart(namedParams={}) {
   return content;
 }
 
-// quick hack ... these links are retained in our global context to communicate between two macros (devoGHStart()/devoGHEnd())
+// quick hack ... these links are retained in our global context to communicate between two macros (devoGHStart()/devoGHEnd()/devoGHClose())
 let devoPageUpLink = ''; // ... the devotion page-up link (e.g. `/devo2026.md`)
 let devoBookLink   = ''; // ... the devotion book link    (e.g. `/Matthew.md#devotions-by-the-book`)
+let devoSermonLinkRef       = ''; // ... the devotion's related sermon: sermonLinkRef (optional)
+let devoSermonBibleLinkRef  = ''; // ... the devotion's related sermon: bibleLinkRef  (optional)
+
 
 //*-----------------------------------------------------------------------------
 //* devoGHEnd(prayer)
 //* 
-//* Inject the HTML content to render the first part of a Daily Devotion
-//* by Gary Hamrick (of Cornerstone Chapel).  This uses a pre-defined
-//* content/style which is repeated in the CornerStone context/style.
+//* Continue injection of the second part of our Daily Devotion.
 //* 
-//* This macro renders everything up to the Devotion content - which will
-//* employ standard MarkDown.
+//* This macro injects the HTML that 
+//* - closes out the devotion content,
+//* - injects a prayer,
+//* - and starts the "Digging Deeper" section (with an optional related sermon)
 //* 
-//* Becauses this macro will leave HTML constructs open (for indentation
-//* purposes), the macro should be used through the Post Process Tag
-//* (`P{`), followed by the devotional content (in markdown), and end
-//* with the [devoGHEnd()] macro which will close out all HTML constructs.
+//* The content is left open (for indentation purposes) to allow additional
+//* "Digging Deeper" content.  For this reason, it should be used through the
+//* Post Process Tag (`P{`), followed by the additional "Digging Deeper" content
+//* (in markdown), and end with the `devoGHClose()` macro which will close out all 
+//* HTML constructs.
 //* 
 //* Custom Tag:
 //*   M{ devoGHEnd(`prayer content here`) }M
@@ -1887,7 +1913,7 @@ function devoGHEnd(prayer) {
   content += `</div>\n\n`;
 
   // ### Prayer:
-  // ... our ending header
+  // ... our Prayer header
   content += `<h4 id="prayer">Prayer:</h4>\n\n`;
 
   // open indentation directive
@@ -1899,10 +1925,35 @@ function devoGHEnd(prayer) {
   // close indentation directive
   content += `</div>\n\n`;
 
-  // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
-  // ... NOTE: quick hack ... we retained devoPageUpLink/devoBookLink from our devoGHStart() macro
-  content += `<p class="right-link"><a href="${devoPageUpLink}">↰ Devo</a> / <a href="${devoBookLink}">↰ Book</a></p>\n\n`;
+  // ### Digging Deeper:
+  // ... our Digging Deeper header
+  content += `<h4 id="prayer">Digging Deeper:</h4>\n\n`;
 
+  // open indentation directive
+  content += `<div class="indent">\n\n`;
+
+  // the devotion's related sermon, if any (optional)
+  if (devoSermonLinkRef) {
+    // #### Related Sermon:
+    content += `<h4 id="related-sermon">Related Sermon:</h4>\n\n`;
+
+    // inject the devotion's related sermon link
+    // ... use a simple list
+    //     - matches well with the other Digging Deeper sections
+    //     - and if in the future, we support multiple sermons, we are all set for presentation
+    content += `<ul><li>${sermonLink(devoSermonLinkRef)}`;
+
+    // inject the devotion's related sermon scripture link, if any (optional)
+    if (devoSermonBibleLinkRef) {
+      content += `<span class="phone-inline"><br/></span> ... ${bibleLink(devoSermonBibleLinkRef)}`;
+    }
+
+    // wrap up list
+    content += `</li></ul>`;
+  }
+  
+  // NOTE: Leave the "Digging Deeper" indentation open (for additional markdown content)
+  // ... i.e. DO NOT close the indentation directive
 
   // diagnostic comment
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
@@ -1910,6 +1961,43 @@ function devoGHEnd(prayer) {
   // that's all folks!
   return content;
 }
+
+
+//*-----------------------------------------------------------------------------
+//* devoGHClose()
+//* 
+//* Inject the HTML content that closes out the Daily Devotion.
+//* 
+//* This macro should be used with the Post Process Tag (`P{`), just like the 
+//* `devoGHStart()` and `devoGHEnd()` macros.
+//* 
+//* Custom Tag:
+//*   M{ devoGHClose() }M
+//* 
+//* Replaced With:
+//*   ALL ENDING CONTENT of the devotional page
+//*-----------------------------------------------------------------------------
+function devoGHClose() {
+  const self = `devoGHClose()`;
+
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // close indentation directive FROM devoGHEnd()
+  content += `</div>\n\n`;
+
+  // our parent page-up link (needed because the full daily devo is NOT visible in the Left-Nav bar
+  // ... NOTE: quick hack ... we retained devoPageUpLink/devoBookLink from our devoGHStart() macro
+  content += `<p class="right-link"><a href="${devoPageUpLink}">↰ Devo</a> / <a href="${devoBookLink}">↰ Book</a></p>\n\n`;
+
+  // diagnostic comment
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
+
+  // that's all folks!
+  return content;
+}
+
 
 //*-----------------------------------------------------------------------------
 //* devoGHTOC(namedParams)
@@ -1930,8 +2018,8 @@ function devoGHEnd(prayer) {
 //*-----------------------------------------------------------------------------
 function devoGHTOC(namedParams={}) {
 
-  // parameter validation
-  const self       = `devoGHTOC(...)`;
+    // parameter validation
+    const self       = `devoGHTOC(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
   // ... verify we are using named parameters
