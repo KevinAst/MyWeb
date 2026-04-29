@@ -63,7 +63,7 @@ following benefits:
  
 4. **Digging Deeper** — Each devotion includes a short "Digging
    Deeper" section with a "Related Sermon" _(when supplied by
-   {{book.CornerstoneChapel}}))_, **and** additional scripture
+   {{book.CornerstoneChapel}})_, **and** "Related Scripture"
    references to help you further explore the topic in more depth.
    
    > **Full Disclosure:** These scripture references are generated _(in part)_ with the
