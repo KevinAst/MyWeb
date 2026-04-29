@@ -118,6 +118,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 04/29/2026',
+       topic:               'Prayer That Aligns With God',
+       verse:               'John 14:13',
+       verseRef:            'jhn.14.13',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Mon 04/27/2026',
        topic:               'The Helper Who Dwells Within',
        verse:               'John 14:16',
