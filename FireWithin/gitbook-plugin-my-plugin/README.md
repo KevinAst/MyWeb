@@ -837,15 +837,23 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
 
   ```js
   {
-    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
-                                                    // ... EX: `Sat 02/28/2026`
-    topic:               `devotion topic here`,     // devotion topic
-    subTopic:            `devotion sub-topic here`, // devotion sub-topic
-    verse:               `Luke 17:28-30`,           // verse label
-    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
-    devoTranslation:     `NKJV`,                    // translation used in the devotion (YouVersion format))
-    devoTranslationCode: `114`,                     // translation code used in the devotion (YouVersion format))
-    devoTranslationText: `verse text here`,         // translation text displayed in the devotion
+    publicationDate:     `Day mm/dd/yyyy`,              // devotion publication date label
+                                                        // ... EX: `Sat 02/28/2026`
+    topic:               `devotion topic here`,         // devotion topic
+    subTopic:            `devotion sub-topic here`,     // devotion sub-topic
+    verse:               `Luke 17:28-30`,               // verse label
+    verseRef:            `luk.17.28-30`,                // verse reference code (YouVersion format)
+    devoTranslation:     `NKJV`,                        // translation used in the devotion (YouVersion format))
+    devoTranslationCode: `114`,                         // translation code used in the devotion (YouVersion format))
+    devoTranslationText: `verse text here`,             // translation text displayed in the devotion
+    relatedSermon:       `sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
+                                                        // ... for `sermonLinkRef`, see: sermonLink()
+                                                        // ... for OPTIONAL `bibleLinkRef`, see: bibleLink())
+                                                        // EXAMPLE:
+                                                        //   CornerStone Sermon WITH Scripture:
+                                                        //     '20220911@@Ways to Worship##jhn.12@@John 12',
+                                                        //   YouTube Sermon WITH NO Scripture:
+                                                        //     'https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained'
   }
 
   ```
