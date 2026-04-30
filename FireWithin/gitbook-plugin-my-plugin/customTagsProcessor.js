@@ -1749,12 +1749,11 @@ function devoGHStart(namedParams={}) {
 
   // ... relatedSermon (optional)
   if (relatedSermon) {
-    checkParam(isString(relatedSermon), 'relatedSermon must be a string (the devotions related sermon, EX: "sermonLinkRef##bibleLinkRef")');
+    checkParam(isString(relatedSermon), 'relatedSermon must be a string (the devotions related sermon, EX: "sermonId##sermonLinkRef##bibleLinkRef")');
     // split out the sermonLinkRef/bibleLinkRef
-    [devoSermonLinkRef, devoSermonBibleLinkRef] = relatedSermon.split('##'); // NOTE: global scope (there is NO `let`) - for communication to subsequent macro - devoGHEnd()
-    if (devoSermonBibleLinkRef && !devoSermonLinkRef) {
-      checkParam(false, `bibleLinkRef CANNOT be supplied without sermonLinkRef IN param relatedSermon: '${relatedSermon}'`);
-    }
+    [devoSermonId, devoSermonLinkRef, devoSermonBibleLinkRef] = relatedSermon.split('##'); // NOTE: global scope (there is NO `let`) - for communication to subsequent macro - devoGHEnd()
+    // ... devoSermonLinkRef is required
+    checkParam(devoSermonLinkRef, `devoSermonLinkRef is required IN param relatedSermon: '${relatedSermon}'`);
     // NAH PUNT: pre-validate by using the ultimate code (executed in subsequent function), so as to better correlate user errors to this directive
     // ... see:     sermonLink() - really only has rudimentary validation of string, 
     //              bibleLink()  - rudementary validaiton of string -PLUS- second part (title) supplied (after the @@)
@@ -1763,6 +1762,7 @@ function devoGHStart(namedParams={}) {
   else {
     // clear the global state when NOT supplied for this devo (since it is optional)
     // ... otherwize we would have this devotional related sermon for all subsequent devotions :-)
+    devoSermonId            = '';
     devoSermonLinkRef       = '';
     devoSermonBibleLinkRef  = '';
   }
@@ -1874,6 +1874,7 @@ function devoGHStart(namedParams={}) {
 // quick hack ... these links are retained in our global context to communicate between two macros (devoGHStart()/devoGHEnd()/devoGHClose())
 let devoPageUpLink = ''; // ... the devotion page-up link (e.g. `/devo2026.md`)
 let devoBookLink   = ''; // ... the devotion book link    (e.g. `/Matthew.md#devotions-by-the-book`)
+let devoSermonId            = ''; // ... the devotion's related sermon: sermonId - completion checkbox ID: (optional)
 let devoSermonLinkRef       = ''; // ... the devotion's related sermon: sermonLinkRef (optional)
 let devoSermonBibleLinkRef  = ''; // ... the devotion's related sermon: bibleLinkRef  (optional)
 
@@ -1942,11 +1943,18 @@ function devoGHEnd(prayer) {
     // #### Related Sermon:
     content += `<h4 id="related-sermon">Related Sermon:</h4>\n\n`;
 
+    // start our simple list
+    //  - matches well with the other Digging Deeper sections
+    //  - and if in the future, we support multiple sermons, we are all set for presentation
+    content += `<ul><li>`;
+
+    // inject the devotion's related sermon completion checkbox, if any (optional)
+    if (devoSermonId) {
+      content += `${completedCheckBox(devoSermonId)} `;
+    }
+
     // inject the devotion's related sermon link
-    // ... use a simple list
-    //     - matches well with the other Digging Deeper sections
-    //     - and if in the future, we support multiple sermons, we are all set for presentation
-    content += `<ul><li>${sermonLink(devoSermonLinkRef)}`;
+    content += sermonLink(devoSermonLinkRef);
 
     // inject the devotion's related sermon scripture link, if any (optional)
     if (devoSermonBibleLinkRef) {
