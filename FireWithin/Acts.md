@@ -18,6 +18,7 @@ Jesus, the Gospel, and his Church.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
@@ -78,6 +79,18 @@ M{ youTube(`lnCAkeBido0`) }M
 
 > [What We Would Be Missing If We Didn't Have the Book of Acts](https://www.crossway.org/articles/what-we-would-be-missing-if-we-didnt-have-the-book-of-acts/)
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Thu 04/30/2026',
+       topic:               'Power to Be His Witness',
+       verse:               'Acts 1:8',
+       verseRef:            'act.1.8',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
