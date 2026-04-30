@@ -850,14 +850,18 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
     devoTranslation:     `NKJV`,                        // translation used in the devotion (YouVersion format))
     devoTranslationCode: `114`,                         // translation code used in the devotion (YouVersion format))
     devoTranslationText: `verse text here`,             // translation text displayed in the devotion
-    relatedSermon:       `sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
-                                                        // ... for `sermonLinkRef`, see: sermonLink()
-                                                        // ... for OPTIONAL `bibleLinkRef`, see: bibleLink())
+    relatedSermon:       `sermonId##sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
+                                                        // SUB-PARAMS:
+                                                        //  - sermonId:      ID for sermon completion checkbox
+                                                        //                   ... OPTIONAL (if omitted, NO checkbox)
+                                                        //  - sermonLinkRef: same format as sermonLink()
+                                                        //  - bibleLinkRef:  same format as bibleLink())
+                                                        //                   ... OPTIONAL (if omitted, NO scripture link)
                                                         // EXAMPLE:
-                                                        //   CornerStone Sermon WITH Scripture:
-                                                        //     '20220911@@Ways to Worship##jhn.12@@John 12',
-                                                        //   YouTube Sermon WITH NO Scripture:
-                                                        //     'https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained'
+                                                        //  - CornerStone Sermon WITH Scripture:
+                                                        //     '20220911##20220911@@Ways to Worship##jhn.12@@John 12',
+                                                        //  -  YouTube Sermon WITH NO Scripture:
+                                                        //     '20251122##https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained'
   }
 
   ```
