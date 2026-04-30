@@ -20,7 +20,7 @@
   padding:    .5em;     /* also reduce padding around code block (was: .85em 1em) */
 }
 
-/* adjust gitbooks styling of our LeftNav header */
+/* adjust gitbooks styling of our left-nav header */
 .book-summary ul.summary li.header {
   text-transform: none !important; /* override: text-transform: uppercase; */
   font-weight:    bold !important; /* make it bold! */
@@ -431,7 +431,7 @@ body.isolated-page .navigation-next {
     font-weight: 500;
 }
 
-/*** Hide MEGA Daily Devotional ENTRIES from the LeftNav bar ***/
+/*** Hide MEGA Daily Devotional ENTRIES from the left-nav bar ***/
 .book-summary li.chapter[data-path="devo2026.html"] ul.articles {
     display: none !important;
 }
@@ -465,4 +465,10 @@ body.isolated-page .navigation-next {
 */
 input[id^="devo"] {
   scroll-margin-top: 80px;
+}
+
+/*** Force <a> tags I inject in the top of the left-nav to be in-line ***/
+.nav-bar-inline {
+  display: inline  !important;
+  padding: 0px 0px !important;
 }
