@@ -2099,8 +2099,8 @@ function devoGHTOC(namedParams={}) {
     const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
     content += `${devoVerseLink}\n`;
 
-    // responsive '-' seperator for desktop
-    content += `<span class="desktop-inline">-</span>\n`;
+    // responsive '•' seperator for desktop
+    content += `<span class="desktop-inline">•</span>\n`;
 
     // responsive cr/lf for phone
     content += `<span class="phone-inline"><br/></span>\n`;
@@ -2110,10 +2110,13 @@ function devoGHTOC(namedParams={}) {
 
     // responsive cr/lf for phone
     content += `<span class="phone-inline"><br/></span>\n`;
+    
+    // responsive '•' seperator for desktop
+    content += `<span class="desktop-inline"> • </span>\n`;
 
     // the completion checkbox for this devo
     // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-    content += `for ` + completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+    content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
   }
   else { // normal entry
     // the completion checkbox for this devo
@@ -2123,11 +2126,14 @@ function devoGHTOC(namedParams={}) {
     // responsive cr/lf for phone
     content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
 
+    // responsive '•' seperator for desktop
+    content += `<span class="desktop-inline">•</span>\n`;
+
     // the devotion TOC link
     content += `<a href="${devoKey}.html">${topic}</a>\n`;
-  
-    // responsive '-' seperator for desktop
-    content += `<span class="desktop-inline">-</span>\n`;
+    
+    // responsive '•' seperator for desktop
+    content += `<span class="desktop-inline">•</span>\n`;
 
     // responsive cr/lf for phone
     content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
