@@ -287,6 +287,8 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
   By default, the ref will generate a Cornerstone sermon link,
   UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
 
+  > NOTE: 'xttp' will be interpreted as 'http' - as a work-around of markdown auto-linking http strings into an \<a\> tag
+
   When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
 
   If NO title is specified, it will default to 'Teaching'.
@@ -296,7 +298,7 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
     - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
     - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
     - 'TXT@@Sacrificed' ... a text item only (i.e. NO link)
-    - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+    - 'xttps://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
       ... a self-contained URL link
           NOTE: This can be used for any generic URL/Label (not really sermon specific)
   ```

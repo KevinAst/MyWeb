@@ -521,7 +521,12 @@ function sermonLink(_ref) {
   checkParam(isString(_ref), `ref must be a string (the sermon reference)`);
 
   // ... split out the optional title
-  const [ref, title='Teaching'] = _ref.split('@@');
+  const [rawRef, title='Teaching'] = _ref.split('@@');
+
+  // ... special process: interpret 'xttp' as 'http'
+  //     BECAUSE: markdown will auto-link http strings into an <a> tag
+  //              specifically when used in our P{ tag macro (post-process-tags after the markdown phase)
+  const ref = rawRef.replace('xttp', 'http');
 
   // ... devise our url, defaulting to a Cornerstone sermon
   const url = ref.startsWith('http') ? ref : `https://cornerstonechapel.net/teaching/${ref}`;
