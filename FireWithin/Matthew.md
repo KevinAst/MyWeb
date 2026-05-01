@@ -78,6 +78,13 @@ M{ youTube(`F8QsCLwSMVM`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/01/2026',
+       topic:               'A Life That Points to the Lord',
+       verse:               'Matthew 5:16',
+       verseRef:            'mat.5.16',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 03/28/2026',
        topic:               'Seeking a Godly Spouse',
        verse:               'Matthew 6:33',
