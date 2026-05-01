@@ -1112,7 +1112,14 @@ if (!window.fw) { // only expand this module once (conditionally)
       const bibleTranslation = fwSettings.getBibleTranslation();
       const userName         = fwUser.getUserName();
       log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
-      headerElm.textContent = `FW v${CUR_VER} • ${bibleTranslation} • ${userName}`;
+      headerElm.innerHTML = `
+  FW
+  <a class="nav-bar-inline" href="history.html#details">v${CUR_VER}</a> 
+  •
+  <a class="nav-bar-inline" href="settings.html#bible-translation">${bibleTranslation}</a> 
+  •
+  <a class="nav-bar-inline" href="settings.html#user-account">${userName}</a> 
+      `;
     }
 
     //***************************************************************************

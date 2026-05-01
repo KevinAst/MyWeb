@@ -1,10 +1,28 @@
-/* slim left-nav width to 250 (was: 300) */
+/*** make left-nav slimmer - use 250px (was: 300) ***/
+:root {
+  --sidebar-width: 250px;
+}
 .book-summary {
-  width: 250px;
+  width: var(--sidebar-width);
 }
 .book.with-summary .book-body {
-  left: 250px;
+  left: var(--sidebar-width);
 }
+/* ... fix cell phone slimness too
+       - removes GitBook’s slide system entirely on mobile
+       - forces the same layout model as desktop
+       - no dependency on viewport width
+       - no fragile calc(...) math
+*/
+@media (max-width: 600px) {
+  .book.with-summary .book-body {
+    transform: none !important;
+    left:      var(--sidebar-width) !important;
+  }
+}
+
+
+
 
 /* condense left-nav spacing (was: 10px 15px) */
 .book-summary ul.summary li a, .book-summary ul.summary li span {
@@ -20,7 +38,7 @@
   padding:    .5em;     /* also reduce padding around code block (was: .85em 1em) */
 }
 
-/* adjust gitbooks styling of our LeftNav header */
+/* adjust gitbooks styling of our left-nav header */
 .book-summary ul.summary li.header {
   text-transform: none !important; /* override: text-transform: uppercase; */
   font-weight:    bold !important; /* make it bold! */
@@ -431,7 +449,7 @@ body.isolated-page .navigation-next {
     font-weight: 500;
 }
 
-/*** Hide MEGA Daily Devotional ENTRIES from the LeftNav bar ***/
+/*** Hide MEGA Daily Devotional ENTRIES from the left-nav bar ***/
 .book-summary li.chapter[data-path="devo2026.html"] ul.articles {
     display: none !important;
 }
@@ -465,4 +483,10 @@ body.isolated-page .navigation-next {
 */
 input[id^="devo"] {
   scroll-margin-top: 80px;
+}
+
+/*** Force <a> tags I inject in the top of the left-nav to be in-line ***/
+.nav-bar-inline {
+  display: inline  !important;
+  padding: 0px 0px !important;
 }
