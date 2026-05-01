@@ -1,10 +1,28 @@
-/* slim left-nav width to 250 (was: 300) */
+/*** make left-nav slimmer - use 250px (was: 300) ***/
+:root {
+  --sidebar-width: 250px;
+}
 .book-summary {
-  width: 250px;
+  width: var(--sidebar-width);
 }
 .book.with-summary .book-body {
-  left: 250px;
+  left: var(--sidebar-width);
 }
+/* ... fix cell phone slimness too
+       - removes GitBook’s slide system entirely on mobile
+       - forces the same layout model as desktop
+       - no dependency on viewport width
+       - no fragile calc(...) math
+*/
+@media (max-width: 600px) {
+  .book.with-summary .book-body {
+    transform: none !important;
+    left:      var(--sidebar-width) !important;
+  }
+}
+
+
+
 
 /* condense left-nav spacing (was: 10px 15px) */
 .book-summary ul.summary li a, .book-summary ul.summary li span {
