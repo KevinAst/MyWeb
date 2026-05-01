@@ -1645,7 +1645,7 @@ P{ inject('<div id="state-sync-note-signed-out">') }P
 > 
 > You can overcome this limitation by **establishing a Fire Within user
 > account**.  When you do this, your state is maintained in the cloud,
-> and **automatically syncs across all devices** _(that are signed-in to
+> and **automatically syncs across all devices** _(which are signed-in to
 > the same account)_.
 > 
 > For more information on this topic, go to the {{book.UserAccount}} section

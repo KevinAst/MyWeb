@@ -37,7 +37,7 @@ Bar.
 
 ## User Account
 
-P{ inject('<div id="sign-in-form-guest">') }P
+P{ inject('<div class="panel guest" id="sign-in-form-guest">') }P
 
 **You are a Guest User**
 
@@ -53,7 +53,7 @@ it's own copy of the state)_.
 
 To overcome this limitation, you can **establish a Fire Within
 account**.  When you do this, your state is maintained in the cloud,
-and **automatically syncs across all devices** _(that are signed-in to
+and **automatically syncs across all devices** _(which are signed-in to
 the same account)_.
 
 **Establishing and using a Fire Within account is easy!**
@@ -104,7 +104,7 @@ the same account)_.
     master.
 
 
-P{ inject('</div> <div id="sign-in-form-signed-in" style="color: blue;">') }P
+P{ inject('</div> <div class="panel user" id="sign-in-form-signed-in">') }P
 
 Hello M{ userName() }M,
 
@@ -125,7 +125,7 @@ _(on this device)_ ... _unless you sign-out for some reason_.
 
 <button onclick="fw.requestSignOutConfirmation()">Sign Out</button>
 
-P{ inject('</div> <div id="sign-out-confirmation" style="color: red;">') }P
+P{ inject('</div> <div class="panel signout" id="sign-out-confirmation">') }P
 
 **Please confirm your request to Sign-Out: **
 
