@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 597**          _... categorized below!!_
-> <br/> **Photos: 47,838**       _... Yikes!!!_
+> <br/> **Albums: 598**          _... categorized below!!_
+> <br/> **Photos: 47,918**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 ## At a Glance
 
@@ -91,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Skateboarding](#skateboarding)
     • [Diving](#diving)
     • [Bowling](#bowling)
+  - [Skydiving](#skydiving)
 
 
 - [Tech](#tech)
@@ -698,6 +700,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > • [Skateboarding](#skateboarding)
 > • [Diving](#diving)
 > • [Bowling](#bowling)
+> <br/>
+> [Skydiving](#skydiving)
+
+
 
 ### Cycling
 
@@ -868,7 +874,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2018 02: [Bowling with Melicks 2/10/2018](https://photos.google.com/share/AF1QipMlv-ue7KDku9alHTBX2ZamLZ3NnlTjwYCncoQ_W3bIAQmWjG0uf_YSTyFoKuYK8Q?key=MTB3alRDNmRkTUhDb3Rvb1E1ZTRWTC11YmxyMml3) _(10 pics)_
 
+### Skydiving
 
+- 2006 05: [AJ's First Skydive 05/07/2006 (18th Birthday)](https://photos.google.com/share/AF1QipN6IypfhIMK49aunuzaIcdEATCqC19aYwU5vHHwamGw8ZR3AlLg4tnID7Lr7Zppgg?key=WFR3X3BRMkNUcG5TVTlYUWw2OTV3ZldDa0NIWkxn) _(80 pics)_
 
 
 
