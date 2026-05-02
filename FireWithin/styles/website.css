@@ -490,3 +490,18 @@ input[id^="devo"] {
   display: inline  !important;
   padding: 0px 0px !important;
 }
+
+
+/*** style User Account panels in settings.md ***/
+.panel {
+  padding:           16px;
+  border-radius:     8px;
+  margin:            16px 0;
+  border:            6px solid;
+  border-left-width: 15px;
+  color:             black;
+}
+
+.guest   { border-color: #d1d5db; border-left-color: #6b7280; background:#f9fafb; }
+.user    { border-color: #bbf7d0; border-left-color: #22c55e; background:#f0fdf4; }
+.signout { border-color: #fecaca; border-left-color: #ef4444; background:#fef2f2; }
