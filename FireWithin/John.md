@@ -138,6 +138,13 @@ M{ youTube(`Vi2bfQlGY4w`) }M
        verseRef:            'jhn.15.4',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sat 05/02/2026',
+       topic:               'One in Christ',
+       verse:               'John 17:20–21',
+       verseRef:            'jhn.17.20-21',
+       forBTB:              true,
+     }) }M
 
 
 
