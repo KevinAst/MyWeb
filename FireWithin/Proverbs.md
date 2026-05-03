@@ -72,6 +72,13 @@ M{ youTube(`JpEMDQsTy6k`) }M
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 05/03/2026',
+       topic:               'The Strength to Restrain',
+       verse:               'Proverbs 20:22',
+       verseRef:            'pro.20.22',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 03/10/2026',
        topic:               'Strength Without Self-Control',
        verse:               'Proverbs 25:28',
