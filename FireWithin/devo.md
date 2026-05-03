@@ -40,7 +40,7 @@ have considered on my own.
 These devotions are published through the [Sermons
 Online](https://sermons-online.org/gary-hamrick/devotion)
 website. However, I found this platform to be somewhat clunky and
-distracting.
+distracting, and was difficult to locate past devotions.
 
 <!-- Tested window on 3/17/2026, and it promoted months worth, from 2/17 - 3/17 (in 5 pages) -->
 
@@ -54,14 +54,16 @@ following benefits:
    > in a very concise format, allowing you to easily return to them at
    > anytime.
 
-2. **Linked Scripture References** — each passage connects directly to
-   the [YouVersion Bible App](https://www.youversion.com/), making it
-   easy to dig deeper - **electronically**.
+2. **Linked Scripture References** — like other resources on this
+   site, each passage connects directly to the 
+   [YouVersion Bible App](https://www.youversion.com/), making it easy
+   to dig deeper - **electronically**.
  
-3. **Progress Tracking** — like many resources on this site,
-   [completion checkboxes] help you stay on track.
+3. **Progress Tracking** — consistent with other pages on this site,
+   [completion checkboxes] allow you to track your progress and stay
+   organized.
  
-4. **Digging Deeper** — Each devotion includes a short "Digging
+4. **Digging Deeper** — each devotion includes a short "Digging
    Deeper" section with a "Related Sermon" _(when supplied by
    {{book.CornerstoneChapel}})_, **and** "Related Scripture"
    references to help you further explore the topic in more depth.
