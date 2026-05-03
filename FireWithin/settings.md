@@ -46,7 +46,7 @@ you are a "Guest" user.
 
 For "Guest" users, your state is maintained on your local device.
 **Your state consists of your _completions_ and _settings_.**. The
-**only limitation** of this approach is when you use multiple devices
+**one limitation** of a "Guest" user is related to using multiple devices
 _(say your laptop and your phone)_ ... then you must manually sync
 your state across all the devices you use _(because each device has
 it's own copy of the state)_.
@@ -89,7 +89,7 @@ the same account)_.
 
 - <mark><b>IMPORTANT:</b></mark> When your account is first created
   _(the first time you Sign Up)_, the state **from your device**
-  _(i.e. completions and settings)_ will be **transferred to the
+  _(completions and settings)_ will be **transferred to the
   cloud**.  As a result, your **initial Sign Up** should be done **on
   the device that has the most accurate state.**
 
@@ -110,7 +110,7 @@ Hello M{ userName() }M,
 
 You have signed-in to your Fire Within account, using email: M{ userEmail() }M.
 
-As a result, your state _(i.e. completions and settings)_ are retained
+As a result, your state _(completions and settings)_ are retained
 in the cloud, and automatically synced to all devices _(that are
 signed in to this account)_.
 
@@ -131,7 +131,7 @@ P{ inject('</div> <div class="panel signout" id="sign-out-confirmation">') }P
 
 <mark><b>Remember:</b></mark>
 
-- Your state _(i.e. completions and settings)_ will revert back to your device storage.
+- Your state _(completions and settings)_ will revert back to your device storage.
   - Which can optionally be reset to the latest copy from the cloud, **per this option**:
     <label><input type="checkbox" onclick="fw.handleSetting_syncDeviceStoreOnSignOut(this);" id="setting_syncDeviceStoreOnSignOut"> Sync Device Storage from the Cloud <i>(ON Sign-Out)</i></label>
 - From that point forward, however, your device state will be an independent copy, held on this device.
