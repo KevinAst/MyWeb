@@ -30,6 +30,7 @@ becomes more and more beautiful to you.
 ### At a Glance
 
 - [Overview](#overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
@@ -78,6 +79,20 @@ M{ youTube(`vmx4UjRFp0M`) }M
 **{{book.SpokenGospel}}**
 
 M{ youTube(`SnBQG07x0ow`) }M
+
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/04/2026',
+       topic:               'Truth Above Approval',
+       verse:               'Galatians 1:10',
+       verseRef:            'gal.1.10',
+       forBTB:              true,
+     }) }M
 
 
 
