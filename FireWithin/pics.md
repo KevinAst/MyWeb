@@ -579,8 +579,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 05: [Rich Powers Visit 5/2026](https://photos.google.com/share/AF1QipN8IdTQCSqO0aS-Kx_8e_WOM6w4oe_BtBcn9t0_UR71a_w2SxlkOeIyrSEs2afVVA?key=VFVrMW1XWXFOZENuSGhGSWw1amtmNXd1MzJvbk13) _(xx pics)_
 - 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
-
 
 - 2025 12: [Julian & Gaige goes to Altitude Trampoline Park 12/29/2025](https://photos.google.com/share/AF1QipOdHO_IEn7j7JjtB58suCnU6bCkNnhN0SUb1E1nmKtKxQDS0B63_8tyyC6KQj9G2g?key=aWFZQm53WUhvQ3VfajlmZEdpa0NSYUlYLTdiWjF3) _(38 pics)_
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
