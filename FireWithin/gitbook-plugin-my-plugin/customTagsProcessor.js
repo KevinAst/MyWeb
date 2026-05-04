@@ -1931,16 +1931,9 @@ function devoGHEnd(prayer) {
   // close indentation directive
   content += `</div>\n\n`;
 
-  // ### Digging Deeper:
-  // ... our Digging Deeper header
-  content += `<h4 id="prayer">Digging Deeper:</h4>\n\n`;
-
-  // open indentation directive
-  content += `<div class="indent">\n\n`;
-
   // the devotion's related sermon, if any (optional)
   if (devoSermonLinkRef) {
-    // #### Related Sermon:
+    // ### Related Sermon:
     content += `<h4 id="related-sermon">Related Sermon:</h4>\n\n`;
 
     // start our simple list
@@ -1964,6 +1957,13 @@ function devoGHEnd(prayer) {
     // wrap up list
     content += `</li></ul>`;
   }
+
+  // ### Digging Deeper:
+  // ... our Digging Deeper header
+  content += `<h4 id="prayer">Digging Deeper:</h4>\n\n`;
+
+  // open indentation directive
+  content += `<div class="indent">\n\n`;
   
   // NOTE: Leave the "Digging Deeper" indentation open (for additional markdown content)
   // ... i.e. DO NOT close the indentation directive
