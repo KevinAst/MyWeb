@@ -62,11 +62,14 @@ following benefits:
 3. **Progress Tracking** — consistent with other pages on this site,
    [completion checkboxes] allow you to track your progress and stay
    organized.
- 
-4. **Digging Deeper** — each devotion includes a short "Digging
-   Deeper" section with a "Related Sermon" _(when supplied by
-   {{book.CornerstoneChapel}})_, **and** "Related Scripture"
-   references to help you further explore the topic in more depth.
+
+4. A **Related Sermon** link is provided _(when supplied by
+   {{book.CornerstoneChapel}})_, and its Completion Checkbox is
+   automatically synchronized to the Bible Study Guide.
+
+5. **Digging Deeper** — each devotion includes a short "Digging
+   Deeper" section with related scripture references to help you
+   further explore the topic in more depth.
    
    > **Full Disclosure:** These scripture references are generated _(in part)_ with the
    > help of AI.  If that raises a red flag for you - **I fully understand!**
@@ -84,7 +87,7 @@ following benefits:
    > **Most importantly,** the devotional content itself remains unchanged and
    > reflects Pastor Gary’s original teaching.
    
-5. **Locate Devotions by Scripture Reference** — while this page
+6. **Locate Devotions by Scripture Reference** — while this page
    promotes devotions by `date of publication`, you can also locate a
    devotion by `scripture reference` - found in the host book _(for
    example [Luke](/Luke.md#devotions-by-the-book))_ through a section
