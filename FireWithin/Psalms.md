@@ -68,6 +68,13 @@ M{ youTube(`L6NSw20AkJQ`) }M
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Wed 05/06/2026',
+       topic:               'The God Who Restores',
+       verse:               'Psalm 23:3',
+       verseRef:            'psa.23.3',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 03/17/2026',
        topic:               'Led by the Light of God’s Word',
        verse:               'Psalm 25:4',
