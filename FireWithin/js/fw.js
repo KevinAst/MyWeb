@@ -841,6 +841,24 @@ if (!window.fw) { // only expand this module once (conditionally)
           backgroundPosition: 'center',
           backgroundSize:     'cover',
         });
+
+        // SPECIAL CASE: 
+        // - when a ZoomableImage is contained in a CollapsibleSection
+        //   * there is an issue where the CollapsibleSection does NOT consider the height of the ZoomableImage
+        //   * DURING:  LeftNav page navigation (GitBook stuff)
+        //   * BECAUSE: "THIS" img.onload() if fired AFTER the fw.pageSetup() is run
+        // - this is due to the dynamics of the CollapsibleSection
+        //   * it adjusts it's height dynamically via in-line CSS
+        //   * NOT SURE why thie can't simply be DOM related, allowing the browser to handle it 
+        // - BOTTOM LINE: this causes the CollapsibleSection to be too short (height)
+        // - FIX: Because this process is adjusting the ZoomableImage height, 
+        //        * we simply re-execute the `fw.pageSetup()`
+        //          ... typically run when the page has been loaded
+        //        * technically, all we need is `syncUICompletions()`
+        //          ... the part of `fw.pageSetup()` that adjusts completions
+        //              because CollapsibleSection piggy backs on completions
+        // - THIS IS A BIT OF A HACK (but it works
+        syncUICompletions(); // ... part of what fw.pageSetup() does
       }
 
       // monitor window size changes to adjust image percentage
