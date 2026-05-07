@@ -77,6 +77,13 @@ M{ youTube(`TVdLahnSY3o`) }M
        verseRef:            'jer.1.5',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/07/2026',
+       topic:               'A Deeper Walk With God',
+       verse:               'Jeremiah 33:3',
+       verseRef:            'jer.33.3',
+       forBTB:              true,
+     }) }M
 
 
 ## 2019 Jeremiah Series (Sundays)
