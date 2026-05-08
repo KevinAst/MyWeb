@@ -11,56 +11,81 @@ wait in this earthly exile for his return.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Psalms Overview](#psalms-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
 - [Psalms Misc Selection](#psalms-misc-selection)
 
 
-## Overview
+## Psalms Overview
 
-**{{book.NivBible}} Psalms Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The book of Psalms is a collection of song lyrics. Like many songs,
-> they were first written in response to events in the lives of their
-> authors. Later, the whole community used them in worship. When Israel
-> returned from exile in Babylon many of the songs from over the
-> centuries were collected in the book of Psalms.
-> 
-> The book is structured into five parts marked off by the phrase,
-> Praise be to the Lord… Amen and Amen!These five “books” remind the
-> reader of the five books of Moses. Like the law, these song lyrics can
-> be read and studied for instruction. Psalm 1 emphasizes such
-> meditation and seems to have been placed first to make this point.
-> 
-> The five books also tell a three-part story of Israel’s redemption:
-> monarchy, exile and return. The psalms of King David dominate books
-> one and two. The beginning and ending of book three highlight Israel’s
-> exile. The fourth book ends with a plea that God bring the exiled
-> people home. The fifth book declares that God has done just that. Now
-> the reason for the group of praise psalms at the end of the book is
-> apparent: God has been faithful, judging Israel in exile but then
-> bringing the nation home again.
-> 
-> The book of Psalms thus operates at two levels: individually the songs
-> explore a wide variety of honest spiritual responses to God, while the
-> overall collection tells, and celebrates, the work of God in history
-> to save his people.
+**{{book.NivBible}}**
+
+The book of Psalms is a collection of song lyrics. Like many songs,
+they were first written in response to events in the lives of their
+authors. Later, the whole community used them in worship. When Israel
+returned from exile in Babylon many of the songs from over the
+centuries were collected in the book of Psalms.
+
+The book is structured into five parts marked off by the phrase,
+Praise be to the Lord… Amen and Amen!These five “books” remind the
+reader of the five books of Moses. Like the law, these song lyrics can
+be read and studied for instruction. Psalm 1 emphasizes such
+meditation and seems to have been placed first to make this point.
+
+The five books also tell a three-part story of Israel’s redemption:
+monarchy, exile and return. The psalms of King David dominate books
+one and two. The beginning and ending of book three highlight Israel’s
+exile. The fourth book ends with a plea that God bring the exiled
+people home. The fifth book declares that God has done just that. Now
+the reason for the group of praise psalms at the end of the book is
+apparent: God has been faithful, judging Israel in exile but then
+bringing the nation home again.
+
+The book of Psalms thus operates at two levels: individually the songs
+explore a wide variety of honest spiritual responses to God, while the
+overall collection tells, and celebrates, the work of God in history
+to save his people.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Psalms Introduction](https://bibleproject.com/explore/video/psalms/)
-
+**Psalms Diagram**
 M{ zoomableImg(`Psalms_BP`) }M
 
+[Psalms Introduction](https://bibleproject.com/explore/video/psalms/)
 M{ youTube(`j9phNEaPrv8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`L6NSw20AkJQ`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

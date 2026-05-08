@@ -10,55 +10,82 @@ who both saves us from our enemies and from God's judgment.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Judges Overview](#judges-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2014 Judges Series (Sundays)](#2014-judges-series-sundays)
 - [2022 Judges Series (Mid Week)](#2022-judges-series-mid-week)
 
-## Overview
+## Judges Overview
 
-**{{book.NivBible}} Judges Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books of Joshua and Judges tell the story of the early years of
-> Israel as a nation. They describe how the Israelites conquer and
-> occupy the land of Canaan, and then struggle to live up to their
-> covenant with God. The Bible’s drama here moves to an important new
-> stage—God’s people are in God’s land. Yet it becomes clear that the
-> road to reconciliation between God and humanity will not be easy.
-> 
-> The story describes the preparations and battles of Israel’s invasion,
-> as well as how the land was divided among the tribes. Since pockets of
-> resistance remained, Joshua in his final speech urges each tribe to
-> take full possession of its territory. Next he leads the people to
-> renew their commitment to the covenant relationship with God.
-> 
-> Judges then relates the troubling cycle of Israel’s repeated covenant
-> breaking, falling under the rule of other nations, and then crying out
-> to God for help. God responds by raising up “judges” to fight for them
-> and save them. But the relief is temporary as Israel falls back into
-> wrongdoing once again. (“Judges” are both military leaders and legal
-> authorities.)
-> 
-> Just as Israel was made up of twelve tribes, so the book tells of
-> twelve judges. But as the people persist in going their own way, we
-> see that they have rejected their true Judge and Ruler. As the anarchy
-> and atrocities increase, Israel’s need for a king becomes more
-> evident. By the end the questions are urgent: Can Israel fulfill its
-> destiny and calling to be God’s light to the nations? Who can rule
-> Israel to help it find its proper role in the drama?
+**{{book.NivBible}}**
 
+The books of Joshua and Judges tell the story of the early years of
+Israel as a nation. They describe how the Israelites conquer and
+occupy the land of Canaan, and then struggle to live up to their
+covenant with God. The Bible’s drama here moves to an important new
+stage—God’s people are in God’s land. Yet it becomes clear that the
+road to reconciliation between God and humanity will not be easy.
+
+The story describes the preparations and battles of Israel’s invasion,
+as well as how the land was divided among the tribes. Since pockets of
+resistance remained, Joshua in his final speech urges each tribe to
+take full possession of its territory. Next he leads the people to
+renew their commitment to the covenant relationship with God.
+
+Judges then relates the troubling cycle of Israel’s repeated covenant
+breaking, falling under the rule of other nations, and then crying out
+to God for help. God responds by raising up “judges” to fight for them
+and save them. But the relief is temporary as Israel falls back into
+wrongdoing once again. (“Judges” are both military leaders and legal
+authorities.)
+
+Just as Israel was made up of twelve tribes, so the book tells of
+twelve judges. But as the people persist in going their own way, we
+see that they have rejected their true Judge and Ruler. As the anarchy
+and atrocities increase, Israel’s need for a king becomes more
+evident. By the end the questions are urgent: Can Israel fulfill its
+destiny and calling to be God’s light to the nations? Who can rule
+Israel to help it find its proper role in the drama?
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Judges Introduction](https://bibleproject.com/explore/video/judges/)
+**Judges Diagram**
 M{ zoomableImg(`Judges_BP`) }M
 
+[Judges Introduction](https://bibleproject.com/explore/video/judges/)
 M{ youTube(`kOYy8iCfIJ4`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`IRvDm7PJsAc`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

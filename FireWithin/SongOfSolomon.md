@@ -24,48 +24,76 @@ the person of Jesus.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Song of Solomon Overview](#song-of-solomon-overview)
 - [2018 Song of Solomon Series (Sundays)](#2018-song-of-solomon-series-sundays)
 
 
-## Overview
+## Song of Solomon Overview
 
-**{{book.NivBible}} Song of Solomon Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'SongOfSolomon_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Traditional wedding celebrations in the Middle East cast the bride and
-> groom in the roles of a king and his queen. The festivities include
-> love songs and also special songs that praise the physical beauty of
-> the bride or the handsomeness of the groom. The custom has a long
-> history and is reflected in the anthology of wedding songs we know as
-> the Song of Songs. The individual songs may have been used repeatedly
-> in marriage celebrations and eventually gathered together, just as the
-> psalms were collected after years of use in worship. The title
-> Solomon’s Song of Songs can be taken to mean that King Solomon, a
-> renowned composer (see 1 Kings 4:29-34), was the author of its
-> songs. However, it could also be a reference to Solomon as the kind of
-> glorious king the groom represents.
-> 
-> The songs are arranged to tell the courtship story of a man and woman,
-> of their marriage (described as a royal wedding) and its consummation,
-> and of the beginning of their new life together. After a short
-> introduction the book presents six episodes, each typically ending
-> with a reference to the friends of the man and woman. This may refer
-> to others attending the wedding to join in the celebration. Together
-> the songs celebrate the delights of married love and the beauty of the
-> human body, using vivid imagery from the natural world to show that
-> these things are part of the creation that God declared very good.
+**{{book.NivBible}}**
 
+Traditional wedding celebrations in the Middle East cast the bride and
+groom in the roles of a king and his queen. The festivities include
+love songs and also special songs that praise the physical beauty of
+the bride or the handsomeness of the groom. The custom has a long
+history and is reflected in the anthology of wedding songs we know as
+the Song of Songs. The individual songs may have been used repeatedly
+in marriage celebrations and eventually gathered together, just as the
+psalms were collected after years of use in worship. The title
+Solomon’s Song of Songs can be taken to mean that King Solomon, a
+renowned composer (see 1 Kings 4:29-34), was the author of its
+songs. However, it could also be a reference to Solomon as the kind of
+glorious king the groom represents.
+
+The songs are arranged to tell the courtship story of a man and woman,
+of their marriage (described as a royal wedding) and its consummation,
+and of the beginning of their new life together. After a short
+introduction the book presents six episodes, each typically ending
+with a reference to the friends of the man and woman. This may refer
+to others attending the wedding to join in the celebration. Together
+the songs celebrate the delights of married love and the beauty of the
+human body, using vivid imagery from the natural world to show that
+these things are part of the creation that God declared very good.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'SongOfSolomon_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Song of Solomon Introduction](https://bibleproject.com/explore/video/song-songs/)
+**Song of Solomon Diagram**
 M{ zoomableImg(`SongOfSolomon_BP`) }M
 
+[Song of Solomon Introduction](https://bibleproject.com/explore/video/song-songs/)
 M{ youTube(`4KC7xE4fgOw`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'SongOfSolomon_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`FH4kaV5D5dM`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2018 Song of Solomon Series (Sundays)

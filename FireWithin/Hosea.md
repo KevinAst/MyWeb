@@ -13,58 +13,80 @@ loves us with great compassion.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Hosea Overview](#hosea-overview)
 - [Hosea Series](#hosea-series)
 
 
-## Overview
+## Hosea Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hosea_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The prophet Hosea spoke to the northern kingdom of Israel in the
+turbulent period of the 8th century BC. Following the death of Jeroboam
+II, Israel had six different kings in just over twenty years; four
+were assassinated and the last was forcibly removed from the
+throne. The rising empire of Assyria invaded Israel, and by 722 BC had
+completely conquered the nation and carried off much of its population
+into exile.
+
+Israel had made the mistake of identifying the Lord with Baal, a
+Canaanite nature god. This identification may have begun innocently
+enough, since baal simply means “master.” But by the time of Hosea, the
+people were visiting shrine prostitutes, and had adopted the magical
+practices of fertility cults. Hosea repeatedly denounces this
+corrupted worship as spiritual prostitution. He also condemns the
+nation’s foolish foreign intrigues, its rejection of the moral law,
+and its callous greed. The people dismissed Hosea’s warnings, however,
+and simply mocked him.
+
+The book is structured into two main parts. The shorter first part
+tells how God commanded Hosea to marry the unfaithful woman Gomer. She
+is symbolic of Israel’s wavering faithfulness to the Lord. The
+prophet’s own life thus provided a picture of God’s intentions toward
+wayward Israel. The longer second part contains oracles delivered
+during the decline after King Jeroboam, alternating hope and doom as
+Hosea both threatens and pleads with the kingdom of Israel in the last
+years before its exile.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Hosea Introduction**
-
-> The prophet Hosea spoke to the northern kingdom of Israel in the
-> turbulent period of the 8th century BC. Following the death of Jeroboam
-> II, Israel had six different kings in just over twenty years; four
-> were assassinated and the last was forcibly removed from the
-> throne. The rising empire of Assyria invaded Israel, and by 722 BC had
-> completely conquered the nation and carried off much of its population
-> into exile.
-> 
-> Israel had made the mistake of identifying the Lord with Baal, a
-> Canaanite nature god. This identification may have begun innocently
-> enough, since baal simply means “master.” But by the time of Hosea, the
-> people were visiting shrine prostitutes, and had adopted the magical
-> practices of fertility cults. Hosea repeatedly denounces this
-> corrupted worship as spiritual prostitution. He also condemns the
-> nation’s foolish foreign intrigues, its rejection of the moral law,
-> and its callous greed. The people dismissed Hosea’s warnings, however,
-> and simply mocked him.
-> 
-> The book is structured into two main parts. The shorter first part
-> tells how God commanded Hosea to marry the unfaithful woman Gomer. She
-> is symbolic of Israel’s wavering faithfulness to the Lord. The
-> prophet’s own life thus provided a picture of God’s intentions toward
-> wayward Israel. The longer second part contains oracles delivered
-> during the decline after King Jeroboam, alternating hope and doom as
-> Hosea both threatens and pleads with the kingdom of Israel in the last
-> years before its exile.
-
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hosea_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
+**Hosea Diagram**
 M{ zoomableImg(`Hosea_BP`) }M
 
+[Hosea Introduction](https://bibleproject.com/explore/video/hosea/)
 M{ youTube(`kE6SZ1ogOVU`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hosea_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`rcgm96YYflk`) }M
 
-
+P{ collapsibleSectionEnd() }P
 
 
 ## Hosea Series

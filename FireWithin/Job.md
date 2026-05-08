@@ -24,54 +24,81 @@ world by suffering on the cross.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Job Overview](#job-overview)
 - [2016 Job Series (Sundays)](#2016-job-series-sundays)
 
 
-## Overview
+## Job Overview
 
-**{{book.NivBible}} Job Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Job_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The wisdom of Proverbs describes how godly character generally leads
-> to success. Ecclesiastes tempers this, warning that rewards are not
-> guaranteed, since a kind of “crookedness” has come into our world. The
-> book of Job goes further, exploring how righteous people sometimes
-> suffer. The book of Job uses a common literary device from the wisdom
-> traditions of the ancient world: an extended conversation based on
-> poetic speeches.
-> 
-> Job is introduced as a good man. But “the adversary” (satan in Hebrew)
-> points out an apparent problem in God’s moral oversight of the
-> universe. If goodness is always rewarded, how can we know if it’s born
-> from love of God or desire for gain? So God allows the adversary to
-> bring suffering into Job’s life.
-> 
-> Job doesn’t curse God as the adversary predicted but ends up debating
-> with three friends: Eliphaz, Bildad and Zophar. Their overly rigid
-> view of the moral universe convinces them that Job’s own wrongdoing
-> has caused his suffering. A young man Elihu joins the conversation
-> later, while Job continues to insist that he has done nothing wrong
-> and deserves a hearing before God.
-> 
-> Finally, God reveals the power and wisdom shown in his oversight of
-> creation. Job then humbly admits his own limited understanding. When
-> God rebukes Job’s three friends, we see they are guilty of a far worse
-> assumption than Job. In the end God blesses Job with twice as much as
-> he had before. The book warns us to avoid reducing God’s moral rule to
-> easy formulas.
+**{{book.NivBible}}**
 
+The wisdom of Proverbs describes how godly character generally leads
+to success. Ecclesiastes tempers this, warning that rewards are not
+guaranteed, since a kind of “crookedness” has come into our world. The
+book of Job goes further, exploring how righteous people sometimes
+suffer. The book of Job uses a common literary device from the wisdom
+traditions of the ancient world: an extended conversation based on
+poetic speeches.
+
+Job is introduced as a good man. But “the adversary” (satan in Hebrew)
+points out an apparent problem in God’s moral oversight of the
+universe. If goodness is always rewarded, how can we know if it’s born
+from love of God or desire for gain? So God allows the adversary to
+bring suffering into Job’s life.
+
+Job doesn’t curse God as the adversary predicted but ends up debating
+with three friends: Eliphaz, Bildad and Zophar. Their overly rigid
+view of the moral universe convinces them that Job’s own wrongdoing
+has caused his suffering. A young man Elihu joins the conversation
+later, while Job continues to insist that he has done nothing wrong
+and deserves a hearing before God.
+
+Finally, God reveals the power and wisdom shown in his oversight of
+creation. Job then humbly admits his own limited understanding. When
+God rebukes Job’s three friends, we see they are guilty of a far worse
+assumption than Job. In the end God blesses Job with twice as much as
+he had before. The book warns us to avoid reducing God’s moral rule to
+easy formulas.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Job_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Job Introduction](https://bibleproject.com/explore/video/job/)
+**Job Diagram**
 M{ zoomableImg(`Job_BP`) }M
 
+[Job Introduction](https://bibleproject.com/explore/video/job/)
 M{ youTube(`xQwnH8th_fs`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Job_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`9Od6ABpCJrA`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2016 Job Series (Sundays)

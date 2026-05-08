@@ -17,55 +17,84 @@ in Jesus!
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Ezekiel Overview](#ezekiel-overview)
 - [2019 Ezekiel Series (Sundays)](#2019-ezekiel-series-sundays)
 
 
-## Overview
+## Ezekiel Overview
 
-**{{book.NivBible}} Ezekiel Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ezekiel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The priest Ezekiel was among the Judeans that Nebuchadnezzar brought
-> to Babylon in 597 BC. Five years into this exile, God called Ezekiel
-> to go to Israel (both those in Babylon and those back in Judea) and
-> speak my words to them. Ezekiel often brought this message by composing
-> finely polished poetic oracles and speaking (or perhaps singing) them
-> in public. But he also told stories with symbolic meanings, performed
-> symbolic actions, and described extraordinary visions that he had
-> received.
-> 
-> The book of Ezekiel organizes these messages into three main parts:
-> oracles of judgment against Israel, oracles against other nations, and
-> then promises of Israel’s restoration. These divisions are marked by
-> references to the prophet losing and then regaining his ability to
-> speak. A key vision near the beginning describes how God removed his
-> presence from the Jerusalem temple because of Israel’s evil. The
-> oracles against the nations make it clear that though God’s temple was
-> destroyed, no one should conclude that God is not still in control of
-> the world. Those who threaten his people will be defeated in the
-> end. The book’s closing promises confirm that God will renew the
-> hearts of his people and refresh all life on the face of the
-> earth. Ezekiel’s visions fit the ongoing drama of the Bible: a broken
-> world will be healed when the Lord returns to live with his people in
-> a land that has become like the garden of Eden.
+**{{book.NivBible}}**
 
+The priest Ezekiel was among the Judeans that Nebuchadnezzar brought
+to Babylon in 597 BC. Five years into this exile, God called Ezekiel
+to go to Israel (both those in Babylon and those back in Judea) and
+speak my words to them. Ezekiel often brought this message by composing
+finely polished poetic oracles and speaking (or perhaps singing) them
+in public. But he also told stories with symbolic meanings, performed
+symbolic actions, and described extraordinary visions that he had
+received.
+
+The book of Ezekiel organizes these messages into three main parts:
+oracles of judgment against Israel, oracles against other nations, and
+then promises of Israel’s restoration. These divisions are marked by
+references to the prophet losing and then regaining his ability to
+speak. A key vision near the beginning describes how God removed his
+presence from the Jerusalem temple because of Israel’s evil. The
+oracles against the nations make it clear that though God’s temple was
+destroyed, no one should conclude that God is not still in control of
+the world. Those who threaten his people will be defeated in the
+end. The book’s closing promises confirm that God will renew the
+hearts of his people and refresh all life on the face of the
+earth. Ezekiel’s visions fit the ongoing drama of the Bible: a broken
+world will be healed when the Lord returns to live with his people in
+a land that has become like the garden of Eden.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ezekiel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Ezekiel Introduction](https://bibleproject.com/explore/video/ezekiel/)
+**Ezekiel Diagram**
 M{ zoomableImg(`Ezekiel_BP`) }M
 
-> [Part 1: Ezekiel 1-33](https://bibleproject.com/explore/video/ezekiel-1-33/) ...
+<!-- KJB: This link appears to be a duplicate of Part 1 (below)
+[Ezekiel Introduction](https://bibleproject.com/explore/video/ezekiel/)
+-->
+
+[Part 1: Ezekiel 1-33](https://bibleproject.com/explore/video/ezekiel-1-33/) ...
 M{ youTube(`R-CIPu1nko8`) }M
 
-> [Part 2: Ezekiel 34-48](https://bibleproject.com/explore/video/ezekiel-34-48/)
+[Part 2: Ezekiel 34-48](https://bibleproject.com/explore/video/ezekiel-34-48/)
 M{ youTube(`SDeCWW_Bnyw`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ezekiel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`EfIJsnuzHCk`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2019 Ezekiel Series (Sundays)

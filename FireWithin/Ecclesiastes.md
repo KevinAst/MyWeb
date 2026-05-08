@@ -11,51 +11,78 @@ way that escapes vanity and builds meaning.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Ecclesiastes Overview](#ecclesiastes-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Ecclesiastes Series (Sundays)](#2018-ecclesiastes-series-sundays)
 
 
-## Overview
+## Ecclesiastes Overview
 
-**{{book.NivBible}} Ecclesiastes Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ecclesiastes_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Ecclesiastes is the collected words of a “teacher” or “preacher.” The
-> Teacher is described as having been king over Israel in Jerusalem, and
-> as the son of David. Both of these mean that he was in the royal line
-> of Judah. He is not further identified, and while tradition identifies
-> him with Solomon, it is appropriate to leave this cloak of anonymity
-> in place.
-> 
-> The repeated phrase Meaningless! Meaningless! Everything is
-> meaningless! warns us that life’s rewards are uncertain and ultimately
-> unsatisfying. The Teacher pursues this insight in a long discourse
-> that shifts between prose and poetry, and between autobiography and
-> straightforward teaching. The book makes observations and poses
-> questions, returning to themes like the wind— round and round it goes,
-> ever returning on its course.
-> 
-> When the Teacher says What is crooked cannot be straightened, he
-> reminds us that something wrong has intruded into our world. This fits
-> the larger Jewish story told in the rest of the Scriptures. Setting
-> things right again is what this bigger drama is about. The Teacher,
-> however, does not tell us about God’s attempts at straightening the
-> world. He is content to say that God is sovereign over all things and
-> it is our duty to follow his ways for living, since God will bring
-> every deed into judgment.
+**{{book.NivBible}}**
 
+Ecclesiastes is the collected words of a “teacher” or “preacher.” The
+Teacher is described as having been king over Israel in Jerusalem, and
+as the son of David. Both of these mean that he was in the royal line
+of Judah. He is not further identified, and while tradition identifies
+him with Solomon, it is appropriate to leave this cloak of anonymity
+in place.
+
+The repeated phrase Meaningless! Meaningless! Everything is
+meaningless! warns us that life’s rewards are uncertain and ultimately
+unsatisfying. The Teacher pursues this insight in a long discourse
+that shifts between prose and poetry, and between autobiography and
+straightforward teaching. The book makes observations and poses
+questions, returning to themes like the wind— round and round it goes,
+ever returning on its course.
+
+When the Teacher says What is crooked cannot be straightened, he
+reminds us that something wrong has intruded into our world. This fits
+the larger Jewish story told in the rest of the Scriptures. Setting
+things right again is what this bigger drama is about. The Teacher,
+however, does not tell us about God’s attempts at straightening the
+world. He is content to say that God is sovereign over all things and
+it is our duty to follow his ways for living, since God will bring
+every deed into judgment.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ecclesiastes_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Ecclesiastes Introduction](https://bibleproject.com/explore/video/ecclesiastes/)
+**Ecclesiastes Diagram**
 M{ zoomableImg(`Ecclesiastes_BP`) }M
 
+[Ecclesiastes Introduction](https://bibleproject.com/explore/video/ecclesiastes/)
 M{ youTube(`lrsQ1tc-2wk`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Ecclesiastes_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`mCrtxkeQE_8`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

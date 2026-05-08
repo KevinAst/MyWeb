@@ -9,47 +9,74 @@ the book of Joel is that everyone who calls out to God will be saved.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Joel Overview](#joel-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Joel Series (Mid Week)](#2012-joel-series-mid-week)
 - [2019 Joel Series (Sundays)](#2019-joel-series-sundays)
 
 
-## Overview
+## Joel Overview
 
-**{{book.NivBible}} Joel Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Joel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The exact date of the book of Joel is difficult to know, since it does
-> not refer to the reign of any particular king. The specific occasion
-> of the book, however, is very clear and Joel uses this occasion to
-> deliver a powerful spiritual message.
-> 
-> The book begins by graphically describing how a swarm of locusts has
-> overrun the land of Judah and eaten everything in sight. After calling
-> for the people to repent in response to this disaster, the book offers
-> a detailed description of the locust swarm itself. The locusts are
-> like an invading army, with God at their head. Joel asserts that the
-> day of the Lord—a day of judgment—has come. He renews his call for
-> repentance through fasting, community prayer and heartfelt
-> contrition. In response, he promises that God will not only drive the
-> locusts away, but restore more than they have devoured. He foretells
-> God’s defeat of all the nations that oppose his people, and how God
-> will pour out his Spirit on the survivors in Judah. If the people
-> return to the Lord with all of their hearts, they will see the return
-> of their prosperity when the day of the Lord arrives.
+**{{book.NivBible}}**
 
+The exact date of the book of Joel is difficult to know, since it does
+not refer to the reign of any particular king. The specific occasion
+of the book, however, is very clear and Joel uses this occasion to
+deliver a powerful spiritual message.
+
+The book begins by graphically describing how a swarm of locusts has
+overrun the land of Judah and eaten everything in sight. After calling
+for the people to repent in response to this disaster, the book offers
+a detailed description of the locust swarm itself. The locusts are
+like an invading army, with God at their head. Joel asserts that the
+day of the Lord—a day of judgment—has come. He renews his call for
+repentance through fasting, community prayer and heartfelt
+contrition. In response, he promises that God will not only drive the
+locusts away, but restore more than they have devoured. He foretells
+God’s defeat of all the nations that oppose his people, and how God
+will pour out his Spirit on the survivors in Judah. If the people
+return to the Lord with all of their hearts, they will see the return
+of their prosperity when the day of the Lord arrives.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Joel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Joel Introduction](https://bibleproject.com/explore/video/joel/)
+**Joel Diagram**
 M{ zoomableImg(`Joel_BP`) }M
 
+[Joel Introduction](https://bibleproject.com/explore/video/joel/)
 M{ youTube(`zQLazbgz90c`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Joel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`Hag-esKhP_U`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

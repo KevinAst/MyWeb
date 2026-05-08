@@ -19,54 +19,80 @@ under his rule.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Daniel Overview](#daniel-overview)
 - [2012 Daniel Series (Mid Week)](#2012-daniel-series-mid-week)
 - [2019 Daniel Series (Sundays)](#2019-daniel-series-sundays)
 
-## Overview
+## Daniel Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Daniel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The book of Daniel combines two types of literature: court narrative
+and apocalypse. The opening narrative section presents six stories of
+how God protected and promoted four young men who were taken into
+exile in Babylon. When Daniel and his friends Shadrach, Meshach and
+Abednego demonstrate their faithfulness to God, they are delivered
+from deadly perils by God’s mighty acts. Daniel was given the ability
+to interpret dreams, earning him a valued place in the royal court of
+Babylon, and later in the Persian Empire.
+
+The second part of the book describes visions and messages Daniel
+received from God through angelic messengers. These visions are
+presented in the cryptic language and symbolic terms typical of
+apocalyptic literature. Within them we see the outlines of Near
+Eastern history: the empires of Babylon and Persia; the conquests of
+Alexander the Great; and the ongoing strife between the Ptolemys in
+Egypt and the Seleucids in Syria. The visions anticipate an arrogant
+ruler, the Seleucid emperor Antiochus IV Epiphanes, who desecrated the
+Jerusalem temple in 167 BC. This led to the Maccabean revolt, which
+restored the nation’s independence and preserved the worship of
+Israel’s God.
+
+The visions in Daniel can also be understood to reveal the conditions
+at the end of the present age, showing it to be a time of definitive
+conflict between God’s people and their enemies. The people of God
+will be sustained through their persecutions knowing they will receive
+the kingdom.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Daniel Introduction**
-
-> The book of Daniel combines two types of literature: court narrative
-> and apocalypse. The opening narrative section presents six stories of
-> how God protected and promoted four young men who were taken into
-> exile in Babylon. When Daniel and his friends Shadrach, Meshach and
-> Abednego demonstrate their faithfulness to God, they are delivered
-> from deadly perils by God’s mighty acts. Daniel was given the ability
-> to interpret dreams, earning him a valued place in the royal court of
-> Babylon, and later in the Persian Empire.
-> 
-> The second part of the book describes visions and messages Daniel
-> received from God through angelic messengers. These visions are
-> presented in the cryptic language and symbolic terms typical of
-> apocalyptic literature. Within them we see the outlines of Near
-> Eastern history: the empires of Babylon and Persia; the conquests of
-> Alexander the Great; and the ongoing strife between the Ptolemys in
-> Egypt and the Seleucids in Syria. The visions anticipate an arrogant
-> ruler, the Seleucid emperor Antiochus IV Epiphanes, who desecrated the
-> Jerusalem temple in 167 BC. This led to the Maccabean revolt, which
-> restored the nation’s independence and preserved the worship of
-> Israel’s God.
-> 
-> The visions in Daniel can also be understood to reveal the conditions
-> at the end of the present age, showing it to be a time of definitive
-> conflict between God’s people and their enemies. The people of God
-> will be sustained through their persecutions knowing they will receive
-> the kingdom.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Daniel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
-
+**Daniel Diagram**
 M{ zoomableImg(`Daniel_BP`) }M
 
+[Daniel Introduction](https://bibleproject.com/explore/video/daniel/)
+M{ youTube(`9cSC9uobtPM`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Daniel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`xtrK2GnZyVg`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2012 Daniel Series (Mid Week)

@@ -15,50 +15,77 @@ instead of Law breakers.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Deuteronomy Overview](#deuteronomy-overview)
 - [2013 Deuteronomy Series (Sundays)](#2013-deuteronomy-series-sundays)
 
-## Overview
+## Deuteronomy Overview
 
-**{{book.NivBible}} Deuteronomy Introduction**
 
-> The book of Deuteronomy records the great speech Moses gives just
-> before his death. He addresses the generation of Israelites who grew
-> up in the wilderness just as they are preparing to enter the land of
-> Canaan. God wants this promised land to show what renewed life under
-> God’s blessing looks like. The book presents the covenant in a form
-> commonly used by rulers of the time to make treaties with those they
-> ruled over. The standard form of these treaties included five
-> elements:
-> 
-> 1. The great ruler is identified by name and title.
-> 1. The history and mighty acts of the great ruler are told.
-> 1. The allegiance and specific duties expected of the ruler’s servants are spelled out.
-> 1. Blessings for keeping the treaty and curses for breaking it are listed.
-> 1. Provisions for continuing the covenant with future generations are laid out.
-> 
-> Deuteronomy follows this pattern very closely. Moses is identified as
-> the representative of the Great King—the God of Israel—whose mighty
-> acts for his people are recalled. Moses reminds them to give exclusive
-> allegiance to their king and lists their duties. He then calls on the
-> people to join in a sacred oath to ratify the covenant. After naming a
-> successor and climbing a mountain to look out over the land, Moses
-> dies. The people of Israel stand on the edge of their inheritance, the
-> promise of a new creation before them.
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Deuteronomy_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
+**{{book.NivBible}}**
+
+The book of Deuteronomy records the great speech Moses gives just
+before his death. He addresses the generation of Israelites who grew
+up in the wilderness just as they are preparing to enter the land of
+Canaan. God wants this promised land to show what renewed life under
+God’s blessing looks like. The book presents the covenant in a form
+commonly used by rulers of the time to make treaties with those they
+ruled over. The standard form of these treaties included five
+elements:
+
+1. The great ruler is identified by name and title.
+1. The history and mighty acts of the great ruler are told.
+1. The allegiance and specific duties expected of the ruler’s servants are spelled out.
+1. Blessings for keeping the treaty and curses for breaking it are listed.
+1. Provisions for continuing the covenant with future generations are laid out.
+
+Deuteronomy follows this pattern very closely. Moses is identified as
+the representative of the Great King—the God of Israel—whose mighty
+acts for his people are recalled. Moses reminds them to give exclusive
+allegiance to their king and lists their duties. He then calls on the
+people to join in a sacred oath to ratify the covenant. After naming a
+successor and climbing a mountain to look out over the land, Moses
+dies. The people of Israel stand on the edge of their inheritance, the
+promise of a new creation before them.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Deuteronomy_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Deuteronomy Introduction](https://bibleproject.com/explore/video/deuteronomy/)
+**Deuteronomy Diagram**
 M{ zoomableImg(`Deuteronomy_BP`) }M
 
+[Deuteronomy Introduction](https://bibleproject.com/explore/video/deuteronomy/)
 M{ youTube(`q5QEH9bH8AU`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Deuteronomy_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`DfHlvrAKMoU`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2013 Deuteronomy Series (Sundays)

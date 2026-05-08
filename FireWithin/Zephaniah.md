@@ -13,53 +13,78 @@ humanity can flourish in peace.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Zephaniah Overview](#zephaniah-overview)
 - [2012 Zephaniah Series (Mid Week)](#2012-zephaniah-series-mid-week)
 - [2020 Zephaniah Series (Sundays)](#2020-zephaniah-series-sundays)
 
 
-## Overview
+## Zephaniah Overview
 
-**{{book.NivBible}} Zephaniah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zephaniah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The reign of King Manasseh of Judah was the time of greatest
-> corruption, injustice and paganism in Judah’s history. But Manasseh’s
-> grandson King Josiah reasserted the nation’s faith and obedience to
-> God and its independence from foreign empires. One reason for this
-> seems to be that a member of his court stood up and warned that
-> Judah’s breaking of the covenant had led it to the brink of
-> destruction. The person who offered this warning was the prophet
-> Zephaniah.
-> 
-> The book’s prologue identifies Zephaniah as the great-great-grandson
-> of Hezekiah. No other prophet’s ancestry is traced back four
-> generations, so this seems intended to associate Zephaniah with the
-> great reforming king of Judah. It is likely that Zephaniah was of
-> royal blood, since he was familiar with particular districts in
-> Jerusalem and with specific activities in the capital.
-> 
-> This collection of prophecies has three main parts. First is a
-> description of the day of the Lord that is coming against Judah and
-> Jerusalem. Next is a call for national repentance, along with oracles
-> of destruction against the Philistines, Moabites, Cushites
-> (Ethiopians), Assyrians and Jerusalem itself. In the final section,
-> Zephaniah promises that God will restore a humble remnant when he
-> returns as a Mighty Warrior among his people.
+**{{book.NivBible}}**
 
+The reign of King Manasseh of Judah was the time of greatest
+corruption, injustice and paganism in Judah’s history. But Manasseh’s
+grandson King Josiah reasserted the nation’s faith and obedience to
+God and its independence from foreign empires. One reason for this
+seems to be that a member of his court stood up and warned that
+Judah’s breaking of the covenant had led it to the brink of
+destruction. The person who offered this warning was the prophet
+Zephaniah.
+
+The book’s prologue identifies Zephaniah as the great-great-grandson
+of Hezekiah. No other prophet’s ancestry is traced back four
+generations, so this seems intended to associate Zephaniah with the
+great reforming king of Judah. It is likely that Zephaniah was of
+royal blood, since he was familiar with particular districts in
+Jerusalem and with specific activities in the capital.
+
+This collection of prophecies has three main parts. First is a
+description of the day of the Lord that is coming against Judah and
+Jerusalem. Next is a call for national repentance, along with oracles
+of destruction against the Philistines, Moabites, Cushites
+(Ethiopians), Assyrians and Jerusalem itself. In the final section,
+Zephaniah promises that God will restore a humble remnant when he
+returns as a Mighty Warrior among his people.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zephaniah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Zephaniah Introduction](https://bibleproject.com/explore/video/zephaniah/)
+**Zephaniah Diagram**
 M{ zoomableImg(`Zephaniah_BP`) }M
 
+[Zephaniah Introduction](https://bibleproject.com/explore/video/zephaniah/)
 M{ youTube(`oFZknKPNvz8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zephaniah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`eENvjSouW9Y`) }M
 
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2012 Zephaniah Series (Mid Week)

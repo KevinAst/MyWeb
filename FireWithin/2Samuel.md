@@ -11,60 +11,89 @@ every proud king to bow.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [2 Samuel Overview](#2-samuel-overview)
 - [2014 2 Samuel Series (Sundays)](#2014-2-samuel-series-sundays)
 - [2023 2 Samuel Series (Mid Week)](#2023-2-samuel-series-mid-week)
 
 
-## Overview
+## 2 Samuel Overview
 
-**{{book.NivBible}} 2 Samuel Introduction**
 
-> The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
-> one long book. (They were separated due to the length of ancient
-> scrolls.) Beginning with Samuel, the last of the judges, this book
-> describes what happened in the days of the kings who ruled first the
-> whole nation, and then the divided kingdoms of Israel and Judah. The
-> reigns of Saul and David are described in detail. The repeating
-> structure within the book tells how old a king was when he came to the
-> throne, where and for how long he ruled, and something about his
-> character and the notable events of his reign. (Some traditions call
-> this book the “Book of Reigns.”)
-> 
-> Beneath this pattern of historical succession, however, another rhythm
-> can be discerned. Saul, the first king, does not follow God
-> faithfully, and God announces he will seek a man after his own heart
-> to rule Israel. God finds this person in David. He puts him on the
-> throne, promising that his descendants will always rule Israel if they
-> continue to serve him. Unfortunately, the kings after David are not
-> committed to following God’s way. Many of them abandon God and lead
-> the people to do the same, although a few of them call the people back
-> to obedience. Using David’s wholehearted dedication to the Lord as its
-> standard, the book of Samuel-Kings traces the tragic wavering of the
-> people’s devotion to God. Their covenant failure leads to the nation
-> first being divided and then later conquered by the powerful empires
-> to the east.
-> 
-> The “Book of Reigns” is therefore a tragic closing of the whole
-> covenant history that began in Genesis. Just as the first humans were
-> exiled from God’s garden, now Israel is sent out of the “new Eden” God
-> intended in the promised land. Land and temple have been lost in the
-> darkness of judgment, and only a flickering light remains. The deeper
-> purpose of God for Israel—to bring blessing and restoration to the
-> nations—seems to have been frustrated. But hope remains alive in God’s
-> promise to bring a descendant of David back to the throne.
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
+**{{book.NivBible}}**
+
+The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
+one long book. (They were separated due to the length of ancient
+scrolls.) Beginning with Samuel, the last of the judges, this book
+describes what happened in the days of the kings who ruled first the
+whole nation, and then the divided kingdoms of Israel and Judah. The
+reigns of Saul and David are described in detail. The repeating
+structure within the book tells how old a king was when he came to the
+throne, where and for how long he ruled, and something about his
+character and the notable events of his reign. (Some traditions call
+this book the “Book of Reigns.”)
+
+Beneath this pattern of historical succession, however, another rhythm
+can be discerned. Saul, the first king, does not follow God
+faithfully, and God announces he will seek a man after his own heart
+to rule Israel. God finds this person in David. He puts him on the
+throne, promising that his descendants will always rule Israel if they
+continue to serve him. Unfortunately, the kings after David are not
+committed to following God’s way. Many of them abandon God and lead
+the people to do the same, although a few of them call the people back
+to obedience. Using David’s wholehearted dedication to the Lord as its
+standard, the book of Samuel-Kings traces the tragic wavering of the
+people’s devotion to God. Their covenant failure leads to the nation
+first being divided and then later conquered by the powerful empires
+to the east.
+
+The “Book of Reigns” is therefore a tragic closing of the whole
+covenant history that began in Genesis. Just as the first humans were
+exiled from God’s garden, now Israel is sent out of the “new Eden” God
+intended in the promised land. Land and temple have been lost in the
+darkness of judgment, and only a flickering light remains. The deeper
+purpose of God for Israel—to bring blessing and restoration to the
+nations—seems to have been frustrated. But hope remains alive in God’s
+promise to bring a descendant of David back to the throne.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [2 Samuel Introduction](https://bibleproject.com/explore/video/2-samuel/)
+**2 Samuel Diagram**
 M{ zoomableImg(`12Samuel_BP`) }M
 
+[2 Samuel Introduction](https://bibleproject.com/explore/video/2-samuel/)
 M{ youTube(`YvoWDXNDJgs`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`I97PwEJ5Ok0`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2014 2 Samuel Series (Sundays)

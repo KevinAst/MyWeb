@@ -11,48 +11,74 @@ the hope of a new Kingdom.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Micah Overview](#micah-overview)
 - [Micah Series](#micah-series)
 
 
-## Overview
+## Micah Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Micah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The prophet Micah speaks to the southern kingdom of Judah during the
+reigns of Jotham, Ahaz and Hezekiah (late 8th century BC). He foresees
+that Samaria and Jerusalem, the capital cities of Israel and Judah,
+will be destroyed because of their injustice and corrupt religion. The
+people have abandoned the covenant God made with them, taking up the
+pagan religious practices of the Canaanites. The rich and powerful are
+ruthlessly exploiting the poor, ignoring the law of Moses. Micah warns
+that in punishment for their unfaithfulness and injustice, both
+kingdoms will be invaded, conquered and exiled. As he predicts,
+Samaria falls to the Assyrians in 722 BC and Jerusalem falls to the
+Babylonians in 587/6 BC.
+
+Micah’s prophecies alternate between warnings of destruction and
+promises of restoration. Each of Micah’s three groups of oracles
+begins with a series of judgments, and then concludes with promises of
+restoration. Micah proclaims that in compassion and covenant
+faithfulness God will save a remnant of the people and bring them back
+to their own land. There they will be ruled by a righteous king and
+become a light to the whole world, pointing all nations to the ways of
+the Lord. God will help Israel find its place in the biblical drama.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Micah Introduction**
-
-> The prophet Micah speaks to the southern kingdom of Judah during the
-> reigns of Jotham, Ahaz and Hezekiah (late 8th century BC). He foresees
-> that Samaria and Jerusalem, the capital cities of Israel and Judah,
-> will be destroyed because of their injustice and corrupt religion. The
-> people have abandoned the covenant God made with them, taking up the
-> pagan religious practices of the Canaanites. The rich and powerful are
-> ruthlessly exploiting the poor, ignoring the law of Moses. Micah warns
-> that in punishment for their unfaithfulness and injustice, both
-> kingdoms will be invaded, conquered and exiled. As he predicts,
-> Samaria falls to the Assyrians in 722 BC and Jerusalem falls to the
-> Babylonians in 587/6 BC.
-> 
-> Micah’s prophecies alternate between warnings of destruction and
-> promises of restoration. Each of Micah’s three groups of oracles
-> begins with a series of judgments, and then concludes with promises of
-> restoration. Micah proclaims that in compassion and covenant
-> faithfulness God will save a remnant of the people and bring them back
-> to their own land. There they will be ruled by a righteous king and
-> become a light to the whole world, pointing all nations to the ways of
-> the Lord. God will help Israel find its place in the biblical drama.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Micah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Micah Introduction](https://bibleproject.com/explore/video/micah/)
+**Micah Diagram**
 M{ zoomableImg(`Micah_BP`) }M
 
+[Micah Introduction](https://bibleproject.com/explore/video/micah/)
 M{ youTube(`MFEUEcylwLc`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Micah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`ok2VvP34Lw4`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Micah Series

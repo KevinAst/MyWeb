@@ -13,50 +13,77 @@ upside down.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Esther Overview](#esther-overview)
 - [2016 Esther Series (Sundays)](#2016-esther-series-sundays)
 
 
-## Overview
+## Esther Overview
 
-**{{book.NivBible}} Esther Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Esther_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The book of Esther explains why Jews in the Persian period began
-> celebrating a new festival called Purim. The law of Moses had earlier
-> described how God’s mighty acts of deliverance lay behind holidays
-> such as Passover and Tabernacles. The book of Esther shows how God
-> intervened once again to save the Jews, leading to a commemoration of
-> this great rescue in the feast of Purim.
-> 
-> This fast-moving story occurs during the reign of the Persian king
-> Xerxes (most likely Xerxes I, 486–465 BC). It relates the adventures
-> that take place when a Jewish exile named Esther and her cousin and
-> guardian Mordecai work to rescue their people from a plot to destroy
-> them. While the story never mentions God by name, God’s hand of
-> protection can be detected in the timing and combination of events as
-> they unfold.
-> 
-> The book features numerous banquets, including two hosted by Xerxes at
-> the beginning, two given by Esther in the middle, and two celebrated
-> by the grateful Jews at the end. Since this story was told to later
-> generations during the feast of Purim itself, the audience is placed
-> right in the middle of the action. Those who read it can not only join
-> in celebrating God’s deliverance, they can ask themselves, as Mordecai
-> asked Esther, for what great purpose God may have brought them to
-> their own position in life.
+**{{book.NivBible}}**
 
+The book of Esther explains why Jews in the Persian period began
+celebrating a new festival called Purim. The law of Moses had earlier
+described how God’s mighty acts of deliverance lay behind holidays
+such as Passover and Tabernacles. The book of Esther shows how God
+intervened once again to save the Jews, leading to a commemoration of
+this great rescue in the feast of Purim.
+
+This fast-moving story occurs during the reign of the Persian king
+Xerxes (most likely Xerxes I, 486–465 BC). It relates the adventures
+that take place when a Jewish exile named Esther and her cousin and
+guardian Mordecai work to rescue their people from a plot to destroy
+them. While the story never mentions God by name, God’s hand of
+protection can be detected in the timing and combination of events as
+they unfold.
+
+The book features numerous banquets, including two hosted by Xerxes at
+the beginning, two given by Esther in the middle, and two celebrated
+by the grateful Jews at the end. Since this story was told to later
+generations during the feast of Purim itself, the audience is placed
+right in the middle of the action. Those who read it can not only join
+in celebrating God’s deliverance, they can ask themselves, as Mordecai
+asked Esther, for what great purpose God may have brought them to
+their own position in life.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Esther_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Esther Introduction](https://bibleproject.com/explore/video/esther/)
+**Esther Diagram**
 M{ zoomableImg(`Esther_BP`) }M
 
+[Esther Introduction](https://bibleproject.com/explore/video/esther/)
 M{ youTube(`JydNSlufRIs`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Esther_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`JTEIBAC6DU4`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2016 Esther Series (Sundays)

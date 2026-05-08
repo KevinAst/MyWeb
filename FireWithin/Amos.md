@@ -23,53 +23,79 @@ through renewed hearts.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Amos Overview](#amos-overview)
 - [Amos Series](#amos-series)
 
 
-## Overview
+## Amos Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Amos_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The northern kingdom of Israel reached its greatest heights in the
+first half of the 8th century BC (2 Kings 14:23-25), during the
+forty-one-year reign of the powerful Jeroboam II. Confident in their
+nation’s victories, their worship, and their heritage, the people
+adopted the motto, “God is with us!” They were anticipating the day of
+the Lord, when God would strike down all their enemies and establish
+Israel as the undisputed ruler of the region.
+
+Into this atmosphere of overconfident nationalism steps Amos, a
+shepherd from the southern kingdom of Judah. He stands in the great
+royal temple at Bethel and announces that God is stirring up a nation
+to conquer Israel. The day of the Lord, he insisted, will be darkness,
+not light. God isn’t impressed with Israel’s wealth, military might,
+or self-indulgent way of life. He is looking for justice, while the
+rich and powerful are taking advantage of the poor. God is calling
+Israel to repentance as the only way to avoid destruction.
+
+The message causes an uproar. Amaziah, the high priest at Bethel,
+accuses Amos of treason. Amos is banished from the kingdom, but his
+oracles are recorded, creating one of the earliest collections we have
+from any Hebrew prophet. The book consists of roughly three dozen
+separate oracles, plus the story of his expulsion. Most of the book is
+loosely assembled, but it conveys one strong and consistent message:
+Let justice roll on like a river, righteousness like a never-failing
+stream!
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Amos Introduction**
-
-> The northern kingdom of Israel reached its greatest heights in the
-> first half of the 8th century BC (2 Kings 14:23-25), during the
-> forty-one-year reign of the powerful Jeroboam II. Confident in their
-> nation’s victories, their worship, and their heritage, the people
-> adopted the motto, “God is with us!” They were anticipating the day of
-> the Lord, when God would strike down all their enemies and establish
-> Israel as the undisputed ruler of the region.
-> 
-> Into this atmosphere of overconfident nationalism steps Amos, a
-> shepherd from the southern kingdom of Judah. He stands in the great
-> royal temple at Bethel and announces that God is stirring up a nation
-> to conquer Israel. The day of the Lord, he insisted, will be darkness,
-> not light. God isn’t impressed with Israel’s wealth, military might,
-> or self-indulgent way of life. He is looking for justice, while the
-> rich and powerful are taking advantage of the poor. God is calling
-> Israel to repentance as the only way to avoid destruction.
-> 
-> The message causes an uproar. Amaziah, the high priest at Bethel,
-> accuses Amos of treason. Amos is banished from the kingdom, but his
-> oracles are recorded, creating one of the earliest collections we have
-> from any Hebrew prophet. The book consists of roughly three dozen
-> separate oracles, plus the story of his expulsion. Most of the book is
-> loosely assembled, but it conveys one strong and consistent message:
-> Let justice roll on like a river, righteousness like a never-failing
-> stream!
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Amos_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Amos Introduction](https://bibleproject.com/explore/video/amos/)
-
+**Amos Diagram**
 M{ zoomableImg(`Amos_BP`) }M
 
+[Amos Introduction](https://bibleproject.com/explore/video/amos/)
+M{ youTube(`mGgWaPGpGz4`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Amos_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`73ubNEt_DB0`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## Amos Series

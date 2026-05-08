@@ -15,52 +15,78 @@ people.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Habakkuk Overview](#habakkuk-overview)
 - [2012 Habakkuk Series (Mid Week)](#2012-habakkuk-series-mid-week)
 - [2020 Habakkuk Series (Sundays)](#2020-habakkuk-series-sundays)
 - [Habakkuk Misc Selection](#habakkuk-misc-selection)
 
 
-## Overview
+## Habakkuk Overview
 
-**{{book.NivBible}} Habakkuk Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Habakkuk_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Near the time of the transition from the Assyrian to the Babylonian
-> empires (late 7th century BC), the prophet Habakkuk engaged in a
-> profound dialogue with Israel’s God. The form of his book is a short
-> series of complaints, or laments, followed by the divine
-> responses. When Habakkuk’s cries are answered, he closes with a hymn
-> of confidence in God’s expected victory.
-> 
-> The prophet begins by asking how long God will allow evil to
-> triumph. The divine reply is that God is raising up the Babylonians as
-> his tool of correction. This leads to Habakkuk’s second question: Why
-> do you allow the wicked to swallow up those more righteous than
-> themselves? God replies again, explaining that the Babylonians will be
-> judged just like the Assyrians, and that the righteous must await this
-> in faith and patience. The inevitability of Babylon’s doom is
-> emphasized when God pronounces a series of five woes against it.
-> 
-> When Habakkuk’s dialogue with God concludes, the book moves to what is
-> called A prayer of Habakkuk. But its musical notations reveal that it
-> is clearly meant to be sung. Habakkuk celebrates God’s dramatic
-> intervention for Israel in the past and prays that God will do it
-> again. The prophet resolves in the meantime to wait patiently for
-> God’s coming.
+**{{book.NivBible}}**
 
+Near the time of the transition from the Assyrian to the Babylonian
+empires (late 7th century BC), the prophet Habakkuk engaged in a
+profound dialogue with Israel’s God. The form of his book is a short
+series of complaints, or laments, followed by the divine
+responses. When Habakkuk’s cries are answered, he closes with a hymn
+of confidence in God’s expected victory.
+
+The prophet begins by asking how long God will allow evil to
+triumph. The divine reply is that God is raising up the Babylonians as
+his tool of correction. This leads to Habakkuk’s second question: Why
+do you allow the wicked to swallow up those more righteous than
+themselves? God replies again, explaining that the Babylonians will be
+judged just like the Assyrians, and that the righteous must await this
+in faith and patience. The inevitability of Babylon’s doom is
+emphasized when God pronounces a series of five woes against it.
+
+When Habakkuk’s dialogue with God concludes, the book moves to what is
+called A prayer of Habakkuk. But its musical notations reveal that it
+is clearly meant to be sung. Habakkuk celebrates God’s dramatic
+intervention for Israel in the past and prays that God will do it
+again. The prophet resolves in the meantime to wait patiently for
+God’s coming.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Habakkuk_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Habakkuk Introduction](https://bibleproject.com/explore/video/habakkuk/)
+**Habakkuk Diagram**
 M{ zoomableImg(`Habakkuk_BP`) }M
 
+[Habakkuk Introduction](https://bibleproject.com/explore/video/habakkuk/)
 M{ youTube(`OPMaRqGJPUU`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Habakkuk_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`zXasC09Gi34`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2012 Habakkuk Series (Mid Week)

@@ -18,56 +18,84 @@ faithfulness in the present.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Zechariah Overview](#zechariah-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Zechariah Series (Mid Week)](#2013-zechariah-series-mid-week)
 - [2020 Zechariah Series (Sundays)](#2020-zechariah-series-sundays)
 
 
-## Overview
+## Zechariah Overview
 
-**{{book.NivBible}} Zechariah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zechariah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The prophet Zechariah brought his messages to the returned exiles of
-> Judah beginning in the second year of King Darius of Persia (520
-> BC). The book has two main parts. The first contains two sequences of
-> prophecies, primarily in the form of symbolic vision reports. The
-> second main part is made up mostly of poetic oracles concerned with
-> the nation’s leaders.
-> 
-> After a general call to repentance, Zechariah records a series of
-> eight visions to encourage the people in rebuilding the temple. The
-> first and last describe four differently colored horses and their
-> riders sent over the earth. The second and third visions show that
-> hostile foreign powers no longer threaten the country. The sixth and
-> seventh visions report the removal of the people’s sins. The two
-> central visions depict God establishing Joshua the high priest and
-> Zerubbabel the governor. The overall message is that God has
-> everything in place for the rebuilding project.
-> 
-> The second sequence of prophecies has six parts. Ever since the
-> disaster of the exile and the temple’s destruction, the people had
-> been fasting at certain times of the year. The messages here urge the
-> people to practice justice as the true form of fasting and to focus on
-> rebuilding. Then Zechariah announces that all their fasts will become
-> joyful celebrations.
-> 
-> The book’s final section predicts that after the people suffer under
-> bad shepherds, God will send a righteous king from David’s line. The
-> Lord will triumph over every enemy and be king over the whole earth.
+**{{book.NivBible}}**
 
+The prophet Zechariah brought his messages to the returned exiles of
+Judah beginning in the second year of King Darius of Persia (520
+BC). The book has two main parts. The first contains two sequences of
+prophecies, primarily in the form of symbolic vision reports. The
+second main part is made up mostly of poetic oracles concerned with
+the nation’s leaders.
+
+After a general call to repentance, Zechariah records a series of
+eight visions to encourage the people in rebuilding the temple. The
+first and last describe four differently colored horses and their
+riders sent over the earth. The second and third visions show that
+hostile foreign powers no longer threaten the country. The sixth and
+seventh visions report the removal of the people’s sins. The two
+central visions depict God establishing Joshua the high priest and
+Zerubbabel the governor. The overall message is that God has
+everything in place for the rebuilding project.
+
+The second sequence of prophecies has six parts. Ever since the
+disaster of the exile and the temple’s destruction, the people had
+been fasting at certain times of the year. The messages here urge the
+people to practice justice as the true form of fasting and to focus on
+rebuilding. Then Zechariah announces that all their fasts will become
+joyful celebrations.
+
+The book’s final section predicts that after the people suffer under
+bad shepherds, God will send a righteous king from David’s line. The
+Lord will triumph over every enemy and be king over the whole earth.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zechariah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Zechariah Introduction](https://bibleproject.com/explore/video/zechariah/)
+**Zechariah Diagram**
 M{ zoomableImg(`Zechariah_BP`) }M
 
+[Zechariah Introduction](https://bibleproject.com/explore/video/zechariah/)
 M{ youTube(`_106IfO6Kc0`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Zechariah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
 
 > _As of 12/2023 Spoken Gospel has no zechariah introduction_
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

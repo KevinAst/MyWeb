@@ -8,41 +8,67 @@ Jesus, will be raised.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Obadiah Overview](#obadiah-overview)
 - [2012 Obadiah Series (Mid Week)](#2012-obadiah-series-mid-week)
 - [2019 Obadiah Series (Sundays)](#2019-obadiah-series-sundays)
 
-## Overview
+## Obadiah Overview
 
-**{{book.NivBible}} Obadiah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Obadiah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> When Judah’s capital city of Jerusalem fell to the Babylonian army in
-> 587/6 BC, those in the neighboring kingdom of Edom joined in looting
-> the city. They intercepted fleeing Judeans and turned them over to the
-> Babylonians to be executed or enslaved. They showed no compassion even
-> though they were related to the Judeans. Edom was descended from Esau,
-> the brother of Jacob, who was the ancestor of the Israelites.
-> 
-> The prophet Obadiah seems to have been among those who remained behind
-> when the Judeans were taken into exile. His oracle first rebukes the
-> Edomites for their ruthless treatment of their helpless neighbors and
-> foretells their destruction. He then assures the people of his
-> community that God would restore their fortunes. He assures Judah that
-> in the end, the kingdom will be the Lord’s.
+**{{book.NivBible}}**
 
+When Judah’s capital city of Jerusalem fell to the Babylonian army in
+587/6 BC, those in the neighboring kingdom of Edom joined in looting
+the city. They intercepted fleeing Judeans and turned them over to the
+Babylonians to be executed or enslaved. They showed no compassion even
+though they were related to the Judeans. Edom was descended from Esau,
+the brother of Jacob, who was the ancestor of the Israelites.
+
+The prophet Obadiah seems to have been among those who remained behind
+when the Judeans were taken into exile. His oracle first rebukes the
+Edomites for their ruthless treatment of their helpless neighbors and
+foretells their destruction. He then assures the people of his
+community that God would restore their fortunes. He assures Judah that
+in the end, the kingdom will be the Lord’s.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Obadiah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Obadiah Introduction](https://bibleproject.com/explore/video/obadiah/)
+**Obadiah Diagram**
 M{ zoomableImg(`Obadiah_BP`) }M
 
+[Obadiah Introduction](https://bibleproject.com/explore/video/obadiah/)
 M{ youTube(`i4ogCrEoG5s`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Obadiah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`9gR7F6L56C0`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2012 Obadiah Series (Mid Week)

@@ -10,54 +10,81 @@ by Adam and Eve, earning the same result - death.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Proverbs Overview](#proverbs-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2017 Proverbs Series (Sundays)](#2017-proverbs-series-sundays)
 - [Proverbs Misc Selection](#proverbs-misc-selection)
 
 
-## Overview
+## Proverbs Overview
 
-**{{book.NivBible}} Proverbs Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Proverbs_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Israel understood that the Creator had placed an order in his world
-> that could be discovered. The book of Proverbs captures these lessons
-> in compact, memorable sayings passed down from the wisest among their
-> elders. Many of them are from Solomon, a king renowned for his wisdom
-> (see 1 Kings 4:29-34). These proverbs are especially designed to help
-> younger people avoid common pitfalls and find the path to prosperity,
-> health and security.
-> 
-> After a short section of teaching, wisdom itself, personified as a
-> woman, calls out to the simple and invites them to grow in
-> knowledge. This section ends by presenting two banquets, one hosted by
-> Wisdom and one by Folly, illustrating the essential choice to be made
-> in life. A collection of 375 proverbs of Solomon follows, reflecting
-> the numerical value of his name in Hebrew. (Hebrew letters were also
-> used as numbers, so words had a value equal to the sum of their
-> letters.) After some “sayings of the wise,” next is a collection of
-> Solomon’s wisdom compiled by the men of Hezekiah, king of Judah. Here
-> the count is 130, equaling the value of Hezekiah’s name. The book
-> closes with sayings from Agur and Lemuel, ending with a poem whose 22
-> parts begin with consecutive letters of the Hebrew alphabet. The
-> character qualities praised throughout the book are seen in a
-> description of the ideal wife.
-> 
-> This rich book of short, pithy wisdom presents a consistent theme: the
-> fear of the Lord is the beginning of knowledge.
+**{{book.NivBible}}**
 
+Israel understood that the Creator had placed an order in his world
+that could be discovered. The book of Proverbs captures these lessons
+in compact, memorable sayings passed down from the wisest among their
+elders. Many of them are from Solomon, a king renowned for his wisdom
+(see 1 Kings 4:29-34). These proverbs are especially designed to help
+younger people avoid common pitfalls and find the path to prosperity,
+health and security.
+
+After a short section of teaching, wisdom itself, personified as a
+woman, calls out to the simple and invites them to grow in
+knowledge. This section ends by presenting two banquets, one hosted by
+Wisdom and one by Folly, illustrating the essential choice to be made
+in life. A collection of 375 proverbs of Solomon follows, reflecting
+the numerical value of his name in Hebrew. (Hebrew letters were also
+used as numbers, so words had a value equal to the sum of their
+letters.) After some “sayings of the wise,” next is a collection of
+Solomon’s wisdom compiled by the men of Hezekiah, king of Judah. Here
+the count is 130, equaling the value of Hezekiah’s name. The book
+closes with sayings from Agur and Lemuel, ending with a poem whose 22
+parts begin with consecutive letters of the Hebrew alphabet. The
+character qualities praised throughout the book are seen in a
+description of the ideal wife.
+
+This rich book of short, pithy wisdom presents a consistent theme: the
+fear of the Lord is the beginning of knowledge.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Proverbs_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Proverbs Introduction](https://bibleproject.com/explore/video/proverbs/)
+**Proverbs Diagram**
 M{ zoomableImg(`Proverbs_BP`) }M
 
+[Proverbs Introduction](https://bibleproject.com/explore/video/proverbs/)
 M{ youTube(`AzmYV8GNAIM`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Proverbs_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`JpEMDQsTy6k`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

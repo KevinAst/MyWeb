@@ -13,71 +13,99 @@ makes a way for us to live in his presence.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Nehemiah Overview](#nehemiah-overview)
 - [2016 Nehemiah Series (Sundays)](#2016-nehemiah-series-sundays)
 - [Nehemiah Misc Selection](#nehemiah-misc-selection)
 
 
-## Overview
+## Nehemiah Overview
 
-**{{book.NivBible}} Nehemiah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Nehemiah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> In the fifth century BC, many Judeans were returning from exile to the
-> southern part of the land of Israel. They faced great difficulties:
-> their capital city and temple had been destroyed, foreigners had moved
-> in, and they were no longer ruled by their own king. But the books of
-> Chronicles, Ezra and Nehemiah insist that God’s people can still
-> fulfill his purpose. They must form a unique society centered on the
-> worship of God in a rebuilt temple in Jerusalem. (These books are
-> really one long book, telling a continuous story; one can see, for
-> example, how the end of 2 Chronicles overlaps with the beginning of
-> Ezra.)
-> 
-> The book presents a sweeping chronicle of Israel’s history, beginning
-> with a long genealogy or ancestor list. Going all the way back to
-> Adam, it situates the people of Israel among the nations and reminds
-> them of their calling. Special attention is given to Judah, ancestor
-> of the royal line of David, and to Levi, ancestor of the priests and
-> temple attendants.
-> 
-> The second main part describes the kings who ruled in Jerusalem down
-> to the time of the exile. David receives more attention than others,
-> but many details of his life told elsewhere are left out. The focus is
-> on his military campaigns and his elaborate plans for the temple in
-> Jerusalem. The reason is clear when we see that David was not
-> permitted to build the temple because he was a warrior. God wanted a
-> man of peace to build the place where all nations would come to
-> pray. The honor therefore fell to David’s son Solomon. More space is
-> devoted to him than to any king besides David, describing his
-> construction of the temple and the splendors of his reign.
-> 
-> The final part of the book relates the experiences of the returned
-> exiles. The memoirs of Ezra and Nehemiah, leaders of the second
-> generation of returned Judeans, are incorporated into the
-> history. These leaders helped create a distinct community by
-> forbidding intermarriage with the surrounding peoples, and they
-> directed the rebuilding of Jerusalem’s walls. Included here is a
-> description of a great covenant renewal ceremony led by Ezra and
-> Nehemiah.
-> 
-> An important theme of the entire history—which can appropriately be
-> called a temple history—is that pure worship is offered on God’s
-> terms, not ours. God has chosen Israel to welcome the nations into
-> true worship. Through all the ups and downs of history he is working
-> to bring this purpose to fulfillment.
+**{{book.NivBible}}**
 
+In the fifth century BC, many Judeans were returning from exile to the
+southern part of the land of Israel. They faced great difficulties:
+their capital city and temple had been destroyed, foreigners had moved
+in, and they were no longer ruled by their own king. But the books of
+Chronicles, Ezra and Nehemiah insist that God’s people can still
+fulfill his purpose. They must form a unique society centered on the
+worship of God in a rebuilt temple in Jerusalem. (These books are
+really one long book, telling a continuous story; one can see, for
+example, how the end of 2 Chronicles overlaps with the beginning of
+Ezra.)
+
+The book presents a sweeping chronicle of Israel’s history, beginning
+with a long genealogy or ancestor list. Going all the way back to
+Adam, it situates the people of Israel among the nations and reminds
+them of their calling. Special attention is given to Judah, ancestor
+of the royal line of David, and to Levi, ancestor of the priests and
+temple attendants.
+
+The second main part describes the kings who ruled in Jerusalem down
+to the time of the exile. David receives more attention than others,
+but many details of his life told elsewhere are left out. The focus is
+on his military campaigns and his elaborate plans for the temple in
+Jerusalem. The reason is clear when we see that David was not
+permitted to build the temple because he was a warrior. God wanted a
+man of peace to build the place where all nations would come to
+pray. The honor therefore fell to David’s son Solomon. More space is
+devoted to him than to any king besides David, describing his
+construction of the temple and the splendors of his reign.
+
+The final part of the book relates the experiences of the returned
+exiles. The memoirs of Ezra and Nehemiah, leaders of the second
+generation of returned Judeans, are incorporated into the
+history. These leaders helped create a distinct community by
+forbidding intermarriage with the surrounding peoples, and they
+directed the rebuilding of Jerusalem’s walls. Included here is a
+description of a great covenant renewal ceremony led by Ezra and
+Nehemiah.
+
+An important theme of the entire history—which can appropriately be
+called a temple history—is that pure worship is offered on God’s
+terms, not ours. God has chosen Israel to welcome the nations into
+true worship. Through all the ups and downs of history he is working
+to bring this purpose to fulfillment.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Nehemiah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Nehemiah Introduction](https://bibleproject.com/explore/video/ezra-nehemiah/)
+**Nehemiah Diagram**
 M{ zoomableImg(`Ezra_Nehemiah_BP`) }M
 
+[Nehemiah Introduction](https://bibleproject.com/explore/video/ezra-nehemiah/)
 M{ youTube(`MkETkRv9tG8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Nehemiah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
+**{{book.SpokenGospel}}**
 M{ youTube(`bszz_ReGfXQ`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2016 Nehemiah Series (Sundays)
