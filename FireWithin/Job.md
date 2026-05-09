@@ -22,6 +22,8 @@ pain and blame our sins deserved, to show us that God is truly doing
 something through suffering that we cannot comprehend. He saved the
 world by suffering on the cross.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Job Overview](#job-overview)

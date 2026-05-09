@@ -9,6 +9,8 @@ Jesus who humbly listens to the voice of God. It is only Jesus who
 establishes a nation of humility. And it is only Jesus who can cause
 every proud king to bow.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [1 Samuel Overview](#1-samuel-overview)

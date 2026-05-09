@@ -21,6 +21,7 @@ being eaten by a fish, and plants that miraculously grow and die in a
 day, and the lessons behind these images go much deeper than what is
 on the surface.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -12,6 +12,7 @@ in need. But people couldn't see it. That is because they, like all of
 us, were spiritually blind. But when Jesus heals our spiritual
 blindness, we can see him and the scriptures as they truly are.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

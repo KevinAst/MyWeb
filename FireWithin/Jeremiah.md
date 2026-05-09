@@ -14,6 +14,7 @@ husband to his adulterous bride. In Jesus, he would begin a new
 covenant that would transform his people from adulterous whores and
 make them virgin brides once again.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

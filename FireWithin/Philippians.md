@@ -7,6 +7,7 @@ ancient hymn, encourages the church in Philippi to follow Jesus’
 example. They must humble themselves toward each other and in the face
 of persecution because they know they will be exalted with Christ.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

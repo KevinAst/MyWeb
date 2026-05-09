@@ -21,6 +21,7 @@ Our sense of longing and feelings of absence, shows us that God knows they
 exist and is drawing near to us to bring healing and satisfaction in
 the person of Jesus.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

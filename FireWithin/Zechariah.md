@@ -1,20 +1,13 @@
 # Zechariah
 
-Almost 70 years after the exile, the Israelites were experiencing
-hardships and wondered if the prophetic promises of a new Jerusalem
-would ever be fulfilled. The book of Zechariah answers this question
-through several dream visions, challenging God's peopel to remain
-faithful and hope in God’s promises.
+The book of Zechariah introduces us to God's promises to rebuild his
+ruined temple and restore his kingdom through a coming priest and
+king. Through a series of visions and prophecies, Zechariah encourages
+God's people that although their current temple rebuilding project may
+seem small, it points to a greater temple and kingdom that will one
+day encompass all nations.
 
-These bizarre images remind God's people that they must remain
-faithful to the covenant if they want the new Jerusalem, messianic
-Kingdom, and the end of evil to come to pass. Even though the book
-doesn't follow a neat, orderly pattern and contains scary and bizarre
-images, it shows glimpses of God's hand in guiding history toward his
-purposes. It’s a message that’s still relevant to us today—we can look
-above the chaos and hope for God's Kingdom, which will motivate
-faithfulness in the present.
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

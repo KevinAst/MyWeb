@@ -6,6 +6,8 @@ isn’t just for Edomites but all sons and daughters of Adam. God stands
 opposed to the proud, but all who humbly accept God’s chosen son,
 Jesus, will be raised.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Obadiah Overview](#obadiah-overview)

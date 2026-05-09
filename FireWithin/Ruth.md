@@ -7,6 +7,7 @@ chaotic time of the Judges. But in the middle of the chaos, God
 provides not only food and family for a destitute widow but a king and
 a hope for a nation on the brink.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -26,6 +26,7 @@ be circumcised. As you meditate on this truth, along with its wider
 implications, we pray that the free and finished gift of the Gospel
 becomes more and more beautiful to you.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

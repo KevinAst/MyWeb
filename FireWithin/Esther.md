@@ -10,6 +10,7 @@ powerful. Ultimately, Esther reveals to us the Savior who not only
 became powerless but died and turned even the power of the grave
 upside down.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

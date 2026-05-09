@@ -6,6 +6,8 @@ exiled. He does this to show them they are not alone. The good news of
 1 Peter is that even though we are exiles in a foreign land, we have
 been joined to a new family grounded in Jesus.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [1 Peter Overview](#1-peter-overview)

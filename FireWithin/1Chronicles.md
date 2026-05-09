@@ -1,19 +1,17 @@
 # 1 Chronicles
 
-Like the books of Samuel and Kings, 1 and 2 Chronicles was also
-written as a single book in the Hebrew Bible. But many modern readers
-skip reading it when they find that it repeats much of the material
-from the previous books. So is Chronicles necessary to read? YES!
-... keep reading!
+The books of 1 and 2 Chronicles tell Israel's story from creation
+through exile, focusing on God's faithfulness to his promises despite
+his people's unfaithfulness. Written to returning exiles rebuilding
+their nation, Chronicles emphasizes how faithful kings who center
+worship around God's temple bring blessing, while unfaithful kings
+bring judgment.
 
-Chronicles is the last Book in the Hebrew Bible as it summarizes the
-continued relationship between God and Israel through the blessing of
-Abraham. The arrangement of Chronicles invites the reader to explore
-the stories of each section that reveal interesting details about
-David, Solomon, God's temple, the kings of Judah, and how they all
-work together. Chronicles is also an excellent historical reference
-for those studying specific facts in the Scriptures.
+Throughout these books, we see God's consistent promise that a son of
+David will one day rule an eternal kingdom where all nations worship
+the true God.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

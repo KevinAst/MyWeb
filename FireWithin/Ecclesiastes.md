@@ -9,6 +9,8 @@ from God. Only when we see how God brings meaning into our lives
 through the revelation of Jesus can we interact with this world in a
 way that escapes vanity and builds meaning.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Ecclesiastes Overview](#ecclesiastes-overview)

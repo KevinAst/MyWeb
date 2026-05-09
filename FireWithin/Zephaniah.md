@@ -10,6 +10,7 @@ But the coming Day of the Lord is not without hope. It will remove
 evil from among God’s people and open up a new future where all
 humanity can flourish in peace.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -12,6 +12,8 @@ temporary way to take our darkness and make it light, but we needed a
 more permanent solution. That is why Jesus, who is God's light itself,
 took on our darkness to make us holy like him.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Leviticus Overview](#leviticus-overview)

@@ -9,6 +9,7 @@ wondering how Jesus could have been the promised Messiah if he died on
 a cross. Mark answers this question by showing how everything Jesus
 did in his life prepares us for and informs us about his death.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

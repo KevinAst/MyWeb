@@ -19,6 +19,7 @@ is the story of the conflict which arose between Jews and Gentiles as
 they began integrating in synagogues and house churches throughout
 Rome, and how Jesus brings them together.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

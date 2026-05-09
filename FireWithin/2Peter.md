@@ -6,6 +6,7 @@ that while God's judgment is real and terrifying, that also means
 justice is real and that one day there will be no evil left in the
 world.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

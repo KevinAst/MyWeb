@@ -8,6 +8,8 @@ Gentiles, male and female, rich and poor, can all be one through faith
 in Jesus. That’s because Jesus defeated Satan, made us one with God,
 and is working within us to bring unity where there was division.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Ephesians Overview](#ephesians-overview)

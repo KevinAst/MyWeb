@@ -14,6 +14,7 @@ church he planted in Corinth. The Super Apostles boasted in their
 abilities, connections, and power. But Paul showed that, for those in
 Christ, true power comes in weakness.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -14,6 +14,7 @@ Eden. Acts, then, shows us that God's purposes for humanity, that he
 began at creation, are finally being brought to completion through
 Jesus, the Gospel, and his Church.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

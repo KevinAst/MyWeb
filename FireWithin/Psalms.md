@@ -9,6 +9,8 @@ throughout generations. Now, Jesus has fulfilled these Psalms and
 given them to his church, providing us with songs to sing while we
 wait in this earthly exile for his return.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Psalms Overview](#psalms-overview)

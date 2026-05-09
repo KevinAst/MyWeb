@@ -13,6 +13,7 @@ world's wisdom because Jesus' death did not look like wisdom to most
 people. However, in this letter, Paul proves that Jesus going to the
 cross is the wisest thing that has ever happened.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

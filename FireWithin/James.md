@@ -1,26 +1,10 @@
 # James
 
-James (a half brother of Jesus) writes his letter to those of us who
-are suffering all kinds of different hardships and tests of life. He
-personally understands what it means to suffer and how pain makes us
-vulnerable to shame, doubt, lust, deception, anger, and pride. But he
-also knows that in suffering, there’s a unique opportunity for God to
-perfect and complete the valuable character-building work he started
-in us.
+The book of James introduces us to the wisdom of Jesus. Jesus’ wisdom
+is simple but revolutionary. Jesus’ wisdom says that, like flowers
+come from buried seeds, true life comes from death.
 
-God meets us with wisdom as we face the tests of life. When we listen
-closely to his wise words of truth, trusting that he is good and
-responding with action, we begin to experience the wholeness God
-designed us for. And those around us experience it too. 
-
-When we see our sufferings through the wisdom and goodness of God, we
-are moved to alleviate human suffering whenever we encounter it,
-especially the sufferings of the most vulnerable in our communities.
-
-But when we forget God’s goodness, we often allow our own pain to
-provoke selfish actions and cruel words that destroy our
-communities. There’s a lot at stake, so James urges us to listen
-carefully and respond tangibly.
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

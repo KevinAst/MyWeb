@@ -10,6 +10,7 @@ that death is not the end. Throughout the story, God promises that the
 people of Israel will be raised back to life. This same hope extends
 to us in the death and resurrection of Jesus.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

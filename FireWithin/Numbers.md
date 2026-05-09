@@ -11,6 +11,7 @@ we all disobey and are headed toward punishment. Only Jesus can break
 the cycle of sin, intercede for us, and bring us out of the wilderness
 to himself.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

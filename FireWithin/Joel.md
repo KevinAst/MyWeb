@@ -7,6 +7,8 @@ repent of their sins. Joel also prophesies that God's mercy includes a
 promise to pour out his Holy Spirit on all people. The good news of
 the book of Joel is that everyone who calls out to God will be saved.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Joel Overview](#joel-overview)

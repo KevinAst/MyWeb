@@ -8,6 +8,8 @@ judgments. They are Israel's sin reflected in their leadership until
 finally, they are no saviors left. But Jesus comes as the final leader
 who both saves us from our enemies and from God's judgment.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Judges Overview](#judges-overview)

@@ -11,6 +11,7 @@ and especially needed the hope of Jesus' return. Jesus would not only
 return to heal and restore them but also bring justice against those
 oppressing them.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

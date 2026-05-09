@@ -20,6 +20,7 @@ people. He wants to see his love for people reflected through the
 Israelites and faithfulness to Yahweh alone, but this can only come
 through renewed hearts.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -12,6 +12,7 @@ enter into eternal life with him. Beyond this, Jesus writes the Law on
 our hearts by his Spirit. This enables us to finally be Law keepers
 instead of Law breakers.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

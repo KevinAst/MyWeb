@@ -6,6 +6,7 @@ church in crisis that Jesus is always enough. He is the center of
 reality, in Him all things hold together, and only through Him is
 there freedom from the powers of guilt and shame.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

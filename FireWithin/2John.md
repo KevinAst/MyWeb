@@ -8,6 +8,7 @@ Good News that Jesus has come in the flesh and why a simple Gospel is
 the best antidote to the complexity, confusion, and discord sown
 around us.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

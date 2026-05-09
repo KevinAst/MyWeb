@@ -8,6 +8,8 @@ Matthew helps us see that there is a new treasure hidden in Scripture,
 and it is Jesus. All of the Old Testament finds its new treasure in
 how Jesus fulfills it.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Matthew Overview](#matthew-overview)

@@ -12,6 +12,7 @@ God, and was ultimately raised from the dead. Habakkuk shows us that
 because of Jesus we know that God will judge evil and rescue his
 people.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -1,10 +1,12 @@
 # Titus
 
-Paul wrote the book of Titus for his companion, who was tasked with
-visiting Crete, a place infamous for sin and corruption. Titus was to
-restore order to house churches in Crete and replace corrupt teachers
-with godly leaders.
+The island of Crete was known for immorality and its love for
+arguments and debate. Sadly, the culture of the island began to invade
+the church. So Paul writes a letter to Titus. In it, he reminds Titus
+of the power of Jesus to transform people and encourages him that the
+presence of the Church can transform hostile cultures.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

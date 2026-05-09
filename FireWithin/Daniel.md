@@ -16,6 +16,7 @@ the circumstances.
 Daniel’s prophetic visions offer hope that God will bring all nations
 under his rule.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

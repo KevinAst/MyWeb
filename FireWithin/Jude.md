@@ -6,6 +6,8 @@ on the cross effectively canceled his moral commands. So Jude, the
 brother of Jesus, responds to this theological crisis and calls his
 people to fight for the faith given to them by Jesus.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Jude Overview](#jude-overview)

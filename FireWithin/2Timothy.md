@@ -1,29 +1,11 @@
 # 2 Timothy
 
-Paul writes to Timothy under Roman guard, requesting that he come to
-visit. 
+The apostle Paul sends Timothy to lead a divided and broken church in
+his place. Timothy is inexperienced and overwhelmed by the
+challenge. But in his letters, Paul shows his protege how to remain
+faithful and encourages him with the good news about Jesus.
 
-Paul’s repeated imprisonments for preaching the Gospel have earned him
-a bad reputation. Many have already distanced themselves from the
-negative stigma of being his friend, so Paul knows that asking Timothy
-to visit comes with a cost. 
-
-Timothy will need great courage to be associated with Jesus and Paul’s
-sufferings, so Paul assures him that the risk is worth the cost. While
-others may reject and abandon Timothy, Jesus will always be
-faithful. Jesus knows what it is like to be abandoned, so his
-comforting presence is even more tangible in times of suffering. And
-even more than that, Timothy can be encouraged because hardships have
-an expiration date. 
-
-Jesus’ resurrection proves that suffering will end and that
-resurrection for his followers is coming too. One day, all things will
-be made new. 
-
-What can we learn from Paul’s encouragement to Timothy?  In our
-culture today, what are the risks of following Jesus and supporting
-those who suffer with him?  And why is following Jesus worth the risk?
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

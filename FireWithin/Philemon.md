@@ -1,19 +1,10 @@
 # Philemon
 
-One of Paul's shortest and the most explosive letters, the book of
-Philemon demonstrates the Gospel through action. It's written to
-Philemon whose slave Onesimus ran away and became a believer under
-Paul's teaching.
+The letter of Philemon is written to the master of a runaway slave. In
+it, the apostle Paul asks the master to accept his runaway not as a
+slave but as a brother and partner.
 
-Paul urges Philemon to forgive Onesimus and accept him back as an
-equal. Because they are both followers of Jesus, God's grace has made
-them partners under the new humanity that Jesus has established.
-
-While Paul doesn't mention Jesus' death and resurrection directly in
-this letter, he offers to take on any punishment Onesimus deserves, a
-demonstration of what Jesus did on the cross. He encourages Philemon
-to do the same as he reconciles to Onesimus before God.
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

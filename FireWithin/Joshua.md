@@ -7,6 +7,7 @@ Canaanites' destruction by Joshua's sword, but ultimately Joshua
 points us to Jesus' destruction on the cross. Jesus is how we can live
 with God again.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

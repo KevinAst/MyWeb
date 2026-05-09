@@ -1,21 +1,11 @@
 # 1 Timothy
 
-After false teachers had disrupted the church Timothy was working
-with, Paul gave Timothy encouragement and guidance for how to address
-these teachers and lead the church effectively. Throughout the book,
-we see that what a church believes will directly shape how its members
-live and behave.
+The apostle Paul sends Timothy to lead a divided and broken church in
+his place. Timothy is inexperienced and overwhelmed by the
+challenge. But in his letters, Paul shows his protege how to remain
+faithful and encourages him with the good news about Jesus.
 
-The church's theology and beliefs must constantly be critiqued and
-formed by the Bible and the Gospel message. Churches should be known
-for their devotion to the risen King Jesus and model integrity, good
-works, and service to the poor and most vulnerable.
-
-In 1 Timothy, we read about a holistic vision of the nature and
-mission of the Church. Just as in Timothy's time, corrupt teachers can
-confuse believers, but Paul instructs on how the Church and its
-leaders can stay faithful to the way of Jesus.
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

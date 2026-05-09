@@ -8,6 +8,7 @@ soon fall. Jesus embodies the judgment of Micah, even to the point of
 death. Ultimately, Micah reveals to us that in Jesus’ death, there is
 the hope of a new Kingdom.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

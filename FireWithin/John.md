@@ -8,6 +8,7 @@ is turning water to wine or turning over tables in the Temple,
 everything John shows Jesus doing is meant to help us believe that
 Jesus is the Son of God who died for our sins.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

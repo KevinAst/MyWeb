@@ -10,6 +10,7 @@ compassion is far hotter than his wrath." See how Hosea points us to
 Jesus as the husband who buys us out of our political adultery and
 loves us with great compassion.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

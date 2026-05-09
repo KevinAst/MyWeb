@@ -10,6 +10,7 @@ that God is the God who shows up and saves. This is most fully
 achieved in the person of Jesus, who showed up in human flesh to offer
 a new and better salvation.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

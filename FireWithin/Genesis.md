@@ -14,6 +14,8 @@ family line that would ultimately lead to Jesus. He is the one who
 takes all our evil and puts it right in his death, burial, and
 resurrection.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Genesis Overview](#genesis-overview)

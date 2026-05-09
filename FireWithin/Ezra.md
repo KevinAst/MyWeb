@@ -11,6 +11,8 @@ of failure and more exile. But the good news is that Jesus has done
 what Ezra and Nehemiah couldn't. He brings us back home to God and
 makes a way for us to live in his presence.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Ezra Overview](#ezra-overview)

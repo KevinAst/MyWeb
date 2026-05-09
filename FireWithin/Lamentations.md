@@ -7,6 +7,7 @@ and they grieve the possibility that they have been utterly rejected
 by God. But in the middle of their grief, there is a message of
 hope–God's mercies are new every morning!
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

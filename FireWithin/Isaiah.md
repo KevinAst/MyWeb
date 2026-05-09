@@ -9,6 +9,7 @@ God still chose to save her. And God saved Israel, not through judging
 them, but by the suffering and judgment Jesus experienced on the
 cross.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

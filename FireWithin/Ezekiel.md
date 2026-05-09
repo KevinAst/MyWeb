@@ -15,6 +15,8 @@ land, give her a new heart, and live with her forever.
 The good news is that the hope that Ezekiel prophesied has come true
 in Jesus!
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
 - [Ezekiel Overview](#ezekiel-overview)

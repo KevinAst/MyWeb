@@ -1,12 +1,20 @@
 # Hebrews
 
-The book of Hebrews compares and contrasts Jesus to key historical
-people and events from the Hebrew Bible. Through these comparisons, we
-see his superiority. He is greater than the angels, the Torah, Moses,
-the promised land, earthly priests, sacrifices, and the covenant. He
-is the hope for a new creation, our eternal priest, and the perfect
-sacrifice.
+The book of Hebrews was written to Jewish believers who were being
+persecuted for following Jesus. Through their Scriptures, priests, and
+prophets, God had given the Jewish people good things: a law, a
+homeland, and a sacrificial system that brought them close to God. But
+these good things always pointed to something better. The law pointed
+to a better word, the homeland pointed to a better kingdom, and the
+sacrificial system pointed to a better cure for sin. In Jesus, all
+these better things have come.
 
+Jesus is the word their law anticipated, the king their land awaited,
+and the sacrifice their priests foreshadowed. Now these Jewish
+believers must decide: will they hold onto what is merely good, or
+will they endure persecution to receive what is better in Jesus?
+
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

@@ -7,6 +7,7 @@ listen to Lady Wisdom escape death, receive wisdom, and walk in
 life. However, those who listen to Lady Folly repeat the mistakes made
 by Adam and Eve, earning the same result - death.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

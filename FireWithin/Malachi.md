@@ -1,17 +1,16 @@
 # Malachi
 
-The book of Malachi sums up what the whole Hebrew Bible has been
-pointing to—God’s people cannot be faithful to the covenant. They’ve
-failed again and again. And while God will deal with their sin, he
-will not abandon them. He promises to redeem a remnant and send a
-Messiah to fulfill his covenant promises.
+What happens when the priests who are supposed to clean others have
+become polluted themselves? Throughout Israel's history, the Levitical
+priests were meant to remove the stain of sin through sacrifice. But
+now these priests are offering diseased animals, marrying foreign
+wives, and trusting in false gods.
 
-One hundred years after exile, the Israelites who had returned to
-Jerusalem were as evil and corrupt as their ancestors. The book of
-Malachi addresses their sins—they’ve corrupted the sacrificial system,
-hoarded their money, and worshiped foreign gods. But despite all of
-this, God does not forget his promises to deliver his people and
-establish a new Jerusalem.
+God sends Malachi to announce that a final Levitical priest and a
+final sacrifice are coming that will cleanse not just Israel, but the
+whole world.
+
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

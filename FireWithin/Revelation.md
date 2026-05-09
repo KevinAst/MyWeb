@@ -1,10 +1,16 @@
 # Revelation
 
-The book of Revelation is the resolution of all things: the kingdom of
-God is once again physically and literally restored to earth &bull;
-the dead are raised &bull; the final judgments are rendered &bull; and
-all things are made new.
+The book of Revelation was written to encourage suffering Christians
+with visions that reveal the enthroned Jesus who rules over their
+persecutors and death itself.
 
+Through vivid imagery pulled from the Hebrew Bible, John shows that
+Jesus is the cosmic King and Priest who is raising his people to rule
+with him. While persecution may seem to prove that evil is winning,
+Revelation shows that faithful suffering leads to resurrection and
+reign with Jesus.
+
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 

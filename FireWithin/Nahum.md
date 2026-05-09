@@ -1,16 +1,11 @@
 # Nahum
 
-The book of Nahum is a collection of poems announcing the downfall of
-some of Israel's worst oppressors. Referencing Daniel, Exodus, and
-Isaiah, Nahum shows us that the destruction of Nineveh and Assyria are
-examples of how God works in history in every age.
+The book of Nahum reveals that God will bring justice against evil and
+comfort to his oppressed people. When enemy nations rise up against
+God's people, God rises up against those nations. Evil will be judged
+by evil until Jesus comes to end all oppression forever.
 
-The destruction of the Assyrian empire is an image of how God will
-confront and bring down all violent human empires. This is about God’s
-commitment to justice, which is as true today as it was in the time of
-Nahum. While God will defeat human evil, he does not forget the
-innocent. He promises to provide a refuge on the day of judgment for
-anyone who humbles themselves before God.
+... _from {{book.SpokenGospel}}_
 
 
 ### At a Glance

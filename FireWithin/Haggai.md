@@ -1,16 +1,11 @@
 # Haggai
 
-The people of Israel were conquered by Babylon because they broke
-their covenant with God through idolatry and injustice. The book of
-Haggai was written 70 years after this prophesied exile and recounts
-the experience of a small group of Israelites, led by Joshua and
-Zerubbabel, who returned to rebuild Jerusalem.
+The book of Haggai addresses God's people who have returned from exile
+but stopped rebuilding God's temple. Through the prophet Haggai, God
+shows his people that their failure to prioritize God's presence among
+them is the reason behind their diminishing quality of life.
 
-The recently returned exiles face hardship in their rebuilding efforts
-and struggle to remain faithful after so much loss and
-disappointment. Haggai assures the people that their efforts and
-faithfulness will be blessed. God will one day build a new Jerusalem
-and live amidst his people.
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
