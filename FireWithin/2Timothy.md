@@ -98,8 +98,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no 2 Timothy introduction_
+M{ youTube(`kr1YfYbSg94`) }M
 
 P{ collapsibleSectionEnd() }P
 

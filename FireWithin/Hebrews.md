@@ -86,8 +86,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no hebrews introduction_
+M{ youTube(`Jssm1ZUDTW0`) }M
 
 P{ collapsibleSectionEnd() }P
 

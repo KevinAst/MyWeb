@@ -76,8 +76,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no Titus introduction_
+M{ youTube(`AmNUgBbmeKE`) }M
 
 P{ collapsibleSectionEnd() }P
 

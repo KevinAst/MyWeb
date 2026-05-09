@@ -92,8 +92,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no zechariah introduction_
+M{ youTube(`RCZCbeHdzTQ`) }M
 
 P{ collapsibleSectionEnd() }P
 

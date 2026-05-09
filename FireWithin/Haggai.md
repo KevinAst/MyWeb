@@ -82,8 +82,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no haggai introduction_
+M{ youTube(`m4qH5zSqgpc`) }M
 
 P{ collapsibleSectionEnd() }P
 

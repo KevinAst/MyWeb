@@ -87,8 +87,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no Philemon introduction_
+M{ youTube(`uXdzpJqgRwk`) }M
 
 P{ collapsibleSectionEnd() }P
 

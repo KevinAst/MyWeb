@@ -87,8 +87,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 3/2022 Spoken Gospel has no Revelation introduction_
+M{ youTube(`yb8IBvdFC2Y`) }M
 
 P{ collapsibleSectionEnd() }P
 

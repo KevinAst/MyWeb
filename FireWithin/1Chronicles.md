@@ -107,8 +107,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no Chronicles introduction_
+M{ youTube(`DsJ1TKOr5wA`) }M
 
 P{ collapsibleSectionEnd() }P
 

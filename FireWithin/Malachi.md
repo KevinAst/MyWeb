@@ -81,8 +81,7 @@ P{ collapsibleSection({
 }) }P
 
 **{{book.SpokenGospel}}**
-
-> _As of 12/2023 Spoken Gospel has no malachi introduction_
+M{ youTube(`cglQ0KKr1Bw`) }M
 
 P{ collapsibleSectionEnd() }P
 
