@@ -27,8 +27,8 @@ Rome, and how Jesus brings them together.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
-- [2021 Romans Misc](#2021-romans-misc)
 - [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
+- [Romans Misc Selection](#romans-misc-selection)
 
 
 ## Romans Overview
@@ -181,23 +181,6 @@ M{ sermonSeries({
 }) }M
 
 
-## 2021 Romans Misc
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210922`, sermon: `The True Nature of God (Barrett Phillips)`,    scripture: `rom.1@@Rom 1:16-25`, },
-    { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Rom 11:25`,  },
-    { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Rom 12:1-2`, },
-    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Rom 13`,     },
-  ]
-}) }M
-
-
 ## 2024 Romans Series (Sundays)
 
 {{book.CornerstoneChapel}}
@@ -228,5 +211,22 @@ M{ sermonSeries({
     { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Rom 15`,           },
     { id: `20240825`, sermon: `A House Divided`,                              scripture: `rom.16@@Rom 16`,           },
     { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Rom 16 (Part 2)`,  },
+  ]
+}) }M
+
+
+## Romans Misc Selection
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20210922`, sermon: `The True Nature of God (Barrett Phillips)`,    scripture: `rom.1@@Rom 1:16-25`, },
+    { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Rom 11:25`,  },
+    { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Rom 12:1-2`, },
+    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Rom 13`,     },
   ]
 }) }M
