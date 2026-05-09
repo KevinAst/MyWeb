@@ -10,60 +10,84 @@ how Jesus fulfills it.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Matthew Overview](#matthew-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
 - [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
 - [Matthew Misc Selection](#matthew-misc-selection)
 
 
-## Overview
+## Matthew Overview
 
-**{{book.NivBible}} Matthew Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Matthew’s purpose is to show that God has kept his ancient promises to
-> Israel through the life, death and resurrection of Jesus the
-> Messiah. The long-expected reign of heaven is now coming to earth,
-> bringing the Jewish story to its climax. Matthew begins by
-> highlighting that Jesus was the son of David, Israel’s most famous
-> king, and the son of Abraham, Israel’s founding patriarch. Jesus is
-> the true Israelite and God’s promised Messiah.
-> 
-> The Messiah is shown as reliving the story of Israel—going down into
-> the Jordan River, facing temptation in the wilderness, gathering
-> twelve disciples as twelve new tribes, ascending a mountain to deliver
-> a new Torah, etc. The author highlights the idea of Jesus as a new
-> Moses by collecting his teachings into five long speeches. These are
-> marked off by some variation of the phrase When Jesus had finished
-> saying these things. Just as the Torah had five books, Matthew presents
-> five major sections.
-> 
-> The book concludes by telling how Jesus brought about the great new
-> act of redemption for his people. As in the story of Israel’s Exodus,
-> a Passover meal is celebrated and then deliverance comes. Jesus gives
-> his life for the sake of the world and is then raised from the
-> dead. At the beginning of the book, Jesus is given the name Immanuel,
-> meaning “God with us.” At the end, Jesus sends his followers into the
-> world with the promise that surely I am with you always.
+**{{book.NivBible}}**
+
+Matthew’s purpose is to show that God has kept his ancient promises to
+Israel through the life, death and resurrection of Jesus the
+Messiah. The long-expected reign of heaven is now coming to earth,
+bringing the Jewish story to its climax. Matthew begins by
+highlighting that Jesus was the son of David, Israel’s most famous
+king, and the son of Abraham, Israel’s founding patriarch. Jesus is
+the true Israelite and God’s promised Messiah.
+
+The Messiah is shown as reliving the story of Israel—going down into
+the Jordan River, facing temptation in the wilderness, gathering
+twelve disciples as twelve new tribes, ascending a mountain to deliver
+a new Torah, etc. The author highlights the idea of Jesus as a new
+Moses by collecting his teachings into five long speeches. These are
+marked off by some variation of the phrase When Jesus had finished
+saying these things. Just as the Torah had five books, Matthew presents
+five major sections.
+
+The book concludes by telling how Jesus brought about the great new
+act of redemption for his people. As in the story of Israel’s Exodus,
+a Passover meal is celebrated and then deliverance comes. Jesus gives
+his life for the sake of the world and is then raised from the
+dead. At the beginning of the book, Jesus is given the name Immanuel,
+meaning “God with us.” At the end, Jesus sends his followers into the
+world with the promise that surely I am with you always.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Matthew Introduction](https://bibleproject.com/explore/video/matthew/)
+**Matthew Diagram**
 M{ zoomableImg(`Matthew_BP`) }M
 
-> [Part 1: Matthew 1-13](https://bibleproject.com/explore/video/matthew-1-13/) ...
+[Part 1: Matthew 1-13](https://bibleproject.com/explore/video/matthew-1-13/) ...
 M{ youTube(`3Dv4-n6OYGI`) }M
 
-> [Part 2: Matthew 14-28](https://bibleproject.com/explore/video/matthew-14-28/)
+[Part 2: Matthew 14-28](https://bibleproject.com/explore/video/matthew-14-28/)
 M{ youTube(`GGCF3OPWN14`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`F8QsCLwSMVM`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

@@ -11,57 +11,82 @@ Jesus is the Son of God who died for our sins.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [John Overview](#john-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2015 John Series (Mid Week)](#2015-john-series-mid-week)
 - [2022 John Series (Sundays)](#2022-john-series-sundays)
 
 
-## Overview
+## John Overview
 
-**{{book.NivBible}} John Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> John closes his book by revealing his purpose in writing Jesus’ story:
-> These are written that you may believe that Jesus is the Messiah, the
-> Son of God, and that by believing you may have life in his name.
-> 
-> John begins his book by echoing words from the Bible’s creation
-> story - In the beginning - showing his readers that this is a story of a
-> new creation. Just as the first creation was completed in seven days,
-> John uses the number seven to structure his book. For the Jews the
-> number seven represented completeness and wholeness, a finished work
-> of God revealing his purpose for the world.
-> 
-> The story is told in two main parts. The first describes Jesus’ public
-> ministry and has seven sections. Each section closes with a report on
-> how people respond to Jesus, either in faith or unbelief. The second
-> part is devoted to the Passover weekend, when Jesus gave his life for
-> the world.
-> 
-> John records seven instances in which Jesus revealed his identity by
-> using the phrase I am, the name by which God had revealed himself
-> earlier. Similarly, John records seven miraculous signs that Jesus
-> performed. John’s narrative mentions twice that the resurrection of
-> Jesus took place on the first day of the week. In this way he confirms
-> that the power of a new creation has broken into our world.
+**{{book.NivBible}}**
 
+John closes his book by revealing his purpose in writing Jesus’ story:
+These are written that you may believe that Jesus is the Messiah, the
+Son of God, and that by believing you may have life in his name.
+
+John begins his book by echoing words from the Bible’s creation
+story - In the beginning - showing his readers that this is a story of a
+new creation. Just as the first creation was completed in seven days,
+John uses the number seven to structure his book. For the Jews the
+number seven represented completeness and wholeness, a finished work
+of God revealing his purpose for the world.
+
+The story is told in two main parts. The first describes Jesus’ public
+ministry and has seven sections. Each section closes with a report on
+how people respond to Jesus, either in faith or unbelief. The second
+part is devoted to the Passover weekend, when Jesus gave his life for
+the world.
+
+John records seven instances in which Jesus revealed his identity by
+using the phrase I am, the name by which God had revealed himself
+earlier. Similarly, John records seven miraculous signs that Jesus
+performed. John’s narrative mentions twice that the resurrection of
+Jesus took place on the first day of the week. In this way he confirms
+that the power of a new creation has broken into our world.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [John Introduction](https://bibleproject.com/explore/video/john/)
+**John Diagram**
 M{ zoomableImg(`John_BP`) }M
 
-> [Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
+[Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
 M{ youTube(`G-2e9mMf7E8`) }M
 
-> [Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
+[Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
 M{ youTube(`RUfh_wOsauk`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`Vi2bfQlGY4w`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

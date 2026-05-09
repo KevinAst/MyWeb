@@ -17,67 +17,100 @@ Jesus, the Gospel, and his Church.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Acts Overview](#acts-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
 
 
-## Overview
+## Acts Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Luke’s second volume is known as the book of Acts. The six parts of
+the book of Acts each describe a new phase in the expansion of the
+Messiah - following movement outward from Jerusalem. These sections
+are all marked by variations on the phrase _the word of God continued
+to spread and flourish_:
+
+1. The church is established in Jerusalem and becomes Greek-speaking,
+   allowing it to spread its message throughout the empire.
+
+2. The movement expands into the rest of Palestine.
+
+3. Gentiles are included in the gathering of Jesus-followers
+   alongside Jews.
+
+4. Messengers are sent west into the Roman province of Asia.
+
+5. These messengers enter Europe.
+
+6. The movement reaches the capital city
+   of Rome and into the highest levels of society; God’s kingdom is
+   thus announced to all nations.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Acts Introduction**
-
-> Luke’s second volume is known as the book of Acts. The six parts of
-> the book of Acts each describe a new phase in the expansion of the
-> Messiah - following movement outward from Jerusalem. These sections
-> are all marked by variations on the phrase _the word of God continued
-> to spread and flourish_:
-> 
-> 1. The church is established in Jerusalem and becomes Greek-speaking,
->    allowing it to spread its message throughout the empire.
-> 
-> 2. The movement expands into the rest of Palestine.
-> 
-> 3. Gentiles are included in the gathering of Jesus-followers
->    alongside Jews.
-> 
-> 4. Messengers are sent west into the Roman province of Asia.
-> 
-> 5. These messengers enter Europe.
-> 
-> 6. The movement reaches the capital city
->    of Rome and into the highest levels of society; God’s kingdom is
->    thus announced to all nations.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Acts Introduction](https://bibleproject.com/explore/video/acts/)
+**Acts Diagram**
 M{ zoomableImg(`Acts_BP`) }M
 
-> [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
+[Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
 M{ youTube(`CGbNw855ksw`) }M
 
-> [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
+[Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 M{ youTube(`Z-17KxpjL0Q`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`lnCAkeBido0`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Other Intros****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_OTHER',
+  label:  'Other Intros',
+  initialExpansion: 'close',
+}) }P
 
 
 **{{book.EyeWitness}}**
 
 > An eyewitness introduction to the people found in scriptures ... [Acts](https://eyewitnessbible.org/acts/)
 
-
-**miscellaneous**
+**[Crossway](https://www.crossway.org/)**
 
 > [What We Would Be Missing If We Didn't Have the Book of Acts](https://www.crossway.org/articles/what-we-would-be-missing-if-we-didnt-have-the-book-of-acts/)
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

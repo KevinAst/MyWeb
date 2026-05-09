@@ -9,55 +9,82 @@ there freedom from the powers of guilt and shame.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Colossians Overview](#colossians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [Colossians Misc Selection](#colossians-misc-selection)
 
 
-## Overview
+## Colossians Overview
 
-**{{book.NivBible}} Colossians Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> While Paul was in prison in Rome, awaiting his upcoming trial before
-> Caesar, one of the letters he wrote was to the gathering of believers
-> in the city of Colossae. Paul had never met them, but they knew who he
-> was and respected his leadership. Paul had worked with a man named
-> Epaphras when he was in Ephesus. Epaphras was originally from
-> Colossae, about 100 miles to the east. Paul sent him to bring the good
-> news about Jesus to his city and to two other nearby cities, Laodicea
-> and Hierapolis. Epaphras was later arrested and brought to Rome as a
-> prisoner himself. Paul learned from him what was happening in those
-> cities.
-> 
-> The Colossians were mostly Gentiles, but like the Galatians they were
-> being pressured to follow the Jewish law and were adding extra rules
-> and false teachings to the faith. Some of them were priding themselves
-> on having visions and getting secret spiritual knowledge. So Paul
-> wrote them a letter to say, “When you’ve got Jesus the Messiah, you’ve
-> got it all!”
-> 
-> Paul emphasizes that all things in heaven and earth were created by
-> the Son and were reconciled to God by the Son’s death on the
-> cross. Christ possesses the fullness of God’s being. Since the
-> Colossians have been brought into the new kingdom of light, they can
-> live their faith to the fullest. They are to put on the new
-> self,awaiting the time the Messiah will appear openly, revealing his
-> glory.
+**{{book.NivBible}}**
 
+While Paul was in prison in Rome, awaiting his upcoming trial before
+Caesar, one of the letters he wrote was to the gathering of believers
+in the city of Colossae. Paul had never met them, but they knew who he
+was and respected his leadership. Paul had worked with a man named
+Epaphras when he was in Ephesus. Epaphras was originally from
+Colossae, about 100 miles to the east. Paul sent him to bring the good
+news about Jesus to his city and to two other nearby cities, Laodicea
+and Hierapolis. Epaphras was later arrested and brought to Rome as a
+prisoner himself. Paul learned from him what was happening in those
+cities.
+
+The Colossians were mostly Gentiles, but like the Galatians they were
+being pressured to follow the Jewish law and were adding extra rules
+and false teachings to the faith. Some of them were priding themselves
+on having visions and getting secret spiritual knowledge. So Paul
+wrote them a letter to say, “When you’ve got Jesus the Messiah, you’ve
+got it all!”
+
+Paul emphasizes that all things in heaven and earth were created by
+the Son and were reconciled to God by the Son’s death on the
+cross. Christ possesses the fullness of God’s being. Since the
+Colossians have been brought into the new kingdom of light, they can
+live their faith to the fullest. They are to put on the new
+self,awaiting the time the Messiah will appear openly, revealing his
+glory.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Colossians Introduction](https://bibleproject.com/explore/video/colossians/)
+**Colossians Diagram**
 M{ zoomableImg(`Colossians_BP`) }M
 
+[Colossians Introduction](https://bibleproject.com/explore/video/colossians/)
 M{ youTube(`pXTXlDxQsvc`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`EvR4tIZAw7Y`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

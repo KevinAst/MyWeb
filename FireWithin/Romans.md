@@ -22,7 +22,7 @@ Rome, and how Jesus brings them together.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Romans Overview](#romans-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
@@ -30,52 +30,77 @@ Rome, and how Jesus brings them together.
 - [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
 
 
-## Overview
+## Romans Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Addressing the believers in Rome, Paul writes what is most likely the
+meatiest missionary fundraising letter ever written. To
+Jesus-followers living directly under the shadow of Caesar, he is
+appealing for help to bring the gospel to the western part of the
+empire. As an apostle, Paul has been set apart to make the royal
+announcement about the Lordship of Jesus. God’s plan for the world has
+been revealed through a descendant of king David—Jesus the
+Messiah. This message demonstrates that God has been faithful to his
+covenant with Israel.
+
+The flow of the letter follows the pattern of the ancient Jewish story
+of slavery and rescue. Humanity is in exile due to the entrance of sin
+and death into the world. Even the Jewish law could not defeat death
+and bring life. But God has come to rescue both Jews and Gentiles
+through the death and resurrection of Jesus. A new worldwide family is
+being created. Baptism into Jesus breaks the power of evil and brings
+freedom. The Holy Spirit leads the way into this new life that will be
+complete in a new inheritance—a redeemed creation.
+
+Although many in Israel had failed to believe in the Messiah, this
+ended up bringing life to the rest of the world. The offer of life
+through Jesus remains for all, however, and in the end God’s mercy
+will triumph over judgment. The closing emphasis is on the practical
+shape of a redeemed humanity’s new way of life.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Romans Introduction**
-
-> Addressing the believers in Rome, Paul writes what is most likely the
-> meatiest missionary fundraising letter ever written. To
-> Jesus-followers living directly under the shadow of Caesar, he is
-> appealing for help to bring the gospel to the western part of the
-> empire. As an apostle, Paul has been set apart to make the royal
-> announcement about the Lordship of Jesus. God’s plan for the world has
-> been revealed through a descendant of king David—Jesus the
-> Messiah. This message demonstrates that God has been faithful to his
-> covenant with Israel.
-> 
-> The flow of the letter follows the pattern of the ancient Jewish story
-> of slavery and rescue. Humanity is in exile due to the entrance of sin
-> and death into the world. Even the Jewish law could not defeat death
-> and bring life. But God has come to rescue both Jews and Gentiles
-> through the death and resurrection of Jesus. A new worldwide family is
-> being created. Baptism into Jesus breaks the power of evil and brings
-> freedom. The Holy Spirit leads the way into this new life that will be
-> complete in a new inheritance—a redeemed creation.
-> 
-> Although many in Israel had failed to believe in the Messiah, this
-> ended up bringing life to the rest of the world. The offer of life
-> through Jesus remains for all, however, and in the end God’s mercy
-> will triumph over judgment. The closing emphasis is on the practical
-> shape of a redeemed humanity’s new way of life.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Romans Introduction](https://bibleproject.com/explore/video/romans/)
+**Romans Diagram**
 M{ zoomableImg(`Romans_BP`) }M
 
-> [Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/)
+[Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/)
 M{ youTube(`ej_6dVdJSIU`) }M
 
-> [Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
+[Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
 M{ youTube(`0SVTl4Xa5fY`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`kPsSW4Q3o9o`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

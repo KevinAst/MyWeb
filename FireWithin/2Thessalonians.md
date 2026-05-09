@@ -15,49 +15,76 @@ oppressing them.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [2 Thessalonians Overview](#2-thessalonians-overview)
 - [2010 2 Thessalonians Series (Sundays)](#2010-2-thessalonians-series-sundays)
 - [2018 2 Thessalonians Series (Mid Week)](#2018-2-thessalonians-series-mid-week)
 
 
-## Overview
+## 2 Thessalonians Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Thessalonians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Apparently only shortly after writing his first letter to the
+Thessalonians, Paul had to write again to correct a false report that
+he had said the day of the Lord had already come. The day of the
+Lord was a phrase from the Hebrew prophets to describe God’s key
+victory over every opponent, when his faithful ones would be
+rewarded. The Thessalonians’ concern seems to have been not that the
+day had come and gone and they had missed it, but that it was now
+present. That would mean nothing more was to be expected from God in
+terms of setting things right. Since they continued to suffer
+persecutions, this was a depressing prospect.
+
+Even before he contradicts this false report, Paul reassures the
+Thessalonians that God will indeed pay back all those who were
+troubling them. He reminds them of the details he had discussed with
+them in person of how the day of the Lord would arrive. He then
+repeats some instruction from his earlier letter, urging them not to
+be idle but to work hard and earn their own livings.
+
+At the end of the letter, most of which would have been written by a
+scribe, Paul adds a greeting in his own handwriting. He wants them to
+know for sure this teaching is really coming from him!
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} 2 Thessalonians Introduction**
-
-> Apparently only shortly after writing his first letter to the
-> Thessalonians, Paul had to write again to correct a false report that
-> he had said the day of the Lord had already come. The day of the
-> Lord was a phrase from the Hebrew prophets to describe God’s key
-> victory over every opponent, when his faithful ones would be
-> rewarded. The Thessalonians’ concern seems to have been not that the
-> day had come and gone and they had missed it, but that it was now
-> present. That would mean nothing more was to be expected from God in
-> terms of setting things right. Since they continued to suffer
-> persecutions, this was a depressing prospect.
-> 
-> Even before he contradicts this false report, Paul reassures the
-> Thessalonians that God will indeed pay back all those who were
-> troubling them. He reminds them of the details he had discussed with
-> them in person of how the day of the Lord would arrive. He then
-> repeats some instruction from his earlier letter, urging them not to
-> be idle but to work hard and earn their own livings.
-> 
-> At the end of the letter, most of which would have been written by a
-> scribe, Paul adds a greeting in his own handwriting. He wants them to
-> know for sure this teaching is really coming from him!
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Thessalonians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)
+**2 Thessalonians Diagram**
 M{ zoomableImg(`2Thessalonians_BP`) }M
+
+[2 Thessalonians Introduction](https://bibleproject.com/explore/video/2-thessalonians/)
 M{ youTube(`kbPBDKOn1cc`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Thessalonians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`Wb6Hhzl8Gyk`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2010 2 Thessalonians Series (Sundays)

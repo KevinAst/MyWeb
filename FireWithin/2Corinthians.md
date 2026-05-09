@@ -17,53 +17,82 @@ Christ, true power comes in weakness.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [2 Corinthians Overview](#2-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
 - [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
 - [2025 2 Corinthians Series (Sundays)](#2025-2-corinthians-series-sundays)
 
 
-## Overview
+## 2 Corinthians Overview
 
-**{{book.NivBible}} 2 Corinthians Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Corinthians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Paul’s first letter to the believers in Corinth gives us a glimpse
-> into his deeply personal and tumultuous relationship with this
-> gathering of Jesus-followers. The letter we know as 2 Corinthians
-> further reveals the triumphs and struggles that result when life in
-> the present age meets up with the in-breaking reality of God’s
-> kingdom. Here we see Paul working to repair relationships, explain
-> various changes in travel plans, make practical arrangements for
-> collecting a gift for the struggling believers in Jerusalem, and
-> directly confront challenges to his own leadership by the
-> self-proclaimed “super-apostles.”
-> 
-> In the four main parts of the letter, each introduced by a reference
-> to a place, Paul envisions himself in different locations, recalling
-> or anticipating his relationship with the Corinthians. The single
-> theme running through these sections is that God will comfort us in
-> all our troubles, and we will offer this comfort to each other. This
-> models the life of Jesus himself, who suffered first and then was
-> comforted. Like the crucified Messiah, we are weak, yet we live in
-> God’s power.
-> 
-> In the final section, however, Paul feels he has no choice but to make
-> the Corinthians uncomfortable, to help them face their present
-> condition. But he ends the letter hopefully, calling on them to
-> rejoice in God’s grace, love and fellowship.
+**{{book.NivBible}}**
 
+Paul’s first letter to the believers in Corinth gives us a glimpse
+into his deeply personal and tumultuous relationship with this
+gathering of Jesus-followers. The letter we know as 2 Corinthians
+further reveals the triumphs and struggles that result when life in
+the present age meets up with the in-breaking reality of God’s
+kingdom. Here we see Paul working to repair relationships, explain
+various changes in travel plans, make practical arrangements for
+collecting a gift for the struggling believers in Jerusalem, and
+directly confront challenges to his own leadership by the
+self-proclaimed “super-apostles.”
+
+In the four main parts of the letter, each introduced by a reference
+to a place, Paul envisions himself in different locations, recalling
+or anticipating his relationship with the Corinthians. The single
+theme running through these sections is that God will comfort us in
+all our troubles, and we will offer this comfort to each other. This
+models the life of Jesus himself, who suffered first and then was
+comforted. Like the crucified Messiah, we are weak, yet we live in
+God’s power.
+
+In the final section, however, Paul feels he has no choice but to make
+the Corinthians uncomfortable, to help them face their present
+condition. But he ends the letter hopefully, calling on them to
+rejoice in God’s grace, love and fellowship.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Corinthians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)
+**2 Corinthians Diagram**
 M{ zoomableImg(`2Corinthians_BP`) }M
+
+[2 Corinthians Introduction](https://bibleproject.com/explore/video/2-corinthians/)
 M{ youTube(`3lfPK2vfC54`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Corinthians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`nmdsoTt_gv0`) }M
+
+P{ collapsibleSectionEnd() }P
+
 
 
 ## Devotions "by the book"

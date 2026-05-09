@@ -11,40 +11,65 @@ around us.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [3 John Overview](#3-john-overview)
 - [2011 3 John Series (Sundays)](#2011-3-john-series-sundays)
 - [2020 3 John Series (Mid Week)](#2020-3-john-series-mid-week)
 
 
-## Overview
+## 3 John Overview
 
-**{{book.NivBible}} 3 John Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '3John_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> This letter is a note of thanks and encouragement to an individual
-> named Gaius. John had sent a letter to the church of which Gaius was a
-> member, introducing and commending certain individuals, but a leader
-> named Diotrephes refused to accommodate them. He opposed John’s
-> authority to the point of actually expelling anyone who supported the
-> people he had sent. Gaius, however, put these preachers up in his own
-> home, enabling them to carry out their mission. John’s gratitude makes
-> it clear that the church should provide a base of operations for
-> traveling preachers who were walking in the truth. John also promises
-> to come soon to set matters right.
+**{{book.NivBible}}**
 
+This letter is a note of thanks and encouragement to an individual
+named Gaius. John had sent a letter to the church of which Gaius was a
+member, introducing and commending certain individuals, but a leader
+named Diotrephes refused to accommodate them. He opposed John’s
+authority to the point of actually expelling anyone who supported the
+people he had sent. Gaius, however, put these preachers up in his own
+home, enabling them to carry out their mission. John’s gratitude makes
+it clear that the church should provide a base of operations for
+traveling preachers who were walking in the truth. John also promises
+to come soon to set matters right.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '3John_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [3 John Introduction](https://bibleproject.com/explore/video/1-3-john/)
+**3 John Diagram**
 M{ zoomableImg(`1-3John_BP`) }M
 
+[3 John Introduction](https://bibleproject.com/explore/video/1-3-john/)
 M{ youTube(`l3QkE6nKylM`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '3John_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`V2qam7JV2as`) }M
 
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2011 3 John Series (Sundays)

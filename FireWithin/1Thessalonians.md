@@ -14,55 +14,82 @@ oppressing them.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Thessalonians Overview](#1-thessalonians-overview)
 - [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
 - [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
 
 
-## Overview
+## 1 Thessalonians Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Thessalonians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Around AD 51, Paul, Silas and Timothy brought the message about Jesus
+the Messiah to the city of Thessalonica. Many people became believers,
+but there was a riot when Paul and Silas were accused of defying
+Caesar’s decrees, saying that there is another king, one called Jesus
+(see Acts 17:1-9). They narrowly escaped with their lives and had to
+flee.
+
+A little later Paul became concerned that the believers in
+Thessalonica might fall away from the faith due to the opposition they
+were facing. So he sent Timothy to encourage them (as a Greek he could
+make the trip more safely). When Timothy returned to Achaia with the
+welcome news that the Thessalonians had remained faithful, Paul wrote
+to express his joy.
+
+In this short letter, Paul first recalls his time in Thessalonica and
+gives thanks for their continuing faith, despite trials and
+challenges. He teaches them to avoid sexual immorality, to love one
+another sincerely, and to work hard to earn their own living.
+
+Paul then addresses a key pastoral question: What is the Christian
+hope for those who have died? He explains that believers who die
+before the royal appearance of the Messiah are not lost, but will
+surely be raised from the dead when he comes. He reminds the
+Thessalonians that Jesus will appear suddenly and unexpectedly. They
+should therefore live in such a way that they would be unashamed to
+greet him. Throughout the letter Paul’s basic message is, “Keep up the
+good work!”
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} 1 Thessalonians Introduction**
-
-> Around AD 51, Paul, Silas and Timothy brought the message about Jesus
-> the Messiah to the city of Thessalonica. Many people became believers,
-> but there was a riot when Paul and Silas were accused of defying
-> Caesar’s decrees, saying that there is another king, one called Jesus
-> (see Acts 17:1-9). They narrowly escaped with their lives and had to
-> flee.
-> 
-> A little later Paul became concerned that the believers in
-> Thessalonica might fall away from the faith due to the opposition they
-> were facing. So he sent Timothy to encourage them (as a Greek he could
-> make the trip more safely). When Timothy returned to Achaia with the
-> welcome news that the Thessalonians had remained faithful, Paul wrote
-> to express his joy.
-> 
-> In this short letter, Paul first recalls his time in Thessalonica and
-> gives thanks for their continuing faith, despite trials and
-> challenges. He teaches them to avoid sexual immorality, to love one
-> another sincerely, and to work hard to earn their own living.
-> 
-> Paul then addresses a key pastoral question: What is the Christian
-> hope for those who have died? He explains that believers who die
-> before the royal appearance of the Messiah are not lost, but will
-> surely be raised from the dead when he comes. He reminds the
-> Thessalonians that Jesus will appear suddenly and unexpectedly. They
-> should therefore live in such a way that they would be unashamed to
-> greet him. Throughout the letter Paul’s basic message is, “Keep up the
-> good work!”
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Thessalonians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)
+**1 Thessalonians Diagram**
 M{ zoomableImg(`1Thessalonians_BP`) }M
+
+[1 Thessalonians Introduction](https://bibleproject.com/explore/video/1-thessalonians/)
 M{ youTube(`No7Nq6IX23c`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Thessalonians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`Wb6Hhzl8Gyk`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## 2010 1 Thessalonians Series (Sundays)

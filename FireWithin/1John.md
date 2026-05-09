@@ -11,50 +11,75 @@ around us.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 John Overview](#1-john-overview)
 - [2011 1 John Series (Sundays)](#2011-1-john-series-sundays)
 - [2020 1 John Series (Mid Week)](#2020-1-john-series-mid-week)
 
 
-## Overview
+## 1 John Overview
 
-**{{book.NivBible}} 1 John Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1John_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The letter known as 1 John was sent to a group of believers who were
-> in the midst of an unsettling situation. Some of them had abandoned
-> faith in Jesus the Messiah as it had first been taught to them. They
-> found the proclamation that God had come in a human body impossible to
-> reconcile with the common Greek idea that the flesh is evil and only
-> spirit is good. But despite their denial of the Messiah, their immoral
-> lives and their lack of practical love, they claimed to know God and
-> belong to God. They asserted that their spiritual insight put them
-> above the rest of the group, which they demonstrated by deserting the
-> fellowship. Those left behind were deeply shaken, uncertain about
-> everything they had been taught.
-> 
-> Someone who was close to this community and who had been an eyewitness
-> of Jesus wrote to reassure them of what they had heard from the
-> beginning. The author doesn’t identify himself, but very likely he was
-> the apostle John. Much of the language is similar to the Gospel of
-> John. The letter testifies to the reality of the Messiah’s coming in
-> the flesh, reassuring the believers that they have full access to the
-> truth. It emphasizes godly living and practical caring as the signs of
-> those who genuinely know God.
+**{{book.NivBible}}**
 
+The letter known as 1 John was sent to a group of believers who were
+in the midst of an unsettling situation. Some of them had abandoned
+faith in Jesus the Messiah as it had first been taught to them. They
+found the proclamation that God had come in a human body impossible to
+reconcile with the common Greek idea that the flesh is evil and only
+spirit is good. But despite their denial of the Messiah, their immoral
+lives and their lack of practical love, they claimed to know God and
+belong to God. They asserted that their spiritual insight put them
+above the rest of the group, which they demonstrated by deserting the
+fellowship. Those left behind were deeply shaken, uncertain about
+everything they had been taught.
+
+Someone who was close to this community and who had been an eyewitness
+of Jesus wrote to reassure them of what they had heard from the
+beginning. The author doesn’t identify himself, but very likely he was
+the apostle John. Much of the language is similar to the Gospel of
+John. The letter testifies to the reality of the Messiah’s coming in
+the flesh, reassuring the believers that they have full access to the
+truth. It emphasizes godly living and practical caring as the signs of
+those who genuinely know God.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1John_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 John Introduction](https://bibleproject.com/explore/video/1-3-john/)
+**1 John Diagram**
 M{ zoomableImg(`1-3John_BP`) }M
 
+[1 John Introduction](https://bibleproject.com/explore/video/1-3-john/)
 M{ youTube(`l3QkE6nKylM`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1John_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`V2qam7JV2as`) }M
 
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2011 1 John Series (Sundays)

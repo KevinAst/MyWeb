@@ -29,57 +29,83 @@ becomes more and more beautiful to you.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Galatians Overview](#galatians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
 
-## Overview
+## Galatians Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Galatia was a Roman province in central Asia Minor. Paul traveled here
+on each of the three journeys he made to spread the message about
+Jesus. The Galatians received both Paul and his gospel announcement
+warmly. But later some people Paul calls agitators came and challenged
+Paul’s leadership as well as the foundation of his teaching. So Paul
+wrote to answer the threat to his status as an apostle and to reaffirm
+the core message that faith in the Messiah is the basis of membership
+in God’s new community.
+
+Paul doesn’t open his letter by appealing to the apostles in
+Jerusalem. Instead, he insists that the gospel I preached is not of
+human origin … rather, I received it by revelation from Jesus
+Christ.  Paul is compelled to share this revelation, and he notes that
+the other apostles support him.
+
+Paul then proceeds to his main argument, which is that Gentiles who
+have become followers of Jesus do not need to be circumcised. The new
+worldwide family which had been promised to Abraham is created by
+faith in Messiah Jesus, not by keeping the Jewish law (Torah). The
+biblical story had been pointing to this all along.
+
+But if following Torah is not the basis of the gospel, won’t there be
+anarchy? Paul answers by describing what Spirit-empowered life looks
+like in the community of Messiah-followers. Paul closes by emphasizing
+the main theme of his letter once more: Neither circumcision nor
+uncircumcision means anything; what counts is the new creation.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Galatians Introduction**
-
-> Galatia was a Roman province in central Asia Minor. Paul traveled here
-> on each of the three journeys he made to spread the message about
-> Jesus. The Galatians received both Paul and his gospel announcement
-> warmly. But later some people Paul calls agitators came and challenged
-> Paul’s leadership as well as the foundation of his teaching. So Paul
-> wrote to answer the threat to his status as an apostle and to reaffirm
-> the core message that faith in the Messiah is the basis of membership
-> in God’s new community.
-> 
-> Paul doesn’t open his letter by appealing to the apostles in
-> Jerusalem. Instead, he insists that the gospel I preached is not of
-> human origin … rather, I received it by revelation from Jesus
-> Christ.  Paul is compelled to share this revelation, and he notes that
-> the other apostles support him.
-> 
-> Paul then proceeds to his main argument, which is that Gentiles who
-> have become followers of Jesus do not need to be circumcised. The new
-> worldwide family which had been promised to Abraham is created by
-> faith in Messiah Jesus, not by keeping the Jewish law (Torah). The
-> biblical story had been pointing to this all along.
-> 
-> But if following Torah is not the basis of the gospel, won’t there be
-> anarchy? Paul answers by describing what Spirit-empowered life looks
-> like in the community of Messiah-followers. Paul closes by emphasizing
-> the main theme of his letter once more: Neither circumcision nor
-> uncircumcision means anything; what counts is the new creation.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
+**Galatians Diagram**
 M{ zoomableImg(`Galatians_BP`) }M
+
+[Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
 M{ youTube(`vmx4UjRFp0M`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`SnBQG07x0ow`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

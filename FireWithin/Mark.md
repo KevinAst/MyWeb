@@ -12,53 +12,82 @@ did in his life prepares us for and informs us about his death.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Mark Overview](#mark-overview)
 - [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 
 
-## Overview
+## Mark Overview
 
-**{{book.NivBible}} Mark Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Mark appears to be written for an audience in Rome. A Roman
-> centurion’s declaration near the end of the book - Surely this man was
-> the Son of God! - models the witness to Jesus this gospel calls for.
-> 
-> The opening half of this fast-moving drama keys on the question: Who
-> do you say I am? An episode at the end of the first half shows Jesus
-> healing a blind man in two stages, so that he slowly comes to see. In
-> the same way the disciples have only gradually come to recognize who
-> Jesus is. Then in a key moment in the story, between its two halves,
-> Peter confesses that Jesus is the Messiah.
-> 
-> Now the conflict moves out into the open. Jesus has come to introduce
-> a radical new way of life that will undercut existing power
-> relationships. The second half of the drama depicts this in three
-> acts:
-> 
-> 1. Jesus and his disciples travel to Jerusalem.
-> 
-> 2. Jesus teaches in the temple and clashes with the
->    established leadership.
-> 
-> 3. In the final act, that leadership executes its plan and has
->    Jesus arrested and crucified, seemingly overturning all he has
->    done. But then God overturns their deed and raises Jesus to
->    life. So Mark’s readers are called to be faithful to Jesus, even in
->    suffering, because this is how God continues to overturn the
->    existing order and establish the way of life that Jesus taught.
+**{{book.NivBible}}**
 
+Mark appears to be written for an audience in Rome. A Roman
+centurion’s declaration near the end of the book - Surely this man was
+the Son of God! - models the witness to Jesus this gospel calls for.
+
+The opening half of this fast-moving drama keys on the question: Who
+do you say I am? An episode at the end of the first half shows Jesus
+healing a blind man in two stages, so that he slowly comes to see. In
+the same way the disciples have only gradually come to recognize who
+Jesus is. Then in a key moment in the story, between its two halves,
+Peter confesses that Jesus is the Messiah.
+
+Now the conflict moves out into the open. Jesus has come to introduce
+a radical new way of life that will undercut existing power
+relationships. The second half of the drama depicts this in three
+acts:
+
+1. Jesus and his disciples travel to Jerusalem.
+
+2. Jesus teaches in the temple and clashes with the
+   established leadership.
+
+3. In the final act, that leadership executes its plan and has
+   Jesus arrested and crucified, seemingly overturning all he has
+   done. But then God overturns their deed and raises Jesus to
+   life. So Mark’s readers are called to be faithful to Jesus, even in
+   suffering, because this is how God continues to overturn the
+   existing order and establish the way of life that Jesus taught.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
-> [Mark Introduction](https://bibleproject.com/explore/video/mark/)
+
+**Mark Diagram**
 M{ zoomableImg(`Mark_BP`) }M
+
+[Mark Introduction](https://bibleproject.com/explore/video/mark/)
 M{ youTube(`HGHqu9-DtXk`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
 M{ youTube(`ZBLKrNVffgo`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2013-2014 Mark Series (Mid Week)

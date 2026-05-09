@@ -16,52 +16,80 @@ cross is the wisest thing that has ever happened.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Corinthians Overview](#1-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
 - [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
 
-## Overview
+## 1 Corinthians Overview
 
-**{{book.NivBible}} 1 Corinthians Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The book of Acts describes how Paul brought the royal news about Jesus
-> the Messiah to Macedonia (northern Greece), but then had to flee to
-> Achaia (southern Greece) for his own safety. He visited the city of
-> Corinth there, a wealthy and cosmopolitan commercial center. Many
-> people became believers, so he stayed for a year and a half to teach
-> them.
-> 
-> After he left, the Corinthians wrote to Paul (in a letter we no longer
-> have) with some key questions. The Corinthians had adopted the common
-> Greek idea that physical things are bad, so they wanted to free the
-> human spirit from the body. This affected the way they saw such things
-> as marriage, attendance at ceremonial meals for pagan gods, and even
-> the resurrection of Jesus. In the letter we know as 1 Corinthians Paul
-> addresses all of these concerns, as well as questions about worship.
-> 
-> Paul writes that this world in its present form is passing away,but
-> the Corinthians can give themselves fully to the work of the Lord
-> since their labor in the Lord is not in vain. The coming resurrection
-> of the dead, and the new world that will accompany it, will show the
-> value of all their current efforts. Paul’s practical advice for how to
-> consistently embody the new life of God’s kingdom during a particular
-> scene in the biblical drama gives us great insight as we seek to take
-> up our roles today.
+**{{book.NivBible}}**
 
+The book of Acts describes how Paul brought the royal news about Jesus
+the Messiah to Macedonia (northern Greece), but then had to flee to
+Achaia (southern Greece) for his own safety. He visited the city of
+Corinth there, a wealthy and cosmopolitan commercial center. Many
+people became believers, so he stayed for a year and a half to teach
+them.
+
+After he left, the Corinthians wrote to Paul (in a letter we no longer
+have) with some key questions. The Corinthians had adopted the common
+Greek idea that physical things are bad, so they wanted to free the
+human spirit from the body. This affected the way they saw such things
+as marriage, attendance at ceremonial meals for pagan gods, and even
+the resurrection of Jesus. In the letter we know as 1 Corinthians Paul
+addresses all of these concerns, as well as questions about worship.
+
+Paul writes that this world in its present form is passing away,but
+the Corinthians can give themselves fully to the work of the Lord
+since their labor in the Lord is not in vain. The coming resurrection
+of the dead, and the new world that will accompany it, will show the
+value of all their current efforts. Paul’s practical advice for how to
+consistently embody the new life of God’s kingdom during a particular
+scene in the biblical drama gives us great insight as we seek to take
+up our roles today.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
+**1 Corinthians Diagram**
 M{ zoomableImg(`1Corinthians_BP`) }M
+
+[1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
 M{ youTube(`yiHf8klCCc4`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`0_LhiD-XNr0`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

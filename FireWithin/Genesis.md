@@ -99,7 +99,7 @@ P{ collapsibleSectionEnd() }P
 P{ collapsibleSection({
   id:     'Genesis_Overview_Abraham',
   label:  'Genealogy of Abraham',
-  initialExpansion: 'close',
+  initialExpansion: 'open',
 }) }P
 
 M{ zoomableImg(`GenealogyAbraham`) }M

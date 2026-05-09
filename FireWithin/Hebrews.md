@@ -10,60 +10,86 @@ sacrifice.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Hebrews Overview](#hebrews-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Hebrews Series (Sundays)](#2010-hebrews-series-sundays)
 - [2018-2019 Hebrews Series (Mid Week)](#2018-2019-hebrews-series-mid-week)
 
 
-## Overview
+## Hebrews Overview
 
-**{{book.NivBible}} Hebrews Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Neither the author nor the audience of this book is specifically
-> named, but the book itself reveals its nature and purpose. The
-> recipients are Jesus-believing Jews who are in danger of falling away
-> from the faith. They are likely in Italy, since the author passes on
-> greetings to them from those who are from Italy—probably their friends
-> who are traveling elsewhere. The goal of the whole book is to show the
-> superiority of the final realities God has revealed in the new
-> covenant to the temporary ones of the first covenant. Its readers are
-> encouraged to respond to the threat of persecution by recommitting to
-> the new reality brought by Jesus.
-> 
-> The book alternates between teachings—reviews of Israel’s history or
-> the temple worship arrangements—and challenges based on these
-> teachings. There are four teaching-challenge pairs:
-> 
-> - Jesus and the salvation he brings are greater than the angels and
->   the salvation they announced (the law of Moses).
-> 
-> - Jesus is our “apostle” (someone sent by God on a specific mission),
->   and he brings us into a greater rest and promised land than Moses
->   and Joshua brought Israel into.
-> 
-> - Jesus is a more effective high priest than the priests appointed by
->   the law of Moses.
-> 
-> - As God’s faithful people have done throughout the ages, we must
->   continue living in light of God’s unseen heavenly realities and
->   stepping out in faith. Through the Messiah we are receiving a
->   kingdom that cannot be shaken.
+**{{book.NivBible}}**
+
+Neither the author nor the audience of this book is specifically
+named, but the book itself reveals its nature and purpose. The
+recipients are Jesus-believing Jews who are in danger of falling away
+from the faith. They are likely in Italy, since the author passes on
+greetings to them from those who are from Italy—probably their friends
+who are traveling elsewhere. The goal of the whole book is to show the
+superiority of the final realities God has revealed in the new
+covenant to the temporary ones of the first covenant. Its readers are
+encouraged to respond to the threat of persecution by recommitting to
+the new reality brought by Jesus.
+
+The book alternates between teachings—reviews of Israel’s history or
+the temple worship arrangements—and challenges based on these
+teachings. There are four teaching-challenge pairs:
+
+- Jesus and the salvation he brings are greater than the angels and
+  the salvation they announced (the law of Moses).
+
+- Jesus is our “apostle” (someone sent by God on a specific mission),
+  and he brings us into a greater rest and promised land than Moses
+  and Joshua brought Israel into.
+
+- Jesus is a more effective high priest than the priests appointed by
+  the law of Moses.
+
+- As God’s faithful people have done throughout the ages, we must
+  continue living in light of God’s unseen heavenly realities and
+  stepping out in faith. Through the Messiah we are receiving a
+  kingdom that cannot be shaken.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Hebrews Introduction](https://bibleproject.com/explore/video/hebrews/)
+**Hebrews Diagram**
 M{ zoomableImg(`Hebrews_BP`) }M
 
+[Hebrews Introduction](https://bibleproject.com/explore/video/hebrews/)
 M{ youTube(`1fNWTZZwgbs`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
 
 > _As of 12/2023 Spoken Gospel has no hebrews introduction_
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

@@ -15,62 +15,88 @@ blindness, we can see him and the scriptures as they truly are.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Luke Overview](#luke-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
 - [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
 
 
-## Overview
+## Luke Overview
 
-**{{book.NivBible}} Luke Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books of Luke and Acts are two volumes of a single work. Together
-> they tell the story of how God first invited the people of Israel, and
-> then all nations, to follow Jesus. In the first volume, the movement
-> is toward Jerusalem, the center of Jewish national life. In the
-> second, the movement is from Jerusalem to other nations, closing with
-> Paul proclaiming the kingdom of God in Rome, the capital of the
-> empire.
-> 
-> Luke addresses his history to most excellent Theophilus,most likely a
-> Roman official. His volumes are stocked with details from sources Luke
-> had available: letters, speeches, songs, travel accounts, trial
-> transcripts and biographical anecdotes. Luke’s purpose is to show the
-> fulfillment of God’s plan to bring his light to the world through
-> Israel. The earliest Jesus-followers take up this calling by
-> announcing Jesus’ victory over sin and death to all the nations.
-> 
-> The first volume, Luke’s telling of the story of Jesus, has three main
-> sections:
-> 
-> 1. Jesus ministers in Galilee, the northern area of the land of
->    Israel.
-> 
-> 2. He takes a long journey to Jerusalem, during which he welcomes
->    people into the way of God’s reign and challenges Israel’s current
->    understanding of the kingdom.
-> 
-> 3. Luke tells how Jesus gives his life in Jerusalem and then rises
->    from the dead to be revealed as Israel’s King and the world’s true
->    Lord.
+**{{book.NivBible}}**
 
+The books of Luke and Acts are two volumes of a single work. Together
+they tell the story of how God first invited the people of Israel, and
+then all nations, to follow Jesus. In the first volume, the movement
+is toward Jerusalem, the center of Jewish national life. In the
+second, the movement is from Jerusalem to other nations, closing with
+Paul proclaiming the kingdom of God in Rome, the capital of the
+empire.
+
+Luke addresses his history to most excellent Theophilus,most likely a
+Roman official. His volumes are stocked with details from sources Luke
+had available: letters, speeches, songs, travel accounts, trial
+transcripts and biographical anecdotes. Luke’s purpose is to show the
+fulfillment of God’s plan to bring his light to the world through
+Israel. The earliest Jesus-followers take up this calling by
+announcing Jesus’ victory over sin and death to all the nations.
+
+The first volume, Luke’s telling of the story of Jesus, has three main
+sections:
+
+1. Jesus ministers in Galilee, the northern area of the land of
+   Israel.
+
+2. He takes a long journey to Jerusalem, during which he welcomes
+   people into the way of God’s reign and challenges Israel’s current
+   understanding of the kingdom.
+
+3. Luke tells how Jesus gives his life in Jerusalem and then rises
+   from the dead to be revealed as Israel’s King and the world’s true
+   Lord.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Luke Introduction](https://bibleproject.com/explore/video/luke/)
+**Luke Diagram**
 M{ zoomableImg(`Luke_BP`) }M
 
-> [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
+[Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
 M{ youTube(`XIb_dCIxzr0`) }M
 
-> [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
+[Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
 M{ youTube(`26z_KhwNdD8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`4kMbN9bwgM8`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"

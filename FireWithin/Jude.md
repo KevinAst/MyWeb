@@ -8,48 +8,74 @@ people to fight for the faith given to them by Jesus.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Jude Overview](#jude-overview)
 - [2011 Jude Series (Sundays)](#2011-jude-series-sundays)
 - [2020 Jude Series (Mid Week)](#2020-jude-series-mid-week)
 
-## Overview
+## Jude Overview
 
-**{{book.NivBible}} Jude Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jude_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Jesus had several brothers, two of whom were James and Jude. Much less
-> is known about Jude than James (see James), but he was clearly a
-> church leader, since he wrote to believers with authority in this
-> letter that bears his name. It cannot be determined exactly who was
-> meant to receive the letter, although the references to angels, to
-> Israel’s history and to specific writings indicate that Jewish
-> Christians were in view.
-> 
-> Jude addresses the problem of false teachers who have come and are now
-> threatening the faith that was once for all entrusted to God’s holy
-> people. On the basis of supposedly inspired dreams, they reject
-> authority and pollute their own bodies. Even though they claim to be
-> bringing God’s message, they really follow mere natural instincts and
-> do not have the Spirit. The believers must actively resist them and
-> cleanse their community by rejecting both the teaching and the example
-> of these ungodly men.
-> 
-> It seems that the apostle Peter received a copy of Jude’s letter and
-> wrote a similar one of his own to show that it faithfully presented
-> the teaching of the apostles of the Lord Jesus Christ (see 2 Peter).
+**{{book.NivBible}}**
 
+Jesus had several brothers, two of whom were James and Jude. Much less
+is known about Jude than James (see James), but he was clearly a
+church leader, since he wrote to believers with authority in this
+letter that bears his name. It cannot be determined exactly who was
+meant to receive the letter, although the references to angels, to
+Israel’s history and to specific writings indicate that Jewish
+Christians were in view.
+
+Jude addresses the problem of false teachers who have come and are now
+threatening the faith that was once for all entrusted to God’s holy
+people. On the basis of supposedly inspired dreams, they reject
+authority and pollute their own bodies. Even though they claim to be
+bringing God’s message, they really follow mere natural instincts and
+do not have the Spirit. The believers must actively resist them and
+cleanse their community by rejecting both the teaching and the example
+of these ungodly men.
+
+It seems that the apostle Peter received a copy of Jude’s letter and
+wrote a similar one of his own to show that it faithfully presented
+the teaching of the apostles of the Lord Jesus Christ (see 2 Peter).
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jude_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Jude Introduction](https://bibleproject.com/explore/video/jude/)
+**Jude Diagram**
 M{ zoomableImg(`Jude_BP`) }M
 
+[Jude Introduction](https://bibleproject.com/explore/video/jude/)
 M{ youTube(`6UoCmakZmys`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jude_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`aU2OacXzgjk`) }M
 
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2011 Jude Series (Sundays)

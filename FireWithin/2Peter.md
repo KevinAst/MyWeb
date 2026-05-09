@@ -9,49 +9,76 @@ world.
 
 ### At a Glance
 
-- [Overview](#overview)
+- [2 Peter Overview](#2-peter-overview)
 - [2011 2 Peter Series (Sundays)](#2011-2-peter-series-sundays)
 - [2019 2 Peter Series (Mid Week)](#2019-2-peter-series-mid-week)
 
 
-## Overview
+## 2 Peter Overview
 
-**{{book.NivBible}} 2 Peter Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Peter_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Around AD 65 the apostle Peter was imprisoned in Rome by the emperor
-> Nero, and he realized that he would soon be executed. Since he was an
-> eyewitness of the ministry of Jesus, he decided to write another
-> letter to the believers he had written to before, confirming what they
-> had been taught about Jesus. False teachers were proposing that, since
-> Jesus hadn’t returned already, his return couldn’t be expected at
-> all. Because they didn’t expect any future judgment, they were living
-> immoral lives. (Peter likely learned about the threat of these
-> teachers from a letter sent by Jude, a brother of Jesus, to warn
-> believers against them. Peter’s letter echoes Jude’s, but in shorter
-> form. See Jude.)
-> 
-> Peter answers the false teachers by stressing that he personally saw
-> the glory and majesty of Jesus on the sacred mountain (see Mark
-> 9:2-13). Everyone will see this glory when Jesus returns. In powerful
-> imagery Peter describes the false teachers’ destructive effect on the
-> community and the judgment that awaits them. In the final section of
-> his letter, Peter explains that the Messiah’s return has been delayed
-> because God wants everyone to repent. Our proper response is to live
-> good lives filled with hope, since we are looking forward to a new
-> heaven and a new earth, where righteousness dwells.
+**{{book.NivBible}}**
 
+Around AD 65 the apostle Peter was imprisoned in Rome by the emperor
+Nero, and he realized that he would soon be executed. Since he was an
+eyewitness of the ministry of Jesus, he decided to write another
+letter to the believers he had written to before, confirming what they
+had been taught about Jesus. False teachers were proposing that, since
+Jesus hadn’t returned already, his return couldn’t be expected at
+all. Because they didn’t expect any future judgment, they were living
+immoral lives. (Peter likely learned about the threat of these
+teachers from a letter sent by Jude, a brother of Jesus, to warn
+believers against them. Peter’s letter echoes Jude’s, but in shorter
+form. See Jude.)
+
+Peter answers the false teachers by stressing that he personally saw
+the glory and majesty of Jesus on the sacred mountain (see Mark
+9:2-13). Everyone will see this glory when Jesus returns. In powerful
+imagery Peter describes the false teachers’ destructive effect on the
+community and the judgment that awaits them. In the final section of
+his letter, Peter explains that the Messiah’s return has been delayed
+because God wants everyone to repent. Our proper response is to live
+good lives filled with hope, since we are looking forward to a new
+heaven and a new earth, where righteousness dwells.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Peter_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [2 Peter Introduction](https://bibleproject.com/explore/video/2-peter/)
+**2 Peter Diagram**
 M{ zoomableImg(`2peter_BP`) }M
 
+[2 Peter Introduction](https://bibleproject.com/explore/video/2-peter/)
 M{ youTube(`wWLv_ITyKYc`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Peter_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`6aS82DAJcX0`) }M
 
+P{ collapsibleSectionEnd() }P
 
 
 ## 2011 2 Peter Series (Sundays)
