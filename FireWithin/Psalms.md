@@ -128,6 +128,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sat 05/09/2026',
+       topic:               'God Our Refuge',
+       verse:               'Psalm 56:3',
+       verseRef:            'psa.56.3',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Thu 03/26/2026',
        topic:               'The Limits of Our Days',
        verse:               'Psalm 90:10',
