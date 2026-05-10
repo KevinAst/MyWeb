@@ -102,6 +102,27 @@ input[type="checkbox"] {
   .desktop-inline { display: inline; }
 }
 
+/*** special `divider`s in our generated tables (sermon series) ***/
+/* USAGE:
+   
+   <tr class="divider">
+     <td colspan="3">label-here</td>
+   </tr>
+
+   KJB: ChatGPT Generated
+*/
+.divider td {
+  padding-top:    0px    !important; /* compress vertical spacing ABOVE divider section*/
+  padding-bottom: 0px    !important; /* compress vertical spacing BELOW divider section*/
+  font-weight:    600    !important; /* stronger text weight for section label */
+  text-align:     center !important; /* center text  */
+  border-top:     2px solid currentColor !important; /* top-line (with current active color from GitBook theme, automatically adapting to White/Sepia/Night modes */
+  border-bottom:  2px solid currentColor !important; /* bottom-line (ditto) */
+  opacity:        0.88   !important; /* slight transparency softens the visual impact */
+  letter-spacing: 0.03em !important; /* spacing between letters */
+  font-size:      0.9em  !important; /* slightly smaller than normal text */
+}
+
 /* all table cell entries alighn to top */
 td {
   vertical-align: top;
