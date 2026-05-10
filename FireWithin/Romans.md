@@ -123,6 +123,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 05/10/2026',
+       topic:               'The Spirit Helps Our Weakness',
+       verse:               'Romans 8:26',
+       verseRef:            'rom.8.26',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 04/03/2026',
        topic:               'Overcoming Hatred with Christlike Love',
        verse:               'Romans 12:21',
