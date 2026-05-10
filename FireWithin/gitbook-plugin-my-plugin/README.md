@@ -388,6 +388,7 @@ content of an entire sermon series.
     },
     entries: [ // series entries (in order of display)
       { // individual entry
+        divider:   string,   // SPECIAL CASE: divider label entry (when used only param needed)
         id:        string,   // entry id (REQUIRED)
                              // - used to persist completion status
                              // - `20210418`: A CornerStone standard entry (`YYYYMMDD`)

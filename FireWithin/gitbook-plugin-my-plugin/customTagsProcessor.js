@@ -776,8 +776,12 @@ function expandSermonSeries(settings, entries, checkParam, styleClass) {
   content += `<div class="${styleClass}"><table>`;
 
   // iterrate over each entry, expanding it's content
+  let entryNum = 0; // ... we do NOT bump up entryNum for dividers
   entries.forEach( (entry, indx) => {
-    content += expandSermonEntry(settings, entry, indx+1, checkParam, styleClass);
+    if (!entry.divider) {
+      entryNum++;
+    }
+    content += expandSermonEntry(settings, entry, entryNum, checkParam, styleClass);
   });
 
   // close our html container
@@ -799,7 +803,15 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, ...unknownProps} = entry;
+  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, divider, ...unknownProps} = entry;
+
+  // special case - check divider FIRST ... when supplied process it in-line here and return immediately
+  if (divider) {
+    checkParam(isString(divider), `entry divider must be a string (the label for a divider entry), NOT: ${divider}`);
+    const colSpan = vertical ? 3 : 5; // reflexive number of columns based on phone/desktop
+    // return our divider entry immediatly (special case)
+    return `<tr class="divider"><td colspan="${colSpan}">${divider}</td></tr>`;
+  }
 
   // ... id <<< USE THIS
   checkParam(id,           'entry id is required');
