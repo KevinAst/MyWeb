@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 599**          _... categorized below!!_
-> <br/> **Photos: 48,084**       _... Yikes!!!_
+> <br/> **Albums: 600**          _... categorized below!!_
+> <br/> **Photos: 48,089**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 ## At a Glance
 
@@ -386,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Mother's Day
 
+- 2026: [Happy Mother's Day 5/10/2026](https://photos.google.com/share/AF1QipNedKFp3NANOFybWm7_2GgrgXtEd0ZnfA6D1TDiRbZJrIE4dpyJQyFVSJgUmebJ_w?key=TVZWeG9RelZLSTVKS2tKU1NHdWVOMS1UdjZpMFBn) _(4 pics)_
 - 2025: [2025-05 Happy Mother's Day](https://photos.google.com/share/AF1QipNBxRGqaLdWisfsT5cJza-TQAX8MtSlXlVU0RHEL9WN4gyYupTRkji5gSU4VFQshw?key=VXFvUTZ6eVJLbEQzdHpIVUZIYjlYVGxVVjN3RTZn) _(14 pics)_
 - 2024: [Happy Mother's Day 5/12/2024](https://photos.google.com/share/AF1QipPjNpgw58AUycu9JHPzOmq1Z2ZOFh2owWxJMqwTPFxdefvrFVQJ4l61UO0_L4SJTA?key=dnVGTDFqV2lYemRxa3dXUjJpREdQbklsaEl3MEJR) _(16 pics)_
 - 2023: MISSING
