@@ -130,6 +130,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/11/2026',
+       topic:               'Waiting in the Wilderness',
+       verse:               'Psalm 40:1',
+       verseRef:            'psa.40.1',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 05/09/2026',
        topic:               'God Our Refuge',
        verse:               'Psalm 56:3',
