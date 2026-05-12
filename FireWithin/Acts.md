@@ -125,6 +125,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'act.1.8',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Tue 05/12/2026',
+       topic:               'Steadfast in the Truth',
+       verse:               'Acts 2:42',
+       verseRef:            'act.2.42',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
