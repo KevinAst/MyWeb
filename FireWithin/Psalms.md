@@ -39,7 +39,7 @@ centuries were collected in the book of Psalms.
 The book is structured into five parts marked off by the phrase,
 Praise be to the Lord… Amen and Amen!These five “books” remind the
 reader of the five books of Moses. Like the law, these song lyrics can
-be read and studied for instruction. Psalm 1 emphasizes such
+be read and studied for instruction. Psalms 1 emphasizes such
 meditation and seems to have been placed first to make this point.
 
 The five books also tell a three-part story of Israel’s redemption:
@@ -97,28 +97,28 @@ P{ collapsibleSectionEnd() }P
 - M{ devoGHTOC({
        publicationDate:     'Wed 05/06/2026',
        topic:               'The God Who Restores',
-       verse:               'Psalm 23:3',
+       verse:               'Psalms 23:3',
        verseRef:            'psa.23.3',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 03/17/2026',
        topic:               'Led by the Light of God’s Word',
-       verse:               'Psalm 25:4',
+       verse:               'Psalms 25:4',
        verseRef:            'psa.25.4',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 04/20/2026',
        topic:               'Waiting in Trust',
-       verse:               'Psalm 27:14',
+       verse:               'Psalms 27:14',
        verseRef:            'psa.27.14',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 05/05/2026',
        topic:               'Faithful in the Waiting',
-       verse:               'Psalm 27:14',
+       verse:               'Psalms 27:14',
        verseRef:            'psa.27.14',
        forBTB:              true,
      }) }M
@@ -132,35 +132,35 @@ P{ collapsibleSectionEnd() }P
 - M{ devoGHTOC({
        publicationDate:     'Mon 04/06/2026',
        topic:               'The Lord as Our True Security',
-       verse:               'Psalm 33:12',
+       verse:               'Psalms 33:12',
        verseRef:            'psa.33.12',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 05/11/2026',
        topic:               'Waiting in the Wilderness',
-       verse:               'Psalm 40:1',
+       verse:               'Psalms 40:1',
        verseRef:            'psa.40.1',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 05/09/2026',
        topic:               'God Our Refuge',
-       verse:               'Psalm 56:3',
+       verse:               'Psalms 56:3',
        verseRef:            'psa.56.3',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 03/26/2026',
        topic:               'The Limits of Our Days',
-       verse:               'Psalm 90:10',
+       verse:               'Psalms 90:10',
        verseRef:            'psa.90.10',
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 04/11/2026',
        topic:               'Established in His Presence',
-       verse:               'Psalm 138:8',
+       verse:               'Psalms 138:8',
        verseRef:            'psa.138.8',
        forBTB:              true,
      }) }M
@@ -228,7 +228,7 @@ M{ sermonSeries({
     { id: `20230702`, sermon: `Faith and Freedom`,                               scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
     { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`, scripture: `psa.119@@Psalms 119`,     studyGuide: `NONE`, },
     { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                 scripture: `psa.91@@Psalms 91`,                           },
-    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalm 27`,                            },
-    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalm 13`,                            },
+    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalms 27`,                            },
+    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalms 13`,                            },
   ]
 }) }M

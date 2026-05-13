@@ -500,7 +500,7 @@ M{ sermonSeries({
   entries: [
     { id: `20121104`, sermon: `Election Day Sermon`,                                                                   studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,        scripture: `1sa.8@@1 Samuel 8-11`,                        },
-    { id: `20161016`, sermon: `Election Day Sermon`,                             scripture: `psa.33@@Psalm 33`,        studyGuide: `NONE`, },
+    { id: `20161016`, sermon: `Election Day Sermon`,                             scripture: `psa.33@@Psalms 33`,        studyGuide: `NONE`, },
     { id: `20201018`, sermon: `Church in America, Wake Up!`,                     scripture: `jer.6@@Jeremiah 6:16-19`, studyGuide: `NONE`, },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                     studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,     scripture: `mat.8@@Matthew 8:23-27`,                      },

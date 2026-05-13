@@ -17,7 +17,7 @@ M{ sermonSeries({
   entries: [
     { id: `20190120`, sermon: `Sanctity of Human Life`,   scripture: `jer.18@@Jeremiah 18-19 `, },
     { id: `20210117`, sermon: `For the Love of Children`, scripture: `mat.18@@Matthew 18-19`,   },
-    { id: `20220123`, sermon: `The Value of Life`,        scripture: `psa.103@@Psalm 103:2-4`,  studyGuide: `NONE`, },
+    { id: `20220123`, sermon: `The Value of Life`,        scripture: `psa.103@@Psalms 103:2-4`,  studyGuide: `NONE`, },
     { id: `20221113`, sermon: `LIFE Principles`,                                                studyGuide: `NONE`, extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`, },
     { id: `20250122`, sermon: `A Conversation with Seth Gruber and Pastor Gary Hamrick`,        studyGuide: `NONE`, extraLinkInScriptureCell: `https://sethgruber.com//@@Seth Gruber` },
   ]
@@ -48,7 +48,7 @@ M{ sermonSeries({
   entries: [
     { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
-    { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalm 33`,            studyGuide: `NONE`, },
+    { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,            studyGuide: `NONE`, },
     { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
@@ -57,7 +57,7 @@ M{ sermonSeries({
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
     { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
     { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
-    { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalm 146`,          studyGuide: `NONE`  },
+    { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalms 146`,          studyGuide: `NONE`  },
   ]
 }) }M
 
@@ -91,7 +91,7 @@ M{ sermonSeries({
 
     { id: `20240915`, sermon: `Truth or Truthiness?`,                                                                                  studyGuide: `NONE`, extraLinkInScriptureCell: `https://www.moodychurch.org/staff-directory/erwin-lutzer/@@Dr. Erwin Lutzer`,     },
     { id: `20241002`, sermon: `Representing Christ In The Cultural Crisis (James Ward)`, scripture: `2co.5.20@@2 Corinthians 5:20`,    studyGuide: `NONE`, },
-    { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalm 83`,                                    },
+    { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalms 83`,                                    },
     { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
     { id: `20250504`, sermon: `Reclaiming the Cultural Mandate (Seth Gruber)`,           scripture: `gen.1@@Genesis 1`,                studyGuide: `NONE`, },
   ]

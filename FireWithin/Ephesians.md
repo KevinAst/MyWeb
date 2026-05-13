@@ -41,7 +41,7 @@ Paul here presents a two-fold pattern, first explaining the new
 identity believers have in Christ and then bringing out the
 implications for their new way of life. God has brought everything
 together under the rule of the Messiah, exalting Jesus above all
-things. Paul echoes a phrase from Psalm 8 — God placed all things under
+things. Paul echoes a phrase from Psalms 8 — God placed all things under
 his feet — to show that Jesus is the truly human one. Jesus fulfills the
 original human calling to rule over the creation properly. Jews and
 Gentiles have been brought together into one body, with Jesus at the
