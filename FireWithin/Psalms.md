@@ -123,6 +123,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 05/13/2026',
+       topic:               'Waiting on the Lord',
+       verse:               'Psalms 27:14',
+       verseRef:            'psa.27.14',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Mon 04/06/2026',
        topic:               'The Lord as Our True Security',
        verse:               'Psalm 33:12',
