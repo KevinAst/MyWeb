@@ -16,7 +16,7 @@ mat.18
 
 01/23/2022
 The Value of Life
-Psalm 103:2-4
+Psalms 103:2-4
 psa.103
 
 >> FOR ABOVE ********************************************************************************
@@ -91,7 +91,7 @@ NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-pag
 
 01/19/2025
 Donald Trump, the Church, and Israel
-Psalm 146
+Psalms 146
 psa.146
 
 >> FOR ABOVE ********************************************************************************
@@ -147,7 +147,7 @@ studyGuide: `NONE`,
 
 10/16/2016
 Election Day Sermon 2016
-Psalm 33
+Psalms 33
 psa.33
 
 >> FOR ABOVE ********************************************************************************
@@ -262,7 +262,7 @@ Representing Christ In The Cultural Crisis (James Ward)
 
 10/06/2024
 Remembering October 7th
-Psalm 83
+Psalms 83
 psa.83
 
 10/13/2024
