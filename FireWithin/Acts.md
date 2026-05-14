@@ -132,6 +132,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'act.2.42',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/14/2026',
+       topic:               'Obeying the Higher Authority',
+       verse:               'Acts 5:29',
+       verseRef:            'act.5.29',
+       forBTB:              true,
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
