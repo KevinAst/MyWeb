@@ -144,6 +144,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/15/2026',
+       topic:               'Humble Hearts Before God',
+       verse:               'Psalms 51:17',
+       verseRef:            'psa.51.17',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 05/09/2026',
        topic:               'God Our Refuge',
        verse:               'Psalms 56:3',
