@@ -100,6 +100,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sat 05/16/2026',
+       topic:               'Walking in Holy Reverence',
+       verse:               'Proverbs 16:6',
+       verseRef:            'pro.16.6',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 05/03/2026',
        topic:               'The Strength to Restrain',
        verse:               'Proverbs 20:22',
