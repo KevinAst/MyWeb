@@ -165,6 +165,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            '1sa.17.47',
        forBTB:              true,
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 05/17/2026',
+       topic:               'Strengthened in the Lord',
+       verse:               '1 Samuel 30:6',
+       verseRef:            '1sa.30.6',
+       forBTB:              true,
+     }) }M
 
 
 ## 2014 1 Samuel Series (Sundays)
