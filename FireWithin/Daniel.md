@@ -21,6 +21,7 @@ under his rule.
 ### At a Glance
 
 - [Daniel Overview](#daniel-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Daniel Series (Mid Week)](#2012-daniel-series-mid-week)
 - [2019 Daniel Series (Sundays)](#2019-daniel-series-sundays)
 
@@ -96,6 +97,20 @@ M{ youTube(`xtrK2GnZyVg`) }M
 P{ collapsibleSectionEnd() }P
 
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- _other devotions related to Daniel ..._
+  - M{ devoGHTOC({
+         publicationDate:     'Mon 05/18/2026',
+         topic:               'Standing Firm in a Confused World (Daniel 1:1-8 - see related sermon: "Standing Strong in a Wayward World")',
+         verse:               'Romans 12:2',
+         verseRef:            'rom.12.2',
+         forBTB:              true,
+       }) }M
+
+
 ## 2012 Daniel Series (Mid Week)
 
 {{book.CornerstoneChapel}}
@@ -127,7 +142,9 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  },
+    { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  
+      extraSermonLink: `https://wiibridges.com/FireWithin/devo20260518.html@@Devotion: Standing Firm in a Confused World (Romans 12:2)`,
+    },
     { id: `20190908`, sermon: `Faithfulness Rewarded`,                 scripture: `dan.1@@Daniel 1:8-21`, },
     { id: `20190915`, sermon: `Kings and Kingdoms`,                    scripture: `dan.2@@Daniel 2`,      },
     { id: `20190922`, sermon: `True Faith`,                            scripture: `dan.3@@Daniel 3`,      },

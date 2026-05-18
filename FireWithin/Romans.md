@@ -130,6 +130,13 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/18/2026',
+       topic:               'Standing Firm in a Confused World',
+       verse:               'Romans 12:2',
+       verseRef:            'rom.12.2',
+       forBTB:              true,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 04/03/2026',
        topic:               'Overcoming Hatred with Christlike Love',
        verse:               'Romans 12:21',
