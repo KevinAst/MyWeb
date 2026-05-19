@@ -133,20 +133,19 @@ P{ collapsibleSectionEnd() }P
        forBTB:              true,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sat 05/16/2026',
+       topic:               'Walking in Holy Reverence',
+       verse:               'Proverbs 16:6',
+       verseRef:            'pro.16.6',
+       layout:              'BTB:FromDevoContent##act.5@@Acts 5##Ananias and Sapphira',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Thu 05/14/2026',
        topic:               'Obeying the Higher Authority',
        verse:               'Acts 5:29',
        verseRef:            'act.5.29',
        forBTB:              true,
      }) }M
-- _other devotions related to Acts ..._
-  - M{ devoGHTOC({
-         publicationDate:     'Sat 05/16/2026',
-         topic:               'Walking in Holy Reverence (Acts 5 - the account of Ananias and Sapphira)',
-         verse:               'Proverbs 16:6',
-         verseRef:            'pro.16.6',
-         forBTB:              true,
-       }) }M
 
 
 ## 2009 Acts Series (Sundays)

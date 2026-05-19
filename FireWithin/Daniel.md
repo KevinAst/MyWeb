@@ -101,14 +101,13 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- _other devotions related to Daniel ..._
-  - M{ devoGHTOC({
-         publicationDate:     'Mon 05/18/2026',
-         topic:               'Standing Firm in a Confused World (Daniel 1:1-8 - see related sermon: "Standing Strong in a Wayward World")',
-         verse:               'Romans 12:2',
-         verseRef:            'rom.12.2',
-         forBTB:              true,
-       }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/18/2026',
+       topic:               'Standing Firm in a Confused World',
+       verse:               'Romans 12:2',
+       verseRef:            'rom.12.2',
+       layout:              `BTB:FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,
+     }) }M
 
 
 ## 2012 Daniel Series (Mid Week)
@@ -143,7 +142,15 @@ M{ sermonSeries({
 M{ sermonSeries({
   entries: [
     { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  
-      extraSermonLink: `https://wiibridges.com/FireWithin/devo20260518.html@@Devotion: Standing Firm in a Confused World (Romans 12:2)`,
+      relatedDevotions: [
+        {
+           publicationDate:     `Mon 05/18/2026`,
+           topic:               `Standing Firm in a Confused World`,
+           verse:               `Romans 12:2`,
+           verseRef:            `rom.12.2`,
+           layout:              `SERMON`,
+        },
+      ],
     },
     { id: `20190908`, sermon: `Faithfulness Rewarded`,                 scripture: `dan.1@@Daniel 1:8-21`, },
     { id: `20190915`, sermon: `Kings and Kingdoms`,                    scripture: `dan.2@@Daniel 2`,      },
