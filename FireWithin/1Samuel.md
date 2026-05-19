@@ -107,70 +107,70 @@ P{ collapsibleSectionEnd() }P
        topic:               'Pouring Out the Soul Before God',
        verse:               '1 Samuel 1:10',
        verseRef:            '1sa.1.10',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 02/22/2026',
        topic:               'The Lord Who Hears',
        verse:               '1 Samuel 1:11',
        verseRef:            '1sa.1.11',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 04/12/2026',
        topic:               'Return to the Lord with All Your Heart',
        verse:               '1 Samuel 7:3',
        verseRef:            '1sa.7.3',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 04/16/2026',
        topic:               'Return to Your First Love',
        verse:               '1 Samuel 12:22',
        verseRef:            '1sa.12.22',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Wed 04/22/2026',
        topic:               'Obedience Without Excuse',
        verse:               '1 Samuel 15:22',
        verseRef:            '1sa.15.22',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 04/24/2026',
        topic:               'To Obey Is Better',
        verse:               '1 Samuel 15:22',
        verseRef:            '1sa.15.22',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 04/14/2026',
        topic:               'The Heart God Sees',
        verse:               '1 Samuel 16:7',
        verseRef:            '1sa.16.7',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 04/26/2026',
        topic:               'A Heart Known by God',
        verse:               '1 Samuel 16:7',
        verseRef:            '1sa.16.7',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 04/28/2026',
        topic:               'The Battle Belongs to the Lord',
        verse:               '1 Samuel 17:47',
        verseRef:            '1sa.17.47',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 05/17/2026',
        topic:               'Strengthened in the Lord',
        verse:               '1 Samuel 30:6',
        verseRef:            '1sa.30.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

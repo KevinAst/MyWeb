@@ -97,7 +97,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Worship from a Grateful Heart',
        verse:               'Colossians 3:23',
        verseRef:            'col.3.23',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

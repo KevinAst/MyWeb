@@ -113,35 +113,35 @@ P{ collapsibleSectionEnd() }P
        topic:               'God Reveals Himself to All',
        verse:               'Romans 1:20',
        verseRef:            'rom.1.20',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Wed 03/18/2026',
        topic:               'The Grace That Covers Every Sin',
        verse:               'Romans 3:23',
        verseRef:            'rom.3.23',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 05/10/2026',
        topic:               'The Spirit Helps Our Weakness',
        verse:               'Romans 8:26',
        verseRef:            'rom.8.26',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 05/18/2026',
        topic:               'Standing Firm in a Confused World',
        verse:               'Romans 12:2',
        verseRef:            'rom.12.2',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 04/03/2026',
        topic:               'Overcoming Hatred with Christlike Love',
        verse:               'Romans 12:21',
        verseRef:            'rom.12.21',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

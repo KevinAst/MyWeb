@@ -107,7 +107,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Covered by the Blood',
        verse:               'Exodus 12:13',
        verseRef:            'exo.12.13',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

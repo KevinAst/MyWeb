@@ -99,7 +99,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Strength in Dependence',
        verse:               'Zechariah 4:6',
        verseRef:            'zec.4.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

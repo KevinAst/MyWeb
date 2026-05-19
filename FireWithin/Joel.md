@@ -90,7 +90,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Repentance Before Renewal',
        verse:               'Joel 2:12',
        verseRef:            'jol.2.12',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

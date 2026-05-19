@@ -108,21 +108,21 @@ P{ collapsibleSectionEnd() }P
        topic:               'One Word One Message',
        verse:               'Hebrews 4:12',
        verseRef:            'heb.4.12',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 02/17/2026',
        topic:               'From Death to Life in Christ',
        verse:               'Hebrews 9:27',
        verseRef:            'heb.9.27',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 03/01/2026',
        topic:               'The God Who Redeems the Weak',
        verse:               'Hebrews 11:32-33',
        verseRef:            'heb.11.32-33',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

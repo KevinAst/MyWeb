@@ -710,9 +710,6 @@ function sermonSeries(namedParams={}) {
   const self       = `sermonSeries(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
-  // ??$$ ENHANCE this with new parm: relatedDevotions (an array of entries) ... internally USE: devoGHTOC() with a layout: 'SERMON' param ... pattern after extraSermonLink param
-  // ??$$ SEE: expandSermonEntry
-
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
@@ -805,7 +802,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  // ??$$ NEW: relatedDevotions
   const {id, sermon='Teaching', desc='', scripture, studyGuide, date, relatedDevotions, extraSermonLink, extraLinkInScriptureCell, divider, ...unknownProps} = entry;
 
   // special case - check divider FIRST ... when supplied process it in-line here and return immediately
@@ -867,7 +863,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   }
   checkParam(formattedDate, `a formatted date MUST be supplied EITHER via id prop (for Cornerstone entry), or date prop ... for entry id: '${id}'`)
 
-  // ??$$ NEW relatedDevotions
   // ... relatedDevotions
   if (relatedDevotions) {
     checkParam(isArray(relatedDevotions), `relatedDevotions must an array of devotion directives`);
@@ -907,13 +902,11 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
 
   // sermon (when supplied)
   content += sermonRef ? sermonLink(sermonRef) : '';
-  // ??$$ NEW
   if (relatedDevotions) { // ... relatedDevotions (when supplied)
     for (const devotion of relatedDevotions) {
       checkParam(isPlainObject(devotion),    `relatedDevotions contains an entry that is NOT a plain object: ${devotion}`);
       checkParam(devotion.layout==='SERMON', `relatedDevotions contains an entry that is NOT using 'SERMON' layout: ${devotion}`);
       // content is gleaned from devoGHTOC()
-      // ?? IS WORKING!!
       content += lineBreakOnSignificant(sermonRef) + devoGHTOC(devotion); 
     }
   }
@@ -2070,14 +2063,12 @@ function devoGHTOC(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  // ?? temp code for progressive retrofit ... should be const ... NOT let
   let {
     publicationDate,
     topic,
     verse,
     verseRef,
     layout='DEVO',
-    forBTB=false,
     ...unknownNamedArgs
   } = namedParams;
 
@@ -2099,36 +2090,18 @@ function devoGHTOC(namedParams={}) {
   checkParam(verseRef,                      'verseRef is required');
   checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
 
-  // ... forBTB
-  // ?? eventually OBSOLETE THIS OPTION
-  checkParam(isBoolean(forBTB), 'forBTB (when supplied) must be a boolean (format entry for "by the book") DEFAULT: false');
-  // ?? temp code to make this change progressive
-  // ... when macro usage has NOT been retrofitted yet, simulate it to the newest technique
-  // ... now we can use layout correctly <<< VERIFIED: NO usage of forBTB
-  //? console.log(`?? START layout:`, {layout, forBTB});
-  if (layout==='DEVO' /*the default*/ && forBTB===true /*override*/) {
-    layout = 'BTB';
-    //? console.log(`?? SETTING layout: '${layout}'`);
-  }
-
   // ... layout
-  // ?? NEW
-  // ?? `layout` param ('DEVO/BTB/SERMON'), DISPLACING `forBTB` param (true/false)
   checkParam(isString(layout), `layout (when supplied) must be a string ('DEVO/BTB/SERMON') DEFAULT: 'DEVO'`);
   let btbContext          = ''; // ... handle optional BTB context 'BTB##context' ... where btbContext is 'scripture@@SCRIPTURE##TEXT'
   let btbContextDirective = 'FromDevoContent';
   let btbContextScripture = '';
   let btbContextText      = '';
-  //? console.log(`?? starting layout: "${layout}"`);
-  //? console.log(`?? starting btbContext: "${btbContext}"`);
   if (layout.startsWith('BTB:') ) {
     btbContext = layout.slice('BTB:'.length);
     layout = 'BTB';
-    //? console.log(`?? "BTB:" is "${btbContext}"`);
   }
   if (btbContext) { // further breakdown btbContext
     [btbContextDirective, btbContextScripture, btbContextText] = btbContext.split('##');
-    //? console.log(`?? breakdown btbContext: `, {btbContext, btbContextDirective, btbContextScripture, btbContextText});
   }
   checkParam(['DEVO', 'BTB', 'SERMON'].includes(layout), `layout (when supplied) must be one of the following ('DEVO/BTB/SERMON'), NOT: '${layout}'`);
   checkParam(['FromDevoSermon', 'FromDevoContent'].includes(btbContextDirective), `BTB:{directive} (when supplied) must be one of the following ('FromDevoSermon/FromDevoContent'), NOT: '${btbContextDirective}'`);
@@ -2160,11 +2133,7 @@ function devoGHTOC(namedParams={}) {
   // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
   // spawn the different layouts
-  // ?? new conditional logic (no forBTB usage)
-  // ???$$ CUR POINT ****************************************************************************************************************************************************************
   if (layout === 'BTB') { // "by the book" entry
-    // ?? TEMP TEST WORKS ... using 93 entry's WHICH IS CORRECT
-    //? console.log(`?? USING NEW "layout === 'BTB'" logic construct`);
 
     if (btbContext) { // "by the book" entry with ADDITIONAL CONTEXT (either devo has different scripture book, or a related sermon entry)
       // our context scripture reference (different from verseRef)
@@ -2186,7 +2155,7 @@ function devoGHTOC(namedParams={}) {
       // the devotion TOC link
       content += `<a href="${devoKey}.html">${topic}</a> `;
 
-      // ADDITIONAL CONTEXT ??## italicize
+      // ADDITIONAL CONTEXT
       // ... FromDevoSermon: (via related sermon: "Standing Strong in a Wayward World")
       // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
       let additionalContext = '<i>(';

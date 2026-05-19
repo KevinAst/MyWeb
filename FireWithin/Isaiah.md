@@ -105,7 +105,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'The Prince of Peace and the Sword',
        verse:               'Isaiah 9:6',
        verseRef:            'isa.9.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

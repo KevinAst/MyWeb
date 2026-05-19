@@ -97,7 +97,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Shining as Lights in a Crooked Generation',
        verse:               'Philippians 2:14–15',
        verseRef:            'php.2.14-15',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

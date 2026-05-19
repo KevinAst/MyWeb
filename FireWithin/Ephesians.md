@@ -100,7 +100,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Strength to Finish Well',
        verse:               'Ephesians 6:10',
        verseRef:            'eph.6.10',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

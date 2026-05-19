@@ -121,35 +121,35 @@ P{ collapsibleSectionEnd() }P
        topic:               'Kept From the Hour',
        verse:               'Revelation 3:10',
        verseRef:            'rev.3.10',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 03/14/2026',
        topic:               'Awakened From Indifference',
        verse:               'Revelation 3:16',
        verseRef:            'rev.3.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 03/15/2026',
        topic:               'Can we be tricked into getting the Mark of the Beast?',
        verse:               'Revelation 13:16',
        verseRef:            'rev.13.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 04/05/2026',
        topic:               'The Beast and the Sea',
        verse:               'Revelation 17:8',
        verseRef:            'rev.17.8',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 03/24/2026',
        topic:               'Awaiting Perfect Justice',
        verse:               'Revelation 21:4',
        verseRef:            'rev.21.4',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

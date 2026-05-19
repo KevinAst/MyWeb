@@ -97,28 +97,28 @@ P{ collapsibleSectionEnd() }P
        topic:               'Trusting God Beyond Bitterness',
        verse:               'Proverbs 3:5',
        verseRef:            'pro.3.5',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 05/16/2026',
        topic:               'Walking in Holy Reverence',
        verse:               'Proverbs 16:6',
        verseRef:            'pro.16.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 05/03/2026',
        topic:               'The Strength to Restrain',
        verse:               'Proverbs 20:22',
        verseRef:            'pro.20.22',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 03/10/2026',
        topic:               'Strength Without Self-Control',
        verse:               'Proverbs 25:28',
        verseRef:            'pro.25.28',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

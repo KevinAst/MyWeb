@@ -96,14 +96,14 @@ P{ collapsibleSectionEnd() }P
        topic:               'Reverence in Worship',
        verse:               'Ecclesiastes 5:1',
        verseRef:            'ecc.5.1',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 03/06/2026',
        topic:               'Guarding Our Words Before the Lord',
        verse:               'Ecclesiastes 5:4',
        verseRef:            'ecc.5.4',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

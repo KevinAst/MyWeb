@@ -118,14 +118,14 @@ P{ collapsibleSectionEnd() }P
        topic:               'The Subtlety of Temptation',
        verse:               'Genesis 3:1',
        verseRef:            'gen.3.1',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 03/23/2026',
        topic:               'God Sees Beyond Human Fear',
        verse:               'Genesis 4:7',
        verseRef:            'gen.4.7',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

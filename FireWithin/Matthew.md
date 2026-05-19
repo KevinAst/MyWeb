@@ -101,28 +101,28 @@ P{ collapsibleSectionEnd() }P
        topic:               'The Gift of Salvation',
        verse:               'Matthew 1:21',
        verseRef:            'mat.1.21',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 05/01/2026',
        topic:               'A Life That Points to the Lord',
        verse:               'Matthew 5:16',
        verseRef:            'mat.5.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 03/28/2026',
        topic:               'Seeking a Godly Spouse',
        verse:               'Matthew 6:33',
        verseRef:            'mat.6.33',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 03/27/2026',
        topic:               'Baptized in the Name of the Lord',
        verse:               'Matthew 28:19',
        verseRef:            'mat.28.19',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

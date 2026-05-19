@@ -102,21 +102,21 @@ P{ collapsibleSectionEnd() }P
        topic:               'Holy Fellowship',
        verse:               '1 Corinthians 5:11',
        verseRef:            '1co.5.11',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 03/08/2026',
        topic:               'Guarding the Heart from Small Compromises',
        verse:               '1 Corinthians 10:12',
        verseRef:            '1co.10.12',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',
        verseRef:            '1co.14.33',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

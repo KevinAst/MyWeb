@@ -99,28 +99,28 @@ P{ collapsibleSectionEnd() }P
        topic:               'God Sees What We Do Not',
        verse:               'Judges 6:12',
        verseRef:            'jdg.6.12',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 02/23/2026',
        topic:               'The Lord Is With You',
        verse:               'Judges 6:16',
        verseRef:            'jdg.6.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Wed 03/04/2026',
        topic:               'God’s Compassion for a Repentant People',
        verse:               'Judges 10:16',
        verseRef:            'jdg.10.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 03/03/2026',
        topic:               'When God Is Removed',
        verse:               'Judges 21:25',
        verseRef:            'jdg.21.25',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

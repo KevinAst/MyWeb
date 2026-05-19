@@ -103,14 +103,14 @@ P{ collapsibleSectionEnd() }P
        topic:               'Known Before We Were Formed',
        verse:               'Jeremiah 1:5',
        verseRef:            'jer.1.5',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 05/07/2026',
        topic:               'A Deeper Walk With God',
        verse:               'Jeremiah 33:3',
        verseRef:            'jer.33.3',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

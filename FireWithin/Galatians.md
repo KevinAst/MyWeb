@@ -118,7 +118,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Truth Above Approval',
        verse:               'Galatians 1:10',
        verseRef:            'gal.1.10',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

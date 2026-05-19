@@ -123,14 +123,14 @@ P{ collapsibleSectionEnd() }P
        topic:               'Power to Be His Witness',
        verse:               'Acts 1:8',
        verseRef:            'act.1.8',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 05/12/2026',
        topic:               'Steadfast in the Truth',
        verse:               'Acts 2:42',
        verseRef:            'act.2.42',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 05/16/2026',
@@ -144,7 +144,7 @@ P{ collapsibleSectionEnd() }P
        topic:               'Obeying the Higher Authority',
        verse:               'Acts 5:29',
        verseRef:            'act.5.29',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

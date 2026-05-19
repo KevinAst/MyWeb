@@ -99,77 +99,77 @@ P{ collapsibleSectionEnd() }P
        topic:               'God Is Not to Be Used',
        verse:               'John 4:24',
        verseRef:            'jhn.4.24',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 04/09/2026',
        topic:               'Grace That Restores and Redirects',
        verse:               'John 8:11',
        verseRef:            'jhn.8.11',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 04/13/2026',
        topic:               'Eyes Opened by Christ',
        verse:               'John 9:25',
        verseRef:            'jhn.9.25',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 04/17/2026',
        topic:               'Walk While You Have the Light',
        verse:               'John 12:46',
        verseRef:            'jhn.12.46',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 04/21/2026',
        topic:               'The Pattern of Humble Service',
        verse:               'John 13:14',
        verseRef:            'jhn.13.14',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 04/23/2026',
        topic:               'Love As Christ Loved',
        verse:               'John 13:34',
        verseRef:            'jhn.13.34',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 04/25/2026',
        topic:               'The Way to the Father',
        verse:               'John 14:6',
        verseRef:            'jhn.14.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Wed 04/29/2026',
        topic:               'Prayer That Aligns With God',
        verse:               'John 14:13',
        verseRef:            'jhn.14.13',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 04/27/2026',
        topic:               'The Helper Who Dwells Within',
        verse:               'John 14:16',
        verseRef:            'jhn.14.16',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 03/22/2026',
        topic:               'Abiding in Christ',
        verse:               'John 15:4',
        verseRef:            'jhn.15.4',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 05/02/2026',
        topic:               'One in Christ',
        verse:               'John 17:20–21',
        verseRef:            'jhn.17.20-21',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

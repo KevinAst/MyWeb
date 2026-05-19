@@ -105,28 +105,28 @@ P{ collapsibleSectionEnd() }P
        topic:               'Life Through the Spirit',
        verse:               '2 Corinthians 3:6',
        verseRef:            '2co.3.6',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 02/21/2026',
        topic:               'An Eternal Perspective',
        verse:               '2 Corinthians 4:17',
        verseRef:            '2co.4.17',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sun 03/29/2026',
        topic:               'Present With the Lord',
        verse:               '2 Corinthians 5:8',
        verseRef:            '2co.5.8',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 04/18/2026',
        topic:               'Ambassadors of Reconciliation',
        verse:               '2 Corinthians 5:20',
        verseRef:            '2co.5.20',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 

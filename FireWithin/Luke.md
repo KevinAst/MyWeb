@@ -109,70 +109,70 @@ P{ collapsibleSectionEnd() }P
        topic:               'Faithful With What Belongs to God',
        verse:               'Luke 16:13',
        verseRef:            'luk.16.13',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 02/28/2026',
        topic:               'Faithful in the Days of the Son of Man',
        verse:               'Luke 17:28-30',
        verseRef:            'luk.17.28-30',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 03/02/2026',
        topic:               'Persistent Faith in Prayer',
        verse:               'Luke 18:1',
        verseRef:            'luk.18.1',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Thu 03/05/2026',
        topic:               'Crying Out for Mercy',
        verse:               'Luke 18:38',
        verseRef:            'luk.18.38',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Sat 03/07/2026',
        topic:               'When Jesus Calls Your Name',
        verse:               'Luke 19:10',
        verseRef:            'luk.19.10',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Mon 03/09/2026',
        topic:               'When Jesus Weeps',
        verse:               'Luke 19:41',
        verseRef:            'luk.19.41',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 03/13/2026',
        topic:               'The God of the Living',
        verse:               'Luke 20:38',
        verseRef:            'luk.20.38',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Wed 03/11/2026',
        topic:               'Lift Up Your Heads',
        verse:               'Luke 21:28',
        verseRef:            'luk.21.28',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 04/10/2026',
        topic:               'When God Says No',
        verse:               'Luke 22:42',
        verseRef:            'luk.22.42',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 03/20/2026',
        topic:               'Repentance That Leads to Restoration',
        verse:               'Luke 22:61–62',
        verseRef:            'luk.22.61-62',
-       forBTB:              true,
+       layout:              'BTB',
      }) }M
 
 
