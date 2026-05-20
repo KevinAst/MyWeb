@@ -110,6 +110,7 @@ P{ collapsibleSectionEnd() }P
      }) }M
 
 
+
 ## 2012 Daniel Series (Mid Week)
 
 {{book.CornerstoneChapel}}

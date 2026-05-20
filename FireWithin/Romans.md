@@ -204,7 +204,17 @@ M{ sermonSeries({
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
   entries: [
-    { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Rom 1:1-25`,        },
+    { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Rom 1:1-25`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 04/01/2026',
+           topic:               'God Reveals Himself to All',
+           verse:               'Romans 1:20',
+           verseRef:            'rom.1.20',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20240114`, sermon: `When a Culture Excludes God`,                  scripture: `rom.1@@Rom 1:24-32`,       },
     { id: `20240121`, sermon: `Guilty as Charged`,                            scripture: `rom.2@@Rom 2`,             },
     { id: `20240128`, sermon: `And Now, the Good News!`,                      scripture: `rom.3@@Rom 3-4`,           },

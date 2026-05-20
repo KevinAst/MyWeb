@@ -107,6 +107,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'isa.9.6',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 04/20/2026',
+       topic:               'Waiting in Trust',
+       verse:               'Psalms 27:14',
+       verseRef:            'psa.27.14',
+       layout:              'BTB:FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',
+     }) }M
 
 
 ## 2018 Isaiah Series (Sundays)
@@ -122,7 +129,17 @@ M{ sermonSeries({
     { id: `20180527`, sermon: `Perfect Peace`,                             scripture: `isa.24@@Isaiah 24-27`, },
     { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,    },
     { id: `20180610`, sermon: `All Talk but No Walk`,                      scripture: `isa.29@@Isaiah 29`,    },
-    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`, },
+    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/20/2026',
+           topic:               'Waiting in Trust',
+           verse:               'Psalms 27:14',
+           verseRef:            'psa.27.14',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`, },
     { id: `20180701`, sermon: `Why Pray?`,                                 scripture: `isa.36@@Isaiah 36-38`, },
     { id: `20180722`, sermon: `A Tale of Two Glories`,                     scripture: `isa.39@@Isaiah 39-40`, },

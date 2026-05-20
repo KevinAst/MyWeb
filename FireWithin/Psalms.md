@@ -229,7 +229,17 @@ M{ sermonSeries({
 M{ sermonSeries({
   entries: [
     { id: `20220123`, sermon: `The Value of Life`,                               scripture: `psa.103@@Psalms 103:2-4`, studyGuide: `NONE`, },
-    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
+    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/06/2026',
+           topic:               'The Lord as Our True Security',
+           verse:               'Psalms 33:12',
+           verseRef:            'psa.33.12',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20220724`,                                                            scripture: `psa.33@@Psalms 33:12`,    studyGuide: `NONE`, sermon: `https://cornerstonechapel.net/teaching/blessed-in-the-nation-whose-god-is-the-lord/@@Blessed is the nation whose God is the Lord (Jim Garlow)`, },
     { id: `20220914`, sermon: `God - The Holy Spirit (Tyler Hamrick)`,           scripture: `psa.139@@Psalms 139`,     studyGuide: `NONE`, },
     { id: `20230702`, sermon: `Faith and Freedom`,                               scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },

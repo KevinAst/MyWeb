@@ -130,6 +130,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Thu 04/16/2026',
+       topic:               'Return to Your First Love',
+       verse:               '1 Samuel 12:22',
+       verseRef:            '1sa.12.22',
+       layout:              'BTB:FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Thu 04/23/2026',
        topic:               'Love As Christ Loved',
        verse:               'John 13:34',
@@ -227,13 +234,53 @@ M{ sermonSeries({
     { id: `20220821`, sermon: `Sight for the Blind`,             scripture: `jhn.9@@John 9`,             },
     { id: `20220828`, sermon: `Jesus is God`,                    scripture: `jhn.10@@John 10`,           },
     { id: `20220904`, sermon: `Raising Lazarus`,                 scripture: `jhn.11@@John 11`,           },
-    { id: `20220911`, sermon: `Ways to Worship`,                 scripture: `jhn.12@@John 12`,           },
+    { id: `20220911`, sermon: `Ways to Worship`,                 scripture: `jhn.12@@John 12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 04/17/2026',
+           topic:               'Walk While You Have the Light',
+           verse:               'John 12:46',
+           verseRef:            'jhn.12.46',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20221002`, sermon: `Light in a Dark World`,           scripture: `jhn.12@@John 12:35-36, 46`, },
     { id: `20221009`, sermon: `Serve Like Jesus`,                scripture: `jhn.13@@John 13:1-17`,      },
-    { id: `20221023`, sermon: `Love Like Jesus`,                 scripture: `jhn.13@@John 13:33-35`,     },
-    { id: `20221030`, sermon: `Heaven and How to Get There`,     scripture: `jhn.14@@John 14`,           },
+    { id: `20221023`, sermon: `Love Like Jesus`,                 scripture: `jhn.13@@John 13:33-35`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 04/16/2026',
+           topic:               'Return to Your First Love',
+           verse:               '1 Samuel 12:22',
+           verseRef:            '1sa.12.22',
+           layout:              `SERMON`,
+        },
+      ],
+    },
+    { id: `20221030`, sermon: `Heaven and How to Get There`,     scripture: `jhn.14@@John 14`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 04/25/2026',
+           topic:               'The Way to the Father',
+           verse:               'John 14:6',
+           verseRef:            'jhn.14.6',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20221106`, sermon: `Pray Like Jesus`,                 scripture: `jhn.14@@John 14:12-14`,     },
-    { id: `20221120`, sermon: `Who is the Holy Spirit`,          scripture: `jhn.14@@John 14-16`,        },
+    { id: `20221120`, sermon: `Who is the Holy Spirit`,          scripture: `jhn.14@@John 14-16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/27/2026',
+           topic:               'The Helper Who Dwells Within',
+           verse:               'John 14:16',
+           verseRef:            'jhn.14.16',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20221204`, sermon: `A Prayer for Unity`,              scripture: `jhn.17@@John 17`,           },
     { id: `20230108`, sermon: `Pilate the People-Pleaser`,       scripture: `jhn.18@@John 18-19`,        },
     { id: `20230122`, sermon: `The God of Restoration`,          scripture: `jhn.21@@John 21`,           },

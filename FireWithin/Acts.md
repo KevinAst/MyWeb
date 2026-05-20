@@ -218,7 +218,17 @@ M{ sermonSeries({
 M{ sermonSeries({
   entries: [
     { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
-    { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,         },
+    { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 05/12/2026',
+           topic:               'Steadfast in the Truth',
+           verse:               'Acts 2:42',
+           verseRef:            'act.2.42',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20230212`, sermon: `The Gift of Tongues`,                                           scripture: `act.2@@Acts 2`,         },
     { id: `20230219`, sermon: `Four Foundations of the Church`,                                scripture: `act.2@@Acts 2:42`,      },
     { id: `20230226`, sermon: `When It’s OK to Disobey`,                                       scripture: `act.3@@Acts 3-4`,       },

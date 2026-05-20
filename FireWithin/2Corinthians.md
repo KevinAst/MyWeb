@@ -128,6 +128,14 @@ P{ collapsibleSectionEnd() }P
        verseRef:            '2co.5.20',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 04/08/2026',
+       topic:               'God Is Not to Be Used',
+       verse:               'John 4:24',
+       verseRef:            'jhn.4.24',
+       layout:              `SERMON`,
+       layout:              'BTB:FromDevoSermon##2co.6@@2 Corinthians 6:1##Don’t Disgrace God’s Grace',
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)
@@ -183,7 +191,17 @@ M{ sermonSeries({
     { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,     scripture: `2co.4@@2 Cor 4:7-5:8`, },
     { id: `20250216`, sermon: `Judgment is Coming`,              scripture: `2co.5@@2 Cor 5:9–11`,  },
     { id: `20250302`, sermon: `Reconciliation`,                  scripture: `2co.5@@2 Corinthians 5:17-21`, },
-    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,     },
+    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 04/08/2026',
+           topic:               'God Is Not to Be Used',
+           verse:               'John 4:24',
+           verseRef:            'jhn.4.24',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20250323`, sermon: `The Yoke’s on You`,               scripture: `2co.6@@2 Corinthians 6:14-18`, },
     { id: `20250330`, sermon: `Outside Conflicts, Inside Fears`, scripture: `2co.7@@2 Corinthians 7`,       },
     { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,     },

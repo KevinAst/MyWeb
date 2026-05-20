@@ -109,6 +109,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 02/25/2026',
+       topic:               'Strength in Dependence',
+       verse:               'Zechariah 4:6',
+       verseRef:            'zec.4.6',
+       layout:              'BTB:FromDevoSermon##jdg.7@@Judges 7##Verse by Verse Bible Study',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 03/04/2026',
        topic:               'God’s Compassion for a Repentant People',
        verse:               'Judges 10:16',
@@ -157,7 +164,17 @@ M{ sermonSeries({
     { id: `20211103`, scripture: `jdg.3@@Judges 3:31-4:24`, },
     { id: `20211110`, scripture: `jdg.5@@Judges 5-6:12`,    },
     { id: `20211117`, scripture: `jdg.6@@Judges 6:11-40`,   },
-    { id: `20220105`, scripture: `jdg.7@@Judges 7`,         },
+    { id: `20220105`, scripture: `jdg.7@@Judges 7`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 02/25/2026',
+           topic:               'Strength in Dependence',
+           verse:               'Zechariah 4:6',
+           verseRef:            'zec.4.6',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20220112`, scripture: `jdg.8@@Judges 8`,         },
     { id: `20220119`, scripture: `jdg.9@@Judges 9`,         },
     { id: `20220126`, scripture: `jdg.10@@Judges 10-11`,    },

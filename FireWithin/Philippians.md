@@ -144,7 +144,17 @@ M{ sermonSeries({
     { id: `20260118`, sermon: `My Chains, God’s Glory`,                  scripture: `php.1@@Philippians 1:12-18`, },
     { id: `20260201`, sermon: `Torn between Two Worlds`,                 scripture: `php.1@@Philippians 1:19–26`, },
     { id: `20260208`, sermon: `Unity through Humility`,                  scripture: `php.2@@Philippians 2:1–11`,  },
-    { id: `20260215`, sermon: `Our Witness Impacts Our World`,           scripture: `php.2@@Philippians 2:12–18`, },
+    { id: `20260215`, sermon: `Our Witness Impacts Our World`,           scripture: `php.2@@Philippians 2:12–18`,
+      relatedDevotions: [
+        {
+          publicationDate:     'Wed 02/18/2026',
+          topic:               'Shining as Lights in a Crooked Generation',
+          verse:               'Philippians 2:14–15',
+          verseRef:            'php.2.14-15',
+          layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20260301`, sermon: `Nothing Compares to Jesus!`,              scripture: `php.3@@Philippians 3:1–11`,  },
     { id: `20260308`, sermon: `No Looking Back`,                         scripture: `php.3@@Philippians 3:12–16`, },
     { id: `20260315`, sermon: `The Book of Life`,                        scripture: `php.4@@Philippians 4:1–3`,   },
