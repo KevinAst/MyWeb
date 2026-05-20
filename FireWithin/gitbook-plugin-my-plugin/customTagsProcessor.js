@@ -2151,28 +2151,44 @@ function devoGHTOC(namedParams={}) {
       
       content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
       content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-      
-      // the devotion TOC link
-      content += `<a href="${devoKey}.html">${topic}</a> `;
 
-      // ADDITIONAL CONTEXT
-      // ... FromDevoSermon: (via related sermon: "Standing Strong in a Wayward World")
+      // ADDITIONAL CONTEXT - Option 1: Prefixed with less context (more concise)
+      // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
       // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
-      let additionalContext = '<i>(';
+      content += `<i>`;
       if (btbContextDirective === 'FromDevoSermon') {
-        additionalContext += `via related sermon`;
+        content += `per devotion sermon`;
       }
       else { // (btbContextDirective === 'FromDevoContent')
-        additionalContext += `via devotion content`;
+        content += `per devotion content`;
       }
-      //? if (btbContextText) { // ... BTB Context TEXT supplied <<< OMIT for brevity (although may be nice)
-      //?   additionalContext += `: "${btbContextText}"`;
+      //? if (btbContextText) { // ... BTB Context TEXT supplied <<< OMIT for brevity
+      //?   content += ` (${btbContextText})`;
       //? }
-      additionalContext += `)</i>`;
-      content += additionalContext;
+      content += ` ...</i> `;
+      
+      // KEY: the devotion TOC link
+      content += `<a href="${devoKey}.html">${topic}</a> `;
       
       content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
       content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+
+      // ADDITIONAL CONTEXT - Option 2: Postfixed with more context
+      // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
+      // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
+      //? content += `<i>`;
+      //? if (btbContextDirective === 'FromDevoSermon') {
+      //?   content += `per devotion sermon`;
+      //? }
+      //? else { // (btbContextDirective === 'FromDevoContent')
+      //?   content += `per devotion content`;
+      //? }
+      //? if (btbContextText) { // ... BTB Context TEXT supplied (nice context)
+      //?   content += ` (${btbContextText})`;
+      //? }
+      //? content += `</i> `;
+      //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+      //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
       
       // the completion checkbox for this devo
       // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
