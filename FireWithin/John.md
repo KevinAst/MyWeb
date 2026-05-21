@@ -95,6 +95,13 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Tue 05/19/2026',
+       topic:               'The Lamb Who Was Given',
+       verse:               'John 1:29',
+       verseRef:            'jhn.1.29',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 04/08/2026',
        topic:               'God Is Not to Be Used',
        verse:               'John 4:24',
