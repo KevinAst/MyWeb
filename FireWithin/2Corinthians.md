@@ -136,6 +136,13 @@ P{ collapsibleSectionEnd() }P
        layout:              `SERMON`,
        layout:              'BTB:FromDevoSermon##2co.6@@2 Corinthians 6:1##Don’t Disgrace God’s Grace',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/21/2026',
+       topic:               'Salvation in the Tribulation',
+       verse:               'Matthew 24:14',
+       verseRef:            'mat.24.14',
+       layout:              'BTB:FromDevoContent##2co.6.2@@2 Corinthians 6:2##“Now is the day of salvation,” emphasizing urgency in responding to God’s invitation',
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)

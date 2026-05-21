@@ -111,18 +111,25 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
-       publicationDate:     'Mon 05/04/2026',
-       topic:               'Truth Above Approval',
-       verse:               'Galatians 1:10',
-       verseRef:            'gal.1.10',
-       layout:              'BTB:FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]',
-     }) }M
-- M{ devoGHTOC({
        publicationDate:     'Sat 03/28/2026',
        topic:               'Seeking a Godly Spouse',
        verse:               'Matthew 6:33',
        verseRef:            'mat.6.33',
        layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/21/2026',
+       topic:               'Salvation in the Tribulation',
+       verse:               'Matthew 24:14',
+       verseRef:            'mat.24.14',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/04/2026',
+       topic:               'Truth Above Approval',
+       verse:               'Galatians 1:10',
+       verseRef:            'gal.1.10',
+       layout:              'BTB:FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]',
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Fri 03/27/2026',
@@ -212,7 +219,17 @@ M{ sermonSeries({
     { id: `20210207`, sermon: `Understanding God’s Anger`,                       scripture: `mat.21@@Matthew 21:12-13`,  },
     { id: `20210214`, sermon: `The Other Side of the Coin`,                      scripture: `mat.22@@Matthew 22`,        },
     { id: `20210221`, sermon: `Don’t Be a Hypocrite`,                            scripture: `mat.23@@Matthew 23`,        },
-    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,        },
+    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 05/21/2026',
+           topic:               'Salvation in the Tribulation',
+           verse:               'Matthew 24:14',
+           verseRef:            'mat.24.14',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20210307`, sermon: `Get Ready ‘cause Here I Come Pt.1`,               scripture: `mat.24@@Matthew 24:45-51`,  },
     { id: `20210314`, sermon: `Get Ready ‘cause Here I Come Pt.2`,               scripture: `mat.25@@Matthew 25:1-13`,   },
     { id: `20210321`, sermon: `Get Ready ‘cause Here I Come Pt.3`,               scripture: `mat.25@@Matthew 25:14-30`,  },

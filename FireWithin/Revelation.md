@@ -131,6 +131,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Thu 05/21/2026',
+       topic:               'Salvation in the Tribulation',
+       verse:               'Matthew 24:14',
+       verseRef:            'mat.24.14',
+       layout:              'BTB:FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 03/15/2026',
        topic:               'Can we be tricked into getting the Mark of the Beast?',
        verse:               'Revelation 13:16',
