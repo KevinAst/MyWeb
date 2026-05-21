@@ -14,6 +14,7 @@ every proud king to bow.
 ### At a Glance
 
 - [2 Samuel Overview](#2-samuel-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 2 Samuel Series (Sundays)](#2014-2-samuel-series-sundays)
 - [2023 2 Samuel Series (Mid Week)](#2023-2-samuel-series-mid-week)
 
@@ -96,6 +97,19 @@ P{ collapsibleSection({
 M{ youTube(`I97PwEJ5Ok0`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 02/27/2026',
+       topic:               'Wisdom for a Life of Order',
+       verse:               '1 Corinthians 14:33',
+       verseRef:            '1co.14.33',
+       layout:              'BTB:FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers',
+     }) }M
 
 
 ## 2014 2 Samuel Series (Sundays)

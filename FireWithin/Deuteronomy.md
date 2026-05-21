@@ -17,6 +17,7 @@ instead of Law breakers.
 ### At a Glance
 
 - [Deuteronomy Overview](#deuteronomy-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Deuteronomy Series (Sundays)](#2013-deuteronomy-series-sundays)
 
 ## Deuteronomy Overview
@@ -87,6 +88,19 @@ P{ collapsibleSection({
 M{ youTube(`DfHlvrAKMoU`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/08/2026',
+       topic:               'Life Through the Spirit',
+       verse:               '2 Corinthians 3:6',
+       verseRef:            '2co.3.6',
+       layout:              'BTB:FromDevoContent##deu.16.9-12@@Deuteronomy 16:9-12##Pentecost - Old Testament'
+     }) }M
 
 
 ## 2013 Deuteronomy Series (Sundays)

@@ -16,6 +16,7 @@ the true God.
 ### At a Glance
 
 - [2 Chronicles Overview](#2-chronicles-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 2 Chronicles Series (Sundays)](#2015-2-chronicles-series-sundays)
 - [2026 2 Chronicles Series (Mid Week)](#2026-2-chronicles-series-mid-week)
 - [2 Chronicles Misc Selection](#2-chronicles-misc-selection)
@@ -108,6 +109,27 @@ P{ collapsibleSection({
 M{ youTube(`DsJ1TKOr5wA`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/15/2026',
+       topic:               'Humble Hearts Before God',
+       verse:               'Psalms 51:17',
+       verseRef:            'psa.51.17',
+       layout:              'BTB:FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/07/2026',
+       topic:               'A Deeper Walk With God',
+       verse:               'Jeremiah 33:3',
+       verseRef:            'jer.33.3',
+       layout:              'BTB:FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance',
+     }) }M
+
 
 
 ## 2015 2 Chronicles Series (Sundays)

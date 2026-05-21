@@ -119,11 +119,25 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/08/2026',
+       topic:               'Life Through the Spirit',
+       verse:               '2 Corinthians 3:6',
+       verseRef:            '2co.3.6',
+       layout:              'BTB:FromDevoContent##act.1@@Acts 1-2##Pentecost Fulfillment - New Testament'
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Thu 04/30/2026',
        topic:               'Power to Be His Witness',
        verse:               'Acts 1:8',
        verseRef:            'act.1.8',
        layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 05/06/2026',
+       topic:               'The God Who Restores',
+       verse:               'Psalms 23:3',
+       verseRef:            'psa.23.3',
+       layout:              `BTB:FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`
      }) }M
 - M{ devoGHTOC({
        publicationDate:     'Tue 05/12/2026',

@@ -123,6 +123,27 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 03/08/2026',
+       topic:               'Guarding the Heart from Small Compromises',
+       verse:               '1 Corinthians 10:12',
+       verseRef:            '1co.10.12',
+       layout:              'BTB:FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Tue 03/10/2026',
+       topic:               'Strength Without Self-Control',
+       verse:               'Proverbs 25:28',
+       verseRef:            'pro.25.28',
+       layout:              'BTB:FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 03/12/2026',
+       topic:               'Strength to Finish Well',
+       verse:               'Ephesians 6:10',
+       verseRef:            'eph.6.10',
+       layout:              'BTB:FromDevoContent##jdg.13@@Judges 13-16##The Life of Samson',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 03/03/2026',
        topic:               'When God Is Removed',
        verse:               'Judges 21:25',

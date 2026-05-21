@@ -16,6 +16,7 @@ the true God.
 ### At a Glance
 
 - [1 Chronicles Overview](#1-chronicles-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 1 Chronicles Series (Sundays)](#2015-1-chronicles-series-sundays)
 - [2025 1 Chronicles Series (Mid Week)](#2025-1-chronicles-series-mid-week)
 - [1 Chronicles Misc Selection](#1-chronicles-misc-selection)
@@ -108,6 +109,19 @@ P{ collapsibleSection({
 M{ youTube(`DsJ1TKOr5wA`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 02/27/2026',
+       topic:               'Wisdom for a Life of Order',
+       verse:               '1 Corinthians 14:33',
+       verseRef:            '1co.14.33',
+       layout:              'BTB:FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',
+     }) }M
 
 
 ## 2015 1 Chronicles Series (Sundays)

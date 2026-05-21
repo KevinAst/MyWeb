@@ -178,6 +178,20 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'jhn.17.20-21',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/04/2026',
+       topic:               'Truth Above Approval',
+       verse:               'Galatians 1:10',
+       verseRef:            'gal.1.10',
+       layout:              'BTB:FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 05/06/2026',
+       topic:               'The God Who Restores',
+       verse:               'Psalms 23:3',
+       verseRef:            'psa.23.3',
+       layout:              `BTB:FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`
+     }) }M
 
 
 

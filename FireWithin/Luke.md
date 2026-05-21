@@ -174,6 +174,20 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'luk.22.61-62',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 05/06/2026',
+       topic:               'The God Who Restores',
+       verse:               'Psalms 23:3',
+       verseRef:            'psa.23.3',
+       layout:              `BTB:FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/04/2026',
+       topic:               'Truth Above Approval',
+       verse:               'Galatians 1:10',
+       verseRef:            'gal.1.10',
+       layout:              'BTB:FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]',
+     }) }M
 
 
 

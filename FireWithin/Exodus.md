@@ -109,6 +109,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'exo.12.13',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/08/2026',
+       topic:               'Life Through the Spirit',
+       verse:               '2 Corinthians 3:6',
+       verseRef:            '2co.3.6',
+       layout:              'BTB:FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament'
+     }) }M
 
 
 

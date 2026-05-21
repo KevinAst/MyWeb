@@ -111,6 +111,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/04/2026',
+       topic:               'Truth Above Approval',
+       verse:               'Galatians 1:10',
+       verseRef:            'gal.1.10',
+       layout:              'BTB:FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 03/28/2026',
        topic:               'Seeking a Godly Spouse',
        verse:               'Matthew 6:33',

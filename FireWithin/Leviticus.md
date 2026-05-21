@@ -17,6 +17,7 @@ took on our darkness to make us holy like him.
 ### At a Glance
 
 - [Leviticus Overview](#leviticus-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Leviticus Series (Sundays)](#2013-leviticus-series-sundays)
 
 
@@ -94,6 +95,19 @@ P{ collapsibleSection({
 M{ youTube(`9UKwweQFOec`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/08/2026',
+       topic:               'Life Through the Spirit',
+       verse:               '2 Corinthians 3:6',
+       verseRef:            '2co.3.6',
+       layout:              'BTB:FromDevoContent##lev.23.15-21@@Leviticus 23:15-21##Pentecost - Old Testament'
+     }) }M
 
 
 ## 2013 Leviticus Series (Sundays)

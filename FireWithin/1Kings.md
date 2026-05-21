@@ -15,6 +15,7 @@ to us in the death and resurrection of Jesus.
 ### At a Glance
 
 - [1 Kings Overview](#1-kings-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 1 Kings Series (Sundays)](#2015-1-kings-series-sundays)
 - [2024 1 Kings Series (Mid Week)](#2024-1-kings-series-mid-week)
 
@@ -97,6 +98,17 @@ M{ youTube(`kqRrBbYTfaE`) }M
 
 P{ collapsibleSectionEnd() }P
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/15/2026',
+       topic:               'Humble Hearts Before God',
+       verse:               'Psalms 51:17',
+       verseRef:            'psa.51.17',
+       layout:              'BTB:FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God',
+     }) }M
 
 
 ## 2015 1 Kings Series (Sundays)

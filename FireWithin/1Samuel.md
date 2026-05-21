@@ -145,6 +145,27 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 05/03/2026',
+       topic:               'The Strength to Restrain',
+       verse:               'Proverbs 20:22',
+       verseRef:            'pro.20.22',
+       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-26##David - Restraint and Trust in God',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sat 05/09/2026',
+       topic:               'God Our Refuge',
+       verse:               'Psalms 56:3',
+       verseRef:            'psa.56.3',
+       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-30##David’s Journey of Trust',
+     }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 05/11/2026',
+       topic:               'Waiting in the Wilderness',
+       verse:               'Psalms 40:1',
+       verseRef:            'psa.40.1',
+       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-26##David’s Wilderness Waiting',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 04/14/2026',
        topic:               'The Heart God Sees',
        verse:               '1 Samuel 16:7',
