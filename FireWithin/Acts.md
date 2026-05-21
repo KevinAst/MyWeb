@@ -160,6 +160,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'act.5.29',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 05/20/2026',
+       topic:               'From Bitter to Better',
+       verse:               'Hebrews 12:15',
+       verseRef:            'heb.12.15',
+       layout:              'BTB:FromDevoSermon##act.8@@Acts 8##From Bitter to Better',
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
@@ -249,7 +256,17 @@ M{ sermonSeries({
     { id: `20230305`,                                                                          scripture: `act.24@@Acts 24`, sermon: `https://cornerstonechapel.net/teaching/israel-teaching-from-the-holy-land/@@Israel Teaching from the Holy Land`, }, // id is NON-STANDARD for the sermon only
     { id: `20230319`, sermon: `Lessons from the Early Church`,                                 scripture: `act.4@@Acts 4-5`,       },
     { id: `20230326`, sermon: `A Martyr’s Example`,                                            scripture: `act.6@@Acts 6-7`,       },
-    { id: `20230416`, sermon: `From Bitter to Better`,                                         scripture: `act.8@@Acts 8`,         },
+    { id: `20230416`, sermon: `From Bitter to Better`,                                         scripture: `act.8@@Acts 8`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 05/20/2026',
+           topic:               'From Bitter to Better',
+           verse:               'Hebrews 12:15',
+           verseRef:            'heb.12.15',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20230423`, sermon: `A Transformed Life`,                                            scripture: `act.9@@Acts 9`,         },
     { id: `20230430`, sermon: `Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)`, scripture: `act.8@@Acts 8-19`,      },
     { id: `20230514`, sermon: `Lessons from a Jew and a Gentile`,                              scripture: `act.10@@Acts 10`,       },

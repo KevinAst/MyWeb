@@ -124,6 +124,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'heb.11.32-33',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 05/20/2026',
+       topic:               'From Bitter to Better',
+       verse:               'Hebrews 12:15',
+       verseRef:            'heb.12.15',
+       layout:              'BTB',
+     }) }M
 
 
 ## 2010 Hebrews Series (Sundays)
