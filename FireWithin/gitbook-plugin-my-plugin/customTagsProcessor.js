@@ -2152,20 +2152,22 @@ function devoGHTOC(namedParams={}) {
       content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
       content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
 
-      // ADDITIONAL CONTEXT - Option 1: Prefixed with less context (more concise)
+      // ADDITIONAL CONTEXT - Option 1: Prefixed with less context (more concise) ?? now with tool-tip approach
       // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
       // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
-      content += `<i>`;
-      if (btbContextDirective === 'FromDevoSermon') {
-        content += `per devotion sermon`;
+      let devoContext = btbContextDirective === 'FromDevoSermon' ? `per devotion sermon` : `per devotion content`;
+      // ?? TODO: popover is working (both for cell and laptop) 
+      //          BUT I don't like it displayin in mid-screen
+      //          AI: ?? refine this with `hover + click approach` ... see: temp.highlightExtraInfo.txt
+      if (btbContextText) { // ... when more context text is supplied, utilize a tool-tip to display it (because of real-estate restrictions)
+        // a button works best (functionally) but remove most of it's styling ... to provide a better in-line approach
+        // ... ?? popover content is supplied below (so as to NOT interfere with this inline html content)
+        devoContext = `<button style="all: unset; cursor: pointer;" popovertarget="${btbContextScripture}">${devoContext} ⓘ </button>`;
       }
-      else { // (btbContextDirective === 'FromDevoContent')
-        content += `per devotion content`;
-      }
-      //? if (btbContextText) { // ... BTB Context TEXT supplied <<< OMIT for brevity
-      //?   content += ` (${btbContextText})`;
-      //? }
-      content += ` ...</i> `;
+
+      // the devotional context, with tool-tip hover of btbContextText (because of real-estate restrictions)
+      // ... EX: `per devotion content ⓘ ...`
+      content += `<i>${devoContext} ... </i>`;
       
       // KEY: the devotion TOC link
       content += `<a href="${devoKey}.html">${topic}</a> `;
@@ -2173,7 +2175,7 @@ function devoGHTOC(namedParams={}) {
       content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
       content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
 
-      // ADDITIONAL CONTEXT - Option 2: Postfixed with more context
+      // ADDITIONAL CONTEXT - Option 2: Postfixed with more context ?? this Option 2 is no longer needed with the tool-tip approach
       // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
       // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
       //? content += `<i>`;
@@ -2193,6 +2195,9 @@ function devoGHTOC(namedParams={}) {
       // the completion checkbox for this devo
       // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
       content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+
+      // ?? popover content referenced above (so as to NOT interfere with this inline html content)
+      content += `<div id="${btbContextScripture}" popover>${btbContextText}</div>`;
     }
 
     else { // a regular "by the book" entry ... with NO ADDITIONAL CONTEXT
