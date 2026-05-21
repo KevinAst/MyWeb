@@ -706,7 +706,6 @@ const defaultSettings = {  // default settings - impacting the entire series
 };
 
 function sermonSeries(namedParams={}) {
-
   // parameter validation
   const self       = `sermonSeries(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
@@ -803,7 +802,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, extraSermonLink, extraLinkInScriptureCell, divider, ...unknownProps} = entry;
+  const {id, sermon='Teaching', desc='', scripture, studyGuide, date, relatedDevotions, extraSermonLink, extraLinkInScriptureCell, divider, ...unknownProps} = entry;
 
   // special case - check divider FIRST ... when supplied process it in-line here and return immediately
   if (divider) {
@@ -863,7 +862,13 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
     formattedDate = formattedDateStrFromId; // when NOT supplied, use derivation from id (may be blank)
   }
   checkParam(formattedDate, `a formatted date MUST be supplied EITHER via id prop (for Cornerstone entry), or date prop ... for entry id: '${id}'`)
-  
+
+  // ... relatedDevotions
+  if (relatedDevotions) {
+    checkParam(isArray(relatedDevotions), `relatedDevotions must an array of devotion directives`);
+    checkParam(relatedDevotions.length>0, `relatedDevotions array must have at least one entry`);
+  }
+
   // ... extraSermonLink
   if (extraSermonLink) {
     checkParam(isString(extraSermonLink), `extraSermonLink (when supplied) must be a string, NOT: ${extraSermonLink}`);
@@ -897,6 +902,14 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
 
   // sermon (when supplied)
   content += sermonRef ? sermonLink(sermonRef) : '';
+  if (relatedDevotions) { // ... relatedDevotions (when supplied)
+    for (const devotion of relatedDevotions) {
+      checkParam(isPlainObject(devotion),    `relatedDevotions contains an entry that is NOT a plain object: ${devotion}`);
+      checkParam(devotion.layout==='SERMON', `relatedDevotions contains an entry that is NOT using 'SERMON' layout: ${devotion}`);
+      // content is gleaned from devoGHTOC()
+      content += lineBreakOnSignificant(sermonRef) + devoGHTOC(devotion); 
+    }
+  }
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
   if (desc) { // add description WHEN defined ... typically LARGE - conditionally displayed at user request
     content += `<i data-fw-desc style="display: none;"><br/>${desc}</i>`;
@@ -2050,12 +2063,12 @@ function devoGHTOC(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {
+  let {
     publicationDate,
     topic,
     verse,
     verseRef,
-    forBTB=false,
+    layout='DEVO',
     ...unknownNamedArgs
   } = namedParams;
 
@@ -2077,9 +2090,23 @@ function devoGHTOC(namedParams={}) {
   checkParam(verseRef,                      'verseRef is required');
   checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
 
-  // ... forBTB
-  checkParam(isBoolean(forBTB), 'forBTB (when supplied) must be a boolean (format entry for "by the book") DEFAULT: false');
-
+  // ... layout
+  checkParam(isString(layout), `layout (when supplied) must be a string ('DEVO/BTB/SERMON') DEFAULT: 'DEVO'`);
+  let btbContext          = ''; // ... handle optional BTB context 'BTB##context' ... where btbContext is 'scripture@@SCRIPTURE##TEXT'
+  let btbContextDirective = 'FromDevoContent';
+  let btbContextScripture = '';
+  let btbContextText      = '';
+  if (layout.startsWith('BTB:') ) {
+    btbContext = layout.slice('BTB:'.length);
+    layout = 'BTB';
+  }
+  if (btbContext) { // further breakdown btbContext
+    [btbContextDirective, btbContextScripture, btbContextText] = btbContext.split('##');
+  }
+  checkParam(['DEVO', 'BTB', 'SERMON'].includes(layout), `layout (when supplied) must be one of the following ('DEVO/BTB/SERMON'), NOT: '${layout}'`);
+  checkParam(['FromDevoSermon', 'FromDevoContent'].includes(btbContextDirective), `BTB:{directive} (when supplied) must be one of the following ('FromDevoSermon/FromDevoContent'), NOT: '${btbContextDirective}'`);
+  // CONSIDER: validating that `btbContextScripture` is a different book than `verseRef` ... technically we would render this, but seems innappropriate ... kinda hard
+  
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
   checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
@@ -2105,50 +2132,132 @@ function devoGHTOC(namedParams={}) {
   // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
   // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
-  // the layout varies for "by the book"
-  if (forBTB) { // "by the book" entry
+  // spawn the different layouts
+  if (layout === 'BTB') { // "by the book" entry
+
+    if (btbContext) { // "by the book" entry with ADDITIONAL CONTEXT (either devo has different scripture book, or a related sermon entry)
+      // our context scripture reference (different from verseRef)
+      const btbContextVerseLink = bibleLink(btbContextScripture);
+      content += `${btbContextVerseLink}\n`;
+
+      // >>> NOT NEEDED, since next section removed
+      //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+      //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+
+      // our devotion scripture reference
+      // >>> TO MUCH ... use the context scripture reference [above] (different from verseRef)
+      //? const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+      //? content += `${devoVerseLink}\n`;
+      
+      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+
+      // ADDITIONAL CONTEXT - Option 1: Prefixed with less context (more concise) ?? now with tool-tip approach
+      // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
+      // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
+      let devoContext = btbContextDirective === 'FromDevoSermon' ? `per devotion sermon` : `per devotion content`;
+      // ?? TODO: popover is working (both for cell and laptop) 
+      //          BUT I don't like it displayin in mid-screen
+      //          AI: ?? refine this with `hover + click approach` ... see: temp.highlightExtraInfo.txt
+      if (btbContextText) { // ... when more context text is supplied, utilize a tool-tip to display it (because of real-estate restrictions)
+        // a button works best (functionally) but remove most of it's styling ... to provide a better in-line approach
+        // ... ?? popover content is supplied below (so as to NOT interfere with this inline html content)
+        devoContext = `<button style="all: unset; cursor: pointer;" popovertarget="${btbContextScripture}">${devoContext} ⓘ </button>`;
+      }
+
+      // the devotional context, with tool-tip hover of btbContextText (because of real-estate restrictions)
+      // ... EX: `per devotion content ⓘ ...`
+      content += `<i>${devoContext} ... </i>`;
+      
+      // KEY: the devotion TOC link
+      content += `<a href="${devoKey}.html">${topic}</a> `;
+      
+      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+
+      // ADDITIONAL CONTEXT - Option 2: Postfixed with more context ?? this Option 2 is no longer needed with the tool-tip approach
+      // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
+      // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
+      //? content += `<i>`;
+      //? if (btbContextDirective === 'FromDevoSermon') {
+      //?   content += `per devotion sermon`;
+      //? }
+      //? else { // (btbContextDirective === 'FromDevoContent')
+      //?   content += `per devotion content`;
+      //? }
+      //? if (btbContextText) { // ... BTB Context TEXT supplied (nice context)
+      //?   content += ` (${btbContextText})`;
+      //? }
+      //? content += `</i> `;
+      //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+      //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+      
+      // the completion checkbox for this devo
+      // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+      content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+
+      // ?? popover content referenced above (so as to NOT interfere with this inline html content)
+      content += `<div id="${btbContextScripture}" popover>${btbContextText}</div>`;
+    }
+
+    else { // a regular "by the book" entry ... with NO ADDITIONAL CONTEXT
+      // our devotion scripture reference
+      const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+      content += `${devoVerseLink}\n`;
+      
+      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+      
+      // the devotion TOC link
+      content += `<a href="${devoKey}.html">${topic}</a>`;
+      
+      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+      
+      // the completion checkbox for this devo
+      // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+      content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+    }
+  }
+  else if (layout === 'SERMON') { // a SERMON entry (used internally by sermonSeries.relatedDevotions macro)
+
+    // provide a distinct visual seperator
+    content += `Related Devotion: `;
+
     // our devotion scripture reference
-    const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-    content += `${devoVerseLink}\n`;
+    // >>> TOO MUCH (leave out)
+    //? const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+    //? content += `${devoVerseLink}\n`;
 
-    // responsive '•' seperator for desktop
-    content += `<span class="desktop-inline">•</span>\n`;
-
-    // responsive cr/lf for phone
-    content += `<span class="phone-inline"><br/></span>\n`;
+    // >>> NOT NEEDED, since next section removed
+    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
 
     // the devotion TOC link
-    content += `<a href="${devoKey}.html">${topic}</a>\n`;
+    content += `<a href="${devoKey}.html">${topic}</a>`;
 
-    // responsive cr/lf for phone
-    content += `<span class="phone-inline"><br/></span>\n`;
-    
-    // responsive '•' seperator for desktop
-    content += `<span class="desktop-inline"> • </span>\n`;
+    // >>> NOT NEEDED, since next section removed
+    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
 
     // the completion checkbox for this devo
     // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-    content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
+    // >>> TOO MUCH (leave out)
+    //? content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
   }
-  else { // normal entry
+  else { // our main DEVO entry (layout === 'DEVO') ... the MAIN devo TOC (ex: devo2026.md)
     // the completion checkbox for this devo
     // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
     content += completedCheckBox(`${devoKey}@@ ${publicationDate}\n`);
 
-    // responsive cr/lf for phone
-    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
-
-    // responsive '•' seperator for desktop
-    content += `<span class="desktop-inline">•</span>\n`;
+    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`; // ... responsive cr/lf for phone
+    content += `<span class="desktop-inline"> • </span>\n`;                         // ... responsive '•' seperator for desktop
 
     // the devotion TOC link
     content += `<a href="${devoKey}.html">${topic}</a>\n`;
     
-    // responsive '•' seperator for desktop
-    content += `<span class="desktop-inline">•</span>\n`;
-
-    // responsive cr/lf for phone
-    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`;
+    content += `<span class="desktop-inline"> • </span>\n`;                         // ... responsive '•' seperator for desktop
+    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`; // ... responsive cr/lf for phone
 
     // our devotion scripture reference
     const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
