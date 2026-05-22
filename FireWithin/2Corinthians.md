@@ -122,6 +122,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/22/2026',
+       topic:               'Transformed by Grace',
+       verse:               '2 Corinthians 5:17',
+       verseRef:            '2co.5.17',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 04/18/2026',
        topic:               'Ambassadors of Reconciliation',
        verse:               '2 Corinthians 5:20',

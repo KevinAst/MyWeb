@@ -161,6 +161,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/22/2026',
+       topic:               'Transformed by Grace',
+       verse:               '2 Corinthians 5:17',
+       verseRef:            '2co.5.17',
+       layout:              'BTB:FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 05/20/2026',
        topic:               'From Bitter to Better',
        verse:               'Hebrews 12:15',
