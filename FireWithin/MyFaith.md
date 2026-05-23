@@ -285,30 +285,30 @@ through the Holy Spirit.
 
 God laid on my heart (through His word) that the difference between my
 past Christian life, and the Christians that I knew were sincere in
-their faith - _was the empowering of the Holy Spirit._
+their faith - _was the <u>empowering of the Holy Spirit</u>._
 
-This is a separate and distinct concept from salvation.  Certainly,
-when we are saved, the Holy Spirit comes into our life (the indwelling
-of the Holy Spirit).  And yet, He may not be in the driver's seat,
-unless we fully submit to Him.
+This is a separate and distinct concept from salvation.  When we are
+saved, the Holy Spirit comes into our life (the indwelling of the Holy
+Spirit).
 
-This world is a complicated place, and it is not something we can
-navigate on our own.  We need help.
+And yet, He may not be in the driver's seat, unless we fully submit to
+Him.  This world is a complicated place, and it is not something we
+can navigate on our own.  We need help.
 
 When I fervently prayed - asking the Holy Spirit to empower me and
-guide my daily life - things completely changed.  The past sins in my
-life were greatly diminished.  I had a desire to be in His word.  My
-prayer life was rejuvenated.  And for the first time, I had a desire
-to share my faith with others!
+guide my daily life - things completely changed.  My past sins were
+greatly diminished.  I wanted to be in His word.  My prayer life was
+rejuvenated.  And for the first time, I had a desire to share my faith
+with others!
 
-This is what the Bible refers to as "The Baptism of the Holy Spirit".
+This is what the Bible refers to as the "Baptism of the Holy Spirit".
 I was always taught to be cautious of this, because of it's
-association to "speaking in tongues".  But it is so much more than
-that.  It is simply allowing the Holy Spirit to take charge and guide
+affiliation to "speaking in tongues".  But it is so much more than
+that.  Very simply, it is allowing the Holy Spirit to take charge and guide
 your life - and it is available to all Christians, for the asking
 (through prayer).
 
-There are examples in scripture where one group of believers were
+There are examples in scripture where the same group of believers were
 empowered by the Holy Spirit multiple times.
 
 > For a full explanation of this concept, please listen to
@@ -317,7 +317,7 @@ empowered by the Holy Spirit multiple times.
 > Be sure to listen all the way through to the very end _(the BEST PART)_!
 
 I am certainly not perfect.  I have and will have a long way to go in
-solidifying my relationship with God.  But this is certainly a step in
+solidifying my relationship with God.  But this was a step in
 the right direction, and I thank God for his provision!
 
 ## May the Lord Bless You
