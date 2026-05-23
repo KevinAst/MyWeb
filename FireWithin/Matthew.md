@@ -132,6 +132,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sat 05/23/2026',
+       topic:               'The Empty Tomb',
+       verse:               'Matthew 28:6',
+       verseRef:            'mat.28.6',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 03/27/2026',
        topic:               'Baptized in the Name of the Lord',
        verse:               'Matthew 28:19',
