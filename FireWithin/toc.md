@@ -27,13 +27,13 @@
 ----
 - [My Faith](MyFaith.md)
   * [What is a Christian?](MyFaith.md#what-does-it-mean-to-be-a-christian)
-  * [Why does this matter?](MyFaith.md#why-does-this-matter)
-  * [God is Holy](MyFaith.md#god-is-holy)
-  * [In the Beginning](MyFaith.md#in-the-beginning)
-  * [Am I good enough?](MyFaith.md#am-i-good-enough)
-  * [The Gospel](MyFaith.md#the-gospel)
+    - [Why does this matter?](MyFaith.md#why-does-this-matter)
+    - [God is Holy](MyFaith.md#god-is-holy)
+    - [In the Beginning](MyFaith.md#in-the-beginning)
+    - [Am I good enough?](MyFaith.md#am-i-good-enough)
+    - [The Gospel](MyFaith.md#the-gospel)
   * [My Faith](MyFaith.md#my-faith)
-  * [A Renewed Faith](MyFaith.md#a-renewed-faith)
+    - [A Renewed Faith](MyFaith.md#a-renewed-faith)
   * [May the Lord Bless You](MyFaith.md#may-the-lord-bless-you)
 
 ----

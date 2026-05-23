@@ -9,6 +9,17 @@
 I am so glad that you are here.  Let me take this opportunity to share
 a little bit about my faith in Christ ... this is my testimony.
 
+## At a Glance
+
+- [What is a Christian?](#what-does-it-mean-to-be-a-christian)
+  - [Why does this matter?](#why-does-this-matter)
+  - [God is Holy](#god-is-holy)
+  - [In the Beginning](#in-the-beginning)
+  - [Am I good enough?](#am-i-good-enough)
+  - [The Gospel](#the-gospel)
+- [My Faith](#my-faith)
+  - [A Renewed Faith](#a-renewed-faith)
+- [May the Lord Bless You](#may-the-lord-bless-you)
 
 ## What does it mean to be a Christian?
 
@@ -195,17 +206,41 @@ believe in the redemptive work of the Lord Jesus, repent from your
 sin, and ask him to come into and change your life.  <mark>You can
 simply pray this prayer:</mark>
 
+<!-- From Pastor Fred -->
+
 > Lord Jesus, I confess that I have sinned.
-> I repent of my sin and turn to you.
-> I believe that you died on the cross for me.
-> That you rose from the dead.
-> That you reign in heaven.
-> I confess you as my Lord, and my Savior.
-> I pledge my life to you from this day forward.
-> Fill me with your spirit, that I might be your servant.
-> Thank you for saving me.
-> In Jesus name.
-> Amen
+> <br/>&nbsp;&nbsp;I repent of my sin and turn to you.
+> <br/>I believe that you died on the cross for me.
+> <br/>&nbsp;&nbsp;That you rose from the dead.
+> <br/>&nbsp;&nbsp;That you reign in heaven.
+> <br/>I confess you as my Lord, and my Savior.
+> <br/>&nbsp;&nbsp;I pledge my life to you from this day forward.
+> <br/>Fill me with your spirit, that I might be your servant.
+> <br/>Thank you for saving me.
+> <br/>In Jesus name.
+> <br/>Amen
+
+<!-- From Pastor Gary
+
+> Lord Jesus, I thank you that you love me so much.
+> <br/>&nbsp;&nbsp;You came to earth to die for sinners like me.
+> <br/>Forgive me of my sins, Lord.
+> <br/>Come into my heart.
+> <br/>&nbsp;&nbsp;I receive you by faith as my Lord and Savior.
+> <br/>&nbsp;&nbsp;I surrender my life to you, Jesus.
+> <br/>&nbsp;&nbsp;No more do I want to live for myself. I want to live for you.
+> <br/>So I trust you by faith that you died on that cross for my sins.
+> <br/>Forgive me, Lord.
+> <br/>Take over my life.
+> <br/>&nbsp;&nbsp;I commit my life to you.
+> <br/>&nbsp;&nbsp;I surrender to your Lordship.
+> <br/>&nbsp;&nbsp;And I trust you, Jesus, as my Lord and Savior today by faith.
+> <br/>There's nothing more I have to do.  You've done it all for me.
+> <br/>So, I receive the free gift of salvation, and I trust you, Jesus.
+> <br/>It's in your name that I pray.
+> <br/>Amen.
+
+ -->
 
 The truth of the matter is Christianity is less about religion, and
 more about a personal relationship with God.
@@ -221,8 +256,8 @@ church_, that can assist and disciple you in your new found faith!
 
 ## My Faith
 
-In my personal life, I asked Jesus to come into my life as a young boy,
-during a revival of my parents church.
+In my personal life, I asked the Lord Jesus to come into my life as a
+young boy, during a revival of my parents church.
 
 I was active in my church, trying to live a life that honored God.  I
 continued that process into my adult days, raising my family and
@@ -233,69 +268,57 @@ Christians that were "on fire" for the Lord.  I didn't have the
 passion to be in God's Word, and my prayer life was non-existent.  It
 seemed like I was merely going through the motions.
 
-In 2005 I actually fell away from the church _(for almost 15 years)_.
-I felt even more distant from God, and sin increased in my life.
+In 2005 I actually fell away from the church _for almost 15 years_.  I
+felt even more distant from God, and sin increased in my life.
 
 ## A Renewed Faith
 
-It was in 2020 when God started working in my heart.  The things in
-this world seemed to be completely upside down ... pointing to an ever
-increasing sinful nature of our society _(just as predicted in the end
+In 2020, God started working in my heart.  The things in this world
+seemed to be completely upside down - pointing to an ever increasing
+sinful nature of our society _(just as the Bible predicted for the end
 times)_.
 
-God laid on my heart that the difference between my past Christian
-life and the Christians I felt were sincere in their faith, was the
-empowering of the Holy Spirit.  This world is complicated and it is
-not something we can navigate on our own.  We need help.
+I started questioning my faith.  Was I really saved, back in my
+boyhood church revival?  For me, that question was answered when I
+realized that I had not fully tapped into God's power in my life
+through the Holy Spirit.
 
-I believe there are two distinct aspects of the Holy Spirit in a
-believer's life:
+God laid on my heart (through His word) that the difference between my
+past Christian life, and the Christians that I knew were sincere in
+their faith - _was the empowering of the Holy Spirit._
 
-1. The Indwelling of the Holy Spirit.  This happens at the moment of
-   salvation, and is a one-time occurrence.
+This is a separate and distinct concept from salvation.  Certainly,
+when we are saved, the Holy Spirit comes into our life (the indwelling
+of the Holy Spirit).  And yet, He may not be in the driver's seat,
+unless we fully submit to Him.
 
-2. Empowering of the Holy Spirit _(or Baptism of the Spirit)_.  This is
-   when the Holy Spirit comes upon a person in power.  
+This world is a complicated place, and it is not something we can
+navigate on our own.  We need help.
 
-   This is separate and distinct from salvation, and can occur multiple
-   times in a believer's life.  There are examples in scripture where
-   one group of believers were empowered by the Holy Spirit multiple
-   times.  This is something that was missing in my faith, and it is
-   crucial in providing the guidance to navigate life's every day
-   twists and turns _(overcoming temptation and sin)_.
+When I fervently prayed - asking the Holy Spirit to empower me and
+guide my daily life - things completely changed.  The past sins in my
+life were greatly diminished.  I had a desire to be in His word.  My
+prayer life was rejuvenated.  And for the first time, I had a desire
+to share my faith with others!
 
-   How does this happen, you might be wondering?  It's not difficult
-   at all.  It happens by simply asking God, and believing by faith.
+This is what the Bible refers to as "The Baptism of the Holy Spirit".
+I was always taught to be cautious of this, because of it's
+association to "speaking in tongues".  But it is so much more than
+that.  It is simply allowing the Holy Spirit to take charge and guide
+your life - and it is available to all Christians, for the asking
+(through prayer).
+
+There are examples in scripture where one group of believers were
+empowered by the Holy Spirit multiple times.
 
 > For a full explanation of this concept, please listen to
 > Pastor Gary Hamrick's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
+> 
+> Be sure to listen all the way through to the very end _(the BEST PART)_!
 
-When I fervently asked the Holy Spirit to empower me and assist me in
-my daily life, it was truly a miracle.
-
-- The past sins in my life were greatly diminished.  This was not an
-  insignificant thing.  My desire for long standing addictions were
-  simply removed (Praise God)!
-
-- For the first time I had a passion to be in God's word, soaking up
-  everything He has for me through his word.  This has manifest itself
-  in this Bible Study guide.
-
-- My prayer life is much improved!  I look forward to communing with
-  God, giving Him my praise, thanking Him for what He has done in my
-  life, and sharing my burdons and requests
-  (M{ bibleLink(`1th.5.16-18@@1 Thessalonians 5:16-18`) }M).
-
-- I have for the first time, a desire to share my faith with others.
-  If you think about it, this is the most crucial aspect of a
-  Christian's life, _and part of the Lord Jesus' Great Commission_
-  (M{ bibleLink(`mat.28.16-20@@Matthew 28:16-20`) }M)
-  ... sharing the Good News to a lost world.
-
-I'm certainly not perfect.  I have and will have a long way to go in
+I am certainly not perfect.  I have and will have a long way to go in
 solidifying my relationship with God.  But this is certainly a step in
 the right direction, and I thank God for his provision!
-
 
 ## May the Lord Bless You
 

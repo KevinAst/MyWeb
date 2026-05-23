@@ -6,6 +6,19 @@ help you in your Bible Study.  With that said, this section highlights
 a number of things that you should know to get the most out of this
 site.
 
+
+## At a Glance
+
+- [Basic Appearance](#basic-appearance)
+- [Going Home](#going-home)
+- [Left Nav Bar](#left-nav-bar)
+- [Resource Links](#resource-links)
+- [Search](#search)
+- [Where Am I?](#where-am-i)
+- [Bible Translation](#bible-translation)
+- [Diagrams](#diagrams)
+
+
 ## Basic Appearance
 
 You can change the basic appearance of the site through the **Text
