@@ -309,7 +309,10 @@ your life - and it is available to all Christians, for the asking
 (through prayer).
 
 There are examples in scripture where the same group of believers were
-empowered by the Holy Spirit multiple times.
+empowered by the Holy Spirit multiple times.  The Bible talks about
+their senses being overwhelmed, with sounds of a rushing wind and fire
+(M{ bibleLink(`act.2.2-4@@Acts 2:2-4`) }M).  This is the source by
+which I named this Study Guide - "Fire Within".
 
 > For a full explanation of this concept, please listen to
 > Pastor Gary Hamrick's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
