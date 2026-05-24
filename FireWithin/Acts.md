@@ -174,6 +174,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'heb.12.15',
        layout:              'BTB:FromDevoSermon##act.8@@Acts 8##From Bitter to Better',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sun 05/24/2026',
+       topic:               'Strengthened Through Trials',
+       verse:               'Acts 14:22',
+       verseRef:            'act.14.22',
+       layout:              'BTB',
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
@@ -279,7 +286,17 @@ M{ sermonSeries({
     { id: `20230514`, sermon: `Lessons from a Jew and a Gentile`,                              scripture: `act.10@@Acts 10`,       },
     { id: `20230528`, sermon: `That’s Not Fair!`,                                              scripture: `act.12@@Acts 12`,       },
     { id: `20230611`, sermon: `Embrace God’s Grace`,                                           scripture: `act.13@@Acts 13`,       },
-    { id: `20230618`, sermon: `What Tough Times Teach Us`,                                     scripture: `act.14@@Acts 14`,       },
+    { id: `20230618`, sermon: `What Tough Times Teach Us`,                                     scripture: `act.14@@Acts 14`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 05/24/2026',
+           topic:               'Strengthened Through Trials',
+           verse:               'Acts 14:22',
+           verseRef:            'act.14.22',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,    },
     { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
     { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
