@@ -137,6 +137,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/25/2026',
+       topic:               'Mercy Instead of Revenge',
+       verse:               'Romans 12:19',
+       verseRef:            'rom.12.19',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 04/03/2026',
        topic:               'Overcoming Hatred with Christlike Love',
        verse:               'Romans 12:21',

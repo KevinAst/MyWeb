@@ -104,6 +104,13 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/25/2026',
+       topic:               'Mercy Instead of Revenge',
+       verse:               'Romans 12:19',
+       verseRef:            'rom.12.19',
+       layout:              'BTB:FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',

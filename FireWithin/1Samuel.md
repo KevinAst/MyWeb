@@ -131,6 +131,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 05/25/2026',
+       topic:               'Mercy Instead of Revenge',
+       verse:               'Romans 12:19',
+       verseRef:            'rom.12.19',
+       layout:              'BTB:FromDevoContent##1sa.14@@1 Samuel 14,17,26##David and Abner — From Opponents to Allies',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 04/22/2026',
        topic:               'Obedience Without Excuse',
        verse:               '1 Samuel 15:22',
