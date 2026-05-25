@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 600**          _... categorized below!!_
-> <br/> **Photos: 48,089**       _... Yikes!!!_
+> <br/> **Albums: 602**          _... categorized below!!_
+> <br/> **Photos: 48,135**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 
 ## At a Glance
@@ -583,6 +584,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 05: [MJ at the Fox](https://photos.google.com/share/AF1QipMgv_Jv0J7b3FmFmudPIvVGB7wYEf8xljxfC31YIFzGffoZ9ZkmGZJJ9_rdqmwzDA?key=NERDaE13SnJ5OWwwMC1ieGF4QzlGaHZDYThnLTZR) _(30 pics)_
 - 2026 05: [Rich Powers Visit 5/2026](https://photos.google.com/share/AF1QipN8IdTQCSqO0aS-Kx_8e_WOM6w4oe_BtBcn9t0_UR71a_w2SxlkOeIyrSEs2afVVA?key=VFVrMW1XWXFOZENuSGhGSWw1amtmNXd1MzJvbk13) _(113 pics)_
 - 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
 
@@ -1223,6 +1225,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### First Baptist
 
+- 2026 05: [Benjamin's last Sunday before NYC Internship](https://photos.google.com/share/AF1QipM_VX7UwiiL4Ih6RJSd_9vfkYnKZbz-44FPUHitHbPThmp7-60ZUIvkO-WAcw8dzg?key=UzR5Y0QwY1VmT19Zald4WVpEaVBxa0M3Ym0yNzln) _(16 pics)_
+- 2026 05: [Benjamin Kofi Essilfie - Masters Degree Graduation](https://photos.google.com/share/AF1QipMeHKCRJ1K1jrnvAvlHJ6OAP2-GLE8OGWKjTg3-wdLcCklDerqV9Rwingbqzaq9Pg?key=T0RmWEllT0piQTY4Qi1EaTNhSXZoaDdwRVdmMXln) _(53 pics)_
+
+
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
 
 
@@ -1240,9 +1246,6 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2022 04: [Gaylord Baptism](https://photos.google.com/share/AF1QipMmNwTGCkOnzwvhFpwxvN8eq7q2t99dw-XotZQQXq8gCipQoWkstkqJHBK5rmmYgw?key=U3FDTmVJUnhNTjNOUnRNc2x6c0FYSi1CaWpYajh3) _(10 pics)_
 
 ### Odds & Ends
-
-- 2026 05: [Benjamin Kofi Essilfie - Masters Degree Graduation](https://photos.google.com/share/AF1QipMeHKCRJ1K1jrnvAvlHJ6OAP2-GLE8OGWKjTg3-wdLcCklDerqV9Rwingbqzaq9Pg?key=T0RmWEllT0piQTY4Qi1EaTNhSXZoaDdwRVdmMXln) _(53 pics)_
-
 
 - 2024 06: [2024 0618 Stuff](https://photos.google.com/share/AF1QipNq9MU6uAgi9oSzks18FZP5i4x44qH5xzRsc-FHSSTvj5G5AfHV_ew1XFB7bksWBg) _(4 pics)_ **Resa Album**
 
