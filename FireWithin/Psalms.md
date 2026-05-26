@@ -165,6 +165,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Tue 05/26/2026',
+       topic:               'The Lord Watches Over Israel',
+       verse:               'Psalms 121:4',
+       verseRef:            'psa.121.4',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 04/11/2026',
        topic:               'Established in His Presence',
        verse:               'Psalms 138:8',
