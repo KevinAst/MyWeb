@@ -27,11 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 602**          _... categorized below!!_
-> <br/> **Photos: 48,135**       _... Yikes!!!_
+> <br/> **Albums: 603**          _... categorized below!!_
+> <br/> **Photos: 48,149**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
-
-
 
 ## At a Glance
 
@@ -505,6 +503,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Misc Holiday
 
+- 2026 05: [Memorial Day at AJ/Emily's (5/25/2026)](https://photos.google.com/share/AF1QipME1_quRW-o9uKb4hCWsVzgoOOWhbMPc72haYDGTUB6-qgJ8W-ZsTPj9hz1zJjNDw?key=RGhabURKc3dlYmc0MXA0b0M5THB6N1VaNzJ1QlV3) _(14 pics)_
 - 2023 03: [Happy St. Patrick's Day (3/11/2023)](https://photos.google.com/share/AF1QipO_2EfngbQ7GaOoYrVaJgqUyWxhS4Xm_D8keLhY2ev49Ilx8gCEotUw1SBl-TqtxQ?key=UGpkODRRWFlDRUtfMEt0U1djU3ZraUZZelpNQjRB) _(48 pics)_
 - 2022 09: [Labor Day 2022](https://photos.google.com/share/AF1QipM5M1wrt6VuzMk49qQd_XjbnnA4gFKJAPj1IY1Y19eBV59I6qe7hAqn_EAy_CtAGw?key=S0dkUnduNDRRLWt2SHN0T2N2V1N5VThBbWRRUHd3) _(19 pics)_
 - 2022 05: [Memorial Day Weekend 22](https://photos.google.com/share/AF1QipNyjEvY9bfIpXPr-xrthe31gnCtk-44OTurwcBOjPhjJ0VcIzno_lj7Huio95orJw?key=aDBVQnByOE5fNUhUanpBUTFFc3ZDME5ncDFpWWlB) _(65 pics)_
