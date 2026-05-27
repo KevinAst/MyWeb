@@ -100,6 +100,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 05/27/2026',
+       topic:               'The Right Way to Honor God',
+       verse:               'Proverbs 9:10',
+       verseRef:            'pro.9.10',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 05/16/2026',
        topic:               'Walking in Holy Reverence',
        verse:               'Proverbs 16:6',

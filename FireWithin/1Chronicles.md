@@ -116,6 +116,13 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Wed 05/27/2026',
+       topic:               'The Right Way to Honor God',
+       verse:               'Proverbs 9:10',
+       verseRef:            'pro.9.10',
+       layout:              'BTB:FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',

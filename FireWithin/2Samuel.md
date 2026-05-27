@@ -111,6 +111,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 05/27/2026',
+       topic:               'The Right Way to Honor God',
+       verse:               'Proverbs 9:10',
+       verseRef:            'pro.9.10',
+       layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',
