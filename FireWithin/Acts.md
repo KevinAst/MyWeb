@@ -181,6 +181,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'act.14.22',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Thu 05/28/2026',
+       topic:               'Singing in the Darkness',
+       verse:               'Acts 16:25',
+       verseRef:            'act.16.25',
+       layout:              'BTB',
+     }) }M
 
 
 ## 2009 Acts Series (Sundays)
@@ -297,7 +304,17 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,    },
+    { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 05/28/2026',
+           topic:               'Singing in the Darkness',
+           verse:               'Acts 16:25',
+           verseRef:            'act.16.25',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
     { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
     { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
