@@ -105,6 +105,13 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 - M{ devoGHTOC({
+       publicationDate:     'Fri 05/29/2026',
+       topic:               'Guarding Your Walk With Christ',
+       verse:               '2 Corinthians 6:14',
+       verseRef:            '2co.6.14',
+       layout:              'BTB:FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 02/24/2026',
        topic:               'Faithful With What Belongs to God',
        verse:               'Luke 16:13',
@@ -257,7 +264,17 @@ M{ sermonSeries({
     { id: `20211010`, sermon: `An Enemy Named Busy`,                                    scripture: `luk.10@@Luke 10:38-42`, },
     { id: `20211024`, sermon: `Don’t Worry About It`,                                   scripture: `luk.12@@Luke 12`,       },
     { id: `20211107`, sermon: `The Theology of Tragedy`,                                scripture: `luk.13@@Luke 13`,       },
-    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`, },
+    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 05/29/2026',
+           topic:               'Guarding Your Walk With Christ',
+           verse:               '2 Corinthians 6:14',
+           verseRef:            '2co.6.14',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20211212`, sermon: `Once was Lost, Now am Found`,                            scripture: `luk.15@@Luke 15`,       },
     { id: `20220109`, sermon: `Worldly Wealth for Heavenly Good`,                       scripture: `luk.16@@Luke 16`,
       relatedDevotions: [

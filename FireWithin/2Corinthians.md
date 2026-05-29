@@ -150,6 +150,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'mat.24.14',
        layout:              'BTB:FromDevoContent##2co.6.2@@2 Corinthians 6:2##“Now is the day of salvation,” emphasizing urgency in responding to God’s invitation',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 05/29/2026',
+       topic:               'Guarding Your Walk With Christ',
+       verse:               '2 Corinthians 6:14',
+       verseRef:            '2co.6.14',
+       layout:              'BTB',
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)
