@@ -188,6 +188,14 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'act.16.25',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Sat 05/30/2026',
+       topic:               'Marks of True Revival',
+       verse:               'Acts 19:20',
+       verseRef:            'act.19.20',
+       layout:              'BTB',
+     }) }M
+
 
 
 ## 2009 Acts Series (Sundays)
@@ -316,7 +324,17 @@ M{ sermonSeries({
       ],
     },
     { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
-    { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
+    { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 05/30/2026',
+           topic:               'Marks of True Revival',
+           verse:               'Acts 19:20',
+           verseRef:            'act.19.20',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
     { id: `20230827`, sermon: `Advice and Warnings to the Church`,                             scripture: `act.20@@Acts 20 PT.2`,  },
     { id: `20230903`, sermon: `Parting Words of Encouragement`,                                scripture: `act.20@@Acts 20 PT.3`,  },
