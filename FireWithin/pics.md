@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 603**          _... categorized below!!_
-> <br/> **Photos: 48,149**       _... Yikes!!!_
+> <br/> **Albums: 604**          _... categorized below!!_
+> <br/> **Photos: 48,152**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 ## At a Glance
@@ -1209,6 +1209,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Funny](https://photos.google.com/share/AF1QipNDZcSqEp7dQDaS-eWdiCdOAFfxveLpzAqpksEzMJSct4_RsTr4b8w15HvJSdc1vQ?key=Q1VkSS1fNzhodUptOTRDZDZtb2dlQ2pBcTNSQWNB) _(212 pics)_
 
 ### Bees
+
+- 2026 05: [Honey Bee Capture 2026](https://photos.google.com/share/AF1QipPwfT5LvywtLpUvHFqWMj5GWf52-Oa3XYq1n5ad_2a8u7EWFRENh_3sVUNzrQ19cw?key=WWpCU0FoSjlxT0dBdVRJRVhrcXQtSTg1dmpJOTVB) _(3 pics)_
+
 
 - 2024 05: [Honey Bees (2024)](https://photos.google.com/share/AF1QipNnduv5m8E6QDFCHXExgMn_l-BUaYReDKrgBei1s32q8Y6YZLWx-ahQRBnEHbviCw?key=d214RFFvRXJEdzJsVXNaWkNCZVhxak5EcEVWeGxB) _(2 pics)_
 
