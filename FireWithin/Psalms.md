@@ -102,6 +102,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 05/31/2026',
+       topic:               'The Presence of the Lord',
+       verse:               'Psalms 24:3-4',
+       verseRef:            'psa.24.3-4',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Tue 03/17/2026',
        topic:               'Led by the Light of God’s Word',
        verse:               'Psalms 25:4',

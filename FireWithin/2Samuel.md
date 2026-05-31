@@ -118,6 +118,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Sun 05/31/2026',
+       topic:               'The Presence of the Lord',
+       verse:               'Psalms 24:3-4',
+       verseRef:            'psa.24.3-4',
+       layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',
