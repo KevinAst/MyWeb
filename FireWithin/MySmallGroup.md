@@ -14,6 +14,7 @@
 - [Psalms Series](#psalms-series)
 - [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
 - [Matthew Series](#matthew-series)
+- [Joshua, Judges, & Ruth Series](#joshua-judges--ruth-series)
 
 
 ## John Series
@@ -328,5 +329,31 @@ M{ sermonSeries({
     { id: `SG20260517`, sermon: `TXT@@Active Faith`,            scripture: `mat.25@@Matthew 25:31-46`,           date:`05/17/2026`, },
     { id: `SG20260524`, sermon: `TXT@@Our Atonement`,           scripture: `mat.26@@Matthew 26:17-30`,           date:`05/24/2026`, },
     { id: `SG20260531`, sermon: `TXT@@Our Savior`,              scripture: `mat.27@@Matthew 27:27-31,45-54`,     date:`05/31/2026`, },
+  ]
+}) }M
+
+
+## Joshua, Judges, & Ruth Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Joshua}}, {{book.Judges}}, {{book.Ruth}}
+
+M{ sermonSeries({
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20260607`, sermon: `TXT@@Strong and Courageous`,    scripture: `jos.1@@Joshua 1:1-11,16-18`,    date:`06/07/2026`,  },
+    { id: `SG20260614`, sermon: `TXT@@Amazing Grace`,            scripture: `jos.2@@Joshua 2:4-21`,          date:`06/14/2026`,  },
+    { id: `SG20260621`, sermon: `TXT@@Remembering God’s Works`,  scripture: `jos.3@@Joshua 3:14–4:9`,        date:`06/21/2026`,  },
+    { id: `SG20260628`, sermon: `TXT@@Winning Strategy`,         scripture: `jos.6@@Joshua 6:12-25`,         date:`06/28/2026`,  },
+    { id: `SG20260705`, sermon: `TXT@@Sin Revealed`,             scripture: `jos.7@@Joshua 7:10-23`,         date:`07/05/2026`,  },
+    { id: `SG20260712`, sermon: `TXT@@Unwavering Determination`, scripture: `jos.14@@Joshua 14:1-15`,        date:`07/12/2026`,  },
+    { id: `SG20260719`, sermon: `TXT@@Vital Decision`,           scripture: `jos.24@@Joshua 24:14-24`,       date:`07/19/2026`,  },
+    { id: `SG20260726`, sermon: `TXT@@Consequences`,             scripture: `jdg.2@@Judges 2:11-23`,         date:`07/26/2026`,  },
+    { id: `SG20260802`, sermon: `TXT@@Called`,                   scripture: `jdg.6@@Judges 6:1-4,7-16`,      date:`08/02/2026`,  },
+    { id: `SG20260809`, sermon: `TXT@@Trust`,                    scripture: `jdg.7@@Judges 7:1-8,19-23`,     date:`08/09/2026`,  },
+    { id: `SG20260816`, sermon: `TXT@@Compromise`,               scripture: `jdg.16@@Judges 16:16-31`,       date:`08/16/2026`,  },
+    { id: `SG20260823`, sermon: `TXT@@Faithfulness`,             scripture: `rut.1@@Ruth 1:11-18; 2:5-12`,   date:`08/23/2026`,  },
+    { id: `SG20260830`, sermon: `TXT@@Redemption`,               scripture: `rut.3@@Ruth 3:8-13; 4:13-17`,   date:`08/30/2026`,  },
   ]
 }) }M
