@@ -114,6 +114,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'psa.27.14',
        layout:              'BTB:FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Mon 06/01/2026',
+       topic:               'Trusting the Lord When We Do Not Understand',
+       verse:               'Isaiah 55:8-9',
+       verseRef:            'isa.55.8-9',
+       layout:              'BTB',
+     }) }M
 
 
 ## 2018 Isaiah Series (Sundays)

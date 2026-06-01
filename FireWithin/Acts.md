@@ -175,6 +175,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoSermon##act.8@@Acts 8##From Bitter to Better',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Mon 06/01/2026',
+       topic:               'Trusting the Lord When We Do Not Understand',
+       verse:               'Isaiah 55:8-9',
+       verseRef:            'isa.55.8-9',
+       layout:              'BTB:FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 05/24/2026',
        topic:               'Strengthened Through Trials',
        verse:               'Acts 14:22',
