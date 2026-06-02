@@ -125,6 +125,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Tue 06/02/2026',
+       topic:               'The King’s Mercy',
+       verse:               'Titus 3:4-5',
+       verseRef:            'tit.3.4-5',
+       layout:              `BTB:FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`,
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',

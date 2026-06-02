@@ -11,6 +11,7 @@ presence of the Church can transform hostile cultures.
 ### At a Glance
 
 - [Titus Overview](#titus-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Titus Series (Sundays)](#2010-titus-series-sundays)
 - [2018 Titus Series (Mid Week)](#2018-titus-series-mid-week)
 
@@ -81,6 +82,20 @@ P{ collapsibleSection({
 M{ youTube(`AmNUgBbmeKE`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+- M{ devoGHTOC({
+       publicationDate:     'Tue 06/02/2026',
+       topic:               'The King’s Mercy',
+       verse:               'Titus 3:4-5',
+       verseRef:            'tit.3.4-5',
+       layout:              'BTB',
+     }) }M
+
 
 
 ## 2010 Titus Series (Sundays)
