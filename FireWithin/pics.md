@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 604**          _... categorized below!!_
-> <br/> **Photos: 48,152**       _... Yikes!!!_
+> <br/> **Albums: 606**          _... categorized below!!_
+> <br/> **Photos: 48,479**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 ## At a Glance
 
@@ -322,6 +323,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Anniversary & Weddings
 
 - 2026 06: [Sandy and Gary Wedding - June 20, 2026](https://photos.google.com/share/AF1QipNNqoLmlTd5Tqlh_x2b5jusit9fJ4eMNfCoF1qbFWrVRbI0haTM7sdOdVDr9RitTA?key=VmVscW5sQ1hzUUNid29xY2kwS0VvdU9EYVhualdR) _(?xx pics)_
+- 2026 06: [Happy 47th Anniversary](https://photos.google.com/share/AF1QipMHvOJvNN-YdgP_H8cPcrngJ70fc7N-XvHU8ByBqyZ7-cecgNxY9sDYIYzDY1pd2w?key=UlJ6cnN5dWZhVk9QM3dMWEluR2tLYUhpVVlTWWRB) _(11 pics)_
 
 
 - 2025 09: [2025-09-06 Gina & Kris Wedding](https://photos.google.com/share/AF1QipN_dGfNr76oftG2FyD8yUyYNgjf8TGEOtf9iT0YiorHhjm9SY2gMNSlUv-AtGLqQw?key=Y1JNekwyMUxtdDRSZ1JCSXFYc2tlRWdYZV9CVWpn) _(116 pics)_
@@ -521,7 +523,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
-* 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (357 pics)
+- 2026 05: [Fargo (Emily's 41st Marathon State)](https://photos.google.com/share/AF1QipPw6-I99Q7NaXv4cVwRK9hZP7D9Rdmd1YGzNDe11bGSQmPYlC7aIh_1t1TmEX_z8A) _(316 pics)_ **Emily's Album (AJ, Emily, Gaige, Emerson, & Juni)**
+- 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (357 pics)
 - 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
 
 
