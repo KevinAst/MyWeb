@@ -99,6 +99,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            'php.2.14-15',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 06/03/2026',
+       topic:               'Strength in Suffering',
+       verse:               'Romans 5:3',
+       verseRef:            'rom.5.3',
+       layout:              'BTB:FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',
+     }) }M
 
 
 ## 2010 Philippians Series (Sundays)

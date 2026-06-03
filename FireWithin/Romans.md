@@ -123,6 +123,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Wed 06/03/2026',
+       topic:               'Strength in Suffering',
+       verse:               'Romans 5:3',
+       verseRef:            'rom.5.3',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sun 05/10/2026',
        topic:               'The Spirit Helps Our Weakness',
        verse:               'Romans 8:26',

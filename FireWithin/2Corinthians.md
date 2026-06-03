@@ -157,6 +157,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            '2co.6.14',
        layout:              'BTB',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Wed 06/03/2026',
+       topic:               'Strength in Suffering',
+       verse:               'Romans 5:3',
+       verseRef:            'rom.5.3',
+       layout:              'BTB:FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering',
+     }) }M
 
 
 ## 2009-2010 2 Corinthians Series (Sundays)
