@@ -119,6 +119,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Thu 06/04/2026',
+       topic:               'Faithful Unto Death',
+       verse:               'Acts 7:55',
+       verseRef:            'act.7.55',
+       layout:              'BTB:FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Sat 02/28/2026',
        topic:               'Faithful in the Days of the Son of Man',
        verse:               'Luke 17:28-30',
@@ -287,7 +294,17 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`, },
+    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 06/04/2026',
+           topic:               'Faithful Unto Death',
+           verse:               'Acts 7:55',
+           verseRef:            'act.7.55',
+           layout:              `SERMON`,
+        },
+      ],
+    },
     { id: `20220130`, sermon: `Where Are the Nine?`,                                    scripture: `luk.17@@Luke 17:11-19`, },
     { id: `20220213`, sermon: `Practice Persistent Prayer`,                             scripture: `luk.18@@Luke 18`,
       relatedDevotions: [

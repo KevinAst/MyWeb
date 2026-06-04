@@ -231,6 +231,7 @@
     - [06/01/2026 Devo](devo20260601.md)
     - [06/02/2026 Devo](devo20260602.md)
     - [06/03/2026 Devo](devo20260603.md)
+    - [06/04/2026 Devo](devo20260604.md)
 
 ----
 - [Memorization](Memorization.md)

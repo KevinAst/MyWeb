@@ -168,6 +168,13 @@ P{ collapsibleSectionEnd() }P
        layout:              'BTB:FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ',
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Thu 06/04/2026',
+       topic:               'Faithful Unto Death',
+       verse:               'Acts 7:55',
+       verseRef:            'act.7.55',
+       layout:              'BTB',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Wed 05/20/2026',
        topic:               'From Bitter to Better',
        verse:               'Hebrews 12:15',
