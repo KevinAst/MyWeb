@@ -20,6 +20,7 @@
   - [devoGHEnd()]
   - [devoGHClose()]
   - [devoGHTOC()]
+  - [devoGHSeries()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -193,7 +194,7 @@ The following **Custom Tags** are available:
 - [devoGHEnd()]
 - [devoGHClose()]
 - [devoGHTOC()]
-
+- [devoGHSeries()]
 
 
 ### zoomableImg()
@@ -906,6 +907,8 @@ This macro should be used with the Post Process Tag (`P{`), just like the
 
 ### devoGHTOC()
 
+?? OBSOLETE (eventually)
+
 Inject the HTML content for the TOC entry of the Daily Devotion.
 
 This macro should be used with the normal Pre Process Tag (`M{`).
@@ -927,6 +930,41 @@ This macro should be used with the normal Pre Process Tag (`M{`).
                                          // SERMON ... used internally by sermonSeries() macro ... relatedDevotions property
   }
 
+  ```
+
+
+### devoGHSeries()
+
+?? NEW
+
+**API**: `devoGHSeries(namedParams)`
+
+A comprehensive and responsive table generator for our Daily Devotion TOC entries.
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes the complete sermon series.
+
+  ```js
+  {
+    layout: 'DEVO/BTB',   // The layout to use for this seriesa:
+                          // - 'DEVO' ... the standard format of the top-level devotional page (the DEFAULT when ommitted]
+                          // - 'BTB'  ... emit a "by the book" format, placing the scripture FIRST (supporting order/search by scripture)
+    entries: [ // series entries (in order of display)
+      { // individual entry
+        divider:          string,   // ?? DO WE WANT THIS?            SPECIAL CASE: divider label entry (when used only param needed)
+
+        publicationDate:  `Day mm/dd/yyyy`,          // devotion publication date label
+                                                     // ... EX: `Sat 02/28/2026`
+        topic:            `devotion topic here`,     // devotion topic
+        verse:            `Luke 17:28-30`,           // verse label
+        verseRef:         `luk.17.28-30`,            // verse reference code (YouVersion format)
+
+        btbContext: 'FromDevoSermon/FromDevoContent##scripture8@@SCRIPTURE##title', // OPTIONAL - for additional BTB context (using THIS verse in entry)
+      },
+      ... repeat
+    ]
+  }
   ```
 
 
@@ -1036,6 +1074,7 @@ attempted it.  It would require some additional research, for example:
   [devoGHEnd()]:          #devoghend
   [devoGHClose()]:        #devoghclose
   [devoGHTOC()]:          #devoghtoc
+  [devoGHSeries()]:       #devoghseries
 
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin
