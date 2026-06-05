@@ -134,6 +134,13 @@ P{ collapsibleSectionEnd() }P
        verseRef:            '1sa.17.47',
        layout:              'BTB:FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit',
      }) }M
+- M{ devoGHTOC({
+       publicationDate:     'Fri 06/05/2026',
+       topic:               'Strength Through One Another',
+       verse:               'Galatians 6:2',
+       verseRef:            'gal.6.2',
+       layout:              'BTB',
+     }) }M
 
 
 

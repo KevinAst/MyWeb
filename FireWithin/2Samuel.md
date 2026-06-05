@@ -132,6 +132,13 @@ P{ collapsibleSectionEnd() }P
        layout:              `BTB:FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`,
      }) }M
 - M{ devoGHTOC({
+       publicationDate:     'Fri 06/05/2026',
+       topic:               'Strength Through One Another',
+       verse:               'Galatians 6:2',
+       verseRef:            'gal.6.2',
+       layout:              'BTB:FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together',
+     }) }M
+- M{ devoGHTOC({
        publicationDate:     'Fri 02/27/2026',
        topic:               'Wisdom for a Life of Order',
        verse:               '1 Corinthians 14:33',
