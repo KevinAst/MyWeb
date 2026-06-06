@@ -2295,7 +2295,9 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
   else { // our main DEVO entry (layout === 'DEVO') ... the MAIN devo TOC (ex: devo2026.md)
 
     // ... our table row
-    content += `<tr>`;
+    //     NOTE: we gen a unique id of our DOM structure being reflexively displayed
+    //           ... this allows our fw.goToMyNextDevotion() to operate properly
+    content += `<tr id="${devoKey}-${styleClass}">`; // styleClass: 'phone'/'desktop'
 
     // ... first column
     //     NOTE: the div checkbox-indent class indents subsequent lines, for the single column cell-phone rendition

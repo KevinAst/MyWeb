@@ -1335,16 +1335,16 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.goToLatestDevotion()
     //* 
-    //* Fancy function to navigate to the "Latest" published devotion,
+    //* Fancy function to navigate to the "latestDevo" published devotion,
     //* with highlighting, etc. ... patterned after fw.goToMyNextDevotion().
     //* 
     //* NOTE: When this function is invoked on the TOC page of the current year
     //*       being published, it will do the fancy highlighting, 
-    //*       by navigating directly to the 'latest' hash.
+    //*       by navigating directly to the 'latestDevo' hash.
     //* 
-    //*       Otherwise, it will fallback to the current year (e.g. `/devo2026.html#latest`)
+    //*       Otherwise, it will fallback to the current year (e.g. `/devo2026.html#latestDevo`)
     //* 
-    //*       Only one 'latest' entry should be maintained within the devoYYYY.md pages,
+    //*       Only one 'latestDevo' entry should be maintained within the devoYYYY.md pages,
     //*       BECAUSE publishing occurs only in one specific year.
     //*--------------------------------------------------------------------------
     // ORIGINAL PUBLIC FUNCTION <<< NOW RETRIFITTED TO: goTo()
@@ -1352,26 +1352,28 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // locate the latestElm to navigate to (assuming it is on this page)
       // ... only the TOC page of the current publishing year should have this element on it!
-      const latestElm = document.getElementById('latest');
+      const latestElm = document.getElementById('latestDevo');
 
-      // when there is NO 'latest' element on this page ...
+      // when there is NO 'latestDevo' element on this page ...
       if (!latestElm) {
-        // fallback to the current year (e.g. `/devo2026.html#latest`)
+        // fallback to the current year (e.g. `/devo2026.html#latestDevo`)
         const curYear        = String(new Date().getFullYear());
-        const latestDevoPage = `/devo${curYear}.html#latest`;
+        const latestDevoPage = `/devo${curYear}.html#latestDevo`;
         window.location.href = '/FireWithin' + latestDevoPage;
 
+        // >>> does NOT do anything (unsure why)
+        //     - I suspect the issue is,  the href (above) is re-loading the entire GitBook structure
+        //       ... it's NOT just a GitBook navigation
         // provide a delayed scroll/highlight via JavaScript logic
         // ... once we are now on the latest devo page
-        // >>> does NOT do anything (unsure why) - suspect it is holding on to the old DOM
-        setTimeout(() => goTo('latest'), 300);
+        setTimeout(() => goTo('latestDevo'), 300);
 
         // we are done
         return;
       }
 
-      // navigate to the "latest" on this page
-      goTo('latest');
+      // navigate to the "latestDevo" on this page
+      goTo('latestDevo');
     }
 
 
@@ -1391,6 +1393,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     
         // for the first NON-COMPLETED devo (within this TOC page) ...
         if (!checkbox.checked) {
+          //console.log(`XX in fw.goToMyNextDevotion() ... executing goTo(${checkbox.id})`);
           goTo(checkbox.id);
           return;
         }
@@ -1404,14 +1407,76 @@ if (!window.fw) { // only expand this module once (conditionally)
     //  - applys all common heuristics, from known entry points
     //  - filters all requests into the active algorithm
     function goTo(id) {
-      let elm = document.getElementById(id);
+      let elm = document.getElementById(id); // ... due to our reflexive design, this CAN be duplicate id's (see resolution below: "duplicate id's")
 
-      if (id === 'latest') { // latest structure: <li> <b id="latest">Latest:</b> </li>  <li> ... subsquent entry is LATEST entry </li>
-        elm = elm.closest("li");
-        elm = elm.nextElementSibling;
+      if (id === 'latestDevo') { // ... from fw.goToLatestDevotion()
+        // latestDevo structure:
+        //   <div class="phone">  ... KJB: only one of these are visable
+        //     <table>
+        //       <tbody>
+        //         ... snip snip
+        //         >>> Last <tr>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label><br> <a href="devo20260605.html">Strength Through One Another</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        //   
+        //   <div class="desktop">  ... KJB: only one of these are visable
+        //     <table>
+        //       <tbody>
+        //         ... snip snip
+        //         >>> Last <tr>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label></div></td><td><div> <a href="devo20260605.html">Strength Through One Another</a></div></td><td><div><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        //   
+        //   <p><i id="latestDevo">... This is the latest published devotion :-)</i></p>
+        const latestDevoNoteElm = elm;
+        const latestDevoPElm    = latestDevoNoteElm.closest('p');
+        const desktopDiv        = latestDevoPElm.previousElementSibling;
+        const phoneDiv          = desktopDiv.previousElementSibling;
+        const visibleDiv        = window.getComputedStyle(phoneDiv).display !== 'none' ? phoneDiv : desktopDiv;
+        const lastRow           = visibleDiv.querySelector('tbody tr:last-child');
+        elm = lastRow; // ... this is it!!
       }
-      else { // devo index sturcture: <li> <label> <input type="checkbox" ... id="devoYYYMMDD"> </label> MORE-DETAIL-OMITTED </li>
-        elm = elm.closest("li");
+
+      else { // ... from fw.goToMyNextDevotion() ... by CheckBox Status
+        // current structure (assuming id="devo20260605"):
+        //
+        //   KJB NOTE: there are TWO elements with id="devo20260605" ... only ONE is visable
+        // 
+        //   <div class="phone">
+        //     <table>
+        //       <tbody>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label><br> <a href="devo20260605.html">Strength Through One Another</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //         ... snip snip (many more <tr>s)
+        //       </tbody>
+        //     </table>
+        //   </div>
+        // 
+        //   <div class="desktop">
+        //     <table>
+        //       <tbody>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label></div></td><td><div> <a href="devo20260605.html">Strength Through One Another</a></div></td><td><div><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //         ... snip snip (many more <tr>s)
+        //       </tbody>
+        //     </table>
+        //   </div>
+
+        // because of our reflexive strucuture, we have TWO checkboxes with the same id
+        // ... only one is visable
+        const checkboxes = document.querySelectorAll(`input[type="checkbox"][id="${id}"]`);
+        const checkbox = [...checkboxes].find(elm =>
+          window.getComputedStyle(elm.closest('.phone, .desktop')).display !== 'none'
+        );
+        elm = checkbox?.closest('tr'); // ... this is it!!
+        //console.log(`XX in goTo(${id}) ... found: `, {checkbox, elm});
+
+        // because there are "duplicate id's" due to our reflexive design, 
+        // ... the goToFn's location.hash will only move to the first one (which may NOT be visable)
+        // ... we resolve through a unique id (generated by our devoGHSeries() macro)
+        id = elm.id; // ex: "devo20260605-desktop"
       }
 
       // pass through to active algorithm
@@ -1442,7 +1507,9 @@ if (!window.fw) { // only expand this module once (conditionally)
         //              when the user scrolls back up and activates the button again.
         //              Without this, the second request no-ops (presumably because the hash is already in the URL)
         location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
-        
+
+        //console.log(`XX in goToAlgorithm_hash(): `, {id, elm});
+
         // move to the target
         location.hash = id;
 
