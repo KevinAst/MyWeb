@@ -323,6 +323,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## Anniversary & Weddings
 
 - 2026 06: [Sandy and Gary Wedding - June 20, 2026](https://photos.google.com/share/AF1QipNNqoLmlTd5Tqlh_x2b5jusit9fJ4eMNfCoF1qbFWrVRbI0haTM7sdOdVDr9RitTA?key=VmVscW5sQ1hzUUNid29xY2kwS0VvdU9EYVhualdR) _(?xx pics)_
+- 2026 06: [Sandy and Gary Wedding Slideshow](https://photos.google.com/share/AF1QipO-tvVC9BlUkZpxhqfse5GUbvDGqjZwwtR71uBrXQxU6isWw_BPcetswpY4xkRVSA) _(124 pics)_
 - 2026 06: [Happy 47th Anniversary](https://photos.google.com/share/AF1QipMHvOJvNN-YdgP_H8cPcrngJ70fc7N-XvHU8ByBqyZ7-cecgNxY9sDYIYzDY1pd2w?key=UlJ6cnN5dWZhVk9QM3dMWEluR2tLYUhpVVlTWWRB) _(11 pics)_
 
 
