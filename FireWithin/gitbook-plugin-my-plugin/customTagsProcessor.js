@@ -203,8 +203,7 @@ const customTagProcessors = {
   devoGHStart,
   devoGHEnd,
   devoGHClose,
-  devoGHTOC,    // ?? OBSOLETE
-  devoGHSeries, // ?? NEW
+  devoGHSeries,
 };
 
 //***
@@ -802,7 +801,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // validate our entry (the entry is from our client)
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
-  // ??$$ CUR REF for sermonSeries() infrastructure (pulling into devoGHSeries()) ********************************************************************************
   // extract each entry property
   const {id, sermon='Teaching', desc='', scripture, studyGuide, date, relatedDevotions, extraSermonLink, extraLinkInScriptureCell, divider, ...unknownProps} = entry;
 
@@ -907,9 +905,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   if (relatedDevotions) { // ... relatedDevotions (when supplied)
     for (const devotion of relatedDevotions) {
       checkParam(isPlainObject(devotion),    `relatedDevotions contains an entry that is NOT a plain object: ${devotion}`);
-      checkParam(devotion.layout==='SERMON', `relatedDevotions contains an entry that is NOT using 'SERMON' layout: ${devotion}`);
-      // content is gleaned from devoGHTOC() ?? RETROFIT TO: devoGHSeries (or some derivitive)
-      content += lineBreakOnSignificant(sermonRef) + devoGHTOC(devotion); 
+      content += lineBreakOnSignificant(sermonRef) + expandDevoGHEntry('SERMON', devotion, checkParam, 'UNUSED');
     }
   }
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
@@ -2040,223 +2036,6 @@ function devoGHClose() {
 
 
 //*-----------------------------------------------------------------------------
-//* devoGHTOC(namedParams)
-//* 
-//* Inject the HTML content for the TOC entry of the Daily Devotion.
-//* 
-//* This macro should be used with the normal Pre Process Tag (M{).
-//* 
-//* Parms:
-//*   - namedParams: a comprehensive structure that describes necessary aspects of the Daily Devotional.
-//*                  Please refer to the README for details.
-//* 
-//* Custom Tag:
-//*   M{ devoGHTOC(`{ various-options-see-README }`) }M
-//* 
-//* Replaced With:
-//*   ALL content neede for the TOC devotion entry
-//*-----------------------------------------------------------------------------
-// ?? OBSOLETE
-function devoGHTOC(namedParams={}) {
-
-  // parameter validation
-  const self       = `devoGHTOC(...)`;
-  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
-
-  // ... verify we are using named parameters
-  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
-  // extract each parameter
-  let {
-    publicationDate,
-    topic,
-    verse,
-    verseRef,
-    layout='DEVO',
-    ...unknownNamedArgs
-  } = namedParams;
-
-  // ... publicationDate
-  checkParam(publicationDate,           'publicationDate is required');
-  checkParam(isString(publicationDate), `publicationDate must be a string: 'Day mm/dd/yyyy'`);
-  // ... must be of this format: `Day mm/dd/yyyy`
-  checkParam(/^(Sun|Mon|Tue|Wed|Thu|Fri|Sat) \d{2}\/\d{2}\/\d{4}$/.test(publicationDate), `publicationDate ('${publicationDate}') is NOT a valid format: 'Day mm/dd/yyyy' ... EX: 'Sat 02/28/2026')`);
-
-  // ... topic
-  checkParam(topic,                         'topic is required');
-  checkParam(isString(topic),               'topic must be a string (the devotion topic)');
-
-  // ... verse
-  checkParam(verse,                         'verse is required');
-  checkParam(isString(verse),               'verse must be a string (the verse label - EX: `Luke 17:28-30`)');
-
-  // ... verseRef
-  checkParam(verseRef,                      'verseRef is required');
-  checkParam(isString(verseRef),            'verseRef must be a string (the verse YouVersion reference code - EX: `luk.17.28-30`');
-
-  // ... layout
-  checkParam(isString(layout), `layout (when supplied) must be a string ('DEVO/BTB/SERMON') DEFAULT: 'DEVO'`);
-  let btbContext          = ''; // ... handle optional BTB context 'BTB##context' ... where btbContext is 'scripture@@SCRIPTURE##TEXT'
-  let btbContextDirective = 'FromDevoContent';
-  let btbContextScripture = '';
-  let btbContextText      = '';
-  if (layout.startsWith('BTB:') ) {
-    btbContext = layout.slice('BTB:'.length);
-    layout = 'BTB';
-  }
-  if (btbContext) { // further breakdown btbContext
-    [btbContextDirective, btbContextScripture, btbContextText] = btbContext.split('##');
-  }
-  checkParam(['DEVO', 'BTB', 'SERMON'].includes(layout), `layout (when supplied) must be one of the following ('DEVO/BTB/SERMON'), NOT: '${layout}'`);
-  checkParam(['FromDevoSermon', 'FromDevoContent'].includes(btbContextDirective), `BTB:{directive} (when supplied) must be one of the following ('FromDevoSermon/FromDevoContent'), NOT: '${btbContextDirective}'`);
-  // CONSIDER: validating that `btbContextScripture` is a different book than `verseRef` ... technically we would render this, but seems innappropriate ... kinda hard
-  
-  // ... unrecognized named parameter
-  const unknownArgKeys = Object.keys(unknownNamedArgs);
-  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
-  // ... unrecognized positional parameter
-  //     NOTE:  When defaulting entire struct, arguments.length is 0
-  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
-  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
-  //            PUNT ON THIS - not all that big of a deal
-  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
-
-  // extract our devoKey & pageUp link
-  const [, datePortion] = publicationDate.split(" ");
-  const [mm, dd, yyyy]  = datePortion.split("/");
-  const devoKey         = `devo${yyyy}${mm}${dd}`;
-
-  // expand our customTag as follows
-  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
-  //                UNLESS the cr/lf is placed BEFORE IT!
-  //                ... I have NO IDEA WHY :-(
-  //                ... BOTTOM LINE: KEEP the cr/lf in place!
-  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
-  let content = ``;
-  // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
-  // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
-
-  // ???$$ CUR RETRO POINT (apply this logic to new expandDevoGHEntry() ********************************************************************************
-  // spawn the different layouts
-  if (layout === 'BTB') { // "by the book" entry
-
-    if (btbContext) { // "by the book" entry with ADDITIONAL CONTEXT (either devo has different scripture book, or a related sermon entry)
-      // our context scripture reference (different from verseRef)
-      const btbContextVerseLink = bibleLink(btbContextScripture);
-      content += `${btbContextVerseLink}\n`;
-
-      // >>> NOT NEEDED, since next section removed
-      //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-      //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-
-      // our devotion scripture reference
-      // >>> TO MUCH ... use the context scripture reference [above] (different from verseRef)
-      //? const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-      //? content += `${devoVerseLink}\n`;
-      
-      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-
-      // ADDITIONAL CONTEXT - Prefixed with less context (more concise)
-      // ... FromDevoSermon: (via related sermon:   "Standing Strong in a Wayward World")
-      // ... FromDevoContent (via devotion content: "Ananias and Sapphira")
-      // KJB: We use a VERY SIMPLE "Tool Tip" approach using the `title` property - THE BROWSER DOES ALL THE WORK: showing tip on hover events :-)
-      //      ... supplemented with a simple JavaScript dialog (onclick) in support of Cell Phone (which does NOT support hover events)
-      let devoContext = btbContextDirective === 'FromDevoSermon' ? `per devotion sermon` : `per devotion content`;
-      if (btbContextText) { // ... when more context text is supplied, utilize a tool-tip to display it (because of real-estate restrictions)
-        // ?? TEMP crude alert (for proof-of-concept) <<< THIS WORKS
-        //    ??$$ SIMPLY replace this with a tiny positioned div ... see: temp.highlightExtraInfo.txt
-        devoContext = `<span title="${btbContextText}" onclick="alert(this.title)" style="cursor:pointer;">${devoContext} ⓘ ️</span>`;
-      }
-
-      // the devotional context, with tool-tip hover of btbContextText (because of real-estate restrictions)
-      // ... EX: `per devotion content ⓘ ...`
-      content += `<i>${devoContext} ... </i>`;
-      
-      // KEY: the devotion TOC link
-      content += `<a href="${devoKey}.html">${topic}</a> `;
-      
-      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-      
-      // the completion checkbox for this devo
-      // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-      content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
-    }
-
-    else { // a regular "by the book" entry ... with NO ADDITIONAL CONTEXT
-      // our devotion scripture reference
-      const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-      content += `${devoVerseLink}\n`;
-      
-      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-      
-      // the devotion TOC link
-      content += `<a href="${devoKey}.html">${topic}</a>`;
-      
-      content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-      content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-      
-      // the completion checkbox for this devo
-      // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-      content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
-    }
-  }
-  else if (layout === 'SERMON') { // a SERMON entry (used internally by sermonSeries.relatedDevotions macro)
-
-    // provide a distinct visual seperator
-    content += `Related Devotion: `;
-
-    // our devotion scripture reference
-    // >>> TOO MUCH (leave out)
-    //? const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-    //? content += `${devoVerseLink}\n`;
-
-    // >>> NOT NEEDED, since next section removed
-    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-
-    // the devotion TOC link
-    content += `<a href="${devoKey}.html">${topic}</a>`;
-
-    // >>> NOT NEEDED, since next section removed
-    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
-    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
-
-    // the completion checkbox for this devo
-    // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-    // >>> TOO MUCH (leave out)
-    //? content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
-  }
-  else { // our main DEVO entry (layout === 'DEVO') ... the MAIN devo TOC (ex: devo2026.md)
-    // the completion checkbox for this devo
-    // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-    content += completedCheckBox(`${devoKey}@@ ${publicationDate}\n`);
-
-    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`; // ... responsive cr/lf for phone
-    content += `<span class="desktop-inline"> • </span>\n`;                         // ... responsive '•' seperator for desktop
-
-    // the devotion TOC link
-    content += `<a href="${devoKey}.html">${topic}</a>\n`;
-    
-    content += `<span class="desktop-inline"> • </span>\n`;                         // ... responsive '•' seperator for desktop
-    content += `<span class="phone-inline"><br/>&nbsp;&nbsp;&nbsp;&nbsp;</span>\n`; // ... responsive cr/lf for phone
-
-    // our devotion scripture reference
-    const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
-    content += `${devoVerseLink}`; // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
-  }
-
-  // diagnostic comment
-  // NOTE: We NIX this diagnostic ALLOWING our contained markdown list to behave properly
-  // content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
-
-  // that's all folks!
-  return content;
-}
-
-
-//*-----------------------------------------------------------------------------
 //* devoGHSeries(namedParams)
 //* 
 //* A comprehensive and responsive table generator for our Daily Devotion TOC entries.
@@ -2270,9 +2049,7 @@ function devoGHTOC(namedParams={}) {
 //* 
 //* Replaced With:
 //*   <table> ... TOC devotion entries ... snip snip ... </table>
-
 //*-----------------------------------------------------------------------------
-// ?? NEW
 function devoGHSeries(namedParams={}) {
 
   // parameter validation
@@ -2312,7 +2089,6 @@ function devoGHSeries(namedParams={}) {
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   let content = ``;
   content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
-  // ??$$ may need to handle NO RESPONSIVE (when single table used for ALL
   ['phone', 'desktop'].forEach( (cssClass) => {
     content += expandDevoGHSeries(layout, entries, checkParam, cssClass);
   });
@@ -2321,7 +2097,6 @@ function devoGHSeries(namedParams={}) {
 }
 
 // internal helper: expand the entire <table> for the supplied entries
-// ?? NEW
 function expandDevoGHSeries(layout, entries, checkParam, styleClass) {
 
   //console.log(`XX expandDevoGHSeries() ... layout: '${layout}'`);
@@ -2331,7 +2106,6 @@ function expandDevoGHSeries(layout, entries, checkParam, styleClass) {
   // open our html container (responsively styled to device size)
   content += `<div class="${styleClass}"><table>`;
 
-  // ?? NOTE: we have NO NEED for entryNum or divider (ommitted)
   // iterrate over each entry, expanding it's content
   entries.forEach( (entry, indx) => {
     content += expandDevoGHEntry(layout, entry, checkParam, styleClass);
@@ -2345,8 +2119,10 @@ function expandDevoGHSeries(layout, entries, checkParam, styleClass) {
 }
 
 // internal helper: expand the <tr>/<td> items for the supplied entry
-// ?? NEW
 function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClass: 'phone'/'desktop'
+
+  // parameter validation
+  const self       = `expandDevoGHEntry(...)`;
 
   const vertical = styleClass === 'phone';
 
@@ -2354,7 +2130,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
   // ... must be an object
   checkParam(isPlainObject(entry), `entry must be an object`);
   // extract each entry property
-  const { // ?? may have to be let (if we change one of these)
+  const {
     publicationDate,
     topic,
     verse,
@@ -2392,16 +2168,6 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
   checkParam(['FromDevoSermon', 'FromDevoContent'].includes(btbContextDirective), `BTB {directive} (when supplied) must be one of the following ('FromDevoSermon/FromDevoContent'), NOT: '${btbContextDirective}'`);
   // CONSIDER: validating that `btbContextScripture` is a different book than `verseRef` ... technically we would render this, but seems innappropriate ... kinda hard
 
-  // ... unrecognized named parameter
-  const unknownArgKeys = Object.keys(unknownNamedArgs);
-  checkParam(unknownArgKeys.length === 0,  `unrecognized named parameter(s): ${unknownArgKeys}`);
-  // ... unrecognized positional parameter
-  //     NOTE:  When defaulting entire struct, arguments.length is 0
-  //     ISSUE: In our specific customTag case, our eval() [above] will return the last arg of positional params
-  //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
-  //            PUNT ON THIS - not all that big of a deal
-  checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
-
   // extract our devoKey
   const [, datePortion] = publicationDate.split(" ");
   const [mm, dd, yyyy]  = datePortion.split("/");
@@ -2412,22 +2178,151 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
   //                UNLESS the cr/lf is placed BEFORE IT!
   //                ... I have NO IDEA WHY :-(
   //                ... BOTTOM LINE: KEEP the cr/lf in place!
-  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : ''; // ?? I don't think we have a `self`
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   let content = ``;
   // NOTE: We NIX this diagnostic ALLOWING our table structure to behave properly 
-  // ?? I suspect we can do this ... but we don't have a `self`
+  //       I suspect we can do this ... just never tried
   // content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
-  // ???$$ retrofit function ********************************************************************************
   // spawn the different layouts
+  // ... what we have to display
+  //     layout:              'BTB/SERMON/DEVO'
+  //     publicationDate:     'Thu 06/04/2026'
+  //     topic:               'Faithful Unto Death'
+  //     verse:               'Acts 7:55'
+  //     verseRef:            'act.7.55'
+  //     btbContext:          '' OR 'btbContextDirective##btbContextScripture##btbContextText'
+  //     btbContextDirective: 'FromDevoSermon/FromDevoContent'
+  //     btbContextScripture: 'luk.16.19-31##Luke 16:19-31'
+  //     btbContextText:      'Life After Death'
+  // ... what we can do with tables
+  //       content += `<tr>`; // ... start table row
+  //       content += `<td>`; // ... start table col
+  //       content += lineBreakOnSignificant(xyz) ...
+  //       content += vertical ? `<br/>` : `</td><td>`; // a vertical layout uses a simple line-feed (within the same cell)
+
   if (layout === 'BTB') { // "by the book" entry
-    // ??????????????
+
+    let promotedVerse     = bibleLink(`${verseRef}@@${verse}`);
+    let additionalContext = '';
+
+    // "by the book" entry promotes slightly different info
+    if (btbContext) {
+      // ... the scripture from the btbContext
+      promotedVerse = bibleLink(btbContextScripture); // ... promote the verse from our additional context
+
+      // ... additional text (either context-text or related sermon-title)
+//    additionalContext += `<br/>`; // ... this is conditional (with the <div> injection (below)
+      additionalContext += btbContextDirective === 'FromDevoSermon' ? `<i>from devotion sermon:</i>` : `<i>from devotion content:</i>`;
+      additionalContext += `<br/>${btbContextText}`;
+    }
+
+    // ... our table row
+    content += `<tr>`;
+
+    // ... first column
+    //     NOTE: the div checkbox-indent class indents subsequent lines, for the single column cell-phone rendition
+    content += `<td><div class="checkbox-indent">`;
+
+    // Our Scripture Reference
+    content += promotedVerse;
+
+    // ... responsive design 
+    if (vertical) { // ... line-breaks for cell phone
+      content += `<br/>`;
+    }
+    else { // ... second column for laptop
+      content += `</div></td><td><div class="checkbox-indent">`;
+    }
+
+    // Completion Checkbox WITH Publication Date
+    content += completedCheckBox(devoKey);
+
+    // Devotion Link
+    content += ` <a href="${devoKey}.html">${topic}</a>`;
+
+    // ... responsive design
+    if (vertical) { //  ... additional indentation for cell-phone ... for any Additional Context
+      content += `</div><div style="padding-left: 40px;">`; // ... we close out the checkbox-indent <div> and open a new <div> doubling it's indentation
+    }
+    else {
+      content += `<br/>`;
+    }
+
+    // Additional Context (from btbContext)
+    content += additionalContext;
+
+    // ... close out our open table column
+    content += `</div></td>`;
+    
+    // ... close out our table row
+    content += `</tr>`;
   }
-  else if (layout === 'SERMON') { // a SERMON entry (used internally by sermonSeries.relatedDevotions macro) ?? have to retrofit this
-    // ??????????????
+
+  else if (layout === 'SERMON') { // a SERMON entry (used internally - see NOTE below)
+
+    // NOTE: this layout is used INTERNALLY by sermonSeries.relatedDevotions macro
+    //       - BECAUSE this routine has all knowledge of the devotion `entry`
+    //       - In this context, we are NOT generating a table entry,
+    //       - rather a simple structure embedded in the sermonSeries
+    //         EXAMPLE: "Related Devotion: The Lord Who Hears"
+
+    // provide a distinct visual seperator
+    content += `Related Devotion: `;
+
+    // our devotion scripture reference
+    // >>> TOO MUCH (leave out)
+    //? const devoVerseLink = bibleLink(`${verseRef}@@${verse}`);
+    //? content += `${devoVerseLink}\n`;
+
+    // >>> NOT NEEDED, since next section removed
+    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+
+    // the devotion TOC link
+    content += `<a href="${devoKey}.html">${topic}</a>`;
+
+    // >>> NOT NEEDED, since next section removed
+    //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
+    //? content += `<span class="desktop-inline"> • </span>\n`; // ... responsive '•' seperator for desktop
+
+    // the completion checkbox for this devo
+    // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
+    // >>> TOO MUCH (leave out)
+    //? content += completedCheckBox(`${devoKey}@@ ${publicationDate}`); // NOTE: We OMIT ending cr/lf ALLOWING our contained markdown list to behave properly
   }
+
   else { // our main DEVO entry (layout === 'DEVO') ... the MAIN devo TOC (ex: devo2026.md)
-    // ??????????????
+
+    // ... our table row
+    //     NOTE: we gen a unique id of our DOM structure being reflexively displayed
+    //           ... this allows our fw.goToMyNextDevotion() to operate properly
+    content += `<tr id="${devoKey}-${styleClass}">`; // styleClass: 'phone'/'desktop'
+
+    // ... first column
+    //     NOTE: the div checkbox-indent class indents subsequent lines, for the single column cell-phone rendition
+    content += `<td><div class="checkbox-indent">`;
+
+    // Completion Checkbox WITH Publication Date
+    content += completedCheckBox(`${devoKey}@@ ${publicationDate}`);
+
+    // ... OPTIONAL second column -or- line break ... reflexive design
+    content += vertical ? `<br/>` : `</div></td><td><div>`;
+
+    // Devotion Link
+    content += ` <a href="${devoKey}.html">${topic}</a>`;
+
+    // ... OPTIONAL third column -or- line break ... reflexive design
+    content += vertical ? `<br/>` : `</div></td><td><div>`;
+
+    // Devotion Scripture Reference
+    content += bibleLink(`${verseRef}@@${verse}`);
+
+    // ... close out our open table column
+    content += `</div></td>`;
+    
+    // ... close out our table row
+    content += `</tr>`;
   }
 
   // diagnostic comment
@@ -2436,7 +2331,4 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
 
   // that's all folks!
   return content;
-
-  // ????? THINK WE ARE DONE WITH THIS:
-  // ??$$ pull in sermonSeries() infrastructure <<< NO: settings RATHER: layout <<< NO: sermon RATHER: devotion ********************************************************************************
 }

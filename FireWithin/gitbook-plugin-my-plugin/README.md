@@ -19,7 +19,6 @@
   - [devoGHStart()]
   - [devoGHEnd()]
   - [devoGHClose()]
-  - [devoGHTOC()]
   - [devoGHSeries()]
 - [Activation]
 - [Local Plugin]
@@ -193,7 +192,6 @@ The following **Custom Tags** are available:
 - [devoGHStart()]
 - [devoGHEnd()]
 - [devoGHClose()]
-- [devoGHTOC()]
 - [devoGHSeries()]
 
 
@@ -440,12 +438,11 @@ content of an entire sermon series.
                              // - `DeepDive:ytHash@@desc[##ytHash@@desc...]` - SPECIAL CHOSEN PROCESSOR
                              //                                                replace date entry with one or more "Deep Dive" YouTube video links
         relatedDevotions: [  // provide 1-or-more Related Devotions to this given sermon entry
-          {
+          {                  // ... this is a standard devotion entry, used by our devoGHSeries() macro
              publicationDate: `Mon 05/18/2026`,
              topic:           `Standing Firm in a Confused World`,
              verse:           `Romans 12:2`,
              verseRef:        `rom.12.2`,
-             layout:          `SERMON`,
           },
         ],
       },
@@ -905,37 +902,7 @@ This macro should be used with the Post Process Tag (`P{`), just like the
 **API**: `devoGHClose()`
 
 
-### devoGHTOC()
-
-?? OBSOLETE (eventually)
-
-Inject the HTML content for the TOC entry of the Daily Devotion.
-
-This macro should be used with the normal Pre Process Tag (`M{`).
-
-* namedParams: a structure that describes the partial aspects of the Daily Devotional.
-
-  ```js
-  {
-    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
-                                                    // ... EX: `Sat 02/28/2026`
-    topic:               `devotion topic here`,     // devotion topic
-    verse:               `Luke 17:28-30`,           // verse label
-    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
-    layout:              `{layout-ops}`, // define the LAYOUT of this TOC entry ... use one of following:
-                                         // DEVO ... the standard format of the top-level devotional page (the DEFAULT when ommitted]
-                                         // BTB  ... emit a "by the book" format, placing the scripture FIRST (supporting order/search by scripture)
-                                         // BTB:FromDevoSermon##scripture8@@SCRIPTURE##RELATED-SERMON-TITLE ... emit "by the book" QUALIFIED for "Related Sermon"
-                                         // BTB:FromDevoContent##scripture@@SCRIPTURE##MORE-CONTEXT-TITLE   ... emit "by the book" QUALIFIED for "Devotion Content"
-                                         // SERMON ... used internally by sermonSeries() macro ... relatedDevotions property
-  }
-
-  ```
-
-
 ### devoGHSeries()
-
-?? NEW
 
 **API**: `devoGHSeries(namedParams)`
 
@@ -952,8 +919,6 @@ A comprehensive and responsive table generator for our Daily Devotion TOC entrie
                           // - 'BTB'  ... emit a "by the book" format, placing the scripture FIRST (supporting order/search by scripture)
     entries: [ // series entries (in order of display)
       { // individual entry
-        divider:          string,   // ?? DO WE WANT THIS?            SPECIAL CASE: divider label entry (when used only param needed)
-
         publicationDate:  `Day mm/dd/yyyy`,          // devotion publication date label
                                                      // ... EX: `Sat 02/28/2026`
         topic:            `devotion topic here`,     // devotion topic
@@ -1073,7 +1038,6 @@ attempted it.  It would require some additional research, for example:
   [devoGHStart()]:        #devoghstart
   [devoGHEnd()]:          #devoghend
   [devoGHClose()]:        #devoghclose
-  [devoGHTOC()]:          #devoghtoc
   [devoGHSeries()]:       #devoghseries
 
 [Activation]:     #activation
