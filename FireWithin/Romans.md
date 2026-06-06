@@ -115,6 +115,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse: 'Romans 5:3',    verseRef: 'rom.5.3',    },
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
+     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',  verseRef: 'rom.10.12',  },
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',   verseRef: 'rom.12.2',   },
      { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: 'Romans 12:19',  verseRef: 'rom.12.19',  },
      { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse: 'Romans 12:21',  verseRef: 'rom.12.21',  },

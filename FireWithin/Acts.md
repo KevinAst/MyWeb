@@ -135,6 +135,8 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                         verse: 'Acts 7:55',           verseRef: 'act.7.55', },
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                       verse: 'Hebrews 12:15',       verseRef: 'heb.12.15',   
                                            btbContext: 'FromDevoSermon##act.8@@Acts 8##From Bitter to Better', },
+     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                          verse: 'Romans 10:12',        verseRef: 'rom.10.12',  
+                                           btbContext: 'FromDevoContent##act.10@@Acts 10##Peter and Cornelius', },
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: 'Isaiah 55:8-9',       verseRef: 'isa.55.8-9',  
                                            btbContext: 'FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God', },
      { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse: 'Acts 14:22',          verseRef: 'act.14.22', },
