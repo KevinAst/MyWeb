@@ -102,27 +102,16 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 05/19/2026',
-       topic:               'The Lamb Who Was Given',
-       verse:               'John 1:29',
-       verseRef:            'jhn.1.29',
-       layout:              'BTB:FromDevoContent##exo.12@@Exodus 12##The First Passover',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/07/2026',
-       topic:               'Covered by the Blood',
-       verse:               'Exodus 12:13',
-       verseRef:            'exo.12.13',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/08/2026',
-       topic:               'Life Through the Spirit',
-       verse:               '2 Corinthians 3:6',
-       verseRef:            '2co.3.6',
-       layout:              'BTB:FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament'
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',   verse: 'John 1:29',          verseRef: 'jhn.1.29',   
+                                           btbContext: 'FromDevoContent##exo.12@@Exodus 12##The First Passover', },
+     { publicationDate: 'Tue 04/07/2026',  topic: 'Covered by the Blood',     verse: 'Exodus 12:13',       verseRef: 'exo.12.13',  },
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: '2 Corinthians 3:6',  verseRef: '2co.3.6',    
+                                           btbContext: 'FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament' },
+   ]
+}) }M
 
 
 

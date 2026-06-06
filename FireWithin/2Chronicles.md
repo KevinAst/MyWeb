@@ -115,20 +115,15 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/15/2026',
-       topic:               'Humble Hearts Before God',
-       verse:               'Psalms 51:17',
-       verseRef:            'psa.51.17',
-       layout:              'BTB:FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 05/07/2026',
-       topic:               'A Deeper Walk With God',
-       verse:               'Jeremiah 33:3',
-       verseRef:            'jer.33.3',
-       layout:              'BTB:FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: 'Psalms 51:17',   verseRef: 'psa.51.17',
+                                           btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',    verse: 'Jeremiah 33:3',  verseRef: 'jer.33.3',
+                                           btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
+   ]
+}) }M
 
 
 

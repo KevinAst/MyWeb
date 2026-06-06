@@ -92,13 +92,13 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/15/2026',
-       topic:               'Worship from a Grateful Heart',
-       verse:               'Colossians 3:23',
-       verseRef:            'col.3.23',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',  verse: 'Colossians 3:23',  verseRef: 'col.3.23',  },
+   ]
+}) }M
+
 
 
 ## 2010 Colossians Series (Sundays)

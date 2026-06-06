@@ -103,48 +103,24 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/25/2026',
-       topic:               'Mercy Instead of Revenge',
-       verse:               'Romans 12:19',
-       verseRef:            'rom.12.19',
-       layout:              'BTB:FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/27/2026',
-       topic:               'The Right Way to Honor God',
-       verse:               'Proverbs 9:10',
-       verseRef:            'pro.9.10',
-       layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/31/2026',
-       topic:               'The Presence of the Lord',
-       verse:               'Psalms 24:3-4',
-       verseRef:            'psa.24.3-4',
-       layout:              'BTB:FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 06/02/2026',
-       topic:               'The King’s Mercy',
-       verse:               'Titus 3:4-5',
-       verseRef:            'tit.3.4-5',
-       layout:              `BTB:FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 06/05/2026',
-       topic:               'Strength Through One Another',
-       verse:               'Galatians 6:2',
-       verseRef:            'gal.6.2',
-       layout:              'BTB:FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 02/27/2026',
-       topic:               'Wisdom for a Life of Order',
-       verse:               '1 Corinthians 14:33',
-       verseRef:            '1co.14.33',
-       layout:              'BTB:FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',      verse: 'Romans 12:19',         verseRef: 'rom.12.19',  
+                                           btbContext: 'FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies', },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',    verse: 'Proverbs 9:10',        verseRef: 'pro.9.10',   
+                                           btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',      verse: 'Psalms 24:3-4',        verseRef: 'psa.24.3-4', 
+                                           btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',              verse: 'Titus 3:4-5',          verseRef: 'tit.3.4-5',  
+                                           btbContext: `FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`, },
+     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',  verse: 'Galatians 6:2',        verseRef: 'gal.6.2',    
+                                           btbContext: 'FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together', },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: '1 Corinthians 14:33',  verseRef: '1co.14.33',  
+                                           btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
+   ]
+}) }M
+
 
 
 ## 2014 2 Samuel Series (Sundays)

@@ -102,104 +102,29 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/31/2026',
-       topic:               'Pouring Out the Soul Before God',
-       verse:               '1 Samuel 1:10',
-       verseRef:            '1sa.1.10',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 02/22/2026',
-       topic:               'The Lord Who Hears',
-       verse:               '1 Samuel 1:11',
-       verseRef:            '1sa.1.11',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 04/12/2026',
-       topic:               'Return to the Lord with All Your Heart',
-       verse:               '1 Samuel 7:3',
-       verseRef:            '1sa.7.3',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/16/2026',
-       topic:               'Return to Your First Love',
-       verse:               '1 Samuel 12:22',
-       verseRef:            '1sa.12.22',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/25/2026',
-       topic:               'Mercy Instead of Revenge',
-       verse:               'Romans 12:19',
-       verseRef:            'rom.12.19',
-       layout:              'BTB:FromDevoContent##1sa.14@@1 Samuel 14,17,26##David and Abner — From Opponents to Allies',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/22/2026',
-       topic:               'Obedience Without Excuse',
-       verse:               '1 Samuel 15:22',
-       verseRef:            '1sa.15.22',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/24/2026',
-       topic:               'To Obey Is Better',
-       verse:               '1 Samuel 15:22',
-       verseRef:            '1sa.15.22',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/03/2026',
-       topic:               'The Strength to Restrain',
-       verse:               'Proverbs 20:22',
-       verseRef:            'pro.20.22',
-       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-26##David - Restraint and Trust in God',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/09/2026',
-       topic:               'God Our Refuge',
-       verse:               'Psalms 56:3',
-       verseRef:            'psa.56.3',
-       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-30##David’s Journey of Trust',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/11/2026',
-       topic:               'Waiting in the Wilderness',
-       verse:               'Psalms 40:1',
-       verseRef:            'psa.40.1',
-       layout:              'BTB:FromDevoContent##1sa.16@@1 Samuel 16-26##David’s Wilderness Waiting',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/14/2026',
-       topic:               'The Heart God Sees',
-       verse:               '1 Samuel 16:7',
-       verseRef:            '1sa.16.7',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 04/26/2026',
-       topic:               'A Heart Known by God',
-       verse:               '1 Samuel 16:7',
-       verseRef:            '1sa.16.7',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/28/2026',
-       topic:               'The Battle Belongs to the Lord',
-       verse:               '1 Samuel 17:47',
-       verseRef:            '1sa.17.47',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/17/2026',
-       topic:               'Strengthened in the Lord',
-       verse:               '1 Samuel 30:6',
-       verseRef:            '1sa.30.6',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 03/31/2026',  topic: 'Pouring Out the Soul Before God',         verse: '1 Samuel 1:10',   verseRef: '1sa.1.10',   },
+     { publicationDate: 'Sun 02/22/2026',  topic: 'The Lord Who Hears',                      verse: '1 Samuel 1:11',   verseRef: '1sa.1.11',   },
+     { publicationDate: 'Sun 04/12/2026',  topic: 'Return to the Lord with All Your Heart',  verse: '1 Samuel 7:3',    verseRef: '1sa.7.3',    },
+     { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',               verse: '1 Samuel 12:22',  verseRef: '1sa.12.22',  },
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: 'Romans 12:19',    verseRef: 'rom.12.19',  
+                                           btbContext: 'FromDevoContent##1sa.14@@1 Samuel 14,17,26##David and Abner — From Opponents to Allies', },
+     { publicationDate: 'Wed 04/22/2026',  topic: 'Obedience Without Excuse',                verse: '1 Samuel 15:22',  verseRef: '1sa.15.22',  },
+     { publicationDate: 'Fri 04/24/2026',  topic: 'To Obey Is Better',                       verse: '1 Samuel 15:22',  verseRef: '1sa.15.22',  },
+     { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',                verse: 'Proverbs 20:22',  verseRef: 'pro.20.22',  
+                                           btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-26##David - Restraint and Trust in God', },
+     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                          verse: 'Psalms 56:3',     verseRef: 'psa.56.3',   
+                                           btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-30##David’s Journey of Trust', },
+     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',               verse: 'Psalms 40:1',     verseRef: 'psa.40.1',   
+                                           btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-26##David’s Wilderness Waiting', },
+     { publicationDate: 'Tue 04/14/2026',  topic: 'The Heart God Sees',                      verse: '1 Samuel 16:7',   verseRef: '1sa.16.7',   },
+     { publicationDate: 'Sun 04/26/2026',  topic: 'A Heart Known by God',                    verse: '1 Samuel 16:7',   verseRef: '1sa.16.7',   },
+     { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',          verse: '1 Samuel 17:47',  verseRef: '1sa.17.47',  },
+     { publicationDate: 'Sun 05/17/2026',  topic: 'Strengthened in the Lord',                verse: '1 Samuel 30:6',   verseRef: '1sa.30.6',   },
+   ]
+}) }M
 
 
 ## 2014 1 Samuel Series (Sundays)
@@ -242,14 +167,12 @@ M{ sermonSeries({
           topic:               'The Lord Who Hears',
           verse:               '1 Samuel 1:11',
           verseRef:            '1sa.1.11',
-          layout:              `SERMON`,
         },
         {
            publicationDate:     'Tue 03/31/2026',
            topic:               'Pouring Out the Soul Before God',
            verse:               '1 Samuel 1:10',
            verseRef:            '1sa.1.10',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -268,7 +191,6 @@ M{ sermonSeries({
            topic:               'Obedience Without Excuse',
            verse:               '1 Samuel 15:22',
            verseRef:            '1sa.15.22',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -279,7 +201,6 @@ M{ sermonSeries({
            topic:               'To Obey Is Better',
            verse:               '1 Samuel 15:22',
            verseRef:            '1sa.15.22',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -290,7 +211,6 @@ M{ sermonSeries({
            topic:               'A Heart Known by God',
            verse:               '1 Samuel 16:7',
            verseRef:            '1sa.16.7',
-           layout:              `SERMON`,
         },
       ],
     },

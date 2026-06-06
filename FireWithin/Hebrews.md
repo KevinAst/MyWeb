@@ -103,34 +103,15 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/30/2026',
-       topic:               'One Word One Message',
-       verse:               'Hebrews 4:12',
-       verseRef:            'heb.4.12',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 02/17/2026',
-       topic:               'From Death to Life in Christ',
-       verse:               'Hebrews 9:27',
-       verseRef:            'heb.9.27',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/01/2026',
-       topic:               'The God Who Redeems the Weak',
-       verse:               'Hebrews 11:32-33',
-       verseRef:            'heb.11.32-33',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/20/2026',
-       topic:               'From Bitter to Better',
-       verse:               'Hebrews 12:15',
-       verseRef:            'heb.12.15',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',          verse: 'Hebrews 4:12',      verseRef: 'heb.4.12',      },
+     { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',  verse: 'Hebrews 9:27',      verseRef: 'heb.9.27',      },
+     { publicationDate: 'Sun 03/01/2026',  topic: 'The God Who Redeems the Weak',  verse: 'Hebrews 11:32-33',  verseRef: 'heb.11.32-33',  },
+     { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',         verse: 'Hebrews 12:15',     verseRef: 'heb.12.15',     },
+   ]
+}) }M
 
 
 ## 2010 Hebrews Series (Sundays)

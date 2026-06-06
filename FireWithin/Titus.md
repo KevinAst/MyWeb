@@ -88,13 +88,12 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 06/02/2026',
-       topic:               'The King’s Mercy',
-       verse:               'Titus 3:4-5',
-       verseRef:            'tit.3.4-5',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',  verse: 'Titus 3:4-5',  verseRef: 'tit.3.4-5',  },
+   ]
+}) }M
 
 
 

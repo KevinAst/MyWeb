@@ -97,27 +97,14 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/19/2026',
-       topic:               'Holy Fellowship',
-       verse:               '1 Corinthians 5:11',
-       verseRef:            '1co.5.11',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/08/2026',
-       topic:               'Guarding the Heart from Small Compromises',
-       verse:               '1 Corinthians 10:12',
-       verseRef:            '1co.10.12',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 02/27/2026',
-       topic:               'Wisdom for a Life of Order',
-       verse:               '1 Corinthians 14:33',
-       verseRef:            '1co.14.33',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 03/19/2026',  topic: 'Holy Fellowship',                            verse: '1 Corinthians 5:11',   verseRef: '1co.5.11',   },
+     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse: '1 Corinthians 10:12',  verseRef: '1co.10.12',  },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',                 verse: '1 Corinthians 14:33',  verseRef: '1co.14.33',  },
+   ]
+}) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)

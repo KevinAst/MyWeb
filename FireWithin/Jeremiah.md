@@ -98,20 +98,13 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Thu 02/26/2026',
-       topic:               'Known Before We Were Formed',
-       verse:               'Jeremiah 1:5',
-       verseRef:            'jer.1.5',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 05/07/2026',
-       topic:               'A Deeper Walk With God',
-       verse:               'Jeremiah 33:3',
-       verseRef:            'jer.33.3',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse: 'Jeremiah 1:5',   verseRef: 'jer.1.5',  },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse: 'Jeremiah 33:3',  verseRef: 'jer.33.3', },
+   ]
+}) }M
 
 
 ## 2019 Jeremiah Series (Sundays)

@@ -94,111 +94,29 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 05/19/2026',
-       topic:               'The Lamb Who Was Given',
-       verse:               'John 1:29',
-       verseRef:            'jhn.1.29',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/08/2026',
-       topic:               'God Is Not to Be Used',
-       verse:               'John 4:24',
-       verseRef:            'jhn.4.24',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/09/2026',
-       topic:               'Grace That Restores and Redirects',
-       verse:               'John 8:11',
-       verseRef:            'jhn.8.11',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/13/2026',
-       topic:               'Eyes Opened by Christ',
-       verse:               'John 9:25',
-       verseRef:            'jhn.9.25',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/17/2026',
-       topic:               'Walk While You Have the Light',
-       verse:               'John 12:46',
-       verseRef:            'jhn.12.46',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/21/2026',
-       topic:               'The Pattern of Humble Service',
-       verse:               'John 13:14',
-       verseRef:            'jhn.13.14',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/16/2026',
-       topic:               'Return to Your First Love',
-       verse:               '1 Samuel 12:22',
-       verseRef:            '1sa.12.22',
-       layout:              'BTB:FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/23/2026',
-       topic:               'Love As Christ Loved',
-       verse:               'John 13:34',
-       verseRef:            'jhn.13.34',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 04/25/2026',
-       topic:               'The Way to the Father',
-       verse:               'John 14:6',
-       verseRef:            'jhn.14.6',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/29/2026',
-       topic:               'Prayer That Aligns With God',
-       verse:               'John 14:13',
-       verseRef:            'jhn.14.13',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/27/2026',
-       topic:               'The Helper Who Dwells Within',
-       verse:               'John 14:16',
-       verseRef:            'jhn.14.16',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/22/2026',
-       topic:               'Abiding in Christ',
-       verse:               'John 15:4',
-       verseRef:            'jhn.15.4',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/02/2026',
-       topic:               'One in Christ',
-       verse:               'John 17:20–21',
-       verseRef:            'jhn.17.20-21',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/04/2026',
-       topic:               'Truth Above Approval',
-       verse:               'Galatians 1:10',
-       verseRef:            'gal.1.10',
-       layout:              'BTB:FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/06/2026',
-       topic:               'The God Who Restores',
-       verse:               'Psalms 23:3',
-       verseRef:            'psa.23.3',
-       layout:              `BTB:FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',             verse: 'John 1:29',       verseRef: 'jhn.1.29',      },
+     { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',              verse: 'John 4:24',       verseRef: 'jhn.4.24',      },
+     { publicationDate: 'Thu 04/09/2026',  topic: 'Grace That Restores and Redirects',  verse: 'John 8:11',       verseRef: 'jhn.8.11',      },
+     { publicationDate: 'Mon 04/13/2026',  topic: 'Eyes Opened by Christ',              verse: 'John 9:25',       verseRef: 'jhn.9.25',      },
+     { publicationDate: 'Fri 04/17/2026',  topic: 'Walk While You Have the Light',      verse: 'John 12:46',      verseRef: 'jhn.12.46',     },
+     { publicationDate: 'Tue 04/21/2026',  topic: 'The Pattern of Humble Service',      verse: 'John 13:14',      verseRef: 'jhn.13.14',     },
+     { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: '1 Samuel 12:22',  verseRef: '1sa.12.22',     
+                                           btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
+     { publicationDate: 'Thu 04/23/2026',  topic: 'Love As Christ Loved',               verse: 'John 13:34',      verseRef: 'jhn.13.34',     },
+     { publicationDate: 'Sat 04/25/2026',  topic: 'The Way to the Father',              verse: 'John 14:6',       verseRef: 'jhn.14.6',      },
+     { publicationDate: 'Wed 04/29/2026',  topic: 'Prayer That Aligns With God',        verse: 'John 14:13',      verseRef: 'jhn.14.13',     },
+     { publicationDate: 'Mon 04/27/2026',  topic: 'The Helper Who Dwells Within',       verse: 'John 14:16',      verseRef: 'jhn.14.16',     },
+     { publicationDate: 'Sun 03/22/2026',  topic: 'Abiding in Christ',                  verse: 'John 15:4',       verseRef: 'jhn.15.4',      },
+     { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                      verse: 'John 17:20–21',   verseRef: 'jhn.17.20-21',  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',               verse: 'Galatians 1:10',  verseRef: 'gal.1.10',      
+                                           btbContext: 'FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',  },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',               verse: 'Psalms 23:3',     verseRef: 'psa.23.3',      
+                                           btbContext: `FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`,  },
+   ]
+}) }M
 
 
 
@@ -262,7 +180,6 @@ M{ sermonSeries({
            topic:               'Walk While You Have the Light',
            verse:               'John 12:46',
            verseRef:            'jhn.12.46',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -275,7 +192,6 @@ M{ sermonSeries({
            topic:               'Return to Your First Love',
            verse:               '1 Samuel 12:22',
            verseRef:            '1sa.12.22',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -286,7 +202,6 @@ M{ sermonSeries({
            topic:               'The Way to the Father',
            verse:               'John 14:6',
            verseRef:            'jhn.14.6',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -298,7 +213,6 @@ M{ sermonSeries({
            topic:               'The Helper Who Dwells Within',
            verse:               'John 14:16',
            verseRef:            'jhn.14.16',
-           layout:              `SERMON`,
         },
       ],
     },

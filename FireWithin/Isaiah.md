@@ -100,27 +100,15 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/16/2026',
-       topic:               'The Prince of Peace and the Sword',
-       verse:               'Isaiah 9:6',
-       verseRef:            'isa.9.6',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/20/2026',
-       topic:               'Waiting in Trust',
-       verse:               'Psalms 27:14',
-       verseRef:            'psa.27.14',
-       layout:              'BTB:FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 06/01/2026',
-       topic:               'Trusting the Lord When We Do Not Understand',
-       verse:               'Isaiah 55:8-9',
-       verseRef:            'isa.55.8-9',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse: 'Isaiah 9:6',     verseRef: 'isa.9.6',     },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   
+                                           btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
+     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: 'Isaiah 55:8-9',  verseRef: 'isa.55.8-9',  },
+   ]
+}) }M
 
 
 ## 2018 Isaiah Series (Sundays)
@@ -143,7 +131,6 @@ M{ sermonSeries({
            topic:               'Waiting in Trust',
            verse:               'Psalms 27:14',
            verseRef:            'psa.27.14',
-           layout:              `SERMON`,
         },
       ],
     },

@@ -96,56 +96,19 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Fri 02/20/2026',
-       topic:               'The Gift of Salvation',
-       verse:               'Matthew 1:21',
-       verseRef:            'mat.1.21',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/01/2026',
-       topic:               'A Life That Points to the Lord',
-       verse:               'Matthew 5:16',
-       verseRef:            'mat.5.16',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/28/2026',
-       topic:               'Seeking a Godly Spouse',
-       verse:               'Matthew 6:33',
-       verseRef:            'mat.6.33',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 05/21/2026',
-       topic:               'Salvation in the Tribulation',
-       verse:               'Matthew 24:14',
-       verseRef:            'mat.24.14',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/04/2026',
-       topic:               'Truth Above Approval',
-       verse:               'Galatians 1:10',
-       verseRef:            'gal.1.10',
-       layout:              'BTB:FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/23/2026',
-       topic:               'The Empty Tomb',
-       verse:               'Matthew 28:6',
-       verseRef:            'mat.28.6',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/27/2026',
-       topic:               'Baptized in the Name of the Lord',
-       verse:               'Matthew 28:19',
-       verseRef:            'mat.28.19',
-       layout:              'BTB',
-     }) }M
-
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse: 'Matthew 1:21',    verseRef: 'mat.1.21',   },
+     { publicationDate: 'Fri 05/01/2026',  topic: 'A Life That Points to the Lord',    verse: 'Matthew 5:16',    verseRef: 'mat.5.16',   },
+     { publicationDate: 'Sat 03/28/2026',  topic: 'Seeking a Godly Spouse',            verse: 'Matthew 6:33',    verseRef: 'mat.6.33',   },
+     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',      verse: 'Matthew 24:14',   verseRef: 'mat.24.14',  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',              verse: 'Galatians 1:10',  verseRef: 'gal.1.10',   
+                                           btbContext: 'FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]', },
+     { publicationDate: 'Sat 05/23/2026',  topic: 'The Empty Tomb',                    verse: 'Matthew 28:6',    verseRef: 'mat.28.6',   },
+     { publicationDate: 'Fri 03/27/2026',  topic: 'Baptized in the Name of the Lord',  verse: 'Matthew 28:19',   verseRef: 'mat.28.19',  },
+   ]
+}) }M
 
 
 
@@ -233,7 +196,6 @@ M{ sermonSeries({
            topic:               'Salvation in the Tribulation',
            verse:               'Matthew 24:14',
            verseRef:            'mat.24.14',
-           layout:              `SERMON`,
         },
       ],
     },

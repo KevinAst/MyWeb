@@ -113,34 +113,17 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/04/2026',
-       topic:               'Truth Above Approval',
-       verse:               'Galatians 1:10',
-       verseRef:            'gal.1.10',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/02/2026',
-       topic:               'One in Christ',
-       verse:               'John 17:20–21',
-       verseRef:            'jhn.17.20-21',
-       layout:              'BTB:FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/28/2026',
-       topic:               'The Battle Belongs to the Lord',
-       verse:               '1 Samuel 17:47',
-       verseRef:            '1sa.17.47',
-       layout:              'BTB:FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 06/05/2026',
-       topic:               'Strength Through One Another',
-       verse:               'Galatians 6:2',
-       verseRef:            'gal.6.2',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse: 'Galatians 1:10',  verseRef: 'gal.1.10',      },
+     { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                   verse: 'John 17:20–21',   verseRef: 'jhn.17.20-21',  
+                                           btbContext: 'FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ', },
+     { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',  verse: '1 Samuel 17:47',  verseRef: '1sa.17.47',     
+                                           btbContext: 'FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit', },
+     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',    verse: 'Galatians 6:2',   verseRef: 'gal.6.2',       },
+   ]
+}) }M
 
 
 
@@ -194,7 +177,6 @@ M{ sermonSeries({
            topic:               'One in Christ',
            verse:               'John 17:20–21',
            verseRef:            'jhn.17.20-21',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -206,7 +188,6 @@ M{ sermonSeries({
            topic:               'The Battle Belongs to the Lord',
            verse:               '1 Samuel 17:47',
            verseRef:            '1sa.17.47',
-           layout:              `SERMON`,
         },
       ],
     },

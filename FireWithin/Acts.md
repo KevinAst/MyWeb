@@ -118,97 +118,31 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/08/2026',
-       topic:               'Life Through the Spirit',
-       verse:               '2 Corinthians 3:6',
-       verseRef:            '2co.3.6',
-       layout:              'BTB:FromDevoContent##act.1@@Acts 1-2##Pentecost Fulfillment - New Testament'
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/30/2026',
-       topic:               'Power to Be His Witness',
-       verse:               'Acts 1:8',
-       verseRef:            'act.1.8',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/06/2026',
-       topic:               'The God Who Restores',
-       verse:               'Psalms 23:3',
-       verseRef:            'psa.23.3',
-       layout:              `BTB:FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 05/12/2026',
-       topic:               'Steadfast in the Truth',
-       verse:               'Acts 2:42',
-       verseRef:            'act.2.42',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/16/2026',
-       topic:               'Walking in Holy Reverence',
-       verse:               'Proverbs 16:6',
-       verseRef:            'pro.16.6',
-       layout:              'BTB:FromDevoContent##act.5@@Acts 5##Ananias and Sapphira',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 05/14/2026',
-       topic:               'Obeying the Higher Authority',
-       verse:               'Acts 5:29',
-       verseRef:            'act.5.29',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/22/2026',
-       topic:               'Transformed by Grace',
-       verse:               '2 Corinthians 5:17',
-       verseRef:            '2co.5.17',
-       layout:              'BTB:FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 06/04/2026',
-       topic:               'Faithful Unto Death',
-       verse:               'Acts 7:55',
-       verseRef:            'act.7.55',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/20/2026',
-       topic:               'From Bitter to Better',
-       verse:               'Hebrews 12:15',
-       verseRef:            'heb.12.15',
-       layout:              'BTB:FromDevoSermon##act.8@@Acts 8##From Bitter to Better',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 06/01/2026',
-       topic:               'Trusting the Lord When We Do Not Understand',
-       verse:               'Isaiah 55:8-9',
-       verseRef:            'isa.55.8-9',
-       layout:              'BTB:FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/24/2026',
-       topic:               'Strengthened Through Trials',
-       verse:               'Acts 14:22',
-       verseRef:            'act.14.22',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 05/28/2026',
-       topic:               'Singing in the Darkness',
-       verse:               'Acts 16:25',
-       verseRef:            'act.16.25',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/30/2026',
-       topic:               'Marks of True Revival',
-       verse:               'Acts 19:20',
-       verseRef:            'act.19.20',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',                     verse: '2 Corinthians 3:6',   verseRef: '2co.3.6',     
+                                           btbContext: 'FromDevoContent##act.1@@Acts 1-2##Pentecost Fulfillment - New Testament' },
+     { publicationDate: 'Thu 04/30/2026',  topic: 'Power to Be His Witness',                     verse: 'Acts 1:8',            verseRef: 'act.1.8',  },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                        verse: 'Psalms 23:3',         verseRef: 'psa.23.3',    
+                                           btbContext: `FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`, },
+     { publicationDate: 'Tue 05/12/2026',  topic: 'Steadfast in the Truth',                      verse: 'Acts 2:42',           verseRef: 'act.2.42', },
+     { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',                   verse: 'Proverbs 16:6',       verseRef: 'pro.16.6',    
+                                           btbContext: 'FromDevoContent##act.5@@Acts 5##Ananias and Sapphira', },
+     { publicationDate: 'Thu 05/14/2026',  topic: 'Obeying the Higher Authority',                verse: 'Acts 5:29',           verseRef: 'act.5.29', },
+     { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',                        verse: '2 Corinthians 5:17',  verseRef: '2co.5.17',    
+                                           btbContext: 'FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ', },
+     { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                         verse: 'Acts 7:55',           verseRef: 'act.7.55', },
+     { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                       verse: 'Hebrews 12:15',       verseRef: 'heb.12.15',   
+                                           btbContext: 'FromDevoSermon##act.8@@Acts 8##From Bitter to Better', },
+     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: 'Isaiah 55:8-9',       verseRef: 'isa.55.8-9',  
+                                           btbContext: 'FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God', },
+     { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse: 'Acts 14:22',          verseRef: 'act.14.22', },
+     { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse: 'Acts 16:25',          verseRef: 'act.16.25', },
+     { publicationDate: 'Sat 05/30/2026',  topic: 'Marks of True Revival',                       verse: 'Acts 19:20',          verseRef: 'act.19.20', },
+   ]
+}) }M
+
 
 
 
@@ -289,7 +223,6 @@ M{ sermonSeries({
            topic:               'Steadfast in the Truth',
            verse:               'Acts 2:42',
            verseRef:            'act.2.42',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -306,7 +239,6 @@ M{ sermonSeries({
            topic:               'From Bitter to Better',
            verse:               'Hebrews 12:15',
            verseRef:            'heb.12.15',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -322,7 +254,6 @@ M{ sermonSeries({
            topic:               'Strengthened Through Trials',
            verse:               'Acts 14:22',
            verseRef:            'act.14.22',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -333,7 +264,6 @@ M{ sermonSeries({
            topic:               'Singing in the Darkness',
            verse:               'Acts 16:25',
            verseRef:            'act.16.25',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -345,7 +275,6 @@ M{ sermonSeries({
            topic:               'Marks of True Revival',
            verse:               'Acts 19:20',
            verseRef:            'act.19.20',
-           layout:              `SERMON`,
         },
       ],
     },

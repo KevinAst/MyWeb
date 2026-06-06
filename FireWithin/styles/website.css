@@ -526,3 +526,9 @@ input[id^="devo"] {
 .guest   { border-color: #d1d5db; border-left-color: #6b7280; background:#f9fafb; }
 .user    { border-color: #bbf7d0; border-left-color: #22c55e; background:#f0fdf4; }
 .signout { border-color: #fecaca; border-left-color: #ef4444; background:#fef2f2; }
+
+/*** allow a check-box to stand-out through a hanging indent approach ***/
+.checkbox-indent {
+  text-indent:  -20px; /* the first line of the entire block gets the negative indent (-20px) */
+  padding-left:  20px; /* all subsequent lines are offset by the padding-left (20px) */
+}

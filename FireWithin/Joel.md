@@ -85,13 +85,12 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/02/2026',
-       topic:               'Repentance Before Renewal',
-       verse:               'Joel 2:12',
-       verseRef:            'jol.2.12',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 04/02/2026',  topic: 'Repentance Before Renewal',  verse: 'Joel 2:12',  verseRef: 'jol.2.12',  },
+   ]
+}) }M
 
 
 ## 2012 Joel Series (Mid Week)

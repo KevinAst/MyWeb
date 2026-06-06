@@ -108,55 +108,18 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/01/2026',
-       topic:               'God Reveals Himself to All',
-       verse:               'Romans 1:20',
-       verseRef:            'rom.1.20',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/18/2026',
-       topic:               'The Grace That Covers Every Sin',
-       verse:               'Romans 3:23',
-       verseRef:            'rom.3.23',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 06/03/2026',
-       topic:               'Strength in Suffering',
-       verse:               'Romans 5:3',
-       verseRef:            'rom.5.3',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/10/2026',
-       topic:               'The Spirit Helps Our Weakness',
-       verse:               'Romans 8:26',
-       verseRef:            'rom.8.26',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/18/2026',
-       topic:               'Standing Firm in a Confused World',
-       verse:               'Romans 12:2',
-       verseRef:            'rom.12.2',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/25/2026',
-       topic:               'Mercy Instead of Revenge',
-       verse:               'Romans 12:19',
-       verseRef:            'rom.12.19',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/03/2026',
-       topic:               'Overcoming Hatred with Christlike Love',
-       verse:               'Romans 12:21',
-       verseRef:            'rom.12.21',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse: 'Romans 1:20',   verseRef: 'rom.1.20',   },
+     { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
+     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse: 'Romans 5:3',    verseRef: 'rom.5.3',    },
+     { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
+     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',   verseRef: 'rom.12.2',   },
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: 'Romans 12:19',  verseRef: 'rom.12.19',  },
+     { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse: 'Romans 12:21',  verseRef: 'rom.12.21',  },
+   ]
+}) }M
 
 
 
@@ -225,7 +188,6 @@ M{ sermonSeries({
            topic:               'God Reveals Himself to All',
            verse:               'Romans 1:20',
            verseRef:            'rom.1.20',
-           layout:              `SERMON`,
         },
       ],
     },

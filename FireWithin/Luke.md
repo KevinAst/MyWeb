@@ -104,105 +104,29 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/29/2026',
-       topic:               'Guarding Your Walk With Christ',
-       verse:               '2 Corinthians 6:14',
-       verseRef:            '2co.6.14',
-       layout:              'BTB:FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 02/24/2026',
-       topic:               'Faithful With What Belongs to God',
-       verse:               'Luke 16:13',
-       verseRef:            'luk.16.13',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 06/04/2026',
-       topic:               'Faithful Unto Death',
-       verse:               'Acts 7:55',
-       verseRef:            'act.7.55',
-       layout:              'BTB:FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 02/28/2026',
-       topic:               'Faithful in the Days of the Son of Man',
-       verse:               'Luke 17:28-30',
-       verseRef:            'luk.17.28-30',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/02/2026',
-       topic:               'Persistent Faith in Prayer',
-       verse:               'Luke 18:1',
-       verseRef:            'luk.18.1',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/05/2026',
-       topic:               'Crying Out for Mercy',
-       verse:               'Luke 18:38',
-       verseRef:            'luk.18.38',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/07/2026',
-       topic:               'When Jesus Calls Your Name',
-       verse:               'Luke 19:10',
-       verseRef:            'luk.19.10',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/09/2026',
-       topic:               'When Jesus Weeps',
-       verse:               'Luke 19:41',
-       verseRef:            'luk.19.41',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/13/2026',
-       topic:               'The God of the Living',
-       verse:               'Luke 20:38',
-       verseRef:            'luk.20.38',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/11/2026',
-       topic:               'Lift Up Your Heads',
-       verse:               'Luke 21:28',
-       verseRef:            'luk.21.28',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/10/2026',
-       topic:               'When God Says No',
-       verse:               'Luke 22:42',
-       verseRef:            'luk.22.42',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/20/2026',
-       topic:               'Repentance That Leads to Restoration',
-       verse:               'Luke 22:61–62',
-       verseRef:            'luk.22.61-62',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/06/2026',
-       topic:               'The God Who Restores',
-       verse:               'Psalms 23:3',
-       verseRef:            'psa.23.3',
-       layout:              `BTB:FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/04/2026',
-       topic:               'Truth Above Approval',
-       verse:               'Galatians 1:10',
-       verseRef:            'gal.1.10',
-       layout:              'BTB:FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]',
-     }) }M
-
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: '2 Corinthians 6:14',  verseRef: '2co.6.14',      
+                                           btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
+     { publicationDate: 'Tue 02/24/2026',  topic: 'Faithful With What Belongs to God',       verse: 'Luke 16:13',          verseRef: 'luk.16.13',     },
+     { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                     verse: 'Acts 7:55',           verseRef: 'act.7.55',      
+                                           btbContext: 'FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',  },
+     { publicationDate: 'Sat 02/28/2026',  topic: 'Faithful in the Days of the Son of Man',  verse: 'Luke 17:28-30',       verseRef: 'luk.17.28-30',  },
+     { publicationDate: 'Mon 03/02/2026',  topic: 'Persistent Faith in Prayer',              verse: 'Luke 18:1',           verseRef: 'luk.18.1',      },
+     { publicationDate: 'Thu 03/05/2026',  topic: 'Crying Out for Mercy',                    verse: 'Luke 18:38',          verseRef: 'luk.18.38',     },
+     { publicationDate: 'Sat 03/07/2026',  topic: 'When Jesus Calls Your Name',              verse: 'Luke 19:10',          verseRef: 'luk.19.10',     },
+     { publicationDate: 'Mon 03/09/2026',  topic: 'When Jesus Weeps',                        verse: 'Luke 19:41',          verseRef: 'luk.19.41',     },
+     { publicationDate: 'Fri 03/13/2026',  topic: 'The God of the Living',                   verse: 'Luke 20:38',          verseRef: 'luk.20.38',     },
+     { publicationDate: 'Wed 03/11/2026',  topic: 'Lift Up Your Heads',                      verse: 'Luke 21:28',          verseRef: 'luk.21.28',     },
+     { publicationDate: 'Fri 04/10/2026',  topic: 'When God Says No',                        verse: 'Luke 22:42',          verseRef: 'luk.22.42',     },
+     { publicationDate: 'Fri 03/20/2026',  topic: 'Repentance That Leads to Restoration',    verse: 'Luke 22:61–62',       verseRef: 'luk.22.61-62',  },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                    verse: 'Psalms 23:3',         verseRef: 'psa.23.3',      
+                                           btbContext: `FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`,  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',                    verse: 'Galatians 1:10',      verseRef: 'gal.1.10',      
+                                           btbContext: 'FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]', },
+   ]
+}) }M
 
 
 
@@ -278,7 +202,6 @@ M{ sermonSeries({
            topic:               'Guarding Your Walk With Christ',
            verse:               '2 Corinthians 6:14',
            verseRef:            '2co.6.14',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -290,7 +213,6 @@ M{ sermonSeries({
            topic:               'Faithful With What Belongs to God',
            verse:               'Luke 16:13',
            verseRef:            'luk.16.13',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -301,7 +223,6 @@ M{ sermonSeries({
            topic:               'Faithful Unto Death',
            verse:               'Acts 7:55',
            verseRef:            'act.7.55',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -313,7 +234,6 @@ M{ sermonSeries({
            topic:               'Persistent Faith in Prayer',
            verse:               'Luke 18:1',
            verseRef:            'luk.18.1',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -324,7 +244,6 @@ M{ sermonSeries({
            topic:               'Crying Out for Mercy',
            verse:               'Luke 18:38',
            verseRef:            'luk.18.38',
-           layout:              `SERMON`,
         },
       ],
     },
@@ -336,7 +255,6 @@ M{ sermonSeries({
            topic:               'When Jesus Weeps',
            verse:               'Luke 19:41',
            verseRef:            'luk.19.41',
-           layout:              `SERMON`,
         },
       ],
     },

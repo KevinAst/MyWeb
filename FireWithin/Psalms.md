@@ -94,98 +94,24 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/06/2026',
-       topic:               'The God Who Restores',
-       verse:               'Psalms 23:3',
-       verseRef:            'psa.23.3',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/31/2026',
-       topic:               'The Presence of the Lord',
-       verse:               'Psalms 24:3-4',
-       verseRef:            'psa.24.3-4',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/17/2026',
-       topic:               'Led by the Light of God’s Word',
-       verse:               'Psalms 25:4',
-       verseRef:            'psa.25.4',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/20/2026',
-       topic:               'Waiting in Trust',
-       verse:               'Psalms 27:14',
-       verseRef:            'psa.27.14',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 05/05/2026',
-       topic:               'Faithful in the Waiting',
-       verse:               'Psalms 27:14',
-       verseRef:            'psa.27.14',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/13/2026',
-       topic:               'Waiting on the Lord',
-       verse:               'Psalms 27:14',
-       verseRef:            'psa.27.14',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/06/2026',
-       topic:               'The Lord as Our True Security',
-       verse:               'Psalms 33:12',
-       verseRef:            'psa.33.12',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/11/2026',
-       topic:               'Waiting in the Wilderness',
-       verse:               'Psalms 40:1',
-       verseRef:            'psa.40.1',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 05/15/2026',
-       topic:               'Humble Hearts Before God',
-       verse:               'Psalms 51:17',
-       verseRef:            'psa.51.17',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/09/2026',
-       topic:               'God Our Refuge',
-       verse:               'Psalms 56:3',
-       verseRef:            'psa.56.3',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/26/2026',
-       topic:               'The Limits of Our Days',
-       verse:               'Psalms 90:10',
-       verseRef:            'psa.90.10',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 05/26/2026',
-       topic:               'The Lord Watches Over Israel',
-       verse:               'Psalms 121:4',
-       verseRef:            'psa.121.4',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 04/11/2026',
-       topic:               'Established in His Presence',
-       verse:               'Psalms 138:8',
-       verseRef:            'psa.138.8',
-       layout:              'BTB',
-     }) }M
-
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',            verse: 'Psalms 23:3',    verseRef: 'psa.23.3',    },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',        verse: 'Psalms 24:3-4',  verseRef: 'psa.24.3-4',  },
+     { publicationDate: 'Tue 03/17/2026',  topic: 'Led by the Light of God’s Word',  verse: 'Psalms 25:4',    verseRef: 'psa.25.4',    },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Tue 05/05/2026',  topic: 'Faithful in the Waiting',         verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Wed 05/13/2026',  topic: 'Waiting on the Lord',             verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse: 'Psalms 33:12',   verseRef: 'psa.33.12',   },
+     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse: 'Psalms 40:1',    verseRef: 'psa.40.1',    },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse: 'Psalms 51:17',   verseRef: 'psa.51.17',   },
+     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse: 'Psalms 56:3',    verseRef: 'psa.56.3',    },
+     { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse: 'Psalms 90:10',   verseRef: 'psa.90.10',   },
+     { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse: 'Psalms 121:4',   verseRef: 'psa.121.4',   },
+     { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse: 'Psalms 138:8',   verseRef: 'psa.138.8',   },
+   ]
+}) }M
 
 
 
@@ -250,7 +176,6 @@ M{ sermonSeries({
            topic:               'The Lord as Our True Security',
            verse:               'Psalms 33:12',
            verseRef:            'psa.33.12',
-           layout:              `SERMON`,
         },
       ],
     },

@@ -94,13 +94,13 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 02/25/2026',
-       topic:               'Strength in Dependence',
-       verse:               'Zechariah 4:6',
-       verseRef:            'zec.4.6',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 02/25/2026',  topic: 'Strength in Dependence',  verse: 'Zechariah 4:6',  verseRef: 'zec.4.6',  },
+   ]
+}) }M
+
 
 
 ## 2013 Zechariah Series (Mid Week)

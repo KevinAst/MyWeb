@@ -101,13 +101,13 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 05/18/2026',
-       topic:               'Standing Firm in a Confused World',
-       verse:               'Romans 12:2',
-       verseRef:            'rom.12.2',
-       layout:              `BTB:FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',  verse: 'Romans 12:2',  verseRef: 'rom.12.2',  
+                                           btbContext: `FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,  },
+   ]
+}) }M
 
 
 
@@ -149,7 +149,6 @@ M{ sermonSeries({
            topic:               `Standing Firm in a Confused World`,
            verse:               `Romans 12:2`,
            verseRef:            `rom.12.2`,
-           layout:              `SERMON`,
         },
       ],
     },

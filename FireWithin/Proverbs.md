@@ -92,41 +92,16 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/21/2026',
-       topic:               'Trusting God Beyond Bitterness',
-       verse:               'Proverbs 3:5',
-       verseRef:            'pro.3.5',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 05/27/2026',
-       topic:               'The Right Way to Honor God',
-       verse:               'Proverbs 9:10',
-       verseRef:            'pro.9.10',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 05/16/2026',
-       topic:               'Walking in Holy Reverence',
-       verse:               'Proverbs 16:6',
-       verseRef:            'pro.16.6',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 05/03/2026',
-       topic:               'The Strength to Restrain',
-       verse:               'Proverbs 20:22',
-       verseRef:            'pro.20.22',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/10/2026',
-       topic:               'Strength Without Self-Control',
-       verse:               'Proverbs 25:28',
-       verseRef:            'pro.25.28',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Sat 03/21/2026',  topic: 'Trusting God Beyond Bitterness',  verse: 'Proverbs 3:5',    verseRef: 'pro.3.5',    },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',      verse: 'Proverbs 9:10',   verseRef: 'pro.9.10',   },
+     { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',       verse: 'Proverbs 16:6',   verseRef: 'pro.16.6',   },
+     { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',        verse: 'Proverbs 20:22',  verseRef: 'pro.20.22',  },
+     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',   verse: 'Proverbs 25:28',  verseRef: 'pro.25.28',  },
+   ]
+}) }M
 
 
 ## 2017 Proverbs Series (Sundays)

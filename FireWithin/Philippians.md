@@ -92,20 +92,14 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 02/18/2026',
-       topic:               'Shining as Lights in a Crooked Generation',
-       verse:               'Philippians 2:14–15',
-       verseRef:            'php.2.14-15',
-       layout:              'BTB',
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 06/03/2026',
-       topic:               'Strength in Suffering',
-       verse:               'Romans 5:3',
-       verseRef:            'rom.5.3',
-       layout:              'BTB:FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 02/18/2026',  topic: 'Shining as Lights in a Crooked Generation',  verse: 'Philippians 2:14–15',  verseRef: 'php.2.14-15',  },
+     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: 'Romans 5:3',           verseRef: 'rom.5.3',      
+                                           btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },
+   ]
+}) }M
 
 
 ## 2010 Philippians Series (Sundays)
@@ -158,7 +152,6 @@ M{ sermonSeries({
           topic:               'Shining as Lights in a Crooked Generation',
           verse:               'Philippians 2:14–15',
           verseRef:            'php.2.14-15',
-          layout:              `SERMON`,
         },
       ],
     },

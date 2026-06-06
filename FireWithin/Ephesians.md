@@ -95,13 +95,12 @@ P{ collapsibleSectionEnd() }P
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/12/2026',
-       topic:               'Strength to Finish Well',
-       verse:               'Ephesians 6:10',
-       verseRef:            'eph.6.10',
-       layout:              'BTB',
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',  verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
+   ]
+}) }M
 
 
 
