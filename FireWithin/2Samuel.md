@@ -106,18 +106,13 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',      verse: 'Romans 12:19',         verseRef: 'rom.12.19',  
-                                           btbContext: 'FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies', },
-     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',    verse: 'Proverbs 9:10',        verseRef: 'pro.9.10',   
-                                           btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',      verse: 'Psalms 24:3-4',        verseRef: 'psa.24.3-4', 
-                                           btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',              verse: 'Titus 3:4-5',          verseRef: 'tit.3.4-5',  
-                                           btbContext: `FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`, },
-     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',  verse: 'Galatians 6:2',        verseRef: 'gal.6.2',    
-                                           btbContext: 'FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together', },
-     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: '1 Corinthians 14:33',  verseRef: '1co.14.33',  
-                                           btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',      verse: /* 2 Samuel 2,3     */ 'Romans 12:19',         verseRef: 'rom.12.19',    btbContext: 'FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies', },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',    verse: /* 2 Samuel 6       */ 'Proverbs 9:10',        verseRef: 'pro.9.10',     btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',      verse: /* 2 Samuel 6       */ 'Psalms 24:3-4',        verseRef: 'psa.24.3-4',   btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',              verse: /* 2 Samuel 9:1-13  */ 'Titus 3:4-5',          verseRef: 'tit.3.4-5',    btbContext: `FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`, },
+     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',  verse: /* 2 Samuel 10:9-14 */ 'Galatians 6:2',        verseRef: 'gal.6.2',      btbContext: 'FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together', },
+     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',   verse: /* 2 Samuel 11-12   */ 'Psalms 51:17',         verseRef: 'psa.51.17',    btbContext: 'FromDevoContent##2sa.11@@2 Samuel 11-12##David’s Sin and Repentance', },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24      */ '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
    ]
 }) }M
 

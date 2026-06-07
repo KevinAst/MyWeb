@@ -106,6 +106,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse: 'Psalms 33:12',   verseRef: 'psa.33.12',   },
      { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse: 'Psalms 40:1',    verseRef: 'psa.40.1',    },
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse: 'Psalms 51:17',   verseRef: 'psa.51.17',   },
+     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse: 'Psalms 51:17',   verseRef: 'psa.51.17',   },
      { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse: 'Psalms 56:3',    verseRef: 'psa.56.3',    },
      { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse: 'Psalms 90:10',   verseRef: 'psa.90.10',   },
      { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse: 'Psalms 121:4',   verseRef: 'psa.121.4',   },
