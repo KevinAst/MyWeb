@@ -105,11 +105,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',   verse: 'John 1:29',          verseRef: 'jhn.1.29',   
-                                           btbContext: 'FromDevoContent##exo.12@@Exodus 12##The First Passover', },
-     { publicationDate: 'Tue 04/07/2026',  topic: 'Covered by the Blood',     verse: 'Exodus 12:13',       verseRef: 'exo.12.13',  },
-     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: '2 Corinthians 3:6',  verseRef: '2co.3.6',    
-                                           btbContext: 'FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament' },
+     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',   verse: /* Exodus 12     */ 'John 1:29',          verseRef: 'jhn.1.29',   btbContext: 'FromDevoContent##exo.12@@Exodus 12##The First Passover', },
+     { publicationDate: 'Tue 04/07/2026',  topic: 'Covered by the Blood',     verse:   'Exodus 12:13',                         verseRef: 'exo.12.13',  },
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Exodus 19-20  */ '2 Corinthians 3:6',  verseRef: '2co.3.6',    btbContext: 'FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament' },
    ]
 }) }M
 

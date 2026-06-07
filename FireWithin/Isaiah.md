@@ -103,10 +103,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse: 'Isaiah 9:6',     verseRef: 'isa.9.6',     },
-     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   
-                                           btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
-     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: 'Isaiah 55:8-9',  verseRef: 'isa.55.8-9',  },
+     { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                     verseRef: 'isa.9.6',     },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14', verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
+     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                  verseRef: 'isa.55.8-9',  },
    ]
 }) }M
 

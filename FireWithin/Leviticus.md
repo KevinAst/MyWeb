@@ -104,8 +104,7 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: '2 Corinthians 3:6',  verseRef: '2co.3.6',  
-                                           btbContext: 'FromDevoContent##lev.23.15-21@@Leviticus 23:15-21##Pentecost - Old Testament'  },
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Leviticus 23:15-21 */ '2 Corinthians 3:6',  verseRef: '2co.3.6',  btbContext: 'FromDevoContent##lev.23.15-21@@Leviticus 23:15-21##Pentecost - Old Testament'  },
    ]
 }) }M
 

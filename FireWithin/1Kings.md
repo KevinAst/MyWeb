@@ -105,8 +105,7 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: 'Psalms 51:17',  verseRef: 'psa.51.17', 
-                                           btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 1 Kings 11-12 */ 'Psalms 51:17',  verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
    ]
 }) }M
 

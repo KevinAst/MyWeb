@@ -104,8 +104,7 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',  verse: 'Romans 12:2',  verseRef: 'rom.12.2',  
-                                           btbContext: `FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,  },
+     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',  verse: /* Daniel 1:1-8 */ 'Romans 12:2',  verseRef: 'rom.12.2',  btbContext: `FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,  },
    ]
 }) }M
 

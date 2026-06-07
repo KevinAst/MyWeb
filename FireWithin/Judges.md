@@ -97,18 +97,14 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Thu 02/19/2026',  topic: 'God Sees What We Do Not',                    verse: 'Judges 6:12',          verseRef: 'jdg.6.12',   },
-     { publicationDate: 'Mon 02/23/2026',  topic: 'The Lord Is With You',                       verse: 'Judges 6:16',          verseRef: 'jdg.6.16',   },
-     { publicationDate: 'Wed 02/25/2026',  topic: 'Strength in Dependence',                     verse: 'Zechariah 4:6',        verseRef: 'zec.4.6',    
-                                           btbContext: 'FromDevoSermon##jdg.7@@Judges 7##Verse by Verse Bible Study', },
-     { publicationDate: 'Wed 03/04/2026',  topic: 'God’s Compassion for a Repentant People',    verse: 'Judges 10:16',         verseRef: 'jdg.10.16',  },
-     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse: '1 Corinthians 10:12',  verseRef: '1co.10.12',  
-                                           btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
-     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',              verse: 'Proverbs 25:28',       verseRef: 'pro.25.28',  
-                                           btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
-     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',                    verse: 'Ephesians 6:10',       verseRef: 'eph.6.10',   
-                                           btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Life of Samson',   },
-     { publicationDate: 'Tue 03/03/2026',  topic: 'When God Is Removed',                        verse: 'Judges 21:25',         verseRef: 'jdg.21.25',  },
+     { publicationDate: 'Thu 02/19/2026',  topic: 'God Sees What We Do Not',                    verse:   'Judges 6:12',                             verseRef: 'jdg.6.12',   },
+     { publicationDate: 'Mon 02/23/2026',  topic: 'The Lord Is With You',                       verse:   'Judges 6:16',                             verseRef: 'jdg.6.16',   },
+     { publicationDate: 'Wed 02/25/2026',  topic: 'Strength in Dependence',                     verse: /* Judges 7       */ 'Zechariah 4:6',        verseRef: 'zec.4.6',    btbContext: 'FromDevoSermon##jdg.7@@Judges 7##Verse by Verse Bible Study', },
+     { publicationDate: 'Wed 03/04/2026',  topic: 'God’s Compassion for a Repentant People',    verse:   'Judges 10:16',                            verseRef: 'jdg.10.16',  },
+     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse: /* Judges 13-16   */ '1 Corinthians 10:12',  verseRef: '1co.10.12',  btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
+     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',              verse: /* Judges 13-16   */ 'Proverbs 25:28',       verseRef: 'pro.25.28',  btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',                    verse: /* Judges 13-16   */ 'Ephesians 6:10',       verseRef: 'eph.6.10',   btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Life of Samson',   },
+     { publicationDate: 'Tue 03/03/2026',  topic: 'When God Is Removed',                        verse:   'Judges 21:25',                            verseRef: 'jdg.21.25',  },
    ]
 }) }M
 

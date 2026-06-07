@@ -119,13 +119,12 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse: 'Revelation 3:10',   verseRef: 'rev.3.10',   },
-     { publicationDate: 'Sat 03/14/2026',  topic: 'Awakened From Indifference',                             verse: 'Revelation 3:16',   verseRef: 'rev.3.16',   },
-     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',                           verse: 'Matthew 24:14',     verseRef: 'mat.24.14',  
-                                           btbContext: 'FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',  },
-     { publicationDate: 'Sun 03/15/2026',  topic: 'Can we be tricked into getting the Mark of the Beast?',  verse: 'Revelation 13:16',  verseRef: 'rev.13.16',  },
-     { publicationDate: 'Sun 04/05/2026',  topic: 'The Beast and the Sea',                                  verse: 'Revelation 17:8',   verseRef: 'rev.17.8',   },
-     { publicationDate: 'Tue 03/24/2026',  topic: 'Awaiting Perfect Justice',                               verse: 'Revelation 21:4',   verseRef: 'rev.21.4',   },
+     { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse:   'Revelation 3:10',                       verseRef: 'rev.3.10',   },
+     { publicationDate: 'Sat 03/14/2026',  topic: 'Awakened From Indifference',                             verse:   'Revelation 3:16',                       verseRef: 'rev.3.16',   },
+     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',                           verse: /* Revelation 13:7-10 */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',  },
+     { publicationDate: 'Sun 03/15/2026',  topic: 'Can we be tricked into getting the Mark of the Beast?',  verse:   'Revelation 13:16',                      verseRef: 'rev.13.16',  },
+     { publicationDate: 'Sun 04/05/2026',  topic: 'The Beast and the Sea',                                  verse:   'Revelation 17:8',                       verseRef: 'rev.17.8',   },
+     { publicationDate: 'Tue 03/24/2026',  topic: 'Awaiting Perfect Justice',                               verse:   'Revelation 21:4',                       verseRef: 'rev.21.4',   },
    ]
 }) }M
 

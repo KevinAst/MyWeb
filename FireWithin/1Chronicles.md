@@ -118,12 +118,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: 'Proverbs 9:10',        verseRef: 'pro.9.10',
-                                           btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',    verse: 'Psalms 24:3-4',        verseRef: 'psa.24.3-4',
-                                           btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',  verse: '1 Corinthians 14:33',  verseRef: '1co.14.33',
-                                           btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',   },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: /* 1 Chronicles 13,15 */ 'Proverbs 9:10',        verseRef: 'pro.9.10',    btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',    verse: /* 1 Chronicles 13,15 */ 'Psalms 24:3-4',        verseRef: 'psa.24.3-4',  btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',  verse: /* 1 Chronicles 22-28 */ '1 Corinthians 14:33',  verseRef: '1co.14.33',   btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',   },
    ]
 }) }M
 
