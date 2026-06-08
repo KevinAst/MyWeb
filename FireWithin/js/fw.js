@@ -1586,9 +1586,10 @@ if (!window.fw) { // only expand this module once (conditionally)
       if (sectionId) {
         setTimeout(() => {
           // EITHER THIS:
-          // location.hash = `#${sectionId}`; // KJB: has the advantage of placing #hash in URL - BUT IS INSTANTANEOUS
+          // ... KJB: KEY: appears to work consistently on cell phone
+          location.hash = `${sectionId}`; // KJB: has the advantage of placing #hash in URL, BUT is NOT smooth scrolling (who cares)
           // OR THIS:
-          document.getElementById(sectionId)?.scrollIntoView( { behavior: 'smooth' }); // KJB: smooth scroll, but #hash NOT in URL (minor)
+          // document.getElementById(sectionId)?.scrollIntoView( { behavior: 'smooth' }); // KJB: smooth scroll, BUT #hash NOT in URL (minor)
         }, 100); // ... we need some delay here (1 doesn't work, 100 does)
       }
     }
