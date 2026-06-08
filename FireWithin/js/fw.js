@@ -1132,11 +1132,11 @@ if (!window.fw) { // only expand this module once (conditionally)
       log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
       headerElm.innerHTML = `
   FW
-  <a class="nav-bar-inline" href="history.html#details">v${CUR_VER}</a> 
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('history.html', 'details');">v${CUR_VER}</a>
   •
-  <a class="nav-bar-inline" href="settings.html#bible-translation">${bibleTranslation}</a> 
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('settings.html', 'bible-translation');">${bibleTranslation}</a>
   •
-  <a class="nav-bar-inline" href="settings.html#user-account">${userName}</a> 
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('settings.html', 'user-account');">${userName}</a> 
       `;
     }
 
@@ -1356,53 +1356,15 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // when there is NO 'latestDevo' element on this page ...
       if (!latestElm) {
-        // ?? see if operation below makes any difference if it is done first (before the page is refreshed)
-        //    KJB: IT DOES NOT
-        //? setTimeout(() => goTo('latestDevo'), 300);
+        // fallback to the current year (e.g. `devo2026.html#latestDevo`)
+        const curYear        = String(new Date().getFullYear());
+        const curDevoTOCPage = `devo${curYear}.html`;
+        fw.navigateToPageSection('devo2026.html');
 
-        // fallback to the current year (e.g. `/devo2026.html#latestDevo`)
-        // ?? ORIGINAL:
-        //? const curYear        = String(new Date().getFullYear());
-        //? const latestDevoPage = `/devo${curYear}.html#latestDevo`;
-        //? window.location.href = '/FireWithin' + latestDevoPage;
-
-        // ?? TRY THIS (instead of ORIGINAL): if it works we can encapsolate in a utility function
-        // ?? BAD BAD BAD ... it does a page refresh :-(
-        // TRY simulated click
-        // Since we now know GitBook intercepts clicks on navigation links, you may not need an API at all.
-        // If GitBook has a document-level click handler, it may intercept this exactly as if a user clicked a sidebar link.
-        // Suppose you want to go to: devo2026.html#latestDevo
-        // DO THIS (in your JavaScript function):
-        //? const curYear        = String(new Date().getFullYear());
-        //? const latestDevoPage = `devo${curYear}.html#latestDevo`; // ?? NOTE relative url (no starting /)
-        //? // NOT THIS:
-        //? //? window.location.href = '/FireWithin' + latestDevoPage;
-        //? // DO THIS INSTEAD (if it works, make it a utility function)
-        //? const link = document.createElement('a');
-        //? link.href  = 'devo2026.html#latestDevo'; // ?? really: latestDevoPage
-        //? document.body.appendChild(link);
-        //? alert(`?? just before simulated click`);
-        //? link.click();
-        //? document.body.removeChild(link);
-
-        // ?? TRY programatically clicking a sidebar link:
-        // ... if this works, we could make it our utility
-        const link = document.querySelector('.summary a[href="devo2026.html"]');
-        if (link) {
-          console.log(`?? GREAT: we found a known sidebar link (devo2026.html) ... try clicking it programatically!`);
-          link.click();
-        }
-        else {
-          console.log(`?? BAD: we did NOT find a known sidebar link (devo2026.html)`);
-        }
-
-        // ?? may still want to do this BEFORE?
-        // >>> does NOT do anything (unsure why)
-        //     - ??$$ I suspect the issue is,  the href (above) is re-loading the entire GitBook structure
-        //       ... it's NOT just a GitBook navigation
-        // provide a delayed scroll/highlight via JavaScript logic
-        // ... once we are now on the latest devo page
-        setTimeout(() => goTo('latestDevo'), 300);
+        // once we are now on the latest devo page,
+        // ... we employ the same scroll/highlight via JavaScript logic
+        //     as if we were on that page to start with!
+        setTimeout(() => goTo('latestDevo'), 100);
 
         // we are done
         return;
@@ -1584,6 +1546,52 @@ if (!window.fw) { // only expand this module once (conditionally)
     //                   ... pattern after: "Collapsible Section API" in fwCompletions.js
 
 
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.navigateToPageSection()
+    //* 
+    //* Programmatically navigate to the supplied pagePath/sectionId.
+    //*
+    //* PARMS:
+    //*   pagePath:  a known page (from the LeftNav bar) ... EX: `history.html`
+    //*   sectionId: OPTIONALLY, a known sectionId within the `pagePath` ... EX: `details`
+    //* 
+    //* This is accomplished by tapping into the GitBook framework, that does
+    //* NOT cause a page refresh (`window.location.href` DOES refresh the
+    //* page).
+    //* 
+    //* With that said, our current GitBook run-time version (3.2.2) does NOT
+    //* provide a programatic API.  
+    //* 
+    //* As a result, we back-door the process by locating an existing link
+    //* from our LeftNav bar, and simply programmatically click it!
+    //* 
+    //* FOR MORE INFORMATION:  Refer the the lengthy ChatGPT analysis of this here:
+    //* - GitBook Navigation API
+    //*   ... https://chatgpt.com/c/6a26c416-2938-83ea-a95d-b66c5a487a90
+    //*--------------------------------------------------------------------------
+    fw.navigateToPageSection = function (pagePath, sectionId) {
+      const log = logger(`${logPrefix}:navigateToPageSection()`);
+
+      // locate the known page (from the LeftNav bar)
+      const link = document.querySelector(`.summary a[href="${pagePath}"]`);
+      if (link) {
+        log(`GREAT: we found a known LeftNav page (${pagePath}) ... we are clicking it programatically!`);
+        link.click();
+      }
+      else {
+        log.f(`ERROR: we did NOT find a known LeftNav page (${pagePath})`);
+      }
+
+      // interpret the OPTIONAL sectionId
+      if (sectionId) {
+        setTimeout(() => {
+          // EITHER THIS:
+          // location.hash = `#${sectionId}`; // KJB: has the advantage of placing #hash in URL - BUT IS INSTANTANEOUS
+          // OR THIS:
+          document.getElementById(sectionId)?.scrollIntoView( { behavior: 'smooth' }); // KJB: smooth scroll, but #hash NOT in URL (minor)
+        }, 100); // ... we need some delay here (1 doesn't work, 100 does)
+      }
+    }
 
     
     //***************************************************************************
