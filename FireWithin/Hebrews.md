@@ -108,6 +108,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',          verse: 'Hebrews 4:12',      verseRef: 'heb.4.12',      },
      { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',  verse: 'Hebrews 9:27',      verseRef: 'heb.9.27',      },
+     { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',            verse: 'Hebrews 9:27',      verseRef: 'heb.9.27',      },
      { publicationDate: 'Sun 03/01/2026',  topic: 'The God Who Redeems the Weak',  verse: 'Hebrews 11:32-33',  verseRef: 'heb.11.32-33',  },
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',         verse: 'Hebrews 12:15',     verseRef: 'heb.12.15',     },
    ]
