@@ -1356,13 +1356,49 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // when there is NO 'latestDevo' element on this page ...
       if (!latestElm) {
-        // fallback to the current year (e.g. `/devo2026.html#latestDevo`)
-        const curYear        = String(new Date().getFullYear());
-        const latestDevoPage = `/devo${curYear}.html#latestDevo`;
-        window.location.href = '/FireWithin' + latestDevoPage;
+        // ?? see if operation below makes any difference if it is done first (before the page is refreshed)
+        //    KJB: IT DOES NOT
+        //? setTimeout(() => goTo('latestDevo'), 300);
 
+        // fallback to the current year (e.g. `/devo2026.html#latestDevo`)
+        // ?? ORIGINAL:
+        //? const curYear        = String(new Date().getFullYear());
+        //? const latestDevoPage = `/devo${curYear}.html#latestDevo`;
+        //? window.location.href = '/FireWithin' + latestDevoPage;
+
+        // ?? TRY THIS (instead of ORIGINAL): if it works we can encapsolate in a utility function
+        // ?? BAD BAD BAD ... it does a page refresh :-(
+        // TRY simulated click
+        // Since we now know GitBook intercepts clicks on navigation links, you may not need an API at all.
+        // If GitBook has a document-level click handler, it may intercept this exactly as if a user clicked a sidebar link.
+        // Suppose you want to go to: devo2026.html#latestDevo
+        // DO THIS (in your JavaScript function):
+        //? const curYear        = String(new Date().getFullYear());
+        //? const latestDevoPage = `devo${curYear}.html#latestDevo`; // ?? NOTE relative url (no starting /)
+        //? // NOT THIS:
+        //? //? window.location.href = '/FireWithin' + latestDevoPage;
+        //? // DO THIS INSTEAD (if it works, make it a utility function)
+        //? const link = document.createElement('a');
+        //? link.href  = 'devo2026.html#latestDevo'; // ?? really: latestDevoPage
+        //? document.body.appendChild(link);
+        //? alert(`?? just before simulated click`);
+        //? link.click();
+        //? document.body.removeChild(link);
+
+        // ?? TRY programatically clicking a sidebar link:
+        // ... if this works, we could make it our utility
+        const link = document.querySelector('.summary a[href="devo2026.html"]');
+        if (link) {
+          console.log(`?? GREAT: we found a known sidebar link (devo2026.html) ... try clicking it programatically!`);
+          link.click();
+        }
+        else {
+          console.log(`?? BAD: we did NOT find a known sidebar link (devo2026.html)`);
+        }
+
+        // ?? may still want to do this BEFORE?
         // >>> does NOT do anything (unsure why)
-        //     - I suspect the issue is,  the href (above) is re-loading the entire GitBook structure
+        //     - ??$$ I suspect the issue is,  the href (above) is re-loading the entire GitBook structure
         //       ... it's NOT just a GitBook navigation
         // provide a delayed scroll/highlight via JavaScript logic
         // ... once we are now on the latest devo page
