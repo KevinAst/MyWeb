@@ -98,6 +98,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1co',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Thu 03/19/2026',  topic: 'Holy Fellowship',                            verse: '1 Corinthians 5:11',   verseRef: '1co.5.11',   },
@@ -116,6 +117,7 @@ available._
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2009',
   entries: [
     { id: `20090927`, sermon: `When Wisdom Seems Foolish`,              scripture: `1co.1@@1 Cor 1-3`,    },
     { id: `20091004`, sermon: `Church Discipline`,                      scripture: `1co.4@@1 Cor 4-5`,    },
@@ -135,6 +137,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2016',
   settings: {
     includeStudyGuide: false,
   },
@@ -167,6 +170,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2024',
   entries: [
     { id: `20240922`, sermon: `It's Time to Grow Up!`,               scripture: `1co.1@@1 Corinthians 1`,       },
     { id: `20240929`, sermon: `What God has Prepared for Us`,        scripture: `1co.2@@1 Corinthians 2`,       },

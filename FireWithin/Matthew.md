@@ -97,7 +97,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-mat',
+   collapsibleSectionID: 'devo-mat',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse:   'Matthew 1:21',                        verseRef: 'mat.1.21',   },
@@ -117,7 +117,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  collapsibleSectionID: 'cs-ss-mat-2013',
+  collapsibleSectionID: 'ss-mat-2013',
   settings: {
     includeStudyGuide: false,
   },
@@ -163,7 +163,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  collapsibleSectionID: 'cs-ss-mat-2020',
+  collapsibleSectionID: 'ss-mat-2020',
   entries: [
     { id: `20200614`, sermon: `A Messy Family Tree`,                             scripture: `mat.1@@Matthew 1:1-17`,     },
     { id: `20200621`, sermon: `Baptism of Water, Holy Spirit, and Fire`,         scripture: `mat.2@@Matthew 2-3`,        },
@@ -216,7 +216,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  collapsibleSectionID: 'cs-ss-mat-MISC',
+  collapsibleSectionID: 'ss-mat-MISC',
   entries: [
     { id: `20210328`, sermon: `The God of Second Chances`,              scripture: `mat.26@@Matthew 26`,          studyGuide: `NONE`, },
     { id: `20211219`, sermon: `Prophecies about the First Christmas`,   scripture: `mat.1@@Matthew 1-2`,          studyGuide: `NONE`, },

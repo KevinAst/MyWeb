@@ -95,6 +95,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-jos',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Thu 02/19/2026',  topic: 'God Sees What We Do Not',                    verse:   'Judges 6:12',                             verseRef: 'jdg.6.12',   },
@@ -114,6 +115,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2014',
   entries: [
     { id: `20140209`, sermon: `Conquer, or Be Conquered`,                  scripture: `jdg.1@@Judges 1`,      },
     { id: `20140216`, sermon: `Jesus ONLY`,                                scripture: `jdg.2@@Judges 2-3`,    },
@@ -133,6 +135,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2022',
   settings: {
     includeStudyGuide: false,
   },

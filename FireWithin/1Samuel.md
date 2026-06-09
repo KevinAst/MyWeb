@@ -103,6 +103,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1sa',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Tue 03/31/2026',  topic: 'Pouring Out the Soul Before God',         verse:   '1 Samuel 1:10',                         verseRef: '1sa.1.10',   },
@@ -128,6 +129,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1sa-2014',
   entries: [
     { id: `20140525`, sermon: `Hannah's Hope`,                            scripture: `1sa.1@@1 Samuel 1`,      },
     { id: `20140601`, sermon: `Hearing God`,                              scripture: `1sa.2@@1 Samuel 2-3`,    },
@@ -152,6 +154,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1sa-2023',
   settings: {
     includeStudyGuide: false,
   },

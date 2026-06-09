@@ -95,6 +95,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2014',
   entries: [
     { id: `20131103`, sermon: `Be Strong and Courageous`,         scripture: `jos.1@@Joshua 1`,        },
     { id: `20131110`, sermon: `Rahab: A Redeemed Life`,           scripture: `jos.2@@Joshua 2`,        },
@@ -115,6 +116,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2021',
   settings: {
     includeStudyGuide: false,
   },

@@ -104,6 +104,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-2sa',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',      verse: /* 2 Samuel 2,3     */ 'Romans 12:19',         verseRef: 'rom.12.19',    btbContext: 'FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies', },
@@ -123,6 +124,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2sa-2014',
   entries: [
     { id: `20140921`, sermon: `How the Mighty Have Fallen`,   scripture: `2sa.1@@2 Samuel 1-2`,    },
     { id: `20140928`, sermon: `Putting God on Display`,       scripture: `2sa.2@@2 Samuel 2-5`,    },
@@ -144,6 +146,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2sa-2023',
   settings: {
     includeStudyGuide: false,
   },

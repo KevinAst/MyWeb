@@ -117,6 +117,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-rev',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse:   'Revelation 3:10',                       verseRef: 'rev.3.10',   },
@@ -134,6 +135,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rev-2011',
   entries: [
     { id: `20110313`, sermon: `Unlocking Revelation`,                                scripture: `rev.1@@Rev 1`,       },
     { id: `20110320`, sermon: `Return to Your First Love - The Church in Ephesus`,   scripture: `rev.2@@Rev 2:1-7`,   },
@@ -164,6 +166,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rev-2020',
   settings: {
     includeStudyGuide: false,
   },

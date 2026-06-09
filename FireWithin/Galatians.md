@@ -114,6 +114,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-gal',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse:   'Galatians 1:10',                      verseRef: 'gal.1.10',      },
@@ -134,6 +135,7 @@ M{ devoGHSeries({
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2010',
   entries: [
     { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Galatians 1-3`, },
     { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Galatians 4-6`, },
@@ -146,6 +148,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2017',
   settings: {
     includeStudyGuide: false,
   },
@@ -164,6 +167,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2025',
   entries: [
     { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
     { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },

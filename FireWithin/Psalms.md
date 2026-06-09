@@ -95,6 +95,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-psa',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',            verse: 'Psalms 23:3',    verseRef: 'psa.23.3',    },
@@ -121,6 +122,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-psa-2016',
   entries: [
     { id: `20161127`, sermon: `God's Recipe for a Blessed Life`,                     scripture: `psa.1@@Psalms 1`,              },
     { id: `20161204`, sermon: `A Majestic God Cares About You`,                      scripture: `psa.2@@Psalms 2-8`,            },
@@ -168,6 +170,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-psa-MISC',
   entries: [
     { id: `20220123`, sermon: `The Value of Life`,                               scripture: `psa.103@@Psalms 103:2-4`, studyGuide: `NONE`, },
     { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`,

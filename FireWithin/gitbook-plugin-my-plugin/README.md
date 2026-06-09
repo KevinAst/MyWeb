@@ -385,7 +385,7 @@ content of an entire sermon series.
     collapsibleSectionID: string,  // the state id for the optional CollapsibleSection
                                    // - OPTIONAL: when omitted, NO CollapsibleSection is generated
                                    // - must be unique (if not, will impact other collapsible states across the site)
-                                   // - suggested format: cs-ss-mat-2026 (for CollapsibleSection-SermonSeries-Matthew-2026)
+                                   // - suggested format: ss-mat-2026 (for SermonSeries-Matthew-2026 ... auto prefixed with `collapsibleSect_`)
     settings: { // settings impacting entire series (OPTIONAL)
       includeStudyGuide: boolean, // directive include/omit StudyGuide column (DEFAULT: true)
     },
@@ -922,7 +922,7 @@ A comprehensive and responsive table generator for our Daily Devotion TOC entrie
                                    // - OPTIONAL: when omitted, NO CollapsibleSection is generated
                                    // - only honored for 'BTB' layouts
                                    // - must be unique (if not, will impact other collapsible states across the site)
-                                   // - suggested format: cs-devo-mat (for CollapsibleSection-Devotionals-Matthew)
+                                   // - suggested format: devo-mat (for Devotionals-Matthew ... auto prefixed with `collapsibleSect_`)
     layout: 'DEVO/BTB',   // The layout to use for this seriesa:
                           // - 'DEVO' ... the standard format of the top-level devotional page (the DEFAULT when ommitted]
                           // - 'BTB'  ... emit a "by the book" format, placing the scripture FIRST (supporting order/search by scripture)

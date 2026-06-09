@@ -95,6 +95,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-jhn',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',             verse:   'John 1:29',                           verseRef: 'jhn.1.29',      },
@@ -122,6 +123,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jhn-2015',
   settings: {
     includeStudyGuide: false,
   },
@@ -157,6 +159,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jhn-2022',
   entries: [
     { id: `20220508`, sermon: `The Identity and Deity of Jesus`, scripture: `jhn.1@@John 1`,             },
     { id: `20220515`, sermon: `God Has Saved the Best for Last`, scripture: `jhn.2@@John 2`,             },

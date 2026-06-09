@@ -116,6 +116,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1ch',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: /* 1 Chronicles 13,15 */ 'Proverbs 9:10',        verseRef: 'pro.9.10',    btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
@@ -131,6 +132,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-2015',
   entries: [
     { id: `20150823`, sermon: `Belonging`,              scripture: `1ch.1@@1 Chronicles 1-12`,   },
     { id: `20150830`, sermon: `Doing Things God's Way`, scripture: `1ch.13@@1 Chronicles 13-15`, },
@@ -145,6 +147,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-2025',
   settings: {
     includeStudyGuide: false,
   },
@@ -170,6 +173,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-MISC',
   settings: {
     includeStudyGuide: false,
   },

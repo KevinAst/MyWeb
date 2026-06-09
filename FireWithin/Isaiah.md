@@ -101,6 +101,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-isa',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                     verseRef: 'isa.9.6',     },
@@ -115,6 +116,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-isa-2018',
   entries: [
     { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,    },
     { id: `20180506`, sermon: `God's Calling`,                             scripture: `isa.6@@Isaiah 6`,      },
@@ -156,6 +158,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-isa-MISC',
   settings: {
     includeStudyGuide: false,
   },

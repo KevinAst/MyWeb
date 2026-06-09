@@ -116,6 +116,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ki-2015',
   entries: [
     { id: `20150104`, sermon: `The Death of a King, The Rebellion of a Son`, scripture: `1ki.1@@1 Kings 1-2`,    },
     { id: `20150111`, sermon: `Wisdom`,                                      scripture: `1ki.3@@1 Kings 3-4`,    },
@@ -134,6 +135,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ki-2024',
   settings: {
     includeStudyGuide: false,
   },

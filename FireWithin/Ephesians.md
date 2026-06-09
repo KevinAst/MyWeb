@@ -96,6 +96,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-eph',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',  verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
@@ -113,6 +114,7 @@ M{ devoGHSeries({
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-eph-2010',
   entries: [
     { id: `20100221`, sermon: `Our Spiritual Blessings in Christ`, scripture: `eph.1@@Ephesians 1-2`, },
     { id: `20100307`, sermon: `Body Building`,                     scripture: `eph.3@@Ephesians 3-4`, },
@@ -126,6 +128,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-eph-2017',
   settings: {
     includeStudyGuide: false,
   },
@@ -146,6 +149,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-eph-2025',
   entries: [
     { id: `20251005`, sermon: `The Answer to Identity Confusion`,    scripture: `eph.1@@Ephesians 1`,   },
     { id: `20251012`, sermon: `Dead or Alive?`,                      scripture: `eph.2@@Ephesians 2`,   },
@@ -162,6 +166,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-eph-MISC',
   settings: {
     includeStudyGuide: false,
   },

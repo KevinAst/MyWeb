@@ -104,6 +104,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-heb',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',          verse: 'Hebrews 4:12',      verseRef: 'heb.4.12',      },
@@ -120,6 +121,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-heb-2010',
   entries: [
     { id: `20100808`, sermon: `The Danger of Drifting`,           scripture: `heb.1@@Hebrews 1-2`,       studyGuide: `NONE`, },
     { id: `20100822`, sermon: `Entering God's Rest`,              scripture: `heb.3@@Hebrews 3-4`,       studyGuide: `NONE`,},
@@ -141,6 +143,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-heb-2018',
   settings: {
     includeStudyGuide: false,
   },

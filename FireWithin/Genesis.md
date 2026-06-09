@@ -128,6 +128,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gen-2010',
   settings: {
     includeStudyGuide: false,
   },
@@ -184,6 +185,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gen-2011',
   entries: [
     { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
     { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },

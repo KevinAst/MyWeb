@@ -105,6 +105,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-luk',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: /* Luke 13:22-30   */ '2 Corinthians 6:14', verseRef: '2co.6.14',      btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
@@ -131,6 +132,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-luk-2014',
   settings: {
     includeStudyGuide: false,
   },
@@ -176,6 +178,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-luk-2021',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },

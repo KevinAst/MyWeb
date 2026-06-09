@@ -116,6 +116,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-2ch',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 2 Chronicles 11-12 */ 'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
@@ -130,6 +131,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2ch-2015',
   entries: [
     { id: `20150913`, sermon: `All is Forgiven`,             scripture: `2ch.1@@2 Chronicles 1-9`,    },
     { id: `20150920`, sermon: `The Sin of Self-Reliance`,    scripture: `2ch.10@@2 Chronicles 10-16`, },
@@ -145,6 +147,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2ch-2026',
   settings: {
     includeStudyGuide: false,
   },
@@ -159,6 +162,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2ch-MISC',
   settings: {
     includeStudyGuide: false,
   },

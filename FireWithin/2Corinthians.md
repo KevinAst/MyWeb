@@ -101,6 +101,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-2co',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',        verse:   '2 Corinthians 3:6',                         verseRef: '2co.3.6',    },
@@ -125,6 +126,7 @@ available._
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2co-2009',
   entries: [
     { id: `20091206`, sermon: `What Suffering Produces`,   scripture: `2co.1@@2 Cor 1-2`,    },
     { id: `20091213`, sermon: `We Were Made for Eternity`, scripture: `2co.3@@2 Cor 3-5`,    },
@@ -140,6 +142,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2co-2017',
   settings: {
     includeStudyGuide: false,
   },
@@ -162,6 +165,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2co-2025',
   entries: [
     { id: `20250105`, sermon: `Suffering Well`,                  scripture: `2co.1@@2 Cor 1`,       },
     { id: `20250112`, sermon: `Spreading the Fragrance`,         scripture: `2co.2@@2 Cor 2`,       },

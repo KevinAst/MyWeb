@@ -109,6 +109,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-rom',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse: 'Romans 1:20',   verseRef: 'rom.1.20',   },
@@ -133,6 +134,7 @@ M{ devoGHSeries({
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2009',
   entries: [
     { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Rom 1-2`,    studyGuide: `NONE`, },
     { id: `20090816`, sermon: `What a Gift!`,           scripture: `rom.3@@Rom 3-5`,    studyGuide: `NONE`, },
@@ -149,6 +151,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2016',
   settings: {
     includeStudyGuide: false,
   },
@@ -178,6 +181,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2024',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
@@ -221,6 +225,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-MISC',
   settings: {
     includeStudyGuide: false,
   },

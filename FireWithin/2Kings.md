@@ -103,6 +103,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2ki-2015',
   entries: [
     { id: `20150412`, sermon: `Desperate Times, Desperate Prayers`,    scripture: `2ki.1@@2 Kings 1`,      },
     { id: `20150419`, sermon: `If Today Were My Last Day: No Regrets`, scripture: `2ki.2@@2 Kings 2`,      },
@@ -125,6 +126,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2ki-2025',
   settings: {
     includeStudyGuide: false,
   },

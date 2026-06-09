@@ -119,6 +119,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-act',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',                     verse: /* Acts 1-2      */ '2 Corinthians 3:6',   verseRef: '2co.3.6',       btbContext: 'FromDevoContent##act.1@@Acts 1-2##Pentecost Fulfillment - New Testament' },
@@ -152,6 +153,7 @@ M{ devoGHSeries({
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2009',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
@@ -177,6 +179,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2015',
   entries: [
     { id: `20151021`, scripture: `act.1@@Acts 1:1-11`,       },
     { id: `20151028`, scripture: `act.1@@Acts 1:12-2:13`,    },
@@ -211,6 +214,7 @@ M{ sermonSeries({
 
 {{book.CornerstoneChapel}}
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2023',
   entries: [
     { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
     { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,

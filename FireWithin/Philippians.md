@@ -93,6 +93,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
+   collapsibleSectionID: 'devo-php',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                         verse: /* Philippians 2:1–11    */ 'Romans 10:12',  verseRef: 'rom.10.12',    btbContext: 'FromDevoSermon##php.2.1–11@@Philippians 2:1–11##Unity through Humility', },
@@ -111,6 +112,7 @@ M{ devoGHSeries({
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-php-2010',
   entries: [
     { id: `20100321`, sermon: `Finding Joy When Life Is Hard`, scripture: `php.1@@Philippians 1-4`, },
     { id: `20100328`, sermon: `The Great Descent`,             scripture: `php.2@@Philippians 2`,   },
@@ -123,6 +125,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-php-2017',
   settings: {
     includeStudyGuide: false,
   },
@@ -140,6 +143,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-php-2026',
   entries: [
     { id: `20260111`, sermon: `God Will Finish What He Starts`,          scripture: `php.1@@Philippians 1:6`,     },
     { id: `20260118`, sermon: `My Chains, God’s Glory`,                  scripture: `php.1@@Philippians 1:12-18`, },
