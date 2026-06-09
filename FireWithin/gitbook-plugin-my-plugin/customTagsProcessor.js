@@ -713,7 +713,7 @@ function sermonSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {entries, settings=defaultSettings, ...unknownNamedArgs} = namedParams;
+  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
 
   // ... entries
   checkParam(entries,          'entries is required');
@@ -723,6 +723,9 @@ function sermonSeries(namedParams={}) {
   // ... settings
   checkParam(settings,                'settings must either be supplied, or allowed to default');
   checkParam(isPlainObject(settings), 'settings (when supplied) must be a set of named properties (an object of settings)');
+
+  // ... collapsibleSectionID
+  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -757,9 +760,27 @@ function sermonSeries(namedParams={}) {
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   let content = ``;
   content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // generate the collapsibleSection start (when requested)
+  if (collapsibleSectionID) {
+    content += collapsibleSection({
+      id:     collapsibleSectionID,
+      label:  'This Series',
+      indent: false,
+      initialExpansion: 'open',
+    });
+  }
+
+  // generate the sermon series table (reflexivly supporting both phone/desktop)
   ['phone', 'desktop'].forEach( (cssClass) => {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
   });
+
+  // generate the collapsibleSection end (when requested)
+  if (collapsibleSectionID) {
+    content += collapsibleSectionEnd();
+  }
+
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
@@ -2059,7 +2080,7 @@ function devoGHSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {entries, layout='DEVO', ...unknownNamedArgs} = namedParams;
+  const {entries, layout='DEVO', collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
 
   // ... entries
   checkParam(entries,          'entries is required');
@@ -2070,6 +2091,12 @@ function devoGHSeries(namedParams={}) {
   checkParam(layout,                            'layout must either be supplied, or allowed to default');
   checkParam(isString(layout),                  'layout (when supplied) must be a string ("DEVO/BTB") ... DEFAULT: "DEVO"');
   checkParam(['DEVO', 'BTB'].includes(layout),  `layout (when supplied) must be one of the following ('DEVO/BTB'), NOT: '${layout}'`);
+
+  // ... collapsibleSectionID
+  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
+  if (collapsibleSectionID) {
+    checkParam(layout === 'BTB', `collapsibleSectionID is only supported for 'BTB' layouts`);
+  }
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -2089,9 +2116,27 @@ function devoGHSeries(namedParams={}) {
   const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
   let content = ``;
   content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // generate the collapsibleSection start (when requested)
+  if (collapsibleSectionID) {
+    content += collapsibleSection({
+      id:     collapsibleSectionID,
+      label:  'Devotions',
+      indent: false,
+      initialExpansion: 'open',
+    });
+  }
+
+  // generate the devotional series table (reflexivly supporting both phone/desktop)
   ['phone', 'desktop'].forEach( (cssClass) => {
     content += expandDevoGHSeries(layout, entries, checkParam, cssClass);
   });
+
+  // generate the collapsibleSection end (when requested)
+  if (collapsibleSectionID) {
+    content += collapsibleSectionEnd();
+  }
+
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
