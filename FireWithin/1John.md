@@ -13,6 +13,7 @@ around us.
 ### At a Glance
 
 - [1 John Overview](#1-john-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2011 1 John Series (Sundays)](#2011-1-john-series-sundays)
 - [2020 1 John Series (Mid Week)](#2020-1-john-series-mid-week)
 
@@ -82,6 +83,18 @@ M{ youTube(`V2qam7JV2as`) }M
 
 P{ collapsibleSectionEnd() }P
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+// collapsibleSectionID: 'cs-devo-1jn',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',      verse: '1 John 1:9',    verseRef: '1jn.1.9', },
+   ]
+}) }M
+
 
 ## 2011 1 John Series (Sundays)
 
@@ -106,6 +119,16 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
+    { id: `20191120`, scripture: `1jn.1@@1 John 1`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 06/10/2026',
+           topic:               'Renewed Purpose',
+           verse:               '1 John 1:9',
+           verseRef:            '1jn.1.9',
+        },
+      ],
+    },
     { id: `20191204`, scripture: `1jn.2@@1 John 2:1-23`,   },
     { id: `20200108`, scripture: `1jn.2@@1 John 2:18-3:3`, },
     { id: `20200115`, scripture: `1jn.3@@1 John 3:3-24`,   },
