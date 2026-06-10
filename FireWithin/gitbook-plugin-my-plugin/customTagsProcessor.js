@@ -9,6 +9,77 @@ let config = undefined;
 //     we can retain this context for all to use
 let forPage = 'unknown';
 
+// a cross-reference between scriptureCodes (used in the YouVersion Bible App)
+const scriptureCrossRef = {
+  'gen': { name: 'Genesis',           book: 'Genesis' },
+  'exo': { name: 'Exodus',            book: 'Exodus' },
+  'lev': { name: 'Leviticus',         book: 'Leviticus' },
+  'num': { name: 'Numbers',           book: 'Numbers' },
+  'deu': { name: 'Deuteronomy',       book: 'Deuteronomy' },
+  'jos': { name: 'Joshua',            book: 'Joshua' },
+  'jdg': { name: 'Judges',            book: 'Judges' },
+  'rut': { name: 'Ruth',              book: 'Ruth' },
+  '1sa': { name: '1 Samuel',          book: '1Samuel' },
+  '2sa': { name: '2 Samuel',          book: '2Samuel' },
+  '1ki': { name: '1 Kings',           book: '1Kings' },
+  '2ki': { name: '2 Kings',           book: '2Kings' },
+  '1ch': { name: '1 Chronicles',      book: '1Chronicles' },
+  '2ch': { name: '2 Chronicles',      book: '2Chronicles' },
+  'ezr': { name: 'Ezra',              book: 'Ezra' },
+  'neh': { name: 'Nehemiah',          book: 'Nehemiah' },
+  'est': { name: 'Esther',            book: 'Esther' },
+  'job': { name: 'Job',               book: 'Job' },
+  'psa': { name: 'Psalms',            book: 'Psalms' },
+  'pro': { name: 'Proverbs',          book: 'Proverbs' },
+  'ecc': { name: 'Ecclesiastes',      book: 'Ecclesiastes' },
+  'sng': { name: 'Song of Solomon',   book: 'SongOfSolomon' },
+  'isa': { name: 'Isaiah',            book: 'Isaiah' },
+  'jer': { name: 'Jeremiah',          book: 'Jeremiah' },
+  'lam': { name: 'Lamentations',      book: 'Lamentations' },
+  'ezk': { name: 'Ezekiel',           book: 'Ezekiel' },
+  'dan': { name: 'Daniel',            book: 'Daniel' },
+  'hos': { name: 'Hosea',             book: 'Hosea' },
+  'jol': { name: 'Joel',              book: 'Joel' },
+  'amo': { name: 'Amos',              book: 'Amos' },
+  'oba': { name: 'Obadiah',           book: 'Obadiah' },
+  'jon': { name: 'Jonah',             book: 'Jonah' },
+  'mic': { name: 'Micah',             book: 'Micah' },
+  'nam': { name: 'Nahum',             book: 'Nahum' },
+  'hab': { name: 'Habakkuk',          book: 'Habakkuk' },
+  'zep': { name: 'Zephaniah',         book: 'Zephaniah' },
+  'hag': { name: 'Haggai',            book: 'Haggai' },
+  'zec': { name: 'Zechariah',         book: 'Zechariah' },
+  'mal': { name: 'Malachi',           book: 'Malachi' },
+
+  'mat': { name: 'Matthew',           book: 'Matthew' },
+  'mrk': { name: 'Mark',              book: 'Mark' },
+  'luk': { name: 'Luke',              book: 'Luke' },
+  'jhn': { name: 'John',              book: 'John' },
+  'act': { name: 'Acts',              book: 'Acts' },
+  'rom': { name: 'Romans',            book: 'Romans' },
+  '1co': { name: '1 Corinthians',     book: '1Corinthians' },
+  '2co': { name: '2 Corinthians',     book: '2Corinthians' },
+  'gal': { name: 'Galatians',         book: 'Galatians' },
+  'eph': { name: 'Ephesians',         book: 'Ephesians' },
+  'php': { name: 'Philippians',       book: 'Philippians' },
+  'col': { name: 'Colossians',        book: 'Colossians' },
+  '1th': { name: '1 Thessalonians',   book: '1Thessalonians' },
+  '2th': { name: '2 Thessalonians',   book: '2Thessalonians' },
+  '1ti': { name: '1 Timothy',         book: '1Timothy' },
+  '2ti': { name: '2 Timothy',         book: '2Timothy' },
+  'tit': { name: 'Titus',             book: 'Titus' },
+  'phm': { name: 'Philemon',          book: 'Philemon' },
+  'heb': { name: 'Hebrews',           book: 'Hebrews' },
+  'jas': { name: 'James',             book: 'James' },
+  '1pe': { name: '1 Peter',           book: '1Peter' },
+  '2pe': { name: '2 Peter',           book: '2Peter' },
+  '1jn': { name: '1 John',            book: '1John' },
+  '2jn': { name: '2 John',            book: '2John' },
+  '3jn': { name: '3 John',            book: '3John' },
+  'jud': { name: 'Jude',              book: 'Jude' },
+  'rev': { name: 'Revelation',        book: 'Revelation' },
+};
+
 // initCustomTags(): triggered after parsing the book, before generating output and pages
 function initCustomTags(_config) {
   // expose our config in parent scope (for global access)
@@ -652,8 +723,13 @@ function bibleLink(_ref) {
 
     // split out the ref/title
     let [ref, title] = entry.split('@@');
+    // ... validate ref
+    ref = ref.toLowerCase();
+    const bibleRefCode = ref.split('.')[0].toLowerCase(); // everything up to the first '.' ... EX: '1sa'
+    const crossRef     = scriptureCrossRef[bibleRefCode];
+    checkParam(crossRef, `ref ('${ref}') has a bible code that is NOT supported by YouVersion Bible App (the first part of the ref string parameter, delimited with @@ ... '${entry}')`);
     // ... validate title
-    checkParam(title, 'title is required (the second part of the ref string parameter, delimited with @@)');
+    checkParam(title, `title is required (the second part of the ref string parameter, delimited with @@ ... '${entry}')`);
 
     // process optional cr/lf
     const isCR = title.startsWith('CR:');
@@ -663,8 +739,31 @@ function bibleLink(_ref) {
       crLf  = '<br/>';
     }
 
-    // update our content
-    content += `${crLf}<a href="#" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    // update our content with the live scripture link!
+    content += `${crLf}<a href="#" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+
+    // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
+    // ... ONLY generated when we are NOT already in this book
+    const bibleBook     = crossRef.book; // ex: '1Samuel'
+    const bibleBookName = crossRef.name; // ex: '1 Samuel'
+    if (`${bibleBook}.md` !== forPage) { // we are expanding a different book from what the scripture reference is
+
+      // temporary diagnostic to fully proove this is working
+      // if (bibleRefCode === '1sa') { // ... limited to 1 Samuel (otherwise the LOGS are TOO BIG)
+      //   console.log(`XX generating a 1 Samuel scripture reference (${ref}) within a DIFFERENT page: ${forPage}`);
+      // }
+
+      // generate the side-link
+      // ... a colored char at the end of the scripture reference
+      //     - &bull;  ... is smaller bullet
+      //     - &#9679; ... is a bigger bullet
+      //     - ↗       ... nice indicator recognized as "go somewhere else"
+      //     - &#9675; ... hollow circle - slightly more discoverable
+      // ... colors:
+      //     - red         ... too much
+      //     - #7c3aed;   ... more subtle purple
+      content += `<a href="" title="Go to the Fire Within ${bibleBookName} page" onclick="event.preventDefault(); fw.navigateToPageSection('${bibleBook}.html');">&nbsp;<span style="color:#7c3aed;">↗</span></a>`;
+    }
 
     // no longer first entry :-)
     isFirstEntry = false;
