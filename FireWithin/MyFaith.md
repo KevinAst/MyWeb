@@ -288,15 +288,13 @@ past Christian life, and the Christians that I knew were sincere in
 their faith - _was the <u>empowering of the Holy Spirit</u>._
 
 This is a separate and distinct concept from salvation.  When we are
-saved, the Holy Spirit comes into our life (the indwelling of the Holy
-Spirit).
+saved, the Holy Spirit comes into our life (_<u>the indwelling of the
+Holy Spirit</u>_).  And yet, He may not be in the driver's seat,
+unless we fully submit to Him.  This world is a complicated place, and
+it is not something we can navigate on our own.  We need help.
 
-And yet, He may not be in the driver's seat, unless we fully submit to
-Him.  This world is a complicated place, and it is not something we
-can navigate on our own.  We need help.
-
-When I fervently prayed - asking the Holy Spirit to empower me and
-guide my daily life - things completely changed.  My past sins were
+When I fervently prayed - asking the Holy Spirit to _<u>empower me and
+guide my daily life</u>_ - things completely changed.  My past sins were
 greatly diminished.  I wanted to be in His word.  My prayer life was
 rejuvenated.  And for the first time, I had a desire to share my faith
 with others!
@@ -309,13 +307,13 @@ your life - and it is available to all Christians, for the asking
 (through prayer).
 
 There are examples in scripture where the same group of believers were
-empowered by the Holy Spirit multiple times.  The Bible talks about
+_<u>empowered by the Holy Spirit</u>_ multiple times.  The Bible talks about
 their senses being overwhelmed, with sounds of a rushing wind and fire
 (M{ bibleLink(`act.2.2-4@@Acts 2:2-4`) }M).  This is the source by
 which I named this Study Guide - "Fire Within".
 
 > For a full explanation of this concept, please listen to
-> Pastor Gary Hamrick's [Sermon in Acts 2:1-13](https://cornerstonechapel.net/teaching/20151104/).
+> Pastor Gary Hamrick's M{ sermonLink(`20151104@@Sermon in Acts 2:1-13`) }M
 > 
 > Be sure to listen all the way through to the very end _(the BEST PART)_!
 
