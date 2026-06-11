@@ -136,6 +136,7 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 06/09/2026',  topic: 'Saved by Grace',                              verse:   'Acts 13:39',                            verseRef: 'act.13.39', },
      { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse:   'Acts 14:22',                            verseRef: 'act.14.22', },
      { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse:   'Acts 16:25',                            verseRef: 'act.16.25', },
+     { publicationDate: 'Thu 06/11/2026',  topic: 'Seeing the Lost Through God’s Eyes',          verse:   'Acts 17:16',                            verseRef: 'act.17.16', },
      { publicationDate: 'Sat 05/30/2026',  topic: 'Marks of True Revival',                       verse:   'Acts 19:20',                            verseRef: 'act.19.20', },
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
    ]
