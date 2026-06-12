@@ -740,7 +740,8 @@ function bibleLink(_ref) {
     }
 
     // update our content with the live scripture link!
-    content += `${crLf}<a href="#" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    // ... KEY FEATURE: style prevents scripture from wrapping
+    content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
 
     // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
     // ... ONLY generated when we are NOT already in this book
@@ -758,11 +759,15 @@ function bibleLink(_ref) {
       //     - &bull;  ... is smaller bullet
       //     - &#9679; ... is a bigger bullet
       //     - ↗       ... nice indicator recognized as "go somewhere else"
+      //     - ⬈      ... bolder up-arrow
       //     - &#9675; ... hollow circle - slightly more discoverable
       // ... colors:
-      //     - red         ... too much
+      //     - red        ... too much
       //     - #7c3aed;   ... more subtle purple
-      content += `<a href="" title="Go to the Fire Within ${bibleBookName} page" onclick="event.preventDefault(); fw.navigateToPageSection('${bibleBook}.html');">&nbsp;<span style="color:#7c3aed;">↗</span></a>`;
+      //     - #ff00bf;   ... bright pink
+      // ... bolder
+      //     - style with: font-weight: bold; font-size: 1.1em;
+      content += `<a href="" title="Go to the Fire Within ${bibleBookName} page" onclick="event.preventDefault(); fw.navigateToPageSection('${bibleBook}.html');">&nbsp;<span style="color:#ff00bf; font-weight: bold; font-size: 1.1em;">↗</span></a>`;
     }
 
     // no longer first entry :-)
