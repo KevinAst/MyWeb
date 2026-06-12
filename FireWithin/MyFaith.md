@@ -1,9 +1,9 @@
 # Fire Within
 
 <img class="diagram"
-     src="FireWithinLogo4.jpg"
+     src="FireWithinSplash_light.png"
      alt="Fire Within"
-     width="150px"
+     width="350px"
      align="right"> <!-- NOTE: align allows text to flow around image :-) -->
 
 I am so glad that you are here.  Let me take this opportunity to share

@@ -1,9 +1,9 @@
 # Fire Within
 
 <img class="diagram"
-     src="FireWithinLogo2.jpg"
+     src="FireWithinLogoWithText.png"
      alt="Fire Within"
-     width="150px"
+     width="350px"
      align="right"> <!-- NOTE: align allows text to flow around image :-) -->
 
 Welcome to my _**"Fire Within"**_ Bible Study Guide!
