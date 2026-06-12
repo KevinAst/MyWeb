@@ -119,8 +119,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-2ch',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 2 Chronicles 11-12 */ 'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
-     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',    verse: /* 2 Chronicles 17-20 */ 'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',    verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
+     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',  verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
    ]
 }) }M
 
@@ -154,6 +155,17 @@ M{ sermonSeries({
   entries: [
     { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,  scripture: `2ch.1@@2 Chronicles 1-2`,          }, // studyGuide: `NONE`, date:`03/25/2026`
     { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,               scripture: `2ch.3@@2 Chronicles 3-4`,          }, // studyGuide: `NONE`, date:`04/08/2026`
+    {                 divider: `Early Entry to support relatedSermon :-)` },
+    { id: `20260610`, sermon: `What is Your Legacy, Faith or Flesh?`,     scripture: `2ch.20@@2 Chronicles 20:21-22:12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 06/12/2026',
+           topic:               'Faith Beyond the Outcome',
+           verse:               '2 Timothy 1:7',
+           verseRef:            '2ti.1.7',
+        },
+      ],
+    },
   ]
 }) }M
 

@@ -10,6 +10,7 @@ faithful and encourages him with the good news about Jesus.
 ### At a Glance
 
 - [2 Timothy Overview](#2-timothy-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 2 Timothy Series (Sundays)](#2010-2-timothy-series-sundays)
 - [2018 2 Timothy Series (Mid Week)](#2018-2-timothy-series-mid-week)
 
@@ -83,6 +84,22 @@ P{ collapsibleSection({
 M{ youTube(`kr1YfYbSg94`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2ti',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',    verse: '2 Timothy 1:7',   verseRef: '2ti.1.7', },
+   ]
+}) }M
+
+
 
 
 ## 2010 2 Timothy Series (Sundays)
