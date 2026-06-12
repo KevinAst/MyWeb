@@ -9,6 +9,7 @@ site.
 
 ## At a Glance
 
+- [Video Presentation](#video-presentation)
 - [Basic Appearance](#basic-appearance)
 - [Going Home](#going-home)
 - [Left Nav Bar](#left-nav-bar)
@@ -17,6 +18,20 @@ site.
 - [Where Am I?](#where-am-i)
 - [Bible Translation](#bible-translation)
 - [Diagrams](#diagrams)
+
+
+
+## Video Presentation
+
+If you are visually inclined, watch this presentation on how to use
+Fire Within.  It will walk you through all the details!
+
+<center>
+  <img class="diagram"
+       src="FireWithinSplash_light_TempYouTubeArrow.png"
+       alt="Fire Within"
+       width="80%">
+</center>
 
 
 ## Basic Appearance

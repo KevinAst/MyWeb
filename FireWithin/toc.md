@@ -15,6 +15,7 @@
 
 ----
 - [Getting Started](start.md)
+  * [Video Presentation](start.md#video-presentation)
   * [Basic Appearance](start.md#basic-appearance)
   * [Going Home](start.md#going-home)
   * [Left Nav Bar](start.md#left-nav-bar)
