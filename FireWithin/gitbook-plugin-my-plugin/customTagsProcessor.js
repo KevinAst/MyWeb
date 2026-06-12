@@ -740,7 +740,8 @@ function bibleLink(_ref) {
     }
 
     // update our content with the live scripture link!
-    content += `${crLf}<a href="#" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    // ... KEY FEATURE: style prevents scripture from wrapping
+    content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
 
     // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
     // ... ONLY generated when we are NOT already in this book
