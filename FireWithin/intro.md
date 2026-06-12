@@ -1,12 +1,14 @@
 # Fire Within
 
-<img class="diagram"
-     src="FireWithinLogoWithText.png"
-     alt="Fire Within"
-     width="350px"
-     align="right"> <!-- NOTE: align allows text to flow around image :-) -->
-
 Welcome to my _**"Fire Within"**_ Bible Study Guide!
+
+<center>
+  <img class="diagram"
+       src="FireWithinSplash_light.png"
+       src="FireWithinLogoWithText.png"
+       alt="Fire Within"
+       width="60%"> <!-- use percentage to allow it to scale properly on cell phone -->
+</center>
 
 As you may have already guessed, I am a believer and follower of Jesus
 Christ _(i.e. a Christian)_.  The short version of my faith is I

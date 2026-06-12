@@ -1,13 +1,15 @@
-# Fire Within
-
-<img class="diagram"
-     src="FireWithinSplash_light.png"
-     alt="Fire Within"
-     width="350px"
-     align="right"> <!-- NOTE: align allows text to flow around image :-) -->
+# My Faith &nbsp;
 
 I am so glad that you are here.  Let me take this opportunity to share
 a little bit about my faith in Christ ... this is my testimony.
+
+<!-- NOTE: align="right" ... allows text to flow around the image -->
+<img class="diagram"
+     src="FireWithinSplash_light.png"
+     src="FireWithinLogoWithText.png"
+     alt="Fire Within"
+     align="right"
+     width="40%"> <!-- use percentage to allow it to scale properly on cell phone -->
 
 ## At a Glance
 
