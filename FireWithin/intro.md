@@ -5,7 +5,6 @@ Welcome to my _**"Fire Within"**_ Bible Study Guide!
 <center>
   <img class="diagram"
        src="FireWithinSplash_light.png"
-       src="FireWithinLogoWithText.png"
        alt="Fire Within"
        width="60%"> <!-- use percentage to allow it to scale properly on cell phone -->
 </center>

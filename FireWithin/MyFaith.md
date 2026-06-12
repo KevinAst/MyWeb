@@ -6,7 +6,6 @@ a little bit about my faith in Christ ... this is my testimony.
 <!-- NOTE: align="right" ... allows text to flow around the image -->
 <img class="diagram"
      src="FireWithinSplash_light.png"
-     src="FireWithinLogoWithText.png"
      alt="Fire Within"
      align="right"
      width="40%"> <!-- use percentage to allow it to scale properly on cell phone -->
