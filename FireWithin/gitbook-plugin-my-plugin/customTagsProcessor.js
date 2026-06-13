@@ -613,8 +613,7 @@ function sermonLink(_ref) {
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
   // ... TXT ref, generates a text item only (i.e. NO link)
-  return ref==='TXT' ? title : `${diag}<a href="${url}" target="_blank">${title}</a>`;
-
+  return ref==='TXT' ? title : `${diag}<a title="Launch this sermon" href="${url}" target="_blank">${title}</a>`;
 }
 
 
@@ -1952,7 +1951,7 @@ function devoGHStart(namedParams={}) {
 
   // our parent page-up linkw (needed because the full daily devo is NOT visible in the Left-Nav bar
   // ... NOTE: `↰ Book` link is color coded consistent to the bibleLink() book ref
-  devoBookControls = `<p class="right-link"><a href="${devoPageUpLink}">↰ Devo</a> / <a href="${devoBookLink}"><span style="color:#ff00bf;">↰ ${verseBookName}</span></a></p>\n\n`;
+  devoBookControls = `<p class="right-link"><a title="Go to ALL ${yyyy} Daily Devotions" href="${devoPageUpLink}">↰ Devo</a> / <a title="Go to Devotions 'by the book' (for ${verseBookName})" href="${devoBookLink}"><span style="color:#ff00bf;">↰ ${verseBookName}</span></a></p>\n\n`;
   content += devoBookControls;
 
   // open indentation directive
@@ -1981,10 +1980,10 @@ function devoGHStart(namedParams={}) {
 
   // our devotion scripture reference
   const devoVerseLink = bibleLink(`${verseRef}@@your preferred translation`);
-  content += `<p><a href="https://bible.com/bible/${devoTranslationCode}/${verseRef}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
+  content += `<p><a title="Launch this scripture in the Bible App (${devoTranslation} quoted in this devotion)" href="https://bible.com/bible/${devoTranslationCode}/${verseRef}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
   content += `<div class="indent">\n`;
   content += `  <p><em>${devoTranslationText}</em></p>\n`;
-  content += `  <p><em>${devoVerseLink} (via <a href="settings.html">Settings</a>)</em></p>\n`;
+  content += `  <p><em>${devoVerseLink} (via <a title="Go to Settings (where you can set your Preferred Bible Translation)" href="settings.html">Settings</a>)</em></p>\n`;
   content += `</div>\n\n`;
 
   // close indentation directive
@@ -2372,7 +2371,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     content += completedCheckBox(devoKey);
 
     // Devotion Link
-    content += ` <a href="${devoKey}.html">${topic}</a>`;
+    content += ` <a title="Go to this devotion" href="${devoKey}.html">${topic}</a>`;
 
     // ... responsive design
     if (vertical) { //  ... additional indentation for cell-phone ... for any Additional Context
@@ -2413,7 +2412,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
 
     // the devotion TOC link
-    content += `<a href="${devoKey}.html">${topic}</a>`;
+    content += `<a title="Go to this devotion" href="${devoKey}.html">${topic}</a>`;
 
     // >>> NOT NEEDED, since next section removed
     //? content += `<span class="phone-inline"><br/></span>\n`; // ... responsive cr/lf for phone
@@ -2443,7 +2442,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     content += vertical ? `<br/>` : `</div></td><td><div>`;
 
     // Devotion Link
-    content += ` <a href="${devoKey}.html">${topic}</a>`;
+    content += ` <a title="Go to this devotion" href="${devoKey}.html">${topic}</a>`;
 
     // ... OPTIONAL third column -or- line break ... reflexive design
     content += vertical ? `<br/>` : `</div></td><td><div>`;
