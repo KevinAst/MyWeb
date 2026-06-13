@@ -20,6 +20,7 @@ Jesus, the Gospel, and his Church.
 
 - [Acts Overview](#acts-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
+- [Books](#books)
 - [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
@@ -142,6 +143,13 @@ M{ devoGHSeries({
    ]
 }) }M
 
+
+## Books
+
+Pastor Gary has written a book on Acts!
+
+- [Walking in the Spirit’s Power](https://www.amazon.com/Walking-Spirits-Power-Experiencing-Christianity-ebook/dp/B0H1F38CMY/):
+  _A Chapter by Chapter Study of Acts for Experiencing Authentic Christianity (by Gary Hamrick)_
 
 
 

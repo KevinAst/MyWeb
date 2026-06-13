@@ -16,6 +16,7 @@ reign with Jesus.
 
 - [Revelation Overview](#revelation-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
+- [Books](#books)
 - [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
 - [2020-2021 Revelation Series (Mid Week)](#2020-2021-revelation-series-mid-week)
 
@@ -128,6 +129,16 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 03/24/2026',  topic: 'Awaiting Perfect Justice',                               verse:   'Revelation 21:4',                       verseRef: 'rev.21.4',   },
    ]
 }) }M
+
+
+
+## Books
+
+Pastor Gary has written a book on Revelation!
+
+- [Standing on the Edge of Eternity](https://www.amazon.com/Standing-Edge-Eternity-According-Revelation-ebook/dp/B0DX1XVLZJ/):
+  _The End Times According to Revelation (by Gary Hamrick)_
+
 
 
 ## 2011 Revelation Series (Sundays)
