@@ -113,6 +113,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse: 'Romans 1:20',   verseRef: 'rom.1.20',   },
+     { publicationDate: 'Sat 06/13/2026',  topic: 'Grace Greater Than Our Guilt',            verse: 'Romans 1:16',   verseRef: 'rom.1.16',   },
      { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse: 'Romans 5:3',    verseRef: 'rom.5.3',    },
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
@@ -188,6 +189,12 @@ M{ sermonSeries({
   entries: [
     { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Rom 1:1-25`,
       relatedDevotions: [
+        {
+           publicationDate:     'Sat 06/13/2026',
+           topic:               'Grace Greater Than Our Guilt',
+           verse:               'Romans 1:16',
+           verseRef:            'rom.1.16',
+        },
         {
            publicationDate:     'Wed 04/01/2026',
            topic:               'God Reveals Himself to All',
