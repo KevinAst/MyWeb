@@ -9,7 +9,7 @@ site.
 
 ## At a Glance
 
-- [Video Presentation](#video-presentation)
+- [Quick Start](#quick-start)
 - [Basic Appearance](#basic-appearance)
 - [Going Home](#going-home)
 - [Left Nav Bar](#left-nav-bar)
@@ -21,7 +21,7 @@ site.
 
 
 
-## Video Presentation
+## Quick Start
 
 If you are visually inclined, watch this presentation on how to use
 Fire Within.  It will walk you through all the details!
