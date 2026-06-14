@@ -108,11 +108,12 @@ M{ devoGHSeries({
      { publicationDate: 'Sat 02/21/2026',  topic: 'An Eternal Perspective',         verse:   '2 Corinthians 4:17',                        verseRef: '2co.4.17',   },
      { publicationDate: 'Sun 03/29/2026',  topic: 'Present With the Lord',          verse:   '2 Corinthians 5:8',                         verseRef: '2co.5.8',    },
      { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',           verse:   '2 Corinthians 5:17',                        verseRef: '2co.5.17',   },
+     { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',       verse:   '2 Corinthians 5:18',                        verseRef: '2co.5.18',   },
      { publicationDate: 'Sat 04/18/2026',  topic: 'Ambassadors of Reconciliation',  verse:   '2 Corinthians 5:20',                        verseRef: '2co.5.20',   },
      { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',          verse: /* 2 Corinthians 6:1      */ 'John 4:24',      verseRef: 'jhn.4.24',   btbContext: 'FromDevoSermon##2co.6@@2 Corinthians 6:1##Don’t Disgrace God’s Grace', },
      { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',   verse: /* 2 Corinthians 6:2      */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##2co.6.2@@2 Corinthians 6:2##The urgency in responding to God’s invitation', },
      { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ', verse:   '2 Corinthians 6:14',                        verseRef: '2co.6.14',   },
-     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',       verse: /* 2 Corinthians 7:5-6 */    '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoContent##2co.7.5-6@@2 Corinthians 7:5-6##Conflicts without, fears within; comfort through Titus.'},
+     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',       verse: /* 2 Corinthians 7:5-6    */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoContent##2co.7.5-6@@2 Corinthians 7:5-6##Conflicts without, fears within; comfort through Titus.'},
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',          verse: /* 2 Corinthians 11:23-28 */ 'Romans 5:3',     verseRef: 'rom.5.3',    btbContext: 'FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering', },
    ]
 }) }M
