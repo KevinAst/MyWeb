@@ -22,6 +22,7 @@
 {{book.FBM}} ... FireWithin Study Link: {{book.John}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20221204',
   settings: {
     includeStudyGuide: false,
   },
@@ -63,6 +64,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Jeremiah}}, {{book.Lamentations}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20230604',
   settings: {
     includeStudyGuide: false,
   },
@@ -89,6 +91,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Mark}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20230903',
   settings: {
     includeStudyGuide: false, 
   },
@@ -115,6 +118,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Genesis}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20231203',
   settings: {
     includeStudyGuide: false,
   },
@@ -156,6 +160,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Acts}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20240602',
   settings: {
     includeStudyGuide: false,
   },
@@ -195,6 +200,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Exodus}}, {{book.Leviticus}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20241201',
   settings: {
     includeStudyGuide: false,
   },
@@ -221,6 +227,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.1Peter}}, {{book.2Peter}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250302',
   settings: {
     includeStudyGuide: false,
   },
@@ -246,6 +253,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Psalms}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250601',
   settings: {
     includeStudyGuide: false,
   },
@@ -273,6 +281,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Numbers}}, {{book.Deuteronomy}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250907',
   settings: {
     includeStudyGuide: false,
   },
@@ -299,6 +308,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Matthew}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20251207',
   settings: {
     includeStudyGuide: false,
   },
@@ -338,6 +348,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Joshua}}, {{book.Judges}}, {{book.Ruth}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20260607',
   settings: {
     includeStudyGuide: false,
   },
