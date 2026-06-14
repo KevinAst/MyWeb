@@ -547,7 +547,10 @@ function completedCheckBox(_id) {
   //          2. const checkBox = completedCheckBox(`${bibleBook}@@Book Completed`) ... see: FireWithin/gitbook-plugin-my-plugin/preProcessPage.js
   //          3. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>CCB</mark>` : '';
-  return `${diag}<label><input type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  // ... we vary our hover tool-tip message DUE TO multi use of this macro
+  const toolTipQualifier = additionalHTML.includes('audio-play') ? 'Audio Playback' : 'Completion Status';
+  const toolTip          = `Toggle ${toolTipQualifier} (automatically saved)`;
+  return `${diag}<label><input title="${toolTip}" type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
 
 
@@ -613,7 +616,6 @@ function sermonLink(_ref) {
   //          2. DIRECTLY invoked in sermonSeriesTable()
   const diag = config.revealCustomTags ? `<mark>SL</mark>` : '';
   // ... we vary our hover tool-tip message DUE TO multi use of this macro
-  // ??$$ hover tool-tips refinement
   let toolTip = 'Launch this site'; // ... generic fallback ... ex: https://www.youtube.com/watch?v=Gjx92HC3ax8 (Specials / End Times / The Antichrist, The Rapture, and 2nd Coming of Jesus Explained
   if (title.includes('RoundTable')) { // ... ex: ✦RoundTable✦
     toolTip = 'Launch this Chosen Round Table';
@@ -623,7 +625,7 @@ function sermonLink(_ref) {
     toolTip = 'Launch this Chosen Episode';
   }
   else if (url.includes('cornerstonechapel.net/teaching')) { // ... ex: https://cornerstonechapel.net/teaching/20130206/
-    toolTip = 'Launch this sermon';
+    toolTip = 'Launch this Sermon';
   }
   else if (url.includes('amazon.com/gp/video')) { // ... ex: https://www.amazon.com/gp/video/detail/0IYDSQC9CRAU47ZRIN1CGVZMSC
     toolTip = 'Launch this House of David Episode';
@@ -664,12 +666,14 @@ function studyGuideLink(ref) {
 
   // DEFAULT our url/link - to a Cornerstone sermon Study Guide
   let url  = `https://assets01.cornerstonechapel.net/documents/studyguides/${ref}.pdf`;
-  let aTag = `<a href="${url}" target="_blank">Study Guide</a>`;
+  let aTag = `<a title="Launch this Study Guide" href="${url}" target="_blank">Study Guide</a>`;
   // interpret independant link
   if (ref.includes('@@')) {
     const [ref2, title] = ref.split('@@');
     checkParam(isString(title), `expecting 'link@@title' for this Study Guide`);
-    aTag = `<a href="${ref2}" target="_blank">${title}</a>`;
+    // ... we vary our hover tool-tip message DUE TO multi use of this macro
+    const toolTip = ref2.includes('the-chosen-bibleproject') ? 'Launch this Chosen Devotion' : 'Launch this site';
+    aTag = `<a title="${toolTip}" href="${ref2}" target="_blank">${title}</a>`;
   }
 
   // expand our customTag as follows
@@ -960,7 +964,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   const isCornerstoneEntry     = formattedDateStrFromId ? true : false;
 
   // ... sermon
-  // ?? I THINK COVERED IN: sermonLink()
   let sermonRef = ''; // ... derivation used in sermonLink(sermonRef) <<< USE THIS when supplied
   if (sermon.includes('@@')) { // self contained 'sermonRef@@Title'
     sermonRef = sermon;
@@ -1042,7 +1045,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   content += `</td><td>`;
 
   // sermon (when supplied)
-  // ?? I THINK COVERED IN: sermonLink()
   content += sermonRef ? sermonLink(sermonRef) : '';
   if (relatedDevotions) { // ... relatedDevotions (when supplied)
     for (const devotion of relatedDevotions) {
@@ -1050,7 +1052,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
       content += lineBreakOnSignificant(sermonRef) + expandDevoGHEntry('SERMON', devotion, checkParam, 'UNUSED');
     }
   }
-  // ?? I THINK COVERED IN: sermonLink()
   content += extraSermonLink ? `${lineBreakOnSignificant(sermonRef)}${sermonLink(extraSermonLink)}` : '';
   if (desc) { // add description WHEN defined ... typically LARGE - conditionally displayed at user request
     content += `<i data-fw-desc style="display: none;"><br/>${desc}</i>`;
@@ -1059,7 +1060,6 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
 
   // scripture (when supplied)
   content += scripture ? bibleLink(scripture) : '';
-  // ?? I THINK COVERED IN: sermonLink()
   content += extraLinkInScriptureCell ? `${lineBreakOnSignificant(scripture)}${sermonLink(extraLinkInScriptureCell)}` : '';
   content += `</td><td>`;
 
@@ -1144,7 +1144,7 @@ function processDateEntry(date) {
     checkParam(desc, 'desc is required (the second part of the date string parameter, delimited with @@)');
 
     // update our content with a YouTube linke
-    content += `${crLf}<a href="https://www.youtube.com/watch?v=${ytHash}" target="_blank">DD:${desc}</a>`;
+    content += `${crLf}<a title="Launch this Chosen Sleuth Deep Dive" href="https://www.youtube.com/watch?v=${ytHash}" target="_blank">DD:${desc}</a>`;
 
     crLf = '<br/>'; // subsequent entries have a cr/lf
   });
@@ -1584,9 +1584,9 @@ function collapsibleSection(namedParams={}) {
 
   // the expand/collapse control ... when supplied
   if (label) {
-    content += `<span class="collapsible-toggle" onclick="fw.toggleSection('${id}')">`;
+    content += `<div title="Toggle Section Visibility (automatically saved)" class="collapsible-toggle" onclick="fw.toggleSection('${id}')">`;
     content += `<span class="collapsible-arrow">▶</span> ${label}`;
-    content += `</span>`;
+    content += `</div>`;
   }
 
   // the collapsable container ... NOTE: NOT closed (requires user to subsequently supply: collapsibleSectionEnd() macro)
@@ -2098,7 +2098,6 @@ function devoGHEnd(prayer) {
     }
 
     // inject the devotion's related sermon link
-    // ?? I THINK COVERED IN: sermonLink()
     content += sermonLink(devoSermonLinkRef);
 
     // inject the devotion's related sermon scripture link, if any (optional)
