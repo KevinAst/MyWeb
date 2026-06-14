@@ -127,7 +127,7 @@ As an example, consider: M{ bibleLink(`jhn.3.16@@John 3:16`) }M
   of most scriptures.  This is a convenience control that takes you to
   the FireWithin book for that scripture _(in our example -
   {{book.John}})_.  This allows you to quickly research other
-  resources that FireWithin has for that book.
+  resources that FireWithin has for that book of the Bible.
 
   The only time you will not see this control, is if you are already
   on that page.  In other words, if you are already in the book of
@@ -136,8 +136,7 @@ As an example, consider: M{ bibleLink(`jhn.3.16@@John 3:16`) }M
 
 ## Bible Translation
 
-The YouVersion Bible App supports supports many different Bible
-Translations. 
+The YouVersion Bible App supports many different Bible Translations.
 
 FireWithin allows you to specify which translation you wish to use
 through a central setting.  This automatically impacts ALL 3,000+
