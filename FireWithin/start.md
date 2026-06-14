@@ -14,9 +14,10 @@ site.
 - [Going Home](#going-home)
 - [Left Nav Bar](#left-nav-bar)
 - [Resource Links](#resource-links)
+- [Scripture References](#scripture-references)
+  * [Bible Translation](#bible-translation)
 - [Search](#search)
 - [Where Am I?](#where-am-i)
-- [Bible Translation](#bible-translation)
 - [Diagrams](#diagrams)
 
 
@@ -114,6 +115,38 @@ phone)_.
 >   4. select the desired book (ex: Acts)
 
 
+## Scripture References
+
+Throughout this site, there are over 3,000 scripture references!
+
+As an example, consider: M{ bibleLink(`jhn.3.16@@John 3:16`) }M
+
+- ALL scripture references are links that launch the YouVersion Bible
+  App - so you can "Dig Deeper" electronically!
+
+- In addition, you will find a reddish-tinted arrow, just to the right
+  of most scriptures.  This is a convenience control that takes you to
+  the FireWithin book for that scripture _(in our example -
+  {{book.John}})_.  This allows you to quickly research other
+  resources that FireWithin has for that book.
+
+  The only time you will not see this control, is if you are already
+  on that page.  In other words, if you are already in the book of
+  John, it wouldn't make sense to say "take me to the book of John" :-)
+
+
+## Bible Translation
+
+The YouVersion Bible App supports supports many different Bible
+Translations. 
+
+FireWithin allows you to specify which translation you wish to use
+through a central setting.  This automatically impacts ALL 3,000+
+scriptures found throughout the FireWithin site!
+
+Check out the {{book.BibleTranslation}} setting!!
+
+
 ## Search
 
 You may search the content of the blog through the search box found at
@@ -202,12 +235,6 @@ the Bible you have completed</mark>.  This is summarized in both the
 at the top-right of each page that represents a book of the Bible.
 
 M{ injectSyncNote(`completed checks`) }M
-
-
-## Bible Translation
-
-The {{book.Settings}} page has a **User Preference** that allows you to specify which
-{{book.BibleTranslation}} you wish to use ... **check it out**!
 
 
 ## Diagrams

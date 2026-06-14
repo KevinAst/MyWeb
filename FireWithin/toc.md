@@ -20,9 +20,10 @@
   * [Going Home](start.md#going-home)
   * [Left Nav Bar](start.md#left-nav-bar)
   * [Resource Links](start.md#resource-links)
+  * [Scripture References](start.md#scripture-references)
+    - [Bible Translation](start.md#bible-translation)
   * [Search](start.md#search)
   * [Where Am I?](start.md#where-am-i)
-  * [Bible Translation](start.md#bible-translation)
   * [Diagrams](start.md#diagrams)
 
 ----
