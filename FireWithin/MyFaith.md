@@ -307,6 +307,13 @@ that.  Very simply, it is allowing the Holy Spirit to take charge and guide
 your life - and it is available to all Christians, for the asking
 (through prayer).
 
+<!-- NOTE: align="right" ... allows text to flow around the image -->
+<img class="diagram"
+     src="FireWithinLogo.png"
+     alt="Fire Within"
+     align="right"
+     width="10%"> <!-- use percentage to allow it to scale properly on cell phone -->
+
 There are examples in scripture where the same group of believers were
 _<u>empowered by the Holy Spirit</u>_ multiple times.  The Bible talks about
 their senses being overwhelmed, with sounds of a rushing wind and fire
