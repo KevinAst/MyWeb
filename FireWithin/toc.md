@@ -22,7 +22,6 @@
   * [Resource Links](start.md#resource-links)
   * [Scripture References](start.md#scripture-references)
     - [Bible Translation](start.md#bible-translation)
-  * [Search](start.md#search)
   * [Where Am I?](start.md#where-am-i)
   * [Diagrams](start.md#diagrams)
 

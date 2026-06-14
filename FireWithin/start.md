@@ -16,7 +16,6 @@ site.
 - [Resource Links](#resource-links)
 - [Scripture References](#scripture-references)
   * [Bible Translation](#bible-translation)
-- [Search](#search)
 - [Where Am I?](#where-am-i)
 - [Diagrams](#diagrams)
 
@@ -147,7 +146,11 @@ scriptures found throughout the FireWithin site!
 Check out the {{book.BibleTranslation}} setting!!
 
 
+<!-- 
+
 ## Search
+
+KJB: Search feature does NOT work very well ... nix this (commented out)
 
 You may search the content of the blog through the search box found at
 the top of the **Left Nav Bar**.
@@ -156,6 +159,8 @@ the top of the **Left Nav Bar**.
 other resources, this feature is only useful when the term you are
 searching for is contained in the sermon title, or the introductory
 pros.
+
+-->
 
 
 ## Resource Links
