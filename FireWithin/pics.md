@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 606**          _... categorized below!!_
-> <br/> **Photos: 48,479**       _... Yikes!!!_
+> <br/> **Albums: 607**          _... categorized below!!_
+> <br/> **Photos: 48,518**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -324,6 +324,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2026 06: [Sandy and Gary Wedding - June 20, 2026](https://photos.google.com/share/AF1QipNNqoLmlTd5Tqlh_x2b5jusit9fJ4eMNfCoF1qbFWrVRbI0haTM7sdOdVDr9RitTA?key=VmVscW5sQ1hzUUNid29xY2kwS0VvdU9EYVhualdR) _(?xx pics)_
 - 2026 06: [Sandy and Gary Wedding Slideshow](https://photos.google.com/share/AF1QipO-tvVC9BlUkZpxhqfse5GUbvDGqjZwwtR71uBrXQxU6isWw_BPcetswpY4xkRVSA) _(124 pics)_
+- 2026 06: [Tyrus & Angelina Wedding 6/13/2026](https://photos.google.com/share/AF1QipPzk5bDIitEAsLJ2Rr1ApGScpmKtZQ_c3nKweB2ngwVwxgqu7cfJNsGXOnlID7yFA?key=aUNRbS1LWGxoSDlGb0JqWTBQQTVmNm1lNVlRZldR) _(39 pics)_
 - 2026 06: [Happy 47th Anniversary](https://photos.google.com/share/AF1QipMHvOJvNN-YdgP_H8cPcrngJ70fc7N-XvHU8ByBqyZ7-cecgNxY9sDYIYzDY1pd2w?key=UlJ6cnN5dWZhVk9QM3dMWEluR2tLYUhpVVlTWWRB) _(11 pics)_
 
 
