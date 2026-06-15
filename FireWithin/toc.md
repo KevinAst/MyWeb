@@ -23,6 +23,8 @@
     - [Bible Translation](start.md#bible-translation)
   * [Resource Links](start.md#resource-links)
   * [Where Am I?](start.md#where-am-i)
+  * [Cell Phones](start.md#cell-phones)
+    - [More on Left Nav Bar](start.md#more-on-left-nav-bar)
   * [Diagrams](start.md#diagrams)
 
 ----

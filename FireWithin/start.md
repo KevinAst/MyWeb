@@ -17,8 +17,9 @@ site.
   * [Bible Translation](#bible-translation)
 - [Resource Links](#resource-links)
 - [Where Am I?](#where-am-i)
+- [Cell Phones](#cell-phones)
+  * [More on Left Nav Bar](#more-on-left-nav-bar)
 - [Diagrams](#diagrams)
-
 
 
 ## Quick Start
@@ -77,6 +78,9 @@ will be taken to the study resources for that book.
        width="80%">
 </center>
 
+<br/>
+<p id="expand-left-nav"><b>Open/Close the Left Nav Bar</b></p>
+
 The **Left Nav Bar** itself is expandable using the menu control found in
 the upper-left of the page.  This control is a toggle that will either
 expand or contract the **Left Nav Bar**.
@@ -88,30 +92,6 @@ expand or contract the **Left Nav Bar**.
        alt="Left Nav Toggle"
        width="80%">
 </center>
-
-_**Responsive Design**_
-
-The **Left Nav Bar** will behave differently, depending on whether you
-use it on a desktop _(or tablet)_ or a smaller device _(such as a cell
-phone)_.
-       
-> _**Desktop (or Tablet)**_
-> 
-> - Because a desktop _(or tablet)_ has more real estate to work with ...
-> - The **Left Nav Bar** will start out open and remain open as you navigate the site.
-> 
-> _**Phone**_
-> 
-> - Because a cell phone has less real estate to work with ...
-> - The **Left Nav Bar** will start out closed and automatically close on each menu selection.
->   As an example, to select a book in the New Testament _(assuming you
->   are not already in the New Testament)_, you will need to:
->   1. expand the **Left Nav Bar**
->   2. select "New Testament"
->      ... the New Testament splash page will display, and the **Left Nav Bar** will close
->   3. expand the **Left Nav Bar** once again
->      ... the New Testament menu has now expanded
->   4. select the desired book (ex: Acts)
 
 
 ## Scripture References
@@ -183,39 +163,6 @@ track of where you are your study.
 > purposefully, so you won't loose your place in your study.  To get
 > back to this page, simply re-select it in your browser tabs.
 
-_**Responsive Design**_
-
-The layout of the sermon series links will have a slightly different
-appearance, depending on whether you use it on a desktop _(or tablet)_
-or a smaller device _(such as a cell phone)_.
-       
-> _**Desktop (or Tablet)**_
-> 
-> - A desktop _(or tablet)_ has more real estate to work with on your
->   screen.
-> - The sermon series will have a more horizontal layout _(with up
->   to 5 columns)_.
-> 
-> _**Phone**_
-> 
-> - While a cell phone has less real estate, it is useful if you want to
->   stream audio during your commute or workout.
-> - The sermon series will have a more vertical layout _(with only
->   3 columns)_.
-> - If you have the [You Version](https://www.bible.com/)
->   Bible App installed on your phone, the scripture references will be
->   serviced by the Bible App!
-> - **Remember** - you can always cast a sermon series from your phone to a TV!
-
-<center>
-  <b>Phone Rendition</b><br/>
-  <img class="diagram"
-       style="border:3px solid DarkRed;"
-       src="start_resourceLinkPhone.png"
-       alt="Resource Links Phone"
-       width="45%">
-</center>
-
 
 ## Where Am I?
 
@@ -239,6 +186,57 @@ the Bible you have completed</mark>.  This is summarized in both the
 at the top-right of each page that represents a book of the Bible.
 
 M{ injectSyncNote(`completed checks`) }M
+
+
+## Cell Phones
+
+Fire Within is capable of running on many different device types,
+including Mobile Devices _(such as Cell Phones and Tablets)_.
+
+Because of Fire Within's responsive design, it can handle devices with
+much smaller screens.
+
+As an example, the Cell Phone Sermon Series will take on a slightly
+different appearance.  It has a more vertical layout, with only 3
+columns (instead of 5).
+
+<center>
+  <b>Phone Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkPhone.png"
+       alt="Resource Links Phone"
+       width="45%">
+</center>
+
+While Cell Phones have smaller screens to work with, they are useful
+in many different situations:
+
+- You may want to audio stream a sermon on your commute or workout.
+- You can always cast a sermon series from your phone to a TV!
+- Remember: if your mobile device has [You
+  Version](https://www.bible.com/) Bible App installed, all scripture
+  references will be serviced by the Bible App _(which has more
+  features than it's web counterpart)_!
+
+
+## More on Left Nav Bar
+
+One of the biggest differences of Cell Phone usage is the **Left Nav
+Bar** - which behaves differently, depending on how much screen real
+estate you have:
+
+- For a Desktop/Laptop/Tablet, the **Left Nav Bar** will start out
+  open, and remains open as you navigate the site.
+
+- For a Cell Phone, the **Left Nav Bar** will start out closed and
+  automatically close on each menu selection.
+
+  As an example, if you need to navigate to a different top-level page,
+  you will need to:
+  1. [expand](#expand-left-nav) the **Left Nav Bar**
+  2. select the new top-level page
+     <br/>... the new page will display, and the **Left Nav Bar** will close
 
 
 ## Diagrams
