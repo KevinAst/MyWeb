@@ -11,7 +11,7 @@
     "blog:clean": "rimraf MyPage/FireWithin",
     "blog:gitbook:help": "gitbook help",
     "prepublish:web": "npm run blog:build",
-    "publish:web": "gh-pages --dist MyPage"
+    "publish:web": "gh-pages --dist MyPage --add"
   },
   "repository": {
     "type": "git",
