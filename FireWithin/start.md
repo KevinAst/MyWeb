@@ -13,9 +13,9 @@ site.
 - [Basic Appearance](#basic-appearance)
 - [Going Home](#going-home)
 - [Left Nav Bar](#left-nav-bar)
-- [Resource Links](#resource-links)
 - [Scripture References](#scripture-references)
   * [Bible Translation](#bible-translation)
+- [Resource Links](#resource-links)
 - [Where Am I?](#where-am-i)
 - [Diagrams](#diagrams)
 
