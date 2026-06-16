@@ -48,16 +48,16 @@ M{ sermonSeries({
   entries: [
     { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
-    { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,            studyGuide: `NONE`, },
+    { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
     { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
-
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
     { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
     { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
-    { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalms 146`,          studyGuide: `NONE`  },
+    { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalms 146`,         studyGuide: `NONE`  },
+    { id: `20260517`, sermon: `America’s Christian Heritage`,                                         scripture: `psa.33@@Psalm 33`,            studyGuide: `NONE`  },
   ]
 }) }M
 
@@ -110,5 +110,6 @@ M{ sermonSeries({
     { id: `20250810`, sermon: `Walk In The Light (Ryan Ries)`, extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`,    scripture: `jhn.12.31-33@@John 12:31-33`,     studyGuide: `NONE`, },
     { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                                                         studyGuide: `NONE`, },
     { id: `20260318`, sermon: `Nothing is Impossible with God`, extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`, studyGuide: `NONE`, }, 
+    { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                                                       scripture: `heb.10@@Hebrews 10:22–25`,        studyGuide: `NONE`, }, 
   ]
 }) }M

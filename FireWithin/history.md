@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
 [v26.0](#v26_0)   | Daily Devotions                    | *Mar 17, 2026*
 [v25.6](#v25_6)   | Sync Sermons, Small Group & more   | *Mar 10, 2026*
@@ -85,6 +86,27 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v26_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v26.2 - Sync Sermons <i>(June 16, 2026)</i>
+</h3>
+<br/>
+
+- Synced Current Sermon Series
+  * {{book.Colossians}} Series (Sundays)
+  * {{book.2Chronicles}} Series (Mid Week)
+
+
+- Added the following Speicals
+  * added `America’s Christian Heritage` to {{book.ElectionDaySermons}}
+  * added `A Call to Prayer (Al Pittman)` to {{book.Matthew}} _(Misc)_
+  * added `The Awakening of the American Church (Jack Graham)` to {{book.Misc}} of {{book.CurrentEvents}}
+
+
+
 
 <!-- ************************************************************* -->
 <br/>

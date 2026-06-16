@@ -153,10 +153,17 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,  scripture: `2ch.1@@2 Chronicles 1-2`,          }, // studyGuide: `NONE`, date:`03/25/2026`
-    { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,               scripture: `2ch.3@@2 Chronicles 3-4`,          }, // studyGuide: `NONE`, date:`04/08/2026`
-    {                 divider: `Early Entry to support relatedSermon :-)` },
-    { id: `20260610`, sermon: `What is Your Legacy, Faith or Flesh?`,     scripture: `2ch.20@@2 Chronicles 20:21-22:12`,
+    { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,                        scripture: `2ch.1@@2 Chronicles 1-2`,           },
+    { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,                                     scripture: `2ch.3@@2 Chronicles 3-4`,           },
+    { id: `20260415`, sermon: `Israel: The Land that Bears His Name`,                           scripture: `2ch.4@@2 Chronicles 4:9-6:21`,      },
+    { id: `20260422`, sermon: `From Sin To Restoration: The Pattern God Responds To`,           scripture: `2ch.6@@2 Chronicles 6:22-7:22`,     },
+    { id: `20260429`, sermon: `Do People Hear and See the Lord Through You?`,                   scripture: `2ch.8@@2 Chronicles 8:1-9:12`,      },
+    { id: `20260506`, sermon: `How to Make Wise Decisions`,                                     scripture: `2ch.9@@2 Chronicles 9:13-11:23`,    },
+    { id: `20260513`, sermon: `Purge the Idols, Find the Peace`,                                scripture: `2ch.12@@2 Chronicles 12-14`,        },
+    { id: `20260520`, sermon: `Walking with God, even through Failure (Pastor Tyler Hamrick)`,  scripture: `2ch.15@@2 Chronicles 15-16`,        },
+    { id: `20260527`, sermon: `Dangerous Alliances (Pastor Austin Hamrick)`,                    scripture: `2ch.17@@2 Chronicles 17-18`,        },
+    { id: `20260603`, sermon: `God’s Strategy for Spiritual Battles`,                           scripture: `2ch.18@@2 Chronicles 18:28-20:21`,  },
+    { id: `20260610`, sermon: `What is Your Legacy, Faith or Flesh?`,                           scripture: `2ch.20@@2 Chronicles 20:21-22:12`,
       relatedDevotions: [
         {
            publicationDate:     'Fri 06/12/2026',

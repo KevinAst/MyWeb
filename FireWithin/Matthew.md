@@ -227,5 +227,6 @@ M{ sermonSeries({
     { id: `20230402`, sermon: `Followers in the Crowd (Mike McClure)`,  scripture: `mat.20@@Matthew 20:29-21:14`, studyGuide: `NONE`, },
     { id: `20230813`, sermon: `When in the Wilderness (Tyler Hamrick)`, scripture: `mat.4@@Matthew 4:1-11`,                           },
     { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,         scripture: `mat.25@@Matthew 25:14-30`,    studyGuide: `NONE`, },
+    { id: `20260503`, sermon: `A Call to Prayer (Al Pittman)`,          scripture: `mat.6@@Matthew 6:5-15`,       studyGuide: `NONE`, },
   ]
 }) }M

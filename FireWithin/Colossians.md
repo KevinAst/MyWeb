@@ -14,6 +14,7 @@ there freedom from the powers of guilt and shame.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
+- [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
 - [Colossians Misc Selection](#colossians-misc-selection)
 
 
@@ -105,6 +106,10 @@ M{ devoGHSeries({
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 M{ sermonSeries({
   entries: [
     { id: `20100411`, sermon: `Dig Down, Grow Up, Stand Firm`,          scripture: `col.1@@Colossians 1-2`, },
@@ -129,6 +134,24 @@ M{ sermonSeries({
     { id: `20180131`, scripture: `col.4@@Colossians 4`,         },
   ]
 }) }M
+
+
+
+## 2026 Colossians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20260419`, sermon: `Two Kingdoms in Conflict`,                 scripture: `col.1@@Colossians 1:1-14`,   },
+    { id: `20260510`, sermon: `Jesus Is`,                                 scripture: `col.1@@Colossians 1:15–18`,  },
+    { id: `20260524`, sermon: `Reconciled to God`,                        scripture: `col.1@@Colossians 1:19-23`,  },
+    { id: `20260531`, sermon: `Surviving Suffering`,                      scripture: `col.1@@Colossians 1:24–29`,  },
+    { id: `20260607`, sermon: `Warnings to the Church in a Crazy World`,  scripture: `col.2@@Colossians 2:1-23`,   },
+    { id: `20260614`, sermon: `Complete in Christ`,                       scripture: `col.2@@Colossians 2:11–15`,  },
+  ]
+}) }M
+
 
 
 
