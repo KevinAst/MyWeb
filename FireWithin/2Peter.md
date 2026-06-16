@@ -1,4 +1,4 @@
-# 2 Peter
+# M{ bibleLink(`2pe.1@@2 Peter`) }M
 
 2 Peter asks hard questions: _"If God is just, why does so much evil go
 unpunished?"_ and _"Isn't Hell just hateful religion?"_ Peter answers

@@ -1,4 +1,4 @@
-# Colossians
+# M{ bibleLink(`col.1@@Colossians`) }M
 
 _"Jesus is not enough."_ This was the message of a group of Colossian
 heretics. So the apostle Paul writes to correct the error and remind a

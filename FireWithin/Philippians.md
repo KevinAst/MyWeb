@@ -1,4 +1,4 @@
-# Philippians
+# M{ bibleLink(`php.1@@Philippians`) }M
 
 Philippians contains one of the oldest Christian hymns. It speaks of
 how Jesus, though exalted, was humbled to the cross. But because he

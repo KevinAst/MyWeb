@@ -1,4 +1,4 @@
-# Judges
+# M{ bibleLink(`jdg.1@@Judges`) }M
 
 The book of Judges is a book of saviors and of judgments. Israel's
 leaders were supposed to save Israel from their sinful enemies in the

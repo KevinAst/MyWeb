@@ -1,4 +1,4 @@
-# Song of Solomon
+# M{ bibleLink(`sng.1@@Song of Solomon`) }M
 
 Song of Songs tells a story about love, longing, passion, and waiting
 through a collection of songs about a bride and a groom. People often

@@ -1,4 +1,4 @@
-# 2 Chronicles
+# M{ bibleLink(`2ch.1@@2 Chronicles`) }M
 
 The books of 1 and 2 Chronicles tell Israel's story from creation
 through exile, focusing on God's faithfulness to his promises despite

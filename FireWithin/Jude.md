@@ -1,4 +1,4 @@
-# Jude
+# M{ bibleLink(`jud.1@@Jude`) }M
 
 In Jude’s day, there was a destructive belief secretly spreading in
 the early church. A group of believers were teaching that God’s love

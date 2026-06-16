@@ -1,4 +1,4 @@
-# Job
+# M{ bibleLink(`job.1@@Job`) }M
 
 Why does God allow us to suffer? Why do bad things happen to good
 people? What is the relationship between God, suffering, and sin?

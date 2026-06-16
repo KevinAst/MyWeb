@@ -1,4 +1,4 @@
-# Hebrews
+# M{ bibleLink(`heb.1@@Hebrews`) }M
 
 The book of Hebrews was written to Jewish believers who were being
 persecuted for following Jesus. Through their Scriptures, priests, and

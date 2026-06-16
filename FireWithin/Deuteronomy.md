@@ -1,4 +1,4 @@
-# Deuteronomy
+# M{ bibleLink(`deu.1@@Deuteronomy`) }M
 
 Israel is about to finally enter the promised land of Canaan. Before
 they do, Moses rallies the people to remind them of God’s law—and why

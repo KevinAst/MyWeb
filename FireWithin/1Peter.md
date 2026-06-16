@@ -1,4 +1,4 @@
-# 1 Peter
+# M{ bibleLink(`1pe.1@@1 Peter`) }M
 
 Peter the apostle begins his letter to churches enduring hostility,
 telling them that being chosen in Jesus means choosing to be

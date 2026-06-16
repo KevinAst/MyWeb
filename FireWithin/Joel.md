@@ -1,4 +1,4 @@
-# Joel
+# M{ bibleLink(`jol.1@@Joel`) }M
 
 Joel prophesies about a coming day of the Lord — a day of both justice
 and mercy. On that day, there will be justice against those who have

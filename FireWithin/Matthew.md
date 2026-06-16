@@ -1,4 +1,4 @@
-# Matthew
+# M{ bibleLink(`mat.1@@Matthew`) }M
 
 Matthew shows us how Jesus fulfills the Old Testament. He pictures the
 Old Testament like a treasure chest that contain old and new treasure

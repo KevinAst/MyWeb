@@ -1,4 +1,4 @@
-# Mark
+# M{ bibleLink(`mrk.1@@Mark`) }M
 
 The author of Mark, John Mark, wrote this book based on the apostle
 Peter’s memories of Jesus’ words and deeds.

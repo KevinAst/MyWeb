@@ -1,4 +1,4 @@
-# 3 John
+# M{ bibleLink(`3jn.1@@3 John`) }M
 
 In his letters, John encourages a congregation under attack by a group
 of false teachers he calls antichrists. These antichrists are

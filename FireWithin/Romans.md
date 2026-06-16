@@ -1,4 +1,4 @@
-# Romans
+# M{ bibleLink(`rom.1@@Romans`) }M
 
 The book of Romans is a detailed explanation of the Gospel message
 written by Paul to the church in Rome. 

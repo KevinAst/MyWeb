@@ -1,4 +1,4 @@
-# Isaiah
+# M{ bibleLink(`isa.1@@Isaiah`) }M
 
 Isaiah prophesied during a pivotal point in Israel's history. Because
 of their sin, God sent Babylon to judge Israel. But Isaiah's ministry

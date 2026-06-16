@@ -1,4 +1,4 @@
-# 1 Corinthians
+# M{ bibleLink(`1co.1@@1 Corinthians`) }M
 
 1 Corinthians challenges believers to examine every area of life
 through the lens of the Gospel. Specifically, Paul addresses divisions

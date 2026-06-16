@@ -1,4 +1,4 @@
-# Jeremiah
+# M{ bibleLink(`jer.1@@Jeremiah`) }M
 
 God and Israel's relationship began like a marriage. God vowed to be
 faithful, and Israel promised to be lovingly his. But Israel

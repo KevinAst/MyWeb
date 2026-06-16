@@ -1,4 +1,4 @@
-# James
+# M{ bibleLink(`jas.1@@James`) }M
 
 The book of James introduces us to the wisdom of Jesus. Jesus’ wisdom
 is simple but revolutionary. Jesus’ wisdom says that, like flowers

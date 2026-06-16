@@ -1,4 +1,4 @@
-# Numbers
+# M{ bibleLink(`num.1@@Numbers`) }M
 
 Numbers tells the story of Israel’s wanderings through the wilderness
 en route to the promised land of Canaan. Numbers begins and ends with

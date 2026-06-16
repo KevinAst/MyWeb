@@ -1,4 +1,4 @@
-# Acts
+# M{ bibleLink(`act.1@@Acts`) }M
 
 The book of Acts is a continuation of the Gospel of {{book.Luke}}.
 Major themes include: Jesus returns to the Father &bull; the Holy

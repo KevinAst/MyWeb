@@ -1,4 +1,4 @@
-# Amos
+# M{ bibleLink(`amo.1@@Amos`) }M
 
 **Israel has been unfaithful to Yahweh.**
 

@@ -1,4 +1,4 @@
-# Ezekiel
+# M{ bibleLink(`ezk.1@@Ezekiel`) }M
 
 The book of Ezekiel wrestles with the exile of God's people into
 Assyria and the departure of God's presence from the

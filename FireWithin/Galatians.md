@@ -1,4 +1,4 @@
-# Galatians
+# M{ bibleLink(`gal.1@@Galatians`) }M
 
 The book of Galatians reminds Jesus’ followers to embrace the Gospel
 message of the crucified Messiah, that justifies all people through

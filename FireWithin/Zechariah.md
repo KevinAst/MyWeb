@@ -1,4 +1,4 @@
-# Zechariah
+# M{ bibleLink(`zec.1@@Zechariah`) }M
 
 The book of Zechariah introduces us to God's promises to rebuild his
 ruined temple and restore his kingdom through a coming priest and

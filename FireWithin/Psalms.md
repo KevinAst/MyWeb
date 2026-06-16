@@ -1,4 +1,4 @@
-# Psalms
+# M{ bibleLink(`psa.1@@Psalms`) }M
 
 The Psalms are songs for a people waiting in exile. They spring from
 Israel's history, when people like King David wrote inspired songs

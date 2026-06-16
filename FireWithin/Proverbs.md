@@ -1,4 +1,4 @@
-# Proverbs
+# M{ bibleLink(`pro.1@@Proverbs`) }M
 
 The Book of Proverbs is trying to get anyone who will listen back to
 the Tree of Life and off the path to death. This effort is personified

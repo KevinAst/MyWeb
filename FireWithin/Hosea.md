@@ -1,4 +1,4 @@
-# Hosea
+# M{ bibleLink(`hos.1@@Hosea`) }M
 
 God promised to protect Israel, but the kings of Israel drained their
 own people to buy weapons and protection from foreign lords

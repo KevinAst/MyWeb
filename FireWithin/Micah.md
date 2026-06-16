@@ -1,4 +1,4 @@
-# Micah
+# M{ bibleLink(`mic.1@@Micah`) }M
 
 In the book of Micah, the prophet indicts Israel’s kings and prophets
 for using their power to prey on their citizens and failing to lead

@@ -1,4 +1,4 @@
-# Ezra
+# M{ bibleLink(`ezr.1@@Ezra`) }M
 
 God wants to live with us. We see this truth in Ezra and
 Nehemiah. Ezra and Nehemiah are two books that tell one story—the

@@ -1,4 +1,4 @@
-# Genesis
+# M{ bibleLink(`gen.1@@Genesis`) }M
 
 In the first part of Genesis _(1-11)_, we see that God creates a good
 world and commissions humans to rule it, but they choose rebellion

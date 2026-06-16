@@ -1,4 +1,4 @@
-# Ecclesiastes
+# M{ bibleLink(`ecc.1@@Ecclesiastes`) }M
 
 What is the meaning of life? Ecclesiastes asks this and other
 difficult questions but is unique in the way it answers them. The

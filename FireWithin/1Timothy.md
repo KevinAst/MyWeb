@@ -1,4 +1,4 @@
-# 1 Timothy
+# M{ bibleLink(`1ti.1@@1 Timothy`) }M
 
 The apostle Paul sends Timothy to lead a divided and broken church in
 his place. Timothy is inexperienced and overwhelmed by the

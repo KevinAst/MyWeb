@@ -1,4 +1,4 @@
-# Habakkuk
+# M{ bibleLink(`hab.1@@Habakkuk`) }M
 
 In the book of Habakkuk God’s prophet asks why God tolerates evil and
 why he seems slow in punishing injustice. God responds that he has a

@@ -1,4 +1,4 @@
-# 1 Kings
+# M{ bibleLink(`1ki.1@@1 Kings`) }M
 
 1 & 2 Kings form one book on Israel's history. But more importantly,
 they tell a story about death and life. In Kings, everything Israel

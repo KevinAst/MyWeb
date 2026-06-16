@@ -1,4 +1,4 @@
-# Ephesians
+# M{ bibleLink(`eph.1@@Ephesians`) }M
 
 Ephesians is written to a church divided. In fact, it’s written to a
 world divided. We are divided from God and each other because we are

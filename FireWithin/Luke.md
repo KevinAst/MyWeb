@@ -1,4 +1,4 @@
-# Luke
+# M{ bibleLink(`luk.1@@Luke`) }M
 
 Luke is the story of Jesus Christ - exactly as it happened ... written
 by the physician Luke.  It emphasizes the upside-down nature of God’s

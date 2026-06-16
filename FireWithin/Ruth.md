@@ -1,4 +1,4 @@
-# Ruth
+# M{ bibleLink(`rut.1@@Ruth`) }M
 
 The book of Ruth is a love story between Ruth and Naomi, but even more
 importantly it's a story about God's loyal love for his people. Ruth

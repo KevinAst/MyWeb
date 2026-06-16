@@ -1,4 +1,4 @@
-# 1 Samuel
+# M{ bibleLink(`1sa.1@@1 Samuel`) }M
 
 The books of 1&2 Samuel narrate the beginning of Israel's monarchy
 with the rise and fall of King Saul and King David. The true King of

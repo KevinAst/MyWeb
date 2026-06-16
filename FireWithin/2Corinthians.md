@@ -1,4 +1,4 @@
-# 2 Corinthians
+# M{ bibleLink(`2co.1@@2 Corinthians`) }M
 
 Paul’s message to the Corinthians encourages them to live in a new
 way, embracing the cruciform life of Jesus. Through the cross and

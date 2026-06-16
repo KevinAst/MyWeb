@@ -1,4 +1,4 @@
-# Titus
+# M{ bibleLink(`tit.1@@Titus`) }M
 
 The island of Crete was known for immorality and its love for
 arguments and debate. Sadly, the culture of the island began to invade

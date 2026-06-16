@@ -1,4 +1,4 @@
-# Daniel
+# M{ bibleLink(`dan.1@@Daniel`) }M
 
 Daniel is a collection of stories and visions that give us hope that
 God’s kingdom will eventually prevail over violent world
