@@ -13,75 +13,99 @@ world's wisdom because Jesus' death did not look like wisdom to most
 people. However, in this letter, Paul proves that Jesus going to the
 cross is the wisest thing that has ever happened.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Corinthians Overview](#1-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
 - [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
 
-## Overview
+## 1 Corinthians Overview
 
-**{{book.NivBible}} 1 Corinthians Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The book of Acts describes how Paul brought the royal news about Jesus
-> the Messiah to Macedonia (northern Greece), but then had to flee to
-> Achaia (southern Greece) for his own safety. He visited the city of
-> Corinth there, a wealthy and cosmopolitan commercial center. Many
-> people became believers, so he stayed for a year and a half to teach
-> them.
-> 
-> After he left, the Corinthians wrote to Paul (in a letter we no longer
-> have) with some key questions. The Corinthians had adopted the common
-> Greek idea that physical things are bad, so they wanted to free the
-> human spirit from the body. This affected the way they saw such things
-> as marriage, attendance at ceremonial meals for pagan gods, and even
-> the resurrection of Jesus. In the letter we know as 1 Corinthians Paul
-> addresses all of these concerns, as well as questions about worship.
-> 
-> Paul writes that this world in its present form is passing away,but
-> the Corinthians can give themselves fully to the work of the Lord
-> since their labor in the Lord is not in vain. The coming resurrection
-> of the dead, and the new world that will accompany it, will show the
-> value of all their current efforts. Paul’s practical advice for how to
-> consistently embody the new life of God’s kingdom during a particular
-> scene in the biblical drama gives us great insight as we seek to take
-> up our roles today.
+**{{book.NivBible}}**
 
+The book of Acts describes how Paul brought the royal news about Jesus
+the Messiah to Macedonia (northern Greece), but then had to flee to
+Achaia (southern Greece) for his own safety. He visited the city of
+Corinth there, a wealthy and cosmopolitan commercial center. Many
+people became believers, so he stayed for a year and a half to teach
+them.
+
+After he left, the Corinthians wrote to Paul (in a letter we no longer
+have) with some key questions. The Corinthians had adopted the common
+Greek idea that physical things are bad, so they wanted to free the
+human spirit from the body. This affected the way they saw such things
+as marriage, attendance at ceremonial meals for pagan gods, and even
+the resurrection of Jesus. In the letter we know as 1 Corinthians Paul
+addresses all of these concerns, as well as questions about worship.
+
+Paul writes that this world in its present form is passing away,but
+the Corinthians can give themselves fully to the work of the Lord
+since their labor in the Lord is not in vain. The coming resurrection
+of the dead, and the new world that will accompany it, will show the
+value of all their current efforts. Paul’s practical advice for how to
+consistently embody the new life of God’s kingdom during a particular
+scene in the biblical drama gives us great insight as we seek to take
+up our roles today.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
+**1 Corinthians Diagram**
 M{ zoomableImg(`1Corinthians_BP`) }M
+
+[1 Corinthians Introduction](https://bibleproject.com/explore/video/1-corinthians/)
 M{ youTube(`yiHf8klCCc4`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Corinthians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`0_LhiD-XNr0`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/19/2026',
-       topic:               'Holy Fellowship',
-       verse:               '1 Corinthians 5:11',
-       verseRef:            '1co.5.11',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/08/2026',
-       topic:               'Guarding the Heart from Small Compromises',
-       verse:               '1 Corinthians 10:12',
-       verseRef:            '1co.10.12',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1co',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 03/19/2026',  topic: 'Holy Fellowship',                            verse: '1 Corinthians 5:11',   verseRef: '1co.5.11',   },
+     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse: '1 Corinthians 10:12',  verseRef: '1co.10.12',  },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',                 verse: '1 Corinthians 14:33',  verseRef: '1co.14.33',  },
+   ]
+}) }M
 
 
 ## 2009 1 Corinthians Series (Sundays)
@@ -93,6 +117,7 @@ available._
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2009',
   entries: [
     { id: `20090927`, sermon: `When Wisdom Seems Foolish`,              scripture: `1co.1@@1 Cor 1-3`,    },
     { id: `20091004`, sermon: `Church Discipline`,                      scripture: `1co.4@@1 Cor 4-5`,    },
@@ -112,6 +137,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2016',
   settings: {
     includeStudyGuide: false,
   },
@@ -144,6 +170,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2024',
   entries: [
     { id: `20240922`, sermon: `It's Time to Grow Up!`,               scripture: `1co.1@@1 Corinthians 1`,       },
     { id: `20240929`, sermon: `What God has Prepared for Us`,        scripture: `1co.2@@1 Corinthians 2`,       },

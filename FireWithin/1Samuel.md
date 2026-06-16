@@ -9,91 +9,119 @@ Jesus who humbly listens to the voice of God. It is only Jesus who
 establishes a nation of humility. And it is only Jesus who can cause
 every proud king to bow.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Samuel Overview](#1-samuel-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2014 1 Samuel Series (Sundays)](#2014-1-samuel-series-sundays)
 - [2023 1 Samuel Series (Mid Week)](#2023-1-samuel-series-mid-week)
 
 
-## Overview
+## 1 Samuel Overview
 
-**{{book.NivBible}} 1 Samuel Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Samuel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
-> one long book. (They were separated due to the length of ancient
-> scrolls.) Beginning with Samuel, the last of the judges, this book
-> describes what happened in the days of the kings who ruled first the
-> whole nation, and then the divided kingdoms of Israel and Judah. The
-> reigns of Saul and David are described in detail. The repeating
-> structure within the book tells how old a king was when he came to the
-> throne, where and for how long he ruled, and something about his
-> character and the notable events of his reign. (Some traditions call
-> this book the “Book of Reigns.”)
-> 
-> Beneath this pattern of historical succession, however, another rhythm
-> can be discerned. Saul, the first king, does not follow God
-> faithfully, and God announces he will seek a man after his own heart
-> to rule Israel. God finds this person in David. He puts him on the
-> throne, promising that his descendants will always rule Israel if they
-> continue to serve him. Unfortunately, the kings after David are not
-> committed to following God’s way. Many of them abandon God and lead
-> the people to do the same, although a few of them call the people back
-> to obedience. Using David’s wholehearted dedication to the Lord as its
-> standard, the book of Samuel-Kings traces the tragic wavering of the
-> people’s devotion to God. Their covenant failure leads to the nation
-> first being divided and then later conquered by the powerful empires
-> to the east.
-> 
-> The “Book of Reigns” is therefore a tragic closing of the whole
-> covenant history that began in Genesis. Just as the first humans were
-> exiled from God’s garden, now Israel is sent out of the “new Eden” God
-> intended in the promised land. Land and temple have been lost in the
-> darkness of judgment, and only a flickering light remains. The deeper
-> purpose of God for Israel—to bring blessing and restoration to the
-> nations—seems to have been frustrated. But hope remains alive in God’s
-> promise to bring a descendant of David back to the throne.
+**{{book.NivBible}}**
 
+The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
+one long book. (They were separated due to the length of ancient
+scrolls.) Beginning with Samuel, the last of the judges, this book
+describes what happened in the days of the kings who ruled first the
+whole nation, and then the divided kingdoms of Israel and Judah. The
+reigns of Saul and David are described in detail. The repeating
+structure within the book tells how old a king was when he came to the
+throne, where and for how long he ruled, and something about his
+character and the notable events of his reign. (Some traditions call
+this book the “Book of Reigns.”)
+
+Beneath this pattern of historical succession, however, another rhythm
+can be discerned. Saul, the first king, does not follow God
+faithfully, and God announces he will seek a man after his own heart
+to rule Israel. God finds this person in David. He puts him on the
+throne, promising that his descendants will always rule Israel if they
+continue to serve him. Unfortunately, the kings after David are not
+committed to following God’s way. Many of them abandon God and lead
+the people to do the same, although a few of them call the people back
+to obedience. Using David’s wholehearted dedication to the Lord as its
+standard, the book of Samuel-Kings traces the tragic wavering of the
+people’s devotion to God. Their covenant failure leads to the nation
+first being divided and then later conquered by the powerful empires
+to the east.
+
+The “Book of Reigns” is therefore a tragic closing of the whole
+covenant history that began in Genesis. Just as the first humans were
+exiled from God’s garden, now Israel is sent out of the “new Eden” God
+intended in the promised land. Land and temple have been lost in the
+darkness of judgment, and only a flickering light remains. The deeper
+purpose of God for Israel—to bring blessing and restoration to the
+nations—seems to have been frustrated. But hope remains alive in God’s
+promise to bring a descendant of David back to the throne.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Samuel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Samuel Introduction](https://bibleproject.com/explore/video/1-samuel/)
+**1 Samuel Diagram**
 M{ zoomableImg(`12Samuel_BP`) }M
 
+[1 Samuel Introduction](https://bibleproject.com/explore/video/1-samuel/)
 M{ youTube(`QJOju5Dw0V0`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Samuel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`I97PwEJ5Ok0`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/31/2026',
-       topic:               'Pouring Out the Soul Before God',
-       verse:               '1 Samuel 1:10',
-       verseRef:            '1sa.1.10',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 04/12/2026',
-       topic:               'Return to the Lord with All Your Heart',
-       verse:               '1 Samuel 7:3',
-       verseRef:            '1sa.7.3',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/14/2026',
-       topic:               'The Heart God Sees',
-       verse:               '1 Samuel 16:7',
-       verseRef:            '1sa.16.7',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1sa',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 03/31/2026',  topic: 'Pouring Out the Soul Before God',         verse:   '1 Samuel 1:10',                         verseRef: '1sa.1.10',   },
+     { publicationDate: 'Sun 02/22/2026',  topic: 'The Lord Who Hears',                      verse:   '1 Samuel 1:11',                         verseRef: '1sa.1.11',   },
+     { publicationDate: 'Sun 04/12/2026',  topic: 'Return to the Lord with All Your Heart',  verse:   '1 Samuel 7:3',                          verseRef: '1sa.7.3',    },
+     { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',               verse:   '1 Samuel 12:22',                        verseRef: '1sa.12.22',  },
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: /* 1 Samuel 14,17,26 */ 'Romans 12:19',    verseRef: 'rom.12.19',  btbContext: 'FromDevoContent##1sa.14@@1 Samuel 14,17,26##David and Abner — From Opponents to Allies', },
+     { publicationDate: 'Wed 04/22/2026',  topic: 'Obedience Without Excuse',                verse:   '1 Samuel 15:22',                        verseRef: '1sa.15.22',  },
+     { publicationDate: 'Fri 04/24/2026',  topic: 'To Obey Is Better',                       verse:   '1 Samuel 15:22',                        verseRef: '1sa.15.22',  },
+     { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',                verse: /* 1 Samuel 16-26    */ 'Proverbs 20:22',  verseRef: 'pro.20.22',  btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-26##David - Restraint and Trust in God', },
+     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                          verse: /* 1 Samuel 16-30    */ 'Psalms 56:3',     verseRef: 'psa.56.3',   btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-30##David’s Journey of Trust', },
+     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',               verse: /* 1 Samuel 16-26    */ 'Psalms 40:1',     verseRef: 'psa.40.1',   btbContext: 'FromDevoContent##1sa.16@@1 Samuel 16-26##David’s Wilderness Waiting', },
+     { publicationDate: 'Tue 04/14/2026',  topic: 'The Heart God Sees',                      verse:   '1 Samuel 16:7',                         verseRef: '1sa.16.7',   },
+     { publicationDate: 'Sun 04/26/2026',  topic: 'A Heart Known by God',                    verse:   '1 Samuel 16:7',                         verseRef: '1sa.16.7',   },
+     { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',          verse:   '1 Samuel 17:47',                        verseRef: '1sa.17.47',  },
+     { publicationDate: 'Sun 05/17/2026',  topic: 'Strengthened in the Lord',                verse:   '1 Samuel 30:6',                         verseRef: '1sa.30.6',   },
+   ]
+}) }M
 
 
 ## 2014 1 Samuel Series (Sundays)
@@ -101,6 +129,7 @@ M{ youTube(`I97PwEJ5Ok0`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1sa-2014',
   entries: [
     { id: `20140525`, sermon: `Hannah's Hope`,                            scripture: `1sa.1@@1 Samuel 1`,      },
     { id: `20140601`, sermon: `Hearing God`,                              scripture: `1sa.2@@1 Samuel 2-3`,    },
@@ -125,11 +154,27 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1sa-2023',
   settings: {
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20220824`, scripture: `1sa.1@@1 Samuel 1:1-18`,       },
+    { id: `20220824`, scripture: `1sa.1@@1 Samuel 1:1-18`,
+      relatedDevotions: [
+        {
+          publicationDate:     'Sun 02/22/2026',
+          topic:               'The Lord Who Hears',
+          verse:               '1 Samuel 1:11',
+          verseRef:            '1sa.1.11',
+        },
+        {
+           publicationDate:     'Tue 03/31/2026',
+           topic:               'Pouring Out the Soul Before God',
+           verse:               '1 Samuel 1:10',
+           verseRef:            '1sa.1.10',
+        },
+      ],
+    },
     { id: `20220907`, scripture: `1sa.1@@1 Samuel 1:19-2:11`,    },
     { id: `20221005`, scripture: `1sa.2@@1 Samuel 2:12-36`,      },
     { id: `20221019`, scripture: `1sa.3@@1 Samuel 3-4`,          },
@@ -138,9 +183,36 @@ M{ sermonSeries({
     { id: `20221130`, scripture: `1sa.9@@1 Samuel 9-10`,         },
     { id: `20230104`, scripture: `1sa.11@@1 Samuel 11-12`,       },
     { id: `20230111`, scripture: `1sa.13@@1 Samuel 13-14:23`,    },
-    { id: `20230118`, scripture: `1sa.14@@1 Samuel 14:24-15:16`, },
-    { id: `20230125`, scripture: `1sa.15@@1 Samuel 15:16-16:13`, },
-    { id: `20230201`, scripture: `1sa.16@@1 Samuel 16:14-17:32`, },
+    { id: `20230118`, scripture: `1sa.14@@1 Samuel 14:24-15:16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 04/22/2026',
+           topic:               'Obedience Without Excuse',
+           verse:               '1 Samuel 15:22',
+           verseRef:            '1sa.15.22',
+        },
+      ],
+    },
+    { id: `20230125`, scripture: `1sa.15@@1 Samuel 15:16-16:13`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 04/24/2026',
+           topic:               'To Obey Is Better',
+           verse:               '1 Samuel 15:22',
+           verseRef:            '1sa.15.22',
+        },
+      ],
+    },
+    { id: `20230201`, scripture: `1sa.16@@1 Samuel 16:14-17:32`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 04/26/2026',
+           topic:               'A Heart Known by God',
+           verse:               '1 Samuel 16:7',
+           verseRef:            '1sa.16.7',
+        },
+      ],
+    },
     { id: `20230208`, scripture: `1sa.17@@1 Samuel 17:33-18:4`,  },
     { id: `20230215`, scripture: `1sa.18@@1 Samuel 18:5-19:24`,  },
     { id: `20230222`, scripture: `1sa.20@@1 Samuel 20-21:7`,     },

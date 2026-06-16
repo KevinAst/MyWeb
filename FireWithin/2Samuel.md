@@ -9,62 +9,117 @@ Jesus who humbly listens to the voice of God. It is only Jesus who
 establishes a nation of humility. And it is only Jesus who can cause
 every proud king to bow.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [2 Samuel Overview](#2-samuel-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 2 Samuel Series (Sundays)](#2014-2-samuel-series-sundays)
 - [2023 2 Samuel Series (Mid Week)](#2023-2-samuel-series-mid-week)
 
 
-## Overview
+## 2 Samuel Overview
 
-**{{book.NivBible}} 2 Samuel Introduction**
 
-> The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
-> one long book. (They were separated due to the length of ancient
-> scrolls.) Beginning with Samuel, the last of the judges, this book
-> describes what happened in the days of the kings who ruled first the
-> whole nation, and then the divided kingdoms of Israel and Judah. The
-> reigns of Saul and David are described in detail. The repeating
-> structure within the book tells how old a king was when he came to the
-> throne, where and for how long he ruled, and something about his
-> character and the notable events of his reign. (Some traditions call
-> this book the “Book of Reigns.”)
-> 
-> Beneath this pattern of historical succession, however, another rhythm
-> can be discerned. Saul, the first king, does not follow God
-> faithfully, and God announces he will seek a man after his own heart
-> to rule Israel. God finds this person in David. He puts him on the
-> throne, promising that his descendants will always rule Israel if they
-> continue to serve him. Unfortunately, the kings after David are not
-> committed to following God’s way. Many of them abandon God and lead
-> the people to do the same, although a few of them call the people back
-> to obedience. Using David’s wholehearted dedication to the Lord as its
-> standard, the book of Samuel-Kings traces the tragic wavering of the
-> people’s devotion to God. Their covenant failure leads to the nation
-> first being divided and then later conquered by the powerful empires
-> to the east.
-> 
-> The “Book of Reigns” is therefore a tragic closing of the whole
-> covenant history that began in Genesis. Just as the first humans were
-> exiled from God’s garden, now Israel is sent out of the “new Eden” God
-> intended in the promised land. Land and temple have been lost in the
-> darkness of judgment, and only a flickering light remains. The deeper
-> purpose of God for Israel—to bring blessing and restoration to the
-> nations—seems to have been frustrated. But hope remains alive in God’s
-> promise to bring a descendant of David back to the throne.
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
+**{{book.NivBible}}**
+
+The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
+one long book. (They were separated due to the length of ancient
+scrolls.) Beginning with Samuel, the last of the judges, this book
+describes what happened in the days of the kings who ruled first the
+whole nation, and then the divided kingdoms of Israel and Judah. The
+reigns of Saul and David are described in detail. The repeating
+structure within the book tells how old a king was when he came to the
+throne, where and for how long he ruled, and something about his
+character and the notable events of his reign. (Some traditions call
+this book the “Book of Reigns.”)
+
+Beneath this pattern of historical succession, however, another rhythm
+can be discerned. Saul, the first king, does not follow God
+faithfully, and God announces he will seek a man after his own heart
+to rule Israel. God finds this person in David. He puts him on the
+throne, promising that his descendants will always rule Israel if they
+continue to serve him. Unfortunately, the kings after David are not
+committed to following God’s way. Many of them abandon God and lead
+the people to do the same, although a few of them call the people back
+to obedience. Using David’s wholehearted dedication to the Lord as its
+standard, the book of Samuel-Kings traces the tragic wavering of the
+people’s devotion to God. Their covenant failure leads to the nation
+first being divided and then later conquered by the powerful empires
+to the east.
+
+The “Book of Reigns” is therefore a tragic closing of the whole
+covenant history that began in Genesis. Just as the first humans were
+exiled from God’s garden, now Israel is sent out of the “new Eden” God
+intended in the promised land. Land and temple have been lost in the
+darkness of judgment, and only a flickering light remains. The deeper
+purpose of God for Israel—to bring blessing and restoration to the
+nations—seems to have been frustrated. But hope remains alive in God’s
+promise to bring a descendant of David back to the throne.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [2 Samuel Introduction](https://bibleproject.com/explore/video/2-samuel/)
+**2 Samuel Diagram**
 M{ zoomableImg(`12Samuel_BP`) }M
 
+[2 Samuel Introduction](https://bibleproject.com/explore/video/2-samuel/)
 M{ youTube(`YvoWDXNDJgs`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '2Samuel_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`I97PwEJ5Ok0`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-2sa',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',      verse: /* 2 Samuel 2,3      */  'Romans 12:19',         verseRef: 'rom.12.19',    btbContext: 'FromDevoContent##2sa.2@@2 Samuel 2,3##David and Abner — From Opponents to Allies', },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',    verse: /* 2 Samuel 6        */  'Proverbs 9:10',        verseRef: 'pro.9.10',     btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',      verse: /* 2 Samuel 6        */  'Psalms 24:3-4',        verseRef: 'psa.24.3-4',   btbContext: 'FromDevoContent##2sa.6@@2 Samuel 6##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',              verse: /* 2 Samuel 9:1-13   */  'Titus 3:4-5',          verseRef: 'tit.3.4-5',    btbContext: `FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`, },
+     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',  verse: /* 2 Samuel 10:9-14  */  'Galatians 6:2',        verseRef: 'gal.6.2',      btbContext: 'FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together', },
+     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',   verse: /* 2 Samuel 11-12    */  'Psalms 51:17',         verseRef: 'psa.51.17',    btbContext: 'FromDevoContent##2sa.11@@2 Samuel 11-12##David’s Sin and Repentance', },
+     { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',               verse: /* 2 Samuel 12:13-25 */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.12.13-25@@2 Samuel 12:13-25##David’s Repentance and Restoration', },
+     { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',      verse: /* 2 Samuel 13-18    */  '2 Corinthians 5:18',   verseRef: '2co.5.18',     btbContext: 'FromDevoContent##2sa.13@@2 Samuel 13-18##David & Absalom - A Family Torn Apart by Sin and Bitterness'},
+     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',   verse: /* 2 Samuel 15-17    */  'Ephesians 4:32',       verseRef: 'eph.4.32',     btbContext: 'FromDevoContent##2sa.15@@2 Samuel 15-17##Ahithophel’s Bitterness Ends in Ruin' },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24       */  '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
+   ]
+}) }M
+
 
 
 ## 2014 2 Samuel Series (Sundays)
@@ -72,6 +127,7 @@ M{ youTube(`I97PwEJ5Ok0`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2sa-2014',
   entries: [
     { id: `20140921`, sermon: `How the Mighty Have Fallen`,   scripture: `2sa.1@@2 Samuel 1-2`,    },
     { id: `20140928`, sermon: `Putting God on Display`,       scripture: `2sa.2@@2 Samuel 2-5`,    },
@@ -93,6 +149,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-2sa-2023',
   settings: {
     includeStudyGuide: false,
   },

@@ -12,135 +12,118 @@ in need. But people couldn't see it. That is because they, like all of
 us, were spiritually blind. But when Jesus heals our spiritual
 blindness, we can see him and the scriptures as they truly are.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Luke Overview](#luke-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
 - [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
 
 
-## Overview
+## Luke Overview
 
-**{{book.NivBible}} Luke Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books of Luke and Acts are two volumes of a single work. Together
-> they tell the story of how God first invited the people of Israel, and
-> then all nations, to follow Jesus. In the first volume, the movement
-> is toward Jerusalem, the center of Jewish national life. In the
-> second, the movement is from Jerusalem to other nations, closing with
-> Paul proclaiming the kingdom of God in Rome, the capital of the
-> empire.
-> 
-> Luke addresses his history to most excellent Theophilus,most likely a
-> Roman official. His volumes are stocked with details from sources Luke
-> had available: letters, speeches, songs, travel accounts, trial
-> transcripts and biographical anecdotes. Luke’s purpose is to show the
-> fulfillment of God’s plan to bring his light to the world through
-> Israel. The earliest Jesus-followers take up this calling by
-> announcing Jesus’ victory over sin and death to all the nations.
-> 
-> The first volume, Luke’s telling of the story of Jesus, has three main
-> sections:
-> 
-> 1. Jesus ministers in Galilee, the northern area of the land of
->    Israel.
-> 
-> 2. He takes a long journey to Jerusalem, during which he welcomes
->    people into the way of God’s reign and challenges Israel’s current
->    understanding of the kingdom.
-> 
-> 3. Luke tells how Jesus gives his life in Jerusalem and then rises
->    from the dead to be revealed as Israel’s King and the world’s true
->    Lord.
+**{{book.NivBible}}**
 
+The books of Luke and Acts are two volumes of a single work. Together
+they tell the story of how God first invited the people of Israel, and
+then all nations, to follow Jesus. In the first volume, the movement
+is toward Jerusalem, the center of Jewish national life. In the
+second, the movement is from Jerusalem to other nations, closing with
+Paul proclaiming the kingdom of God in Rome, the capital of the
+empire.
+
+Luke addresses his history to most excellent Theophilus,most likely a
+Roman official. His volumes are stocked with details from sources Luke
+had available: letters, speeches, songs, travel accounts, trial
+transcripts and biographical anecdotes. Luke’s purpose is to show the
+fulfillment of God’s plan to bring his light to the world through
+Israel. The earliest Jesus-followers take up this calling by
+announcing Jesus’ victory over sin and death to all the nations.
+
+The first volume, Luke’s telling of the story of Jesus, has three main
+sections:
+
+1. Jesus ministers in Galilee, the northern area of the land of
+   Israel.
+
+2. He takes a long journey to Jerusalem, during which he welcomes
+   people into the way of God’s reign and challenges Israel’s current
+   understanding of the kingdom.
+
+3. Luke tells how Jesus gives his life in Jerusalem and then rises
+   from the dead to be revealed as Israel’s King and the world’s true
+   Lord.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Luke Introduction](https://bibleproject.com/explore/video/luke/)
+**Luke Diagram**
 M{ zoomableImg(`Luke_BP`) }M
 
-> [Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
+[Part 1: Luke 1-9](https://bibleproject.com/explore/video/luke-1-9/) ...
 M{ youTube(`XIb_dCIxzr0`) }M
 
-> [Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
+[Part 2: Luke 10-24](https://bibleproject.com/explore/video/luke-10-24/)
 M{ youTube(`26z_KhwNdD8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Luke_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`4kMbN9bwgM8`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Sat 02/28/2026',
-       topic:               'Faithful in the Days of the Son of Man',
-       verse:               'Luke 17:28-30',
-       verseRef:            'luk.17.28-30',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/02/2026',
-       topic:               'Persistent Faith in Prayer',
-       verse:               'Luke 18:1',
-       verseRef:            'luk.18.1',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/05/2026',
-       topic:               'Crying Out for Mercy',
-       verse:               'Luke 18:38',
-       verseRef:            'luk.18.38',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/07/2026',
-       topic:               'When Jesus Calls Your Name',
-       verse:               'Luke 19:10',
-       verseRef:            'luk.19.10',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/09/2026',
-       topic:               'When Jesus Weeps',
-       verse:               'Luke 19:41',
-       verseRef:            'luk.19.41',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/13/2026',
-       topic:               'The God of the Living',
-       verse:               'Luke 20:38',
-       verseRef:            'luk.20.38',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/11/2026',
-       topic:               'Lift Up Your Heads',
-       verse:               'Luke 21:28',
-       verseRef:            'luk.21.28',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/10/2026',
-       topic:               'When God Says No',
-       verse:               'Luke 22:42',
-       verseRef:            'luk.22.42',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/20/2026',
-       topic:               'Repentance That Leads to Restoration',
-       verse:               'Luke 22:61–62',
-       verseRef:            'luk.22.61-62',
-       forBTB:              true,
-     }) }M
-
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-luk',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: /* Luke 13:22-30   */ '2 Corinthians 6:14', verseRef: '2co.6.14',      btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
+     { publicationDate: 'Tue 02/24/2026',  topic: 'Faithful With What Belongs to God',       verse:   'Luke 16:13',                             verseRef: 'luk.16.13',     },
+     { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                     verse: /* Luke 16:19-31   */ 'Acts 7:55',          verseRef: 'act.7.55',      btbContext: 'FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',  },
+     { publicationDate: 'Sat 02/28/2026',  topic: 'Faithful in the Days of the Son of Man',  verse:   'Luke 17:28-30',                          verseRef: 'luk.17.28-30',  },
+     { publicationDate: 'Mon 03/02/2026',  topic: 'Persistent Faith in Prayer',              verse:   'Luke 18:1',                              verseRef: 'luk.18.1',      },
+     { publicationDate: 'Thu 03/05/2026',  topic: 'Crying Out for Mercy',                    verse:   'Luke 18:38',                             verseRef: 'luk.18.38',     },
+     { publicationDate: 'Sat 03/07/2026',  topic: 'When Jesus Calls Your Name',              verse:   'Luke 19:10',                             verseRef: 'luk.19.10',     },
+     { publicationDate: 'Mon 03/09/2026',  topic: 'When Jesus Weeps',                        verse:   'Luke 19:41',                             verseRef: 'luk.19.41',     },
+     { publicationDate: 'Fri 03/13/2026',  topic: 'The God of the Living',                   verse:   'Luke 20:38',                             verseRef: 'luk.20.38',     },
+     { publicationDate: 'Wed 03/11/2026',  topic: 'Lift Up Your Heads',                      verse:   'Luke 21:28',                             verseRef: 'luk.21.28',     },
+     { publicationDate: 'Fri 04/10/2026',  topic: 'When God Says No',                        verse:   'Luke 22:42',                             verseRef: 'luk.22.42',     },
+     { publicationDate: 'Fri 03/20/2026',  topic: 'Repentance That Leads to Restoration',    verse:   'Luke 22:61–62',                          verseRef: 'luk.22.61-62',  },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                    verse: /* Luke 22         */ 'Psalms 23:3',        verseRef: 'psa.23.3',      btbContext: `FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`,  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',                    verse: /* Luke 23:4       */ 'Galatians 1:10',     verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]', },
+   ]
+}) }M
 
 
 
@@ -149,6 +132,7 @@ M{ youTube(`4kMbN9bwgM8`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-luk-2014',
   settings: {
     includeStudyGuide: false,
   },
@@ -194,6 +178,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-luk-2021',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
@@ -209,15 +194,69 @@ M{ sermonSeries({
     { id: `20211010`, sermon: `An Enemy Named Busy`,                                    scripture: `luk.10@@Luke 10:38-42`, },
     { id: `20211024`, sermon: `Don’t Worry About It`,                                   scripture: `luk.12@@Luke 12`,       },
     { id: `20211107`, sermon: `The Theology of Tragedy`,                                scripture: `luk.13@@Luke 13`,       },
-    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`, },
+    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 05/29/2026',
+           topic:               'Guarding Your Walk With Christ',
+           verse:               '2 Corinthians 6:14',
+           verseRef:            '2co.6.14',
+        },
+      ],
+    },
     { id: `20211212`, sermon: `Once was Lost, Now am Found`,                            scripture: `luk.15@@Luke 15`,       },
-    { id: `20220109`, sermon: `Worldly Wealth for Heavenly Good`,                       scripture: `luk.16@@Luke 16`,       },
-    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`, },
+    { id: `20220109`, sermon: `Worldly Wealth for Heavenly Good`,                       scripture: `luk.16@@Luke 16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 02/24/2026',
+           topic:               'Faithful With What Belongs to God',
+           verse:               'Luke 16:13',
+           verseRef:            'luk.16.13',
+        },
+      ],
+    },
+    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 06/04/2026',
+           topic:               'Faithful Unto Death',
+           verse:               'Acts 7:55',
+           verseRef:            'act.7.55',
+        },
+      ],
+    },
     { id: `20220130`, sermon: `Where Are the Nine?`,                                    scripture: `luk.17@@Luke 17:11-19`, },
-    { id: `20220213`, sermon: `Practice Persistent Prayer`,                             scripture: `luk.18@@Luke 18`,       },
-    { id: `20220220`, sermon: `I Need a Miracle`,                                       scripture: `luk.18@@Luke 18:35-43`, },
+    { id: `20220213`, sermon: `Practice Persistent Prayer`,                             scripture: `luk.18@@Luke 18`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 03/02/2026',
+           topic:               'Persistent Faith in Prayer',
+           verse:               'Luke 18:1',
+           verseRef:            'luk.18.1',
+        },
+      ],
+    },
+    { id: `20220220`, sermon: `I Need a Miracle`,                                       scripture: `luk.18@@Luke 18:35-43`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 03/05/2026',
+           topic:               'Crying Out for Mercy',
+           verse:               'Luke 18:38',
+           verseRef:            'luk.18.38',
+        },
+      ],
+    },
     { id: `20220227`, sermon: `Small Man, Big Change`,                                  scripture: `luk.19@@Luke 19:1-10`,  },
-    { id: `20220306`, sermon: `Why Jesus Weeps`,                                        scripture: `luk.19@@Luke 19:41-44`, },
+    { id: `20220306`, sermon: `Why Jesus Weeps`,                                        scripture: `luk.19@@Luke 19:41-44`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 03/09/2026',
+           topic:               'When Jesus Weeps',
+           verse:               'Luke 19:41',
+           verseRef:            'luk.19.41',
+        },
+      ],
+    },
     { id: `20220313`, sermon: `A Glimpse of Life in Heaven`,                            scripture: `luk.20@@Luke 20`,       },
     { id: `20220320`, sermon: `The Rise of Russia and the End Times`,                   scripture: `luk.21@@Luke 21##ezk.38@@CR:Ezekiel 38`, studyGuide: `NONE`, },
     { id: `20220327`, sermon: `Jesus: Our Passover Lamb`,                               scripture: `luk.21@@LUKE 22:1-20`,  },

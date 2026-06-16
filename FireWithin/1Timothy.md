@@ -1,73 +1,85 @@
 # 1 Timothy
 
-After false teachers had disrupted the church Timothy was working
-with, Paul gave Timothy encouragement and guidance for how to address
-these teachers and lead the church effectively. Throughout the book,
-we see that what a church believes will directly shape how its members
-live and behave.
+The apostle Paul sends Timothy to lead a divided and broken church in
+his place. Timothy is inexperienced and overwhelmed by the
+challenge. But in his letters, Paul shows his protege how to remain
+faithful and encourages him with the good news about Jesus.
 
-The church's theology and beliefs must constantly be critiqued and
-formed by the Bible and the Gospel message. Churches should be known
-for their devotion to the risen King Jesus and model integrity, good
-works, and service to the poor and most vulnerable.
-
-In 1 Timothy, we read about a holistic vision of the nature and
-mission of the Church. Just as in Timothy's time, corrupt teachers can
-confuse believers, but Paul instructs on how the Church and its
-leaders can stay faithful to the way of Jesus.
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Timothy Overview](#1-timothy-overview)
 - [2010 1 Timothy Series (Sundays)](#2010-1-timothy-series-sundays)
 - [2018 1 Timothy Series (Mid Week)](#2018-1-timothy-series-mid-week)
 
 
+## 1 Timothy Overview
 
-## Overview
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Timothy_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-**{{book.NivBible}} 1 Timothy Introduction**
+**{{book.NivBible}}**
 
-> After Paul was released from prison in Rome, he discovered that
-> leaders in the Ephesian church had distorted the genuine message they
-> had first heard from Paul himself. They had misapplied certain Jewish
-> practices and borrowed some others from the philosophies of the
-> day. They restricted certain foods, forbade marriage and stressed
-> controversial speculations as the path to spiritual progress. At the
-> same time, they tolerated immoral behavior. So Paul sent his co-worker
-> Timothy to Ephesus and wrote him a letter, which he was expected to
-> share with the church. He hoped it would give Timothy the power and
-> influence to set things in order until Paul could get to Ephesus
-> himself.
-> 
-> Paul’s focus is on what true leadership in the church looks like. This
-> would help the Ephesians reject those who weren’t qualified and
-> replace them with those who were. Paul includes a special warning
-> toward the end of his letter about the dangers of greed, which seemed
-> to be at the root of their problems.
-> 
-> Throughout the letter Paul uses the phrase Christ Jesus - that is,
-> Messiah Jesus - which emphasizes the kingly rule of Jesus. This helped
-> remind the church that Jesus is their real leader and is the clearest
-> model of authentic leadership.
+After Paul was released from prison in Rome, he discovered that
+leaders in the Ephesian church had distorted the genuine message they
+had first heard from Paul himself. They had misapplied certain Jewish
+practices and borrowed some others from the philosophies of the
+day. They restricted certain foods, forbade marriage and stressed
+controversial speculations as the path to spiritual progress. At the
+same time, they tolerated immoral behavior. So Paul sent his co-worker
+Timothy to Ephesus and wrote him a letter, which he was expected to
+share with the church. He hoped it would give Timothy the power and
+influence to set things in order until Paul could get to Ephesus
+himself.
+
+Paul’s focus is on what true leadership in the church looks like. This
+would help the Ephesians reject those who weren’t qualified and
+replace them with those who were. Paul includes a special warning
+toward the end of his letter about the dangers of greed, which seemed
+to be at the root of their problems.
+
+Throughout the letter Paul uses the phrase Christ Jesus - that is,
+Messiah Jesus - which emphasizes the kingly rule of Jesus. This helped
+remind the church that Jesus is their real leader and is the clearest
+model of authentic leadership.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Timothy_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Timothy Introduction](https://bibleproject.com/explore/video/1-timothy/)
+**1 Timothy Diagram**
 M{ zoomableImg(`1Timothy_BP`) }M
 
+[1 Timothy Introduction](https://bibleproject.com/explore/video/1-timothy/)
 M{ youTube(`7RoqnGcEjcs`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Timothy_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
+M{ youTube(`kr1YfYbSg94`) }M
 
-> _As of 12/2023 Spoken Gospel has no 1 Timothy introduction_
-
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2010 1 Timothy Series (Sundays)

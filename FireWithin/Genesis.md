@@ -14,85 +14,112 @@ family line that would ultimately lead to Jesus. He is the one who
 takes all our evil and puts it right in his death, burial, and
 resurrection.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [Genesis Overview](#genesis-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Genesis Series (Mid Week)](#2010-genesis-series-mid-week)
 - [2011 Genesis Series (Sundays)](#2011-genesis-series-sundays)
 
 
-## Overview
+## Genesis Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Genesis_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Genesis and the other “books of Moses” (Exodus, Leviticus, Numbers and
+Deuteronomy) introduce the continuous story of Israel running through
+the first quarter of the Bible. Genesis is traditionally attributed to
+Moses, the one who led the people of Israel out of Egypt.
+
+Genesis explains how one nation comes to have a special role in God’s
+plan for all of humanity. Early on, the order and harmony of God’s
+good creation are overwhelmed by the destructive consequences of human
+rebellion and pride. The violence, injustice and suffering that follow
+lead God to condemn and restrain human wickedness through the judgment
+of the great flood. God then makes a covenant with Abraham and his
+descendants, providing an ongoing framework for the story. The family
+of Abraham—Israel—will be God’s chosen means to bring the nations back
+to himself. Genesis closes with Abraham’s descendants having grown
+into a league of large tribes, but they are not in the land God has
+promised them. So the story leads naturally into the books that
+follow.
+
+The book is divided into twelve parts by eleven repetitions of the
+phrase this is the account of. Each section is about the life and
+family of the person named. These are woven together to document the
+story of human history and the beginning of God’s plan to restore
+humanity and their place in his world through Israel.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Genesis Introduction**
-
-> Genesis and the other “books of Moses” (Exodus, Leviticus, Numbers and
-> Deuteronomy) introduce the continuous story of Israel running through
-> the first quarter of the Bible. Genesis is traditionally attributed to
-> Moses, the one who led the people of Israel out of Egypt.
-> 
-> Genesis explains how one nation comes to have a special role in God’s
-> plan for all of humanity. Early on, the order and harmony of God’s
-> good creation are overwhelmed by the destructive consequences of human
-> rebellion and pride. The violence, injustice and suffering that follow
-> lead God to condemn and restrain human wickedness through the judgment
-> of the great flood. God then makes a covenant with Abraham and his
-> descendants, providing an ongoing framework for the story. The family
-> of Abraham—Israel—will be God’s chosen means to bring the nations back
-> to himself. Genesis closes with Abraham’s descendants having grown
-> into a league of large tribes, but they are not in the land God has
-> promised them. So the story leads naturally into the books that
-> follow.
-> 
-> The book is divided into twelve parts by eleven repetitions of the
-> phrase this is the account of. Each section is about the life and
-> family of the person named. These are woven together to document the
-> story of human history and the beginning of God’s plan to restore
-> humanity and their place in his world through Israel.
-
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Genesis_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> **Genesis Diagram**
+**Genesis Diagram**
 M{ zoomableImg(`Genesis_BP`) }M
 
-> [Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
+[Part 1: Genesis 1-11](https://bibleproject.com/explore/video/genesis-1-11/) ...
 M{ youTube(`GQI72THyO5I`) }M
 
-> [Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
+[Part 2: Genesis 12-50](https://bibleproject.com/explore/video/genesis-12-50/)
 M{ youTube(`F4isSyennFo`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Genesis_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
 
 M{ youTube(`zIJBhEAIzj4`) }M
 
+P{ collapsibleSectionEnd() }P
 
-**Genealogy Abraham**
+
+<!-- *** Genealogy of Abraham ****************************** -->
+P{ collapsibleSection({
+  id:     'Genesis_Overview_Abraham',
+  label:  'Genealogy of Abraham',
+  initialExpansion: 'open',
+}) }P
 
 M{ zoomableImg(`GenealogyAbraham`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/25/2026',
-       topic:               'The Subtlety of Temptation',
-       verse:               'Genesis 3:1',
-       verseRef:            'gen.3.1',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/23/2026',
-       topic:               'God Sees Beyond Human Fear',
-       verse:               'Genesis 4:7',
-       verseRef:            'gen.4.7',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 03/25/2026',  topic: 'The Subtlety of Temptation',  verse: 'Genesis 3:1',  verseRef: 'gen.3.1',  },
+     { publicationDate: 'Mon 03/23/2026',  topic: 'God Sees Beyond Human Fear',  verse: 'Genesis 4:7',  verseRef: 'gen.4.7',  },
+   ]
+}) }M
 
 
 
@@ -101,6 +128,7 @@ M{ zoomableImg(`GenealogyAbraham`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gen-2010',
   settings: {
     includeStudyGuide: false,
   },
@@ -157,6 +185,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gen-2011',
   entries: [
     { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
     { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },

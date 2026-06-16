@@ -27,9 +27,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 596**          _... categorized below!!_
-> <br/> **Photos: 47,398**       _... Yikes!!!_
+> <br/> **Albums: 607**          _... categorized below!!_
+> <br/> **Photos: 48,518**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
+
 
 ## At a Glance
 
@@ -91,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
     • [Skateboarding](#skateboarding)
     • [Diving](#diving)
     • [Bowling](#bowling)
+  - [Skydiving](#skydiving)
 
 
 - [Tech](#tech)
@@ -171,6 +173,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Gaige Birthday
 
+- 04/2026: 11 [Gaige is 11!](https://photos.google.com/share/AF1QipPp9Z8gMYrOxwMDLnIeAhc6QbWzLlVp77cDKEUOMHh1k-mQwLw7QYyKDioOFrIOXQ?key=dEhCZWJ1Q1F6S1BTYTVaRlVqZWpVNlFwamdtamlB) _(60 pics)_
 - 04/2025: 10 _look in_: [4/2025 Easter in PA with all the Grands](https://photos.google.com/share/AF1QipPKNBZ5q-wA4ppP1u1Qx22JJUNC3sNeqdeF_KQEg3_xs1VS2YtzngFI5f6K6lK0tw?key=eDA4Um5aWEF4eTY1Mnk0ckdrWDNmSGVkcGdNa19R) _(304 pics)_
 - 04/2024: 9 [Happy 9th Birthday Gaige!](https://photos.google.com/share/AF1QipN8XfASSfVcoY_TMREF7r1-LP5NRGfLh0s2nE1mbPYOPP1XvPGaU_dmtE50S48_tA?key=Zml2cTlhTkFDX3NUc2ZoaFd5aUZFOFoyUERwbmV3) _(35 pics)_
 - 04/2023: 8 [Gaige Turns 8!](https://photos.google.com/share/AF1QipNs46M0nYudjtiZnz--ogH2ZzHIS5Qk5OsPNnMM5a2_ErxD3KsFH4tqKbZpgKzn7Q?key=LVh0bjU3X3Bidlh5YU5mcXlPWl92cjFxdDdSR3BR) _(69 pics)_
@@ -188,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Emerson Birthday
 
-- 03/2026: 7 [Emerson is 7!](https://photos.google.com/share/AF1QipMclHYr1-me79H2I3XZV1KpsntHiqKjGsr6zeDktJ4W0mmM7rGBnGKlY0iH1UaptQ?key=WmR1S25VTkd1eXp1aWNrVlFlS1BGTzM5bDF0dXZB) (88 pics)
+- 03/2026: 7 [Emerson is 7!](https://photos.google.com/share/AF1QipMclHYr1-me79H2I3XZV1KpsntHiqKjGsr6zeDktJ4W0mmM7rGBnGKlY0iH1UaptQ?key=WmR1S25VTkd1eXp1aWNrVlFlS1BGTzM5bDF0dXZB) (111 pics)
 - 03/2026: 7 [Em Turns 7!](https://photos.app.goo.gl/zTwMidY1qMEg3joBA) _(49 pics)_ **Emily Album**
 - 04/2025: 6 [Birthday shopping trip with Emerson](https://photos.google.com/share/AF1QipMVv5b_Ppa6R8O1_qc1nQTafbGil-9QTmX2Q6ZmMDCsiIK4_BnWAcXZmgyuY_zczA) _(16 pics)_
 - 03/2025: 6 [Emerson is SIX!](https://photos.google.com/share/AF1QipMs1sWX-zaIOuw_TttLT1ms2B2e6aZ1IBVdzVvmFTqHRIC1p4fTrp0ASRoCNmd8rQ?key=M0Y3bnRvOGdjTThkRGpwQ2s2eXpKSUtQekp1Q1JR) _(168 pics)_
@@ -319,6 +322,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## Anniversary & Weddings
 
+- 2026 06: [Sandy and Gary Wedding - June 20, 2026](https://photos.google.com/share/AF1QipNNqoLmlTd5Tqlh_x2b5jusit9fJ4eMNfCoF1qbFWrVRbI0haTM7sdOdVDr9RitTA?key=VmVscW5sQ1hzUUNid29xY2kwS0VvdU9EYVhualdR) _(?xx pics)_
+- 2026 06: [Sandy and Gary Wedding Slideshow](https://photos.google.com/share/AF1QipO-tvVC9BlUkZpxhqfse5GUbvDGqjZwwtR71uBrXQxU6isWw_BPcetswpY4xkRVSA) _(124 pics)_
+- 2026 06: [Tyrus & Angelina Wedding 6/13/2026](https://photos.google.com/share/AF1QipPzk5bDIitEAsLJ2Rr1ApGScpmKtZQ_c3nKweB2ngwVwxgqu7cfJNsGXOnlID7yFA?key=aUNRbS1LWGxoSDlGb0JqWTBQQTVmNm1lNVlRZldR) _(39 pics)_
+- 2026 06: [Happy 47th Anniversary](https://photos.google.com/share/AF1QipMHvOJvNN-YdgP_H8cPcrngJ70fc7N-XvHU8ByBqyZ7-cecgNxY9sDYIYzDY1pd2w?key=UlJ6cnN5dWZhVk9QM3dMWEluR2tLYUhpVVlTWWRB) _(11 pics)_
+
+
 - 2025 09: [2025-09-06 Gina & Kris Wedding](https://photos.google.com/share/AF1QipN_dGfNr76oftG2FyD8yUyYNgjf8TGEOtf9iT0YiorHhjm9SY2gMNSlUv-AtGLqQw?key=Y1JNekwyMUxtdDRSZ1JCSXFYc2tlRWdYZV9CVWpn) _(116 pics)_
 
 
@@ -384,6 +393,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Mother's Day
 
+- 2026: [Happy Mother's Day 5/10/2026](https://photos.google.com/share/AF1QipNedKFp3NANOFybWm7_2GgrgXtEd0ZnfA6D1TDiRbZJrIE4dpyJQyFVSJgUmebJ_w?key=TVZWeG9RelZLSTVKS2tKU1NHdWVOMS1UdjZpMFBn) _(4 pics)_
 - 2025: [2025-05 Happy Mother's Day](https://photos.google.com/share/AF1QipNBxRGqaLdWisfsT5cJza-TQAX8MtSlXlVU0RHEL9WN4gyYupTRkji5gSU4VFQshw?key=VXFvUTZ6eVJLbEQzdHpIVUZIYjlYVGxVVjN3RTZn) _(14 pics)_
 - 2024: [Happy Mother's Day 5/12/2024](https://photos.google.com/share/AF1QipPjNpgw58AUycu9JHPzOmq1Z2ZOFh2owWxJMqwTPFxdefvrFVQJ4l61UO0_L4SJTA?key=dnVGTDFqV2lYemRxa3dXUjJpREdQbklsaEl3MEJR) _(16 pics)_
 - 2023: MISSING
@@ -497,6 +507,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Misc Holiday
 
+- 2026 05: [Memorial Day at AJ/Emily's (5/25/2026)](https://photos.google.com/share/AF1QipME1_quRW-o9uKb4hCWsVzgoOOWhbMPc72haYDGTUB6-qgJ8W-ZsTPj9hz1zJjNDw?key=RGhabURKc3dlYmc0MXA0b0M5THB6N1VaNzJ1QlV3) _(14 pics)_
 - 2023 03: [Happy St. Patrick's Day (3/11/2023)](https://photos.google.com/share/AF1QipO_2EfngbQ7GaOoYrVaJgqUyWxhS4Xm_D8keLhY2ev49Ilx8gCEotUw1SBl-TqtxQ?key=UGpkODRRWFlDRUtfMEt0U1djU3ZraUZZelpNQjRB) _(48 pics)_
 - 2022 09: [Labor Day 2022](https://photos.google.com/share/AF1QipM5M1wrt6VuzMk49qQd_XjbnnA4gFKJAPj1IY1Y19eBV59I6qe7hAqn_EAy_CtAGw?key=S0dkUnduNDRRLWt2SHN0T2N2V1N5VThBbWRRUHd3) _(19 pics)_
 - 2022 05: [Memorial Day Weekend 22](https://photos.google.com/share/AF1QipNyjEvY9bfIpXPr-xrthe31gnCtk-44OTurwcBOjPhjJ0VcIzno_lj7Huio95orJw?key=aDBVQnByOE5fNUhUanpBUTFFc3ZDME5ncDFpWWlB) _(65 pics)_
@@ -514,7 +525,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
-* 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (xx pics)
+- 2026 05: [Fargo (Emily's 41st Marathon State)](https://photos.google.com/share/AF1QipPw6-I99Q7NaXv4cVwRK9hZP7D9Rdmd1YGzNDe11bGSQmPYlC7aIh_1t1TmEX_z8A) _(316 pics)_ **Emily's Album (AJ, Emily, Gaige, Emerson, & Juni)**
+- 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (357 pics)
 - 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
 
 
@@ -576,8 +588,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 05: [MJ at the Fox](https://photos.google.com/share/AF1QipMgv_Jv0J7b3FmFmudPIvVGB7wYEf8xljxfC31YIFzGffoZ9ZkmGZJJ9_rdqmwzDA?key=NERDaE13SnJ5OWwwMC1ieGF4QzlGaHZDYThnLTZR) _(30 pics)_
+- 2026 05: [Rich Powers Visit 5/2026](https://photos.google.com/share/AF1QipN8IdTQCSqO0aS-Kx_8e_WOM6w4oe_BtBcn9t0_UR71a_w2SxlkOeIyrSEs2afVVA?key=VFVrMW1XWXFOZENuSGhGSWw1amtmNXd1MzJvbk13) _(113 pics)_
 - 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
-
 
 - 2025 12: [Julian & Gaige goes to Altitude Trampoline Park 12/29/2025](https://photos.google.com/share/AF1QipOdHO_IEn7j7JjtB58suCnU6bCkNnhN0SUb1E1nmKtKxQDS0B63_8tyyC6KQj9G2g?key=aWFZQm53WUhvQ3VfajlmZEdpa0NSYUlYLTdiWjF3) _(38 pics)_
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
@@ -697,6 +710,10 @@ document.addEventListener("DOMContentLoaded", function() {
 > • [Skateboarding](#skateboarding)
 > • [Diving](#diving)
 > • [Bowling](#bowling)
+> <br/>
+> [Skydiving](#skydiving)
+
+
 
 ### Cycling
 
@@ -867,7 +884,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 - 2018 02: [Bowling with Melicks 2/10/2018](https://photos.google.com/share/AF1QipMlv-ue7KDku9alHTBX2ZamLZ3NnlTjwYCncoQ_W3bIAQmWjG0uf_YSTyFoKuYK8Q?key=MTB3alRDNmRkTUhDb3Rvb1E1ZTRWTC11YmxyMml3) _(10 pics)_
 
+### Skydiving
 
+- 2006 05: [AJ's First Skydive 05/07/2006 (18th Birthday)](https://photos.google.com/share/AF1QipN6IypfhIMK49aunuzaIcdEATCqC19aYwU5vHHwamGw8ZR3AlLg4tnID7Lr7Zppgg?key=WFR3X3BRMkNUcG5TVTlYUWw2OTV3ZldDa0NIWkxn) _(80 pics)_
 
 
 
@@ -1196,6 +1215,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Bees
 
+- 2026 05: [Honey Bee Capture 2026](https://photos.google.com/share/AF1QipPwfT5LvywtLpUvHFqWMj5GWf52-Oa3XYq1n5ad_2a8u7EWFRENh_3sVUNzrQ19cw?key=WWpCU0FoSjlxT0dBdVRJRVhrcXQtSTg1dmpJOTVB) _(3 pics)_
+
+
 - 2024 05: [Honey Bees (2024)](https://photos.google.com/share/AF1QipNnduv5m8E6QDFCHXExgMn_l-BUaYReDKrgBei1s32q8Y6YZLWx-ahQRBnEHbviCw?key=d214RFFvRXJEdzJsVXNaWkNCZVhxak5EcEVWeGxB) _(2 pics)_
 
 
@@ -1209,6 +1231,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### First Baptist
+
+- 2026 05: [Benjamin's last Sunday before NYC Internship](https://photos.google.com/share/AF1QipM_VX7UwiiL4Ih6RJSd_9vfkYnKZbz-44FPUHitHbPThmp7-60ZUIvkO-WAcw8dzg?key=UzR5Y0QwY1VmT19Zald4WVpEaVBxa0M3Ym0yNzln) _(16 pics)_
+- 2026 05: [Benjamin Kofi Essilfie - Masters Degree Graduation](https://photos.google.com/share/AF1QipMeHKCRJ1K1jrnvAvlHJ6OAP2-GLE8OGWKjTg3-wdLcCklDerqV9Rwingbqzaq9Pg?key=T0RmWEllT0piQTY4Qi1EaTNhSXZoaDdwRVdmMXln) _(53 pics)_
+
 
 - 2025 12: [Chandler Christmas Caroling/Fellowship 12/21/2025](https://photos.google.com/share/AF1QipOL3nmUNj_E0ZqH4udoiM7A6eBv3LHIucJlRTLwSME8IZfBV-23rBj-58JOKGevGA?key=RDlyQnpCRjROdUI0SzlBUHVXeFZWa1UzVWpYcFdn) _(32 pics)_
 

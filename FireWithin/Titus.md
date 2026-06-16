@@ -1,60 +1,99 @@
 # Titus
 
-Paul wrote the book of Titus for his companion, who was tasked with
-visiting Crete, a place infamous for sin and corruption. Titus was to
-restore order to house churches in Crete and replace corrupt teachers
-with godly leaders.
+The island of Crete was known for immorality and its love for
+arguments and debate. Sadly, the culture of the island began to invade
+the church. So Paul writes a letter to Titus. In it, he reminds Titus
+of the power of Jesus to transform people and encourages him that the
+presence of the Church can transform hostile cultures.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Titus Overview](#titus-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Titus Series (Sundays)](#2010-titus-series-sundays)
 - [2018 Titus Series (Mid Week)](#2018-titus-series-mid-week)
 
 
+## Titus Overview
 
-## Overview
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Titus_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-**{{book.NivBible}} Titus Introduction**
+**{{book.NivBible}}**
 
-> After the apostle Paul was released from prison in Rome, he discovered
-> that renegade leaders were preying on the people of the church he had
-> founded in Ephesus. He therefore left his long-time co-worker Timothy
-> in that city with a letter authorizing him to replace these leaders
-> and restore order. A similar situation on the island of Crete required
-> Paul to commission another long-time co-worker, Titus, to act as his
-> representative there.
-> 
-> Paul’s letter is addressed to Titus, but it is meant for the larger
-> church as well. He confers his own authority on Titus and instructs
-> him to appoint godly leaders. Paul’s description of the false teaching
-> matches that in Ephesus: a combination of selective Jewish observances
-> (such as being circumcised and abstaining from certain foods) and the
-> pursuit of controversial speculations. However, the teaching didn’t
-> help people live purer lives. Paul tells the community that the grace
-> of God has appeared that offers salvation to all people.It is the true
-> message about Jesus that helps God’s people live a new kind of
-> life. Paul reveals his plan to spend the winter in Nicopolis, a city
-> on the west coast of Macedonia. It would provide an excellent
-> jumping-off point for bringing the gospel to the western part of the
-> empire. He trusts that Titus will help restore order in Crete so he
-> can accompany Paul on this new venture.
+After the apostle Paul was released from prison in Rome, he discovered
+that renegade leaders were preying on the people of the church he had
+founded in Ephesus. He therefore left his long-time co-worker Timothy
+in that city with a letter authorizing him to replace these leaders
+and restore order. A similar situation on the island of Crete required
+Paul to commission another long-time co-worker, Titus, to act as his
+representative there.
 
+Paul’s letter is addressed to Titus, but it is meant for the larger
+church as well. He confers his own authority on Titus and instructs
+him to appoint godly leaders. Paul’s description of the false teaching
+matches that in Ephesus: a combination of selective Jewish observances
+(such as being circumcised and abstaining from certain foods) and the
+pursuit of controversial speculations. However, the teaching didn’t
+help people live purer lives. Paul tells the community that the grace
+of God has appeared that offers salvation to all people.It is the true
+message about Jesus that helps God’s people live a new kind of
+life. Paul reveals his plan to spend the winter in Nicopolis, a city
+on the west coast of Macedonia. It would provide an excellent
+jumping-off point for bringing the gospel to the western part of the
+empire. He trusts that Titus will help restore order in Crete so he
+can accompany Paul on this new venture.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Titus_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Titus Introduction](https://bibleproject.com/explore/video/titus/)
+**Titus Diagram**
 M{ zoomableImg(`Titus_BP`) }M
 
+[Titus Introduction](https://bibleproject.com/explore/video/titus/)
 M{ youTube(`PUEYCVXJM3k`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Titus_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
+M{ youTube(`AmNUgBbmeKE`) }M
 
-> _As of 12/2023 Spoken Gospel has no Titus introduction_
+P{ collapsibleSectionEnd() }P
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',  verse: 'Titus 3:4-5',  verseRef: 'tit.3.4-5',  },
+   ]
+}) }M
 
 
 

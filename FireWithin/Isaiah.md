@@ -9,75 +9,106 @@ God still chose to save her. And God saved Israel, not through judging
 them, but by the suffering and judgment Jesus experienced on the
 cross.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Isaiah Overview](#isaiah-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Isaiah Series (Sundays)](#2018-isaiah-series-sundays)
 - [Isaiah Misc Selection](#isaiah-misc-selection)
 
 
-## Overview
+## Isaiah Overview
 
-**{{book.NivBible}} Isaiah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Isaiah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The prophet Isaiah addressed the kingdom of Judah for forty years,
-> beginning in the year that King Uzziah died (around 740 BC) and
-> continuing at least to the Assyrian siege of Jerusalem in 701 BC. As
-> with all the prophets, Isaiah based his message on the deep covenant
-> bond between God and his people Israel. Prophets typically delivered
-> their messages by composing oracles—poetic speeches they recited in
-> public. Unlike some other prophets, Isaiah had personal access to the
-> kings of his day. He was able to bring godly counsel to kings Ahaz and
-> Hezekiah when the powerful Assyrian Empire threatened the life of the
-> nation. Isaiah maintains an international perspective throughout his
-> book, revealing that Israel’s life is bound up with the affairs of the
-> broader world.
-> 
-> Isaiah urges the people to care for the poor and needy, commit to
-> follow God’s ways, and pursue social and economic justice. In typical
-> prophetic pattern, he speaks of coming judgment because of Israel’s
-> failure, but also of promised restoration, and moving from Israel to
-> the wider world. God’s correction is in the service of
-> renewal. Isaiah’s later oracles introduce the complex figure of the
-> servant, whose personal sacrifice brings healing. These “servant
-> songs” fit into the bigger picture of Israel’s return from exile, the
-> Lord’s return to his people, and the nations turning to God. New
-> Testament writers will turn to Isaiah often to explain how Israel’s
-> ancient commission to bring blessing to the world was fulfilled.
+**{{book.NivBible}}**
+
+The prophet Isaiah addressed the kingdom of Judah for forty years,
+beginning in the year that King Uzziah died (around 740 BC) and
+continuing at least to the Assyrian siege of Jerusalem in 701 BC. As
+with all the prophets, Isaiah based his message on the deep covenant
+bond between God and his people Israel. Prophets typically delivered
+their messages by composing oracles—poetic speeches they recited in
+public. Unlike some other prophets, Isaiah had personal access to the
+kings of his day. He was able to bring godly counsel to kings Ahaz and
+Hezekiah when the powerful Assyrian Empire threatened the life of the
+nation. Isaiah maintains an international perspective throughout his
+book, revealing that Israel’s life is bound up with the affairs of the
+broader world.
+
+Isaiah urges the people to care for the poor and needy, commit to
+follow God’s ways, and pursue social and economic justice. In typical
+prophetic pattern, he speaks of coming judgment because of Israel’s
+failure, but also of promised restoration, and moving from Israel to
+the wider world. God’s correction is in the service of
+renewal. Isaiah’s later oracles introduce the complex figure of the
+servant, whose personal sacrifice brings healing. These “servant
+songs” fit into the bigger picture of Israel’s return from exile, the
+Lord’s return to his people, and the nations turning to God. New
+Testament writers will turn to Isaiah often to explain how Israel’s
+ancient commission to bring blessing to the world was fulfilled.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Isaiah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Isaiah Introduction](https://bibleproject.com/explore/video/isaiah/)
+**Isaiah Diagram**
 M{ zoomableImg(`Isaiah_BP`) }M
 
-> [Part 1: Isaiah 1-13](https://bibleproject.com/explore/video/isaiah-1-39/) ...
+<!-- KJB: This link appears to be a duplicate of Part 1 (below)
+[Isaiah Introduction](https://bibleproject.com/explore/video/isaiah/)
+-->
+
+[Part 1: Isaiah 1-39](https://bibleproject.com/explore/video/isaiah-1-39/) ...
 M{ youTube(`d0A6Uchb1F8`) }M
 
-> [Part 2: Isaiah 14-28](https://bibleproject.com/explore/video/isaiah-40-66/)
+[Part 2: Isaiah 40-66](https://bibleproject.com/explore/video/isaiah-40-66/)
 M{ youTube(`_TzdEPuqgQg`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Isaiah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`4jfKdCEGwF0`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/16/2026',
-       topic:               'The Prince of Peace and the Sword',
-       verse:               'Isaiah 9:6',
-       verseRef:            'isa.9.6',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-isa',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                     verseRef: 'isa.9.6',     },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14', verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
+     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                  verseRef: 'isa.55.8-9',  },
+   ]
+}) }M
 
 
 ## 2018 Isaiah Series (Sundays)
@@ -85,6 +116,7 @@ M{ youTube(`4jfKdCEGwF0`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-isa-2018',
   entries: [
     { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,    },
     { id: `20180506`, sermon: `God's Calling`,                             scripture: `isa.6@@Isaiah 6`,      },
@@ -93,7 +125,16 @@ M{ sermonSeries({
     { id: `20180527`, sermon: `Perfect Peace`,                             scripture: `isa.24@@Isaiah 24-27`, },
     { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,    },
     { id: `20180610`, sermon: `All Talk but No Walk`,                      scripture: `isa.29@@Isaiah 29`,    },
-    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`, },
+    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/20/2026',
+           topic:               'Waiting in Trust',
+           verse:               'Psalms 27:14',
+           verseRef:            'psa.27.14',
+        },
+      ],
+    },
     { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`, },
     { id: `20180701`, sermon: `Why Pray?`,                                 scripture: `isa.36@@Isaiah 36-38`, },
     { id: `20180722`, sermon: `A Tale of Two Glories`,                     scripture: `isa.39@@Isaiah 39-40`, },
@@ -117,6 +158,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-isa-MISC',
   settings: {
     includeStudyGuide: false,
   },

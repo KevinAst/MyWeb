@@ -1,113 +1,144 @@
 # Revelation
 
-The book of Revelation is the resolution of all things: the kingdom of
-God is once again physically and literally restored to earth &bull;
-the dead are raised &bull; the final judgments are rendered &bull; and
-all things are made new.
+The book of Revelation was written to encourage suffering Christians
+with visions that reveal the enthroned Jesus who rules over their
+persecutors and death itself.
 
+Through vivid imagery pulled from the Hebrew Bible, John shows that
+Jesus is the cosmic King and Priest who is raising his people to rule
+with him. While persecution may seem to prove that evil is winning,
+Revelation shows that faithful suffering leads to resurrection and
+reign with Jesus.
+
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Revelation Overview](#revelation-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
+- [Books](#books)
 - [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
 - [2020-2021 Revelation Series (Mid Week)](#2020-2021-revelation-series-mid-week)
 
 
-## Overview
+## Revelation Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Revelation_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The ancient Roman Empire defended its economic and political control
+in spiritual terms, calling its gospel the Pax Romana, or Roman
+Peace. While in exile on the island of Patmos, a Jewish Christian
+prophet named John received a vision showing that the cult of emperor
+worship would soon become deadly to followers of the Messiah. The book
+of Revelation (or Apocalypse, meaning unveiling) is a warning,
+circulated to seven cities in the Roman province of Asia Minor. John’s
+main point is to challenge and encourage the believers in the midst of
+their opposition and persecution.
+
+Revelation is an apocalypse, a literary form well known in John’s
+day. In an apocalypse a visitor from heaven reveals the secrets of the
+unseen world and the future through vivid symbols. While the symbols
+may appear strange at first, they become more clear when seen in their
+first-century setting and in light of other Bible imagery.
+
+John’s vision has four main parts, each marked by the phrase in the
+Spirit. After words of warning and encouragement to each of the seven
+churches, John’s visions then center on Jesus—his role in redemption
+and the judgments he brings to the world. The immoral political and
+economic forces that rebel against God will be destroyed, and the
+Messiah will triumph over all his enemies. The vision closes with the
+promise that God’s faithful servants will reign over the new creation.
+
+Revelation also functions as the appropriate conclusion to the entire
+drama of the Bible. John concludes with images from the garden of
+Eden, the first story in the Bible. The world will experience a fresh
+beginning: He who was seated on the throne said, “I am making
+everything new!”
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Revelation Introduction**
-
-> The ancient Roman Empire defended its economic and political control
-> in spiritual terms, calling its gospel the Pax Romana, or Roman
-> Peace. While in exile on the island of Patmos, a Jewish Christian
-> prophet named John received a vision showing that the cult of emperor
-> worship would soon become deadly to followers of the Messiah. The book
-> of Revelation (or Apocalypse, meaning unveiling) is a warning,
-> circulated to seven cities in the Roman province of Asia Minor. John’s
-> main point is to challenge and encourage the believers in the midst of
-> their opposition and persecution.
-> 
-> Revelation is an apocalypse, a literary form well known in John’s
-> day. In an apocalypse a visitor from heaven reveals the secrets of the
-> unseen world and the future through vivid symbols. While the symbols
-> may appear strange at first, they become more clear when seen in their
-> first-century setting and in light of other Bible imagery.
-> 
-> John’s vision has four main parts, each marked by the phrase in the
-> Spirit. After words of warning and encouragement to each of the seven
-> churches, John’s visions then center on Jesus—his role in redemption
-> and the judgments he brings to the world. The immoral political and
-> economic forces that rebel against God will be destroyed, and the
-> Messiah will triumph over all his enemies. The vision closes with the
-> promise that God’s faithful servants will reign over the new creation.
-> 
-> Revelation also functions as the appropriate conclusion to the entire
-> drama of the Bible. John concludes with images from the garden of
-> Eden, the first story in the Bible. The world will experience a fresh
-> beginning: He who was seated on the throne said, “I am making
-> everything new!”
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Revelation_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Revelation Introduction](https://bibleproject.com/explore/video/revelation/)
+**Revelation Diagram**
 M{ zoomableImg(`Revelation_BP`) }M
 
-> [Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
+[Part 1: Rev 1-11](https://bibleproject.com/explore/video/revelation-1-11/) ...
 M{ youTube(`5nvVVcYD-0w`) }M
 
-> [Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
+[Part 2: Rev 12-22](https://bibleproject.com/explore/video/revelation-12-22/)
 M{ youTube(`QpnIrbq2bKo`) }M
 
+P{ collapsibleSectionEnd() }P
 
-<!-- NOTE:  layout for "cell phone" responsive show/hide -->
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Revelation_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
+M{ youTube(`yb8IBvdFC2Y`) }M
 
-> _As of 3/2022 Spoken Gospel has no Revelation introduction_
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Cornerstone End-Time Events Diagram ****************************** -->
+P{ collapsibleSection({
+  id:     'Revelation_Timeline',
+  label:  'Revelation Timeline',
+  initialExpansion: 'open',
+}) }P
+
+**{{book.CornerstoneChapel}}**
+
+M{ zoomableImg(`RevelationTimeline_CS`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Sat 04/04/2026',
-       topic:               'Kept From the Hour',
-       verse:               'Revelation 3:10',
-       verseRef:            'rev.3.10',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/14/2026',
-       topic:               'Awakened From Indifference',
-       verse:               'Revelation 3:16',
-       verseRef:            'rev.3.16',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/15/2026',
-       topic:               'Can we be tricked into getting the Mark of the Beast?',
-       verse:               'Revelation 13:16',
-       verseRef:            'rev.13.16',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 04/05/2026',
-       topic:               'The Beast and the Sea',
-       verse:               'Revelation 17:8',
-       verseRef:            'rev.17.8',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/24/2026',
-       topic:               'Awaiting Perfect Justice',
-       verse:               'Revelation 21:4',
-       verseRef:            'rev.21.4',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-rev',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse:   'Revelation 3:10',                       verseRef: 'rev.3.10',   },
+     { publicationDate: 'Sat 03/14/2026',  topic: 'Awakened From Indifference',                             verse:   'Revelation 3:16',                       verseRef: 'rev.3.16',   },
+     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',                           verse: /* Revelation 13:7-10 */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',  },
+     { publicationDate: 'Sun 03/15/2026',  topic: 'Can we be tricked into getting the Mark of the Beast?',  verse:   'Revelation 13:16',                      verseRef: 'rev.13.16',  },
+     { publicationDate: 'Sun 04/05/2026',  topic: 'The Beast and the Sea',                                  verse:   'Revelation 17:8',                       verseRef: 'rev.17.8',   },
+     { publicationDate: 'Tue 03/24/2026',  topic: 'Awaiting Perfect Justice',                               verse:   'Revelation 21:4',                       verseRef: 'rev.21.4',   },
+   ]
+}) }M
+
+
+
+## Books
+
+Pastor Gary has written a book on Revelation!
+
+- [Standing on the Edge of Eternity](https://www.amazon.com/Standing-Edge-Eternity-According-Revelation-ebook/dp/B0DX1XVLZJ/):
+  _The End Times According to Revelation (by Gary Hamrick)_
+
 
 
 ## 2011 Revelation Series (Sundays)
@@ -115,6 +146,7 @@ M{ youTube(`QpnIrbq2bKo`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rev-2011',
   entries: [
     { id: `20110313`, sermon: `Unlocking Revelation`,                                scripture: `rev.1@@Rev 1`,       },
     { id: `20110320`, sermon: `Return to Your First Love - The Church in Ephesus`,   scripture: `rev.2@@Rev 2:1-7`,   },
@@ -144,9 +176,8 @@ M{ sermonSeries({
 
 {{book.CornerstoneChapel}}
 
-M{ zoomableImg(`RevelationTimeline_CS`) }M
-
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rev-2020',
   settings: {
     includeStudyGuide: false,
   },

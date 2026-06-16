@@ -82,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '26.1';
+    const CUR_VER = '26.2';
 
 
     //***************************************************************************
@@ -841,6 +841,24 @@ if (!window.fw) { // only expand this module once (conditionally)
           backgroundPosition: 'center',
           backgroundSize:     'cover',
         });
+
+        // SPECIAL CASE: 
+        // - when a ZoomableImage is contained in a CollapsibleSection
+        //   * there is an issue where the CollapsibleSection does NOT consider the height of the ZoomableImage
+        //   * DURING:  LeftNav page navigation (GitBook stuff)
+        //   * BECAUSE: "THIS" img.onload() if fired AFTER the fw.pageSetup() is run
+        // - this is due to the dynamics of the CollapsibleSection
+        //   * it adjusts it's height dynamically via in-line CSS
+        //   * NOT SURE why thie can't simply be DOM related, allowing the browser to handle it 
+        // - BOTTOM LINE: this causes the CollapsibleSection to be too short (height)
+        // - FIX: Because this process is adjusting the ZoomableImage height, 
+        //        * we simply re-execute the `fw.pageSetup()`
+        //          ... typically run when the page has been loaded
+        //        * technically, all we need is `syncUICompletions()`
+        //          ... the part of `fw.pageSetup()` that adjusts completions
+        //              because CollapsibleSection piggy backs on completions
+        // - THIS IS A BIT OF A HACK (but it works
+        syncUICompletions(); // ... part of what fw.pageSetup() does
       }
 
       // monitor window size changes to adjust image percentage
@@ -1112,7 +1130,14 @@ if (!window.fw) { // only expand this module once (conditionally)
       const bibleTranslation = fwSettings.getBibleTranslation();
       const userName         = fwUser.getUserName();
       log(`syncing our UI with: ${bibleTranslation} - ${userName}`);
-      headerElm.textContent = `FW v${CUR_VER} • ${bibleTranslation} • ${userName}`;
+      headerElm.innerHTML = `
+  FW
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('history.html', 'details');">v${CUR_VER}</a>
+  •
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('settings.html', 'bible-translation');">${bibleTranslation}</a>
+  •
+  <a class="nav-bar-inline" href="" onclick="event.preventDefault(); fw.navigateToPageSection('settings.html', 'user-account');">${userName}</a> 
+      `;
     }
 
     //***************************************************************************
@@ -1310,16 +1335,16 @@ if (!window.fw) { // only expand this module once (conditionally)
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.goToLatestDevotion()
     //* 
-    //* Fancy function to navigate to the "Latest" published devotion,
+    //* Fancy function to navigate to the "latestDevo" published devotion,
     //* with highlighting, etc. ... patterned after fw.goToMyNextDevotion().
     //* 
     //* NOTE: When this function is invoked on the TOC page of the current year
     //*       being published, it will do the fancy highlighting, 
-    //*       by navigating directly to the 'latest' hash.
+    //*       by navigating directly to the 'latestDevo' hash.
     //* 
-    //*       Otherwise, it will fallback to the current year (e.g. `/devo2026.html#latest`)
+    //*       Otherwise, it will fallback to the current year (e.g. `/devo2026.html#latestDevo`)
     //* 
-    //*       Only one 'latest' entry should be maintained within the devoYYYY.md pages,
+    //*       Only one 'latestDevo' entry should be maintained within the devoYYYY.md pages,
     //*       BECAUSE publishing occurs only in one specific year.
     //*--------------------------------------------------------------------------
     // ORIGINAL PUBLIC FUNCTION <<< NOW RETRIFITTED TO: goTo()
@@ -1327,26 +1352,26 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // locate the latestElm to navigate to (assuming it is on this page)
       // ... only the TOC page of the current publishing year should have this element on it!
-      const latestElm = document.getElementById('latest');
+      const latestElm = document.getElementById('latestDevo');
 
-      // when there is NO 'latest' element on this page ...
+      // when there is NO 'latestDevo' element on this page ...
       if (!latestElm) {
-        // fallback to the current year (e.g. `/devo2026.html#latest`)
+        // fallback to the current year (e.g. `devo2026.html#latestDevo`)
         const curYear        = String(new Date().getFullYear());
-        const latestDevoPage = `/devo${curYear}.html#latest`;
-        window.location.href = '/FireWithin' + latestDevoPage;
+        const curDevoTOCPage = `devo${curYear}.html`;
+        fw.navigateToPageSection('devo2026.html');
 
-        // provide a delayed scroll/highlight via JavaScript logic
-        // ... once we are now on the latest devo page
-        // >>> does NOT do anything (unsure why) - suspect it is holding on to the old DOM
-        setTimeout(() => goTo('latest'), 300);
+        // once we are now on the latest devo page,
+        // ... we employ the same scroll/highlight via JavaScript logic
+        //     as if we were on that page to start with!
+        setTimeout(() => goTo('latestDevo'), 100);
 
         // we are done
         return;
       }
 
-      // navigate to the "latest" on this page
-      goTo('latest');
+      // navigate to the "latestDevo" on this page
+      goTo('latestDevo');
     }
 
 
@@ -1366,6 +1391,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     
         // for the first NON-COMPLETED devo (within this TOC page) ...
         if (!checkbox.checked) {
+          //console.log(`XX in fw.goToMyNextDevotion() ... executing goTo(${checkbox.id})`);
           goTo(checkbox.id);
           return;
         }
@@ -1379,14 +1405,76 @@ if (!window.fw) { // only expand this module once (conditionally)
     //  - applys all common heuristics, from known entry points
     //  - filters all requests into the active algorithm
     function goTo(id) {
-      let elm = document.getElementById(id);
+      let elm = document.getElementById(id); // ... due to our reflexive design, this CAN be duplicate id's (see resolution below: "duplicate id's")
 
-      if (id === 'latest') { // latest structure: <li> <b id="latest">Latest:</b> </li>  <li> ... subsquent entry is LATEST entry </li>
-        elm = elm.closest("li");
-        elm = elm.nextElementSibling;
+      if (id === 'latestDevo') { // ... from fw.goToLatestDevotion()
+        // latestDevo structure:
+        //   <div class="phone">  ... KJB: only one of these are visable
+        //     <table>
+        //       <tbody>
+        //         ... snip snip
+        //         >>> Last <tr>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label><br> <a href="devo20260605.html">Strength Through One Another</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        //   
+        //   <div class="desktop">  ... KJB: only one of these are visable
+        //     <table>
+        //       <tbody>
+        //         ... snip snip
+        //         >>> Last <tr>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label></div></td><td><div> <a href="devo20260605.html">Strength Through One Another</a></div></td><td><div><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //       </tbody>
+        //     </table>
+        //   </div>
+        //   
+        //   <p><i id="latestDevo">... This is the latest published devotion :-)</i></p>
+        const latestDevoNoteElm = elm;
+        const latestDevoPElm    = latestDevoNoteElm.closest('p');
+        const desktopDiv        = latestDevoPElm.previousElementSibling;
+        const phoneDiv          = desktopDiv.previousElementSibling;
+        const visibleDiv        = window.getComputedStyle(phoneDiv).display !== 'none' ? phoneDiv : desktopDiv;
+        const lastRow           = visibleDiv.querySelector('tbody tr:last-child');
+        elm = lastRow; // ... this is it!!
       }
-      else { // devo index sturcture: <li> <label> <input type="checkbox" ... id="devoYYYMMDD"> </label> MORE-DETAIL-OMITTED </li>
-        elm = elm.closest("li");
+
+      else { // ... from fw.goToMyNextDevotion() ... by CheckBox Status
+        // current structure (assuming id="devo20260605"):
+        //
+        //   KJB NOTE: there are TWO elements with id="devo20260605" ... only ONE is visable
+        // 
+        //   <div class="phone">
+        //     <table>
+        //       <tbody>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label><br> <a href="devo20260605.html">Strength Through One Another</a><br><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //         ... snip snip (many more <tr>s)
+        //       </tbody>
+        //     </table>
+        //   </div>
+        // 
+        //   <div class="desktop">
+        //     <table>
+        //       <tbody>
+        //         <tr><td><div class="checkbox-indent"><label><input type="checkbox" data-completions="" onclick="fw.handleCompletedCheckChange(this);" id="devo20260605"> Fri 06/05/2026</label></div></td><td><div> <a href="devo20260605.html">Strength Through One Another</a></div></td><td><div><a href="#" onmouseover="fw.alterBibleVerseLink(event, 'gal.6.2')" target="_blank">Galatians 6:2</a></div></td></tr>
+        //         ... snip snip (many more <tr>s)
+        //       </tbody>
+        //     </table>
+        //   </div>
+
+        // because of our reflexive strucuture, we have TWO checkboxes with the same id
+        // ... only one is visable
+        const checkboxes = document.querySelectorAll(`input[type="checkbox"][id="${id}"]`);
+        const checkbox = [...checkboxes].find(elm =>
+          window.getComputedStyle(elm.closest('.phone, .desktop')).display !== 'none'
+        );
+        elm = checkbox?.closest('tr'); // ... this is it!!
+        //console.log(`XX in goTo(${id}) ... found: `, {checkbox, elm});
+
+        // because there are "duplicate id's" due to our reflexive design, 
+        // ... the goToFn's location.hash will only move to the first one (which may NOT be visable)
+        // ... we resolve through a unique id (generated by our devoGHSeries() macro)
+        id = elm.id; // ex: "devo20260605-desktop"
       }
 
       // pass through to active algorithm
@@ -1417,7 +1505,9 @@ if (!window.fw) { // only expand this module once (conditionally)
         //              when the user scrolls back up and activates the button again.
         //              Without this, the second request no-ops (presumably because the hash is already in the URL)
         location.hash = 'quick-navigation'; // ... see WORK-AROUND note (above)
-        
+
+        //console.log(`XX in goToAlgorithm_hash(): `, {id, elm});
+
         // move to the target
         location.hash = id;
 
@@ -1456,6 +1546,53 @@ if (!window.fw) { // only expand this module once (conditionally)
     //                   ... pattern after: "Collapsible Section API" in fwCompletions.js
 
 
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.navigateToPageSection()
+    //* 
+    //* Programmatically navigate to the supplied pagePath/sectionId.
+    //*
+    //* PARMS:
+    //*   pagePath:  a known page (from the LeftNav bar) ... EX: `history.html`
+    //*   sectionId: OPTIONALLY, a known sectionId within the `pagePath` ... EX: `details`
+    //* 
+    //* This is accomplished by tapping into the GitBook framework, that does
+    //* NOT cause a page refresh (`window.location.href` DOES refresh the
+    //* page).
+    //* 
+    //* With that said, our current GitBook run-time version (3.2.2) does NOT
+    //* provide a programatic API.  
+    //* 
+    //* As a result, we back-door the process by locating an existing link
+    //* from our LeftNav bar, and simply programmatically click it!
+    //* 
+    //* FOR MORE INFORMATION:  Refer the the lengthy ChatGPT analysis of this here:
+    //* - GitBook Navigation API
+    //*   ... https://chatgpt.com/c/6a26c416-2938-83ea-a95d-b66c5a487a90
+    //*--------------------------------------------------------------------------
+    fw.navigateToPageSection = function (pagePath, sectionId) {
+      const log = logger(`${logPrefix}:navigateToPageSection()`);
+
+      // locate the known page (from the LeftNav bar)
+      const link = document.querySelector(`.summary a[href="${pagePath}"]`);
+      if (link) {
+        log(`GREAT: we found a known LeftNav page (${pagePath}) ... we are clicking it programatically!`);
+        link.click();
+      }
+      else {
+        log.f(`ERROR: we did NOT find a known LeftNav page (${pagePath})`);
+      }
+
+      // interpret the OPTIONAL sectionId
+      if (sectionId) {
+        setTimeout(() => {
+          // EITHER THIS:
+          // ... KJB: KEY: appears to work consistently on cell phone
+          location.hash = `${sectionId}`; // KJB: has the advantage of placing #hash in URL, BUT is NOT smooth scrolling (who cares)
+          // OR THIS:
+          // document.getElementById(sectionId)?.scrollIntoView( { behavior: 'smooth' }); // KJB: smooth scroll, BUT #hash NOT in URL (minor)
+        }, 100); // ... we need some delay here (1 doesn't work, 100 does)
+      }
+    }
 
     
     //***************************************************************************

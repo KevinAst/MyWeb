@@ -10,79 +10,106 @@ that God is the God who shows up and saves. This is most fully
 achieved in the person of Jesus, who showed up in human flesh to offer
 a new and better salvation.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Exodus Overview](#exodus-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [The Ten Commandments](#the-ten-commandments)
 - [Exodus Series (Sundays)](#exodus-series-sundays)
 
-## Overview
+## Exodus Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Exodus_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+The books of Exodus, Leviticus and Numbers continue the story of how
+God formed the nation of Israel to play a special role in his plans
+for the whole world. When the Israelites were enslaved in Egypt, God
+came to them and worked powerfully through Moses to deliver them. At
+Mount Sinai, God revealed his laws to Moses, including the Ten
+Commandments, and confirmed his covenant with the young nation. Israel
+built a “tabernacle,” or “tent of meeting,” so that God could live
+among them. The people then traveled through the wilderness to the
+land of Canaan.
+
+The boundaries between the books of Exodus, Leviticus and Numbers are
+not sharply drawn. The key structure throughout the books relates to
+the various places the Israelites stopped on their journey. Each
+location is noted, and the events at each one are described. The key
+location is Mount Sinai; the second half of Exodus, all of Leviticus,
+and the beginning of Numbers describe what took place there. Leviticus
+specifically contains the laws and regulations the Lord gave to
+Israel. Numbers reports how the people were organized into a fighting
+force and moved toward the promised land.
+
+Numbers reaches back across Leviticus and Exodus and repeats the
+phrase that structures Genesis: This is the account of the family of
+Aaron and Moses (Num. 3:1). Appropriately, we hear this phrase for the
+twelfth time as the twelve tribes are being organized into a
+nation. Near the end of Numbers the prophet Balaam says to Israel, May
+those who bless you be blessed and those who curse you be cursed. This
+recalls God’s promise to Abraham in Genesis, I will bless those who
+bless you, and whoever curses you I will curse. These references show
+that together these books tell a single story of the beginning of
+God’s redemptive work in the world.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Exodus Introduction**
-
-> The books of Exodus, Leviticus and Numbers continue the story of how
-> God formed the nation of Israel to play a special role in his plans
-> for the whole world. When the Israelites were enslaved in Egypt, God
-> came to them and worked powerfully through Moses to deliver them. At
-> Mount Sinai, God revealed his laws to Moses, including the Ten
-> Commandments, and confirmed his covenant with the young nation. Israel
-> built a “tabernacle,” or “tent of meeting,” so that God could live
-> among them. The people then traveled through the wilderness to the
-> land of Canaan.
-> 
-> The boundaries between the books of Exodus, Leviticus and Numbers are
-> not sharply drawn. The key structure throughout the books relates to
-> the various places the Israelites stopped on their journey. Each
-> location is noted, and the events at each one are described. The key
-> location is Mount Sinai; the second half of Exodus, all of Leviticus,
-> and the beginning of Numbers describe what took place there. Leviticus
-> specifically contains the laws and regulations the Lord gave to
-> Israel. Numbers reports how the people were organized into a fighting
-> force and moved toward the promised land.
-> 
-> Numbers reaches back across Leviticus and Exodus and repeats the
-> phrase that structures Genesis: This is the account of the family of
-> Aaron and Moses (Num. 3:1). Appropriately, we hear this phrase for the
-> twelfth time as the twelve tribes are being organized into a
-> nation. Near the end of Numbers the prophet Balaam says to Israel, May
-> those who bless you be blessed and those who curse you be cursed. This
-> recalls God’s promise to Abraham in Genesis, I will bless those who
-> bless you, and whoever curses you I will curse. These references show
-> that together these books tell a single story of the beginning of
-> God’s redemptive work in the world.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Exodus_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> **Exodus Diagram**
+**Exodus Diagram**
 M{ zoomableImg(`Exodus_BP`) }M
 
-> [Part 1: Exodus 1-18](https://bibleproject.com/explore/video/exodus-1-18/) ...
+[Part 1: Exodus 1-18](https://bibleproject.com/explore/video/exodus-1-18/) ...
 M{ youTube(`jH_aojNJM3E`) }M
 
-> [Part 2: Exodus 19-40](https://bibleproject.com/explore/video/exodus-19-40/)
+[Part 2: Exodus 19-40](https://bibleproject.com/explore/video/exodus-19-40/)
 M{ youTube(`oNpTha80yyE`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Exodus_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`LpS50a4CmXM`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 04/07/2026',
-       topic:               'Covered by the Blood',
-       verse:               'Exodus 12:13',
-       verseRef:            'exo.12.13',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',   verse: /* Exodus 12     */ 'John 1:29',          verseRef: 'jhn.1.29',   btbContext: 'FromDevoContent##exo.12@@Exodus 12##The First Passover', },
+     { publicationDate: 'Tue 04/07/2026',  topic: 'Covered by the Blood',     verse:   'Exodus 12:13',                         verseRef: 'exo.12.13',  },
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Exodus 19-20  */ '2 Corinthians 3:6',  verseRef: '2co.3.6',    btbContext: 'FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament' },
+   ]
+}) }M
 
 
 
@@ -91,6 +118,7 @@ M{ youTube(`LpS50a4CmXM`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-exo-Ten',
   entries: [
     { id: `20120923`, sermon: `Intro to the Ten Commandments`,                     scripture: `exo.19@@Exodus 19`,      },
     { id: `20120930`, sermon: `Commandment #1 - No Other Gods`,                    scripture: `exo.20@@Exodus 20:1-3`,  },
@@ -112,6 +140,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-exo-2012',
   entries: [
     { id: `20120617`, sermon: `Handling Hardships`,                    scripture: `exo.1@@Exodus 1`,       },
     { id: `20120624`, sermon: `Timing is Everything`,                  scripture: `exo.2@@Exodus 2`,       },

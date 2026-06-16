@@ -19,90 +19,110 @@ is the story of the conflict which arose between Jews and Gentiles as
 they began integrating in synagogues and house churches throughout
 Rome, and how Jesus brings them together.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Romans Overview](#romans-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
-- [2021 Romans Misc](#2021-romans-misc)
 - [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
+- [Romans Misc Selection](#romans-misc-selection)
 
 
-## Overview
+## Romans Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Addressing the believers in Rome, Paul writes what is most likely the
+meatiest missionary fundraising letter ever written. To
+Jesus-followers living directly under the shadow of Caesar, he is
+appealing for help to bring the gospel to the western part of the
+empire. As an apostle, Paul has been set apart to make the royal
+announcement about the Lordship of Jesus. God’s plan for the world has
+been revealed through a descendant of king David—Jesus the
+Messiah. This message demonstrates that God has been faithful to his
+covenant with Israel.
+
+The flow of the letter follows the pattern of the ancient Jewish story
+of slavery and rescue. Humanity is in exile due to the entrance of sin
+and death into the world. Even the Jewish law could not defeat death
+and bring life. But God has come to rescue both Jews and Gentiles
+through the death and resurrection of Jesus. A new worldwide family is
+being created. Baptism into Jesus breaks the power of evil and brings
+freedom. The Holy Spirit leads the way into this new life that will be
+complete in a new inheritance—a redeemed creation.
+
+Although many in Israel had failed to believe in the Messiah, this
+ended up bringing life to the rest of the world. The offer of life
+through Jesus remains for all, however, and in the end God’s mercy
+will triumph over judgment. The closing emphasis is on the practical
+shape of a redeemed humanity’s new way of life.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Romans Introduction**
-
-> Addressing the believers in Rome, Paul writes what is most likely the
-> meatiest missionary fundraising letter ever written. To
-> Jesus-followers living directly under the shadow of Caesar, he is
-> appealing for help to bring the gospel to the western part of the
-> empire. As an apostle, Paul has been set apart to make the royal
-> announcement about the Lordship of Jesus. God’s plan for the world has
-> been revealed through a descendant of king David—Jesus the
-> Messiah. This message demonstrates that God has been faithful to his
-> covenant with Israel.
-> 
-> The flow of the letter follows the pattern of the ancient Jewish story
-> of slavery and rescue. Humanity is in exile due to the entrance of sin
-> and death into the world. Even the Jewish law could not defeat death
-> and bring life. But God has come to rescue both Jews and Gentiles
-> through the death and resurrection of Jesus. A new worldwide family is
-> being created. Baptism into Jesus breaks the power of evil and brings
-> freedom. The Holy Spirit leads the way into this new life that will be
-> complete in a new inheritance—a redeemed creation.
-> 
-> Although many in Israel had failed to believe in the Messiah, this
-> ended up bringing life to the rest of the world. The offer of life
-> through Jesus remains for all, however, and in the end God’s mercy
-> will triumph over judgment. The closing emphasis is on the practical
-> shape of a redeemed humanity’s new way of life.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Romans Introduction](https://bibleproject.com/explore/video/romans/)
+**Romans Diagram**
 M{ zoomableImg(`Romans_BP`) }M
 
-> [Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/)
+[Part 1: Romans 1-4](https://bibleproject.com/explore/video/romans-1-4/)
 M{ youTube(`ej_6dVdJSIU`) }M
 
-> [Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
+[Part 2: Romans 5-16](https://bibleproject.com/explore/video/romans-5-16/)
 M{ youTube(`0SVTl4Xa5fY`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Romans_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`kPsSW4Q3o9o`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/01/2026',
-       topic:               'God Reveals Himself to All',
-       verse:               'Romans 1:20',
-       verseRef:            'rom.1.20',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/18/2026',
-       topic:               'The Grace That Covers Every Sin',
-       verse:               'Romans 3:23',
-       verseRef:            'rom.3.23',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 04/03/2026',
-       topic:               'Overcoming Hatred with Christlike Love',
-       verse:               'Romans 12:21',
-       verseRef:            'rom.12.21',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-rom',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse: 'Romans 1:20',   verseRef: 'rom.1.20',   },
+     { publicationDate: 'Sat 06/13/2026',  topic: 'Grace Greater Than Our Guilt',            verse: 'Romans 1:16',   verseRef: 'rom.1.16',   },
+     { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
+     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse: 'Romans 5:3',    verseRef: 'rom.5.3',    },
+     { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
+     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',  verseRef: 'rom.10.12',  },
+     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',   verseRef: 'rom.12.2',   },
+     { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: 'Romans 12:19',  verseRef: 'rom.12.19',  },
+     { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse: 'Romans 12:21',  verseRef: 'rom.12.21',  },
+   ]
+}) }M
 
 
 
@@ -115,6 +135,7 @@ M{ youTube(`kPsSW4Q3o9o`) }M
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2009',
   entries: [
     { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Rom 1-2`,    studyGuide: `NONE`, },
     { id: `20090816`, sermon: `What a Gift!`,           scripture: `rom.3@@Rom 3-5`,    studyGuide: `NONE`, },
@@ -131,6 +152,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2016',
   settings: {
     includeStudyGuide: false,
   },
@@ -155,33 +177,32 @@ M{ sermonSeries({
 }) }M
 
 
-## 2021 Romans Misc
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210922`, sermon: `The True Nature of God (Barrett Phillips)`,    scripture: `rom.1@@Rom 1:16-25`, },
-    { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Rom 11:25`,  },
-    { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Rom 12:1-2`, },
-    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Rom 13`,     },
-  ]
-}) }M
-
-
 ## 2024 Romans Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2024',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
   entries: [
-    { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Rom 1:1-25`,        },
+    { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Rom 1:1-25`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 06/13/2026',
+           topic:               'Grace Greater Than Our Guilt',
+           verse:               'Romans 1:16',
+           verseRef:            'rom.1.16',
+        },
+        {
+           publicationDate:     'Wed 04/01/2026',
+           topic:               'God Reveals Himself to All',
+           verse:               'Romans 1:20',
+           verseRef:            'rom.1.20',
+        },
+      ],
+    },
     { id: `20240114`, sermon: `When a Culture Excludes God`,                  scripture: `rom.1@@Rom 1:24-32`,       },
     { id: `20240121`, sermon: `Guilty as Charged`,                            scripture: `rom.2@@Rom 2`,             },
     { id: `20240128`, sermon: `And Now, the Good News!`,                      scripture: `rom.3@@Rom 3-4`,           },
@@ -202,5 +223,23 @@ M{ sermonSeries({
     { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Rom 15`,           },
     { id: `20240825`, sermon: `A House Divided`,                              scripture: `rom.16@@Rom 16`,           },
     { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Rom 16 (Part 2)`,  },
+  ]
+}) }M
+
+
+## Romans Misc Selection
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-MISC',
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20210922`, sermon: `The True Nature of God (Barrett Phillips)`,    scripture: `rom.1@@Rom 1:16-25`, },
+    { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Rom 11:25`,  },
+    { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Rom 12:1-2`, },
+    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Rom 13`,     },
   ]
 }) }M

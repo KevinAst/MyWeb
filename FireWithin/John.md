@@ -8,94 +8,113 @@ is turning water to wine or turning over tables in the Temple,
 everything John shows Jesus doing is meant to help us believe that
 Jesus is the Son of God who died for our sins.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [John Overview](#john-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2015 John Series (Mid Week)](#2015-john-series-mid-week)
 - [2022 John Series (Sundays)](#2022-john-series-sundays)
 
 
-## Overview
+## John Overview
 
-**{{book.NivBible}} John Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> John closes his book by revealing his purpose in writing Jesus’ story:
-> These are written that you may believe that Jesus is the Messiah, the
-> Son of God, and that by believing you may have life in his name.
-> 
-> John begins his book by echoing words from the Bible’s creation
-> story - In the beginning - showing his readers that this is a story of a
-> new creation. Just as the first creation was completed in seven days,
-> John uses the number seven to structure his book. For the Jews the
-> number seven represented completeness and wholeness, a finished work
-> of God revealing his purpose for the world.
-> 
-> The story is told in two main parts. The first describes Jesus’ public
-> ministry and has seven sections. Each section closes with a report on
-> how people respond to Jesus, either in faith or unbelief. The second
-> part is devoted to the Passover weekend, when Jesus gave his life for
-> the world.
-> 
-> John records seven instances in which Jesus revealed his identity by
-> using the phrase I am, the name by which God had revealed himself
-> earlier. Similarly, John records seven miraculous signs that Jesus
-> performed. John’s narrative mentions twice that the resurrection of
-> Jesus took place on the first day of the week. In this way he confirms
-> that the power of a new creation has broken into our world.
+**{{book.NivBible}}**
 
+John closes his book by revealing his purpose in writing Jesus’ story:
+These are written that you may believe that Jesus is the Messiah, the
+Son of God, and that by believing you may have life in his name.
+
+John begins his book by echoing words from the Bible’s creation
+story - In the beginning - showing his readers that this is a story of a
+new creation. Just as the first creation was completed in seven days,
+John uses the number seven to structure his book. For the Jews the
+number seven represented completeness and wholeness, a finished work
+of God revealing his purpose for the world.
+
+The story is told in two main parts. The first describes Jesus’ public
+ministry and has seven sections. Each section closes with a report on
+how people respond to Jesus, either in faith or unbelief. The second
+part is devoted to the Passover weekend, when Jesus gave his life for
+the world.
+
+John records seven instances in which Jesus revealed his identity by
+using the phrase I am, the name by which God had revealed himself
+earlier. Similarly, John records seven miraculous signs that Jesus
+performed. John’s narrative mentions twice that the resurrection of
+Jesus took place on the first day of the week. In this way he confirms
+that the power of a new creation has broken into our world.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [John Introduction](https://bibleproject.com/explore/video/john/)
+**John Diagram**
 M{ zoomableImg(`John_BP`) }M
 
-> [Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
+[Part 1: John 1-12](https://bibleproject.com/explore/video/john-1-12/) ...
 M{ youTube(`G-2e9mMf7E8`) }M
 
-> [Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
+[Part 2: John 13-21](https://bibleproject.com/explore/video/john-13-21/)
 M{ youTube(`RUfh_wOsauk`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'John_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`Vi2bfQlGY4w`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 04/08/2026',
-       topic:               'God Is Not to Be Used',
-       verse:               'John 4:24',
-       verseRef:            'jhn.4.24',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 04/09/2026',
-       topic:               'Grace That Restores and Redirects',
-       verse:               'John 8:11',
-       verseRef:            'jhn.8.11',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/13/2026',
-       topic:               'Eyes Opened by Christ',
-       verse:               'John 9:25',
-       verseRef:            'jhn.9.25',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/22/2026',
-       topic:               'Abiding in Christ',
-       verse:               'John 15:4',
-       verseRef:            'jhn.15.4',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-jhn',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',             verse:   'John 1:29',                           verseRef: 'jhn.1.29',      },
+     { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',              verse:   'John 4:24',                           verseRef: 'jhn.4.24',      },
+     { publicationDate: 'Thu 04/09/2026',  topic: 'Grace That Restores and Redirects',  verse:   'John 8:11',                           verseRef: 'jhn.8.11',      },
+     { publicationDate: 'Mon 04/13/2026',  topic: 'Eyes Opened by Christ',              verse:   'John 9:25',                           verseRef: 'jhn.9.25',      },
+     { publicationDate: 'Fri 04/17/2026',  topic: 'Walk While You Have the Light',      verse:   'John 12:46',                          verseRef: 'jhn.12.46',     },
+     { publicationDate: 'Tue 04/21/2026',  topic: 'The Pattern of Humble Service',      verse:   'John 13:14',                          verseRef: 'jhn.13.14',     },
+     { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: /* John 13:33-35   */ '1 Samuel 12:22',  verseRef: '1sa.12.22',     btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
+     { publicationDate: 'Thu 04/23/2026',  topic: 'Love As Christ Loved',               verse:   'John 13:34',                          verseRef: 'jhn.13.34',     },
+     { publicationDate: 'Sat 04/25/2026',  topic: 'The Way to the Father',              verse:   'John 14:6',                           verseRef: 'jhn.14.6',      },
+     { publicationDate: 'Wed 04/29/2026',  topic: 'Prayer That Aligns With God',        verse:   'John 14:13',                          verseRef: 'jhn.14.13',     },
+     { publicationDate: 'Mon 04/27/2026',  topic: 'The Helper Who Dwells Within',       verse:   'John 14:16',                          verseRef: 'jhn.14.16',     },
+     { publicationDate: 'Sun 03/22/2026',  topic: 'Abiding in Christ',                  verse:   'John 15:4',                           verseRef: 'jhn.15.4',      },
+     { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                      verse:   'John 17:20–21',                       verseRef: 'jhn.17.20-21',  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',               verse: /* John 18         */ 'Galatians 1:10',  verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',  },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',               verse: /* John 21         */ 'Psalms 23:3',     verseRef: 'psa.23.3',      btbContext: `FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`,  },
+   ]
+}) }M
 
 
 
@@ -104,6 +123,7 @@ M{ youTube(`Vi2bfQlGY4w`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jhn-2015',
   settings: {
     includeStudyGuide: false,
   },
@@ -139,6 +159,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jhn-2022',
   entries: [
     { id: `20220508`, sermon: `The Identity and Deity of Jesus`, scripture: `jhn.1@@John 1`,             },
     { id: `20220515`, sermon: `God Has Saved the Best for Last`, scripture: `jhn.2@@John 2`,             },
@@ -152,13 +173,49 @@ M{ sermonSeries({
     { id: `20220821`, sermon: `Sight for the Blind`,             scripture: `jhn.9@@John 9`,             },
     { id: `20220828`, sermon: `Jesus is God`,                    scripture: `jhn.10@@John 10`,           },
     { id: `20220904`, sermon: `Raising Lazarus`,                 scripture: `jhn.11@@John 11`,           },
-    { id: `20220911`, sermon: `Ways to Worship`,                 scripture: `jhn.12@@John 12`,           },
+    { id: `20220911`, sermon: `Ways to Worship`,                 scripture: `jhn.12@@John 12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 04/17/2026',
+           topic:               'Walk While You Have the Light',
+           verse:               'John 12:46',
+           verseRef:            'jhn.12.46',
+        },
+      ],
+    },
     { id: `20221002`, sermon: `Light in a Dark World`,           scripture: `jhn.12@@John 12:35-36, 46`, },
     { id: `20221009`, sermon: `Serve Like Jesus`,                scripture: `jhn.13@@John 13:1-17`,      },
-    { id: `20221023`, sermon: `Love Like Jesus`,                 scripture: `jhn.13@@John 13:33-35`,     },
-    { id: `20221030`, sermon: `Heaven and How to Get There`,     scripture: `jhn.14@@John 14`,           },
+    { id: `20221023`, sermon: `Love Like Jesus`,                 scripture: `jhn.13@@John 13:33-35`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 04/16/2026',
+           topic:               'Return to Your First Love',
+           verse:               '1 Samuel 12:22',
+           verseRef:            '1sa.12.22',
+        },
+      ],
+    },
+    { id: `20221030`, sermon: `Heaven and How to Get There`,     scripture: `jhn.14@@John 14`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 04/25/2026',
+           topic:               'The Way to the Father',
+           verse:               'John 14:6',
+           verseRef:            'jhn.14.6',
+        },
+      ],
+    },
     { id: `20221106`, sermon: `Pray Like Jesus`,                 scripture: `jhn.14@@John 14:12-14`,     },
-    { id: `20221120`, sermon: `Who is the Holy Spirit`,          scripture: `jhn.14@@John 14-16`,        },
+    { id: `20221120`, sermon: `Who is the Holy Spirit`,          scripture: `jhn.14@@John 14-16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/27/2026',
+           topic:               'The Helper Who Dwells Within',
+           verse:               'John 14:16',
+           verseRef:            'jhn.14.16',
+        },
+      ],
+    },
     { id: `20221204`, sermon: `A Prayer for Unity`,              scripture: `jhn.17@@John 17`,           },
     { id: `20230108`, sermon: `Pilate the People-Pleaser`,       scripture: `jhn.18@@John 18-19`,        },
     { id: `20230122`, sermon: `The God of Restoration`,          scripture: `jhn.21@@John 21`,           },

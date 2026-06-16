@@ -9,55 +9,98 @@ wondering how Jesus could have been the promised Messiah if he died on
 a cross. Mark answers this question by showing how everything Jesus
 did in his life prepares us for and informs us about his death.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Mark Overview](#mark-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 
 
-## Overview
+## Mark Overview
 
-**{{book.NivBible}} Mark Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Mark appears to be written for an audience in Rome. A Roman
-> centurion’s declaration near the end of the book - Surely this man was
-> the Son of God! - models the witness to Jesus this gospel calls for.
-> 
-> The opening half of this fast-moving drama keys on the question: Who
-> do you say I am? An episode at the end of the first half shows Jesus
-> healing a blind man in two stages, so that he slowly comes to see. In
-> the same way the disciples have only gradually come to recognize who
-> Jesus is. Then in a key moment in the story, between its two halves,
-> Peter confesses that Jesus is the Messiah.
-> 
-> Now the conflict moves out into the open. Jesus has come to introduce
-> a radical new way of life that will undercut existing power
-> relationships. The second half of the drama depicts this in three
-> acts:
-> 
-> 1. Jesus and his disciples travel to Jerusalem.
-> 
-> 2. Jesus teaches in the temple and clashes with the
->    established leadership.
-> 
-> 3. In the final act, that leadership executes its plan and has
->    Jesus arrested and crucified, seemingly overturning all he has
->    done. But then God overturns their deed and raises Jesus to
->    life. So Mark’s readers are called to be faithful to Jesus, even in
->    suffering, because this is how God continues to overturn the
->    existing order and establish the way of life that Jesus taught.
+**{{book.NivBible}}**
 
+Mark appears to be written for an audience in Rome. A Roman
+centurion’s declaration near the end of the book - Surely this man was
+the Son of God! - models the witness to Jesus this gospel calls for.
+
+The opening half of this fast-moving drama keys on the question: Who
+do you say I am? An episode at the end of the first half shows Jesus
+healing a blind man in two stages, so that he slowly comes to see. In
+the same way the disciples have only gradually come to recognize who
+Jesus is. Then in a key moment in the story, between its two halves,
+Peter confesses that Jesus is the Messiah.
+
+Now the conflict moves out into the open. Jesus has come to introduce
+a radical new way of life that will undercut existing power
+relationships. The second half of the drama depicts this in three
+acts:
+
+1. Jesus and his disciples travel to Jerusalem.
+
+2. Jesus teaches in the temple and clashes with the
+   established leadership.
+
+3. In the final act, that leadership executes its plan and has
+   Jesus arrested and crucified, seemingly overturning all he has
+   done. But then God overturns their deed and raises Jesus to
+   life. So Mark’s readers are called to be faithful to Jesus, even in
+   suffering, because this is how God continues to overturn the
+   existing order and establish the way of life that Jesus taught.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
-> [Mark Introduction](https://bibleproject.com/explore/video/mark/)
+
+**Mark Diagram**
 M{ zoomableImg(`Mark_BP`) }M
+
+[Mark Introduction](https://bibleproject.com/explore/video/mark/)
 M{ youTube(`HGHqu9-DtXk`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Mark_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
 M{ youTube(`ZBLKrNVffgo`) }M
+
+P{ collapsibleSectionEnd() }P
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',  verse: /* Mark 15:14-15  */ 'Galatians 1:10',  verseRef: 'gal.1.10',  btbContext: 'FromDevoContent##mrk.15.14-15@@Mark 15:14-15##Jesus Before Pilate [Kingdom and Truth]',  },
+   ]
+}) }M
 
 
 
@@ -66,8 +109,9 @@ M{ youTube(`ZBLKrNVffgo`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-mrk-2013',
   settings: {
-  includeStudyGuide: false,
+    includeStudyGuide: false,
   },
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
@@ -96,6 +140,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-mrk-2021',
   entries: [
     { id: `20210418`, sermon: `Pray Like Jesus`,                       scripture: `mrk.1@@Mark 1`,         },
     { id: `20210425`, sermon: `Patches and Wineskins`,                 scripture: `mrk.2@@Mark 2:18-22`,   },

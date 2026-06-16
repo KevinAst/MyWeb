@@ -1,89 +1,119 @@
 # Hebrews
 
-The book of Hebrews compares and contrasts Jesus to key historical
-people and events from the Hebrew Bible. Through these comparisons, we
-see his superiority. He is greater than the angels, the Torah, Moses,
-the promised land, earthly priests, sacrifices, and the covenant. He
-is the hope for a new creation, our eternal priest, and the perfect
-sacrifice.
+The book of Hebrews was written to Jewish believers who were being
+persecuted for following Jesus. Through their Scriptures, priests, and
+prophets, God had given the Jewish people good things: a law, a
+homeland, and a sacrificial system that brought them close to God. But
+these good things always pointed to something better. The law pointed
+to a better word, the homeland pointed to a better kingdom, and the
+sacrificial system pointed to a better cure for sin. In Jesus, all
+these better things have come.
 
+Jesus is the word their law anticipated, the king their land awaited,
+and the sacrifice their priests foreshadowed. Now these Jewish
+believers must decide: will they hold onto what is merely good, or
+will they endure persecution to receive what is better in Jesus?
+
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Hebrews Overview](#hebrews-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Hebrews Series (Sundays)](#2010-hebrews-series-sundays)
 - [2018-2019 Hebrews Series (Mid Week)](#2018-2019-hebrews-series-mid-week)
 
 
-## Overview
+## Hebrews Overview
 
-**{{book.NivBible}} Hebrews Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Neither the author nor the audience of this book is specifically
-> named, but the book itself reveals its nature and purpose. The
-> recipients are Jesus-believing Jews who are in danger of falling away
-> from the faith. They are likely in Italy, since the author passes on
-> greetings to them from those who are from Italy—probably their friends
-> who are traveling elsewhere. The goal of the whole book is to show the
-> superiority of the final realities God has revealed in the new
-> covenant to the temporary ones of the first covenant. Its readers are
-> encouraged to respond to the threat of persecution by recommitting to
-> the new reality brought by Jesus.
-> 
-> The book alternates between teachings—reviews of Israel’s history or
-> the temple worship arrangements—and challenges based on these
-> teachings. There are four teaching-challenge pairs:
-> 
-> - Jesus and the salvation he brings are greater than the angels and
->   the salvation they announced (the law of Moses).
-> 
-> - Jesus is our “apostle” (someone sent by God on a specific mission),
->   and he brings us into a greater rest and promised land than Moses
->   and Joshua brought Israel into.
-> 
-> - Jesus is a more effective high priest than the priests appointed by
->   the law of Moses.
-> 
-> - As God’s faithful people have done throughout the ages, we must
->   continue living in light of God’s unseen heavenly realities and
->   stepping out in faith. Through the Messiah we are receiving a
->   kingdom that cannot be shaken.
+**{{book.NivBible}}**
+
+Neither the author nor the audience of this book is specifically
+named, but the book itself reveals its nature and purpose. The
+recipients are Jesus-believing Jews who are in danger of falling away
+from the faith. They are likely in Italy, since the author passes on
+greetings to them from those who are from Italy—probably their friends
+who are traveling elsewhere. The goal of the whole book is to show the
+superiority of the final realities God has revealed in the new
+covenant to the temporary ones of the first covenant. Its readers are
+encouraged to respond to the threat of persecution by recommitting to
+the new reality brought by Jesus.
+
+The book alternates between teachings—reviews of Israel’s history or
+the temple worship arrangements—and challenges based on these
+teachings. There are four teaching-challenge pairs:
+
+- Jesus and the salvation he brings are greater than the angels and
+  the salvation they announced (the law of Moses).
+
+- Jesus is our “apostle” (someone sent by God on a specific mission),
+  and he brings us into a greater rest and promised land than Moses
+  and Joshua brought Israel into.
+
+- Jesus is a more effective high priest than the priests appointed by
+  the law of Moses.
+
+- As God’s faithful people have done throughout the ages, we must
+  continue living in light of God’s unseen heavenly realities and
+  stepping out in faith. Through the Messiah we are receiving a
+  kingdom that cannot be shaken.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Hebrews Introduction](https://bibleproject.com/explore/video/hebrews/)
+**Hebrews Diagram**
 M{ zoomableImg(`Hebrews_BP`) }M
 
+[Hebrews Introduction](https://bibleproject.com/explore/video/hebrews/)
 M{ youTube(`1fNWTZZwgbs`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Hebrews_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
+M{ youTube(`Jssm1ZUDTW0`) }M
 
-> _As of 12/2023 Spoken Gospel has no hebrews introduction_
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Mon 03/30/2026',
-       topic:               'One Word One Message',
-       verse:               'Hebrews 4:12',
-       verseRef:            'heb.4.12',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sun 03/01/2026',
-       topic:               'The God Who Redeems the Weak',
-       verse:               'Hebrews 11:32-33',
-       verseRef:            'heb.11.32-33',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-heb',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',          verse: 'Hebrews 4:12',      verseRef: 'heb.4.12',      },
+     { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',  verse: 'Hebrews 9:27',      verseRef: 'heb.9.27',      },
+     { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',            verse: 'Hebrews 9:27',      verseRef: 'heb.9.27',      },
+     { publicationDate: 'Sun 03/01/2026',  topic: 'The God Who Redeems the Weak',  verse: 'Hebrews 11:32-33',  verseRef: 'heb.11.32-33',  },
+     { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',         verse: 'Hebrews 12:15',     verseRef: 'heb.12.15',     },
+   ]
+}) }M
 
 
 ## 2010 Hebrews Series (Sundays)
@@ -91,6 +121,7 @@ M{ youTube(`1fNWTZZwgbs`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-heb-2010',
   entries: [
     { id: `20100808`, sermon: `The Danger of Drifting`,           scripture: `heb.1@@Hebrews 1-2`,       studyGuide: `NONE`, },
     { id: `20100822`, sermon: `Entering God's Rest`,              scripture: `heb.3@@Hebrews 3-4`,       studyGuide: `NONE`,},
@@ -112,6 +143,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-heb-2018',
   settings: {
     includeStudyGuide: false,
   },

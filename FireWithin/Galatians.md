@@ -26,58 +26,103 @@ be circumcised. As you meditate on this truth, along with its wider
 implications, we pray that the free and finished gift of the Gospel
 becomes more and more beautiful to you.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Galatians Overview](#galatians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
 
-## Overview
+## Galatians Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Galatia was a Roman province in central Asia Minor. Paul traveled here
+on each of the three journeys he made to spread the message about
+Jesus. The Galatians received both Paul and his gospel announcement
+warmly. But later some people Paul calls agitators came and challenged
+Paul’s leadership as well as the foundation of his teaching. So Paul
+wrote to answer the threat to his status as an apostle and to reaffirm
+the core message that faith in the Messiah is the basis of membership
+in God’s new community.
+
+Paul doesn’t open his letter by appealing to the apostles in
+Jerusalem. Instead, he insists that the gospel I preached is not of
+human origin … rather, I received it by revelation from Jesus
+Christ.  Paul is compelled to share this revelation, and he notes that
+the other apostles support him.
+
+Paul then proceeds to his main argument, which is that Gentiles who
+have become followers of Jesus do not need to be circumcised. The new
+worldwide family which had been promised to Abraham is created by
+faith in Messiah Jesus, not by keeping the Jewish law (Torah). The
+biblical story had been pointing to this all along.
+
+But if following Torah is not the basis of the gospel, won’t there be
+anarchy? Paul answers by describing what Spirit-empowered life looks
+like in the community of Messiah-followers. Paul closes by emphasizing
+the main theme of his letter once more: Neither circumcision nor
+uncircumcision means anything; what counts is the new creation.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Galatians Introduction**
-
-> Galatia was a Roman province in central Asia Minor. Paul traveled here
-> on each of the three journeys he made to spread the message about
-> Jesus. The Galatians received both Paul and his gospel announcement
-> warmly. But later some people Paul calls agitators came and challenged
-> Paul’s leadership as well as the foundation of his teaching. So Paul
-> wrote to answer the threat to his status as an apostle and to reaffirm
-> the core message that faith in the Messiah is the basis of membership
-> in God’s new community.
-> 
-> Paul doesn’t open his letter by appealing to the apostles in
-> Jerusalem. Instead, he insists that the gospel I preached is not of
-> human origin … rather, I received it by revelation from Jesus
-> Christ.  Paul is compelled to share this revelation, and he notes that
-> the other apostles support him.
-> 
-> Paul then proceeds to his main argument, which is that Gentiles who
-> have become followers of Jesus do not need to be circumcised. The new
-> worldwide family which had been promised to Abraham is created by
-> faith in Messiah Jesus, not by keeping the Jewish law (Torah). The
-> biblical story had been pointing to this all along.
-> 
-> But if following Torah is not the basis of the gospel, won’t there be
-> anarchy? Paul answers by describing what Spirit-empowered life looks
-> like in the community of Messiah-followers. Paul closes by emphasizing
-> the main theme of his letter once more: Neither circumcision nor
-> uncircumcision means anything; what counts is the new creation.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
+**Galatians Diagram**
 M{ zoomableImg(`Galatians_BP`) }M
+
+[Galatians Introduction](https://bibleproject.com/explore/video/galatians/)
 M{ youTube(`vmx4UjRFp0M`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Galatians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`SnBQG07x0ow`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-gal',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse:   'Galatians 1:10',                      verseRef: 'gal.1.10',      },
+     { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                   verse: /* Galatians 3:28  */ 'John 17:20–21',   verseRef: 'jhn.17.20-21',  btbContext: 'FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ', },
+     { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',  verse: /* Galatians 5     */ '1 Samuel 17:47',  verseRef: '1sa.17.47',     btbContext: 'FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit', },
+     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',    verse:   'Galatians 6:2',                       verseRef: 'gal.6.2',       },
+   ]
+}) }M
 
 
 
@@ -90,6 +135,7 @@ M{ youTube(`SnBQG07x0ow`) }M
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2010',
   entries: [
     { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Galatians 1-3`, },
     { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Galatians 4-6`, },
@@ -102,6 +148,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2017',
   settings: {
     includeStudyGuide: false,
   },
@@ -120,13 +167,32 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-gal-2025',
   entries: [
     { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
     { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },
     { id: `20250831`, sermon: `Reverse of the Curse`,                 scripture: `gal.3@@Galatians 3`,    },
-    { id: `20250907`, sermon: `One in Christ`,                        scripture: `gal.3@@Galatians 3`,    },
+    { id: `20250907`, sermon: `One in Christ`,                        scripture: `gal.3@@Galatians 3`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 05/02/2026',
+           topic:               'One in Christ',
+           verse:               'John 17:20–21',
+           verseRef:            'jhn.17.20-21',
+        },
+      ],
+    },
     { id: `20250914`, sermon: `When Truth Draws Enemies`,             scripture: `gal.4@@Galatians 4:16`, },
-    { id: `20250921`, sermon: `The Battle of the Flesh and Spirit`,   scripture: `gal.5@@Galatians 5`,    },
+    { id: `20250921`, sermon: `The Battle of the Flesh and Spirit`,   scripture: `gal.5@@Galatians 5`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 04/28/2026',
+           topic:               'The Battle Belongs to the Lord',
+           verse:               '1 Samuel 17:47',
+           verseRef:            '1sa.17.47',
+        },
+      ],
+    },
     { id: `20250928`, sermon: `You Reap What You Sow`,                scripture: `gal.6@@Galatians 6`,    },
   ]
 }) }M

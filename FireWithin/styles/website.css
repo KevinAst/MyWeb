@@ -1,10 +1,28 @@
-/* slim left-nav width to 250 (was: 300) */
+/*** make left-nav slimmer - use 250px (was: 300) ***/
+:root {
+  --sidebar-width: 250px;
+}
 .book-summary {
-  width: 250px;
+  width: var(--sidebar-width);
 }
 .book.with-summary .book-body {
-  left: 250px;
+  left: var(--sidebar-width);
 }
+/* ... fix cell phone slimness too
+       - removes GitBook’s slide system entirely on mobile
+       - forces the same layout model as desktop
+       - no dependency on viewport width
+       - no fragile calc(...) math
+*/
+@media (max-width: 600px) {
+  .book.with-summary .book-body {
+    transform: none !important;
+    left:      var(--sidebar-width) !important;
+  }
+}
+
+
+
 
 /* condense left-nav spacing (was: 10px 15px) */
 .book-summary ul.summary li a, .book-summary ul.summary li span {
@@ -20,7 +38,7 @@
   padding:    .5em;     /* also reduce padding around code block (was: .85em 1em) */
 }
 
-/* adjust gitbooks styling of our LeftNav header */
+/* adjust gitbooks styling of our left-nav header */
 .book-summary ul.summary li.header {
   text-transform: none !important; /* override: text-transform: uppercase; */
   font-weight:    bold !important; /* make it bold! */
@@ -84,6 +102,27 @@ input[type="checkbox"] {
   .desktop-inline { display: inline; }
 }
 
+/*** special `divider`s in our generated tables (sermon series) ***/
+/* USAGE:
+   
+   <tr class="divider">
+     <td colspan="3">label-here</td>
+   </tr>
+
+   KJB: ChatGPT Generated
+*/
+.divider td {
+  padding-top:    0px    !important; /* compress vertical spacing ABOVE divider section*/
+  padding-bottom: 0px    !important; /* compress vertical spacing BELOW divider section*/
+  font-weight:    600    !important; /* stronger text weight for section label */
+  text-align:     center !important; /* center text  */
+  border-top:     2px solid currentColor !important; /* top-line (with current active color from GitBook theme, automatically adapting to White/Sepia/Night modes */
+  border-bottom:  2px solid currentColor !important; /* bottom-line (ditto) */
+  opacity:        0.88   !important; /* slight transparency softens the visual impact */
+  letter-spacing: 0.03em !important; /* spacing between letters */
+  font-size:      0.9em  !important; /* slightly smaller than normal text */
+}
+
 /* all table cell entries alighn to top */
 td {
   vertical-align: top;
@@ -143,9 +182,8 @@ audio {
     font-weight: bold;
     cursor:      pointer;
     text-align:  left;
-    display:     flex;
+    display:     inline-flex;
     align-items: center;
-    width:       100%;
     padding:     5px;
 }
 
@@ -431,7 +469,7 @@ body.isolated-page .navigation-next {
     font-weight: 500;
 }
 
-/*** Hide MEGA Daily Devotional ENTRIES from the LeftNav bar ***/
+/*** Hide MEGA Daily Devotional ENTRIES from the left-nav bar ***/
 .book-summary li.chapter[data-path="devo2026.html"] ul.articles {
     display: none !important;
 }
@@ -465,4 +503,31 @@ body.isolated-page .navigation-next {
 */
 input[id^="devo"] {
   scroll-margin-top: 80px;
+}
+
+/*** Force <a> tags I inject in the top of the left-nav to be in-line ***/
+.nav-bar-inline {
+  display: inline  !important;
+  padding: 0px 0px !important;
+}
+
+
+/*** style User Account panels in settings.md ***/
+.panel {
+  padding:           16px;
+  border-radius:     8px;
+  margin:            16px 0;
+  border:            6px solid;
+  border-left-width: 15px;
+  color:             black;
+}
+
+.guest   { border-color: #d1d5db; border-left-color: #6b7280; background:#f9fafb; }
+.user    { border-color: #bbf7d0; border-left-color: #22c55e; background:#f0fdf4; }
+.signout { border-color: #fecaca; border-left-color: #ef4444; background:#fef2f2; }
+
+/*** allow a check-box to stand-out through a hanging indent approach ***/
+.checkbox-indent {
+  text-indent:  -20px; /* the first line of the entire block gets the negative indent (-20px) */
+  padding-left:  20px; /* all subsequent lines are offset by the padding-left (20px) */
 }

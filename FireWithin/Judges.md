@@ -8,77 +8,106 @@ judgments. They are Israel's sin reflected in their leadership until
 finally, they are no saviors left. But Jesus comes as the final leader
 who both saves us from our enemies and from God's judgment.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [Judges Overview](#judges-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2014 Judges Series (Sundays)](#2014-judges-series-sundays)
 - [2022 Judges Series (Mid Week)](#2022-judges-series-mid-week)
 
-## Overview
+## Judges Overview
 
-**{{book.NivBible}} Judges Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books of Joshua and Judges tell the story of the early years of
-> Israel as a nation. They describe how the Israelites conquer and
-> occupy the land of Canaan, and then struggle to live up to their
-> covenant with God. The Bible’s drama here moves to an important new
-> stage—God’s people are in God’s land. Yet it becomes clear that the
-> road to reconciliation between God and humanity will not be easy.
-> 
-> The story describes the preparations and battles of Israel’s invasion,
-> as well as how the land was divided among the tribes. Since pockets of
-> resistance remained, Joshua in his final speech urges each tribe to
-> take full possession of its territory. Next he leads the people to
-> renew their commitment to the covenant relationship with God.
-> 
-> Judges then relates the troubling cycle of Israel’s repeated covenant
-> breaking, falling under the rule of other nations, and then crying out
-> to God for help. God responds by raising up “judges” to fight for them
-> and save them. But the relief is temporary as Israel falls back into
-> wrongdoing once again. (“Judges” are both military leaders and legal
-> authorities.)
-> 
-> Just as Israel was made up of twelve tribes, so the book tells of
-> twelve judges. But as the people persist in going their own way, we
-> see that they have rejected their true Judge and Ruler. As the anarchy
-> and atrocities increase, Israel’s need for a king becomes more
-> evident. By the end the questions are urgent: Can Israel fulfill its
-> destiny and calling to be God’s light to the nations? Who can rule
-> Israel to help it find its proper role in the drama?
+**{{book.NivBible}}**
 
+The books of Joshua and Judges tell the story of the early years of
+Israel as a nation. They describe how the Israelites conquer and
+occupy the land of Canaan, and then struggle to live up to their
+covenant with God. The Bible’s drama here moves to an important new
+stage—God’s people are in God’s land. Yet it becomes clear that the
+road to reconciliation between God and humanity will not be easy.
+
+The story describes the preparations and battles of Israel’s invasion,
+as well as how the land was divided among the tribes. Since pockets of
+resistance remained, Joshua in his final speech urges each tribe to
+take full possession of its territory. Next he leads the people to
+renew their commitment to the covenant relationship with God.
+
+Judges then relates the troubling cycle of Israel’s repeated covenant
+breaking, falling under the rule of other nations, and then crying out
+to God for help. God responds by raising up “judges” to fight for them
+and save them. But the relief is temporary as Israel falls back into
+wrongdoing once again. (“Judges” are both military leaders and legal
+authorities.)
+
+Just as Israel was made up of twelve tribes, so the book tells of
+twelve judges. But as the people persist in going their own way, we
+see that they have rejected their true Judge and Ruler. As the anarchy
+and atrocities increase, Israel’s need for a king becomes more
+evident. By the end the questions are urgent: Can Israel fulfill its
+destiny and calling to be God’s light to the nations? Who can rule
+Israel to help it find its proper role in the drama?
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Judges Introduction](https://bibleproject.com/explore/video/judges/)
+**Judges Diagram**
 M{ zoomableImg(`Judges_BP`) }M
 
+[Judges Introduction](https://bibleproject.com/explore/video/judges/)
 M{ youTube(`kOYy8iCfIJ4`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Judges_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`IRvDm7PJsAc`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Wed 03/04/2026',
-       topic:               'God’s Compassion for a Repentant People',
-       verse:               'Judges 10:16',
-       verseRef:            'jdg.10.16',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/03/2026',
-       topic:               'When God Is Removed',
-       verse:               'Judges 21:25',
-       verseRef:            'jdg.21.25',
-       forBTB:              true,
-     }) }M
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-jos',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 02/19/2026',  topic: 'God Sees What We Do Not',                    verse:   'Judges 6:12',                             verseRef: 'jdg.6.12',   },
+     { publicationDate: 'Mon 02/23/2026',  topic: 'The Lord Is With You',                       verse:   'Judges 6:16',                             verseRef: 'jdg.6.16',   },
+     { publicationDate: 'Wed 02/25/2026',  topic: 'Strength in Dependence',                     verse: /* Judges 7       */ 'Zechariah 4:6',        verseRef: 'zec.4.6',    btbContext: 'FromDevoSermon##jdg.7@@Judges 7##Verse by Verse Bible Study', },
+     { publicationDate: 'Wed 03/04/2026',  topic: 'God’s Compassion for a Repentant People',    verse:   'Judges 10:16',                            verseRef: 'jdg.10.16',  },
+     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse: /* Judges 13-16   */ '1 Corinthians 10:12',  verseRef: '1co.10.12',  btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
+     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',              verse: /* Judges 13-16   */ 'Proverbs 25:28',       verseRef: 'pro.25.28',  btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Story of Samson',  },
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',                    verse: /* Judges 13-16   */ 'Ephesians 6:10',       verseRef: 'eph.6.10',   btbContext: 'FromDevoContent##jdg.13@@Judges 13-16##The Life of Samson',   },
+     { publicationDate: 'Tue 03/03/2026',  topic: 'When God Is Removed',                        verse:   'Judges 21:25',                            verseRef: 'jdg.21.25',  },
+   ]
+}) }M
 
 
 ## 2014 Judges Series (Sundays)
@@ -86,6 +115,7 @@ M{ youTube(`IRvDm7PJsAc`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2014',
   entries: [
     { id: `20140209`, sermon: `Conquer, or Be Conquered`,                  scripture: `jdg.1@@Judges 1`,      },
     { id: `20140216`, sermon: `Jesus ONLY`,                                scripture: `jdg.2@@Judges 2-3`,    },
@@ -105,6 +135,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-jos-2022',
   settings: {
     includeStudyGuide: false,
   },
@@ -114,7 +145,16 @@ M{ sermonSeries({
     { id: `20211103`, scripture: `jdg.3@@Judges 3:31-4:24`, },
     { id: `20211110`, scripture: `jdg.5@@Judges 5-6:12`,    },
     { id: `20211117`, scripture: `jdg.6@@Judges 6:11-40`,   },
-    { id: `20220105`, scripture: `jdg.7@@Judges 7`,         },
+    { id: `20220105`, scripture: `jdg.7@@Judges 7`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 02/25/2026',
+           topic:               'Strength in Dependence',
+           verse:               'Zechariah 4:6',
+           verseRef:            'zec.4.6',
+        },
+      ],
+    },
     { id: `20220112`, scripture: `jdg.8@@Judges 8`,         },
     { id: `20220119`, scripture: `jdg.9@@Judges 9`,         },
     { id: `20220126`, scripture: `jdg.10@@Judges 10-11`,    },

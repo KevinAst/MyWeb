@@ -1,12 +1,13 @@
 # Fire Within
 
-<img class="diagram"
-     src="FireWithinLogo2.jpg"
-     alt="Fire Within"
-     width="150px"
-     align="right"> <!-- NOTE: align allows text to flow around image :-) -->
-
 Welcome to my _**"Fire Within"**_ Bible Study Guide!
+
+<center>
+  <img class="diagram"
+       src="FireWithinSplash_light.png"
+       alt="Fire Within"
+       width="60%"> <!-- use percentage to allow it to scale properly on cell phone -->
+</center>
 
 As you may have already guessed, I am a believer and follower of Jesus
 Christ _(i.e. a Christian)_.  The short version of my faith is I
@@ -83,8 +84,7 @@ promoting the following:
    Hamrick)_.  This is a non denominational evangelical church in
    Leesburg, VA. I have grown to love the ministry of Pastor Gary.  He
    provides so much insight to the scriptures, making them simply come
-   alive _(somewhat akin to watching {{book.TheChosen}} series on the
-   life of Christ )_.
+   alive.
 
 I am so grateful for these biblical resources, and the men and women
 of God that have made them possible.

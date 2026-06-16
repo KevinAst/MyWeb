@@ -8,83 +8,107 @@ Matthew helps us see that there is a new treasure hidden in Scripture,
 and it is Jesus. All of the Old Testament finds its new treasure in
 how Jesus fulfills it.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [Matthew Overview](#matthew-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
 - [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
 - [Matthew Misc Selection](#matthew-misc-selection)
 
 
-## Overview
+## Matthew Overview
 
-**{{book.NivBible}} Matthew Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> Matthew’s purpose is to show that God has kept his ancient promises to
-> Israel through the life, death and resurrection of Jesus the
-> Messiah. The long-expected reign of heaven is now coming to earth,
-> bringing the Jewish story to its climax. Matthew begins by
-> highlighting that Jesus was the son of David, Israel’s most famous
-> king, and the son of Abraham, Israel’s founding patriarch. Jesus is
-> the true Israelite and God’s promised Messiah.
-> 
-> The Messiah is shown as reliving the story of Israel—going down into
-> the Jordan River, facing temptation in the wilderness, gathering
-> twelve disciples as twelve new tribes, ascending a mountain to deliver
-> a new Torah, etc. The author highlights the idea of Jesus as a new
-> Moses by collecting his teachings into five long speeches. These are
-> marked off by some variation of the phrase When Jesus had finished
-> saying these things. Just as the Torah had five books, Matthew presents
-> five major sections.
-> 
-> The book concludes by telling how Jesus brought about the great new
-> act of redemption for his people. As in the story of Israel’s Exodus,
-> a Passover meal is celebrated and then deliverance comes. Jesus gives
-> his life for the sake of the world and is then raised from the
-> dead. At the beginning of the book, Jesus is given the name Immanuel,
-> meaning “God with us.” At the end, Jesus sends his followers into the
-> world with the promise that surely I am with you always.
+**{{book.NivBible}}**
+
+Matthew’s purpose is to show that God has kept his ancient promises to
+Israel through the life, death and resurrection of Jesus the
+Messiah. The long-expected reign of heaven is now coming to earth,
+bringing the Jewish story to its climax. Matthew begins by
+highlighting that Jesus was the son of David, Israel’s most famous
+king, and the son of Abraham, Israel’s founding patriarch. Jesus is
+the true Israelite and God’s promised Messiah.
+
+The Messiah is shown as reliving the story of Israel—going down into
+the Jordan River, facing temptation in the wilderness, gathering
+twelve disciples as twelve new tribes, ascending a mountain to deliver
+a new Torah, etc. The author highlights the idea of Jesus as a new
+Moses by collecting his teachings into five long speeches. These are
+marked off by some variation of the phrase When Jesus had finished
+saying these things. Just as the Torah had five books, Matthew presents
+five major sections.
+
+The book concludes by telling how Jesus brought about the great new
+act of redemption for his people. As in the story of Israel’s Exodus,
+a Passover meal is celebrated and then deliverance comes. Jesus gives
+his life for the sake of the world and is then raised from the
+dead. At the beginning of the book, Jesus is given the name Immanuel,
+meaning “God with us.” At the end, Jesus sends his followers into the
+world with the promise that surely I am with you always.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Matthew Introduction](https://bibleproject.com/explore/video/matthew/)
+**Matthew Diagram**
 M{ zoomableImg(`Matthew_BP`) }M
 
-> [Part 1: Matthew 1-13](https://bibleproject.com/explore/video/matthew-1-13/) ...
+[Part 1: Matthew 1-13](https://bibleproject.com/explore/video/matthew-1-13/) ...
 M{ youTube(`3Dv4-n6OYGI`) }M
 
-> [Part 2: Matthew 14-28](https://bibleproject.com/explore/video/matthew-14-28/)
+[Part 2: Matthew 14-28](https://bibleproject.com/explore/video/matthew-14-28/)
 M{ youTube(`GGCF3OPWN14`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Matthew_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`F8QsCLwSMVM`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Sat 03/28/2026',
-       topic:               'Seeking a Godly Spouse',
-       verse:               'Matthew 6:33',
-       verseRef:            'mat.6.33',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Fri 03/27/2026',
-       topic:               'Baptized in the Name of the Lord',
-       verse:               'Matthew 28:19',
-       verseRef:            'mat.28.19',
-       forBTB:              true,
-     }) }M
-
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-mat',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse:   'Matthew 1:21',                        verseRef: 'mat.1.21',   },
+     { publicationDate: 'Fri 05/01/2026',  topic: 'A Life That Points to the Lord',    verse:   'Matthew 5:16',                        verseRef: 'mat.5.16',   },
+     { publicationDate: 'Sat 03/28/2026',  topic: 'Seeking a Godly Spouse',            verse:   'Matthew 6:33',                        verseRef: 'mat.6.33',   },
+     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',      verse:   'Matthew 24:14',                       verseRef: 'mat.24.14',  },
+     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',              verse: /* Matthew 27:24   */ 'Galatians 1:10',  verseRef: 'gal.1.10',   btbContext: 'FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]', },
+     { publicationDate: 'Sat 05/23/2026',  topic: 'The Empty Tomb',                    verse:   'Matthew 28:6',                        verseRef: 'mat.28.6',   },
+     { publicationDate: 'Fri 03/27/2026',  topic: 'Baptized in the Name of the Lord',  verse:   'Matthew 28:19',                       verseRef: 'mat.28.19',  },
+   ]
+}) }M
 
 
 
@@ -93,6 +117,7 @@ M{ youTube(`F8QsCLwSMVM`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-mat-2013',
   settings: {
     includeStudyGuide: false,
   },
@@ -138,6 +163,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-mat-2020',
   entries: [
     { id: `20200614`, sermon: `A Messy Family Tree`,                             scripture: `mat.1@@Matthew 1:1-17`,     },
     { id: `20200621`, sermon: `Baptism of Water, Holy Spirit, and Fire`,         scripture: `mat.2@@Matthew 2-3`,        },
@@ -165,7 +191,16 @@ M{ sermonSeries({
     { id: `20210207`, sermon: `Understanding God’s Anger`,                       scripture: `mat.21@@Matthew 21:12-13`,  },
     { id: `20210214`, sermon: `The Other Side of the Coin`,                      scripture: `mat.22@@Matthew 22`,        },
     { id: `20210221`, sermon: `Don’t Be a Hypocrite`,                            scripture: `mat.23@@Matthew 23`,        },
-    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,        },
+    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 05/21/2026',
+           topic:               'Salvation in the Tribulation',
+           verse:               'Matthew 24:14',
+           verseRef:            'mat.24.14',
+        },
+      ],
+    },
     { id: `20210307`, sermon: `Get Ready ‘cause Here I Come Pt.1`,               scripture: `mat.24@@Matthew 24:45-51`,  },
     { id: `20210314`, sermon: `Get Ready ‘cause Here I Come Pt.2`,               scripture: `mat.25@@Matthew 25:1-13`,   },
     { id: `20210321`, sermon: `Get Ready ‘cause Here I Come Pt.3`,               scripture: `mat.25@@Matthew 25:14-30`,  },
@@ -181,6 +216,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-mat-MISC',
   entries: [
     { id: `20210328`, sermon: `The God of Second Chances`,              scripture: `mat.26@@Matthew 26`,          studyGuide: `NONE`, },
     { id: `20211219`, sermon: `Prophecies about the First Christmas`,   scripture: `mat.1@@Matthew 1-2`,          studyGuide: `NONE`, },
@@ -191,5 +227,6 @@ M{ sermonSeries({
     { id: `20230402`, sermon: `Followers in the Crowd (Mike McClure)`,  scripture: `mat.20@@Matthew 20:29-21:14`, studyGuide: `NONE`, },
     { id: `20230813`, sermon: `When in the Wilderness (Tyler Hamrick)`, scripture: `mat.4@@Matthew 4:1-11`,                           },
     { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,         scripture: `mat.25@@Matthew 25:14-30`,    studyGuide: `NONE`, },
+    { id: `20260503`, sermon: `A Call to Prayer (Al Pittman)`,          scripture: `mat.6@@Matthew 6:5-15`,       studyGuide: `NONE`, },
   ]
 }) }M

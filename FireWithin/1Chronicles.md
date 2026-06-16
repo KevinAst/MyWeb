@@ -1,87 +1,129 @@
 # 1 Chronicles
 
-Like the books of Samuel and Kings, 1 and 2 Chronicles was also
-written as a single book in the Hebrew Bible. But many modern readers
-skip reading it when they find that it repeats much of the material
-from the previous books. So is Chronicles necessary to read? YES!
-... keep reading!
+The books of 1 and 2 Chronicles tell Israel's story from creation
+through exile, focusing on God's faithfulness to his promises despite
+his people's unfaithfulness. Written to returning exiles rebuilding
+their nation, Chronicles emphasizes how faithful kings who center
+worship around God's temple bring blessing, while unfaithful kings
+bring judgment.
 
-Chronicles is the last Book in the Hebrew Bible as it summarizes the
-continued relationship between God and Israel through the blessing of
-Abraham. The arrangement of Chronicles invites the reader to explore
-the stories of each section that reveal interesting details about
-David, Solomon, God's temple, the kings of Judah, and how they all
-work together. Chronicles is also an excellent historical reference
-for those studying specific facts in the Scriptures.
+Throughout these books, we see God's consistent promise that a son of
+David will one day rule an eternal kingdom where all nations worship
+the true God.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Chronicles Overview](#1-chronicles-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 1 Chronicles Series (Sundays)](#2015-1-chronicles-series-sundays)
 - [2025 1 Chronicles Series (Mid Week)](#2025-1-chronicles-series-mid-week)
 - [1 Chronicles Misc Selection](#1-chronicles-misc-selection)
 
 
-## Overview
+## 1 Chronicles Overview
 
-**{{book.NivBible}} 1 Chronicles Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Chronicles_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> In the fifth century BC, many Judeans were returning from exile to the
-> southern part of the land of Israel. They faced great difficulties:
-> their capital city and temple had been destroyed, foreigners had moved
-> in, and they were no longer ruled by their own king. But the books of
-> Chronicles, Ezra and Nehemiah insist that God’s people can still
-> fulfill his purpose. They must form a unique society centered on the
-> worship of God in a rebuilt temple in Jerusalem. (These books are
-> really one long book, telling a continuous story; one can see, for
-> example, how the end of 2 Chronicles overlaps with the beginning of
-> Ezra.)
-> 
-> The book presents a sweeping chronicle of Israel’s history, beginning
-> with a long genealogy or ancestor list. Going all the way back to
-> Adam, it situates the people of Israel among the nations and reminds
-> them of their calling. Special attention is given to Judah, ancestor
-> of the royal line of David, and to Levi, ancestor of the priests and
-> temple attendants.
-> 
-> The second main part describes the kings who ruled in Jerusalem down
-> to the time of the exile. David receives more attention than others,
-> but many details of his life told elsewhere are left out. The focus is
-> on his military campaigns and his elaborate plans for the temple in
-> Jerusalem. The reason is clear when we see that David was not
-> permitted to build the temple because he was a warrior. God wanted a
-> man of peace to build the place where all nations would come to
-> pray. The honor therefore fell to David’s son Solomon. More space is
-> devoted to him than to any king besides David, describing his
-> construction of the temple and the splendors of his reign.
-> 
-> The final part of the book relates the experiences of the returned
-> exiles. The memoirs of Ezra and Nehemiah, leaders of the second
-> generation of returned Judeans, are incorporated into the
-> history. These leaders helped create a distinct community by
-> forbidding intermarriage with the surrounding peoples, and they
-> directed the rebuilding of Jerusalem’s walls. Included here is a
-> description of a great covenant renewal ceremony led by Ezra and
-> Nehemiah.
-> 
-> An important theme of the entire history—which can appropriately be
-> called a temple history—is that pure worship is offered on God’s
-> terms, not ours. God has chosen Israel to welcome the nations into
-> true worship. Through all the ups and downs of history he is working
-> to bring this purpose to fulfillment.
+**{{book.NivBible}}**
 
+In the fifth century BC, many Judeans were returning from exile to the
+southern part of the land of Israel. They faced great difficulties:
+their capital city and temple had been destroyed, foreigners had moved
+in, and they were no longer ruled by their own king. But the books of
+Chronicles, Ezra and Nehemiah insist that God’s people can still
+fulfill his purpose. They must form a unique society centered on the
+worship of God in a rebuilt temple in Jerusalem. (These books are
+really one long book, telling a continuous story; one can see, for
+example, how the end of 2 Chronicles overlaps with the beginning of
+Ezra.)
+
+The book presents a sweeping chronicle of Israel’s history, beginning
+with a long genealogy or ancestor list. Going all the way back to
+Adam, it situates the people of Israel among the nations and reminds
+them of their calling. Special attention is given to Judah, ancestor
+of the royal line of David, and to Levi, ancestor of the priests and
+temple attendants.
+
+The second main part describes the kings who ruled in Jerusalem down
+to the time of the exile. David receives more attention than others,
+but many details of his life told elsewhere are left out. The focus is
+on his military campaigns and his elaborate plans for the temple in
+Jerusalem. The reason is clear when we see that David was not
+permitted to build the temple because he was a warrior. God wanted a
+man of peace to build the place where all nations would come to
+pray. The honor therefore fell to David’s son Solomon. More space is
+devoted to him than to any king besides David, describing his
+construction of the temple and the splendors of his reign.
+
+The final part of the book relates the experiences of the returned
+exiles. The memoirs of Ezra and Nehemiah, leaders of the second
+generation of returned Judeans, are incorporated into the
+history. These leaders helped create a distinct community by
+forbidding intermarriage with the surrounding peoples, and they
+directed the rebuilding of Jerusalem’s walls. Included here is a
+description of a great covenant renewal ceremony led by Ezra and
+Nehemiah.
+
+An important theme of the entire history—which can appropriately be
+called a temple history—is that pure worship is offered on God’s
+terms, not ours. God has chosen Israel to welcome the nations into
+true worship. Through all the ups and downs of history he is working
+to bring this purpose to fulfillment.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Chronicles_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Chronicles Introduction](https://bibleproject.com/explore/video/chronicles/)
+**1 Chronicles Diagram**
 M{ zoomableImg(`12Chronicles_BP`) }M
 
+[1 Chronicles Introduction](https://bibleproject.com/explore/video/chronicles/)
 M{ youTube(`HR7xaHv3Ias`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
-> _As of 12/2023 Spoken Gospel has no Chronicles introduction_
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Chronicles_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
+M{ youTube(`DsJ1TKOr5wA`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-1ch',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: /* 1 Chronicles 13,15 */ 'Proverbs 9:10',        verseRef: 'pro.9.10',    btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',    verse: /* 1 Chronicles 13,15 */ 'Psalms 24:3-4',        verseRef: 'psa.24.3-4',  btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',  verse: /* 1 Chronicles 22-28 */ '1 Corinthians 14:33',  verseRef: '1co.14.33',   btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',   },
+   ]
+}) }M
 
 
 
@@ -90,6 +132,7 @@ M{ youTube(`HR7xaHv3Ias`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-2015',
   entries: [
     { id: `20150823`, sermon: `Belonging`,              scripture: `1ch.1@@1 Chronicles 1-12`,   },
     { id: `20150830`, sermon: `Doing Things God's Way`, scripture: `1ch.13@@1 Chronicles 13-15`, },
@@ -104,6 +147,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-2025',
   settings: {
     includeStudyGuide: false,
   },
@@ -129,6 +173,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ch-MISC',
   settings: {
     includeStudyGuide: false,
   },

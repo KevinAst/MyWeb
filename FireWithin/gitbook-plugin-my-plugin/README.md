@@ -18,7 +18,8 @@
   - [inject()]
   - [devoGHStart()]
   - [devoGHEnd()]
-  - [devoGHTOC()]
+  - [devoGHClose()]
+  - [devoGHSeries()]
 - [Activation]
 - [Local Plugin]
 - [GitBook Docs]
@@ -190,8 +191,8 @@ The following **Custom Tags** are available:
 - [inject()]
 - [devoGHStart()]
 - [devoGHEnd()]
-- [devoGHTOC()]
-
+- [devoGHClose()]
+- [devoGHSeries()]
 
 
 ### zoomableImg()
@@ -285,6 +286,8 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
   By default, the ref will generate a Cornerstone sermon link,
   UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
 
+  > NOTE: 'xttp' will be interpreted as 'http' - as a work-around of markdown auto-linking http strings into an \<a\> tag
+
   When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
 
   If NO title is specified, it will default to 'Teaching'.
@@ -294,7 +297,7 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
     - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
     - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
     - 'TXT@@Sacrificed' ... a text item only (i.e. NO link)
-    - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+    - 'xttps://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
       ... a self-contained URL link
           NOTE: This can be used for any generic URL/Label (not really sermon specific)
   ```
@@ -379,11 +382,16 @@ content of an entire sermon series.
 
   ```js
   {
+    collapsibleSectionID: string,  // the state id for the optional CollapsibleSection
+                                   // - OPTIONAL: when omitted, NO CollapsibleSection is generated
+                                   // - must be unique (if not, will impact other collapsible states across the site)
+                                   // - suggested format: ss-mat-2026 (for SermonSeries-Matthew-2026 ... auto prefixed with `collapsibleSect_`)
     settings: { // settings impacting entire series (OPTIONAL)
       includeStudyGuide: boolean, // directive include/omit StudyGuide column (DEFAULT: true)
     },
     entries: [ // series entries (in order of display)
       { // individual entry
+        divider:   string,   // SPECIAL CASE: divider label entry (when used only param needed)
         id:        string,   // entry id (REQUIRED)
                              // - used to persist completion status
                              // - `20210418`: A CornerStone standard entry (`YYYYMMDD`)
@@ -433,6 +441,14 @@ content of an entire sermon series.
                              // - `04/18/2021` - when entry id is either NOT accurate, or is in a NON-CornerStone format
                              // - `DeepDive:ytHash@@desc[##ytHash@@desc...]` - SPECIAL CHOSEN PROCESSOR
                              //                                                replace date entry with one or more "Deep Dive" YouTube video links
+        relatedDevotions: [  // provide 1-or-more Related Devotions to this given sermon entry
+          {                  // ... this is a standard devotion entry, used by our devoGHSeries() macro
+             publicationDate: `Mon 05/18/2026`,
+             topic:           `Standing Firm in a Confused World`,
+             verse:           `Romans 12:2`,
+             verseRef:        `rom.12.2`,
+          },
+        ],
       },
       ... repeat
     ]
@@ -495,7 +511,7 @@ M{ sermonSeries({
   entries: [
     { id: `20121104`, sermon: `Election Day Sermon`,                                                                   studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,        scripture: `1sa.8@@1 Samuel 8-11`,                        },
-    { id: `20161016`, sermon: `Election Day Sermon`,                             scripture: `psa.33@@Psalm 33`,        studyGuide: `NONE`, },
+    { id: `20161016`, sermon: `Election Day Sermon`,                             scripture: `psa.33@@Psalms 33`,        studyGuide: `NONE`, },
     { id: `20201018`, sermon: `Church in America, Wake Up!`,                     scripture: `jer.6@@Jeremiah 6:16-19`, studyGuide: `NONE`, },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                     studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,     scripture: `mat.8@@Matthew 8:23-27`,                      },
@@ -837,48 +853,92 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
 
   ```js
   {
-    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
-                                                    // ... EX: `Sat 02/28/2026`
-    topic:               `devotion topic here`,     // devotion topic
-    subTopic:            `devotion sub-topic here`, // devotion sub-topic
-    verse:               `Luke 17:28-30`,           // verse label
-    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
-    devoTranslation:     `NKJV`,                    // translation used in the devotion (YouVersion format))
-    devoTranslationCode: `114`,                     // translation code used in the devotion (YouVersion format))
-    devoTranslationText: `verse text here`,         // translation text displayed in the devotion
+    publicationDate:     `Day mm/dd/yyyy`,              // devotion publication date label
+                                                        // ... EX: `Sat 02/28/2026`
+    topic:               `devotion topic here`,         // devotion topic
+    subTopic:            `devotion sub-topic here`,     // devotion sub-topic
+    verse:               `Luke 17:28-30`,               // verse label
+    verseRef:            `luk.17.28-30`,                // verse reference code (YouVersion format)
+    devoTranslation:     `NKJV`,                        // translation used in the devotion (YouVersion format))
+    devoTranslationCode: `114`,                         // translation code used in the devotion (YouVersion format))
+    devoTranslationText: `verse text here`,             // translation text displayed in the devotion
+    relatedSermon:       `sermonId##sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
+                                                        // SUB-PARAMS:
+                                                        //  - sermonId:      ID for sermon completion checkbox
+                                                        //                   ... OPTIONAL (if omitted, NO checkbox)
+                                                        //  - sermonLinkRef: same format as sermonLink()
+                                                        //  - bibleLinkRef:  same format as bibleLink())
+                                                        //                   ... OPTIONAL (if omitted, NO scripture link)
+                                                        // EXAMPLE:
+                                                        //  - CornerStone Sermon WITH Scripture:
+                                                        //     '20220911##20220911@@Ways to Worship##jhn.12@@John 12',
+                                                        //  -  YouTube Sermon WITH NO Scripture:
+                                                        //     '20251122##https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained'
   }
 
   ```
 
 ### devoGHEnd()
 
-Inject the HTML content that closes out the Daily Devotion with a prayer.
+Continue injection of the second part of our Daily Devotion.
 
-This macro should be used with the Post Process Tag (`P{`), just like the 
-[devoGHStart()] macro.
+This macro injects the HTML that 
+- closes out the devotion content,
+- injects a prayer,
+- and starts the "Digging Deeper" section (with an optional related sermon)
 
+The content is left open (for indentation purposes) to allow additional
+"Digging Deeper" content.  For this reason, it should be used through the
+Post Process Tag (`P{`), followed by the additional "Digging Deeper" content
+(in markdown), and end with the `devoGHClose()` macro which will close out all 
+HTML constructs.
 
 **API**: `devoGHEnd(prayer)`
 
 
-### devoGHTOC()
+### devoGHClose()
 
-Inject the HTML content for the TOC entry of the Daily Devotion.
+Inject the HTML content that closes out the Daily Devotion.
 
-This macro should be used with the normal Pre Process Tag (`M{`).
+This macro should be used with the Post Process Tag (`P{`), just like the 
+`devoGHStart()` and `devoGHEnd()` macros.
 
-* namedParams: a structure that describes the partial aspects of the Daily Devotional.
+**API**: `devoGHClose()`
+
+
+### devoGHSeries()
+
+**API**: `devoGHSeries(namedParams)`
+
+A comprehensive and responsive table generator for our Daily Devotion TOC entries.
+
+**Parms**:
+
+* namedParams: a comprehensive structure that describes the complete sermon series.
 
   ```js
   {
-    publicationDate:     `Day mm/dd/yyyy`,          // devotion publication date label
-                                                    // ... EX: `Sat 02/28/2026`
-    topic:               `devotion topic here`,     // devotion topic
-    verse:               `Luke 17:28-30`,           // verse label
-    verseRef:            `luk.17.28-30`,            // verse reference code (YouVersion format)
-    forBTB:              true/false,                // format entry for "by the book" (DEFAULT: false)
-  }
+    collapsibleSectionID: string,  // the state id for the optional CollapsibleSection
+                                   // - OPTIONAL: when omitted, NO CollapsibleSection is generated
+                                   // - only honored for 'BTB' layouts
+                                   // - must be unique (if not, will impact other collapsible states across the site)
+                                   // - suggested format: devo-mat (for Devotionals-Matthew ... auto prefixed with `collapsibleSect_`)
+    layout: 'DEVO/BTB',   // The layout to use for this seriesa:
+                          // - 'DEVO' ... the standard format of the top-level devotional page (the DEFAULT when ommitted]
+                          // - 'BTB'  ... emit a "by the book" format, placing the scripture FIRST (supporting order/search by scripture)
+    entries: [ // series entries (in order of display)
+      { // individual entry
+        publicationDate:  `Day mm/dd/yyyy`,          // devotion publication date label
+                                                     // ... EX: `Sat 02/28/2026`
+        topic:            `devotion topic here`,     // devotion topic
+        verse:            `Luke 17:28-30`,           // verse label
+        verseRef:         `luk.17.28-30`,            // verse reference code (YouVersion format)
 
+        btbContext: 'FromDevoSermon/FromDevoContent##scripture8@@SCRIPTURE##title', // OPTIONAL - for additional BTB context (using THIS verse in entry)
+      },
+      ... repeat
+    ]
+  }
   ```
 
 
@@ -986,7 +1046,8 @@ attempted it.  It would require some additional research, for example:
   [inject()]:             #inject
   [devoGHStart()]:        #devoghstart
   [devoGHEnd()]:          #devoghend
-  [devoGHTOC()]:          #devoghtoc
+  [devoGHClose()]:        #devoghclose
+  [devoGHSeries()]:       #devoghseries
 
 [Activation]:     #activation
 [Local Plugin]:   #local-plugin

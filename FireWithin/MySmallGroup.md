@@ -14,6 +14,7 @@
 - [Psalms Series](#psalms-series)
 - [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
 - [Matthew Series](#matthew-series)
+- [Joshua, Judges, & Ruth Series](#joshua-judges--ruth-series)
 
 
 ## John Series
@@ -21,6 +22,7 @@
 {{book.FBM}} ... FireWithin Study Link: {{book.John}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20221204',
   settings: {
     includeStudyGuide: false,
   },
@@ -62,6 +64,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Jeremiah}}, {{book.Lamentations}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20230604',
   settings: {
     includeStudyGuide: false,
   },
@@ -88,6 +91,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Mark}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20230903',
   settings: {
     includeStudyGuide: false, 
   },
@@ -114,6 +118,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Genesis}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20231203',
   settings: {
     includeStudyGuide: false,
   },
@@ -155,6 +160,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Acts}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20240602',
   settings: {
     includeStudyGuide: false,
   },
@@ -194,6 +200,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Exodus}}, {{book.Leviticus}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20241201',
   settings: {
     includeStudyGuide: false,
   },
@@ -220,6 +227,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.1Peter}}, {{book.2Peter}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250302',
   settings: {
     includeStudyGuide: false,
   },
@@ -245,24 +253,25 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Psalms}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250601',
   settings: {
     includeStudyGuide: false,
   },
   entries: [
-    { id: `SG20250601`, sermon: `TXT@@God's Wisdom`,        scripture: `psa.1.1-6@@Psalm 1:1-6`,             date:`06/01/2025`, },
-    { id: `SG20250608`, sermon: `TXT@@God's Truth`,         scripture: `psa.119.1-16@@Psalm 119:1-16`,       date:`06/08/2025`, },
-    { id: `SG20250615`, sermon: `TXT@@God's Glory`,         scripture: `psa.19.1-11@@Psalm 19:1-11`,         date:`06/15/2025`, },
-    { id: `SG20250622`, sermon: `TXT@@God's Reign`,         scripture: `psa.96.1-13@@Psalm 96:1-13`,         date:`06/22/2025`, },
-    { id: `SG20250629`, sermon: `TXT@@God's Promise`,       scripture: `psa.132.1-18@@Psalm 132:1-14,17-18`, date:`06/29/2025`, },
-    { id: `SG20250706`, sermon: `TXT@@God's Messiah`,       scripture: `psa.110.1-7@@Psalm 110:1-7`,         date:`07/06/2025`, },
-    { id: `SG20250713`, sermon: `TXT@@God's Deliverance`,   scripture: `psa.18.16-29@@Psalm 18:16-29`,       date:`07/13/2025`, },
-    { id: `SG20250720`, sermon: `TXT@@God's Faithfulness`,  scripture: `psa.105@@Psalm 105:1-11,42-45`,      date:`07/20/2025`, },
-    { id: `SG20250727`, sermon: `TXT@@God's Conviction*`,   scripture: `psa.38@@Psalm 38:1-8,18-22`,         date:`07/27/2025`, },
-    { id: `SG20250803`, sermon: `TXT@@God's Forgiveness`,   scripture: `psa.32.1-11@@Psalm 32:1-11`,         date:`08/03/2025`, },
-    { id: `SG20250810`, sermon: `TXT@@God's Care`,          scripture: `psa.23.1-6@@Psalm 23:1-6`,           date:`08/10/2025`, },
-    { id: `SG20250817`, sermon: `TXT@@God's Greatness`,     scripture: `psa.139.1-16@@Psalm 139:1-4,7-16`,   date:`08/17/2025`, },
-    { id: `SG20250824`, sermon: `TXT@@God's Righteousness`, scripture: `psa.5.1-12@@Psalm 5:1-12`,           date:`08/24/2025`, },
-    { id: `SG20250831`, sermon: `TXT@@God's Presence`,      scripture: `psa.42.1-11@@Psalm 42:1-11`,         date:`08/31/2025`, },
+    { id: `SG20250601`, sermon: `TXT@@God's Wisdom`,        scripture: `psa.1.1-6@@Psalms 1:1-6`,             date:`06/01/2025`, },
+    { id: `SG20250608`, sermon: `TXT@@God's Truth`,         scripture: `psa.119.1-16@@Psalms 119:1-16`,       date:`06/08/2025`, },
+    { id: `SG20250615`, sermon: `TXT@@God's Glory`,         scripture: `psa.19.1-11@@Psalms 19:1-11`,         date:`06/15/2025`, },
+    { id: `SG20250622`, sermon: `TXT@@God's Reign`,         scripture: `psa.96.1-13@@Psalms 96:1-13`,         date:`06/22/2025`, },
+    { id: `SG20250629`, sermon: `TXT@@God's Promise`,       scripture: `psa.132.1-18@@Psalms 132:1-14,17-18`, date:`06/29/2025`, },
+    { id: `SG20250706`, sermon: `TXT@@God's Messiah`,       scripture: `psa.110.1-7@@Psalms 110:1-7`,         date:`07/06/2025`, },
+    { id: `SG20250713`, sermon: `TXT@@God's Deliverance`,   scripture: `psa.18.16-29@@Psalms 18:16-29`,       date:`07/13/2025`, },
+    { id: `SG20250720`, sermon: `TXT@@God's Faithfulness`,  scripture: `psa.105@@Psalms 105:1-11,42-45`,      date:`07/20/2025`, },
+    { id: `SG20250727`, sermon: `TXT@@God's Conviction*`,   scripture: `psa.38@@Psalms 38:1-8,18-22`,         date:`07/27/2025`, },
+    { id: `SG20250803`, sermon: `TXT@@God's Forgiveness`,   scripture: `psa.32.1-11@@Psalms 32:1-11`,         date:`08/03/2025`, },
+    { id: `SG20250810`, sermon: `TXT@@God's Care`,          scripture: `psa.23.1-6@@Psalms 23:1-6`,           date:`08/10/2025`, },
+    { id: `SG20250817`, sermon: `TXT@@God's Greatness`,     scripture: `psa.139.1-16@@Psalms 139:1-4,7-16`,   date:`08/17/2025`, },
+    { id: `SG20250824`, sermon: `TXT@@God's Righteousness`, scripture: `psa.5.1-12@@Psalms 5:1-12`,           date:`08/24/2025`, },
+    { id: `SG20250831`, sermon: `TXT@@God's Presence`,      scripture: `psa.42.1-11@@Psalms 42:1-11`,         date:`08/31/2025`, },
   ]
 }) }M
 
@@ -272,6 +281,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Numbers}}, {{book.Deuteronomy}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20250907',
   settings: {
     includeStudyGuide: false,
   },
@@ -298,6 +308,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Matthew}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'SG20251207',
   settings: {
     includeStudyGuide: false,
   },
@@ -328,5 +339,32 @@ M{ sermonSeries({
     { id: `SG20260517`, sermon: `TXT@@Active Faith`,            scripture: `mat.25@@Matthew 25:31-46`,           date:`05/17/2026`, },
     { id: `SG20260524`, sermon: `TXT@@Our Atonement`,           scripture: `mat.26@@Matthew 26:17-30`,           date:`05/24/2026`, },
     { id: `SG20260531`, sermon: `TXT@@Our Savior`,              scripture: `mat.27@@Matthew 27:27-31,45-54`,     date:`05/31/2026`, },
+  ]
+}) }M
+
+
+## Joshua, Judges, & Ruth Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Joshua}}, {{book.Judges}}, {{book.Ruth}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'SG20260607',
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20260607`, sermon: `TXT@@Strong and Courageous`,    scripture: `jos.1@@Joshua 1:1-11,16-18`,    date:`06/07/2026`,  },
+    { id: `SG20260614`, sermon: `TXT@@Amazing Grace`,            scripture: `jos.2@@Joshua 2:4-21`,          date:`06/14/2026`,  },
+    { id: `SG20260621`, sermon: `TXT@@Remembering God’s Works`,  scripture: `jos.3@@Joshua 3:14–4:9`,        date:`06/21/2026`,  },
+    { id: `SG20260628`, sermon: `TXT@@Winning Strategy`,         scripture: `jos.6@@Joshua 6:12-25`,         date:`06/28/2026`,  },
+    { id: `SG20260705`, sermon: `TXT@@Sin Revealed`,             scripture: `jos.7@@Joshua 7:10-23`,         date:`07/05/2026`,  },
+    { id: `SG20260712`, sermon: `TXT@@Unwavering Determination`, scripture: `jos.14@@Joshua 14:1-15`,        date:`07/12/2026`,  },
+    { id: `SG20260719`, sermon: `TXT@@Vital Decision`,           scripture: `jos.24@@Joshua 24:14-24`,       date:`07/19/2026`,  },
+    { id: `SG20260726`, sermon: `TXT@@Consequences`,             scripture: `jdg.2@@Judges 2:11-23`,         date:`07/26/2026`,  },
+    { id: `SG20260802`, sermon: `TXT@@Called`,                   scripture: `jdg.6@@Judges 6:1-4,7-16`,      date:`08/02/2026`,  },
+    { id: `SG20260809`, sermon: `TXT@@Trust`,                    scripture: `jdg.7@@Judges 7:1-8,19-23`,     date:`08/09/2026`,  },
+    { id: `SG20260816`, sermon: `TXT@@Compromise`,               scripture: `jdg.16@@Judges 16:16-31`,       date:`08/16/2026`,  },
+    { id: `SG20260823`, sermon: `TXT@@Faithfulness`,             scripture: `rut.1@@Ruth 1:11-18; 2:5-12`,   date:`08/23/2026`,  },
+    { id: `SG20260830`, sermon: `TXT@@Redemption`,               scripture: `rut.3@@Ruth 3:8-13; 4:13-17`,   date:`08/30/2026`,  },
   ]
 }) }M

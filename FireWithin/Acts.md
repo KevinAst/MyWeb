@@ -14,69 +14,143 @@ Eden. Acts, then, shows us that God's purposes for humanity, that he
 began at creation, are finally being brought to completion through
 Jesus, the Gospel, and his Church.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Acts Overview](#acts-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
+- [Books](#books)
 - [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
 
 
-## Overview
+## Acts Overview
+
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.NivBible}}**
+
+Luke’s second volume is known as the book of Acts. The six parts of
+the book of Acts each describe a new phase in the expansion of the
+Messiah - following movement outward from Jerusalem. These sections
+are all marked by variations on the phrase _the word of God continued
+to spread and flourish_:
+
+1. The church is established in Jerusalem and becomes Greek-speaking,
+   allowing it to spread its message throughout the empire.
+
+2. The movement expands into the rest of Palestine.
+
+3. Gentiles are included in the gathering of Jesus-followers
+   alongside Jews.
+
+4. Messengers are sent west into the Roman province of Asia.
+
+5. These messengers enter Europe.
+
+6. The movement reaches the capital city
+   of Rome and into the highest levels of society; God’s kingdom is
+   thus announced to all nations.
+
+P{ collapsibleSectionEnd() }P
 
 
-**{{book.NivBible}} Acts Introduction**
-
-> Luke’s second volume is known as the book of Acts. The six parts of
-> the book of Acts each describe a new phase in the expansion of the
-> Messiah - following movement outward from Jerusalem. These sections
-> are all marked by variations on the phrase _the word of God continued
-> to spread and flourish_:
-> 
-> 1. The church is established in Jerusalem and becomes Greek-speaking,
->    allowing it to spread its message throughout the empire.
-> 
-> 2. The movement expands into the rest of Palestine.
-> 
-> 3. Gentiles are included in the gathering of Jesus-followers
->    alongside Jews.
-> 
-> 4. Messengers are sent west into the Roman province of Asia.
-> 
-> 5. These messengers enter Europe.
-> 
-> 6. The movement reaches the capital city
->    of Rome and into the highest levels of society; God’s kingdom is
->    thus announced to all nations.
-
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Acts Introduction](https://bibleproject.com/explore/video/acts/)
+**Acts Diagram**
 M{ zoomableImg(`Acts_BP`) }M
 
-> [Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
+[Part 1: Acts 1-12](https://bibleproject.com/explore/video/acts-1-12/) ...
 M{ youTube(`CGbNw855ksw`) }M
 
-> [Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
+[Part 2: Acts 13-28](https://bibleproject.com/explore/video/acts-13-28/)
 M{ youTube(`Z-17KxpjL0Q`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`lnCAkeBido0`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Other Intros****************************** -->
+P{ collapsibleSection({
+  id:     'Acts_Overview_OTHER',
+  label:  'Other Intros',
+  initialExpansion: 'close',
+}) }P
 
 
 **{{book.EyeWitness}}**
 
 > An eyewitness introduction to the people found in scriptures ... [Acts](https://eyewitnessbible.org/acts/)
 
-
-**miscellaneous**
+**[Crossway](https://www.crossway.org/)**
 
 > [What We Would Be Missing If We Didn't Have the Book of Acts](https://www.crossway.org/articles/what-we-would-be-missing-if-we-didnt-have-the-book-of-acts/)
+
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-act',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',                     verse: /* Acts 1-2      */ '2 Corinthians 3:6',   verseRef: '2co.3.6',       btbContext: 'FromDevoContent##act.1@@Acts 1-2##Pentecost Fulfillment - New Testament' },
+     { publicationDate: 'Thu 04/30/2026',  topic: 'Power to Be His Witness',                     verse:   'Acts 1:8',                              verseRef: 'act.1.8',   },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                        verse: /* Acts 2:36-38  */ 'Psalms 23:3',         verseRef: 'psa.23.3',      btbContext: `FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`, },
+     { publicationDate: 'Tue 05/12/2026',  topic: 'Steadfast in the Truth',                      verse:   'Acts 2:42',                             verseRef: 'act.2.42',  },
+     { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',                   verse: /* Acts 5        */ 'Proverbs 16:6',       verseRef: 'pro.16.6',      btbContext: 'FromDevoContent##act.5@@Acts 5##Ananias and Sapphira', },
+     { publicationDate: 'Thu 05/14/2026',  topic: 'Obeying the Higher Authority',                verse:   'Acts 5:29',                             verseRef: 'act.5.29',  },
+     { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',                        verse: /* Acts 7-9      */ '2 Corinthians 5:17',  verseRef: '2co.5.17',      btbContext: 'FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ', },
+     { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                         verse:   'Acts 7:55',                             verseRef: 'act.7.55',  },
+     { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                       verse: /* Acts 8        */ 'Hebrews 12:15',       verseRef: 'heb.12.15',     btbContext: 'FromDevoSermon##act.8@@Acts 8##From Bitter to Better', },
+     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                          verse: /* Acts 10       */ 'Romans 10:12',        verseRef: 'rom.10.12',     btbContext: 'FromDevoContent##act.10@@Acts 10##Peter and Cornelius', },
+     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: /* Acts 12       */ 'Isaiah 55:8-9',       verseRef: 'isa.55.8-9',    btbContext: 'FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God', },
+     { publicationDate: 'Tue 06/09/2026',  topic: 'Saved by Grace',                              verse:   'Acts 13:39',                            verseRef: 'act.13.39', },
+     { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse:   'Acts 14:22',                            verseRef: 'act.14.22', },
+     { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse:   'Acts 16:25',                            verseRef: 'act.16.25', },
+     { publicationDate: 'Thu 06/11/2026',  topic: 'Seeing the Lost Through God’s Eyes',          verse:   'Acts 17:16',                            verseRef: 'act.17.16', },
+     { publicationDate: 'Sat 05/30/2026',  topic: 'Marks of True Revival',                       verse:   'Acts 19:20',                            verseRef: 'act.19.20', },
+     { publicationDate: 'Mon 06/15/2026',  topic: 'The Whole Counsel of God',                    verse:   'Acts 20:27',                            verseRef: 'act.20.27', },
+     { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
+   ]
+}) }M
+
+
+## Books
+
+Pastor Gary has written a book on Acts!
+
+- [Walking in the Spirit’s Power](https://www.amazon.com/Walking-Spirits-Power-Experiencing-Christianity-ebook/dp/B0H1F38CMY/):
+  _A Chapter by Chapter Study of Acts for Experiencing Authentic Christianity (by Gary Hamrick)_
 
 
 
@@ -89,6 +163,7 @@ M{ youTube(`lnCAkeBido0`) }M
 available._
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2009',
   settings: {
   //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
   },
@@ -114,6 +189,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2015',
   entries: [
     { id: `20151021`, scripture: `act.1@@Acts 1:1-11`,       },
     { id: `20151028`, scripture: `act.1@@Acts 1:12-2:13`,    },
@@ -148,25 +224,71 @@ M{ sermonSeries({
 
 {{book.CornerstoneChapel}}
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-act-2023',
   entries: [
     { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
-    { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,         },
+    { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 05/12/2026',
+           topic:               'Steadfast in the Truth',
+           verse:               'Acts 2:42',
+           verseRef:            'act.2.42',
+        },
+      ],
+    },
     { id: `20230212`, sermon: `The Gift of Tongues`,                                           scripture: `act.2@@Acts 2`,         },
     { id: `20230219`, sermon: `Four Foundations of the Church`,                                scripture: `act.2@@Acts 2:42`,      },
     { id: `20230226`, sermon: `When It’s OK to Disobey`,                                       scripture: `act.3@@Acts 3-4`,       },
     { id: `20230305`,                                                                          scripture: `act.24@@Acts 24`, sermon: `https://cornerstonechapel.net/teaching/israel-teaching-from-the-holy-land/@@Israel Teaching from the Holy Land`, }, // id is NON-STANDARD for the sermon only
     { id: `20230319`, sermon: `Lessons from the Early Church`,                                 scripture: `act.4@@Acts 4-5`,       },
     { id: `20230326`, sermon: `A Martyr’s Example`,                                            scripture: `act.6@@Acts 6-7`,       },
-    { id: `20230416`, sermon: `From Bitter to Better`,                                         scripture: `act.8@@Acts 8`,         },
+    { id: `20230416`, sermon: `From Bitter to Better`,                                         scripture: `act.8@@Acts 8`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 05/20/2026',
+           topic:               'From Bitter to Better',
+           verse:               'Hebrews 12:15',
+           verseRef:            'heb.12.15',
+        },
+      ],
+    },
     { id: `20230423`, sermon: `A Transformed Life`,                                            scripture: `act.9@@Acts 9`,         },
     { id: `20230430`, sermon: `Five Ways to Guard Against Spiritual Warfare (Austin Hamrick)`, scripture: `act.8@@Acts 8-19`,      },
     { id: `20230514`, sermon: `Lessons from a Jew and a Gentile`,                              scripture: `act.10@@Acts 10`,       },
     { id: `20230528`, sermon: `That’s Not Fair!`,                                              scripture: `act.12@@Acts 12`,       },
     { id: `20230611`, sermon: `Embrace God’s Grace`,                                           scripture: `act.13@@Acts 13`,       },
-    { id: `20230618`, sermon: `What Tough Times Teach Us`,                                     scripture: `act.14@@Acts 14`,       },
-    { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,    },
+    { id: `20230618`, sermon: `What Tough Times Teach Us`,                                     scripture: `act.14@@Acts 14`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 05/24/2026',
+           topic:               'Strengthened Through Trials',
+           verse:               'Acts 14:22',
+           verseRef:            'act.14.22',
+        },
+      ],
+    },
+    { id: `20230625`, sermon: `Sing in the Darkness`,                                          scripture: `act.15@@Acts 15-16`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 05/28/2026',
+           topic:               'Singing in the Darkness',
+           verse:               'Acts 16:25',
+           verseRef:            'act.16.25',
+        },
+      ],
+    },
     { id: `20230709`, sermon: `Taking Jesus to the Marketplace`,                               scripture: `act.17@@Acts 17`,       },
-    { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,       },
+    { id: `20230716`, sermon: `Revival or Revolt?`,                                            scripture: `act.19@@Acts 19`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 05/30/2026',
+           topic:               'Marks of True Revival',
+           verse:               'Acts 19:20',
+           verseRef:            'act.19.20',
+        },
+      ],
+    },
     { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
     { id: `20230827`, sermon: `Advice and Warnings to the Church`,                             scripture: `act.20@@Acts 20 PT.2`,  },
     { id: `20230903`, sermon: `Parting Words of Encouragement`,                                scripture: `act.20@@Acts 20 PT.3`,  },

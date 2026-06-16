@@ -1,78 +1,85 @@
 # James
 
-James (a half brother of Jesus) writes his letter to those of us who
-are suffering all kinds of different hardships and tests of life. He
-personally understands what it means to suffer and how pain makes us
-vulnerable to shame, doubt, lust, deception, anger, and pride. But he
-also knows that in suffering, there’s a unique opportunity for God to
-perfect and complete the valuable character-building work he started
-in us.
+The book of James introduces us to the wisdom of Jesus. Jesus’ wisdom
+is simple but revolutionary. Jesus’ wisdom says that, like flowers
+come from buried seeds, true life comes from death.
 
-God meets us with wisdom as we face the tests of life. When we listen
-closely to his wise words of truth, trusting that he is good and
-responding with action, we begin to experience the wholeness God
-designed us for. And those around us experience it too. 
-
-When we see our sufferings through the wisdom and goodness of God, we
-are moved to alleviate human suffering whenever we encounter it,
-especially the sufferings of the most vulnerable in our communities.
-
-But when we forget God’s goodness, we often allow our own pain to
-provoke selfish actions and cruel words that destroy our
-communities. There’s a lot at stake, so James urges us to listen
-carefully and respond tangibly.
-
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [James Overview](#james-overview)
 - [2010 James Series (Sundays)](#2010-james-series-sundays)
 - [2019 James Series (Mid Week)](#2019-james-series-mid-week)
 
 
-## Overview
+## James Overview
 
-**{{book.NivBible}} James Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'James_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> James, one of the brothers of Jesus, became a leader of the church in
-> Jerusalem after Jesus’ death and resurrection. He was respected for
-> the advice he gave and for the wise decisions he helped the community
-> of believers make (see Acts 15:13-21). At one point he decided to
-> write down some of his best teachings and advice and send them to
-> other Jewish believers in Jesus who were scattered throughout the
-> Roman Empire. What he wrote to them has become known as the book of
-> James.
-> 
-> This book begins like a letter because it’s being sent to people at a
-> distance. But it is actually not very much like other letters of the
-> time. It is a collection of short sayings and slightly longer
-> discussions of practical topics. The conversational style, the short,
-> pithy sayings and the interweaving of themes all make this book
-> similar to the wisdom writing found in Proverbs and Ecclesiastes.
-> 
-> Like those wisdom books, James concentrates on questions of daily
-> living in God’s good creation. He considers such practical issues as
-> concern for the poor, the responsible use of wealth, control of the
-> tongue, purity of life, unity in the community of Christ-followers,
-> and above all patience and endurance during times of trial. The godly
-> wisdom here remains as valuable a guide to living fully human lives as
-> when James first shared it centuries ago.
+**{{book.NivBible}}**
 
+James, one of the brothers of Jesus, became a leader of the church in
+Jerusalem after Jesus’ death and resurrection. He was respected for
+the advice he gave and for the wise decisions he helped the community
+of believers make (see Acts 15:13-21). At one point he decided to
+write down some of his best teachings and advice and send them to
+other Jewish believers in Jesus who were scattered throughout the
+Roman Empire. What he wrote to them has become known as the book of
+James.
+
+This book begins like a letter because it’s being sent to people at a
+distance. But it is actually not very much like other letters of the
+time. It is a collection of short sayings and slightly longer
+discussions of practical topics. The conversational style, the short,
+pithy sayings and the interweaving of themes all make this book
+similar to the wisdom writing found in Proverbs and Ecclesiastes.
+
+Like those wisdom books, James concentrates on questions of daily
+living in God’s good creation. He considers such practical issues as
+concern for the poor, the responsible use of wealth, control of the
+tongue, purity of life, unity in the community of Christ-followers,
+and above all patience and endurance during times of trial. The godly
+wisdom here remains as valuable a guide to living fully human lives as
+when James first shared it centuries ago.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'James_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [James Introduction](https://bibleproject.com/explore/video/james/)
+**James Diagram**
 M{ zoomableImg(`James_BP`) }M
 
+[James Introduction](https://bibleproject.com/explore/video/james/)
 M{ youTube(`qn-hLHWwRYY`) }M
 
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'James_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
+M{ youTube(`ai7kRHaXjtI`) }M
 
-> _As of 12/2023 Spoken Gospel has no james introduction_
-
-
+P{ collapsibleSectionEnd() }P
 
 
 ## 2010 James Series (Sundays)

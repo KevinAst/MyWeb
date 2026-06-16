@@ -10,70 +10,113 @@ that death is not the end. Throughout the story, God promises that the
 people of Israel will be raised back to life. This same hope extends
 to us in the death and resurrection of Jesus.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [1 Kings Overview](#1-kings-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 1 Kings Series (Sundays)](#2015-1-kings-series-sundays)
 - [2024 1 Kings Series (Mid Week)](#2024-1-kings-series-mid-week)
 
 
-## Overview
+## 1 Kings Overview
 
-**{{book.NivBible}} 1 Kings Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Kings_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
-> one long book. (They were separated due to the length of ancient
-> scrolls.) Beginning with Samuel, the last of the judges, this book
-> describes what happened in the days of the kings who ruled first the
-> whole nation, and then the divided kingdoms of Israel and Judah. The
-> reigns of Saul and David are described in detail. The repeating
-> structure within the book tells how old a king was when he came to the
-> throne, where and for how long he ruled, and something about his
-> character and the notable events of his reign. (Some traditions call
-> this book the “Book of Reigns.”)
-> 
-> Beneath this pattern of historical succession, however, another rhythm
-> can be discerned. Saul, the first king, does not follow God
-> faithfully, and God announces he will seek a man after his own heart
-> to rule Israel. God finds this person in David. He puts him on the
-> throne, promising that his descendants will always rule Israel if they
-> continue to serve him. Unfortunately, the kings after David are not
-> committed to following God’s way. Many of them abandon God and lead
-> the people to do the same, although a few of them call the people back
-> to obedience. Using David’s wholehearted dedication to the Lord as its
-> standard, the book of Samuel-Kings traces the tragic wavering of the
-> people’s devotion to God. Their covenant failure leads to the nation
-> first being divided and then later conquered by the powerful empires
-> to the east.
-> 
-> The “Book of Reigns” is therefore a tragic closing of the whole
-> covenant history that began in Genesis. Just as the first humans were
-> exiled from God’s garden, now Israel is sent out of the “new Eden” God
-> intended in the promised land. Land and temple have been lost in the
-> darkness of judgment, and only a flickering light remains. The deeper
-> purpose of God for Israel—to bring blessing and restoration to the
-> nations—seems to have been frustrated. But hope remains alive in God’s
-> promise to bring a descendant of David back to the throne.
+**{{book.NivBible}}**
 
+The books commonly known as 1 & 2 Samuel and 1 & 2 Kings are really
+one long book. (They were separated due to the length of ancient
+scrolls.) Beginning with Samuel, the last of the judges, this book
+describes what happened in the days of the kings who ruled first the
+whole nation, and then the divided kingdoms of Israel and Judah. The
+reigns of Saul and David are described in detail. The repeating
+structure within the book tells how old a king was when he came to the
+throne, where and for how long he ruled, and something about his
+character and the notable events of his reign. (Some traditions call
+this book the “Book of Reigns.”)
+
+Beneath this pattern of historical succession, however, another rhythm
+can be discerned. Saul, the first king, does not follow God
+faithfully, and God announces he will seek a man after his own heart
+to rule Israel. God finds this person in David. He puts him on the
+throne, promising that his descendants will always rule Israel if they
+continue to serve him. Unfortunately, the kings after David are not
+committed to following God’s way. Many of them abandon God and lead
+the people to do the same, although a few of them call the people back
+to obedience. Using David’s wholehearted dedication to the Lord as its
+standard, the book of Samuel-Kings traces the tragic wavering of the
+people’s devotion to God. Their covenant failure leads to the nation
+first being divided and then later conquered by the powerful empires
+to the east.
+
+The “Book of Reigns” is therefore a tragic closing of the whole
+covenant history that began in Genesis. Just as the first humans were
+exiled from God’s garden, now Israel is sent out of the “new Eden” God
+intended in the promised land. Land and temple have been lost in the
+darkness of judgment, and only a flickering light remains. The deeper
+purpose of God for Israel—to bring blessing and restoration to the
+nations—seems to have been frustrated. But hope remains alive in God’s
+promise to bring a descendant of David back to the throne.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Kings_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [1 Kings Introduction](https://bibleproject.com/explore/video/kings/)
+**1 Kings Diagram**
 M{ zoomableImg(`12Kings_BP`) }M
 
+[1 Kings Introduction](https://bibleproject.com/explore/video/kings/)
 M{ youTube(`bVFW3wbi9pk`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     '1Kings_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`kqRrBbYTfaE`) }M
+
+P{ collapsibleSectionEnd() }P
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 1 Kings 11-12 */ 'Psalms 51:17',  verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+   ]
+}) }M
+
+
 
 ## 2015 1 Kings Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ki-2015',
   entries: [
     { id: `20150104`, sermon: `The Death of a King, The Rebellion of a Son`, scripture: `1ki.1@@1 Kings 1-2`,    },
     { id: `20150111`, sermon: `Wisdom`,                                      scripture: `1ki.3@@1 Kings 3-4`,    },
@@ -92,6 +135,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-1ki-2024',
   settings: {
     includeStudyGuide: false,
   },

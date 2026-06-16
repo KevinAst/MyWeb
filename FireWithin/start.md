@@ -6,6 +6,35 @@ help you in your Bible Study.  With that said, this section highlights
 a number of things that you should know to get the most out of this
 site.
 
+
+## At a Glance
+
+- [Quick Start](#quick-start)
+- [Basic Appearance](#basic-appearance)
+- [Going Home](#going-home)
+- [Left Nav Bar](#left-nav-bar)
+- [Scripture References](#scripture-references)
+  * [Bible Translation](#bible-translation)
+- [Resource Links](#resource-links)
+- [Where Am I?](#where-am-i)
+- [Cell Phones](#cell-phones)
+  * [More on Left Nav Bar](#more-on-left-nav-bar)
+- [Diagrams](#diagrams)
+
+
+## Quick Start
+
+If you are visually inclined, watch this presentation on how to use
+Fire Within.  It will walk you through all the details!
+
+<center>
+  <img class="diagram"
+       src="FireWithinSplash_light_TempYouTubeArrow.png"
+       alt="Fire Within"
+       width="80%">
+</center>
+
+
 ## Basic Appearance
 
 You can change the basic appearance of the site through the **Text
@@ -49,6 +78,9 @@ will be taken to the study resources for that book.
        width="80%">
 </center>
 
+<br/>
+<p id="expand-left-nav"><b>Open/Close the Left Nav Bar</b></p>
+
 The **Left Nav Bar** itself is expandable using the menu control found in
 the upper-left of the page.  This control is a toggle that will either
 expand or contract the **Left Nav Bar**.
@@ -61,32 +93,43 @@ expand or contract the **Left Nav Bar**.
        width="80%">
 </center>
 
-_**Responsive Design**_
 
-The **Left Nav Bar** will behave differently, depending on whether you
-use it on a desktop _(or tablet)_ or a smaller device _(such as a cell
-phone)_.
-       
-> _**Desktop (or Tablet)**_
-> 
-> - Because a desktop _(or tablet)_ has more real estate to work with ...
-> - The **Left Nav Bar** will start out open and remain open as you navigate the site.
-> 
-> _**Phone**_
-> 
-> - Because a cell phone has less real estate to work with ...
-> - The **Left Nav Bar** will start out closed and automatically close on each menu selection.
->   As an example, to select a book in the New Testament _(assuming you
->   are not already in the New Testament)_, you will need to:
->   1. expand the **Left Nav Bar**
->   2. select "New Testament"
->      ... the New Testament splash page will display, and the **Left Nav Bar** will close
->   3. expand the **Left Nav Bar** once again
->      ... the New Testament menu has now expanded
->   4. select the desired book (ex: Acts)
+## Scripture References
 
+Throughout this site, there are over 3,000 scripture references!
+
+As an example, consider: M{ bibleLink(`jhn.3.16@@John 3:16`) }M
+
+- ALL scripture references are links that launch the YouVersion Bible
+  App - so you can "Dig Deeper" electronically!
+
+- In addition, you will find a reddish-tinted arrow, just to the right
+  of most scriptures.  This is a convenience control that takes you to
+  the FireWithin book for that scripture _(in our example -
+  {{book.John}})_.  This allows you to quickly research other
+  resources that FireWithin has for that book of the Bible.
+
+  The only time you will not see this control, is if you are already
+  on that page.  In other words, if you are already in the book of
+  John, it wouldn't make sense to say "take me to the book of John" :-)
+
+
+## Bible Translation
+
+The YouVersion Bible App supports many different Bible Translations.
+
+FireWithin allows you to specify which translation you wish to use
+through a central setting.  This automatically impacts ALL 3,000+
+scriptures found throughout the FireWithin site!
+
+Check out the {{book.BibleTranslation}} setting!!
+
+
+<!-- 
 
 ## Search
+
+KJB: Search feature does NOT work very well ... nix this (commented out)
 
 You may search the content of the blog through the search box found at
 the top of the **Left Nav Bar**.
@@ -95,6 +138,8 @@ the top of the **Left Nav Bar**.
 other resources, this feature is only useful when the term you are
 searching for is contained in the sermon title, or the introductory
 pros.
+
+-->
 
 
 ## Resource Links
@@ -117,39 +162,6 @@ track of where you are your study.
 > consistently take you to another tab in your browser.  This is done
 > purposefully, so you won't loose your place in your study.  To get
 > back to this page, simply re-select it in your browser tabs.
-
-_**Responsive Design**_
-
-The layout of the sermon series links will have a slightly different
-appearance, depending on whether you use it on a desktop _(or tablet)_
-or a smaller device _(such as a cell phone)_.
-       
-> _**Desktop (or Tablet)**_
-> 
-> - A desktop _(or tablet)_ has more real estate to work with on your
->   screen.
-> - The sermon series will have a more horizontal layout _(with up
->   to 5 columns)_.
-> 
-> _**Phone**_
-> 
-> - While a cell phone has less real estate, it is useful if you want to
->   stream audio during your commute or workout.
-> - The sermon series will have a more vertical layout _(with only
->   3 columns)_.
-> - If you have the [You Version](https://www.bible.com/)
->   Bible App installed on your phone, the scripture references will be
->   serviced by the Bible App!
-> - **Remember** - you can always cast a sermon series from your phone to a TV!
-
-<center>
-  <b>Phone Rendition</b><br/>
-  <img class="diagram"
-       style="border:3px solid DarkRed;"
-       src="start_resourceLinkPhone.png"
-       alt="Resource Links Phone"
-       width="45%">
-</center>
 
 
 ## Where Am I?
@@ -176,10 +188,55 @@ at the top-right of each page that represents a book of the Bible.
 M{ injectSyncNote(`completed checks`) }M
 
 
-## Bible Translation
+## Cell Phones
 
-The {{book.Settings}} page has a **User Preference** that allows you to specify which
-{{book.BibleTranslation}} you wish to use ... **check it out**!
+Fire Within is capable of running on many different device types,
+including Mobile Devices _(such as Cell Phones and Tablets)_.
+
+Because of Fire Within's responsive design, it can handle devices with
+much smaller screens.
+
+As an example, the Cell Phone Sermon Series will take on a slightly
+different appearance.  It has a more vertical layout, with only 3
+columns (instead of 5).
+
+<center>
+  <b>Phone Rendition</b><br/>
+  <img class="diagram"
+       style="border:3px solid DarkRed;"
+       src="start_resourceLinkPhone.png"
+       alt="Resource Links Phone"
+       width="45%">
+</center>
+
+While Cell Phones have smaller screens to work with, they are useful
+in many different situations:
+
+- You may want to audio stream a sermon on your commute or workout.
+- You can always cast a sermon series from your phone to a TV!
+- Remember: if your mobile device has [You
+  Version](https://www.bible.com/) Bible App installed, all scripture
+  references will be serviced by the Bible App _(which has more
+  features than it's web counterpart)_!
+
+
+## More on Left Nav Bar
+
+One of the biggest differences of Cell Phone usage is the **Left Nav
+Bar** - which behaves differently, depending on how much screen real
+estate you have:
+
+- For a Desktop/Laptop/Tablet, the **Left Nav Bar** will start out
+  open, and remains open as you navigate the site.
+
+- For a Cell Phone, the **Left Nav Bar** will start out closed and
+  automatically close on each menu selection.
+
+  As an example, if you need to navigate to a different top-level page,
+  you will need to:
+  1. [expand](#expand-left-nav) the **Left Nav Bar**
+  2. select the new top-level page
+     <br/>... the new page will display, and the **Left Nav Bar** will close
 
 
 ## Diagrams

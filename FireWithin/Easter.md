@@ -7,6 +7,7 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
+    {                 divider: `2010-2024 (one service per year)` },
     { id: `20100404`, sermon: `Resurrection Celebration`,                                     scripture: `luk.24@@Luke 24:1-8`,       },
     { id: `20120408`, sermon: `Making Sense of Nonsense`,                                     scripture: `luk.23@@Luke 23-24`,        },
     { id: `20130331`, sermon: `What Does Easter Mean for You?`,                               scripture: `jhn.19@@John 19:38 - 20:9`, },
@@ -20,11 +21,12 @@ M{ sermonSeries({
     { id: `20210404`, sermon: `It is Finished`,                                                                                       },
     { id: `20220417`, sermon: `Evidence for the Head, Hope for the Heart`,                    scripture: `luk.24@@Luke 24`,           },
     { id: `20230409`, sermon: `Jesus is the cure!`,                                           scripture: `jhn.20@@John 20:26-31`,     },
-
     { id: `20240331`, sermon: `Peace To You!`,                                                scripture: `luk.24@@Luke 24:36-53`,     },
+    {                 divider: `2025` },
     { id: `20250413`, sermon: `The Deliberate, Unusual, and Royal Arrival of Jesus Christ (Palm Sunday - David Guzik)`, 
                                                                                               scripture: `mat.21@@Matthew 21`,        },
     { id: `20250420`, sermon: `A Tale of Two Gardens`,                                        scripture: `jhn.19@@John 19-20`,        },
+    {                 divider: `2026` },
     { id: `20260329`, sermon: `Welcoming Jesus on Palm Sunday (David Guzik)`,                 scripture: `luk.19@@Luke 19`,           },
     { id: `20260401`, sermon: `A Conversation with Gary Hamrick and Lon Solomon (the true meaning of the Passover)`,                  },
     { id: `20260405`, sermon: `4 Reasons Why Easter Should Matter for You`,                   scripture: `jhn.20@@John 20:1–18`,      },

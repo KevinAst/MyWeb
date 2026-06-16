@@ -6,63 +6,109 @@ church in crisis that Jesus is always enough. He is the center of
 reality, in Him all things hold together, and only through Him is
 there freedom from the powers of guilt and shame.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Colossians Overview](#colossians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
+- [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
 - [Colossians Misc Selection](#colossians-misc-selection)
 
 
-## Overview
+## Colossians Overview
 
-**{{book.NivBible}} Colossians Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> While Paul was in prison in Rome, awaiting his upcoming trial before
-> Caesar, one of the letters he wrote was to the gathering of believers
-> in the city of Colossae. Paul had never met them, but they knew who he
-> was and respected his leadership. Paul had worked with a man named
-> Epaphras when he was in Ephesus. Epaphras was originally from
-> Colossae, about 100 miles to the east. Paul sent him to bring the good
-> news about Jesus to his city and to two other nearby cities, Laodicea
-> and Hierapolis. Epaphras was later arrested and brought to Rome as a
-> prisoner himself. Paul learned from him what was happening in those
-> cities.
-> 
-> The Colossians were mostly Gentiles, but like the Galatians they were
-> being pressured to follow the Jewish law and were adding extra rules
-> and false teachings to the faith. Some of them were priding themselves
-> on having visions and getting secret spiritual knowledge. So Paul
-> wrote them a letter to say, “When you’ve got Jesus the Messiah, you’ve
-> got it all!”
-> 
-> Paul emphasizes that all things in heaven and earth were created by
-> the Son and were reconciled to God by the Son’s death on the
-> cross. Christ possesses the fullness of God’s being. Since the
-> Colossians have been brought into the new kingdom of light, they can
-> live their faith to the fullest. They are to put on the new
-> self,awaiting the time the Messiah will appear openly, revealing his
-> glory.
+**{{book.NivBible}}**
 
+While Paul was in prison in Rome, awaiting his upcoming trial before
+Caesar, one of the letters he wrote was to the gathering of believers
+in the city of Colossae. Paul had never met them, but they knew who he
+was and respected his leadership. Paul had worked with a man named
+Epaphras when he was in Ephesus. Epaphras was originally from
+Colossae, about 100 miles to the east. Paul sent him to bring the good
+news about Jesus to his city and to two other nearby cities, Laodicea
+and Hierapolis. Epaphras was later arrested and brought to Rome as a
+prisoner himself. Paul learned from him what was happening in those
+cities.
+
+The Colossians were mostly Gentiles, but like the Galatians they were
+being pressured to follow the Jewish law and were adding extra rules
+and false teachings to the faith. Some of them were priding themselves
+on having visions and getting secret spiritual knowledge. So Paul
+wrote them a letter to say, “When you’ve got Jesus the Messiah, you’ve
+got it all!”
+
+Paul emphasizes that all things in heaven and earth were created by
+the Son and were reconciled to God by the Son’s death on the
+cross. Christ possesses the fullness of God’s being. Since the
+Colossians have been brought into the new kingdom of light, they can
+live their faith to the fullest. They are to put on the new
+self,awaiting the time the Messiah will appear openly, revealing his
+glory.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Colossians Introduction](https://bibleproject.com/explore/video/colossians/)
+**Colossians Diagram**
 M{ zoomableImg(`Colossians_BP`) }M
 
+[Colossians Introduction](https://bibleproject.com/explore/video/colossians/)
 M{ youTube(`pXTXlDxQsvc`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Colossians_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`EvR4tIZAw7Y`) }M
+
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',  verse: 'Colossians 3:23',  verseRef: 'col.3.23',  },
+   ]
+}) }M
 
 
 
 ## 2010 Colossians Series (Sundays)
 
 {{book.CornerstoneChapel}}
+
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
 
 M{ sermonSeries({
   entries: [
@@ -88,6 +134,24 @@ M{ sermonSeries({
     { id: `20180131`, scripture: `col.4@@Colossians 4`,         },
   ]
 }) }M
+
+
+
+## 2026 Colossians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20260419`, sermon: `Two Kingdoms in Conflict`,                 scripture: `col.1@@Colossians 1:1-14`,   },
+    { id: `20260510`, sermon: `Jesus Is`,                                 scripture: `col.1@@Colossians 1:15–18`,  },
+    { id: `20260524`, sermon: `Reconciled to God`,                        scripture: `col.1@@Colossians 1:19-23`,  },
+    { id: `20260531`, sermon: `Surviving Suffering`,                      scripture: `col.1@@Colossians 1:24–29`,  },
+    { id: `20260607`, sermon: `Warnings to the Church in a Crazy World`,  scripture: `col.2@@Colossians 2:1-23`,   },
+    { id: `20260614`, sermon: `Complete in Christ`,                       scripture: `col.2@@Colossians 2:11–15`,  },
+  ]
+}) }M
+
 
 
 

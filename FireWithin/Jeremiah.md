@@ -14,55 +14,97 @@ husband to his adulterous bride. In Jesus, he would begin a new
 covenant that would transform his people from adulterous whores and
 make them virgin brides once again.
 
+... _from {{book.SpokenGospel}}_
 
 ### At a Glance
 
-- [Overview](#overview)
+- [Jeremiah Overview](#jeremiah-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2019 Jeremiah Series (Sundays)](#2019-jeremiah-series-sundays)
 
 
-## Overview
+## Jeremiah Overview
 
-**{{book.NivBible}} Jeremiah Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jeremiah_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The prophet Jeremiah spoke to the kingdom of Judah for forty
-> years—from the end of the Assyrian period until Judah was destroyed by
-> Babylon. The book mixes sermons, prophetic oracles, and biographical
-> narratives of Jeremiah’s experiences during the last years of the
-> Judean kingdom. We are given an intimate look into the prophet’s own
-> heart as he brings God’s message to his fellow Judeans, who reject him
-> and even conspire to kill him.
-> 
-> The book begins and ends with historical references to the event
-> Jeremiah was best known for predicting: the fall of Jerusalem. The
-> four main parts generally consist (in order) of oracles, narratives
-> (two sections), and then oracles. Significantly, each of these four
-> parts ends with a reference to Jeremiah’s words being written in a
-> book or scroll. A long poetic oracle is inserted in the middle
-> narrative of the book. So Jeremiah’s prophecies appear at the
-> beginning, middle and end of the book, highlighting their
-> importance. The middle oracle, promising a new covenant designed to
-> change the human heart, is shown to be the most important of all. God
-> will do more than simply punish evil—he will overcome it with good.
-> 
-> The book of Jeremiah carries us back and forth in place and time as we
-> turn its pages, yet its themes are consistent. The message of judgment
-> for wrongdoing is followed by the restorative power of forgiveness and
-> new life: to uproot and tear down, to destroy and overthrow, to build
-> and to plant.
+**{{book.NivBible}}**
 
+The prophet Jeremiah spoke to the kingdom of Judah for forty
+years—from the end of the Assyrian period until Judah was destroyed by
+Babylon. The book mixes sermons, prophetic oracles, and biographical
+narratives of Jeremiah’s experiences during the last years of the
+Judean kingdom. We are given an intimate look into the prophet’s own
+heart as he brings God’s message to his fellow Judeans, who reject him
+and even conspire to kill him.
+
+The book begins and ends with historical references to the event
+Jeremiah was best known for predicting: the fall of Jerusalem. The
+four main parts generally consist (in order) of oracles, narratives
+(two sections), and then oracles. Significantly, each of these four
+parts ends with a reference to Jeremiah’s words being written in a
+book or scroll. A long poetic oracle is inserted in the middle
+narrative of the book. So Jeremiah’s prophecies appear at the
+beginning, middle and end of the book, highlighting their
+importance. The middle oracle, promising a new covenant designed to
+change the human heart, is shown to be the most important of all. God
+will do more than simply punish evil—he will overcome it with good.
+
+The book of Jeremiah carries us back and forth in place and time as we
+turn its pages, yet its themes are consistent. The message of judgment
+for wrongdoing is followed by the restorative power of forgiveness and
+new life: to uproot and tear down, to destroy and overthrow, to build
+and to plant.
+
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jeremiah_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Jeremiah Introduction](https://bibleproject.com/explore/video/jeremiah/)
+**Jeremiah Diagram**
 M{ zoomableImg(`Jeremiah_BP`) }M
 
+[Jeremiah Introduction](https://bibleproject.com/explore/video/jeremiah/)
 M{ youTube(`RSK36cHbrk0`) }M
 
-**{{book.SpokenGospel}}**
+P{ collapsibleSectionEnd() }P
 
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Jeremiah_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
+
+**{{book.SpokenGospel}}**
 M{ youTube(`TVdLahnSY3o`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse: 'Jeremiah 1:5',   verseRef: 'jer.1.5',  },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse: 'Jeremiah 33:3',  verseRef: 'jer.33.3', },
+   ]
+}) }M
 
 
 ## 2019 Jeremiah Series (Sundays)

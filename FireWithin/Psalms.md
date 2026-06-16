@@ -9,93 +9,111 @@ throughout generations. Now, Jesus has fulfilled these Psalms and
 given them to his church, providing us with songs to sing while we
 wait in this earthly exile for his return.
 
+... _from {{book.SpokenGospel}}_
+
 ### At a Glance
 
-- [Overview](#overview)
+- [Psalms Overview](#psalms-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
 - [Psalms Misc Selection](#psalms-misc-selection)
 
 
-## Overview
+## Psalms Overview
 
-**{{book.NivBible}} Psalms Introduction**
+<!-- *** NIV Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_NIV',
+  label:  'NIV Intro',
+  initialExpansion: 'close',
+}) }P
 
-> The book of Psalms is a collection of song lyrics. Like many songs,
-> they were first written in response to events in the lives of their
-> authors. Later, the whole community used them in worship. When Israel
-> returned from exile in Babylon many of the songs from over the
-> centuries were collected in the book of Psalms.
-> 
-> The book is structured into five parts marked off by the phrase,
-> Praise be to the Lord… Amen and Amen!These five “books” remind the
-> reader of the five books of Moses. Like the law, these song lyrics can
-> be read and studied for instruction. Psalm 1 emphasizes such
-> meditation and seems to have been placed first to make this point.
-> 
-> The five books also tell a three-part story of Israel’s redemption:
-> monarchy, exile and return. The psalms of King David dominate books
-> one and two. The beginning and ending of book three highlight Israel’s
-> exile. The fourth book ends with a plea that God bring the exiled
-> people home. The fifth book declares that God has done just that. Now
-> the reason for the group of praise psalms at the end of the book is
-> apparent: God has been faithful, judging Israel in exile but then
-> bringing the nation home again.
-> 
-> The book of Psalms thus operates at two levels: individually the songs
-> explore a wide variety of honest spiritual responses to God, while the
-> overall collection tells, and celebrates, the work of God in history
-> to save his people.
+**{{book.NivBible}}**
+
+The book of Psalms is a collection of song lyrics. Like many songs,
+they were first written in response to events in the lives of their
+authors. Later, the whole community used them in worship. When Israel
+returned from exile in Babylon many of the songs from over the
+centuries were collected in the book of Psalms.
+
+The book is structured into five parts marked off by the phrase,
+Praise be to the Lord… Amen and Amen!These five “books” remind the
+reader of the five books of Moses. Like the law, these song lyrics can
+be read and studied for instruction. Psalms 1 emphasizes such
+meditation and seems to have been placed first to make this point.
+
+The five books also tell a three-part story of Israel’s redemption:
+monarchy, exile and return. The psalms of King David dominate books
+one and two. The beginning and ending of book three highlight Israel’s
+exile. The fourth book ends with a plea that God bring the exiled
+people home. The fifth book declares that God has done just that. Now
+the reason for the group of praise psalms at the end of the book is
+apparent: God has been faithful, judging Israel in exile but then
+bringing the nation home again.
+
+The book of Psalms thus operates at two levels: individually the songs
+explore a wide variety of honest spiritual responses to God, while the
+overall collection tells, and celebrates, the work of God in history
+to save his people.
+
+P{ collapsibleSectionEnd() }P
 
 
+<!-- *** Bible Project Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_BP',
+  label:  'Bible Project Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.BibleProject}}**
 
-> [Psalms Introduction](https://bibleproject.com/explore/video/psalms/)
-
+**Psalms Diagram**
 M{ zoomableImg(`Psalms_BP`) }M
 
+[Psalms Introduction](https://bibleproject.com/explore/video/psalms/)
 M{ youTube(`j9phNEaPrv8`) }M
 
+P{ collapsibleSectionEnd() }P
+
+
+<!-- *** Spoken Gospel Intro ****************************** -->
+P{ collapsibleSection({
+  id:     'Psalms_Overview_SG',
+  label:  'Spoken Gospel Intro',
+  initialExpansion: 'close',
+}) }P
 
 **{{book.SpokenGospel}}**
-
 M{ youTube(`L6NSw20AkJQ`) }M
+
+P{ collapsibleSectionEnd() }P
 
 
 ## Devotions "by the book"
 
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
-- M{ devoGHTOC({
-       publicationDate:     'Tue 03/17/2026',
-       topic:               'Led by the Light of God’s Word',
-       verse:               'Psalm 25:4',
-       verseRef:            'psa.25.4',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Mon 04/06/2026',
-       topic:               'The Lord as Our True Security',
-       verse:               'Psalm 33:12',
-       verseRef:            'psa.33.12',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Thu 03/26/2026',
-       topic:               'The Limits of Our Days',
-       verse:               'Psalm 90:10',
-       verseRef:            'psa.90.10',
-       forBTB:              true,
-     }) }M
-- M{ devoGHTOC({
-       publicationDate:     'Sat 04/11/2026',
-       topic:               'Established in His Presence',
-       verse:               'Psalm 138:8',
-       verseRef:            'psa.138.8',
-       forBTB:              true,
-     }) }M
-
+M{ devoGHSeries({
+   collapsibleSectionID: 'devo-psa',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',            verse: 'Psalms 23:3',    verseRef: 'psa.23.3',    },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',        verse: 'Psalms 24:3-4',  verseRef: 'psa.24.3-4',  },
+     { publicationDate: 'Tue 03/17/2026',  topic: 'Led by the Light of God’s Word',  verse: 'Psalms 25:4',    verseRef: 'psa.25.4',    },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Tue 05/05/2026',  topic: 'Faithful in the Waiting',         verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Wed 05/13/2026',  topic: 'Waiting on the Lord',             verse: 'Psalms 27:14',   verseRef: 'psa.27.14',   },
+     { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse: 'Psalms 33:12',   verseRef: 'psa.33.12',   },
+     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse: 'Psalms 40:1',    verseRef: 'psa.40.1',    },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse: 'Psalms 51:17',   verseRef: 'psa.51.17',   },
+     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse: 'Psalms 51:17',   verseRef: 'psa.51.17',   },
+     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse: 'Psalms 56:3',    verseRef: 'psa.56.3',    },
+     { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse: 'Psalms 90:10',   verseRef: 'psa.90.10',   },
+     { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse: 'Psalms 121:4',   verseRef: 'psa.121.4',   },
+     { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse: 'Psalms 138:8',   verseRef: 'psa.138.8',   },
+   ]
+}) }M
 
 
 
@@ -104,6 +122,7 @@ M{ youTube(`L6NSw20AkJQ`) }M
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-psa-2016',
   entries: [
     { id: `20161127`, sermon: `God's Recipe for a Blessed Life`,                     scripture: `psa.1@@Psalms 1`,              },
     { id: `20161204`, sermon: `A Majestic God Cares About You`,                      scripture: `psa.2@@Psalms 2-8`,            },
@@ -151,15 +170,25 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  collapsibleSectionID: 'ss-psa-MISC',
   entries: [
     { id: `20220123`, sermon: `The Value of Life`,                               scripture: `psa.103@@Psalms 103:2-4`, studyGuide: `NONE`, },
-    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
+    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/06/2026',
+           topic:               'The Lord as Our True Security',
+           verse:               'Psalms 33:12',
+           verseRef:            'psa.33.12',
+        },
+      ],
+    },
     { id: `20220724`,                                                            scripture: `psa.33@@Psalms 33:12`,    studyGuide: `NONE`, sermon: `https://cornerstonechapel.net/teaching/blessed-in-the-nation-whose-god-is-the-lord/@@Blessed is the nation whose God is the Lord (Jim Garlow)`, },
     { id: `20220914`, sermon: `God - The Holy Spirit (Tyler Hamrick)`,           scripture: `psa.139@@Psalms 139`,     studyGuide: `NONE`, },
     { id: `20230702`, sermon: `Faith and Freedom`,                               scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
     { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`, scripture: `psa.119@@Psalms 119`,     studyGuide: `NONE`, },
     { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                 scripture: `psa.91@@Psalms 91`,                           },
-    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalm 27`,                            },
-    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalm 13`,                            },
+    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalms 27`,                            },
+    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalms 13`,                            },
   ]
 }) }M
