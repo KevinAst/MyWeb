@@ -99,7 +99,8 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-eph',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',  verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
+     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse: 'Ephesians 4:32',  verseRef: 'eph.4.32',  },
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
    ]
 }) }M
 

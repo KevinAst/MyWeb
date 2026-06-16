@@ -115,6 +115,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',   verse: /* 2 Samuel 11-12    */  'Psalms 51:17',         verseRef: 'psa.51.17',    btbContext: 'FromDevoContent##2sa.11@@2 Samuel 11-12##David’s Sin and Repentance', },
      { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',               verse: /* 2 Samuel 12:13-25 */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.12.13-25@@2 Samuel 12:13-25##David’s Repentance and Restoration', },
      { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',      verse: /* 2 Samuel 13-18    */  '2 Corinthians 5:18',   verseRef: '2co.5.18',     btbContext: 'FromDevoContent##2sa.13@@2 Samuel 13-18##David & Absalom - A Family Torn Apart by Sin and Bitterness'},
+     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',   verse: /* 2 Samuel 15-17    */  'Ephesians 4:32',       verseRef: 'eph.4.32',     btbContext: 'FromDevoContent##2sa.15@@2 Samuel 15-17##Ahithophel’s Bitterness Ends in Ruin' },
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24       */  '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
    ]
 }) }M
