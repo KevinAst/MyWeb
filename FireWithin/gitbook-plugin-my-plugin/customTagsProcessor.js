@@ -1967,7 +1967,9 @@ function devoGHStart(namedParams={}) {
 
   // ### Your Daily Devotion
   // ... our starting header
-  content += `<h3 id="a-daily-devotion">Your Daily Devotion</h3>\n\n`;
+  // ... diminish this (i.e. NOT <h3>), allowing it the devotion topic to stand out more
+  //content += `<h3 id="a-daily-devotion">Your Daily Devotion</h3>\n\n`;
+  content += `<b id="a-daily-devotion">Your Daily Devotion</b>\n\n`;
 
   // our parent page-up linkw (needed because the full daily devo is NOT visible in the Left-Nav bar
   // ... NOTE: `↰ Book` link is color coded consistent to the bibleLink() book ref
@@ -1979,18 +1981,19 @@ function devoGHStart(namedParams={}) {
 
   // from Gary Hamrick
   // ... responsive for phone
-  content += `<p><em><strong>from Gary Hamrick <span class="phone-inline"><br></span> ... Senior Pastor of <a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></strong></em></p>\n\n`;
+  content += `<p><em><strong>from Gary Hamrick <span class="phone-inline"><br></span> ... Senior Pastor of <a href="https://cornerstonechapel.net/" target="_blank">Cornerstone Chapel</a></strong></em><br/>`;
 
   // the completion checkbox for this devo
   // ... M{ completedCheckBox(`devo20260228@@ Sat 02/28/2026`) }M
-  content += 'for ' + completedCheckBox(`${devoKey}@@ ${publicationDate}`);
+  content += 'for ' + completedCheckBox(`${devoKey}@@ ${publicationDate}</p>\n\n`);
 
   // close indentation directive
   content += `</div>\n\n`;
 
   // #### Faithful in the Days of the Son of Man
   // ... the header containing our devotion topic
-  content += `<h4 id="devotion-topic">${topic}</h4>\n\n`;
+  // ... <h2> instead of <h4> - making this devotion topic to stand out more
+  content += `<h2 id="devotion-topic">${topic}</h2>\n\n`;
 
   // open indentation directive
   content += `<div class="indent">\n\n`;
