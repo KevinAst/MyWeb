@@ -1032,6 +1032,52 @@ if (!window.fw) { // only expand this module once (conditionally)
       e.currentTarget.href = url;
     }
 
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.notifyUserOfAnyYouVersionIssues()
+    //* 
+    //* Communicate any KNOWN YouVersion Bible App issues to user (only ONCE per day).
+    //* 
+    //* USAGE: 
+    //*   <a href="#" 
+    //*      onclick="return fw.notifyUserOfAnyYouVersionIssues()" 
+    //*      onmouseover="alterBibleVerseLink(event, 'mrk.1.2')" 
+    //*      target="_blank">Mark 1:2</a>
+    //*--------------------------------------------------------------------------
+
+    // NO KNOWN ISSUE:
+//  const knownYouVersionIssue = '';
+    // 6/17/2026 ISSUE:
+    const knownYouVersionIssue = `As of 6/17/2026, YouVersion's website is experiencing intermittent passage lookup issues.  It may find one passage, but not another :-(
+
+If a passage cannot be found, the problem is with the YouVersion site and NOT Fire Within.`;
+
+    const standardPostFixMsg = `\n\nYou will receive this notification ONCE daily, till the problem has been resolved.`;
+    
+    fw.notifyUserOfAnyYouVersionIssues = function() {
+
+      // only communicate message if there is one :-)
+      if (knownYouVersionIssue) {
+        const today     = new Date().toISOString().substring(0, 10); // EX: 2026-06-19
+        const lastShown = localStorage.getItem('youversion-warning');
+        
+        // only show message ONCE per day
+        if (lastShown !== today) {
+          localStorage.setItem('youversion-warning', today);
+          
+          // prefer blocking alert(), forces the user to see/acknolege the message, before the link navigation occurs
+          alert(knownYouVersionIssue + standardPostFixMsg);
+        }
+      }
+      
+      // We allow the normal href to do it's job (verses handling it ourself - e.g. window.open())
+      // ADVANTAGE - No need to duplicate browser behavior: 
+      //  - The browser honors target="_blank" normally
+      //  - Ctrl+Click still works
+      //  - Middle-click still works
+      //  - Right-click → Open in New Tab still works
+      return true;  // continue with normal href navigation
+    };
+
 
     //*--------------------------------------------------------------------------
     //* PUBLIC: fw.genBibleTranslationsSelection(bibleTranslationsElmId)
