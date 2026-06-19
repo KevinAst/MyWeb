@@ -1047,12 +1047,11 @@ if (!window.fw) { // only expand this module once (conditionally)
     // NO KNOWN ISSUE:
 //  const knownYouVersionIssue = '';
     // 6/17/2026 ISSUE:
-    const knownYouVersionIssue = `YouVersion's website is currently experiencing intermittent passage lookup issues.
+    const knownYouVersionIssue = `As of 6/17/2026, YouVersion's website is experiencing intermittent passage lookup issues.  It may find one passage, but not another :-(
 
-If a passage cannot be found, the problem is most likely with YouVersion and NOT FireWithin.
+If a passage cannot be found, the problem is with the YouVersion site and NOT Fire Within.`;
 
-This message is only communicated ONCE per day.
-    `;
+    const standardPostFixMsg = `\n\nYou will receive this notification ONCE daily, till the problem has been resolved.`;
     
     fw.notifyUserOfAnyYouVersionIssues = function() {
 
@@ -1064,9 +1063,9 @@ This message is only communicated ONCE per day.
         // only show message ONCE per day
         if (lastShown !== today) {
           localStorage.setItem('youversion-warning', today);
-  
+          
           // prefer blocking alert(), forces the user to see/acknolege the message, before the link navigation occurs
-          alert(knownYouVersionIssue);
+          alert(knownYouVersionIssue + standardPostFixMsg);
         }
       }
       
