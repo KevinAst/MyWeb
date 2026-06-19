@@ -102,6 +102,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',              verse:   'John 4:24',                           verseRef: 'jhn.4.24',      },
      { publicationDate: 'Thu 04/09/2026',  topic: 'Grace That Restores and Redirects',  verse:   'John 8:11',                           verseRef: 'jhn.8.11',      },
      { publicationDate: 'Mon 04/13/2026',  topic: 'Eyes Opened by Christ',              verse:   'John 9:25',                           verseRef: 'jhn.9.25',      },
+     { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',               verse:   'John 10:27',                          verseRef: 'jhn.10.27',     },
      { publicationDate: 'Fri 04/17/2026',  topic: 'Walk While You Have the Light',      verse:   'John 12:46',                          verseRef: 'jhn.12.46',     },
      { publicationDate: 'Tue 04/21/2026',  topic: 'The Pattern of Humble Service',      verse:   'John 13:14',                          verseRef: 'jhn.13.14',     },
      { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: /* John 13:33-35   */ '1 Samuel 12:22',  verseRef: '1sa.12.22',     btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
