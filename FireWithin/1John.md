@@ -91,7 +91,8 @@ M{ devoGHSeries({
 // collapsibleSectionID: 'cs-devo-1jn',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',      verse: '1 John 1:9',    verseRef: '1jn.1.9', },
+     { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',       verse: '1 John 1:9',    verseRef: '1jn.1.9', },
+     { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King', verse: '1 John 1:9',    verseRef: '1jn.1.9', },
    ]
 }) }M
 
@@ -124,6 +125,12 @@ M{ sermonSeries({
         {
            publicationDate:     'Wed 06/10/2026',
            topic:               'Renewed Purpose',
+           verse:               '1 John 1:9',
+           verseRef:            '1jn.1.9',
+        },
+        {
+           publicationDate:     'Sat 06/20/2026',
+           topic:               'The Mercy of the King',
            verse:               '1 John 1:9',
            verseRef:            '1jn.1.9',
         },
