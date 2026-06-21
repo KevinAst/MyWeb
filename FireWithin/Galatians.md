@@ -118,6 +118,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse:   'Galatians 1:10',                      verseRef: 'gal.1.10',      },
+     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',               verse:   'Galatians 1:10',                      verseRef: 'gal.1.10',      },
      { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                   verse: /* Galatians 3:28  */ 'John 17:20–21',   verseRef: 'jhn.17.20-21',  btbContext: 'FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ', },
      { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',  verse: /* Galatians 5     */ '1 Samuel 17:47',  verseRef: '1sa.17.47',     btbContext: 'FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit', },
      { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',    verse:   'Galatians 6:2',                       verseRef: 'gal.6.2',       },

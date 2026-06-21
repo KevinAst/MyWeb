@@ -142,6 +142,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 06/15/2026',  topic: 'The Whole Counsel of God',                    verse:   'Acts 20:27',                            verseRef: 'act.20.27', },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',                        verse: /* Acts 21 */       'John 10:27',          verseRef: 'jhn.10.27',     btbContext: 'FromDevoContent##act.21@@Acts 21##Paul Followed God’s Voice Despite Warnings'},
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
+     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Acts 27       */ 'Galatians 1:10',      verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Warning Rejected'},
    ]
 }) }M
 

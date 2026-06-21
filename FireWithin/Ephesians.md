@@ -99,8 +99,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-eph',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse: 'Ephesians 4:32',  verseRef: 'eph.4.32',  },
-     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
+     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse:   'Ephesians 4:32',                        verseRef: 'eph.4.32',  },
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse:   'Ephesians 6:10',                        verseRef: 'eph.6.10',  },
+     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',  verseRef: 'gal.1.10',     btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},
    ]
 }) }M
 
@@ -157,7 +158,16 @@ M{ sermonSeries({
     { id: `20251102`, sermon: `A Prayer for You`,                    scripture: `eph.3@@Ephesians 3`,   },
     { id: `20251109`, sermon: `Putting Feet to Your Faith`,          scripture: `eph.4@@Ephesians 4–5`, },
     { id: `20251116`, sermon: `Marriage, Family, and Work`,          scripture: `eph.5@@Ephesians 5–6`, },
-    { id: `20251123`, sermon: `Stand Your Ground against the Enemy`, scripture: `eph.6@@Ephesians 6`,   },
+    { id: `20251123`, sermon: `Stand Your Ground against the Enemy`, scripture: `eph.6@@Ephesians 6`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 06/21/2026',
+           topic:               'Standing With God',
+           verse:               'Galatians 1:10',
+           verseRef:            'gal.1.10',
+        },
+      ],
+    },
   ]
 }) }M
 
