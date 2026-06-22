@@ -120,6 +120,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',  verseRef: 'rom.10.12',  },
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',   verseRef: 'rom.12.2',   },
+     { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',               verse: 'Romans 12:18',  verseRef: 'rom.12.18',  },
      { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse: 'Romans 12:19',  verseRef: 'rom.12.19',  },
      { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse: 'Romans 12:21',  verseRef: 'rom.12.21',  },
    ]

@@ -117,7 +117,8 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',               verse: /* 2 Samuel 12:13-25 */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.12.13-25@@2 Samuel 12:13-25##David’s Repentance and Restoration', },
      { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',      verse: /* 2 Samuel 13-18    */  '2 Corinthians 5:18',   verseRef: '2co.5.18',     btbContext: 'FromDevoContent##2sa.13@@2 Samuel 13-18##David & Absalom - A Family Torn Apart by Sin and Bitterness'},
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',   verse: /* 2 Samuel 15-17    */  'Ephesians 4:32',       verseRef: 'eph.4.32',     btbContext: 'FromDevoContent##2sa.15@@2 Samuel 15-17##Ahithophel’s Bitterness Ends in Ruin' },
-     { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',         verse: /* 2 Samuel 16,19 */     '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.16@@2 Samuel 16,19##Shimei’s Confession and David’s Mercy'},
+     { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',         verse: /* 2 Samuel 16,19    */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.16@@2 Samuel 16,19##Shimei’s Confession and David’s Mercy'},
+     { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',     verse: /* 2 Samuel 19-20    */  'Romans 12:18',         verseRef: 'rom.12.18',    btbContext: 'FromDevoContent##2sa.19-20@@2 Samuel 19-20##Division After Absalom’s Rebellion'},
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24       */  '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
    ]
 }) }M
