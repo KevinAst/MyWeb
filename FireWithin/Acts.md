@@ -139,6 +139,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse:   'Acts 16:25',                            verseRef: 'act.16.25', },
      { publicationDate: 'Thu 06/11/2026',  topic: 'Seeing the Lost Through God’s Eyes',          verse:   'Acts 17:16',                            verseRef: 'act.17.16', },
      { publicationDate: 'Sat 05/30/2026',  topic: 'Marks of True Revival',                       verse:   'Acts 19:20',                            verseRef: 'act.19.20', },
+     { publicationDate: 'Wed 06/24/2026',  topic: 'Finishing the Race Well',                     verse:   'Acts 20:24',                            verseRef: 'act.20.24', },
      { publicationDate: 'Mon 06/15/2026',  topic: 'The Whole Counsel of God',                    verse:   'Acts 20:27',                            verseRef: 'act.20.27', },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',                        verse: /* Acts 21 */       'John 10:27',          verseRef: 'jhn.10.27',     btbContext: 'FromDevoContent##act.21@@Acts 21##Paul Followed God’s Voice Despite Warnings'},
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},

@@ -112,6 +112,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',            verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',             verse: /* Hebrews 11:7 */    'Galatians 1:10',    verseRef: 'gal.1.10',        btbContext: 'FromDevoContent##heb.11.7@@Hebrews 11:7##Noah built the ark while others mocked'},
      { publicationDate: 'Sun 03/01/2026',  topic: 'The God Who Redeems the Weak',  verse:   'Hebrews 11:32-33',                      verseRef: 'heb.11.32-33',  },
+     { publicationDate: 'Wed 06/24/2026',  topic: 'Finishing the Race Well',       verse: /* Hebrews 12:1-2 */  'Acts 20:24',        verseRef: 'act.20.24',       btbContext: 'FromDevoContent##heb.12.1-2@@Hebrews 12:1-2##Fixing our eyes on Christ'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',             verse: /* Hebrews 12:2-3 */  'Galatians 1:10',    verseRef: 'gal.1.10',        btbContext: 'FromDevoContent##heb.12.2-3@@Hebrews 12:2-3##Jesus endured rejection, but was faithful to His Father'},
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',         verse:   'Hebrews 12:15',                         verseRef: 'heb.12.15',     },
    ]
