@@ -99,6 +99,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-eph',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Thu 06/25/2026',  topic: 'Justified by Faith',           verse: /* Ephesians 2:8-9 */   'Romans 5:1',      verseRef: 'rom.5.1',      btbContext: 'FromDevoContent##eph.2.8-9@@Ephesians 2:8-9##Saved by Grace Through Faith'},
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse:   'Ephesians 4:32',                        verseRef: 'eph.4.32',  },
      { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse:   'Ephesians 6:10',                        verseRef: 'eph.6.10',  },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',  verseRef: 'gal.1.10',     btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},

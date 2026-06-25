@@ -117,6 +117,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
      { publicationDate: 'Wed 06/17/2026',  topic: 'Our Need for Christ',                     verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
      { publicationDate: 'Tue 06/23/2026',  topic: 'None Righteous but Christ',               verse: 'Romans 3:23',   verseRef: 'rom.3.23',   },
+     { publicationDate: 'Thu 06/25/2026',  topic: 'Justified by Faith',                      verse: 'Romans 5:1',    verseRef: 'rom.5.1',    },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse: 'Romans 5:3',    verseRef: 'rom.5.3',    },
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',  verseRef: 'rom.10.12',  },

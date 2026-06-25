@@ -116,8 +116,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 03/25/2026',  topic: 'The Subtlety of Temptation',  verse: 'Genesis 3:1',  verseRef: 'gen.3.1',  },
-     { publicationDate: 'Mon 03/23/2026',  topic: 'God Sees Beyond Human Fear',  verse: 'Genesis 4:7',  verseRef: 'gen.4.7',  },
+     { publicationDate: 'Wed 03/25/2026',  topic: 'The Subtlety of Temptation',  verse:   'Genesis 3:1',                   verseRef: 'gen.3.1',  },
+     { publicationDate: 'Mon 03/23/2026',  topic: 'God Sees Beyond Human Fear',  verse:   'Genesis 4:7',                   verseRef: 'gen.4.7',  },
+     { publicationDate: 'Thu 06/25/2026',  topic: 'Justified by Faith',          verse: /* Genesis 15:6 */  'Romans 5:1',  verseRef: 'rom.5.1',  btbContext: 'FromDevoContent##gen.15.6@@Genesis 15:6##Abraham was counted righteous because he believed God'},
    ]
 }) }M
 
