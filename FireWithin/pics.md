@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 607**          _... categorized below!!_
-> <br/> **Photos: 48,800**       _... Yikes!!!_
+> <br/> **Albums: 608**          _... categorized below!!_
+> <br/> **Photos: 48,986**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -588,6 +588,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 XX: [Route 66 Centennial (2026)](https://photos.google.com/share/AF1QipNN2XaPooC1OUm4RnWWxAgJLNhblU9yi2bmqvPcTFk1A2iaDGrULatZ6hf5qglekA?key=WVJQU2I2ZTNpak8tN3pCdFhfSmc1VnpiNWoyaDhB) _(186 + ?x)_
 - 2026 05: [MJ at the Fox](https://photos.google.com/share/AF1QipMgv_Jv0J7b3FmFmudPIvVGB7wYEf8xljxfC31YIFzGffoZ9ZkmGZJJ9_rdqmwzDA?key=NERDaE13SnJ5OWwwMC1ieGF4QzlGaHZDYThnLTZR) _(30 pics)_
 - 2026 05: [Rich Powers Visit 5/2026](https://photos.google.com/share/AF1QipN8IdTQCSqO0aS-Kx_8e_WOM6w4oe_BtBcn9t0_UR71a_w2SxlkOeIyrSEs2afVVA?key=VFVrMW1XWXFOZENuSGhGSWw1amtmNXd1MzJvbk13) _(113 pics)_
 - 2026 01: [Chandler Winter Party 1/11/2026](https://photos.google.com/share/AF1QipM2vhTOn8kmSCFGR5wCSi2Em1PYBHK7_moaRMHd5hniZ2aokYNUOSfP_WZdVVEfOg?key=ak5mZEplTHpnOXJ0SGxQdl9RSFJ2TFpnTzV4bmVR) _(50 pics)_
