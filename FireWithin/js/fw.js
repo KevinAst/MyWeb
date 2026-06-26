@@ -1047,9 +1047,9 @@ if (!window.fw) { // only expand this module once (conditionally)
     // NO KNOWN ISSUE:
 //  const knownYouVersionIssue = '';
     // 6/17/2026 ISSUE:
-    const knownYouVersionIssue = `As of 6/17/2026, YouVersion's website is experiencing intermittent passage lookup issues.  It may find one passage, but not another :-(
+    const knownYouVersionIssue = `As of 6/17/2026, YouVersion's website is experiencing passage lookup issues.  Currently it pretty much unusable ON THE WEB (the YouVersion mobile app does not have this issue).
 
-If a passage cannot be found, the problem is with the YouVersion site and NOT Fire Within.`;
+YouVersion is aware of this problem.`;
 
     const standardPostFixMsg = `\n\nYou will receive this notification ONCE daily, till the problem has been resolved.`;
     
