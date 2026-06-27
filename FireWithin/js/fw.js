@@ -1047,7 +1047,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     // NO KNOWN ISSUE:
 //  const knownYouVersionIssue = '';
     // 6/17/2026 ISSUE:
-    const knownYouVersionIssue = `As of 6/17/2026, YouVersion's website is experiencing passage lookup issues.  Currently it pretty much unusable ON THE WEB (the YouVersion mobile app does not have this issue).
+    const knownYouVersionIssue = `On 6/17, YouVersion's website started experiencing passage lookup issues.  As of 6/26 it is unusable ON THE WEB (the YouVersion mobile app does not have this issue).
 
 YouVersion is aware of this problem.`;
 
