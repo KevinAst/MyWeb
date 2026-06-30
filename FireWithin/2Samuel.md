@@ -119,6 +119,7 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',   verse: /* 2 Samuel 15-17    */  'Ephesians 4:32',       verseRef: 'eph.4.32',     btbContext: 'FromDevoContent##2sa.15@@2 Samuel 15-17##Ahithophel’s Bitterness Ends in Ruin' },
      { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',         verse: /* 2 Samuel 16,19    */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.16@@2 Samuel 16,19##Shimei’s Confession and David’s Mercy'},
      { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',     verse: /* 2 Samuel 19-20    */  'Romans 12:18',         verseRef: 'rom.12.18',    btbContext: 'FromDevoContent##2sa.19-20@@2 Samuel 19-20##Division After Absalom’s Rebellion'},
+     { publicationDate: 'Tue 06/30/2026',  topic: 'Sweet Fellowship With God',     verse:   '2 Samuel 23:2',                               verseRef: '2sa.23.2',   },
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24       */  '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
    ]
 }) }M
@@ -172,6 +173,15 @@ M{ sermonSeries({
     { id: `20240124`, scripture: `2sa.19@@2 Samuel 19`,          },
     { id: `20240131`, scripture: `2sa.20@@2 Samuel 20`,          },
     { id: `20240313`, scripture: `2sa.21@@2 Samuel 21-22`,       },
-    { id: `20240320`, scripture: `2sa.23@@2 Samuel 23-24`,       },
+    { id: `20240320`, scripture: `2sa.23@@2 Samuel 23-24`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 06/30/2026',
+           topic:               'Sweet Fellowship With God',
+           verse:               '2 Samuel 23:2',
+           verseRef:            '2sa.23.2',
+        },
+      ],
+    },
   ]
 }) }M
