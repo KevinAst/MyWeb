@@ -96,6 +96,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Sat 03/21/2026',  topic: 'Trusting God Beyond Bitterness',  verse: 'Proverbs 3:5',    verseRef: 'pro.3.5',    },
+     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',     verse: 'Proverbs 3:5-6',  verseRef: 'pro.3.5-6',  },
      { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',      verse: 'Proverbs 9:10',   verseRef: 'pro.9.10',   },
      { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',       verse: 'Proverbs 16:6',   verseRef: 'pro.16.6',   },
      { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',        verse: 'Proverbs 20:22',  verseRef: 'pro.20.22',  },
