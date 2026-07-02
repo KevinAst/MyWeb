@@ -173,7 +173,8 @@ class FWSettings {
     // EX: https://bible.com/bible/1/luk.9.23-24.KJV
     //     NOTE: it is believed that the bibleTranslation is optional in this URL (ex: .KJV)
     //           ... it is functionally redundent of the bibleTranslationCode
-    const url = `https://bible.com/bible/${translationCode}/${scriptureRef}.${translation}`;
+    // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
+    const url = `https://bible.com/bible/${translationCode}/${scriptureRef.toUpperCase()}.${translation}`;
 
     // that's all folks
     return url;
