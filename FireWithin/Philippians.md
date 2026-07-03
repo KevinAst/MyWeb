@@ -96,6 +96,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-php',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                             verse: /* Philippians 1:12-14   */ 'Romans 8:28',   verseRef: 'rom.8.28',     btbContext: 'FromDevoContent##php.1.12-14@@Philippians 1:12-14##The Gospel Through Trials'},
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                         verse: /* Philippians 2:1–11    */ 'Romans 10:12',  verseRef: 'rom.10.12',    btbContext: 'FromDevoSermon##php.2.1–11@@Philippians 2:1–11##Unity through Humility', },
      { publicationDate: 'Wed 02/18/2026',  topic: 'Shining as Lights in a Crooked Generation',  verse:   'Philippians 2:14–15',                     verseRef: 'php.2.14-15',  },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: /* Philippians 3:7-10    */ 'Romans 5:3',    verseRef: 'rom.5.3',      btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },

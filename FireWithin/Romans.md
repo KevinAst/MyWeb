@@ -123,6 +123,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 06/29/2026',  topic: 'Dead to Sin Alive to God',                verse: 'Romans 6:11',   verseRef: 'rom.6.11',   },
      { publicationDate: 'Wed 07/01/2026',  topic: 'A Mind Set on the Spirit',                verse: 'Romans 8:6',    verseRef: 'rom.8.6',    },
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse: 'Romans 8:26',   verseRef: 'rom.8.26',   },
+     { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                          verse: 'Romans 8:28',   verseRef: 'rom.8.28',   },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',  verseRef: 'rom.10.12',  },
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',   verseRef: 'rom.12.2',   },
      { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',               verse: 'Romans 12:18',  verseRef: 'rom.12.18',  },
