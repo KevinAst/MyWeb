@@ -27,12 +27,97 @@ site.
 If you are visually inclined, watch this presentation on how to use
 Fire Within.  It will walk you through all the details!
 
-<center>
-  <img class="diagram"
-       src="FireWithinSplash_light_TempYouTubeArrow.png"
-       alt="Fire Within"
-       width="80%">
-</center>
+M{ youTube(`mpLuM7uXTq8`) }M
+
+<br/>**VIDEO CONTENT (Quick Links):**
+
+<script>
+  function advanceVideo(h, m, s) {
+    var fwVideo = window.frames['mpLuM7uXTq8'];
+    var startSeconds = h*3600 + m*60 + s;
+    fwVideo.location.replace('https://www.youtube.com/embed/mpLuM7uXTq8?start=' + startSeconds + '&autoplay=1');
+  }
+</script>
+
+<div style="overflow-y: scroll; height:350px; width:90%; border: 2px solid grey; margin-left: 30px; padding: 5px;">
+
+  <b>Teaser</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,0,0)"  >00:00</span> Teaser
+  </ul>
+
+  <b>Introduction</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,4,14)"  >04:14</span> Introduction
+  </ul>
+
+  <b>Getting Started</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,6,15)"  >06:15</span> Getting Started
+    <li><span class="video-link" onclick="advanceVideo(0,7,16)"  >07:16</span> FireWithin URL
+    <li><span class="video-link" onclick="advanceVideo(0,7,32)"  >07:32</span> Style the Site
+    <li><span class="video-link" onclick="advanceVideo(0,8,35)"  >08:35</span> Page Navigation
+    <li><span class="video-link" onclick="advanceVideo(0,10,14)" >10:14</span> Scripture Links
+    <li><span class="video-link" onclick="advanceVideo(0,11,9)"  >11:09</span> Bible Translations
+  </ul>
+
+  <b>Bible Study</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,12,20)"  >12:20</span> Bible Study
+    <li><span class="video-link" onclick="advanceVideo(0,16,28)"  >16:28</span> &nbsp;&nbsp;&nbsp;Side Bar: External Sites Launch New Browser Tab
+    <li><span class="video-link" onclick="advanceVideo(0,17,24)"  >17:24</span> &nbsp;&nbsp;&nbsp;Side Bar: Completion Checkboxes
+  </ul>
+
+  <b>Devotions</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,18,40)"  >18:40</span> Devotions
+    <li><span class="video-link" onclick="advanceVideo(0,22,22)"  >22:22</span> &nbsp;&nbsp;&nbsp;Side Bar: Next/Prev Page
+    <li><span class="video-link" onclick="advanceVideo(0,23,28)"  >23:28</span> Working Daily Devotions
+    <li><span class="video-link" onclick="advanceVideo(0,25,43)"  >25:43</span> Finding Devotions by Scripture
+    <li><span class="video-link" onclick="advanceVideo(0,27,57)"  >27:57</span> &nbsp;&nbsp;&nbsp;Side Bar: Reddish Arrow of Scripture Reference - Quick Access to FireWithin's Book of the Bible
+    <li><span class="video-link" onclick="advanceVideo(0,29,2)"   >29:02</span> Related Sermon/Devotion
+    <li><span class="video-link" onclick="advanceVideo(0,29,32)"  >29:32</span> &nbsp;&nbsp;&nbsp;Side Bar: Tool Tip Hover
+  </ul>
+
+  <b>Mobile Devices (FireWithin is Reactive)</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,31,53)"  >31:53</span> Cell Phone Usage
+  </ul>
+
+  <b>Multi-Device</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,35,53)"  >35:53</span> Using Multiple Devices
+    <li><span class="video-link" onclick="advanceVideo(0,37,27)"  >37:27</span> Keeping Multiple Devices In-Sync (automatically)
+    <li><span class="video-link" onclick="advanceVideo(0,42,16)"  >42:16</span> Syncing is EVEN Real-Time!
+  </ul>
+
+  <b>More</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,43,41)"  >43:41</span> Specials
+  </ul>
+
+  <b>The Chosen / House of David</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,45,48)"  >45:48</span> Christian Media
+    <li><span class="video-link" onclick="advanceVideo(0,47,35)"  >47:35</span> A Visual Character Guide
+  </ul>
+
+  <b>Memorizing Scripture</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,48,59)"  >48:59</span> Memorizing Scripture
+  </ul>
+
+  <b>Revision History</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,50,48)"  >50:48</span> Revision History
+  </ul>
+
+  <b>Closing Remarks</b><br/>
+  <ul>
+    <li><span class="video-link" onclick="advanceVideo(0,52,24)"  >52:24</span> Wrap Up
+  </ul>
+
+</div>
 
 
 ## Basic Appearance
