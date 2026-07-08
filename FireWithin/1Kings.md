@@ -107,6 +107,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',  verse: /* 1 Kings 1,2 */       'Proverbs 3:5-6',  verseRef: 'pro.3.5-6',  btbContext: 'FromDevoContent##1ki.1@@1 Kings 1,2##The Lord Establishes Solomon'},
      { publicationDate: 'Mon 07/06/2026',  topic: 'Be Strong in the Lord',        verse:   '1 Kings 2:3',                           verseRef: '1ki.2.3',    },
+     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',         verse: /* 1 Kings 3,4,11 */    'James 1:5',       verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3@@1 Kings 3,4,11##Solomon’s Wisdom and Its Test'},
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',     verse: /* 1 Kings 11-12 */     'Psalms 51:17',    verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',         verse: /* 1 Kings 19:11-13 */  'John 10:27',      verseRef: 'jhn.10.27',  btbContext: 'FromDevoContent##1ki.19.11-13@@1 Kings 19:11-13##Elijah Hears God’s Gentle Whisper'},
    ]
