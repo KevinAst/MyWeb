@@ -109,6 +109,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: /* John 13:33-35   */ '1 Samuel 12:22',  verseRef: '1sa.12.22',     btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
      { publicationDate: 'Thu 04/23/2026',  topic: 'Love As Christ Loved',               verse:   'John 13:34',                          verseRef: 'jhn.13.34',     },
      { publicationDate: 'Sat 04/25/2026',  topic: 'The Way to the Father',              verse:   'John 14:6',                           verseRef: 'jhn.14.6',      },
+     { publicationDate: 'Thu 07/09/2026',  topic: 'One Way to Salvation',               verse: /* John 14:6 */      'Romans 10:12-13',  verseRef: 'rom.10.12-13',  btbContext: 'FromDevoContent##jhn.14.6@@John 14:6##Christ, the Only Way'},
      { publicationDate: 'Wed 04/29/2026',  topic: 'Prayer That Aligns With God',        verse:   'John 14:13',                          verseRef: 'jhn.14.13',     },
      { publicationDate: 'Mon 04/27/2026',  topic: 'The Helper Who Dwells Within',       verse:   'John 14:16',                          verseRef: 'jhn.14.16',     },
      { publicationDate: 'Sun 03/22/2026',  topic: 'Abiding in Christ',                  verse:   'John 15:4',                           verseRef: 'jhn.15.4',      },

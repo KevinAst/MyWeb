@@ -127,6 +127,7 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 07/07/2026',  topic: 'God’s Good Purpose',                      verse: 'Romans 8:28',                      verseRef: 'rom.8.28',   },
      { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                          verse: 'Romans 8:28',                      verseRef: 'rom.8.28',   },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                      verse: 'Romans 10:12',                     verseRef: 'rom.10.12',  },
+     { publicationDate: 'Thu 07/09/2026',  topic: 'One Way to Salvation',                    verse: 'Romans 10:12-13',                  verseRef: 'rom.10.12-13', },
      { publicationDate: 'Tue 07/07/2026',  topic: 'God’s Good Purpose',                      verse: /* Romans 12:1-2 */  'Romans 8:28', verseRef: 'rom.8.28',   btbContext: 'FromDevoSermon##rom.12.1-2@@Romans 12:1-2##What is God’s Will for my Life?'},
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse: 'Romans 12:2',                      verseRef: 'rom.12.2',   },
      { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',               verse: 'Romans 12:18',                     verseRef: 'rom.12.18',  },
