@@ -93,6 +93,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',      verse: 'James 1:5',    verseRef: 'jas.1.5', },
+     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',       verse: 'James 1:5',    verseRef: 'jas.1.5', },
    ]
 }) }M
 
