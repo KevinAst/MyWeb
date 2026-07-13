@@ -144,6 +144,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 06/26/2026',  topic: 'Built Up by Grace',                           verse:   'Acts 20:32',                            verseRef: 'act.20.32', },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',                        verse: /* Acts 21 */       'John 10:27',          verseRef: 'jhn.10.27',     btbContext: 'FromDevoContent##act.21@@Acts 21##Paul Followed God’s Voice Despite Warnings'},
      { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                              verse: /* Acts 23:11 */    'Romans 8:28',         verseRef: 'rom.8.28',      btbContext: 'FromDevoContent##act.23.11@@Acts 23:11##God’s Promise of Rome'},
+     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',                     verse: /* Acts 23,27,28 */ 'Colossians 4:5',      verseRef: 'col.4.5',       btbContext: 'FromDevoContent##act.23@@Acts 23,27,28##Paul’s Ministry in Rome'},
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Acts 27       */ 'Galatians 1:10',      verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Warning Rejected'},
    ]
