@@ -110,6 +110,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse:   'Psalms 51:17',                      verseRef: 'psa.51.17',   },
      { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse:   'Psalms 56:3',                       verseRef: 'psa.56.3',    },
      { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                      verseRef: 'psa.90.10',   },
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                      verseRef: 'psa.115.1',   },
      { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse:   'Psalms 121:4',                      verseRef: 'psa.121.4',   },
      { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',         verse: /* Psalms 103:10-12 */  '1 John 1:9',  verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.103.10-12@@Psalms 103:10-12##The Completeness of God’s Forgiveness'},
      { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse:   'Psalms 138:8',                      verseRef: 'psa.138.8',   },

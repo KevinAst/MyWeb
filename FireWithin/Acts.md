@@ -134,6 +134,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                       verse: /* Acts 8        */ 'Hebrews 12:15',       verseRef: 'heb.12.15',     btbContext: 'FromDevoSermon##act.8@@Acts 8##From Bitter to Better', },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                          verse: /* Acts 10       */ 'Romans 10:12',        verseRef: 'rom.10.12',     btbContext: 'FromDevoContent##act.10@@Acts 10##Peter and Cornelius', },
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: /* Acts 12       */ 'Isaiah 55:8-9',       verseRef: 'isa.55.8-9',    btbContext: 'FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God', },
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                          verse: /* Acts 12:20-23 */ 'Psalms 115:1',        verseRef: 'psa.115.1',     btbContext: 'FromDevoContent##act.12.20-23@@Acts 12:20-23##Herod’s Pride'},
      { publicationDate: 'Tue 06/09/2026',  topic: 'Saved by Grace',                              verse:   'Acts 13:39',                            verseRef: 'act.13.39', },
      { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse:   'Acts 14:22',                            verseRef: 'act.14.22', },
      { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse:   'Acts 16:25',                            verseRef: 'act.16.25', },
