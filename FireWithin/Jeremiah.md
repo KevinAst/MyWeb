@@ -101,8 +101,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse: 'Jeremiah 1:5',   verseRef: 'jer.1.5',  },
-     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse: 'Jeremiah 33:3',  verseRef: 'jer.33.3', },
+     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse: 'Jeremiah 1:5',                     verseRef: 'jer.1.5',    },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse: 'Jeremiah 33:3',                    verseRef: 'jer.33.3',   },
+     { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',      verse: /* Jeremiah 45 */  'Acts 23:11',    verseRef: 'act.23.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
    ]
 }) }M
 
@@ -128,7 +129,16 @@ M{ sermonSeries({
     { id: `20190217`, sermon: `A Principled Life`,                  scripture: `jer.35@@Jeremiah 35`,     },
     { id: `20190224`, sermon: `Don't Lose Sight of God`,            scripture: `jer.36@@Jeremiah 36-39`,  },
     { id: `20190303`, sermon: `The Remnant`,                        scripture: `jer.40@@Jeremiah 40-42`,  },
-    { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,     },
+    { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 07/16/2026',
+           topic:               'Courage for the Journey',
+           verse:               'Acts 23:11',
+           verseRef:            'act.23.11',
+        },
+      ],
+    },
     { id: `20190317`, sermon: `Don't "Wine" About It`,              scripture: `jer.46@@Jeremiah 46-48`,  },
     { id: `20190331`, sermon: `Lessons from Babylon`,               scripture: `jer.49@@Jeremiah 49-52`,  },
   ]
