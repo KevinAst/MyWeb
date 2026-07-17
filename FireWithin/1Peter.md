@@ -94,7 +94,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-1Peter??make-this-the-book-code',
+   collapsibleSectionID: 'cs-devo-1pe',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 07/15/2026',  topic: 'Honoring God Above All',            verse: '1 Peter 2:13-14',   verseRef: '1pe.2.13-14', },

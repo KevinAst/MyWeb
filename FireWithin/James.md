@@ -89,7 +89,7 @@ P{ collapsibleSectionEnd() }P
 {{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
 
 M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-James??make-this-the-book-code',
+   collapsibleSectionID: 'cs-devo-jas',
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',      verse: 'James 1:5',    verseRef: 'jas.1.5', },
