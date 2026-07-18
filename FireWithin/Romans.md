@@ -118,6 +118,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 06/17/2026',  topic: 'Our Need for Christ',                     verse:   'Romans 3:23',                    verseRef: 'rom.3.23',     },
      { publicationDate: 'Tue 06/23/2026',  topic: 'None Righteous but Christ',               verse:   'Romans 3:23',                    verseRef: 'rom.3.23',     },
      { publicationDate: 'Thu 06/25/2026',  topic: 'Justified by Faith',                      verse:   'Romans 5:1',                     verseRef: 'rom.5.1',      },
+     { publicationDate: 'Sat 07/18/2026',  topic: 'The Peace Christ Gives',                  verse: /* Romans 5:1 */  'John 14:27',     verseRef: 'jhn.14.27',    btbContext: 'FromDevoContent##rom.5.1@@Romans 5:1##Peace with God Through Christ'},
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse:   'Romans 5:3',                     verseRef: 'rom.5.3',      },
      { publicationDate: 'Sat 06/27/2026',  topic: 'Hope Through Perseverance',               verse:   'Romans 5:3-4',                   verseRef: 'rom.5.3-4',    },
      { publicationDate: 'Mon 06/29/2026',  topic: 'Dead to Sin Alive to God',                verse:   'Romans 6:11',                    verseRef: 'rom.6.11',     },
