@@ -104,6 +104,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',                  verse: /* John 8:31-36 */    'Galatians 5:1',   verseRef: 'gal.5.1',       btbContext: 'FromDevoContent##jhn.8.31-36@@John 8:31-36##The Son Sets You Free'},
      { publicationDate: 'Mon 04/13/2026',  topic: 'Eyes Opened by Christ',              verse:   'John 9:25',                           verseRef: 'jhn.9.25',      },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',               verse:   'John 10:27',                          verseRef: 'jhn.10.27',     },
+     { publicationDate: 'Sun 07/19/2026',  topic: 'The Hope Beyond the Grave',          verse:   'John 11:25',                          verseRef: 'jhn.11.25',     },
      { publicationDate: 'Fri 04/17/2026',  topic: 'Walk While You Have the Light',      verse:   'John 12:46',                          verseRef: 'jhn.12.46',     },
      { publicationDate: 'Tue 04/21/2026',  topic: 'The Pattern of Humble Service',      verse:   'John 13:14',                          verseRef: 'jhn.13.14',     },
      { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: /* John 13:33-35   */ '1 Samuel 12:22',  verseRef: '1sa.12.22',     btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
