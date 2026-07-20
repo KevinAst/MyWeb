@@ -136,6 +136,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',               verse:   'Romans 12:18',                   verseRef: 'rom.12.18',    },
      { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse:   'Romans 12:19',                   verseRef: 'rom.12.19',    },
      { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse:   'Romans 12:21',                   verseRef: 'rom.12.21',    },
+     { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',                     verse:   'Romans 14:19',                   verseRef: 'rom.14.19',    },
    ]
 }) }M
 
