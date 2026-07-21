@@ -105,6 +105,7 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 05/05/2026',  topic: 'Faithful in the Waiting',         verse:   'Psalms 27:14',                      verseRef: 'psa.27.14',   },
      { publicationDate: 'Wed 05/13/2026',  topic: 'Waiting on the Lord',             verse:   'Psalms 27:14',                      verseRef: 'psa.27.14',   },
      { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',         verse: /* Psalms 27:14 */  'Acts 23:11',      verseRef: 'act.23.11',   btbContext: 'FromDevoContent##psa.27.14@@Psalms 27:14##Wait on the Lord with courage'},
+     { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',            verse:   'Psalms 31:24',                      verseRef: 'psa.31.24',   },
      { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse:   'Psalms 33:12',                      verseRef: 'psa.33.12',   },
      { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse:   'Psalms 40:1',                       verseRef: 'psa.40.1',    },
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse:   'Psalms 51:17',                      verseRef: 'psa.51.17',   },

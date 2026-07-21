@@ -149,6 +149,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',                     verse: /* Acts 23,27,28 */ 'Colossians 4:5',      verseRef: 'col.4.5',       btbContext: 'FromDevoContent##act.23@@Acts 23,27,28##Paul’s Ministry in Rome'},
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Acts 27       */ 'Galatians 1:10',      verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Warning Rejected'},
+     { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',                        verse: /* Acts 27       */ 'Psalms 31:24',        verseRef: 'psa.31.24',     btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Voyage to Rome'},
    ]
 }) }M
 
