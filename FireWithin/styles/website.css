@@ -470,7 +470,11 @@ body.isolated-page .navigation-next {
 }
 
 /*** Hide MEGA Daily Devotional ENTRIES from the left-nav bar ***/
-.book-summary li.chapter[data-path="devo2026.html"] ul.articles {
+/***  NOTE: THIRD Level 
+            - messes up next/prev buttons <<< FIX: put all month indexes together in toc.md
+            - can turn off 2nd level months by removing 2nd nexted li.chapter
+ ***/
+.book-summary li.chapter[data-path="devo2026.html"] li.chapter[data-path="devo2026.html"] ul.articles {
     display: none !important;
 }
 
