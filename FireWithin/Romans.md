@@ -121,6 +121,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sat 07/18/2026',  topic: 'The Peace Christ Gives',                  verse: /* Romans 5:1 */  'John 14:27',     verseRef: 'jhn.14.27',    btbContext: 'FromDevoContent##rom.5.1@@Romans 5:1##Peace with God Through Christ'},
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                   verse:   'Romans 5:3',                     verseRef: 'rom.5.3',      },
      { publicationDate: 'Sat 06/27/2026',  topic: 'Hope Through Perseverance',               verse:   'Romans 5:3-4',                   verseRef: 'rom.5.3-4',    },
+     { publicationDate: 'Wed 07/22/2026',  topic: 'What Christ Has Restored',                verse:   'Romans 5:19',                    verseRef: 'rom.5.19',     },
      { publicationDate: 'Mon 06/29/2026',  topic: 'Dead to Sin Alive to God',                verse:   'Romans 6:11',                    verseRef: 'rom.6.11',     },
      { publicationDate: 'Wed 07/01/2026',  topic: 'A Mind Set on the Spirit',                verse:   'Romans 8:6',                     verseRef: 'rom.8.6',      },
      { publicationDate: 'Sun 07/05/2026',  topic: 'The Spirit Who Helps Us',                 verse:   'Romans 8:11',                    verseRef: 'rom.8.11',     },
@@ -232,7 +233,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20240303`, sermon: `What Adam Ruined, Jesus Redeemed`,             scripture: `rom.5@@Romans 5:12-21`,       },
+    { id: `20240303`, sermon: `What Adam Ruined, Jesus Redeemed`,             scripture: `rom.5@@Romans 5:12-21`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 07/22/2026',
+           topic:               'What Christ Has Restored',
+           verse:               'Romans 5:19',
+           verseRef:            'rom.5.19',
+        },
+      ],
+    },
     { id: `20240310`, sermon: `Getting Victory over Sin`,                     scripture: `rom.6@@Romans 6:1-14`,
       relatedDevotions: [
         {

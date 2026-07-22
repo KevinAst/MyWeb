@@ -106,6 +106,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse:   '1 Corinthians 10:12',                    verseRef: '1co.10.12',  },
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                         verse: /* 1 Corinthians 10:31 */  'Psalms 115:1',  verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##1co.10.31@@1 Corinthians 10:31##Live to glorify God in everything'},
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',                 verse:   '1 Corinthians 14:33',                    verseRef: '1co.14.33',  },
+     { publicationDate: 'Wed 07/22/2026',  topic: 'What Christ Has Restored',                   verse: /* 1 Corinthians 15 */     'Romans 5:19',   verseRef: 'rom.5.19',   btbContext: 'FromDevoContent##1co.15@@1 Corinthians 15##Adam and Christ - Two Representatives'},
    ]
 }) }M
 
