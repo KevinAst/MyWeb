@@ -123,6 +123,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sat 06/27/2026',  topic: 'Hope Through Perseverance',               verse:   'Romans 5:3-4',                   verseRef: 'rom.5.3-4',    },
      { publicationDate: 'Wed 07/22/2026',  topic: 'What Christ Has Restored',                verse:   'Romans 5:19',                    verseRef: 'rom.5.19',     },
      { publicationDate: 'Mon 06/29/2026',  topic: 'Dead to Sin Alive to God',                verse:   'Romans 6:11',                    verseRef: 'rom.6.11',     },
+     { publicationDate: 'Thu 07/23/2026',  topic: 'The Goodness of God’s Law',               verse:   'Romans 7:12',                    verseRef: 'rom.7.12',     },
      { publicationDate: 'Wed 07/01/2026',  topic: 'A Mind Set on the Spirit',                verse:   'Romans 8:6',                     verseRef: 'rom.8.6',      },
      { publicationDate: 'Sun 07/05/2026',  topic: 'The Spirit Who Helps Us',                 verse:   'Romans 8:11',                    verseRef: 'rom.8.11',     },
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse:   'Romans 8:26',                    verseRef: 'rom.8.26',     },
