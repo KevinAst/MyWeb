@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 609**          _... categorized below!!_
-> <br/> **Photos: 49,000**       _... Yikes!!!_
+> <br/> **Albums: 611**          _... categorized below!!_
+> <br/> **Photos: 49,078**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -174,6 +174,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Gaige Birthday
 
 - 04/2026: 11 [Gaige is 11!](https://photos.google.com/share/AF1QipPp9Z8gMYrOxwMDLnIeAhc6QbWzLlVp77cDKEUOMHh1k-mQwLw7QYyKDioOFrIOXQ?key=dEhCZWJ1Q1F6S1BTYTVaRlVqZWpVNlFwamdtamlB) _(60 pics)_
+  * Gaige Birthday Trip: [Six Flags Adventure (Mimi, Papaw, & Gaige) - 7/24/2026](https://photos.google.com/share/AF1QipPvchqw2lzlf7PZ5PvjIoQY23I9rzUpui1sIW1YPIgagcMU4ZVayphcFVkOdccUHg?key=OW9JRW04NW1RLTFtbTRFT1dhdTg5Z3hjeGJham9n) _(60 pics)_
 - 04/2025: 10 _look in_: [4/2025 Easter in PA with all the Grands](https://photos.google.com/share/AF1QipPKNBZ5q-wA4ppP1u1Qx22JJUNC3sNeqdeF_KQEg3_xs1VS2YtzngFI5f6K6lK0tw?key=eDA4Um5aWEF4eTY1Mnk0ckdrWDNmSGVkcGdNa19R) _(304 pics)_
 - 04/2024: 9 [Happy 9th Birthday Gaige!](https://photos.google.com/share/AF1QipN8XfASSfVcoY_TMREF7r1-LP5NRGfLh0s2nE1mbPYOPP1XvPGaU_dmtE50S48_tA?key=Zml2cTlhTkFDX3NUc2ZoaFd5aUZFOFoyUERwbmV3) _(35 pics)_
 - 04/2023: 8 [Gaige Turns 8!](https://photos.google.com/share/AF1QipNs46M0nYudjtiZnz--ogH2ZzHIS5Qk5OsPNnMM5a2_ErxD3KsFH4tqKbZpgKzn7Q?key=LVh0bjU3X3Bidlh5YU5mcXlPWl92cjFxdDdSR3BR) _(69 pics)_
@@ -588,6 +589,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 07: [Six Flags Adventure (Mimi, Papaw, & Gaige) - 7/24/2026](https://photos.google.com/share/AF1QipPvchqw2lzlf7PZ5PvjIoQY23I9rzUpui1sIW1YPIgagcMU4ZVayphcFVkOdccUHg?key=OW9JRW04NW1RLTFtbTRFT1dhdTg5Z3hjeGJham9n) _(60 pics)_
 - 2026 XX: [Route 66 Centennial (2026)](https://photos.google.com/share/AF1QipNN2XaPooC1OUm4RnWWxAgJLNhblU9yi2bmqvPcTFk1A2iaDGrULatZ6hf5qglekA?key=WVJQU2I2ZTNpak8tN3pCdFhfSmc1VnpiNWoyaDhB) _(186 + ?x)_
 - 2026 05: [MJ at the Fox](https://photos.google.com/share/AF1QipMgv_Jv0J7b3FmFmudPIvVGB7wYEf8xljxfC31YIFzGffoZ9ZkmGZJJ9_rdqmwzDA?key=NERDaE13SnJ5OWwwMC1ieGF4QzlGaHZDYThnLTZR) _(30 pics)_
 - 2026 05: [Rich Powers Visit 5/2026](https://photos.google.com/share/AF1QipN8IdTQCSqO0aS-Kx_8e_WOM6w4oe_BtBcn9t0_UR71a_w2SxlkOeIyrSEs2afVVA?key=VFVrMW1XWXFOZENuSGhGSWw1amtmNXd1MzJvbk13) _(113 pics)_
@@ -874,6 +876,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2017 11: [Gaige goes to the Indoor Playground (11/15/2017)](https://photos.google.com/share/AF1QipOaQC395wBkTFZ4ETeGC-yfVg3O-GnWjFBPNCUHuXsxlUDW3QWHYtVbGXIrD3tpyg?key=TGtSLW5EM3BnOGQxYkliMmplLW9HbW1Ub2NWUS1R) _(56 pics)_
 
 ### Skateboarding
+
+- 2026 07: [Gaige Skateboard Camp (7/23/2026)](https://photos.google.com/share/AF1QipPTbJECzNlQLMJI1nVN62FJ9gaOI1bu4H1zVhZlJ0FwGeQFkoN4jV8xe9kh_4av2w?key=Vnp1RmhqVFkwcXJoVUx1S3F4MEVOS1NLOU92anp3) _(18 pics)_
+
 
 - 2025 09: [Skateboarding 🛹 up to Walmart](https://photos.google.com/share/AF1QipNfrfORw12shKvQ_wApHCxNFB7PMAqnn3XjnkIpMrdottA8zJPMTtj8USrNCWb1Ww?key=dVY1a2U5TktOTTZDcGt5cVRqYTJPbkpoTEZuYlJR) _(15 pics)_ **AJ's Album**
 
@@ -1208,6 +1213,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Fun
 
 - [Pinewood Derby (AJ's Work Event)](https://photos.google.com/share/AF1QipNS-PTv9Llq4qY0o-3YuX4egnEs7aXaD9R8oLaxa-J7edXlqTQ46MSOU1pYno6SkA?key=UkZRdGpYX1NQME1rX1ctWUJ1ZWM5S0xfbXVFZUh3) _(50 pics)_
+  * Alt Album shared with AJ's work group: [SteadyRain's Pinewood Derby Domination (07/23/2026)](https://photos.google.com/share/AF1QipN4dqLIUotMoM0zN2UWXPkTFCyp1NC0rG7_aMZ_OS5mMr2sOYcudM67RpitacA4dQ?key=LXJMTk9BX1EyVk1FX2xFN2RkaWFORzhDRlpGVEVB) _(41 pics)_
 - [Sweep Domination](https://photos.google.com/share/AF1QipOAZ--klODSVtKsbx8Zf0tXhCgdgzwhF6YMb85hDopD7_MaHgt5lQcZPDfEpmFg2g?key=ajdva1MyMWNxTnUwOVQwMG9hYi15bjZrN2VFMGxB) _(4 pics)_
 - [Burnt Ends Pizza (Aldi's Style)](https://photos.google.com/share/AF1QipPrLpAnGkk78fD0a_7uFyZqsLqzXNZFzsYI7AhToOFj47aMVFq9Ro5Xpa2WaX4avQ?key=VlZENDBRSlBDZGlPRmZYQmVDeGx3RXpwS2pmOHZn) _(5 pics)_
 - [Melon Training Video](https://photos.google.com/share/AF1QipMy72jkuV0sOnrEBR0nKCCkYooRrbGLEIBGrkJWeJW1OrcILWoqLUDzngYaFi70UA?key=X21uQjJSNnlzWlc5cThHbEVncExsX3ZJY3Q5MVNB) _(2 pics)_
