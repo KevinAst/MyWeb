@@ -122,6 +122,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 03/20/2026',  topic: 'Repentance That Leads to Restoration',    verse:   'Luke 22:61–62',                          verseRef: 'luk.22.61-62',  },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                    verse: /* Luke 22         */ 'Psalms 23:3',        verseRef: 'psa.23.3',      btbContext: `FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`,  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',                    verse: /* Luke 23:4       */ 'Galatians 1:10',     verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]', },
+     { publicationDate: 'Sun 07/26/2026',  topic: 'The Risen Christ Brings Hope',            verse:   'Luke 24:6',                              verseRef: 'luk.24.6',      },
    ]
 }) }M
 
