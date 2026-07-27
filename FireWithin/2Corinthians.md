@@ -104,6 +104,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-2co',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Mon 07/27/2026',  topic: 'The God Who Keeps His Promises', verse: /* 2 Corinthians 1:20 */  'Ezekiel 37:14',     verseRef: 'ezk.37.14',  btbContext: 'FromDevoContent##2co.1.20@@2 Corinthians 1:20##God’s promises find their ultimate fulfillment in Christ'},
      { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',        verse:   '2 Corinthians 3:6',                         verseRef: '2co.3.6',    },
      { publicationDate: 'Sat 02/21/2026',  topic: 'An Eternal Perspective',         verse:   '2 Corinthians 4:17',                        verseRef: '2co.4.17',   },
      { publicationDate: 'Sun 03/29/2026',  topic: 'Present With the Lord',          verse:   '2 Corinthians 5:8',                         verseRef: '2co.5.8',    },
