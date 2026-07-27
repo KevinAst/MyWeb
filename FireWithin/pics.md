@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 611**          _... categorized below!!_
+> <br/> **Albums: 613**          _... categorized below!!_
 > <br/> **Photos: 49,078**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -129,6 +129,7 @@ document.addEventListener("DOMContentLoaded", function() {
 - [Big ball pics](https://photos.google.com/share/AF1QipNV1gfHvcrfXbbBfXqdjIYRYfCLLKyjD0XIkiVXCZXPoGm3CZdkyEjjczCFKAdN2A) _(5 pics)_ >>> **Resa Duplicate & Out-of-Date - USE ABOVE INSTEAD:** [Summary - Big Ball Progression](https://photos.google.com/share/AF1QipOD72QOO-c9fvXNEVI5M2ryIjlIL19Ogs864jL21fs89FNQio1S4aW2R-59EEKm7Q?key=MlFHYVdpc2RHaFR0MlhvTnhnTHhnT3NfUjE5LVN3)
 
 
+- 2026: [Mimi & Papaw's Summer Camp 8/2026](https://photos.google.com/share/AF1QipNlpDgAtgOtT0uq1oP26HdoiFcj3Fe3ED5HqeR9HOW0EbTZretVWdJWn9bFtWcPAw?key=U1FPbU9EalRwbVNPTUcwS2pyQzdWME1JY2xJNmtR) _(?x pics)_
 - 2025: [2025-08 Mimi & Papaw's Summer Camp](https://photos.google.com/share/AF1QipPNzIBUolkL1FIx8ljr_pLBWjkFBoOJYKzs0BpPuJ9Sgmnc1-5TT1zoC4GCvg7Psg?key=d1daMGw5VWJMUVQyYjlmSHpCQklIdWFtS1BhN2Nn) _(980 pics)_
 - 2025: [2025-07 Summer Camp Dry Run](https://photos.google.com/share/AF1QipPCXj9nvqqwA9PWYjVRzwliCeCncpsK_lGQv2Hlv2W3mbVXsTP99W_AXk6uNQqBpQ?key=UnVyeVA5X09Qd0RXUV9PbGotR2VVeEZTZVZQcUpR) _(7 pics)_
 - 2024: [Mimi & Papaw's Summer Camp 8/2024](https://photos.google.com/share/AF1QipNa1JnJtShfLc3hY_sP1_JtlAGm2lHHbLW5Kp5zeN9Vfy4EbaR4aC-0WXKDbJFYZw?key=eWZTUXBkVFEzV19EdFZOTFNrZ29LS1poQVpPdUZn) _(565 pics)_
@@ -1096,6 +1097,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Grands
 
+- 2026 07: [EMs Theater Camp Performance](https://photos.app.goo.gl/QdTyifpcwfoBX4pJA) _(13 pics)_ **Emily's Album**
 - 2026 07: [Big Bear](https://photos.google.com/share/AF1QipPmR8g4IZFjUgqW2G8oJujDjIyt6JumtbXfraB8rcomAJgzOBw6krqEEUdmBbGXaQ?key=U05HZFQ1ZzJrZWx4ZEQ5dzhONG11TWtjVFNEdkx3) _(13 pics)_
 
 
