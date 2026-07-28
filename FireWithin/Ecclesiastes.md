@@ -94,6 +94,7 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',                verse: 'Ecclesiastes 2:24', verseRef: 'ecc.2.24', },
      { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse: 'Ecclesiastes 5:1',  verseRef: 'ecc.5.1',  },
      { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse: 'Ecclesiastes 5:4',  verseRef: 'ecc.5.4',  },
    ]
@@ -107,7 +108,16 @@ M{ devoGHSeries({
 M{ sermonSeries({
   entries: [
     { id: `20180128`, sermon: `A Full Life On Empty`,                       scripture: `ecc.1@@Ecclesiastes 1`,      },
-    { id: `20180204`, sermon: `On the Hunt for Happiness and Satisfaction`, scripture: `ecc.2@@Ecclesiastes 2`,      },
+    { id: `20180204`, sermon: `On the Hunt for Happiness and Satisfaction`, scripture: `ecc.2@@Ecclesiastes 2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 07/28/2026',
+           topic:               'Lasting Satisfaction',
+           verse:               'Ecclesiastes 2:24',
+           verseRef:            'ecc.2.24',
+        },
+      ],
+    },
     { id: `20180211`, sermon: `The Temporal and the Eternal`,               scripture: `ecc.3@@Ecclesiastes 3`,      },
     { id: `20180218`, sermon: `Understanding Evil in Our World`,            scripture: `ecc.4@@Ecclesiastes 4`,      },
     { id: `20180304`, sermon: `Right Worship`,                              scripture: `ecc.5@@Ecclesiastes 5`,      },
