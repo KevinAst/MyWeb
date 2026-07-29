@@ -91,7 +91,8 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',  verse: 'Titus 3:4-5',  verseRef: 'tit.3.4-5',  },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',  verse: /* Titus 2:11-13 */  '1 Thessalonians 4:16',  verseRef: '1th.4.16',   btbContext: 'FromDevoContent##tit.2.11-13@@Titus 2:11-13##Living for Christ’s Return'},
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',         verse:   'Titus 3:4-5',                              verseRef: 'tit.3.4-5',  },
    ]
 }) }M
 

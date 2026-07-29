@@ -16,6 +16,7 @@ oppressing them.
 ### At a Glance
 
 - [1 Thessalonians Overview](#1-thessalonians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
 - [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
 
@@ -91,6 +92,21 @@ P{ collapsibleSection({
 M{ youTube(`Wb6Hhzl8Gyk`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-1th',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',     verse: '1 Thessalonians 4:16',        verseRef: '1th.4.16',   },
+   ]
+}) }M
+
 
 
 ## 2010 1 Thessalonians Series (Sundays)
