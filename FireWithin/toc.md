@@ -310,6 +310,7 @@
     - [Season 3](TheChosen.md#season-3)
     - [Season 4](TheChosen.md#season-4)
     - [Season 5](TheChosen.md#season-5)
+    - [Season 6](TheChosen.md#season-6)
     - [Characters](TheChosen.md#characters)
   * [House of David](HouseOfDavid.md)
     - [Overview](HouseOfDavid.md#overview)
