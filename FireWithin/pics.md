@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 613**          _... categorized below!!_
+> <br/> **Albums: 614**          _... categorized below!!_
 > <br/> **Photos: 49,078**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -527,6 +527,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Trips
 
+- 2026 07: [Danvers Week](https://photos.app.goo.gl/gDvpT8qJ4Qjqr81u7) _(70 pics)_ **Emily's Album (Emily, Emerson, & Juni)**
 - 2026 05: [Fargo (Emily's 41st Marathon State)](https://photos.google.com/share/AF1QipPw6-I99Q7NaXv4cVwRK9hZP7D9Rdmd1YGzNDe11bGSQmPYlC7aIh_1t1TmEX_z8A) _(316 pics)_ **Emily's Album (AJ, Emily, Gaige, Emerson, & Juni)**
 - 2026 04: Birthday Trip - [Georgie is 12!](https://photos.google.com/share/AF1QipPeVcASQiM1rqbz2MW6YsUIBlz1o55jov_vPHJAonyXwnISf6lhwY_fbofiWZfLQw?key=YzZyZEt5b0hpTW8tSG93d3JRWjVjX3dHT182QWtn) (357 pics)
 - 2026 02: [SnowBird Trial (02/2025)](https://photos.google.com/share/AF1QipMNxXprnXYDFLBEp3ZyZIHKMsGbFUS6xhyDdIBoft8x3Uod-KIHinkE12gi0r3Oqg?key=bFFRWVpRNXhqMGVzYW5DYTI3aUlEdWVPYmF0Mzd3) _(1,285 pics)_
