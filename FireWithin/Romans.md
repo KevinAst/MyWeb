@@ -126,6 +126,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 07/23/2026',  topic: 'The Goodness of God’s Law',               verse:   'Romans 7:12',                    verseRef: 'rom.7.12',     },
      { publicationDate: 'Wed 07/01/2026',  topic: 'A Mind Set on the Spirit',                verse:   'Romans 8:6',                     verseRef: 'rom.8.6',      },
      { publicationDate: 'Sun 07/05/2026',  topic: 'The Spirit Who Helps Us',                 verse:   'Romans 8:11',                    verseRef: 'rom.8.11',     },
+     { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',           verse: /* Romans 8:18-25 */ 'Psalms 46:1', verseRef: 'psa.46.1',     btbContext: 'FromDevoContent##rom.8.18-25@@Romans 8:18-25##Present suffering is temporary'},
      { publicationDate: 'Sun 05/10/2026',  topic: 'The Spirit Helps Our Weakness',           verse:   'Romans 8:26',                    verseRef: 'rom.8.26',     },
      { publicationDate: 'Tue 07/07/2026',  topic: 'God’s Good Purpose',                      verse:   'Romans 8:28',                    verseRef: 'rom.8.28',     },
      { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                          verse:   'Romans 8:28',                    verseRef: 'rom.8.28',     },

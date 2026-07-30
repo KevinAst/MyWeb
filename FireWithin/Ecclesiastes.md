@@ -94,9 +94,10 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',                verse: 'Ecclesiastes 2:24', verseRef: 'ecc.2.24', },
-     { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse: 'Ecclesiastes 5:1',  verseRef: 'ecc.5.1',  },
-     { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse: 'Ecclesiastes 5:4',  verseRef: 'ecc.5.4',  },
+     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',                verse:   'Ecclesiastes 2:24',                     verseRef: 'ecc.2.24',  },
+     { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',       verse: /* Ecclesiastes 4:1-3 */  'Psalms 46:1',   verseRef: 'psa.46.1',  btbContext: 'FromDevoContent##ecc.4.1-3@@Ecclesiastes 4:1-3##Life in a Fallen World'},
+     { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse:   'Ecclesiastes 5:1',                      verseRef: 'ecc.5.1',   },
+     { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse:   'Ecclesiastes 5:4',                      verseRef: 'ecc.5.4',   },
    ]
 }) }M
 
