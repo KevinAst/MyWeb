@@ -108,6 +108,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',          verse:   'Hebrews 4:12',                          verseRef: 'heb.4.12',      },
+     { publicationDate: 'Sat 08/01/2026',  topic: 'Our Great High Priest',         verse:   'Hebrews 4:15',                          verseRef: 'heb.4.15',      },
      { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',  verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',            verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',             verse: /* Hebrews 11:7 */    'Galatians 1:10',    verseRef: 'gal.1.10',        btbContext: 'FromDevoContent##heb.11.7@@Hebrews 11:7##Noah built the ark while others mocked'},
@@ -155,7 +156,16 @@ M{ sermonSeries({
     { id: `20181024`, scripture: `heb.2@@Hebrews 2`,            },
     { id: `20181107`, scripture: `heb.3@@Hebrews 3`,            },
     { id: `20181114`, scripture: `heb.4@@Hebrews 4:1-13`,       },
-    { id: `20181128`, scripture: `heb.4@@Hebrews 4:14-5:12`,    },
+    { id: `20181128`, scripture: `heb.4@@Hebrews 4:14-5:12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 08/01/2026',
+           topic:               'Our Great High Priest',
+           verse:               'Hebrews 4:15',
+           verseRef:            'heb.4.15',
+        },
+      ],
+    },
     { id: `20181205`, scripture: `heb.6@@Hebrews 6:1-3`,        },
     { id: `20181212`, scripture: `heb.6@@Hebrews 6:4-6`,        },
     { id: `20190102`, scripture: `heb.6@@Hebrews 6:7-7`,        },
