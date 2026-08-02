@@ -142,6 +142,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 04/03/2026',  topic: 'Overcoming Hatred with Christlike Love',  verse:   'Romans 12:21',                   verseRef: 'rom.12.21',    },
      { publicationDate: 'Sat 07/25/2026',  topic: 'Awake to Walk in the Light',              verse:   'Romans 13:11',                   verseRef: 'rom.13.11',    },
      { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',                     verse:   'Romans 14:19',                   verseRef: 'rom.14.19',    },
+     { publicationDate: 'Sun 08/02/2026',  topic: 'The God of Hope',                         verse:   'Romans 15:13',                   verseRef: 'rom.15.13',    },
      { publicationDate: 'Fri 07/31/2026',  topic: 'Guarding the Unity of Christ',            verse:   'Romans 16:17',                   verseRef: 'rom.16.17',    },
    ]
 }) }M
@@ -320,7 +321,16 @@ M{ sermonSeries({
     { id: `20240623`, sermon: `God and Government`,                           scripture: `rom.13@@Romans 13`,           },
     { id: `20240728`, sermon: `What Time Is It?`,                             scripture: `rom.13@@Romans 13:11-14`,     },
     { id: `20240804`, sermon: `Can't We All Get Along?`,                      scripture: `rom.14@@Romans 14`,           },
-    { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Romans 15`,           },
+    { id: `20240818`, sermon: `The God of Encouragement`,                     scripture: `rom.15@@Romans 15`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 08/02/2026',
+           topic:               'The God of Hope',
+           verse:               'Romans 15:13',
+           verseRef:            'rom.15.13',
+        },
+      ],
+    },
     { id: `20240825`, sermon: `A House Divided`,                              scripture: `rom.16@@Romans 16`,
       relatedDevotions: [
         {
