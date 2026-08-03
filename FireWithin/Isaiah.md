@@ -106,6 +106,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                       verseRef: 'isa.9.6',     },
      { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
+     { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Isaiah 53:3   */ 'Galatians 1:10', verseRef: 'gal.1.10',    btbContext: 'FromDevoContent##isa.53.3@@Isaiah 53:3##Jesus endured rejection, but was faithful to His Father'},
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                    verseRef: 'isa.55.8-9',  },
    ]
