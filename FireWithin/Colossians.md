@@ -96,8 +96,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',  verse: 'Colossians 3:23',  verseRef: 'col.3.23',  },
-     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',        verse: 'Colossians 4:5',   verseRef: 'col.4.5',   },
+     { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse: 'Colossians 3:1-2',   verseRef: 'col.3.1-2', },
+     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse: 'Colossians 3:23',    verseRef: 'col.3.23',  },
+     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse: 'Colossians 4:5',     verseRef: 'col.4.5',   },
    ]
 }) }M
 
