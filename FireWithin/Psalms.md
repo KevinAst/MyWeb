@@ -112,6 +112,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',   verse:   'Psalms 46:1',                       verseRef: 'psa.46.1',    },
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse:   'Psalms 51:17',                      verseRef: 'psa.51.17',   },
      { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse:   'Psalms 51:17',                      verseRef: 'psa.51.17',   },
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',    verse: /* Psalms 51:17 */  '1 John 1:9',      verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.51.17@@Psalms 51:17##God receives the broken and contrite heart'},
      { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse:   'Psalms 56:3',                       verseRef: 'psa.56.3',    },
      { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                      verseRef: 'psa.90.10',   },
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                      verseRef: 'psa.115.1',   },

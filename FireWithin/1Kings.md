@@ -112,6 +112,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',          verse: /* 1 Kings 3,4,10,11 */ 'James 1:5',           verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3.5-12@@1 Kings 3,4,10,11##Solomon’s Wisdom and the Danger of Self-Reliance'},
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',           verse: /* 1 Kings 5,6,8 */     'Psalms 115:1',        verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8##Solomon’s Temple'},
      { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',    verse: /* 1 Kings 5,6,8,9 */   '1 Corinthians 3:16',  verseRef: '1co.3.16',   btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8,9##Solomon’s Temple'},
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble', verse: /* 1 Kings 8 */         '1 John 1:9',          verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##1ki.8@@1 Kings 8##Solomon’s Prayer of Dedication'},
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',     verse: /* 1 Kings 11-12 */     'Psalms 51:17',        verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
      { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',         verse: /* 1 Kings 19:11-13 */  'John 10:27',          verseRef: 'jhn.10.27',  btbContext: 'FromDevoContent##1ki.19.11-13@@1 Kings 19:11-13##Elijah Hears God’s Gentle Whisper'},
    ]

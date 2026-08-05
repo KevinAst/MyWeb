@@ -119,10 +119,11 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-2ch',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',        verse: /* 2 Chronicles 7:1-3 */       'Psalms 115:1',   verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##2ch.7.1-3@@2 Chronicles 7:1-3##God’s glory fills the temple'},
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
-     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',    verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
-     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',  verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',   verse: /* 2 Chronicles 6,7 */         '1 John 1:9',     verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##2ch.6@@2 Chronicles 6,7##Solomon’s Prayer of Dedication'},
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',             verse: /* 2 Chronicles 7:1-3 */       'Psalms 115:1',   verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##2ch.7.1-3@@2 Chronicles 7:1-3##God’s glory fills the temple'},
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',       verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',         verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
+     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',       verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
    ]
 }) }M
 
