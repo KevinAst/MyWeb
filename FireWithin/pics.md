@@ -591,6 +591,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 08: [Greg & Mindy Pool Party (8/5/2026)](https://photos.google.com/share/AF1QipP5nqv3EYaHy2_dqq44DhZcDdyN3zoOzbTPULGrtvGQ2hcNV6t9bU6au5I7SQK1pw?key=U0lrYndaUndTTlR2RkRIUEkxU2NxbTdGZm5vZFRR) _(25 pics)_
 - 2026 07: [Six Flags Adventure (Mimi, Papaw, & Gaige) - 7/24/2026](https://photos.google.com/share/AF1QipPvchqw2lzlf7PZ5PvjIoQY23I9rzUpui1sIW1YPIgagcMU4ZVayphcFVkOdccUHg?key=OW9JRW04NW1RLTFtbTRFT1dhdTg5Z3hjeGJham9n) _(60 pics)_
 - 2026 XX: [Route 66 Centennial (2026)](https://photos.google.com/share/AF1QipNN2XaPooC1OUm4RnWWxAgJLNhblU9yi2bmqvPcTFk1A2iaDGrULatZ6hf5qglekA?key=WVJQU2I2ZTNpak8tN3pCdFhfSmc1VnpiNWoyaDhB) _(186 + ?x)_
 - 2026 05: [MJ at the Fox](https://photos.google.com/share/AF1QipMgv_Jv0J7b3FmFmudPIvVGB7wYEf8xljxfC31YIFzGffoZ9ZkmGZJJ9_rdqmwzDA?key=NERDaE13SnJ5OWwwMC1ieGF4QzlGaHZDYThnLTZR) _(30 pics)_
