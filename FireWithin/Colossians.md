@@ -96,9 +96,10 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse: 'Colossians 3:1-2',   verseRef: 'col.3.1-2', },
-     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse: 'Colossians 3:23',    verseRef: 'col.3.23',  },
-     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse: 'Colossians 4:5',     verseRef: 'col.4.5',   },
+     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',          verse: /* Colossians 1:13-14 */  'John 8:36',    verseRef: 'jhn.8.36',  btbContext: 'FromDevoContent##col.1.13-14@@Colossians 1:13-14##Delivered into Christ’s Kingdom'},
+     { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse:   'Colossians 3:1-2',                     verseRef: 'col.3.1-2', },
+     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
+     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse:   'Colossians 4:5',                       verseRef: 'col.4.5',   },
    ]
 }) }M
 

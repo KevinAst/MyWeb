@@ -108,6 +108,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-luk',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',             verse: /* Luke 4:16-21 */    'John 8:36',          verseRef: 'jhn.8.36',      btbContext: 'FromDevoContent##luk.4.16-21@@Luke 4:16-21##Jesus Announces His Mission'},
      { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: /* Luke 13:22-30   */ '2 Corinthians 6:14', verseRef: '2co.6.14',      btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
      { publicationDate: 'Tue 02/24/2026',  topic: 'Faithful With What Belongs to God',       verse:   'Luke 16:13',                             verseRef: 'luk.16.13',     },
      { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                     verse: /* Luke 16:19-31   */ 'Acts 7:55',          verseRef: 'act.7.55',      btbContext: 'FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',  },

@@ -109,6 +109,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Isaiah 53:3   */ 'Galatians 1:10', verseRef: 'gal.1.10',    btbContext: 'FromDevoContent##isa.53.3@@Isaiah 53:3##Jesus endured rejection, but was faithful to His Father'},
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                    verseRef: 'isa.55.8-9',  },
+     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',                 verse: /* Isaiah 61:1-3 */ 'John 8:36',      verseRef: 'jhn.8.36',    btbContext: 'FromDevoContent##isa.61.1-3@@Isaiah 61:1-3##Jesus Announces His Mission'},
    ]
 }) }M
 
