@@ -117,6 +117,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 03/05/2026',  topic: 'Crying Out for Mercy',                    verse:   'Luke 18:38',                             verseRef: 'luk.18.38',     },
      { publicationDate: 'Sat 03/07/2026',  topic: 'When Jesus Calls Your Name',              verse:   'Luke 19:10',                             verseRef: 'luk.19.10',     },
      { publicationDate: 'Mon 03/09/2026',  topic: 'When Jesus Weeps',                        verse:   'Luke 19:41',                             verseRef: 'luk.19.41',     },
+     { publicationDate: 'Mon 08/10/2026',  topic: 'The Peace Jesus Came to Give',            verse:   'Luke 19:42',                             verseRef: 'luk.19.42',     },
      { publicationDate: 'Fri 03/13/2026',  topic: 'The God of the Living',                   verse:   'Luke 20:38',                             verseRef: 'luk.20.38',     },
      { publicationDate: 'Wed 03/11/2026',  topic: 'Lift Up Your Heads',                      verse:   'Luke 21:28',                             verseRef: 'luk.21.28',     },
      { publicationDate: 'Fri 04/10/2026',  topic: 'When God Says No',                        verse:   'Luke 22:42',                             verseRef: 'luk.22.42',     },
