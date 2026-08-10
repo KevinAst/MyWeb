@@ -103,7 +103,8 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-1th',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',     verse: '1 Thessalonians 4:16',        verseRef: '1th.4.16',   },
+     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse: '1 Thessalonians 1:10',      verseRef: '1th.1.10',   },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse: '1 Thessalonians 4:16',      verseRef: '1th.4.16',   },
    ]
 }) }M
 
@@ -133,7 +134,16 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20180207`, scripture: `1th.1@@1 Thess 1`,   },
+    { id: `20180207`, scripture: `1th.1@@1 Thess 1`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 08/09/2026',
+           topic:               'Waiting Faithfully for Christ',
+           verse:               '1 Thessalonians 1:10',
+           verseRef:            '1th.1.10',
+        },
+      ],
+    },
     { id: `20180214`, scripture: `1th.2@@1 Thess 2-3`, },
     { id: `20180221`, scripture: `1th.4@@1 Thess 4`,   },
     { id: `20180307`, scripture: `1th.5@@1 Thess 5`,   },
