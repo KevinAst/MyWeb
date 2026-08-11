@@ -137,6 +137,7 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 07/07/2026',  topic: 'God’s Good Purpose',                      verse: /* Romans 12:1-2 */  'Romans 8:28',       verseRef: 'rom.8.28',     btbContext: 'FromDevoSermon##rom.12.1-2@@Romans 12:1-2##What is God’s Will for my Life?'},
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',       verse:   'Romans 12:2',                          verseRef: 'rom.12.2',     },
      { publicationDate: 'Sat 07/11/2026',  topic: 'Discerning God’s Will',                   verse:   'Romans 12:2',                          verseRef: 'rom.12.2',     },
+     { publicationDate: 'Tue 08/11/2026',  topic: 'Knowing the Will of God',                 verse:   'Romans 12:2',                          verseRef: 'rom.12.2',     },
      { publicationDate: 'Fri 07/24/2026',  topic: 'Reflecting Christ Through One Another',   verse:   'Romans 12:10',                         verseRef: 'rom.12.10',    },
      { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',               verse:   'Romans 12:18',                         verseRef: 'rom.12.18',    },
      { publicationDate: 'Mon 05/25/2026',  topic: 'Mercy Instead of Revenge',                verse:   'Romans 12:19',                         verseRef: 'rom.12.19',    },

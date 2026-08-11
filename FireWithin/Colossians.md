@@ -98,6 +98,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',          verse: /* Colossians 1:13-14 */  'John 8:36',    verseRef: 'jhn.8.36',  btbContext: 'FromDevoContent##col.1.13-14@@Colossians 1:13-14##Delivered into Christ’s Kingdom'},
      { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse:   'Colossians 3:1-2',                     verseRef: 'col.3.1-2', },
+     { publicationDate: 'Tue 08/11/2026',  topic: 'Knowing the Will of God',              verse: /* Colossians 3:15-17 */  'Romans 12:2',  verseRef: 'rom.12.2',  btbContext: 'FromDevoSermon##col.3.15-17@@Colossians 3:15-17##Discerning God’s Will'},
      { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
      { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse:   'Colossians 4:5',                       verseRef: 'col.4.5',   },
    ]
@@ -152,6 +153,17 @@ M{ sermonSeries({
     { id: `20260531`, sermon: `Surviving Suffering`,                      scripture: `col.1@@Colossians 1:24–29`,  },
     { id: `20260607`, sermon: `Warnings to the Church in a Crazy World`,  scripture: `col.2@@Colossians 2:1-23`,   },
     { id: `20260614`, sermon: `Complete in Christ`,                       scripture: `col.2@@Colossians 2:11–15`,  },
+    {                 divider: `?? work ahead to pick up related devotion :-)` },
+    { id: `20260809`, sermon: `Discerning God’s Will`,                    scripture: `col.3@@Colossians 3:15-17`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 08/11/2026',
+           topic:               'Knowing the Will of God',
+           verse:               'Romans 12:2',
+           verseRef:            'rom.12.2',
+        },
+      ],
+    },
   ]
 }) }M
 
