@@ -105,16 +105,17 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',  verse: /* 1 Kings 1,2 */       'Proverbs 3:5-6',      verseRef: 'pro.3.5-6',  btbContext: 'FromDevoContent##1ki.1@@1 Kings 1,2##The Lord Establishes Solomon'},
-     { publicationDate: 'Mon 07/06/2026',  topic: 'Be Strong in the Lord',        verse:   '1 Kings 2:3',                               verseRef: '1ki.2.3',    },
-     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',         verse: /* 1 Kings 3,4,11 */    'James 1:5',           verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3@@1 Kings 3,4,11##Solomon’s Wisdom and Its Test'},
-     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',         verse: /* 1 Kings 3,4,11 */    'Ecclesiastes 2:24',   verseRef: 'ecc.2.24',   btbContext: 'FromDevoContent##1ki.3@@1 Kings 3,4,11##Solomon’s Life'},
-     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',          verse: /* 1 Kings 3,4,10,11 */ 'James 1:5',           verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3.5-12@@1 Kings 3,4,10,11##Solomon’s Wisdom and the Danger of Self-Reliance'},
-     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',           verse: /* 1 Kings 5,6,8 */     'Psalms 115:1',        verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8##Solomon’s Temple'},
-     { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',    verse: /* 1 Kings 5,6,8,9 */   '1 Corinthians 3:16',  verseRef: '1co.3.16',   btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8,9##Solomon’s Temple'},
-     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble', verse: /* 1 Kings 8 */         '1 John 1:9',          verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##1ki.8@@1 Kings 8##Solomon’s Prayer of Dedication'},
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',     verse: /* 1 Kings 11-12 */     'Psalms 51:17',        verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
-     { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',         verse: /* 1 Kings 19:11-13 */  'John 10:27',          verseRef: 'jhn.10.27',  btbContext: 'FromDevoContent##1ki.19.11-13@@1 Kings 19:11-13##Elijah Hears God’s Gentle Whisper'},
+     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',         verse: /* 1 Kings 1,2 */       'Proverbs 3:5-6',      verseRef: 'pro.3.5-6',  btbContext: 'FromDevoContent##1ki.1@@1 Kings 1,2##The Lord Establishes Solomon'},
+     { publicationDate: 'Mon 07/06/2026',  topic: 'Be Strong in the Lord',               verse:   '1 Kings 2:3',                               verseRef: '1ki.2.3',    },
+     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',                verse: /* 1 Kings 3,4,11 */    'James 1:5',           verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3@@1 Kings 3,4,11##Solomon’s Wisdom and Its Test'},
+     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',                verse: /* 1 Kings 3,4,11 */    'Ecclesiastes 2:24',   verseRef: 'ecc.2.24',   btbContext: 'FromDevoContent##1ki.3@@1 Kings 3,4,11##Solomon’s Life'},
+     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',                 verse: /* 1 Kings 3,4,10,11 */ 'James 1:5',           verseRef: 'jas.1.5',    btbContext: 'FromDevoContent##1ki.3.5-12@@1 Kings 3,4,10,11##Solomon’s Wisdom and the Danger of Self-Reliance'},
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                  verse: /* 1 Kings 5,6,8 */     'Psalms 115:1',        verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8##Solomon’s Temple'},
+     { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',           verse: /* 1 Kings 5,6,8,9 */   '1 Corinthians 3:16',  verseRef: '1co.3.16',   btbContext: 'FromDevoContent##1ki.5@@1 Kings 5,6,8,9##Solomon’s Temple'},
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',        verse: /* 1 Kings 8 */         '1 John 1:9',          verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##1ki.8@@1 Kings 8##Solomon’s Prayer of Dedication'},
+     { publicationDate: 'Fri 08/14/2026',  topic: 'Guarding Against Small Compromises',  verse:   '1 Kings 8:61',                              verseRef: '1ki.8.61',   },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',            verse: /* 1 Kings 11-12 */     'Psalms 51:17',        verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##1ki.11@@1 Kings 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',                verse: /* 1 Kings 19:11-13 */  'John 10:27',          verseRef: 'jhn.10.27',  btbContext: 'FromDevoContent##1ki.19.11-13@@1 Kings 19:11-13##Elijah Hears God’s Gentle Whisper'},
    ]
 }) }M
 
@@ -156,7 +157,16 @@ M{ sermonSeries({
     { id: `20240515`, scripture: `1ki.5@@1 Kings 5-6`,          },
     { id: `20240807`, scripture: `1ki.7@@1 Kings 7`,            },
     { id: `20240814`, scripture: `1ki.8@@1 Kings 8`,            },
-    { id: `20240821`, scripture: `1ki.8@@1 Kings 8:54-9:28`,    },
+    { id: `20240821`, scripture: `1ki.8@@1 Kings 8:54-9:28`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 08/14/2026',
+           topic:               'Guarding Against Small Compromises',
+           verse:               '1 Kings 8:61',
+           verseRef:            '1ki.8.61',
+        },
+      ],
+    },
     { id: `20240918`, scripture: `1ki.10@@1 Kings 10:1-11:21`,  },
     { id: `20241009`, scripture: `1ki.11@@1 Kings 11:22-12:33`, },
     { id: `20241106`, scripture: `1ki.13@@1 Kings 13`,          },
