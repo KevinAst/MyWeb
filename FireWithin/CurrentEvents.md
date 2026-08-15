@@ -49,7 +49,16 @@ M{ sermonSeries({
     { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
     { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
-    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
+    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 08/15/2026',
+           topic:               'Walk in the Good Way',
+           verse:               'Jeremiah 6:16',
+           verseRef:            'jer.6.16',
+        },
+      ],
+    },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
