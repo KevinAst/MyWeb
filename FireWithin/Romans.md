@@ -114,6 +114,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse:   'Romans 1:20',                          verseRef: 'rom.1.20',     },
      { publicationDate: 'Sat 06/13/2026',  topic: 'Grace Greater Than Our Guilt',            verse:   'Romans 1:16',                          verseRef: 'rom.1.16',     },
+     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',                     verse:   'Romans 2:4',                           verseRef: 'rom.2.4',      },
      { publicationDate: 'Wed 08/12/2026',  topic: 'God Is Just and Salvation is in Christ',  verse:   'Romans 2:11',                          verseRef: 'rom.2.11',     },
      { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse:   'Romans 3:23',                          verseRef: 'rom.3.23',     },
      { publicationDate: 'Wed 06/17/2026',  topic: 'Our Need for Christ',                     verse:   'Romans 3:23',                          verseRef: 'rom.3.23',     },

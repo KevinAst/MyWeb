@@ -15,6 +15,7 @@ to us in the death and resurrection of Jesus.
 ### At a Glance
 
 - [2 Kings Overview](#2-kings-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 2 Kings Series (Sundays)](#2015-2-kings-series-sundays)
 - [2025 2 Kings Series (Mid Week)](#2025-2-kings-series-mid-week)
 
@@ -96,6 +97,21 @@ P{ collapsibleSection({
 M{ youTube(`kqRrBbYTfaE`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2ki',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',        verse: /* 2 Kings 1 */  'Romans 2:4',      verseRef: 'rom.2.4',  btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
+   ]
+}) }M
+
 
 
 ## 2015 2 Kings Series (Sundays)
