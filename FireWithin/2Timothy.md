@@ -96,6 +96,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',    verse: '2 Timothy 1:7',   verseRef: '2ti.1.7', },
+     { publicationDate: 'Mon 08/17/2026',  topic: 'A Life Shaped by Godliness',  verse: '2 Timothy 3:5',   verseRef: '2ti.3.5', },
    ]
 }) }M
 
@@ -130,7 +131,16 @@ M{ sermonSeries({
     { id: `20180808`, scripture: `2ti.1@@2 Timothy 1`,      },
     { id: `20180815`, scripture: `2ti.2@@2 Timothy 2:1-7`,  },
     { id: `20180822`, scripture: `2ti.2@@2 Timothy 2:8-26`, },
-    { id: `20180829`, scripture: `2ti.3@@2 Timothy 3`,      },
+    { id: `20180829`, scripture: `2ti.3@@2 Timothy 3`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 08/17/2026',
+           topic:               'A Life Shaped by Godliness',
+           verse:               '2 Timothy 3:5',
+           verseRef:            '2ti.3.5',
+        },
+      ],
+    },
     { id: `20180905`, scripture: `2ti.4@@2 Timothy 4`,      },
   ]
 }) }M
