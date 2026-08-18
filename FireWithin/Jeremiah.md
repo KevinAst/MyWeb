@@ -103,6 +103,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse:   'Jeremiah 1:5',                   verseRef: 'jer.1.5',    },
      { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
+     { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
      { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',      verse: /* Jeremiah 45 */  'Acts 23:11',    verseRef: 'act.23.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden', verse: /* Jeremiah 45 */  'Psalms 42:11',  verseRef: 'psa.42.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
@@ -121,7 +122,16 @@ M{ sermonSeries({
     { id: `20181104`, sermon: `Wisdom for the Crossroads`,          scripture: `jer.6@@Jeremiah 6:16`,    },
     { id: `20181111`, sermon: `Something to Boast About`,           scripture: `jer.7@@Jeremiah 7-9`,     },
     { id: `20181118`, sermon: `A Prayer for Idol Hearts`,           scripture: `jer.10@@Jeremiah 10`,     },
-    { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,  },
+    { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 08/18/2026',
+           topic:               'When Life Seems Unfair',
+           verse:               'Jeremiah 12:1',
+           verseRef:            'jer.12.1',
+        },
+      ],
+    },
     { id: `20181202`, sermon: `A Life that Bears God's Name`,       scripture: `jer.13@@Jeremiah 13-15`,  },
     { id: `20190106`, sermon: `A Change of Heart`,                  scripture: `jer.16@@Jeremiah 16-17`,  },
     { id: `20190120`, sermon: `Sanctity of Human Life`,             scripture: `jer.18@@Jeremiah 18-19`,  },
