@@ -102,6 +102,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse:   'Jeremiah 1:5',                   verseRef: 'jer.1.5',    },
+     { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',   verse:   'Jeremiah 2:13',                  verseRef: 'jer.2.13',   },
      { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
      { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
@@ -117,7 +118,16 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,     },
+    { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 08/19/2026',
+           topic:               'The Spring of Living Water',
+           verse:               'Jeremiah 2:13',
+           verseRef:            'jer.2.13',
+        },
+      ],
+    },
     { id: `20181028`, sermon: `A Serious Wound`,                    scripture: `jer.3@@Jeremiah 3-6`,     },
     { id: `20181104`, sermon: `Wisdom for the Crossroads`,          scripture: `jer.6@@Jeremiah 6:16`,    },
     { id: `20181111`, sermon: `Something to Boast About`,           scripture: `jer.7@@Jeremiah 7-9`,     },
