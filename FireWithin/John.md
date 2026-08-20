@@ -118,6 +118,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 04/27/2026',  topic: 'The Helper Who Dwells Within',       verse:   'John 14:16',                          verseRef: 'jhn.14.16',     },
      { publicationDate: 'Sat 07/18/2026',  topic: 'The Peace Christ Gives',             verse:   'John 14:27',                          verseRef: 'jhn.14.27',     },
      { publicationDate: 'Sun 03/22/2026',  topic: 'Abiding in Christ',                  verse:   'John 15:4',                           verseRef: 'jhn.15.4',      },
+     { publicationDate: 'Thu 08/20/2026',  topic: 'The Word Must Remain Central',       verse:   'John 17:17',                          verseRef: 'jhn.17.17',     },
      { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                      verse:   'John 17:20–21',                       verseRef: 'jhn.17.20-21',  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',               verse: /* John 18         */ 'Galatians 1:10',  verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',  },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',               verse: /* John 21         */ 'Psalms 23:3',     verseRef: 'psa.23.3',      btbContext: `FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`,  },
