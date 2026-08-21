@@ -115,6 +115,8 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',   verse: /* 2 Corinthians 6:2      */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##2co.6.2@@2 Corinthians 6:2##The urgency in responding to God’s invitation', },
      { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ', verse:   '2 Corinthians 6:14',                        verseRef: '2co.6.14',   },
      { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',       verse: /* 2 Corinthians 7:5-6    */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoContent##2co.7.5-6@@2 Corinthians 7:5-6##Conflicts without, fears within; comfort through Titus.'},
+     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse: /* 2 Corinthians 8:5 */  '2 Corinthians 9:7',  verseRef: '2co.9.7',    btbContext: 'FromDevoContent##2co.8.5@@2 Corinthians 8:5##Giving Begins with Surrender'},
+     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse:   '2 Corinthians 9:7',                         verseRef: '2co.9.7',    },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',          verse: /* 2 Corinthians 11:23-28 */ 'Romans 5:3',     verseRef: 'rom.5.3',    btbContext: 'FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering', },
    ]
 }) }M
@@ -188,7 +190,16 @@ M{ sermonSeries({
     },
     { id: `20250323`, sermon: `The Yoke’s on You`,               scripture: `2co.6@@2 Corinthians 6:14-18`, },
     { id: `20250330`, sermon: `Outside Conflicts, Inside Fears`, scripture: `2co.7@@2 Corinthians 7`,       },
-    { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,     },
+    { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 08/21/2026',
+           topic:               'The Heart Of Giving',
+           verse:               '2 Corinthians 9:7',
+           verseRef:            '2co.9.7',
+        },
+      ],
+    },
     { id: `20250518`, sermon: `Weapons of our Warfare`,          scripture: `2co.10@@2 Corinthians 10`,     },
     { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,     },
     { id: `20250727`, sermon: `The Hope of Heaven`,              scripture: `2co.12@@2 Corinthians 12`,     },

@@ -99,6 +99,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',             verse:   'John 1:29',                           verseRef: 'jhn.1.29',      },
+     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',                verse: /* John 3:16 */  '2 Corinthians 9:7',    verseRef: '2co.9.7',       btbContext: 'FromDevoContent##jhn.3.16@@John 3:16##The Heart of God’s Giving'},
      { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',         verse: /* John 4:13-14 */  'Jeremiah 2:13',     verseRef: 'jer.2.13',      btbContext: 'FromDevoContent##jhn.4.13-14@@John 4:13-14##Living Water That Satisfies'},
      { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',              verse:   'John 4:24',                           verseRef: 'jhn.4.24',      },
      { publicationDate: 'Thu 04/09/2026',  topic: 'Grace That Restores and Redirects',  verse:   'John 8:11',                           verseRef: 'jhn.8.11',      },
