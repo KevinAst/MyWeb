@@ -127,6 +127,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 04/30/2026',  topic: 'Power to Be His Witness',                     verse:   'Acts 1:8',                              verseRef: 'act.1.8',   },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                        verse: /* Acts 2:36-38  */ 'Psalms 23:3',         verseRef: 'psa.23.3',      btbContext: `FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`, },
      { publicationDate: 'Tue 05/12/2026',  topic: 'Steadfast in the Truth',                      verse:   'Acts 2:42',                             verseRef: 'act.2.42',  },
+     { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse: /* Acts 4:12 */  'Isaiah 45:5',            verseRef: 'isa.45.5',      btbContext: 'FromDevoContent##act.4.12@@Acts 4:12##Salvation in Christ Alone'},
      { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',                   verse: /* Acts 5        */ 'Proverbs 16:6',       verseRef: 'pro.16.6',      btbContext: 'FromDevoContent##act.5@@Acts 5##Ananias and Sapphira', },
      { publicationDate: 'Thu 05/14/2026',  topic: 'Obeying the Higher Authority',                verse:   'Acts 5:29',                             verseRef: 'act.5.29',  },
      { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',                        verse: /* Acts 7-9      */ '2 Corinthians 5:17',  verseRef: '2co.5.17',      btbContext: 'FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ', },
