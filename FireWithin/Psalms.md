@@ -115,6 +115,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',    verse: /* Psalms 51:17 */  '1 John 1:9',      verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.51.17@@Psalms 51:17##God receives the broken and contrite heart'},
      { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse:   'Psalms 56:3',                       verseRef: 'psa.56.3',    },
      { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',          verse: /* Psalms 73:16-17 */ 'Jeremiah 12:1', verseRef: 'jer.12.1',    btbContext: 'FromDevoContent##psa.73.16-17@@Psalms 73:16-17##An Eternal Perspective'},
+     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',              verse: /* Psalms 86:11 */  'Mark 7:6-7',      verseRef: 'mrk.7.6-7',   btbContext: 'FromDevoContent##psa.86.11@@Psalms 86:11##An Undivided Heart'},
      { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                      verseRef: 'psa.90.10',   },
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                      verseRef: 'psa.115.1',   },
      { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse:   'Psalms 121:4',                      verseRef: 'psa.121.4',   },
