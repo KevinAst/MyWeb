@@ -322,6 +322,7 @@
       * [08/21/2026 Devo](devo20260821.md)
       * [08/22/2026 Devo](devo20260822.md)
       * [08/23/2026 Devo](devo20260823.md)
+      * [08/24/2026 Devo](devo20260824.md)
 
 ----
 - [Memorization](Memorization.md)
