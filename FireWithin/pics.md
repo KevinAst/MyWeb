@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 614**          _... categorized below!!_
-> <br/> **Photos: 50,212**       _... Yikes!!!_
+> <br/> **Albums: 615**          _... categorized below!!_
+> <br/> **Photos: 50,285**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -796,6 +796,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Iron Man
+
+- 2026 08: [AJ's Half Ironman 8/23/2026 (370 Lakeside Triathlon)](https://photos.google.com/share/AF1QipMQMq5GZoePPCDMyJY2Ey9lZ7Wo0SihjS4UgbR-JMmdCqzMBrHV_CfPETk3xks9tw?key=Mk5EOTk3bEdxeUpReVZCQnhyLTFGVXFNZHdfWkZn) _(73 pics)_
+
 
 - 2024 08: [370 70.3](https://photos.google.com/share/AF1QipMxEzGvZyezdXG4_0NZ53yplcYif6cIKT6VAh8c6IqIthxzLAsrADokdOaWPaF2NA) _(29 pics)_ **Emily's Album**
 - 2024 05: [Chatt 70.3 2024](https://photos.google.com/share/AF1QipM-s2i2W_xudk23Jc-Y4PcIjPWfJHANDs-hepvpBAWlB8OuuFefig5zBuR-2h4xqQ?key=Y3J0TVF2TlRSb3JUbko1Mkp3VWJjdW5vZEJOaF93) _(77 pics)_ **AJ's Album**
