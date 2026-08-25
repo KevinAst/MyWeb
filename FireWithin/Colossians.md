@@ -153,8 +153,9 @@ M{ sermonSeries({
     { id: `20260531`, sermon: `Surviving Suffering`,                      scripture: `col.1@@Colossians 1:24–29`,  },
     { id: `20260607`, sermon: `Warnings to the Church in a Crazy World`,  scripture: `col.2@@Colossians 2:1-23`,   },
     { id: `20260614`, sermon: `Complete in Christ`,                       scripture: `col.2@@Colossians 2:11–15`,  },
-    {                 divider: `?? work ahead to pick up related devotion :-)` },
-    { id: `20260809`, sermon: `Discerning God’s Will`,                    scripture: `col.3@@Colossians 3:15-17`,
+    { id: `20260726`, sermon: `Avoiding Spiritual Pitfalls`,              scripture: `col.2@@Colossians 2:16-23`,  },
+    { id: `20260802`, sermon: `Vertical Living in a Horizontal World`,    scripture: `col.3@@Colossians 3:1–14`,   },
+    { id: `20260809`, sermon: `Discerning God's Will`,                    scripture: `col.3@@Colossians 3:15-17`,
       relatedDevotions: [
         {
            publicationDate:     'Tue 08/11/2026',
@@ -164,6 +165,8 @@ M{ sermonSeries({
         },
       ],
     },
+    { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
+    { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
   ]
 }) }M
 

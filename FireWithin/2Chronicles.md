@@ -176,6 +176,14 @@ M{ sermonSeries({
         },
       ],
     },
+    { id: `20260617`, sermon: `Own Your Faith in Christ (Pastor Tyler Hamrick)`,                     scripture: `2ch.23@@2 Chronicles 23-24`,       },
+    { id: `20260624`, sermon: `A Half-Hearted Man, A Whole Lot of Trouble (Pastor Austin Hamrick)`,  scripture: `2ch.25@@2 Chronicles 25`,          },
+    { id: `20260701`, sermon: `How to Finish Well (Pastor Austin Hamrick)`,                          scripture: `2ch.26@@2 Chronicles 26`,          },
+    { id: `20260715`, sermon: `God Wants Your Obedience and Surrender (Pastor Tyler Hamrick)`,       scripture: `2ch.27@@2 Chronicles 27-28`,       },
+    { id: `20260722`, sermon: `The Restoration of a Nation (Pastor Austin Hamrick)`,                 scripture: `2ch.29@@2 Chronicles 29`,          },
+    { id: `20260729`, sermon: `God's Wrath & Mercy`,                                                 scripture: `2ch.30@@2 Chronicles 30:1-31:7`,   },
+    { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
+    { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
   ]
 }) }M
 

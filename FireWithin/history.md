@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v26.3](#v26_3)   | Sync Sermons                       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
 [v26.0](#v26_0)   | Daily Devotions                    | *Mar 17, 2026*
@@ -87,6 +88,28 @@ Release           | What                 | *When*
 
 ## Details:
 
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v26_3" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v26.3 - Sync Sermons <i>(Aug 25, 2026)</i>
+</h3>
+<br/>
+
+- Synced Current Sermon Series
+  * {{book.Colossians}} Series (Sundays)
+  * {{book.2Chronicles}} Series (Mid Week)
+
+- Added the following Specials to {{book.Misc}} of {{book.CurrentEvents}}
+  * `Have You Been Born Again? (Pastor Austin Hamrick)`
+  * `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`
+  * `Celebrating America 250 (Eric Metaxas)`
+  * `God's Prescription for Happiness (Pastor Brian Shannon)`
+  * `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`
+  * `The Results of Repentance (Pastor Austin Hamrick)`
+  * `Next Gen for Jesus Night (Helms Triplets)`
+
+
+
 
 <!-- ************************************************************* -->
 <br/>
@@ -100,7 +123,7 @@ Release           | What                 | *When*
   * {{book.2Chronicles}} Series (Mid Week)
 
 
-- Added the following Speicals
+- Added the following Specials
   * added `America’s Christian Heritage` to {{book.ElectionDaySermons}}
   * added `A Call to Prayer (Al Pittman)` to {{book.Matthew}} _(Misc)_
   * added `The Awakening of the American Church (Jack Graham)` to {{book.Misc}} of {{book.CurrentEvents}}
@@ -120,7 +143,7 @@ Release           | What                 | *When*
   * {{book.2Chronicles}} Series (Mid Week)
 
 
-- Updated following Speicals
+- Updated following Specials
   * {{book.Easter}} 2026
   * added reference to `Enduring Word Bible Commentary (by David Guzik)` in {{book.SpecialEvents}}
   * added `Nothing is Impossible with God` in the {{book.Misc}} section of {{book.CurrentEvents}}
@@ -378,7 +401,7 @@ Release           | What                 | *When*
 
 - Updated Current Sermon Series
   * {{book.2Corinthians}} Series (Sundays)
-  * {{book.Easter}} 2025 Speicals
+  * {{book.Easter}} 2025 Specials
 
 
 

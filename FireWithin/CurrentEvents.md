@@ -120,5 +120,12 @@ M{ sermonSeries({
     { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                                                         studyGuide: `NONE`, },
     { id: `20260318`, sermon: `Nothing is Impossible with God`, extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`, studyGuide: `NONE`, }, 
     { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                                                       scripture: `heb.10@@Hebrews 10:22–25`,        studyGuide: `NONE`, }, 
+    { id: `20260621`, sermon: `Have You Been Born Again? (Pastor Austin Hamrick)`,                                                        scripture: `jhn.3@@John 3`,                                       },
+    { id: `20260628`, sermon: `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`,                                     scripture: `1jn.4@@1 John 4`,                                     },
+    { id: `20260705`, sermon: `Celebrating America 250 (Eric Metaxas)`,                                                                                                                 studyGuide: `NONE`, },
+    { id: `20260708`, sermon: `God's Prescription for Happiness (Pastor Brian Shannon)`,                                                  scripture: `mat.5@@Matthew 5`,                studyGuide: `NONE`, },
+    { id: `20260712`, sermon: `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`,                                             scripture: `act.2@@Acts 2`,                                       },
+    { id: `20260719`, sermon: `The Results of Repentance (Pastor Austin Hamrick)`,                                                        scripture: `act.3@@Acts 3`,                                       },
+    { id: `20260805`, sermon: `Next Gen for Jesus Night (Helms Triplets)`,                                                                                                              studyGuide: `NONE`, },
   ]
 }) }M
