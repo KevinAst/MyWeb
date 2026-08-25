@@ -1,4 +1,4 @@
-# Acts
+# M{ bibleLink(`act.1@@Acts`) }M
 
 The book of Acts is a continuation of the Gospel of {{book.Luke}}.
 Major themes include: Jesus returns to the Father &bull; the Holy
@@ -127,6 +127,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 04/30/2026',  topic: 'Power to Be His Witness',                     verse:   'Acts 1:8',                              verseRef: 'act.1.8',   },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                        verse: /* Acts 2:36-38  */ 'Psalms 23:3',         verseRef: 'psa.23.3',      btbContext: `FromDevoContent##act.2.36-38@@Acts 2:36-38##Peter's Denial & Restoration`, },
      { publicationDate: 'Tue 05/12/2026',  topic: 'Steadfast in the Truth',                      verse:   'Acts 2:42',                             verseRef: 'act.2.42',  },
+     { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse: /* Acts 4:12 */  'Isaiah 45:5',            verseRef: 'isa.45.5',      btbContext: 'FromDevoContent##act.4.12@@Acts 4:12##Salvation in Christ Alone'},
      { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',                   verse: /* Acts 5        */ 'Proverbs 16:6',       verseRef: 'pro.16.6',      btbContext: 'FromDevoContent##act.5@@Acts 5##Ananias and Sapphira', },
      { publicationDate: 'Thu 05/14/2026',  topic: 'Obeying the Higher Authority',                verse:   'Acts 5:29',                             verseRef: 'act.5.29',  },
      { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',                        verse: /* Acts 7-9      */ '2 Corinthians 5:17',  verseRef: '2co.5.17',      btbContext: 'FromDevoContent##act.7@@Acts 7-9##Saul to Paul - A Journey to Faith in Christ', },
@@ -134,13 +135,22 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                       verse: /* Acts 8        */ 'Hebrews 12:15',       verseRef: 'heb.12.15',     btbContext: 'FromDevoSermon##act.8@@Acts 8##From Bitter to Better', },
      { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                          verse: /* Acts 10       */ 'Romans 10:12',        verseRef: 'rom.10.12',     btbContext: 'FromDevoContent##act.10@@Acts 10##Peter and Cornelius', },
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse: /* Acts 12       */ 'Isaiah 55:8-9',       verseRef: 'isa.55.8-9',    btbContext: 'FromDevoContent##act.12@@Acts 12##James & Peter - Different Outcomes, One Sovereign God', },
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                          verse: /* Acts 12:20-23 */ 'Psalms 115:1',        verseRef: 'psa.115.1',     btbContext: 'FromDevoContent##act.12.20-23@@Acts 12:20-23##Herod’s Pride'},
      { publicationDate: 'Tue 06/09/2026',  topic: 'Saved by Grace',                              verse:   'Acts 13:39',                            verseRef: 'act.13.39', },
      { publicationDate: 'Sun 05/24/2026',  topic: 'Strengthened Through Trials',                 verse:   'Acts 14:22',                            verseRef: 'act.14.22', },
      { publicationDate: 'Thu 05/28/2026',  topic: 'Singing in the Darkness',                     verse:   'Acts 16:25',                            verseRef: 'act.16.25', },
      { publicationDate: 'Thu 06/11/2026',  topic: 'Seeing the Lost Through God’s Eyes',          verse:   'Acts 17:16',                            verseRef: 'act.17.16', },
      { publicationDate: 'Sat 05/30/2026',  topic: 'Marks of True Revival',                       verse:   'Acts 19:20',                            verseRef: 'act.19.20', },
+     { publicationDate: 'Wed 06/24/2026',  topic: 'Finishing the Race Well',                     verse:   'Acts 20:24',                            verseRef: 'act.20.24', },
      { publicationDate: 'Mon 06/15/2026',  topic: 'The Whole Counsel of God',                    verse:   'Acts 20:27',                            verseRef: 'act.20.27', },
+     { publicationDate: 'Fri 06/26/2026',  topic: 'Built Up by Grace',                           verse:   'Acts 20:32',                            verseRef: 'act.20.32', },
+     { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',                        verse: /* Acts 21 */       'John 10:27',          verseRef: 'jhn.10.27',     btbContext: 'FromDevoContent##act.21@@Acts 21##Paul Followed God’s Voice Despite Warnings'},
+     { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',                     verse:   'Acts 23:11',                            verseRef: 'act.23.11', },
+     { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                              verse: /* Acts 23:11 */    'Romans 8:28',         verseRef: 'rom.8.28',      btbContext: 'FromDevoContent##act.23.11@@Acts 23:11##God’s Promise of Rome'},
+     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',                     verse: /* Acts 23,27,28 */ 'Colossians 4:5',      verseRef: 'col.4.5',       btbContext: 'FromDevoContent##act.23@@Acts 23,27,28##Paul’s Ministry in Rome'},
      { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                          verse: /* Acts 24:26-27 */ 'Hebrews 9:27',        verseRef: 'heb.9.27',      btbContext: 'FromDevoContent##act.24.26-27@@Acts 24:26-27##Felix Delays Responding to the Gospel'},
+     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Acts 27       */ 'Galatians 1:10',      verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Warning Rejected'},
+     { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',                        verse: /* Acts 27       */ 'Psalms 31:24',        verseRef: 'psa.31.24',     btbContext: 'FromDevoContent##act.27@@Acts 27##Paul’s Voyage to Rome'},
    ]
 }) }M
 
@@ -291,7 +301,16 @@ M{ sermonSeries({
     },
     { id: `20230820`, sermon: `Running the Race`,                                              scripture: `act.20@@Acts 20:17-24`, },
     { id: `20230827`, sermon: `Advice and Warnings to the Church`,                             scripture: `act.20@@Acts 20 PT.2`,  },
-    { id: `20230903`, sermon: `Parting Words of Encouragement`,                                scripture: `act.20@@Acts 20 PT.3`,  },
+    { id: `20230903`, sermon: `Parting Words of Encouragement`,                                scripture: `act.20@@Acts 20 PT.3`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 06/26/2026',
+           topic:               'Built Up by Grace',
+           verse:               'Acts 20:32',
+           verseRef:            'act.20.32',
+        },
+      ],
+    },
     { id: `20230910`, sermon: `Hearing God`,                                                   scripture: `act.21@@Acts 21`,       },
     { id: `20230917`, sermon: `A Healthy Conscience`,                                          scripture: `act.21@@Acts 21-23`,    },
     { id: `20231001`, sermon: `Take Courage!`,                                                 scripture: `act.23@@Acts 23`,       },

@@ -1,4 +1,4 @@
-# Philemon
+# M{ bibleLink(`phm.1@@Philemon`) }M
 
 The letter of Philemon is written to the master of a runaway slave. In
 it, the apostle Paul asks the master to accept his runaway not as a

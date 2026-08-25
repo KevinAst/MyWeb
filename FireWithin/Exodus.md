@@ -1,4 +1,4 @@
-# Exodus
+# M{ bibleLink(`exo.1@@Exodus`) }M
 
 The book of Exodus is the story of God rescuing the children of Israel
 from Egypt and making them His covenant people. Exodus is where we

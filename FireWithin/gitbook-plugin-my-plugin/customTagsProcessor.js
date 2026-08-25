@@ -760,7 +760,9 @@ function bibleLink(_ref) {
 
     // update our content with the live scripture link!
     // ... KEY FEATURE: style prevents scripture from wrapping
-    content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
+    ref = ref.toUpperCase();
+    content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
 
     // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
     // ... ONLY generated when we are NOT already in this book
@@ -2003,7 +2005,8 @@ function devoGHStart(namedParams={}) {
 
   // our devotion scripture reference
   const devoVerseLink = bibleLink(`${verseRef}@@your preferred translation`);
-  content += `<p><a title="Launch this scripture in the Bible App (${devoTranslation} quoted in this devotion)" href="https://bible.com/bible/${devoTranslationCode}/${verseRef}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
+  // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
+  content += `<p><a title="Launch this scripture in the Bible App (${devoTranslation} quoted in this devotion)" href="https://bible.com/bible/${devoTranslationCode}/${verseRef.toUpperCase()}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
   content += `<div class="indent">\n`;
   content += `  <p><em>${devoTranslationText}</em></p>\n`;
   content += `  <p><em>${devoVerseLink} (via <a title="Go to Settings (where you can set your Preferred Bible Translation)" href="settings.html">Settings</a>)</em></p>\n`;

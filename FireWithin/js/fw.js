@@ -82,7 +82,7 @@ if (!window.fw) { // only expand this module once (conditionally)
     const fw = {}; // our one-and-only "module scoped" fw object, promoted to the outside world (see return)
 
     // the current version of our blog (manually maintained on each publish)
-    const CUR_VER = '26.2';
+    const CUR_VER = '26.3';
 
 
     //***************************************************************************
@@ -1031,6 +1031,52 @@ if (!window.fw) { // only expand this module once (conditionally)
       log(`updating href with: ${url}`);
       e.currentTarget.href = url;
     }
+
+    //*--------------------------------------------------------------------------
+    //* PUBLIC: fw.notifyUserOfAnyYouVersionIssues()
+    //* 
+    //* Communicate any KNOWN YouVersion Bible App issues to user (only ONCE per day).
+    //* 
+    //* USAGE: 
+    //*   <a href="#" 
+    //*      onclick="return fw.notifyUserOfAnyYouVersionIssues()" 
+    //*      onmouseover="alterBibleVerseLink(event, 'mrk.1.2')" 
+    //*      target="_blank">Mark 1:2</a>
+    //*--------------------------------------------------------------------------
+
+    // NO KNOWN ISSUE:
+    const knownYouVersionIssue = '';
+    // 6/17/2026 ISSUE (resolved 07/01 8pm):
+//  const knownYouVersionIssue = `On 6/17, YouVersion's website started experiencing passage lookup issues.  As of 6/26 it is unusable ON THE WEB (the YouVersion mobile app does not have this issue).
+//
+//YouVersion is aware of this problem.`;
+
+    const standardPostFixMsg = `\n\nYou will receive this notification ONCE daily, till the problem has been resolved.`;
+    
+    fw.notifyUserOfAnyYouVersionIssues = function() {
+
+      // only communicate message if there is one :-)
+      if (knownYouVersionIssue) {
+        const today     = new Date().toISOString().substring(0, 10); // EX: 2026-06-19
+        const lastShown = localStorage.getItem('youversion-warning');
+        
+        // only show message ONCE per day
+        if (lastShown !== today) {
+          localStorage.setItem('youversion-warning', today);
+          
+          // prefer blocking alert(), forces the user to see/acknolege the message, before the link navigation occurs
+          alert(knownYouVersionIssue + standardPostFixMsg);
+        }
+      }
+      
+      // We allow the normal href to do it's job (verses handling it ourself - e.g. window.open())
+      // ADVANTAGE - No need to duplicate browser behavior: 
+      //  - The browser honors target="_blank" normally
+      //  - Ctrl+Click still works
+      //  - Middle-click still works
+      //  - Right-click → Open in New Tab still works
+      return true;  // continue with normal href navigation
+    };
 
 
     //*--------------------------------------------------------------------------

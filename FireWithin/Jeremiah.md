@@ -1,4 +1,4 @@
-# Jeremiah
+# M{ bibleLink(`jer.1@@Jeremiah`) }M
 
 God and Israel's relationship began like a marriage. God vowed to be
 faithful, and Israel promised to be lovingly his. But Israel
@@ -101,8 +101,13 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse: 'Jeremiah 1:5',   verseRef: 'jer.1.5',  },
-     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse: 'Jeremiah 33:3',  verseRef: 'jer.33.3', },
+     { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse:   'Jeremiah 1:5',                   verseRef: 'jer.1.5',    },
+     { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',   verse:   'Jeremiah 2:13',                  verseRef: 'jer.2.13',   },
+     { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
+     { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
+     { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',      verse: /* Jeremiah 45 */  'Acts 23:11',    verseRef: 'act.23.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
+     { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden', verse: /* Jeremiah 45 */  'Psalms 42:11',  verseRef: 'psa.42.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
    ]
 }) }M
 
@@ -113,12 +118,30 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,     },
+    { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 08/19/2026',
+           topic:               'The Spring of Living Water',
+           verse:               'Jeremiah 2:13',
+           verseRef:            'jer.2.13',
+        },
+      ],
+    },
     { id: `20181028`, sermon: `A Serious Wound`,                    scripture: `jer.3@@Jeremiah 3-6`,     },
     { id: `20181104`, sermon: `Wisdom for the Crossroads`,          scripture: `jer.6@@Jeremiah 6:16`,    },
     { id: `20181111`, sermon: `Something to Boast About`,           scripture: `jer.7@@Jeremiah 7-9`,     },
     { id: `20181118`, sermon: `A Prayer for Idol Hearts`,           scripture: `jer.10@@Jeremiah 10`,     },
-    { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,  },
+    { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 08/18/2026',
+           topic:               'When Life Seems Unfair',
+           verse:               'Jeremiah 12:1',
+           verseRef:            'jer.12.1',
+        },
+      ],
+    },
     { id: `20181202`, sermon: `A Life that Bears God's Name`,       scripture: `jer.13@@Jeremiah 13-15`,  },
     { id: `20190106`, sermon: `A Change of Heart`,                  scripture: `jer.16@@Jeremiah 16-17`,  },
     { id: `20190120`, sermon: `Sanctity of Human Life`,             scripture: `jer.18@@Jeremiah 18-19`,  },
@@ -128,7 +151,22 @@ M{ sermonSeries({
     { id: `20190217`, sermon: `A Principled Life`,                  scripture: `jer.35@@Jeremiah 35`,     },
     { id: `20190224`, sermon: `Don't Lose Sight of God`,            scripture: `jer.36@@Jeremiah 36-39`,  },
     { id: `20190303`, sermon: `The Remnant`,                        scripture: `jer.40@@Jeremiah 40-42`,  },
-    { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,     },
+    { id: `20190310`, sermon: `Courage for the Discouraged`,        scripture: `jer.45@@Jeremiah 45`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 07/16/2026',
+           topic:               'Courage for the Journey',
+           verse:               'Acts 23:11',
+           verseRef:            'act.23.11',
+        },
+        {
+           publicationDate:     'Mon 08/03/2026',
+           topic:               'The God Who Sees Your Burden',
+           verse:               'Psalms 42:11',
+           verseRef:            'psa.42.11',
+        },
+      ],
+    },
     { id: `20190317`, sermon: `Don't "Wine" About It`,              scripture: `jer.46@@Jeremiah 46-48`,  },
     { id: `20190331`, sermon: `Lessons from Babylon`,               scripture: `jer.49@@Jeremiah 49-52`,  },
   ]

@@ -49,7 +49,16 @@ M{ sermonSeries({
     { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
     { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
-    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
+    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 08/15/2026',
+           topic:               'Walk in the Good Way',
+           verse:               'Jeremiah 6:16',
+           verseRef:            'jer.6.16',
+        },
+      ],
+    },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
@@ -111,5 +120,12 @@ M{ sermonSeries({
     { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                                                         studyGuide: `NONE`, },
     { id: `20260318`, sermon: `Nothing is Impossible with God`, extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`, studyGuide: `NONE`, }, 
     { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                                                       scripture: `heb.10@@Hebrews 10:22–25`,        studyGuide: `NONE`, }, 
+    { id: `20260621`, sermon: `Have You Been Born Again? (Pastor Austin Hamrick)`,                                                        scripture: `jhn.3@@John 3`,                                       },
+    { id: `20260628`, sermon: `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`,                                     scripture: `1jn.4@@1 John 4`,                                     },
+    { id: `20260705`, sermon: `Celebrating America 250 (Eric Metaxas)`,                                                                                                                 studyGuide: `NONE`, },
+    { id: `20260708`, sermon: `God's Prescription for Happiness (Pastor Brian Shannon)`,                                                  scripture: `mat.5@@Matthew 5`,                studyGuide: `NONE`, },
+    { id: `20260712`, sermon: `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`,                                             scripture: `act.2@@Acts 2`,                                       },
+    { id: `20260719`, sermon: `The Results of Repentance (Pastor Austin Hamrick)`,                                                        scripture: `act.3@@Acts 3`,                                       },
+    { id: `20260805`, sermon: `Next Gen for Jesus Night (Helms Triplets)`,                                                                                                              studyGuide: `NONE`, },
   ]
 }) }M

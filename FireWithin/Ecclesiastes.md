@@ -1,4 +1,4 @@
-# Ecclesiastes
+# M{ bibleLink(`ecc.1@@Ecclesiastes`) }M
 
 What is the meaning of life? Ecclesiastes asks this and other
 difficult questions but is unique in the way it answers them. The
@@ -94,8 +94,11 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse: 'Ecclesiastes 5:1',  verseRef: 'ecc.5.1',  },
-     { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse: 'Ecclesiastes 5:4',  verseRef: 'ecc.5.4',  },
+     { publicationDate: 'Tue 07/28/2026',  topic: 'Lasting Satisfaction',                verse:   'Ecclesiastes 2:24',                     verseRef: 'ecc.2.24',  },
+     { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',       verse: /* Ecclesiastes 4:1-3 */  'Psalms 46:1',   verseRef: 'psa.46.1',  btbContext: 'FromDevoContent##ecc.4.1-3@@Ecclesiastes 4:1-3##Life in a Fallen World'},
+     { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse:   'Ecclesiastes 5:1',                      verseRef: 'ecc.5.1',   },
+     { publicationDate: 'Thu 08/13/2026',  topic: 'Stand in Awe of God',                 verse:   'Ecclesiastes 5:1',                      verseRef: 'ecc.5.1',   },
+     { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse:   'Ecclesiastes 5:4',                      verseRef: 'ecc.5.4',   },
    ]
 }) }M
 
@@ -107,10 +110,28 @@ M{ devoGHSeries({
 M{ sermonSeries({
   entries: [
     { id: `20180128`, sermon: `A Full Life On Empty`,                       scripture: `ecc.1@@Ecclesiastes 1`,      },
-    { id: `20180204`, sermon: `On the Hunt for Happiness and Satisfaction`, scripture: `ecc.2@@Ecclesiastes 2`,      },
+    { id: `20180204`, sermon: `On the Hunt for Happiness and Satisfaction`, scripture: `ecc.2@@Ecclesiastes 2`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 07/28/2026',
+           topic:               'Lasting Satisfaction',
+           verse:               'Ecclesiastes 2:24',
+           verseRef:            'ecc.2.24',
+        },
+      ],
+    },
     { id: `20180211`, sermon: `The Temporal and the Eternal`,               scripture: `ecc.3@@Ecclesiastes 3`,      },
     { id: `20180218`, sermon: `Understanding Evil in Our World`,            scripture: `ecc.4@@Ecclesiastes 4`,      },
-    { id: `20180304`, sermon: `Right Worship`,                              scripture: `ecc.5@@Ecclesiastes 5`,      },
+    { id: `20180304`, sermon: `Right Worship`,                              scripture: `ecc.5@@Ecclesiastes 5`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 08/13/2026',
+           topic:               'Stand in Awe of God',
+           verse:               'Ecclesiastes 5:1',
+           verseRef:            'ecc.5.1',
+        },
+      ],
+    },
     { id: `20180311`, sermon: `The Destiny of Eternity`,                    scripture: `ecc.6@@Ecclesiastes 6-9`,    },
     { id: `20180318`, sermon: `A Fulfilled Life`,                           scripture: `ecc.11@@Ecclesiastes 11-12`, },
   ]

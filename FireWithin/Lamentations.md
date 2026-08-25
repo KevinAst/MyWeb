@@ -1,4 +1,4 @@
-# Lamentations
+# M{ bibleLink(`lam.1@@Lamentations`) }M
 
 Lamentations is like a eulogy. But instead of mourning a loved one's
 passing, this book laments over the death of Israel and her

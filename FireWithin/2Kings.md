@@ -1,4 +1,4 @@
-# 2 Kings
+# M{ bibleLink(`2ki.1@@2 Kings`) }M
 
 1 & 2 Kings form one book on Israel's history. But more importantly,
 they tell a story about death and life. In Kings, everything Israel
@@ -15,6 +15,7 @@ to us in the death and resurrection of Jesus.
 ### At a Glance
 
 - [2 Kings Overview](#2-kings-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2015 2 Kings Series (Sundays)](#2015-2-kings-series-sundays)
 - [2025 2 Kings Series (Mid Week)](#2025-2-kings-series-mid-week)
 
@@ -98,6 +99,22 @@ M{ youTube(`kqRrBbYTfaE`) }M
 P{ collapsibleSectionEnd() }P
 
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2ki',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',        verse: /* 2 Kings 1 */  'Romans 2:4',    verseRef: 'rom.2.4',     btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
+     { publicationDate: 'Tue 08/25/2026',  topic: 'Dig The Ditches',            verse:   '2 Kings 3:16-17',              verseRef: '2ki.3.16-17', },
+   ]
+}) }M
+
+
+
 ## 2015 2 Kings Series (Sundays)
 
 {{book.CornerstoneChapel}}
@@ -132,7 +149,16 @@ M{ sermonSeries({
   },
   entries: [
     { id: `20250507`,                                              scripture: `2ki.1@@2 Kings 1&2`,           },
-    { id: `20250514`,                                              scripture: `2ki.3@@2 Kings 3-4`,           },
+    { id: `20250514`,                                              scripture: `2ki.3@@2 Kings 3-4`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 08/25/2026',
+           topic:               'Dig The Ditches',
+           verse:               '2 Kings 3:16-17',
+           verseRef:            '2ki.3.16-17',
+        },
+      ],
+    },
     { id: `20250521`,                                              scripture: `2ki.4@@2 Kings 4:23-5:14`,     },
     { id: `20250528`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.5@@2 Kings 5:14-6:6`,      },
     { id: `20250604`, sermon: `Teaching (Pastor Tyler Hamrick)`,   scripture: `2ki.6@@2 Kings 6:7-7:9`,       },

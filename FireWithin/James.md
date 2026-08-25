@@ -1,4 +1,4 @@
-# James
+# M{ bibleLink(`jas.1@@James`) }M
 
 The book of James introduces us to the wisdom of Jesus. Jesus’ wisdom
 is simple but revolutionary. Jesus’ wisdom says that, like flowers
@@ -9,6 +9,7 @@ come from buried seeds, true life comes from death.
 ### At a Glance
 
 - [James Overview](#james-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 James Series (Sundays)](#2010-james-series-sundays)
 - [2019 James Series (Mid Week)](#2019-james-series-mid-week)
 
@@ -80,6 +81,22 @@ P{ collapsibleSection({
 M{ youTube(`ai7kRHaXjtI`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-jas',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',      verse: 'James 1:5',    verseRef: 'jas.1.5', },
+     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',       verse: 'James 1:5',    verseRef: 'jas.1.5', },
+   ]
+}) }M
+
 
 
 ## 2010 James Series (Sundays)

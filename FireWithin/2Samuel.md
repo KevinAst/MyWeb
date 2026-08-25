@@ -1,4 +1,4 @@
-# 2 Samuel
+# M{ bibleLink(`2sa.1@@2 Samuel`) }M
 
 The books of 1&2 Samuel narrate the beginning of Israel's monarchy
 with the rise and fall of King Saul and King David. The true King of
@@ -113,9 +113,13 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',              verse: /* 2 Samuel 9:1-13   */  'Titus 3:4-5',          verseRef: 'tit.3.4-5',    btbContext: `FromDevoContent##2sa.9.1-11@@2 Samuel 9:1-13##David's kindness to Mephibosheth`, },
      { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',  verse: /* 2 Samuel 10:9-14  */  'Galatians 6:2',        verseRef: 'gal.6.2',      btbContext: 'FromDevoContent##2sa.10.9-14@@2 Samuel 10:9-14##Joab and Abishai Stand Together', },
      { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',   verse: /* 2 Samuel 11-12    */  'Psalms 51:17',         verseRef: 'psa.51.17',    btbContext: 'FromDevoContent##2sa.11@@2 Samuel 11-12##David’s Sin and Repentance', },
+     { publicationDate: 'Thu 06/18/2026',  topic: 'Learning From the Past',        verse: /* 2 Samuel 11,12,18 */  'Philippians 3:13',     verseRef: 'php.3.13',     btbContext: 'FromDevoContent##2sa.11@@2 Samuel 11,12,18##David’s Growth, Absalom’s Downfall'},
      { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',               verse: /* 2 Samuel 12:13-25 */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.12.13-25@@2 Samuel 12:13-25##David’s Repentance and Restoration', },
      { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',      verse: /* 2 Samuel 13-18    */  '2 Corinthians 5:18',   verseRef: '2co.5.18',     btbContext: 'FromDevoContent##2sa.13@@2 Samuel 13-18##David & Absalom - A Family Torn Apart by Sin and Bitterness'},
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',   verse: /* 2 Samuel 15-17    */  'Ephesians 4:32',       verseRef: 'eph.4.32',     btbContext: 'FromDevoContent##2sa.15@@2 Samuel 15-17##Ahithophel’s Bitterness Ends in Ruin' },
+     { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',         verse: /* 2 Samuel 16,19    */  '1 John 1:9',           verseRef: '1jn.1.9',      btbContext: 'FromDevoContent##2sa.16@@2 Samuel 16,19##Shimei’s Confession and David’s Mercy'},
+     { publicationDate: 'Mon 06/22/2026',  topic: 'Pursuing Peace Faithfully',     verse: /* 2 Samuel 19-20    */  'Romans 12:18',         verseRef: 'rom.12.18',    btbContext: 'FromDevoContent##2sa.19-20@@2 Samuel 19-20##Division After Absalom’s Rebellion'},
+     { publicationDate: 'Tue 06/30/2026',  topic: 'Sweet Fellowship With God',     verse:   '2 Samuel 23:2',                               verseRef: '2sa.23.2',   },
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',    verse: /* 2 Samuel 24       */  '1 Corinthians 14:33',  verseRef: '1co.14.33',    btbContext: 'FromDevoContent##2sa.24@@2 Samuel 24##David - Misplaced Trust in Numbers', },
    ]
 }) }M
@@ -169,6 +173,15 @@ M{ sermonSeries({
     { id: `20240124`, scripture: `2sa.19@@2 Samuel 19`,          },
     { id: `20240131`, scripture: `2sa.20@@2 Samuel 20`,          },
     { id: `20240313`, scripture: `2sa.21@@2 Samuel 21-22`,       },
-    { id: `20240320`, scripture: `2sa.23@@2 Samuel 23-24`,       },
+    { id: `20240320`, scripture: `2sa.23@@2 Samuel 23-24`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 06/30/2026',
+           topic:               'Sweet Fellowship With God',
+           verse:               '2 Samuel 23:2',
+           verseRef:            '2sa.23.2',
+        },
+      ],
+    },
   ]
 }) }M

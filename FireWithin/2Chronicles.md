@@ -1,4 +1,4 @@
-# 2 Chronicles
+# M{ bibleLink(`2ch.1@@2 Chronicles`) }M
 
 The books of 1 and 2 Chronicles tell Israel's story from creation
 through exile, focusing on God's faithfulness to his promises despite
@@ -119,9 +119,12 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-2ch',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',  verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
-     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',    verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
-     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',  verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',      verse: /* 2 Chronicles 6,7 */         '1 John 1:9',     verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##2ch.6@@2 Chronicles 6,7##Solomon’s Prayer of Dedication'},
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                verse: /* 2 Chronicles 7:1-3 */       'Psalms 115:1',   verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##2ch.7.1-3@@2 Chronicles 7:1-3##God’s glory fills the temple'},
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',          verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',   verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
+     { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',            verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',  verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
+     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',          verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
+     { publicationDate: 'Fri 08/07/2026',  topic: 'A Life Prepared Before the Lord',   verse:   '2 Chronicles 27:6',                           verseRef: '2ch.27.6',   },
    ]
 }) }M
 
@@ -173,6 +176,14 @@ M{ sermonSeries({
         },
       ],
     },
+    { id: `20260617`, sermon: `Own Your Faith in Christ (Pastor Tyler Hamrick)`,                     scripture: `2ch.23@@2 Chronicles 23-24`,       },
+    { id: `20260624`, sermon: `A Half-Hearted Man, A Whole Lot of Trouble (Pastor Austin Hamrick)`,  scripture: `2ch.25@@2 Chronicles 25`,          },
+    { id: `20260701`, sermon: `How to Finish Well (Pastor Austin Hamrick)`,                          scripture: `2ch.26@@2 Chronicles 26`,          },
+    { id: `20260715`, sermon: `God Wants Your Obedience and Surrender (Pastor Tyler Hamrick)`,       scripture: `2ch.27@@2 Chronicles 27-28`,       },
+    { id: `20260722`, sermon: `The Restoration of a Nation (Pastor Austin Hamrick)`,                 scripture: `2ch.29@@2 Chronicles 29`,          },
+    { id: `20260729`, sermon: `God's Wrath & Mercy`,                                                 scripture: `2ch.30@@2 Chronicles 30:1-31:7`,   },
+    { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
+    { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
   ]
 }) }M
 

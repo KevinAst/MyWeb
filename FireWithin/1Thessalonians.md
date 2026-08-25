@@ -1,4 +1,4 @@
-# 1 Thessalonians
+# M{ bibleLink(`1th.1@@1 Thessalonians`) }M
 
 Paul has heard a good report on the church at Thessalonica, and
 encourages the persecuted believers to "excel still more" in faith,
@@ -16,6 +16,7 @@ oppressing them.
 ### At a Glance
 
 - [1 Thessalonians Overview](#1-thessalonians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
 - [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
 
@@ -93,6 +94,22 @@ M{ youTube(`Wb6Hhzl8Gyk`) }M
 P{ collapsibleSectionEnd() }P
 
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-1th',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse: '1 Thessalonians 1:10',      verseRef: '1th.1.10',   },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse: '1 Thessalonians 4:16',      verseRef: '1th.4.16',   },
+   ]
+}) }M
+
+
+
 ## 2010 1 Thessalonians Series (Sundays)
 
 {{book.CornerstoneChapel}}
@@ -117,7 +134,16 @@ M{ sermonSeries({
     includeStudyGuide: false,
   },
   entries: [
-    { id: `20180207`, scripture: `1th.1@@1 Thess 1`,   },
+    { id: `20180207`, scripture: `1th.1@@1 Thess 1`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 08/09/2026',
+           topic:               'Waiting Faithfully for Christ',
+           verse:               '1 Thessalonians 1:10',
+           verseRef:            '1th.1.10',
+        },
+      ],
+    },
     { id: `20180214`, scripture: `1th.2@@1 Thess 2-3`, },
     { id: `20180221`, scripture: `1th.4@@1 Thess 4`,   },
     { id: `20180307`, scripture: `1th.5@@1 Thess 5`,   },

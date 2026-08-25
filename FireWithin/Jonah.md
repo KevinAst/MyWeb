@@ -1,4 +1,4 @@
-# Jonah
+# M{ bibleLink(`jon.1@@Jonah`) }M
 
 **Do we really want God to love our enemies?**
 

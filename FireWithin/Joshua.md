@@ -1,4 +1,4 @@
-# Joshua
+# M{ bibleLink(`jos.1@@Joshua`) }M
 
 Joshua is about how we can live with God again. Israel's ancestral
 land has been taken over by the Canaanites. But God appoints Joshua to

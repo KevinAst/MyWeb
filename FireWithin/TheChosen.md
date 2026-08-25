@@ -9,6 +9,7 @@
 - [Season 3](#season-3)
 - [Season 4](#season-4)
 - [Season 5](#season-5)
+- [Season 6](#season-6)
 - [Characters](#characters)
 
 
@@ -76,7 +77,12 @@
   - {{book.TCSeason3M}}: 11/05/2022
   - {{book.TCSeason4M}}: 06/02/2024
   - {{book.TCSeason5M}}: 09/13/2025
-  - Season 6: _TBD_
+  - {{book.TCSeason6M}}: 11/15/2026
+    * 11/15/2026 Episodes 1-3
+    * 11/22/2026 Episode 4
+    * 11/29/2026 Episode 5
+    * 12/06/2026 Episode 6
+    * 03/12/2027 Season Finale (Crucifixion) - Theatrical Release
   - Season 7: _TBD_
 
 
@@ -756,6 +762,17 @@ M{ sermonSeries({
     },
   ]
 }) }M
+
+
+
+## Season 6
+
+<mark><b>Please NOTE:</b></mark> Season 6 is scheduled to start airing on the following dates:
+- 11/15/2026 Episodes 1-3
+- 11/22/2026 Episode 4
+- 11/29/2026 Episode 5
+- 12/06/2026 Episode 6
+- 03/12/2027 Season Finale (Crucifixion) - Theatrical Release
 
 
 ## Characters

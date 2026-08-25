@@ -1,4 +1,4 @@
-# Matthew
+# M{ bibleLink(`mat.1@@Matthew`) }M
 
 Matthew shows us how Jesus fulfills the Old Testament. He pictures the
 Old Testament like a treasure chest that contain old and new treasure
@@ -103,6 +103,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse:   'Matthew 1:21',                        verseRef: 'mat.1.21',   },
      { publicationDate: 'Fri 05/01/2026',  topic: 'A Life That Points to the Lord',    verse:   'Matthew 5:16',                        verseRef: 'mat.5.16',   },
      { publicationDate: 'Sat 03/28/2026',  topic: 'Seeking a Godly Spouse',            verse:   'Matthew 6:33',                        verseRef: 'mat.6.33',   },
+     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',                verse: /* Matthew 7:3-5 */  'Mark 7:6-7',       verseRef: 'mrk.7.6-7',  btbContext: 'FromDevoContent##mat.7.3-5@@Matthew 7:3-5##Remove the Plank First'},
      { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',      verse:   'Matthew 24:14',                       verseRef: 'mat.24.14',  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',              verse: /* Matthew 27:24   */ 'Galatians 1:10',  verseRef: 'gal.1.10',   btbContext: 'FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]', },
      { publicationDate: 'Sat 05/23/2026',  topic: 'The Empty Tomb',                    verse:   'Matthew 28:6',                        verseRef: 'mat.28.6',   },

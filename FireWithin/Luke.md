@@ -1,4 +1,4 @@
-# Luke
+# M{ bibleLink(`luk.1@@Luke`) }M
 
 Luke is the story of Jesus Christ - exactly as it happened ... written
 by the physician Luke.  It emphasizes the upside-down nature of God’s
@@ -108,6 +108,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-luk',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',             verse: /* Luke 4:16-21 */    'John 8:36',          verseRef: 'jhn.8.36',      btbContext: 'FromDevoContent##luk.4.16-21@@Luke 4:16-21##Jesus Announces His Mission'},
      { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: /* Luke 13:22-30   */ '2 Corinthians 6:14', verseRef: '2co.6.14',      btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
      { publicationDate: 'Tue 02/24/2026',  topic: 'Faithful With What Belongs to God',       verse:   'Luke 16:13',                             verseRef: 'luk.16.13',     },
      { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                     verse: /* Luke 16:19-31   */ 'Acts 7:55',          verseRef: 'act.7.55',      btbContext: 'FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',  },
@@ -116,12 +117,14 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 03/05/2026',  topic: 'Crying Out for Mercy',                    verse:   'Luke 18:38',                             verseRef: 'luk.18.38',     },
      { publicationDate: 'Sat 03/07/2026',  topic: 'When Jesus Calls Your Name',              verse:   'Luke 19:10',                             verseRef: 'luk.19.10',     },
      { publicationDate: 'Mon 03/09/2026',  topic: 'When Jesus Weeps',                        verse:   'Luke 19:41',                             verseRef: 'luk.19.41',     },
+     { publicationDate: 'Mon 08/10/2026',  topic: 'The Peace Jesus Came to Give',            verse:   'Luke 19:42',                             verseRef: 'luk.19.42',     },
      { publicationDate: 'Fri 03/13/2026',  topic: 'The God of the Living',                   verse:   'Luke 20:38',                             verseRef: 'luk.20.38',     },
      { publicationDate: 'Wed 03/11/2026',  topic: 'Lift Up Your Heads',                      verse:   'Luke 21:28',                             verseRef: 'luk.21.28',     },
      { publicationDate: 'Fri 04/10/2026',  topic: 'When God Says No',                        verse:   'Luke 22:42',                             verseRef: 'luk.22.42',     },
      { publicationDate: 'Fri 03/20/2026',  topic: 'Repentance That Leads to Restoration',    verse:   'Luke 22:61–62',                          verseRef: 'luk.22.61-62',  },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                    verse: /* Luke 22         */ 'Psalms 23:3',        verseRef: 'psa.23.3',      btbContext: `FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`,  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',                    verse: /* Luke 23:4       */ 'Galatians 1:10',     verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]', },
+     { publicationDate: 'Sun 07/26/2026',  topic: 'The Risen Christ Brings Hope',            verse:   'Luke 24:6',                              verseRef: 'luk.24.6',      },
    ]
 }) }M
 

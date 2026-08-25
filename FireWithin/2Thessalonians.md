@@ -1,4 +1,4 @@
-# 2 Thessalonians
+# M{ bibleLink(`2th.1@@2 Thessalonians`) }M
 
 Paul addresses three troubles the church in Thessalonica faced:
 Persecution from outside

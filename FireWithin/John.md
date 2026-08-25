@@ -1,4 +1,4 @@
-# John
+# M{ bibleLink(`jhn.1@@John`) }M
 
 Jesus came to bring God's love and the gift of eternal life to the world.
 
@@ -99,17 +99,27 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',             verse:   'John 1:29',                           verseRef: 'jhn.1.29',      },
+     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',                verse: /* John 3:16 */  '2 Corinthians 9:7',    verseRef: '2co.9.7',       btbContext: 'FromDevoContent##jhn.3.16@@John 3:16##The Heart of God’s Giving'},
+     { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',         verse: /* John 4:13-14 */  'Jeremiah 2:13',     verseRef: 'jer.2.13',      btbContext: 'FromDevoContent##jhn.4.13-14@@John 4:13-14##Living Water That Satisfies'},
      { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',              verse:   'John 4:24',                           verseRef: 'jhn.4.24',      },
      { publicationDate: 'Thu 04/09/2026',  topic: 'Grace That Restores and Redirects',  verse:   'John 8:11',                           verseRef: 'jhn.8.11',      },
+     { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',                  verse: /* John 8:31-36 */    'Galatians 5:1',   verseRef: 'gal.5.1',       btbContext: 'FromDevoContent##jhn.8.31-36@@John 8:31-36##The Son Sets You Free'},
+     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',        verse:   'John 8:36',                           verseRef: 'jhn.8.36',      },
      { publicationDate: 'Mon 04/13/2026',  topic: 'Eyes Opened by Christ',              verse:   'John 9:25',                           verseRef: 'jhn.9.25',      },
+     { publicationDate: 'Fri 06/19/2026',  topic: 'Hearing the Shepherd',               verse:   'John 10:27',                          verseRef: 'jhn.10.27',     },
+     { publicationDate: 'Sun 07/19/2026',  topic: 'The Hope Beyond the Grave',          verse:   'John 11:25',                          verseRef: 'jhn.11.25',     },
+     { publicationDate: 'Sat 07/25/2026',  topic: 'Awake to Walk in the Light',         verse: /* John 12:34-35, 46 */ 'Romans 13:11',  verseRef: 'rom.13.11',     btbContext: 'FromDevoSermon##jhn.12.34-35@@John 12:34-35, 46##Light in a Dark World'},
      { publicationDate: 'Fri 04/17/2026',  topic: 'Walk While You Have the Light',      verse:   'John 12:46',                          verseRef: 'jhn.12.46',     },
      { publicationDate: 'Tue 04/21/2026',  topic: 'The Pattern of Humble Service',      verse:   'John 13:14',                          verseRef: 'jhn.13.14',     },
      { publicationDate: 'Thu 04/16/2026',  topic: 'Return to Your First Love',          verse: /* John 13:33-35   */ '1 Samuel 12:22',  verseRef: '1sa.12.22',     btbContext: 'FromDevoSermon##jhn.13@@John 13:33-35##Love Like Jesus',  },
      { publicationDate: 'Thu 04/23/2026',  topic: 'Love As Christ Loved',               verse:   'John 13:34',                          verseRef: 'jhn.13.34',     },
      { publicationDate: 'Sat 04/25/2026',  topic: 'The Way to the Father',              verse:   'John 14:6',                           verseRef: 'jhn.14.6',      },
+     { publicationDate: 'Thu 07/09/2026',  topic: 'One Way to Salvation',               verse: /* John 14:6 */      'Romans 10:12-13',  verseRef: 'rom.10.12-13',  btbContext: 'FromDevoContent##jhn.14.6@@John 14:6##Christ, the Only Way'},
      { publicationDate: 'Wed 04/29/2026',  topic: 'Prayer That Aligns With God',        verse:   'John 14:13',                          verseRef: 'jhn.14.13',     },
      { publicationDate: 'Mon 04/27/2026',  topic: 'The Helper Who Dwells Within',       verse:   'John 14:16',                          verseRef: 'jhn.14.16',     },
+     { publicationDate: 'Sat 07/18/2026',  topic: 'The Peace Christ Gives',             verse:   'John 14:27',                          verseRef: 'jhn.14.27',     },
      { publicationDate: 'Sun 03/22/2026',  topic: 'Abiding in Christ',                  verse:   'John 15:4',                           verseRef: 'jhn.15.4',      },
+     { publicationDate: 'Thu 08/20/2026',  topic: 'The Word Must Remain Central',       verse:   'John 17:17',                          verseRef: 'jhn.17.17',     },
      { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                      verse:   'John 17:20–21',                       verseRef: 'jhn.17.20-21',  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',               verse: /* John 18         */ 'Galatians 1:10',  verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##jhn.18@@John 18##Jesus Before Pilate [Kingdom and Truth]',  },
      { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',               verse: /* John 21         */ 'Psalms 23:3',     verseRef: 'psa.23.3',      btbContext: `FromDevoContent##jhn.21@@John 21##Peter's Denial & Restoration`,  },
@@ -169,7 +179,16 @@ M{ sermonSeries({
     { id: `20220612`, sermon: `When Bread Is Not Enough`,        scripture: `jhn.6@@John 6`,             },
     { id: `20220619`, sermon: `Living Water - The Holy Spirit`,  scripture: `jhn.7@@John 7`,             },
     { id: `20220807`, sermon: `Amazing Grace`,                   scripture: `jhn.8@@John 8:1-11`,        },
-    { id: `20220814`, sermon: `What is Truth?`,                  scripture: `jhn.8@@John 8:31-47`,       },
+    { id: `20220814`, sermon: `What is Truth?`,                  scripture: `jhn.8@@John 8:31-47`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 08/06/2026',
+           topic:               'The Savior Who Sets Us Free',
+           verse:               'John 8:36',
+           verseRef:            'jhn.8.36',
+        },
+      ],
+    },
     { id: `20220821`, sermon: `Sight for the Blind`,             scripture: `jhn.9@@John 9`,             },
     { id: `20220828`, sermon: `Jesus is God`,                    scripture: `jhn.10@@John 10`,           },
     { id: `20220904`, sermon: `Raising Lazarus`,                 scripture: `jhn.11@@John 11`,           },
@@ -183,7 +202,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20221002`, sermon: `Light in a Dark World`,           scripture: `jhn.12@@John 12:35-36, 46`, },
+    { id: `20221002`, sermon: `Light in a Dark World`,           scripture: `jhn.12@@John 12:35-36, 46`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 07/25/2026',
+           topic:               'Awake to Walk in the Light',
+           verse:               'Romans 13:11',
+           verseRef:            'rom.13.11',
+        },
+      ],
+    },
     { id: `20221009`, sermon: `Serve Like Jesus`,                scripture: `jhn.13@@John 13:1-17`,      },
     { id: `20221023`, sermon: `Love Like Jesus`,                 scripture: `jhn.13@@John 13:33-35`,
       relatedDevotions: [

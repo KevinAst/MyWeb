@@ -15,6 +15,7 @@
 - [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
 - [Matthew Series](#matthew-series)
 - [Joshua, Judges, & Ruth Series](#joshua-judges--ruth-series)
+- [Romans Series](#romans-series)
 
 
 ## John Series
@@ -366,5 +367,32 @@ M{ sermonSeries({
     { id: `SG20260816`, sermon: `TXT@@Compromise`,               scripture: `jdg.16@@Judges 16:16-31`,       date:`08/16/2026`,  },
     { id: `SG20260823`, sermon: `TXT@@Faithfulness`,             scripture: `rut.1@@Ruth 1:11-18; 2:5-12`,   date:`08/23/2026`,  },
     { id: `SG20260830`, sermon: `TXT@@Redemption`,               scripture: `rut.3@@Ruth 3:8-13; 4:13-17`,   date:`08/30/2026`,  },
+  ]
+}) }M
+
+
+## Romans Series
+
+{{book.FBM}} ... FireWithin Study Link: {{book.Romans}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'SG20260607',
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `SG20260906`, sermon: `TXT@@True Power`,             scripture: `rom.1@@Romans 1:13-25`,         date:`09/06/2026`,  },
+    { id: `SG20260913`, sermon: `TXT@@Coming Judgment`,        scripture: `rom.2@@Romans 2:1-13`,          date:`09/13/2026`,  },
+    { id: `SG20260920`, sermon: `TXT@@Saving Faith`,           scripture: `rom.3@@Romans 3:21–4:5`,        date:`09/20/2026`,  },
+    { id: `SG20260927`, sermon: `TXT@@Restored Relationship`,  scripture: `rom.5@@Romans 5:1-11,18-21`,    date:`09/27/2026`,  },
+    { id: `SG20261004`, sermon: `TXT@@Freedom`,                scripture: `rom.6@@Romans 6:1-14`,          date:`10/04/2026`,  },
+    { id: `SG20261011`, sermon: `TXT@@Struggle`,               scripture: `rom.7@@Romans 7:4-6,14-25`,     date:`10/11/2026`,  },
+    { id: `SG20261018`, sermon: `TXT@@Indwelt`,                scripture: `rom.8@@Romans 8:14-27`,         date:`10/18/2026`,  },
+    { id: `SG20261025`, sermon: `TXT@@Believe*`,               scripture: `rom.9@@Romans 9:30–10:3,9-17`,  date:`10/25/2026`,  },
+    { id: `SG20261101`, sermon: `TXT@@Kindness`,               scripture: `rom.11@@Romans 11:11-24`,       date:`11/01/2026`,  },
+    { id: `SG20261118`, sermon: `TXT@@Sacrifice`,              scripture: `rom.12@@Romans 12:1-13`,        date:`11/18/2026`,  },
+    { id: `SG20261115`, sermon: `TXT@@Represent`,              scripture: `rom.13@@Romans 13:1-14`,        date:`11/15/2026`,  },
+    { id: `SG20261122`, sermon: `TXT@@Unity`,                  scripture: `rom.14@@Romans 14:5-20`,        date:`11/22/2026`,  },
+    { id: `SG20261129`, sermon: `TXT@@Purpose`,                scripture: `rom.15@@Romans 15:14-21,30-33`, date:`11/29/2026`,  },
   ]
 }) }M

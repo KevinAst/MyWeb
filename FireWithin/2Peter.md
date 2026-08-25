@@ -1,4 +1,4 @@
-# 2 Peter
+# M{ bibleLink(`2pe.1@@2 Peter`) }M
 
 2 Peter asks hard questions: _"If God is just, why does so much evil go
 unpunished?"_ and _"Isn't Hell just hateful religion?"_ Peter answers
@@ -11,6 +11,7 @@ world.
 ### At a Glance
 
 - [2 Peter Overview](#2-peter-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2011 2 Peter Series (Sundays)](#2011-2-peter-series-sundays)
 - [2019 2 Peter Series (Mid Week)](#2019-2-peter-series-mid-week)
 
@@ -80,6 +81,20 @@ P{ collapsibleSection({
 M{ youTube(`6aS82DAJcX0`) }M
 
 P{ collapsibleSectionEnd() }P
+
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2pe',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 07/17/2026',  topic: 'Trusting the God Who Shows Mercy',     verse: '2 Peter 3:9',    verseRef: '2pe.3.9',   },
+   ]
+}) }M
+
 
 
 ## 2011 2 Peter Series (Sundays)

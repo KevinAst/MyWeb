@@ -1,4 +1,4 @@
-# Haggai
+# M{ bibleLink(`hag.1@@Haggai`) }M
 
 The book of Haggai addresses God's people who have returned from exile
 but stopped rebuilding God's temple. Through the prophet Haggai, God

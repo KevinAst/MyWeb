@@ -1,4 +1,4 @@
-# Nahum
+# M{ bibleLink(`nam.1@@Nahum`) }M
 
 The book of Nahum reveals that God will bring justice against evil and
 comfort to his oppressed people. When enemy nations rise up against

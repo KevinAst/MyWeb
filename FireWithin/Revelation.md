@@ -1,4 +1,4 @@
-# Revelation
+# M{ bibleLink(`rev.1@@Revelation`) }M
 
 The book of Revelation was written to encourage suffering Christians
 with visions that reveal the enthroned Jesus who rules over their

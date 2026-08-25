@@ -1,4 +1,4 @@
-# Deuteronomy
+# M{ bibleLink(`deu.1@@Deuteronomy`) }M
 
 Israel is about to finally enter the promised land of Canaan. Before
 they do, Moses rallies the people to remind them of God’s law—and why
@@ -97,7 +97,8 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Deuteronomy 16:9-12 */ '2 Corinthians 3:6',  verseRef: '2co.3.6',  btbContext: 'FromDevoContent##deu.16.9-12@@Deuteronomy 16:9-12##Pentecost - Old Testament',  },
+     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Deuteronomy 16:9-12 */   '2 Corinthians 3:6',  verseRef: '2co.3.6',  btbContext: 'FromDevoContent##deu.16.9-12@@Deuteronomy 16:9-12##Pentecost - Old Testament',  },
+     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',      verse: /* Deuteronomy 17:16-17 */  'James 1:5',          verseRef: 'jas.1.5',  btbContext: 'FromDevoContent##deu.17.16-17@@Deuteronomy 17:16-17##Solomon’s Wisdom and the Danger of Self-Reliance'},
    ]
 }) }M
 

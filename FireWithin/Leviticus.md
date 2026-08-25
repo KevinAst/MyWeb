@@ -1,4 +1,4 @@
-# Leviticus
+# M{ bibleLink(`lev.1@@Leviticus`) }M
 
 Leviticus can be summed up with God’s repeated command: “Be holy, as I
 am holy.” Leviticus is a book of laws, but it’s also a book of

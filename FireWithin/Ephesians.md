@@ -1,4 +1,4 @@
-# Ephesians
+# M{ bibleLink(`eph.1@@Ephesians`) }M
 
 Ephesians is written to a church divided. In fact, it’s written to a
 world divided. We are divided from God and each other because we are
@@ -99,8 +99,13 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-eph',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse: 'Ephesians 4:32',  verseRef: 'eph.4.32',  },
-     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse: 'Ephesians 6:10',  verseRef: 'eph.6.10',  },
+     { publicationDate: 'Thu 06/25/2026',  topic: 'Justified by Faith',           verse: /* Ephesians 2:8-9 */   'Romans 5:1',          verseRef: 'rom.5.1',    btbContext: 'FromDevoContent##eph.2.8-9@@Ephesians 2:8-9##Saved by Grace Through Faith'},
+     { publicationDate: 'Fri 06/26/2026',  topic: 'Built Up by Grace',            verse: /* Ephesians 2:8-10 */  'Acts 20:32',          verseRef: 'act.20.32',  btbContext: 'FromDevoContent##eph.2.8-10@@Ephesians 2:8-10##God’s sustaining grace'},
+     { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',    verse: /* Ephesians 2:19-22 */ '1 Corinthians 3:16',  verseRef: '1co.3.16',   btbContext: 'FromDevoContent##eph.2.19-22@@Ephesians 2:19-22##God Dwells Among His People'},
+     { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',          verse: /* Ephesians 4:1-3 */   'Romans 14:19',        verseRef: 'rom.14.19',  btbContext: 'FromDevoContent##eph.4.1-3@@Ephesians 4:1-3##Humility - the foundation for unity'},
+     { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse:   'Ephesians 4:32',                            verseRef: 'eph.4.32',   },
+     { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse:   'Ephesians 6:10',                            verseRef: 'eph.6.10',   },
+     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',      verseRef: 'gal.1.10',   btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},
    ]
 }) }M
 
@@ -157,7 +162,16 @@ M{ sermonSeries({
     { id: `20251102`, sermon: `A Prayer for You`,                    scripture: `eph.3@@Ephesians 3`,   },
     { id: `20251109`, sermon: `Putting Feet to Your Faith`,          scripture: `eph.4@@Ephesians 4–5`, },
     { id: `20251116`, sermon: `Marriage, Family, and Work`,          scripture: `eph.5@@Ephesians 5–6`, },
-    { id: `20251123`, sermon: `Stand Your Ground against the Enemy`, scripture: `eph.6@@Ephesians 6`,   },
+    { id: `20251123`, sermon: `Stand Your Ground against the Enemy`, scripture: `eph.6@@Ephesians 6`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 06/21/2026',
+           topic:               'Standing With God',
+           verse:               'Galatians 1:10',
+           verseRef:            'gal.1.10',
+        },
+      ],
+    },
   ]
 }) }M
 

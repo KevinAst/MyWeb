@@ -1,4 +1,4 @@
-# 1 Chronicles
+# M{ bibleLink(`1ch.1@@1 Chronicles`) }M
 
 The books of 1 and 2 Chronicles tell Israel's story from creation
 through exile, focusing on God's faithfulness to his promises despite
@@ -119,9 +119,11 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-1ch',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: /* 1 Chronicles 13,15 */ 'Proverbs 9:10',        verseRef: 'pro.9.10',    btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',    verse: /* 1 Chronicles 13,15 */ 'Psalms 24:3-4',        verseRef: 'psa.24.3-4',  btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
-     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',  verse: /* 1 Chronicles 22-28 */ '1 Corinthians 14:33',  verseRef: '1co.14.33',   btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',   },
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',  verse: /* 1 Chronicles 13,15 */    'Proverbs 9:10',        verseRef: 'pro.9.10',    btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',    verse: /* 1 Chronicles 13,15 */    'Psalms 24:3-4',        verseRef: 'psa.24.3-4',  btbContext: 'FromDevoContent##1ch.13@@1 Chronicles 13,15##David Brings the Ark to Jerusalem', },
+     { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',   verse: /* 1 Chronicles 22:6-13 */  '1 Corinthians 3:16',   verseRef: '1co.3.16',    btbContext: 'FromDevoContent##1ch.22.6-13@@1 Chronicles 22:6-13##Solomon’s Temple'},
+     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment', verse: /* 1 Chronicles 22,28 */    'Proverbs 3:5-6',       verseRef: 'pro.3.5-6',   btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22,28##The Lord Establishes Solomon',      },
+     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',  verse: /* 1 Chronicles 22-28 */    '1 Corinthians 14:33',  verseRef: '1co.14.33',   btbContext: 'FromDevoContent##1ch.22@@1 Chronicles 22-28##David - Setting Things in Order',   },
    ]
 }) }M
 

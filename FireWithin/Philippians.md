@@ -1,4 +1,4 @@
-# Philippians
+# M{ bibleLink(`php.1@@Philippians`) }M
 
 Philippians contains one of the oldest Christian hymns. It speaks of
 how Jesus, though exalted, was humbled to the cross. But because he
@@ -96,9 +96,13 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-php',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                         verse: /* Philippians 2:1–11    */ 'Romans 10:12',  verseRef: 'rom.10.12',    btbContext: 'FromDevoSermon##php.2.1–11@@Philippians 2:1–11##Unity through Humility', },
-     { publicationDate: 'Wed 02/18/2026',  topic: 'Shining as Lights in a Crooked Generation',  verse:   'Philippians 2:14–15',                     verseRef: 'php.2.14-15',  },
-     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: /* Philippians 3:7-10    */ 'Romans 5:3',    verseRef: 'rom.5.3',      btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },
+     { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                             verse: /* Philippians 1:12-14   */ 'Romans 8:28',     verseRef: 'rom.8.28',     btbContext: 'FromDevoContent##php.1.12-14@@Philippians 1:12-14##The Gospel Through Trials'},
+     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',                    verse: /* Philippians 1,4 */       'Colossians 4:5',  verseRef: 'col.4.5',      btbContext: 'FromDevoContent##php.1@@Philippians 1,4##Paul’s Ministry in Rome'},
+     { publicationDate: 'Sat 06/06/2026',  topic: 'One Savior for All',                         verse: /* Philippians 2:1–11    */ 'Romans 10:12',    verseRef: 'rom.10.12',    btbContext: 'FromDevoSermon##php.2.1–11@@Philippians 2:1–11##Unity through Humility', },
+     { publicationDate: 'Mon 07/06/2026',  topic: 'Be Strong in the Lord',                      verse: /* Philippians 2:8-11 */    '1 Kings 2:3',     verseRef: '1ki.2.3',      btbContext: 'FromDevoContent##php.2.8-11@@Philippians 2:8-11##Christ’s Perfect Obedience'},
+     { publicationDate: 'Wed 02/18/2026',  topic: 'Shining as Lights in a Crooked Generation',  verse:   'Philippians 2:14–15',                       verseRef: 'php.2.14-15',  },
+     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: /* Philippians 3:7-10    */ 'Romans 5:3',      verseRef: 'rom.5.3',      btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },
+     { publicationDate: 'Thu 06/18/2026',  topic: 'Learning From the Past',                     verse:   'Philippians 3:13',                          verseRef: 'php.3.13',     },
    ]
 }) }M
 

@@ -1,4 +1,4 @@
-# Esther
+# M{ bibleLink(`est.1@@Esther`) }M
 
 In the book of Esther, God is never mentioned, named, or prayed
 to. But despite this fact, God is always working to turn the plans of

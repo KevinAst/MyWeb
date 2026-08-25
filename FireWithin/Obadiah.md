@@ -1,4 +1,4 @@
-# Obadiah
+# M{ bibleLink(`oba.1@@Obadiah`) }M
 
 The book of Obadiah condemns the arrogance and pride of Edom, a
 brother nation to God’s chosen people, Israel. But Obadiah’s critique

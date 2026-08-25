@@ -1,4 +1,4 @@
-# Titus
+# M{ bibleLink(`tit.1@@Titus`) }M
 
 The island of Crete was known for immorality and its love for
 arguments and debate. Sadly, the culture of the island began to invade
@@ -91,7 +91,9 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',  verse: 'Titus 3:4-5',  verseRef: 'tit.3.4-5',  },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',     verse: /* Titus 2:11-13 */  '1 Thessalonians 4:16',  verseRef: '1th.4.16',   btbContext: 'FromDevoContent##tit.2.11-13@@Titus 2:11-13##Living for Christ’s Return'},
+     { publicationDate: 'Mon 08/17/2026',  topic: 'A Life Shaped by Godliness',  verse: /* Titus 2:11-14 */  '2 Timothy 3:5',         verseRef: '2ti.3.5',    btbContext: 'FromDevoContent##tit.2.11-14@@Titus 2:11-14##Grace That Transforms'},
+     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',            verse:   'Titus 3:4-5',                              verseRef: 'tit.3.4-5',  },
    ]
 }) }M
 

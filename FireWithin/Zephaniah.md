@@ -1,4 +1,4 @@
-# Zephaniah
+# M{ bibleLink(`zep.1@@Zephaniah`) }M
 
 The book of Zephaniah contains some of the most intense images of
 God's justice and hope found in the prophetic books. Zephaniah warns

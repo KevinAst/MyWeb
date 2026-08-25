@@ -1,4 +1,4 @@
-# Malachi
+# M{ bibleLink(`mal.1@@Malachi`) }M
 
 What happens when the priests who are supposed to clean others have
 become polluted themselves? Throughout Israel's history, the Levitical
