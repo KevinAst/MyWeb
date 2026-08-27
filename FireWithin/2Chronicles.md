@@ -120,6 +120,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',      verse: /* 2 Chronicles 6,7 */         '1 John 1:9',           verseRef: '1jn.1.9',    btbContext: 'FromDevoContent##2ch.6@@2 Chronicles 6,7##Solomon’s Prayer of Dedication'},
+     { publicationDate: 'Thu 08/27/2026',  topic: 'Bearing His Name',                  verse: /* 2 Chronicles 4:9-6:21 */    'Jeremiah 15:16',       verseRef: 'jer.15.16',  btbContext: 'FromDevoSermon##2ch.4@@2 Chronicles 4:9-6:21##Israel: The Land that Bears His Name'},
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                verse: /* 2 Chronicles 7:1-3 */       'Psalms 115:1',         verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##2ch.7.1-3@@2 Chronicles 7:1-3##God’s glory fills the temple'},
      { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',          verse: /* 2 Chronicles 11-12 */       'Psalms 51:17',         verseRef: 'psa.51.17',  btbContext: 'FromDevoContent##2ch.11@@2 Chronicles 11-12##Rehoboam, Shemaiah, and Humility Before God', },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',            verse: /* 2 Chronicles 17-20 */       'Jeremiah 33:3',        verseRef: 'jer.33.3',   btbContext: 'FromDevoContent##2ch.17@@2 Chronicles 17-20##King Jehoshaphat — Seeking God and Deliverance', },
@@ -159,7 +160,16 @@ M{ sermonSeries({
   entries: [
     { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,                        scripture: `2ch.1@@2 Chronicles 1-2`,           },
     { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,                                     scripture: `2ch.3@@2 Chronicles 3-4`,           },
-    { id: `20260415`, sermon: `Israel: The Land that Bears His Name`,                           scripture: `2ch.4@@2 Chronicles 4:9-6:21`,      },
+    { id: `20260415`, sermon: `Israel: The Land that Bears His Name`,                           scripture: `2ch.4@@2 Chronicles 4:9-6:21`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 08/27/2026',
+           topic:               'Bearing His Name',
+           verse:               'Jeremiah 15:16',
+           verseRef:            'jer.15.16',
+        },
+      ],
+    },
     { id: `20260422`, sermon: `From Sin To Restoration: The Pattern God Responds To`,           scripture: `2ch.6@@2 Chronicles 6:22-7:22`,     },
     { id: `20260429`, sermon: `Do People Hear and See the Lord Through You?`,                   scripture: `2ch.8@@2 Chronicles 8:1-9:12`,      },
     { id: `20260506`, sermon: `How to Make Wise Decisions`,                                     scripture: `2ch.9@@2 Chronicles 9:13-11:23`,    },
