@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 615**          _... categorized below!!_
+> <br/> **Albums: 616**          _... categorized below!!_
 > <br/> **Photos: 50,285**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -130,6 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 - 2026: [Mimi & Papaw's Summer Camp 8/2026](https://photos.google.com/share/AF1QipNlpDgAtgOtT0uq1oP26HdoiFcj3Fe3ED5HqeR9HOW0EbTZretVWdJWn9bFtWcPAw?key=U1FPbU9EalRwbVNPTUcwS2pyQzdWME1JY2xJNmtR) _(1,134 pics)_
+  * [Gigi's Swim Party (8/11/2026)](https://photos.google.com/share/AF1QipM-bqj__YvTvOJduIfI6bO3XUTIFEfOoJI8KeeCSqOwccb8SzOUAu72M_rZC8Vp5A?key=T2tLTEFXMk9SenotSEhLTmpKdHc4UzlCM1JGcFNB) _(29 pics)_ - extracted to give to Brooke/Gigi
 - 2025: [2025-08 Mimi & Papaw's Summer Camp](https://photos.google.com/share/AF1QipPNzIBUolkL1FIx8ljr_pLBWjkFBoOJYKzs0BpPuJ9Sgmnc1-5TT1zoC4GCvg7Psg?key=d1daMGw5VWJMUVQyYjlmSHpCQklIdWFtS1BhN2Nn) _(980 pics)_
 - 2025: [2025-07 Summer Camp Dry Run](https://photos.google.com/share/AF1QipPCXj9nvqqwA9PWYjVRzwliCeCncpsK_lGQv2Hlv2W3mbVXsTP99W_AXk6uNQqBpQ?key=UnVyeVA5X09Qd0RXUV9PbGotR2VVeEZTZVZQcUpR) _(7 pics)_
 - 2024: [Mimi & Papaw's Summer Camp 8/2024](https://photos.google.com/share/AF1QipNa1JnJtShfLc3hY_sP1_JtlAGm2lHHbLW5Kp5zeN9Vfy4EbaR4aC-0WXKDbJFYZw?key=eWZTUXBkVFEzV19EdFZOTFNrZ29LS1poQVpPdUZn) _(565 pics)_
