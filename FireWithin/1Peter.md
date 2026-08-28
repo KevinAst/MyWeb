@@ -97,7 +97,8 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-1pe',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 07/15/2026',  topic: 'Honoring God Above All',            verse: '1 Peter 2:13-14',   verseRef: '1pe.2.13-14', },
+     { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',        verse: /* 1 Peter 2:4-6 */  'Isaiah 28:16',   verseRef: 'isa.28.16',    btbContext: 'FromDevoContent##1pe.2.4-6@@1 Peter 2:4-6##Built on Christ, the Cornerstone'},
+     { publicationDate: 'Wed 07/15/2026',  topic: 'Honoring God Above All',            verse:   '1 Peter 2:13-14',                   verseRef: '1pe.2.13-14',  },
    ]
 }) }M
 

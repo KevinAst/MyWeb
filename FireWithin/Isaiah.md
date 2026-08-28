@@ -105,6 +105,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                       verseRef: 'isa.9.6',     },
+     { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',                  verse:   'Isaiah 28:16',                     verseRef: 'isa.28.16',   },
      { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
      { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse:   'Isaiah 45:5',                      verseRef: 'isa.45.5',    },
@@ -127,7 +128,16 @@ M{ sermonSeries({
     { id: `20180513`, sermon: `Mission Messiah: Jesus is Born`,            scripture: `isa.7@@Isaiah 7-9`,    },
     { id: `20180520`, sermon: `Who Is Satan?`,                             scripture: `isa.14@@Isaiah 14`,    },
     { id: `20180527`, sermon: `Perfect Peace`,                             scripture: `isa.24@@Isaiah 24-27`, },
-    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,    },
+    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 08/28/2026',
+           topic:               'Christ Our Sure Foundation',
+           verse:               'Isaiah 28:16',
+           verseRef:            'isa.28.16',
+        },
+      ],
+    },
     { id: `20180610`, sermon: `All Talk but No Walk`,                      scripture: `isa.29@@Isaiah 29`,    },
     { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`,
       relatedDevotions: [
