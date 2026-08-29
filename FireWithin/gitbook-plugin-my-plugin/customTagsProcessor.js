@@ -720,6 +720,7 @@ function studyGuideLink(ref) {
 //*   NOTE: This link interacts with fw.alterBibleVerseLink(), dynamically 
 //*         adjusting the href - honoring the UserPref: Bible Translation.
 //*-----------------------------------------------------------------------------
+// ?? enhance this code
 function bibleLink(_ref) {
 
   // parameter validation
@@ -741,6 +742,7 @@ function bibleLink(_ref) {
   entries.forEach( (entry) => {
 
     // split out the ref/title
+    // ?? add 3rd varible: bibleTranslation defaults to empty string ('') meaning: dynamically use preferred translation (defined in settings)
     let [ref, title] = entry.split('@@');
     // ... validate ref
     ref = ref.toLowerCase();
@@ -749,6 +751,8 @@ function bibleLink(_ref) {
     checkParam(crossRef, `ref ('${ref}') has a bible code that is NOT supported by YouVersion Bible App (the first part of the ref string parameter, delimited with @@ ... '${entry}')`);
     // ... validate title
     checkParam(title, `title is required (the second part of the ref string parameter, delimited with @@ ... '${entry}')`);
+    // ... validate bibleTranslation
+    // ?? NEW ... only when supplied
 
     // process optional cr/lf
     const isCR = title.startsWith('CR:');
@@ -762,6 +766,7 @@ function bibleLink(_ref) {
     // ... KEY FEATURE: style prevents scripture from wrapping
     // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
     ref = ref.toUpperCase();
+    // ?? THIS IS IT, we gen two different links depending on bibleTranslation
     content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
 
     // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
@@ -1239,6 +1244,7 @@ function memorizeVerse(namedParams={}) {
   //       ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
   //       BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
   //       just PUNT and dupicate it (for now)
+  // ?? convert this to a globals scope and rename to `bibleTranslations`, using  the identical structure found in fwSettings.js (to be able to extract the needed code) MINUS the seperation codes (used in the UI)
   const supportedTranslations = ['NLT', 'ESV', 'NIV', 'CSB', 'NET', 'NKJV', 'KJV', 'MSG', 'GNT', 'ICB', 'AMP', 'AMPC'];
 
   // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
