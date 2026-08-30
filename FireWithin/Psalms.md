@@ -119,6 +119,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                           verseRef: 'psa.90.10',   },
      { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                           verseRef: 'psa.115.1',   },
      { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',            verse: /* Psalms 115:1 */  '1 Corinthians 10:31',  verseRef: '1co.10.31',   btbContext: 'FromDevoContent##psa.115.1@@Psalms 115:1##God’s Glory, Not Ours'},
+     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',      verse: /* Psalms 119:11 */  '2 Corinthians 10:5',  verseRef: '2co.10.5',    btbContext: 'FromDevoContent##psa.119.11@@Psalms 119:11##God’s Word is a Guard Against Sin'},
      { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse:   'Psalms 121:4',                           verseRef: 'psa.121.4',   },
      { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',         verse: /* Psalms 103:10-12 */  '1 John 1:9',       verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.103.10-12@@Psalms 103:10-12##The Completeness of God’s Forgiveness'},
      { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse:   'Psalms 138:8',                           verseRef: 'psa.138.8',   },
