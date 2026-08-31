@@ -112,8 +112,8 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-rom',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse:   'Romans 1:20',                          verseRef: 'rom.1.20',     },
      { publicationDate: 'Sat 06/13/2026',  topic: 'Grace Greater Than Our Guilt',            verse:   'Romans 1:16',                          verseRef: 'rom.1.16',     },
+     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse:   'Romans 1:20',                          verseRef: 'rom.1.20',     },
      { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',                     verse:   'Romans 2:4',                           verseRef: 'rom.2.4',      },
      { publicationDate: 'Wed 08/12/2026',  topic: 'God Is Just and Salvation is in Christ',  verse:   'Romans 2:11',                          verseRef: 'rom.2.11',     },
      { publicationDate: 'Sat 08/29/2026',  topic: 'The Seriousness of Sin',                  verse:   'Romans 3:10',                          verseRef: 'rom.3.10',     },
