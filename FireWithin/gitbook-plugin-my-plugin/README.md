@@ -342,21 +342,24 @@ M{ studyGuideLink(`20210418`) }M
 
 Inject a Bible html link (via the `<a>` tag) for a specific verse.
 
-NOTE: This link dynamically adjusts to the User Preferences regarding
-the desired Bible Translation.
+NOTE: This macro can generate a bible link for a specific Bible Translation, 
+      or dynamically adjust to the user preferred Bible Translation.
 
 **Parms**:
 
 * ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
-       and title (delimited with @@).
+       and title (delimited with @@).  Optionally a third element can be supplied,
+       which is a specific bibleTranslation (e.g. NKJV)
 
-       Multiple Entries are supported (delimited with ##).
+  Multiple Entries are supported (delimited with ##).
  
-       Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
+  Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
 
   ```
   EXAMPLE:
-    - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+
+    - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry (dynamically referencing the User desired Bible Translation)
+    - 'rev.21.6-8@@Rev 21:6-8@@NKJV'                  <<< single entry (with a specific Bible Translation - NKJV)
     - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
     - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
   ```
