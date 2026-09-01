@@ -9,6 +9,30 @@ let config = undefined;
 //     we can retain this context for all to use
 let forPage = 'unknown';
 
+// Bible Translation Codes (as defined by YouVersion)
+// - this is a duplicate structure, mastered in fwSettings.js (minus the seperator codes - e.g. SEP1)
+//   ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
+//   * BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
+//   * just PUNT and dupicate it (for now)
+const bibleTranslations = {
+  NLT:  { code: '116',   desc: 'New Living Translation' },
+  ESV:  { code: '59',    desc: 'English Standard Ver 2016' },
+  NIV:  { code: '111',   desc: 'New International Ver' },
+  CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
+  NET:  { code: '107',   desc: 'New English Translation' },
+
+  NKJV: { code: '114',   desc: 'New King James Ver' },
+  KJV:  { code: '1',     desc: 'King James Ver' },
+
+  MSG:  { code: '97',    desc: 'The Message' },
+  GNT:  { code: '68',    desc: 'Good News Translation' },
+  ICB:  { code: '1359',  desc: `International Children's Bible` },
+
+  AMP:  { code: '1588',  desc: 'Amplified Bible' },
+  AMPC: { code: '8',     desc: 'Amplified Bible Classic' },
+};
+const _bibleTranslations = Object.keys(bibleTranslations); // ex: ['NLT', 'ESV', ...]
+
 // a cross-reference between scriptureCodes (used in the YouVersion Bible App)
 const scriptureCrossRef = {
   'gen': { name: 'Genesis',           book: 'Genesis' },
@@ -695,19 +719,21 @@ function studyGuideLink(ref) {
 //* 
 //* Inject a Bible html link (via the <a> tag) for a specific verse.
 //* 
-//* NOTE: This link dynamically adjusts to the User Preferences regarding
-//*       the desired Bible Translation.
+//* NOTE: This macro can generate a bible link for a specific Bible Translation, 
+//*       or dynamically adjust to the user preferred Bible Translation.
 //* 
 //* Parms:
 //*   - ref: The Bible verse, consisting of BOTH the ref (per the YouVersion API)
-//*          and title (delimited with @@).
+//*          and title (delimited with @@).  Optionally a third element can be supplied,
+//*          which is a specific bibleTranslation (e.g. NKJV)
 //* 
 //*          Multiple Entries are supported (delimited with ##).
 //* 
 //*          Line breaks can be optionally requested (between entries), by starting the entry with 'CR:'
 //* 
 //*          EXAMPLE:
-//*            - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry
+//*            - 'rev.21.6-8@@Rev 21:6-8'                        <<< single entry (dynamically referencing the User desired Bible Translation)
+//*            - 'rev.21.6-8@@Rev 21:6-8@@NKJV'                  <<< single entry (with a specific Bible Translation - NKJV)
 //*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@Rev 22:3'    <<< multiple entries
 //*            - 'rev.21.6-8@@Rev 21:6-8##rev.22.3@@CR:Rev 22:3' <<< multiple entries, with line breaks (cr/lf)
 //* 
@@ -717,10 +743,9 @@ function studyGuideLink(ref) {
 //* Replaced With:
 //*   <a href="#" onmouseover="fw.alterBibleVerseLink(event, 'rev.21.6-8')" target="_blank">Revelation 21:6-8</a>
 //* 
-//*   NOTE: This link interacts with fw.alterBibleVerseLink(), dynamically 
-//*         adjusting the href - honoring the UserPref: Bible Translation.
+//*   NOTE: Dynamic links are implemente by interacting with fw.alterBibleVerseLink(),
+//*         which adjusts the href - honoring the UserPref: Bible Translation.
 //*-----------------------------------------------------------------------------
-// ?? enhance this code
 function bibleLink(_ref) {
 
   // parameter validation
@@ -742,8 +767,7 @@ function bibleLink(_ref) {
   entries.forEach( (entry) => {
 
     // split out the ref/title
-    // ?? add 3rd varible: bibleTranslation defaults to empty string ('') meaning: dynamically use preferred translation (defined in settings)
-    let [ref, title] = entry.split('@@');
+    let [ref, title, bibleTranslation=''] = entry.split('@@');
     // ... validate ref
     ref = ref.toLowerCase();
     const bibleRefCode = ref.split('.')[0].toLowerCase(); // everything up to the first '.' ... EX: '1sa'
@@ -751,8 +775,10 @@ function bibleLink(_ref) {
     checkParam(crossRef, `ref ('${ref}') has a bible code that is NOT supported by YouVersion Bible App (the first part of the ref string parameter, delimited with @@ ... '${entry}')`);
     // ... validate title
     checkParam(title, `title is required (the second part of the ref string parameter, delimited with @@ ... '${entry}')`);
-    // ... validate bibleTranslation
-    // ?? NEW ... only when supplied
+    // ... validate bibleTranslation ... only when supplied
+    if (bibleTranslation) {
+      checkParam(_bibleTranslations.includes(bibleTranslation), `${bibleTranslation} is NOT a valid translation. Supported translations are: ${_bibleTranslations}`);
+    }
 
     // process optional cr/lf
     const isCR = title.startsWith('CR:');
@@ -766,8 +792,17 @@ function bibleLink(_ref) {
     // ... KEY FEATURE: style prevents scripture from wrapping
     // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
     ref = ref.toUpperCase();
-    // ?? THIS IS IT, we gen two different links depending on bibleTranslation
-    content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    // we generate two different links, depending on bibleTranslation
+    if (bibleTranslation) { // ... a specific bibleTranslation requested (typically because of quoted text on this page)
+      const bibleTranslationCode = bibleTranslations[bibleTranslation].code;
+      // verse link using the specifiect bible translation
+      content += `${crLf}<a href="https://bible.com/bible/${bibleTranslationCode}/${ref}.${bibleTranslation}" style="white-space: nowrap;" title="Launch this scripture in the Bible App (${bibleTranslation})" onclick="return fw.notifyUserOfAnyYouVersionIssues()" target="_blank">${title} (${bibleTranslation})</a>`;
+      // ⓘ info link with hover explanation ... linking to the preferred bibleTranslation of the user
+      content += `&nbsp;<a href="#" style="white-space: nowrap; font-size: 0.7em; font-weight: bold;" title="${bibleTranslation} was used because of quoted text on this page. Click this ⓘ icon to launch your preferred translation." onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">ⓘ</a>`;
+    }
+    else { // ... use the prefered bibleTranslation of the user
+      content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
+    }
 
     // generate a side-link that navigates to the FireWithin bible-book of the verse we are generating
     // ... ONLY generated when we are NOT already in this book
@@ -1239,14 +1274,6 @@ function memorizeVerse(namedParams={}) {
   // ... at minimum, must have one scripture text
   checkParam(textKeys.length > 0, `at least one translation scripture text must be supplied ... ex: text: { NLT: '... scripture text here' }`);
 
-  // supported translations (used in our build process)
-  // NOTE: The master source for this is found in fwSettings.js (see `bibleTranslations`)
-  //       ... c:/dev/MyWeb/FireWithin/js/fwSettings.js
-  //       BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
-  //       just PUNT and dupicate it (for now)
-  // ?? convert this to a globals scope and rename to `bibleTranslations`, using  the identical structure found in fwSettings.js (to be able to extract the needed code) MINUS the seperation codes (used in the UI)
-  const supportedTranslations = ['NLT', 'ESV', 'NIV', 'CSB', 'NET', 'NKJV', 'KJV', 'MSG', 'GNT', 'ICB', 'AMP', 'AMPC'];
-
   // ... a DEFAULT translation (for this memory verse) can optionally be defined BY specifing by a "*" suffix
   //     NOTE: When NO DEFAULT is is specified
   //           - We fallback to FireWithin "Bible Translation" Settings (at runtime)
@@ -1270,7 +1297,7 @@ function memorizeVerse(namedParams={}) {
     }
 
     // ... the translationKey must be a well known supported value
-    checkParam(supportedTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${supportedTranslations}`);
+    checkParam(_bibleTranslations.includes(key), `text.${key} is NOT a valid translation. Supported translations are: ${_bibleTranslations}`);
 
     // ... the text entry must be supplied as a string
     const scriptureText = text[key];
@@ -1882,7 +1909,6 @@ function devoGHStart(namedParams={}) {
     verse,
     verseRef,
     devoTranslation,
-    devoTranslationCode,
     devoTranslationText,
     relatedSermon,
     ...unknownNamedArgs
@@ -1913,10 +1939,6 @@ function devoGHStart(namedParams={}) {
   // ... devoTranslation
   checkParam(devoTranslation,               'devoTranslation is required');
   checkParam(isString(devoTranslation),     'devoTranslation must be a string (the YouVersion translation used in the devotion - EX: `NKJV`');
-
-  // ... devoTranslationCode
-  checkParam(devoTranslationCode,           'devoTranslationCode is required');
-  checkParam(isString(devoTranslationCode), 'devoTranslationCode must be a string (the YouVersion translation code used in the devotion - EX: `114`');
 
   // ... devoTranslationText
   checkParam(devoTranslationText,           'devoTranslationText is required');
@@ -2010,12 +2032,9 @@ function devoGHStart(namedParams={}) {
   content += `<p class="ellipsis-wrap">... ${subTopic}</p>\n\n`;
 
   // our devotion scripture reference
-  const devoVerseLink = bibleLink(`${verseRef}@@your preferred translation`);
-  // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
-  content += `<p><a title="Launch this scripture in the Bible App (${devoTranslation} quoted in this devotion)" href="https://bible.com/bible/${devoTranslationCode}/${verseRef.toUpperCase()}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
+  content += bibleLink(`${verseRef}@@${verse}@@${devoTranslation}`) + '\n';
   content += `<div class="indent">\n`;
   content += `  <p><em>${devoTranslationText}</em></p>\n`;
-  content += `  <p><em>${devoVerseLink} (via <a title="Go to Settings (where you can set your Preferred Bible Translation)" href="settings.html">Settings</a>)</em></p>\n`;
   content += `</div>\n\n`;
 
   // close indentation directive
