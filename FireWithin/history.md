@@ -109,6 +109,8 @@ Release           | What                 | *When*
   Bible Book Page (e.g. Genesis). 
   * They were inadvertently removed during some page restructuring,
     that disrupted their automatic addition.
+- Added support for the "New American Standard Bible - NASB 1995" Translation.
+  <br/>... see the {{book.BibleTranslation}} section of the {{book.Settings}} page.
 - ?? more
 
 
