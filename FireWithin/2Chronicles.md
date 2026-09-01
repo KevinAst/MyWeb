@@ -195,6 +195,7 @@ M{ sermonSeries({
     { id: `20260729`, sermon: `God's Wrath & Mercy`,                                                 scripture: `2ch.30@@2 Chronicles 30:1-31:7`,   },
     { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
     { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
+    { id: `20260826`, sermon: `Make Dust of Your Idols`,                                             scripture: `2ch.34@@2 Chronicles 34`,          },
   ]
 }) }M
 

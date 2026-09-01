@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v26.4](#v26_4)   | WIP TBD                            | *Aug 31, 2026*
+[v26.4](#v26_4)   | Sync Sermons and A Number of Fixes | *Sep 1, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
@@ -93,9 +93,14 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v26_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v26.4 - WIP TBD <i>(Aug 31, 2026)</i>
+  v26.4 - Sync Sermons and A Number of Fixes <i>(Sep 1, 2026)</i>
 </h3>
 <br/>
+
+- Synced Current Sermon Series
+  * {{book.Colossians}} Series (Sundays)
+  * {{book.2Chronicles}} Series (Mid Week)
+
 
 - ALL scripture references now support the reddish-tinted arrow, that
   takes you to the FireWithin Book for that scripture.  
@@ -108,14 +113,19 @@ Release           | What                 | *When*
   * Also the scripture references in the {{book.TCCharactersM}}
     section of {{book.TheChosen}} now emit the standard reddish-tinted
     arrow control.
+
+
 - Restored the "Book Completed" completion checkboxes to the top of each
   Bible Book Page (e.g. Genesis). 
   * They were inadvertently removed during some page restructuring,
     that disrupted their automatic addition.
+
+
 - Added support for the "New American Standard Bible - NASB 1995" Translation.
   <br/>... see the {{book.BibleTranslation}} section of the {{book.Settings}} page.
+
+
 - The sub-titles of all {{book.DailyDevotions}} now consistently end in a period.
-- ?? more
 
 
 
