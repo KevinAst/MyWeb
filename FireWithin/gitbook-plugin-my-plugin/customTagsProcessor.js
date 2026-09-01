@@ -798,7 +798,7 @@ function bibleLink(_ref) {
       // verse link using the specifiect bible translation
       content += `${crLf}<a href="https://bible.com/bible/${bibleTranslationCode}/${ref}.${bibleTranslation}" style="white-space: nowrap;" title="Launch this scripture in the Bible App (${bibleTranslation})" onclick="return fw.notifyUserOfAnyYouVersionIssues()" target="_blank">${title} (${bibleTranslation})</a>`;
       // ⓘ info link with hover explanation ... linking to the preferred bibleTranslation of the user
-      content += `&nbsp;<a href="#" style="white-space: nowrap;" title="${bibleTranslation} was used because of quoted text on this page. Click this ⓘ icon to launch your preferred translation." onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">ⓘ</a>`;
+      content += `&nbsp;<a href="#" style="white-space: nowrap; font-size: 0.7em; font-weight: bold;" title="${bibleTranslation} was used because of quoted text on this page. Click this ⓘ icon to launch your preferred translation." onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">ⓘ</a>`;
     }
     else { // ... use the prefered bibleTranslation of the user
       content += `${crLf}<a href="#" style="white-space: nowrap;" title="Launch this scripture in the Bible App" onclick="return fw.notifyUserOfAnyYouVersionIssues()" onmouseover="fw.alterBibleVerseLink(event, '${ref}')" target="_blank">${title}</a>`;
@@ -1909,7 +1909,6 @@ function devoGHStart(namedParams={}) {
     verse,
     verseRef,
     devoTranslation,
-    devoTranslationCode,
     devoTranslationText,
     relatedSermon,
     ...unknownNamedArgs
@@ -1940,10 +1939,6 @@ function devoGHStart(namedParams={}) {
   // ... devoTranslation
   checkParam(devoTranslation,               'devoTranslation is required');
   checkParam(isString(devoTranslation),     'devoTranslation must be a string (the YouVersion translation used in the devotion - EX: `NKJV`');
-
-  // ... devoTranslationCode
-  checkParam(devoTranslationCode,           'devoTranslationCode is required');
-  checkParam(isString(devoTranslationCode), 'devoTranslationCode must be a string (the YouVersion translation code used in the devotion - EX: `114`');
 
   // ... devoTranslationText
   checkParam(devoTranslationText,           'devoTranslationText is required');
@@ -2037,12 +2032,9 @@ function devoGHStart(namedParams={}) {
   content += `<p class="ellipsis-wrap">... ${subTopic}</p>\n\n`;
 
   // our devotion scripture reference
-  const devoVerseLink = bibleLink(`${verseRef}@@your preferred translation`);
-  // 06/2026: YouVersion decided that all scripture ref codes must be UPPER-CASE (else gens a "not found") ... only impacts YouVersion Web (NOT App)
-  content += `<p><a title="Launch this scripture in the Bible App (${devoTranslation} quoted in this devotion)" href="https://bible.com/bible/${devoTranslationCode}/${verseRef.toUpperCase()}.${devoTranslation}" target="_blank">${verse} ${devoTranslation}</a> <em>(devotion translation)</em></p>\n\n`;
+  content += bibleLink(`${verseRef}@@${verse}@@${devoTranslation}`) + '\n';
   content += `<div class="indent">\n`;
   content += `  <p><em>${devoTranslationText}</em></p>\n`;
-  content += `  <p><em>${devoVerseLink} (via <a title="Go to Settings (where you can set your Preferred Bible Translation)" href="settings.html">Settings</a>)</em></p>\n`;
   content += `</div>\n\n`;
 
   // close indentation directive

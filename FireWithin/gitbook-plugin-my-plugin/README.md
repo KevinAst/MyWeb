@@ -863,7 +863,6 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
     verse:               `Luke 17:28-30`,               // verse label
     verseRef:            `luk.17.28-30`,                // verse reference code (YouVersion format)
     devoTranslation:     `NKJV`,                        // translation used in the devotion (YouVersion format))
-    devoTranslationCode: `114`,                         // translation code used in the devotion (YouVersion format))
     devoTranslationText: `verse text here`,             // translation text displayed in the devotion
     relatedSermon:       `sermonId##sermonLinkRef##bibleLinkRef`, // related sermon (OPTIONAL)
                                                         // SUB-PARAMS:
