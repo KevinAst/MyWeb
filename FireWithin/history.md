@@ -114,6 +114,7 @@ Release           | What                 | *When*
     that disrupted their automatic addition.
 - Added support for the "New American Standard Bible - NASB 1995" Translation.
   <br/>... see the {{book.BibleTranslation}} section of the {{book.Settings}} page.
+- The sub-titles of all {{book.DailyDevotions}} now consistently end in a period.
 - ?? more
 
 
