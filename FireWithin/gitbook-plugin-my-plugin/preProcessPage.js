@@ -31,7 +31,7 @@ function preProcessPage(page) {
   //***
 
   // NOTES:
-  // - These pages uniquely contain an "Introduction**" sub-string (see conditional logic below)
+  // - These pages uniquely contain an "NIV Intro" sub-string (see conditional logic below)
   // - This is the same control that is accumulated in OldTestament.md / NewTestament.md
   // - This is accomplished BEFORE any customTag processing, because we inject customTags in this step!
   // - EXAMPLE:
@@ -41,9 +41,9 @@ function preProcessPage(page) {
   //           Book Completed
   //       </label>
   //     </div>
-  if ( page.content.includes('Introduction**') ) {
+  if ( page.content.includes('NIV Intro') ) {
     const bibleBook = page.path.replace('.md', '');
-    const checkBox  = completedCheckBox(`${bibleBook}@@Book Completed`)
+    const checkBox  = completedCheckBox(`${bibleBook}@@ Book Completed`)
     const bibleBookCompletedCntl = `<div style="text-align: right">${checkBox}</div>`;
     page.content = `${bibleBookCompletedCntl}\n\n${page.content}`;
   }
