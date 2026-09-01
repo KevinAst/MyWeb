@@ -134,6 +134,7 @@
     - [June](devo2026.md#june-2026)
     - [July](devo2026.md#july-2026)
     - [August](devo2026.md#august-2026)
+    - [September](devo2026.md#september-2026)
       * [02/17/2026 Devo](devo20260217.md)
       * [02/18/2026 Devo](devo20260218.md)
       * [02/19/2026 Devo](devo20260219.md)
@@ -330,6 +331,7 @@
       * [08/29/2026 Devo](devo20260829.md)
       * [08/30/2026 Devo](devo20260830.md)
       * [08/31/2026 Devo](devo20260831.md)
+      * [09/01/2026 Devo](devo20260901.md)
 
 ----
 - [Memorization](Memorization.md)

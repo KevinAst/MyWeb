@@ -119,6 +119,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse:   '2 Corinthians 9:7',                         verseRef: '2co.9.7',    },
      { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',     verse:   '2 Corinthians 10:5',                        verseRef: '2co.10.5',   },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',          verse: /* 2 Corinthians 11:23-28 */ 'Romans 5:3',     verseRef: 'rom.5.3',    btbContext: 'FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering', },
+     { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',         verse: /* 2 Corinthians 12:9-10 */  'Isaiah 35:3',    verseRef: 'isa.35.3',   btbContext: 'FromDevoContent##2co.12.9-10@@2 Corinthians 12:9-10##Strength in Weakness'},
    ]
 }) }M
 
