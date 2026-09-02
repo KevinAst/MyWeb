@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v26.4](#v26_4)   | Sync Sermons and A Number of Fixes | *Sep 1, 2026*
+[v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 2, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
@@ -93,7 +93,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v26_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v26.4 - Sync Sermons and A Number of Fixes <i>(Sep 1, 2026)</i>
+  v26.4 - Sync Sermons and Various Fixes <i>(Sep 2, 2026)</i>
 </h3>
 <br/>
 
@@ -113,6 +113,10 @@ Release           | What                 | *When*
   * Also the scripture references in the {{book.TCCharactersM}}
     section of {{book.TheChosen}} now emit the standard reddish-tinted
     arrow control.
+
+
+- The layout of the `Devotions "by the book"` section, found in each
+  book of the Bible, now uses 3 columns for desktop/laptop.
 
 
 - Restored the "Book Completed" completion checkboxes to the top of each
