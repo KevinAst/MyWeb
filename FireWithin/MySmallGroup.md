@@ -376,7 +376,7 @@ M{ sermonSeries({
 {{book.FBM}} ... FireWithin Study Link: {{book.Romans}}
 
 M{ sermonSeries({
-  collapsibleSectionID: 'SG20260607',
+  collapsibleSectionID: 'SG20260906',
   settings: {
     includeStudyGuide: false,
   },

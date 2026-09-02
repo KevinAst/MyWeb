@@ -120,6 +120,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse:   'Galatians 1:10',                         verseRef: 'gal.1.10',      },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',               verse:   'Galatians 1:10',                         verseRef: 'gal.1.10',      },
      { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',              verse: /* Galatians 2:11-14 */  'Mark 7:6-7',      verseRef: 'mrk.7.6-7',     btbContext: 'FromDevoContent##gal.2.11-14@@Galatians 2:11-14##Peter’s Struggle with Hypocrisy'},
+     { publicationDate: 'Mon 08/31/2026',  topic: 'Christ in You',                   verse: /* Galatians 2:20 */     'Colossians 1:27', verseRef: 'col.1.27',      btbContext: 'FromDevoContent##gal.2.20@@Galatians 2:20##Christ Lives in Me'},
      { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                   verse: /* Galatians 3:28  */    'John 17:20–21',   verseRef: 'jhn.17.20-21',  btbContext: 'FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ', },
      { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',               verse:   'Galatians 5:1',                          verseRef: 'gal.5.1',       },
      { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',               verse: /* Galatians 5:16-18 */  'Galatians 5:1',   verseRef: 'gal.5.1',       btbContext: 'FromDevoContent##gal.5.16-18@@Galatians 5:16-18##Walk by the Spirit'},

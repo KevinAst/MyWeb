@@ -97,6 +97,8 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',          verse: /* Colossians 1:13-14 */  'John 8:36',    verseRef: 'jhn.8.36',  btbContext: 'FromDevoContent##col.1.13-14@@Colossians 1:13-14##Delivered into Christ’s Kingdom'},
+     { publicationDate: 'Mon 08/31/2026',  topic: 'Christ in You',                        verse:   'Colossians 1:27',                      verseRef: 'col.1.27',  },
+     { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',               verse: /* Colossians 2:13-15 */  'Romans 16:20', verseRef: 'rom.16.20', btbContext: 'FromDevoContent##col.2.13-15@@Colossians 2:13-15##Christ’s Victory Over Darkness'},
      { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse:   'Colossians 3:1-2',                     verseRef: 'col.3.1-2', },
      { publicationDate: 'Tue 08/11/2026',  topic: 'Knowing the Will of God',              verse: /* Colossians 3:15-17 */  'Romans 12:2',  verseRef: 'rom.12.2',  btbContext: 'FromDevoSermon##col.3.15-17@@Colossians 3:15-17##Discerning God’s Will'},
      { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
@@ -133,7 +135,16 @@ M{ sermonSeries({
   },
   entries: [
     { id: `20180103`, scripture: `col.1@@Colossians 1:1-18`,    },
-    { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`, },
+    { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 08/31/2026',
+           topic:               'Christ in You',
+           verse:               'Colossians 1:27',
+           verseRef:            'col.1.27',
+        },
+      ],
+    },
     { id: `20180124`, scripture: `col.3@@Colossians 3:1-25`,    },
     { id: `20180131`, scripture: `col.4@@Colossians 4`,         },
   ]
@@ -167,6 +178,7 @@ M{ sermonSeries({
     },
     { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
     { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
+    { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    },
   ]
 }) }M
 

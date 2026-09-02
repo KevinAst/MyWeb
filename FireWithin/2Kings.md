@@ -108,8 +108,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-2ki',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',        verse: /* 2 Kings 1 */  'Romans 2:4',    verseRef: 'rom.2.4',     btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
-     { publicationDate: 'Tue 08/25/2026',  topic: 'Dig The Ditches',            verse:   '2 Kings 3:16-17',              verseRef: '2ki.3.16-17', },
+     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',        verse: /* 2 Kings 1 */  'Romans 2:4',               verseRef: 'rom.2.4',     btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
+     { publicationDate: 'Tue 08/25/2026',  topic: 'Dig The Ditches',            verse:   '2 Kings 3:16-17',                         verseRef: '2ki.3.16-17', },
+     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',       verse: /* 2 Kings 18-20 */  '1 Corinthians 10:31',  verseRef: '1co.10.31',   btbContext: 'FromDevoContent##2ki.18@@2 Kings 18-20##Hezekiah’s Pride'},
    ]
 }) }M
 

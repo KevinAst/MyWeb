@@ -105,7 +105,9 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                       verseRef: 'isa.9.6',     },
+     { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',                  verse:   'Isaiah 28:16',                     verseRef: 'isa.28.16',   },
      { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
+     { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',                      verse:   'Isaiah 35:3',                      verseRef: 'isa.35.3',    },
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
      { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse:   'Isaiah 45:5',                      verseRef: 'isa.45.5',    },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Isaiah 53:3   */ 'Galatians 1:10', verseRef: 'gal.1.10',    btbContext: 'FromDevoContent##isa.53.3@@Isaiah 53:3##Jesus endured rejection, but was faithful to His Father'},
@@ -127,7 +129,16 @@ M{ sermonSeries({
     { id: `20180513`, sermon: `Mission Messiah: Jesus is Born`,            scripture: `isa.7@@Isaiah 7-9`,    },
     { id: `20180520`, sermon: `Who Is Satan?`,                             scripture: `isa.14@@Isaiah 14`,    },
     { id: `20180527`, sermon: `Perfect Peace`,                             scripture: `isa.24@@Isaiah 24-27`, },
-    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,    },
+    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 08/28/2026',
+           topic:               'Christ Our Sure Foundation',
+           verse:               'Isaiah 28:16',
+           verseRef:            'isa.28.16',
+        },
+      ],
+    },
     { id: `20180610`, sermon: `All Talk but No Walk`,                      scripture: `isa.29@@Isaiah 29`,    },
     { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`,
       relatedDevotions: [
@@ -139,7 +150,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`, },
+    { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 09/01/2026',
+           topic:               'Strength in the Desert',
+           verse:               'Isaiah 35:3',
+           verseRef:            'isa.35.3',
+        },
+      ],
+    },
     { id: `20180701`, sermon: `Why Pray?`,                                 scripture: `isa.36@@Isaiah 36-38`, },
     { id: `20180722`, sermon: `A Tale of Two Glories`,                     scripture: `isa.39@@Isaiah 39-40`, },
     { id: `20180729`, sermon: `Don't Be Afraid`,                           scripture: `isa.41@@Isaiah 41-43`, },

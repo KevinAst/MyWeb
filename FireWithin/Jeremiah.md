@@ -105,6 +105,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',   verse:   'Jeremiah 2:13',                  verseRef: 'jer.2.13',   },
      { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
      { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
+     { publicationDate: 'Thu 08/27/2026',  topic: 'Bearing His Name',             verse:   'Jeremiah 15:16',                 verseRef: 'jer.15.16',  },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
      { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',      verse: /* Jeremiah 45 */  'Acts 23:11',    verseRef: 'act.23.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden', verse: /* Jeremiah 45 */  'Psalms 42:11',  verseRef: 'psa.42.11',  btbContext: 'FromDevoSermon##jer.45@@Jeremiah 45##Courage for the Discouraged'},

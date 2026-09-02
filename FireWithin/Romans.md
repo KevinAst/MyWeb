@@ -112,10 +112,11 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-rom',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse:   'Romans 1:20',                          verseRef: 'rom.1.20',     },
      { publicationDate: 'Sat 06/13/2026',  topic: 'Grace Greater Than Our Guilt',            verse:   'Romans 1:16',                          verseRef: 'rom.1.16',     },
+     { publicationDate: 'Wed 04/01/2026',  topic: 'God Reveals Himself to All',              verse:   'Romans 1:20',                          verseRef: 'rom.1.20',     },
      { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',                     verse:   'Romans 2:4',                           verseRef: 'rom.2.4',      },
      { publicationDate: 'Wed 08/12/2026',  topic: 'God Is Just and Salvation is in Christ',  verse:   'Romans 2:11',                          verseRef: 'rom.2.11',     },
+     { publicationDate: 'Sat 08/29/2026',  topic: 'The Seriousness of Sin',                  verse:   'Romans 3:10',                          verseRef: 'rom.3.10',     },
      { publicationDate: 'Wed 03/18/2026',  topic: 'The Grace That Covers Every Sin',         verse:   'Romans 3:23',                          verseRef: 'rom.3.23',     },
      { publicationDate: 'Wed 06/17/2026',  topic: 'Our Need for Christ',                     verse:   'Romans 3:23',                          verseRef: 'rom.3.23',     },
      { publicationDate: 'Tue 06/23/2026',  topic: 'None Righteous but Christ',               verse:   'Romans 3:23',                          verseRef: 'rom.3.23',     },
@@ -148,6 +149,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',                     verse:   'Romans 14:19',                         verseRef: 'rom.14.19',    },
      { publicationDate: 'Sun 08/02/2026',  topic: 'The God of Hope',                         verse:   'Romans 15:13',                         verseRef: 'rom.15.13',    },
      { publicationDate: 'Fri 07/31/2026',  topic: 'Guarding the Unity of Christ',            verse:   'Romans 16:17',                         verseRef: 'rom.16.17',    },
+     { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',                  verse:   'Romans 16:20',                         verseRef: 'rom.16.20',    },
    ]
 }) }M
 
@@ -345,7 +347,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Romans 16 (Part 2)`,  },
+    { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Romans 16 (Part 2)`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 09/02/2026',
+           topic:               'Stand Firm in the Lord',
+           verse:               'Romans 16:20',
+           verseRef:            'rom.16.20',
+        },
+      ],
+    },
   ]
 }) }M
 

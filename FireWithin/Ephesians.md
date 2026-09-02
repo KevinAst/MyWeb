@@ -105,6 +105,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',          verse: /* Ephesians 4:1-3 */   'Romans 14:19',        verseRef: 'rom.14.19',  btbContext: 'FromDevoContent##eph.4.1-3@@Ephesians 4:1-3##Humility - the foundation for unity'},
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse:   'Ephesians 4:32',                            verseRef: 'eph.4.32',   },
      { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse:   'Ephesians 6:10',                            verseRef: 'eph.6.10',   },
+     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',   verse: /* Ephesians 6:10-17 */ '2 Corinthians 10:5',  verseRef: '2co.10.5',   btbContext: 'FromDevoContent##eph.6.10-17@@Ephesians 6:10-17##Armed with God’s Truth'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',      verseRef: 'gal.1.10',   btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},
    ]
 }) }M

@@ -1170,11 +1170,11 @@ click to learn more** about their role in the series, including:
       <p>
         Jesus is recognized not only as the Messiah and Son of God, but also
         as the fulfillment of Old Testament prophecies 
-        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.5.17`)" target="_blank">Matthew 5:17</a>).
+        (M{ bibleLink(`mat.5.17@@Matthew 5:17`) }M).
         His teachings, death, and resurrection are the foundation of
         Christianity, as He offers salvation to all who believe 
-        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.16`)" target="_blank">John 3:16</a>;
-        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.4.12`)" target="_blank">Acts 4:12</a>).
+        (M{ bibleLink(`jhn.3.16@@John 3:16`) }M;
+        M{ bibleLink(`act.4.12@@Acts 4:12`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1243,18 +1243,18 @@ click to learn more** about their role in the series, including:
 
         to follow Him 
 
-        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-20`)" target="_blank">Matthew 4:18-20</a>; 
-        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-18`)" target="_blank">Mark 1:16-18</a>; 
-        <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.1-11`)" target="_blank">Luke 5:1-11</a>)
+        (M{ bibleLink(`mat.4.18-20@@Matthew 4:18-20`) }M; 
+        M{ bibleLink(`mrk.1.16-18@@Mark 1:16-18`) }M; 
+        M{ bibleLink(`luk.5.1-11@@Luke 5:1-11`) }M)
 
         and later becomes a leader among the apostles, known for his
         boldness, his denial of 
 
-        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.22.61-61`)" target="_blank">Luke 22:61-62</a>),
+        (M{ bibleLink(`luk.22.61-61@@Luke 22:61-62`) }M),
 
         and his role in spreading the early Christian church
 
-        (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.2.14-41`)" target="_blank">Acts 2:14-41</a>).
+        (M{ bibleLink(`act.2.14-41@@Acts 2:14-41`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1312,12 +1312,12 @@ click to learn more** about their role in the series, including:
   Andrew is mentioned in the Gospels as the first disciple called by
   Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.35-42`)" target="_blank">John 1:35-42</a>)
+  (M{ bibleLink(`jhn.1.35-42@@John 1:35-42`) }M)
 
   and plays a key role in bringing others to Christ, including his
   brother Simon Peter 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.41`)" target="_blank">John 1:41</a>).
+  (M{ bibleLink(`jhn.1.41@@John 1:41`) }M).
 
   Though he is often in the background, he is still recognized as an
   important figure in the early church.
@@ -1391,14 +1391,14 @@ click to learn more** about their role in the series, including:
   Big James is mentioned in the Gospels as one of the first disciples
   called by Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-22`)" target="_blank">Matthew 4:18-22</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-20`)" target="_blank">Mark 1:16-20</a>)
+  (M{ bibleLink(`mat.4.18-22@@Matthew 4:18-22`) }M; 
+  M{ bibleLink(`mrk.1.16-20@@Mark 1:16-20`) }M)
 
   and, along with his brother John, is known for his passionate
   dedication to Jesus. He is later martyred for his faith, becoming
   the first apostle to be killed 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.12.1-2`)" target="_blank">Acts 12:1-2</a>).
+  (M{ bibleLink(`act.12.1-2@@Acts 12:1-2`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1460,14 +1460,14 @@ click to learn more** about their role in the series, including:
   John, often referred to as the "beloved disciple," is prominently
   featured in the Gospels, particularly as the author of the 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1`)" target="_blank">Gospel of John</a>,
+  M{ bibleLink(`jhn.1@@Gospel of John`) }M,
 
   the three epistles of John, and the book of Revelation. He is known
   for his close relationship with Jesus and is present at key moments,
   such as the Last Supper and the crucifixion
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.13.23`)" target="_blank">John 13:23</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.26`)" target="_blank">19:26</a>).
+  (M{ bibleLink(`jhn.13.23@@John 13:23`) }M;
+  M{ bibleLink(`jhn.19.26@@19:26`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1525,19 +1525,19 @@ click to learn more** about their role in the series, including:
   Philip is mentioned in the Gospels as one of the first disciples
   called by Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.43-44`)" target="_blank">John 1:43-44</a>)
+  (M{ bibleLink(`jhn.1.43-44@@John 1:43-44`) }M)
 
   and plays a key role in bringing Nathanael to Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-46`)" target="_blank">John 1:45-46</a>).
+  (M{ bibleLink(`jhn.1.45-46@@John 1:45-46`) }M).
 
   He is also present at the feeding of the 5,000 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.6.5-7`)" target="_blank">John 6:5-7</a>)
+  (M{ bibleLink(`jhn.6.5-7@@John 6:5-7`) }M)
 
   and the request of the Greeks to see Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.20-22`)" target="_blank">John 12:20-22</a>).
+  (M{ bibleLink(`jhn.12.20-22@@John 12:20-22`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1580,17 +1580,17 @@ click to learn more** about their role in the series, including:
   Nathanael, also known as Bartholomew, is mentioned in the Gospels as
   a man of honest character 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.47`)" target="_blank">John 1:47</a>)
+  (M{ bibleLink(`jhn.1.47@@John 1:47`) }M)
 
   and is called by Jesus after
   Philip invites him to follow 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-51`)" target="_blank">John 1:45-51</a>).
+  (M{ bibleLink(`jhn.1.45-51@@John 1:45-51`) }M).
 
   He is also one of the apostles who witnesses Jesus'
   post-resurrection appearance by the Sea of Tiberias 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.21.2`)" target="_blank">John 21:2</a>).
+  (M{ bibleLink(`jhn.21.2@@John 21:2`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1634,13 +1634,13 @@ click to learn more** about their role in the series, including:
   Thomas, often referred to as "Doubting Thomas" due to his initial
   skepticism about Jesus' resurrection 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.24-29`)" target="_blank">John 20:24-29</a>),
+  (M{ bibleLink(`jhn.20.24-29@@John 20:24-29`) }M),
 
   is also known for his boldness in expressing loyalty to Jesus, as
   seen when he urges the disciples to go with Jesus to Judea despite
   the danger 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.16`)" target="_blank">John 11:16</a>).
+  (M{ bibleLink(`jhn.11.16@@John 11:16`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1688,13 +1688,13 @@ click to learn more** about their role in the series, including:
   Matthew, also known as Levi, is called by Jesus to follow Him while
   at his tax booth 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.9.9`)" target="_blank">Matthew 9:9</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.14`)" target="_blank">Mark 2:14</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.27`)" target="_blank">Luke 5:27</a>).
+  (M{ bibleLink(`mat.9.9@@Matthew 9:9`) }M; 
+  M{ bibleLink(`mrk.2.14@@Mark 2:14`) }M; 
+  M{ bibleLink(`luk.5.27@@Luke 5:27`) }M).
 
   He is traditionally credited with writing the 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.1`)" target="_blank">Gospel of Matthew</a>,
+  M{ bibleLink(`mat.1@@Gospel of Matthew`) }M,
 
   which emphasizes Jesus as the Messiah and the fulfillment of Old
   Testament prophecy.
@@ -1786,13 +1786,13 @@ click to learn more** about their role in the series, including:
   is mentioned briefly in the Gospels as one of the
   twelve apostles 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.10.3`)" target="_blank">Matthew 10:3</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.3.18`)" target="_blank">Mark 3:18</a>).
+  (M{ bibleLink(`mat.10.3@@Matthew 10:3`) }M; 
+  M{ bibleLink(`mrk.3.18@@Mark 3:18`) }M).
 
   He is known for asking Jesus during the Last Supper about His
   revelation to the disciples 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.14.22`)" target="_blank">John 14:22</a>).
+  (M{ bibleLink(`jhn.14.22@@John 14:22`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1839,8 +1839,8 @@ click to learn more** about their role in the series, including:
   often associated with the zealot movement which sought to overthrow
   Roman rule in Judea 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.6.15`)" target="_blank">Luke 6:15</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.13`)" target="_blank">Acts 1:13</a>).
+  (M{ bibleLink(`luk.6.15@@Luke 6:15`) }M;
+  M{ bibleLink(`act.1.13@@Acts 1:13`) }M).
 
   His designation as a Zealot highlights the diversity within Jesus'
   followers, as he was called to work alongside 
@@ -1889,13 +1889,13 @@ click to learn more** about their role in the series, including:
   Judas Iscariot is infamously known for betraying Jesus to the
   religious authorities for thirty pieces of silver 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.14-16`)" target="_blank">Matthew 26:14-16</a>). 
+  (M{ bibleLink(`mat.26.14-16@@Matthew 26:14-16`) }M). 
 
   Despite his role as the treasurer, his actions ultimately lead to
   his tragic end, with his betrayal marking a pivotal moment in the
   Passion narrative 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.3-10`)" target="_blank">Matthew 27:3-10</a>).
+  (M{ bibleLink(`mat.27.3-10@@Matthew 27:3-10`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1934,12 +1934,12 @@ click to learn more** about their role in the series, including:
       <p>
   Mary Magdalene is mentioned multiple times in the Bible, notably in
   
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.2`)" target="_blank">Luke 8:2</a>
+  M{ bibleLink(`luk.8.2@@Luke 8:2`) }M
 
   as a woman from whom seven demons had been cast out, and she is
   present at both the crucifixion and the resurrection of Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.1-18`)" target="_blank">John 20:1-18</a>).
+  (M{ bibleLink(`jhn.20.1-18@@John 20:1-18`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -1979,7 +1979,7 @@ click to learn more** about their role in the series, including:
   Tamar was uniquely created for The Chosen.  While the story of
   the paralytic lowered through the roof is found in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>,
+  M{ bibleLink(`mrk.2.1-12@@Mark 2:1-12`) }M,
 
   the people who assist him are not named in the biblical account.
       </p>
@@ -2066,7 +2066,7 @@ click to learn more** about their role in the series, including:
   Simon Peter had a wife.  Jesus heals Peter’s mother-in-law in
   passages such as 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>.
+  M{ bibleLink(`mat.8.14-15@@Matthew 8:14-15`) }M.
 
   This character is derived from this brief biblical reference.
       </p>
@@ -2107,13 +2107,13 @@ click to learn more** about their role in the series, including:
       <p>
   Joanna is a historical figure mentioned in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.3`)" target="_blank">Luke 8:3</a>
+  M{ bibleLink(`luk.8.3@@Luke 8:3`) }M
 
   as the wife of Chuza, Herod’s household manager.  She supported
   Jesus’s ministry and is also named among the women who witnessed the
   resurrection in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.24.10`)" target="_blank">Luke 24:10</a>.
+  M{ bibleLink(`luk.24.10@@Luke 24:10`) }M.
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2161,8 +2161,8 @@ click to learn more** about their role in the series, including:
   Salome is mentioned in the Bible as the mother of James and John,
   the sons of Zebedee 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.56`)" target="_blank">Matthew 27:56</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.40`)" target="_blank">Mark 15:40</a>),
+  (M{ bibleLink(`mat.27.56@@Matthew 27:56`) }M;
+  M{ bibleLink(`mrk.15.40@@Mark 15:40`) }M),
 
   and she is one of the women who followed Jesus and witnessed His
   crucifixion and resurrection.
@@ -2220,20 +2220,20 @@ click to learn more** about their role in the series, including:
       <p>
   Mary is a central figure in the Gospels, first introduced in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1`)" target="_blank">Luke 1</a>
+  M{ bibleLink(`luk.1@@Luke 1`) }M
 
   during the Annunciation; she is present throughout Jesus’s life,
   including at His birth 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2`)" target="_blank">Luke 2</a>),
+  (M{ bibleLink(`luk.2@@Luke 2`) }M),
 
   the crucifixion 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.25-27`)" target="_blank">John 19:25-27</a>),
+  (M{ bibleLink(`jhn.19.25-27@@John 19:25-27`) }M),
 
   and among the early believers after His resurrection 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.14`)" target="_blank">Acts 1:14</a>).
+  (M{ bibleLink(`act.1.14@@Acts 1:14`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2273,7 +2273,7 @@ click to learn more** about their role in the series, including:
   husband of Mary, though the Bible offers little detail about his
   later life.  He is last mentioned in the context of Jesus’s youth
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2.41-50`)" target="_blank">Luke 2:41-50</a>).
+  (M{ bibleLink(`luk.2.41-50@@Luke 2:41-50`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2329,16 +2329,16 @@ click to learn more** about their role in the series, including:
   John is prominently featured in all four Gospels, with his ministry
   of baptism and repentance preparing the way for Jesus 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.3.1-12`)" target="_blank">Matthew 3:1-12</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.4-8`)" target="_blank">Mark 1:4-8</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.3.1-20`)" target="_blank">Luke 3:1-20</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.19-34`)" target="_blank">John 1:19-34</a>). 
+  (M{ bibleLink(`mat.3.1-12@@Matthew 3:1-12`) }M;
+  M{ bibleLink(`mrk.1.4-8@@Mark 1:4-8`) }M;
+  M{ bibleLink(`luk.3.1-20@@Luke 3:1-20`) }M;
+  M{ bibleLink(`jhn.1.19-34@@John 1:19-34`) }M). 
 
   He is also mentioned as being imprisoned and executed by 
 
   <a href="#herod-antipas">King Herod Antipas</a>
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>).
+  (M{ bibleLink(`mrk.6.17-29@@Mark 6:17-29`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2386,8 +2386,8 @@ click to learn more** about their role in the series, including:
 
   Gospel of Luke
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">1:5-25</a>,
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.39-45`)" target="_blank">39-45</a>)
+  (M{ bibleLink(`luk.1.5-25@@1:5-25`) }M,
+  M{ bibleLink(`luk.1.39-45@@39-45`) }M)
 
   as the mother of John the Baptizer, whose miraculous conception
   parallels that of Jesus.  She is described as being in her old age
@@ -2430,7 +2430,7 @@ click to learn more** about their role in the series, including:
       <p>
   Zechariah is mentioned in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">Luke 1:5-25</a>
+  M{ bibleLink(`luk.1.5-25@@Luke 1:5-25`) }M
 
   as a priest who, after being visited by the angel Gabriel, was
   struck mute for his disbelief in the announcement of his son’s
@@ -2490,8 +2490,8 @@ click to learn more** about their role in the series, including:
       <p>
   Zebedee is mentioned briefly in the Gospels 
 
-  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.21`)" target="_blank">Matthew 4:21</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.19`)" target="_blank">Mark 1:19</a>),
+  (e.g., M{ bibleLink(`mat.4.21@@Matthew 4:21`) }M; 
+  M{ bibleLink(`mrk.1.19@@Mark 1:19`) }M),
 
   primarily as the father of James and John, the sons of thunder; he
   is part of the early group of disciples called by 
@@ -2541,7 +2541,7 @@ click to learn more** about their role in the series, including:
   Lazarus is best known in the Bible for being raised from the dead by
   Jesus in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.1-44`)" target="_blank">John 11:1-44</a>, 
+  M{ bibleLink(`jhn.11.1-44@@John 11:1-44`) }M, 
 
   an event that led many to believe in Jesus, but also contributed to
   the religious leaders plotting His death.
@@ -2588,11 +2588,11 @@ click to learn more** about their role in the series, including:
   Mary of Bethany appears in several key Gospel scenes, including
   sitting at Jesus’s feet to listen to His teaching 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+  (M{ bibleLink(`luk.10.38-42@@Luke 10:38-42`) }M)
 
   and anointing His feet with expensive perfume as an act of devotion
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.1-8`)" target="_blank">John 12:1-8</a>).
+  (M{ bibleLink(`jhn.12.1-8@@John 12:1-8`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2636,12 +2636,12 @@ click to learn more** about their role in the series, including:
   Martha is featured in the Gospels as a devoted follower of Jesus,
   known for her hospitality 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+  (M{ bibleLink(`luk.10.38-42@@Luke 10:38-42`) }M)
 
   and her confession of faith in Jesus as the Messiah before He raised
   her brother Lazarus from the dead 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.20-27`)" target="_blank">John 11:20-27</a>).
+  (M{ bibleLink(`jhn.11.20-27@@John 11:20-27`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -2672,7 +2672,7 @@ click to learn more** about their role in the series, including:
       <p>
   The woman at the well appears in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.4.1-42`)" target="_blank">John 4:1-42</a>,
+  M{ bibleLink(`jhn.4.1-42@@John 4:1-42`) }M,
 
   where 
 
@@ -2718,9 +2718,9 @@ click to learn more** about their role in the series, including:
       <p>
   Nicodemus appears in the Gospel of John 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.1-21`)" target="_blank">John 3:1-21</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.7.50-52`)" target="_blank">7:50-52</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.39-42`)" target="_blank">19:39-42</a>),
+  (M{ bibleLink(`jhn.3.1-21@@John 3:1-21`) }M;
+  M{ bibleLink(`jhn.7.50-52@@7:50-52`) }M;
+  M{ bibleLink(`jhn.19.39-42@@19:39-42`) }M),
 
   where he first visits Jesus at night to ask questions, later defends
   Him before the Sanhedrin, and finally helps bury Jesus with Joseph
@@ -2902,8 +2902,8 @@ click to learn more** about their role in the series, including:
       <p>
   Jairus is mentioned in the Gospels 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.21-43`)" target="_blank">Mark 5:21-43</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.40-56`)" target="_blank">Luke 8:40-56</a>)
+  (M{ bibleLink(`mrk.5.21-43@@Mark 5:21-43`) }M; 
+  M{ bibleLink(`luk.8.40-56@@Luke 8:40-56`) }M)
 
   as a synagogue ruler who pleads with Jesus to heal his dying
   daughter.  After her resurrection, Jairus's faith in Jesus is
@@ -2942,8 +2942,8 @@ click to learn more** about their role in the series, including:
 
   <a href="#jesus">Jesus</a>
 
-  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.57-68`)" target="_blank">Matthew 26:57-68</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.13-28`)" target="_blank">John 18:13-28</a>),
+  (e.g., M{ bibleLink(`mat.26.57-68@@Matthew 26:57-68`) }M; 
+  M{ bibleLink(`jhn.18.13-28@@John 18:13-28`) }M),
 
   and his actions are key in the plot to have Jesus crucified.
       </p>
@@ -3131,10 +3131,10 @@ click to learn more** about their role in the series, including:
 
   to crucifixion 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.11-26`)" target="_blank">Matthew 27:11-26</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.1-15`)" target="_blank">Mark 15:1-15</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.1-25`)" target="_blank">Luke 23:1-25</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.28-40`)" target="_blank">John 18:28-40</a>).
+  (M{ bibleLink(`mat.27.11-26@@Matthew 27:11-26`) }M; 
+  M{ bibleLink(`mrk.15.1-15@@Mark 15:1-15`) }M;
+  M{ bibleLink(`luk.23.1-25@@Luke 23:1-25`) }M;
+  M{ bibleLink(`jhn.18.28-40@@John 18:28-40`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -3168,7 +3168,7 @@ click to learn more** about their role in the series, including:
       <p>
   Claudia is briefly mentioned in 
 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.19`)" target="_blank">Matthew 27:19</a>,
+  M{ bibleLink(`mat.27.19@@Matthew 27:19`) }M,
 
   where she sends a message to her husband, Pontius Pilate, urging him
   to have nothing to do with condemning 
@@ -3219,7 +3219,7 @@ click to learn more** about their role in the series, including:
 
   <a href="#john-the-baptizer">John the Baptist</a>
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.14-29`)" target="_blank">Mark 6:14-29</a>)
+  (M{ bibleLink(`mrk.6.14-29@@Mark 6:14-29`) }M)
 
   and his role in the trial of 
 
@@ -3229,7 +3229,7 @@ click to learn more** about their role in the series, including:
 
   <a href="#pontius-pilate">Pilate</a>
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.6-12`)" target="_blank">Luke 23:6-12</a>).
+  (M{ bibleLink(`luk.23.6-12@@Luke 23:6-12`) }M).
       </p>
       <p>
         <a href="#characters">... back to Characters</a>
@@ -3272,7 +3272,7 @@ click to learn more** about their role in the series, including:
       <p>
   Herodias is mentioned in the Gospels 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>)
+  (M{ bibleLink(`mrk.6.17-29@@Mark 6:17-29`) }M)
 
   as the woman who orchestrated the beheading of John the Baptist,
   driven by her hatred for his condemnation of her marriage to Herod
@@ -3314,7 +3314,7 @@ click to learn more** about their role in the series, including:
       <p>
   Salome is mentioned in the Gospels 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.22-28`)" target="_blank">Mark 6:22-28</a>)
+  (M{ bibleLink(`mrk.6.22-28@@Mark 6:22-28`) }M)
 
   as the young woman who, at the prompting of her mother, requested
   the beheading of 
@@ -3365,9 +3365,9 @@ click to learn more** about their role in the series, including:
       <p>
   Simon Peter's mother-in-law is mentioned in the Gospels 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.29-31`)" target="_blank">Mark 1:29-31</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.4.38-39`)" target="_blank">Luke 4:38-39</a>),
+  (M{ bibleLink(`mat.8.14-15@@Matthew 8:14-15`) }M; 
+  M{ bibleLink(`mrk.1.29-31@@Mark 1:29-31`) }M;
+  M{ bibleLink(`luk.4.38-39@@Luke 4:38-39`) }M),
 
   though her name is not provided in the Bible.  Dasha is an addition
   for The Chosen to give her more depth in the story.
@@ -3410,8 +3410,8 @@ click to learn more** about their role in the series, including:
   While the Gospels recount the story of a paralytic being lowered
   through the roof for healing 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>;
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.17-26`)" target="_blank">Luke 5:17-26</a>),
+  (M{ bibleLink(`mrk.2.1-12@@Mark 2:1-12`) }M;
+  M{ bibleLink(`luk.5.17-26@@Luke 5:17-26`) }M),
 
   the Bible does not provide specific names for those involved,
   including Ethan.
@@ -3452,7 +3452,7 @@ click to learn more** about their role in the series, including:
       <p>
   While the Gospels mention a healing at the Pool of Bethesda 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.5.1-9`)" target="_blank">John 5:1-9</a>),
+  (M{ bibleLink(`jhn.5.1-9@@John 5:1-9`) }M),
 
   the Bible does not name Jesse as the one that was healed.
       </p>
@@ -3489,8 +3489,8 @@ click to learn more** about their role in the series, including:
   While the Bible recounts the story of a woman healed from a
   long-term hemorrhage 
 
-  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.25-34`)" target="_blank">Mark 5:25-34</a>; 
-  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.43-48`)" target="_blank">Luke 8:43-48</a>),
+  (M{ bibleLink(`mrk.5.25-34@@Mark 5:25-34`) }M; 
+  M{ bibleLink(`luk.8.43-48@@Luke 8:43-48`) }M),
 
   she is not named in the Gospels, and Veronica is an addition for the
   series.
