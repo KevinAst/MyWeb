@@ -149,6 +149,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',                     verse:   'Romans 14:19',                         verseRef: 'rom.14.19',    },
      { publicationDate: 'Sun 08/02/2026',  topic: 'The God of Hope',                         verse:   'Romans 15:13',                         verseRef: 'rom.15.13',    },
      { publicationDate: 'Fri 07/31/2026',  topic: 'Guarding the Unity of Christ',            verse:   'Romans 16:17',                         verseRef: 'rom.16.17',    },
+     { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',                  verse:   'Romans 16:20',                         verseRef: 'rom.16.20',    },
    ]
 }) }M
 
@@ -346,7 +347,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Romans 16 (Part 2)`,  },
+    { id: `20240901`, sermon: `Crushing Satan`,                               scripture: `rom.16@@Romans 16 (Part 2)`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 09/02/2026',
+           topic:               'Stand Firm in the Lord',
+           verse:               'Romans 16:20',
+           verseRef:            'rom.16.20',
+        },
+      ],
+    },
   ]
 }) }M
 
