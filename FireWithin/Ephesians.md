@@ -17,7 +17,6 @@ and is working within us to bring unity where there was division.
 - [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
 - [2017 Ephesians Series (Mid Week)](#2017-ephesians-series-mid-week)
 - [2025 Ephesians Series (Sundays)](#2025-ephesians-series-sundays)
-- [Ephesians Misc Selection](#ephesians-misc-selection)
 
 
 ## Ephesians Overview
@@ -173,22 +172,5 @@ M{ sermonSeries({
         },
       ],
     },
-  ]
-}) }M
-
-
-## Ephesians Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-eph-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210718`, sermon: `Who Are You Imitating? (Tony Clark)`,               scripture: `eph.5@@Ephesians 5`,       },
-    { id: `20230806`, sermon: `What does the Holy Spirit look like? (Tony Clark)`, scripture: `eph.5@@Ephesians 5:15-33`, },
-    { id: `20230823`, sermon: `The Heart of a Faithful Servant (Al Blake)`,        scripture: `eph.1@@Ephesians 1:1-13`,  },
   ]
 }) }M

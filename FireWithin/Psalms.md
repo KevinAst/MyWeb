@@ -16,7 +16,6 @@ wait in this earthly exile for his return.
 - [Psalms Overview](#psalms-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
-- [Psalms Misc Selection](#psalms-misc-selection)
 
 
 ## Psalms Overview
@@ -172,34 +171,5 @@ M{ sermonSeries({
     { id: `20171008`, sermon: `Pilgrim's Progress - Part 4/4`,                       scripture: `psa.131@@Psalms 131-138`,      },
     { id: `20171029`, sermon: `The Divine Attributes of a Personal God`,             scripture: `psa.139@@Psalms 139`,          },
     { id: `20171105`, sermon: `Ways to Praise`,                                      scripture: `psa.140@@Psalms 140-150`,      },
-  ]
-}) }M
-
-
-## Psalms Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-psa-MISC',
-  entries: [
-    { id: `20220123`, sermon: `The Value of Life`,                               scripture: `psa.103@@Psalms 103:2-4`, studyGuide: `NONE`, },
-    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 04/06/2026',
-           topic:               'The Lord as Our True Security',
-           verse:               'Psalms 33:12',
-           verseRef:            'psa.33.12',
-        },
-      ],
-    },
-    { id: `20220724`,                                                            scripture: `psa.33@@Psalms 33:12`,    studyGuide: `NONE`, sermon: `https://cornerstonechapel.net/teaching/blessed-in-the-nation-whose-god-is-the-lord/@@Blessed is the nation whose God is the Lord (Jim Garlow)`, },
-    { id: `20220914`, sermon: `God - The Holy Spirit (Tyler Hamrick)`,           scripture: `psa.139@@Psalms 139`,     studyGuide: `NONE`, },
-    { id: `20230702`, sermon: `Faith and Freedom`,                               scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
-    { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`, scripture: `psa.119@@Psalms 119`,     studyGuide: `NONE`, },
-    { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                 scripture: `psa.91@@Psalms 91`,                           },
-    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalms 27`,                            },
-    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalms 13`,                            },
   ]
 }) }M

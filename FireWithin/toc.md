@@ -118,8 +118,9 @@
   * [Easter](Easter.md)
   * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
-  * [David Guzik Bible Commentary](https://enduringword.com/)
+  * [Beyond the Series](BeyondTheSeries.md)
   * [Questions and Answers](QA.md)
+  * [David Guzik Bible Commentary](https://enduringword.com/)
   * [BEYOND a Billion](billion.md)
   * [My Small Group](MySmallGroup.md)
 

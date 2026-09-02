@@ -20,7 +20,6 @@ people.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Habakkuk Series (Mid Week)](#2012-habakkuk-series-mid-week)
 - [2020 Habakkuk Series (Sundays)](#2020-habakkuk-series-sundays)
-- [Habakkuk Misc Selection](#habakkuk-misc-selection)
 
 
 ## Habakkuk Overview
@@ -135,21 +134,5 @@ M{ sermonSeries({
         },
       ],
     },
-  ]
-}) }M
-
-
-
-## Habakkuk Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20220918`, sermon: `God, Help us! (Don McClure)`,                  scripture: `hab.1@@Habakkuk 1-2`, },
-    { id: `20230503`, sermon: `Don't Worry About The Wicked (Tyler Hamrick)`, scripture: `hab.1@@Habakkuk 1-3`, },
   ]
 }) }M

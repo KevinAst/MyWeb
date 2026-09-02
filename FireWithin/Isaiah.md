@@ -16,7 +16,6 @@ cross.
 - [Isaiah Overview](#isaiah-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Isaiah Series (Sundays)](#2018-isaiah-series-sundays)
-- [Isaiah Misc Selection](#isaiah-misc-selection)
 
 
 ## Isaiah Overview
@@ -181,23 +180,5 @@ M{ sermonSeries({
     { id: `20180930`, sermon: `The Year of the Lord's Favor`,              scripture: `isa.61@@Isaiah 61`,    },
     { id: `20181007`, sermon: `The Truth about the Human Condition`,       scripture: `isa.64@@Isaiah 64`,    },
     { id: `20181014`, sermon: `5 Marks of the Millennium`,                 scripture: `isa.65@@Isaiah 65`,    },
-  ]
-}) }M
-
-
-
-## Isaiah Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-isa-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20211003`, sermon: `Is Atheism Dead? (Eric Metaxas)`,     scripture: `isa.59@@Isaiah 59:19`,  },
-    { id: `20211121`, sermon: `The Days of Warning (Jonathan Cahn)`, scripture: `isa.9@@Isaiah 9:10`,    },
-    { id: `20211208`, sermon: `When God Speaks (Tyler Hamrick)`,     scripture: `isa.1@@Isaiah 1:10-20`, },
   ]
 }) }M

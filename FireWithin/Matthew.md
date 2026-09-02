@@ -16,7 +16,6 @@ how Jesus fulfills it.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
 - [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
-- [Matthew Misc Selection](#matthew-misc-selection)
 
 
 ## Matthew Overview
@@ -207,28 +206,5 @@ M{ sermonSeries({
     { id: `20210314`, sermon: `Get Ready ‘cause Here I Come Pt.2`,               scripture: `mat.25@@Matthew 25:1-13`,   },
     { id: `20210321`, sermon: `Get Ready ‘cause Here I Come Pt.3`,               scripture: `mat.25@@Matthew 25:14-30`,  },
     { id: `20210411`, sermon: `Am I a Convert or a Disciple?`,                   scripture: `mat.28@@Matthew 28:16-20`,  },
-  ]
-}) }M
-
-
-
-
-## Matthew Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-mat-MISC',
-  entries: [
-    { id: `20210328`, sermon: `The God of Second Chances`,              scripture: `mat.26@@Matthew 26`,          studyGuide: `NONE`, },
-    { id: `20211219`, sermon: `Prophecies about the First Christmas`,   scripture: `mat.1@@Matthew 1-2`,          studyGuide: `NONE`, },
-    { id: `20220420`, sermon: `His Name is Jesus (Lloyd Pulley)`,       scripture: `mat.1@@Matthew 1:21`,         studyGuide: `NONE`, },
-    { id: `20220626`, sermon: `The Ministry of Truth (Matthey Maher)`,  scripture: `mat.16@@Matthew 16`,          studyGuide: `NONE`, },
-    { id: `20221218`, sermon: `God Chose You (Tyler Hamrick)`,          scripture: `mat.1@@Matthew 1`,                                },
-    { id: `20221225`, sermon: `God’s Gift to the World`,                scripture: `mat.1@@Matthew 1`,            studyGuide: `NONE`, },
-    { id: `20230402`, sermon: `Followers in the Crowd (Mike McClure)`,  scripture: `mat.20@@Matthew 20:29-21:14`, studyGuide: `NONE`, },
-    { id: `20230813`, sermon: `When in the Wilderness (Tyler Hamrick)`, scripture: `mat.4@@Matthew 4:1-11`,                           },
-    { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,         scripture: `mat.25@@Matthew 25:14-30`,    studyGuide: `NONE`, },
-    { id: `20260503`, sermon: `A Call to Prayer (Al Pittman)`,          scripture: `mat.6@@Matthew 6:5-15`,       studyGuide: `NONE`, },
   ]
 }) }M

@@ -15,7 +15,6 @@ there freedom from the powers of guilt and shame.
 - [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
-- [Colossians Misc Selection](#colossians-misc-selection)
 
 
 ## Colossians Overview
@@ -179,22 +178,5 @@ M{ sermonSeries({
     { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
     { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
     { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    },
-  ]
-}) }M
-
-
-
-
-## Colossians Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20230301`, sermon: `The Work of Sanctification (Brian Shannon)`,         scripture: `col.3@@Colossians 3`, },
-    { id: `20230308`, sermon: `The Work of Sanctification Part II (Brian Shannon)`, scripture: `col.3@@Colossians 3`, },
   ]
 }) }M

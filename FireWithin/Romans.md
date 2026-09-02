@@ -28,7 +28,6 @@ Rome, and how Jesus brings them together.
 - [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
 - [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
-- [Romans Misc Selection](#romans-misc-selection)
 
 
 ## Romans Overview
@@ -357,23 +356,5 @@ M{ sermonSeries({
         },
       ],
     },
-  ]
-}) }M
-
-
-## Romans Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-rom-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210922`, sermon: `The True Nature of God (Barrett Phillips)`,    scripture: `rom.1@@Romans 1:16-25`, },
-    { id: `20210926`, sermon: `The Mystery of the Blindness (Amir Tsarfati)`, scripture: `rom.11@@Romans 11:25`,  },
-    { id: `20211017`, sermon: `Conformed or Transformed? (Tony Clark)`,       scripture: `rom.12@@Romans 12:1-2`, },
-    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,          scripture: `rom.13@@Romans 13`,     },
   ]
 }) }M

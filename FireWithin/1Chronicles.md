@@ -19,7 +19,6 @@ the true God.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2015 1 Chronicles Series (Sundays)](#2015-1-chronicles-series-sundays)
 - [2025 1 Chronicles Series (Mid Week)](#2025-1-chronicles-series-mid-week)
-- [1 Chronicles Misc Selection](#1-chronicles-misc-selection)
 
 
 ## 1 Chronicles Overview
@@ -166,20 +165,5 @@ M{ sermonSeries({
     { id: `20260218`, sermon: `When Success Becomes Sin: The Warning Behind David's Census (Pastor Tyler Hamrick)`, scripture: `1ch.20@@1 Chronicles 20:4-21:30`,  },
     { id: `20260225`, sermon: `Wisdom Is Greater Than Knowledge`,                                                   scripture: `1ch.22@@1 Chronicles 22-24`,       },
     { id: `20260304`, sermon: `Understanding God & Ourselves`,                                                      scripture: `1ch.24@@1 Chronicles 24:20-29:30`, },
-  ]
-}) }M
-
-
-## 1 Chronicles Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-1ch-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20220717`, sermon: `What are you counting? (Tony Perkins)`, scripture: `1ch.21@@1 Chronicles 21`, },
   ]
 }) }M

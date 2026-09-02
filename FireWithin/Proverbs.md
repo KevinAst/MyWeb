@@ -14,7 +14,6 @@ by Adam and Eve, earning the same result - death.
 - [Proverbs Overview](#proverbs-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2017 Proverbs Series (Sundays)](#2017-proverbs-series-sundays)
-- [Proverbs Misc Selection](#proverbs-misc-selection)
 
 
 ## Proverbs Overview
@@ -119,20 +118,5 @@ M{ sermonSeries({
     { id: `20171217`, sermon: `Proverbs Series (Part 5): Speech`,           scripture: `pro.1@@Proverbs`, },
     { id: `20180107`, sermon: `Proverbs Series (Part 6): Vices`,            scripture: `pro.1@@Proverbs`, },
     { id: `20180121`, sermon: `Proverbs Series (Part 7): Virtues`,          scripture: `pro.1@@Proverbs`, },
-  ]
-}) }M
-
-
-
-## Proverbs Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20220921`, sermon: `Saul and David (Andy Wagner)`, scripture: `pro.1@@Proverbs 1-3`, },
   ]
 }) }M

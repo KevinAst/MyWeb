@@ -19,7 +19,6 @@ the true God.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2015 2 Chronicles Series (Sundays)](#2015-2-chronicles-series-sundays)
 - [2026 2 Chronicles Series (Mid Week)](#2026-2-chronicles-series-mid-week)
-- [2 Chronicles Misc Selection](#2-chronicles-misc-selection)
 
 
 ## 2 Chronicles Overview
@@ -196,19 +195,5 @@ M{ sermonSeries({
     { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
     { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
     { id: `20260826`, sermon: `Make Dust of Your Idols`,                                             scripture: `2ch.34@@2 Chronicles 34`,          },
-  ]
-}) }M
-
-## 2 Chronicles Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-2ch-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20211205`, sermon: `The Battlefield of Blessing (Austin Hamrick)`, scripture: `2ch.20@@2 Chronicles 20`, },
   ]
 }) }M

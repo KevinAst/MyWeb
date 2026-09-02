@@ -7,7 +7,6 @@
 - [Election Day Sermons](#election-day-sermons)
 - [LGBTQ](#lgbtq)
 - [Moral Decay](#moral-decay)
-- [Misc](#misc)
 
 ## Life
 
@@ -30,7 +29,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20091025`, sermon: `Singleness, Marriage, Sex, and Divorce`,  scripture: `1co.7@@1 Corinthians 7`,       },
+    { id: `20091025`, sermon: `TXT@@Archived: Singleness, Marriage, Sex, and Divorce`,  scripture: `1co.7@@1 Corinthians 7`,  }, // Archived, but Study Guide still there
     { id: `20200830`, sermon: `Jesus on Divorce`,                        scripture: `mat.5.31-32@@Matthew 5:31-32`, },
     { id: `20230122`, sermon: `The God of Restoration`,                  scripture: `jhn.21@@John 21`,              },
     { id: `20230507`, sermon: `the-unashamed-life@@The Unashamed Life`,  scripture: `rom.1.16-17@@Romans 1:16-17`,  studyGuide: `NONE`, extraLinkInScriptureCell: `https://alandlisarobertson.com/our-story@@Al Robertson`, },
@@ -46,9 +45,16 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
+    {                 divider: `2012` },
     { id: `20121104`, sermon: `Election Day Sermon 2012`,                                                                                       studyGuide: `NONE`, },
+
+    {                 divider: `2014` },
     { id: `20140622`, sermon: `Making of a King, Journey of a Christian`,                             scripture: `1sa.8@@1 Samuel 8-11`,                            },
+
+    {                 divider: `2016` },
     { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
+
+    {                 divider: `2020` },
     { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`,
       relatedDevotions: [
         {
@@ -62,11 +68,37 @@ M{ sermonSeries({
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
+
+    {                 divider: `2021` },
+    { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,                                  scripture: `rom.13@@Romans 13`,           studyGuide: `NONE`, },
+
+    {                 divider: `2022` },
+    { id: `20220703`, sermon: `America’s Godly Heritage`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Mon 04/06/2026',
+           topic:               'The Lord as Our True Security',
+           verse:               'Psalms 33:12',
+           verseRef:            'psa.33.12',
+        },
+      ],
+    },
+
+    {                 divider: `2023` },
+    { id: `20230702`, sermon: `Faith and Freedom`,                                                    scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
+
+    {                 divider: `2024` },
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
     { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
     { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
+
+    {                 divider: `2025` },
     { id: `20250119`, sermon: `Donald Trump, the Church, and Israel`,                                 scripture: `psa.146@@Psalms 146`,         studyGuide: `NONE`  },
+
+    {                 divider: `2026` },
+    { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                   scripture: `heb.10@@Hebrews 10:22–25`,    studyGuide: `NONE`, }, 
     { id: `20260517`, sermon: `America’s Christian Heritage`,                                         scripture: `psa.33@@Psalm 33`,            studyGuide: `NONE`  },
+    { id: `20260705`, sermon: `Celebrating America 250 (Eric Metaxas)`,                                                                         studyGuide: `NONE`, },
   ]
 }) }M
 
@@ -103,29 +135,5 @@ M{ sermonSeries({
     { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalms 83`,                                    },
     { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
     { id: `20250504`, sermon: `Reclaiming the Cultural Mandate (Seth Gruber)`,           scripture: `gen.1@@Genesis 1`,                studyGuide: `NONE`, },
-  ]
-}) }M
-
-
-## Misc
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  entries: [
-    { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`,                                            scripture: `jhn.8@@John 8`,                   studyGuide: `NONE`, },
-    { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,                 scripture: `mat.28@@Matthew 28`,              studyGuide: `NONE`, },
-    { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,                  scripture: `heb.13@@Hebrews 13`,              studyGuide: `NONE`, },
-    { id: `20250810`, sermon: `Walk In The Light (Ryan Ries)`, extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`,    scripture: `jhn.12.31-33@@John 12:31-33`,     studyGuide: `NONE`, },
-    { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                                                         studyGuide: `NONE`, },
-    { id: `20260318`, sermon: `Nothing is Impossible with God`, extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`, studyGuide: `NONE`, }, 
-    { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                                                       scripture: `heb.10@@Hebrews 10:22–25`,        studyGuide: `NONE`, }, 
-    { id: `20260621`, sermon: `Have You Been Born Again? (Pastor Austin Hamrick)`,                                                        scripture: `jhn.3@@John 3`,                                       },
-    { id: `20260628`, sermon: `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`,                                     scripture: `1jn.4@@1 John 4`,                                     },
-    { id: `20260705`, sermon: `Celebrating America 250 (Eric Metaxas)`,                                                                                                                 studyGuide: `NONE`, },
-    { id: `20260708`, sermon: `God's Prescription for Happiness (Pastor Brian Shannon)`,                                                  scripture: `mat.5@@Matthew 5`,                studyGuide: `NONE`, },
-    { id: `20260712`, sermon: `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`,                                             scripture: `act.2@@Acts 2`,                                       },
-    { id: `20260719`, sermon: `The Results of Repentance (Pastor Austin Hamrick)`,                                                        scripture: `act.3@@Acts 3`,                                       },
-    { id: `20260805`, sermon: `Next Gen for Jesus Night (Helms Triplets)`,                                                                                                              studyGuide: `NONE`, },
   ]
 }) }M
