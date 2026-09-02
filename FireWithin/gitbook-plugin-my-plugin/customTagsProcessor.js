@@ -2407,6 +2407,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     // ... first column
     //     NOTE: the div checkbox-indent class indents subsequent lines, for the single column cell-phone rendition
     content += `<td><div class="checkbox-indent">`;
+    // TRACK Open Divs: Cell Phone: open, Desktop: open
 
     // Our Scripture Reference
     content += promotedVerse;
@@ -2418,6 +2419,7 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     else { // ... second column for laptop
       content += `</div></td><td><div class="checkbox-indent">`;
     }
+    // TRACK Open Divs: Cell Phone: open, Desktop: open
 
     // Completion Checkbox WITH Publication Date
     content += completedCheckBox(devoKey);
@@ -2426,18 +2428,25 @@ function expandDevoGHEntry(layout, entry, checkParam, styleClass) { // styleClas
     content += ` <a title="Go to this devotion" href="${devoKey}.html">${topic}</a>`;
 
     // ... responsive design
-    if (vertical) { //  ... additional indentation for cell-phone ... for any Additional Context
+    if (vertical) { // ... Additional Context HAS additional indentation for cell-phone
       content += `</div><div style="padding-left: 40px;">`; // ... we close out the checkbox-indent <div> and open a new <div> doubling it's indentation
     }
-    else {
-      content += `<br/>`;
+    else { // ... Additional Context HAS extra table column for desktop
+      content += `</div></td><td>`;
     }
+    // TRACK Open Divs: Cell Phone: open, Desktop: none
 
     // Additional Context (from btbContext)
     content += additionalContext;
 
+    // ... responsive design
+    if (vertical) { // ... close out additional indentation for cell-phone
+      content += `</div>`;
+    }
+    // TRACK Open Divs: Cell Phone: none, Desktop: none
+
     // ... close out our open table column
-    content += `</div></td>`;
+    content += `</td>`;
     
     // ... close out our table row
     content += `</tr>`;
