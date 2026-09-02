@@ -176,9 +176,9 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  studyGuide: `NONE`, }, // ?? L8TR: check lack of studyGuide
+    { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
     { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
-    { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    studyGuide: `NONE`, }, // ?? L8TR: check lack of studyGuide
+    { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    },
   ]
 }) }M
 
