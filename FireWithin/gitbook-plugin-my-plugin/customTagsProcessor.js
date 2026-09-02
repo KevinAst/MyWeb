@@ -15,21 +15,22 @@ let forPage = 'unknown';
 //   * BECAUSE this code is in the build process, I have NOT tried to cross the boundry to the run-time
 //   * just PUNT and dupicate it (for now)
 const bibleTranslations = {
-  NLT:  { code: '116',   desc: 'New Living Translation' },
-  ESV:  { code: '59',    desc: 'English Standard Ver 2016' },
-  NIV:  { code: '111',   desc: 'New International Ver' },
-  CSB:  { code: '1713',  desc: 'Christian Standard Bible' },
-  NET:  { code: '107',   desc: 'New English Translation' },
+  NLT:      { code: '116',   desc: 'New Living Translation' },
+  ESV:      { code: '59',    desc: 'English Standard Ver 2016' },
+  NIV:      { code: '111',   desc: 'New International Ver' },
+  CSB:      { code: '1713',  desc: 'Christian Standard Bible' },
+  NET:      { code: '107',   desc: 'New English Translation' },
+  NASB1995: { code: '100',   desc: 'New American Standard Bible - NASB 1995' },
 
-  NKJV: { code: '114',   desc: 'New King James Ver' },
-  KJV:  { code: '1',     desc: 'King James Ver' },
+  NKJV:     { code: '114',   desc: 'New King James Ver' },
+  KJV:      { code: '1',     desc: 'King James Ver' },
 
-  MSG:  { code: '97',    desc: 'The Message' },
-  GNT:  { code: '68',    desc: 'Good News Translation' },
-  ICB:  { code: '1359',  desc: `International Children's Bible` },
+  MSG:      { code: '97',    desc: 'The Message' },
+  GNT:      { code: '68',    desc: 'Good News Translation' },
+  ICB:      { code: '1359',  desc: `International Children's Bible` },
 
-  AMP:  { code: '1588',  desc: 'Amplified Bible' },
-  AMPC: { code: '8',     desc: 'Amplified Bible Classic' },
+  AMP:      { code: '1588',  desc: 'Amplified Bible' },
+  AMPC:     { code: '8',     desc: 'Amplified Bible Classic' },
 };
 const _bibleTranslations = Object.keys(bibleTranslations); // ex: ['NLT', 'ESV', ...]
 
