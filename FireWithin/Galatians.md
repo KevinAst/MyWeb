@@ -32,7 +32,6 @@ becomes more and more beautiful to you.
 
 - [Galatians Overview](#galatians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
@@ -128,24 +127,6 @@ M{ devoGHSeries({
      { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',  verse: /* Galatians 5     */    '1 Samuel 17:47',  verseRef: '1sa.17.47',     btbContext: 'FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit', },
      { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',    verse:   'Galatians 6:2',                          verseRef: 'gal.6.2',       },
    ]
-}) }M
-
-
-
-## 2010 Galatians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2025, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-gal-2010',
-  entries: [
-    { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Galatians 1-3`, },
-    { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Galatians 4-6`, },
-  ]
 }) }M
 
 

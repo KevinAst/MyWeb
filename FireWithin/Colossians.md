@@ -12,7 +12,6 @@ there freedom from the powers of guilt and shame.
 
 - [Colossians Overview](#colossians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
 
@@ -103,23 +102,6 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
      { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse:   'Colossians 4:5',                       verseRef: 'col.4.5',   },
    ]
-}) }M
-
-
-
-## 2010 Colossians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2026, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  entries: [
-    { id: `20100411`, sermon: `Dig Down, Grow Up, Stand Firm`,          scripture: `col.1@@Colossians 1-2`, },
-    { id: `20100418`, sermon: `Taking Off The Old, Putting On The New`, scripture: `col.3@@Colossians 3-4`, },
-  ]
 }) }M
 
 

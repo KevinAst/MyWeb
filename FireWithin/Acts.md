@@ -21,7 +21,6 @@ Jesus, the Gospel, and his Church.
 - [Acts Overview](#acts-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [Books](#books)
-- [2009 Acts Series (Sundays)](#2009-acts-series-sundays)
 - [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
 
@@ -161,37 +160,6 @@ Pastor Gary has written a book on Acts!
 
 - [Walking in the Spirit’s Power](https://www.amazon.com/Walking-Spirits-Power-Experiencing-Christianity-ebook/dp/B0H1F38CMY/):
   _A Chapter by Chapter Study of Acts for Experiencing Authentic Christianity (by Gary Hamrick)_
-
-
-
-## 2009 Acts Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2023, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-act-2009',
-  settings: {
-  //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
-  },
-  entries: [
-    { id: `20090419`, sermon: `The Purpose and Person of the Holy Spirit`, scripture: `act.1@@Acts 1`,      },
-    { id: `20090426`, sermon: `Pentecost: Then and Now`,                   scripture: `act.2@@Acts 2`,      },
-    { id: `20090503`, sermon: `The Baptism of the Holy Spirit`,            scripture: `act.3@@Acts 2-3`,    },
-    { id: `20090510`, sermon: `Civil Disobedience`,                        scripture: `act.4@@Acts 4-5`,    },
-    { id: `20090517`, sermon: `A Martyr's Mission`,                        scripture: `act.6@@Acts 6-7`,    studyGuide: `NONE`, },
-    { id: `20090524`, sermon: `Stop Kicking`,                              scripture: `act.8@@Acts 8-9`,    studyGuide: `NONE`, },
-    { id: `20090607`, sermon: `Don't Touch That!`,                         scripture: `act.10@@Acts 10-12`, studyGuide: `NONE`, },
-    { id: `20090614`, sermon: `Belief and Behavior`,                       scripture: `act.13@@Acts 13-15`, studyGuide: `NONE`, },
-    { id: `20090705`, sermon: `Same Message, Different Method`,            scripture: `act.16@@Acts 16-18`, studyGuide: `NONE`, },
-    { id: `20090712`, sermon: `Run the Race`,                              scripture: `act.19@@Acts 19-21`, studyGuide: `NONE`, },
-    { id: `20090726`, sermon: `A Clear Conscience`,                        scripture: `act.22@@Acts 22-25`, studyGuide: `NONE`, },
-    { id: `20090802`, sermon: `When Storms Come`,                          scripture: `act.26@@Acts 26-28`, studyGuide: `NONE`, },
-  ]
-}) }M
 
 
 ## 2015-2016 Acts Series (Mid Week)

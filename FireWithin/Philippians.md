@@ -13,7 +13,6 @@ of persecution because they know they will be exalted with Christ.
 
 - [Philippians Overview](#philippians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Philippians Series (Sundays)](#2010-philippians-series-sundays)
 - [2017 Philippians Series (Mid Week)](#2017-philippians-series-mid-week)
 - [2026 Philippians Series (Sundays)](#2026-philippians-series-sundays)
 
@@ -104,23 +103,6 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: /* Philippians 3:7-10    */ 'Romans 5:3',      verseRef: 'rom.5.3',      btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },
      { publicationDate: 'Thu 06/18/2026',  topic: 'Learning From the Past',                     verse:   'Philippians 3:13',                          verseRef: 'php.3.13',     },
    ]
-}) }M
-
-
-## 2010 Philippians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2026, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-php-2010',
-  entries: [
-    { id: `20100321`, sermon: `Finding Joy When Life Is Hard`, scripture: `php.1@@Philippians 1-4`, },
-    { id: `20100328`, sermon: `The Great Descent`,             scripture: `php.2@@Philippians 2`,   },
-  ]
 }) }M
 
 

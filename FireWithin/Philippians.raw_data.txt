@@ -6,6 +6,32 @@ NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-pag
 
 >>> NOW OBSOLETE, HOWEVER Study Guides are still available
 
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2010 Philippians Series (Sundays)](#2010-philippians-series-sundays)
+...
+
+## 2010 Philippians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-php-2010',
+  entries: [
+    { id: `20100321`, sermon: `Finding Joy When Life Is Hard`, scripture: `php.1@@Philippians 1-4`, },
+    { id: `20100328`, sermon: `The Great Descent`,             scripture: `php.2@@Philippians 2`,   },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
 03/28/2010
 The Great Descent
 Philippians 2

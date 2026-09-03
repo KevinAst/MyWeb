@@ -6,6 +6,31 @@ NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-pag
 
 >>> NOW OBSOLETE, HOWEVER Study Guides are still available
 
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
+...
+
+## 2010 Colossians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  entries: [
+    { id: `20100411`, sermon: `Dig Down, Grow Up, Stand Firm`,          scripture: `col.1@@Colossians 1-2`, },
+    { id: `20100418`, sermon: `Taking Off The Old, Putting On The New`, scripture: `col.3@@Colossians 3-4`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
 04/18/2010
 Taking Off The Old, Putting On The New
 Colossians 3-4

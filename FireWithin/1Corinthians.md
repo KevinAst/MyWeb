@@ -19,7 +19,6 @@ cross is the wisest thing that has ever happened.
 
 - [1 Corinthians Overview](#1-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
 - [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
@@ -109,30 +108,6 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',                 verse:   '1 Corinthians 14:33',                    verseRef: '1co.14.33',  },
      { publicationDate: 'Wed 07/22/2026',  topic: 'What Christ Has Restored',                   verse: /* 1 Corinthians 15 */     'Romans 5:19',   verseRef: 'rom.5.19',   btbContext: 'FromDevoContent##1co.15@@1 Corinthians 15##Adam and Christ - Two Representatives'},
    ]
-}) }M
-
-
-## 2009 1 Corinthians Series (Sundays)
-
-**Note:** _As of 2024, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-1co-2009',
-  entries: [
-    { id: `20090927`, sermon: `When Wisdom Seems Foolish`,              scripture: `1co.1@@1 Cor 1-3`,    },
-    { id: `20091004`, sermon: `Church Discipline`,                      scripture: `1co.4@@1 Cor 4-5`,    },
-    { id: `20091018`, sermon: `Lessons on Lawsuits`,                    scripture: `1co.6@@1 Cor 6`,      },
-    { id: `20091025`, sermon: `Singleness, Marriage, Sex, and Divorce`, scripture: `1co.7@@1 Cor 7`,      },
-    { id: `20091101`, sermon: `When Temptation Comes`,                  scripture: `1co.8@@1 Cor 8-10`,   },
-    { id: `20091108`, sermon: `Communion`,                              scripture: `1co.11@@1 Cor 11`,    },
-    { id: `20091115`, sermon: `Defining Spiritual Gifts`,               scripture: `1co.12@@1 Cor 12`,    },
-    { id: `20091122`, sermon: `Guidelines for Spiritual Gifts`,         scripture: `1co.13@@1 Cor 13-14`, },
-    { id: `20091129`, sermon: `Extreme Makeover: A Glorified Body`,     scripture: `1co.15@@1 Cor 15-16`, },
-  ]
 }) }M
 
 

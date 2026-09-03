@@ -14,7 +14,6 @@ and is working within us to bring unity where there was division.
 
 - [Ephesians Overview](#ephesians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
 - [2017 Ephesians Series (Mid Week)](#2017-ephesians-series-mid-week)
 - [2025 Ephesians Series (Sundays)](#2025-ephesians-series-sundays)
 
@@ -107,25 +106,6 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',   verse: /* Ephesians 6:10-17 */ '2 Corinthians 10:5',  verseRef: '2co.10.5',   btbContext: 'FromDevoContent##eph.6.10-17@@Ephesians 6:10-17##Armed with God’s Truth'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',      verseRef: 'gal.1.10',   btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},
    ]
-}) }M
-
-
-
-## 2010 Ephesians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2025, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-eph-2010',
-  entries: [
-    { id: `20100221`, sermon: `Our Spiritual Blessings in Christ`, scripture: `eph.1@@Ephesians 1-2`, },
-    { id: `20100307`, sermon: `Body Building`,                     scripture: `eph.3@@Ephesians 3-4`, },
-    { id: `20100314`, sermon: `Biblical Submission`,               scripture: `eph.5@@Ephesians 5-6`, },
-  ]
 }) }M
 
 

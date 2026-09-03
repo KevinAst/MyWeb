@@ -25,7 +25,6 @@ Rome, and how Jesus brings them together.
 
 - [Romans Overview](#romans-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
 - [2016 Romans Series (Mid Week)](#2016-romans-series-mid-week)
 - [2024 Romans Series (Sundays)](#2024-romans-series-sundays)
 
@@ -150,28 +149,6 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 07/31/2026',  topic: 'Guarding the Unity of Christ',            verse:   'Romans 16:17',                         verseRef: 'rom.16.17',    },
      { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',                  verse:   'Romans 16:20',                         verseRef: 'rom.16.20',    },
    ]
-}) }M
-
-
-
-## 2009 Romans Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2024, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-rom-2009',
-  entries: [
-    { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Romans 1-2`,    studyGuide: `NONE`, },
-    { id: `20090816`, sermon: `What a Gift!`,           scripture: `rom.3@@Romans 3-5`,    studyGuide: `NONE`, },
-    { id: `20090830`, sermon: `The Sin Battle`,         scripture: `rom.6@@Romans 6-8`,    studyGuide: `NONE`, },
-    { id: `20090906`, sermon: `Why Israel Matters`,     scripture: `rom.9@@Romans 9-11`,   },
-    { id: `20090913`, sermon: `Offering Your Body`,     scripture: `rom.12@@Romans 12-13`, },
-    { id: `20090920`, sermon: `Unity in the Church`,    scripture: `rom.14@@Romans 14-16`, },
-  ]
 }) }M
 
 

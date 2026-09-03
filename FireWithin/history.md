@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 3, 2026*
+[v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
@@ -93,7 +93,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v26_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v26.4 - Sync Sermons and Various Fixes <i>(Sep 3, 2026)</i>
+  v26.4 - Sync Sermons and Various Fixes <i>(Sep 34 2026)</i>
 </h3>
 <br/>
 
@@ -133,6 +133,17 @@ Release           | What                 | *When*
 
 - Added support for the "New American Standard Bible - NASB 1995" Translation.
   <br/>... see the {{book.BibleTranslation}} section of the {{book.Settings}} page.
+
+
+- Archived the following Sermon Series that are no longer available from the Cornerstone site:
+  * 2009 Acts Series (Sundays)
+  * 2009 Romans Series (Sundays)
+  * 2009 1 Corinthians Series (Sundays)
+  * 2009 2 Corinthians Series (Sundays)
+  * 2010 Galatians Series (Sundays)
+  * 2010 Ephesians Series (Sundays)
+  * 2010 Philippians Series (Sundays)
+  * 2010 Colossians Series (Sundays)
 
 
 - The sub-titles of all {{book.DailyDevotions}} now consistently end in a period.
