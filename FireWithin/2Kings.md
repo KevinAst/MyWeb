@@ -108,9 +108,10 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-2ki',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',        verse: /* 2 Kings 1 */  'Romans 2:4',               verseRef: 'rom.2.4',     btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
-     { publicationDate: 'Tue 08/25/2026',  topic: 'Dig The Ditches',            verse:   '2 Kings 3:16-17',                         verseRef: '2ki.3.16-17', },
-     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',       verse: /* 2 Kings 18-20 */  '1 Corinthians 10:31',  verseRef: '1co.10.31',   btbContext: 'FromDevoContent##2ki.18@@2 Kings 18-20##Hezekiah’s Pride'},
+     { publicationDate: 'Sun 08/16/2026',  topic: 'The Patience of God',          verse: /* 2 Kings 1 */  'Romans 2:4',               verseRef: 'rom.2.4',     btbContext: 'FromDevoContent##2ki.1@@2 Kings 1##King Ahaziah’s Unbelief'},
+     { publicationDate: 'Tue 08/25/2026',  topic: 'Dig The Ditches',              verse:   '2 Kings 3:16-17',                         verseRef: '2ki.3.16-17', },
+     { publicationDate: 'Thu 09/03/2026',  topic: 'The Simplicity of Obedience',  verse:   '2 Kings 5:14',                            verseRef: '2ki.5.14', },
+     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',         verse: /* 2 Kings 18-20 */  '1 Corinthians 10:31',  verseRef: '1co.10.31',   btbContext: 'FromDevoContent##2ki.18@@2 Kings 18-20##Hezekiah’s Pride'},
    ]
 }) }M
 
@@ -160,7 +161,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20250521`,                                              scripture: `2ki.4@@2 Kings 4:23-5:14`,     },
+    { id: `20250521`,                                              scripture: `2ki.4@@2 Kings 4:23-5:14`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 09/03/2026',
+           topic:               'The Simplicity of Obedience',
+           verse:               '2 Kings 5:14',
+           verseRef:            '2ki.5.14',
+        },
+      ],
+    },
     { id: `20250528`, sermon: `Teaching (Pastor Austin Hamrick)`,  scripture: `2ki.5@@2 Kings 5:14-6:6`,      },
     { id: `20250604`, sermon: `Teaching (Pastor Tyler Hamrick)`,   scripture: `2ki.6@@2 Kings 6:7-7:9`,       },
     { id: `20250611`, sermon: `Teaching (Pastor Andy Wagner)`,     scripture: `2ki.8@@2 Kings 8`,             },
