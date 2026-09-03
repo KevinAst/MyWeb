@@ -21,7 +21,7 @@ Jesus, the Gospel, and his Church.
 - [Acts Overview](#acts-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [Books](#books)
-- [2015-2016 Acts Series (Mid Week)](#2015-2016-acts-series-mid-week)
+- [2016 Acts Series (Mid Week)](#2016-acts-series-mid-week)
 - [2023 Acts Series (Sundays)](#2023-acts-series-sundays)
 
 
@@ -162,7 +162,7 @@ Pastor Gary has written a book on Acts!
   _A Chapter by Chapter Study of Acts for Experiencing Authentic Christianity (by Gary Hamrick)_
 
 
-## 2015-2016 Acts Series (Mid Week)
+## 2016 Acts Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 

@@ -21,7 +21,7 @@ will they endure persecution to receive what is better in Jesus?
 - [Hebrews Overview](#hebrews-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Hebrews Series (Sundays)](#2010-hebrews-series-sundays)
-- [2018-2019 Hebrews Series (Mid Week)](#2018-2019-hebrews-series-mid-week)
+- [2019 Hebrews Series (Mid Week)](#2019-hebrews-series-mid-week)
 
 
 ## Hebrews Overview
@@ -143,7 +143,7 @@ M{ sermonSeries({
 
 
 
-## 2018-2019 Hebrews Series (Mid Week)
+## 2019 Hebrews Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 

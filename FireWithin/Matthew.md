@@ -15,7 +15,7 @@ how Jesus fulfills it.
 - [Matthew Overview](#matthew-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
-- [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
+- [2020 Matthew Series (Sundays)](#2020-matthew-series-sundays)
 
 
 ## Matthew Overview
@@ -159,7 +159,7 @@ M{ sermonSeries({
 
 
 
-## 2020-2021 Matthew Series (Sundays)
+## 2020 Matthew Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

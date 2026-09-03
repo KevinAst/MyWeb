@@ -15,7 +15,7 @@ wait in this earthly exile for his return.
 
 - [Psalms Overview](#psalms-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
+- [2017 Psalms Series (Sundays)](#2017-psalms-series-sundays)
 
 
 ## Psalms Overview
@@ -127,7 +127,7 @@ M{ devoGHSeries({
 
 
 
-## 2016-2017 Psalms Series (Sundays)
+## 2017 Psalms Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

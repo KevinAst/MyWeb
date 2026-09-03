@@ -18,7 +18,7 @@ reign with Jesus.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [Books](#books)
 - [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
-- [2020-2021 Revelation Series (Mid Week)](#2020-2021-revelation-series-mid-week)
+- [2020 Revelation Series (Mid Week)](#2020-revelation-series-mid-week)
 
 
 ## Revelation Overview
@@ -172,7 +172,7 @@ M{ sermonSeries({
 }) }M
 
 
-## 2020-2021 Revelation Series (Mid Week)
+## 2020 Revelation Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 

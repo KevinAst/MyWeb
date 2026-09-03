@@ -15,7 +15,7 @@ did in his life prepares us for and informs us about his death.
 
 - [Mark Overview](#mark-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
+- [2014 Mark Series (Mid Week)](#2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 
 
@@ -105,7 +105,7 @@ M{ devoGHSeries({
 
 
 
-## 2013-2014 Mark Series (Mid Week)
+## 2014 Mark Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 

@@ -18,8 +18,8 @@ blindness, we can see him and the scriptures as they truly are.
 
 - [Luke Overview](#luke-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
-- [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
+- [2014 Luke Series (Mid Week)](#2014-luke-series-mid-week)
+- [2022 Luke Series (Sundays)](#2022-luke-series-sundays)
 
 
 ## Luke Overview
@@ -131,7 +131,7 @@ M{ devoGHSeries({
 
 
 
-## 2014-2015 Luke Series (Mid Week)
+## 2014 Luke Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
@@ -177,7 +177,7 @@ M{ sermonSeries({
 
 
 
-## 2021-2022 Luke Series (Sundays)
+## 2022 Luke Series (Sundays)
 
 {{book.CornerstoneChapel}}
 

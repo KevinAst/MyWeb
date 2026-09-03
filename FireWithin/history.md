@@ -146,6 +146,9 @@ Release           | What                 | *When*
   * 2010 Colossians Series (Sundays)
 
 
+- Simplified multi-year sermon series title by using a single "most prominent" year.
+
+
 - The sub-titles of all {{book.DailyDevotions}} now consistently end in a period.
 
 

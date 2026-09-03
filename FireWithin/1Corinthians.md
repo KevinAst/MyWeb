@@ -19,7 +19,7 @@ cross is the wisest thing that has ever happened.
 
 - [1 Corinthians Overview](#1-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2016-2017 1 Corinthians Series (Mid Week)](#2016-2017-1-corinthians-series-mid-week)
+- [2017 1 Corinthians Series (Mid Week)](#2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
 
@@ -111,7 +111,7 @@ M{ devoGHSeries({
 }) }M
 
 
-## 2016-2017 1 Corinthians Series (Mid Week)
+## 2017 1 Corinthians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
