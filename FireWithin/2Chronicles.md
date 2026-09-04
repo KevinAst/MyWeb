@@ -126,6 +126,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',          verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',        verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
      { publicationDate: 'Fri 08/07/2026',  topic: 'A Life Prepared Before the Lord',   verse:   '2 Chronicles 27:6',                                 verseRef: '2ch.27.6',   },
      { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',              verse: /* 2 Chronicles 32:24-29 */    '1 Corinthians 10:31',  verseRef: '1co.10.31',  btbContext: 'FromDevoContent##2ch.32.24-29@@2 Chronicles 32:24-29##Hezekiah’s Pride'},
+     { publicationDate: 'Fri 09/04/2026',  topic: 'Respond While God Is Speaking',     verse:   '2 Chronicles 36:15',                                verseRef: '2ch.36.15',  },
    ]
 }) }M
 
@@ -195,5 +196,15 @@ M{ sermonSeries({
     { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
     { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
     { id: `20260826`, sermon: `Make Dust of Your Idols`,                                             scripture: `2ch.34@@2 Chronicles 34`,          },
+    { id: `20260902`, sermon: `It’s Never Too Late to Return`,                                       scripture: `2ch.35@@2 Chronicles 35-36`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 09/04/2026',
+           topic:               'Respond While God Is Speaking',
+           verse:               '2 Chronicles 36:15',
+           verseRef:            '2ch.36.15',
+        },
+      ],
+    },
   ]
 }) }M

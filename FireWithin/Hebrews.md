@@ -108,6 +108,7 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 08/14/2026',  topic: 'Guarding Against Small Compromises',   verse: /* Hebrews 3:12-13 */  '1 Kings 8:61',     verseRef: '1ki.8.61',      btbContext: 'FromDevoContent##heb.3.12-13@@Hebrews 3:12-13##Guard Your Heart from Drifting'},
+     { publicationDate: 'Fri 09/04/2026',  topic: 'Respond While God Is Speaking',        verse: /* Hebrews 3:15 */  '2 Chronicles 36:15',  verseRef: '2ch.36.15',     btbContext: 'FromDevoContent##heb.3.15@@Hebrews 3:15##Respond Today'},
      { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',                 verse:   'Hebrews 4:12',                          verseRef: 'heb.4.12',      },
      { publicationDate: 'Sat 08/01/2026',  topic: 'Our Great High Priest',                verse:   'Hebrews 4:15',                          verseRef: 'heb.4.15',      },
      { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',         verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
