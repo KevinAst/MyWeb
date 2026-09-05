@@ -99,6 +99,7 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 04/19/2026',  topic: 'Reverence in Worship',                verse:   'Ecclesiastes 5:1',                      verseRef: 'ecc.5.1',   },
      { publicationDate: 'Thu 08/13/2026',  topic: 'Stand in Awe of God',                 verse:   'Ecclesiastes 5:1',                      verseRef: 'ecc.5.1',   },
      { publicationDate: 'Fri 03/06/2026',  topic: 'Guarding Our Words Before the Lord',  verse:   'Ecclesiastes 5:4',                      verseRef: 'ecc.5.4',   },
+     { publicationDate: 'Sat 09/05/2026',  topic: 'Life Under the Sun',                  verse:   'Ecclesiastes 12:13',                    verseRef: 'ecc.12.13', },
    ]
 }) }M
 
