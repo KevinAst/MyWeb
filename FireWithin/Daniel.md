@@ -108,6 +108,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',  verse: /* Daniel 1:1-8 */   'Romans 12:2',    verseRef: 'rom.12.2',  btbContext: `FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,  },
      { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',            verse: /* Daniel 1:8-21 */  'Colossians 4:5', verseRef: 'col.4.5',   btbContext: 'FromDevoSermon##dan.1.8-21@@Daniel 1:8-21##Faithfulness Rewarded'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                  verse: /* Daniel 6:10  */   'Galatians 1:10', verseRef: 'gal.1.10',  btbContext: 'FromDevoContent##dan.6.10@@Daniel 6:10##Daniel continued to pray in spite of great risk' },
+     { publicationDate: 'Sun 09/06/2026',  topic: 'His Kingdom Will Not Be Destroyed',  verse:   'Daniel 7:14',                       verseRef: 'dan.7.14',  },
    ]
 }) }M
 
