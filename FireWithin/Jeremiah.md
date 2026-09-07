@@ -104,6 +104,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse:   'Jeremiah 1:5',                   verseRef: 'jer.1.5',    },
      { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',   verse:   'Jeremiah 2:13',                  verseRef: 'jer.2.13',   },
      { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
+     { publicationDate: 'Mon 09/07/2026',  topic: 'Wisdom at the Crossroads',     verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
      { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
      { publicationDate: 'Thu 08/27/2026',  topic: 'Bearing His Name',             verse:   'Jeremiah 15:16',                 verseRef: 'jer.15.16',  },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
