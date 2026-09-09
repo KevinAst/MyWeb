@@ -19,6 +19,7 @@ oppressing them.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
 - [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
+- [2026 1 Thessalonians Series (Sundays)](#2026-1-thessalonians-series-sundays)
 
 
 ## 1 Thessalonians Overview
@@ -114,13 +115,17 @@ M{ devoGHSeries({
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 > NOTE: This series covers both First and Second Thessalonians
 
 M{ sermonSeries({
   entries: [
-    { id: `20100425`, sermon: `What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
-    { id: `20100502`, sermon: `What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
-    { id: `20100509`, sermon: `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+    { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
+    { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
+    { id: `20100509`, sermon:                `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
   ]
 }) }M
 
@@ -147,5 +152,16 @@ M{ sermonSeries({
     { id: `20180214`, scripture: `1th.2@@1 Thess 2-3`, },
     { id: `20180221`, scripture: `1th.4@@1 Thess 4`,   },
     { id: `20180307`, scripture: `1th.5@@1 Thess 5`,   },
+  ]
+}) }M
+
+
+## 2026 1 Thessalonians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
+    { id: `20260906`, sermon: `Delivered from God’s Wrath`,       scripture: `1th.1@@1 Thessalonians 1`,   }, // studyGuide: `NONE`, date:`09/06/2026`
   ]
 }) }M
