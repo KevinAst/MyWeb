@@ -102,6 +102,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 02/18/2026',  topic: 'Shining as Lights in a Crooked Generation',  verse:   'Philippians 2:14–15',                       verseRef: 'php.2.14-15',  },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',                      verse: /* Philippians 3:7-10    */ 'Romans 5:3',      verseRef: 'rom.5.3',      btbContext: 'FromDevoContent##php.3.7-10@@Philippians 3:7-10##Paul Persevered Through Suffering',  },
      { publicationDate: 'Thu 06/18/2026',  topic: 'Learning From the Past',                     verse:   'Philippians 3:13',                          verseRef: 'php.3.13',     },
+     { publicationDate: 'Thu 09/10/2026',  topic: 'Our Hope Is in Christ',                      verse:   'Philippians 3:20',                          verseRef: 'php.3.20',     },
    ]
 }) }M
 
