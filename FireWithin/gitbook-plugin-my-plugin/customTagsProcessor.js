@@ -575,7 +575,7 @@ function completedCheckBox(_id) {
   // ... we vary our hover tool-tip message DUE TO multi use of this macro
   const toolTipQualifier = additionalHTML.includes('audio-play') ? 'Audio Playback' : 'Completion Status';
   const toolTip          = `Toggle ${toolTipQualifier} (automatically saved)`;
-  return `${diag}<label><input title="${toolTip}" type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  return `${diag}<label title="${toolTip}"><input type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
 
 
