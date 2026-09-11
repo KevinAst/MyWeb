@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 618**          _... categorized below!!_
-> <br/> **Photos: 50,300**       _... Yikes!!!_
+> <br/> **Albums: 619**          _... categorized below!!_
+> <br/> **Photos: 50,305**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -594,6 +594,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Outings
 
 - 2026 09: [Flags of Valor - St. Louis (9/10/2026)](https://photos.google.com/share/AF1QipNnh7UxUJ9GiM844JExvtm9xoMtLjeUka1bFuAuhXv7iGrUmtj9x1nrLgjiI09Xtg?key=elRTNmNDb3ZHYlhERF9HZnR0T0N5QUwtWTFneE13) _(15 pics)_
+- 2026 09: [Allan & Millie host Kevin & Resa (9/8/2026)](https://photos.google.com/share/AF1QipNNF824Jj_tXxJ-ceKKtFisUid_Dx1Y9TyXEI3upwLwrNtWj8vYUgErRpp1CpqRTQ?key=aTZhYlVxT3lYWk1ZSno4eGNSTHlJTXJBdmR2cC1n) _(5 pics)_
 - 2026 08: [Greg & Mindy Pool Party (8/5/2026)](https://photos.google.com/share/AF1QipP5nqv3EYaHy2_dqq44DhZcDdyN3zoOzbTPULGrtvGQ2hcNV6t9bU6au5I7SQK1pw?key=U0lrYndaUndTTlR2RkRIUEkxU2NxbTdGZm5vZFRR) _(25 pics)_
 - 2026 07: [Six Flags Adventure (Mimi, Papaw, & Gaige) - 7/24/2026](https://photos.google.com/share/AF1QipPvchqw2lzlf7PZ5PvjIoQY23I9rzUpui1sIW1YPIgagcMU4ZVayphcFVkOdccUHg?key=OW9JRW04NW1RLTFtbTRFT1dhdTg5Z3hjeGJham9n) _(60 pics)_
 - 2026 XX: [Route 66 Centennial (2026)](https://photos.google.com/share/AF1QipNN2XaPooC1OUm4RnWWxAgJLNhblU9yi2bmqvPcTFk1A2iaDGrULatZ6hf5qglekA?key=WVJQU2I2ZTNpak8tN3pCdFhfSmc1VnpiNWoyaDhB) _(186 + ?x)_
