@@ -17,6 +17,7 @@ makes a way for us to live in his presence.
 
 - [Ezra Overview](#ezra-overview)
 - [2015 Ezra Series (Sundays)](#2015-ezra-series-sundays)
+- [2026 Ezra Series (Mid Week)](#2026-ezra-series-mid-week)
 
 
 ## Ezra Overview
@@ -120,5 +121,21 @@ M{ sermonSeries({
     { id: `20151129`, sermon: `Don't Let Yesterday Rob You of Today`,           scripture: `ezr.3@@Ezra 3:10-13`, },
     { id: `20151206`, sermon: `Expect Some Opposition`,                         scripture: `ezr.4@@Ezra 4-5`,     },
     { id: `20151213`, sermon: `The Beauty of Brokenness`,                       scripture: `ezr.6@@Ezra 6-10`,    },
+  ]
+}) }M
+
+
+
+## 2026 Ezra Series (Mid Week)
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  // collapsibleSectionID: 'ss-ezr-2026',
+  settings: {
+    includeStudyGuide: false,
+  },
+  entries: [
+    { id: `20260909`, sermon: `The God of Faithful Promises`,                        scripture: `ezr.1@@Ezra 1`,    },
   ]
 }) }M
