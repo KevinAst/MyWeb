@@ -104,8 +104,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-1th',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse: '1 Thessalonians 1:10',      verseRef: '1th.1.10',   },
-     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse: '1 Thessalonians 4:16',      verseRef: '1th.4.16',   },
+     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse:   '1 Thessalonians 1:10',                            verseRef: '1th.1.10',   },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse:   '1 Thessalonians 4:16',                            verseRef: '1th.4.16',   },
+     { publicationDate: 'Fri 09/11/2026',  topic: 'Stand Firm in the Truth',         verse: /* 1 Thessalonians 5:4-6 */  '2 Thessalonians 2:15', verseRef: '2th.2.15',   btbContext: 'FromDevoContent##1th.5.4-6@@1 Thessalonians 5:4-6##Children of Light'},
    ]
 }) }M
 

@@ -17,6 +17,7 @@ oppressing them.
 ### At a Glance
 
 - [2 Thessalonians Overview](#2-thessalonians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 2 Thessalonians Series (Sundays)](#2010-2-thessalonians-series-sundays)
 - [2018 2 Thessalonians Series (Mid Week)](#2018-2-thessalonians-series-mid-week)
 
@@ -88,6 +89,20 @@ M{ youTube(`Wb6Hhzl8Gyk`) }M
 P{ collapsibleSectionEnd() }P
 
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2th',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 09/11/2026',  topic: 'Stand Firm in the Truth',            verse: '2 Thessalonians 2:15',      verseRef: '2th.2.15',   },
+   ]
+}) }M
+
+
+
 ## 2010 2 Thessalonians Series (Sundays)
 
 {{book.CornerstoneChapel}}
@@ -117,7 +132,16 @@ M{ sermonSeries({
   },
   entries: [
     { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
-    { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,    },
+    { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 09/11/2026',
+           topic:               'Stand Firm in the Truth',
+           verse:               '2 Thessalonians 2:15',
+           verseRef:            '2th.2.15',
+        },
+      ],
+    },
     { id: `20180516`, scripture: `2th.2@@2 Thess 2:13-3:18`, },
   ]
 }) }M
