@@ -108,6 +108,7 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
      { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',                      verse:   'Isaiah 35:3',                      verseRef: 'isa.35.3',    },
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
+     { publicationDate: 'Sat 09/12/2026',  topic: 'Leave the Past Under Grace',                  verse:   'Isaiah 43:25',                     verseRef: 'isa.43.25',   },
      { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse:   'Isaiah 45:5',                      verseRef: 'isa.45.5',    },
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Isaiah 53:3   */ 'Galatians 1:10', verseRef: 'gal.1.10',    btbContext: 'FromDevoContent##isa.53.3@@Isaiah 53:3##Jesus endured rejection, but was faithful to His Father'},
      { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                    verseRef: 'isa.55.8-9',  },
@@ -162,7 +163,16 @@ M{ sermonSeries({
     { id: `20180701`, sermon: `Why Pray?`,                                 scripture: `isa.36@@Isaiah 36-38`, },
     { id: `20180722`, sermon: `A Tale of Two Glories`,                     scripture: `isa.39@@Isaiah 39-40`, },
     { id: `20180729`, sermon: `Don't Be Afraid`,                           scripture: `isa.41@@Isaiah 41-43`, },
-    { id: `20180805`, sermon: `Forget the Past`,                           scripture: `isa.43@@Isaiah 43`,    },
+    { id: `20180805`, sermon: `Forget the Past`,                           scripture: `isa.43@@Isaiah 43`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sat 09/12/2026',
+           topic:               'Leave the Past Under Grace',
+           verse:               'Isaiah 43:25',
+           verseRef:            'isa.43.25',
+        },
+      ],
+    },
     { id: `20180812`, sermon: `The One True God`,                          scripture: `isa.44@@Isaiah 44-49`,
       relatedDevotions: [
         {
