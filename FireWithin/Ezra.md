@@ -130,6 +130,8 @@ M{ sermonSeries({
 
 {{book.CornerstoneChapel}}
 
+**Note:** _This is the <mark>current Mid Week series</mark>, and will be updated as new sermons are published :-)_
+
 M{ sermonSeries({
   // collapsibleSectionID: 'ss-ezr-2026',
   settings: {

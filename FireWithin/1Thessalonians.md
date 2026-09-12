@@ -161,6 +161,8 @@ M{ sermonSeries({
 
 {{book.CornerstoneChapel}}
 
+**Note:** _This is the <mark>current Sunday series</mark>, and will be updated as new sermons are published :-)_
+
 M{ sermonSeries({
   entries: [
     { id: `20260906`, sermon: `Delivered from God’s Wrath`,       scripture: `1th.1@@1 Thessalonians 1`,   }, // studyGuide: `NONE`, date:`09/06/2026`
