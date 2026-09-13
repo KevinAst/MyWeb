@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
 > <br/> **Albums: 619**          _... categorized below!!_
-> <br/> **Photos: 50,305**       _... Yikes!!!_
+> <br/> **Photos: 50,516**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -209,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Juni Birthday
 
-- 09/2026: 5 [Juni is 5! (9/2026)](https://photos.google.com/share/AF1QipPgYigoUxubHAJisRNF_e7sDt6VNE7uFvv6kiEQTAuqmxhrAdAZC0OBiDwaHNHujQ?key=SkRjWW0tNzdNLUg3cWQ3WnBDY1VYeV9fWlE4Zk1n) _(?# pics)_
+- 09/2026: 5 [Juni is 5! (9/2026)](https://photos.google.com/share/AF1QipPgYigoUxubHAJisRNF_e7sDt6VNE7uFvv6kiEQTAuqmxhrAdAZC0OBiDwaHNHujQ?key=SkRjWW0tNzdNLUg3cWQ3WnBDY1VYeV9fWlE4Zk1n) _(211 pics)_
 - 10/2025: 4 [Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
 - 09/2025: 4 [Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
 - 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
