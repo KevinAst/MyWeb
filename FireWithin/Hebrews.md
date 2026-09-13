@@ -118,6 +118,7 @@ M{ devoGHSeries({
      { publicationDate: 'Wed 06/24/2026',  topic: 'Finishing the Race Well',              verse: /* Hebrews 12:1-2 */  'Acts 20:24',        verseRef: 'act.20.24',     btbContext: 'FromDevoContent##heb.12.1-2@@Hebrews 12:1-2##Fixing our eyes on Christ'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                    verse: /* Hebrews 12:2-3 */  'Galatians 1:10',    verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##heb.12.2-3@@Hebrews 12:2-3##Jesus endured rejection, but was faithful to His Father'},
      { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                verse:   'Hebrews 12:15',                         verseRef: 'heb.12.15',     },
+     { publicationDate: 'Sun 09/13/2026',  topic: 'The Better Mountain',                  verse:   'Hebrews 12:22,24',                      verseRef: 'heb.12.22-24',  },
    ]
 }) }M
 
@@ -180,6 +181,15 @@ M{ sermonSeries({
     { id: `20190313`, scripture: `heb.11@@Hebrews 11:33-40`,    },
     { id: `20190320`, scripture: `heb.12@@Hebrews 12:1-13`,     },
     { id: `20190327`, scripture: `heb.12@@Hebrews 12:14-17`,    },
-    { id: `20190403`, scripture: `heb.12@@Hebrews 12:18-13:25`, },
+    { id: `20190403`, scripture: `heb.12@@Hebrews 12:18-13:25`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Sun 09/13/2026',
+           topic:               'The Better Mountain',
+           verse:               'Hebrews 12:22,24',
+           verseRef:            'heb.12.22-24',
+        },
+      ],
+    },
   ]
 }) }M
