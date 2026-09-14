@@ -108,6 +108,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-ezk',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Mon 09/14/2026',  topic: 'God Gives a New Heart',                 verse: 'Ezekiel 36:26',     verseRef: 'ezk.36.26',   },
      { publicationDate: 'Mon 07/27/2026',  topic: 'The God Who Keeps His Promises',        verse: 'Ezekiel 37:14',     verseRef: 'ezk.37.14',   },
    ]
 }) }M
@@ -134,6 +135,12 @@ M{ sermonSeries({
            topic:               'The God Who Keeps His Promises',
            verse:               'Ezekiel 37:14',
            verseRef:            'ezk.37.14',
+        },
+        {
+           publicationDate:     'Mon 09/14/2026',
+           topic:               'God Gives a New Heart',
+           verse:               'Ezekiel 36:26',
+           verseRef:            'ezk.36.26',
         },
       ],
     },
