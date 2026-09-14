@@ -112,6 +112,11 @@
   * [Revelation](Revelation.md)
 
 ----
+- [Sermon Series](SermonSeries.md)
+  * [Current Series](SermonSeries.md#current-series)
+  * [Series History](SermonSeries.md#series-history)
+
+----
 - [Specials](SpecialEvents.md)
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
