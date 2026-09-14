@@ -28,8 +28,8 @@ Because sermon series are synchronized on a daily basis, you will not
 see this activity listed in the {{book.RevisionHistory}} _(a change
 implemented in the v27.0??LINK release)_.
 
-As a result, this table shows the complete history of each sermon
-series:
+As a result, the following table shows the complete history of each
+sermon series:
 
 - when it was introduced
 - whether it was a Sunday or Mid Week series
