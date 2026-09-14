@@ -1,8 +1,12 @@
 # Sermon Series
 
 The sermons of {{book.CornerstoneChapel}} work sequentially through
-the Bible verse-by-verse.  At any given time there are two active
-sermon series: one for **Sundays** and the other for **Mid Week**.
+the Bible verse-by-verse.  This is what makes it possible to use as a
+supplement to your Bible Study.
+
+At any given time there are two active sermon series: 
+- one for **Sundays** 
+- and the other for **Mid Week**.
 
 ### At a Glance
 
@@ -11,7 +15,7 @@ sermon series: one for **Sundays** and the other for **Mid Week**.
 
 ## Current Series
 
-Here are the sermon series that are currently active now:
+These are the sermon series that are currently active now:
 
 - {{book.CurSermonSeries_Sundays}}
 - {{book.CurSermonSeries_MidWeek}}
@@ -25,8 +29,8 @@ of the Bible _(ex: {{book.Matthew}})_.
 ## Series History
 
 Because sermon series are synchronized on a daily basis, you will not
-see this activity listed in the {{book.RevisionHistory}} _(a change
-implemented in the v27.0??LINK release)_.
+see this activity listed in the {{book.RevisionHistory}}.  This was a
+change that was implemented in the v27.0??LINK release.
 
 As a result, the following table shows the complete history of each
 sermon series:
