@@ -78,9 +78,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20120822`, scripture: `oba.1@@Obadiah 1`, },
   ]

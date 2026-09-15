@@ -389,9 +389,7 @@ content of an entire sermon series.
                                    // - OPTIONAL: when omitted, NO CollapsibleSection is generated
                                    // - must be unique (if not, will impact other collapsible states across the site)
                                    // - suggested format: ss-mat-2026 (for SermonSeries-Matthew-2026 ... auto prefixed with `collapsibleSect_`)
-    settings: { // settings impacting entire series (OPTIONAL)
-      includeStudyGuide: boolean, // directive include/omit StudyGuide column (DEFAULT: true)
-    },
+    includeStudyGuide: boolean,    // directive include/omit StudyGuide column (DEFAULT: true)
     entries: [ // series entries (in order of display)
       { // individual entry
         divider:   string,   // SPECIAL CASE: divider label entry (when used only param needed)
@@ -483,9 +481,7 @@ M{ sermonSeries({
 ```js
 // see: New testament / Mark / 2013-2014 Mark Series (Mid Week)
 M{ sermonSeries({
-  settings: {
   includeStudyGuide: false,
-  },
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
     { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },
@@ -537,9 +533,7 @@ M{ sermonSeries({
 
 // see: Specials / Current Events / Moral Decay
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`, },
     { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },

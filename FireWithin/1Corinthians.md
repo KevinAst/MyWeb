@@ -117,9 +117,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1co-2016',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20161019`,                                           scripture: `1co.1@@1 Cor 1`,             },
     { id: `20161026`,                                           scripture: `1co.2@@1 Cor 2-3`,           },

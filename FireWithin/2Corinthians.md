@@ -130,9 +130,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2co-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20170405`, scripture: `2co.1@@2 Cor 1:1-11`,       },
     { id: `20170419`, scripture: `2co.1@@2 Cor 1:12-2:17`,    },

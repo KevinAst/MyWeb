@@ -154,9 +154,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ch-2026',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,                        scripture: `2ch.1@@2 Chronicles 1-2`,           },
     { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,                                     scripture: `2ch.3@@2 Chronicles 3-4`,           },

@@ -122,9 +122,7 @@ M{ sermonSeries({
 ## Moral Decay
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: true,
-  },
+  includeStudyGuide: true,
   entries: [
     { id: `20071003`, sermon: `https://www.youtube.com/watch?v=zF5bPI92-5o@@The God Delusion Debate - Richard Dawkins vs John Lennox`, studyGuide: `NONE`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`,    },
     { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`,                    studyGuide: `NONE`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`,   },

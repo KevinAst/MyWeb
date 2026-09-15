@@ -134,9 +134,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   // collapsibleSectionID: 'ss-ezr-2026',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20260909`, sermon: `The God of Faithful Promises`,                        scripture: `ezr.1@@Ezra 1`,    },
   ]

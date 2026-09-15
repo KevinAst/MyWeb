@@ -146,9 +146,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1ki-2024',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20240403`, scripture: `1ki.1@@1 Kings 1`,            },
     { id: `20240417`, scripture: `1ki.2@@1 Kings 2`,            },

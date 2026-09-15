@@ -131,9 +131,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gen-2010',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20101110`,                                    scripture: `gen.1@@Genesis Intro`,    },
     { id: `20101117`,                                    scripture: `gen.1@@Gen 1:1-2`,        },

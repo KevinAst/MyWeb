@@ -111,9 +111,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mrk-2013',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
     { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },

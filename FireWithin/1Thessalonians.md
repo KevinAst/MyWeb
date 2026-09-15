@@ -136,9 +136,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20180207`, scripture: `1th.1@@1 Thess 1`,
       relatedDevotions: [

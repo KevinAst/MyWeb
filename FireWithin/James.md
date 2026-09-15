@@ -121,9 +121,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20190424`, scripture: `jas.1@@James 1:1-8`,          },
     { id: `20190501`, scripture: `jas.1@@James 1:9-20`,         },

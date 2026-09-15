@@ -121,9 +121,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mat-2013',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20130206`, scripture: `mat.1@@Matthew 1:1-17`,        },
     { id: `20130213`, scripture: `mat.1@@Matthew 1:18-2:23`,     },

@@ -119,9 +119,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20191120`, scripture: `1jn.1@@1 John 1`,
       relatedDevotions: [

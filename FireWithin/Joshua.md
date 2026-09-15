@@ -117,9 +117,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jos-2021',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20210407`, scripture: `jos.1@@Joshua`,           },
     { id: `20210414`, scripture: `jos.1@@Joshua 1:1-9`,     },

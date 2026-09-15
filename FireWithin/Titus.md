@@ -104,9 +104,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20100725`, sermon: `A Relationship Is More Powerful Than A Rule`, scripture: `tit.1@@Titus`, },
   ]
@@ -119,9 +117,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20180912`, scripture: `tit.1@@Titus 1`,   },
     { id: `20181003`, scripture: `tit.2@@Titus 2-3`, },

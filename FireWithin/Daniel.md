@@ -120,9 +120,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-dan-2012',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20120125`, scripture: `dan.1@@Daniel 1`,      },
     { id: `20120201`, scripture: `dan.2@@Daniel 2`,      },

@@ -24,9 +24,7 @@
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20221204',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20221204`, sermon: `TXT@@In the Beginning (pg 13)`,       scripture: `jhn.1@@John 1:1-14`,             date:`12/04/2022`, },
     { id: `SG20221211`, sermon: `TXT@@Come and See (pg 23)`,           scripture: `jhn.1@@John 1:40-51`,            date:`12/11/2022`, },
@@ -66,9 +64,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20230604',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20230604`, sermon: `TXT@@Prepares`,    scripture: `jer.1@@Jeremiah 1:4-19`,          date:`06/04/2023`, },
     { id: `SG20230611`, sermon: `TXT@@Judges`,      scripture: `jer.2@@Jeremiah 2:1-13`,          date:`06/11/2023`, },
@@ -93,9 +89,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20230903',
-  settings: {
-    includeStudyGuide: false, 
-  },
+  includeStudyGuide: false, 
   entries: [
     { id: `SG20230903`, sermon: `TXT@@Introduced`,  scripture: `mrk.1@@Mark 1:1-13`,    date:`09/03/2023`, },
     { id: `SG20230910`, sermon: `TXT@@Proclaimed`,  scripture: `mrk.1@@Mark 1:35-45`,   date:`09/10/2023`, },
@@ -120,9 +114,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20231203',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20231203`, sermon: `TXT@@The First Week`,      scripture: `gen.1@@Genesis 1:1-5,26-2:3`,       date:`12/03/2023`, },
     { id: `SG20231210`, sermon: `TXT@@The First Couple`,    scripture: `gen.2@@Genesis 2:7-9,12-25`,        date:`12/10/2023`, },
@@ -162,9 +154,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20240602',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20240602`, sermon: `TXT@@Commissioned`,      scripture: `act.1@@Acts 1:4-11,23-26`,    date:`06/02/2024`, },
     { id: `SG20240609`, sermon: `TXT@@Empowered`,         scripture: `act.2@@Acts 2:5-16,36-38`,    date:`06/09/2024`, },
@@ -202,9 +192,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20241201',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20241201`, sermon: `TXT@@Seen and Heard`,        scripture: `exo.2.23-25@@Exodus 2:23-25##exo.3.7-15@@CR:Exodus 3:7-15`,            date:`12/01/2024`,  },
     { id: `SG20241208`, sermon: `TXT@@Freedom Promised`,      scripture: `exo.5.1-4@@Exodus 5:1-4##exo.6.2-9@@CR:Exodus 6:2-9`,                  date:`12/08/2024`,  },
@@ -229,9 +217,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20250302',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20250302`, sermon: `TXT@@Our Inheritance`,    scripture: `1pe.1.3-12@@1 Peter 1:3-12`,                                                              date:`03/02/2025`, },
     { id: `SG20250309`, sermon: `TXT@@Our Mandate`,        scripture: `1pe.1.13-25@@1 Peter 1:13-25`,                                                            date:`03/09/2025`, },
@@ -255,9 +241,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20250601',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20250601`, sermon: `TXT@@God's Wisdom`,        scripture: `psa.1.1-6@@Psalms 1:1-6`,             date:`06/01/2025`, },
     { id: `SG20250608`, sermon: `TXT@@God's Truth`,         scripture: `psa.119.1-16@@Psalms 119:1-16`,       date:`06/08/2025`, },
@@ -283,9 +267,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20250907',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20250907`, sermon: `TXT@@The Journey`,             scripture: `num.9@@Numbers 9:15-23`,             date:`09/07/2025`, },
     { id: `SG20250914`, sermon: `TXT@@Provision`,               scripture: `num.11@@Numbers 11:4-17`,            date:`09/14/2025`, },
@@ -310,9 +292,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20251207',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20251207`, sermon: `TXT@@Affirmation`,             scripture: `mat.3@@Matthew 3:13-4:11`,           date:`12/07/2025`, },
     { id: `SG20251214`, sermon: `TXT@@Invitation`,              scripture: `mat.4@@Matthew 4:12-25`,             date:`12/14/2025`, },
@@ -350,9 +330,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20260607',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20260607`, sermon: `TXT@@Strong and Courageous`,    scripture: `jos.1@@Joshua 1:1-11,16-18`,    date:`06/07/2026`,  },
     { id: `SG20260614`, sermon: `TXT@@Amazing Grace`,            scripture: `jos.2@@Joshua 2:4-21`,          date:`06/14/2026`,  },
@@ -377,9 +355,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'SG20260906',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `SG20260906`, sermon: `TXT@@True Power`,             scripture: `rom.1@@Romans 1:13-25`,         date:`09/06/2026`,  },
     { id: `SG20260913`, sermon: `TXT@@Coming Judgment`,        scripture: `rom.2@@Romans 2:1-13`,          date:`09/13/2026`,  },

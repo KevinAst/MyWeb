@@ -127,9 +127,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
     { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,

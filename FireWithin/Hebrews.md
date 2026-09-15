@@ -151,9 +151,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-heb-2018',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20181017`, scripture: `heb.1@@Hebrews 1`,            },
     { id: `20181024`, scripture: `heb.2@@Hebrews 2`,            },

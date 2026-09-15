@@ -154,9 +154,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2sa-2023',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20230621`, scripture: `2sa.1@@2 Samuel 1-2`,          },
     { id: `20230705`, scripture: `2sa.3@@2 Samuel 3-5:10`,       },

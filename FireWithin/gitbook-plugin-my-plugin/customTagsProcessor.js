@@ -901,10 +901,6 @@ function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
-const defaultSettings = {  // default settings - impacting the entire series
-  includeStudyGuide: true, // directive to include/omit StudyGuide column (DEFAULT: true)
-};
-
 function sermonSeries(namedParams={}) {
   // parameter validation
   const self       = `sermonSeries(...)`;
@@ -913,16 +909,12 @@ function sermonSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  const {collapsibleSectionID='', includeStudyGuide=true, entries, ...unknownNamedArgs} = namedParams;
 
   // ... entries
   checkParam(entries,          'entries is required');
   checkParam(isArray(entries), `entries must an array of sermon entry directives`);
   checkParam(entries.length>0, `entries array must have at least one entry`);
-
-  // ... settings
-  checkParam(settings,                'settings must either be supplied, or allowed to default');
-  checkParam(isPlainObject(settings), 'settings (when supplied) must be a set of named properties (an object of settings)');
 
   // ... collapsibleSectionID
   checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
@@ -937,20 +929,14 @@ function sermonSeries(namedParams={}) {
   //            PUNT ON THIS - not all that big of a deal
   checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
 
-  // extract -and- validate individual settings (defaulting as appropriate)
-  // NOTE: We do this for validation purposes.
-  //       Ultimately: we pass around the settings obj, which is refrehed (below) - to pick up the initialization done here.
-  const {includeStudyGuide=defaultSettings.includeStudyGuide, ...unknownSettings} = settings;
-
   // ... includeStudyGuide
-  checkParam(isBoolean(includeStudyGuide), 'settings.includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
+  checkParam(isBoolean(includeStudyGuide), 'includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
 
-  // ... unrecognized settings
-  const unknownSettingsKeys = Object.keys(unknownSettings);
-  checkParam(unknownSettingsKeys.length === 0,  `unrecognized setting(s): ${unknownSettingsKeys}`);
-
-  // refresh the supplied settings object (what we pass around), to pick up the initialization from the descructuring (above)
-  settings.includeStudyGuide = includeStudyGuide;
+  // generate settings object to allow ALL non-entries params to be passed around more easily
+  // ... this is legacy structure that was removed from the public API
+  const settings = {
+    includeStudyGuide,
+  };
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -1286,10 +1272,11 @@ function summarizeSermonSeries(namedParams={}) {
   const self       = `summarizeSermonSeries(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
-  // ... verify we are using named parameters
-  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
-  // extract each parameter
-  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  // ?? retrofit this
+  //? // ... verify we are using named parameters
+  //? checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  //? // extract each parameter
+  //? const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation

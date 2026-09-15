@@ -136,9 +136,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jos-2022',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20211013`, scripture: `jdg.1@@Judges 1`,         },
     { id: `20211020`, scripture: `jdg.2@@Judges 2-3:30`,    },

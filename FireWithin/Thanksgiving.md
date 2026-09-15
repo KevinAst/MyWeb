@@ -11,9 +11,7 @@
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     {                 divider: `2011-2018 (one service per year)` },
     { id: `20111123`, sermon: `Thanksgiving Eve Service`,                                                                     },

@@ -136,9 +136,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20170621`, scripture: `gal.1@@Galatians 1`,         },
     { id: `20170628`, scripture: `gal.2@@Galatians 2`,         },

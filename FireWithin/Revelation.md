@@ -179,9 +179,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rev-2020',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20200219`, sermon: `Introduction`,      scripture: `rev.1@@Revelation`,       },
     { id: `20200226`,                              scripture: `rev.1@@Rev 1:1-11`,       },

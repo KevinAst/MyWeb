@@ -134,9 +134,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jhn-2015',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20150311`, scripture: `jhn.1@@John 1:1-34`,       },
     { id: `20150318`, scripture: `jhn.1@@John 1:35-2:12`,    },

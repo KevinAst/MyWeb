@@ -90,9 +90,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20130123`, scripture: `mal.1@@Malachi 1-2`, },
     { id: `20130130`, scripture: `mal.3@@Malachi 3-4`, },

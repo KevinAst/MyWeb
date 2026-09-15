@@ -115,9 +115,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-eph-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20170726`, scripture: `eph.1@@Ephesians 1:1-14`,    },
     { id: `20170802`, scripture: `eph.1@@Ephesians 1:15-2:10`, },

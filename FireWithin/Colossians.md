@@ -111,9 +111,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20180103`, scripture: `col.1@@Colossians 1:1-18`,    },
     { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`,

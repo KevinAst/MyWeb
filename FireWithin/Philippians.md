@@ -113,9 +113,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-php-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20171025`, scripture: `php.1@@Philippians 1:1-30`,  },
     { id: `20171101`, scripture: `php.2@@Philippians 2:1-11`,  },

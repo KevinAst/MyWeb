@@ -107,9 +107,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20220330`, scripture: `rut.1@@Ruth 1`, },
     { id: `20220406`, scripture: `rut.2@@Ruth 2`, sermon: `20220407@@Teaching`, },

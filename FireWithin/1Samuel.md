@@ -156,9 +156,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1sa-2023',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20220824`, scripture: `1sa.1@@1 Samuel 1:1-18`,
       relatedDevotions: [

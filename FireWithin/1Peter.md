@@ -124,9 +124,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20190821`, scripture: `1pe.1@@1 Peter 1:1-8`,    },
     { id: `20190828`, scripture: `1pe.1@@1 Peter 1:6-16`,   },

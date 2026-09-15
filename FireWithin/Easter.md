@@ -3,9 +3,7 @@
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     {                 divider: `2010-2024 (one service per year)` },
     { id: `20100404`, sermon: `Resurrection Celebration`,                                     scripture: `luk.24@@Luke 24:1-8`,       },
