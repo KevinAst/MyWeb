@@ -288,6 +288,7 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
+  summarizeSermonSeries, // ?? NEW
   memorizeVerse,
   toc,
   collapsibleSection,
@@ -851,6 +852,19 @@ function bibleLink(_ref) {
 
 
 //*-----------------------------------------------------------------------------
+//* Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+//*-----------------------------------------------------------------------------
+// ?? NEW
+
+const _bibleSermonSeries = [
+  // {
+  //   ?? DOCUMENT
+  // },
+];
+
+
+
+//*-----------------------------------------------------------------------------
 //* sermonSeries(namedParams)
 //* 
 //* A comprehensive and responsive table generator that details the full
@@ -940,6 +954,27 @@ function sermonSeries(namedParams={}) {
   // generate the sermon series table (reflexivly supporting both phone/desktop)
   ['phone', 'desktop'].forEach( (cssClass) => {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
+  });
+
+  // gather Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+  // ... this is strategically placed here to insure our function parameters are valid
+  // ??$$ NEW
+  // ?? FYI: We need the following
+  //         SORT      Date        Sundays          Mid Week         Weeks
+  //         ========  ==========  ===============  ===============  =====
+  //         20130206  02/06/2013                   Mathew           30
+  // ?? TODO: restrict to Bible Books
+  const bbss_entry   = entries[0];    // based on the first entrie of this sermonSeries
+  const bbss_id      = bbss_entry.id; // we assume this is a standard YYYYMMDD (e.g. '20130206') ?? is this valid
+  // console.log(`?? in page: ${forPage}, what is forPage: `, );
+  const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... LOOSE ASSUMPTION ... will be good once we restrict to Bible Books
+  const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
+  const bbss_weeks   = entries.length; // the number of entries is the total weeks for this series (minor incorrect, if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
+  _bibleSermonSeries.push({
+    id:      bbss_id,
+    book:    bbss_book,
+    sundays: bbss_sundays,
+    weeks:   bbss_weeks,
   });
 
   // generate the collapsibleSection end (when requested)
@@ -1192,6 +1227,112 @@ function processDateEntry(date) {
     crLf = '<br/>'; // subsequent entries have a cr/lf
   });
 
+  return content;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* summarizeSermonSeries(namedParams)
+//* 
+//* ?? DOCUMENT ... I think there are NO params for this function ... UNLESS we invoke it multiple times to gen different tables
+//* 
+//* A comprehensive and responsive table generator that details the full
+//* content of an entire sermon series.
+//* 
+//* Parms:
+//*   - namedParams: a comprehensive structure that describes the complete sermon series.
+//*                  Please refer to the README for details.
+//* 
+//* Custom Tag:
+//*   M{ summarizeSermonSeries(`{ ton-of-options-see-README }`) }M
+//* 
+//* Replaced With:
+//*   <table> ... snip snip ... </table>
+//*-----------------------------------------------------------------------------
+
+// ??$$ NEW MACRO
+function summarizeSermonSeries(namedParams={}) {
+  // parameter validation
+  const self       = `summarizeSermonSeries(...)`;
+  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... verify we are using named parameters
+  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  // extract each parameter
+  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // ?? TEMP NOW: just log DB
+  //? console.log(`?? HERE IS OUR Sermon Series DB:`)
+  //? // ?? _bibleSermonSeries.push({
+  //? // ??   id:      bbss_id,
+  //? // ??   book:    bbss_book
+  //? // ??   sundays: bbss_sundays
+  //? // ??   weeks:   bbss_weeks
+  //? // ?? });
+  //? _bibleSermonSeries.forEach( (ss) => {
+  //?   console.log(`id: ${ss.id}: `, ss)
+  //? });
+
+  // sort our knowlege-base chronologically by date
+  const sortedSeries = [..._bibleSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+
+  // start our table and header
+  content += `
+<table>
+ <thead>
+  <tr>
+   <th rowspan="2">When</th>
+   <th colspan="2">Series</th>
+   <th rowspan="2">Wks</th>
+  </tr>
+  <tr>
+   <th>Sundays</th>
+   <th>Mid Week</th>
+  </tr>
+ </thead>
+ <tbody>`;
+
+  // enumerate each table entry
+  sortedSeries.forEach( (sermonSeries) => {
+
+    const id            = sermonSeries.id; // 'YYYYMMDD'
+//  const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
+    // prune date to: `MM/YYYY`, narrowing table (eliminating need to worry about responsive cell phone)
+    const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
+
+    const book      = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
+    const bookLabel = book.replace(/^([12])/, '$1 '); // ... space between the number and book - e.g. '1 Corinthians'
+    const bookLink  = `<a href="${book}.html">${bookLabel}</a>`
+
+    const sundays = sermonSeries.sundays; // mutually exclusive
+    const midWeek = !sundays;
+
+    content += `
+<tr>
+  <td>${formattedDate}</td>
+  <td>${sundays ? bookLink : ''}</td>
+  <td>${midWeek ? bookLink : ''}</td>
+  <td>${sermonSeries.weeks}</td>
+</tr>
+    `;
+  });
+
+  // close out our table
+  content += `
+  </tbody>
+</table>`;
+
+  // that's all folks :-)
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
 
