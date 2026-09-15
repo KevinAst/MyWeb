@@ -28,15 +28,16 @@ of the Bible _(ex: {{book.Matthew}})_.
 
 ## Series History
 
-Because sermon series are synchronized on a daily basis, you will not
-see this activity listed in the {{book.RevisionHistory}}.  This was a
-change that was implemented in the v27.0??LINK release.
+Because sermon series are synchronized on a daily basis, you will no
+longer see this activity listed in the {{book.RevisionHistory}}.  This
+change was implemented in the v27.0 ??LINK release.
 
-As a result, the following table shows the complete history of each
-sermon series:
+To compensate for this, the following table shows a complete history
+of the sermon series over the years.  It includes:
 
-- when it was introduced
-- whether it was a Sunday or Mid Week series
-- and it's duration
+- when the series started
+- a visual segregation of Sunday and Mid Week series
+- the series duration
+- and whether is is archived or not
 
 M{ summarizeSermonSeries() }M
