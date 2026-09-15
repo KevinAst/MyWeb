@@ -852,16 +852,36 @@ function bibleLink(_ref) {
 
 
 //*-----------------------------------------------------------------------------
-//* Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+//* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
 //*-----------------------------------------------------------------------------
 // ?? NEW
-
-const _bibleSermonSeries = [
+const _bookSermonSeries = [
+  // SPEC:
   // {
-  //   ?? DOCUMENT
+  //   id:       '20130206',      // YYYYMMDD - used to sort entries -AND- glean the series start date: MM/DD/YYYY
+  //   book:     '1Thessalonians' // Book of the Bible
+  //   sundays:  true,            // true: Sundays, false: MidWeek
+  //   weeks:    23,              // duration in weeks
+  //   archived: false,           // determines if the series is archived or not ?? NEW
   // },
 ];
 
+// helper function
+// ?? NEW
+function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
+  // ignore entries already registered
+  // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
+  // ?? DO THIS
+
+  // ignore seriesType of 'Other'
+  // ... only interested in 'Sundays'/'MidWeek'
+  // ?? DO THIS
+
+  // ?? more
+}
+
+// pre-populate with known archived entries
+// ?? DO THIS
 
 
 //*-----------------------------------------------------------------------------
@@ -956,8 +976,8 @@ function sermonSeries(namedParams={}) {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
   });
 
-  // gather Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
-  // ... this is strategically placed here to insure our function parameters are valid
+  // gather Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+  // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
   // ??$$ NEW
   // ?? FYI: We need the following
   //         SORT      Date        Sundays          Mid Week         Weeks
@@ -968,14 +988,24 @@ function sermonSeries(namedParams={}) {
   const bbss_id      = bbss_entry.id; // we assume this is a standard YYYYMMDD (e.g. '20130206') ?? is this valid
   // console.log(`?? in page: ${forPage}, what is forPage: `, );
   const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... LOOSE ASSUMPTION ... will be good once we restrict to Bible Books
+
+  // ?? use NEW structure: seriesType: 'Sundays'/'MidWeek'/'Other' - NO-OP unless type of interest
   const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
   const bbss_weeks   = entries.length; // the number of entries is the total weeks for this series (minor incorrect, if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
-  _bibleSermonSeries.push({
+
+  // ?? include NEW structure: archived: true/false
+
+  _bookSermonSeries.push({
     id:      bbss_id,
     book:    bbss_book,
     sundays: bbss_sundays,
     weeks:   bbss_weeks,
   });
+
+  // ?? replace above with this:
+  // accum_bookSermonSeries(id, book, seriesType, weeks, archived);
+
+
 
   // generate the collapsibleSection end (when requested)
   if (collapsibleSectionID) {
@@ -1272,18 +1302,12 @@ function summarizeSermonSeries(namedParams={}) {
 
   // ?? TEMP NOW: just log DB
   //? console.log(`?? HERE IS OUR Sermon Series DB:`)
-  //? // ?? _bibleSermonSeries.push({
-  //? // ??   id:      bbss_id,
-  //? // ??   book:    bbss_book
-  //? // ??   sundays: bbss_sundays
-  //? // ??   weeks:   bbss_weeks
-  //? // ?? });
-  //? _bibleSermonSeries.forEach( (ss) => {
+  //? _bookSermonSeries.forEach( (ss) => {
   //?   console.log(`id: ${ss.id}: `, ss)
   //? });
 
   // sort our knowlege-base chronologically by date
-  const sortedSeries = [..._bibleSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+  const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
 
   // start our table and header
   content += `
