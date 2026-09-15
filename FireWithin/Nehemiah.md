@@ -114,6 +114,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20160110`, sermon: `Helping the Troubled and Disgraced`,                                    scripture: `neh.1@@Nehemiah 1`,       },
     { id: `20160131`, sermon: `Examining Our Gates: Jesus & Evangelism`,                               scripture: `neh.2@@Nehemiah 2-3:1-5`, },

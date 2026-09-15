@@ -134,6 +134,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1ch-2015',
+  seriesType: 'Sundays',
   entries: [
     { id: `20150823`, sermon: `Belonging`,              scripture: `1ch.1@@1 Chronicles 1-12`,   },
     { id: `20150830`, sermon: `Doing Things God's Way`, scripture: `1ch.13@@1 Chronicles 13-15`, },
@@ -150,6 +151,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1ch-2025',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20251029`, sermon: `Where Did We Come From?`,                                                            scripture: `1ch.1@@1 Chronicles 1-2`,          },
     { id: `20251112`, sermon: `The Truth about Generational Sin`,                                                   scripture: `1ch.2@@1 Chronicles 2-6.`,         },

@@ -112,6 +112,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180103`, scripture: `col.1@@Colossians 1:1-18`,    },
     { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`,
@@ -136,6 +137,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20260419`, sermon: `Two Kingdoms in Conflict`,                 scripture: `col.1@@Colossians 1:1-14`,   },
     { id: `20260510`, sermon: `Jesus Is`,                                 scripture: `col.1@@Colossians 1:15–18`,  },

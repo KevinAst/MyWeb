@@ -89,6 +89,7 @@ P{ collapsibleSectionEnd() }P
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100801`, sermon: `Forgive and Ask for Forgiveness`, scripture: `phm.1@@Philemon`, },
   ]
@@ -102,6 +103,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20181010`, scripture: `phm.1@@Philemon`, },
   ]

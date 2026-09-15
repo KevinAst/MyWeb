@@ -120,6 +120,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20190428`, sermon: `The Theology of Responsibility`,    scripture: `ezk.1@@Ezekiel 1-3`,    },
     { id: `20190505`, sermon: `Harnessing Our Thought Life`,       scripture: `ezk.4@@Ezekiel 4-8`,    },

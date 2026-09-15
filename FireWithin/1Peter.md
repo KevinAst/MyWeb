@@ -109,6 +109,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20110109`, sermon: `How To Live Until Jesus Comes - Part 1/5`, scripture: `1pe.1@@1 Peter 1`,   },
     { id: `20110116`, sermon: `How To Live Until Jesus Comes - Part 2/5`, scripture: `1pe.2@@1 Peter 2`,   },
@@ -125,6 +126,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20190821`, scripture: `1pe.1@@1 Peter 1:1-8`,    },
     { id: `20190828`, scripture: `1pe.1@@1 Peter 1:6-16`,   },

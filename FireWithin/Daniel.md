@@ -121,6 +121,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-dan-2012',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120125`, scripture: `dan.1@@Daniel 1`,      },
     { id: `20120201`, scripture: `dan.2@@Daniel 2`,      },
@@ -144,6 +145,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-dan-2019',
+  seriesType: 'Sundays',
   entries: [
     { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  
       relatedDevotions: [

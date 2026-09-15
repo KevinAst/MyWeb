@@ -114,6 +114,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20151101`, sermon: `The Providence of God`,                          scripture: `ezr.1@@Ezra 1`,       },
     { id: `20151108`, sermon: `When God Moved Hearts`,                          scripture: `ezr.2@@Ezra 2`,       },
@@ -135,6 +136,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   // collapsibleSectionID: 'ss-ezr-2026',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20260909`, sermon: `The God of Faithful Promises`,                        scripture: `ezr.1@@Ezra 1`,    },
   ]

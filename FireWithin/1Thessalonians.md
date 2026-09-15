@@ -123,6 +123,8 @@ available._
 > NOTE: This series covers both First and Second Thessalonians
 
 M{ sermonSeries({
+  archived: true,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
     { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
@@ -137,6 +139,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180207`, scripture: `1th.1@@1 Thess 1`,
       relatedDevotions: [
@@ -162,6 +165,7 @@ M{ sermonSeries({
 **Note:** _This is the <mark>current Sunday series</mark>, and will be updated as new sermons are published :-)_
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20260906`, sermon: `Delivered from God’s Wrath`,                       scripture: `1th.1@@1 Thessalonians 1`,       },
     { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,  scripture: `1th.2@@1 Thessalonians 2:19-20`, }, // VERIFY: studyGuide: `NONE`,

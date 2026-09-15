@@ -131,6 +131,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1sa-2014',
+  seriesType: 'Sundays',
   entries: [
     { id: `20140525`, sermon: `Hannah's Hope`,                            scripture: `1sa.1@@1 Samuel 1`,      },
     { id: `20140601`, sermon: `Hearing God`,                              scripture: `1sa.2@@1 Samuel 2-3`,    },
@@ -157,6 +158,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1sa-2023',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20220824`, scripture: `1sa.1@@1 Samuel 1:1-18`,
       relatedDevotions: [

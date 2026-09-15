@@ -86,6 +86,7 @@ P{ collapsibleSectionEnd() }P
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121114`, scripture: `hag.1@@Haggai 1-2`, },
   ]
@@ -98,6 +99,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200216`, sermon: `Look Beneath the Surface`, scripture: `hag.1@@Haggai`, },
   ]

@@ -135,6 +135,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-psa-2016',
+  seriesType: 'Sundays',
   entries: [
     { id: `20161127`, sermon: `God's Recipe for a Blessed Life`,                     scripture: `psa.1@@Psalms 1`,              },
     { id: `20161204`, sermon: `A Majestic God Cares About You`,                      scripture: `psa.2@@Psalms 2-8`,            },

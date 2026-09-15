@@ -105,6 +105,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20101031`, sermon: `Ten Marks of Maturity - Part 1/5`, scripture: `jas.1@@James 1`, },
     { id: `20101107`, sermon: `Ten Marks of Maturity - Part 2/5`, scripture: `jas.2@@James 2`, },
@@ -122,6 +123,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20190424`, scripture: `jas.1@@James 1:1-8`,          },
     { id: `20190501`, scripture: `jas.1@@James 1:9-20`,         },

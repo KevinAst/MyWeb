@@ -79,6 +79,7 @@ P{ collapsibleSectionEnd() }P
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120822`, scripture: `oba.1@@Obadiah 1`, },
   ]
@@ -92,6 +93,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20191215`, sermon: `Don't Take Advantage of Others`, scripture: `oba.1@@Obadiah`, },
   ]

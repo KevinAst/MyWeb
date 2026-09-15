@@ -114,6 +114,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20130303`, sermon: `Sacrifices, Priests, and Feasts (Part 1 - The Sacrifices)`, scripture: `lev.1@@Leviticus 1-7`,    },
     { id: `20130310`, sermon: `Sacrifices, Priests, and Feasts (Part 2 - The Priests)`,    scripture: `lev.8@@Leviticus 8-18`,   },

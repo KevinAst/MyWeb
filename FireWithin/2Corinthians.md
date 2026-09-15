@@ -131,6 +131,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2co-2017',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170405`, scripture: `2co.1@@2 Cor 1:1-11`,       },
     { id: `20170419`, scripture: `2co.1@@2 Cor 1:12-2:17`,    },
@@ -151,6 +152,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2co-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20250105`, sermon: `Suffering Well`,                  scripture: `2co.1@@2 Cor 1`,       },
     { id: `20250112`, sermon: `Spreading the Fragrance`,         scripture: `2co.2@@2 Cor 2`,       },

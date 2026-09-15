@@ -116,6 +116,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-eph-2017',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170726`, scripture: `eph.1@@Ephesians 1:1-14`,    },
     { id: `20170802`, scripture: `eph.1@@Ephesians 1:15-2:10`, },
@@ -134,6 +135,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-eph-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20251005`, sermon: `The Answer to Identity Confusion`,    scripture: `eph.1@@Ephesians 1`,   },
     { id: `20251012`, sermon: `Dead or Alive?`,                      scripture: `eph.2@@Ephesians 2`,   },

@@ -92,6 +92,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20140427`, sermon: `Handling Adversity: Flight, Fright, or Fight?`, scripture: `rut.1@@Ruth 1:1-12`,  },
     { id: `20140504`, sermon: `When Bitter Becomes Better`,                    scripture: `rut.1@@Ruth 1:13-22`, },
@@ -108,6 +109,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20220330`, scripture: `rut.1@@Ruth 1`, },
     { id: `20220406`, scripture: `rut.2@@Ruth 2`, sermon: `20220407@@Teaching`, },

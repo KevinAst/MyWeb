@@ -148,6 +148,7 @@ Pastor Gary has written a book on Revelation!
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rev-2011',
+  seriesType: 'Sundays',
   entries: [
     { id: `20110313`, sermon: `Unlocking Revelation`,                                scripture: `rev.1@@Rev 1`,       },
     { id: `20110320`, sermon: `Return to Your First Love - The Church in Ephesus`,   scripture: `rev.2@@Rev 2:1-7`,   },
@@ -180,6 +181,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rev-2020',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20200219`, sermon: `Introduction`,      scripture: `rev.1@@Revelation`,       },
     { id: `20200226`,                              scripture: `rev.1@@Rev 1:1-11`,       },

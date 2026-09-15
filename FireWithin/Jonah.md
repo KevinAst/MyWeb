@@ -103,6 +103,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120829`,                             scripture: `jon.1@@JONAH 1`,   studyGuide: `NONE`, },
     { id: `20120905`,                             scripture: `jon.2@@JONAH 2`,   studyGuide: `NONE`, },

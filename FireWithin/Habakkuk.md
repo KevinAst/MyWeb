@@ -109,6 +109,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121024`, scripture: `hab.1@@Habakkuk 1-3`, },
   ]
@@ -121,6 +122,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200202`, sermon: `When God Doesn’t Make Sense`, scripture: `hab.1@@Habakkuk`,
       relatedDevotions: [

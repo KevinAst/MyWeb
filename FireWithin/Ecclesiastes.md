@@ -109,6 +109,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20180128`, sermon: `A Full Life On Empty`,                       scripture: `ecc.1@@Ecclesiastes 1`,      },
     { id: `20180204`, sermon: `On the Hunt for Happiness and Satisfaction`, scripture: `ecc.2@@Ecclesiastes 2`,

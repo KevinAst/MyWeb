@@ -101,6 +101,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20190407`, sermon: `Every Morning is Another Chance`, scripture: `lam.1@@Lamentations 1-5`, },
   ]

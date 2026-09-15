@@ -109,6 +109,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100613`, sermon: `Lessons from a Solider, an Athlete, and a Farmer`, scripture: `2ti.1@@2 Timothy 1-2`, },
     { id: `20100718`, sermon: `The Unchanging Word in a Changing World`,          scripture: `2ti.3@@2 Timothy 3-4`, },
@@ -123,6 +124,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180808`, scripture: `2ti.1@@2 Timothy 1`,      },
     { id: `20180815`, scripture: `2ti.2@@2 Timothy 2:1-7`,  },

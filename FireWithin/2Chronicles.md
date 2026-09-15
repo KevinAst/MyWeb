@@ -138,6 +138,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ch-2015',
+  seriesType: 'Sundays',
   entries: [
     { id: `20150913`, sermon: `All is Forgiven`,             scripture: `2ch.1@@2 Chronicles 1-9`,    },
     { id: `20150920`, sermon: `The Sin of Self-Reliance`,    scripture: `2ch.10@@2 Chronicles 10-16`, },
@@ -155,6 +156,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ch-2026',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,                        scripture: `2ch.1@@2 Chronicles 1-2`,           },
     { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,                                     scripture: `2ch.3@@2 Chronicles 3-4`,           },

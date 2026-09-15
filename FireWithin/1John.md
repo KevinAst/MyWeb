@@ -105,6 +105,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20110213`, sermon: `Love and Truth - Part 1/3`, scripture: `1jn.1@@1 John 1-2`, },
     { id: `20110220`, sermon: `Love and Truth - Part 2/3`, scripture: `1jn.3@@1 John 3-5`, },
@@ -120,6 +121,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20191120`, scripture: `1jn.1@@1 John 1`,
       relatedDevotions: [

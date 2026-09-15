@@ -112,6 +112,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mrk-2013',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
     { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },
@@ -140,6 +141,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mrk-2021',
+  seriesType: 'Sundays',
   entries: [
     { id: `20210418`, sermon: `Pray Like Jesus`,                       scripture: `mrk.1@@Mark 1`,         },
     { id: `20210425`, sermon: `Patches and Wineskins`,                 scripture: `mrk.2@@Mark 2:18-22`,   },

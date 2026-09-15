@@ -103,6 +103,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20130407`, sermon: `Life by the Numbers`,   scripture: `num.1@@Numbers 1-2`,      },
     { id: `20130414`, sermon: `A Modern Nazirite`,     scripture: `num.3@@Numbers 3-6:1-21`, },

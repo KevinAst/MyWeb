@@ -108,6 +108,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20161023`, sermon: `Satan & Suffering`,   scripture: `job.1@@Job 1`,      },
     { id: `20161030`, sermon: `Friends & Suffering`, scripture: `job.2@@Job 2-11`,   },

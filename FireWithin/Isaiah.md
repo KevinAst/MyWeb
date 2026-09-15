@@ -123,6 +123,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-isa-2018',
+  seriesType: 'Sundays',
   entries: [
     { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,    },
     { id: `20180506`, sermon: `God's Calling`,                             scripture: `isa.6@@Isaiah 6`,      },

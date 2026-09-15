@@ -168,6 +168,7 @@ Pastor Gary has written a book on Acts!
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-act-2015',
+  seriesType: 'MidWeek',
   entries: [
     { id: `20151021`, scripture: `act.1@@Acts 1:1-11`,       },
     { id: `20151028`, scripture: `act.1@@Acts 1:12-2:13`,    },
@@ -203,6 +204,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 M{ sermonSeries({
   collapsibleSectionID: 'ss-act-2023',
+  seriesType: 'Sundays',
   entries: [
     { id: `20230129`, sermon: `The Power of the Holy Spirit`,                                  scripture: `act.1@@Acts 1:1-11`,    },
     { id: `20230205`, sermon: `The Day of Pentecost`,                                          scripture: `act.2@@Acts 2`,

@@ -114,6 +114,8 @@ available._
 > NOTE: This series covers both First and Second Thessalonians
 
 M{ sermonSeries({
+  archived: true,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
     { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
@@ -128,6 +130,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
     { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,

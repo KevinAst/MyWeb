@@ -122,6 +122,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mat-2013',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20130206`, scripture: `mat.1@@Matthew 1:1-17`,        },
     { id: `20130213`, scripture: `mat.1@@Matthew 1:18-2:23`,     },
@@ -165,6 +166,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mat-2020',
+  seriesType: 'Sundays',
   entries: [
     { id: `20200614`, sermon: `A Messy Family Tree`,                             scripture: `mat.1@@Matthew 1:1-17`,     },
     { id: `20200621`, sermon: `Baptism of Water, Holy Spirit, and Fire`,         scripture: `mat.2@@Matthew 2-3`,        },

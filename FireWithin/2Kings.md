@@ -123,6 +123,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ki-2015',
+  seriesType: 'Sundays',
   entries: [
     { id: `20150412`, sermon: `Desperate Times, Desperate Prayers`,    scripture: `2ki.1@@2 Kings 1`,      },
     { id: `20150419`, sermon: `If Today Were My Last Day: No Regrets`, scripture: `2ki.2@@2 Kings 2`,      },
@@ -147,6 +148,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ki-2025',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20250507`,                                              scripture: `2ki.1@@2 Kings 1&2`,           },
     { id: `20250514`,                                              scripture: `2ki.3@@2 Kings 3-4`,

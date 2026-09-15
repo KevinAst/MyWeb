@@ -85,6 +85,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20110306`, sermon: `It's Worth Fighting For!`, scripture: `jud.1@@Jude`, },
   ]
@@ -97,6 +98,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20200212`, scripture: `jud.1@@Jude`, },
   ]

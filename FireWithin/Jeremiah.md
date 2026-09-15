@@ -120,6 +120,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,
       relatedDevotions: [

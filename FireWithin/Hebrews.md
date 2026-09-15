@@ -129,6 +129,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-heb-2010',
+  seriesType: 'Sundays',
   entries: [
     { id: `20100808`, sermon: `The Danger of Drifting`,           scripture: `heb.1@@Hebrews 1-2`,       studyGuide: `NONE`, },
     { id: `20100822`, sermon: `Entering God's Rest`,              scripture: `heb.3@@Hebrews 3-4`,       studyGuide: `NONE`,},
@@ -152,6 +153,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-heb-2018',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20181017`, scripture: `heb.1@@Hebrews 1`,            },
     { id: `20181024`, scripture: `heb.2@@Hebrews 2`,            },

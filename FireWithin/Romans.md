@@ -159,6 +159,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rom-2016',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20160518`, scripture: `rom.1@@Romans 1:1-25`,      },
     { id: `20160525`, scripture: `rom.1@@Romans 1:25-32`,     },
@@ -186,6 +187,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rom-2024',
+  seriesType: 'Sundays',
   entries: [
     { id: `20240107`, sermon: `First, the Bad News`,                          scripture: `rom.1@@Romans 1:1-25`,
       relatedDevotions: [

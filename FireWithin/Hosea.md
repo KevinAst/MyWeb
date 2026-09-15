@@ -95,6 +95,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120425`,                                   scripture: `hos.1@@HOSEA 1`,      studyGuide: `NONE`, },
     { id: `20120502`,                                   scripture: `hos.2@@HOSEA 2-3`,    studyGuide: `NONE`, },

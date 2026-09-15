@@ -87,6 +87,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120919`, sermon: `Teaching`,                 scripture: `mic.1@@MICAH 1-2`, studyGuide: `NONE`, },
     { id: `20120926`, sermon: `Teaching`,                 scripture: `mic.3@@MICAH 3-4`, studyGuide: `NONE`, },

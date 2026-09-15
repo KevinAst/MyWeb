@@ -118,6 +118,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1co-2016',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20161019`,                                           scripture: `1co.1@@1 Cor 1`,             },
     { id: `20161026`,                                           scripture: `1co.2@@1 Cor 2-3`,           },
@@ -148,6 +149,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1co-2024',
+  seriesType: 'Sundays',
   entries: [
     { id: `20240922`, sermon: `It's Time to Grow Up!`,               scripture: `1co.1@@1 Corinthians 1`,       },
     { id: `20240929`, sermon: `What God has Prepared for Us`,        scripture: `1co.2@@1 Corinthians 2`,       },

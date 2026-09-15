@@ -137,6 +137,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2017',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170621`, scripture: `gal.1@@Galatians 1`,         },
     { id: `20170628`, scripture: `gal.2@@Galatians 2`,         },
@@ -153,6 +154,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
     { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },

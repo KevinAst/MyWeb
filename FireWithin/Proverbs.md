@@ -111,6 +111,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20171119`, sermon: `Proverbs Series (Part 1): Wisdom`,           scripture: `pro.1@@Proverbs`, },
     { id: `20171126`, sermon: `Proverbs Series (Part 2): Money`,            scripture: `pro.1@@Proverbs`, },

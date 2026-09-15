@@ -132,6 +132,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2sa-2014',
+  seriesType: 'Sundays',
   entries: [
     { id: `20140921`, sermon: `How the Mighty Have Fallen`,   scripture: `2sa.1@@2 Samuel 1-2`,    },
     { id: `20140928`, sermon: `Putting God on Display`,       scripture: `2sa.2@@2 Samuel 2-5`,    },
@@ -155,6 +156,7 @@ M{ sermonSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2sa-2023',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20230621`, scripture: `2sa.1@@2 Samuel 1-2`,          },
     { id: `20230705`, scripture: `2sa.3@@2 Samuel 3-5:10`,       },

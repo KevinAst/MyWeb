@@ -119,6 +119,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-exo-Ten',
+  seriesType: 'Sundays',
   entries: [
     { id: `20120923`, sermon: `Intro to the Ten Commandments`,                     scripture: `exo.19@@Exodus 19`,      },
     { id: `20120930`, sermon: `Commandment #1 - No Other Gods`,                    scripture: `exo.20@@Exodus 20:1-3`,  },
@@ -141,6 +142,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-exo-2012',
+  seriesType: 'Sundays',
   entries: [
     { id: `20120617`, sermon: `Handling Hardships`,                    scripture: `exo.1@@Exodus 1`,       },
     { id: `20120624`, sermon: `Timing is Everything`,                  scripture: `exo.2@@Exodus 2`,       },

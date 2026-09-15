@@ -114,6 +114,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-php-2017',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20171025`, scripture: `php.1@@Philippians 1:1-30`,  },
     { id: `20171101`, scripture: `php.2@@Philippians 2:1-11`,  },
@@ -129,6 +130,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-php-2026',
+  seriesType: 'Sundays',
   entries: [
     { id: `20260111`, sermon: `God Will Finish What He Starts`,          scripture: `php.1@@Philippians 1:6`,     },
     { id: `20260118`, sermon: `My Chains, God’s Glory`,                  scripture: `php.1@@Philippians 1:12-18`, },

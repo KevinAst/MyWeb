@@ -104,6 +104,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120725`,                                               scripture: `amo.1@@AMOS 1-3`, studyGuide: `NONE`, },
     { id: `20120801`,                                               scripture: `amo.4@@AMOS 4-6`, studyGuide: `NONE`, },

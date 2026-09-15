@@ -390,6 +390,13 @@ content of an entire sermon series.
                                    // - must be unique (if not, will impact other collapsible states across the site)
                                    // - suggested format: ss-mat-2026 (for SermonSeries-Matthew-2026 ... auto prefixed with `collapsibleSect_`)
     includeStudyGuide: boolean,    // directive include/omit StudyGuide column (DEFAULT: true)
+
+    seriesType: string,            // 'Sundays', 'MidWeek', 'Other' column (DEFAULT: 'Other')
+                                      - used in Sermon Series History table (interesed in 'Sundays' and 'MidWeek')
+
+    archived: boolean              // is series archived (DEFAULT: false)
+                                      - used in Sermon Series History table (highlighting archived series)
+
     entries: [ // series entries (in order of display)
       { // individual entry
         divider:   string,   // SPECIAL CASE: divider label entry (when used only param needed)

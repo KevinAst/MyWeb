@@ -869,15 +869,27 @@ const _bookSermonSeries = [
 // helper function
 // ?? NEW
 function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
-  // ignore entries already registered
-  // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
-  // ?? DO THIS
 
-  // ignore seriesType of 'Other'
+  // ignore (no-op) seriesType of 'Other'
   // ... only interested in 'Sundays'/'MidWeek'
-  // ?? DO THIS
+  if (seriesType === 'Other') {
+    return;
+  }
 
-  // ?? more
+  // ignore (no-op) entries that have already been registered
+  // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
+  if (_bookSermonSeries.some(entry => entry.id === id)) {
+    return;
+  }
+
+  // add this new entry into our _bookSermonSeries array
+  _bookSermonSeries.push({
+    id,
+    book,
+    sundays: seriesType==='Sundays',
+    weeks,
+    archived,
+  });
 }
 
 // pre-populate with known archived entries
@@ -909,15 +921,26 @@ function sermonSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {collapsibleSectionID='', includeStudyGuide=true, entries, ...unknownNamedArgs} = namedParams;
+  const {collapsibleSectionID='', includeStudyGuide=true, seriesType='Other', archived=false, entries, ...unknownNamedArgs} = namedParams;
+
+  // ... collapsibleSectionID
+  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
+
+  // ... includeStudyGuide
+  checkParam(isBoolean(includeStudyGuide), 'includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
+
+  // ... seriesType
+  const valid_seriesType = ['Sundays', 'MidWeek', 'Other'];
+  checkParam(isString(seriesType), `seriesType (when supplied) must be a string - one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+  checkParam(valid_seriesType.includes(seriesType), `seriesType must be one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+
+  // ... archived
+  checkParam(isBoolean(archived), 'archived must be a boolean directive, indicating whether this series is archived (DEFAULT: false)');
 
   // ... entries
   checkParam(entries,          'entries is required');
   checkParam(isArray(entries), `entries must an array of sermon entry directives`);
   checkParam(entries.length>0, `entries array must have at least one entry`);
-
-  // ... collapsibleSectionID
-  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -928,9 +951,6 @@ function sermonSeries(namedParams={}) {
   //            so we never get this error ... RATHER the last positional param is picked up as the namedParams :-(
   //            PUNT ON THIS - not all that big of a deal
   checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
-
-  // ... includeStudyGuide
-  checkParam(isBoolean(includeStudyGuide), 'includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
 
   // generate settings object to allow ALL non-entries params to be passed around more easily
   // ... this is legacy structure that was removed from the public API
@@ -975,23 +995,12 @@ function sermonSeries(namedParams={}) {
   // console.log(`?? in page: ${forPage}, what is forPage: `, );
   const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... LOOSE ASSUMPTION ... will be good once we restrict to Bible Books
 
-  // ?? use NEW structure: seriesType: 'Sundays'/'MidWeek'/'Other' - NO-OP unless type of interest
-  const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
+  // ?? NO LONGER USED
+  //? const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
   const bbss_weeks   = entries.length; // the number of entries is the total weeks for this series (minor incorrect, if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
 
-  // ?? include NEW structure: archived: true/false
-
-  _bookSermonSeries.push({
-    id:      bbss_id,
-    book:    bbss_book,
-    sundays: bbss_sundays,
-    weeks:   bbss_weeks,
-  });
-
-  // ?? replace above with this:
   // accum_bookSermonSeries(id, book, seriesType, weeks, archived);
-
-
+  accum_bookSermonSeries(bbss_id, bbss_book, seriesType, bbss_weeks, archived);
 
   // generate the collapsibleSection end (when requested)
   if (collapsibleSectionID) {

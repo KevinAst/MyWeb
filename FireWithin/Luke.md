@@ -138,6 +138,7 @@ M{ devoGHSeries({
 M{ sermonSeries({
   collapsibleSectionID: 'ss-luk-2014',
   includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20140423`, scripture: `luk.1@@Luke 1`,          },
     { id: `20140430`, scripture: `luk.1@@Luke 1:26-80`,    },
@@ -181,6 +182,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-luk-2021',
+  seriesType: 'Sundays',
   entries: [
     { id: `20210801`, sermon: `God Remembers His Oath`,                                 scripture: `luk.1@@Luke 1`,         },
     { id: `20210808`, sermon: `Lessons from Nazareth`,                                  scripture: `luk.4@@Luke 4`,         },
