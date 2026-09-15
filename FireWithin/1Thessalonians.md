@@ -165,6 +165,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   entries: [
-    { id: `20260906`, sermon: `Delivered from God’s Wrath`,       scripture: `1th.1@@1 Thessalonians 1`,   }, // studyGuide: `NONE`, date:`09/06/2026`
+    { id: `20260906`, sermon: `Delivered from God’s Wrath`,                       scripture: `1th.1@@1 Thessalonians 1`,       },
+    { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,  scripture: `1th.2@@1 Thessalonians 2:19-20`, }, // VERIFY: studyGuide: `NONE`,
   ]
 }) }M
