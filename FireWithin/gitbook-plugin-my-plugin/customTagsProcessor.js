@@ -878,7 +878,8 @@ function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
 
   // ignore (no-op) entries that have already been registered
   // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
-  if (_bookSermonSeries.some(entry => entry.id === id)) {
+  // ... NOTE: we use BOTH id & book to accommodate small bible books whose series span multiple books (ex: 1st, 2nd, 3rd John)
+  if (_bookSermonSeries.some(entry => entry.id === id && entry.book === book)) {
     return;
   }
 
@@ -1330,7 +1331,7 @@ function summarizeSermonSeries(namedParams={}) {
     const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
 
     const book      = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
-    const bookLabel = book.replace(/^([12])/, '$1 '); // ... space between the number and book - e.g. '1 Corinthians'
+    const bookLabel = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
     const bookLink  = `<a href="${book}.html">${bookLabel}</a>`
 
     const sundays = sermonSeries.sundays; // mutually exclusive
