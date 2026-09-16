@@ -852,16 +852,48 @@ function bibleLink(_ref) {
 
 
 //*-----------------------------------------------------------------------------
-//* Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+//* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
 //*-----------------------------------------------------------------------------
 // ?? NEW
-
-const _bibleSermonSeries = [
+const _bookSermonSeries = [
+  // SPEC:
   // {
-  //   ?? DOCUMENT
+  //   id:       '20130206',      // YYYYMMDD - used to sort entries -AND- glean the series start date: MM/DD/YYYY
+  //   book:     '1Thessalonians' // Book of the Bible
+  //   sundays:  true,            // true: Sundays, false: MidWeek
+  //   weeks:    23,              // duration in weeks
+  //   archived: false,           // determines if the series is archived or not ?? NEW
   // },
 ];
 
+// helper function
+// ?? NEW
+function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
+
+  // ignore (no-op) seriesType of 'Other'
+  // ... only interested in 'Sundays'/'MidWeek'
+  if (seriesType === 'Other') {
+    return;
+  }
+
+  // ignore (no-op) entries that have already been registered
+  // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
+  if (_bookSermonSeries.some(entry => entry.id === id)) {
+    return;
+  }
+
+  // add this new entry into our _bookSermonSeries array
+  _bookSermonSeries.push({
+    id,
+    book,
+    sundays: seriesType==='Sundays',
+    weeks,
+    archived,
+  });
+}
+
+// pre-populate with known archived entries
+// ?? DO THIS
 
 
 //*-----------------------------------------------------------------------------
@@ -881,10 +913,6 @@ const _bibleSermonSeries = [
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
-const defaultSettings = {  // default settings - impacting the entire series
-  includeStudyGuide: true, // directive to include/omit StudyGuide column (DEFAULT: true)
-};
-
 function sermonSeries(namedParams={}) {
   // parameter validation
   const self       = `sermonSeries(...)`;
@@ -893,19 +921,26 @@ function sermonSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  const {collapsibleSectionID='', includeStudyGuide=true, seriesType='Other', archived=false, entries, ...unknownNamedArgs} = namedParams;
+
+  // ... collapsibleSectionID
+  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
+
+  // ... includeStudyGuide
+  checkParam(isBoolean(includeStudyGuide), 'includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
+
+  // ... seriesType
+  const valid_seriesType = ['Sundays', 'MidWeek', 'Other'];
+  checkParam(isString(seriesType), `seriesType (when supplied) must be a string - one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+  checkParam(valid_seriesType.includes(seriesType), `seriesType must be one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+
+  // ... archived
+  checkParam(isBoolean(archived), 'archived must be a boolean directive, indicating whether this series is archived (DEFAULT: false)');
 
   // ... entries
   checkParam(entries,          'entries is required');
   checkParam(isArray(entries), `entries must an array of sermon entry directives`);
   checkParam(entries.length>0, `entries array must have at least one entry`);
-
-  // ... settings
-  checkParam(settings,                'settings must either be supplied, or allowed to default');
-  checkParam(isPlainObject(settings), 'settings (when supplied) must be a set of named properties (an object of settings)');
-
-  // ... collapsibleSectionID
-  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -917,20 +952,11 @@ function sermonSeries(namedParams={}) {
   //            PUNT ON THIS - not all that big of a deal
   checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
 
-  // extract -and- validate individual settings (defaulting as appropriate)
-  // NOTE: We do this for validation purposes.
-  //       Ultimately: we pass around the settings obj, which is refrehed (below) - to pick up the initialization done here.
-  const {includeStudyGuide=defaultSettings.includeStudyGuide, ...unknownSettings} = settings;
-
-  // ... includeStudyGuide
-  checkParam(isBoolean(includeStudyGuide), 'settings.includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
-
-  // ... unrecognized settings
-  const unknownSettingsKeys = Object.keys(unknownSettings);
-  checkParam(unknownSettingsKeys.length === 0,  `unrecognized setting(s): ${unknownSettingsKeys}`);
-
-  // refresh the supplied settings object (what we pass around), to pick up the initialization from the descructuring (above)
-  settings.includeStudyGuide = includeStudyGuide;
+  // generate settings object to allow ALL non-entries params to be passed around more easily
+  // ... this is legacy structure that was removed from the public API
+  const settings = {
+    includeStudyGuide,
+  };
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -956,8 +982,8 @@ function sermonSeries(namedParams={}) {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
   });
 
-  // gather Bible-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
-  // ... this is strategically placed here to insure our function parameters are valid
+  // gather Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+  // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
   // ??$$ NEW
   // ?? FYI: We need the following
   //         SORT      Date        Sundays          Mid Week         Weeks
@@ -968,14 +994,13 @@ function sermonSeries(namedParams={}) {
   const bbss_id      = bbss_entry.id; // we assume this is a standard YYYYMMDD (e.g. '20130206') ?? is this valid
   // console.log(`?? in page: ${forPage}, what is forPage: `, );
   const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... LOOSE ASSUMPTION ... will be good once we restrict to Bible Books
-  const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
+
+  // ?? NO LONGER USED
+  //? const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
   const bbss_weeks   = entries.length; // the number of entries is the total weeks for this series (minor incorrect, if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
-  _bibleSermonSeries.push({
-    id:      bbss_id,
-    book:    bbss_book,
-    sundays: bbss_sundays,
-    weeks:   bbss_weeks,
-  });
+
+  // accum_bookSermonSeries(id, book, seriesType, weeks, archived);
+  accum_bookSermonSeries(bbss_id, bbss_book, seriesType, bbss_weeks, archived);
 
   // generate the collapsibleSection end (when requested)
   if (collapsibleSectionID) {
@@ -1256,10 +1281,11 @@ function summarizeSermonSeries(namedParams={}) {
   const self       = `summarizeSermonSeries(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
-  // ... verify we are using named parameters
-  checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
-  // extract each parameter
-  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  // ?? retrofit this
+  //? // ... verify we are using named parameters
+  //? checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
+  //? // extract each parameter
+  //? const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -1272,18 +1298,12 @@ function summarizeSermonSeries(namedParams={}) {
 
   // ?? TEMP NOW: just log DB
   //? console.log(`?? HERE IS OUR Sermon Series DB:`)
-  //? // ?? _bibleSermonSeries.push({
-  //? // ??   id:      bbss_id,
-  //? // ??   book:    bbss_book
-  //? // ??   sundays: bbss_sundays
-  //? // ??   weeks:   bbss_weeks
-  //? // ?? });
-  //? _bibleSermonSeries.forEach( (ss) => {
+  //? _bookSermonSeries.forEach( (ss) => {
   //?   console.log(`id: ${ss.id}: `, ss)
   //? });
 
   // sort our knowlege-base chronologically by date
-  const sortedSeries = [..._bibleSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+  const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
 
   // start our table and header
   content += `
