@@ -47,9 +47,6 @@
     "NewTestament":       "[New Testament](/NewTestament.md)",
     "RevisionHistory":    "[Revision History](/history.md)",
 
-    "CurSermonSeries_Sundays": "Sundays:  <a title='Go to the current Sunday sermon series'   href='1Thessalonians.html#2026-1-thessalonians-series-sundays'>1 Thessalonians</a>",
-    "CurSermonSeries_MidWeek": "Mid Week: <a title='Go to the current Mid Week sermon series' href='Ezra.html#2026-ezra-series-mid-week'>Ezra</a>",
-
     "Genesis":            "[Genesis](/Genesis.md)",
     "Exodus":             "[Exodus](/Exodus.md)",
     "Leviticus":          "[Leviticus](/Leviticus.md)",
@@ -125,6 +122,13 @@
     "3John":              "[3 John](/3John.md)",
     "Jude":               "[Jude](/Jude.md)",
     "Revelation":         "[Revelation](/Revelation.md)",
+
+    "SermonSeries":       "[Sermon Series](/SermonSeries.md)",
+
+    "CurSermonSeries":         "<a title='Go to the Sermon Series page'   href='SermonSeries.html'>Current Sermon Series</a>",
+
+    "CurSermonSeries_Sundays": "Sundays:  <a title='Go to the current Sunday sermon series'   href='1Thessalonians.html#2026-1-thessalonians-series-sundays'>1 Thessalonians</a>",
+    "CurSermonSeries_MidWeek": "Mid Week: <a title='Go to the current Mid Week sermon series' href='Ezra.html#2026-ezra-series-mid-week'>Ezra</a>",
 
     "SpecialEvents":      "[Specials](/SpecialEvents.md)",
       "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
