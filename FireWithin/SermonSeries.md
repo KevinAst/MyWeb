@@ -33,11 +33,14 @@ longer see this activity listed in the {{book.RevisionHistory}}.  This
 change was implemented in the v27.0 ??LINK release.
 
 To compensate for this, the following table shows a complete history
-of the sermon series over the years.  It includes:
+of all sermon series over the years.  It includes:
 
 - when the series started
 - a visual segregation of Sunday and Mid Week series
 - the series duration
 - and whether is is archived or not
+
+This table can be thought of as a timeline.  As you progress down, you
+can easily determine what series was active at any point in time.
 
 M{ summarizeSermonSeries() }M

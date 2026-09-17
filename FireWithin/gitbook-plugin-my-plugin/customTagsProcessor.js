@@ -854,7 +854,6 @@ function bibleLink(_ref) {
 //*-----------------------------------------------------------------------------
 //* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
 //*-----------------------------------------------------------------------------
-// ?? NEW (entire section)
 const _bookSermonSeries = [
   // SPEC:
   // {
@@ -1003,7 +1002,6 @@ function sermonSeries(namedParams={}) {
 
   // accumulate Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
   // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
-  // ?? NEW
   const bbss_entry   = entries[0];                 // we base our info on the first sermonSeries entry (which is the start the series)
   const bbss_id      = bbss_entry.id;              // this assumes we are using standard YYYYMMDD (e.g. '20130206') ... sortable -and- basis for date (MM/DD/YYYY)
   const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... works because we are only using Bible Books (pruned based on seriesType)
@@ -1267,12 +1265,30 @@ function processDateEntry(date) {
 //*-----------------------------------------------------------------------------
 //* summarizeSermonSeries()
 //* 
-//* ?? DOCUMENT in README.md
+//* A comprehensive table generator that details a complete history
+//* of all sermon series over the years.
+//*
+//* It includes:
+//*
+//* - when the series started
+//* - a visual segregation of Sunday and Mid Week series
+//* - the series duration
+//* - and whether is is archived or not
 //* 
-//* A comprehensive and responsive table generator that details the full
-//* content of an entire sermon series.
+//* This macro is unusual, in that it has NO parameters.  
 //* 
-//* ?? NOTE: about must be used AFTER Old/New Testament BECASE the knowledge base info is gathered in the sermonSeries() macro.
+//* - It gleans all of the needed information from data gathered in the
+//*   sermonSeries() macro.
+//*   
+//* - This is significant in that it is pulling the needed information from
+//*   FireWithin's existing internal representation of the sermon series!
+//*   As a result, there is no additional maintenance procedures required to
+//*   generate this rather unique table!
+//*   
+//* - The one caveat, that is enforced within the macro, is the page that
+//*   invokes this macro must be placed after the Old/New Testaments (in the
+//*   toc.md), because that is where the knowledge base is gathered (via the
+//*   sermonSeries() macro).
 //* 
 //* Parms: NONE
 //* 
@@ -1283,7 +1299,6 @@ function processDateEntry(date) {
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
-// ??$$ NEW MACRO
 function summarizeSermonSeries() {
   // validation support
   const self       = `summarizeSermonSeries(...)`;
@@ -1303,6 +1318,12 @@ function summarizeSermonSeries() {
 
   // sort our knowlege-base chronologically by date
   const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+
+  // NOTE: Regarding a responsive table that adjusts to cell-phones:
+  //       - the single table coded here, simply clips off the last two columns
+  //         (Length & Archived) when real estate is tight.  
+  //       - this is pretty much what I was planning on doing in a responsive reaction.
+  //       - THEREFORE, I just punted and genned this one table :-)
 
   // table header is injected multiple times when year changes
   var tableHeader = `
@@ -1328,7 +1349,6 @@ function summarizeSermonSeries() {
     const id            = sermonSeries.id;    // 'YYYYMMDD'
     const year          = `${id.slice(0,4)}`; // 'YYYY'
     const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
-//  const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
 
     const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
     const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
