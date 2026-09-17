@@ -1310,6 +1310,7 @@ function summarizeSermonSeries() {
  <th rowspan="2">YYYY</th>
  <th colspan="2">Series</th>
  <th rowspan="2">Length</th>
+ <th rowspan="2">Archived</th>
 </tr>
 <tr>
  <th>Sundays</th>
@@ -1336,6 +1337,11 @@ function summarizeSermonSeries() {
     const sundays       = sermonSeries.sundays; // mutually exclusive
     const midWeek       = !sundays;
 
+    const archived      = sermonSeries.archived;
+
+    // adjust date colunn to be a strike-through (with hover text) WHEN series has been archived
+    const dateCol = archived ? `<s title="series has been archived">${formattedDate}</s>` : formattedDate;
+
     // generate header when year changes
     if (runningYear !== year) {
       // inject year in header
@@ -1347,10 +1353,11 @@ function summarizeSermonSeries() {
     // generate the table row for this sermonSeries
     content += `
 <tr>
-  <td>${formattedDate}</td>
+  <td>${dateCol}</td>
   <td>${sundays ? bookLink : ''}</td>
   <td>${midWeek ? bookLink : ''}</td>
   <td>${(sermonSeries.weeks < 10 ? '&nbsp;' : '') + sermonSeries.weeks + (sermonSeries.weeks === 1 ? ' wk' : ' wks')}</td>
+  <td>${archived ? 'archived' : ''}</td>
 </tr>
     `;
   });
