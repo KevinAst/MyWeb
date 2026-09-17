@@ -1265,12 +1265,14 @@ function processDateEntry(date) {
 
 
 //*-----------------------------------------------------------------------------
-//* summarizeSermonSeries(namedParams)
+//* summarizeSermonSeries()
 //* 
 //* ?? DOCUMENT in README.md
 //* 
 //* A comprehensive and responsive table generator that details the full
 //* content of an entire sermon series.
+//* 
+//* ?? NOTE: about must be used AFTER Old/New Testament BECASE the knowledge base info is gathered in the sermonSeries() macro.
 //* 
 //* Parms: NONE
 //* 
@@ -1307,7 +1309,7 @@ function summarizeSermonSeries() {
 <tr>
  <th rowspan="2">YYYY</th>
  <th colspan="2">Series</th>
- <th rowspan="2">Wks</th>
+ <th rowspan="2">Length</th>
 </tr>
 <tr>
  <th>Sundays</th>
@@ -1348,7 +1350,7 @@ function summarizeSermonSeries() {
   <td>${formattedDate}</td>
   <td>${sundays ? bookLink : ''}</td>
   <td>${midWeek ? bookLink : ''}</td>
-  <td>${sermonSeries.weeks}</td>
+  <td>${(sermonSeries.weeks < 10 ? '&nbsp;' : '') + sermonSeries.weeks + (sermonSeries.weeks === 1 ? ' wk' : ' wks')}</td>
 </tr>
     `;
   });
