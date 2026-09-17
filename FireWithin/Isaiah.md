@@ -103,6 +103,7 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-isa',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Thu 09/17/2026',  topic: 'Cleansed by God’s Grace',                     verse:   'Isaiah 1:18',                      verseRef: 'isa.1.18',    },
      { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                       verseRef: 'isa.9.6',     },
      { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',                  verse:   'Isaiah 28:16',                     verseRef: 'isa.28.16',   },
      { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
@@ -125,7 +126,16 @@ M{ sermonSeries({
   collapsibleSectionID: 'ss-isa-2018',
   seriesType: 'Sundays',
   entries: [
-    { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,    },
+    { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Thu 09/17/2026',
+           topic:               'Cleansed by God’s Grace',
+           verse:               'Isaiah 1:18',
+           verseRef:            'isa.1.18',
+        },
+      ],
+    },
     { id: `20180506`, sermon: `God's Calling`,                             scripture: `isa.6@@Isaiah 6`,      },
     { id: `20180513`, sermon: `Mission Messiah: Jesus is Born`,            scripture: `isa.7@@Isaiah 7-9`,    },
     { id: `20180520`, sermon: `Who Is Satan?`,                             scripture: `isa.14@@Isaiah 14`,    },

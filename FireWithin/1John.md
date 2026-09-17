@@ -91,6 +91,7 @@ M{ devoGHSeries({
 // collapsibleSectionID: 'cs-devo-1jn',
    layout:  'BTB',
    entries: [
+     { publicationDate: 'Thu 09/17/2026',  topic: 'Cleansed by God’s Grace',        verse: /* 1 John 1:7-9 */  'Isaiah 1:18',      verseRef: 'isa.1.18',    btbContext: 'FromDevoContent##1jn.1.7-9@@1 John 1:7-9##Confession Brings Cleansing'},
      { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',                verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
      { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',          verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
      { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',        verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
