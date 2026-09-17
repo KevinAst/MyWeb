@@ -537,7 +537,10 @@ input[id^="devo"] {
 }
 
 /*** Style Sermon History TABLE found in SermonSeries.md ***/
-.sermon-history thead th {
+.sermon-history {
+    margin: 0 auto; /* center the table within the page */
+}
+.sermon-history tbody th {
     background-color: rgba(150, 150, 150, 0.12) !important; /* deliberately neutral and subtle (to mix well with all GitBook themes) */
     border:           2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
 }

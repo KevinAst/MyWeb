@@ -1302,30 +1302,30 @@ function summarizeSermonSeries() {
   // sort our knowlege-base chronologically by date
   const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
 
-  // ?? more Table UI refinement
+  // table header is injected multiple times when year changes
+  var tableHeader = `
+<tr>
+ <th rowspan="2">YYYY</th>
+ <th colspan="2">Series</th>
+ <th rowspan="2">Wks</th>
+</tr>
+<tr>
+ <th>Sundays</th>
+ <th>Mid Week</th>
+</tr>`;
 
-  // start our table and header
-  content += `
-<table class="sermon-history">
- <thead>
-  <tr>
-   <th rowspan="2">When</th>
-   <th colspan="2">Series</th>
-   <th rowspan="2">Wks</th>
-  </tr>
-  <tr>
-   <th>Sundays</th>
-   <th>Mid Week</th>
-  </tr>
- </thead>
- <tbody>`;
+  var runningYear = `YYYY`; // ... keeps track of current running year in our processing
+
+  // start our table
+  content += `<table class="sermon-history"><tbody>`;
 
   // enumerate each table entry
   sortedSeries.forEach( (sermonSeries) => {
 
-    const id            = sermonSeries.id; // 'YYYYMMDD'
-//  const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
-    const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
+    const id            = sermonSeries.id;    // 'YYYYMMDD'
+    const year          = `${id.slice(0,4)}`; // 'YYYY'
+    const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
+//  const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
 
     const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
     const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
@@ -1334,6 +1334,15 @@ function summarizeSermonSeries() {
     const sundays       = sermonSeries.sundays; // mutually exclusive
     const midWeek       = !sundays;
 
+    // generate header when year changes
+    if (runningYear !== year) {
+      // inject year in header
+      tableHeader = tableHeader.replace(runningYear, year);
+      runningYear = year;
+      content += tableHeader;
+    }
+
+    // generate the table row for this sermonSeries
     content += `
 <tr>
   <td>${formattedDate}</td>
@@ -1345,9 +1354,7 @@ function summarizeSermonSeries() {
   });
 
   // close out our table
-  content += `
-  </tbody>
-</table>`;
+  content += `</tbody></table>`;
 
   // that's all folks :-)
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
