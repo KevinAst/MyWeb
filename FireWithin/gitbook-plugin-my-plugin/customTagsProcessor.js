@@ -1306,7 +1306,7 @@ function summarizeSermonSeries() {
 
   // start our table and header
   content += `
-<table>
+<table class="sermon-history">
  <thead>
   <tr>
    <th rowspan="2">When</th>
