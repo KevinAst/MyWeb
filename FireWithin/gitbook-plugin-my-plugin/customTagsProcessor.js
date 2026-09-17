@@ -288,7 +288,7 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
-  summarizeSermonSeries, // ?? NEW
+  summarizeSermonSeries,
   memorizeVerse,
   toc,
   collapsibleSection,
@@ -854,7 +854,7 @@ function bibleLink(_ref) {
 //*-----------------------------------------------------------------------------
 //* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
 //*-----------------------------------------------------------------------------
-// ?? NEW
+// ?? NEW (entire section)
 const _bookSermonSeries = [
   // SPEC:
   // {
@@ -862,12 +862,11 @@ const _bookSermonSeries = [
   //   book:     '1Thessalonians' // Book of the Bible
   //   sundays:  true,            // true: Sundays, false: MidWeek
   //   weeks:    23,              // duration in weeks
-  //   archived: false,           // determines if the series is archived or not ?? NEW
+  //   archived: false,           // determines if the series is archived or not
   // },
 ];
 
 // helper function
-// ?? NEW
 function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
 
   // ignore (no-op) seriesType of 'Other'
@@ -899,6 +898,7 @@ function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
 //     - to accommodate Sermon Series that are still active
 //     - or may have moved sermons to YouTube (if you can find them)
 //     - EITHER way, THIS cache takes precedence (i.e. will NOT be duplicated)
+
 //                                                 'Sundays'
 //                                                 'MidWeek'
 //                    (id,         book,           seriesType,   weeks, archived);
@@ -910,6 +910,9 @@ accum_bookSermonSeries('20100131', 'Galatians',    'Sundays',    2,     true);
 accum_bookSermonSeries('20100221', 'Ephesians',    'Sundays',    3,     true);
 accum_bookSermonSeries('20100321', 'Philippians',  'Sundays',    2,     true);
 accum_bookSermonSeries('20100411', 'Colossians',   'Sundays',    2,     true);
+
+// baseline used in summarizeSermonSeries() macro to insure content has been added
+const _bookSermonSeriesBASELINE = _bookSermonSeries.length;
 
 
 //*-----------------------------------------------------------------------------
@@ -998,24 +1001,13 @@ function sermonSeries(namedParams={}) {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
   });
 
-  // gather Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+  // accumulate Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
   // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
-  // ??$$ NEW
-  // ?? FYI: We need the following
-  //         SORT      Date        Sundays          Mid Week         Weeks
-  //         ========  ==========  ===============  ===============  =====
-  //         20130206  02/06/2013                   Mathew           30
-  // ?? TODO: restrict to Bible Books
-  const bbss_entry   = entries[0];    // based on the first entrie of this sermonSeries
-  const bbss_id      = bbss_entry.id; // we assume this is a standard YYYYMMDD (e.g. '20130206') ?? is this valid
-  // console.log(`?? in page: ${forPage}, what is forPage: `, );
-  const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... LOOSE ASSUMPTION ... will be good once we restrict to Bible Books
-
-  // ?? NO LONGER USED
-  //? const bbss_sundays = settings.includeStudyGuide;  // LOOSE ASSUMPTION: when study guides are on all sermons, it is a Sunday series ??$$ TODO: make this an explicit parameter (some mid-week have 100% study guides)
-  const bbss_weeks   = entries.length; // the number of entries is the total weeks for this series (minor incorrect, if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
-
-  // accum_bookSermonSeries(id, book, seriesType, weeks, archived);
+  // ?? NEW
+  const bbss_entry   = entries[0];                 // we base our info on the first sermonSeries entry (which is the start the series)
+  const bbss_id      = bbss_entry.id;              // this assumes we are using standard YYYYMMDD (e.g. '20130206') ... sortable -and- basis for date (MM/DD/YYYY)
+  const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... works because we are only using Bible Books (pruned based on seriesType)
+  const bbss_weeks   = entries.length;             // the number of entries is the total weeks for this series (only minor issue is if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
   accum_bookSermonSeries(bbss_id, bbss_book, seriesType, bbss_weeks, archived);
 
   // generate the collapsibleSection end (when requested)
@@ -1275,33 +1267,28 @@ function processDateEntry(date) {
 //*-----------------------------------------------------------------------------
 //* summarizeSermonSeries(namedParams)
 //* 
-//* ?? DOCUMENT ... I think there are NO params for this function ... UNLESS we invoke it multiple times to gen different tables
+//* ?? DOCUMENT in README.md
 //* 
 //* A comprehensive and responsive table generator that details the full
 //* content of an entire sermon series.
 //* 
-//* Parms:
-//*   - namedParams: a comprehensive structure that describes the complete sermon series.
-//*                  Please refer to the README for details.
+//* Parms: NONE
 //* 
 //* Custom Tag:
-//*   M{ summarizeSermonSeries(`{ ton-of-options-see-README }`) }M
+//*   M{ summarizeSermonSeries() }M
 //* 
 //* Replaced With:
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
 // ??$$ NEW MACRO
-function summarizeSermonSeries(namedParams={}) {
-  // parameter validation
+function summarizeSermonSeries() {
+  // validation support
   const self       = `summarizeSermonSeries(...)`;
-  const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+  const checkIt = check.prefix(`${self} [in page: ${forPage}] violation: `);
 
-  // ?? retrofit this
-  //? // ... verify we are using named parameters
-  //? checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
-  //? // extract each parameter
-  //? const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  // verify that _bookSermonSeries has content (if not it is because Sermon Series has moved above Bible Books in TOC)
+  checkIt(_bookSermonSeries.length > _bookSermonSeriesBASELINE, `NO Sermon Series data has been collected.  The Sermon Series TOC must be registered AFTER Bible Books in TOC.md`);
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -1312,14 +1299,10 @@ function summarizeSermonSeries(namedParams={}) {
   let content = ``;
   content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
 
-  // ?? TEMP NOW: just log DB
-  //? console.log(`?? HERE IS OUR Sermon Series DB:`)
-  //? _bookSermonSeries.forEach( (ss) => {
-  //?   console.log(`id: ${ss.id}: `, ss)
-  //? });
-
   // sort our knowlege-base chronologically by date
   const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+
+  // ?? more Table UI refinement
 
   // start our table and header
   content += `
@@ -1342,15 +1325,14 @@ function summarizeSermonSeries(namedParams={}) {
 
     const id            = sermonSeries.id; // 'YYYYMMDD'
 //  const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
-    // prune date to: `MM/YYYY`, narrowing table (eliminating need to worry about responsive cell phone)
     const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
 
-    const book      = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
-    const bookLabel = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
-    const bookLink  = `<a href="${book}.html">${bookLabel}</a>`
+    const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
+    const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
+    const bookLink      = `<a href="${book}.html">${bookLabel}</a>`
 
-    const sundays = sermonSeries.sundays; // mutually exclusive
-    const midWeek = !sundays;
+    const sundays       = sermonSeries.sundays; // mutually exclusive
+    const midWeek       = !sundays;
 
     content += `
 <tr>
