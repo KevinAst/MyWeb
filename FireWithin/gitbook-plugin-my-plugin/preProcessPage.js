@@ -11,7 +11,7 @@ const {processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
 // The UI to quickly navigate to Current Sermon Series
 const currentSermonSeries = `
-<b>Current Sermon Series:</b>
+<b>{{book.CurSermonSeries}}:</b>
 <ul>
   <li>{{book.CurSermonSeries_Sundays}}</li>
   <li>{{book.CurSermonSeries_MidWeek}}</li>
@@ -58,11 +58,14 @@ function preProcessPage(page) {
   }
 
   //***
-  //*** Inject the currentSermonSeries on the Old & New Testaments
+  //*** Inject the currentSermonSeries on several other pages 
   //***
 
-  if (page.path === 'OldTestament.md' ||
-      page.path === 'NewTestament.md') {
+  if (page.path === 'OldTestament.md' || // ... Old Testament
+      page.path === 'NewTestament.md' || // ... New Testament
+      page.path === 'SermonSeries.md' || // ... Sermon Series page
+      // ... devo top-level pages (ex: devo.md & devo2026.md) NOT detailed devo page (e.g. devo20260217.md)
+      (page.path.startsWith('devo') && page.path.length !== 15) ) {
     page.content = `<div style="width: fit-content; margin-left: auto;">${currentSermonSeries}</div>\n\n${page.content}`;
   }
 
