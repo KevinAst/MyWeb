@@ -139,5 +139,6 @@ M{ sermonSeries({
   seriesType: 'MidWeek',
   entries: [
     { id: `20260909`, sermon: `The God of Faithful Promises`,                        scripture: `ezr.1@@Ezra 1`,    },
+    { id: `20260916`, sermon: `Rebuilding the Temple: It's Not About a Building`,    scripture: `ezr.2@@Ezra 2-3`,  },
   ]
 }) }M
