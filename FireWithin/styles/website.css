@@ -535,3 +535,12 @@ input[id^="devo"] {
   text-indent:  -20px; /* the first line of the entire block gets the negative indent (-20px) */
   padding-left:  20px; /* all subsequent lines are offset by the padding-left (20px) */
 }
+
+/*** Style Sermon History TABLE found in SermonSeries.md ***/
+.sermon-history {
+    margin: 0 auto; /* center the table within the page */
+}
+.sermon-history tbody th {
+    background-color: rgba(150, 150, 150, 0.12) !important; /* deliberately neutral and subtle (to mix well with all GitBook themes) */
+    border:           2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
+}

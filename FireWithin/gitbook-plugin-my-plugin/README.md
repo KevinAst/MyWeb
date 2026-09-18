@@ -12,6 +12,7 @@
   - [studyGuideLink()]
   - [bibleLink()]
   - [sermonSeries()]
+  - [summarizeSermonSeries()]
   - [memorizeVerse()]
   - [toc()]
   - [collapsibleSection()]
@@ -185,6 +186,7 @@ The following **Custom Tags** are available:
 - [studyGuideLink()]
 - [bibleLink()]
 - [sermonSeries()]
+- [summarizeSermonSeries()]
 - [memorizeVerse()]
 - [toc()]
 - [collapsibleSection()]
@@ -548,6 +550,40 @@ M{ sermonSeries({
 }) }M
 ```
  
+
+### summarizeSermonSeries()
+
+**API**: `summarizeSermonSeries()`
+
+A comprehensive table generator that details a complete history
+of all sermon series over the years.
+
+It includes:
+
+- when the series started
+- a visual segregation of Sunday and Mid Week series
+- the series duration
+- and whether is is archived or not
+
+**Parms**: NONE
+
+This macro is unusual, in that it has NO parameters.  
+
+- It gleans all of the needed information from data gathered in the
+  sermonSeries() macro.
+  
+- This is significant in that it is pulling the needed information from
+  FireWithin's existing internal representation of the sermon series!
+  As a result, there is no additional maintenance procedures required to
+  generate this rather unique table!
+  
+- The one caveat, that is enforced within the macro, is the page that
+  invokes this macro must be placed after the Old/New Testaments (in the
+  toc.md), because that is where the knowledge base is gathered (via the
+  sermonSeries() macro).
+
+
+
 ### memorizeVerse()
 
 **API**: `memorizeVerse(namedParams)`
@@ -1043,6 +1079,7 @@ attempted it.  It would require some additional research, for example:
   [studyGuideLink()]:     #studyguidelink
   [bibleLink()]:          #biblelink
   [sermonSeries()]:       #sermonseries
+  [summarizeSermonSeries()]: #summarizesermonseries
   [memorizeVerse()]:      #memorizeverse
   [toc()]:                #toc
   [collapsibleSection()]: #collapsiblesection

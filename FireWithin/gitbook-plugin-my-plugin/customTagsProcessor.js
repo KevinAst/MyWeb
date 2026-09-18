@@ -854,7 +854,6 @@ function bibleLink(_ref) {
 //*-----------------------------------------------------------------------------
 //* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
 //*-----------------------------------------------------------------------------
-// ?? NEW (entire section)
 const _bookSermonSeries = [
   // SPEC:
   // {
@@ -1003,7 +1002,6 @@ function sermonSeries(namedParams={}) {
 
   // accumulate Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
   // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
-  // ?? NEW
   const bbss_entry   = entries[0];                 // we base our info on the first sermonSeries entry (which is the start the series)
   const bbss_id      = bbss_entry.id;              // this assumes we are using standard YYYYMMDD (e.g. '20130206') ... sortable -and- basis for date (MM/DD/YYYY)
   const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... works because we are only using Bible Books (pruned based on seriesType)
@@ -1265,12 +1263,32 @@ function processDateEntry(date) {
 
 
 //*-----------------------------------------------------------------------------
-//* summarizeSermonSeries(namedParams)
+//* summarizeSermonSeries()
 //* 
-//* ?? DOCUMENT in README.md
+//* A comprehensive table generator that details a complete history
+//* of all sermon series over the years.
+//*
+//* It includes:
+//*
+//* - when the series started
+//* - a visual segregation of Sunday and Mid Week series
+//* - the series duration
+//* - and whether is is archived or not
 //* 
-//* A comprehensive and responsive table generator that details the full
-//* content of an entire sermon series.
+//* This macro is unusual, in that it has NO parameters.  
+//* 
+//* - It gleans all of the needed information from data gathered in the
+//*   sermonSeries() macro.
+//*   
+//* - This is significant in that it is pulling the needed information from
+//*   FireWithin's existing internal representation of the sermon series!
+//*   As a result, there is no additional maintenance procedures required to
+//*   generate this rather unique table!
+//*   
+//* - The one caveat, that is enforced within the macro, is the page that
+//*   invokes this macro must be placed after the Old/New Testaments (in the
+//*   toc.md), because that is where the knowledge base is gathered (via the
+//*   sermonSeries() macro).
 //* 
 //* Parms: NONE
 //* 
@@ -1281,7 +1299,6 @@ function processDateEntry(date) {
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
-// ??$$ NEW MACRO
 function summarizeSermonSeries() {
   // validation support
   const self       = `summarizeSermonSeries(...)`;
@@ -1302,30 +1319,36 @@ function summarizeSermonSeries() {
   // sort our knowlege-base chronologically by date
   const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
 
-  // ?? more Table UI refinement
+  // NOTE: Regarding a responsive table that adjusts to cell-phones:
+  //       - the single table coded here, simply clips off the last two columns
+  //         (Length & Archived) when real estate is tight.  
+  //       - this is pretty much what I was planning on doing in a responsive reaction.
+  //       - THEREFORE, I just punted and genned this one table :-)
 
-  // start our table and header
-  content += `
-<table>
- <thead>
-  <tr>
-   <th rowspan="2">When</th>
-   <th colspan="2">Series</th>
-   <th rowspan="2">Wks</th>
-  </tr>
-  <tr>
-   <th>Sundays</th>
-   <th>Mid Week</th>
-  </tr>
- </thead>
- <tbody>`;
+  // table header is injected multiple times when year changes
+  var tableHeader = `
+<tr>
+ <th rowspan="2">YYYY</th>
+ <th colspan="2">Series</th>
+ <th rowspan="2">Length</th>
+ <th rowspan="2">Archived</th>
+</tr>
+<tr>
+ <th>Sundays</th>
+ <th>Mid Week</th>
+</tr>`;
+
+  var runningYear = `YYYY`; // ... keeps track of current running year in our processing
+
+  // start our table
+  content += `<table class="sermon-history"><tbody>`;
 
   // enumerate each table entry
   sortedSeries.forEach( (sermonSeries) => {
 
-    const id            = sermonSeries.id; // 'YYYYMMDD'
-//  const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
-    const formattedDate = `${id.slice(4,6)}/${id.slice(0,4)}`; // 'MM/YYYY'
+    const id            = sermonSeries.id;    // 'YYYYMMDD'
+    const year          = `${id.slice(0,4)}`; // 'YYYY'
+    const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
 
     const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
     const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
@@ -1334,20 +1357,33 @@ function summarizeSermonSeries() {
     const sundays       = sermonSeries.sundays; // mutually exclusive
     const midWeek       = !sundays;
 
+    const archived      = sermonSeries.archived;
+
+    // adjust date colunn to be a strike-through (with hover text) WHEN series has been archived
+    const dateCol = archived ? `<s title="series has been archived">${formattedDate}</s>` : formattedDate;
+
+    // generate header when year changes
+    if (runningYear !== year) {
+      // inject year in header
+      tableHeader = tableHeader.replace(runningYear, year);
+      runningYear = year;
+      content += tableHeader;
+    }
+
+    // generate the table row for this sermonSeries
     content += `
 <tr>
-  <td>${formattedDate}</td>
+  <td>${dateCol}</td>
   <td>${sundays ? bookLink : ''}</td>
   <td>${midWeek ? bookLink : ''}</td>
-  <td>${sermonSeries.weeks}</td>
+  <td>${(sermonSeries.weeks < 10 ? '&nbsp;' : '') + sermonSeries.weeks + (sermonSeries.weeks === 1 ? ' wk' : ' wks')}</td>
+  <td>${archived ? 'archived' : ''}</td>
 </tr>
     `;
   });
 
   // close out our table
-  content += `
-  </tbody>
-</table>`;
+  content += `</tbody></table>`;
 
   // that's all folks :-)
   content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
