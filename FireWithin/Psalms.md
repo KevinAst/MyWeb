@@ -106,6 +106,7 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',         verse: /* Psalms 27:14 */  'Acts 23:11',              verseRef: 'act.23.11',   btbContext: 'FromDevoContent##psa.27.14@@Psalms 27:14##Wait on the Lord with courage'},
      { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',            verse:   'Psalms 31:24',                              verseRef: 'psa.31.24',   },
      { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse:   'Psalms 33:12',                              verseRef: 'psa.33.12',   },
+     { publicationDate: 'Fri 09/18/2026',  topic: 'Growing Together in Christ',      verse: /* Psalms 33 */  'Ephesians 4:32',             verseRef: 'eph.4.32',    btbContext: 'FromDevoSermon##psa.33@@Psalms 33##Faith and Freedom - America’s Christian Heritage'},
      { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse:   'Psalms 40:1',                               verseRef: 'psa.40.1',    },
      { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',    verse:   'Psalms 42:11',                              verseRef: 'psa.42.11',   },
      { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',   verse:   'Psalms 46:1',                               verseRef: 'psa.46.1',    },

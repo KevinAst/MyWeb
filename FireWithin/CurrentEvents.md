@@ -85,7 +85,16 @@ M{ sermonSeries({
     },
 
     {                 divider: `2023` },
-    { id: `20230702`, sermon: `Faith and Freedom`,                                                    scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
+    { id: `20230702`, sermon: `Faith and Freedom`,                                                    scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 09/18/2026',
+           topic:               'Growing Together in Christ',
+           verse:               'Ephesians 4:32',
+           verseRef:            'eph.4.32',
+        },
+      ],
+    },
 
     {                 divider: `2024` },
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
