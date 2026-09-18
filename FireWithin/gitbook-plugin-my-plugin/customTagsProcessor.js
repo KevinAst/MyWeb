@@ -1350,17 +1350,21 @@ function summarizeSermonSeries() {
     const year          = `${id.slice(0,4)}`; // 'YYYY'
     const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
 
-    const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
-    const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
-    const bookLink      = `<a href="${book}.html">${bookLabel}</a>`
-
     const sundays       = sermonSeries.sundays; // mutually exclusive
     const midWeek       = !sundays;
 
     const archived      = sermonSeries.archived;
 
-    // adjust date colunn to be a strike-through (with hover text) WHEN series has been archived
-    const dateCol = archived ? `<s title="series has been archived">${formattedDate}</s>` : formattedDate;
+    const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
+    const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
+    var   bookHoverText = `Go to the FireWithin ${bookLabel} page`;
+    if (archived) {
+      bookHoverText += ` (although this series has been archived)`; // add additional detail for archived entries
+    }
+    var   bookLink      = `<a title="${bookHoverText}" href="${book}.html">${bookLabel}</a>`
+    if (archived) {
+      bookLink = `<s>${bookLink}</s>`; // visually strike-out entries that have been archived
+    }
 
     // generate header when year changes
     if (runningYear !== year) {
@@ -1373,7 +1377,7 @@ function summarizeSermonSeries() {
     // generate the table row for this sermonSeries
     content += `
 <tr>
-  <td>${dateCol}</td>
+  <td>${formattedDate}</td>
   <td>${sundays ? bookLink : ''}</td>
   <td>${midWeek ? bookLink : ''}</td>
   <td>${(sermonSeries.weeks < 10 ? '&nbsp;' : '') + sermonSeries.weeks + (sermonSeries.weeks === 1 ? ' wk' : ' wks')}</td>
