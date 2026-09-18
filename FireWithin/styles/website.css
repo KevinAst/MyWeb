@@ -542,5 +542,6 @@ input[id^="devo"] {
 }
 .sermon-history tbody th {
     background-color: rgba(150, 150, 150, 0.12) !important; /* deliberately neutral and subtle (to mix well with all GitBook themes) */
-    border:           2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
+    border-top:       2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
+    border-bottom:    2px solid currentColor !important;    /* ditto */
 }
