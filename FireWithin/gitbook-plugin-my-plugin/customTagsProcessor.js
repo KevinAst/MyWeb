@@ -1321,7 +1321,7 @@ function summarizeSermonSeries() {
 
   // NOTE: Regarding a responsive table that adjusts to cell-phones:
   //       - the single table coded here, simply clips off the last two columns
-  //         (Length & Archived) when real estate is tight.  
+  //         (Duration & Archived) when real estate is tight.  
   //       - this is pretty much what I was planning on doing in a responsive reaction.
   //       - THEREFORE, I just punted and genned this one table :-)
 
@@ -1330,7 +1330,7 @@ function summarizeSermonSeries() {
 <tr>
  <th rowspan="2">YYYY</th>
  <th colspan="2">Series</th>
- <th rowspan="2">Length</th>
+ <th rowspan="2">Duration</th>
  <th rowspan="2">Archived</th>
 </tr>
 <tr>
