@@ -1,10 +1,10 @@
 # Sermon Series
 
 The sermons of {{book.CornerstoneChapel}} work sequentially through
-the Bible verse-by-verse.  This is what makes it possible to use as a
-supplement to your Bible Study.
+the Bible, verse-by-verse. This is what makes them useful as a
+supplement to your Bible study.
 
-At any given time there are two active sermon series: 
+At any given time, there are two active sermon series:
 - one for **Sundays** 
 - and the other for **Mid Week**.
 
@@ -15,33 +15,31 @@ At any given time there are two active sermon series:
 
 ## Current Series
 
-These are the sermon series that are currently active now:
+These are the sermon series that are currently active:
 
 - {{book.CurSermonSeries_Sundays}}
 - {{book.CurSermonSeries_MidWeek}}
 
-
-<mark>NOTE:</mark> As a convenience, you will find short-cut links to
-the `Current Sermon Series` at the top right of each FireWithin Book
-of the Bible _(ex: {{book.Matthew}})_.
-
+<mark>NOTE:</mark> As a convenience, shortcut links to these current
+series can be found at the top right of select "Bible Specific" pages
+(for example: {{book.Matthew}}).
 
 ## Series History
 
-Because sermon series are synchronized on a daily basis, you will no
-longer see this activity listed in the {{book.RevisionHistory}}.  This
-change was implemented in the v27.0 ??LINK release.
+Because sermon series are now synchronized daily, this activity is no
+longer listed in the {{book.RevisionHistory}} _(beginning with the
+[v27.0](history.md#v27_0) release)_.
 
-To compensate for this, the following table shows a complete history
-of all sermon series over the years.  It includes:
+To compensate for this, the following table provides a complete
+history of all sermon series over the years. It includes:
 
-- when the series started
-- a visual segregation of Sunday and Mid Week series
-- the series duration
-- and whether is is archived or not
+- when each series started
+- a visual separation of Sunday and Mid Week series
+- the duration of each series
+- whether the series is archived or currently active
 
-This table can be thought of as a timeline.  As you progress down, you
-can easily determine what series was active at any point in time.
+Think of this table as a timeline. As you progress down the table, you
+can easily determine which series was active at any point in time.
 
 <center>
   <a  class="button-link" title="Scroll down to the latest (active) series entry" href="#current-entries">See Latest Series History</a>
@@ -51,5 +49,6 @@ can easily determine what series was active at any point in time.
 M{ summarizeSermonSeries() }M
 
 <mark id="current-entries">NOTE:</mark> The `Duration` shown for the
-current `Sunday` and `Mid Week` columns are a work-in-progress. These
-numbers will continue to increase as new sermons are published. :-)
+current **Sunday** and **Mid Week** series is a work in
+progress. These numbers will continue to increase as new sermons are
+published. :-)

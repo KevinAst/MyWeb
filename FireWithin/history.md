@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *TBD*
 [v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
@@ -88,6 +89,63 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v27_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v27.0 - Incremental Sermon Series Synchronization <i>(TBD)</i>
+</h3>
+<br/>
+
+- **Incremental Sermon Series Synchronization**
+
+  Beginning with this revision (v27.0), new sermons within a series
+  will be visible in FireWithin on the same day they are published on
+  the {{book.CornerstoneChapel}} site. Previously, FireWithin batched
+  these sermons over the course of a month and synchronized them at
+  that interval. With this new feature, that delay has been eliminated.
+
+  _**This means that users will always have access to the most
+  current sermons in each active series!**_
+
+  As a result, quick-reference links to the Current Sermon Series have
+  been strategically placed at the top right of select "Bible
+  Specific" pages (for example: {{book.Matthew}}). These links include
+  both the Sunday and Mid Week series.
+
+  Here is an example of what those links look like:
+
+  <div style="width: fit-content; margin-left: auto;">
+    <b><a title="Go to the Sermon Series page" href="SermonSeries.html">Current Sermon Series</a>:</b>
+    <ul>
+      <li>{{book.CurSermonSeries_Sundays}}</li>
+      <li>{{book.CurSermonSeries_MidWeek}}</li>
+    </ul>
+  </div>
+
+- **New {{book.SermonSeries}} Page**
+
+  Because sermon synchronization now occurs daily, this activity is no
+  longer itemized in the release notes of this Revision History page.
+
+  To compensate for this, a new {{book.SermonSeries}} page has been
+  created to chronicle the progression of Sermon Series over the
+  years. This timeline-style table provides a complete history of all
+  sermon series and allows you to easily determine which series was
+  active at any point in time.
+
+  This table is automatically generated from the knowledge base
+  maintained within FireWithin.
+
+  **Check it out!**
+
+- **Other Enhancements**
+
+  * The tooltip hover for completion checkboxes now includes the entire
+    label, rather than just the checkbox.
+
 
 
 <!-- ************************************************************* -->
