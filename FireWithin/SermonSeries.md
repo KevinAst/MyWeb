@@ -43,4 +43,13 @@ of all sermon series over the years.  It includes:
 This table can be thought of as a timeline.  As you progress down, you
 can easily determine what series was active at any point in time.
 
+<center>
+  <a  class="button-link" title="Scroll down to the latest (active) series entry" href="#current-entries">See Latest Series History</a>
+</center>
+<br/>
+
 M{ summarizeSermonSeries() }M
+
+<mark id="current-entries">NOTE:</mark> The `Duration` shown for the
+current `Sunday` and `Mid Week` columns are a work-in-progress. These
+numbers will continue to increase as new sermons are published. :-)

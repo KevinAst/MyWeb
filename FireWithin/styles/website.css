@@ -545,3 +545,18 @@ input[id^="devo"] {
     border-top:       2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
     border-bottom:    2px solid currentColor !important;    /* ditto */
 }
+
+/*** Style a link `<a class="button-link" ...` to look like a button ***/
+.button-link {
+    display:          inline-block !important;
+    padding:          0.4em 0.8em !important;
+    border-radius:    4px !important;
+    background-color: rgba(145, 140, 130, 0.25) !important; /* fill with a neutral color, supporting all GitBook themes */
+    color:            inherit !important;
+    text-decoration:  none !important;
+    font-weight:      600 !important;
+}
+.button-link:hover {
+    background-color: rgba(145, 140, 130, 0.4) !important; /* ditto above */
+    text-decoration:  none !important;
+}
