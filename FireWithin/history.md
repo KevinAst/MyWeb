@@ -141,7 +141,9 @@ Release           | What                 | *When*
 
   **Check it out!**
 
-- **Other Enhancements**
+- **Other Enhancements:**
+
+  * The {{book.GettingStarted}} page now begins with a FireWithin overview
 
   * The tooltip hover for completion checkboxes now includes the entire
     label, rather than just the checkbox.

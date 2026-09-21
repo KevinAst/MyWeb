@@ -1,10 +1,38 @@
 # Getting Started
 
-Overall the _**"Fire Within"**_ Bible Study Guide is simple to use.
-It is, _at it's core_, simply a consolidated list of resource links to
-help you in your Bible Study.  With that said, this section highlights
-a number of things that you should know to get the most out of this
-site.
+FireWithin is a site designed to help believers study, remember, and
+apply God's Word through carefully organized biblical resources. In
+essence, it is a collection of trusted resources designed for Bible
+Study.
+
+Among other things, FireWithin:
+
+- Organizes sermons into concise, easy-to-navigate Bible Study series,
+  with the ability to bookmark an entire series
+  (for example: {{book.Romans}}).
+- Provides [completion checkboxes](#where-am-i) to help keep track of
+  your Bible Study progress.
+- Links more than 3,000 Scripture references to the 
+  [YouVersion](https://www.bible.com/) Bible App,
+  making it easy to explore those passages electronically.
+- Provides other Bible Study resources, including:
+  * Bible book overviews from both {{book.BibleProject}} and {{book.SpokenGospel}},
+  * A Scripture {{book.Memorization}} Tool, and
+  * Christian media resources such as {{book.TheChosen}} and {{book.HouseOfDavid}}.
+
+**Quick Tip (for new users):** 
+
+1. It is recommended that you start with a laptop, where the 
+   [Left Nav Bar](#left-nav-bar) is always visible. Once you discover
+   [how to access the Left Nav Bar](#more-on-left-nav-bar)
+   on a cell phone, FireWithin works quite well there too :-)
+2. Take a few minutes to watch the [FireWithin Video](#quick-start),
+   which demonstrates its features. The first four minutes provide a
+   quick overview; the remainder provides a more detailed look at the
+   site.
+3. Work your way through this **Getting Started** page.  It highlights
+   a number of things that you should know to get the most out of this
+   site.
 
 
 ## At a Glance
