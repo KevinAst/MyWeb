@@ -127,6 +127,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1ki-2015',
+  seriesType: 'Sundays',
   entries: [
     { id: `20150104`, sermon: `The Death of a King, The Rebellion of a Son`, scripture: `1ki.1@@1 Kings 1-2`,    },
     { id: `20150111`, sermon: `Wisdom`,                                      scripture: `1ki.3@@1 Kings 3-4`,    },
@@ -146,9 +147,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-1ki-2024',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20240403`, scripture: `1ki.1@@1 Kings 1`,            },
     { id: `20240417`, scripture: `1ki.2@@1 Kings 2`,            },

@@ -6,6 +6,35 @@ Note: As of 2025, THIS SERIES HAS BEEN ARCHIVED (i.e. is no longer
       available ), **however** the Study Guides are still available.
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
+...
+
+## 2009-2010 2 Corinthians Series (Sundays)
+
+**Note:** _As of 2025, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-2co-2009',
+  entries: [
+    { id: `20091206`, sermon: `What Suffering Produces`,   scripture: `2co.1@@2 Cor 1-2`,    },
+    { id: `20091213`, sermon: `We Were Made for Eternity`, scripture: `2co.3@@2 Cor 3-5`,    },
+    { id: `20100103`, sermon: `It's No Yoke`,              scripture: `2co.6@@2 Cor 6-7`,    },
+    { id: `20100110`, sermon: `The Grace of Giving`,       scripture: `2co.8@@2 Cor 8-10`,   },
+    { id: `20100124`, sermon: `Paradox Principles`,        scripture: `2co.11@@2 Cor 11-13`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
 01/24/2010
 Paradox Principles
 2 Cor 11-13

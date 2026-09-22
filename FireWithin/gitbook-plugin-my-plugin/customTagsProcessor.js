@@ -288,6 +288,7 @@ const customTagProcessors = {
   studyGuideLink,
   bibleLink,
   sermonSeries,
+  summarizeSermonSeries,
   memorizeVerse,
   toc,
   collapsibleSection,
@@ -575,7 +576,7 @@ function completedCheckBox(_id) {
   // ... we vary our hover tool-tip message DUE TO multi use of this macro
   const toolTipQualifier = additionalHTML.includes('audio-play') ? 'Audio Playback' : 'Completion Status';
   const toolTip          = `Toggle ${toolTipQualifier} (automatically saved)`;
-  return `${diag}<label><input title="${toolTip}" type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
+  return `${diag}<label title="${toolTip}"><input type="checkbox" ${additionalHTML} data-completions onclick="fw.handleCompletedCheckChange(this);" id="${id}">${label}</label>`;
 }
 
 
@@ -851,6 +852,69 @@ function bibleLink(_ref) {
 
 
 //*-----------------------------------------------------------------------------
+//* Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+//*-----------------------------------------------------------------------------
+const _bookSermonSeries = [
+  // SPEC:
+  // {
+  //   id:       '20130206',      // YYYYMMDD - used to sort entries -AND- glean the series start date: MM/DD/YYYY
+  //   book:     '1Thessalonians' // Book of the Bible
+  //   sundays:  true,            // true: Sundays, false: MidWeek
+  //   weeks:    23,              // duration in weeks
+  //   archived: false,           // determines if the series is archived or not
+  // },
+];
+
+// helper function
+function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
+
+  // ignore (no-op) seriesType of 'Other'
+  // ... only interested in 'Sundays'/'MidWeek'
+  if (seriesType === 'Other') {
+    return;
+  }
+
+  // ignore (no-op) entries that have already been registered
+  // ... accommodates pre-population of known archived entries WHEN still in system (to promote Study Guides)
+  // ... NOTE: we use BOTH id & book to accommodate small bible books whose series span multiple books (ex: 1st, 2nd, 3rd John)
+  if (_bookSermonSeries.some(entry => entry.id === id && entry.book === book)) {
+    return;
+  }
+
+  // add this new entry into our _bookSermonSeries array
+  _bookSermonSeries.push({
+    id,
+    book,
+    sundays: seriesType==='Sundays',
+    weeks,
+    archived,
+  });
+}
+
+// pre-populate with archived entries
+// ... that may or may not still be in sermonSeries()
+//     BECAUSE in needed cases, still in sermonSeries()
+//     - to accommodate Sermon Series that are still active
+//     - or may have moved sermons to YouTube (if you can find them)
+//     - EITHER way, THIS cache takes precedence (i.e. will NOT be duplicated)
+
+//                                                 'Sundays'
+//                                                 'MidWeek'
+//                    (id,         book,           seriesType,   weeks, archived);
+accum_bookSermonSeries('20090419', 'Acts',         'Sundays',    12,    true);
+accum_bookSermonSeries('20090809', 'Romans',       'Sundays',    6,     true);
+accum_bookSermonSeries('20090927', '1Corinthians', 'Sundays',    9,     true);
+accum_bookSermonSeries('20091206', '2Corinthians', 'Sundays',    5,     true);
+accum_bookSermonSeries('20100131', 'Galatians',    'Sundays',    2,     true);
+accum_bookSermonSeries('20100221', 'Ephesians',    'Sundays',    3,     true);
+accum_bookSermonSeries('20100321', 'Philippians',  'Sundays',    2,     true);
+accum_bookSermonSeries('20100411', 'Colossians',   'Sundays',    2,     true);
+
+// baseline used in summarizeSermonSeries() macro to insure content has been added
+const _bookSermonSeriesBASELINE = _bookSermonSeries.length;
+
+
+//*-----------------------------------------------------------------------------
 //* sermonSeries(namedParams)
 //* 
 //* A comprehensive and responsive table generator that details the full
@@ -867,10 +931,6 @@ function bibleLink(_ref) {
 //*   <table> ... snip snip ... </table>
 //*-----------------------------------------------------------------------------
 
-const defaultSettings = {  // default settings - impacting the entire series
-  includeStudyGuide: true, // directive to include/omit StudyGuide column (DEFAULT: true)
-};
-
 function sermonSeries(namedParams={}) {
   // parameter validation
   const self       = `sermonSeries(...)`;
@@ -879,19 +939,26 @@ function sermonSeries(namedParams={}) {
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);
   // extract each parameter
-  const {entries, settings=defaultSettings, collapsibleSectionID='', ...unknownNamedArgs} = namedParams;
+  const {collapsibleSectionID='', includeStudyGuide=true, seriesType='Other', archived=false, entries, ...unknownNamedArgs} = namedParams;
+
+  // ... collapsibleSectionID
+  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
+
+  // ... includeStudyGuide
+  checkParam(isBoolean(includeStudyGuide), 'includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
+
+  // ... seriesType
+  const valid_seriesType = ['Sundays', 'MidWeek', 'Other'];
+  checkParam(isString(seriesType), `seriesType (when supplied) must be a string - one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+  checkParam(valid_seriesType.includes(seriesType), `seriesType must be one of the following ${valid_seriesType.join(', ')}, NOT: ${seriesType} (DEFAULT: 'Other')`);
+
+  // ... archived
+  checkParam(isBoolean(archived), 'archived must be a boolean directive, indicating whether this series is archived (DEFAULT: false)');
 
   // ... entries
   checkParam(entries,          'entries is required');
   checkParam(isArray(entries), `entries must an array of sermon entry directives`);
   checkParam(entries.length>0, `entries array must have at least one entry`);
-
-  // ... settings
-  checkParam(settings,                'settings must either be supplied, or allowed to default');
-  checkParam(isPlainObject(settings), 'settings (when supplied) must be a set of named properties (an object of settings)');
-
-  // ... collapsibleSectionID
-  checkParam(isString(collapsibleSectionID), `collapsibleSectionID (when supplied) must be a string - the unique id of the collapsibleSectionID, NOT: ${collapsibleSectionID}`);
 
   // ... unrecognized named parameter
   const unknownArgKeys = Object.keys(unknownNamedArgs);
@@ -903,20 +970,11 @@ function sermonSeries(namedParams={}) {
   //            PUNT ON THIS - not all that big of a deal
   checkParam(arguments.length <= 1, `unrecognized positional parameters (only named parameters may be specified) ... ${arguments.length} positional parameters were found`);
 
-  // extract -and- validate individual settings (defaulting as appropriate)
-  // NOTE: We do this for validation purposes.
-  //       Ultimately: we pass around the settings obj, which is refrehed (below) - to pick up the initialization done here.
-  const {includeStudyGuide=defaultSettings.includeStudyGuide, ...unknownSettings} = settings;
-
-  // ... includeStudyGuide
-  checkParam(isBoolean(includeStudyGuide), 'settings.includeStudyGuide must be a boolean directive to include/omit StudyGuide column (DEFAULT: true)');
-
-  // ... unrecognized settings
-  const unknownSettingsKeys = Object.keys(unknownSettings);
-  checkParam(unknownSettingsKeys.length === 0,  `unrecognized setting(s): ${unknownSettingsKeys}`);
-
-  // refresh the supplied settings object (what we pass around), to pick up the initialization from the descructuring (above)
-  settings.includeStudyGuide = includeStudyGuide;
+  // generate settings object to allow ALL non-entries params to be passed around more easily
+  // ... this is legacy structure that was removed from the public API
+  const settings = {
+    includeStudyGuide,
+  };
 
   // expand our customTag as follows
   // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
@@ -941,6 +999,14 @@ function sermonSeries(namedParams={}) {
   ['phone', 'desktop'].forEach( (cssClass) => {
     content += expandSermonSeries(settings, entries, checkParam, cssClass);
   });
+
+  // accumulate Book-Based Sermon Series info, held in a JS global context of our build process, to be used by summarizeSermonSeries() macro
+  // ... this is strategically placed AFTER our processing, to insure our function parameters are valid
+  const bbss_entry   = entries[0];                 // we base our info on the first sermonSeries entry (which is the start the series)
+  const bbss_id      = bbss_entry.id;              // this assumes we are using standard YYYYMMDD (e.g. '20130206') ... sortable -and- basis for date (MM/DD/YYYY)
+  const bbss_book    = forPage.replace('.md', ''); // e.g. 'Matthew' ... works because we are only using Bible Books (pruned based on seriesType)
+  const bbss_weeks   = entries.length;             // the number of entries is the total weeks for this series (only minor issue is if `divider`s are supplied, BUT that does NOT happen for our Bible BOOK series) ... close enough
+  accum_bookSermonSeries(bbss_id, bbss_book, seriesType, bbss_weeks, archived);
 
   // generate the collapsibleSection end (when requested)
   if (collapsibleSectionID) {
@@ -1192,6 +1258,139 @@ function processDateEntry(date) {
     crLf = '<br/>'; // subsequent entries have a cr/lf
   });
 
+  return content;
+}
+
+
+//*-----------------------------------------------------------------------------
+//* summarizeSermonSeries()
+//* 
+//* A comprehensive table generator that details a complete history
+//* of all sermon series over the years.
+//*
+//* It includes:
+//*
+//* - when the series started
+//* - a visual segregation of Sunday and Mid Week series
+//* - the series duration
+//* - and whether is is archived or not
+//* 
+//* This macro is unusual, in that it has NO parameters.  
+//* 
+//* - It gleans all of the needed information from data gathered in the
+//*   sermonSeries() macro.
+//*   
+//* - This is significant in that it is pulling the needed information from
+//*   FireWithin's existing internal representation of the sermon series!
+//*   As a result, there is no additional maintenance procedures required to
+//*   generate this rather unique table!
+//*   
+//* - The one caveat, that is enforced within the macro, is the page that
+//*   invokes this macro must be placed after the Old/New Testaments (in the
+//*   toc.md), because that is where the knowledge base is gathered (via the
+//*   sermonSeries() macro).
+//* 
+//* Parms: NONE
+//* 
+//* Custom Tag:
+//*   M{ summarizeSermonSeries() }M
+//* 
+//* Replaced With:
+//*   <table> ... snip snip ... </table>
+//*-----------------------------------------------------------------------------
+
+function summarizeSermonSeries() {
+  // validation support
+  const self       = `summarizeSermonSeries(...)`;
+  const checkIt = check.prefix(`${self} [in page: ${forPage}] violation: `);
+
+  // verify that _bookSermonSeries has content (if not it is because Sermon Series has moved above Bible Books in TOC)
+  checkIt(_bookSermonSeries.length > _bookSermonSeriesBASELINE, `NO Sermon Series data has been collected.  The Sermon Series TOC must be registered AFTER Bible Books in TOC.md`);
+
+  // expand our customTag as follows
+  // CRITICAL NOTE: The END html comment (below), STOPS all subsequent markdown interpretation
+  //                UNLESS the cr/lf is placed BEFORE IT!
+  //                ... I have NO IDEA WHY :-(
+  //                ... BOTTOM LINE: KEEP the cr/lf in place!
+  const diag = config.revealCustomTags ? `<mark>Custom Tag: ${self}</mark>` : '';
+  let content = ``;
+  content += `${diag}\n<!-- START Custom Tag: ${self} -->\n`;
+
+  // sort our knowlege-base chronologically by date
+  const sortedSeries = [..._bookSermonSeries].sort((a, b) => a.id.localeCompare(b.id));
+
+  // NOTE: Regarding a responsive table that adjusts to cell-phones:
+  //       - the single table coded here, simply clips off the last two columns
+  //         (Duration & Archived) when real estate is tight.  
+  //       - this is pretty much what I was planning on doing in a responsive reaction.
+  //       - THEREFORE, I just punted and genned this one table :-)
+
+  // table header is injected multiple times when year changes
+  var tableHeader = `
+<tr>
+ <th rowspan="2">YYYY</th>
+ <th colspan="2">Series</th>
+ <th rowspan="2">Duration</th>
+ <th rowspan="2">Archived</th>
+</tr>
+<tr>
+ <th>Sundays</th>
+ <th>Mid Week</th>
+</tr>`;
+
+  var runningYear = `YYYY`; // ... keeps track of current running year in our processing
+
+  // start our table
+  content += `<table class="sermon-history"><tbody>`;
+
+  // enumerate each table entry
+  sortedSeries.forEach( (sermonSeries) => {
+
+    const id            = sermonSeries.id;    // 'YYYYMMDD'
+    const year          = `${id.slice(0,4)}`; // 'YYYY'
+    const formattedDate = `${id.slice(4,6)}/${id.slice(6,8)}/${id.slice(0,4)}`; // 'MM/DD/YYYY'
+
+    const sundays       = sermonSeries.sundays; // mutually exclusive
+    const midWeek       = !sundays;
+
+    const archived      = sermonSeries.archived;
+
+    const book          = sermonSeries.book; // e.g. 'Matthew' or '1Corinthians'
+    const bookLabel     = book.replace(/^([123])/, '$1 '); // ... space between the number and book - e.g. '3 John'
+    var   bookHoverText = `Go to the FireWithin ${bookLabel} page`;
+    if (archived) {
+      bookHoverText += ` (although this series has been archived)`; // add additional detail for archived entries
+    }
+    var   bookLink      = `<a title="${bookHoverText}" href="${book}.html">${bookLabel}</a>`
+    if (archived) {
+      bookLink = `<s>${bookLink}</s>`; // visually strike-out entries that have been archived
+    }
+
+    // generate header when year changes
+    if (runningYear !== year) {
+      // inject year in header
+      tableHeader = tableHeader.replace(runningYear, year);
+      runningYear = year;
+      content += tableHeader;
+    }
+
+    // generate the table row for this sermonSeries
+    content += `
+<tr>
+  <td>${formattedDate}</td>
+  <td>${sundays ? bookLink : ''}</td>
+  <td>${midWeek ? bookLink : ''}</td>
+  <td>${(sermonSeries.weeks < 10 ? '&nbsp;' : '') + sermonSeries.weeks + (sermonSeries.weeks === 1 ? ' wk' : ' wks')}</td>
+  <td>${archived ? 'archived' : ''}</td>
+</tr>
+    `;
+  });
+
+  // close out our table
+  content += `</tbody></table>`;
+
+  // that's all folks :-)
+  content += `\n\n<!-- END Custom Tag: ${self} -->\n`;
   return content;
 }
 

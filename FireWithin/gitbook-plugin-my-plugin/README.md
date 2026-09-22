@@ -12,6 +12,7 @@
   - [studyGuideLink()]
   - [bibleLink()]
   - [sermonSeries()]
+  - [summarizeSermonSeries()]
   - [memorizeVerse()]
   - [toc()]
   - [collapsibleSection()]
@@ -185,6 +186,7 @@ The following **Custom Tags** are available:
 - [studyGuideLink()]
 - [bibleLink()]
 - [sermonSeries()]
+- [summarizeSermonSeries()]
 - [memorizeVerse()]
 - [toc()]
 - [collapsibleSection()]
@@ -389,9 +391,14 @@ content of an entire sermon series.
                                    // - OPTIONAL: when omitted, NO CollapsibleSection is generated
                                    // - must be unique (if not, will impact other collapsible states across the site)
                                    // - suggested format: ss-mat-2026 (for SermonSeries-Matthew-2026 ... auto prefixed with `collapsibleSect_`)
-    settings: { // settings impacting entire series (OPTIONAL)
-      includeStudyGuide: boolean, // directive include/omit StudyGuide column (DEFAULT: true)
-    },
+    includeStudyGuide: boolean,    // directive include/omit StudyGuide column (DEFAULT: true)
+
+    seriesType: string,            // 'Sundays', 'MidWeek', 'Other' column (DEFAULT: 'Other')
+                                      - used in Sermon Series History table (interesed in 'Sundays' and 'MidWeek')
+
+    archived: boolean              // is series archived (DEFAULT: false)
+                                      - used in Sermon Series History table (highlighting archived series)
+
     entries: [ // series entries (in order of display)
       { // individual entry
         divider:   string,   // SPECIAL CASE: divider label entry (when used only param needed)
@@ -483,9 +490,7 @@ M{ sermonSeries({
 ```js
 // see: New testament / Mark / 2013-2014 Mark Series (Mid Week)
 M{ sermonSeries({
-  settings: {
   includeStudyGuide: false,
-  },
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
     { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },
@@ -537,9 +542,7 @@ M{ sermonSeries({
 
 // see: Specials / Current Events / Moral Decay
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
   entries: [
     { id: `20121108`, sermon: `https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism`, extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`, },
     { id: `20230521`, sermon: `Wanted: The Brave`,                                                                  extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`, },
@@ -547,6 +550,40 @@ M{ sermonSeries({
 }) }M
 ```
  
+
+### summarizeSermonSeries()
+
+**API**: `summarizeSermonSeries()`
+
+A comprehensive table generator that details a complete history
+of all sermon series over the years.
+
+It includes:
+
+- when the series started
+- a visual segregation of Sunday and Mid Week series
+- the series duration
+- and whether is is archived or not
+
+**Parms**: NONE
+
+This macro is unusual, in that it has NO parameters.  
+
+- It gleans all of the needed information from data gathered in the
+  sermonSeries() macro.
+  
+- This is significant in that it is pulling the needed information from
+  FireWithin's existing internal representation of the sermon series!
+  As a result, there is no additional maintenance procedures required to
+  generate this rather unique table!
+  
+- The one caveat, that is enforced within the macro, is the page that
+  invokes this macro must be placed after the Old/New Testaments (in the
+  toc.md), because that is where the knowledge base is gathered (via the
+  sermonSeries() macro).
+
+
+
 ### memorizeVerse()
 
 **API**: `memorizeVerse(namedParams)`
@@ -1042,6 +1079,7 @@ attempted it.  It would require some additional research, for example:
   [studyGuideLink()]:     #studyguidelink
   [bibleLink()]:          #biblelink
   [sermonSeries()]:       #sermonseries
+  [summarizeSermonSeries()]: #summarizesermonseries
   [memorizeVerse()]:      #memorizeverse
   [toc()]:                #toc
   [collapsibleSection()]: #collapsiblesection

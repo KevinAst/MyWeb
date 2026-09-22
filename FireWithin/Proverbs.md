@@ -14,7 +14,6 @@ by Adam and Eve, earning the same result - death.
 - [Proverbs Overview](#proverbs-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2017 Proverbs Series (Sundays)](#2017-proverbs-series-sundays)
-- [Proverbs Misc Selection](#proverbs-misc-selection)
 
 
 ## Proverbs Overview
@@ -95,13 +94,14 @@ P{ collapsibleSectionEnd() }P
 M{ devoGHSeries({
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sat 03/21/2026',  topic: 'Trusting God Beyond Bitterness',  verse:                      'Proverbs 3:5',    verseRef: 'pro.3.5',    },
-     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',     verse:                      'Proverbs 3:5-6',  verseRef: 'pro.3.5-6',  },
-     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',      verse:                      'Proverbs 9:10',   verseRef: 'pro.9.10',   },
-     { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',       verse:                      'Proverbs 16:6',   verseRef: 'pro.16.6',   },
+     { publicationDate: 'Sat 03/21/2026',  topic: 'Trusting God Beyond Bitterness',  verse:   'Proverbs 3:5',                       verseRef: 'pro.3.5',    },
+     { publicationDate: 'Thu 07/02/2026',  topic: 'Following God’s Appointment',     verse:   'Proverbs 3:5-6',                     verseRef: 'pro.3.5-6',  },
+     { publicationDate: 'Mon 09/07/2026',  topic: 'Wisdom at the Crossroads',        verse: /* Proverbs 3:5-6 */ 'Jeremiah 6:16',   verseRef: 'jer.6.16',   btbContext: 'FromDevoContent##pro.3.5-6@@Proverbs 3:5-6##Trust in the Lord'},
+     { publicationDate: 'Wed 05/27/2026',  topic: 'The Right Way to Honor God',      verse:   'Proverbs 9:10',                      verseRef: 'pro.9.10',   },
+     { publicationDate: 'Sat 05/16/2026',  topic: 'Walking in Holy Reverence',       verse:   'Proverbs 16:6',                      verseRef: 'pro.16.6',   },
      { publicationDate: 'Fri 07/03/2026',  topic: 'Divine Detours',                  verse: /* Proverbs 16:9 */  'Romans 8:28',     verseRef: 'rom.8.28',   btbContext: 'FromDevoContent##pro.16.9@@Proverbs 16:9##The Lord Directs Our Steps'},
-     { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',        verse:                      'Proverbs 20:22',  verseRef: 'pro.20.22',  },
-     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',   verse:                      'Proverbs 25:28',  verseRef: 'pro.25.28',  },
+     { publicationDate: 'Sun 05/03/2026',  topic: 'The Strength to Restrain',        verse:   'Proverbs 20:22',                     verseRef: 'pro.20.22',  },
+     { publicationDate: 'Tue 03/10/2026',  topic: 'Strength Without Self-Control',   verse:   'Proverbs 25:28',                     verseRef: 'pro.25.28',  },
    ]
 }) }M
 
@@ -111,6 +111,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20171119`, sermon: `Proverbs Series (Part 1): Wisdom`,           scripture: `pro.1@@Proverbs`, },
     { id: `20171126`, sermon: `Proverbs Series (Part 2): Money`,            scripture: `pro.1@@Proverbs`, },
@@ -119,20 +120,5 @@ M{ sermonSeries({
     { id: `20171217`, sermon: `Proverbs Series (Part 5): Speech`,           scripture: `pro.1@@Proverbs`, },
     { id: `20180107`, sermon: `Proverbs Series (Part 6): Vices`,            scripture: `pro.1@@Proverbs`, },
     { id: `20180121`, sermon: `Proverbs Series (Part 7): Virtues`,          scripture: `pro.1@@Proverbs`, },
-  ]
-}) }M
-
-
-
-## Proverbs Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20220921`, sermon: `Saul and David (Andy Wagner)`, scripture: `pro.1@@Proverbs 1-3`, },
   ]
 }) }M

@@ -19,7 +19,6 @@ the true God.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2015 2 Chronicles Series (Sundays)](#2015-2-chronicles-series-sundays)
 - [2026 2 Chronicles Series (Mid Week)](#2026-2-chronicles-series-mid-week)
-- [2 Chronicles Misc Selection](#2-chronicles-misc-selection)
 
 
 ## 2 Chronicles Overview
@@ -127,6 +126,7 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',          verse: /* 2 Chronicles 20:21-22:12 */ '2 Timothy 1:7',        verseRef: '2ti.1.7',    btbContext: 'FromDevoSermon##2ch.20@@2 Chronicles 20:21-22:12##What is Your Legacy, Faith or Flesh?'},
      { publicationDate: 'Fri 08/07/2026',  topic: 'A Life Prepared Before the Lord',   verse:   '2 Chronicles 27:6',                                 verseRef: '2ch.27.6',   },
      { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',              verse: /* 2 Chronicles 32:24-29 */    '1 Corinthians 10:31',  verseRef: '1co.10.31',  btbContext: 'FromDevoContent##2ch.32.24-29@@2 Chronicles 32:24-29##Hezekiah’s Pride'},
+     { publicationDate: 'Fri 09/04/2026',  topic: 'Respond While God Is Speaking',     verse:   '2 Chronicles 36:15',                                verseRef: '2ch.36.15',  },
    ]
 }) }M
 
@@ -138,6 +138,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ch-2015',
+  seriesType: 'Sundays',
   entries: [
     { id: `20150913`, sermon: `All is Forgiven`,             scripture: `2ch.1@@2 Chronicles 1-9`,    },
     { id: `20150920`, sermon: `The Sin of Self-Reliance`,    scripture: `2ch.10@@2 Chronicles 10-16`, },
@@ -154,9 +155,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2ch-2026',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20260325`, sermon: `Little Compromises, Bigger Consequences`,                        scripture: `2ch.1@@2 Chronicles 1-2`,           },
     { id: `20260408`, sermon: `Solomon's Plan, God's Plan`,                                     scripture: `2ch.3@@2 Chronicles 3-4`,           },
@@ -196,19 +196,15 @@ M{ sermonSeries({
     { id: `20260812`, sermon: `The Cycles of Humility and Pride`,                                    scripture: `2ch.31@@2 Chronicles 31:4-32:33`,  },
     { id: `20260819`, sermon: `No One is Beyond God's Reach! (Pastor Austin Hamrick)`,               scripture: `2ch.33@@2 Chronicles 33:1-34:7`,   },
     { id: `20260826`, sermon: `Make Dust of Your Idols`,                                             scripture: `2ch.34@@2 Chronicles 34`,          },
-  ]
-}) }M
-
-## 2 Chronicles Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-2ch-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20211205`, sermon: `The Battlefield of Blessing (Austin Hamrick)`, scripture: `2ch.20@@2 Chronicles 20`, },
+    { id: `20260902`, sermon: `It’s Never Too Late to Return`,                                       scripture: `2ch.35@@2 Chronicles 35-36`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 09/04/2026',
+           topic:               'Respond While God Is Speaking',
+           verse:               '2 Chronicles 36:15',
+           verseRef:            '2ch.36.15',
+        },
+      ],
+    },
   ]
 }) }M

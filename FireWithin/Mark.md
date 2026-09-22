@@ -15,7 +15,7 @@ did in his life prepares us for and informs us about his death.
 
 - [Mark Overview](#mark-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2013-2014 Mark Series (Mid Week)](#2013-2014-mark-series-mid-week)
+- [2014 Mark Series (Mid Week)](#2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 
 
@@ -105,15 +105,14 @@ M{ devoGHSeries({
 
 
 
-## 2013-2014 Mark Series (Mid Week)
+## 2014 Mark Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mrk-2013',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20131113`, scripture: `mrk.1@@Mark 1`,            },
     { id: `20131120`, scripture: `mrk.2@@Mark 2`,            },
@@ -142,6 +141,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mrk-2021',
+  seriesType: 'Sundays',
   entries: [
     { id: `20210418`, sermon: `Pray Like Jesus`,                       scripture: `mrk.1@@Mark 1`,         },
     { id: `20210425`, sermon: `Patches and Wineskins`,                 scripture: `mrk.2@@Mark 2:18-22`,   },

@@ -7,6 +7,33 @@ Note: As of 2025, THIS SERIES HAS BEEN ARCHIVED (i.e. is no longer
 
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
+*** ARCHIVE START **************************************************************
+### At a Glance
+
+...
+- [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
+...
+
+## 2010 Ephesians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2025, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-eph-2010',
+  entries: [
+    { id: `20100221`, sermon: `Our Spiritual Blessings in Christ`, scripture: `eph.1@@Ephesians 1-2`, },
+    { id: `20100307`, sermon: `Body Building`,                     scripture: `eph.3@@Ephesians 3-4`, },
+    { id: `20100314`, sermon: `Biblical Submission`,               scripture: `eph.5@@Ephesians 5-6`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
+
 03/14/2010
 Biblical Submission
 Ephesians 5-6

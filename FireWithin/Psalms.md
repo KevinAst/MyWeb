@@ -15,8 +15,7 @@ wait in this earthly exile for his return.
 
 - [Psalms Overview](#psalms-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2016-2017 Psalms Series (Sundays)](#2016-2017-psalms-series-sundays)
-- [Psalms Misc Selection](#psalms-misc-selection)
+- [2017 Psalms Series (Sundays)](#2017-psalms-series-sundays)
 
 
 ## Psalms Overview
@@ -98,42 +97,46 @@ M{ devoGHSeries({
    collapsibleSectionID: 'devo-psa',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',            verse:   'Psalms 23:3',                            verseRef: 'psa.23.3',    },
-     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',        verse:   'Psalms 24:3-4',                          verseRef: 'psa.24.3-4',  },
-     { publicationDate: 'Tue 03/17/2026',  topic: 'Led by the Light of God’s Word',  verse:   'Psalms 25:4',                            verseRef: 'psa.25.4',    },
-     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                verse:   'Psalms 27:14',                           verseRef: 'psa.27.14',   },
-     { publicationDate: 'Tue 05/05/2026',  topic: 'Faithful in the Waiting',         verse:   'Psalms 27:14',                           verseRef: 'psa.27.14',   },
-     { publicationDate: 'Wed 05/13/2026',  topic: 'Waiting on the Lord',             verse:   'Psalms 27:14',                           verseRef: 'psa.27.14',   },
-     { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',         verse: /* Psalms 27:14 */  'Acts 23:11',           verseRef: 'act.23.11',   btbContext: 'FromDevoContent##psa.27.14@@Psalms 27:14##Wait on the Lord with courage'},
-     { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',            verse:   'Psalms 31:24',                           verseRef: 'psa.31.24',   },
-     { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse:   'Psalms 33:12',                           verseRef: 'psa.33.12',   },
-     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse:   'Psalms 40:1',                            verseRef: 'psa.40.1',    },
-     { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',    verse:   'Psalms 42:11',                           verseRef: 'psa.42.11',   },
-     { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',   verse:   'Psalms 46:1',                            verseRef: 'psa.46.1',    },
-     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse:   'Psalms 51:17',                           verseRef: 'psa.51.17',   },
-     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse:   'Psalms 51:17',                           verseRef: 'psa.51.17',   },
-     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',    verse: /* Psalms 51:17 */  '1 John 1:9',           verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.51.17@@Psalms 51:17##God receives the broken and contrite heart'},
-     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse:   'Psalms 56:3',                            verseRef: 'psa.56.3',    },
-     { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',          verse: /* Psalms 73:16-17 */ 'Jeremiah 12:1',      verseRef: 'jer.12.1',    btbContext: 'FromDevoContent##psa.73.16-17@@Psalms 73:16-17##An Eternal Perspective'},
-     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',              verse: /* Psalms 86:11 */  'Mark 7:6-7',           verseRef: 'mrk.7.6-7',   btbContext: 'FromDevoContent##psa.86.11@@Psalms 86:11##An Undivided Heart'},
-     { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                           verseRef: 'psa.90.10',   },
-     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                           verseRef: 'psa.115.1',   },
-     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',            verse: /* Psalms 115:1 */  '1 Corinthians 10:31',  verseRef: '1co.10.31',   btbContext: 'FromDevoContent##psa.115.1@@Psalms 115:1##God’s Glory, Not Ours'},
-     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',      verse: /* Psalms 119:11 */  '2 Corinthians 10:5',  verseRef: '2co.10.5',    btbContext: 'FromDevoContent##psa.119.11@@Psalms 119:11##God’s Word is a Guard Against Sin'},
-     { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse:   'Psalms 121:4',                           verseRef: 'psa.121.4',   },
-     { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',         verse: /* Psalms 103:10-12 */  '1 John 1:9',       verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.103.10-12@@Psalms 103:10-12##The Completeness of God’s Forgiveness'},
-     { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse:   'Psalms 138:8',                           verseRef: 'psa.138.8',   },
+     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',            verse:   'Psalms 23:3',                               verseRef: 'psa.23.3',    },
+     { publicationDate: 'Sun 05/31/2026',  topic: 'The Presence of the Lord',        verse:   'Psalms 24:3-4',                             verseRef: 'psa.24.3-4',  },
+     { publicationDate: 'Tue 03/17/2026',  topic: 'Led by the Light of God’s Word',  verse:   'Psalms 25:4',                               verseRef: 'psa.25.4',    },
+     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                verse:   'Psalms 27:14',                              verseRef: 'psa.27.14',   },
+     { publicationDate: 'Tue 05/05/2026',  topic: 'Faithful in the Waiting',         verse:   'Psalms 27:14',                              verseRef: 'psa.27.14',   },
+     { publicationDate: 'Wed 05/13/2026',  topic: 'Waiting on the Lord',             verse:   'Psalms 27:14',                              verseRef: 'psa.27.14',   },
+     { publicationDate: 'Thu 07/16/2026',  topic: 'Courage for the Journey',         verse: /* Psalms 27:14 */  'Acts 23:11',              verseRef: 'act.23.11',   btbContext: 'FromDevoContent##psa.27.14@@Psalms 27:14##Wait on the Lord with courage'},
+     { publicationDate: 'Tue 07/21/2026',  topic: 'Hope That Holds Fast',            verse:   'Psalms 31:24',                              verseRef: 'psa.31.24',   },
+     { publicationDate: 'Mon 04/06/2026',  topic: 'The Lord as Our True Security',   verse:   'Psalms 33:12',                              verseRef: 'psa.33.12',   },
+     { publicationDate: 'Fri 09/18/2026',  topic: 'Growing Together in Christ',      verse: /* Psalms 33 */  'Ephesians 4:32',             verseRef: 'eph.4.32',    btbContext: 'FromDevoSermon##psa.33@@Psalms 33##Faith and Freedom - America’s Christian Heritage'},
+     { publicationDate: 'Mon 05/11/2026',  topic: 'Waiting in the Wilderness',       verse:   'Psalms 40:1',                               verseRef: 'psa.40.1',    },
+     { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',    verse:   'Psalms 42:11',                              verseRef: 'psa.42.11',   },
+     { publicationDate: 'Thu 07/30/2026',  topic: 'Our Comfort in a Broken World',   verse:   'Psalms 46:1',                               verseRef: 'psa.46.1',    },
+     { publicationDate: 'Fri 05/15/2026',  topic: 'Humble Hearts Before God',        verse:   'Psalms 51:17',                              verseRef: 'psa.51.17',   },
+     { publicationDate: 'Sun 06/07/2026',  topic: 'A Broken and Contrite Heart',     verse:   'Psalms 51:17',                              verseRef: 'psa.51.17',   },
+     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',    verse: /* Psalms 51:17 */  '1 John 1:9',              verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.51.17@@Psalms 51:17##God receives the broken and contrite heart'},
+     { publicationDate: 'Sat 05/09/2026',  topic: 'God Our Refuge',                  verse:   'Psalms 56:3',                               verseRef: 'psa.56.3',    },
+     { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',          verse: /* Psalms 73:16-17 */ 'Jeremiah 12:1',         verseRef: 'jer.12.1',    btbContext: 'FromDevoContent##psa.73.16-17@@Psalms 73:16-17##An Eternal Perspective'},
+     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',              verse: /* Psalms 86:11 */  'Mark 7:6-7',              verseRef: 'mrk.7.6-7',   btbContext: 'FromDevoContent##psa.86.11@@Psalms 86:11##An Undivided Heart'},
+     { publicationDate: 'Thu 03/26/2026',  topic: 'The Limits of Our Days',          verse:   'Psalms 90:10',                              verseRef: 'psa.90.10',   },
+     { publicationDate: 'Sat 09/12/2026',  topic: 'Leave the Past Under Grace',      verse: /* Psalms 103:10-12 */  'Isaiah 43:25',        verseRef: 'isa.43.25',   btbContext: 'FromDevoContent##psa.103.10-12@@Psalms 103:10-12##Our Sins Remembered No More'},
+     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',              verse:   'Psalms 115:1',                              verseRef: 'psa.115.1',   },
+     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',            verse: /* Psalms 115:1 */  '1 Corinthians 10:31',     verseRef: '1co.10.31',   btbContext: 'FromDevoContent##psa.115.1@@Psalms 115:1##God’s Glory, Not Ours'},
+     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',      verse: /* Psalms 119:11 */  '2 Corinthians 10:5',     verseRef: '2co.10.5',    btbContext: 'FromDevoContent##psa.119.11@@Psalms 119:11##God’s Word is a Guard Against Sin'},
+     { publicationDate: 'Tue 05/26/2026',  topic: 'The Lord Watches Over Israel',    verse:   'Psalms 121:4',                              verseRef: 'psa.121.4',   },
+     { publicationDate: 'Tue 09/08/2026',  topic: 'Mercies New Every Morning',       verse: /* Psalms 103:8-12 */ 'Lamentations 3:22-23',  verseRef: 'lam.3.22-23', btbContext: 'FromDevoContent##psa.103.8-12@@Psalms 103:8-12##God’s abundant mercy and forgiveness'},
+     { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',         verse: /* Psalms 103:10-12 */  '1 John 1:9',          verseRef: '1jn.1.9',     btbContext: 'FromDevoContent##psa.103.10-12@@Psalms 103:10-12##The Completeness of God’s Forgiveness'},
+     { publicationDate: 'Sat 04/11/2026',  topic: 'Established in His Presence',     verse:   'Psalms 138:8',                              verseRef: 'psa.138.8',   },
    ]
 }) }M
 
 
 
-## 2016-2017 Psalms Series (Sundays)
+## 2017 Psalms Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-psa-2016',
+  seriesType: 'Sundays',
   entries: [
     { id: `20161127`, sermon: `God's Recipe for a Blessed Life`,                     scripture: `psa.1@@Psalms 1`,              },
     { id: `20161204`, sermon: `A Majestic God Cares About You`,                      scripture: `psa.2@@Psalms 2-8`,            },
@@ -172,34 +175,5 @@ M{ sermonSeries({
     { id: `20171008`, sermon: `Pilgrim's Progress - Part 4/4`,                       scripture: `psa.131@@Psalms 131-138`,      },
     { id: `20171029`, sermon: `The Divine Attributes of a Personal God`,             scripture: `psa.139@@Psalms 139`,          },
     { id: `20171105`, sermon: `Ways to Praise`,                                      scripture: `psa.140@@Psalms 140-150`,      },
-  ]
-}) }M
-
-
-## Psalms Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-psa-MISC',
-  entries: [
-    { id: `20220123`, sermon: `The Value of Life`,                               scripture: `psa.103@@Psalms 103:2-4`, studyGuide: `NONE`, },
-    { id: `20220703`, sermon: `America’s Godly Heritage`,                        scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 04/06/2026',
-           topic:               'The Lord as Our True Security',
-           verse:               'Psalms 33:12',
-           verseRef:            'psa.33.12',
-        },
-      ],
-    },
-    { id: `20220724`,                                                            scripture: `psa.33@@Psalms 33:12`,    studyGuide: `NONE`, sermon: `https://cornerstonechapel.net/teaching/blessed-in-the-nation-whose-god-is-the-lord/@@Blessed is the nation whose God is the Lord (Jim Garlow)`, },
-    { id: `20220914`, sermon: `God - The Holy Spirit (Tyler Hamrick)`,           scripture: `psa.139@@Psalms 139`,     studyGuide: `NONE`, },
-    { id: `20230702`, sermon: `Faith and Freedom`,                               scripture: `psa.33@@Psalms 33`,       studyGuide: `NONE`, },
-    { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`, scripture: `psa.119@@Psalms 119`,     studyGuide: `NONE`, },
-    { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                 scripture: `psa.91@@Psalms 91`,                           },
-    { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,       scripture: `psa.27@@Psalms 27`,                            },
-    { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,             scripture: `psa.13@@Psalms 13`,                            },
   ]
 }) }M

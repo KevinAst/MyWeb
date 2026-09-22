@@ -108,9 +108,8 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121128`, scripture: `zec.1@@Zechariah 1-3`,      },
     { id: `20121205`, scripture: `zec.4@@Zechariah 4-6:8`,    },
@@ -128,6 +127,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200223`, sermon: `Jesus our Messiah-King`, scripture: `zec.1@@Zechariah`, },
   ]

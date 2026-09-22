@@ -14,10 +14,8 @@ and is working within us to bring unity where there was division.
 
 - [Ephesians Overview](#ephesians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Ephesians Series (Sundays)](#2010-ephesians-series-sundays)
 - [2017 Ephesians Series (Mid Week)](#2017-ephesians-series-mid-week)
 - [2025 Ephesians Series (Sundays)](#2025-ephesians-series-sundays)
-- [Ephesians Misc Selection](#ephesians-misc-selection)
 
 
 ## Ephesians Overview
@@ -104,29 +102,11 @@ M{ devoGHSeries({
      { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',    verse: /* Ephesians 2:19-22 */ '1 Corinthians 3:16',  verseRef: '1co.3.16',   btbContext: 'FromDevoContent##eph.2.19-22@@Ephesians 2:19-22##God Dwells Among His People'},
      { publicationDate: 'Mon 07/20/2026',  topic: 'Unity Through Grace',          verse: /* Ephesians 4:1-3 */   'Romans 14:19',        verseRef: 'rom.14.19',  btbContext: 'FromDevoContent##eph.4.1-3@@Ephesians 4:1-3##Humility - the foundation for unity'},
      { publicationDate: 'Tue 06/16/2026',  topic: 'Freedom Through Forgiveness',  verse:   'Ephesians 4:32',                            verseRef: 'eph.4.32',   },
+     { publicationDate: 'Fri 09/18/2026',  topic: 'Growing Together in Christ',   verse:   'Ephesians 4:32',                            verseRef: 'eph.4.32',   },
      { publicationDate: 'Thu 03/12/2026',  topic: 'Strength to Finish Well',      verse:   'Ephesians 6:10',                            verseRef: 'eph.6.10',   },
      { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',   verse: /* Ephesians 6:10-17 */ '2 Corinthians 10:5',  verseRef: '2co.10.5',   btbContext: 'FromDevoContent##eph.6.10-17@@Ephesians 6:10-17##Armed with God’s Truth'},
      { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',            verse: /* Ephesians 6      */  'Galatians 1:10',      verseRef: 'gal.1.10',   btbContext: 'FromDevoSermon##eph.6@@Ephesians 6##Stand Your Ground against the Enemy'},
    ]
-}) }M
-
-
-
-## 2010 Ephesians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2025, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-eph-2010',
-  entries: [
-    { id: `20100221`, sermon: `Our Spiritual Blessings in Christ`, scripture: `eph.1@@Ephesians 1-2`, },
-    { id: `20100307`, sermon: `Body Building`,                     scripture: `eph.3@@Ephesians 3-4`, },
-    { id: `20100314`, sermon: `Biblical Submission`,               scripture: `eph.5@@Ephesians 5-6`, },
-  ]
 }) }M
 
 
@@ -136,9 +116,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-eph-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170726`, scripture: `eph.1@@Ephesians 1:1-14`,    },
     { id: `20170802`, scripture: `eph.1@@Ephesians 1:15-2:10`, },
@@ -157,6 +136,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-eph-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20251005`, sermon: `The Answer to Identity Confusion`,    scripture: `eph.1@@Ephesians 1`,   },
     { id: `20251012`, sermon: `Dead or Alive?`,                      scripture: `eph.2@@Ephesians 2`,   },
@@ -173,22 +153,5 @@ M{ sermonSeries({
         },
       ],
     },
-  ]
-}) }M
-
-
-## Ephesians Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-eph-MISC',
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210718`, sermon: `Who Are You Imitating? (Tony Clark)`,               scripture: `eph.5@@Ephesians 5`,       },
-    { id: `20230806`, sermon: `What does the Holy Spirit look like? (Tony Clark)`, scripture: `eph.5@@Ephesians 5:15-33`, },
-    { id: `20230823`, sermon: `The Heart of a Faithful Servant (Al Blake)`,        scripture: `eph.1@@Ephesians 1:1-13`,  },
   ]
 }) }M

@@ -12,7 +12,6 @@ them is the reason behind their diminishing quality of life.
 - [Haggai Overview](#haggai-overview)
 - [2012 Haggai Series (Mid Week)](#2012-haggai-series-mid-week)
 - [2020 Haggai Series (Sundays)](#2020-haggai-series-sundays)
-- [Haggai Misc Selection](#haggai-misc-selection)
 
 
 ## Haggai Overview
@@ -86,9 +85,8 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121114`, scripture: `hag.1@@Haggai 1-2`, },
   ]
@@ -101,22 +99,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200216`, sermon: `Look Beneath the Surface`, scripture: `hag.1@@Haggai`, },
-  ]
-}) }M
-
-
-
-## Haggai Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20211201`, sermon: `What Hinders Spiritual Growth? (Austin Hamrick)`, scripture: `hag.1@@Haggai 1`, },
   ]
 }) }M

@@ -112,14 +112,20 @@
   * [Revelation](Revelation.md)
 
 ----
+- [Sermon Series](SermonSeries.md)
+  * [Current Series](SermonSeries.md#current-series)
+  * [Series History](SermonSeries.md#series-history)
+
+----
 - [Specials](SpecialEvents.md)
   * [Thanksgiving](Thanksgiving.md)
   * [Christmas](Christmas.md)
   * [Easter](Easter.md)
   * [End Times](EndTimes.md)
   * [Current Events](CurrentEvents.md)
-  * [David Guzik Bible Commentary](https://enduringword.com/)
+  * [Beyond the Series](BeyondTheSeries.md)
   * [Questions and Answers](QA.md)
+  * [David Guzik Bible Commentary](https://enduringword.com/)
   * [BEYOND a Billion](billion.md)
   * [My Small Group](MySmallGroup.md)
 
@@ -333,6 +339,23 @@
       * [08/31/2026 Devo](devo20260831.md)
       * [09/01/2026 Devo](devo20260901.md)
       * [09/02/2026 Devo](devo20260902.md)
+      * [09/03/2026 Devo](devo20260903.md)
+      * [09/04/2026 Devo](devo20260904.md)
+      * [09/05/2026 Devo](devo20260905.md)
+      * [09/06/2026 Devo](devo20260906.md)
+      * [09/07/2026 Devo](devo20260907.md)
+      * [09/08/2026 Devo](devo20260908.md)
+      * [09/09/2026 Devo](devo20260909.md)
+      * [09/10/2026 Devo](devo20260910.md)
+      * [09/11/2026 Devo](devo20260911.md)
+      * [09/12/2026 Devo](devo20260912.md)
+      * [09/13/2026 Devo](devo20260913.md)
+      * [09/14/2026 Devo](devo20260914.md)
+      * [09/15/2026 Devo](devo20260915.md)
+      * [09/16/2026 Devo](devo20260916.md)
+      * [09/17/2026 Devo](devo20260917.md)
+      * [09/18/2026 Devo](devo20260918.md)
+      * [09/19/2026 Devo](devo20260919.md)
 
 ----
 - [Memorization](Memorization.md)

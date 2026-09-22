@@ -134,9 +134,8 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jhn-2015',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20150311`, scripture: `jhn.1@@John 1:1-34`,       },
     { id: `20150318`, scripture: `jhn.1@@John 1:35-2:12`,    },
@@ -170,6 +169,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jhn-2022',
+  seriesType: 'Sundays',
   entries: [
     { id: `20220508`, sermon: `The Identity and Deity of Jesus`, scripture: `jhn.1@@John 1`,             },
     { id: `20220515`, sermon: `God Has Saved the Best for Last`, scripture: `jhn.2@@John 2`,             },

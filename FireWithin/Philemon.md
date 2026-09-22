@@ -88,9 +88,8 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100801`, sermon: `Forgive and Ask for Forgiveness`, scripture: `phm.1@@Philemon`, },
   ]
@@ -103,9 +102,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20181010`, scripture: `phm.1@@Philemon`, },
   ]

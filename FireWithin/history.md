@@ -27,7 +27,8 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 2, 2026*
+[v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *Sep 22, 2026*
+[v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
 [v26.1](#v26_1)   | Sync Sermons, Easter & more        | *April 14, 2026*
@@ -90,16 +91,82 @@ Release           | What                 | *When*
 ## Details:
 
 
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v27_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v27.0 - Incremental Sermon Series Synchronization <i>(Sep 22, 2026)</i>
+</h3>
+<br/>
+
+- **Incremental Sermon Series Synchronization**
+
+  Beginning with this revision (v27.0), new sermons within a series
+  will be visible in FireWithin on the same day they are published on
+  the {{book.CornerstoneChapel}} site. Previously, FireWithin batched
+  these sermons over the course of a month and synchronized them at
+  that interval. With this new feature, that delay has been eliminated.
+
+  _**This means that users will always have access to the most
+  current sermons in each active series!**_
+
+  As a result, quick-reference links to the Current Sermon Series have
+  been strategically placed at the top right of select "Bible
+  Specific" pages (for example: {{book.Matthew}}). These links include
+  both the Sunday and Mid Week series.
+
+  Here is an example of what those links look like:
+
+  <div style="width: fit-content; margin-left: auto;">
+    <b><a title="Go to the Sermon Series page" href="SermonSeries.html">Current Sermon Series</a>:</b>
+    <ul>
+      <li>{{book.CurSermonSeries_Sundays}}</li>
+      <li>{{book.CurSermonSeries_MidWeek}}</li>
+    </ul>
+  </div>
+
+- **New {{book.SermonSeries}} Page**
+
+  Because sermon synchronization now occurs daily, this activity is no
+  longer itemized in the release notes of this Revision History page.
+
+  To compensate for this, a new {{book.SermonSeries}} page has been
+  created to chronicle the progression of Sermon Series over the
+  years. This timeline-style table provides a complete history of all
+  sermon series and allows you to easily determine which series was
+  active at any point in time.
+
+  This table is automatically generated from the knowledge base
+  maintained within FireWithin.
+
+  **Check it out!**
+
+- **Other Enhancements:**
+
+  * The {{book.GettingStarted}} page now begins with a FireWithin overview
+
+  * The tooltip hover for completion checkboxes now includes the entire
+    label, rather than just the checkbox.
+
+  * Added tooltip hover to all FireWithin Bible Book links.
+
+
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v26_4" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v26.4 - Sync Sermons and Various Fixes <i>(Sep 2, 2026)</i>
+  v26.4 - Sync Sermons and Various Fixes <i>(Sep 34 2026)</i>
 </h3>
 <br/>
 
 - Synced Current Sermon Series
   * {{book.Colossians}} Series (Sundays)
   * {{book.2Chronicles}} Series (Mid Week)
+
+
+- A new page was created called {{book.BeyondTheSeries}} _(under
+  {{book.SpecialEvents}})_ which is a collection of Cornerstone
+  sermons that fall outside their regular verse-by-verse studies.
+  Check it out :-)
 
 
 - ALL scripture references now support the reddish-tinted arrow, that
@@ -129,6 +196,20 @@ Release           | What                 | *When*
   <br/>... see the {{book.BibleTranslation}} section of the {{book.Settings}} page.
 
 
+- Archived the following Sermon Series that are no longer available from the Cornerstone site:
+  * 2009 Acts Series (Sundays)
+  * 2009 Romans Series (Sundays)
+  * 2009 1 Corinthians Series (Sundays)
+  * 2009 2 Corinthians Series (Sundays)
+  * 2010 Galatians Series (Sundays)
+  * 2010 Ephesians Series (Sundays)
+  * 2010 Philippians Series (Sundays)
+  * 2010 Colossians Series (Sundays)
+
+
+- Simplified multi-year sermon series title by using a single "most prominent" year.
+
+
 - The sub-titles of all {{book.DailyDevotions}} now consistently end in a period.
 
 
@@ -145,7 +226,7 @@ Release           | What                 | *When*
   * {{book.2Chronicles}} Series (Mid Week)
 
 
-- Added the following Specials to {{book.Misc}} of {{book.CurrentEvents}}
+- Added the following Specials to {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
   * `Have You Been Born Again? (Pastor Austin Hamrick)`
   * `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`
   * `Celebrating America 250 (Eric Metaxas)`
@@ -175,7 +256,7 @@ Release           | What                 | *When*
 - Added the following Specials
   * added `America’s Christian Heritage` to {{book.ElectionDaySermons}}
   * added `A Call to Prayer (Al Pittman)` to {{book.Matthew}} _(Misc)_
-  * added `The Awakening of the American Church (Jack Graham)` to {{book.Misc}} of {{book.CurrentEvents}}
+  * added `The Awakening of the American Church (Jack Graham)` to {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
 
 
 
@@ -195,7 +276,7 @@ Release           | What                 | *When*
 - Updated following Specials
   * {{book.Easter}} 2026
   * added reference to `Enduring Word Bible Commentary (by David Guzik)` in {{book.SpecialEvents}}
-  * added `Nothing is Impossible with God` in the {{book.Misc}} section of {{book.CurrentEvents}}
+  * added `Nothing is Impossible with God` in the {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
   * added new {{book.QA}} for 03/11/2026
 
 
@@ -226,7 +307,7 @@ Release           | What                 | *When*
 
 
 - Added `The Rise of Antisemitism in Christian and Conservative Circles` to the {{book.SpecialEvents}} section
-  * both in the {{book.Misc}} section of {{book.CurrentEvents}}
+  * both in the {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
   * and in the {{book.EndTimes}} section
 
 
@@ -325,9 +406,8 @@ Release           | What                 | *When*
   * {{book.2Kings}} Series (Mid Week)
   * {{book.2Corinthians}} Series (Sundays)
   * {{book.Galatians}} Series (Sundays)
-  * added **Ryan Ries** sermon in the
-    {{book.Misc}} section of {{book.CurrentEvents}} _(under
-    {{book.SpecialEvents}})_
+  * added **Ryan Ries** sermon in
+    {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
   * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
 
 
@@ -416,9 +496,8 @@ Release           | What                 | *When*
   * added **"Reclaiming the Cultural Mandate (Seth Gruber)"** in the
     {{book.MoralDecay}} section of {{book.CurrentEvents}} _(under
     {{book.SpecialEvents}})_
-  * added **Angel Series** in the
-    {{book.Misc}} section of {{book.CurrentEvents}} _(under
-    {{book.SpecialEvents}})_
+  * added **Angel Series** in
+    {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
 
 
 - Added Psalms Series to {{book.MySmallGroup}} _(v24.8B)_
@@ -470,8 +549,6 @@ Release           | What                 | *When*
 
 
 - Added new {{book.QA}} for 03/19/2025
-
-- Added new {{book.Misc}} category under {{book.SpecialEvents}} / {{book.CurrentEvents}}
 
 
 <!-- ************************************************************* -->

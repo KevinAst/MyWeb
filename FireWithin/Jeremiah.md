@@ -104,6 +104,8 @@ M{ devoGHSeries({
      { publicationDate: 'Thu 02/26/2026',  topic: 'Known Before We Were Formed',  verse:   'Jeremiah 1:5',                   verseRef: 'jer.1.5',    },
      { publicationDate: 'Wed 08/19/2026',  topic: 'The Spring of Living Water',   verse:   'Jeremiah 2:13',                  verseRef: 'jer.2.13',   },
      { publicationDate: 'Sat 08/15/2026',  topic: 'Walk in the Good Way',         verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
+     { publicationDate: 'Mon 09/07/2026',  topic: 'Wisdom at the Crossroads',     verse:   'Jeremiah 6:16',                  verseRef: 'jer.6.16',   },
+     { publicationDate: 'Tue 09/15/2026',  topic: 'When Good Things Become Idols',verse:   'Jeremiah 10:23',                 verseRef: 'jer.10.23',  },
      { publicationDate: 'Tue 08/18/2026',  topic: 'When Life Seems Unfair',       verse:   'Jeremiah 12:1',                  verseRef: 'jer.12.1',   },
      { publicationDate: 'Thu 08/27/2026',  topic: 'Bearing His Name',             verse:   'Jeremiah 15:16',                 verseRef: 'jer.15.16',  },
      { publicationDate: 'Thu 05/07/2026',  topic: 'A Deeper Walk With God',       verse:   'Jeremiah 33:3',                  verseRef: 'jer.33.3',   },
@@ -118,6 +120,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20181021`, sermon: `Broken Cisterns`,                    scripture: `jer.1@@Jeremiah 1-2`,
       relatedDevotions: [
@@ -132,7 +135,16 @@ M{ sermonSeries({
     { id: `20181028`, sermon: `A Serious Wound`,                    scripture: `jer.3@@Jeremiah 3-6`,     },
     { id: `20181104`, sermon: `Wisdom for the Crossroads`,          scripture: `jer.6@@Jeremiah 6:16`,    },
     { id: `20181111`, sermon: `Something to Boast About`,           scripture: `jer.7@@Jeremiah 7-9`,     },
-    { id: `20181118`, sermon: `A Prayer for Idol Hearts`,           scripture: `jer.10@@Jeremiah 10`,     },
+    { id: `20181118`, sermon: `A Prayer for Idol Hearts`,           scripture: `jer.10@@Jeremiah 10`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Tue 09/15/2026',
+           topic:               'When Good Things Become Idols',
+           verse:               'Jeremiah 10:23',
+           verseRef:            'jer.10.23',
+        },
+      ],
+    },
     { id: `20181125`, sermon: `The Right Way to See a Wrong World`, scripture: `jer.11@@Jeremiah 11-12`,
       relatedDevotions: [
         {

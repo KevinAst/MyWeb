@@ -17,7 +17,6 @@ makes a way for us to live in his presence.
 
 - [Nehemiah Overview](#nehemiah-overview)
 - [2016 Nehemiah Series (Sundays)](#2016-nehemiah-series-sundays)
-- [Nehemiah Misc Selection](#nehemiah-misc-selection)
 
 
 ## Nehemiah Overview
@@ -115,6 +114,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20160110`, sermon: `Helping the Troubled and Disgraced`,                                    scripture: `neh.1@@Nehemiah 1`,       },
     { id: `20160131`, sermon: `Examining Our Gates: Jesus & Evangelism`,                               scripture: `neh.2@@Nehemiah 2-3:1-5`, },
@@ -129,21 +129,5 @@ M{ sermonSeries({
     { id: `20160417`, sermon: `Patient Perseverance`,                                                  scripture: `neh.6@@Nehemiah 6`,       },
     { id: `20160424`, sermon: `Building up our Spiritual Walls`,                                       scripture: `neh.7@@Nehemiah 7-10`,    },
     { id: `20160501`, sermon: `The Test of Time`,                                                      scripture: `neh.11@@Nehemiah 11-13`,  },
-  ]
-}) }M
-
-
-## Nehemiah Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20210725`, sermon: `Opposition is Coming: Are You Prepared? (Tony Perkins)`, scripture: `neh.4@@Nehemiah 4`,              },
-    { id: `20221016`, sermon: `Christians, Do Not Come Down (Garid Beeler)`,            scripture: `neh.6@@Nehemiah 6:1-3`,          },
-    { id: `20230517`, sermon: `Midweek Bible Study (Jimmy Mullen)`,                     scripture: `neh.1@@Nehemiah 1-2:5 - 4:7-18`, },
   ]
 }) }M

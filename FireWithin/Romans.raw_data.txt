@@ -6,6 +6,37 @@ Note: As of 2024, THIS SERIES HAS BEEN ARCHIVED (i.e. is no longer
       available ), **however** the Study Guides are still available.
 NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
 
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
+...
+
+## 2009 Romans Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2024, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2009',
+  entries: [
+    { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Romans 1-2`,    studyGuide: `NONE`, },
+    { id: `20090816`, sermon: `What a Gift!`,           scripture: `rom.3@@Romans 3-5`,    studyGuide: `NONE`, },
+    { id: `20090830`, sermon: `The Sin Battle`,         scripture: `rom.6@@Romans 6-8`,    studyGuide: `NONE`, },
+    { id: `20090906`, sermon: `Why Israel Matters`,     scripture: `rom.9@@Romans 9-11`,   },
+    { id: `20090913`, sermon: `Offering Your Body`,     scripture: `rom.12@@Romans 12-13`, },
+    { id: `20090920`, sermon: `Unity in the Church`,    scripture: `rom.14@@Romans 14-16`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
+
 09/20/2009
 Unity in the Church
 Rom 14-16

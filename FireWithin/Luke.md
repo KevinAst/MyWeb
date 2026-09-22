@@ -18,8 +18,8 @@ blindness, we can see him and the scriptures as they truly are.
 
 - [Luke Overview](#luke-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2014-2015 Luke Series (Mid Week)](#2014-2015-luke-series-mid-week)
-- [2021-2022 Luke Series (Sundays)](#2021-2022-luke-series-sundays)
+- [2014 Luke Series (Mid Week)](#2014-luke-series-mid-week)
+- [2022 Luke Series (Sundays)](#2022-luke-series-sundays)
 
 
 ## Luke Overview
@@ -131,15 +131,14 @@ M{ devoGHSeries({
 
 
 
-## 2014-2015 Luke Series (Mid Week)
+## 2014 Luke Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-luk-2014',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20140423`, scripture: `luk.1@@Luke 1`,          },
     { id: `20140430`, scripture: `luk.1@@Luke 1:26-80`,    },
@@ -177,15 +176,13 @@ M{ sermonSeries({
 
 
 
-## 2021-2022 Luke Series (Sundays)
+## 2022 Luke Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-luk-2021',
-  settings: {
-  //includeStudyGuide: false, // use this ONLY if NO studyGuide in ENTIRE series
-  },
+  seriesType: 'Sundays',
   entries: [
     { id: `20210801`, sermon: `God Remembers His Oath`,                                 scripture: `luk.1@@Luke 1`,         },
     { id: `20210808`, sermon: `Lessons from Nazareth`,                                  scripture: `luk.4@@Luke 4`,         },

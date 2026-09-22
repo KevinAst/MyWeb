@@ -9,6 +9,14 @@
 
 const {processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
+// The UI to quickly navigate to Current Sermon Series
+const currentSermonSeries = `
+<b>{{book.CurSermonSeries}}:</b>
+<ul>
+  <li>{{book.CurSermonSeries_Sundays}}</li>
+  <li>{{book.CurSermonSeries_MidWeek}}</li>
+</ul>`;
+
 function preProcessPage(page) {
 
   // console.log(`***INFO*** preProcessPage() for page: ${page.path}`);
@@ -28,6 +36,7 @@ function preProcessPage(page) {
 
   //***
   //*** conditionally add a "Book Completed" check-box control on ALL pages that represent a book of the Bible
+  //*** ALSO: inject the currentSermonSeries
   //***
 
   // NOTES:
@@ -44,8 +53,20 @@ function preProcessPage(page) {
   if ( page.content.includes('NIV Intro') ) {
     const bibleBook = page.path.replace('.md', '');
     const checkBox  = completedCheckBox(`${bibleBook}@@ Book Completed`)
-    const bibleBookCompletedCntl = `<div style="text-align: right">${checkBox}</div>`;
+    const bibleBookCompletedCntl = `<div style="width: fit-content; margin-left: auto;">${checkBox}<br/>${currentSermonSeries}</div>`;
     page.content = `${bibleBookCompletedCntl}\n\n${page.content}`;
+  }
+
+  //***
+  //*** Inject the currentSermonSeries on several other pages 
+  //***
+
+  if (page.path === 'OldTestament.md' || // ... Old Testament
+      page.path === 'NewTestament.md' || // ... New Testament
+      page.path === 'SermonSeries.md' || // ... Sermon Series page
+      // ... devo top-level pages (ex: devo.md & devo2026.md) NOT detailed devo page (e.g. devo20260217.md)
+      (page.path.startsWith('devo') && page.path.length !== 15) ) {
+    page.content = `<div style="width: fit-content; margin-left: auto;">${currentSermonSeries}</div>\n\n${page.content}`;
   }
 
 

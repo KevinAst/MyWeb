@@ -90,9 +90,8 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20130123`, scripture: `mal.1@@Malachi 1-2`, },
     { id: `20130130`, scripture: `mal.3@@Malachi 3-4`, },
@@ -107,6 +106,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200301`, sermon: `Ministry, Marriage, and Money`, scripture: `mal.1@@Malachi`, },
   ]

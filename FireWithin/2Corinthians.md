@@ -20,7 +20,6 @@ Christ, true power comes in weakness.
 
 - [2 Corinthians Overview](#2-corinthians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2009-2010 2 Corinthians Series (Sundays)](#2009-2010-2-corinthians-series-sundays)
 - [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
 - [2025 2 Corinthians Series (Sundays)](#2025-2-corinthians-series-sundays)
 
@@ -118,29 +117,10 @@ M{ devoGHSeries({
      { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse: /* 2 Corinthians 8:5 */  '2 Corinthians 9:7',  verseRef: '2co.9.7',    btbContext: 'FromDevoContent##2co.8.5@@2 Corinthians 8:5##Giving Begins with Surrender'},
      { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse:   '2 Corinthians 9:7',                         verseRef: '2co.9.7',    },
      { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',     verse:   '2 Corinthians 10:5',                        verseRef: '2co.10.5',   },
+     { publicationDate: 'Wed 09/09/2026',  topic: 'Hold Fast to the True Jesus',    verse:   '2 Corinthians 11:4',                        verseRef: '2co.11.4',   },
      { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',          verse: /* 2 Corinthians 11:23-28 */ 'Romans 5:3',     verseRef: 'rom.5.3',    btbContext: 'FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering', },
      { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',         verse: /* 2 Corinthians 12:9-10 */  'Isaiah 35:3',    verseRef: 'isa.35.3',   btbContext: 'FromDevoContent##2co.12.9-10@@2 Corinthians 12:9-10##Strength in Weakness'},
    ]
-}) }M
-
-
-## 2009-2010 2 Corinthians Series (Sundays)
-
-**Note:** _As of 2025, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-2co-2009',
-  entries: [
-    { id: `20091206`, sermon: `What Suffering Produces`,   scripture: `2co.1@@2 Cor 1-2`,    },
-    { id: `20091213`, sermon: `We Were Made for Eternity`, scripture: `2co.3@@2 Cor 3-5`,    },
-    { id: `20100103`, sermon: `It's No Yoke`,              scripture: `2co.6@@2 Cor 6-7`,    },
-    { id: `20100110`, sermon: `The Grace of Giving`,       scripture: `2co.8@@2 Cor 8-10`,   },
-    { id: `20100124`, sermon: `Paradox Principles`,        scripture: `2co.11@@2 Cor 11-13`, },
-  ]
 }) }M
 
 
@@ -150,9 +130,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2co-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170405`, scripture: `2co.1@@2 Cor 1:1-11`,       },
     { id: `20170419`, scripture: `2co.1@@2 Cor 1:12-2:17`,    },
@@ -173,6 +152,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-2co-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20250105`, sermon: `Suffering Well`,                  scripture: `2co.1@@2 Cor 1`,       },
     { id: `20250112`, sermon: `Spreading the Fragrance`,         scripture: `2co.2@@2 Cor 2`,       },
@@ -212,7 +192,16 @@ M{ sermonSeries({
         },
       ],
     },
-    { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,     },
+    { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Wed 09/09/2026',
+           topic:               'Hold Fast to the True Jesus',
+           verse:               '2 Corinthians 11:4',
+           verseRef:            '2co.11.4',
+        },
+      ],
+    },
     { id: `20250727`, sermon: `The Hope of Heaven`,              scripture: `2co.12@@2 Corinthians 12`,     },
     { id: `20250803`, sermon: `A Thorn in the Flesh`,            scripture: `2co.12@@2 Corinthians 12`,     },
   ]

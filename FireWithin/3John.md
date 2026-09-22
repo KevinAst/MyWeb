@@ -78,6 +78,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20110227`, sermon: `Love and Truth - Part 3/3`, scripture: `2jn.1@@2 John`, },
   ]
@@ -90,9 +91,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20200129`, scripture: `2jn.1@@2-3 John`, },
   ]

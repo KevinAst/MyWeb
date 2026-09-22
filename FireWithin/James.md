@@ -92,8 +92,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-jas',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',      verse: 'James 1:5',    verseRef: 'jas.1.5', },
-     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',       verse: 'James 1:5',    verseRef: 'jas.1.5', },
+     { publicationDate: 'Wed 07/08/2026',  topic: 'Ask for Wisdom First',      verse:   'James 1:5',                             verseRef: 'jas.1.5',      },
+     { publicationDate: 'Fri 07/10/2026',  topic: 'Wisdom for the Task',       verse:   'James 1:5',                             verseRef: 'jas.1.5',      },
+     { publicationDate: 'Sat 09/05/2026',  topic: 'Life Under the Sun',        verse: /* James 4:14 */  'Ecclesiastes 12:13',    verseRef: 'ecc.12.13',    btbContext: 'FromDevoContent##jas.4.14@@James 4:14##Life is a fleeting vapor'},
    ]
 }) }M
 
@@ -104,6 +105,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20101031`, sermon: `Ten Marks of Maturity - Part 1/5`, scripture: `jas.1@@James 1`, },
     { id: `20101107`, sermon: `Ten Marks of Maturity - Part 2/5`, scripture: `jas.2@@James 2`, },
@@ -120,9 +122,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20190424`, scripture: `jas.1@@James 1:1-8`,          },
     { id: `20190501`, scripture: `jas.1@@James 1:9-20`,         },

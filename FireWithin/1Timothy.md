@@ -101,9 +101,8 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'Sundays',
   entries: [
     { id: `20100523`, sermon: `Instructions for the Church`,                                scripture: `1ti.1@@1 Timothy 1-2`, },
     { id: `20100530`, sermon: `Pastors, Elders, Deacons & All: Setting The Example`,        scripture: `1ti.3@@1 Timothy 3-4`, },
@@ -118,9 +117,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180530`, scripture: `1ti.1@@1 Timothy 1`,        },
     { id: `20180606`, scripture: `1ti.1@@1 Timothy 1:8-2:4`,  },

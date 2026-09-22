@@ -92,6 +92,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20160508`, sermon: `The Dignity of Women`,    scripture: `est.1@@Esther 1`,    },
     { id: `20160522`, sermon: `The Misery of our Glory`, scripture: `est.2@@Esther 2`,    },

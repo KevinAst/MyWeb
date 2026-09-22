@@ -131,9 +131,8 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gen-2010',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20101110`,                                    scripture: `gen.1@@Genesis Intro`,    },
     { id: `20101117`,                                    scripture: `gen.1@@Gen 1:1-2`,        },
@@ -188,6 +187,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gen-2011',
+  seriesType: 'Sundays',
   entries: [
     { id: `20110911`, sermon: `Introduction To Genesis`,           scripture: `gen.1@@Genesis Intro`, },
     { id: `20110918`, sermon: `Creation Sensation`,                scripture: `gen.1@@Gen 1`,         },

@@ -93,9 +93,8 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121107`, scripture: `zep.1@@Zephaniah 1-3`, },
   ]
@@ -109,6 +108,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200209`, sermon: `When God Sings`, scripture: `zep.1@@Zephaniah`, },
   ]

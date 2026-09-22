@@ -81,9 +81,8 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20121017`, scripture: `nam.1@@Nahum 1-3`, },
   ]
@@ -96,6 +95,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20200126`, sermon: `Withstanding the Test of Time`, scripture: `nam.1@@Nahum`, },
   ]

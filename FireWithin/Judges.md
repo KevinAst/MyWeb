@@ -116,6 +116,7 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jos-2014',
+  seriesType: 'Sundays',
   entries: [
     { id: `20140209`, sermon: `Conquer, or Be Conquered`,                  scripture: `jdg.1@@Judges 1`,      },
     { id: `20140216`, sermon: `Jesus ONLY`,                                scripture: `jdg.2@@Judges 2-3`,    },
@@ -136,9 +137,8 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-jos-2022',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20211013`, scripture: `jdg.1@@Judges 1`,         },
     { id: `20211020`, scripture: `jdg.2@@Judges 2-3:30`,    },

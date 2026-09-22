@@ -109,6 +109,7 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20130908`, sermon: `Three Reasons to Keep God's Word`,    scripture: `deu.1@@Deuteronomy 1-4`,    },
     { id: `20130915`, sermon: `When Life is Good, Don't Forget God`, scripture: `deu.5@@Deuteronomy 5-9`,    },

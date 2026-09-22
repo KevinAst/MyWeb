@@ -32,7 +32,6 @@ becomes more and more beautiful to you.
 
 - [Galatians Overview](#galatians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Galatians Series (Sundays)](#2010-galatians-series-sundays)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
@@ -131,33 +130,14 @@ M{ devoGHSeries({
 }) }M
 
 
-
-## 2010 Galatians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2025, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-gal-2010',
-  entries: [
-    { id: `20100131`, sermon: `Jesus Only`,        scripture: `gal.1@@Galatians 1-3`, },
-    { id: `20100214`, sermon: `The Battle Within`, scripture: `gal.4@@Galatians 4-6`, },
-  ]
-}) }M
-
-
 ## 2017 Galatians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2017',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20170621`, scripture: `gal.1@@Galatians 1`,         },
     { id: `20170628`, scripture: `gal.2@@Galatians 2`,         },
@@ -174,6 +154,7 @@ M{ sermonSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2025',
+  seriesType: 'Sundays',
   entries: [
     { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
     { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },

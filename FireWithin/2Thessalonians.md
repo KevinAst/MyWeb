@@ -17,6 +17,7 @@ oppressing them.
 ### At a Glance
 
 - [2 Thessalonians Overview](#2-thessalonians-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 2 Thessalonians Series (Sundays)](#2010-2-thessalonians-series-sundays)
 - [2018 2 Thessalonians Series (Mid Week)](#2018-2-thessalonians-series-mid-week)
 
@@ -88,17 +89,37 @@ M{ youTube(`Wb6Hhzl8Gyk`) }M
 P{ collapsibleSectionEnd() }P
 
 
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-2th',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Fri 09/11/2026',  topic: 'Stand Firm in the Truth',            verse: '2 Thessalonians 2:15',      verseRef: '2th.2.15',   },
+   ]
+}) }M
+
+
+
 ## 2010 2 Thessalonians Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 > NOTE: This series covers both First and Second Thessalonians
 
 M{ sermonSeries({
+  archived: true,
+  seriesType: 'Sundays',
   entries: [
-    { id: `20100425`, sermon: `What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
-    { id: `20100502`, sermon: `What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
-    { id: `20100509`, sermon: `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+    { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
+    { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
+    { id: `20100509`, sermon:                `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
   ]
 }) }M
 
@@ -108,12 +129,20 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
-    { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,    },
+    { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,
+      relatedDevotions: [
+        {
+           publicationDate:     'Fri 09/11/2026',
+           topic:               'Stand Firm in the Truth',
+           verse:               '2 Thessalonians 2:15',
+           verseRef:            '2th.2.15',
+        },
+      ],
+    },
     { id: `20180516`, scripture: `2th.2@@2 Thess 2:13-3:18`, },
   ]
 }) }M

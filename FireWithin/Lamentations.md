@@ -12,6 +12,7 @@ hope–God's mercies are new every morning!
 ### At a Glance
 
 - [Lamentations Overview](#lamentations-overview)
+- [Devotions "by the book"](#devotions-by-the-book)
 - [2019 Lamentations Series (Sundays)](#2019-lamentations-series-sundays)
 
 ## Lamentations Overview
@@ -80,11 +81,27 @@ M{ youTube(`ZjG3ys9DLcI`) }M
 P{ collapsibleSectionEnd() }P
 
 
+
+## Devotions "by the book"
+
+{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
+
+M{ devoGHSeries({
+   collapsibleSectionID: 'cs-devo-lam',
+   layout:  'BTB',
+   entries: [
+     { publicationDate: 'Tue 09/08/2026',  topic: 'Mercies New Every Morning',        verse: 'Lamentations 3:22-23',      verseRef: 'lam.3.22-23',   },
+   ]
+}) }M
+
+
+
 ## 2019 Lamentations Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20190407`, sermon: `Every Morning is Another Chance`, scripture: `lam.1@@Lamentations 1-5`, },
   ]

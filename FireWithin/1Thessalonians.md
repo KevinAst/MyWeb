@@ -19,6 +19,7 @@ oppressing them.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2010 1 Thessalonians Series (Sundays)](#2010-1-thessalonians-series-sundays)
 - [2018 1 Thessalonians Series (Mid Week)](#2018-1-thessalonians-series-mid-week)
+- [2026 1 Thessalonians Series (Sundays)](#2026-1-thessalonians-series-sundays)
 
 
 ## 1 Thessalonians Overview
@@ -103,8 +104,9 @@ M{ devoGHSeries({
    collapsibleSectionID: 'cs-devo-1th',
    layout:  'BTB',
    entries: [
-     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse: '1 Thessalonians 1:10',      verseRef: '1th.1.10',   },
-     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse: '1 Thessalonians 4:16',      verseRef: '1th.4.16',   },
+     { publicationDate: 'Sun 08/09/2026',  topic: 'Waiting Faithfully for Christ',   verse:   '1 Thessalonians 1:10',                            verseRef: '1th.1.10',   },
+     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',         verse:   '1 Thessalonians 4:16',                            verseRef: '1th.4.16',   },
+     { publicationDate: 'Fri 09/11/2026',  topic: 'Stand Firm in the Truth',         verse: /* 1 Thessalonians 5:4-6 */  '2 Thessalonians 2:15', verseRef: '2th.2.15',   btbContext: 'FromDevoContent##1th.5.4-6@@1 Thessalonians 5:4-6##Children of Light'},
    ]
 }) }M
 
@@ -114,13 +116,19 @@ M{ devoGHSeries({
 
 {{book.CornerstoneChapel}}
 
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
 > NOTE: This series covers both First and Second Thessalonians
 
 M{ sermonSeries({
+  archived: true,
+  seriesType: 'Sundays',
   entries: [
-    { id: `20100425`, sermon: `What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
-    { id: `20100502`, sermon: `What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
-    { id: `20100509`, sermon: `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+    { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
+    { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
+    { id: `20100509`, sermon:                `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
   ]
 }) }M
 
@@ -130,9 +138,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180207`, scripture: `1th.1@@1 Thess 1`,
       relatedDevotions: [
@@ -147,5 +154,20 @@ M{ sermonSeries({
     { id: `20180214`, scripture: `1th.2@@1 Thess 2-3`, },
     { id: `20180221`, scripture: `1th.4@@1 Thess 4`,   },
     { id: `20180307`, scripture: `1th.5@@1 Thess 5`,   },
+  ]
+}) }M
+
+
+## 2026 1 Thessalonians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _This is the <mark>current Sunday series</mark>, and will be updated as new sermons are published :-)_
+
+M{ sermonSeries({
+  seriesType: 'Sundays',
+  entries: [
+    { id: `20260906`, sermon: `The Second Coming of Christ: Delivered from God’s Wrath`,  scripture: `1th.1@@1 Thessalonians 1`,       },
+    { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,          scripture: `1th.2@@1 Thessalonians 2:19-20`, },
   ]
 }) }M

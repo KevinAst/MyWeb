@@ -102,6 +102,7 @@ P{ collapsibleSectionEnd() }P
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20180408`, sermon: `Courtship Love`, scripture: `sng.1@@Song of Solomon 1-2`, },
     { id: `20180415`, sermon: `Marital Love`,   scripture: `sng.3@@Song of Solomon 3-5`, },

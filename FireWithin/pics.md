@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 616**          _... categorized below!!_
-> <br/> **Photos: 50,285**       _... Yikes!!!_
+> <br/> **Albums: 619**          _... categorized below!!_
+> <br/> **Photos: 50,516**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -209,6 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Juni Birthday
 
+- 09/2026: 5 [Juni is 5! (9/2026)](https://photos.google.com/share/AF1QipPgYigoUxubHAJisRNF_e7sDt6VNE7uFvv6kiEQTAuqmxhrAdAZC0OBiDwaHNHujQ?key=SkRjWW0tNzdNLUg3cWQ3WnBDY1VYeV9fWlE4Zk1n) _(211 pics)_
 - 10/2025: 4 [Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
 - 09/2025: 4 [Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
 - 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
@@ -592,6 +593,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 09: [Flags of Valor - St. Louis (9/10/2026)](https://photos.google.com/share/AF1QipNnh7UxUJ9GiM844JExvtm9xoMtLjeUka1bFuAuhXv7iGrUmtj9x1nrLgjiI09Xtg?key=elRTNmNDb3ZHYlhERF9HZnR0T0N5QUwtWTFneE13) _(15 pics)_
+- 2026 09: [Allan & Millie host Kevin & Resa (9/8/2026)](https://photos.google.com/share/AF1QipNNF824Jj_tXxJ-ceKKtFisUid_Dx1Y9TyXEI3upwLwrNtWj8vYUgErRpp1CpqRTQ?key=aTZhYlVxT3lYWk1ZSno4eGNSTHlJTXJBdmR2cC1n) _(5 pics)_
 - 2026 08: [Greg & Mindy Pool Party (8/5/2026)](https://photos.google.com/share/AF1QipP5nqv3EYaHy2_dqq44DhZcDdyN3zoOzbTPULGrtvGQ2hcNV6t9bU6au5I7SQK1pw?key=U0lrYndaUndTTlR2RkRIUEkxU2NxbTdGZm5vZFRR) _(25 pics)_
 - 2026 07: [Six Flags Adventure (Mimi, Papaw, & Gaige) - 7/24/2026](https://photos.google.com/share/AF1QipPvchqw2lzlf7PZ5PvjIoQY23I9rzUpui1sIW1YPIgagcMU4ZVayphcFVkOdccUHg?key=OW9JRW04NW1RLTFtbTRFT1dhdTg5Z3hjeGJham9n) _(60 pics)_
 - 2026 XX: [Route 66 Centennial (2026)](https://photos.google.com/share/AF1QipNN2XaPooC1OUm4RnWWxAgJLNhblU9yi2bmqvPcTFk1A2iaDGrULatZ6hf5qglekA?key=WVJQU2I2ZTNpak8tN3pCdFhfSmc1VnpiNWoyaDhB) _(186 + ?x)_

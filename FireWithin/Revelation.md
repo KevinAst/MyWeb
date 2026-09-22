@@ -18,7 +18,7 @@ reign with Jesus.
 - [Devotions "by the book"](#devotions-by-the-book)
 - [Books](#books)
 - [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
-- [2020-2021 Revelation Series (Mid Week)](#2020-2021-revelation-series-mid-week)
+- [2020 Revelation Series (Mid Week)](#2020-revelation-series-mid-week)
 
 
 ## Revelation Overview
@@ -123,6 +123,7 @@ M{ devoGHSeries({
    entries: [
      { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse:   'Revelation 3:10',                       verseRef: 'rev.3.10',   },
      { publicationDate: 'Sat 03/14/2026',  topic: 'Awakened From Indifference',                             verse:   'Revelation 3:16',                       verseRef: 'rev.3.16',   },
+     { publicationDate: 'Sun 09/06/2026',  topic: 'His Kingdom Will Not Be Destroyed',                      verse: /* Revelation 11:15 */  'Daniel 7:14',     verseRef: 'dan.7.14',   btbContext: 'FromDevoContent##rev.11.15@@Revelation 11:15##Christ’s Eternal Reign'},
      { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',                           verse: /* Revelation 13:7-10 */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',  },
      { publicationDate: 'Sun 03/15/2026',  topic: 'Can we be tricked into getting the Mark of the Beast?',  verse:   'Revelation 13:16',                      verseRef: 'rev.13.16',  },
      { publicationDate: 'Sun 04/05/2026',  topic: 'The Beast and the Sea',                                  verse:   'Revelation 17:8',                       verseRef: 'rev.17.8',   },
@@ -147,6 +148,7 @@ Pastor Gary has written a book on Revelation!
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rev-2011',
+  seriesType: 'Sundays',
   entries: [
     { id: `20110313`, sermon: `Unlocking Revelation`,                                scripture: `rev.1@@Rev 1`,       },
     { id: `20110320`, sermon: `Return to Your First Love - The Church in Ephesus`,   scripture: `rev.2@@Rev 2:1-7`,   },
@@ -172,15 +174,14 @@ M{ sermonSeries({
 }) }M
 
 
-## 2020-2021 Revelation Series (Mid Week)
+## 2020 Revelation Series (Mid Week)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-rev-2020',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20200219`, sermon: `Introduction`,      scripture: `rev.1@@Revelation`,       },
     { id: `20200226`,                              scripture: `rev.1@@Rev 1:1-11`,       },

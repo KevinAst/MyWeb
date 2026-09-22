@@ -50,7 +50,7 @@ following benefits:
 1. **A distraction-free experience** — focused entirely on the
    devotional content.
 
-   > These devotions have been permanently archived, and are available
+   > These devotions have been permanently retained, and are available
    > in a very concise format, allowing you to easily return to them at
    > anytime.
 

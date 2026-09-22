@@ -12,10 +12,8 @@ there freedom from the powers of guilt and shame.
 
 - [Colossians Overview](#colossians-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
-- [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
-- [Colossians Misc Selection](#colossians-misc-selection)
 
 
 ## Colossians Overview
@@ -100,27 +98,11 @@ M{ devoGHSeries({
      { publicationDate: 'Mon 08/31/2026',  topic: 'Christ in You',                        verse:   'Colossians 1:27',                      verseRef: 'col.1.27',  },
      { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',               verse: /* Colossians 2:13-15 */  'Romans 16:20', verseRef: 'rom.16.20', btbContext: 'FromDevoContent##col.2.13-15@@Colossians 2:13-15##Christ’s Victory Over Darkness'},
      { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse:   'Colossians 3:1-2',                     verseRef: 'col.3.1-2', },
+     { publicationDate: 'Fri 09/18/2026',  topic: 'Growing Together in Christ',           verse: /* Colossians 3:12-14 */ 'Ephesians 4:32', verseRef: 'eph.4.32', btbContext: 'FromDevoContent##col.3.12-14@@Colossians 3:12-14##Put On Love'},
      { publicationDate: 'Tue 08/11/2026',  topic: 'Knowing the Will of God',              verse: /* Colossians 3:15-17 */  'Romans 12:2',  verseRef: 'rom.12.2',  btbContext: 'FromDevoSermon##col.3.15-17@@Colossians 3:15-17##Discerning God’s Will'},
      { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
      { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse:   'Colossians 4:5',                       verseRef: 'col.4.5',   },
    ]
-}) }M
-
-
-
-## 2010 Colossians Series (Sundays)
-
-{{book.CornerstoneChapel}}
-
-**Note:** _As of 2026, <mark>this series has been archived</mark>
-(i.e. is no longer available ), **however** the Study Guides are still
-available._
-
-M{ sermonSeries({
-  entries: [
-    { id: `20100411`, sermon: `Dig Down, Grow Up, Stand Firm`,          scripture: `col.1@@Colossians 1-2`, },
-    { id: `20100418`, sermon: `Taking Off The Old, Putting On The New`, scripture: `col.3@@Colossians 3-4`, },
-  ]
 }) }M
 
 
@@ -130,9 +112,8 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20180103`, scripture: `col.1@@Colossians 1:1-18`,    },
     { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`,
@@ -157,6 +138,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20260419`, sermon: `Two Kingdoms in Conflict`,                 scripture: `col.1@@Colossians 1:1-14`,   },
     { id: `20260510`, sermon: `Jesus Is`,                                 scripture: `col.1@@Colossians 1:15–18`,  },
@@ -179,22 +161,5 @@ M{ sermonSeries({
     { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
     { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
     { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    },
-  ]
-}) }M
-
-
-
-
-## Colossians Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
-  entries: [
-    { id: `20230301`, sermon: `The Work of Sanctification (Brian Shannon)`,         scripture: `col.3@@Colossians 3`, },
-    { id: `20230308`, sermon: `The Work of Sanctification Part II (Brian Shannon)`, scripture: `col.3@@Colossians 3`, },
   ]
 }) }M

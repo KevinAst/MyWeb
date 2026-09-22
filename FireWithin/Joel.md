@@ -98,9 +98,8 @@ M{ devoGHSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20120620`, scripture: `jol.1@@Joel 1`,   },
     { id: `20120627`, scripture: `jol.2@@Joel 2-3`, },
@@ -114,6 +113,7 @@ M{ sermonSeries({
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
+  seriesType: 'Sundays',
   entries: [
     { id: `20191124`, sermon: `When God Relents`, scripture: `jol.1@@Joel 1-3`, },
   ]

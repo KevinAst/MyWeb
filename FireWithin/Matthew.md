@@ -15,8 +15,7 @@ how Jesus fulfills it.
 - [Matthew Overview](#matthew-overview)
 - [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
-- [2020-2021 Matthew Series (Sundays)](#2020-2021-matthew-series-sundays)
-- [Matthew Misc Selection](#matthew-misc-selection)
+- [2020 Matthew Series (Sundays)](#2020-matthew-series-sundays)
 
 
 ## Matthew Overview
@@ -101,10 +100,13 @@ M{ devoGHSeries({
    layout:  'BTB',
    entries: [
      { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse:   'Matthew 1:21',                             verseRef: 'mat.1.21',   },
-     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',        verse: /* Matthew 4:1-11 */  '2 Corinthians 10:5',   verseRef: '2co.10.5',            btbContext: 'FromDevoContent##mat.4.1-11@@Matthew 4:1-11##Answering Temptation with Truth'},
+     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',        verse: /* Matthew 4:1-11 */  '2 Corinthians 10:5',   verseRef: '2co.10.5',   btbContext: 'FromDevoContent##mat.4.1-11@@Matthew 4:1-11##Answering Temptation with Truth'},
+     { publicationDate: 'Thu 09/10/2026',  topic: 'Our Hope Is in Christ',             verse: /* Matthew 5:13-16 */  'Philippians 3:20',    verseRef: 'php.3.20',   btbContext: 'FromDevoContent##mat.5.13-16@@Matthew 5:13-16##Influence the World for Christ'},
      { publicationDate: 'Fri 05/01/2026',  topic: 'A Life That Points to the Lord',    verse:   'Matthew 5:16',                             verseRef: 'mat.5.16',   },
      { publicationDate: 'Sat 03/28/2026',  topic: 'Seeking a Godly Spouse',            verse:   'Matthew 6:33',                             verseRef: 'mat.6.33',   },
      { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',                verse: /* Matthew 7:3-5 */  'Mark 7:6-7',            verseRef: 'mrk.7.6-7',  btbContext: 'FromDevoContent##mat.7.3-5@@Matthew 7:3-5##Remove the Plank First'},
+     { publicationDate: 'Sat 09/19/2026',  topic: 'The Rest You Need',                 verse: /* Matthew 11:28-30 */  'Hebrews 4:9-10',     verseRef: 'heb.4.9-10', btbContext: 'FromDevoContent##mat.11.28-30@@Matthew 11:28-30##Rest for Your Soul'},
+     { publicationDate: 'Wed 09/09/2026',  topic: 'Hold Fast to the True Jesus',       verse: /* Matthew 16:15-16 */ '2 Corinthians 11:4',  verseRef: '2co.11.4',   btbContext: 'FromDevoContent##mat.16.15-16@@Matthew 16:15-16##Peter Confesses the True Jesus'},
      { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',      verse:   'Matthew 24:14',                            verseRef: 'mat.24.14',  },
      { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',              verse: /* Matthew 27:24   */ 'Galatians 1:10',       verseRef: 'gal.1.10',   btbContext: 'FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]', },
      { publicationDate: 'Sat 05/23/2026',  topic: 'The Empty Tomb',                    verse:   'Matthew 28:6',                             verseRef: 'mat.28.6',   },
@@ -120,9 +122,8 @@ M{ devoGHSeries({
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mat-2013',
-  settings: {
-    includeStudyGuide: false,
-  },
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
   entries: [
     { id: `20130206`, scripture: `mat.1@@Matthew 1:1-17`,        },
     { id: `20130213`, scripture: `mat.1@@Matthew 1:18-2:23`,     },
@@ -160,12 +161,13 @@ M{ sermonSeries({
 
 
 
-## 2020-2021 Matthew Series (Sundays)
+## 2020 Matthew Series (Sundays)
 
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   collapsibleSectionID: 'ss-mat-2020',
+  seriesType: 'Sundays',
   entries: [
     { id: `20200614`, sermon: `A Messy Family Tree`,                             scripture: `mat.1@@Matthew 1:1-17`,     },
     { id: `20200621`, sermon: `Baptism of Water, Holy Spirit, and Fire`,         scripture: `mat.2@@Matthew 2-3`,        },
@@ -207,28 +209,5 @@ M{ sermonSeries({
     { id: `20210314`, sermon: `Get Ready ‘cause Here I Come Pt.2`,               scripture: `mat.25@@Matthew 25:1-13`,   },
     { id: `20210321`, sermon: `Get Ready ‘cause Here I Come Pt.3`,               scripture: `mat.25@@Matthew 25:14-30`,  },
     { id: `20210411`, sermon: `Am I a Convert or a Disciple?`,                   scripture: `mat.28@@Matthew 28:16-20`,  },
-  ]
-}) }M
-
-
-
-
-## Matthew Misc Selection
-
-{{book.CornerstoneChapel}}
-
-M{ sermonSeries({
-  collapsibleSectionID: 'ss-mat-MISC',
-  entries: [
-    { id: `20210328`, sermon: `The God of Second Chances`,              scripture: `mat.26@@Matthew 26`,          studyGuide: `NONE`, },
-    { id: `20211219`, sermon: `Prophecies about the First Christmas`,   scripture: `mat.1@@Matthew 1-2`,          studyGuide: `NONE`, },
-    { id: `20220420`, sermon: `His Name is Jesus (Lloyd Pulley)`,       scripture: `mat.1@@Matthew 1:21`,         studyGuide: `NONE`, },
-    { id: `20220626`, sermon: `The Ministry of Truth (Matthey Maher)`,  scripture: `mat.16@@Matthew 16`,          studyGuide: `NONE`, },
-    { id: `20221218`, sermon: `God Chose You (Tyler Hamrick)`,          scripture: `mat.1@@Matthew 1`,                                },
-    { id: `20221225`, sermon: `God’s Gift to the World`,                scripture: `mat.1@@Matthew 1`,            studyGuide: `NONE`, },
-    { id: `20230402`, sermon: `Followers in the Crowd (Mike McClure)`,  scripture: `mat.20@@Matthew 20:29-21:14`, studyGuide: `NONE`, },
-    { id: `20230813`, sermon: `When in the Wilderness (Tyler Hamrick)`, scripture: `mat.4@@Matthew 4:1-11`,                           },
-    { id: `20231126`, sermon: `Sunday Service of Thanksgiving`,         scripture: `mat.25@@Matthew 25:14-30`,    studyGuide: `NONE`, },
-    { id: `20260503`, sermon: `A Call to Prayer (Al Pittman)`,          scripture: `mat.6@@Matthew 6:5-15`,       studyGuide: `NONE`, },
   ]
 }) }M
