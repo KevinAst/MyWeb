@@ -27,7 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
-[v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *TBD*
+[v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *Sep 22, 2026*
 [v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
 [v26.2](#v26_2)   | Sync Sermons                       | *June 16, 2026*
@@ -95,7 +95,7 @@ Release           | What                 | *When*
 <!-- ************************************************************* -->
 <br/>
 <h3 id="v27_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
-  v27.0 - Incremental Sermon Series Synchronization <i>(TBD)</i>
+  v27.0 - Incremental Sermon Series Synchronization <i>(Sep 22, 2026)</i>
 </h3>
 <br/>
 
@@ -148,6 +148,7 @@ Release           | What                 | *When*
   * The tooltip hover for completion checkboxes now includes the entire
     label, rather than just the checkbox.
 
+  * Added tooltip hover to all FireWithin Bible Book links.
 
 
 <!-- ************************************************************* -->
