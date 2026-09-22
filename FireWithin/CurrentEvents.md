@@ -142,5 +142,6 @@ M{ sermonSeries({
     { id: `20241006`, sermon: `Remembering October 7th`,                                 scripture: `psa.83@@Psalms 83`,                                    },
     { id: `20241013`, sermon: `Discerning The Devil's Playbook`,                                                                       studyGuide: `NONE`, extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`, },
     { id: `20250504`, sermon: `Reclaiming the Cultural Mandate (Seth Gruber)`,           scripture: `gen.1@@Genesis 1`,                studyGuide: `NONE`, },
+    { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`, scripture: `1ki.18.20-40@@1 Kings 18:20-40`,  studyGuide: `NONE`, },
   ]
 }) }M

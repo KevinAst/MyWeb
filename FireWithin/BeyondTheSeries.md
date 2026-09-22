@@ -62,5 +62,6 @@ M{ sermonSeries({
     { id: `20260712`, sermon: `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`,                                             scripture: `act.2@@Acts 2`,                                       },
     { id: `20260719`, sermon: `The Results of Repentance (Pastor Austin Hamrick)`,                                                        scripture: `act.3@@Acts 3`,                                       },
     { id: `20260805`, sermon: `Next Gen for Jesus Night (Helms Triplets)`,                                                                                                              studyGuide: `NONE`, },
+    { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,                                                  scripture: `1ki.18.20-40@@1 Kings 18:20-40`,  studyGuide: `NONE`, },
   ]
 }) }M
