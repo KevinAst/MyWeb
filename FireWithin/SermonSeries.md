@@ -16,6 +16,9 @@ At any given time, there are two active sermon series:
 
 
 
+<!-- *** pageSectionBreak() ******************************************* -->
+<br/><br/><hr style="height: 9px; background-color: #616a6b; border: none; width: 100%; margin: 20px auto; border-radius: 5px;">
+
 ## Current Series
 
 These are the sermon series that are currently active:
@@ -28,6 +31,8 @@ series can be found at the top right of select "Bible Specific" pages
 (for example: {{book.Matthew}}).
 
 
+<!-- *** pageSectionBreak() ******************************************* -->
+<br/><br/><hr style="height: 9px; background-color: #616a6b; border: none; width: 100%; margin: 20px auto; border-radius: 5px;">
 
 ## Series History
 
