@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 620          _... categorized below!!_
-> <br/> **Photos: 50,700**       _... Yikes!!!_
+> <br/> **Albums: 621          _... categorized below!!_
+> <br/> **Photos: 50,713**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -816,6 +816,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Hiking
+
+- 2026 09: [Chandler Group Diamond Mineral Springs (9/27/2026)](https://photos.google.com/share/AF1QipNv4_Ossh8zPWBST7Od5NYBuNVMClU0UjM5WiPxNs6ADR3S5G6QcKFIQyaKGl6ltw?key=QlR6bnE5X2NMbVZKdDFpMHJSY25VYi0xdFlKczF3) (13 pics)
+
 
 - 2025 11: [Silver Lake Hike at Highland](https://photos.google.com/share/AF1QipMLFp5U1RFqO27SBh7cGbad5BSwiQdSaw4kNqaW8BjkTNQ-J-V_Vsqy-9PBXvYXcg?key=ZVNsNENUdDVjSldkT2VmV3J5cFRHRFFsTXJhc1pn) _(20 pics)_
 
