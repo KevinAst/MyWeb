@@ -1,3 +1,8 @@
+Beginning with the [v28.0](history.md#v28_0) release, <b><mark>these
+unauthorized devotions have been removed from the FireWithin
+site.</mark></b> You are seeing this `private` retention, as an
+example of how these devotions were organized.
+
 # Daily Devotions
 
 _**Daily Devotions from Gary Hamrick

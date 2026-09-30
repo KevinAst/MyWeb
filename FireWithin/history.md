@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v28.0](#v28_0)   | Removal of Daily Devotions                | *TBD*
 [v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *Sep 22, 2026*
 [v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
 [v26.3](#v26_3)   | Sync Sermons and Small Group       | *Aug 25, 2026*
@@ -89,6 +90,46 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v28_0" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v28.0 - Removal of Daily Devotions <i>(TBD)</i>
+</h3>
+<br/>
+
+- Removal of Daily Devotions
+
+  On 9/20/2026, I discovered that the Daily Devotions cataloged in
+  this FireWithin site since February of 2026, were NOT authentic :-(
+
+  These devotions were discovered from a third-party site, which
+  appeared to be authentic.  The devotion content had the same
+  demeanor and teaching style I had come to associate with Pastor
+  Gary.  They even referenced Cornerstone resources, such as related
+  sermons, etc.
+
+  Even though this third-party site was a bit annoying, with its
+  pop-ups and other distractions, I simply assumed Cornerstone was
+  using it as a way to reach more people. In hindsight, that
+  assumption was probably a bit absurd, given Cornerstone's own
+  extensive online presence.  At any rate, I eventually decided to
+  incorporate these devotions into my FireWithin site to provide a
+  more "distraction-free" environment.
+
+  On 9/20/2026, I confirmed that Cornerstone Chapel does NOT publish a
+  daily devotion, nor are these devotions written or authorized by
+  Pastor Gary or Cornerstone Chapel.
+
+  <b><mark><b>This is a sobering example of how AI has the real
+  potential to be the ultimate instrument of deception.</mark></b>
+
+  Beginning with the v28.0 release, these unauthorized Daily
+  Devotions have been removed from the FireWithin site.
+
+  Perhaps at some future point, Pastor Gary will publish a Daily
+  Devotion for real (a welcome resource)!
 
 
 
