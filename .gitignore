@@ -12,6 +12,9 @@
 # our encoder ... obfuscated in dd.js
 /FireWithin/js/util/encoder*
 
+# fwd (Fire Within Devotions): the staged private retention of all FireWithin source code that contains the unauthorized devotions
+/fwd/
+
 # logs
 logs
 *.log
