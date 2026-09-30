@@ -1,0 +1,562 @@
+/*** make left-nav slimmer - use 250px (was: 300) ***/
+:root {
+  --sidebar-width: 250px;
+}
+.book-summary {
+  width: var(--sidebar-width);
+}
+.book.with-summary .book-body {
+  left: var(--sidebar-width);
+}
+/* ... fix cell phone slimness too
+       - removes GitBook’s slide system entirely on mobile
+       - forces the same layout model as desktop
+       - no dependency on viewport width
+       - no fragile calc(...) math
+*/
+@media (max-width: 600px) {
+  .book.with-summary .book-body {
+    transform: none !important;
+    left:      var(--sidebar-width) !important;
+  }
+}
+
+
+
+
+/* condense left-nav spacing (was: 10px 15px) */
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+  padding: 5px 15px;
+}
+
+/* condense line-spacing */
+.markdown-section {
+  line-height: 1.4;     /* overall line-spacing (was: 1.7) */
+}
+.markdown-section pre {
+  line-height: 1.2;     /* code-snippet line-spacing (was: 1.7) */
+  padding:    .5em;     /* also reduce padding around code block (was: .85em 1em) */
+}
+
+/* adjust gitbooks styling of our left-nav header */
+.book-summary ul.summary li.header {
+  text-transform: none !important; /* override: text-transform: uppercase; */
+  font-weight:    bold !important; /* make it bold! */
+}
+
+/* diagram styles */
+.diagram {
+  background:     #fffffa;      /* light beige: neutral background color that looks good in all three gitbook styles */
+
+  border-radius:  8px;          /* rounded border */
+
+                                /* with a drop shadow effect */
+/*-webkit-filter: drop-shadow(8px 8px 10px gray); /* Safari 6.0 - 9.0 */
+/*filter:         drop-shadow(8px 8px 10px gray); */
+
+                                /* blur around frame */
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+/* simulated links used to inject content in youtube video iframe */
+.video-link {
+  cursor:          pointer;
+  font-weight:     bold;
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: yellow !important;
+}
+
+/* override gitbook table width 100% */
+.markdown-section table {
+  width: auto;
+}
+
+/* make our check-box labels no-wrap */
+label {
+  white-space: nowrap;
+  cursor:      pointer;
+}
+input[type="checkbox"] {
+  cursor:      pointer;
+}
+
+/* SideBar: use a mouse pointer for all images capable of going full-screen with a click */
+.clickFullScreen {
+  cursor: pointer;
+}
+
+/* RESPONSIVE default for "cell phone" (smaller device - less real estate) */
+.desktop { display: none;  }
+.phone   { display: block; }
+.desktop-inline { display: none;   }
+.phone-inline   { display: inline; }
+
+/* RESPONSIVE overide for "desktop/tablet" (bigger device - more real estate) */
+@media screen and (min-width: 768px) {
+  .desktop { display: block; }
+  .phone   { display: none;  }
+  .phone-inline   { display: none;   }
+  .desktop-inline { display: inline; }
+}
+
+/*** special `divider`s in our generated tables (sermon series) ***/
+/* USAGE:
+   
+   <tr class="divider">
+     <td colspan="3">label-here</td>
+   </tr>
+
+   KJB: ChatGPT Generated
+*/
+.divider td {
+  padding-top:    0px    !important; /* compress vertical spacing ABOVE divider section*/
+  padding-bottom: 0px    !important; /* compress vertical spacing BELOW divider section*/
+  font-weight:    600    !important; /* stronger text weight for section label */
+  text-align:     center !important; /* center text  */
+  border-top:     2px solid currentColor !important; /* top-line (with current active color from GitBook theme, automatically adapting to White/Sepia/Night modes */
+  border-bottom:  2px solid currentColor !important; /* bottom-line (ditto) */
+  opacity:        0.88   !important; /* slight transparency softens the visual impact */
+  letter-spacing: 0.03em !important; /* spacing between letters */
+  font-size:      0.9em  !important; /* slightly smaller than normal text */
+}
+
+/* all table cell entries alighn to top */
+td {
+  vertical-align: top;
+}
+
+/* provide indentation (typically used via: `P{ inject('<div class="indent">') }P`) */
+.indent {
+  margin-left: 20px;
+}
+
+/* resize the audio player (used in Memorization.md) */
+audio {
+  width:  350px;
+  height:  25px;
+}
+
+
+/*** style Memory Verse Translation Radio (used in Memorization.md ***/
+.radio-memory-verse-translation {
+  display: flex; /* align horizontally */
+  gap:     5px;  /* spacing between options */
+}
+
+.radio-memory-verse-translation label {
+  cursor:        pointer;
+  border-radius: 5px;
+  transition:    background-color 0.3s, color 0.3s; /* smooth transition effect when the background color or text color changes */
+  user-select:   none; /* prevents text selection */
+}
+
+/* hide the default radio cicle */
+.radio-memory-verse-translation input[type="radio"] {
+  display: none;
+}
+
+/* style for ALL item text */
+.radio-memory-verse-translation span {
+  border:           2px solid black;
+  padding:          3px 3px;
+  background-color: #E0E0E0;
+  color:            #333333; 
+  font-weight:      bold;  /* text stand out */
+  border-radius:    5px;   /* rounded edges */
+}
+
+/* style for selected item text */
+.radio-memory-verse-translation input[type="radio"]:checked + span {
+  background-color: #555555; 
+  color:            white;
+}
+
+/*** styles for Collapsible Section ***/
+.collapsible-toggle {
+    background:  none;
+    border:      none;
+    font-size:   1.2em; /* bigger, relative to the GitBook sizing framework */
+    font-weight: bold;
+    cursor:      pointer;
+    text-align:  left;
+    display:     inline-flex;
+    align-items: center;
+    padding:     5px;
+}
+
+.collapsible-arrow {
+    display:      inline-block;
+    margin-right: 5px;
+    transition:   transform 0.2s ease-in-out;
+}
+
+.collapsible-content {
+    display: block; /* Default: Open */
+    padding: 0px 5px;
+/*  border: 1px solid #ccc; /* dev diag: to see the section */
+
+    /* animated open/close ... adjusted by JavaScript (because our content DOES NOT have a fixed height */
+    max-height: 0;
+    opacity:    0;
+    overflow:   hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+
+/*** Checkbox Style - simple approach using unicode characters           ***/
+/*** NOTE: we use "em" units to scale appropriatly with GitBooks styling ***/
+
+/* hide the default checkbox */
+input[type="checkbox"] {
+    appearance:    none; /* remove default styling */
+
+    width:         1.2em;
+    height:        1.2em;
+    border-radius: 0.2em;  /* rounded corners */
+
+    background-color: #e0e0e0;
+
+    border:           0.1em solid #767676;
+
+    position:      relative;
+    cursor:        pointer;
+    outline:       none;
+
+    vertical-align: middle; /* aligns checkbox vertically centered */
+}
+
+/* standard styling of checkmark when checked */
+input[type="checkbox"]:checked::after {
+
+    /* YES: completion checkboxes */
+    content:       "\2714"; /* unicode: Check ✔ */
+
+    font-size:     1em;
+    font-weight:   bold;
+
+    color: green;
+
+    position:      absolute; /* ... hmmm allows the check to be placed inside the checkbox element at an exact location */
+    top:           50%;
+    left:          50%;
+    transform:     translate(-50%, -50%);
+}
+
+/* additional styling for checkboxes with the "audio-play" class */
+input[type="checkbox"].audio-play:checked::after {
+    /* YES: audio playback checks */
+    content:     "\1F508"; /* unicode Speaker - Low Volume <<< WORKS with font-family help */
+    font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif; /* forces browser to render Unicode as text (honoring color attr) instead of an emoji (which ignoring color attr - what the colored audio unicodes are) */
+
+    /* runner-up audio TRASH */
+/*  content:       "\1F50A"; /* unicode Speaker - High Volume <<< LIKE THIS (but light - needs darker background ... see "helps" */
+/*  content:       "\1F4E3"; /* unicode Megaphone <<< HMMM (ditto lightness) */
+/*  background-color: #145a32; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #154360; /* helps with lighter icons << good in most GitBook themes */
+/*  background-color: #17202a; /* helps with lighter icons << good in most GitBook themes ... a bit dark for white themes */
+/*  background-color: #424949; /* helps with lighter icons << LIKE THIS THE BEST */
+}
+
+/*** Memory Verse Table of Contents Style ... need !important to override gitbook table styling ***/
+.MV-TOC {
+    border-collapse: collapse !important;
+}
+.MV-TOC th, .MV-TOC td {
+    padding:        2px 4px !important; /* 2px top/bottom, 4px left/right */
+    text-align:     left !important;    /* left alignment */
+    vertical-align: top !important;     /* top alignment */
+
+ /* border:         1px solid black;    /* DIAG ONLY */
+    border:         none !important;    /* ensure no cell borders (gitbook override) <<< WORKS - MINOR ADJUSTMENT (NO BORDERS) */
+}
+.MV-TOC th.indent, .MV-TOC td.indent {  /* indentation <td class="indent" */
+    padding-left: 30px !important;
+}
+.MV-TOC th {
+    background-color: #f2f2f2 !important;
+}
+.MV-TOC ul {                       /* ul/li used for bullet points - in first column */
+    margin:       0 !important;    /* remove the default top/bottom margin */
+    padding-left: 10px !important; /* reduce the default left padding */
+}
+
+/*** ISOLATED PAGE DIRECTIVES: Hide the gitbook naviation controls ... see: 25in25.md ***/
+body.isolated-page .book-header, 
+body.isolated-page .book-summary, 
+body.isolated-page .navigation-prev,
+body.isolated-page .navigation-next { 
+    display: none; 
+}
+
+/*** Characters/Actors - initially used in TheChosen.md ***/
+
+/* Navigation headers */
+
+.char-category-nav {
+    text-align:    center;
+    margin-bottom: 10px;
+    font-size:     1.5em;
+    font-weight:   bold;
+}
+
+.char-category-nav a {
+    margin:          0 10px;
+    text-decoration: none;
+}
+
+.char-category-nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Visual Index Grid */
+.char-visual-index {
+    display:         flex;
+    flex-wrap:       wrap;
+    gap:             15px;
+    justify-content: center;
+    margin:          30px auto;
+    max-width:       900px;
+}
+
+.char-thumbnail {
+    text-align:      center;
+    font-size:       0.9em;
+    color:           #333;
+    text-decoration: none;
+}
+
+.char-thumbnail img {
+    width:         100px;
+    height:        100px;
+    object-fit:    cover;
+    border-radius: 50%;
+    border:        2px solid #ccc;
+    transition:    transform 0.2s;
+}
+
+.char-thumbnail:hover img {
+    transform:     scale(1.7); /* original: scale(1.05); */
+    border-color:  #999;
+}
+
+
+/* Character Cards
+   Highlights:
+   - Multiple images supported in a vertical column on desktop.
+   - Images shift to a horizontal wrap layout on smaller screens.
+   - Clean and accessible, with alt tags for each version.
+*/
+.char-card {
+    display:          flex;
+    flex-direction:   row;
+    align-items:      flex-start;
+    margin:           20px auto;
+    max-width:        900px;
+    padding:          15px;
+    border-radius:    12px;
+    background-color: #dfbf9f;
+    gap:              20px;
+}
+
+.char-images {
+    display:        flex;
+    flex-direction: column;
+    gap:            15px;
+}
+
+.char-image-block {
+    text-align: center;
+}
+
+.char-image-block img {
+    max-width:     300px; /* image size */
+    height:        auto;
+    border-radius: 10px;
+    display:       block;
+    margin:        0 auto;
+}
+
+.char-actor-caption {
+    font-size:   0.9em;
+    font-weight: bold;
+    color:       #704214;
+    margin-top:  5px;
+}
+
+.char-info {
+    flex: 1;
+}
+
+.char-info-subtitle {
+    font-size:     1.4em;
+    font-weight:   bold;
+    margin-bottom: 10px;
+    color:         #704214;
+}
+
+.char-info-desc {
+    font-size: 1em;
+    color:     #555;
+}
+
+/* Responsive for small screens */
+@media (max-width: 700px) {
+    .char-card {
+        flex-direction: column;
+        align-items:    center;
+        text-align:     center;
+    }
+
+    .char-images {
+        flex-direction:  row;
+        flex-wrap:       wrap;
+        justify-content: center;
+    }
+
+    .char-image-block {
+        margin: 0 10px;
+    }
+
+    .char-image-block img {
+        max-width: 300px;  /* image size ... SAME (I like this for phones too) */
+    }
+
+    .char-info {
+        text-align: left;
+        width:      100%;
+    }
+}
+
+/*** Home Grown Audio Controls ***/
+.audio-controls {
+    display:          flex;
+    gap:              6px;
+    align-items:      center;
+    padding:          6px 8px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius:    8px;
+    width:            fit-content;
+    margin:           1em auto; /* the auto centers horizontally */
+    box-shadow:       2px 2px 6px rgba(0,0,0,0.05);
+}
+
+.audio-button {
+    background:    #ffffff;
+    border:        1px solid #bbb;
+    border-radius: 4px;
+    padding:       3px 5px;
+    margin:        0 2px;
+    font-size:     13px;
+    cursor:        pointer;
+    line-height:   1;
+    box-shadow:    1px 1px 2px rgba(0,0,0,0.1);
+    transition:    background-color 0.2s ease;
+}
+
+.audio-button:hover {
+    background-color: #e6e6e6;
+}
+
+.audio-label {
+    font-size:   13px;
+    margin:      0 6px;
+    color:       #333;
+    font-weight: 500;
+}
+
+/*** Hide MEGA Daily Devotional ENTRIES from the left-nav bar ***/
+/***  NOTE: THIRD Level 
+            - messes up next/prev buttons <<< FIX: put all month indexes together in toc.md
+            - can turn off 2nd level months by removing 2nd nexted li.chapter
+ ***/
+.book-summary li.chapter[data-path="devo2026.html"] li.chapter[data-path="devo2026.html"] ul.articles {
+    display: none !important;
+}
+
+/*** Allow ellipsis-based text wrap with the starting ellipsis (...) stand out ***/
+.ellipsis-wrap {
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+}
+
+/*** direct links to float to the right ***/
+.right-link {
+  float: right;
+}
+
+/* Provide smooth scrolling for programatic hash changes (`location.hash = id;`)
+   using the GitBook scroll container (which is NOT html).
+   SEE: ../js/fw.js (fw.goToMyNextDevotion())
+   BAD: I subsequently discovered THIS BREAKS Cell Phone Browser Scrolling in an unpredictable way!
+        I have NO IDEA WHY :-(
+   PUNT: and live with NO smooth scrolling
+.book-body {
+  scroll-behavior: smooth !important;
+}
+*/
+
+/* adjust scroll offset for ANY input element with an id that begins with `devo`
+   USED in Daily Devotions programatic scrolling 
+   TO MAKE `location.hash = id;` NOT BUTT UP to the top
+   SEE: ../js/fw.js (fw.goToMyNextDevotion())
+*/
+input[id^="devo"] {
+  scroll-margin-top: 80px;
+}
+
+/*** Force <a> tags I inject in the top of the left-nav to be in-line ***/
+.nav-bar-inline {
+  display: inline  !important;
+  padding: 0px 0px !important;
+}
+
+
+/*** style User Account panels in settings.md ***/
+.panel {
+  padding:           16px;
+  border-radius:     8px;
+  margin:            16px 0;
+  border:            6px solid;
+  border-left-width: 15px;
+  color:             black;
+}
+
+.guest   { border-color: #d1d5db; border-left-color: #6b7280; background:#f9fafb; }
+.user    { border-color: #bbf7d0; border-left-color: #22c55e; background:#f0fdf4; }
+.signout { border-color: #fecaca; border-left-color: #ef4444; background:#fef2f2; }
+
+/*** allow a check-box to stand-out through a hanging indent approach ***/
+.checkbox-indent {
+  text-indent:  -20px; /* the first line of the entire block gets the negative indent (-20px) */
+  padding-left:  20px; /* all subsequent lines are offset by the padding-left (20px) */
+}
+
+/*** Style Sermon History TABLE found in SermonSeries.md ***/
+.sermon-history {
+    margin: 0 auto; /* center the table within the page */
+}
+.sermon-history tbody th {
+    background-color: rgba(150, 150, 150, 0.12) !important; /* deliberately neutral and subtle (to mix well with all GitBook themes) */
+    border-top:       2px solid currentColor !important;    /* currentColor is a GitBook directive that follows the text color of the current GitBook theme */
+    border-bottom:    2px solid currentColor !important;    /* ditto */
+}
+
+/*** Style a link `<a class="button-link" ...` to look like a button ***/
+.button-link {
+    display:          inline-block !important;
+    padding:          0.4em 0.8em !important;
+    border-radius:    4px !important;
+    background-color: rgba(145, 140, 130, 0.25) !important; /* fill with a neutral color, supporting all GitBook themes */
+    color:            inherit !important;
+    text-decoration:  none !important;
+    font-weight:      600 !important;
+}
+.button-link:hover {
+    background-color: rgba(145, 140, 130, 0.4) !important; /* ditto above */
+    text-decoration:  none !important;
+}

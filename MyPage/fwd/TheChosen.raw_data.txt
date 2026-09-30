@@ -1,0 +1,2414 @@
+********************************************************************************
+********************************************************************************
+********************************************************************************
+* The Chosen RoundTables
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+The RoundTables from Dallas Jenkins and his advisers (a Catholic, a
+Jew, and an Evangelical) are found here:
+
+  https://watch.thechosen.tv/page/bible%20stuff
+
+
+There is one RoundTable for each episode, and we catalog them directly
+below each episode link, using the `extraSermonLink` property of the
+`sermonSeries` macro.
+
+EX:
+  extraSermonLink: `https://watch.thechosen.tv/video/184683594371@@&#10022;RoundTable&#10022;`,
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+* The Chosen Sleuth YouTube Videos (The Deep Dives)
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+*-------------------------------------------------------------------------------
+* Season 1
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+      https://www.youtube.com/watch?v=8Fs_PpeFlNo&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=1&t=27s&pp=iAQB
+   2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+      https://www.youtube.com/watch?v=yCafoz6lKwg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=2&pp=iAQB
+   3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+      https://www.youtube.com/watch?v=VdUPmi7vl8I&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=3&pp=iAQB
+   4. The CHOSEN SEASON 1| Character Guide
+      https://www.youtube.com/watch?v=jfHlTrTgc4w&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=4&pp=iAQB
+   5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+      https://www.youtube.com/watch?v=7bMaiOwYjhg&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=5&pp=iAQB
+   6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+      https://www.youtube.com/watch?v=kZyrhFdNuJw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=6&pp=iAQB
+   7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+      https://www.youtube.com/watch?v=H37YA8LyCLE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=7&pp=iAQB
+   8. More than one Sanhedrin?!?! Understanding The Chosen!
+      https://www.youtube.com/watch?v=NTqiBcJ62NU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=8&pp=iAQB
+   9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+      https://www.youtube.com/watch?v=_O7U3Pn_kMA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=9&pp=iAQB
+  10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+      https://www.youtube.com/watch?v=1mHmfkCEl0M&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=10&pp=iAQB
+  11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+      https://www.youtube.com/watch?v=lbsJ19B3lWM&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=11&pp=iAQB
+  12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+      https://www.youtube.com/watch?v=oH2XU-QZJeE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=12&pp=iAQB
+  13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+      https://www.youtube.com/watch?v=Xq-ugp-u2Ks&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=13&pp=iAQB
+  14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+      https://www.youtube.com/watch?v=r3jcFfSL58s&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=14&pp=iAQB
+  15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+      https://www.youtube.com/watch?v=kskQBLoZEuE&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=15&pp=iAQB
+  16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+      https://www.youtube.com/watch?v=e-cXGiVU2rw&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=16&pp=iAQB
+  17. RANKING Every Episode of THE CHOSEN Season 1!
+      https://www.youtube.com/watch?v=zkok2f-pgXU&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=17&pp=iAQB
+  18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+      https://www.youtube.com/watch?v=647-s2nPDYA&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=18&pp=iAQB
+  19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+      https://www.youtube.com/watch?v=FXV381GrlME&list=PLEYEG3vIrPiFkN2V5zuulNdiqEZE0-poK&index=19&pp=iAQB
+
+- Chosen Sleuth is now going back to fill in Deep dives starting at Season 1
+  > PlayList: 
+    * The chosen Season 1 DEEP DIVE <<< KJB: There are 20 sessions for Season 1
+      ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb
+
+KEY * NOTE: I decided to just replace ALL old DD (Season 1) with these NEW ENTRIES
+
+- Raw Entries (moused from Playlist above)
+
+   1. Starting something new, You'll want to Join me...
+      https://www.youtube.com/watch?v=D_LBTz8mGW0&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=2
+      >>> E1: DD:Intro ... D_LBTz8mGW0
+ 
+   2. Matthew In the Chosen Is Actually A terrible Person...
+      https://www.youtube.com/watch?v=JaedLqA5lpI&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=3&t=880s
+      >>> E1: DD:Matthew ... JaedLqA5lpI
+ 
+   3. Why Does Nicodemus WORK FOR QUINTUS!? The Chosen Season 1 episode 1
+      https://www.youtube.com/watch?v=kA0pOpzV_9U&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=4
+      >>> E1: DD:Nicodemus ... kA0pOpzV_9U
+          XX REPLACE OLD: DD:Nicodemus
+ 
+   4. SIMON the Lawbreaker - The Chosen Season 1 episode 1 DEEP DIVE
+      https://www.youtube.com/watch?v=AlBBrSObPHA&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=5
+      >>> E1: DD:DD:Simon/Andrew/Eden ... AlBBrSObPHA
+          XX REPLACE OLD: DD:Simon/Andrew/Eden
+ 
+          XX OLD E1 REMAINING: DD:Mary Magdalene  <<< UNSURE: KEEP? May be discussed 
+                               DD:Character Guide <<< KEEP
+ 
+   5. Should Men In The Chosen Wear head coverings? The Chosen Season 1 Episode 2 DEEP DIVE
+      https://www.youtube.com/watch?v=k3MX6omaHCc&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=6&t=1520s
+      >>> E2: DD:INTRO ... k3MX6omaHCc
+          XX REPLACE OLD: DD:Shabbat
+ 
+   6. The Episode That Made You LOVE Matthew | The Chosen Season 1 DEEP DIVE
+      https://www.youtube.com/watch?v=5P0UqGJ-tI8&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=7
+      >>> E2: DD:Matthew ... 5P0UqGJ-tI8
+ 
+          XX OLD E2 REMAINING: DD:Eden      <<< XX
+                               DD:Sanhedrin <<< XX
+ 
+   7. FINALLY Jesus Portrayed As A Real MAN! The Chosen Season DEEP DIVE
+      https://www.youtube.com/watch?v=TEA5wigjzTs&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=8&t=311s
+      >>> E3: DD:Jesus' Humanity ... TEA5wigjzTs
+          XX REPLACE OLD: DD:Jesus' Humanity
+ 
+   8. Simon Rejects THE MESSIAH.... The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=rGhvQpj9O7Q&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=9&t=338s
+      >>> E4: DD:Simon ... rGhvQpj9O7Q
+          XX REPLACE OLD: DD:Fish & Brothers
+ 
+      >>> IGNORE THIS SESSION
+   9. SIMON Is Almost MURDERED In this DELETED SCENE!? The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=YqoJ2JB-Sk8&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=10&t=17s
+      >>> E4: DD:XX ... YqoJ2JB-Sk8
+ 
+  10. The TRUTH About This Episode CHANGED MY LIFE | The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=AaOCUkjETqg&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=11&t=126s
+      >>> E4: DD:More Matthew ... AaOCUkjETqg
+ 
+          XX OLD E4 REMAINING: DD:Simon's Marriage <<< XX
+ 
+  11. The Surprising TRUTH About MOTHER MARY in THE CHOSEN
+      https://www.youtube.com/watch?v=gaMxQAVBQ2g&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=12
+      >>> E5: DD:Mary ... gaMxQAVBQ2g
+ 
+ 
+  12. Simon and EDEN In The Chosen are MARRIAGE GOALS! The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=6gU-s1NDkPk&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=13
+      >>> E5: DD:Simon & Eden ... 6gU-s1NDkPk
+ 
+  13. Jesus' "First" Miracle  Explained | The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=EgwAsAs52z8&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=14
+      >>> E5: DD:First Miracle ... EgwAsAs52z8
+ 
+  14. John the Baptist REVEALS the Truth About MESSIAH | The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=xyRdFXeXZwE&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=15
+      >>> E5: DD:John the Baptist ... xyRdFXeXZwE
+          XX REPLACE OLD: DD:John the Baptist
+ 
+          XX OLD E5 REMAINING: DD:Simon's Calling  <<< XX
+ 
+  15. The First Time Jesus Claimed To Be GOD In The Chosen
+      https://www.youtube.com/watch?v=soi8xIVsvpk&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=16&t=820s
+      >>> E6: DD:Paralytic Healing ... soi8xIVsvpk
+          XX REPLACE OLD: DD:Tamar
+ 
+  16. This ONE conversation Shows JESUS Like NEVER BEFORE! The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=rIibE-G5ufA&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=17
+      >>> E6: DD:Jesus in New Light ... rIibE-G5ufA
+ 
+  17. The EXACT MOMENT Shmuel LOST FAITH In Nicodemus | The Chosen Deep Dive
+      https://www.youtube.com/watch?v=QAgZySJ-klM&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=18
+      >>> E6: DD:Nicodemus/Shmuel ... QAgZySJ-klM
+          XX REPLACE OLD: DD:Nicodemus/Shmuel
+ 
+          XX OLD E6 REMAINING: DD:Matthew/Nicodemus/Tamar  <<< XX
+ 
+  18. Matthew Is HATED, Yet Jesus CHOSE HIM! The Chosen Deep Dive
+      https://www.youtube.com/watch?v=wsscoeJ9Bh4&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=19
+      >>> E7: DD:Matthew Follows Jesus ... wsscoeJ9Bh4
+          XX REPLACE OLD: DD:Matthew Follows Jesus
+ 
+  19. Why This Scene Left Me SPEECHLESS | The Chosen DEEP DIVE
+      https://www.youtube.com/watch?v=a6g3rpy6QVU&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=20
+      >>> E8: DD:Dasha Healing ... a6g3rpy6QVU
+ 
+  20. There's WAY More to the Woman at The Well! The Chosen Season 1 DEEP DIVE
+      https://www.youtube.com/watch?v=V6J-RNl43iQ&list=PLTtSgjQiZ1K6F5FgcxY7uw0Mp_tsAhxnb&index=21
+      >>> E8: DD:Woman at the Well ... V6J-RNl43iQ
+          XX REPLACE OLD: DD:Woman at the Well
+
+
+old entries (now obsolete)
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+  NAH                          1. How Did "THE CHOSEN" GET STARTED! The Shepherd ( The Chosen's Pilot Episode)
+                                  https://www.youtube.com/watch?v=8Fs_PpeFlNo
+
+
+                              
+1 Nicodemus                    2. Meeting NICODEMUS | THE CHOSEN S1-E1 Deep Dive
+                                  https://www.youtube.com/watch?v=yCafoz6lKwg
+1 Mary Magdalene               3. MARY MAGDALENE Meets JESUS! | THE CHOSEN S1-E1 DEEP DIVE
+                                  https://www.youtube.com/watch?v=VdUPmi7vl8I
+1 Simon/Andrew/Eden            5. Peter probably wouldn't have done this... | The Chosen SEASON 1 Episode 1 (part 3)
+                                  https://www.youtube.com/watch?v=7bMaiOwYjhg
+1 Character Guide              4. The CHOSEN SEASON 1| Character Guide
+                                  https://www.youtube.com/watch?v=jfHlTrTgc4w
+  ENTRY:                          `DeepDive:yCafoz6lKwg@@Nicodemus##VdUPmi7vl8I@@Mary Magdalene##7bMaiOwYjhg@@Simon/Andrew/Eden##jfHlTrTgc4w@@Character Guide`,
+
+
+                              
+2 Shabbat                      6. A Christian Explanation of Shabbat ! The Chosen Season 1 Episode 2 ( Part 1 )
+                                  https://www.youtube.com/watch?v=kZyrhFdNuJw
+2 Eden                         7. Eden is such a Godly wife to Simon Peter! The Chosen season 1 episode 2
+                                  https://www.youtube.com/watch?v=H37YA8LyCLE
+2 Sanhedrin                    8. More than one Sanhedrin?!?! Understanding The Chosen!
+                                  https://www.youtube.com/watch?v=NTqiBcJ62NU
+  ENTRY:                          `DeepDive:kZyrhFdNuJw@@Shabbat##H37YA8LyCLE@@Eden##NTqiBcJ62NU@@Sanhedrin`
+
+
+
+3 Jesus' Humanity              9. The Chosen Season 1 Episode 3 Deep Dive into Jesus' Humanity!
+                                  https://www.youtube.com/watch?v=_O7U3Pn_kMA
+  ENTRY:                          `DeepDive:_O7U3Pn_kMA@@Jesus' Humanity`
+
+
+
+4 Fish & Brothers             10. THE CHOSEN COMPLETELY FOOLED ME! Season 1 Episode 4
+                                  https://www.youtube.com/watch?v=1mHmfkCEl0M
+4 Simon's Marriage            11. The Truth about SIMON and EDEN'S MARRIAGE | The Chosen Reaction season 1 episode 4
+                                  https://www.youtube.com/watch?v=lbsJ19B3lWM
+  ENTRY:                          `DeepDive:1mHmfkCEl0M@@Fish & Brothers##lbsJ19B3lWM@@Simon's Marriage`
+
+
+
+5 John the Baptist            12. Meeting JOHN the baptist! THE CHOSEN season 1 Episode 5
+                                  https://www.youtube.com/watch?v=oH2XU-QZJeE
+5 Simon's Calling             13. WHAT IS SIMON TALKING ABOUT!?! | The Chosen season 1 Episode 5
+                                  https://www.youtube.com/watch?v=Xq-ugp-u2Ks
+  ENTRY:                          `DeepDive:oH2XU-QZJeE@@John the Baptist##Xq-ugp-u2Ks@@Simon's Calling`
+
+
+                              
+6 Matthew/Nicodemus/Tamar     14. Matthew FINALLY seeks out Jesus! THE CHOSEN Season 1 Episode 6
+                                  https://www.youtube.com/watch?v=r3jcFfSL58s
+6 Nicodemus/Shmuel            15. Nicodemus almost convinced Shmuel... almost | The chosen Season 1 episode 6
+                                  https://www.youtube.com/watch?v=kskQBLoZEuE
+6 Tamar                       16. TAMAR reveals JESUS as the CHRIST | The Chosen season 1 Episode 6
+                                  https://www.youtube.com/watch?v=e-cXGiVU2rw
+  ENTRY:                          `DeepDive:r3jcFfSL58s@@Matthew/Nicodemus/Tamar##kskQBLoZEuE@@Nicodemus/Shmuel##e-cXGiVU2rw@@Tamar`
+
+
+
+                              
+  NAH                         17. RANKING Every Episode of THE CHOSEN Season 1!
+                                  https://www.youtube.com/watch?v=zkok2f-pgXU
+
+
+
+                              
+7 Matthew Follows Jesus       18. The REAL REASON Why JESUS Called MATTHEW | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=647-s2nPDYA
+  ENTRY:                          `DeepDive:647-s2nPDYA@@Matthew Follows Jesus`
+
+
+                              
+8 Woman at the Well           19. The TRUTH about the WOMAN At the WELL | The Chosen Season 1
+                                  https://www.youtube.com/watch?v=FXV381GrlME
+  ENTRY:                          `DeepDive:FXV381GrlME@@Woman at the Well`
+
+
+
+
+*-------------------------------------------------------------------------------
+* Season 2
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. The Chosen S2-E1 DEEP DIVE into ...THE GOOD SAMARITAN ?
+      https://www.youtube.com/watch?v=FpQB_3ImScU&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=1&pp=iAQB
+   2. Meeting NATHANAEL | The CHOSEN S2-E2 DEEP DIVE into Nathanael's story
+      https://www.youtube.com/watch?v=wCTiw8KhpxE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=2&pp=iAQB
+   3. The Chosen S2-E1 DEEP DIVE into John, the disciple who Jesus loved | Things you might've missed...
+      https://www.youtube.com/watch?v=Rqn2lTl4sy4&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=3&pp=iAQB
+   4. Meeting PHILLIP the DISCIPLE | THE CHOSEN S2-E2 DEEP DIVE into Phillips and Matthew's growth
+      https://www.youtube.com/watch?v=24zp4deYk0A&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=4&pp=iAQB
+   5. MOTHER MARY of Nazareth | THE CHOSEN S2-E3 Mary's relationship with Jesus as an adult.
+      https://www.youtube.com/watch?v=LEZElYsFb3k&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=5&pp=iAQB
+   6. THE CHOSEN'S INSANE CINEMATOGRAPHY | S2-E3 DEEP DIVE INTO the 15 Minute One Shot
+      https://www.youtube.com/watch?v=ZS8GLzyAWIY&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=6&pp=iAQB
+   7. WHY EVERYONE HATES MATTHEW The Tax Collector |THE CHOSEN Season 2 EP 3
+      https://www.youtube.com/watch?v=cN8J4p37k04&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=7&pp=iAQB
+   8. The Chosen Season 2 Episode 4 | The Two Brothers Story ( Part 1)
+      https://www.youtube.com/watch?v=Re5viFQG8sA&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=8&pp=iAQB
+   9. THE CHOSEN Season 2 Episode 4 Stream Chat LIVE!
+      https://www.youtube.com/watch?v=Ayzo3-BU1sE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=9&pp=iAQB
+  10. The Chosen Season 2 Episode 4 | Simon The ZEALOT & The COHORTES URBANAE (part 2)
+      https://www.youtube.com/watch?v=Een00ofHr4w&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=10&pp=iAQB
+  11. DALLAS JENKINS Addresses S2 EP 5 CONTROVERSY!
+      https://www.youtube.com/watch?v=KLcsELrv8uQ&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=11&pp=iAQB
+  12. Mary Magdalene Relapsed after meeting Jesus? The Chosen Season 2 Episode 5 ( Part 3)
+      https://www.youtube.com/watch?v=QGGz6qJMFCM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=12&pp=iAQB
+  13. THE CHOSEN Season 2 Episode 5| Did you understand this? Let me help! (part 4)
+      https://www.youtube.com/watch?v=sUXuVBD1Fag&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=13&pp=iAQB
+  14. The Chosen SEASON 2 Episode 6 | MARY & EDEN Return, John arrested, Pharisee's Scheme
+      https://www.youtube.com/watch?v=3Oh8K4vhNws&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=14&pp=iAQB
+  15. The Chosen Season 2 Episode 6 (Part 1) | Did the Chosen team make a mistake?
+      https://www.youtube.com/watch?v=BAct64ljpE8&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=15&pp=iAQB
+  16. The Chosen Season 2 Episode 6 (part 2) | The Beauty of Redemption ( Mary Magdalene's Journey)
+      https://www.youtube.com/watch?v=Xq6NjOfIUOE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=16&pp=iAQB
+  17. What's coming in Episode 7? Jesus Arrested? Quintas,Gaius,Tamar return! What else ?
+      https://www.youtube.com/watch?v=x51cI35J_fk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=17&pp=iAQB
+  18. The Chosen Season 2 Episode 7 | Episode Premiere Discussion!
+      https://www.youtube.com/watch?v=6svSVb_bwrg&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=18&pp=iAQB
+  19. Who is Simon peter becoming?... ( is this good? )! The Chosen Season 2 Episode 6 ( Part 3)
+      https://www.youtube.com/watch?v=xdYM7Pqs54Q&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=19&pp=iAQB
+  20. Did you see how well Jesus handled this? The Chosen Season 2 Episode 7 (Part 1)
+      https://www.youtube.com/watch?v=jhGfu5CgwPM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=20&pp=iAQB
+  21. Will We see JUDAS!? The Chosen SEASON 2 FINALE Predictions!
+      https://www.youtube.com/watch?v=hte1fQSerNc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=21&pp=iAQB
+  22. The Chosen Season 2 Finale Reaction | Live Discussion of Season 2 Episode 8
+      https://www.youtube.com/watch?v=5Zmn1ftuMVM&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=22&pp=iAQB
+  23. The Truth About Andrew's ANGER | The Chosen season 2 episode 7 (Part 2)
+      https://www.youtube.com/watch?v=D7ja5V2nPrc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=23&pp=iAQB
+  24. Getting to know QUINTUS, GAIUS, AND ATTICUS | The Chosen Season 2 Episode 7 (Part 3)
+      https://www.youtube.com/watch?v=lSfhgbXZWnE&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=24&pp=iAQB
+  25. Jesus Needed Matthew when He wrote the Sermon! | The Chosen Season 2 Episode 8 (Part 1)
+      https://www.youtube.com/watch?v=pawP8xz3lpY&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=25&pp=iAQB
+  26. Could Judas Iscariot be saved?
+      https://www.youtube.com/watch?v=C6LlmyQHZ64&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=26&pp=iAQB
+  27. What are the Pharisees ACTUALLY planning? | The Chosen Season 2 Episode 8 (Part 3)
+      https://www.youtube.com/watch?v=aS-daWezmGk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=27&pp=iAQB
+  28. The Chosen Season 2 DEEP DIVE W/ @BrandonRobbinsMinistry @ChrisDurban @NowLetsBeHonest
+      https://www.youtube.com/watch?v=LrK23SlGrHc&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=28&pp=iAQB
+  29. The Chosen's Writer Speaks for the FIRST TIME *hints at season 3*
+      https://www.youtube.com/watch?v=K79DyqqsAiw&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=29&pp=iAQB
+  30. The WORST Episode of THE CHOSEN Season 2...
+      https://www.youtube.com/watch?v=ycQ6T9hvodk&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=30&pp=iAQB
+  31. The Chosen Cast reveals secrets of SEASON 3!
+      https://www.youtube.com/watch?v=554wAwoGols&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=31&pp=iAQB
+  32. The Chosen: Season 3 official trailer BREAKDOWN!
+      https://www.youtube.com/watch?v=jqCeYrVh3iQ&list=PLEYEG3vIrPiGHneAU4JJweKDKwAKg6byk&index=32&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+1 Bad Samaritan (Malek)        1. The Chosen S2-E1 DEEP DIVE into ...THE GOOD SAMARITAN ?
+                                  https://www.youtube.com/watch?v=FpQB_3ImScU
+1 John                         3. The Chosen S2-E1 DEEP DIVE into John, the disciple who Jesus loved | Things you might've missed...
+                                  https://www.youtube.com/watch?v=Rqn2lTl4sy4
+  ENTRY:                          `DeepDive:FpQB_3ImScU@@Bad Samaritan (Malek)##Rqn2lTl4sy4@@John`
+
+2 Nathanael                    2. Meeting NATHANAEL | The CHOSEN S2-E2 DEEP DIVE into Nathanael's story
+                                  https://www.youtube.com/watch?v=wCTiw8KhpxE
+2 Phillip/Matthew              4. Meeting PHILLIP the DISCIPLE | THE CHOSEN S2-E2 DEEP DIVE into Phillips and Matthew's growth
+                                  https://www.youtube.com/watch?v=24zp4deYk0A
+  ENTRY:                          `DeepDive:wCTiw8KhpxE@@Nathanael##24zp4deYk0A@@Phillip/Matthew`
+
+3 Mary/Jesus                   5. MOTHER MARY of Nazareth | THE CHOSEN S2-E3 Mary's relationship with Jesus as an adult.
+                                  https://www.youtube.com/watch?v=LEZElYsFb3k
+3 Rundownw                     6. THE CHOSEN'S INSANE CINEMATOGRAPHY | S2-E3 DEEP DIVE INTO the 15 Minute One Shot
+                                  https://www.youtube.com/watch?v=ZS8GLzyAWIY
+3 Disdain for Matthew          7. WHY EVERYONE HATES MATTHEW The Tax Collector |THE CHOSEN Season 2 EP 3
+                                  https://www.youtube.com/watch?v=cN8J4p37k04
+  ENTRY:                          `DeepDive:LEZElYsFb3k@@Mary/Jesus##ZS8GLzyAWIY@@Rundown##cN8J4p37k04@@Disdain for Matthew`
+
+4 Rundown                      8. The Chosen Season 2 Episode 4 | The Two Brothers Story ( Part 1)
+                                  https://www.youtube.com/watch?v=Re5viFQG8sA
+4 NAH                          9. THE CHOSEN Season 2 Episode 4 Stream Chat LIVE!
+                                  https://www.youtube.com/watch?v=Ayzo3-BU1sE
+4 Simon the Zealot            10. The Chosen Season 2 Episode 4 | Simon The ZEALOT & The COHORTES URBANAE (part 2)
+                                  https://www.youtube.com/watch?v=Een00ofHr4w
+  ENTRY:                          `DeepDive:Re5viFQG8sA@@Rundown##Een00ofHr4w@@Simon the Zealot`
+
+5 Rundown                     11. DALLAS JENKINS Addresses S2 EP 5 CONTROVERSY!
+                                  https://www.youtube.com/watch?v=KLcsELrv8uQ
+5 Mary Magdalene's Relapse    12. Mary Magdalene Relapsed after meeting Jesus? The Chosen Season 2 Episode 5 ( Part 3)
+                                  https://www.youtube.com/watch?v=QGGz6qJMFCM
+5 Pharisees Yani & Shmuel     13. THE CHOSEN Season 2 Episode 5| Did you understand this? Let me help! (part 4)
+                                  https://www.youtube.com/watch?v=sUXuVBD1Fag
+  ENTRY:                          `DeepDive:KLcsELrv8uQ@@Rundown##QGGz6qJMFCM@@Mary Magdalene's Relapse##sUXuVBD1Fag@@Pharisees Yani & Shmuel`
+
+6 NAH - A Preview             14. The Chosen SEASON 2 Episode 6 | MARY & EDEN Return, John arrested, Pharisee's Scheme
+                                  https://www.youtube.com/watch?v=3Oh8K4vhNws
+6 Rundown                     15. The Chosen Season 2 Episode 6 (Part 1) | Did the Chosen team make a mistake?
+                                  https://www.youtube.com/watch?v=BAct64ljpE8
+6 Mary Magdalene's Journey    16. The Chosen Season 2 Episode 6 (part 2) | The Beauty of Redemption ( Mary Magdalene's Journey)
+                                  https://www.youtube.com/watch?v=Xq6NjOfIUOE
+6 Character Development       19. Who is Simon peter becoming?... ( is this good? )! The Chosen Season 2 Episode 6 ( Part 3)
+                                  https://www.youtube.com/watch?v=xdYM7Pqs54Q
+  ENTRY:                          `DeepDive:BAct64ljpE8@@Rundown##Xq6NjOfIUOE@@Mary Magdalene's Journey##xdYM7Pqs54Q@@Character Development`
+
+7 NAH                         17. What's coming in Episode 7? Jesus Arrested? Quintas,Gaius,Tamar return! What else ?
+                                  https://www.youtube.com/watch?v=x51cI35J_fk
+7 Rundown                     18. The Chosen Season 2 Episode 7 | Episode Premiere Discussion!
+                                  https://www.youtube.com/watch?v=6svSVb_bwrg
+7 Jesus Interactions          20. Did you see how well Jesus handled this? The Chosen Season 2 Episode 7 (Part 1)
+                                  https://www.youtube.com/watch?v=jhGfu5CgwPM
+7 Andrew's Anger              23. The Truth About Andrew's ANGER | The Chosen season 2 episode 7 (Part 2)
+                                  https://www.youtube.com/watch?v=D7ja5V2nPrc
+7 Roman System                24. Getting to know QUINTUS, GAIUS, AND ATTICUS | The Chosen Season 2 Episode 7 (Part 3)
+                                  https://www.youtube.com/watch?v=lSfhgbXZWnE
+  ENTRY:                          `DeepDive:6svSVb_bwrg@@Rundown##jhGfu5CgwPM@@Jesus Interactions##D7ja5V2nPrc@@Andrew's Anger##lSfhgbXZWnE@@Roman System`
+
+  NAH                         21. Will We see JUDAS!? The Chosen SEASON 2 FINALE Predictions!
+                                  https://www.youtube.com/watch?v=hte1fQSerNc
+
+8 NAH - Live Chat             22. The Chosen Season 2 Finale Reaction | Live Discussion of Season 2 Episode 8
+                                  https://www.youtube.com/watch?v=5Zmn1ftuMVM
+8 Sermon Prep                 25. Jesus Needed Matthew when He wrote the Sermon! | The Chosen Season 2 Episode 8 (Part 1)
+                                  https://www.youtube.com/watch?v=pawP8xz3lpY
+8 Judas                       26. Could Judas Iscariot be saved?
+                                  https://www.youtube.com/watch?v=C6LlmyQHZ64
+8 Pharisees Plans             27. What are the Pharisees ACTUALLY planning? | The Chosen Season 2 Episode 8 (Part 3)
+                                  https://www.youtube.com/watch?v=aS-daWezmGk
+  ENTRY:                          `DeepDive:pawP8xz3lpY@@Sermon Prep##C6LlmyQHZ64@@Judas##aS-daWezmGk@@Pharisees Plans`
+
+  NAH                         28. The Chosen Season 2 DEEP DIVE W/ @BrandonRobbinsMinistry @ChrisDurban @NowLetsBeHonest
+                                  https://www.youtube.com/watch?v=LrK23SlGrHc
+  NAH                         29. The Chosen's Writer Speaks for the FIRST TIME *hints at season 3*
+                                  https://www.youtube.com/watch?v=K79DyqqsAiw
+  NAH                         30. The WORST Episode of THE CHOSEN Season 2...
+                                  https://www.youtube.com/watch?v=ycQ6T9hvodk
+  NAH                         31. The Chosen Cast reveals secrets of SEASON 3!
+                                  https://www.youtube.com/watch?v=554wAwoGols
+  NAH                         32. The Chosen: Season 3 official trailer BREAKDOWN!
+                                  https://www.youtube.com/watch?v=jqCeYrVh3iQ
+
+
+
+*-------------------------------------------------------------------------------
+* Season 3
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o
+  >>> FROM: The Snipe Life / Playlists ... https://www.youtube.com/@TheSnipeLife/playlists
+            Find "The Chosen Season X"
+
+- Raw Entries (moused from Playlist above)
+   1. The Chosen: Season 3 official trailer REACTION!
+      https://www.youtube.com/watch?v=Pq_dm_5WspM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=1&t=4s&pp=iAQB
+   2. THE CHOSEN SEASON 3 PREMIERE IN ATLANTA GEORGIA!
+      https://www.youtube.com/watch?v=1r6BV7XdAE4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=2&pp=iAQB
+   3. I was WRONG about THE CHOSEN SEASON 3...
+      https://www.youtube.com/watch?v=KaR9COkIqic&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=3&pp=iAQB
+   4. I was WRONG about THE CHOSEN SEASON 3 Characters... (spoilers)
+      https://www.youtube.com/watch?v=JoE1nn69sHM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=4&pp=iAQB
+   5. JUDAS REVEALS how He Plans to BETRAY JESUS | The Chosen Season 3 Ep1 BREAKDOWN
+      https://www.youtube.com/watch?v=BUsDbiTsZB8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=5&pp=iAQB
+   6. REALISTIC Relationships in THE CHOSEN SEASON 3
+      https://www.youtube.com/watch?v=Bs7jkuLHsFM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=6&pp=iAQB
+   7. The Chosen Season 3 : Overcoming MENTAL ILLNESS
+      https://www.youtube.com/watch?v=to0Yy1pH5Rs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=7&pp=iAQB
+   8. The IMPORTANCE of Jesus' Sermon on the Mount | The Chosen Season 3
+      https://www.youtube.com/watch?v=zOQwSoI_CFY&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=8&pp=iAQB
+   9. The Chosen: Season 3, Episode One Discussion
+      https://www.youtube.com/watch?v=b7B9WBWQ_ec&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=9&pp=iAQB
+  10. WHY DID JESUS REJECT MATTHEW!? | The Chosen Season 3 episode 1 Breakdown
+      https://www.youtube.com/watch?v=VuupQ9Yl_1w&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=10&pp=iAQB
+  11. The Chosen Season 3 Ep 2 Reaction and Breakdown!
+      https://www.youtube.com/watch?v=f1yunuT7ThM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=11&pp=iAQB
+  12. Gaius has more FAITH than the 12 APOSTLES! The Chosen Season 3 Episode 2 Breakdown
+      https://www.youtube.com/watch?v=I6bHYv-rjJA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=12&pp=iAQB
+  13. The CONSEQUENCES of FOLLOWING JESUS (SIMON Z's Journey)
+      https://www.youtube.com/watch?v=N9vena-l1-A&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=13&pp=iAQB
+  14. EDEN IS PREGNANT?! Simon and Eden Family planning in The Chosen Season 3 Episode 2
+      https://www.youtube.com/watch?v=TvEPLhZoxCY&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=14&pp=iAQB
+  15. THOMAS AND RAMAH MAY NEVER GET MARRIED... The Chosen Season 3 Episode 2 Breakdown
+      https://www.youtube.com/watch?v=5eUGWPVm8GQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=15&pp=iAQB
+  16. The Chosen Season 3 FINALLY made me CRY...
+      https://www.youtube.com/watch?v=bMFmBl3E2_0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=16&pp=iAQB
+  17. 30 Things you missed in the TWO BY TWO Scene! | The Chosen Season 3 Episode 2 "Two by Two"
+      https://www.youtube.com/watch?v=JNchqQOCZcs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=17&pp=iAQB
+  18. The Chosen Season 3 Episode Three REACTION / Breakdown
+      https://www.youtube.com/watch?v=L4XcLeVf6n0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=18&pp=iAQB
+  19. Does Mother Mary KNOW that JESUS will DIE!? The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=am7oPVQF_rg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=19&pp=iAQB
+  20. Could the SON OF GOD be BEATEN like this? | The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=Apf2ucbxfAk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=20&pp=iAQB
+  21. Why add in THIS NON-BIBLICAL Bridle? The Chosen Season 3 Episode 3 Breakdown
+      https://www.youtube.com/watch?v=BxwNYdqiMrk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=21&pp=iAQB
+  22. The Chosen SYNAGOGUE SCENE Breakdown!
+      https://www.youtube.com/watch?v=7JhhIr2H4B0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=22&pp=iAQB
+  23. The Chosen Season 3 Episode Four REACTION / Breakdown
+      https://www.youtube.com/watch?v=NYq5Up3oruI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=23&pp=iAQB
+  24. WHY IS EDEN SO MAD?! Is Simon wrong? The Chosen Season 3 Episode 4 BREAKDOWN
+      https://www.youtube.com/watch?v=dqPj7FUebZw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=24&pp=iAQB
+  25. JUDAS Casts out DEMONS!? Is this BIBLICAL? | The Chosen Season 3 Episode 4 DEEP DIVE
+      https://www.youtube.com/watch?v=L8zIP7kbNyQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=25&pp=iAQB
+  26. Hidden Scene of Gaius and Simon!? | The Chosen Season 3 NEW SCENE
+      https://www.youtube.com/watch?v=I752IAXq5sA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=26&pp=iAQB
+  27. Is TAMAR Stuck in Her Pagan past? Mary's concerned | The Chosen Season 3 Ep. 4
+      https://www.youtube.com/watch?v=_MCcjbb4jZw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=27&pp=iAQB
+  28. Giving the Apostles POWER was a DANGEROUS decision! | The Chosen Season 3 Episode 4
+      https://www.youtube.com/watch?v=MwEDZ-bv5h0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=28&pp=iAQB
+  29. The Pharisees return, but Where's NICODEMUS? | The Chosen Season 3 Episode 4
+      https://www.youtube.com/watch?v=LsUNKIgS9rg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=29&pp=iAQB
+  30. The Chosen Season 3 Episode Five: Clean Part 2 | FULL LIVE BREAKDOWN
+      https://www.youtube.com/watch?v=lenXLn_ZrhE&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=30&pp=iAQB
+  31. I WISH I was WRONG about The Chosen this time.... The Chosen Season 3 Episode 5 Eden's Journey...
+      https://www.youtube.com/watch?v=507iY16UH1M&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=31&pp=iAQB
+  32. WHY did THE CHOSEN Change this BIBLE VERSE? Jairus' Daughter in The Chosen Season 3 Episode 5
+      https://www.youtube.com/watch?v=i3kXi8DJ1x0&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=32&pp=iAQB
+  33. The Chosen's BLEEDING Woman has a SECRET! | The Chosen Season 3 Episode 5 BREAKDOWN
+      https://www.youtube.com/watch?v=4fdbvf0sUnQ&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=33&pp=iAQB
+  34. The Chosen Season 3 Episode SIX | FULL LIVE BREAKDOWN
+      https://www.youtube.com/watch?v=9AR8_fNKjBM&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=34&pp=iAQB
+  35. I Was WRONG about THE CHOSEN... Again... | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=PMTexT3wNko&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=35&pp=iAQB
+  36. Why does JESUS REBUKE John the Baptist? | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=L3sQu6S8APc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=36&pp=iAQB
+  37. Watch THIS Before THE CHOSEN SEASON 3 FINALE!
+      https://www.youtube.com/watch?v=onTYqVNCJY4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=37&pp=iAQB
+  38. What did MARY MAGDALENE SEE? Is Judas STEALING? | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=8xXRKBjs2Tc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=38&pp=iAQB
+  39. Simon The Sicarius is DEAD... | The Chosen Season 3 Episode 6
+      https://www.youtube.com/watch?v=cKgE7ycVlW4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=39&pp=iAQB
+  40. WHY Didn’t Eden tell Simon SOONER?! | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=9HD243-KErE&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=40&pp=iAQB
+  41. Is GAIUS The Centurion with the SICK SERVANT? . | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=6kffWBA2Keg&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=41&pp=iAQB
+  42. Barnaby and Shula HEALED in The Chosen Season 3! | Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=CgFkSEGhTn8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=42&pp=iAQB
+  43. The Tension BREAKS between Mary and Tamar... | The Chosen Season 3 Episode 6 BREAKDOWN!
+      https://www.youtube.com/watch?v=y4CEUaEW5DI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=43&pp=iAQB
+  44. Phillip's FAILURE, Andrew's TRIUMPH | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=SJWZqX4GZzI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=44&pp=iAQB
+  45. Are the Disciples Preparing for WAR? | The Chosen Season 3 Episode 6 BREAKDOWN
+      https://www.youtube.com/watch?v=x4QwjO0HF8k&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=45&pp=iAQB
+  46. DEEP DIVE into the RESTORATION of MATTHEW | The Chosen Season 3 episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=kWI6-HsLPvw&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=46&pp=iAQB
+  47. THOMAS Rejected by KAFNI.... Will Ramah Return? | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=YFIejQojHOo&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=47&pp=iAQB
+  48. Gaius SEEKS OUT CHRIST, Simon Runs away... | The Chosen Season 3 Episode 7 BREAKDOWN
+      https://www.youtube.com/watch?v=7-PDrY-AmJs&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=48&pp=iAQB
+  49. The Hidden TRUTH behind KING DAVID! | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=8_Ar5QGtq0c&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=49&pp=iAQB
+  50. John's Massive EGO shattered by Simon's Suffering | The Chosen Season 3 Episode 7 Breakdown!
+      https://www.youtube.com/watch?v=oyQ6n7EXUck&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=50&pp=iAQB
+  51. Why are these Three Groups so mad at JESUS!? | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=pfEUJ1N-aVk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=51&pp=iAQB
+  52. SIMON'S Weakness makes him the PERFECT LEADER | The Chosen Season 3 Episode 8 FINALE!
+      https://www.youtube.com/watch?v=E5CJzKhX4T4&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=52&pp=iAQB
+  53. Shmuel Becoming a CHRISTIAN!? NO WAY... right? | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=VTjL9euDlvc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=53&pp=iAQB
+  54. The Most IMPRESSIVE Thing the Chosen has EVER done | The Chosen Season 3 Episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=Wnaz205S04M&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=54&pp=iAQB
+  55. Eden's Mask FINALLY BREAKS, SALOME steps up! | The Chosen Season 3 episode 8 BREAKDOWN
+      https://www.youtube.com/watch?v=R6oQyFFZVsI&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=55&pp=iAQB
+  56. I took 34 people to Israel!
+      https://www.youtube.com/watch?v=tCu5lCCJNoc&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=56&pp=iAQB
+  57. My Honest thoughts about THE CHOSEN Season 3...
+      https://www.youtube.com/watch?v=ko-E0w0aD4U&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=57&pp=iAQB
+  58. My UNFILTERED thoughts about The Chosen Season 3..
+      https://www.youtube.com/watch?v=a1m7ODwVWlA&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=58&pp=iAQB
+  59. RATING The Chosen SEASON 3 Episodes!
+      https://www.youtube.com/watch?v=LBdEbKnROLk&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=59&pp=iAQB
+  60. THE CHOSEN Season 3 predictions GONE WRONG
+      https://www.youtube.com/watch?v=lM598l8Uqy8&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=60&pp=iAQB
+  61. The HIDDEN TRUTH Behind This PARABLE | The Chosen Season 3 Episode 8
+      https://www.youtube.com/watch?v=cXgNiD9fR5s&list=PLEYEG3vIrPiGyH1I65ghRx7ofYuLzKx-o&index=61&pp=iAQB
+
+
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+x NAH - Trailer                1. The Chosen: Season 3 official trailer REACTION!
+                                  https://www.youtube.com/watch?v=Pq_dm_5WspM
+x NAH - Premier Event          2. THE CHOSEN SEASON 3 PREMIERE IN ATLANTA GEORGIA!
+                                  https://www.youtube.com/watch?v=1r6BV7XdAE4
+x NAH - Brian was wrong hmmm   3. I was WRONG about THE CHOSEN SEASON 3...
+                                  https://www.youtube.com/watch?v=KaR9COkIqic
+x NAH - Brian was wrong hmmm   4. I was WRONG about THE CHOSEN SEASON 3 Characters... (spoilers)
+                                  https://www.youtube.com/watch?v=JoE1nn69sHM
+
+1 Judas                        5. JUDAS REVEALS how He Plans to BETRAY JESUS | The Chosen Season 3 Ep1 BREAKDOWN
+                                  https://www.youtube.com/watch?v=BUsDbiTsZB8
+1 Relationships                6. REALISTIC Relationships in THE CHOSEN SEASON 3
+                                  https://www.youtube.com/watch?v=Bs7jkuLHsFM
+1 Andrew's Anxiety             7. The Chosen Season 3 : Overcoming MENTAL ILLNESS
+                                  https://www.youtube.com/watch?v=to0Yy1pH5Rs
+1 Sermon on the Mount          8. The IMPORTANCE of Jesus' Sermon on the Mount | The Chosen Season 3
+                                  https://www.youtube.com/watch?v=zOQwSoI_CFY
+1 NAH - Discussion             9. The Chosen: Season 3, Episode One Discussion
+                                  https://www.youtube.com/watch?v=b7B9WBWQ_ec
+1 Matthew                     10. WHY DID JESUS REJECT MATTHEW!? | The Chosen Season 3 episode 1 Breakdown
+                                  https://www.youtube.com/watch?v=VuupQ9Yl_1w
+  ENTRY:                          `DeepDive:BUsDbiTsZB8@@Judas##Bs7jkuLHsFM@@Relationships##to0Yy1pH5Rs@@Andrew's Anxiety##zOQwSoI_CFY@@Sermon on the Mount##VuupQ9Yl_1w@@Matthew`
+
+2 NAH - Discussion            11. The Chosen Season 3 Ep 2 Reaction and Breakdown!
+                                  https://www.youtube.com/watch?v=f1yunuT7ThM
+2 Gaius & Atticus             12. Gaius has more FAITH than the 12 APOSTLES! The Chosen Season 3 Episode 2 Breakdown
+                                  https://www.youtube.com/watch?v=I6bHYv-rjJA
+2 Simon the Zealot            13. The CONSEQUENCES of FOLLOWING JESUS (SIMON Z's Journey)
+                                  https://www.youtube.com/watch?v=N9vena-l1-A
+2 Simon & Eden                14. EDEN IS PREGNANT?! Simon and Eden Family planning in The Chosen Season 3 Episode 2
+                                  https://www.youtube.com/watch?v=TvEPLhZoxCY
+2 Thomas & Ramah              15. THOMAS AND RAMAH MAY NEVER GET MARRIED... The Chosen Season 3 Episode 2 Breakdown
+                                  https://www.youtube.com/watch?v=5eUGWPVm8GQ
+2 Made Me Cry                 16. The Chosen Season 3 FINALLY made me CRY...
+                                  https://www.youtube.com/watch?v=bMFmBl3E2_0
+2 Two by Two                  17. 30 Things you missed in the TWO BY TWO Scene! | The Chosen Season 3 Episode 2 "Two by Two"
+                                  https://www.youtube.com/watch?v=JNchqQOCZcs
+  ENTRY:                          `DeepDive:I6bHYv-rjJA@@Gaius & Atticus##N9vena-l1-A@@Simon the Zealot##TvEPLhZoxCY@@Simon & Eden##5eUGWPVm8GQ@@Thomas & Ramah##bMFmBl3E2_0@@Made Me Cry##JNchqQOCZcs@@Two by Two`
+
+
+3 NAH - Member Only           18. The Chosen Season 3 Episode Three REACTION / Breakdown
+                                  https://www.youtube.com/watch?v=L4XcLeVf6n0
+3 Rundown                     19. Does Mother Mary KNOW that JESUS will DIE!? The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=am7oPVQF_rg
+3 Rosh Hashanah               20. Could the SON OF GOD be BEATEN like this? | The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=Apf2ucbxfAk
+3 Non-Biblical Bridle         21. Why add in THIS NON-BIBLICAL Bridle? The Chosen Season 3 Episode 3 Breakdown
+                                  https://www.youtube.com/watch?v=BxwNYdqiMrk
+3 Synagogue Scene             22. The Chosen SYNAGOGUE SCENE Breakdown!
+                                  https://www.youtube.com/watch?v=7JhhIr2H4B0
+  ENTRY:                          `DeepDive:am7oPVQF_rg@@Rundown##Apf2ucbxfAk@@Rosh Hashanah##BxwNYdqiMrk@@Non-Biblical Bridle##7JhhIr2H4B0@@Synagogue Scene`
+
+
+4 NAH - Member Only Content   23. The Chosen Season 3 Episode Four REACTION / Breakdown
+                                  https://www.youtube.com/watch?v=NYq5Up3oruI
+4 Simon & Eden                24. WHY IS EDEN SO MAD?! Is Simon wrong? The Chosen Season 3 Episode 4 BREAKDOWN
+                                  https://www.youtube.com/watch?v=dqPj7FUebZw
+4 Two by Two                  25. JUDAS Casts out DEMONS!? Is this BIBLICAL? | The Chosen Season 3 Episode 4 DEEP DIVE
+                                  https://www.youtube.com/watch?v=L8zIP7kbNyQ
+x NAH - Discussion            26. Hidden Scene of Gaius and Simon!? | The Chosen Season 3 NEW SCENE
+                                  https://www.youtube.com/watch?v=I752IAXq5sA
+4 Tamar & Mary                27. Is TAMAR Stuck in Her Pagan past? Mary's concerned | The Chosen Season 3 Ep. 4
+                                  https://www.youtube.com/watch?v=_MCcjbb4jZw
+4 Apostle Power Danger        28. Giving the Apostles POWER was a DANGEROUS decision! | The Chosen Season 3 Episode 4
+                                  https://www.youtube.com/watch?v=MwEDZ-bv5h0
+4 Pharisees Return            29. The Pharisees return, but Where's NICODEMUS? | The Chosen Season 3 Episode 4
+                                  https://www.youtube.com/watch?v=LsUNKIgS9rg
+  ENTRY:                          `DeepDive:dqPj7FUebZw@@Simon & Eden##L8zIP7kbNyQ@@Two by Two##_MCcjbb4jZw@@Tamar & Mary##MwEDZ-bv5h0@@Apostle Power Danger##LsUNKIgS9rg@@Pharisees Return`
+
+
+5 NAH - Member Only Content   30. The Chosen Season 3 Episode Five: Clean Part 2 | FULL LIVE BREAKDOWN
+                                  https://www.youtube.com/watch?v=lenXLn_ZrhE
+5 Eden's Journey              31. I WISH I was WRONG about The Chosen this time.... The Chosen Season 3 Episode 5 Eden's Journey...
+                                  https://www.youtube.com/watch?v=507iY16UH1M
+5 Jairus                      32. WHY did THE CHOSEN Change this BIBLE VERSE? Jairus' Daughter in The Chosen Season 3 Episode 5
+                                  https://www.youtube.com/watch?v=i3kXi8DJ1x0
+5 Bleeding Woman              33. The Chosen's BLEEDING Woman has a SECRET! | The Chosen Season 3 Episode 5 BREAKDOWN
+                                  https://www.youtube.com/watch?v=4fdbvf0sUnQ
+  ENTRY:                          `DeepDive:507iY16UH1M@@Eden's Journey##i3kXi8DJ1x0@@Jairus##4fdbvf0sUnQ@@Bleeding Woman`
+
+
+6 NAH - Member Only Content   34. The Chosen Season 3 Episode SIX | FULL LIVE BREAKDOWN
+                                  https://www.youtube.com/watch?v=9AR8_fNKjBM
+6 Leander NOT Matthias        35. I Was WRONG about THE CHOSEN... Again... | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=PMTexT3wNko
+6 John the Baptist            36. Why does JESUS REBUKE John the Baptist? | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=L3sQu6S8APc
+x NAH - Member Only Content   37. Watch THIS Before THE CHOSEN SEASON 3 FINALE!
+                                  https://www.youtube.com/watch?v=onTYqVNCJY4
+6 What did Mary Magdalene see 38. What did MARY MAGDALENE SEE? Is Judas STEALING? | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=8xXRKBjs2Tc
+6 Simon the Zealot            39. Simon The Sicarius is DEAD... | The Chosen Season 3 Episode 6
+                                  https://www.youtube.com/watch?v=cKgE7ycVlW4
+6 Simon & Eden                40. WHY Didn’t Eden tell Simon SOONER?! | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=9HD243-KErE
+6 Gaius                       41. Is GAIUS The Centurion with the SICK SERVANT? . | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=6kffWBA2Keg
+6 Barnaby and Shula           42. Barnaby and Shula HEALED in The Chosen Season 3! | Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=CgFkSEGhTn8
+6 Mary & Tamar                43. The Tension BREAKS between Mary and Tamar... | The Chosen Season 3 Episode 6 BREAKDOWN!
+                                  https://www.youtube.com/watch?v=y4CEUaEW5DI
+6 Disciples Sharping Weapons  45. Are the Disciples Preparing for WAR? | The Chosen Season 3 Episode 6 BREAKDOWN
+                                  https://www.youtube.com/watch?v=x4QwjO0HF8k
+  ENTRY:                          `DeepDive:PMTexT3wNko@@Leander NOT Matthias##L3sQu6S8APc@@John the Baptist##8xXRKBjs2Tc@@What did Mary Magdalene see##cKgE7ycVlW4@@Simon the Zealot##9HD243-KErE@@Simon & Eden##6kffWBA2Keg@@Gaius##CgFkSEGhTn8@@Barnaby and Shula##y4CEUaEW5DI@@Mary & Tamar##x4QwjO0HF8k@@Disciples Sharping Weapons`
+
+
+7 Andrew & Phillip            44. Phillip's FAILURE, Andrew's TRIUMPH | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=SJWZqX4GZzI
+7 Matthew's Restoration       46. DEEP DIVE into the RESTORATION of MATTHEW | The Chosen Season 3 episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=kWI6-HsLPvw
+7 Kafni Rejects Thomas        47. THOMAS Rejected by KAFNI.... Will Ramah Return? | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=YFIejQojHOo
+7 Gaius Seeks, Simon Runs     48. Gaius SEEKS OUT CHRIST, Simon Runs away... | The Chosen Season 3 Episode 7 BREAKDOWN
+                                  https://www.youtube.com/watch?v=7-PDrY-AmJs
+7 John's Ego, Simon's Suffering 50. John's Massive EGO shattered by Simon's Suffering | The Chosen Season 3 Episode 7 Breakdown!
+                                    https://www.youtube.com/watch?v=oyQ6n7EXUck
+  ENTRY:                          `DeepDive:SJWZqX4GZzI@@Andrew & Phillip##kWI6-HsLPvw@@Matthew's Restoration##YFIejQojHOo@@Kafni Rejects Thomas##7-PDrY-AmJs@@Gaius Seeks, Simon Runs##oyQ6n7EXUck@@John's Ego, Simon's Suffering`
+
+
+
+8 King David Cameo            49. The Hidden TRUTH behind KING DAVID! | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=8_Ar5QGtq0c
+8 Feeding 5000                51. Why are these Three Groups so mad at JESUS!? | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=pfEUJ1N-aVk
+8 Simon's Weakness            52. SIMON'S Weakness makes him the PERFECT LEADER | The Chosen Season 3 Episode 8 FINALE!
+                                  https://www.youtube.com/watch?v=E5CJzKhX4T4
+8 Shmuel                      53. Shmuel Becoming a CHRISTIAN!? NO WAY... right? | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=VTjL9euDlvc
+8 Feeding 5000 Miracle        54. The Most IMPRESSIVE Thing the Chosen has EVER done | The Chosen Season 3 Episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=Wnaz205S04M
+8 Eden's Mask Breaks          55. Eden's Mask FINALLY BREAKS, SALOME steps up! | The Chosen Season 3 episode 8 BREAKDOWN
+                                  https://www.youtube.com/watch?v=R6oQyFFZVsI
+8 Parable of the Two Sons     61. The HIDDEN TRUTH Behind This PARABLE | The Chosen Season 3 Episode 8
+                                  https://www.youtube.com/watch?v=cXgNiD9fR5s
+8 NAH - Israel Trip           56. I took 34 people to Israel!
+                                  https://www.youtube.com/watch?v=tCu5lCCJNoc
+8 NAH - Members Only          57. My Honest thoughts about THE CHOSEN Season 3...
+                                  https://www.youtube.com/watch?v=ko-E0w0aD4U
+8 Season 3 Thoughts           58. My UNFILTERED thoughts about The Chosen Season 3..
+                                  https://www.youtube.com/watch?v=a1m7ODwVWlA
+x NAH - Rating                59. RATING The Chosen SEASON 3 Episodes!
+                                  https://www.youtube.com/watch?v=LBdEbKnROLk
+x NAH - Bad Predictions       60. THE CHOSEN Season 3 predictions GONE WRONG
+                                  https://www.youtube.com/watch?v=lM598l8Uqy8
+  ENTRY:                          `DeepDive:8_Ar5QGtq0c@@King David Cameo##pfEUJ1N-aVk@@Feeding 5000##E5CJzKhX4T4@@Simon's Weakness##VTjL9euDlvc@@Shmuel##Wnaz205S04M@@Feeding 5000 Miracle##R6oQyFFZVsI@@Eden's Mask Breaks##cXgNiD9fR5s@@Parable of the Two Sons##a1m7ODwVWlA@@Season 3 Thoughts`
+
+
+*-------------------------------------------------------------------------------
+* Season 4
+*-------------------------------------------------------------------------------
+
+- The YouTube Playlist
+  ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS
+  >>> FROM: The Chosen Sleuth / Playlists ... https://www.youtube.com/@TheChosenSleuth/playlists
+            Find "Deep Dives" for each "Season X"
+
+  > NOTE: "The Chosen Sleuth" REVERSES the order here:
+- Raw Entries (moused from Playlist above)
+   1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
+      https://www.youtube.com/watch?v=DU7wgqVqkJo&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=1&t=509s&pp=iAQB
+   2. EVERYONE MISSED THIS MASSIVE CONNECTION In THE CHOSEN SEASON 4 EPISODE 8 | DEEP DIVE
+      https://www.youtube.com/watch?v=vj44U_-bsMA&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=2&pp=iAQB
+   3. DALLAS Told Me SOMETHING HUGE About The WATCHER!
+      https://www.youtube.com/watch?v=9H6E5qCi6Po&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=3&pp=iAQB
+   4. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+      https://www.youtube.com/watch?v=1Q9iCKEM4C0&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=4&pp=iAQB
+   5. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+      https://www.youtube.com/watch?v=SBVCTtFe1Gw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=5&pp=iAQB
+   6. Massive REACTIONS To the Resurrection of LAZARUS! | The Chosen Season 4 Episode 7!
+      https://www.youtube.com/watch?v=PXzUL79DAEM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=6&t=429s&pp=iAQB
+   7. The TRUTH about the Mystery man.... | The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=MtZhwS_7XCY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=7&t=12s&pp=iAQB
+   8. The TRUTH about LAZARUS' Resurrection! | The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=fz1CGbY1qmM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=8&pp=iAQB
+   9. The Apostles COMPLETELY Lose it in this Episode! The Chosen Season 4 Episode 7 DEEP DIVE
+      https://www.youtube.com/watch?v=L54X-WnpfHI&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=9&t=789s&pp=iAQB
+  10. 30 YEARS after CHRIST The Church HAS BEGUN! The Chosen Season 4 Episode 7
+      https://www.youtube.com/watch?v=0ae91iU-tHw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=10&pp=iAQB
+  11. How Could JESUS do THIS? The Chosen SEASON 4 Episode 7 DEEP DIVE
+      https://www.youtube.com/watch?v=_Q0QcTkseuM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=11&pp=iAQB
+  12. 99% of People MISSED THIS in The Chosen Season 4 Episode 6!
+      https://www.youtube.com/watch?v=bf-e13k7I4g&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=12&t=49s&pp=iAQB
+  13. JUDAS Cannot TURN BACK now... | The Chosen Season 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=RfFPJqtHglw&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=13&pp=iAQB
+  14. Jesus' BIGGEST Statement EVER Leads To THIS! | The Chosen Season 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=COKS24Gaw-A&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=14&t=820s&pp=iAQB
+  15. The Chosen Is GETTING EVEN MORE INTENSE!? The Chosen SEASON 4 Episode 6 DEEP DIVE
+      https://www.youtube.com/watch?v=STSmHbOe2J8&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=15&pp=iAQB
+  16. To SIT like MARY Or SERVE like MARTHA? | The Chosen Season 4 Episode 5 DEEP DIVE
+      https://www.youtube.com/watch?v=ErkLP0Lneks&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=16&t=536s&pp=iAQB
+  17. We will NEVER See JUDAS The Same after THIS! | The Chosen Season 4 Episode 5 DEEP DIVE
+      https://www.youtube.com/watch?v=X_AJqvs25pQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=17&t=1412s&pp=iAQB
+  18. Romans MISTREATING JESUS, This is a HARD Lesson| The Chosen Season 4 Episode 5
+      https://www.youtube.com/watch?v=U3jMs2e6t-k&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=18&t=1022s&pp=iAQB
+  19. Jesus Rebukes Big James and John ... The Chosen season 4 Episode 4 DEEP DIVE
+      https://www.youtube.com/watch?v=TIyWqFvOeYM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=19&t=618s&pp=iAQB
+  20. The TRUTH about Yussif REVEALED in The Chosen Season 4 Episode 5
+      https://www.youtube.com/watch?v=iZnRqwgiGAY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=20&pp=iAQB
+  21. Yussif's TRUE IDENTITY REVEALED!? The Chosen SEASON 4 Episode 5
+      https://www.youtube.com/watch?v=FEjOMDPuXTg&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=21&pp=iAQB
+  22. The TRUTH About Ramah & The Consequences of her DEATH | The Chosen Season 4 Episode 4
+      https://www.youtube.com/watch?v=-puzmAYQ9wA&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=22&pp=iAQB
+  23. Ramah's FATHER has a MUCH BIGGER Role To Play! The Chosen SEASON 4 Episode 4
+      https://www.youtube.com/watch?v=JtnVjAcAC5s&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=23&pp=iAQB
+  24. Mother Mary’s hidden part in this scene! The Chosen Season 4 Episode 3
+      https://www.youtube.com/watch?v=3lK1E-zFSO4&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=24&pp=iAQB
+  25. She Didn't Deserve this... The Chosen Season 4
+      https://www.youtube.com/watch?v=mHPQAUPukqM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=25&pp=iAQB
+  26. The Chosen Made a MASSIVE BIBLICAL Change, I don't like it.
+      https://www.youtube.com/watch?v=W2bPFfNiXRQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=26&t=215s&pp=iAQB
+  27. How Could The Chosen DO THIS!? The Chosen Season 4 Episode 3
+      https://www.youtube.com/watch?v=RgNnSNz9kiM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=27&pp=iAQB
+  28. YOU HAVE QUESTIONS ABOUT EPISODE 3... Let's Talk.
+      https://www.youtube.com/watch?v=N4Ny5K3591o&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=28&pp=iAQB
+  29. Dallas Jenkins planned THIS For 6 YEARS! | The Chosen Season 4 Episode 2
+      https://www.youtube.com/watch?v=_uxI6xyuZEM&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=29&pp=iAQB
+  30. Thomas and Ramah are WRONG...? | The Chosen Season 4 Episode 2
+      https://www.youtube.com/watch?v=g96DCXOHBN8&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=30&t=582s&pp=iAQB
+  31. What Jesus ACTUALLY meant when He Renamed SIMON | The Chosen Season 4 Episode 2 DEEP DIVE
+      https://www.youtube.com/watch?v=4NnIQ8e19sY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=31&pp=iAQB
+  32. The Chosen Season 4, Episode 2 DEEP DIVE
+      https://www.youtube.com/watch?v=UJQ_sfqvfIY&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=32&pp=iAQB
+  33. Ramah is not INNOCENT here... | The Chosen Season 4 episode 1
+      https://www.youtube.com/watch?v=ybI4fGcUxh0&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=33&t=19s&pp=iAQB
+  34. There’s something HIDDEN In The Chosen Season 4 Episode One!
+      https://www.youtube.com/watch?v=uzy4NxkSQCc&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=34&t=950s&pp=iAQB
+  35. EVERYTHING YOU MISSED about JOHN The BAPTIZER | The Chosen Season 4 Episode 1
+      https://www.youtube.com/watch?v=YkWva_okb_M&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=35&t=32s&pp=iAQB
+  36. The Chosen Season 4, Episode 1 DEEP DIVE
+      https://www.youtube.com/watch?v=UbTCvvRc_aQ&list=PLTtSgjQiZ1K5BN49nPVMkTO5hjV4oAllS&index=36&pp=iAQB
+
+
+- KEY: Entries Used in our page (URL's contain JUST the ytHash)
+
+*------ Episode
+|  
+|  *--- Title
+|  |
+v  v
+= ======================
+                              >>> NOTE: "The Chosen Sleuth" REVERSES the order here:
+
+1 NAH - Members Only          36. The Chosen Season 4, Episode 1 DEEP DIVE
+                                  https://www.youtube.com/watch?v=UbTCvvRc_aQ
+1 John the Baptist            35. EVERYTHING YOU MISSED about JOHN The BAPTIZER | The Chosen Season 4 Episode 1
+                                  https://www.youtube.com/watch?v=YkWva_okb_M
+1 Simon the Zealot & Judas    34. There’s something HIDDEN In The Chosen Season 4 Episode One!
+                                  https://www.youtube.com/watch?v=uzy4NxkSQCc
+1 Thomas & Ramah              33. Ramah is not INNOCENT here... | The Chosen Season 4 episode 1
+                                  https://www.youtube.com/watch?v=ybI4fGcUxh0
+  ENTRY:                          `DeepDive:YkWva_okb_M@@John the Baptist##uzy4NxkSQCc@@Simon the Zealot & Judas##ybI4fGcUxh0@@Thomas & Ramah`
+
+2 NAH - Members Only          32. The Chosen Season 4, Episode 2 DEEP DIVE
+                                  https://www.youtube.com/watch?v=UJQ_sfqvfIY
+2 Simon Renamed to Peter      31. What Jesus ACTUALLY meant when He Renamed SIMON | The Chosen Season 4 Episode 2 DEEP DIVE
+                                  https://www.youtube.com/watch?v=4NnIQ8e19sY
+2 Thomas & Ramah              30. Thomas and Ramah are WRONG...? | The Chosen Season 4 Episode 2
+                                  https://www.youtube.com/watch?v=g96DCXOHBN8
+2 Matthew & Peter             29. Dallas Jenkins planned THIS For 6 YEARS! | The Chosen Season 4 Episode 2
+                                  https://www.youtube.com/watch?v=_uxI6xyuZEM
+  ENTRY:                          `DeepDive:4NnIQ8e19sY@@Simon Renamed to Peter##g96DCXOHBN8@@Thomas & Ramah##_uxI6xyuZEM@@Matthew & Peter`
+
+3 NAH - Members Only          28. YOU HAVE QUESTIONS ABOUT EPISODE 3... Let's Talk.
+                                  https://www.youtube.com/watch?v=N4Ny5K3591o
+3 Ramah's Death               27. How Could The Chosen DO THIS!? The Chosen Season 4 Episode 3
+                                  https://www.youtube.com/watch?v=RgNnSNz9kiM
+3 Blind Man Healed            26. The Chosen Made a MASSIVE BIBLICAL Change, I don't like it.
+                                  https://www.youtube.com/watch?v=W2bPFfNiXRQ
+3 King David Prays/Fasts      25. She Didn't Deserve this... The Chosen Season 4
+                                  https://www.youtube.com/watch?v=mHPQAUPukqM
+3 Sign of the Son of Man      24. Mother Mary’s hidden part in this scene! The Chosen Season 4 Episode 3
+                                  https://www.youtube.com/watch?v=3lK1E-zFSO4
+  ENTRY:                          `DeepDive:RgNnSNz9kiM@@Ramah's Death##W2bPFfNiXRQ@@Blind Man Healed##mHPQAUPukqM@@King David Prays/Fasts##3lK1E-zFSO4@@Sign of the Son of Man`
+
+4 NAH - Members Only          23. Ramah's FATHER has a MUCH BIGGER Role To Play! The Chosen SEASON 4 Episode 4
+                                  https://www.youtube.com/watch?v=JtnVjAcAC5s
+4 The Truth about Ramah       22. The TRUTH About Ramah 
+                                  https://www.youtube.com/watch?v=-puzmAYQ9wA
+4 James & John (Left & Right) 19. Jesus Rebukes Big James and John ... The Chosen season 4 Episode 4 DEEP DIVE
+                                  https://www.youtube.com/watch?v=TIyWqFvOeYM
+  ENTRY:                          `DeepDive:-puzmAYQ9wA@@The Truth about Ramah##TIyWqFvOeYM@@James & John (Left & Right)`
+
+5 NAH - Members Only          21. Yussif's TRUE IDENTITY REVEALED!? The Chosen SEASON 4 Episode 5
+                                  https://www.youtube.com/watch?v=FEjOMDPuXTg
+5 Sanhedrin                   20. The TRUTH about Yussif REVEALED in The Chosen Season 4 Episode 5
+                                  https://www.youtube.com/watch?v=iZnRqwgiGAY
+5 Romans Mistreat Jesus       18. Romans MISTREATING JESUS, This is a HARD Lesson| The Chosen Season 4 Episode 5
+                                  https://www.youtube.com/watch?v=U3jMs2e6t-k
+5 Judas                       17. We will NEVER See JUDAS The Same after THIS! | The Chosen Season 4 Episode 5 DEEP DIVE
+                                  https://www.youtube.com/watch?v=X_AJqvs25pQ
+5 Mary & Martha               16. To SIT like MARY Or SERVE like MARTHA? | The Chosen Season 4 Episode 5 DEEP DIVE
+                                  https://www.youtube.com/watch?v=ErkLP0Lneks
+  ENTRY:                          `DeepDive:iZnRqwgiGAY@@Sanhedrin##U3jMs2e6t-k@@Romans Mistreat Jesus##X_AJqvs25pQ@@Judas##ErkLP0Lneks@@Mary & Martha`
+
+6 NAH - Members Only          15. The Chosen Is GETTING EVEN MORE INTENSE!? The Chosen SEASON 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=STSmHbOe2J8
+6 John 10                     14. Jesus' BIGGEST Statement EVER Leads To THIS! | The Chosen Season 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=COKS24Gaw-A
+6 Judas - No Turning Back     13. JUDAS Cannot TURN BACK now... | The Chosen Season 4 Episode 6 DEEP DIVE
+                                  https://www.youtube.com/watch?v=RfFPJqtHglw
+6 Hanukkah Explained          12. 99% of People MISSED THIS in The Chosen Season 4 Episode 6!
+                                  https://www.youtube.com/watch?v=bf-e13k7I4g
+  ENTRY:                          `DeepDive:COKS24Gaw-A@@John 10##RfFPJqtHglw@@Judas - No Turning Back##bf-e13k7I4g@@Hanukkah Explained`
+
+7 NAH - Members Only          11. How Could JESUS do THIS? The Chosen SEASON 4 Episode 7 DEEP DIVE
+                                  https://www.youtube.com/watch?v=_Q0QcTkseuM
+7 Flash Forward               10. 30 YEARS after CHRIST The Church HAS BEGUN! The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=0ae91iU-tHw
+7 The Apostles                 9. The Apostles COMPLETELY Lose it in this Episode! The Chosen Season 4 Episode 7 DEEP DIVE
+                                  https://www.youtube.com/watch?v=L54X-WnpfHI
+7 Lazarus' Resurrection        8. The TRUTH about LAZARUS' Resurrection! | The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=fz1CGbY1qmM
+7 Mystery Man                  7. The TRUTH about the Mystery man.... | The Chosen Season 4 Episode 7
+                                  https://www.youtube.com/watch?v=MtZhwS_7XCY
+7 Reactopms tp Lazarus         6. Massive REACTIONS To the Resurrection of LAZARUS! | The Chosen Season 4 Episode 7!
+                                  https://www.youtube.com/watch?v=PXzUL79DAEM
+  ENTRY:                          `DeepDive:0ae91iU-tHw@@Flash Forward##L54X-WnpfHI@@The Apostles##fz1CGbY1qmM@@Lazarus' Resurrection##MtZhwS_7XCY@@Mystery Man##PXzUL79DAEM@@Reactopms tp Lazarus`
+
+8 NAH - Members Only           5. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+                                  https://www.youtube.com/watch?v=SBVCTtFe1Gw
+8 Shmuel's Story               4. Shmuel's Story Just got WAY MORE INTERESTING! | The Chosen Season 4 Episode 8
+                                  https://www.youtube.com/watch?v=1Q9iCKEM4C0
+8 The Watcher (Mystery Man)    3. DALLAS Told Me SOMETHING HUGE About The WATCHER!
+                                  https://www.youtube.com/watch?v=9H6E5qCi6Po
+8 Misc Points                  2. EVERYONE MISSED THIS MASSIVE CONNECTION In THE CHOSEN SEASON 4 EPISODE 8 | DEEP DIVE
+                                  https://www.youtube.com/watch?v=vj44U_-bsMA
+8 Experts Break Down Season 4  1. The Chosen's Biblical Experts BREAK DOWN SEASON 4
+                                  https://www.youtube.com/watch?v=DU7wgqVqkJo
+  ENTRY:                          `DeepDive:1Q9iCKEM4C0@@Shmuel's Story##9H6E5qCi6Po@@The Watcher (Mystery Man)##vj44U_-bsMA@@Misc Points##DU7wgqVqkJo@@Experts Break Down Season 4`
+
+
+*-------------------------------------------------------------------------------
+* Season 5
+*-------------------------------------------------------------------------------
+
+*----------------------------------
+* The Chosen Season 5 Amazon Prime <<< requires account
+* ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K7IYrTDMERphfSXdvSXSVx7
+* - Glean all Titles/Descriptions
+* - Available 06/15/2025
+*----------------------------------
+
+- S5 E1 - Entry
+  Jesus rides into the holy city as king, but finds that the rulers have turned His Father’s house from a place of prayer to a corrupt market.
+  ... https://www.amazon.com/gp/video/detail/0JVH46NRJ3WCOAUJG9R9B8V9ZD/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+
+- S5 E2 - House of Cards
+  Why kill Jesus when Rome can do it for you? As the Jewish High Priest schemes to bring Him down, Jesus strikes first: turning the tables.
+  ... https://www.amazon.com/gp/video/detail/0QOSPLAYBLU8UCWVSNB1JY1WQ6/ref=atv_dp_btf_el_prime_uhd_tv_resume_t1ADAAAAAA0wr0
+  
+- S5 E3 - Woes
+  Jesus preaches one last time to the massive Passover crowd, and the religious leaders try to trap him in his words.
+  ... https://www.amazon.com/gp/video/detail/0RXOR2VGW37UESNVBACVSUUKQA/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+  
+- S5 E4 - The Same Coin
+  Afraid of public outcry—and further embarrassment—Caiaphas resolves to arrest Jesus quietly at night. Only one problem: no one knows how to find Him.
+  ... https://www.amazon.com/gp/video/detail/0Q60E7EOTGQ6JF1DU2ZX834HUR/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+ 
+- S5 E5 - Because of Me
+  The decision to arrest Jesus leads to a fiery debate. Roman soldiers track down a troublemaking crowd. Shmuel finds help from an unexpected source.
+  ... https://www.amazon.com/gp/video/detail/0KP8FZVK4XTLZ0WOVI972CKJQ9/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+  
+- S5 E6 - Reunions
+  As Jesus’ followers gather for the Passover meal, His enemies assemble for a man hunt. Judas holds a secret meeting.
+  ... https://www.amazon.com/gp/video/detail/0LDVIRJUI1YL9QT1M30SNDNENO/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+  
+- S5 E7 - The Upper Room Part I
+  Jesus arrives at the Last Supper. The disciples fear for their safety as Jesus’ enemies close ranks around them.
+  ... https://www.amazon.com/gp/video/detail/0LV6VDY3DQQ85LSVD3CF3UDJ4Y/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+  
+- S5 E8 - The Upper Room Part II
+  Pilate summons Atticus to read him the riot act. The Sanhedrin boils over. The Last Supper ends.
+  ... https://www.amazon.com/gp/video/detail/0OA6SJ3FX0XH6TMJWV1G857MW1/ref=atv_dp_btf_el_prime_uhd_tv_play_t1ADAAAAAA0wr0
+
+
+*--------------------------------
+* The Chosen Season 5 Deep Dives
+* ... https://www.youtube.com/playlist?list=PLTtSgjQiZ1K7IYrTDMERphfSXdvSXSVx7
+*--------------------------------
+
+  - ?? NOTE: ALL DEEP DIVES COMPLETE ... all the way through Episode 8 (completed on on 8/24/2025)
+
+M - Members Only Content ... Minimum $5/mo
+
+  > NOTE: REVERSEs the order here:
+
+    *-----------
+    * Episode 8
+    *-----------
+
+  - THE CHOSEN Season 5 COMPLETE LAST SUPPER IN ORDER! DEEP DIVE
+    ... https://www.youtube.com/watch?v=3JwxOQdLPco
+    3JwxOQdLPco@@LastSupper
+  
+M - THE CHOSEN LAST SUPPER IN FULL CHRONOLOGICAL ORDER!
+    ... https://www.youtube.com/watch?v=mtBjN8t7EJc
+  
+  - JUDAS BETRAYS JESUS..... The Chosen Season 5 Episode 8 DEEP DIVE
+    ... https://www.youtube.com/watch?v=Ui9wOQVEykU
+    Ui9wOQVEykU@@JudasBetrayal
+  
+  - Thaddeus Meets Jesus For the FIRST TIME, The Chosen Season 5 Episode 8 DEEP DIVE
+    ... https://www.youtube.com/watch?v=uZfsEolfYhg
+    uZfsEolfYhg@@Thaddeus
+  
+M - THE CHOSEN SEASON 5 Episode 8 DEEP DIVE LIVE
+    ... https://www.youtube.com/watch?v=9nfgbRIr1tw
+
+
+    *-----------
+    * Episode 7
+    *-----------
+  
+  - 30 MINUTES of THE CHOSEN SEASON 5 FLASHBACKS.... Episode 7 DEEP DIVE
+    ... https://www.youtube.com/watch?v=irg_NJvuhgE
+    irg_NJvuhgE@@Flashbacks
+
+  - Judas' SISTER Becomes a BELIEVER, | The Chosen Season 5 Episode 7 DEEP DIVE
+    ... https://www.youtube.com/watch?v=ysaOIClARs8
+    ysaOIClARs8@@JudasSister
+
+  - Mark’s First Appearance — The Chosen S5 Episode 7 DEEP DIVE
+  - Mark The Gospel WRITER in THE CHOSEN Season 5 Episode 7 DEEP DIVE
+    ... https://www.youtube.com/watch?v=ZCPMGXQl1ak
+    ZCPMGXQl1ak@@Mark
+
+  - Did JESUS WASH JUDAS' FEET!? The Chosen Season 5 Episode 7 DEEP DIVE
+    ... https://www.youtube.com/watch?v=P6VDLa6Zd8g
+    P6VDLa6Zd8g@@WashJudasFeet
+
+M - Welcome MARK & Flashbacks GALORE! The Chosen Season 5 Episode 7 DEEP DIVE!
+    ... https://www.youtube.com/watch?v=EHlMEf3amtM
+    EHlMEf3amtM@@MarkFlashbacks
+
+    *-----------
+    * Episode 6
+    *-----------
+
+  - Judas Betrays Jesus, THE CHOSEN SEASON 5 | Episode 6 DEEP DIVE
+    ... https://www.youtube.com/watch?v=HY4_2ZnOFCw
+    HY4_2ZnOFCw@@JudasSecretMeeting
+
+M - The Persecution of The Church BEGINS NOW! Testament Episode 6 DEEP DIVE
+    ... https://www.youtube.com/watch?v=htXAG7YFU1M
+    htXAG7YFU1M@@ChurchPersecution
+
+  - Okay... Let's Talk about MATTHIAS | The Chosen Season 5 Episode 6 DEEP DIVE
+    ... https://www.youtube.com/watch?v=pNgPCReqz3g
+    pNgPCReqz3g@@Matthias
+
+  - Explaining COMMUNION in The Chosen Season 5 Episode 6! ( Be nice in the comments) DEEP DIVE
+    ... https://www.youtube.com/watch?v=9RZxV99JQCI
+    9RZxV99JQCI@@Communion
+
+M - THE WATCHER REVEALED, Where Has NICODEMUS BEEN!? The Chosen Season 5 Episode 6 DEEP DIVE
+    ... https://www.youtube.com/watch?v=THM_XCw_4OE
+    THM_XCw_4OE@@WatcherRevealed
+
+
+    *-----------
+    * Episode 5
+    *-----------
+
+  - You Should Absolutely Be Concerned About this FIG TREE | THE CHOSEN SEASON 5 EPISODE 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=esen6N01U8g
+    esen6N01U8g@@FigTree
+
+  - PILATE HAS A CHOICE TO MAKE | The Chosen Season 5 Episode 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=Z9GLNRHOoeE
+    Z9GLNRHOoeE@@PilatesChoice
+
+  - NICODEMUS' EPIC ENTRANCE The Chosen Season 5! Episode 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=fZwdRclVRa0
+    fZwdRclVRa0@@NicodemusEpicEntrance
+
+  - Father God, Please Help us Kill Your Son" The Chosen Season 5 Episode 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=g04ObQLldjQ
+    g04ObQLldjQ@@KillJesus
+
+  - Who Is THE GREATEST Apostle? The Chosen Season 5 Episode 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=rsL5VV1InmI
+    rsL5VV1InmI@@WhoIsTheGreatest
+
+M - NICODEMUS RETURNS, THE APOSTLES DOUBT JESUS... The Chosen Season 5 EPISODE 5 DEEP DIVE
+    ... https://www.youtube.com/watch?v=9jIeHcxPH94
+    9jIeHcxPH94@@NicodemusReturns
+
+
+    *-----------
+    * Episode 4
+    *-----------
+
+  2 Shmuel Just CHANGED THE CHOSEN FOREVER | The Chosen Season 5 Episode 4 DEEP DIVE
+    ... https://www.youtube.com/watch?v=cCrXGnlfCg0
+    cCrXGnlfCg0@@Shmuel
+  
+  3 Dealing With JESUS' Death In Real Time | The Chosen Season 5 Episode 4 DEEP DIVE
+    ... https://www.youtube.com/watch?v=rS9zXMkfXzs
+    rS9zXMkfXzs@@Deal with Jesus' Death
+  
+  4 JESUS TRIED TO SAVE JUDAS!? The Chosen Season 5 Episode 4 DEEP DIVE
+    ... https://www.youtube.com/watch?v=PsqldTc3ahw
+    PsqldTc3ahw@@Jesus Tried to Save Judas
+  
+  5 This SCENE WRECKED EVERYONE | The Chosen Season 5 Episode 4 DEEP DIVE
+    ... https://www.youtube.com/watch?v=Ds8O9t9lGDU
+    Ds8O9t9lGDU@@Wrecking Scene
+  
+M 6 "HE HAS YOU NOW" The Chosen Season 5 EPISODE 4 DEEP DIVE | The Best Written Episode Of The Chosen.
+    ... https://www.youtube.com/watch?v=VYjYVHeK1xU
+    VYjYVHeK1xU@@He has you now
+
+    *-----------
+    * Episode 3
+    *-----------
+  
+  7 LUKE 21 COMES TO LIFE! | The Chosen Season 5 Episode 3 DEEP DIVE
+    ... https://www.youtube.com/watch?v=_SAq0GFsGTI
+     _SAq0GFsGTI@@Luke 21 Comes to Life
+  
+  8 Jesus' BIGGEST CONDEMNATION EVER Leads To THIS! The Chosen Season 5 Episode 3 DEEP DIVE
+    ... https://www.youtube.com/watch?v=7JzTjaXzQ4Y
+     7JzTjaXzQ4Y@@Jesus' Biggest Condemnation
+  
+  9 Judas Begins to Doubt Jesus' Divinity The Chosen Season 5 Episode 3 DEEP DIVE
+    ... https://www.youtube.com/watch?v=Trbqu8fCxh8
+     Trbqu8fCxh8@@Judas Doubts Jesus' Divinity
+  
+  10 "HE'S NOT THE MESSIAH JOSEPH!" The Chosen Season 5 Episode 3 DEEP DIVE
+     ... https://www.youtube.com/watch?v=d0wHSnZoo80
+     d0wHSnZoo80@@Joseph
+  
+  11 "I AM THE WAY!" The Chosen Season 5 Episode 3 DEEP DIVE
+     ... https://www.youtube.com/watch?v=mtSNIO-qxXU
+     mtSNIO-qxXU@@I am the Way
+
+
+    *-----------
+    * Episode 2
+    *-----------
+  
+  12 The BEST Scene in The Chosen SEASON 5 | Episode 2 Deep Dive
+     ... https://www.youtube.com/watch?v=DU46ZFMUspY
+         DU46ZFMUspY@@Best Scene
+  
+  13 SEMINAL DISCHARGE? What is going on here? | The Chosen Season 5 Episode 2 DEEP DIVE
+     ... https://www.youtube.com/watch?v=jYnKj68jHmo
+         jYnKj68jHmo@@Seminal Discharge
+  
+  14 RAMAH RETURNS For The Chosen Season 5! Episode 2 DEEP DIVE
+     ... https://www.youtube.com/watch?v=4-VIOW6MeLI
+         4-VIOW6MeLI@@Ramah Returns
+  
+  15 "ALL OF YOU WILL FALL AWAY" The Chosen Season 5 Episode 2 DEEP DIVE
+     ... https://www.youtube.com/watch?v=v25hUOabGH8
+         v25hUOabGH8@@Fall Away
+  
+M 16 THE CHOSEN SEASON 5 EPISODE 2 BREAKDOWN! Easter Eggs & Details You MISSED!
+     ... https://www.youtube.com/watch?v=liVBtF3TJlE
+
+
+
+    *-----------
+    * Overview
+    *-----------
+  
+? 17 YOU WON'T Understand The Chosen Season 5 If You DON'T Watch THIS VIDEO
+     ... https://www.youtube.com/watch?v=6QN1nG2N1RE
+
+
+
+    *-----------
+    * Episode 1
+    *-----------
+
+  18 The Chosen Season 5 EPISODE 1 DEEP DIVE: God's VOICE Shocks Everyone!
+     ... https://www.youtube.com/watch?v=9H3dDDm9nEo
+         9H3dDDm9nEo@@God's Voice Shocks
+  
+  19 THE CHOSEN SEASON 5 EPISODE 1 DEEP DIVE: JESUS WEEPS OVER JERUSALEM
+     ... https://www.youtube.com/watch?v=l4ZlrpcppGI
+         l4ZlrpcppGI@@Jesus Weeps
+  
+  20 THE CHOSEN SEASON 5 EPISODE 1 DEEP DIVE: The Last Supper EXPLAINED
+     ... https://www.youtube.com/watch?v=N8MuWp7vSmk
+         N8MuWp7vSmk@@Last Supper
+  
+M 21 THE CHOSEN SEASON 5 EPISODE 1 BREAKDOWN! Easter Eggs & Details You MISSED!
+     ... https://www.youtube.com/watch?v=4o_2v0W4TJk
+
+
+
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+* The Chosen Characters
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+- Source (this is hard)
+  - NAH: Season 1, Episode 1, the Slueth has a Deep Dive video of the early charters
+    ... https://www.youtube.com/watch?v=jfHlTrTgc4w
+  - Google: Characters in The Chosen
+    * YES: Brief Description of ALL characters
+      ... https://the-chosen.fandom.com/wiki/Cast_and_Characters
+          https://the-chosen.fandom.com/wiki/Category:Characters      <<< USE THIS
+          https://en.wikipedia.org/wiki/List_of_The_Chosen_characters <<< NO PICS or descriptions
+
+
+
+*----------
+* TEMPLATE
+*----------
+
+> XX$$ stage in temp.temp
+- replace ALL: <<< CONSIDER creating macro (however complications for desc links, etc.)
+  * XXmore
+  * XXimg.png
+  * XXname
+  * XXactor
+  * XXdesc
+  * ALSO: Update the  "Visual Guide" for EACH character
+  <a class="char-thumbnail" href="#XXnameXXNORMALIXED">
+    <img src="TheChosenImg/XXimg.png" alt="XXname">
+    <div>XXname</div>
+  </a>
+
+
+- TEMPLATE:
+
+<!-- CHARACTER -->
+
+#### XXname
+
+<div class="char-card">
+  <div class="char-images">
+    <div class="char-image-block">
+      <img src="TheChosenImg/XXimg.png" alt="XXactor">
+      <div class="char-actor-caption">XXactor</div>
+    </div>
+  </div>
+  <div class="char-info">
+    <div class="char-info-subtitle">XXname</div>
+    <div class="char-info-desc">
+      <p>
+        XXdesc
+        <a href="XXmore" target="_blank">... more</a>
+      </p>
+      <p>
+        <a href="#characters">... back to Characters</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+*-------------------------
+* SUMMARY (FIRST ATTEMPT)
+*-------------------------
+
+SOURCE:     https://the-chosen.fandom.com/wiki/Category:Characters <<< LINK to this
+IMAGE DIR:  c:/dev/MyWeb/FireWithin/TheChosenImg
+
+1          Cast
+1.1        Main
+1.2        Recurring
+1.3        Guest
+1.4        Special
+
+2          Characters
+2.1    Y   Jesus          ... Jesus, the long awaited Messiah, Savior, and Son of God.  He is the son of Mary, and a cousin of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesus
+                              IMAGE: Jesus.png
+                              ACTOR: Jonathan Roumie
+
+2.2        The Twelve Apostles
+2.2.1  Y   Simon Peter    ... Simon Peter was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Jonah, the older brother of Andrew, the husband of Eden, the son-in-law of Dasha, and a former fishing partner of Zebedee and his sons.  Alongside the two brothers, Big James and John, Simon Peter is a part of Jesus's inner circle. 
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Peter
+                              IMAGE: SimonPeter.png
+                              ACTOR: Shahar Isaac
+2.2.2  Y   Andrew         ... Andrew was a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Jonah, the younger brother of Simon Peter, a former disciple of John the Baptizer, a friend of Philip from his hometown, Bethsaida, and a former fishing partner of Zebedee and his sons. Alongside Philip, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Andrew
+                              IMAGE: Andrew.png
+                              ACTOR: Noah James
+2.2.3  Y   Big James      ... James, nicknamed Big James, is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus.  He is one of the sons of Zebedee and Salome, the older brother of John, and a former fishing partner of Simon Peter and Andrew.  Jesus nicknames him and his brother, John, the "sons of thunder". Alongside Simon Peter and John, Big James is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/Big_James
+                              IMAGE: BigJames_S2plus.png
+                              ACTOR: Abe Bueno-Jallad (Season 2+)
+                              IMAGE: BigJames_S1E5-8.png
+                              ACTOR: Kian Kavousi (Season 1 E5-8)
+                              IMAGE: BigJames_S1E1-4.png
+                              ACTOR: Shayan Sobhian (Season 1 E1-4)
+2.2.4  Y   John           ... John is a former fisherman in Capernaum and one of the Twelve Apostles of Jesus. He is one of the sons of Zebedee and Salome, the younger brother of Big James, and a former fishing partner of Simon Peter and Andrew. Jesus nicknames him and his brother, Big James, the "sons of thunder". Alongside Simon Peter and Big James, John is a part of Jesus's inner circle.
+                              MORE:  https://the-chosen.fandom.com/wiki/John_the_Apostle
+                              IMAGE: John.png
+                              ACTOR: George H. Xanthis
+2.2.5  Y   Philip         ... Philip is a former disciple of John the Baptizer and one of the Twelve Apostles of Jesus. He is both a companion of Andrew from his hometown, Bethsaida, and an old friend of Nathanael. Alongside Andrew, he is a former comrade of Avner and Nadab.
+                              MORE:  https://the-chosen.fandom.com/wiki/Philip
+                              IMAGE: Philip_S4plus.png
+                              ACTOR: Reza Diako
+                              IMAGE: Philip_S2-3.png
+                              ACTOR: Yoshi Barrigas
+2.2.6  Y   Nathanael      ... Nathanael, also known as Bartholomew, is a former architect in Caesarea Philippi from Cana and one of the Twelve Apostles of Jesus. He is the son of Talmai and an old friend of Philip.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nathanael
+                              IMAGE: Nathanael.png
+                              ACTOR: Austin Reed Alleman
+2.2.7  Y   Thomas         ... Thomas, also known as Didymus, is a former caterer from the Plains of Sharon, the partner of Ramah, and one of the Twelve Apostles of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thomas
+                              IMAGE: Thomas.png
+                              ACTOR: Joey Vahedi
+2.2.8  Y   Matthew        ... Matthew, also known as Levi, is a former tax collector in Capernaum and one of the Twelve Apostles of Jesus. He is the son of Alphaeus and the former publican of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Matthew_the_Apostle
+                              IMAGE: Matthew.png
+                              ACTOR: Paras Patel
+2.2.9  Y   Little James   ... James, nicknamed Little James, is a former prospective member of the 288 Jerusalem Temple choir and one of the Twelve Apostles of Jesus. He is the son of Alphaeus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Little_James
+                              IMAGE: LittleJames.png
+                              ACTOR: Jordan Walker Ross
+2.2.10 Y   Thaddaeus      ... Thaddaeus, also known as Judas and Lebbaeus, is a former stonemason in Bethsaida and one of the Twelve Apostles of Jesus.  He is the son of James.
+                              MORE:  https://the-chosen.fandom.com/wiki/Thaddaeus
+                              IMAGE: Thaddaeus.png
+                              ACTOR: Giavani Cairo
+2.2.11 Y   Simon Z        ... Simon, also known as Simon Z. or Zee, is a former Zealot from Ashkelon and one of the Twelve Apostles of Jesus. He is the brother of Jesse, the healed paralytic at the Pool of Bethesda.
+                              MORE:  https://the-chosen.fandom.com/wiki/Simon_Z.
+                              IMAGE: SimonZ.png
+                              ACTOR: Alaa Safi
+2.2.12 Y   Judas Iscariot ... Judas Iscariot, also known as Judas, is a former business apprentice from Kerioth, who is the treasurer and one of the Twelve Apostles of Jesus. He is the son of Simon Iscariot.
+                              MORE:  https://the-chosen.fandom.com/wiki/Judas_Iscariot
+                              IMAGE: JudasIscariot.png
+                              ACTOR: Luke Dimyan
+
+
+2.3        The Women In Jesus's Ministry
+2.3.1  Y   Mary Magdalene ... Mary Magdalene is a redeemed formerly demon-possessed woman from Magdala and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_Magdalene
+                              IMAGE: MaryMagdalene.png
+                              ACTOR: Elizabeth Tabish
+2.3.2  Y   Joanna         ... Joanna is the wife of the household manager Chuza, a woman who works in King Herod Antipas's court in Machaerus, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joanna
+                              IMAGE: Joanna.png
+                              ACTOR: Amy Bailey
+2.3.3  Y   Salome         ... Salome is the wife of Zebedee, the mother of Big James and John, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Salome_(Mother_of_the_Sons_of_Zebedee)
+                              IMAGE: Salome.png
+                              ACTOR: Nina Rose Leon
+2.3.4  Y   Eden           ... Eden is the wife of Simon Peter, the daughter of Dasha, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Eden
+                              IMAGE: Eden.png
+                              ACTOR: Lara Silva
+2.3.5  Y   Martha         ... Martha is a woman in Bethany, who is the sister of Lazarus and Mary, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Martha
+                              IMAGE: Martha.png
+                              ACTOR: Sophia Cameron Blum
+2.3.6  Y   Mary of Bethany... Mary is a woman in Bethany, who is the sister of Lazarus and Martha, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_of_Bethany
+                              IMAGE: MaryOfBethany.png
+                              ACTOR: Catherine Lidstone
+2.3.7  Y   Ramah          ... Ramah is a former vintner from Tel Dor, the deceased partner of Thomas, and one of the women helping Jesus's ministry. She is the daughter of Kafni and Naomi.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ramah
+                              IMAGE: Ramah.png
+                              ACTOR: Yasmine Al-Bustami
+2.3.8  Y   Tamar          ... Tamar is an Ethiopian friend of Ethan, the healed paralytic in Capernaum, from Heliopolis, and one of the women helping Jesus's ministry.
+                              MORE:  https://the-chosen.fandom.com/wiki/Tamar
+                              IMAGE: Tamar.png
+                              ACTOR: Amber Shana Williams
+
+2.4        Jesus's Family
+
+2.4.1  Y   Mary of Nazareth   ... Mary is the earthly mother of Jesus, the widowed wife of Joseph, the daughter of Joachim of Nazareth, and one of the women helping Jesus's ministry. She is a relative of the couple, Elizabeth and Zechariah, and the aunt of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Mary_of_Nazareth
+                              IMAGE: MaryOfNazareth.png
+                              ACTOR: Vanessa Benavente
+2.4.2  Y    Joseph        ... Joseph is a carpenter from Nazareth, the husband of Mary, and the earthly father of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph
+                              IMAGE: Joseph.png
+                              ACTOR: Raj Bond
+2.4.3  Y   John the Baptizer ... John, also known as John the Baptizer, is a rabbi, a wandering preacher in the wilderness who baptizes in the Jordan River, and the deceased cousin of Jesus. He is the son of Elizabeth and Zechariah, and a nephew of Mary. He is the former rabbi of Andrew and Philip and the rabbi of Avner and Nadab.
+                                 MORE:  https://the-chosen.fandom.com/wiki/John_the_Baptizer
+                                 IMAGE: JohnTheBaptizer.png
+                                 ACTOR: David Amito
+2.4.4  Y   Elizabeth      ... Elizabeth is the wife of Zechariah, the mother of John the Baptizer, and a relative of Mary and Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elizabeth
+                              IMAGE: Elizabeth.png
+                              ACTOR: K Callan
+2.4.5  Y   Zechariah      ... Zechariah is a priest in Jerusalem, the husband of Elizabeth, and the father of John the Baptizer.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zechariah_(Father_of_John_the_Baptizer)
+                              IMAGE: Zechariah_fatherOfJTB.png
+                              ACTOR: Tony Amendola
+
+2.5        Jesus's Friends, Acquaintances, and Other Followers
+
+2.5.1  Y   Zebedee        ... Zebedee is a former fisherman in Capernaum, the father of Big James and John, the husband of Salome, and a former fishing partner of Simon Peter and Andrew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebedee
+                              IMAGE: Zebedee.png
+                              ACTOR: Nick Shakoour
+2.5.2  Y   Lazarus        ... Lazarus is a businessman in Bethany, a childhood friend of Jesus, and the brother of Mary and Martha.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lazarus
+                              IMAGE: Lazarus.png
+                              ACTOR: Demetrios Troy
+2.5.3  Y   Photina        ... Photina is a Samaritan woman in Sychar and the wife of Neriah.
+                              MORE:  https://the-chosen.fandom.com/wiki/Photina
+                              IMAGE: Photina.png
+                              ACTOR: Vanessa DeSilvio
+2.5.4  N  Alphaeus        ... Alphaeus is the father of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Alphaeus
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BNTQwN2Y0ZjYtNjZkMS00YzgxLWJlNGEtYmI0YWVlNGNhYWM0XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_.jpg
+                              ACTOR: Troy Caylak
+2.5.5  N  Avner           ... Avner is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Nadab, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Avner
+                              IMAGE: N/A ... can't even find this
+                              ACTOR: Ash Kahn
+2.5.6  N  Nadab           ... Nadab is a disciple of John the Baptizer and a former comrade of Andrew and Philip. Alongside Avner, he is one of the two messengers John the Baptizer sends to Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nadab
+                              IMAGE: N/A ... https://m.media-amazon.com/images/M/MV5BYjUwMWQzNjUtYmIzZC00MTRlLWI5MjQtYTNiODAyYmRjYzgwXkEyXkFqcGc@._V1_QL75_UX291_.jpg
+                              ACTOR: Austen Parros
+2.5.7  N  Leander
+2.5.8  N  Fatiyah
+2.5.9  N  Dion
+2.5.10 N  Zechariah       ... owner of the donkey
+2.5.11 N  Melech
+2.5.12 N  Neriah
+
+2.6        Religious Leaders
+
+2.6.1  Y   Nicodemus      ... Nicodemus is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nicodemus
+                              IMAGE: Nicodemus.png
+                              ACTOR: Erick Avari
+2.6.2  Y   Caiaphas       ... Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee in Jerusalem, the high priest of Israel, and the leader of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Joseph_Ben_Caiaphas
+                              IMAGE: Caiaphas.png
+                              ACTOR: Richard Fancy
+2.6.3  Y   Yussif         ... Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and a high-ranking member of the Sanhedrin. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yussif
+                              IMAGE: Yussif.png
+                              ACTOR: Ivan Jasso
+2.6.4  Y   Jairus         ... Jairus is the synagogue administrator in Capernaum, the husband of Michal, and the father of Nili. He is a secret disciple of Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jairus
+                              IMAGE: Jairus.png
+                              ACTOR: Alessandro Colla
+2.6.5  Y   Shammai        ... Shammai is a leading Pharisee in Jerusalem and both a high-ranking member and the Av Beit Din of the Sanhedrin whose influential house opposes the House of Shimon, son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shammai
+                              IMAGE: Shammai.png
+                              ACTOR: Ric Sarabia
+2.6.6  N   Shimon         ... Shimon is a leading Pharisee in Jerusalem and a high-ranking member of the Sanhedrin whose influential house opposes the House of Shammai. He is the son of Hillel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shimon
+                              IMAGE: N/A VERY OBSECURE CHAR ...  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqzbygnMcXUvbhRWb3EuNplY-r0fq2cliANw&s
+                              ACTOR: Juri Henley-Cohn
+2.6.7  Y   Shmuel         ... Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Shmuel
+                              IMAGE: Shmuel.png
+                              ACTOR: Shaan Sharma
+2.6.8  N  Josiah          ... Josiah is a Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Josiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BMjIxZDg0NzYtNjliYy00MGVhLWIzZTgtYzk1ZmQ5NjUwZjcyXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Steve Shermett
+2.6.9  Y   Yanni          ... Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+                              MORE:  https://the-chosen.fandom.com/wiki/Yanni
+                              IMAGE: Yanni.png
+                              ACTOR: Wasim No'mani
+2.6.10 N  Madai           ... Madai is a leading Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Madai
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Tony Sears
+2.6.11 N  Lamech          ... Lamech is a Pharisee in Wadi Kelt.
+                              MORE:  https://the-chosen.fandom.com/wiki/Lamech
+                              IMAGE: N/A OBSECURE CHAR ... https://www.google.com/imgres?q=%22The%20Chosen%22%20Lamech%20(Sergio%20Lanza)&imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BZDZiZWFmMDQtODZhYy00ZGZlLThmYzItYmY5ZTc4ZjcyMjc4XkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw%40%40._V1_QL75_UX500_CR0%2C0%2C500%2C281_.jpg&imgrefurl=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm1944774%2F&docid=tDwt6TvPZ0nEUM&tbnid=1g6DRC7wJAdevM&vet=12ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA..i&w=500&h=281&hcb=2&ved=2ahUKEwj4icyF3vOMAxUvkokEHQkPBzEQM3oECEwQAA
+                              ACTOR: Sergio Lanza
+2.6.12 Y  Akiva           ... Akiva is a leading Pharisee in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/Akiva
+                              IMAGE: Akiva.png
+                              ACTOR: Philip Shahbaz
+2.6.13 N  Ozem            ... Ozem is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ozem
+                              IMAGE: N/A OBSECURE CHAR ... https://static.tvtropes.org/pmwiki/pub/images/img_2577.jpeg
+                              ACTOR: Ethan Flower
+2.6.14 N  Zebadiah        ... Zebadiah is a leading Pharisee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Zebadiah
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BM2E0ZWJiMzQtNzhiZS00NDQ0LTljZGUtYWE2NWI0MzNjYzRkXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Brad Culver
+2.6.15 N  Gedera          ... Gedera is a leading Sadducee in Jerusalem and a member of the Sanhedrin.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gedera
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Liche Ariza
+
+2.7        The Romans and Herodians
+
+2.7.1  Y   Gaius          ... Gaius is a former high-ranking Roman centurion and a Roman magistrate in Capernaum, the father of his servant named Ivo, and the current Praetor of Galilee. He is the former guard of Matthew.
+                              MORE:  https://the-chosen.fandom.com/wiki/Gaius
+                              IMAGE: Gaius.png
+                              ACTOR: Kirk B.R. Woller
+2.7.2  Y   Pontius Pilate ... Pontius Pilate is the Roman Procurator in Jerusalem and the governor of Judea. He is the husband of Claudia.
+                              MORE:  https://the-chosen.fandom.com/wiki/Pontius_Pilate
+                              IMAGE: PontiusPilate.png
+                              ACTOR: Andrew James Allen
+2.7.3  Y   Herod Antipas  ... Herod Antipas is the tetrarch who serves as the client king of Galilee and Perea. The stepfather of Salome, he is the husband of Queen Herodias, who is his brother's, Philip's, former wife.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herod_Antipas
+                              IMAGE: HerodAntipas.png
+                              ACTOR: Paul Ben-Victor
+2.7.4  Y   Herodias       ... Herodias is the wife of King Herod Antipas and the mother of Salome. She has been formerly married to King Herod Antipas's brother, Philip.  Herodias prompted Salome, her daughter, to request the head of John the Baptist on a platter from King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Herodias
+                              IMAGE: Herodias.png
+                              ACTOR: Shereen Khan
+2.7.5  Y   Claudia        ... Claudia is the wife of Pontius Pilate.
+                              MORE:  https://the-chosen.fandom.com/wiki/Claudia
+                              IMAGE: Claudia.png
+                              ACTOR: Sarah J. Bartholomew
+2.7.6  Y   Salome         ... Salome is the daughter of Queen Herodias and the stepdaughter of King Herod Antipas.
+                              MORE:  https://the-chosen.fandom.com/wiki/Salome_(Daughter_of_Herodias)
+                              IMAGE: Salome_Daughter_of_Herodias.png
+                              ACTOR: Briar Nolet
+2.7.7  N   Chuza          ... Chuza is the household manager of King Herod Antipas and the husband of Joanna.
+                              MORE:  https://the-chosen.fandom.com/wiki/Chuza
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Nick Chinlund
+2.7.8  Y   Atticus        ... Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman cohortes urbanae sent from Rome to investigate the Zealots and then Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Atticus_Aemilius_Pulcher
+                              IMAGE: Atticus.png
+                              ACTOR: Elijah Alexander
+2.7.9  Y   Quintus        ... Quintus Benedictus Dio, also known as Quintus, is a former Roman magistrate in Capernaum and the former Praetor of Galilee.
+                              MORE:  https://the-chosen.fandom.com/wiki/Quintus_Benedictus_Dio
+                              IMAGE: Quintus.png
+                              ACTOR: Brandon Potter
+
+
+2.8        Miracle Recipients (and their families)
+
+2.8.1  N   The Master of the Banquet
+                          ... The Master of the Banquet is the host of the wedding in Cana, where Jesus turns water into wine.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Master_of_the_Banquet
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Phil Mendoza
+2.8.2  N  The Leper on the Road
+                          ... The Leper on the Road is a miracle recipient of Jesus on the way to Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Leper_on_the_Road
+                              IMAGE: N/A OBSECURE CHAR ... https://media.tenor.com/athzC9H583oAAAAe/the-chosen-leper.png
+                              ACTOR: Stephen Hailo
+2.8.3  Y   Ethan          ... Ethan is a former paralytic in Capernaum, who is healed by Jesus. He is a friend of Tamar, who lowered him through the roof.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ethan
+                              IMAGE: Ethan.png
+                              ACTOR: Noe de la Garza
+2.8.4  Y   Dasha          ... Dasha is the mother-in-law of Simon Peter and the mother of Eden.
+                              MORE:  https://the-chosen.fandom.com/wiki/Dasha
+                              IMAGE: Dasha.png
+                              ACTOR: Leticia Magana
+2.8.5  Y   Jesse          ... Jesse is a former paralytic from Ashkelon, who is healed by Jesus at the Pool of Bethesda. He is the brother of Simon Z.
+                              MORE:  https://the-chosen.fandom.com/wiki/Jesse
+                              IMAGE: Jesse.png
+                              ACTOR: Dennis Apergis
+2.8.6  N   Caleb / Belial ... Belial is the spawn of Oriax and the Fifth Knight of Legion. He is the demon who has formerly possesed Caleb.
+                              MORE:  https://the-chosen.fandom.com/wiki/Caleb/Belial
+                              IMAGE: N/A OBSECURE CHAR ... can't find image
+                              ACTOR: Anthony Michael Irizarr
+2.8.7  N   Elam           ... Elam is a synagogue congregant in Wadi Kelt, who formerly has a withered hand and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Elam
+                              IMAGE: N/A OBSECURE CHAR ... https://static1.personalitydatabase.net/2/pdb-images-prod/d164f0c9/profile_images/79cffd1e5c0c4205b94cb55c2b5a007a.png
+                              ACTOR: Shaun Bedgood
+2.8.8  Y   Veronica       ... Veronica is a woman from Caesarea Philippi, who has formerly suffered from a discharge of blood for twelve years and is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Veronica
+                              IMAGE: Veronica.png
+                              ACTOR: Zhaleh Vossough
+2.8.9  N   Nili           ... Nili is the daughter of Jairus and Michal.
+                              MORE:  https://the-chosen.fandom.com/wiki/Nili
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ella McCain
+2.8.10 N   Michal         ... Michal is the wife of Jairus and the mother of Nili.
+                              MORE:  https://the-chosen.fandom.com/wiki/Michal
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Mel Mehrabian
+2.8.11 M   Argo           ... Argo is a Gentile former deaf-mute from Abila in the Decapolis, who is healed by Jesus. He is the father of Telemachus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Argo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Greg Roman
+2.8.12 N   Telemachus     ... Telemachus is a boy from Abila in the Decapolis, who offers five loaves of bread and two fishes. He is the son of Argo.
+                              MORE:  https://the-chosen.fandom.com/wiki/Telemachus
+                              IMAGE: N/A OBSECURE CHAR ... https://m.media-amazon.com/images/M/MV5BNmZmMTI3NmUtODJjZC00Y2UzLWJlNzAtODE0M2Q4NWQ5NjFhXkEyXkFqcGc@._V1_.jpg
+                              ACTOR: Kace Winfield
+2.8.13 N   Uzziah         ... Uzziah is a former man born blind in Capernaum, who is healed by Jesus.
+                              MORE:  https://the-chosen.fandom.com/wiki/Uzziah
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Ryan Radis
+2.8.14 N   Father of Uzziah
+2.8.15 N   Mother of Uzziah
+2.8.16 N   The Blind Beggar.. The Blind Beggar is a miracle recipient of Jesus on the road in Capernaum.
+                              MORE:  https://the-chosen.fandom.com/wiki/The_Blind_Beggar
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Andrew Flagg
+2.8.17 N   Ivo            ... Ivo is the servant son of Gaius.
+                              MORE:  https://the-chosen.fandom.com/wiki/Ivo
+                              IMAGE: N/A OBSECURE CHAR
+                              ACTOR: Malachi Grayson
+
+2.9        Old Testament Figures
+2.9.1      Jacob
+2.9.2      Moses
+2.9.3      Joshua
+2.9.4      David
+2.9.5      Ahimelech
+2.9.6      Abiathar
+2.9.7      Asaph
+2.9.8      Bathsheba
+2.9.9      Jeduthun
+2.9.10     Abigail
+2.9.11     Daniel
+
+2.10       The Early Church
+2.10.1 Y?  Tychicus       ... Tychicus is an early Christian as a follower of the Way, who is a companion of Paul.
+                              MORE:  https://the-chosen.fandom.com/wiki/Tychicus
+                              IMAGE: N/A TOO SOON ... https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnO2JVR7-95cb88Jgm6T8iBA0ey5jRBSl--A&s
+                              ACTOR: Alican Barlas
+2.10.2 Y?  Luke           ... Luke is a physician, an early Christian as a follower of the Way, and a companion of Paul, who records an account of the life of Jesus by collecting historical accounts and eyewitnesses stories.
+                              MORE:  https://the-chosen.fandom.com/wiki/Luke
+                              IMAGE: N/A TOO SOON ... can't find images yet
+                              ACTOR: Alex Veadov
+
+           XX STOP HERE
+
+XX NEW                        XX$$ GOOGLE "The Chosen" xxx
+                          ... XXdesc
+                              MORE:  XXmore
+                              IMAGE: XXimg.png
+                              ACTOR: XXactor
+
+
+2.11       The Shepherds
+2.11.1     Simon the Shepherd
+2.11.2     Matthew the Shepherd
+
+*------------------------
+* Character Descriptions
+*------------------------
+
+- Use ChatGPT (AI) to  supplement each character's description highlighted the biblical appearance of each character. 
+  ... see ChatGPT "The Chosen Character Guide Supplements" session
+
+  Setup Process:
+  . I have created a webpage "Character Guide" for the main characters of
+    "The Chosen" - a historical drama based on the life of Jesus Christ,
+    as seen through the eyes of those who knew him.
+  . I have a short description for each character (one or two sentences).
+    I would like to keep that description "in tact", as it is taken from a
+    source that I link to.
+  . However I would like to supplement this description with some
+    additional content (also short - one or two sentences).  
+  . This is where I need your help.
+  . I will supply the original content for each character, and ask you to
+    supply this supplemental text.  The types of things I'm looking for
+    are:
+    - Where does this character appear in the Bible (if at all).  The main
+      characters will in fact appear in the Bible, but some characters may
+      be fictitious - added by The Chosen to create a full story of a TV
+      series.
+    - Some characters may appear in the Bible, but not be named in the
+      Bible.  I this case, I would like a statement to that fact.
+  . Does this make sense?
+  . If so, I will proceed to give you the characters - one by one.
+  . I will start with more minor characters, and eventually get to folks
+    like the apostles.  Ready?
+  . The remaining characters are the apostles of Jesus
+
+- PROVIDE scripture links
+  * in keeping with FireWithin, utilize the user-supplied translation
+    - NORMALLY, this is done with the macro:
+      M{ bibleLink(`rev.21.6-8@@Rev 21:6-8`) }M
+    - HOWEVER, because we are in HTML here (NOT MarkDown), we use the output html of this macro:
+      <a href="#" onmouseover="fw.alterBibleVerseLink(event, 'rev.21.6-8')" target="_blank">Rev 21:6-8</a>
+  * TEMPLATE
+    <a href="#" onmouseover="fw.alterBibleVerseLink(event, `xxCODE`)" target="_blank">xxREF</a>
+  * OH MY ... there is 85 scripture references here :-(
+    - try on Jesus
+    - do I really want to do this?
+      * utilize an  emacs macro to simplify
+        - use this (place cursor just below, and press F10) ... manually enter code
+          XX<a href="#" onmouseover="fw.alterBibleVerseLink(event, `xxCODE`)" target="_blank">xxREF</a>
+            (^John 1:35-42^)
+        - reset macro back
+      * OUCH: some refs are incorrect
+        - change all occurances of – -
+
+FOLLOWING IS THE RESULT ... simply add the 2nd sentance to the web page
+=======================
+
+- Jesus
+
+  Jesus, the long awaited Messiah, Savior, and Son of God. He is the
+  son of Mary, and a cousin of John the Baptizer.
+
+  Jesus is recognized not only as the Messiah and Son of God, but also
+  as the fulfillment of Old Testament prophecies 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.5.17`)" target="_blank">Matthew 5:17</a>).
+
+  His teachings, death, and resurrection are the foundation of
+  Christianity, as He offers salvation to all who believe 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.16`)" target="_blank">John 3:16</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.4.12`)" target="_blank">Acts 4:12</a>).
+
+- Simon Peter
+
+  Simon Peter was a former fisherman in Capernaum and one of the
+  Twelve Apostles of Jesus. He is one of the sons of Jonah, the older
+  brother of Andrew, the husband of Eden, the son-in-law of Dasha, and
+  a former fishing partner of Zebedee and his sons. Alongside the two
+  brothers, Big James and John, Simon Peter is a part of Jesus's inner
+  circle.
+
+  Simon Peter is featured prominently in the Gospels, where he is
+  called by Jesus to follow Him 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-20`)" target="_blank">Matthew 4:18-20</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-18`)" target="_blank">Mark 1:16-18</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.1-11`)" target="_blank">Luke 5:1-11</a>)
+
+  and later becomes a leader among the apostles, known for his
+  boldness, his denial of Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.22.61-61`)" target="_blank">Luke 22:61-62</a>),
+
+  and his role in spreading the early Christian church
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.2.14-41`)" target="_blank">Acts 2:14-41</a>).
+
+- Andrew
+
+  Andrew was a former fisherman in Capernaum and one of the Twelve
+  Apostles of Jesus. He is one of the sons of Jonah, the younger
+  brother of Simon Peter, a former disciple of John the Baptizer, a
+  friend of Philip from his hometown, Bethsaida, and a former fishing
+  partner of Zebedee and his sons. Alongside Philip, he is a former
+  comrade of Avner and Nadab.
+
+  Andrew is mentioned in the Gospels as the first disciple called by
+  Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.35-42`)" target="_blank">John 1:35-42</a>)
+
+  and plays a key role in bringing others to Christ, including his
+  brother Simon Peter 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.41`)" target="_blank">John 1:41</a>).
+
+  Though he is often in the background, he is still recognized as an
+  important figure in the early church.
+
+- Big James
+
+  James, nicknamed Big James, is a former fisherman in Capernaum and
+  one of the Twelve Apostles of Jesus. He is one of the sons of
+  Zebedee and Salome, the older brother of John, and a former fishing
+  partner of Simon Peter and Andrew. Jesus nicknames him and his
+  brother, John, the "sons of thunder". Alongside Simon Peter and
+  John, Big James is a part of Jesus's inner circle.
+
+  Big James is mentioned in the Gospels as one of the first disciples
+  called by Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.18-22`)" target="_blank">Matthew 4:18-22</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.16-20`)" target="_blank">Mark 1:16-20</a>)
+
+  and, along with his brother John, is known for his passionate
+  dedication to Jesus. He is later martyred for his faith, becoming
+  the first apostle to be killed 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.12.1-2`)" target="_blank">Acts 12:1-2</a>).
+
+- John
+
+  John is a former fisherman in Capernaum and one of the Twelve
+  Apostles of Jesus. He is one of the sons of Zebedee and Salome, the
+  younger brother of Big James, and a former fishing partner of Simon
+  Peter and Andrew. Jesus nicknames him and his brother, Big James,
+  the "sons of thunder". Alongside Simon Peter and Big James, John is
+  a part of Jesus's inner circle.
+
+  John, often referred to as the "beloved disciple," is prominently
+  featured in the Gospels, particularly as the author of the 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1`)" target="_blank">Gospel of John</a>,
+
+  the three epistles of John, and the book of Revelation. He is known
+  for his close relationship with Jesus and is present at key moments,
+  such as the Last Supper and the crucifixion
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.13.23`)" target="_blank">John 13:23</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.26`)" target="_blank">19:26</a>).
+
+- Philip
+
+  Philip is a former disciple of John the Baptizer and one of the
+  Twelve Apostles of Jesus. He is both a companion of Andrew from his
+  hometown, Bethsaida, and an old friend of Nathanael. Alongside
+  Andrew, he is a former comrade of Avner and Nadab.
+
+  Philip is mentioned in the Gospels as one of the first disciples
+  called by Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.43-44`)" target="_blank">John 1:43-44</a>)
+
+  and plays a key role in bringing Nathanael to Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-46`)" target="_blank">John 1:45-46</a>).
+
+  He is also present at the feeding of the 5,000 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.6.5-7`)" target="_blank">John 6:5-7</a>)
+
+  and the request of the Greeks to see Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.20-22`)" target="_blank">John 12:20-22</a>).
+
+- Nathanael
+
+  Nathanael, also known as Bartholomew, is a former architect in
+  Caesarea Philippi from Cana and one of the Twelve Apostles of
+  Jesus. He is the son of Talmai and an old friend of Philip.
+
+  Nathanael, also known as Bartholomew, is mentioned in the Gospels as
+  a man of honest character 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.47`)" target="_blank">John 1:47</a>)
+
+  and is called by Jesus after
+  Philip invites him to follow 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.45-51`)" target="_blank">John 1:45-51</a>).
+
+  He is also one of the apostles who witnesses Jesus'
+  post-resurrection appearance by the Sea of Tiberias 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.21.2`)" target="_blank">John 21:2</a>).
+
+- Thomas
+
+  Thomas, also known as Didymus, is a former caterer from the Plains
+  of Sharon, the partner of Ramah, and one of the Twelve Apostles of
+  Jesus.
+
+  Thomas, often referred to as "Doubting Thomas" due to his initial
+  skepticism about Jesus' resurrection 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.24-29`)" target="_blank">John 20:24-29</a>),
+
+  is also known for his boldness in expressing loyalty to Jesus, as
+  seen when he urges the disciples to go with Jesus to Judea despite
+  the danger 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.16`)" target="_blank">John 11:16</a>).
+
+- Matthew
+
+  Matthew, also known as Levi, is a former tax collector in Capernaum
+  and one of the Twelve Apostles of Jesus. He is the son of Alphaeus
+  and the former publican of Simon Peter and Andrew.
+
+  Matthew, also known as Levi, is called by Jesus to follow Him while
+  at his tax booth 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.9.9`)" target="_blank">Matthew 9:9</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.14`)" target="_blank">Mark 2:14</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.27`)" target="_blank">Luke 5:27</a>).
+
+  He is traditionally credited with writing the 
+  
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.1`)" target="_blank">Gospel of Matthew</a>,
+
+  which emphasizes Jesus as the Messiah and the fulfillment of Old
+  Testament prophecy.
+
+- Little James
+
+  James, nicknamed Little James, is a former prospective member of the
+  288 Jerusalem Temple choir and one of the Twelve Apostles of
+  Jesus. He is the son of Alphaeus.
+
+  Little James, often distinguished from Big James, is mentioned in
+  the Gospels as one of the twelve apostles, though he is not
+  highlighted as much in the narrative. His inclusion with the twelve
+  demonstrates the breadth of Jesus' chosen followers.
+
+- Thaddaeus
+
+  Thaddaeus, also known as Judas and Lebbaeus, is a former stonemason
+  in Bethsaida and one of the Twelve Apostles of Jesus. He is the son
+  of James.
+
+  Thaddaeus, also called Lebbaeus or Judas (to avoid confusion with
+  Judas Iscariot), is mentioned briefly in the Gospels as one of the
+  twelve apostles 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.10.3`)" target="_blank">Matthew 10:3</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.3.18`)" target="_blank">Mark 3:18</a>).
+
+  He is known for asking Jesus during the Last Supper about His
+  revelation to the disciples 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.14.22`)" target="_blank">John 14:22</a>).
+
+- Simon Z
+
+  Simon, also known as Simon Z. or Zee, is a former Zealot from
+  Ashkelon and one of the Twelve Apostles of Jesus. He is the brother
+  of Jesse, the healed paralytic at the Pool of Bethesda.
+
+  Simon Z, also known as the Zealot, is one of the twelve apostles,
+  often associated with the zealot movement which sought to overthrow
+  Roman rule in Judea 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.6.15`)" target="_blank">Luke 6:15</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.13`)" target="_blank">Acts 1:13</a>).
+
+  His designation as a Zealot highlights the diversity within Jesus'
+  followers, as he was called to work alongside Matthew, a former tax
+  collector.
+
+- Judas Iscariot
+
+  Judas Iscariot, also known as Judas, is a former business apprentice
+  from Kerioth, who is the treasurer and one of the Twelve Apostles of
+  Jesus. He is the son of Simon Iscariot.
+
+  Judas Iscariot is infamously known for betraying Jesus to the
+  religious authorities for thirty pieces of silver 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.14-16`)" target="_blank">Matthew 26:14-16</a>). 
+
+  Despite his role as the treasurer, his actions ultimately lead to
+  his tragic end, with his betrayal marking a pivotal moment in the
+  Passion narrative 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.3-10`)" target="_blank">Matthew 27:3-10</a>).
+
+- Mary Magdalene
+
+  Mary Magdalene is a redeemed formerly demon-possessed woman from
+  Magdala and one of the women helping Jesus's ministry
+
+  Mary Magdalene is mentioned multiple times in the Bible, notably in
+  
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.2`)" target="_blank">Luke 8:2</a>
+
+  as a woman from whom seven demons had been cast out, and she is
+  present at both the crucifixion and the resurrection of Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.20.1-18`)" target="_blank">John 20:1-18</a>).
+
+- Tamar
+
+  Tamar is an Ethiopian friend of Ethan, the healed paralytic in
+  Capernaum, from Heliopolis, and one of the women helping Jesus's
+  ministry.
+
+  Tamar is a fictional character in The Chosen.  While the story of
+  the paralytic lowered through the roof is found in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>,
+
+  the people who assist him are not named in the biblical account.
+
+- Ramah
+
+  Ramah is a former vintner from Tel Dor, the deceased partner of
+  Thomas, and one of the women helping Jesus's ministry. She is the
+  daughter of Kafni and Naomi.
+
+  Ramah is a fictional character in The Chosen.  There is no mention
+  of her, or of a romantic partner for the Apostle Thomas, in the
+  Bible.
+
+- Eden
+
+  Eden is the wife of Simon Peter, the daughter of Dasha, and one of
+  the women helping Jesus's ministry.
+
+  While Eden is not named in the Bible, the Gospels do mention that
+  Simon Peter had a wife.  Jesus heals Peter’s mother-in-law in
+  passages such as 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>.
+
+  This character is derived from this brief biblical reference.
+
+- Joanna
+
+  Joanna is the wife of the household manager Chuza, a woman who works
+  in King Herod Antipas's court in Machaerus, and one of the women
+  helping Jesus's ministry.
+
+  Joanna is a historical figure mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.3`)" target="_blank">Luke 8:3</a>
+
+  as the wife of Chuza, Herod’s household manager.  She supported
+  Jesus’s ministry and is also named among the women who witnessed the
+  resurrection in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.24.10`)" target="_blank">Luke 24:10</a>.
+
+- Salome
+
+  Salome is the wife of Zebedee, the mother of Big James and John, and
+  one of the women helping Jesus's ministry.
+
+  Salome is mentioned in the Bible as the mother of James and John,
+  the sons of Zebedee 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.56`)" target="_blank">Matthew 27:56</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.40`)" target="_blank">Mark 15:40</a>),
+
+  and she is one of the women who followed Jesus and witnessed His
+  crucifixion and resurrection.
+
+- Mary of Nazareth
+
+  Mary is the earthly mother of Jesus, the widowed wife of Joseph, the
+  daughter of Joachim of Nazareth, and one of the women helping
+  Jesus's ministry. She is a relative of the couple, Elizabeth and
+  Zechariah, and the aunt of John the Baptizer.
+
+  Mary is a central figure in the Gospels, first introduced in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1`)" target="_blank">Luke 1</a>
+
+  during the Annunciation; she is present throughout Jesus’s life,
+  including at His birth 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2`)" target="_blank">Luke 2</a>),
+
+  the crucifixion 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.25-27`)" target="_blank">John 19:25-27</a>),
+
+  and among the early believers after His resurrection 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `act.1.14`)" target="_blank">Acts 1:14</a>).
+
+- Joseph
+
+  Joseph is a carpenter from Nazareth, the husband of Mary, and the
+  earthly father of Jesus.
+
+  Joseph is mentioned in the Gospels of Matthew and Luke as the
+  husband of Mary, though the Bible offers little detail about his
+  later life.  He is last mentioned in the context of Jesus’s youth
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.2.41-50`)" target="_blank">Luke 2:41-50</a>).
+
+- John the Baptizer
+
+  John, also known as John the Baptizer, is a rabbi, a wandering
+  preacher in the wilderness who baptizes in the Jordan River, and the
+  deceased cousin of Jesus. He is the son of Elizabeth and Zechariah,
+  and a nephew of Mary. He is the former rabbi of Andrew and Philip
+  and the rabbi of Avner and Nadab.
+
+  John is prominently featured in all four Gospels, with his ministry
+  of baptism and repentance preparing the way for Jesus 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.3.1-12`)" target="_blank">Matthew 3:1-12</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.4-8`)" target="_blank">Mark 1:4-8</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.3.1-20`)" target="_blank">Luke 3:1-20</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.1.19-34`)" target="_blank">John 1:19-34</a>). 
+
+  He is also mentioned as being imprisoned and executed by King Herod
+  Antipas 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>).
+
+- Elizabeth
+
+  Elizabeth is the wife of Zechariah, the mother of John the Baptizer,
+  and a relative of Mary and Jesus.
+
+  Elizabeth is mentioned in the 
+
+  Gospel of Luke
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">1:5-25</a>,
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.39-45`)" target="_blank">39-45</a>)
+
+  as the mother of John the Baptizer, whose miraculous conception
+  parallels that of Jesus.  She is described as being in her old age
+  and as one of the first to recognize the significance of Mary's
+  pregnancy.
+
+- Zechariah (Father of John the Baptizer)
+
+  Zechariah is a priest in Jerusalem, the husband of Elizabeth, and
+  the father of John the Baptizer.
+
+  Zechariah is mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.1.5-25`)" target="_blank">Luke 1:5-25</a>
+
+  as a priest who, after being visited by the angel Gabriel, was
+  struck mute for his disbelief in the announcement of his son’s
+  birth; he regains his speech upon naming his son John, fulfilling
+  the angel's prophecy.
+
+- Zebedee
+
+  Zebedee is a former fisherman in Capernaum, the father of Big James
+  and John, the husband of Salome, and a former fishing partner of
+  Simon Peter and Andrew.
+
+  Zebedee is mentioned briefly in the Gospels 
+
+  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.4.21`)" target="_blank">Matthew 4:21</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.19`)" target="_blank">Mark 1:19</a>),
+
+  primarily as the father of James and John, the sons of thunder; he
+  is part of the early group of disciples called by Jesus to follow
+  Him, but little else is known about his life.
+
+- Lazarus
+
+  Lazarus is a businessman in Bethany, a childhood friend of Jesus,
+  and the brother of Mary and Martha.
+
+  Lazarus is best known in the Bible for being raised from the dead by
+  Jesus in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.1-44`)" target="_blank">John 11:1-44</a>, 
+
+  an event that led many to believe in Jesus, but also contributed to
+  the religious leaders plotting His death.
+
+- Mary of Bethany
+
+  Mary is a woman in Bethany, who is the sister of Lazarus and Martha,
+  and one of the women helping Jesus's ministry.
+
+  Mary of Bethany appears in several key Gospel scenes, including
+  sitting at Jesus’s feet to listen to His teaching 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+
+  and anointing His feet with expensive perfume as an act of devotion
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.12.1-8`)" target="_blank">John 12:1-8</a>).
+
+- Martha
+
+  Martha is a woman in Bethany, who is the sister of Lazarus and Mary,
+  and one of the women helping Jesus's ministry.
+
+  Martha is featured in the Gospels as a devoted follower of Jesus,
+  known for her hospitality 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.10.38-42`)" target="_blank">Luke 10:38-42</a>)
+
+  and her confession of faith in Jesus as the Messiah before He raised
+  her brother Lazarus from the dead 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.11.20-27`)" target="_blank">John 11:20-27</a>).
+
+- Photina
+
+  Photina (the woman at the Well) is a Samaritan woman in Sychar and
+  the wife of Neriah.
+
+  The woman at the well appears in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.4.1-42`)" target="_blank">John 4:1-42</a>,
+
+  where Jesus speaks with her in Samaria.  She is unnamed in the
+  Bible, but later Christian tradition refers to her as Photina and
+  honors her as an early evangelist.
+
+- Nicodemus
+
+  Nicodemus is a leading Pharisee from Jerusalem, a respected rabbi,
+  and a high-ranking member of the Sanhedrin. He is a secret disciple
+  of Jesus.
+
+  Nicodemus appears in the Gospel of John 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.3.1-21`)" target="_blank">John 3:1-21</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.7.50-52`)" target="_blank">7:50-52</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.19.39-42`)" target="_blank">19:39-42</a>),
+
+  where he first visits Jesus at night to ask questions, later defends
+  Him before the Sanhedrin, and finally helps bury Jesus with Joseph
+  of Arimathea, suggesting his growing faith.
+
+- Yussif
+
+  Yussif is a leading Pharisee from Jerusalem, a respected rabbi, and
+  a high-ranking member of the Sanhedrin. He is a secret disciple of
+  Jesus.
+
+  Yussif is a fictional character created for The Chosen.  While there
+  were members of the Sanhedrin who believed in Jesus secretly (like
+  Nicodemus and Joseph of Arimathea), Yussif is not named in the
+  biblical text.
+
+- Shammai
+
+  Shammai is a leading Pharisee in Jerusalem and both a high-ranking
+  member and the Av Beit Din of the Sanhedrin whose influential house
+  opposes the House of Shimon, son of Hillel.
+
+  Shammai is a historical figure from first-century Judaism, known as
+  a strict and influential Pharisaic teacher who led the House of
+  Shammai, often contrasted with the more lenient House of Hillel.
+  While he is not mentioned in the Bible, his teachings shaped the
+  religious context of Jesus’s time.
+
+- Shmuel
+
+  Shmuel is a Pharisee from Capernaum and a member of the Sanhedrin.
+
+  Shmuel is a fictional character created for The Chosen. While
+  Pharisees are frequently mentioned in the Gospels as opponents of
+  Jesus, no individual named Shmuel appears in the biblical text.
+
+- Akiva
+
+  Akiva is a leading Pharisee in Capernaum.
+
+  Akiva is a fictional character created for The Chosen.  While there
+  were many Pharisees in Capernaum during the time of Jesus, Akiva is
+  not mentioned in the Bible.
+
+- Jairus
+
+  Jairus is the synagogue administrator in Capernaum, the husband of
+  Michal, and the father of Nili. He is a secret disciple of Jesus.
+
+  Jairus is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.21-43`)" target="_blank">Mark 5:21-43</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.40-56`)" target="_blank">Luke 8:40-56</a>)
+
+  as a synagogue ruler who pleads with Jesus to heal his dying
+  daughter.  After her resurrection, Jairus's faith in Jesus is
+  evident, though the Bible does not indicate whether he remained a
+  secret disciple.
+
+- Caiaphas
+
+  Joseph Ben Caiaphas, also known as Caiaphas, is a leading Sadducee
+  in Jerusalem, the high priest of Israel, and the leader of the
+  Sanhedrin.
+
+  Caiaphas is a historical figure mentioned in the Gospels as the high
+  priest who played a central role in the trial and condemnation of
+  Jesus 
+
+  (e.g., <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.26.57-68`)" target="_blank">Matthew 26:57-68</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.13-28`)" target="_blank">John 18:13-28</a>),
+
+  and his actions are key in the plot to have Jesus crucified.
+
+- Yanni
+
+  Yanni is a leading Pharisee in Jerusalem a and colleague of Shmuel.
+
+  Yanni is a fictional character created for The Chosen.  While there
+  were numerous Pharisees in Jerusalem during Jesus's time, no
+  individual named Yanni is mentioned in the Bible.
+
+- Gaius
+
+  Gaius is a former high-ranking Roman centurion and a Roman
+  magistrate in Capernaum, the father of his servant named Ivo, and
+  the current Praetor of Galilee. He is the former guard of Matthew.
+
+  Gaius is a fictional character created for The Chosen.  The
+  character of Gaius, as well as his backstory and role as a
+  magistrate, is a creative addition for the series.
+
+- Quintus
+
+  Quintus Benedictus Dio, also known as Quintus, is a former Roman
+  magistrate in Capernaum and the former Praetor of Galilee.
+
+  Quintus is a fictional character created for The Chosen. Although
+  the Bible references Roman officials in the region, such as Pilate
+  and the centurion, no individual named Quintus is mentioned in the
+  biblical text.
+
+- Atticus
+
+  Atticus Aemilius Pulcher, also known as Atticus, is one of the Roman
+  cohortes urbanae sent from Rome to investigate the Zealots and then
+  Jesus.
+
+  Atticus is a fictional character created for The Chosen. While the
+  Roman cohortes urbanae did play a role in maintaining order and
+  investigating threats, no character named Atticus appears in the
+  Bible or historical records related to Jesus.
+
+- Pontius Pilate
+
+  Pontius Pilate is the Roman Procurator in Jerusalem and the governor
+  of Judea. He is the husband of Claudia.
+
+  Pontius Pilate is a historical figure mentioned in all four Gospels,
+  notably for his role in condemning Jesus to crucifixion 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.11-26`)" target="_blank">Matthew 27:11-26</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.15.1-15`)" target="_blank">Mark 15:1-15</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.1-25`)" target="_blank">Luke 23:1-25</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.18.28-40`)" target="_blank">John 18:28-40</a>).
+
+- Claudia
+
+  Claudia is the wife of Pontius Pilate.
+
+  Claudia is briefly mentioned in 
+
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.27.19`)" target="_blank">Matthew 27:19</a>,
+
+  where she sends a message to her husband, Pontius Pilate, urging him
+  to have nothing to do with condemning Jesus, as she had suffered in
+  a dream because of Him. However, little else is known about her from
+  biblical texts.
+
+- Herod Antipas
+
+  Herod Antipas is the tetrarch who serves as the client king of
+  Galilee and Perea. The stepfather of Salome, he is the husband of
+  Queen Herodias, who is his brother's, Philip's, former wife.
+
+  Herod Antipas is a historical figure mentioned in the Gospels,
+  particularly in relation to his involvement in the execution of John
+  the Baptist 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.14-29`)" target="_blank">Mark 6:14-29</a>)
+
+  and his role in the trial of Jesus, where he sends Jesus back to
+  Pilate 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.23.6-12`)" target="_blank">Luke 23:6-12</a>).
+
+- Herodias
+
+  Herodias is the wife of King Herod Antipas and the mother of
+  Salome. She has been formerly married to King Herod Antipas's
+  brother, Philip. Herodias prompted Salome, her daughter, to request
+  the head of John the Baptist on a platter from King Herod Antipas.
+
+  Herodias is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.17-29`)" target="_blank">Mark 6:17-29</a>)
+
+  as the woman who orchestrated the beheading of John the Baptist,
+  driven by her hatred for his condemnation of her marriage to Herod
+  Antipas, which was unlawful according to Jewish law.
+
+- Salome (Daughter of Herodias)
+
+  Salome is the daughter of Queen Herodias and the stepdaughter of
+  King Herod Antipas.
+
+  Salome is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.6.22-28`)" target="_blank">Mark 6:22-28</a>)
+
+  as the young woman who, at the prompting of her mother, requested
+  the beheading of John the Baptist from Herod Antipas, an act that
+  led to the prophet's execution.
+
+- Dasha
+
+  Dasha is the mother-in-law of Simon Peter and the mother of Eden.
+
+  Simon Peter's mother-in-law is mentioned in the Gospels 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mat.8.14-15`)" target="_blank">Matthew 8:14-15</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.1.29-31`)" target="_blank">Mark 1:29-31</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.4.38-39`)" target="_blank">Luke 4:38-39</a>),
+
+  though her name is not provided in the Bible.  Dasha is an addition
+  for The Chosen to give her more depth in the story.
+
+- Ethan
+
+  Ethan is a former paralytic in Capernaum, who is healed by Jesus. He
+  is a friend of Tamar, who lowered him through the roof.
+
+  While the Gospels recount the story of a paralytic being lowered
+  through the roof for healing 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.2.1-12`)" target="_blank">Mark 2:1-12</a>;
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.5.17-26`)" target="_blank">Luke 5:17-26</a>),
+
+  the Bible does not provide specific names for those involved,
+  including Ethan.
+
+- Jesse
+
+  Jesse is a former paralytic from Ashkelon, who is healed by Jesus at
+  the Pool of Bethesda. He is the brother of Simon Z.
+
+  While the Gospels mention a healing at the Pool of Bethesda 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `jhn.5.1-9`)" target="_blank">John 5:1-9</a>),
+
+  the Bible does not provide specific names for those healed,
+  including Jesse.
+
+- Veronica
+
+  Veronica is a woman from Caesarea Philippi, who has formerly
+  suffered from a discharge of blood for twelve years and is healed by
+  Jesus.
+
+  While the Bible recounts the story of a woman healed from a
+  long-term hemorrhage 
+
+  (<a href="#" onmouseover="fw.alterBibleVerseLink(event, `mrk.5.25-34`)" target="_blank">Mark 5:25-34</a>; 
+  <a href="#" onmouseover="fw.alterBibleVerseLink(event, `luk.8.43-48`)" target="_blank">Luke 8:43-48</a>),
+
+  she is not named in the Gospels, and Veronica is an addition for the
+  series.
