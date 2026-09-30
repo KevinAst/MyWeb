@@ -1,0 +1,306 @@
+*---------------------
+* 2009 Series (Sunday) WITH SELECTED Study Guides
+*---------------------
+
+Note: As of 2024, THIS SERIES HAS BEEN ARCHIVED (i.e. is no longer
+      available ), **however** the Study Guides are still available.
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2009 Romans Series (Sundays)](#2009-romans-series-sundays)
+...
+
+## 2009 Romans Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2024, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-rom-2009',
+  entries: [
+    { id: `20090809`, sermon: `Good News and Bad News`, scripture: `rom.1@@Romans 1-2`,    studyGuide: `NONE`, },
+    { id: `20090816`, sermon: `What a Gift!`,           scripture: `rom.3@@Romans 3-5`,    studyGuide: `NONE`, },
+    { id: `20090830`, sermon: `The Sin Battle`,         scripture: `rom.6@@Romans 6-8`,    studyGuide: `NONE`, },
+    { id: `20090906`, sermon: `Why Israel Matters`,     scripture: `rom.9@@Romans 9-11`,   },
+    { id: `20090913`, sermon: `Offering Your Body`,     scripture: `rom.12@@Romans 12-13`, },
+    { id: `20090920`, sermon: `Unity in the Church`,    scripture: `rom.14@@Romans 14-16`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
+
+09/20/2009
+Unity in the Church
+Rom 14-16
+rom.14
+
+09/13/2009
+Offering Your Body
+Rom 12-13
+rom.12
+
+09/06/2009
+Why Israel Matters
+Rom 9-11
+rom.9
+
+08/30/2009
+The Sin Battle
+Rom 6-8
+rom.6
+
+08/16/2009
+What a Gift!
+Rom 3-5
+rom.3
+
+08/09/2009
+Good News and Bad News
+Rom 1-2
+rom.1
+
+
+*-----------------------
+* 2016 Series (Mid Week) NO Study Guide
+*-----------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+10/12/2016
+Teaching
+Rom 15-16
+rom.15
+
+10/05/2016
+Teaching
+Rom 14
+rom.14
+
+09/28/2016
+Teaching
+Rom 13
+rom.13
+
+09/21/2016
+Teaching
+Rom 12:3-21
+rom.12
+
+09/07/2016
+Teaching
+Rom 11:25-12:2
+rom.11
+
+08/31/2016
+Teaching
+Rom 11:1-27
+rom.11
+
+08/24/2016
+Teaching
+Rom 9:16-10:21
+rom.9
+
+08/17/2016
+Teaching
+Rom 8:28-9:16
+rom.8
+
+08/10/2016
+Teaching
+Rom 8:1-27
+rom.8
+
+08/03/2016
+Teaching
+Rom 6:15-7:25
+rom.6
+
+07/27/2016
+Teaching
+Rom 5:12-6:14
+rom.5
+
+06/15/2016
+Teaching
+Rom 4-5:11
+rom.4
+
+06/08/2016
+Teaching
+Rom 3
+rom.3
+
+06/01/2016
+Teaching
+Rom 2
+rom.2
+
+05/25/2016
+Teaching
+Rom 1:25-32
+rom.1
+
+05/18/2016
+Teaching
+Rom 1:1-25
+rom.1
+
+
+
+*-----------------
+* 2021 Romans Misc NO Study Guide
+*-----------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+10/31/2021
+God Over Government (Matthew Maher)
+Rom 13
+rom.13
+
+>> FOR ABOVE ********************************************************************************
+** ID MISSMATCH
+   CornerStone UI shows date: 11/01/2021 (a Monday) ... which is id: 20211101
+   CornerStone URL uses date: 10/31/2021 (a Sunday) ... which is id: 20211031 ... https://cornerstonechapel.net/teaching/20211031
+   FIX: This is simply a miss-match in the UI (nothing more) ... just use the real ID (20211031) and all is good!
+        NOTHING FOR US TO DO HERE
+
+10/17/2021
+Conformed or Transformed? (Tony Clark)
+Rom 12:1-2
+rom.12
+
+09/26/2021
+The Mystery of the Blindness (Amir Tsarfati)
+Rom 11:25
+rom.11
+
+09/22/2021
+The True Nature of God (Barrett Phillips)
+Rom 1:16-25
+rom.1
+
+
+*-----------------
+* 2024 Series (Sunday) WITH Study Guides
+*-----------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+09/01/2024
+Crushing Satan
+Rom 16 (Part 2)
+rom.16
+
+08/25/2024
+A House Divided
+Rom 16
+rom.16
+
+08/18/2024
+The God of Encouragement
+Rom 15
+rom.15
+
+08/04/2024
+Can't We All Get Along?
+Rom 14
+rom.14
+
+07/28/2024
+What Time Is It?
+Rom 13:11-14
+rom.13
+
+06/23/2024
+God and Government
+Rom 13
+rom.13
+
+06/16/2024
+How to Treat One Another
+Rom 12
+rom.12
+
+06/02/2024
+What is God's Will for my Life?
+Rom 12
+rom.12
+
+05/26/2024
+Predestination and Election<br/>... Our Homecoming Picnic!
+Rom 9-11 (Part 2)
+rom.9
+
+>> FOR ABOVE ********************************************************************************
+extraSermonLink: `https://ccfergusfalls.com/calvinism-arminianism-the-word-of-god-a-calvary-chapel-perspective-by-chuck-smith/@@Calvinism, Arminianism, and the Word of God: A Calvary Chapel Perspective by Chuck Smith`,
+
+05/19/2024
+Israel: Past, Present, and Future
+Rom 9-11
+rom.9
+
+05/12/2024
+All Things Work Together for Good
+Rom 8:28
+rom.8
+
+04/14/2024
+Winning the War Within
+Rom 8
+rom.8
+
+04/07/2024
+No Condemnation, No Separation
+Rom 8
+rom.8
+
+03/17/2024
+The Importance of God's Law
+Rom 7
+rom.7
+
+03/10/2024
+Getting Victory over Sin
+Rom 6:1-14
+rom.6
+
+03/03/2024
+What Adam Ruined, Jesus Redeemed
+Rom 5:12-21
+rom.5
+
+02/04/2024
+Stepping Stones to Hope
+Rom 5
+rom.5
+
+01/28/2024
+And Now, the Good News!
+Rom 3-4
+rom.3
+
+01/21/2024
+Guilty as Charged
+Rom 2
+rom.2
+
+01/14/2024
+When a Culture Excludes God
+Rom 1:24-32
+rom.1
+
+01/07/2024
+First, the Bad News
+Rom 1:1-25
+rom.1
+

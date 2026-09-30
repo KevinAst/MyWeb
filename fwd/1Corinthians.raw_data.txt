@@ -1,0 +1,254 @@
+*------------------------------------
+* 2009 1 Corinthians Series (Sundays)  WITH Study Guide
+*------------------------------------
+
+Note: As of 2024, THIS SERIES HAS BEEN ARCHIVED (i.e. is no longer
+      available ), **however** the Study Guides are still available.
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2009 1 Corinthians Series (Sundays)](#2009-1-corinthians-series-sundays)
+...
+
+
+## 2009 1 Corinthians Series (Sundays)
+
+**Note:** _As of 2024, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'ss-1co-2009',
+  entries: [
+    { id: `20090927`, sermon: `When Wisdom Seems Foolish`,              scripture: `1co.1@@1 Cor 1-3`,    },
+    { id: `20091004`, sermon: `Church Discipline`,                      scripture: `1co.4@@1 Cor 4-5`,    },
+    { id: `20091018`, sermon: `Lessons on Lawsuits`,                    scripture: `1co.6@@1 Cor 6`,      },
+    { id: `20091025`, sermon: `Singleness, Marriage, Sex, and Divorce`, scripture: `1co.7@@1 Cor 7`,      },
+    { id: `20091101`, sermon: `When Temptation Comes`,                  scripture: `1co.8@@1 Cor 8-10`,   },
+    { id: `20091108`, sermon: `Communion`,                              scripture: `1co.11@@1 Cor 11`,    },
+    { id: `20091115`, sermon: `Defining Spiritual Gifts`,               scripture: `1co.12@@1 Cor 12`,    },
+    { id: `20091122`, sermon: `Guidelines for Spiritual Gifts`,         scripture: `1co.13@@1 Cor 13-14`, },
+    { id: `20091129`, sermon: `Extreme Makeover: A Glorified Body`,     scripture: `1co.15@@1 Cor 15-16`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
+11/29/2009
+Extreme Makeover: A Glorified Body
+1 Cor 15-16
+1co.15
+
+11/22/2009
+Guidelines for Spiritual Gifts
+1 Cor 13-14
+1co.13
+
+11/15/2009
+Defining Spiritual Gifts
+1 Cor 12
+1co.12
+
+11/08/2009
+Communion
+1 Cor 11
+1co.11
+
+11/01/2009
+When Temptation Comes
+1 Cor 8-10
+1co.8
+
+10/25/2009
+Singleness, Marriage, Sex, and Divorce
+1 Cor 7
+1co.7
+
+10/18/2009
+Lessons on Lawsuits
+1 Cor 6
+1co.6
+
+10/04/2009
+Church Discipline
+1 Cor 4-5
+1co.4
+
+09/27/2009
+When Wisdom Seems Foolish
+1 Cor 1-3
+1co.1
+
+
+
+
+*------------------------------------------
+* 2016-2017 1 Corinthians Series (Mid Week)  NO Study Guide
+*------------------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+03/29/2017
+Teaching
+1 Cor 15:35-16:24
+1co.15
+
+03/22/2017
+Teaching
+1 Cor 15:1-34
+1co.15
+
+03/15/2017
+Teaching
+1 Cor 14:6-40
+1co.14
+
+03/08/2017
+Teaching
+1 Cor 13-14:5
+1co.13
+
+03/01/2017
+Gifts of the Spirit - Part 4/4
+1 Cor 12:12-13:13
+1co.12
+
+02/22/2017
+Gifts of the Spirit - Part 3/4
+1 Cor 12:1-11
+1co.12
+
+02/15/2017
+Gifts of the Spirit - Part 2/4
+1 Cor 12:1-11
+1co.12
+
+02/08/2017
+Gifts of the Spirit - Part 1/4
+1 Cor 12:1-11
+1co.12
+
+01/25/2017
+Teaching
+1 Cor 12:1-11
+1co.12
+
+01/18/2017
+Communion
+1 Cor 11:17-34
+1co.11
+
+01/11/2017
+Teaching
+1 Cor 11
+1co.11
+
+01/04/2017
+Teaching
+1 Cor 10
+1co.10
+
+12/14/2016
+Teaching
+1 Cor 8-9
+1co.8
+
+12/07/2016
+Teaching
+1 Cor 7:17-40
+1co.7
+
+11/30/2016
+Teaching
+1 Cor 7:1-16
+1co.7
+
+11/09/2016
+Teaching
+1 Cor 6
+1co.6
+
+11/02/2016
+Teaching
+1 Cor 4-5
+1co.4
+
+10/26/2016
+Teaching
+1 Cor 2-3
+1co.2
+
+10/19/2016
+Teaching
+1 Cor 1
+1co.1
+
+
+*------------------------------------
+* 2024 1 Corinthians Series (Sundays)  WITH Study Guide
+*------------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+12/15/2024
+God’s View of Money & Giving
+1 Corinthians 16
+1co.16
+
+12/08/2024
+God's View of Spiritual Gifts
+1 Corinthians 12-14
+1co.12
+
+11/24/2024
+God’s View of Smoking (and Other Debates)
+1 Corinthians 8
+1co.8
+
+>> NOT (Cornerstone FINALLY added them) ********************************************************************************
+studyGuide: `NONE`,
+
+11/17/2024
+God's View of Divorce
+1 Corinthians 7
+1co.7
+
+>> NOT (Cornerstone FINALLY added them) ********************************************************************************
+studyGuide: `NONE`,
+
+11/10/2024
+God's View of Singleness & Marriage
+1 Corinthians 7
+1co.7
+
+11/03/2024
+God’s View of Sex
+1 Corinthians 6:12-18
+1co.6
+
+10/27/2024
+Lawsuits and Lifestyles
+1 Corinthians 6:1-11
+1co.6
+
+10/20/2024
+Biblical Tolerance
+1 Corinthians 5
+1co.5
+
+09/29/2024
+What God has Prepared for Us
+1 Corinthians 2
+1co.2
+
+09/22/2024
+It's Time to Grow Up!
+1 Corinthians 1
+1co.1
+

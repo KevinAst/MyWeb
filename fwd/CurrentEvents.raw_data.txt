@@ -1,0 +1,385 @@
+*----------------------------
+* Life
+*----------------------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+01/20/2019
+Sanctity of Human Life
+Jeremiah 18-19 
+jer.18
+
+01/17/2021
+For the Love of Children
+Matthew 18-19
+mat.18
+
+01/23/2022
+The Value of Life
+Psalms 103:2-4
+psa.103
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+11/13/2022
+LIFE Principles
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://RadianceFoundation.org/@@Ryan Bomberger`
+
+01/22/2025
+A Conversation with Seth Gruber and Pastor Gary Hamrick
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://sethgruber.com//@@Seth Gruber`
+
+
+*----------------------------
+* Marriage & Divorce
+*----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+11/17/2024
+God's View of Divorce
+1 Corinthians 7
+1co.7
+
+11/10/2024
+God's View of Singleness & Marriage
+1 Corinthians 7
+1co.7
+
+05/07/2023
+The Unashamed Life
+Romans 1:16-17
+rom.1.16-17
+
+>> FOR ABOVE ********************************************************************************
+sermon: `the-unashamed-life@@The Unashamed Life`,
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://alandlisarobertson.com/our-story@@Al Robertson`,
+
+01/22/2023
+The God of Restoration
+John 21
+jhn.21
+
+08/30/2020
+Jesus on Divorce
+Matthew 5:31-32
+mat.5.31-32
+
+10/25/2009
+Singleness, Marriage, Sex, and Divorce
+1 Corinthians 7
+1co.7
+
+
+*----------------------------
+* Election Day Sermons
+*----------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+05/17/2026
+America’s Christian Heritage
+Psalm 33
+psa.33
+
+01/19/2025
+Donald Trump, the Church, and Israel
+Psalms 146
+psa.146
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+10/30/2024
+Night of Prayer for the 2024 Elections
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+
+09/08/2024
+Election Day Sermon 2024 (Church, Unite for the Soul of America!)
+Ezekiel 33:1-5
+ezk.33.1-5
+
+09/11/2024
+Night Of Prayer For America
+2 Chronicals 7:14
+2ch.7.14
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+11/08/2020
+Sent Out Among Wolves: A Post-Election Reminder
+Matthew 10
+mat.10
+
+11/01/2020
+Calm in the Storm: An Election Day Addendum
+Matthew 8:23-27
+mat.8
+
+10/28/2020
+Night of Prayer for the Elections
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+10/18/2020
+Election Day Sermon 2020 (Church in America, Wake Up!)
+Jeremiah 6:16-19
+jer.6
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+10/16/2016
+Election Day Sermon 2016
+Psalms 33
+psa.33
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+06/22/2014
+Making of a King, Journey of a Christian
+1 Samuel 8-11
+1sa.8
+
+11/04/2012
+Election Day Sermon 2012
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+
+*----------------------------
+* LGBTQ / Gay / Homosexual
+*----------------------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+02/05/2012
+The Cost of Compromise
+Genesis 18-19
+gen.18
+
+07/05/2015
+America, Will You Stand?
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+studyGuide: `NONE`,
+
+07/27/2022
+Evening Special with Patti Height
+NO SCRIPTURE
+none
+
+>> FOR ABOVE (Patti Height) ********************************************************************************
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
+
+06/04/2023
+A Biblical Response to the 'Transing' of America
+Romans 1:18-28
+rom.1
+
+01/14/2024
+When a Culture Excludes God
+Rom 1:24-32
+rom.1
+
+08/17/2025
+https://www.youtube.com/watch?v=AdzHnvL5iZM@@From Gender Confusion to Freedom in Christ (Patti Height & Gary Hamrick)
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+id: `PH20250817`,
+date:`08/17/2025`, 
+studyGuide: `NONE`,
+extraLinkInScriptureCell: `https://outofegyptministries.org/@@Out of Egypt Ministries`,
+
+
+*-------------
+* Moral Decay
+*-------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+10/03/2007
+https://www.youtube.com/watch?v=zF5bPI92-5o@@The God Delusion Debate - Richard Dawkins vs John Lennox
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/Richard_Dawkins@@Richard Dawkins`
+
+11/08/2012
+https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://www.johnlennox.org/@@John Lennox`
+
+05/21/2023
+Wanted: The Brave
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://www.kirkcameron.com/@@Kirk Cameron`,
+
+09/15/2024
+Truth or Truthiness?
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://www.moodychurch.org/staff-directory/erwin-lutzer/@@Dr. Erwin Lutzer`,
+
+10/02/2024
+Representing Christ In The Cultural Crisis (James Ward)
+2 Corinthians 5:20
+2co.5.20
+
+10/06/2024
+Remembering October 7th
+Psalms 83
+psa.83
+
+10/13/2024
+Discerning The Devil's Playbook
+NO SCRIPTURE
+none
+
+>> FOR ABOVE ********************************************************************************
+extraLinkInScriptureCell: `https://ccoceancity.com/bio-matthew-maher@@Matthew Maher`,
+
+05/04/2025
+Reclaiming the Cultural Mandate (Seth Gruber)
+Genesis 1
+gen.1
+
+09/20/2026
+Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)
+1 Kings 18:20-40
+1ki.18.20-40
+
+
+*-------------
+* Misc
+*-------------
+
+NOTE: Cronological Order (i.e. SAME as web-page promotion)
+
+>> FOR ABOVE ********************************************************************************
+extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`,
+
+02/23/2025
+Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)
+John 8
+jhn.8
+
+04/09/2025
+Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2
+Matthew 28
+mat.28
+
+04/30/2025
+Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2
+Hebrews 13
+heb.13
+
+08/10/2025
+Walk In The Light (Ryan Ries)
+John 12:31-33
+jhn.12.31-33
+
+>> FOR ABOVE ********************************************************************************
+extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`
+
+01/21/2026
+The Rise of Antisemitism in Christian and Conservative Circles
+NO SCRIPTURE
+none
+
+03/18/2026
+Nothing is Impossible with God
+NO SCRIPTURE
+none
+
+04/26/2026
+The Awakening of the American Church (Jack Graham)
+Hebrews 10:22–25
+heb.10
+
+06/21/2026
+Have You Been Born Again? (Pastor Austin Hamrick)
+John 3
+jhn.3
+
+>> FOR ABOVE ********************************************************************************
+   WITH STUDY GUIDE!
+
+06/28/2026
+Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)
+1 John 4
+1jn.4
+
+>> FOR ABOVE ********************************************************************************
+   WITH STUDY GUIDE!
+
+07/05/2026
+Celebrating America 250 (Eric Metaxas)
+NO SCRIPTURE
+none
+
+07/08/2026
+God's Prescription for Happiness (Pastor Brian Shannon)
+Matthew 5
+mat.5
+
+07/12/2026
+Devotion: Lessons from the Early Church (Pastor Andy Wagner)
+Acts 2
+act.2
+
+>> FOR ABOVE ********************************************************************************
+   WITH STUDY GUIDE!
+
+07/19/2026
+The Results of Repentance (Pastor Austin Hamrick)
+Acts 3
+act.3
+
+>> FOR ABOVE ********************************************************************************
+   WITH STUDY GUIDE!
+
+08/05/2026
+Next Gen for Jesus Night (Helms Triplets)
+NO SCRIPTURE
+none
+
