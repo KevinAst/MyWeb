@@ -101,14 +101,13 @@ Release           | What                 | *When*
 
 - Removal of Daily Devotions
 
-  On 9/20/2026, I discovered that the Daily Devotions cataloged in
+  On 9/20/2026, it was discovered that the Daily Devotions cataloged in
   this FireWithin site since February of 2026, were NOT authentic :-(
 
-  These devotions were discovered from a third-party site, which
-  appeared to be authentic.  The devotion content had the same
-  demeanor and teaching style I had come to associate with Pastor
-  Gary.  They even referenced Cornerstone resources, such as related
-  sermons, etc.
+  These devotions were found on a third-party site, which appeared to
+  be authentic.  The devotion content had the same demeanor and
+  teaching style I had come to associate with Pastor Gary.  They even
+  referenced Cornerstone resources - such as related sermons, etc.
 
   Even though this third-party site was a bit annoying, with its
   pop-ups and other distractions, I simply assumed Cornerstone was
@@ -129,7 +128,7 @@ Release           | What                 | *When*
   Devotions have been removed from the FireWithin site.
 
   Perhaps at some future point, Pastor Gary will publish a Daily
-  Devotion for real (a welcome resource)!
+  Devotion for real _(a welcome resource)_!
 
 
 
