@@ -1118,6 +1118,8 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
 
   // ... relatedDevotions
   if (relatedDevotions) {
+    // ... DEPRECATED
+    checkParam(false, 'The relatedDevotions parameter of this macro has been deprecated and should NOT be used!');
     checkParam(isArray(relatedDevotions), `relatedDevotions must an array of devotion directives`);
     checkParam(relatedDevotions.length>0, `relatedDevotions array must have at least one entry`);
   }
@@ -2114,6 +2116,9 @@ function devoGHStart(namedParams={}) {
     ...unknownNamedArgs
   } = namedParams;
 
+  // ... DEPRECATED
+  checkParam(false, 'This macro has been deprecated and should NOT be used!');
+
   // ... publicationDate
   checkParam(publicationDate,           'publicationDate is required');
   checkParam(isString(publicationDate), `publicationDate must be a string: 'Day mm/dd/yyyy'`);
@@ -2289,6 +2294,9 @@ function devoGHEnd(prayer) {
   const self       = `devoGHEnd(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
 
+  // ... DEPRECATED
+  checkParam(false, 'This macro has been deprecated and should NOT be used!');
+
   // ... prayer
   checkParam(prayer,           'prayer is required');
   checkParam(isString(prayer), `prayer must be a string (the prayer to close out the devotion)`);
@@ -2414,6 +2422,9 @@ function devoGHSeries(namedParams={}) {
   // parameter validation
   const self       = `devoGHSeries(...)`;
   const checkParam = check.prefix(`${self} [in page: ${forPage}] parameter violation: `);
+
+  // ... DEPRECATED
+  checkParam(false, 'This macro has been deprecated and should NOT be used!');
 
   // ... verify we are using named parameters
   checkParam(isPlainObject(namedParams), `uses named parameters (check the API)`);

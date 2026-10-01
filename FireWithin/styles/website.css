@@ -473,10 +473,11 @@ body.isolated-page .navigation-next {
 /***  NOTE: THIRD Level 
             - messes up next/prev buttons <<< FIX: put all month indexes together in toc.md
             - can turn off 2nd level months by removing 2nd nexted li.chapter
- ***/
+KJB: NO LONGER USED with removal of devotions
 .book-summary li.chapter[data-path="devo2026.html"] li.chapter[data-path="devo2026.html"] ul.articles {
     display: none !important;
 }
+ ***/
 
 /*** Allow ellipsis-based text wrap with the starting ellipsis (...) stand out ***/
 .ellipsis-wrap {
@@ -504,10 +505,11 @@ body.isolated-page .navigation-next {
    USED in Daily Devotions programatic scrolling 
    TO MAKE `location.hash = id;` NOT BUTT UP to the top
    SEE: ../js/fw.js (fw.goToMyNextDevotion())
-*/
+KJB: NO LONGER USED with removal of devotions
 input[id^="devo"] {
   scroll-margin-top: 80px;
 }
+*/
 
 /*** Force <a> tags I inject in the top of the left-nav to be in-line ***/
 .nav-bar-inline {
