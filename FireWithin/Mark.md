@@ -14,7 +14,6 @@ did in his life prepares us for and informs us about his death.
 ### At a Glance
 
 - [Mark Overview](#mark-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 Mark Series (Mid Week)](#2014-mark-series-mid-week)
 - [2021 Mark Series (Sundays)](#2021-mark-series-sundays)
 
@@ -90,18 +89,6 @@ P{ collapsibleSection({
 M{ youTube(`ZBLKrNVffgo`) }M
 
 P{ collapsibleSectionEnd() }P
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',  verse: /* Mark 15:14-15  */ 'Galatians 1:10',  verseRef: 'gal.1.10',  btbContext: 'FromDevoContent##mrk.15.14-15@@Mark 15:14-15##Jesus Before Pilate [Kingdom and Truth]',  },
-     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',    verse:   'Mark 7:6-7',                         verseRef: 'mrk.7.6-7', },
-   ]
-}) }M
 
 
 

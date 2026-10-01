@@ -17,7 +17,6 @@ people.
 ### At a Glance
 
 - [Habakkuk Overview](#habakkuk-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Habakkuk Series (Mid Week)](#2012-habakkuk-series-mid-week)
 - [2020 Habakkuk Series (Sundays)](#2020-habakkuk-series-sundays)
 
@@ -90,18 +89,6 @@ M{ youTube(`zXasC09Gi34`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-hab',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Sat 08/08/2026',  topic: 'Living by Faith',                                        verse: 'Habakkuk 2:4',               verseRef: 'hab.2.4', },
-   ]
-}) }M
-
 
 ## 2012 Habakkuk Series (Mid Week)
 
@@ -124,15 +111,6 @@ M{ sermonSeries({
 M{ sermonSeries({
   seriesType: 'Sundays',
   entries: [
-    { id: `20200202`, sermon: `When God Doesn’t Make Sense`, scripture: `hab.1@@Habakkuk`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 08/08/2026',
-           topic:               'Living by Faith',
-           verse:               'Habakkuk 2:4',
-           verseRef:            'hab.2.4',
-        },
-      ],
-    },
+    { id: `20200202`, sermon: `When God Doesn’t Make Sense`, scripture: `hab.1@@Habakkuk`,  },
   ]
 }) }M

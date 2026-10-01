@@ -15,7 +15,6 @@ reign with Jesus.
 ### At a Glance
 
 - [Revelation Overview](#revelation-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [Books](#books)
 - [2011 Revelation Series (Sundays)](#2011-revelation-series-sundays)
 - [2020 Revelation Series (Mid Week)](#2020-revelation-series-mid-week)
@@ -111,25 +110,6 @@ P{ collapsibleSection({
 M{ zoomableImg(`RevelationTimeline_CS`) }M
 
 P{ collapsibleSectionEnd() }P
-
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-rev',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Sat 04/04/2026',  topic: 'Kept From the Hour',                                     verse:   'Revelation 3:10',                       verseRef: 'rev.3.10',   },
-     { publicationDate: 'Sat 03/14/2026',  topic: 'Awakened From Indifference',                             verse:   'Revelation 3:16',                       verseRef: 'rev.3.16',   },
-     { publicationDate: 'Sun 09/06/2026',  topic: 'His Kingdom Will Not Be Destroyed',                      verse: /* Revelation 11:15 */  'Daniel 7:14',     verseRef: 'dan.7.14',   btbContext: 'FromDevoContent##rev.11.15@@Revelation 11:15##Christ’s Eternal Reign'},
-     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',                           verse: /* Revelation 13:7-10 */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##rev.13.7-10@@Revelation 13:7-10##Christians saved during the tribulation will endure persecution',  },
-     { publicationDate: 'Sun 03/15/2026',  topic: 'Can we be tricked into getting the Mark of the Beast?',  verse:   'Revelation 13:16',                      verseRef: 'rev.13.16',  },
-     { publicationDate: 'Sun 04/05/2026',  topic: 'The Beast and the Sea',                                  verse:   'Revelation 17:8',                       verseRef: 'rev.17.8',   },
-     { publicationDate: 'Tue 03/24/2026',  topic: 'Awaiting Perfect Justice',                               verse:   'Revelation 21:4',                       verseRef: 'rev.21.4',   },
-   ]
-}) }M
 
 
 

@@ -12,7 +12,6 @@ the book of Joel is that everyone who calls out to God will be saved.
 ### At a Glance
 
 - [Joel Overview](#joel-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Joel Series (Mid Week)](#2012-joel-series-mid-week)
 - [2019 Joel Series (Sundays)](#2019-joel-series-sundays)
 
@@ -80,17 +79,6 @@ M{ youTube(`Hag-esKhP_U`) }M
 
 P{ collapsibleSectionEnd() }P
 
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Thu 04/02/2026',  topic: 'Repentance Before Renewal',  verse: 'Joel 2:12',  verseRef: 'jol.2.12',  },
-   ]
-}) }M
 
 
 ## 2012 Joel Series (Mid Week)

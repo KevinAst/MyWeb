@@ -19,7 +19,6 @@ Christ, true power comes in weakness.
 ### At a Glance
 
 - [2 Corinthians Overview](#2-corinthians-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2017 2 Corinthians Series (Mid Week)](#2017-2-corinthians-series-mid-week)
 - [2025 2 Corinthians Series (Sundays)](#2025-2-corinthians-series-sundays)
 
@@ -95,35 +94,6 @@ P{ collapsibleSectionEnd() }P
 
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-2co',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 07/27/2026',  topic: 'The God Who Keeps His Promises', verse: /* 2 Corinthians 1:20 */  'Ezekiel 37:14',     verseRef: 'ezk.37.14',  btbContext: 'FromDevoContent##2co.1.20@@2 Corinthians 1:20##God’s promises find their ultimate fulfillment in Christ'},
-     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',        verse:   '2 Corinthians 3:6',                         verseRef: '2co.3.6',    },
-     { publicationDate: 'Sat 02/21/2026',  topic: 'An Eternal Perspective',         verse:   '2 Corinthians 4:17',                        verseRef: '2co.4.17',   },
-     { publicationDate: 'Sun 03/29/2026',  topic: 'Present With the Lord',          verse:   '2 Corinthians 5:8',                         verseRef: '2co.5.8',    },
-     { publicationDate: 'Fri 05/22/2026',  topic: 'Transformed by Grace',           verse:   '2 Corinthians 5:17',                        verseRef: '2co.5.17',   },
-     { publicationDate: 'Sun 06/14/2026',  topic: 'Reconciled Through Grace',       verse:   '2 Corinthians 5:18',                        verseRef: '2co.5.18',   },
-     { publicationDate: 'Sat 04/18/2026',  topic: 'Ambassadors of Reconciliation',  verse:   '2 Corinthians 5:20',                        verseRef: '2co.5.20',   },
-     { publicationDate: 'Wed 04/08/2026',  topic: 'God Is Not to Be Used',          verse: /* 2 Corinthians 6:1      */ 'John 4:24',      verseRef: 'jhn.4.24',   btbContext: 'FromDevoSermon##2co.6@@2 Corinthians 6:1##Don’t Disgrace God’s Grace', },
-     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',   verse: /* 2 Corinthians 6:2      */ 'Matthew 24:14',  verseRef: 'mat.24.14',  btbContext: 'FromDevoContent##2co.6.2@@2 Corinthians 6:2##The urgency in responding to God’s invitation', },
-     { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ', verse:   '2 Corinthians 6:14',                        verseRef: '2co.6.14',   },
-     { publicationDate: 'Fri 06/12/2026',  topic: 'Faith Beyond the Outcome',       verse: /* 2 Corinthians 7:5-6    */ '2 Timothy 1:7',  verseRef: '2ti.1.7',    btbContext: 'FromDevoContent##2co.7.5-6@@2 Corinthians 7:5-6##Conflicts without, fears within; comfort through Titus.'},
-     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse: /* 2 Corinthians 8:5 */  '2 Corinthians 9:7',  verseRef: '2co.9.7',    btbContext: 'FromDevoContent##2co.8.5@@2 Corinthians 8:5##Giving Begins with Surrender'},
-     { publicationDate: 'Fri 08/21/2026',  topic: 'The Heart Of Giving',            verse:   '2 Corinthians 9:7',                         verseRef: '2co.9.7',    },
-     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',     verse:   '2 Corinthians 10:5',                        verseRef: '2co.10.5',   },
-     { publicationDate: 'Wed 09/09/2026',  topic: 'Hold Fast to the True Jesus',    verse:   '2 Corinthians 11:4',                        verseRef: '2co.11.4',   },
-     { publicationDate: 'Wed 06/03/2026',  topic: 'Strength in Suffering',          verse: /* 2 Corinthians 11:23-28 */ 'Romans 5:3',     verseRef: 'rom.5.3',    btbContext: 'FromDevoContent##2co.11.23-28@@2 Corinthians 11:23-28##Paul Persevered Through Suffering', },
-     { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',         verse: /* 2 Corinthians 12:9-10 */  'Isaiah 35:3',    verseRef: 'isa.35.3',   btbContext: 'FromDevoContent##2co.12.9-10@@2 Corinthians 12:9-10##Strength in Weakness'},
-   ]
-}) }M
-
-
 ## 2017 2 Corinthians Series (Mid Week)
 
 {{book.CornerstoneChapel}}
@@ -160,48 +130,12 @@ M{ sermonSeries({
     { id: `20250202`, sermon: `Trading Up: Earth to Heaven`,     scripture: `2co.4@@2 Cor 4:7-5:8`, },
     { id: `20250216`, sermon: `Judgment is Coming`,              scripture: `2co.5@@2 Cor 5:9–11`,  },
     { id: `20250302`, sermon: `Reconciliation`,                  scripture: `2co.5@@2 Corinthians 5:17-21`, },
-    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Wed 04/08/2026',
-           topic:               'God Is Not to Be Used',
-           verse:               'John 4:24',
-           verseRef:            'jhn.4.24',
-        },
-      ],
-    },
+    { id: `20250309`, sermon: `Don’t Disgrace God’s Grace`,      scripture: `2co.6@@2 Corinthians 6:1`,     },
     { id: `20250323`, sermon: `The Yoke’s on You`,               scripture: `2co.6@@2 Corinthians 6:14-18`, },
     { id: `20250330`, sermon: `Outside Conflicts, Inside Fears`, scripture: `2co.7@@2 Corinthians 7`,       },
-    { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Fri 08/21/2026',
-           topic:               'The Heart Of Giving',
-           verse:               '2 Corinthians 9:7',
-           verseRef:            '2co.9.7',
-        },
-      ],
-    },
-    { id: `20250518`, sermon: `Weapons of our Warfare`,          scripture: `2co.10@@2 Corinthians 10`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sun 08/30/2026',
-           topic:               'Take Every Thought Captive',
-           verse:               '2 Corinthians 10:5',
-           verseRef:            '2co.10.5',
-        },
-      ],
-    },
-    { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Wed 09/09/2026',
-           topic:               'Hold Fast to the True Jesus',
-           verse:               '2 Corinthians 11:4',
-           verseRef:            '2co.11.4',
-        },
-      ],
-    },
+    { id: `20250511`, sermon: `Generous Giving`,                 scripture: `2co.8@@2 Corinthians 8-9`,     },
+    { id: `20250518`, sermon: `Weapons of our Warfare`,          scripture: `2co.10@@2 Corinthians 10`,     },
+    { id: `20250525`, sermon: `Who is the True Jesus?`,          scripture: `2co.11@@2 Corinthians 11`,     },
     { id: `20250727`, sermon: `The Hope of Heaven`,              scripture: `2co.12@@2 Corinthians 12`,     },
     { id: `20250803`, sermon: `A Thorn in the Flesh`,            scripture: `2co.12@@2 Corinthians 12`,     },
   ]

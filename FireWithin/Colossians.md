@@ -11,7 +11,6 @@ there freedom from the powers of guilt and shame.
 ### At a Glance
 
 - [Colossians Overview](#colossians-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Colossians Series (Mid Week)](#2018-colossians-series-mid-week)
 - [2026 Colossians Series (Sundays)](#2026-colossians-series-sundays)
 
@@ -87,25 +86,6 @@ M{ youTube(`EvR4tIZAw7Y`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',          verse: /* Colossians 1:13-14 */  'John 8:36',    verseRef: 'jhn.8.36',  btbContext: 'FromDevoContent##col.1.13-14@@Colossians 1:13-14##Delivered into Christ’s Kingdom'},
-     { publicationDate: 'Mon 08/31/2026',  topic: 'Christ in You',                        verse:   'Colossians 1:27',                      verseRef: 'col.1.27',  },
-     { publicationDate: 'Wed 09/02/2026',  topic: 'Stand Firm in the Lord',               verse: /* Colossians 2:13-15 */  'Romans 16:20', verseRef: 'rom.16.20', btbContext: 'FromDevoContent##col.2.13-15@@Colossians 2:13-15##Christ’s Victory Over Darkness'},
-     { publicationDate: 'Tue 08/04/2026',  topic: 'Living with a Heavenly Perspective',   verse:   'Colossians 3:1-2',                     verseRef: 'col.3.1-2', },
-     { publicationDate: 'Fri 09/18/2026',  topic: 'Growing Together in Christ',           verse: /* Colossians 3:12-14 */ 'Ephesians 4:32', verseRef: 'eph.4.32', btbContext: 'FromDevoContent##col.3.12-14@@Colossians 3:12-14##Put On Love'},
-     { publicationDate: 'Tue 08/11/2026',  topic: 'Knowing the Will of God',              verse: /* Colossians 3:15-17 */  'Romans 12:2',  verseRef: 'rom.12.2',  btbContext: 'FromDevoSermon##col.3.15-17@@Colossians 3:15-17##Discerning God’s Will'},
-     { publicationDate: 'Wed 04/15/2026',  topic: 'Worship from a Grateful Heart',        verse:   'Colossians 3:23',                      verseRef: 'col.3.23',  },
-     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',              verse:   'Colossians 4:5',                       verseRef: 'col.4.5',   },
-   ]
-}) }M
-
-
 
 ## 2018 Colossians Series (Mid Week)
 
@@ -116,16 +96,7 @@ M{ sermonSeries({
   seriesType: 'MidWeek',
   entries: [
     { id: `20180103`, scripture: `col.1@@Colossians 1:1-18`,    },
-    { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 08/31/2026',
-           topic:               'Christ in You',
-           verse:               'Colossians 1:27',
-           verseRef:            'col.1.27',
-        },
-      ],
-    },
+    { id: `20180110`, scripture: `col.1@@Colossians 1:21-2:23`, },
     { id: `20180124`, scripture: `col.3@@Colossians 3:1-25`,    },
     { id: `20180131`, scripture: `col.4@@Colossians 4`,         },
   ]
@@ -148,16 +119,7 @@ M{ sermonSeries({
     { id: `20260614`, sermon: `Complete in Christ`,                       scripture: `col.2@@Colossians 2:11–15`,  },
     { id: `20260726`, sermon: `Avoiding Spiritual Pitfalls`,              scripture: `col.2@@Colossians 2:16-23`,  },
     { id: `20260802`, sermon: `Vertical Living in a Horizontal World`,    scripture: `col.3@@Colossians 3:1–14`,   },
-    { id: `20260809`, sermon: `Discerning God's Will`,                    scripture: `col.3@@Colossians 3:15-17`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Tue 08/11/2026',
-           topic:               'Knowing the Will of God',
-           verse:               'Romans 12:2',
-           verseRef:            'rom.12.2',
-        },
-      ],
-    },
+    { id: `20260809`, sermon: `Discerning God's Will`,                    scripture: `col.3@@Colossians 3:15-17`,  },
     { id: `20260816`, sermon: `Marriage and Divorce`,                     scripture: `col.3@@Colossians 3:18-25`,  },
     { id: `20260823`, sermon: `A Surrendered Life to Jesus`,              scripture: `col.4@@Colossians 4:1-9`,    },
     { id: `20260830`, sermon: `Watch Your Walk, Train Your Talk`,         scripture: `col.4@@Colossians 4:5-6`,    },

@@ -55,16 +55,7 @@ M{ sermonSeries({
     { id: `20161016`, sermon: `Election Day Sermon 2016`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
 
     {                 divider: `2020` },
-    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 08/15/2026',
-           topic:               'Walk in the Good Way',
-           verse:               'Jeremiah 6:16',
-           verseRef:            'jer.6.16',
-        },
-      ],
-    },
+    { id: `20201018`, sermon: `Election Day Sermon 2020 (Church in America, Wake Up!)`,               scripture: `jer.6@@Jeremiah 6:16-19`,     studyGuide: `NONE`, },
     { id: `20201028`, sermon: `Night of Prayer for the Elections`,                                                                              studyGuide: `NONE`, },
     { id: `20201101`, sermon: `Calm in the Storm: An Election Day Addendum`,                          scripture: `mat.8@@Matthew 8:23-27`,                          },
     { id: `20201108`, sermon: `Sent Out Among Wolves: A Post-Election Reminder`,                      scripture: `mat.10@@Matthew 10`,                              },
@@ -73,28 +64,10 @@ M{ sermonSeries({
     { id: `20211031`, sermon: `God Over Government (Matthew Maher)`,                                  scripture: `rom.13@@Romans 13`,           studyGuide: `NONE`, },
 
     {                 divider: `2022` },
-    { id: `20220703`, sermon: `America’s Godly Heritage`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 04/06/2026',
-           topic:               'The Lord as Our True Security',
-           verse:               'Psalms 33:12',
-           verseRef:            'psa.33.12',
-        },
-      ],
-    },
+    { id: `20220703`, sermon: `America’s Godly Heritage`,                                             scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
 
     {                 divider: `2023` },
-    { id: `20230702`, sermon: `Faith and Freedom`,                                                    scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Fri 09/18/2026',
-           topic:               'Growing Together in Christ',
-           verse:               'Ephesians 4:32',
-           verseRef:            'eph.4.32',
-        },
-      ],
-    },
+    { id: `20230702`, sermon: `Faith and Freedom`,                                                    scripture: `psa.33@@Psalms 33`,           studyGuide: `NONE`, },
 
     {                 divider: `2024` },
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },

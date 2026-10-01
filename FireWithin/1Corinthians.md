@@ -18,7 +18,6 @@ cross is the wisest thing that has ever happened.
 ### At a Glance
 
 - [1 Corinthians Overview](#1-corinthians-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2017 1 Corinthians Series (Mid Week)](#2017-1-corinthians-series-mid-week)
 - [2024 1 Corinthians Series (Sundays)](#2024-1-corinthians-series-sundays)
 
@@ -91,24 +90,6 @@ M{ youTube(`0_LhiD-XNr0`) }M
 
 P{ collapsibleSectionEnd() }P
 
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-1co',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Sun 07/12/2026',  topic: 'A Temple for His Presence',                  verse:   '1 Corinthians 3:16',                     verseRef: '1co.3.16',   },
-     { publicationDate: 'Thu 03/19/2026',  topic: 'Holy Fellowship',                            verse:   '1 Corinthians 5:11',                     verseRef: '1co.5.11',   },
-     { publicationDate: 'Sun 03/08/2026',  topic: 'Guarding the Heart from Small Compromises',  verse:   '1 Corinthians 10:12',                    verseRef: '1co.10.12',  },
-     { publicationDate: 'Wed 08/26/2026',  topic: 'For the Glory of God',                       verse:   '1 Corinthians 10:31',                    verseRef: '1co.10.31',  },
-     { publicationDate: 'Tue 07/14/2026',  topic: 'Give God the Glory',                         verse: /* 1 Corinthians 10:31 */  'Psalms 115:1',  verseRef: 'psa.115.1',  btbContext: 'FromDevoContent##1co.10.31@@1 Corinthians 10:31##Live to glorify God in everything'},
-     { publicationDate: 'Fri 02/27/2026',  topic: 'Wisdom for a Life of Order',                 verse:   '1 Corinthians 14:33',                    verseRef: '1co.14.33',  },
-     { publicationDate: 'Wed 07/22/2026',  topic: 'What Christ Has Restored',                   verse: /* 1 Corinthians 15 */     'Romans 5:19',   verseRef: 'rom.5.19',   btbContext: 'FromDevoContent##1co.15@@1 Corinthians 15##Adam and Christ - Two Representatives'},
-   ]
-}) }M
 
 
 ## 2017 1 Corinthians Series (Mid Week)
