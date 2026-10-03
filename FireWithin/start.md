@@ -97,6 +97,7 @@ M{ youTube(`mpLuM7uXTq8`) }M
   </ul>
 
   <b>Devotions</b><br/>
+  <i style="display: block; line-height: 1;" class="ellipsis-wrap">... please note that devotions have been removed (see <a href="history.html#v28_0">v28.0 release notes</a>), however the "Side Bar:" topics are still relevant.</i>
   <ul>
     <li><span class="video-link" onclick="advanceVideo(0,18,40)"  >18:40</span> Devotions
     <li><span class="video-link" onclick="advanceVideo(0,22,22)"  >22:22</span> &nbsp;&nbsp;&nbsp;Side Bar: Next/Prev Page
