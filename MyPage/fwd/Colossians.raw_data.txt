@@ -1,0 +1,154 @@
+*---------------------------------
+* 2010 Colossians Series (Sundays) WITH Study Guide
+*---------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+>>> NOW OBSOLETE, HOWEVER Study Guides are still available
+
+*** ARCHIVE START **************************************************************
+
+### At a Glance
+
+...
+- [2010 Colossians Series (Sundays)](#2010-colossians-series-sundays)
+...
+
+## 2010 Colossians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _As of 2026, <mark>this series has been archived</mark>
+(i.e. is no longer available ), **however** the Study Guides are still
+available._
+
+M{ sermonSeries({
+  entries: [
+    { id: `20100411`, sermon: `Dig Down, Grow Up, Stand Firm`,          scripture: `col.1@@Colossians 1-2`, },
+    { id: `20100418`, sermon: `Taking Off The Old, Putting On The New`, scripture: `col.3@@Colossians 3-4`, },
+  ]
+}) }M
+
+*** ARCHIVE END ****************************************************************
+
+04/18/2010
+Taking Off The Old, Putting On The New
+Colossians 3-4
+col.3
+
+04/11/2010
+Dig Down, Grow Up, Stand Firm
+Colossians 1-2
+col.1
+
+
+*----------------------------------
+* 2018 Colossians Series (Mid Week) NO Study Guide
+*----------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+01/31/2018
+Teaching
+Colossians 4
+col.4
+
+01/24/2018
+Teaching
+Colossians 3:1-25
+col.3
+
+01/10/2018
+Teaching
+Colossians 1:21-2:23
+col.1
+
+01/03/2018
+Teaching
+Colossians 1:1-18
+col.1
+
+
+*--------------------------
+* Colossians Misc Selection NO Study Guide
+*--------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+03/08/2023
+The Work of Sanctification Part II (Brian Shannon)
+Colossians 3
+col.3
+
+03/01/2023
+The Work of Sanctification (Brian Shannon)
+Colossians 3
+col.3
+
+
+*---------------------------------
+* 2026 Colossians Series (Sundays) WITH Study Guide
+*---------------------------------
+
+NOTE: Order is same as Cornerstone Search App promotion (i.e. REVERSE of web-page promotion)
+
+08/30/2026
+Watch Your Walk, Train Your Talk
+Colossians 4:5-6
+col.4
+
+08/23/2026
+A Surrendered Life to Jesus
+Colossians 4:1-9
+col.4
+
+08/16/2026
+Marriage and Divorce
+Colossians 3:18-25
+col.3
+
+08/09/2026
+Discerning God's Will
+Colossians 3:15-17
+col.3
+
+08/02/2026
+Vertical Living in a Horizontal World
+Colossians 3:1–14
+col.3
+
+07/26/2026
+Avoiding Spiritual Pitfalls
+Colossians 2:16-23
+col.2
+
+06/14/2026
+Complete in Christ
+Colossians 2:11–15
+col.2
+
+06/07/2026
+Warnings to the Church in a Crazy World
+Colossians 2:1-23
+col.2
+
+05/31/2026
+Surviving Suffering
+Colossians 1:24–29
+col.1
+
+05/24/2026
+Reconciled to God
+Colossians 1:19-23
+col.1
+
+05/10/2026
+Jesus Is
+Colossians 1:15–18
+col.1
+
+04/19/2026
+Two Kingdoms in Conflict
+Colossians 1:1-14
+col.1
+

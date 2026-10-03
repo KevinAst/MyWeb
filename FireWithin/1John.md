@@ -13,7 +13,6 @@ around us.
 ### At a Glance
 
 - [1 John Overview](#1-john-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2011 1 John Series (Sundays)](#2011-1-john-series-sundays)
 - [2020 1 John Series (Mid Week)](#2020-1-john-series-mid-week)
 
@@ -83,23 +82,6 @@ M{ youTube(`V2qam7JV2as`) }M
 
 P{ collapsibleSectionEnd() }P
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-// collapsibleSectionID: 'cs-devo-1jn',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Thu 09/17/2026',  topic: 'Cleansed by God’s Grace',        verse: /* 1 John 1:7-9 */  'Isaiah 1:18',      verseRef: 'isa.1.18',    btbContext: 'FromDevoContent##1jn.1.7-9@@1 John 1:7-9##Confession Brings Cleansing'},
-     { publicationDate: 'Wed 06/10/2026',  topic: 'Renewed Purpose',                verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
-     { publicationDate: 'Sat 06/20/2026',  topic: 'The Mercy of the King',          verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
-     { publicationDate: 'Sun 06/28/2026',  topic: 'The Mercy That Restores',        verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
-     { publicationDate: 'Wed 08/05/2026',  topic: 'The God Who Hears the Humble',   verse:   '1 John 1:9',                         verseRef: '1jn.1.9',     },
-     { publicationDate: 'Tue 09/15/2026',  topic: 'When Good Things Become Idols',  verse: /* 1 John 5:21 */  'Jeremiah 10:23',    verseRef: 'jer.10.23',   btbContext: 'FromDevoContent##1jn.5.21@@1 John 5:21##Reject Every Idol'},
-   ]
-}) }M
-
 
 ## 2011 1 John Series (Sundays)
 
@@ -124,28 +106,7 @@ M{ sermonSeries({
   includeStudyGuide: false,
   seriesType: 'MidWeek',
   entries: [
-    { id: `20191120`, scripture: `1jn.1@@1 John 1`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Wed 06/10/2026',
-           topic:               'Renewed Purpose',
-           verse:               '1 John 1:9',
-           verseRef:            '1jn.1.9',
-        },
-        {
-           publicationDate:     'Sat 06/20/2026',
-           topic:               'The Mercy of the King',
-           verse:               '1 John 1:9',
-           verseRef:            '1jn.1.9',
-        },
-        {
-           publicationDate:     'Wed 08/05/2026',
-           topic:               'The God Who Hears the Humble',
-           verse:               '1 John 1:9',
-           verseRef:            '1jn.1.9',
-        },
-      ],
-    },
+    { id: `20191120`, scripture: `1jn.1@@1 John 1`,        },
     { id: `20191204`, scripture: `1jn.2@@1 John 2:1-23`,   },
     { id: `20200108`, scripture: `1jn.2@@1 John 2:18-3:3`, },
     { id: `20200115`, scripture: `1jn.3@@1 John 3:3-24`,   },

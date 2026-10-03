@@ -13,7 +13,6 @@ how Jesus fulfills it.
 ### At a Glance
 
 - [Matthew Overview](#matthew-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2013 Matthew Series (Mid Week)](#2013-matthew-series-mid-week)
 - [2020 Matthew Series (Sundays)](#2020-matthew-series-sundays)
 
@@ -90,29 +89,6 @@ M{ youTube(`F8QsCLwSMVM`) }M
 
 P{ collapsibleSectionEnd() }P
 
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-mat',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Fri 02/20/2026',  topic: 'The Gift of Salvation',             verse:   'Matthew 1:21',                             verseRef: 'mat.1.21',   },
-     { publicationDate: 'Sun 08/30/2026',  topic: 'Take Every Thought Captive',        verse: /* Matthew 4:1-11 */  '2 Corinthians 10:5',   verseRef: '2co.10.5',   btbContext: 'FromDevoContent##mat.4.1-11@@Matthew 4:1-11##Answering Temptation with Truth'},
-     { publicationDate: 'Thu 09/10/2026',  topic: 'Our Hope Is in Christ',             verse: /* Matthew 5:13-16 */  'Philippians 3:20',    verseRef: 'php.3.20',   btbContext: 'FromDevoContent##mat.5.13-16@@Matthew 5:13-16##Influence the World for Christ'},
-     { publicationDate: 'Fri 05/01/2026',  topic: 'A Life That Points to the Lord',    verse:   'Matthew 5:16',                             verseRef: 'mat.5.16',   },
-     { publicationDate: 'Sat 03/28/2026',  topic: 'Seeking a Godly Spouse',            verse:   'Matthew 6:33',                             verseRef: 'mat.6.33',   },
-     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',                verse: /* Matthew 7:3-5 */  'Mark 7:6-7',            verseRef: 'mrk.7.6-7',  btbContext: 'FromDevoContent##mat.7.3-5@@Matthew 7:3-5##Remove the Plank First'},
-     { publicationDate: 'Sat 09/19/2026',  topic: 'The Rest You Need',                 verse: /* Matthew 11:28-30 */  'Hebrews 4:9-10',     verseRef: 'heb.4.9-10', btbContext: 'FromDevoContent##mat.11.28-30@@Matthew 11:28-30##Rest for Your Soul'},
-     { publicationDate: 'Wed 09/09/2026',  topic: 'Hold Fast to the True Jesus',       verse: /* Matthew 16:15-16 */ '2 Corinthians 11:4',  verseRef: '2co.11.4',   btbContext: 'FromDevoContent##mat.16.15-16@@Matthew 16:15-16##Peter Confesses the True Jesus'},
-     { publicationDate: 'Thu 05/21/2026',  topic: 'Salvation in the Tribulation',      verse:   'Matthew 24:14',                            verseRef: 'mat.24.14',  },
-     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',              verse: /* Matthew 27:24   */ 'Galatians 1:10',       verseRef: 'gal.1.10',   btbContext: 'FromDevoContent##mat.27.24@@Matthew 27:24##Jesus Before Pilate [Kingdom and Truth]', },
-     { publicationDate: 'Sat 05/23/2026',  topic: 'The Empty Tomb',                    verse:   'Matthew 28:6',                             verseRef: 'mat.28.6',   },
-     { publicationDate: 'Fri 03/27/2026',  topic: 'Baptized in the Name of the Lord',  verse:   'Matthew 28:19',                            verseRef: 'mat.28.19',  },
-   ]
-}) }M
 
 
 
@@ -195,16 +171,7 @@ M{ sermonSeries({
     { id: `20210207`, sermon: `Understanding God’s Anger`,                       scripture: `mat.21@@Matthew 21:12-13`,  },
     { id: `20210214`, sermon: `The Other Side of the Coin`,                      scripture: `mat.22@@Matthew 22`,        },
     { id: `20210221`, sermon: `Don’t Be a Hypocrite`,                            scripture: `mat.23@@Matthew 23`,        },
-    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Thu 05/21/2026',
-           topic:               'Salvation in the Tribulation',
-           verse:               'Matthew 24:14',
-           verseRef:            'mat.24.14',
-        },
-      ],
-    },
+    { id: `20210228`, sermon: `Signs of the Times`,                              scripture: `mat.24@@Matthew 24`,        },
     { id: `20210307`, sermon: `Get Ready ‘cause Here I Come Pt.1`,               scripture: `mat.24@@Matthew 24:45-51`,  },
     { id: `20210314`, sermon: `Get Ready ‘cause Here I Come Pt.2`,               scripture: `mat.25@@Matthew 25:1-13`,   },
     { id: `20210321`, sermon: `Get Ready ‘cause Here I Come Pt.3`,               scripture: `mat.25@@Matthew 25:14-30`,  },

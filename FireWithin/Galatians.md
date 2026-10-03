@@ -31,7 +31,6 @@ becomes more and more beautiful to you.
 ### At a Glance
 
 - [Galatians Overview](#galatians-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2017 Galatians Series (Mid Week)](#2017-galatians-series-mid-week)
 - [2025 Galatians Series (Sundays)](#2025-galatians-series-sundays)
 
@@ -108,27 +107,6 @@ M{ youTube(`SnBQG07x0ow`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-gal',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',            verse:   'Galatians 1:10',                         verseRef: 'gal.1.10',      },
-     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',               verse:   'Galatians 1:10',                         verseRef: 'gal.1.10',      },
-     { publicationDate: 'Sun 08/23/2026',  topic: 'An Undivided Heart',              verse: /* Galatians 2:11-14 */  'Mark 7:6-7',      verseRef: 'mrk.7.6-7',     btbContext: 'FromDevoContent##gal.2.11-14@@Galatians 2:11-14##Peter’s Struggle with Hypocrisy'},
-     { publicationDate: 'Mon 08/31/2026',  topic: 'Christ in You',                   verse: /* Galatians 2:20 */     'Colossians 1:27', verseRef: 'col.1.27',      btbContext: 'FromDevoContent##gal.2.20@@Galatians 2:20##Christ Lives in Me'},
-     { publicationDate: 'Sat 05/02/2026',  topic: 'One in Christ',                   verse: /* Galatians 3:28  */    'John 17:20–21',   verseRef: 'jhn.17.20-21',  btbContext: 'FromDevoSermon##gal.3.28@@Galatians 3:28##One in Christ', },
-     { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',               verse:   'Galatians 5:1',                          verseRef: 'gal.5.1',       },
-     { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',               verse: /* Galatians 5:16-18 */  'Galatians 5:1',   verseRef: 'gal.5.1',       btbContext: 'FromDevoContent##gal.5.16-18@@Galatians 5:16-18##Walk by the Spirit'},
-     { publicationDate: 'Sat 07/04/2026',  topic: 'True Independence',               verse: /* Galatians 5:22-23 */  'Galatians 5:1',   verseRef: 'gal.5.1',       btbContext: 'FromDevoContent##gal.5.22-23@@Galatians 5:22-23##The Fruit of the Spirit'},
-     { publicationDate: 'Tue 04/28/2026',  topic: 'The Battle Belongs to the Lord',  verse: /* Galatians 5     */    '1 Samuel 17:47',  verseRef: '1sa.17.47',     btbContext: 'FromDevoSermon##gal.5@@Galatians 5##The Battle of the Flesh and Spirit', },
-     { publicationDate: 'Fri 06/05/2026',  topic: 'Strength Through One Another',    verse:   'Galatians 6:2',                          verseRef: 'gal.6.2',       },
-   ]
-}) }M
-
 
 ## 2017 Galatians Series (Mid Week)
 
@@ -156,36 +134,12 @@ M{ sermonSeries({
   collapsibleSectionID: 'ss-gal-2025',
   seriesType: 'Sundays',
   entries: [
-    { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,  },
+    { id: `20250817`, sermon: `Jesus Plus Anything Ruins Everything`, scripture: `gal.1@@Galatians 1`,    },
     { id: `20250824`, sermon: `Overcoming "Quiet Christianity"`,      scripture: `gal.2@@Galatians 2`,    },
     { id: `20250831`, sermon: `Reverse of the Curse`,                 scripture: `gal.3@@Galatians 3`,    },
-    { id: `20250907`, sermon: `One in Christ`,                        scripture: `gal.3@@Galatians 3`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 05/02/2026',
-           topic:               'One in Christ',
-           verse:               'John 17:20–21',
-           verseRef:            'jhn.17.20-21',
-        },
-      ],
-    },
+    { id: `20250907`, sermon: `One in Christ`,                        scripture: `gal.3@@Galatians 3`,    },
     { id: `20250914`, sermon: `When Truth Draws Enemies`,             scripture: `gal.4@@Galatians 4:16`, },
-    { id: `20250921`, sermon: `The Battle of the Flesh and Spirit`,   scripture: `gal.5@@Galatians 5`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 07/04/2026',
-           topic:               'True Independence',
-           verse:               'Galatians 5:1',
-           verseRef:            'gal.5.1',
-        },
-        {
-           publicationDate:     'Tue 04/28/2026',
-           topic:               'The Battle Belongs to the Lord',
-           verse:               '1 Samuel 17:47',
-           verseRef:            '1sa.17.47',
-        },
-      ],
-    },
+    { id: `20250921`, sermon: `The Battle of the Flesh and Spirit`,   scripture: `gal.5@@Galatians 5`,    },
     { id: `20250928`, sermon: `You Reap What You Sow`,                scripture: `gal.6@@Galatians 6`,    },
   ]
 }) }M

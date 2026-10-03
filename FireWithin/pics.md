@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 619**          _... categorized below!!_
-> <br/> **Photos: 50,516**       _... Yikes!!!_
+> <br/> **Albums: 621          _... categorized below!!_
+> <br/> **Photos: 50,713**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -210,6 +210,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Juni Birthday
 
 - 09/2026: 5 [Juni is 5! (9/2026)](https://photos.google.com/share/AF1QipPgYigoUxubHAJisRNF_e7sDt6VNE7uFvv6kiEQTAuqmxhrAdAZC0OBiDwaHNHujQ?key=SkRjWW0tNzdNLUg3cWQ3WnBDY1VYeV9fWlE4Zk1n) _(211 pics)_
+  * Juni Birthday Trip: [Juni's 6 Flags Birthday Outing (9/26/2026)](https://photos.google.com/share/AF1QipMwk3u4roy6g0RW8uzfoWgBFeKy99Hgg5vqmnYsMZC53Yep2FB1vi3jA7VHq2sWNQ?key=QTVDMWpOeGFJVXo4NUM1aDdiOENoQktyeWl0QVhn) _(184 pics)_
 - 10/2025: 4 [Juni's Birthday Outing with Mimi and Papaw](https://photos.google.com/share/AF1QipPeCxXgm0UGVvDshG4-nnaenHHkMZwsOW-pE6iKumDzTHayXxmgEvBDvk5SlPX1Yg?key=Z1ZjaWV5X05TNlJGMXJCS2hwemFDZTllUjNNZFBn) _(28 pics)_
 - 09/2025: 4 [Juni Birthday](https://photos.google.com/share/AF1QipOCtEd-HB_K0zXvXCzGqdfhfe5F_eXV3f229xdRmTabyvJvWfTrgDuSEhsJPvEfFg?key=ZUV3a2JNdjZLMHRQcTdELVdQcDRWa2JKYWJkSFFR) _(115 pics)_
 - 09/2024: 3 [Juni is 3 :-)](https://photos.google.com/share/AF1QipOT7ip08-VjdvUjI8bVCQExi-8kpuAGqQ-2bYNS_nZwzeKCJ8xVNRSjQ444u6u3jA?key=ODY1SkRzTFNZaGM4VlB2T1ZBQVRoRzd4WURmWGxB) _(187 pics)_
@@ -815,6 +816,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 ### Hiking
+
+- 2026 09: [Chandler Group Diamond Mineral Springs (9/27/2026)](https://photos.google.com/share/AF1QipNv4_Ossh8zPWBST7Od5NYBuNVMClU0UjM5WiPxNs6ADR3S5G6QcKFIQyaKGl6ltw?key=QlR6bnE5X2NMbVZKdDFpMHJSY25VYi0xdFlKczF3) (13 pics)
+
 
 - 2025 11: [Silver Lake Hike at Highland](https://photos.google.com/share/AF1QipMLFp5U1RFqO27SBh7cGbad5BSwiQdSaw4kNqaW8BjkTNQ-J-V_Vsqy-9PBXvYXcg?key=ZVNsNENUdDVjSldkT2VmV3J5cFRHRFFsTXJhc1pn) _(20 pics)_
 

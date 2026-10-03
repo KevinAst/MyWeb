@@ -451,6 +451,8 @@ content of an entire sermon series.
                              // - `04/18/2021` - when entry id is either NOT accurate, or is in a NON-CornerStone format
                              // - `DeepDive:ytHash@@desc[##ytHash@@desc...]` - SPECIAL CHOSEN PROCESSOR
                              //                                                replace date entry with one or more "Deep Dive" YouTube video links
+
+        NOTE: The relatedDevotions parameter been deprecated and should NOT be used!
         relatedDevotions: [  // provide 1-or-more Related Devotions to this given sermon entry
           {                  // ... this is a standard devotion entry, used by our devoGHSeries() macro
              publicationDate: `Mon 05/18/2026`,
@@ -873,6 +875,8 @@ P{ inject('</div>') }P
 
 ### devoGHStart()
 
+NOTE: This macro has been deprecated and should NOT be used!
+
 **API**: `devoGHStart(namedParams)`
 
 Inject the HTML content to render the first part of a Daily Devotion
@@ -919,6 +923,8 @@ with the [devoGHEnd()] macro which will close out all HTML constructs.
 
 ### devoGHEnd()
 
+NOTE: This macro has been deprecated and should NOT be used!
+
 Continue injection of the second part of our Daily Devotion.
 
 This macro injects the HTML that 
@@ -937,6 +943,8 @@ HTML constructs.
 
 ### devoGHClose()
 
+NOTE: This macro has been deprecated and should NOT be used!
+
 Inject the HTML content that closes out the Daily Devotion.
 
 This macro should be used with the Post Process Tag (`P{`), just like the 
@@ -946,6 +954,8 @@ This macro should be used with the Post Process Tag (`P{`), just like the
 
 
 ### devoGHSeries()
+
+NOTE: This macro has been deprecated and should NOT be used!
 
 **API**: `devoGHSeries(namedParams)`
 

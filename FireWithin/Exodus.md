@@ -15,7 +15,6 @@ a new and better salvation.
 ### At a Glance
 
 - [Exodus Overview](#exodus-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [The Ten Commandments](#the-ten-commandments)
 - [Exodus Series (Sundays)](#exodus-series-sundays)
 
@@ -97,19 +96,6 @@ M{ youTube(`LpS50a4CmXM`) }M
 
 P{ collapsibleSectionEnd() }P
 
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Tue 05/19/2026',  topic: 'The Lamb Who Was Given',   verse: /* Exodus 12     */ 'John 1:29',          verseRef: 'jhn.1.29',   btbContext: 'FromDevoContent##exo.12@@Exodus 12##The First Passover', },
-     { publicationDate: 'Tue 04/07/2026',  topic: 'Covered by the Blood',     verse:   'Exodus 12:13',                         verseRef: 'exo.12.13',  },
-     { publicationDate: 'Fri 05/08/2026',  topic: 'Life Through the Spirit',  verse: /* Exodus 19-20  */ '2 Corinthians 3:6',  verseRef: '2co.3.6',    btbContext: 'FromDevoContent##exo.19@@Exodus 19-20##Pentecost - Old Testament' },
-   ]
-}) }M
 
 
 

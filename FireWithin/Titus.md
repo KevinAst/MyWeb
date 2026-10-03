@@ -11,7 +11,6 @@ presence of the Church can transform hostile cultures.
 ### At a Glance
 
 - [Titus Overview](#titus-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Titus Series (Sundays)](#2010-titus-series-sundays)
 - [2018 Titus Series (Mid Week)](#2018-titus-series-mid-week)
 
@@ -84,21 +83,6 @@ M{ youTube(`AmNUgBbmeKE`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Wed 09/16/2026',  topic: 'Grace That Teaches Us',       verse:   'Titus 2:11',                               verseRef: 'tit.2.11',   },
-     { publicationDate: 'Wed 07/29/2026',  topic: 'Waiting With Confidence',     verse: /* Titus 2:11-13 */  '1 Thessalonians 4:16',  verseRef: '1th.4.16',   btbContext: 'FromDevoContent##tit.2.11-13@@Titus 2:11-13##Living for Christ’s Return'},
-     { publicationDate: 'Mon 08/17/2026',  topic: 'A Life Shaped by Godliness',  verse: /* Titus 2:11-14 */  '2 Timothy 3:5',         verseRef: '2ti.3.5',    btbContext: 'FromDevoContent##tit.2.11-14@@Titus 2:11-14##Grace That Transforms'},
-     { publicationDate: 'Tue 06/02/2026',  topic: 'The King’s Mercy',            verse:   'Titus 3:4-5',                              verseRef: 'tit.3.4-5',  },
-   ]
-}) }M
-
-
 
 ## 2010 Titus Series (Sundays)
 
@@ -123,15 +107,6 @@ M{ sermonSeries({
   seriesType: 'MidWeek',
   entries: [
     { id: `20180912`, scripture: `tit.1@@Titus 1`,   },
-    { id: `20181003`, scripture: `tit.2@@Titus 2-3`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Wed 09/16/2026',
-           topic:               'Grace That Teaches Us',
-           verse:               'Titus 2:11',
-           verseRef:            'tit.2.11',
-        },
-      ],
-    },
+    { id: `20181003`, scripture: `tit.2@@Titus 2-3`, },
   ]
 }) }M

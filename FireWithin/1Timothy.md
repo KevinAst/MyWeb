@@ -10,7 +10,6 @@ faithful and encourages him with the good news about Jesus.
 ### At a Glance
 
 - [1 Timothy Overview](#1-timothy-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 1 Timothy Series (Sundays)](#2010-1-timothy-series-sundays)
 - [2018 1 Timothy Series (Mid Week)](#2018-1-timothy-series-mid-week)
 
@@ -83,18 +82,6 @@ M{ youTube(`kr1YfYbSg94`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-1ti',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 08/24/2026',  topic: 'Train Yourself for Godliness',       verse: '1 Timothy 4:8',      verseRef: '1ti.4.8',  },
-   ]
-}) }M
-
 
 ## 2010 1 Timothy Series (Sundays)
 
@@ -125,16 +112,7 @@ M{ sermonSeries({
     { id: `20180613`, scripture: `1ti.2@@1 Timothy 2:5-11`,   },
     { id: `20180620`, scripture: `1ti.2@@1 Timothy 2:12-3:2`, },
     { id: `20180627`, scripture: `1ti.3@@1 Timothy 3`,        },
-    { id: `20180711`, scripture: `1ti.4@@1 Timothy 4`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 08/24/2026',
-           topic:               'Train Yourself for Godliness',
-           verse:               '1 Timothy 4:8',
-           verseRef:            '1ti.4.8',
-        },
-      ],
-    },
+    { id: `20180711`, scripture: `1ti.4@@1 Timothy 4`,        },
     { id: `20180725`, scripture: `1ti.6@@1 Timothy 5`,        },
     { id: `20180801`, scripture: `1ti.6@@1 Timothy 6`,        },
   ]

@@ -14,7 +14,6 @@ cross.
 ### At a Glance
 
 - [Isaiah Overview](#isaiah-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2018 Isaiah Series (Sundays)](#2018-isaiah-series-sundays)
 
 
@@ -95,27 +94,6 @@ M{ youTube(`4jfKdCEGwF0`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-isa',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Thu 09/17/2026',  topic: 'Cleansed by God’s Grace',                     verse:   'Isaiah 1:18',                      verseRef: 'isa.1.18',    },
-     { publicationDate: 'Mon 03/16/2026',  topic: 'The Prince of Peace and the Sword',           verse:   'Isaiah 9:6',                       verseRef: 'isa.9.6',     },
-     { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',                  verse:   'Isaiah 28:16',                     verseRef: 'isa.28.16',   },
-     { publicationDate: 'Mon 04/20/2026',  topic: 'Waiting in Trust',                            verse: /* Isaiah 30-31  */ 'Psalms 27:14',   verseRef: 'psa.27.14',   btbContext: 'FromDevoSermon##isa.30@@Isaiah 30-31##God is Waiting for You',  },
-     { publicationDate: 'Tue 09/01/2026',  topic: 'Strength in the Desert',                      verse:   'Isaiah 35:3',                      verseRef: 'isa.35.3',    },
-     { publicationDate: 'Mon 08/03/2026',  topic: 'The God Who Sees Your Burden',                verse: /* Isaiah 41:10 */  'Psalms 42:11',   verseRef: 'psa.42.11',   btbContext: 'FromDevoContent##isa.41.10@@Isaiah 41:10##Strength in God’s Presence'},
-     { publicationDate: 'Sat 09/12/2026',  topic: 'Leave the Past Under Grace',                  verse:   'Isaiah 43:25',                     verseRef: 'isa.43.25',   },
-     { publicationDate: 'Sat 08/22/2026',  topic: 'Worthy of Worship',                           verse:   'Isaiah 45:5',                      verseRef: 'isa.45.5',    },
-     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                           verse: /* Isaiah 53:3   */ 'Galatians 1:10', verseRef: 'gal.1.10',    btbContext: 'FromDevoContent##isa.53.3@@Isaiah 53:3##Jesus endured rejection, but was faithful to His Father'},
-     { publicationDate: 'Mon 06/01/2026',  topic: 'Trusting the Lord When We Do Not Understand', verse:   'Isaiah 55:8-9',                    verseRef: 'isa.55.8-9',  },
-     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',                 verse: /* Isaiah 61:1-3 */ 'John 8:36',      verseRef: 'jhn.8.36',    btbContext: 'FromDevoContent##isa.61.1-3@@Isaiah 61:1-3##Jesus Announces His Mission'},
-   ]
-}) }M
 
 
 ## 2018 Isaiah Series (Sundays)
@@ -126,74 +104,20 @@ M{ sermonSeries({
   collapsibleSectionID: 'ss-isa-2018',
   seriesType: 'Sundays',
   entries: [
-    { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Thu 09/17/2026',
-           topic:               'Cleansed by God’s Grace',
-           verse:               'Isaiah 1:18',
-           verseRef:            'isa.1.18',
-        },
-      ],
-    },
+    { id: `20180429`, sermon: `Let's Reason Together`,                     scripture: `isa.1@@Isaiah 1-5`,    },
     { id: `20180506`, sermon: `God's Calling`,                             scripture: `isa.6@@Isaiah 6`,      },
     { id: `20180513`, sermon: `Mission Messiah: Jesus is Born`,            scripture: `isa.7@@Isaiah 7-9`,    },
     { id: `20180520`, sermon: `Who Is Satan?`,                             scripture: `isa.14@@Isaiah 14`,    },
     { id: `20180527`, sermon: `Perfect Peace`,                             scripture: `isa.24@@Isaiah 24-27`, },
-    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Fri 08/28/2026',
-           topic:               'Christ Our Sure Foundation',
-           verse:               'Isaiah 28:16',
-           verseRef:            'isa.28.16',
-        },
-      ],
-    },
+    { id: `20180603`, sermon: `Jesus Our Cornerstone`,                     scripture: `isa.28@@Isaiah 28`,    },
     { id: `20180610`, sermon: `All Talk but No Walk`,                      scripture: `isa.29@@Isaiah 29`,    },
-    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 04/20/2026',
-           topic:               'Waiting in Trust',
-           verse:               'Psalms 27:14',
-           verseRef:            'psa.27.14',
-        },
-      ],
-    },
-    { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Tue 09/01/2026',
-           topic:               'Strength in the Desert',
-           verse:               'Isaiah 35:3',
-           verseRef:            'isa.35.3',
-        },
-      ],
-    },
+    { id: `20180617`, sermon: `God is Waiting for You`,                    scripture: `isa.30@@Isaiah 30-31`, },
+    { id: `20180624`, sermon: `Out of the Desert`,                         scripture: `isa.31@@Isaiah 31-35`, },
     { id: `20180701`, sermon: `Why Pray?`,                                 scripture: `isa.36@@Isaiah 36-38`, },
     { id: `20180722`, sermon: `A Tale of Two Glories`,                     scripture: `isa.39@@Isaiah 39-40`, },
     { id: `20180729`, sermon: `Don't Be Afraid`,                           scripture: `isa.41@@Isaiah 41-43`, },
-    { id: `20180805`, sermon: `Forget the Past`,                           scripture: `isa.43@@Isaiah 43`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 09/12/2026',
-           topic:               'Leave the Past Under Grace',
-           verse:               'Isaiah 43:25',
-           verseRef:            'isa.43.25',
-        },
-      ],
-    },
-    { id: `20180812`, sermon: `The One True God`,                          scripture: `isa.44@@Isaiah 44-49`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 08/22/2026',
-           topic:               'Worthy of Worship',
-           verse:               'Isaiah 45:5',
-           verseRef:            'isa.45.5',
-        },
-      ],
-    },
+    { id: `20180805`, sermon: `Forget the Past`,                           scripture: `isa.43@@Isaiah 43`,    },
+    { id: `20180812`, sermon: `The One True God`,                          scripture: `isa.44@@Isaiah 44-49`, },
     { id: `20180819`, sermon: `Jesus the Messiah`,                         scripture: `isa.50@@Isaiah 50-53`, },
     { id: `20180826`, sermon: `Seek the Lord`,                             scripture: `isa.54@@Isaiah 54-55`, },
     { id: `20180902`, sermon: `All Are Welcome`,                           scripture: `isa.56@@Isaiah 56`,    },

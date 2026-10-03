@@ -20,7 +20,6 @@ in Jesus!
 ### At a Glance
 
 - [Ezekiel Overview](#ezekiel-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2019 Ezekiel Series (Sundays)](#2019-ezekiel-series-sundays)
 
 
@@ -100,20 +99,6 @@ M{ youTube(`EfIJsnuzHCk`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-ezk',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 09/14/2026',  topic: 'God Gives a New Heart',                 verse: 'Ezekiel 36:26',     verseRef: 'ezk.36.26',   },
-     { publicationDate: 'Mon 07/27/2026',  topic: 'The God Who Keeps His Promises',        verse: 'Ezekiel 37:14',     verseRef: 'ezk.37.14',   },
-   ]
-}) }M
-
-
 
 ## 2019 Ezekiel Series (Sundays)
 
@@ -129,22 +114,7 @@ M{ sermonSeries({
     { id: `20190616`, sermon: `Stand in the Gap`,                  scripture: `ezk.22@@Ezekiel 22`,    },
     { id: `20190630`, sermon: `Know Your Enemy`,                   scripture: `ezk.28@@Ezekiel 28`,    },
     { id: `20190721`, sermon: `Losing Sin Weight`,                 scripture: `ezk.33@@Ezekiel 33`,    },
-    { id: `20190804`, sermon: `Israel and the End Times - Part 1`, scripture: `ezk.36@@Ezekiel 36-37`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 07/27/2026',
-           topic:               'The God Who Keeps His Promises',
-           verse:               'Ezekiel 37:14',
-           verseRef:            'ezk.37.14',
-        },
-        {
-           publicationDate:     'Mon 09/14/2026',
-           topic:               'God Gives a New Heart',
-           verse:               'Ezekiel 36:26',
-           verseRef:            'ezk.36.26',
-        },
-      ],
-    },
+    { id: `20190804`, sermon: `Israel and the End Times - Part 1`, scripture: `ezk.36@@Ezekiel 36-37`, },
     { id: `20190818`, sermon: `Israel and the End Times – Part 2`, scripture: `ezk.38@@Ezekiel 38-39`, },
     { id: `20190825`, sermon: `Israel and the End Times – Part 3`, scripture: `ezk.40@@Ezekiel 40-48`, },
   ]

@@ -11,7 +11,6 @@ been joined to a new family grounded in Jesus.
 ### At a Glance
 
 - [1 Peter Overview](#1-peter-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2011 1 Peter Series (Sundays)](#2011-1-peter-series-sundays)
 - [2019 1 Peter Series (Mid Week)](#2019-1-peter-series-mid-week)
 
@@ -86,21 +85,6 @@ P{ collapsibleSection({
 M{ youTube(`763lN1683rI`) }M
 
 P{ collapsibleSectionEnd() }P
-
-
-
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'cs-devo-1pe',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Fri 08/28/2026',  topic: 'Christ Our Sure Foundation',        verse: /* 1 Peter 2:4-6 */  'Isaiah 28:16',   verseRef: 'isa.28.16',    btbContext: 'FromDevoContent##1pe.2.4-6@@1 Peter 2:4-6##Built on Christ, the Cornerstone'},
-     { publicationDate: 'Wed 07/15/2026',  topic: 'Honoring God Above All',            verse:   '1 Peter 2:13-14',                   verseRef: '1pe.2.13-14',  },
-   ]
-}) }M
 
 
 

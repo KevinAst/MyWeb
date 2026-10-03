@@ -19,7 +19,6 @@ will they endure persecution to receive what is better in Jesus?
 ### At a Glance
 
 - [Hebrews Overview](#hebrews-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2010 Hebrews Series (Sundays)](#2010-hebrews-series-sundays)
 - [2019 Hebrews Series (Mid Week)](#2019-hebrews-series-mid-week)
 
@@ -99,30 +98,6 @@ M{ youTube(`Jssm1ZUDTW0`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-heb',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Fri 08/14/2026',  topic: 'Guarding Against Small Compromises',   verse: /* Hebrews 3:12-13 */  '1 Kings 8:61',     verseRef: '1ki.8.61',      btbContext: 'FromDevoContent##heb.3.12-13@@Hebrews 3:12-13##Guard Your Heart from Drifting'},
-     { publicationDate: 'Fri 09/04/2026',  topic: 'Respond While God Is Speaking',        verse: /* Hebrews 3:15 */  '2 Chronicles 36:15',  verseRef: '2ch.36.15',     btbContext: 'FromDevoContent##heb.3.15@@Hebrews 3:15##Respond Today'},
-     { publicationDate: 'Sat 09/19/2026',  topic: 'The Rest You Need',                    verse:   'Hebrews 4:9-10',                        verseRef: 'heb.4.9-10',    },
-     { publicationDate: 'Mon 03/30/2026',  topic: 'One Word One Message',                 verse:   'Hebrews 4:12',                          verseRef: 'heb.4.12',      },
-     { publicationDate: 'Sat 08/01/2026',  topic: 'Our Great High Priest',                verse:   'Hebrews 4:15',                          verseRef: 'heb.4.15',      },
-     { publicationDate: 'Tue 02/17/2026',  topic: 'From Death to Life in Christ',         verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
-     { publicationDate: 'Mon 06/08/2026',  topic: 'No Convenient Time',                   verse:   'Hebrews 9:27',                          verseRef: 'heb.9.27',      },
-     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                    verse: /* Hebrews 11:7 */    'Galatians 1:10',    verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##heb.11.7@@Hebrews 11:7##Noah built the ark while others mocked'},
-     { publicationDate: 'Sun 03/01/2026',  topic: 'The God Who Redeems the Weak',         verse:   'Hebrews 11:32-33',                      verseRef: 'heb.11.32-33',  },
-     { publicationDate: 'Wed 06/24/2026',  topic: 'Finishing the Race Well',              verse: /* Hebrews 12:1-2 */  'Acts 20:24',        verseRef: 'act.20.24',     btbContext: 'FromDevoContent##heb.12.1-2@@Hebrews 12:1-2##Fixing our eyes on Christ'},
-     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                    verse: /* Hebrews 12:2-3 */  'Galatians 1:10',    verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##heb.12.2-3@@Hebrews 12:2-3##Jesus endured rejection, but was faithful to His Father'},
-     { publicationDate: 'Wed 05/20/2026',  topic: 'From Bitter to Better',                verse:   'Hebrews 12:15',                         verseRef: 'heb.12.15',     },
-     { publicationDate: 'Sun 09/13/2026',  topic: 'The Better Mountain',                  verse:   'Hebrews 12:22,24',                      verseRef: 'heb.12.22-24',  },
-   ]
-}) }M
-
 
 ## 2010 Hebrews Series (Sundays)
 
@@ -159,26 +134,8 @@ M{ sermonSeries({
     { id: `20181017`, scripture: `heb.1@@Hebrews 1`,            },
     { id: `20181024`, scripture: `heb.2@@Hebrews 2`,            },
     { id: `20181107`, scripture: `heb.3@@Hebrews 3`,            },
-    { id: `20181114`, scripture: `heb.4@@Hebrews 4:1-13`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 09/19/2026',
-           topic:               'The Rest You Need',
-           verse:               'Hebrews 4:9-10',
-           verseRef:            'heb.4.9-10',
-        },
-      ],
-    },
-    { id: `20181128`, scripture: `heb.4@@Hebrews 4:14-5:12`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sat 08/01/2026',
-           topic:               'Our Great High Priest',
-           verse:               'Hebrews 4:15',
-           verseRef:            'heb.4.15',
-        },
-      ],
-    },
+    { id: `20181114`, scripture: `heb.4@@Hebrews 4:1-13`,       },
+    { id: `20181128`, scripture: `heb.4@@Hebrews 4:14-5:12`,    },
     { id: `20181205`, scripture: `heb.6@@Hebrews 6:1-3`,        },
     { id: `20181212`, scripture: `heb.6@@Hebrews 6:4-6`,        },
     { id: `20190102`, scripture: `heb.6@@Hebrews 6:7-7`,        },
@@ -191,15 +148,6 @@ M{ sermonSeries({
     { id: `20190313`, scripture: `heb.11@@Hebrews 11:33-40`,    },
     { id: `20190320`, scripture: `heb.12@@Hebrews 12:1-13`,     },
     { id: `20190327`, scripture: `heb.12@@Hebrews 12:14-17`,    },
-    { id: `20190403`, scripture: `heb.12@@Hebrews 12:18-13:25`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Sun 09/13/2026',
-           topic:               'The Better Mountain',
-           verse:               'Hebrews 12:22,24',
-           verseRef:            'heb.12.22-24',
-        },
-      ],
-    },
+    { id: `20190403`, scripture: `heb.12@@Hebrews 12:18-13:25`, },
   ]
 }) }M

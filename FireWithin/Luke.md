@@ -17,7 +17,6 @@ blindness, we can see him and the scriptures as they truly are.
 ### At a Glance
 
 - [Luke Overview](#luke-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2014 Luke Series (Mid Week)](#2014-luke-series-mid-week)
 - [2022 Luke Series (Sundays)](#2022-luke-series-sundays)
 
@@ -100,36 +99,6 @@ M{ youTube(`4kMbN9bwgM8`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-luk',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Thu 08/06/2026',  topic: 'The Savior Who Sets Us Free',             verse: /* Luke 4:16-21 */    'John 8:36',          verseRef: 'jhn.8.36',      btbContext: 'FromDevoContent##luk.4.16-21@@Luke 4:16-21##Jesus Announces His Mission'},
-     { publicationDate: 'Sat 08/29/2026',  topic: 'The Seriousness of Sin',                  verse: /* Luke 7:36-50 */    'Romans 3:10',        verseRef: 'rom.3.10',      btbContext: 'FromDevoContent##luk.7.36-50@@Luke 7:36-50##Faith That Receives Forgiveness'},
-     { publicationDate: 'Fri 05/29/2026',  topic: 'Guarding Your Walk With Christ',          verse: /* Luke 13:22-30   */ '2 Corinthians 6:14', verseRef: '2co.6.14',      btbContext: 'FromDevoSermon##luk.13.22-30@@Luke 13:22-30##Walk Through that Door',  },
-     { publicationDate: 'Tue 02/24/2026',  topic: 'Faithful With What Belongs to God',       verse:   'Luke 16:13',                             verseRef: 'luk.16.13',     },
-     { publicationDate: 'Thu 06/04/2026',  topic: 'Faithful Unto Death',                     verse: /* Luke 16:19-31   */ 'Acts 7:55',          verseRef: 'act.7.55',      btbContext: 'FromDevoSermon##luk.16.19-31@@Luke 16:19-31##Life After Death',  },
-     { publicationDate: 'Sat 02/28/2026',  topic: 'Faithful in the Days of the Son of Man',  verse:   'Luke 17:28-30',                          verseRef: 'luk.17.28-30',  },
-     { publicationDate: 'Mon 03/02/2026',  topic: 'Persistent Faith in Prayer',              verse:   'Luke 18:1',                              verseRef: 'luk.18.1',      },
-     { publicationDate: 'Thu 03/05/2026',  topic: 'Crying Out for Mercy',                    verse:   'Luke 18:38',                             verseRef: 'luk.18.38',     },
-     { publicationDate: 'Sat 03/07/2026',  topic: 'When Jesus Calls Your Name',              verse:   'Luke 19:10',                             verseRef: 'luk.19.10',     },
-     { publicationDate: 'Mon 03/09/2026',  topic: 'When Jesus Weeps',                        verse:   'Luke 19:41',                             verseRef: 'luk.19.41',     },
-     { publicationDate: 'Mon 08/10/2026',  topic: 'The Peace Jesus Came to Give',            verse:   'Luke 19:42',                             verseRef: 'luk.19.42',     },
-     { publicationDate: 'Fri 03/13/2026',  topic: 'The God of the Living',                   verse:   'Luke 20:38',                             verseRef: 'luk.20.38',     },
-     { publicationDate: 'Wed 03/11/2026',  topic: 'Lift Up Your Heads',                      verse:   'Luke 21:28',                             verseRef: 'luk.21.28',     },
-     { publicationDate: 'Fri 04/10/2026',  topic: 'When God Says No',                        verse:   'Luke 22:42',                             verseRef: 'luk.22.42',     },
-     { publicationDate: 'Fri 03/20/2026',  topic: 'Repentance That Leads to Restoration',    verse:   'Luke 22:61–62',                          verseRef: 'luk.22.61-62',  },
-     { publicationDate: 'Wed 05/06/2026',  topic: 'The God Who Restores',                    verse: /* Luke 22         */ 'Psalms 23:3',        verseRef: 'psa.23.3',      btbContext: `FromDevoContent##luk.22@@Luke 22##Peter's Denial & Restoration`,  },
-     { publicationDate: 'Mon 05/04/2026',  topic: 'Truth Above Approval',                    verse: /* Luke 23:4       */ 'Galatians 1:10',     verseRef: 'gal.1.10',      btbContext: 'FromDevoContent##luk.23.4@@Luke 23:4##Jesus Before Pilate [Kingdom and Truth]', },
-     { publicationDate: 'Sun 07/26/2026',  topic: 'The Risen Christ Brings Hope',            verse:   'Luke 24:6',                              verseRef: 'luk.24.6',      },
-   ]
-}) }M
-
-
 
 ## 2014 Luke Series (Mid Week)
 
@@ -195,69 +164,15 @@ M{ sermonSeries({
     { id: `20211010`, sermon: `An Enemy Named Busy`,                                    scripture: `luk.10@@Luke 10:38-42`, },
     { id: `20211024`, sermon: `Don’t Worry About It`,                                   scripture: `luk.12@@Luke 12`,       },
     { id: `20211107`, sermon: `The Theology of Tragedy`,                                scripture: `luk.13@@Luke 13`,       },
-    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Fri 05/29/2026',
-           topic:               'Guarding Your Walk With Christ',
-           verse:               '2 Corinthians 6:14',
-           verseRef:            '2co.6.14',
-        },
-      ],
-    },
+    { id: `20211114`, sermon: `Walk Through that Door`,                                 scripture: `luk.13@@Luke 13:22-30`, },
     { id: `20211212`, sermon: `Once was Lost, Now am Found`,                            scripture: `luk.15@@Luke 15`,       },
-    { id: `20220109`, sermon: `Worldly Wealth for Heavenly Good`,                       scripture: `luk.16@@Luke 16`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Tue 02/24/2026',
-           topic:               'Faithful With What Belongs to God',
-           verse:               'Luke 16:13',
-           verseRef:            'luk.16.13',
-        },
-      ],
-    },
-    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Thu 06/04/2026',
-           topic:               'Faithful Unto Death',
-           verse:               'Acts 7:55',
-           verseRef:            'act.7.55',
-        },
-      ],
-    },
+    { id: `20220109`, sermon: `Worldly Wealth for Heavenly Good`,                       scripture: `luk.16@@Luke 16`,       },
+    { id: `20220116`, sermon: `Life After Death`,                                       scripture: `luk.16@@Luke 16:19-31`, },
     { id: `20220130`, sermon: `Where Are the Nine?`,                                    scripture: `luk.17@@Luke 17:11-19`, },
-    { id: `20220213`, sermon: `Practice Persistent Prayer`,                             scripture: `luk.18@@Luke 18`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 03/02/2026',
-           topic:               'Persistent Faith in Prayer',
-           verse:               'Luke 18:1',
-           verseRef:            'luk.18.1',
-        },
-      ],
-    },
-    { id: `20220220`, sermon: `I Need a Miracle`,                                       scripture: `luk.18@@Luke 18:35-43`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Thu 03/05/2026',
-           topic:               'Crying Out for Mercy',
-           verse:               'Luke 18:38',
-           verseRef:            'luk.18.38',
-        },
-      ],
-    },
+    { id: `20220213`, sermon: `Practice Persistent Prayer`,                             scripture: `luk.18@@Luke 18`,       },
+    { id: `20220220`, sermon: `I Need a Miracle`,                                       scripture: `luk.18@@Luke 18:35-43`, },
     { id: `20220227`, sermon: `Small Man, Big Change`,                                  scripture: `luk.19@@Luke 19:1-10`,  },
-    { id: `20220306`, sermon: `Why Jesus Weeps`,                                        scripture: `luk.19@@Luke 19:41-44`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 03/09/2026',
-           topic:               'When Jesus Weeps',
-           verse:               'Luke 19:41',
-           verseRef:            'luk.19.41',
-        },
-      ],
-    },
+    { id: `20220306`, sermon: `Why Jesus Weeps`,                                        scripture: `luk.19@@Luke 19:41-44`, },
     { id: `20220313`, sermon: `A Glimpse of Life in Heaven`,                            scripture: `luk.20@@Luke 20`,       },
     { id: `20220320`, sermon: `The Rise of Russia and the End Times`,                   scripture: `luk.21@@Luke 21##ezk.38@@CR:Ezekiel 38`, studyGuide: `NONE`, },
     { id: `20220327`, sermon: `Jesus: Our Passover Lamb`,                               scripture: `luk.21@@LUKE 22:1-20`,  },

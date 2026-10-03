@@ -21,7 +21,6 @@ under his rule.
 ### At a Glance
 
 - [Daniel Overview](#daniel-overview)
-- [Devotions "by the book"](#devotions-by-the-book)
 - [2012 Daniel Series (Mid Week)](#2012-daniel-series-mid-week)
 - [2019 Daniel Series (Sundays)](#2019-daniel-series-sundays)
 
@@ -97,22 +96,6 @@ M{ youTube(`xtrK2GnZyVg`) }M
 P{ collapsibleSectionEnd() }P
 
 
-## Devotions "by the book"
-
-{{book.Devotions}} organized by scripture reference, cataloged here - in the host book:
-
-M{ devoGHSeries({
-   collapsibleSectionID: 'devo-dan',
-   layout:  'BTB',
-   entries: [
-     { publicationDate: 'Mon 05/18/2026',  topic: 'Standing Firm in a Confused World',  verse: /* Daniel 1:1-8 */   'Romans 12:2',    verseRef: 'rom.12.2',  btbContext: `FromDevoSermon##dan.1.1-8@@Daniel 1:1-8##Standing Strong in a Wayward World`,  },
-     { publicationDate: 'Mon 07/13/2026',  topic: 'Faithful in Every Place',            verse: /* Daniel 1:8-21 */  'Colossians 4:5', verseRef: 'col.4.5',   btbContext: 'FromDevoSermon##dan.1.8-21@@Daniel 1:8-21##Faithfulness Rewarded'},
-     { publicationDate: 'Sun 06/21/2026',  topic: 'Standing With God',                  verse: /* Daniel 6:10  */   'Galatians 1:10', verseRef: 'gal.1.10',  btbContext: 'FromDevoContent##dan.6.10@@Daniel 6:10##Daniel continued to pray in spite of great risk' },
-     { publicationDate: 'Sun 09/06/2026',  topic: 'His Kingdom Will Not Be Destroyed',  verse:   'Daniel 7:14',                       verseRef: 'dan.7.14',  },
-   ]
-}) }M
-
-
 
 ## 2012 Daniel Series (Mid Week)
 
@@ -147,26 +130,8 @@ M{ sermonSeries({
   collapsibleSectionID: 'ss-dan-2019',
   seriesType: 'Sundays',
   entries: [
-    { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  
-      relatedDevotions: [
-        {
-           publicationDate:     `Mon 05/18/2026`,
-           topic:               `Standing Firm in a Confused World`,
-           verse:               `Romans 12:2`,
-           verseRef:            `rom.12.2`,
-        },
-      ],
-    },
-    { id: `20190908`, sermon: `Faithfulness Rewarded`,                 scripture: `dan.1@@Daniel 1:8-21`,
-      relatedDevotions: [
-        {
-           publicationDate:     'Mon 07/13/2026',
-           topic:               'Faithful in Every Place',
-           verse:               'Colossians 4:5',
-           verseRef:            'col.4.5',
-        },
-      ],
-    },
+    { id: `20190901`, sermon: `Standing Strong in a Wayward World`,    scripture: `dan.1@@Daniel 1:1-8`,  },
+    { id: `20190908`, sermon: `Faithfulness Rewarded`,                 scripture: `dan.1@@Daniel 1:8-21`, },
     { id: `20190915`, sermon: `Kings and Kingdoms`,                    scripture: `dan.2@@Daniel 2`,      },
     { id: `20190922`, sermon: `True Faith`,                            scripture: `dan.3@@Daniel 3`,      },
     { id: `20190929`, sermon: `Who is King of Your Life?`,             scripture: `dan.4@@Daniel 4`,      },

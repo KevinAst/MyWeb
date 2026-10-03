@@ -12,6 +12,12 @@ At any given time, there are two active sermon series:
 
 - [Current Series](#current-series)
 - [Series History](#series-history)
+  * <a title="Scroll down to the latest (active) series entries" href="#current-entries">Sroll to Latest Series</a>
+
+
+
+<!-- *** pageSectionBreak() ******************************************* -->
+<br/><br/><hr style="height: 9px; background-color: #616a6b; border: none; width: 100%; margin: 20px auto; border-radius: 5px;">
 
 ## Current Series
 
@@ -23,6 +29,10 @@ These are the sermon series that are currently active:
 <mark>NOTE:</mark> As a convenience, shortcut links to these current
 series can be found at the top right of select "Bible Specific" pages
 (for example: {{book.Matthew}}).
+
+
+<!-- *** pageSectionBreak() ******************************************* -->
+<br/><br/><hr style="height: 9px; background-color: #616a6b; border: none; width: 100%; margin: 20px auto; border-radius: 5px;">
 
 ## Series History
 
@@ -42,7 +52,7 @@ Think of this table as a timeline. As you progress down the table, you
 can easily determine which series was active at any point in time.
 
 <center>
-  <a  class="button-link" title="Scroll down to the latest (active) series entry" href="#current-entries">See Latest Series History</a>
+  <a  class="button-link" title="Scroll down to the latest (active) series entries" href="#current-entries">Sroll to Latest Series</a>
 </center>
 <br/>
 

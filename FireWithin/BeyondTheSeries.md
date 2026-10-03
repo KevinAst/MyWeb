@@ -62,6 +62,7 @@ M{ sermonSeries({
     { id: `20260712`, sermon: `Devotion: Lessons from the Early Church (Pastor Andy Wagner)`,                                             scripture: `act.2@@Acts 2`,                                       },
     { id: `20260719`, sermon: `The Results of Repentance (Pastor Austin Hamrick)`,                                                        scripture: `act.3@@Acts 3`,                                       },
     { id: `20260805`, sermon: `Next Gen for Jesus Night (Helms Triplets)`,                                                                                                              studyGuide: `NONE`, },
-    { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,                                                  scripture: `1ki.18.20-40@@1 Kings 18:20-40`,  studyGuide: `NONE`, },
+    { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,                                                  scripture: `1ki.18.20-40@@1 Kings 18:20-40`,  studyGuide: `NONE`, extraSermonLink: `https://www.youtube.com/watch?v=vqdef1pmTEI@@A Conversation with Dr. Erwin Lutzer (new book: "Marx and Moody")`,  },
+    { id: `20260927`, sermon: `Set Apart for the Lord (Sen. Josh Hawley)`,                                                                scripture: `act.13.1-3@@Acts 13:1-3`,         studyGuide: `NONE`, extraSermonLink: `https://www.youtube.com/watch?v=RyHfoZlTjR0&t=00h30m15s@@YouTube Live (with introduction)`,  },
   ]
 }) }M
