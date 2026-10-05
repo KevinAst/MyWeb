@@ -130,11 +130,6 @@
   * [My Small Group](MySmallGroup.md)
 
 ----
-/*** NOTE: Mega Sub-Entries by Day are HIDDEN ... see: "Hide MEGA Daily Devotional" entry in website.css ***/
-- [Daily Devotions](devo.md)
-  * [2026 Devotions](devo2026.md)
-
-----
 - [Memorization](Memorization.md)
 
 ----
