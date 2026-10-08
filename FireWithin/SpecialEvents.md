@@ -1,12 +1,12 @@
 # Specials
 
-This "Specials" page contains resources that fall outside of
+This "Specials" section contains resources that fall outside of
 Cornerstone's normal verse-by-verse studies.
 
 - {{book.BeyondTheSeries}}
 - {{book.QA}}
 - {{book.BibleResources}}
-  * {{book.BR_EnduringWordBibleCommentary}}
+  * {{book.BR_BibleCommentary}}
   * {{book.BR_BibleInSong}}
 - Holidays
   * {{book.Thanksgiving}}

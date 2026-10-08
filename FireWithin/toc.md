@@ -121,7 +121,7 @@
   * [Beyond the Series](BeyondTheSeries.md)
   * [Questions and Answers](QA.md)
   * [Bible Resources](BibleResources.md)
-    - [Enduring Word Bible Commentary](BibleResources.md#enduring-word-bible-commentary)
+    - [Bible Commentary](BibleResources.md#bible-commentary)
     - [Bible in Song](BibleResources.md#bible-in-song)
   * Holidays
     - [Thanksgiving](Thanksgiving.md)
