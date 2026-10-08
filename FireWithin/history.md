@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v28.1](#v28_1)   | Add "Bible in Song" Resource              | *TBD*
 [v28.0](#v28_0)   | Removal of Daily Devotions                | *Oct 1, 2026*
 [v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *Sep 22, 2026*
 [v26.4](#v26_4)   | Sync Sermons and Various Fixes     | *Sep 4, 2026*
@@ -90,6 +91,27 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v28_1" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v28.1 - Add "Bible in Song" Resource <i>(TBD)</i>
+</h3>
+<br/>
+
+- Added new {{book.BR_BibleInSong}} resource in the {{book.SpecialEvents}} section.
+
+  This allows you to experience the Berean Standard Bible in a unique and memorable way
+  through word-for-word scripture in song.  
+
+- Restructured the {{book.SpecialEvents}} section order and indentation to be more intuitive.
+
+- ?? Added "Berean Standard Bible" to our supported {{book.BibleTranslation}} _(found in {{book.Settings}}_.
+  This is the Bible Translation used by {{book.BR_BibleInSong}} resource.
+
+- ?? anything else LIKE explaining the full features of MY Bible in Song page
+
 
 
 <!-- ************************************************************* -->

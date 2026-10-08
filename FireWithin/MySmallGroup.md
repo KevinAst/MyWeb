@@ -1,5 +1,7 @@
 # My Small Group
 
+This is the study guide of my small group at {{book.FBM}}.
+
 ### At a Glance
 
 > **NOTE:** *Entries are in chronological order of study*
