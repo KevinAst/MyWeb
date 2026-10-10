@@ -13,12 +13,12 @@ additional external resources.
   * {{book.Thanksgiving}}
   * {{book.Christmas}}
   * {{book.Easter}}
-- {{book.EndTimes}}
 - {{book.CurrentEvents}}
   * {{book.Life}}
   * {{book.MarriageAndDivorce}}
   * {{book.ElectionDaySermons}}
   * {{book.LGBTQ}}
   * {{book.MoralDecay}}
+- {{book.EndTimes}}
 - {{book.billion}}
 - {{book.MySmallGroup}}
