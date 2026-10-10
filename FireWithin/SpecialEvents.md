@@ -1,7 +1,8 @@
 # Specials
 
 This "Specials" section contains resources that fall outside of
-Cornerstone's normal verse-by-verse studies.
+Cornerstone's normal verse-by-verse studies, along with some
+additional external resources.
 
 - {{book.BeyondTheSeries}}
 - {{book.QA}}
