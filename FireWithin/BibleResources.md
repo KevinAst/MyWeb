@@ -82,3 +82,10 @@ Here are some passages I'd especially recommend experiencing through song:
 - [1 Corinthians 13 (Love)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#1Co-13)
 - [Philippians 2 (The humility and exaltation of Jesus)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Php-2)
 - [Revelation 5 (Worship of the Lamb)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Rev-5)
+
+
+<mark>Mobile Playback Limitation:</mark>
+When using this site on a cell phone, continuous playback may stop
+after the second chapter, when the phone screen is locked. Playback
+works normally while the screen remains on. A workaround has not yet
+been found _(awaiting response from Bible Hub)_.
