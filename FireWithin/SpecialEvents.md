@@ -9,7 +9,7 @@ additional external resources.
 - {{book.BibleResources}}
   * {{book.BR_BibleCommentary}}
   * {{book.BR_BibleInSong}}
-- Holidays
+- {{book.Holidays}}
   * {{book.Thanksgiving}}
   * {{book.Christmas}}
   * {{book.Easter}}
