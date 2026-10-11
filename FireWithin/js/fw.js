@@ -777,6 +777,199 @@ if (!window.fw) { // only expand this module once (conditionally)
     }
 
 
+    // ?? NEW START --------------------------------------------------------------------------------
+
+    //***************************************************************************
+    //***************************************************************************
+    //* Code Related to BIS (Bible in Song) Audio Play
+    //* ... NOTE: all encompassing logging filter: setLogFilters('*udio*') ... handles case-insensitive "Audio" found in all relevant functions ?? is this still true?
+    //***************************************************************************
+    //***************************************************************************
+
+    // USE CONSISTENT TERMS for the audio being played:
+    // ?? do we need this?
+    // > I KINDA GAVE UP ON THIS ... I think it is OK
+    // - N: track ... generic term for an audio track (only used in a single comment)
+    // - N: clip .... another generic term (current usage in startingMultiVerseAudioClip.m4a)
+    // - Y: verse ... specific to our app domain (used BOTH in verse refs [e.g. 'jhn.3.16'], and audio file refs [e.g. 'Memorization/php.4.8.NIV.m4a'])
+
+    // PROTOTYPE: ? our running Psalms chapter
+    let psalmsChapter = 0;
+
+    // utility to display user message within the "Bible in Song Audio" section
+    // ? RENAME: DONE: setMultiVerseUserMsg TO: setBISUserMsg
+    // PARAM: msg - message to display to user (omit to clear message)
+    function setBISUserMsg(msg='') {
+      document.getElementById("BIS-user-msg").innerText = msg;
+    }
+
+
+    // audio control "play" button
+    // ? remove audioContext <<< DONE
+    fw.BIS_audio_play = function() {
+      const log = logger(`${logPrefix}:BIS_audio_play()`);
+      log(`application play button pressed`);
+
+      // our <audio> control
+      // ?? suspect we can internalize this, since we only have ONE CONTEXT
+      const audio = document.getElementById("BIS_audio_player");
+
+      // NOTE: THINGS WE CAN DO WITH audio:
+      //       - audio.play();     // playing <audio>
+      //       - audio.pause();    // pause <audio>
+      // 
+      //       - audio.src = 'xx'; // load new src file
+      //       - audio.load();     // activate the new audio src
+
+      // clear any left-over user messages (for good measure)
+      setBISUserMsg();
+      
+      // PROTOTYPE: ? pull in our starting Psalms chapter
+      psalmsChapter = Number(document.getElementById("BIS_startingPsalmsChapter").value);
+      if (Number.isNaN(psalmsChapter)) { // ... invalid number
+        setBISUserMsg(`The "Psalms Starting Chapter" must be a number.`);
+        return;
+      }
+      if (psalmsChapter < 1 || psalmsChapter > 150) {
+        setBISUserMsg(`Invalid Psalm chapter: ${psalmsChapter}`);
+        return;
+      }
+
+      
+      // PROTOTYPE: ? devise the audio file to play
+      // ... EX: https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3
+      const psalmsChapterZeroFilled = String(psalmsChapter).padStart(3, '0');
+      const audioFile = `https://openbible.com/audio/bsb_musical/BSB_19_Psa_${psalmsChapterZeroFilled}_M.mp3`;
+      
+      // ? RENAME (DONE) ... FROM: setAudioSrc TO: setBISAudioSrc
+      // reset our audio and start playing it
+      // ?? may be able to incorporate both in function?
+      setBISAudioSrc(audioFile);
+      audio.play();
+    }
+
+
+    // set <audio> src from supplied audioFile
+    // PARAM: audioFile: the audioFile to play (EX: "https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3")
+    function setBISAudioSrc(audioFile) {
+      const log = logger(`${logPrefix}:setBISAudioSrc()`);
+
+      // our <audio> control
+      const audio = document.getElementById("BIS_audio_player");
+
+      // set our audio control display to what is being played
+      // PROTOTYPE
+      // ... EX: https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3
+      const start = audioFile.indexOf("Psa");
+      const end   = audioFile.indexOf(".", start);
+      const scriptureRef = audioFile.substring(start, end);
+      // ?? THIS messes up the span
+  //? document.getElementById("BIS_verseRef").textContent = scriptureRef;
+      // ?? TRY THIS
+      document.getElementById("BIS_verseRef").innerHTML = scriptureRef;
+      
+      // load the desired <audio> src
+      log(`setting <audio> src to: '${audioFile}'`);
+      // ?? WEIRD: do we ever have spaces in audioFile?
+      if (audioFile.includes(' ')) {
+        alert(`BAD: ?? we found spaces in audioFile: "${audioFile}"`);
+      }
+      audio.pause();         // pause audio play, if any ... for good measure, doesn't hurt
+      audio.src = audioFile; // set the src
+      audio.load();          // load the the src
+    }
+
+    // audio control "pause" button
+    fw.BIS_audio_pause = function() {
+      const log = logger(`${logPrefix}:BIS_audio_pause()`);
+      log(`application pause button pressed`);
+
+      // our <audio> control
+      const audio = document.getElementById("BIS_audio_player");
+
+      // we simply pause the <audio>
+      log(`activate <audio> pause`);
+      audio.pause();
+    }      
+
+    // audio control "volume down"
+    fw.BIS_audio_volumeDown = function () {
+      const log = logger(`${logPrefix}:BIS_audio_volumeDown()`);
+      const audio  = document.getElementById("BIS_audio_player");
+      audio.volume = Math.max(0.1, audio.volume - 0.1); // KISS: since we do NOT have a mute indicator, our minimum volume is 0.1
+      log(`volume set to: ${audio.volume}`);
+    };
+
+    // audio control "volume up"
+    fw.BIS_audio_volumeUp = function () {
+      const log = logger(`${logPrefix}:BIS_audio_volumeUp()`);
+      const audio  = document.getElementById("BIS_audio_player");
+      audio.volume = Math.min(1, audio.volume + 0.1);
+      log(`volume set to: ${audio.volume}`);
+    };
+
+
+    // audio play has just ended
+    // ... INVOKED FROM: implicitly - when the clip is complete (NOTE: ??WHAT?? there is ALWAYS a starting clip: startingMultiVerseAudioClip ... which allows the audio control to be active/enabled)
+    fw.BIS_audio_ended = function() {
+      const log = logger(`${logPrefix}:BIS_audio_ended()`);
+      log(`audio ended ... loading next verse`);
+      
+      // our <audio> control
+      const audio = document.getElementById("BIS_audio_player");
+
+      // clear any left-over user messages (for good measure)
+      setBISUserMsg();
+      
+      // PROTOTYPE: ? advance to our next Psalms chapter
+      psalmsChapter += 1;
+      if (psalmsChapter > 150) {
+        setBISUserMsg(`We have reached the end of Psalms (in our prototype).`);
+        return;
+      }
+      
+      // PROTOTYPE: ? devise the audio file to play
+      // ... EX: https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3
+      const psalmsChapterZeroFilled = String(psalmsChapter).padStart(3, '0');
+      const audioFile = `https://openbible.com/audio/bsb_musical/BSB_19_Psa_${psalmsChapterZeroFilled}_M.mp3`;
+      
+      // ? RENAME (DONE) ... FROM: setAudioSrc TO: setBISAudioSrc
+      // reset our audio and start playing it
+      // ?? may be able to incorporate both in function?
+      setBISAudioSrc(audioFile);
+      audio.play();
+    }
+
+
+    // handle async errors of <audio> load file
+    fw.BIS_audio_loadError = function(event) {
+      const log = logger(`${logPrefix}:BIS_audio_loadError()`);
+
+      // SUSPECT ERROR:
+      //   NotSupportedError: Failed to load because no supported source was found
+      // HOWEVER: we don't actually have access to this error (through the event listener)
+
+      // pull the diagnostics we can get, and report to user (and log)
+      const audio = event.target;
+      const code  = audio.error?.code;
+      const messages = {
+        1: 'MEDIA_ERR_ABORTED',
+        2: 'MEDIA_ERR_NETWORK',
+        3: 'MEDIA_ERR_DECODE',
+        4: 'MEDIA_ERR_SRC_NOT_SUPPORTED'
+      };
+      const msg = `attempting to load audioFile: "${audio.src}" ... failed with code: ${code}: "${messages[code] || 'Unknown Error'}" ... suspect missing audio file`;
+      log.f(msg);
+      alert(msg); // NOTE: we can get by with an alert, as this problem is most likly developer error (missing audio file)
+
+      // ?? hmmmm
+      //? // reset audio source, so an immediate re-play will trigger this same error
+      //? setAudioSrc('multi-verse'); // ... we can get by with multi-verse, because the verse in error, will re-set it appropriatly
+    }
+
+    // ?? NEW END --------------------------------------------------------------------------------
+
+
     //***************************************************************************
     //***************************************************************************
     //* Code Related to managing large images
