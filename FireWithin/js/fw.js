@@ -786,15 +786,10 @@ if (!window.fw) { // only expand this module once (conditionally)
     //***************************************************************************
     //***************************************************************************
 
-    // USE CONSISTENT TERMS for the audio being played:
-    // ?? do we need this?
-    // > I KINDA GAVE UP ON THIS ... I think it is OK
-    // - N: track ... generic term for an audio track (only used in a single comment)
-    // - N: clip .... another generic term (current usage in startingMultiVerseAudioClip.m4a)
-    // - Y: verse ... specific to our app domain (used BOTH in verse refs [e.g. 'jhn.3.16'], and audio file refs [e.g. 'Memorization/php.4.8.NIV.m4a'])
-
     // PROTOTYPE: ? our running Psalms chapter
-    let psalmsChapter = 0;
+    // ??$$ interesting ... both of these are always the same ... ILLIMINATE ONE - WHICH ONE?
+    let psalmsChapterUserControl = 0;  // ... this IS a number
+    let psalmsChapterPlaying     = -1; // ... ??$$ the chapter we are currently playing (-1 for none) ... used to pause/re-play
 
     // utility to display user message within the "Bible in Song Audio" section
     // ? RENAME: DONE: setMultiVerseUserMsg TO: setBISUserMsg
@@ -823,9 +818,9 @@ if (!window.fw) { // only expand this module once (conditionally)
 
       // clear any left-over user messages (for good measure)
       setBISUserMsg();
-      
+
       // PROTOTYPE: ? pull in our starting Psalms chapter
-      psalmsChapter = Number(document.getElementById("BIS_startingPsalmsChapter").value);
+      const psalmsChapter = Number(document.getElementById("BIS_startingPsalmsChapter").value);
       if (Number.isNaN(psalmsChapter)) { // ... invalid number
         setBISUserMsg(`The "Psalms Starting Chapter" must be a number.`);
         return;
@@ -835,27 +830,45 @@ if (!window.fw) { // only expand this module once (conditionally)
         return;
       }
 
-      
-      // PROTOTYPE: ? devise the audio file to play
-      // ... EX: https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3
-      const psalmsChapterZeroFilled = String(psalmsChapter).padStart(3, '0');
-      const audioFile = `https://openbible.com/audio/bsb_musical/BSB_19_Psa_${psalmsChapterZeroFilled}_M.mp3`;
-      
-      // ? RENAME (DONE) ... FROM: setAudioSrc TO: setBISAudioSrc
-      // reset our audio and start playing it
-      // ?? may be able to incorporate both in function?
-      setBISAudioSrc(audioFile);
-      audio.play();
+      // *****************************
+      // *** ACTIVATE PLAY control ***
+      // *****************************
+
+      // if we are already playing the desired chapter, just play (supporting pause/re-play ... pick up where we left off)
+      // ??$$ WORKS: IMPLEMENT pause/re-play functionality
+      if (psalmsChapter === psalmsChapterPlaying) {
+        log(`pause/re-play - same chapter we are already playing: ${psalmsChapterPlaying} (just pick up where we left off)`);
+        audio.play();
+      }
+
+      // for change in user selection, reset and play the new selection
+      else {
+        log(`play new user selection: ${psalmsChapter}`);
+
+        // reset our audio and start playing it
+        // ?? do we always play IN setBISAudioSrc()?
+        setBISAudioSrc(psalmsChapter);
+        audio.play();
+      }
     }
 
 
     // set <audio> src from supplied audioFile
     // PARAM: audioFile: the audioFile to play (EX: "https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3")
-    function setBISAudioSrc(audioFile) {
+    function setBISAudioSrc(psalmsChapter) {
       const log = logger(`${logPrefix}:setBISAudioSrc()`);
 
-      // our <audio> control
+      // define audiofile from psalmsChapter param
+      // ??$$ NEW: WORKS
+      const psalmsChapterZeroFilled = String(psalmsChapter).padStart(3, '0');
+      const audioFile = `https://openbible.com/audio/bsb_musical/BSB_19_Psa_${psalmsChapterZeroFilled}_M.mp3`;
+      
+      // load the resource file in our <audio> (src param)
+      log(`setting <audio> src to: '${audioFile}'`);
       const audio = document.getElementById("BIS_audio_player");
+      audio.pause();         // pause audio play, if any ... for good measure, doesn't hurt
+      audio.src = audioFile; // set the src
+      audio.load();          // load the the src
 
       // set our audio control display to what is being played
       // PROTOTYPE
@@ -863,32 +876,26 @@ if (!window.fw) { // only expand this module once (conditionally)
       const start = audioFile.indexOf("Psa");
       const end   = audioFile.indexOf(".", start);
       const scriptureRef = audioFile.substring(start, end);
-      // ?? THIS messes up the span
-  //? document.getElementById("BIS_verseRef").textContent = scriptureRef;
-      // ?? TRY THIS
-      document.getElementById("BIS_verseRef").innerHTML = scriptureRef;
-      
-      // load the desired <audio> src
-      log(`setting <audio> src to: '${audioFile}'`);
-      // ?? WEIRD: do we ever have spaces in audioFile?
-      if (audioFile.includes(' ')) {
-        alert(`BAD: ?? we found spaces in audioFile: "${audioFile}"`);
-      }
-      audio.pause();         // pause audio play, if any ... for good measure, doesn't hurt
-      audio.src = audioFile; // set the src
-      audio.load();          // load the the src
+      document.getElementById("BIS_verseRef").textContent = scriptureRef;
+
+      // sync our globals indicating what is being played
+      // ??$$$ new WORKS
+      psalmsChapterUserControl = psalmsChapter;
+      psalmsChapterPlaying     = psalmsChapter;
+      // ... and update our user control
+      document.getElementById("BIS_startingPsalmsChapter").value = `${psalmsChapterPlaying}`;
     }
 
     // audio control "pause" button
-    fw.BIS_audio_pause = function() {
-      const log = logger(`${logPrefix}:BIS_audio_pause()`);
+      fw.BIS_audio_pause = function() {
+        const log = logger(`${logPrefix}:BIS_audio_pause()`);
       log(`application pause button pressed`);
 
       // our <audio> control
       const audio = document.getElementById("BIS_audio_player");
 
       // we simply pause the <audio>
-      log(`activate <audio> pause`);
+      log(`pause <audio>`);
       audio.pause();
     }      
 
@@ -922,21 +929,15 @@ if (!window.fw) { // only expand this module once (conditionally)
       setBISUserMsg();
       
       // PROTOTYPE: ? advance to our next Psalms chapter
-      psalmsChapter += 1;
-      if (psalmsChapter > 150) {
+      const psalmsChapterNEXT = psalmsChapterUserControl + 1;
+      if (psalmsChapterNEXT > 150) { // NOTE: when hit end, pressing play simply plays the last (TODO: ultimatly we will either wrap to Genesis 1 or just anounce we have finished the bilb) 
         setBISUserMsg(`We have reached the end of Psalms (in our prototype).`);
         return;
       }
       
-      // PROTOTYPE: ? devise the audio file to play
-      // ... EX: https://openbible.com/audio/bsb_musical/BSB_19_Psa_023_M.mp3
-      const psalmsChapterZeroFilled = String(psalmsChapter).padStart(3, '0');
-      const audioFile = `https://openbible.com/audio/bsb_musical/BSB_19_Psa_${psalmsChapterZeroFilled}_M.mp3`;
-      
-      // ? RENAME (DONE) ... FROM: setAudioSrc TO: setBISAudioSrc
       // reset our audio and start playing it
-      // ?? may be able to incorporate both in function?
-      setBISAudioSrc(audioFile);
+      // ?? do we always play IN setBISAudioSrc()?
+      setBISAudioSrc(psalmsChapterNEXT);
       audio.play();
     }
 
