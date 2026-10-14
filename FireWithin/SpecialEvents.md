@@ -8,7 +8,7 @@ additional external resources.
 - {{book.QA}}
 - {{book.BibleResources}}
   * {{book.BR_BibleCommentary}}
-  * {{book.BR_BibleInSong}}
+  * {{book.BR_TheSingingBible}}
 - {{book.Holidays}}
   * {{book.Thanksgiving}}
   * {{book.Christmas}}

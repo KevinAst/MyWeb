@@ -4,8 +4,7 @@
 ### At a Glance
 
 - [Bible Commentary](#bible-commentary)
-- [Bible in Song](#bible-in-song)
-
+- [The Singing Bible](#the-singing-bible)
 
 ---
 
@@ -21,7 +20,8 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 
 ---
 
-### Bible in Song
+### The Singing Bible
+
 
 Experience the [Berean Standard Bible (BSB)](https://www.berean.bible/) 
 in a unique and memorable way through Scripture in song!
@@ -40,10 +40,10 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 > - Select the desired Bible Book
 > - Click `Play` on the desired chapter you wish to start with
 >   * _provide your email (on the first request)_
-> - Enjoy the the audio of "Bible in Song"
+> - Enjoy the the audio of "The Singing Bible"
 
 
-Want to experience "Bible in Song" while following the Scripture Text?
+Want to experience "The Singing Bible" while following the Scripture Text?
 Use this alternate link:
 
 Site: <a title="Launch this site in a new window" target="_blank" href="https://biblehub.com/audio/">Bible in Song with Scripture Text</a>
@@ -53,7 +53,7 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 > - Select the desired chapter _(on the subsequent page)_
 > - MAKE SURE to select `Musical Bible` in the "Read by" drop-down list
 > - Press play, and 
-> - Enjoy BOTH the audio of "Bible in Song" while monitoring the Scripture Text
+> - Enjoy BOTH the audio of "The Singing Bible" while monitoring the Scripture Text
 
 ---
 

@@ -122,7 +122,7 @@
   * [Questions and Answers](QA.md)
   * [Bible Resources](BibleResources.md)
     - [Bible Commentary](BibleResources.md#bible-commentary)
-    - [Bible in Song](BibleResources.md#bible-in-song)
+    - [The Singing Bible](BibleResources.md#the-singing-bible)
   * [Holidays](Holidays.md)
     - [Thanksgiving](Thanksgiving.md)
     - [Christmas](Christmas.md)
