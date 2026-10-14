@@ -22,52 +22,55 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 
 ### The Singing Bible
 
+Experience the Bible in a unique and memorable way through Scripture
+in song!
 
-Experience the [Berean Standard Bible (BSB)](https://www.berean.bible/) 
-in a unique and memorable way through Scripture in song!
+Site: <a title="Launch this site in a new window" target="_blank" href="https://thesinging.bible/">The Singing Bible</a>
+
+> Using this site:
+> - Choose a Bible book and chapter, pick a style and voice
+> - Press `Play`
+>   - and enjoy the the audio of "The Singing Bible"
+>   - each time you load the app, it picks right up where you left off!
 
 I had no idea someone had put the _entire Bible_ to music!  This site
 is surprisingly enjoyable and exceptionally well done. Every book,
-every chapter, word-for-word—set to song!
+every chapter, word-for-word set to song!
 
 The musical styles vary, but the arrangements are generally modern and
 engaging. It's a wonderful way to experience God's Word! Meditate on
 Scripture and hide it in your heart—wherever your day takes you.
 
-Site: <a title="Launch this site in a new window" target="_blank" href="https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm">Bible in Song</a>
-
-> Using this site:
-> - Select the desired Bible Book
-> - Click `Play` on the desired chapter you wish to start with
->   * _provide your email (on the first request)_
-> - Enjoy the the audio of "The Singing Bible"
-
-
-Want to experience "The Singing Bible" while following the Scripture Text?
-Use this alternate link:
-
-Site: <a title="Launch this site in a new window" target="_blank" href="https://biblehub.com/audio/">Bible in Song with Scripture Text</a>
-
-> Using this site:
-> - Select the desired Bible Book
-> - Select the desired chapter _(on the subsequent page)_
-> - MAKE SURE to select `Musical Bible` in the "Read by" drop-down list
-> - Press play, and 
-> - Enjoy BOTH the audio of "The Singing Bible" while monitoring the Scripture Text
-
----
-
-The [Berean Standard Bible (BSB)](https://www.berean.bible/) is
-designed to connect the meaning of the original Greek and Hebrew with
-clear, natural English. Its goal is to provide a text well suited for
-reading, study, memorization, and evangelism.
+The [Berean Standard Bible (BSB)](https://www.berean.bible/) _(the
+translation used by "The Singing Bible")_, is designed to connect the
+meaning of the original Greek and Hebrew with clear, natural
+English. Its goal is to provide a text well suited for reading, study,
+memorization, and evangelism.
 
 I'm not sure how often you'd want to put an extended genealogy 
-_([1 Chronicles 1](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#1Ch-1))_, 
+_([1 Chronicles 1](https://thesinging.bible/#sbe/male/adult/praise/13-1-chronicles/1))_,
 or a chapter full of repeated descriptions 
-_([Numbers 7](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Num-7))_ 
+_([Numbers 7](https://thesinging.bible/#sbe/male/adult/praise/04-numbers/7))_ 
 to music—but they've done a surprisingly good job with those, too!
 
+
+?? cur point .................
+
+FEATURES (?? a start to list on FireWithin):
+- A completely free resource to all!
+- 22 different music styles in both mail and femaale voices
+- You can view the Bible Text (by Chapter or Verse-by-Verse)
+- Sleep Timer
+- Download chapters to avoid cell tower charges
+- There are Listening Plans
+- 20 Fun Facts
+- ... https://thesinging.bible/funfacts
+- Besides the web, there is a free mobile app (both iPhone and Android) - operates much better for continuous playback streaming
+- FYI: This is OBVIOUSLY AI generated (based on the rich features)
+
+
+NAH: ?? just reference the "Taste Test" Listening Plan
+<br/>
 Here are some passages I'd especially recommend experiencing through song:
 
 - [Psalm 23 (Trust)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-23)
