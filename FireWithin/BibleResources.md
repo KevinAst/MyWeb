@@ -34,40 +34,6 @@ The musical styles vary, but the arrangements are generally modern and
 engaging. It's a wonderful way to experience God's Word! Meditate on
 Scripture and hide it in your heart—wherever your day takes you.
 
-<!-- ?? TEMP CODE -->
-
-<mark>Prototype Test</mark>:
-
-_... attempting to get web-based "continuous playback" working!_
-
-<!-- our one-and-only audio control (hidden) -->
-<audio id="BIS_audio_player" controls 
-       onended="fw.BIS_audio_ended()"
-       onerror="fw.BIS_audio_loadError(event)"
-       style="display: none;">
-  Your browser does not support the audio tag.
-</audio>
-
-<!-- PROTOTYPE CONTROL: for Psalms starting chapter -->
-Psalms Starting Chapter: <input type="text" id="BIS_startingPsalmsChapter" value="23">
-
-<!-- Our custom audio control buttons that tap into the one-and-only <audio> -->
-<div class="audio-controls">
-  <button class="audio-button" title="Play"  onclick="fw.BIS_audio_play('multi-verse')">▶️</button>
-  <button class="audio-button" title="Pause" onclick="fw.BIS_audio_pause()">⏸</button>
-  <span   class="audio-label" id="BIS_verseRef">Press play to start</span>
-  <button class="audio-button" title="Volume Down" onclick="fw.BIS_audio_volumeDown()">🔉</button>
-  <button class="audio-button" title="Volume Up"   onclick="fw.BIS_audio_volumeUp()">🔊</button>
-</div>
-
-<!-- User Message -->
-<p id="BIS-user-msg" style="font-weight: bold; color: red; font-style: italic;"></p>
-
-<mark>END Prototype Test</mark>
-
-<!-- ?? END TEMP CODE -->
-
-
 Site: <a title="Launch this site in a new window" target="_blank" href="https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm">Bible in Song</a>
 
 > Using this site:
