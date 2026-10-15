@@ -123,6 +123,7 @@ class FWSettings {
     CSB:      { code: '1713',  desc: 'Christian Standard Bible' },
     NET:      { code: '107',   desc: 'New English Translation' },
     NASB1995: { code: '100',   desc: 'New American Standard Bible - NASB 1995' },
+    BSB:      { code: '3034',  desc: 'Berean Standard Bible' },
 
     SEP2:     { code: 'GROUP', desc: 'Traditional:' },
     NKJV:     { code: '114',   desc: 'New King James Ver' },
