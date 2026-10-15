@@ -22,8 +22,8 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 
 ### The Singing Bible
 
-Experience the Bible in a unique and memorable way through Scripture
-in song!
+Experience God's Word in a unique and memorable way — **the entire
+Bible set to song!**
 
 Site: <a title="Launch this site in a new window" target="_blank" href="https://thesinging.bible/">The Singing Bible</a>
 
@@ -35,7 +35,7 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 
 I had no idea that [Bible Hub](https://biblehub.com/) had put the
 _entire Bible_ to music!  This site is surprisingly enjoyable and
-exceptionally well done. Every book, every chapter, word-for-word set
+exceptionally well done. Every book, every chapter, word-for-word, set
 to song!
 
 The musical styles vary, but the arrangements are generally modern and
@@ -44,7 +44,7 @@ Scripture and hide it in your heart—wherever your day takes you.
 
 Did you really say: `The whole Bible`?
 - _Well - `YES`!_
-- We all know that certain passages were meant for song 
+- We all know that certain passages lend themselves naturally to song:
   _([Genesis 1](https://thesinging.bible/#sbe/male/adult/praise/01-genesis/1),
   [Psalms 23](https://thesinging.bible/#sbe/male/adult/praise/19-psalms/23),
   [Isaiah 53](https://thesinging.bible/#sbe/male/adult/praise/23-isaiah/53),
@@ -52,24 +52,24 @@ Did you really say: `The whole Bible`?
   [Romans 8](https://thesinging.bible/#sbe/male/adult/praise/45-romans/8),
   [1 Corinthians 13](https://thesinging.bible/#sbe/male/adult/praise/46-1-corinthians/13),
   [Revelation 21](https://thesinging.bible/#sbe/male/adult/praise/66-revelation/21))_.
-  * FYI: You can listen to these passages in different styles, using the
-    `Taste Test` Listening Plan:
+  * FYI: Want to hear these passages in different musical styles? Try
+    the `Taste Test` Listening Plan:
     <br/>`... Menu / Listening Plans / Taste Test`
-- With that said, I'm not sure how often you'd want to put an extended genealogy 
+- But what about an extended genealogy 
   _([1 Chronicles 1](https://thesinging.bible/#sbe/male/adult/praise/13-1-chronicles/1))_,
   or a chapter full of repeated descriptions 
-  _([Numbers 7](https://thesinging.bible/#sbe/male/adult/praise/04-numbers/7))_ 
-  to music ...
-  * however they have done a surprisingly good job with those, too!
+  _([Numbers 7](https://thesinging.bible/#sbe/male/adult/praise/04-numbers/7))_?
+  * I'm not sure how often I'd choose those for my playlist.
+  * But surprisingly, they've done a good job with those, too!
 - `Bottom Line: Yes` - the entire Bible has been set to song (word-for-word)!
 
-The [Berean Standard Bible (BSB)](https://berean.bible/) _(the
-translation used by "The Singing Bible")_, is designed to connect the
-meaning of the original Greek and Hebrew with clear, natural
-English. Its goal is to provide a text well suited for reading, study,
-memorization, and evangelism.
+The Singing Bible uses the 
+[Berean Standard Bible (BSB)](https://berean.bible/), 
+a translation designed to communicate the meaning of the original
+Greek and Hebrew in clear, natural English, with an emphasis on
+reading, study, memorization, and evangelism.
 
-Here are some Quick Points / Features you should be aware of:
+Here are some features worth exploring:
 - A completely free resource to all!
 - 22 different music styles in both male and female voices
   * my favorites: 
@@ -79,16 +79,17 @@ Here are some Quick Points / Features you should be aware of:
     `Contemporary Pop`,
     `R&B/Soul`
     <br/>`... Style`
-- View the Bible text (by Chapter or Verse-by-Verse)
+- Read along with the music.  View the Bible text by chapter or verse.
   <br/>`... View Bible Text`
-- Sleep Timer
+- Sleep Timer - useful for listening as you wind down for the night.
   <br/>`... Menu / Sleep Timer / ...`
-- Listening Plans
+- Listening Plans - discover curated selections!
   <br/>`... Menu / Listening Plans / ...`
-- Besides the web site, there is a free mobile app
-  <br/>`... Get the App` _(both iPhone and Android)_
+- Free Mobile Aapp - for both iPhone and Android.
+  <br/>`... Get the App`
   * seamless operation for continuous playback on sleeping phones
-  * download chapters to avoid cell tower charges
-- Obviously this resource utilizes AI technology
-  <br/>`but non-opinionated` _(with respect to the lyric - it is the Bible Text)_
+  * download chapters for offline listening and avoid using mobile data
+- AI-Generated Music, Bible-based lyrics.
+  * Obviously this resource utilizes AI technology
+  * However it is non-opinionated, with respect to the lyric _(it is the Bible Text)_
 - [20 Fun Facts](https://thesinging.bible/funfacts)
