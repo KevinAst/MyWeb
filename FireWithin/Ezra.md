@@ -143,5 +143,6 @@ M{ sermonSeries({
     { id: `20260923`, sermon: `Two Things that Hinder Your Spiritual Growth (Pastor Austin Hamrick)`,     scripture: `ezr.4@@Ezra 4-5`,  },
     { id: `20260930`, sermon: `Delay to Dedication: God Is Working Behind The Scenes`,                    scripture: `ezr.5@@Ezra 5-6`,  },
     { id: `20261007`, sermon: `The Correct Order of Things: Principles from Ezra 7`,                      scripture: `ezr.7@@Ezra 7`,    },
+    { id: `20261014`, sermon: `A Messy Marriage, A Broken People (Pastor Austin Hamrick) `,               scripture: `ezr.8@@Ezra 8-10`, },
   ]
 }) }M
