@@ -21,6 +21,7 @@ const bibleTranslations = {
   CSB:      { code: '1713',  desc: 'Christian Standard Bible' },
   NET:      { code: '107',   desc: 'New English Translation' },
   NASB1995: { code: '100',   desc: 'New American Standard Bible - NASB 1995' },
+  BSB:      { code: '3034',  desc: 'Berean Standard Bible' },
 
   NKJV:     { code: '114',   desc: 'New King James Ver' },
   KJV:      { code: '1',     desc: 'King James Ver' },

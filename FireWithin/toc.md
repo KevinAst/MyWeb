@@ -118,17 +118,24 @@
 
 ----
 - [Specials](SpecialEvents.md)
-  * [Thanksgiving](Thanksgiving.md)
-  * [Christmas](Christmas.md)
-  * [Easter](Easter.md)
-  * [End Times](EndTimes.md)
-  * [Current Events](CurrentEvents.md)
   * [Beyond the Series](BeyondTheSeries.md)
   * [Questions and Answers](QA.md)
-  * [David Guzik Bible Commentary](https://enduringword.com/)
+  * [Bible Resources](BibleResources.md)
+    - [Bible Commentary](BibleResources.md#bible-commentary)
+    - [The Singing Bible](BibleResources.md#the-singing-bible)
+  * [Holidays](Holidays.md)
+    - [Thanksgiving](Thanksgiving.md)
+    - [Christmas](Christmas.md)
+    - [Easter](Easter.md)
+  * [Current Events](CurrentEvents.md)
+    - [Life](CurrentEvents.md#life)
+    - [Marriage & Divorce](CurrentEvents.md#marriage--divorce)
+    - [Election Day Sermons](CurrentEvents.md#election-day-sermons)
+    - [LGBTQ](CurrentEvents.md#lgbtq)
+    - [Moral Decay](CurrentEvents.md#moral-decay)
+  * [End Times](EndTimes.md)
   * [BEYOND a Billion](billion.md)
   * [My Small Group](MySmallGroup.md)
-
 
 ----
 - [Memorization](Memorization.md)

@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 621          _... categorized below!!_
-> <br/> **Photos: 50,713**       _... Yikes!!!_
+> <br/> **Albums: 624            _... categorized below!!_
+> <br/> **Photos: 50,843**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -594,6 +594,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 10: [Emily Home Early (Surprising AJ & the Girls)](https://photos.google.com/share/AF1QipNvs6e549RcapPkePTEEutbrHvEw5YApQYLf5gIff-EiA6GLxWuQH427whDDuXK_w?key=UnNiUTNtTEFyZGFMV0pjMml5Q2MtMHFoNkJkR0ln) _(27 pics)_
+- 2026 10: [Keys and Castanets (10/11/2026)](https://photos.google.com/share/AF1QipOQzkFclytTkp150-QDQ_5KUrGHIQKLN_oLww0FC2dyRIMNwipqnkGX0yBJSe7vag?key=ZUlCQ25ERFMxd0N2OERiU2Qtb1V0U1JWY1V5U1B3) _(80 pics)_
+- 2026 10: [Steve Martin & Martin Short at the Fox (10/10/2026)](https://photos.google.com/share/AF1QipPakXQu695h1AnvahukcmybXEtcYB_H6a2mQ1whAfwLegz9sZoHalAKAqQPx-uWjw?key=dHRrWlJsX05iOERKbUI0UWFncjd5bENHUFlyMDRR) _(23 pics)_
 - 2026 09: [Flags of Valor - St. Louis (9/10/2026)](https://photos.google.com/share/AF1QipNnh7UxUJ9GiM844JExvtm9xoMtLjeUka1bFuAuhXv7iGrUmtj9x1nrLgjiI09Xtg?key=elRTNmNDb3ZHYlhERF9HZnR0T0N5QUwtWTFneE13) _(15 pics)_
 - 2026 09: [Allan & Millie host Kevin & Resa (9/8/2026)](https://photos.google.com/share/AF1QipNNF824Jj_tXxJ-ceKKtFisUid_Dx1Y9TyXEI3upwLwrNtWj8vYUgErRpp1CpqRTQ?key=aTZhYlVxT3lYWk1ZSno4eGNSTHlJTXJBdmR2cC1n) _(5 pics)_
 - 2026 08: [Greg & Mindy Pool Party (8/5/2026)](https://photos.google.com/share/AF1QipP5nqv3EYaHy2_dqq44DhZcDdyN3zoOzbTPULGrtvGQ2hcNV6t9bU6au5I7SQK1pw?key=U0lrYndaUndTTlR2RkRIUEkxU2NxbTdGZm5vZFRR) _(25 pics)_

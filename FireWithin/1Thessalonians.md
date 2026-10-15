@@ -141,7 +141,9 @@ M{ sermonSeries({
 M{ sermonSeries({
   seriesType: 'Sundays',
   entries: [
-    { id: `20260906`, sermon: `The Second Coming of Christ: Delivered from God’s Wrath`,  scripture: `1th.1@@1 Thessalonians 1`,       },
-    { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,          scripture: `1th.2@@1 Thessalonians 2:19-20`, },
+    { id: `20260906`, sermon: `The Second Coming of Christ: Delivered from God’s Wrath`,                  scripture: `1th.1@@1 Thessalonians 1`,              },
+    { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,                          scripture: `1th.2@@1 Thessalonians 2:19-20`,        },
+    { id: `20261004`, sermon: `The Second Coming of Christ: Loving Others while Waiting for His Return`,  scripture: `1th.3.11-13@@1 Thessalonians 3:11-13`,  },
+    { id: `20261011`, sermon: `The Second Coming of Christ: Ready for the Rapture`,                       scripture: `1th.4@@1 Thessalonians 4`,              },
   ]
 }) }M
