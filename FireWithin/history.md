@@ -107,7 +107,8 @@ Release           | What                 | *When*
 
 - Restructured the {{book.SpecialEvents}} section order and indentation to be more intuitive.
 
-- ?? Added "Berean Standard Bible" to our supported {{book.BibleTranslation}} _(found in {{book.Settings}}_.
+- Added the [Berean Standard Bible (BSB)](https://berean.bible/)
+  to our supported {{book.BibleTranslation}} _(found in {{book.Settings}}_.
   This is the Bible Translation used by {{book.BR_TheSingingBible}} resource.
 
 
