@@ -85,7 +85,7 @@ Here are some features worth exploring:
   <br/>`... Menu / Sleep Timer / ...`
 - Listening Plans - discover curated selections!
   <br/>`... Menu / Listening Plans / ...`
-- Free Mobile Aapp - for both iPhone and Android.
+- <mark>Free Mobile App</mark> - for both iPhone and Android.
   <br/>`... Get the App`
   * seamless operation for continuous playback on sleeping phones
   * download chapters for offline listening and avoid using mobile data
