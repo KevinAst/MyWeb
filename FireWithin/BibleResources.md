@@ -30,65 +30,65 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 > Using this site:
 > - Choose a Bible book and chapter, pick a style and voice
 > - Press `Play`
->   - and enjoy the the audio of "The Singing Bible"
->   - each time you load the app, it picks right up where you left off!
+>   - and enjoy the music of "The Singing Bible"
+>   - each time you load the site/app, it picks right up where you left off!
 
-I had no idea someone had put the _entire Bible_ to music!  This site
-is surprisingly enjoyable and exceptionally well done. Every book,
-every chapter, word-for-word set to song!
+I had no idea that [Bible Hub](https://biblehub.com/) had put the
+_entire Bible_ to music!  This site is surprisingly enjoyable and
+exceptionally well done. Every book, every chapter, word-for-word set
+to song!
 
 The musical styles vary, but the arrangements are generally modern and
 engaging. It's a wonderful way to experience God's Word! Meditate on
 Scripture and hide it in your heart—wherever your day takes you.
 
-The [Berean Standard Bible (BSB)](https://www.berean.bible/) _(the
+Did you really say: `The whole Bible`?
+- _Well - `YES`!_
+- We all know that certain passages were meant for song 
+  _([Genesis 1](https://thesinging.bible/#sbe/male/adult/praise/01-genesis/1),
+  [Psalms 23](https://thesinging.bible/#sbe/male/adult/praise/19-psalms/23),
+  [Isaiah 53](https://thesinging.bible/#sbe/male/adult/praise/23-isaiah/53),
+  [John 3](https://thesinging.bible/#sbe/male/adult/praise/43-john/3),
+  [Romans 8](https://thesinging.bible/#sbe/male/adult/praise/45-romans/8),
+  [1 Corinthians 13](https://thesinging.bible/#sbe/male/adult/praise/46-1-corinthians/13),
+  [Revelation 21](https://thesinging.bible/#sbe/male/adult/praise/66-revelation/21))_.
+  * FYI: You can listen to these passages in different styles, using the
+    `Taste Test` Listening Plan:
+    <br/>`... Menu / Listening Plans / Taste Test`
+- With that said, I'm not sure how often you'd want to put an extended genealogy 
+  _([1 Chronicles 1](https://thesinging.bible/#sbe/male/adult/praise/13-1-chronicles/1))_,
+  or a chapter full of repeated descriptions 
+  _([Numbers 7](https://thesinging.bible/#sbe/male/adult/praise/04-numbers/7))_ 
+  to music ...
+  * however they have done a surprisingly good job with those, too!
+- `Bottom Line: Yes` - the entire Bible has been set to song (word-for-word)!
+
+The [Berean Standard Bible (BSB)](https://berean.bible/) _(the
 translation used by "The Singing Bible")_, is designed to connect the
 meaning of the original Greek and Hebrew with clear, natural
 English. Its goal is to provide a text well suited for reading, study,
 memorization, and evangelism.
 
-I'm not sure how often you'd want to put an extended genealogy 
-_([1 Chronicles 1](https://thesinging.bible/#sbe/male/adult/praise/13-1-chronicles/1))_,
-or a chapter full of repeated descriptions 
-_([Numbers 7](https://thesinging.bible/#sbe/male/adult/praise/04-numbers/7))_ 
-to music—but they've done a surprisingly good job with those, too!
-
-
-?? cur point .................
-
-FEATURES (?? a start to list on FireWithin):
+Here are some Quick Points / Features you should be aware of:
 - A completely free resource to all!
-- 22 different music styles in both mail and femaale voices
-- You can view the Bible Text (by Chapter or Verse-by-Verse)
+- 22 different music styles in both male and female voices
+  * my favorites: 
+    `Praise`,
+    `Choir of Angels`,
+    `Calming/Lullaby`,
+    `Contemporary Pop`,
+    `R&B/Soul`
+    <br/>`... Style`
+- View the Bible text (by Chapter or Verse-by-Verse)
+  <br/>`... View Bible Text`
 - Sleep Timer
-- Download chapters to avoid cell tower charges
-- There are Listening Plans
-- 20 Fun Facts
-- ... https://thesinging.bible/funfacts
-- Besides the web, there is a free mobile app (both iPhone and Android) - operates much better for continuous playback streaming
-- FYI: This is OBVIOUSLY AI generated (based on the rich features)
-
-
-NAH: ?? just reference the "Taste Test" Listening Plan
-<br/>
-Here are some passages I'd especially recommend experiencing through song:
-
-- [Psalm 23 (Trust)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-23)
-- [Psalm 51 (Repentance)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-51)
-- [Psalm 91 (Protection)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-91)
-- [Psalm 103 (Thanksgiving)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-103)
-- [Psalm 139 (God's intimate knowledge)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Psa-139)
-- [Exodus 15 (Deliverance)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Exo-15)
-- [Isaiah 40 (Hope)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Isa-40)
-- [Isaiah 53 (The suffering Servant)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Isa-53)
-- [John 1 (The identity of Christ)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Jhn-1)
-- [1 Corinthians 13 (Love)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#1Co-13)
-- [Philippians 2 (The humility and exaltation of Jesus)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Php-2)
-- [Revelation 5 (Worship of the Lamb)](https://biblehub.com/audio/dc-player/musical-BSB-chapter.htm#Rev-5)
-
-
-<mark>Mobile Playback Limitation:</mark>
-When using this site on a cell phone, continuous playback may stop
-after the second chapter, when the phone screen is locked. Playback
-works normally while the screen remains on. A workaround has not yet
-been found _(awaiting response from Bible Hub)_.
+  <br/>`... Menu / Sleep Timer / ...`
+- Listening Plans
+  <br/>`... Menu / Listening Plans / ...`
+- Besides the web site, there is a free mobile app
+  <br/>`... Get the App` _(both iPhone and Android)_
+  * seamless operation for continuous playback on sleeping phones
+  * download chapters to avoid cell tower charges
+- Obviously this resource utilizes AI technology
+  <br/>`but non-opinionated` _(with respect to the lyric - it is the Bible Text)_
+- [20 Fun Facts](https://thesinging.bible/funfacts)
