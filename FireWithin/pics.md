@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 624            _... categorized below!!_
+> <br/> **Albums: 625            _... categorized below!!_
 > <br/> **Photos: 50,843**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -263,6 +263,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Julian Birthday
 
+- 10/2026: 11 [Julian Turns 11! (10/2026)](https://photos.google.com/share/AF1QipPDO3nWD6ws6jLhnYLGbyucZjryx8gJYoheKIQ5r2SPF-9EnC1DrTwXy65O5WldeA?key=TnZEdUIxWDdDYkFfWF90OE5SX0I3RE83c01mSkVB) _(?? pics)_
 - 09/2025: 10 [Orlando - Julian is 10](https://photos.google.com/share/AF1QipNPwmSW8WDGaKcR4NE9oCLcVyfzdN7QtkUriRMdZjBuaPbcS7fpbuCAx-A5eQAw_w?key=RnVReThPNENTSUJJTEFGS05remVUSkdCLWtGSVdR) _(773 pics)_
 - 10/2024:  9 [Julian is 9](https://photos.google.com/share/AF1QipPyQzqRaGp0_4ogJYkuoncivIIkSyggG8xl3P4wwBPjkuSOQ9FyXi16TA9WkqTAsg?key=SHJ2V09DYmJDWVJNcWtlU1JKSDhUN2JrejFmd0d3) _(207 pics)_
 - 10/2023:  8 [Julian Turns 8](https://photos.google.com/share/AF1QipMeTT8W7G7z6S7Wj9obe-45Jc_DELbhEfkUu9oENZeC_1m2HEw10GQIWog1YavmRw?key=UGVDTmRwdG8xeE5USTI5OUdPRzZlckdjMjdhbWlB) _(518 pics)_
