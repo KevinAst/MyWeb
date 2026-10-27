@@ -65,6 +65,6 @@ M{ sermonSeries({
     { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,                                                  scripture: `1ki.18.20-40@@1 Kings 18:20-40`,  studyGuide: `NONE`, extraSermonLink: `https://www.youtube.com/watch?v=vqdef1pmTEI@@A Conversation with Dr. Erwin Lutzer (new book: "Marx and Moody")`,  },
     { id: `20260927`, sermon: `Set Apart for the Lord (Sen. Josh Hawley)`,                                                                scripture: `act.13.1-3@@Acts 13:1-3`,         studyGuide: `NONE`, extraSermonLink: `https://www.youtube.com/watch?v=RyHfoZlTjR0&t=00h30m15s@@YouTube Live (with introduction)`,  },
     { id: `20261018`, sermon: `What Turns Down the Volume of God’s Voice? (Pastor Austin Hamrick)`,                                       scripture: `luk.10.38-42@@Luke 10:38-42`,                         },
-    { id: `20261021`, sermon: `God Speaks, Are We Listening? (Pastor Tyler Hamrick)`,                                                     scripture: `heb.1.1-14@@Hebrews 1:1-14`,      studyGuide: `NONE`, },
+    { id: `20261021`, sermon: `In These Last Days (Pastor Tyler Hamrick)`,                                                                scripture: `heb.1.1-14@@Hebrews 1:1-14`,      studyGuide: `NONE`, },
   ]
 }) }M
