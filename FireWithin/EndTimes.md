@@ -32,5 +32,6 @@ M{ sermonSeries({
     { id: `20251122`, sermon: `https://www.youtube.com/watch?v=Gjx92HC3ax8@@The Antichrist, The Rapture, and 2nd Coming of Jesus Explained`,      studyGuide: `NONE`,   },
     { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                   studyGuide: `NONE`, },
     { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,             scripture: `1ki.18.20-40@@1 Kings 18:20-40`, studyGuide: `NONE`, },
+    { id: `20261025`, sermon: `What’s the Truth about Israel? (Pastor Gary talks with Mike Huckabee, U.S. Ambassador to Israel - on site in Jerusalem)`, studyGuide: `NONE`, },
   ]
 }) }M
