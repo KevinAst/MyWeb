@@ -17,6 +17,7 @@ makes a way for us to live in his presence.
 
 - [Nehemiah Overview](#nehemiah-overview)
 - [2016 Nehemiah Series (Sundays)](#2016-nehemiah-series-sundays)
+- [2026 Nehemiah Series (Mid Week)](#2026-nehemiah-series-mid-week)
 
 
 ## Nehemiah Overview
@@ -129,5 +130,22 @@ M{ sermonSeries({
     { id: `20160417`, sermon: `Patient Perseverance`,                                                  scripture: `neh.6@@Nehemiah 6`,       },
     { id: `20160424`, sermon: `Building up our Spiritual Walls`,                                       scripture: `neh.7@@Nehemiah 7-10`,    },
     { id: `20160501`, sermon: `The Test of Time`,                                                      scripture: `neh.11@@Nehemiah 11-13`,  },
+  ]
+}) }M
+
+
+
+## 2026 Nehemiah Series (Mid Week)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _This is the <mark>current Mid Week series</mark>, and will be updated as new sermons are published :-)_
+
+M{ sermonSeries({
+  // collapsibleSectionID: 'ss-neh-2026',
+  includeStudyGuide: false,
+  seriesType: 'MidWeek',
+  entries: [
+    { id: `20261028`, sermon: `A Burden, A Prayer, A Mission: Intro to Nehemiah`,                         scripture: `neh.1@@Nehemiah 1-2:10`,  },
   ]
 }) }M
