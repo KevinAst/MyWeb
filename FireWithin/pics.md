@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 625            _... categorized below!!_
-> <br/> **Photos: 50,843**       _... Yikes!!!_
+> <br/> **Albums: 626            _... categorized below!!_
+> <br/> **Photos: 50,858**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -595,6 +595,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### Outings
 
+- 2026 10: [Pickleball with Emily, Gaige, Emerson, & Papaw (10/30/2026)](https://photos.google.com/share/AF1QipOwU5cAhS9bVg6ZiwNBQG4pM6G8Oeu2VVVCh7Nk9oJoc9ZjTaFRGY2FVdXLinz-0w?key=TUNlTDNDcGhWb2cyRlZQejRSOGRYTG5rbzg3R19R) _(15 pics)_
 - 2026 10: [Emily Home Early (Surprising AJ & the Girls)](https://photos.google.com/share/AF1QipNvs6e549RcapPkePTEEutbrHvEw5YApQYLf5gIff-EiA6GLxWuQH427whDDuXK_w?key=UnNiUTNtTEFyZGFMV0pjMml5Q2MtMHFoNkJkR0ln) _(27 pics)_
 - 2026 10: [Keys and Castanets (10/11/2026)](https://photos.google.com/share/AF1QipOQzkFclytTkp150-QDQ_5KUrGHIQKLN_oLww0FC2dyRIMNwipqnkGX0yBJSe7vag?key=ZUlCQ25ERFMxd0N2OERiU2Qtb1V0U1JWY1V5U1B3) _(80 pics)_
 - 2026 10: [Steve Martin & Martin Short at the Fox (10/10/2026)](https://photos.google.com/share/AF1QipPakXQu695h1AnvahukcmybXEtcYB_H6a2mQ1whAfwLegz9sZoHalAKAqQPx-uWjw?key=dHRrWlJsX05iOERKbUI0UWFncjd5bENHUFlyMDRR) _(23 pics)_
