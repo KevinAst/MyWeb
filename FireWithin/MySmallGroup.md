@@ -368,7 +368,7 @@ M{ sermonSeries({
     { id: `SG20261018`, sermon: `TXT@@Indwelt`,                scripture: `rom.8@@Romans 8:14-27`,         date:`10/18/2026`,  },
     { id: `SG20261025`, sermon: `TXT@@Believe*`,               scripture: `rom.9@@Romans 9:30–10:3,9-17`,  date:`10/25/2026`,  },
     { id: `SG20261101`, sermon: `TXT@@Kindness`,               scripture: `rom.11@@Romans 11:11-24`,       date:`11/01/2026`,  },
-    { id: `SG20261118`, sermon: `TXT@@Sacrifice`,              scripture: `rom.12@@Romans 12:1-13`,        date:`11/18/2026`,  },
+    { id: `SG20261108`, sermon: `TXT@@Sacrifice`,              scripture: `rom.12@@Romans 12:1-13`,        date:`11/08/2026`,  },
     { id: `SG20261115`, sermon: `TXT@@Represent`,              scripture: `rom.13@@Romans 13:1-14`,        date:`11/15/2026`,  },
     { id: `SG20261122`, sermon: `TXT@@Unity`,                  scripture: `rom.14@@Romans 14:5-20`,        date:`11/22/2026`,  },
     { id: `SG20261129`, sermon: `TXT@@Purpose`,                scripture: `rom.15@@Romans 15:14-21,30-33`, date:`11/29/2026`,  },
