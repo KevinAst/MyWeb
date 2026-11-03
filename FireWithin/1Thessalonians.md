@@ -145,5 +145,6 @@ M{ sermonSeries({
     { id: `20260913`, sermon: `The Second Coming of Christ: Reasons to Rejoice`,                          scripture: `1th.2@@1 Thessalonians 2:19-20`,        },
     { id: `20261004`, sermon: `The Second Coming of Christ: Loving Others while Waiting for His Return`,  scripture: `1th.3.11-13@@1 Thessalonians 3:11-13`,  },
     { id: `20261011`, sermon: `The Second Coming of Christ: Ready for the Rapture`,                       scripture: `1th.4@@1 Thessalonians 4`,              },
+    { id: `20261101`, sermon: `The Second Coming of Christ: Body, Soul, and Spirit Sanctification`,       scripture: `1th.5@@1 Thessalonians 5`,              },
   ]
 }) }M
