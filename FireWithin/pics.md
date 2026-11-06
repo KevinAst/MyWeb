@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 627            _... categorized below!!_
-> <br/> **Photos: 51,336**       _... Yikes!!!_
+> <br/> **Albums: 628            _... categorized below!!_
+> <br/> **Photos: 51,342**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -1288,6 +1288,9 @@ document.addEventListener("DOMContentLoaded", function() {
 - 2022 04: [Gaylord Baptism](https://photos.google.com/share/AF1QipMmNwTGCkOnzwvhFpwxvN8eq7q2t99dw-XotZQQXq8gCipQoWkstkqJHBK5rmmYgw?key=U3FDTmVJUnhNTjNOUnRNc2x6c0FYSi1CaWpYajh3) _(10 pics)_
 
 ### Odds & Ends
+
+- 2026 05: [Vintage Trash Can Repair (11/05/2026)](https://photos.google.com/share/AF1QipM6Ss0KIdBTWFCJqf4cQMBq-glgTWEMvD-5UG1yhZ1Q7693XSJ94P4EifnPRkr5Mg?key=NFI2NGhzRm4wZlprOGhOVUU4dzYxanhxNjhPOWh3) _(6 pics)_
+
 
 - 2024 06: [2024 0618 Stuff](https://photos.google.com/share/AF1QipNq9MU6uAgi9oSzks18FZP5i4x44qH5xzRsc-FHSSTvj5G5AfHV_ew1XFB7bksWBg) _(4 pics)_ **Resa Album**
 
