@@ -147,6 +147,6 @@ M{ sermonSeries({
   seriesType: 'MidWeek',
   entries: [
     { id: `20261028`, sermon: `A Burden, A Prayer, A Mission: Intro to Nehemiah`,                         scripture: `neh.1@@Nehemiah 1-2:10`,  },
-    { id: `20261105`, sermon: `20261104@@Humility & Harmony (Pastor Andy Wagner)`,                        scripture: `neh.2@@Nehemiah 2-3`,     }, // ?? SERMON MISMATCH - should be: 20261105
+    { id: `20261104`, sermon: `Humility & Harmony (Pastor Andy Wagner)`,                                  scripture: `neh.2@@Nehemiah 2-3`,     },
   ]
 }) }M
