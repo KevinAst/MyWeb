@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 628            _... categorized below!!_
-> <br/> **Photos: 51,342**       _... Yikes!!!_
+> <br/> **Albums: 629            _... categorized below!!_
+> <br/> **Photos: 51,344**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
 
@@ -1267,6 +1267,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ### First Baptist
 
+- 2026 11: [Singing Bible in Pre-Service? (11/09/2026)](https://photos.google.com/share/AF1QipMsaDXJcOldNAclVApG6ZNLz8CXfmjWLk48AJfC1fx8YxiXGK0K04Txvn4SktbFOQ?key=Yl81RmJ6RWNyRFo1c3FJUTV2YUZQNkl2Wl9WYlV3) _(2 pics)_
 - 2026 05: [Benjamin's last Sunday before NYC Internship](https://photos.google.com/share/AF1QipM_VX7UwiiL4Ih6RJSd_9vfkYnKZbz-44FPUHitHbPThmp7-60ZUIvkO-WAcw8dzg?key=UzR5Y0QwY1VmT19Zald4WVpEaVBxa0M3Ym0yNzln) _(16 pics)_
 - 2026 05: [Benjamin Kofi Essilfie - Masters Degree Graduation](https://photos.google.com/share/AF1QipMeHKCRJ1K1jrnvAvlHJ6OAP2-GLE8OGWKjTg3-wdLcCklDerqV9Rwingbqzaq9Pg?key=T0RmWEllT0piQTY4Qi1EaTNhSXZoaDdwRVdmMXln) _(53 pics)_
 
