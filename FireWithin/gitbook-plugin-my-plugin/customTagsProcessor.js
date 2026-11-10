@@ -899,17 +899,20 @@ function accum_bookSermonSeries(id, book, seriesType, weeks, archived) {
 //     - or may have moved sermons to YouTube (if you can find them)
 //     - EITHER way, THIS cache takes precedence (i.e. will NOT be duplicated)
 
-//                                                 'Sundays'
-//                                                 'MidWeek'
-//                    (id,         book,           seriesType,   weeks, archived);
-accum_bookSermonSeries('20090419', 'Acts',         'Sundays',    12,    true);
-accum_bookSermonSeries('20090809', 'Romans',       'Sundays',    6,     true);
-accum_bookSermonSeries('20090927', '1Corinthians', 'Sundays',    9,     true);
-accum_bookSermonSeries('20091206', '2Corinthians', 'Sundays',    5,     true);
-accum_bookSermonSeries('20100131', 'Galatians',    'Sundays',    2,     true);
-accum_bookSermonSeries('20100221', 'Ephesians',    'Sundays',    3,     true);
-accum_bookSermonSeries('20100321', 'Philippians',  'Sundays',    2,     true);
-accum_bookSermonSeries('20100411', 'Colossians',   'Sundays',    2,     true);
+//                                                      'Sundays'
+//                                                      'MidWeek'
+//                    (id,         book,                seriesType,   weeks, archived);
+accum_bookSermonSeries('20090419', 'Acts',              'Sundays',    12,    true);
+accum_bookSermonSeries('20090809', 'Romans',            'Sundays',    6,     true);
+accum_bookSermonSeries('20090927', '1Corinthians',      'Sundays',    9,     true);
+accum_bookSermonSeries('20091206', '2Corinthians',      'Sundays',    5,     true);
+accum_bookSermonSeries('20100131', 'Galatians',         'Sundays',    2,     true);
+accum_bookSermonSeries('20100221', 'Ephesians',         'Sundays',    3,     true);
+accum_bookSermonSeries('20100321', 'Philippians',       'Sundays',    2,     true);
+accum_bookSermonSeries('20100411', 'Colossians',        'Sundays',    2,     true);
+accum_bookSermonSeries('20100425', '1Thessalonians',    'Sundays',    2,     true);
+accum_bookSermonSeries('20100425', '2Thessalonians',    'Sundays',    1,     true);
+
 
 // baseline used in summarizeSermonSeries() macro to insure content has been added
 const _bookSermonSeriesBASELINE = _bookSermonSeries.length;
