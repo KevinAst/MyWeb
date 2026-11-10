@@ -111,7 +111,7 @@ M{ sermonSeries({
   entries: [
     { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
     { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
-    { id: `20100509`, sermon:                `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+    { id: `20100509`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
   ]
 }) }M
 
@@ -135,8 +135,6 @@ M{ sermonSeries({
 ## 2026 1 Thessalonians Series (Sundays)
 
 {{book.CornerstoneChapel}}
-
-**Note:** _This is the <mark>current Sunday series</mark>, and will be updated as new sermons are published :-)_
 
 M{ sermonSeries({
   seriesType: 'Sundays',

@@ -19,6 +19,7 @@ oppressing them.
 - [2 Thessalonians Overview](#2-thessalonians-overview)
 - [2010 2 Thessalonians Series (Sundays)](#2010-2-thessalonians-series-sundays)
 - [2018 2 Thessalonians Series (Mid Week)](#2018-2-thessalonians-series-mid-week)
+- [2026 2 Thessalonians Series (Sundays)](#2026-2-thessalonians-series-sundays)
 
 
 ## 2 Thessalonians Overview
@@ -105,7 +106,7 @@ M{ sermonSeries({
   entries: [
     { id: `20100425`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 1)?`, scripture: `1th.1@@1 Thess 1-3`, },
     { id: `20100502`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 2)?`, scripture: `1th.4@@1 Thess 4-5`, },
-    { id: `20100509`, sermon:                `What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
+    { id: `20100509`, sermon: `TXT@@Archived: What Does the Lord's Return Mean (Part 3)?`, scripture: `2th.1@@2 Thess`,     },
   ]
 }) }M
 
@@ -121,5 +122,19 @@ M{ sermonSeries({
     { id: `20180502`, scripture: `2th.1@@2 Thess 1`,         },
     { id: `20180509`, scripture: `2th.2@@2 Thess 2:1-12`,    },
     { id: `20180516`, scripture: `2th.2@@2 Thess 2:13-3:18`, },
+  ]
+}) }M
+
+
+## 2026 2 Thessalonians Series (Sundays)
+
+{{book.CornerstoneChapel}}
+
+**Note:** _This is the <mark>current Sunday series</mark>, and will be updated as new sermons are published :-)_
+
+M{ sermonSeries({
+  seriesType: 'Sundays',
+  entries: [
+    { id: `20261108`, sermon: `Seasons of Suffering`,                scripture: `2th.1@@2 Thessalonians 1`,  },
   ]
 }) }M
