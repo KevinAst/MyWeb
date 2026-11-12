@@ -148,5 +148,6 @@ M{ sermonSeries({
   entries: [
     { id: `20261028`, sermon: `A Burden, A Prayer, A Mission: Intro to Nehemiah`,                         scripture: `neh.1@@Nehemiah 1-2:10`,  },
     { id: `20261104`, sermon: `Humility & Harmony (Pastor Andy Wagner)`,                                  scripture: `neh.2@@Nehemiah 2-3`,     },
+    { id: `20261111`, sermon: `Standing Strong in the Faith`,                                             scripture: `neh.4@@Nehemiah 4-5`,     },
   ]
 }) }M
