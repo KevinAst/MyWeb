@@ -149,5 +149,6 @@ M{ sermonSeries({
     { id: `20261028`, sermon: `A Burden, A Prayer, A Mission: Intro to Nehemiah`,                         scripture: `neh.1@@Nehemiah 1-2:10`,  },
     { id: `20261104`, sermon: `Humility & Harmony (Pastor Andy Wagner)`,                                  scripture: `neh.2@@Nehemiah 2-3`,     },
     { id: `20261111`, sermon: `Standing Strong in the Faith`,                                             scripture: `neh.4@@Nehemiah 4-5`,     },
+    { id: `20261118`, sermon: `Don't Let the Enemy Distract You`,                                         scripture: `neh.6@@Nehemiah 6-7`,     },
   ]
 }) }M
