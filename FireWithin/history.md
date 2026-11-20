@@ -108,7 +108,11 @@ Release           | What                 | *When*
   * {{book.QA}} has moved just below {{book.EndTimes}}.
 
 
+-  The {{book.BR_TheSingingBible}} overview has been streamlined.
+
+
 - ?? itemize EACH feature enhancement
+
 
 
 
