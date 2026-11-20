@@ -5,12 +5,23 @@ Cornerstone's normal verse-by-verse studies.  These sermons provide
 additional opportunities to dig into God's Word, and are arranged
 chronologically by date.
 
+
+### At a Glance
+
+- [2021](#2021-beyond-the-series)
+- [2022](#2022-beyond-the-series)
+- [2023](#2023-beyond-the-series)
+- [2025](#2025-beyond-the-series)
+- [2026](#2026-beyond-the-series)
+
+
+
+## 2021 Beyond the Series
+
 {{book.CornerstoneChapel}}
 
 M{ sermonSeries({
   entries: [
-
-    {                 divider: `2021` },
     { id: `20210328`, sermon: `The God of Second Chances`,                                                                                scripture: `mat.26@@Matthew 26`,              studyGuide: `NONE`, },
     { id: `20210718`, sermon: `Who Are You Imitating? (Tony Clark)`,                                                                      scripture: `eph.5@@Ephesians 5`,              studyGuide: `NONE`, },
     { id: `20210725`, sermon: `Opposition is Coming: Are You Prepared? (Tony Perkins)`,                                                   scripture: `neh.4@@Nehemiah 4`,               studyGuide: `NONE`, },
@@ -21,8 +32,16 @@ M{ sermonSeries({
     { id: `20211201`, sermon: `What Hinders Spiritual Growth? (Austin Hamrick)`,                                                          scripture: `hag.1@@Haggai 1`,                 studyGuide: `NONE`, },
     { id: `20211205`, sermon: `The Battlefield of Blessing (Austin Hamrick)`,                                                             scripture: `2ch.20@@2 Chronicles 20`,         studyGuide: `NONE`, },
     { id: `20211208`, sermon: `When God Speaks (Tyler Hamrick)`,                                                                          scripture: `isa.1@@Isaiah 1:10-20`,           studyGuide: `NONE`, },
+  ]
+}) }M
 
-    {                 divider: `2022` },
+
+## 2022 Beyond the Series
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
     { id: `20220420`, sermon: `His Name is Jesus (Lloyd Pulley)`,                                                                         scripture: `mat.1@@Matthew 1:21`,             studyGuide: `NONE`, },
     { id: `20220626`, sermon: `The Ministry of Truth (Matthey Maher)`,                                                                    scripture: `mat.16@@Matthew 16`,              studyGuide: `NONE`, },
     { id: `20220717`, sermon: `What are you counting? (Tony Perkins)`,                                                                    scripture: `1ch.21@@1 Chronicles 21`,         studyGuide: `NONE`, },
@@ -32,8 +51,16 @@ M{ sermonSeries({
     { id: `20220921`, sermon: `Saul and David (Andy Wagner)`,                                                                             scripture: `pro.1@@Proverbs 1-3`,             studyGuide: `NONE`, },
     { id: `20221016`, sermon: `Christians, Do Not Come Down (Garid Beeler)`,                                                              scripture: `neh.6@@Nehemiah 6:1-3`,           studyGuide: `NONE`, },
     { id: `20221218`, sermon: `God Chose You (Tyler Hamrick)`,                                                                            scripture: `mat.1@@Matthew 1`,                                    },
+  ]
+}) }M
 
-    {                 divider: `2023` },
+
+## 2023 Beyond the Series
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
     { id: `20230301`, sermon: `The Work of Sanctification (Brian Shannon)`,                                                               scripture: `col.3@@Colossians 3`,             studyGuide: `NONE`, },
     { id: `20230308`, sermon: `The Work of Sanctification Part II (Brian Shannon)`,                                                       scripture: `col.3@@Colossians 3`,             studyGuide: `NONE`, },
     { id: `20230402`, sermon: `Followers in the Crowd (Mike McClure)`,                                                                    scripture: `mat.20@@Matthew 20:29-21:14`,     studyGuide: `NONE`, },
@@ -44,16 +71,32 @@ M{ sermonSeries({
     { id: `20230823`, sermon: `The Heart of a Faithful Servant (Al Blake)`,                                                               scripture: `eph.1@@Ephesians 1:1-13`,         studyGuide: `NONE`, },
     { id: `20231022`, sermon: `Entering The World Of The Unknown (Mike Minter)`,                                                          scripture: `psa.119@@Psalms 119`,             studyGuide: `NONE`, },
     { id: `20231119`, sermon: `Hide & Go Seek (Austin Hamrick)`,                                                                          scripture: `psa.91@@Psalms 91`,                                   },
+  ]
+}) }M
 
-    {                 divider: `2025` },
+
+## 2025 Beyond the Series
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
     { id: `20250223`, sermon: `Why Women Hurt Twice as Much as Men (Ken Graves - DEEP VOICE)`,                                            scripture: `jhn.8@@John 8`,                   studyGuide: `NONE`, },
     { id: `20250409`, sermon: `Messengers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 1/2`,                 scripture: `mat.28@@Matthew 28`,              studyGuide: `NONE`, },
     { id: `20250430`, sermon: `Strangers Among Us: What the Bible Says About Angels (Pastor Austin Hamrick) - Part 2/2`,                  scripture: `heb.13@@Hebrews 13`,              studyGuide: `NONE`, },
     { id: `20250622`, sermon: `When in Times of Trouble (Austin Hamrick)`,                                                                scripture: `psa.27@@Psalms 27`,                                   },
     { id: `20250713`, sermon: `“Why, God?" Trusting God in Tragedy`,                                                                      scripture: `psa.13@@Psalms 13`,                                   },
     { id: `20250810`, sermon: `Walk In The Light (Ryan Ries)`, extraSermonLink: `https://thewhosoevers.com/@@The Whosoevers Movement`,    scripture: `jhn.12.31-33@@John 12:31-33`,     studyGuide: `NONE`, },
+  ]
+}) }M
 
-    {                 divider: `2026` },
+
+## 2026 Beyond the Series
+
+{{book.CornerstoneChapel}}
+
+M{ sermonSeries({
+  entries: [
     { id: `20260318`, sermon: `Nothing is Impossible with God`, extraSermonLink: `https://en.wikipedia.org/wiki/Shannon_Bream@@Pastor Gary interviews Shannon Bream (on her new book)`, studyGuide: `NONE`, }, 
     { id: `20260503`, sermon: `A Call to Prayer (Al Pittman)`,                                                                            scripture: `mat.6@@Matthew 6:5-15`,           studyGuide: `NONE`, },
     { id: `20260621`, sermon: `Have You Been Born Again? (Pastor Austin Hamrick)`,                                                        scripture: `jhn.3@@John 3`,                                       },

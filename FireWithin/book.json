@@ -130,8 +130,14 @@
     "CurSermonSeries_Sundays": "Sundays:  <a title='Go to the current Sunday sermon series'   href='2Thessalonians.html#2026-2-thessalonians-series-sundays'>2 Thessalonians</a>",
     "CurSermonSeries_MidWeek": "Mid Week: <a title='Go to the current Mid Week sermon series' href='Nehemiah.html#2026-nehemiah-series-mid-week'>Nehemiah</a>",
 
+    "BeyondTheSeries":    "[Beyond the Series](/BeyondTheSeries.md)",
+
     "SpecialEvents":      "[Specials](/SpecialEvents.md)",
-      "BeyondTheSeries":    "[Beyond the Series](/BeyondTheSeries.md)",
+      "Holidays":           "[Holidays](/Holidays.md)",
+        "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
+        "Christmas":          "[Christmas](/Christmas.md)",
+        "Easter":             "[Easter](/Easter.md)",
+      "EndTimes":           "[End Times](/EndTimes.md)",
       "QA":                 "[Questions and Answers](/QA.md)",
         "QA2022URL":          "https://www.youtube.com/watch?v=hTlkaX2He4I",
         "QA2023URL":          "https://www.youtube.com/watch?v=x114o0T9lek",
@@ -140,14 +146,6 @@
         "QA2025_03WedURL":    "https://www.youtube.com/watch?v=pLaGHYUtpHw",
         "QA2026URL":          "https://www.youtube.com/watch?v=MniGAg2Tuoc",
         "QA2026_03WedURL":    "https://www.youtube.com/watch?v=arOlehF2HNY",
-      "BibleResources":     "[Bible Resources](/BibleResources.md)",
-        "BR_BibleCommentary":  "[Bible Commentary](/BibleResources.md#bible-commentary)",
-        "BR_TheSingingBible":  "[The Singing Bible](/BibleResources.md#the-singing-bible)",
-      "Holidays":           "[Holidays](/Holidays.md)",
-        "Thanksgiving":       "[Thanksgiving](/Thanksgiving.md)",
-        "Christmas":          "[Christmas](/Christmas.md)",
-        "Easter":             "[Easter](/Easter.md)",
-      "EndTimes":           "[End Times](/EndTimes.md)",
       "CurrentEvents":      "[Current Events](/CurrentEvents.md)",
         "Life":                "[Life](/CurrentEvents.md#life)",
         "MarriageAndDivorce":  "[Marriage & Divorce](/CurrentEvents.md#marriage--divorce)",
@@ -159,6 +157,10 @@
 
     "DailyDevotions":     "[Daily Devotions](/devo.md)",
     "Devotions":          "[Devotions](/devo.md)",
+
+    "BibleResources":     "[Bible Resources](/BibleResources.md)",
+      "BR_BibleCommentary":  "[Bible Commentary](/BibleResources.md#bible-commentary)",
+      "BR_TheSingingBible":  "[The Singing Bible](/BibleResources.md#the-singing-bible)",
 
     "Memorization":      "[Memorization](/Memorization.md)",
     "25in25":            "[25 in 25](/25in25.md)",

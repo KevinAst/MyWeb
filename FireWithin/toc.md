@@ -117,12 +117,16 @@
   * [Series History](SermonSeries.md#series-history)
 
 ----
+- [Beyond the Series](BeyondTheSeries.md)
+  * [2021](BeyondTheSeries.md#2021-beyond-the-series)
+  * [2022](BeyondTheSeries.md#2022-beyond-the-series)
+  * [2023](BeyondTheSeries.md#2023-beyond-the-series)
+  * [2025](BeyondTheSeries.md#2025-beyond-the-series)
+  * [2026](BeyondTheSeries.md#2026-beyond-the-series)
+
+
+----
 - [Specials](SpecialEvents.md)
-  * [Beyond the Series](BeyondTheSeries.md)
-  * [Questions and Answers](QA.md)
-  * [Bible Resources](BibleResources.md)
-    - [Bible Commentary](BibleResources.md#bible-commentary)
-    - [The Singing Bible](BibleResources.md#the-singing-bible)
   * [Holidays](Holidays.md)
     - [Thanksgiving](Thanksgiving.md)
     - [Christmas](Christmas.md)
@@ -134,8 +138,14 @@
     - [LGBTQ](CurrentEvents.md#lgbtq)
     - [Moral Decay](CurrentEvents.md#moral-decay)
   * [End Times](EndTimes.md)
+  * [Questions and Answers](QA.md)
   * [BEYOND a Billion](billion.md)
   * [My Small Group](MySmallGroup.md)
+
+----
+- [Bible Resources](BibleResources.md)
+  * [Bible Commentary](BibleResources.md#bible-commentary)
+  * [The Singing Bible](BibleResources.md#the-singing-bible)
 
 ----
 - [Memorization](Memorization.md)

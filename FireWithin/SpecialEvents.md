@@ -1,14 +1,7 @@
 # Specials
 
-This "Specials" section contains resources that fall outside of
-Cornerstone's normal verse-by-verse studies, along with some
-additional external resources.
+This section contains memorable sermons for special events and topics.
 
-- {{book.BeyondTheSeries}}
-- {{book.QA}}
-- {{book.BibleResources}}
-  * {{book.BR_BibleCommentary}}
-  * {{book.BR_TheSingingBible}}
 - {{book.Holidays}}
   * {{book.Thanksgiving}}
   * {{book.Christmas}}
@@ -20,5 +13,6 @@ additional external resources.
   * {{book.LGBTQ}}
   * {{book.MoralDecay}}
 - {{book.EndTimes}}
+- {{book.QA}}
 - {{book.billion}}
 - {{book.MySmallGroup}}

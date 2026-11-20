@@ -101,6 +101,13 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
+- The {{book.SpecialEvents}} section was re-organized as follows:
+  * {{book.BeyondTheSeries}} has moved out of {{book.SpecialEvents}}, and now resides just below {{book.SermonSeries}}.
+    <br/>This section is now indexed by year.
+  * {{book.BibleResources}} has moved out of {{book.SpecialEvents}}, and now resides just below {{book.SpecialEvents}}.
+  * {{book.QA}} has moved just below {{book.EndTimes}}.
+
+
 - ?? itemize EACH feature enhancement
 
 
@@ -112,7 +119,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Added new {{book.BR_TheSingingBible}} resource in the {{book.SpecialEvents}} section.
+- Added new {{book.BR_TheSingingBible}} resource in the {{book.BibleResources}} section.
 
   This allows you to experience the Berean Standard Bible in a unique and memorable way
   through word-for-word scripture in song.  
@@ -154,7 +161,7 @@ Release           | What                 | *When*
   daily devotion, nor are these devotions written or authorized by
   Pastor Gary or Cornerstone Chapel.
 
-  <b><mark><b>This is a sobering example of how AI has the real
+  <b><mark>This is a sobering example of how AI has the real
   potential to be the ultimate instrument of deception.</mark></b>
 
   Beginning with the v28.0 release, these unauthorized Daily
@@ -236,8 +243,8 @@ Release           | What                 | *When*
   * {{book.2Chronicles}} Series (Mid Week)
 
 
-- A new page was created called {{book.BeyondTheSeries}} _(under
-  {{book.SpecialEvents}})_ which is a collection of Cornerstone
+- A new page was created called {{book.BeyondTheSeries}}
+  which is a collection of Cornerstone
   sermons that fall outside their regular verse-by-verse studies.
   Check it out :-)
 
@@ -299,7 +306,7 @@ Release           | What                 | *When*
   * {{book.2Chronicles}} Series (Mid Week)
 
 
-- Added the following Specials to {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+- Added the following Specials to {{book.BeyondTheSeries}}
   * `Have You Been Born Again? (Pastor Austin Hamrick)`
   * `Disclosure, Deception, and Discernment - UFOs (Pastor Tyler Hamrick)`
   * `Celebrating America 250 (Eric Metaxas)`
@@ -329,7 +336,7 @@ Release           | What                 | *When*
 - Added the following Specials
   * added `America’s Christian Heritage` to {{book.ElectionDaySermons}}
   * added `A Call to Prayer (Al Pittman)` to {{book.Matthew}} _(Misc)_
-  * added `The Awakening of the American Church (Jack Graham)` to {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+  * added `The Awakening of the American Church (Jack Graham)` to {{book.BeyondTheSeries}}
 
 
 
@@ -348,8 +355,8 @@ Release           | What                 | *When*
 
 - Updated following Specials
   * {{book.Easter}} 2026
-  * added reference to `Enduring Word Bible Commentary (by David Guzik)` in {{book.SpecialEvents}}
-  * added `Nothing is Impossible with God` in the {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+  * added reference to `Enduring Word Bible Commentary (by David Guzik)` in {{book.BibleResources}}
+  * added `Nothing is Impossible with God` in the {{book.BeyondTheSeries}}
   * added new {{book.QA}} for 03/11/2026
 
 
@@ -380,7 +387,7 @@ Release           | What                 | *When*
 
 
 - Added `The Rise of Antisemitism in Christian and Conservative Circles` to the {{book.SpecialEvents}} section
-  * both in the {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+  * both in the {{book.BeyondTheSeries}}
   * and in the {{book.EndTimes}} section
 
 
@@ -479,8 +486,7 @@ Release           | What                 | *When*
   * {{book.2Kings}} Series (Mid Week)
   * {{book.2Corinthians}} Series (Sundays)
   * {{book.Galatians}} Series (Sundays)
-  * added **Ryan Ries** sermon in
-    {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+  * added **Ryan Ries** sermon in {{book.BeyondTheSeries}}
   * added **Patti Height** interview to the {{book.LGBTQ}} section of {{book.CurrentEvents}}.
 
 
@@ -569,8 +575,7 @@ Release           | What                 | *When*
   * added **"Reclaiming the Cultural Mandate (Seth Gruber)"** in the
     {{book.MoralDecay}} section of {{book.CurrentEvents}} _(under
     {{book.SpecialEvents}})_
-  * added **Angel Series** in
-    {{book.BeyondTheSeries}} _(under {{book.SpecialEvents}})_
+  * added **Angel Series** in {{book.BeyondTheSeries}}
 
 
 - Added Psalms Series to {{book.MySmallGroup}} _(v24.8B)_
