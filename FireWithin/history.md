@@ -27,6 +27,7 @@ on this page.
 
 Release           | What                 | *When*
 ------------------|----------------------|------------------
+[v28.2](#v28_2)   | The Chosen Season 6, Site Enhancements & more | *TBD*
 [v28.1](#v28_1)   | Add "The Singing Bible" Resource          | *Oct 15, 2026*
 [v28.0](#v28_0)   | Removal of Daily Devotions                | *Oct 1, 2026*
 [v27.0](#v27_0)   | Incremental Sermon Series Synchronization | *Sep 22, 2026*
@@ -91,6 +92,17 @@ Release           | What                 | *When*
 
 
 ## Details:
+
+
+<!-- ************************************************************* -->
+<br/>
+<h3 id="v28_2" style="margin: 10px 0px; border-width: 5px 0px; padding: 5px; border-style: solid;">
+  v28.2 - The Chosen Season 6, Site Enhancements & more <i>(TBD)</i>
+</h3>
+<br/>
+
+- ?? itemize EACH feature enhancement
+
 
 
 <!-- ************************************************************* -->
