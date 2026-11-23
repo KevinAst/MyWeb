@@ -205,7 +205,7 @@ Release           | What                 | *When*
   Here is an example of what those links look like:
 
   <div style="width: fit-content; margin-left: auto;">
-    <b><a title="Go to the Sermon Series page" href="SermonSeries.html">Current Sermon Series</a>:</b>
+    <b>{{book.CurSermonSeries}}:</b>
     <ul>
       <li>{{book.CurSermonSeries_Sundays}}</li>
       <li>{{book.CurSermonSeries_MidWeek}}</li>
