@@ -72,6 +72,7 @@ M{ sermonSeries({
     {                 divider: `2024` },
     { id: `20240908`, sermon: `Election Day Sermon 2024 (Church, Unite for the Soul of America!)`,    scripture: `ezk.33.1-5@@Ezekiel 33:1-5`,                      },
     { id: `20240911`, sermon: `Night Of Prayer For America`,                                          scripture: `2ch.7.14@@2 Chronicals 7:14`, studyGuide: `NONE`, },
+  { id: `JC20240929`, sermon: `YT:Ysn-qBOJVSM@@Prophetic Warning For America (Jonathan Cahn)`,                                                  studyGuide: `NONE`, date:`09/29/2024`, },
     { id: `20241030`, sermon: `Night of Prayer for the 2024 Elections`,                                                                         studyGuide: `NONE`, },
 
     {                 divider: `2025` },
@@ -81,6 +82,7 @@ M{ sermonSeries({
     { id: `20260426`, sermon: `The Awakening of the American Church (Jack Graham)`,                   scripture: `heb.10@@Hebrews 10:22–25`,    studyGuide: `NONE`, }, 
     { id: `20260517`, sermon: `America’s Christian Heritage`,                                         scripture: `psa.33@@Psalm 33`,            studyGuide: `NONE`  },
     { id: `20260705`, sermon: `Celebrating America 250 (Eric Metaxas)`,                                                                         studyGuide: `NONE`, },
+{ id: `XTRA20261110`, sermon: `YT:JcRd3tFVKFU@@Pastor Gary's Perspective on The Midterm Elections`,                                             studyGuide: `NONE`, date:`11/10/2026`, },
   ]
 }) }M
 

@@ -23,6 +23,7 @@ M{ sermonSeries({
     { id: `20231004`, sermon: `A Conversation with Jonathan Cahn`,                                                                                studyGuide: `NONE`, },
     { id: `20231015`, sermon: `Israel, Hamas, and End Times **`,                                     scripture: `ezk.38@@Ezekiel 38`,                                 },
     { id: `20231129`, sermon: `A Conversation with Amir Tsarfati`,                                                                                studyGuide: `NONE`, },
+  { id: `JC20240929`, sermon: `YT:Ysn-qBOJVSM@@Prophetic Warning For America (Jonathan Cahn)`,                                                    studyGuide: `NONE`, date:`09/29/2024`, },
     { id: `20250205`, sermon: `A Conversation with Jonathan Cahn`,                                                                                studyGuide: `NONE`, },
     { id: `20250209`, sermon: `China and Bible Prophecy (Joel Rosenberg)`,                           scripture: `isa.49@@Isaiah 49:12`,           studyGuide: `NONE`, },
     { id: `20250709`, sermon: `Russia, Iran, and Israel: Are We Seeing Prophecy Unfold?`,            scripture: `ezk.38@@Ezekiel 38`,             studyGuide: `NONE`, },
@@ -33,5 +34,6 @@ M{ sermonSeries({
     { id: `20260121`, sermon: `The Rise of Antisemitism in Christian and Conservative Circles`,                                                   studyGuide: `NONE`, },
     { id: `20260920`, sermon: `Confronting our pagan gods by Prayer (Dr. Erwin Lutzer)`,             scripture: `1ki.18.20-40@@1 Kings 18:20-40`, studyGuide: `NONE`, },
     { id: `20261025`, sermon: `What’s the Truth about Israel? (Pastor Gary talks with Mike Huckabee, U.S. Ambassador to Israel - on site in Jerusalem)`, studyGuide: `NONE`, },
+{ id: `XTRA20261110`, sermon: `YT:JcRd3tFVKFU@@Pastor Gary's Perspective on The Midterm Elections`,                                               studyGuide: `NONE`, date:`11/10/2026`, },
   ]
 }) }M
