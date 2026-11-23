@@ -26,9 +26,9 @@ These are the sermon series that are currently active:
 - {{book.CurSermonSeries_Sundays}}
 - {{book.CurSermonSeries_MidWeek}}
 
-<mark>NOTE:</mark> As a convenience, shortcut links to these current
-series can be found at the top right of select "Bible Specific" pages
-(for example: {{book.Matthew}}).
+<mark>NOTE:</mark> As a convenience, shortcut links to the current
+series can be found at the top right of most Fire Within pages
+_(please refer to the top-right of each page)_.
 
 
 <!-- *** pageSectionBreak() ******************************************* -->

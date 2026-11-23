@@ -108,10 +108,13 @@ Release           | What                 | *When*
   * {{book.QA}} has moved just below {{book.EndTimes}}.
 
 
--  The {{book.BR_TheSingingBible}} overview has been streamlined.
+- The {{book.BR_TheSingingBible}} overview has been streamlined.
 
 
-- ?? itemize EACH feature enhancement
+- The {{book.CurSermonSeries}} quick reference links has expanded to include most FireWithin pages _(please refer to the top-right of each page)_.
+
+
+- ?? Work-In-Progress: itemize MORE feature enhancements :-)
 
 
 

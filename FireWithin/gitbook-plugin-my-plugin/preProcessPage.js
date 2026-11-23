@@ -10,6 +10,7 @@
 const {processCustomTags, completedCheckBox} = require('./customTagsProcessor');
 
 // The UI to quickly navigate to Current Sermon Series
+// ... injected on almost ALL pages of FireWithin
 const currentSermonSeries = `
 <b>{{book.CurSermonSeries}}:</b>
 <ul>
@@ -35,38 +36,39 @@ function preProcessPage(page) {
 
 
   //***
-  //*** conditionally add a "Book Completed" check-box control on ALL pages that represent a book of the Bible
-  //*** ALSO: inject the currentSermonSeries
+  //*** Inject the currentSermonSeries on MOST pages
+  //***
+
+  // identify the pages that are ISOLATED from FireWithin (i.e. EXTERNAL)
+  // ... which we excluded from this currentSermonSeries control
+  // ... EX: pics.md, 25in25.md, TheChosenPromo.md
+  const isolatedPage = page.content.includes('ISOLATED-PAGE');
+
+  // identify pages we explicitly excluded from this currentSermonSeries control
+  const excludedPage = page.path === 'intro.md'    || // Welcome
+                       page.path === 'settings.md' || // Settings
+                       page.path === 'start.md'    || // Getting Started
+                       page.path === 'MyFaith.md'  || // My Faith
+                       page.path === 'history.md';    // Revision History
+
+  if ( ! (isolatedPage || excludedPage) ) {
+    page.content = `<div style="width: fit-content; margin-left: auto;">${currentSermonSeries}</div>\n\n${page.content}`;
+  }
+
+
+  //***
+  //*** Inject a "Book Completed" check-box control on ALL Books-of-the-Bible pages
   //***
 
   // NOTES:
-  // - These pages uniquely contain an "NIV Intro" sub-string (see conditional logic below)
-  // - This is the same control that is accumulated in OldTestament.md / NewTestament.md
-  // - This is accomplished BEFORE any customTag processing, because we inject customTags in this step!
-  // - EXAMPLE:
-  //     <div style="text-align: right">
-  //       <label>
-  //         <input type="checkbox" onclick="fw.handleCompletedCheckChange(this);" id="Mark">
-  //           Book Completed
-  //       </label>
-  //     </div>
-  if ( page.content.includes('NIV Intro') ) {
+  // 1. These pages uniquely contain an "NIV Intro" sub-string (see conditional logic below)
+  // 2. This information is accumulated in OldTestament.md / NewTestament.md
+  // 3. This process is accomplished BEFORE any customTag processing, because we inject customTags in this step!
+
+  if ( page.content.includes('NIV Intro') ) { // ... see NOTE 1 (above)
     const bibleBook = page.path.replace('.md', '');
     const checkBox  = completedCheckBox(`${bibleBook}@@ Book Completed`)
-    const bibleBookCompletedCntl = `<div style="width: fit-content; margin-left: auto;">${checkBox}<br/>${currentSermonSeries}</div>`;
-    page.content = `${bibleBookCompletedCntl}\n\n${page.content}`;
-  }
-
-  //***
-  //*** Inject the currentSermonSeries on several other pages 
-  //***
-
-  if (page.path === 'OldTestament.md' || // ... Old Testament
-      page.path === 'NewTestament.md' || // ... New Testament
-      page.path === 'SermonSeries.md' || // ... Sermon Series page
-      // ... devo top-level pages (ex: devo.md & devo2026.md) NOT detailed devo page (e.g. devo20260217.md)
-      (page.path.startsWith('devo') && page.path.length !== 15) ) {
-    page.content = `<div style="width: fit-content; margin-left: auto;">${currentSermonSeries}</div>\n\n${page.content}`;
+    page.content = `<div style="width: fit-content; margin-left: auto;">${checkBox}</div>\n\n${page.content}`;
   }
 
 
