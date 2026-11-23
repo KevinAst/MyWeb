@@ -137,5 +137,6 @@ M{ sermonSeries({
   entries: [
     { id: `20261108`, sermon: `Seasons of Suffering`,                      scripture: `2th.1@@2 Thessalonians 1`,       },
     { id: `20261115`, sermon: `The Apostasy & the Antichrist - Part 1/2`,  scripture: `2th.2@@2 Thessalonians 2:1–12`,  },
+    { id: `20261122`, sermon: `The Apostasy & the Antichrist - Part 2/2`,  scripture: `2th.2@@2 Thessalonians 2:1-12`,  },
   ]
 }) }M
