@@ -587,22 +587,19 @@ function completedCheckBox(_id) {
 //* Inject an html link (via the <a> tag) for a specific sermon.
 //* 
 //* Parms:
-//*   - ref: The sermon reference, with an optional title (delimited with @@).
+//*   - ref: The ref source that generates the `<a>` tag (see EXAMPLES for full syntax)
 //* 
-//*          By default, the ref will generate a Cornerstone sermon link,
-//*          UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
-//* 
-//*          When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
-//*          EX:  'TXT@@Sacrificed'
-//* 
-//*          If NO title is specified, it will default to 'Teaching'.
-//* 
-//*          EXAMPLE:
-//*            - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
-//*            - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
-//*            - 'https://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
-//*              ... a self-contained URL link
-//*                  NOTE: This can be used for any generic URL/Label (not really sermon specific)
+//*   NOTE: 'xttp' will be interpreted as 'http' - as a work-around of markdown auto-linking http strings into an html link
+//*         ... specifically when used in our P{ tag macro (post-process-tags after the markdown phase)
+//*   
+//*   EXAMPLE:
+//*     - '20131113'                  ... A Cornerstone sermon, ref: '20131113', title: DEFAULTS TO 'Teaching')
+//*     - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
+//*     - 'TXT@@Sacrificed'           ... a text only item (i.e. NO link),       title: 'Sacrificed'
+//*     - 'YT:ytHash@@Talk to MiMa'   ... A YouTube link, ref: 'https://www.youtube.com/watch?v=ytHash', title: 'Talk to MiMa'
+//*     - 'xttps://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
+//*       ... a self-contained URL link
+//*           NOTE: This can be used for any generic URL/Label (not really sermon specific)
 //* 
 //* Custom Tag:
 //*   M{ sermonLink(`20210418@@Pray Like Jesus`) }M
@@ -630,7 +627,17 @@ function sermonLink(_ref) {
   const ref = rawRef.replace('xttp', 'http');
 
   // ... devise our url, defaulting to a Cornerstone sermon
-  const url = ref.startsWith('http') ? ref : `https://cornerstonechapel.net/teaching/${ref}`;
+  let url = ``;
+  if (ref.startsWith('http')) {
+    url = ref;
+  } 
+  else if (ref.startsWith('YT:')) {
+    const youTubeHash = ref.substring(3);
+    url = `https://www.youtube.com/watch?v=${youTubeHash}`;
+  } 
+  else {
+    url = `https://cornerstonechapel.net/teaching/${ref}`;
+  }
 
   // expand our customTag as follows
   // NOTE: For customTags used in table processing, the diag/comments are JUST TOO MUCH!
@@ -1131,7 +1138,7 @@ function expandSermonEntry(settings, entry, entryNum, checkParam, styleClass) { 
   // ... extraSermonLink
   if (extraSermonLink) {
     checkParam(isString(extraSermonLink), `extraSermonLink (when supplied) must be a string, NOT: ${extraSermonLink}`);
-    checkParam(extraSermonLink.startsWith('http'), `extraSermonLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
+//  checkParam(extraSermonLink.startsWith('http'), `extraSermonLink (when supplied) must begin with 'http' ... for entry id: '${id}'`);
     checkParam(extraSermonLink.includes('@@'),     `extraSermonLink (when supplied) must contain the '@@' delimiter ... for entry id: '${id}'`);
   }
   // ... extraLinkInScriptureCell

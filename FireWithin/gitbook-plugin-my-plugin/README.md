@@ -283,22 +283,17 @@ Inject an html link (via the `<a>` tag) for a specific sermon.
 
 **Parms**:
 
-* ref: The sermon reference, with an optional title (delimited with @@).
+* ref: The ref source that generates the `<a>` tag (see EXAMPLES for full syntax)
 
-  By default, the ref will generate a Cornerstone sermon link,
-  UNLESS it begins with an 'http' - which is assumed to be a complete self-contained URL link.
-
-  > NOTE: 'xttp' will be interpreted as 'http' - as a work-around of markdown auto-linking http strings into an \<a\> tag
-
-  When the sermon reference is 'TXT', the cooresponding title is emitted as a text item only (i.e. NO link).
-
-  If NO title is specified, it will default to 'Teaching'.
-
+  > NOTE: 'xttp' will be interpreted as 'http' - as a work-around of markdown auto-linking http strings into an html link
+  >       ... specifically when used in our P{ tag macro (post-process-tags after the markdown phase)
+  
   ```
   EXAMPLE:
+    - '20131113'                  ... A Cornerstone sermon, ref: '20131113', title: DEFAULTS TO 'Teaching')
     - '20210418@@Pray Like Jesus' ... A Cornerstone sermon, ref: '20210418', title: 'Pray Like Jesus'
-    - '20131113' ... A Cornerstone sermon, ref: '20131113', with NO title (defaulted to: 'Teaching')
-    - 'TXT@@Sacrificed' ... a text item only (i.e. NO link)
+    - 'TXT@@Sacrificed'           ... a text only item (i.e. NO link),       title: 'Sacrificed'
+    - 'YT:ytHash@@Talk to MiMa'   ... A YouTube link, ref: 'https://www.youtube.com/watch?v=ytHash', title: 'Talk to MiMa'
     - 'xttps://www.youtube.com/watch?v=otrqzITuSqE@@Oxford Mathematician Destroys Atheism'
       ... a self-contained URL link
           NOTE: This can be used for any generic URL/Label (not really sermon specific)
@@ -414,15 +409,17 @@ content of an entire sermon series.
                              //                 EX: `B20210418` prefix a letter before the encoded date
 
         sermon:     string,  // sermon title (OPTIONAL - DEFAULT: `Teaching`)
+                             // > FOLLOW THE SYNTAX OF sermonLink()
                              // - OMITTED: defaults to `Teaching` (using id for sermon ref)
                              // - `Pray Like Jesus`: sermon title (using id for sermon ref)
                              // - `20210418@@Pray Like Jesus`: sermon ref and title (when ref varies from id - a CornerStone mismatch/bug)
                              // - `TXT@@A Title`: a text item only (i.e. NO link).
+                             // - `YT:ytHash@@A Title`: a YouTube NON-CornerStone sermon
                              // - `https://www.youtube.com/...@@A Title`: a NON-CornerStone sermon
                              // - `NONE`: NO Sermon for this entry (unusual, but can happen)
 
         extraSermonLink:     // additional url link in the sermon cell (OPTIONAL)
-                    string,  // - `https://www.youtube.com/...@@Label`: another URL link
+                    string,  // > FOLLOW THE SYNTAX OF sermonLink()
                              // - OMITTED: nothing
 
         desc:       string,  // description (OPTIONAL - DEFAULT: ``)

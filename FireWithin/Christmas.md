@@ -5,7 +5,7 @@
 M{ sermonSeries({
   entries: [
     {                 divider: `Long Ago :-)` },
-    { id: `19651209`, sermon: `https://www.youtube.com/watch?v=FL6_lPd7kkY@@A Charlie Brown Christmas`, scripture: `luk.2.8-14@@Luke 2:8-14`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas@@History`, studyGuide: `NONE`, },
+    { id: `19651209`, sermon: `YT:FL6_lPd7kkY@@A Charlie Brown Christmas`, scripture: `luk.2.8-14@@Luke 2:8-14`, extraLinkInScriptureCell: `https://en.wikipedia.org/wiki/A_Charlie_Brown_Christmas@@History`, studyGuide: `NONE`, },
     {                 divider: `2008` },
     { id: `20081221`, sermon: `Taking the Right Approach to Christmas`, scripture: `luk.1@@Luke 1-2`,          studyGuide: `NONE`, },
     {                 divider: `2009` },
