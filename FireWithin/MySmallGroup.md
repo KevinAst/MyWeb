@@ -1,27 +1,28 @@
 # My Small Group
 
-This is the study guide of my small group at {{book.FBM}}.
+This is the Study Guide of My Small Group at {{book.FBM}}.
 
 ### At a Glance
 
 > **NOTE:** *Entries are in chronological order of study*
 
-- [John Series](#john-series)
-- [Jeremiah/Lamentations Series](#jeremiahlamentations-series)
-- [Mark Series](#mark-series)
-- [Genesis Series](#genesis-series)
-- [Acts Series](#acts-series)
-- [Exodus/Leviticus Series](#exodusleviticus-series)
-- [1/2 Peter Series](#12-peter-series)
-- [Psalms Series](#psalms-series)
-- [Numbers & Deuteronomy Series](#numbers--deuteronomy-series)
-- [Matthew Series](#matthew-series)
-- [Joshua, Judges, & Ruth Series](#joshua-judges--ruth-series)
-- [Romans Series](#romans-series)
-- [1 Samuel](#1-samuel-series)
+- [John Series (12/2022)](#john-series-122022)
+- [Jeremiah/Lamentations Series (06/2023)](#jeremiahlamentations-series-062023)
+- [Mark Series (09/2023)](#mark-series-092023)
+- [Genesis Series (12/2023)](#genesis-series-122023)
+- [Acts Series (06/2024)](#acts-series-062024)
+- [Exodus/Leviticus Series (12/2024)](#exodusleviticus-series-122024)
+- [1/2 Peter Series (03/2025)](#12-peter-series-032025)
+- [Psalms Series (06/2025)](#psalms-series-062025)
+- [Numbers & Deuteronomy Series (09/2025)](#numbers--deuteronomy-series-092025)
+- [Matthew Series (12/2025)](#matthew-series-122025)
+- [Joshua, Judges, & Ruth Series (06/2026)](#joshua-judges--ruth-series-062026)
+- [Romans Series (09/2026)](#romans-series-092026)
+- [1 Samuel (12/2026)](#1-samuel-series-122026)
 
 
-## John Series
+
+## John Series (12/2022)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.John}}
 
@@ -61,7 +62,7 @@ M{ sermonSeries({
 
 
 
-## Jeremiah/Lamentations Series
+## Jeremiah/Lamentations Series (06/2023)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Jeremiah}}, {{book.Lamentations}}
 
@@ -86,7 +87,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Mark Series
+## Mark Series (09/2023)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Mark}}
 
@@ -111,7 +112,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Genesis Series
+## Genesis Series (12/2023)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Genesis}}
 
@@ -151,7 +152,7 @@ M{ sermonSeries({
 
 
 
-## Acts Series
+## Acts Series (06/2024)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Acts}}
 
@@ -189,7 +190,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Exodus/Leviticus Series
+## Exodus/Leviticus Series (12/2024)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Exodus}}, {{book.Leviticus}}
 
@@ -214,7 +215,7 @@ M{ sermonSeries({
 }) }M
 
 
-## 1/2 Peter Series
+## 1/2 Peter Series (03/2025)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.1Peter}}, {{book.2Peter}}
 
@@ -238,7 +239,7 @@ M{ sermonSeries({
   ]
 }) }M
 
-## Psalms Series
+## Psalms Series (06/2025)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Psalms}}
 
@@ -264,7 +265,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Numbers & Deuteronomy Series
+## Numbers & Deuteronomy Series (09/2025)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Numbers}}, {{book.Deuteronomy}}
 
@@ -289,7 +290,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Matthew Series
+## Matthew Series (12/2025)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Matthew}}
 
@@ -327,7 +328,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Joshua, Judges, & Ruth Series
+## Joshua, Judges, & Ruth Series (06/2026)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Joshua}}, {{book.Judges}}, {{book.Ruth}}
 
@@ -352,7 +353,7 @@ M{ sermonSeries({
 }) }M
 
 
-## Romans Series
+## Romans Series (09/2026)
 
 {{book.FBM}} ... FireWithin Study Link: {{book.Romans}}
 
@@ -377,7 +378,7 @@ M{ sermonSeries({
 }) }M
 
 
-## 1 Samuel Series
+## 1 Samuel Series (12/2026)
 {{book.FBM}} ... FireWithin Study Link: {{book.1Samuel}}
 
 M{ sermonSeries({
