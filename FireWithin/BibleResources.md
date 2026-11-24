@@ -69,6 +69,6 @@ reading, study, memorization, and evangelism.
 ---
 ### My Small Group
 
-This is a Study Guide for My Small Group at {{book.FBM}}.
+This is the Study Guide for My Small Group at {{book.FBM}}.
 
 Page: {{book.MySmallGroup}}
