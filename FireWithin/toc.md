@@ -140,12 +140,12 @@
   * [End Times](EndTimes.md)
   * [Questions and Answers](QA.md)
   * [BEYOND a Billion](billion.md)
-  * [My Small Group](MySmallGroup.md)
 
 ----
 - [Bible Resources](BibleResources.md)
   * [Bible Commentary](BibleResources.md#bible-commentary)
   * [The Singing Bible](BibleResources.md#the-singing-bible)
+  * [My Small Group](MySmallGroup.md)
 
 ----
 - [Memorization](Memorization.md)

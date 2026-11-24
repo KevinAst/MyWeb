@@ -15,4 +15,3 @@ This section contains memorable sermons for special events and topics.
 - {{book.EndTimes}}
 - {{book.QA}}
 - {{book.billion}}
-- {{book.MySmallGroup}}

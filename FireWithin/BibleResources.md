@@ -5,6 +5,7 @@
 
 - [Bible Commentary](#bible-commentary)
 - [The Singing Bible](#the-singing-bible)
+- [My Small Group](#my-small-group)
 
 ---
 
@@ -63,3 +64,11 @@ The Singing Bible uses the
 a translation designed to communicate the meaning of the original
 Greek and Hebrew in clear, natural English, with an emphasis on
 reading, study, memorization, and evangelism.
+
+
+---
+### My Small Group
+
+This is a Study Guide for My Small Group at {{book.FBM}}.
+
+Page: {{book.MySmallGroup}}
