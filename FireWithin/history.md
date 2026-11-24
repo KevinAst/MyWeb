@@ -114,8 +114,13 @@ Release           | What                 | *When*
 - The {{book.CurSermonSeries}} quick reference links has expanded to include most FireWithin pages _(please refer to the top-right of each page)_.
 
 
-- ?? Work-In-Progress: itemize MORE feature enhancements :-)
+- The {{book.MySmallGroup}} section was enhanced as follows:
+  * This guide was moved to the {{book.BibleResources}} section (from {{book.SpecialEvents}}).
+  * The starting date was correlated to each of the series.
+  * The new 2026 winter series was added (M{ bibleLink(`1sa.1@@1 Samuel`) }M).
 
+
+- ?? Work-In-Progress: itemize MORE feature enhancements :-)
 
 
 
