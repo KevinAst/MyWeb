@@ -18,6 +18,7 @@ This is the study guide of my small group at {{book.FBM}}.
 - [Matthew Series](#matthew-series)
 - [Joshua, Judges, & Ruth Series](#joshua-judges--ruth-series)
 - [Romans Series](#romans-series)
+- [1 Samuel](#1-samuel-series)
 
 
 ## John Series
@@ -372,5 +373,29 @@ M{ sermonSeries({
     { id: `SG20261115`, sermon: `TXT@@Represent`,              scripture: `rom.13@@Romans 13:1-14`,        date:`11/15/2026`,  },
     { id: `SG20261122`, sermon: `TXT@@Unity`,                  scripture: `rom.14@@Romans 14:5-20`,        date:`11/22/2026`,  },
     { id: `SG20261129`, sermon: `TXT@@Purpose`,                scripture: `rom.15@@Romans 15:14-21,30-33`, date:`11/29/2026`,  },
+  ]
+}) }M
+
+
+## 1 Samuel Series
+{{book.FBM}} ... FireWithin Study Link: {{book.1Samuel}}
+
+M{ sermonSeries({
+  collapsibleSectionID: 'SG20261206',
+  includeStudyGuide: false,
+  entries: [
+    { id: `SG20261206`, sermon: `TXT@@Prayer`,         scripture: `1sa.1@@1 Samuel 1:9-18,24-28`,          date:`12/06/2026`, },
+    { id: `SG20261213`, sermon: `TXT@@Calling`,        scripture: `1sa.3@@1 Samuel 3:1-14`,                date:`12/13/2026`, },
+    { id: `SG20261220`, sermon: `TXT@@Savior`,         scripture: `luk.2@@Luke 2:8-20`,                    date:`12/20/2026`, },
+    { id: `SG20261227`, sermon: `TXT@@Supremacy`,      scripture: `1sa.5@@1 Samuel 5:1-10;6:13-15,19-20`,  date:`12/27/2026`, },
+    { id: `SG20270103`, sermon: `TXT@@King Demanded`,  scripture: `1sa.8@@1 Samuel 8:1-9,19-22`,           date:`01/03/2027`, },
+    { id: `SG20270110`, sermon: `TXT@@Obedience`,      scripture: `1sa.15@@1 Samuel 15:7-23`,              date:`01/10/2027`, },
+    { id: `SG20270117`, sermon: `TXT@@Valued`,         scripture: `psa.139@@Psalms 139:1-10,13-16,23-24`,  date:`01/17/2027`, },
+    { id: `SG20270124`, sermon: `TXT@@Anointed`,       scripture: `1sa.16@@1 Samuel 16:1-13`,              date:`01/24/2027`, },
+    { id: `SG20270131`, sermon: `TXT@@Victory`,        scripture: `1sa.17@@1 Samuel 17:32-47`,             date:`01/31/2027`, },
+    { id: `SG20270207`, sermon: `TXT@@Friendship`,     scripture: `1sa.18@@1 Samuel 18:1-9;20:35-42`,      date:`02/07/2027`, },
+    { id: `SG20270214`, sermon: `TXT@@Respect`,        scripture: `1sa.24@@1 Samuel 24:1-11,16-20`,        date:`02/14/2027`, },
+    { id: `SG20270221`, sermon: `TXT@@Discernment`,    scripture: `1sa.25@@1 Samuel 25:14-19,29-35`,       date:`02/21/2027`, },
+    { id: `SG20270228`, sermon: `TXT@@Guidance`,       scripture: `1sa.30@@1 Samuel 30:1-8,21-25`,         date:`02/28/2027`, },
   ]
 }) }M
