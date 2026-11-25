@@ -101,6 +101,11 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
+- {{book.TCSeason6}} is now being released - _covering the 24 hours of
+  the events surrounding Jesus’ death_.  Episodes and additional content
+  will be added as it is available.
+
+
 - The {{book.SpecialEvents}} section was re-organized as follows:
   * {{book.BeyondTheSeries}} has moved out of {{book.SpecialEvents}}, and now resides just below {{book.SermonSeries}}.
     <br/>This section is now indexed by year.

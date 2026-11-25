@@ -767,12 +767,84 @@ M{ sermonSeries({
 
 ## Season 6
 
-<mark><b>Please NOTE:</b></mark> Season 6 is scheduled to start airing on the following dates:
-- 11/15/2026 Episodes 1-3
-- 11/22/2026 Episode 4
-- 11/29/2026 Episode 5
-- 12/06/2026 Episode 6
-- 03/12/2027 Season Finale (Crucifixion) - Theatrical Release
+<!-- Temporarly Promote THIS NOTE -->
+<mark><b>Please NOTE:</b></mark> Currently Season 6 is only available on Amazon Prime (which requires a subscription to view).  When available these links will be updated to the free Chosen App.
+
+<mark><b>Also:</b></mark> Additional content (such as Round Tables, Deep Dives, Devotions, and Scripture) will be added when available.
+
+<!-- Eventually promote this
+<mark><b>Please NOTE:</b></mark> Season 6 requires you to **sign-in** to stream the episodes _(it's a free account)_.
+-->
+
+P{ inject('<div data-fw-desc style="display: none;">') }P
+
+<!-- Description found here: ?NOT: https://www.thechosenriseup.com/ TODO: ? update description when I can find it -->
+
+Season Six covers the 24 hours of the events surrounding Jesus’ death.
+
+P{ inject('</div>') }P
+
+<!-- ? L8TR:
+> ? Bible App (Season 6 Released XX/XX/2026) ... 
+> ? [Movies](https://watch.thechosen.tv/page/season-5) • 
+> ? [Devotions](https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan)
+ -->
+
+> <button data-fw-desc-toggle onclick="fw.toggleDesc()">Show Descriptions</button> _... both Series & Episodes_
+
+M{ sermonSeries({
+  entries: [
+    {
+      id:                 `TC-S6-E1`, 
+      sermon:             `https://www.amazon.com/gp/video/detail/0NWVCWEY9KHO9RIFJRB0BP63MP?ref_=atv_plr_detail_play@@Dawning`,
+//?   sermon:             `https://watch.thechosen.tv/video/184683621777@@Entry`,
+//?   extraSermonLink:    `https://watch.thechosen.tv/video/184683636503@@&#10022;RoundTable&#10022;`,
+      desc:               `Fear and confusion reign as the disciples struggle to make sense of Jesus' arrest-and Judas' betrayal. While they fight to stay together, Nicodemus stands alone against the High Priest in a heated showdown that throws the council into disorder.`,
+//?   scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
+      studyGuide:         `NONE`,
+//?   studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
+      date:               `DeepDive:HT7_GdaUcek@@Overview##ZexYuJVHBSI@@Illegal##ASFwG5WTlyM@@Jesus Claim##46s-5LCNY20@@Malchus Healed`,
+    },
+    {
+      id:                 `TC-S6-E2`, 
+      sermon:             `https://www.amazon.com/gp/video/detail/0K914E5RK1VS9LEPY0K53GMEB8?ref_=atv_plr_detail_play@@2:30am-4:00am`,
+//?   sermon:             `https://watch.thechosen.tv/video/184683621777@@Entry`,
+//?   extraSermonLink:    `https://watch.thechosen.tv/video/184683636503@@&#10022;RoundTable&#10022;`,
+      desc:               `Jesus refuses to defend Himself when interrogated by the former High Priest Annas, whose verdict could sway public opinion. Meanwhile, the women make a mad dash for Jerusalem, and Judas tries to rationalize his betrayal to John.`,
+//?   scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
+      studyGuide:         `NONE`,
+//?   studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
+      date:               `DeepDive:ZqA_x6DTs-w@@Truth about Caiaphas`,
+    },
+    {
+      id:                 `TC-S6-E3`, 
+      sermon:             `https://www.amazon.com/gp/video/detail/0OGD6BUXUXGRLMEIXA3Q340QEB?ref_=atv_plr_detail_play@@4:00am-5:00am`,
+//?   sermon:             `https://watch.thechosen.tv/video/184683621777@@Entry`,
+//?   extraSermonLink:    `https://watch.thechosen.tv/video/184683636503@@&#10022;RoundTable&#10022;`,
+      desc:               `Tension mounts as Caiaphas stages a daring nighttime show trial before an eager jury of Jesus' enemies. As Peter denies Jesus not once, but three times, Judas attempts to set the record straight. Nicodemus prepares his defense-but will he be too late?`,
+//?   scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
+      studyGuide:         `NONE`,
+//?   studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
+      date:               `11/15/2026`,
+    },
+    {
+      id:                 `TC-S6-E4`, 
+      sermon:             `https://www.amazon.com/gp/video/detail/0N35NHCDBURH5SBKJR8YK3WZWN?ref_=atv_plr_detail_play@@5:00am-6:00am`,
+//?   sermon:             `https://watch.thechosen.tv/video/184683621777@@Entry`,
+//?   extraSermonLink:    `https://watch.thechosen.tv/video/184683636503@@&#10022;RoundTable&#10022;`,
+      desc:               `Nicodemus and Caiaphas both want the truth from Jesus, but for different reasons. After hours of silence, Jesus finally speaks-and seals His fate. The disciples realize they are now hunted men, and guilt drives Judas to make a final, tragic decision.`,
+//?   scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
+      studyGuide:         `NONE`,
+//?   studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
+      date:               `11/22/2026`,
+    },
+    { divider: `Episode 5 will be available on 11/29/2026`,},
+    { divider: `Episode 6 will be available on 12/06/2026`,},
+    { divider: `The Chosen Season 6 Finale (The Crucifixion)<br/>will be initially released in Theaters on 03/12/2027`,},
+  ]
+}) }M
+
+
 
 
 ## Characters
