@@ -42,7 +42,7 @@ the way through, or you can directly link into the desired question.
 
 - [Q&A Service 01/02/2022](#qa-service-01022022)
 - [Q&A Service 12/31/2023](#qa-service-12312023)
-- [Q&A Service 12/20/2024](#qa-service-12202024)
+- [Q&A Service 12/29/2024](#qa-service-12292024)
 - [Q&A Service 03/19/2025](#qa-service-03192025)
 - [Q&A Service 01/04/2026](#qa-service-01042026)
 - [Q&A Service 03/11/2026](#qa-service-03112026)
@@ -137,7 +137,7 @@ the way through, or you can directly link into the desired question.
 1. [More Resources]({{book.QA2023URL}}&t=01h57m41s)
 
 
-### Q&A Service 12/20/2024
+### Q&A Service 12/29/2024
 
 {{book.CornerstoneChapel}}
 
