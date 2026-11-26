@@ -69,7 +69,7 @@ NO RAW DATA HERE ... QA.md is our master
         - play with SectionDivider
         - insure NO open questions
         - check in / sync
-          ... added missing Q&A series from 20222
+          ... added missing Q&A series from 2022
 
       * L8TR: ?? TRY placing entire section in html to see if you can target a single window for ALL questions
         ... ? there is a monster comment in the page highlighting various attempts
