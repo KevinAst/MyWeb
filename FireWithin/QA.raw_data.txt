@@ -3,3 +3,223 @@
 *-----------------------
 
 NO RAW DATA HERE ... QA.md is our master
+
+*-------------------------------------------
+* 11/25/2026: Analysis Missing Q&A Services
+*-------------------------------------------
+
+- On 11/25/2026 I randomly saw a Q&A Youtube video that was NOT in FireWithin
+  * THIS ENTRY:
+      01/08/2025
+      Midweek Q & A With Gary Hamrick
+      ... CS: https://cornerstonechapel.net/teaching/20250108/
+      ... YT: https://www.youtube.com/watch?v=as2EfOBqDqM
+  * I attempted to search Cornerstone site for Q&A Entries
+    - go to Teaching library 
+      ... https://cornerstonechapel.net/teachings/teaching-library/
+      * SEARCH for "Q&A"
+      * SEARCH for "Question Answer"
+    - match to what we have on-site (see: QA.md)
+      * THIS IS A REAL MESS
+        -  1 entry (from above) that doesn't even show up at all
+        - 11 entries in Cornerstone site
+        -  6 entries in FireWithin site
+        - a mis-mash of dates and entries in/out of FireWithin
+
+- BOTTOM LINE: 
+
+  * There are ZILLIONS of Q&A Services that have NOT been cataloged in FireWithin
+
+        Q&A
+      Services
+      ========
+         18      via Cornerstone search <<< starting in 2020   <<< or 12 starting in 2022
+          6      in FireWithin          <<< starting in 2022
+
+  * KEY: It's really not as bad as it looks
+    - if you consider that FireWithin started on 01/02/2022
+      WE are only missing 2 series (one 6 part series mid-2022, and one end of 2022 at 01/01/2023)
+    > DO THIS:
+    - correct typo in Q&A - 12/20/2024 entry is really 12/29/2024
+      * check in / sync
+        ... ditto
+    - would be nice to re-label all the series to be Year Specific 
+      * EX:
+        - Q&A 2021 (Year-End) ... 01/02/2022
+        - Q&A 2022 (Mid-Year) ... ?? FireWithin is currently missing this 6 part series
+        - Q&A 2022 (Year-End) ... 01/01/2023 ?? FireWithin is currently missing this
+        - Q&A 2023 (Year-End) ... 12/31/2023
+        - Q&A 2024 (Year-End) ... 12/20/2024
+        - Q&A 2025 (Mid-Year) ... 03/19/2025
+        - Q&A 2025 (Year-End) ... 01/04/2026
+        - Q&A 2026 (Mid-Year) ... 03/11/2026
+      * attempt to resolve all these YouTube links -and- determine if they have Questions with time-slice
+        - mostly there
+        - WHEN NOT: just embed it without questions
+      * implement Year-Specific re-labeling (see ABOVE)
+        - DONE: KEEP book.json URL NAME updated
+        - DONE: synnc NOTES BELOW ... see: >>
+        - DONE: highlight in page that we are starting in 2021
+        - add partial history (from below)
+        - check in / sync
+          ... restructured Q&A page to be a year-specific focus (both: mid-year & year-end)
+??$$  * add missing entries (ABOVE)
+        - ?? add partial history (from below)
+        - ?? check in / sync
+          ... added missing Q&A series from 20222
+
+??$$  * TRY placing entire section in html to see if you can re-use the same window 
+        ... ?? there is a monster comment in the page highlighting various attempts
+        ... ?? at minimum, move that comment into THIS file
+
+
+- SUMMARY
+  =======
+
+  NOTE: INCLUDES BOTH searches (above) -and- what I had in FireWithin
+
+  X  << KEY: IN FireWithin
+
+     x. 12/30/2018
+        Question and Answer Services
+        Pastor Gary Hamrick
+        ... CS: N/A (to old)
+        ... YT: N/A (to old)
+
+     x. 04/10/2019
+        Bible Q&A
+        Pastor Gary Hamrick
+        ... CS: N/A (to old)  https://cornerstonechapel.net/teaching/20190410/
+        ... YT: N/A (to old)
+
+     x. 12/29/2019
+        Question and Answer Services
+        Pastor Gary Hamrick
+        ... CS: N/A (to old)  https://cornerstonechapel.net/teaching/20191229/
+        ... YT: N/A (to old)
+
+     x. 03/22/2020
+        Old Testament & Current Events Q&A Service
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20200322/
+        ... YT: N/A (to old)
+
+     x. 01/03/2021
+        Question and Answer Services
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20210103/
+        ... YT: N/A (to old)
+
+     x. 03/10/2021
+        The Book of Revelation Question & Answer
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20210310/
+        ... YT: N/A (to old)
+
+     x. 03/17/2021
+        End Times Question and Answer
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20210317/
+        ... YT: N/A (to old)
+
+     >  DON'T GO ANY FURTHER BACK THAN 2022 (really end of 2021) ************************************
+
+     >> Q&A 2021 (Year-End)
+  X  1. 01/02/2022
+        Question & Answer Service 2022
+        Gary Hamrick, Austin Hamrick, Tyler Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20220102/
+        ... YT: https://www.youtube.com/watch?v=hTlkaX2He4I
+
+     >> Q&A 2022 (Mid-Year)
+     2. 05/18/2022                             <<< Part 1/6
+        Questions, Answers & More
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20220518/
+        ... YT: https://www.youtube.com/watch?v=s1RkVBfIzEY
+
+     3. 06/01/2022                             <<< Part 2/6
+        Questions, Answers & More
+        Pastor Andy Wagner
+        ... CS: https://cornerstonechapel.net/teaching/20220601/
+        ... YT: https://www.youtube.com/watch?v=_laO1wby2gU
+
+     4. 06/08/2022                             <<< Part 3/6
+        Questions, Answers, & More
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20220608/
+        ... YT: https://www.youtube.com/watch?v=V0GKtZfejKc
+
+     5. 06/22/2022                             <<< Part 4/6     <<< NO YouTube TIME SLICE ... more about Brigitte Gabriel (unsure who she is)
+        Questions, Answers and More                                 DO THIS: just embed it without questions?
+        Brigitte Gabriel
+        ... CS: https://cornerstonechapel.net/teaching/20220622/
+        ... YT: https://www.youtube.com/watch?v=2Q6PWAMheFI
+
+     6. 08/03/2022                             <<< Part 5/6     <<< NO YouTube TIME SLICE ... questions about Spiritual Warfar with Cornerstone Pastors: Jimmy Mullen, Brian Shannon, Jimmy O'Keefe
+        Questions, Answers and More                                 DO THIS: use the chapter picture indexes
+        Pastor Austin Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20220803/
+        ... YT: https://www.youtube.com/watch?v=qBQowXmAy4U
+                KJB: there are chapter picture indexes
+                     - Introduction: 0:00
+                     - Defining Spiritual Warfare   1:55
+                     - Discerning Attacks           9:30
+                     - Satan's knowledge and role  17:30
+                     - Opening doors to influence  27:15
+                     - Protecting Marriages        36:50
+                     - Armor of God and conclusion 45:58
+
+
+     7. 08/10/2022                             <<< Part 6/6     <<< NO YouTube TIME SLICE ... Focus: Difficult Bible Questions -and- Practical Questions living out your Christian walk
+        Questions, Answers and More                                 DO THIS: just embed it without questions?
+        Pastor Jimmy Mullen
+        ... CS: https://cornerstonechapel.net/teaching/20220810/
+        ... YT: https://www.youtube.com/watch?v=lvI_lW3PiwE
+
+     >> Q&A 2022 (Year-End)
+     8. 01/01/2023
+        Question & Answer Service
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20230101/
+        ... YT: https://www.youtube.com/watch?v=kjoZ6gP7_aU
+
+     >> Q&A 2023 (Year-End)
+  X  9. 12/31/2023
+        Annual Question and Answer Service 2023
+        Pastors Gary, Tyler & Austin Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20231231/
+        ... YT: https://www.youtube.com/watch?v=x114o0T9lek               ... shows 01/22/2024 in YT desc (CLOSE but 12/31/2023 is correct - as of CS URL) ... multi service time-sliced
+
+     >> Q&A 2024 (Year-End)
+  X 10. 12/29/2024
+        Question and Answer Service
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20241229/          ... shows 12/29/2024 in CS desc & URL
+        ... YT: https://www.youtube.com/watch?v=qOKtCXUoK74               ... shows 12/29/2024 in YT desc ... multi service time-sliced
+
+  X 11. 01/08/2025                                                    <<< KEY: this is what started the whole process ... KEY: this is IN FireWithin (as a continuation of 12/29/2024)
+        Midweek Q & A With Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20250108/
+        ... YT: https://www.youtube.com/watch?v=as2EfOBqDqM
+
+    >>  Q&A 2025 (Mid-Year)
+  X 12. 03/19/2025
+        Midweek Q&A with Pastor Gary and Tyler Hamrick
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20250319/
+        ... YT: https://www.youtube.com/watch?v=pLaGHYUtpHw
+
+    >>  Q&A 2025 (Year-End)
+  X 13. 01/04/2026
+        Question and Answer Service
+        Pastor Gary Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20260104/
+        ... YT: https://www.youtube.com/watch?v=MniGAg2Tuoc
+
+    >>  Q&A 2026 (Mid-Year)
+  X 14. 03/11/2026
+        Midweek Question & Answer
+        Pastor Austin Hamrick
+        ... CS: https://cornerstonechapel.net/teaching/20260311/
+        ... YT: https://www.youtube.com/watch?v=arOlehF2HNY

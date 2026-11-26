@@ -125,6 +125,11 @@ Release           | What                 | *When*
   * The new 2026 winter series was added (M{ bibleLink(`1sa.1@@1 Samuel`) }M).
 
 
+- The {{book.QA}} page has been restructured as follows:
+  * All entries are now cataloged by year _(both Mid-Year and Year-End)_
+  * ?? L8TR: The missing 2022 series has been added
+
+
 - ?? Work-In-Progress: itemize MORE feature enhancements :-)
 
 
