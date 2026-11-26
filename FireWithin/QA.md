@@ -63,6 +63,8 @@ The questions cataloged on this page begin in 2021 and continue forward.
   * [Mid-Year](#qa-2026-mid-year)
 
 
+{{book.SectionDivider}}
+
 ### Q&A 2021 (Year-End)
 
 {{book.CornerstoneChapel}}
@@ -106,19 +108,194 @@ The questions cataloged on this page begin in 2021 and continue forward.
 1. [Recommended Resources]({{book.QAURL_2021_YE}}&t=01h30m03s)
 
 
+{{book.SectionDivider}}
+
 ### Q&A 2022 (Mid-Year)
 
-?? TODO: Add to FireWithin (was missing this 6 part series)
+{{book.CornerstoneChapel}}
+
+<!-- 
+     Part 1/6:         05/18/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220518/
+     YouTube LINK:     https://www.youtube.com/watch?v=s1RkVBfIzEY        <<< book.QAURL_2022_MID
+
+     Part 2/6:         06/01/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220601/
+     YouTube LINK:     https://www.youtube.com/watch?v=_laO1wby2gU        <<< book.QAURL_2022_2MID
+
+     Part 3/6:         06/08/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220608/
+     YouTube LINK:     https://www.youtube.com/watch?v=V0GKtZfejKc        <<< book.QAURL_2022_3MID
+
+     Part 4/6:         06/22/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220622/
+     YouTube LINK:     https://www.youtube.com/watch?v=2Q6PWAMheFI        <<< book.QAURL_2022_4MID
+                       KJB: NO YouTube TIME SLICE ... more about Brigitte Gabriel (unsure who she is)
+                            DO THIS: use the chapter picture indexes
+                              - Introduction and Purpose:     00:00
+                              - Early life in Lebanon:        02:00
+                              - Coming to America:            10:37
+                              - 9/11 and Personal Awakening:  14:23
+                              - Finding a Mission:            17:10
+                              - The Importance of Action:     20:42
+                              - Mobilizing the Grassroots:    25:06
+                              - Tools of Effective Advocacy:  29:03
+                              - Call to Organization:         34:01
+                              - Honoring the Military:        37:22
+                              - Q&A and Closing:              41:22
+
+     Part 5/6:         08/03/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220803/
+     YouTube LINK:     https://www.youtube.com/watch?v=qBQowXmAy4U        <<< book.QAURL_2022_5MID
+                       KJB: NO YouTube TIME SLICE ... questions about Spiritual Warfare with Cornerstone Pastors: Austin Hamrick, Jimmy Mullen, Brian Shannon, Jimmy O'Keefe
+                            DO THIS: use the chapter picture indexes
+                              - Introduction: 0:00
+                              - Defining Spiritual Warfare   1:55
+                              - Discerning Attacks           9:30
+                              - Satan's knowledge and role  17:30
+                              - Opening doors to influence  27:15
+                              - Protecting Marriages        36:50
+                              - Armor of God and conclusion 45:58
+
+     Part 6/6:         08/10/2022
+     CornerStone LINK: https://cornerstonechapel.net/teaching/20220810/
+     YouTube LINK:     https://www.youtube.com/watch?v=lvI_lW3PiwE        <<< book.QAURL_2022_6MID
+                       KJB: NO YouTube TIME SLICE ... Focus: Difficult Bible Questions -and- Practical Questions living out your Christian walk
+                            DO THIS: just embed it without questions
+
+  -->
 
 > **From: 05/18/2022 To: 08/10/2022 **
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Part 1/6: 05/18/2022]({{book.QAURL_2022_MID}}&t=00h00m00s)
+1. [Introduction]({{book.QAURL_2022_MID}}&t=00h00m42s)
+1. [How do you form a deeper relationship with God?]({{book.QAURL_2022_MID}}&t=00h01m16s)
+1. [After accepting Jesus as my Savior whats next? How do I know that I’m saved?]({{book.QAURL_2022_MID}}&t=00h02m42s)
+1. [What do we do with friends/family who claimed to be in Christ but the fruit of their life says otherwise? Is it the job of the Holy Spirit to convict them?]({{book.QAURL_2022_MID}}&t=00h05m06s)
+1. [Questions about addictions/habitual sin]({{book.QAURL_2022_MID}}&t=00h07m12s)
+1. [Marriage,dating and relationships]({{book.QAURL_2022_MID}}&t=00h12m22s)
+1. [What are some pointers for a successful Christian dating relationship?]({{book.QAURL_2022_MID}}&t=00h14m55s)
+1. [What does it look like to biblically submit to my husband?]({{book.QAURL_2022_MID}}&t=00h18m28s)
+1. [Questions about prayer]({{book.QAURL_2022_MID}}&t=00h23m48s)
+1. [How can a Christian better determine God’s will/voice?]({{book.QAURL_2022_MID}}&t=00h26m58s)
+1. [How do you raise Godly children?]({{book.QAURL_2022_MID}}&t=00h31m14s)
+
+   [Part 2/6: 06/01/2022]({{book.QAURL_2022_2MID}}&t=00h00m00s)
+1. [Introduction]({{book.QAURL_2022_2MID}}&t=00h00m42s)
+1. [What is the purpose of a Church? What should it look like?]({{book.QAURL_2022_2MID}}&t=00h02m23s)
+1. [If the Satan could talk in the Garden of Eden why can’t snakes talk today?]({{book.QAURL_2022_2MID}}&t=00h06m48s)
+1. [Why does God discipline his children?]({{book.QAURL_2022_2MID}}&t=00h09m47s)
+1. [What does it mean in 1 Peter where it says that Jesus preached to the spirits in prison?]({{book.QAURL_2022_2MID}}&t=00h14m19s)
+1. [When did the disciples become saved?]({{book.QAURL_2022_2MID}}&t=00h16m57s)
+1. [How do we reconcile what science and the Bible say about creation? What resources are available to understand it?]({{book.QAURL_2022_2MID}}&t=00h19m14s)
+1. [Do we have to celebrate the Sabbath on Sunday? Saturday?]({{book.QAURL_2022_2MID}}&t=00h22m00s)
+1. [How should we take communion? What’s the importance of it? Is communion only for believers?]({{book.QAURL_2022_2MID}}&t=00h25m30s)
+1. [How were the 66 books of the Bible determined?]({{book.QAURL_2022_2MID}}&t=00h28m25s)
+1. [What does God want to tell me/us in 2 Tim 2:22?]({{book.QAURL_2022_2MID}}&t=00h31m55s)
+1. [Is there any reference to Jesus baptizing anyone in scripture? Were the Disciples Baptized?]({{book.QAURL_2022_2MID}}&t=00h34m46s)
+1. [What does it mean to obey God?]({{book.QAURL_2022_2MID}}&t=00h39m40s)
+1. [How can I pray?]({{book.QAURL_2022_2MID}}&t=00h42m14s)
+1. [Why will we eat of the tree of life (Revelation 22)? When we’re promised everlasting life through salvation in Jesus Christ?]({{book.QAURL_2022_2MID}}&t=00h45m52s)
+1. [What does God mean by saying “I am who I am”?]({{book.QAURL_2022_2MID}}&t=00h48m56s)
+1. [Is there anything we can glean from the book of Enoch?]({{book.QAURL_2022_2MID}}&t=00h50m05s)
+
+   **Part 3/6: 06/08/2022**
+1. [Introduction]({{book.QAURL_2022_3MID}}&t=00h00m00s)
+1. [Was the American Revolution Biblically legitimate?]({{book.QAURL_2022_3MID}}&t=00h00m49s)
+1. [How do we respond to Christians who say we should stay out of politics?]({{book.QAURL_2022_3MID}}&t=00h07m35s)
+1. [Do you have to be a Republican to be a Christian?]({{book.QAURL_2022_3MID}}&t=00h13m32s)
+1. [How should Christians view immigration policies?]({{book.QAURL_2022_3MID}}&t=00h15m55s)
+1. [How should we deal with job policies we don’t agree with?]({{book.QAURL_2022_3MID}}&t=00h21m58s)
+1. [What should be our response to our LGBTQ friends?]({{book.QAURL_2022_3MID}}&t=00h24m57s)
+1. [Is same-sex attraction a sin?]({{book.QAURL_2022_3MID}}&t=00h31m04s)
+1. [How do we protect our children from the societal push of ‘sexual-fluidity’?]({{book.QAURL_2022_3MID}}&t=00h33m00s)
+1. [How can we best minister to the LGBTQ community?]({{book.QAURL_2022_3MID}}&t=00h37m15s)
+1. [How should the Church respond to racial issues?]({{book.QAURL_2022_3MID}}&t=00h41m03s)
+
+   **Part 4/6: 06/22/2022** Brigitte Gabriel, author, speaker, and founder of [actforamerica.org](https://www.actforamerica.org/), gives her testimony of growing up in war-torn Lebanon under Islamic rule and answers questions from viewers with Pastor Gary Hamrick.
+1. [Introduction and Purpose]({{book.QAURL_2022_4MID}}&t=00h00m00s)
+1. [Early life in Lebanon]({{book.QAURL_2022_4MID}}&t=00h02m00s)
+1. [Coming to America]({{book.QAURL_2022_4MID}}&t=00h10m37s)
+1. [9/11 and Personal Awakening]({{book.QAURL_2022_4MID}}&t=00h14m23s)
+1. [Finding a Mission]({{book.QAURL_2022_4MID}}&t=00h17m10s)
+1. [The Importance of Action]({{book.QAURL_2022_4MID}}&t=00h20m42s)
+1. [Mobilizing the Grassroots]({{book.QAURL_2022_4MID}}&t=00h25m06s)
+1. [Tools of Effective Advocacy]({{book.QAURL_2022_4MID}}&t=00h29m03s)
+1. [Call to Organization]({{book.QAURL_2022_4MID}}&t=00h34m01s)
+1. [Honoring the Military]({{book.QAURL_2022_4MID}}&t=00h37m22s)
+1. [Q&A and Closing]({{book.QAURL_2022_4MID}}&t=00h41m22s)
+
+   **Part 5/6: 08/03/2022** Questions about Spiritual Warfare with Cornerstone Pastors: Austin Hamrick, Jimmy Mullen, Brian Shannon, Jimmy O'Keefe
+1. [Introduction]({{book.QAURL_2022_5MID}}&t=00h00m00s)
+1. [Defining Spiritual Warfare]({{book.QAURL_2022_5MID}}&t=00h01m55s)
+1. [Discerning Attacks]({{book.QAURL_2022_5MID}}&t=00h09m30s)
+1. [Satan's knowledge and role]({{book.QAURL_2022_5MID}}&t=00h17m30s)
+1. [Opening doors to influence]({{book.QAURL_2022_5MID}}&t=00h27m15s)
+1. [Protecting Marriages]({{book.QAURL_2022_5MID}}&t=00h36m50s)
+1. [Armor of God and conclusion]({{book.QAURL_2022_5MID}}&t=00h45m58s)
+
+   **Part 6/6: 08/10/2022** Cornerstone Pastors Jimmy Mullen, Brian Shannon, and Jimmy O'Keefe focus on difficult Bible questions -and- practical questions living out your Christian walk.
+1. [Full Session (no breakout of questions)]({{book.QAURL_2022_6MID}}&t=00h00m00s)
+
+
+
+{{book.SectionDivider}}
 
 ### Q&A 2022 (Year-End)
 
-?? TODO: Add to FireWithin (was missing this series)
+{{book.CornerstoneChapel}}
+
+<!-- CornerStone LINK: https://cornerstonechapel.net/teaching/20230101/
+     YouTube LINK:     https://www.youtube.com/watch?v=kjoZ6gP7_aU        <<< book.QAURL_2022_YE
+  -->
 
 > **From: 01/01/2023 **
 
+1. [Introduction]({{book.QAURL_2022_YE}}&t=00h00m00s)
+1. [The word “Rapture” isn't in the Bible. Can you explain who the dead in Christ are in regards to the rapture?]({{book.QAURL_2022_YE}}&t=00h05m33s)
+1. [How, as Christians, are we to respond to false doctrine that is promoted in some churches today?]({{book.QAURL_2022_YE}}&t=00h08m30s)
+1. [What is your opinion about books that were not included in the canon of scripture?]({{book.QAURL_2022_YE}}&t=00h13m35s)
+1. [Why are we required to follow the 10 commandments?]({{book.QAURL_2022_YE}}&t=00h15m14s)
+1. [What are your thoughts on Jay Dyer and Jordan Peterson?]({{book.QAURL_2022_YE}}&t=00h17m55s)
+1. [How can I explain that the Bible is God’s word and not man’s interpretation?]({{book.QAURL_2022_YE}}&t=00h26m13s)
+1. [According to the Bible, is it ok the drink as long as you don't act foolishly drunk?]({{book.QAURL_2022_YE}}&t=00h26m51s)
+1. [Should a Christian support a transgender person to undergo transitional surgery?]({{book.QAURL_2022_YE}}&t=00h30m12s)
+1. [Has anyone written a book that gives all the prophecies of the Bible beginning in Genesis?]({{book.QAURL_2022_YE}}&t=00h33m29s)
+1. [Should Christians & Non-Christians date?]({{book.QAURL_2022_YE}}&t=00h34m25s)
+1. [Why does God heal some people but then allow innocent children to be killed?]({{book.QAURL_2022_YE}}&t=00h34m59s)
+1. [Why did God put the tree of the knowledge of good and evil in the garden with Adam and Eve if he knew it was going to be used against them?]({{book.QAURL_2022_YE}}&t=00h37m40s)
+1. [Why did God allow Satan to tempt himself in the wilderness? What was the purpose?]({{book.QAURL_2022_YE}}&t=00h39m56s)
+1. [What does the Bible say about cremation?]({{book.QAURL_2022_YE}}&t=00h42m04s)
+1. [What are your thoughts on Bethel’s worship songs and the teachings of Bill Johnson?]({{book.QAURL_2022_YE}}&t=00h44m30s)
+1. [Did Satan fall before or after creation?]({{book.QAURL_2022_YE}}&t=00h50m01s)
+1. [Free will vs. Predestination]({{book.QAURL_2022_YE}}&t=00h53m09s)
+1. [What are your thoughts on the show “The Chosen” and the campaign He gets us?]({{book.QAURL_2022_YE}}&t=00h55m51s)
+1. [What will our glorified bodies be like?]({{book.QAURL_2022_YE}}&t=01h03m08s)
+1. [Why do we celebrate Christmas on December 25th?]({{book.QAURL_2022_YE}}&t=01h08m31s)
+1. [Is it a sin to kill someone when you’re a part of the military/law enforcement?]({{book.QAURL_2022_YE}}&t=01h10m26s)
+1. [Where did the ark of the covenant go after the temple was destroyed?]({{book.QAURL_2022_YE}}&t=01h12m56s)
+1. [I met someone who said they died, went to heaven and came back. Should I believe them?]({{book.QAURL_2022_YE}}&t=01h14m38s)
+1. [Should people of different religions be in romantic relationships?]({{book.QAURL_2022_YE}}&t=01h16m33s)
+1. [Are all Jewish people inherently saved?]({{book.QAURL_2022_YE}}&t=01h18m29s)
+1. [How can I witness to my non-christian family members/friends?]({{book.QAURL_2022_YE}}&t=01h20m55s)
+1. [Dinosaurs/Creation]({{book.QAURL_2022_YE}}&t=01h22m33s)
+1. [Who are the nephilim from Genesis 6?]({{book.QAURL_2022_YE}}&t=01h23m37s)
+1. [Please explain the only unforgivable sin that is blaspheming the Holy Spirit?]({{book.QAURL_2022_YE}}&t=01h25m31s)
+1. [Questions about the paranormal/demons]({{book.QAURL_2022_YE}}&t=01h28m08s)
+1. [Why should we not consult mediums? Can they really see into someones life and know about their death/life?]({{book.QAURL_2022_YE}}&t=01h28m51s)
+1. [Why would animal sacrifices be needed in the millennial kingdom since Jesus is the final sacrificial lamb for sin?]({{book.QAURL_2022_YE}}&t=01h32m32s)
+1. [What is the baptism of the Holy Spirit? When did the disciples receive the Holy Spirit?]({{book.QAURL_2022_YE}}&t=01h35m55s)
+1. [Questions about Angels]({{book.QAURL_2022_YE}}&t=01h38m12s)
+1. [If Satan was thrown out of heaven when he rebelled, is it possible we would see the same end if we rebelled?]({{book.QAURL_2022_YE}}&t=01h39m01s)
+1. [Where do I find the names of Jesus’ siblings?]({{book.QAURL_2022_YE}}&t=01h41m25s)
+1. [How can the Bible say that he who believes with have eternal life but also says the demons believed in Jesus?]({{book.QAURL_2022_YE}}&t=01h43m27s)
+1. [Where does the church stand on birth control, circumcision? vasectomy?]({{book.QAURL_2022_YE}}&t=01h46m25s)
+1. [What age will we be in heaven?]({{book.QAURL_2022_YE}}&t=01h49m46s)
+1. [Where did the idea that “Good people go to heaven” originate?]({{book.QAURL_2022_YE}}&t=01h50m42s)
+
+
+
+{{book.SectionDivider}}
 
 ### Q&A 2023 (Year-End)
 
@@ -168,6 +345,8 @@ The questions cataloged on this page begin in 2021 and continue forward.
 1. [What's the purpose of the Millenium Kingdom?]({{book.QAURL_2023_YE}}&t=01h54m21s)
 1. [More Resources]({{book.QAURL_2023_YE}}&t=01h57m41s)
 
+
+{{book.SectionDivider}}
 
 ### Q&A 2024 (Year-End)
 
@@ -262,6 +441,8 @@ The questions cataloged on this page begin in 2021 and continue forward.
 1. [Are There Still Demon Possessed People Today?]({{book.QAURL_2024_2YE}}&t=00h51m14s)
 
 
+{{book.SectionDivider}}
+
 ### Q&A 2025 (Mid-Year)
 
 {{book.CornerstoneChapel}}
@@ -298,6 +479,8 @@ The questions cataloged on this page begin in 2021 and continue forward.
 1. [Does The Garden Of Eden Still Exist?]({{book.QAURL_2025_MID}}&t=00h45m03s)
 1. [What Version Of The Bible Would You Recommend?]({{book.QAURL_2025_MID}}&t=00h46m08s)
 
+
+{{book.SectionDivider}}
 
 ### Q&A 2025 (Year-End)
 
@@ -355,6 +538,8 @@ The questions cataloged on this page begin in 2021 and continue forward.
 1. [Was Nero the Anti-Christ?]({{book.QAURL_2025_YE}}&t=02h02m47s)
 1. [What Is a Good Devotional Series?]({{book.QAURL_2025_YE}}&t=02h03m02s)
 
+
+{{book.SectionDivider}}
 
 ### Q&A 2026 (Mid-Year)
 

@@ -34,6 +34,10 @@
     }
   },
   "variables": { 
+
+    "SectionDivider":     "---",
+    "SectionDividerSWAP": "<hr style='height: 9px; background-color: #616a6b; border: none; width: 90%; margin: 20px auto; border-radius: 5px;'>",
+
     "FireWithin":         "[Fire Within](/intro.md)",
     "Welcome":            "[Welcome](/intro.md)",
     "Settings":           "[Settings](/settings.md)",
@@ -140,6 +144,13 @@
       "EndTimes":           "[End Times](/EndTimes.md)",
       "QA":                 "[Questions and Answers](/QA.md)",
         "QAURL_2021_YE":      "https://www.youtube.com/watch?v=hTlkaX2He4I",
+        "QAURL_2022_MID":     "https://www.youtube.com/watch?v=s1RkVBfIzEY",
+        "QAURL_2022_2MID":    "https://www.youtube.com/watch?v=_laO1wby2gU",
+        "QAURL_2022_3MID":    "https://www.youtube.com/watch?v=V0GKtZfejKc",
+        "QAURL_2022_4MID":    "https://www.youtube.com/watch?v=2Q6PWAMheFI",
+        "QAURL_2022_5MID":    "https://www.youtube.com/watch?v=qBQowXmAy4U",
+        "QAURL_2022_6MID":    "https://www.youtube.com/watch?v=lvI_lW3PiwE",
+        "QAURL_2022_YE":      "https://www.youtube.com/watch?v=kjoZ6gP7_aU",
         "QAURL_2023_YE":      "https://www.youtube.com/watch?v=x114o0T9lek",
         "QAURL_2024_YE":      "https://www.youtube.com/watch?v=qOKtCXUoK74",
         "QAURL_2024_2YE":     "https://www.youtube.com/watch?v=as2EfOBqDqM",

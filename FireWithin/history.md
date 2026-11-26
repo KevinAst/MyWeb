@@ -127,7 +127,7 @@ Release           | What                 | *When*
 
 - The {{book.QA}} page has been restructured as follows:
   * All entries are now cataloged by year _(both Mid-Year and Year-End)_
-  * ?? L8TR: The missing 2022 series has been added
+  * 2022 Q&A series were added _(previously all 2022 were missing)_
 
 
 - ?? Work-In-Progress: itemize MORE feature enhancements :-)

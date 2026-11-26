@@ -46,8 +46,8 @@ NO RAW DATA HERE ... QA.md is our master
     - would be nice to re-label all the series to be Year Specific 
       * EX:
         - Q&A 2021 (Year-End) ... 01/02/2022
-        - Q&A 2022 (Mid-Year) ... ?? FireWithin is currently missing this 6 part series
-        - Q&A 2022 (Year-End) ... 01/01/2023 ?? FireWithin is currently missing this
+        - Q&A 2022 (Mid-Year) ... 05/18/2022-08/10/2022 ... 6 part series added 11/26/2026
+        - Q&A 2022 (Year-End) ... 01/01/2023            ... added 11/26/2026
         - Q&A 2023 (Year-End) ... 12/31/2023
         - Q&A 2024 (Year-End) ... 12/20/2024
         - Q&A 2025 (Mid-Year) ... 03/19/2025
@@ -63,22 +63,23 @@ NO RAW DATA HERE ... QA.md is our master
         - add partial history (from below)
         - check in / sync
           ... restructured Q&A page to be a year-specific focus (both: mid-year & year-end)
-??$$  * add missing entries (ABOVE)
-        - ?? add partial history (from below)
-        - ?? check in / sync
+      * add missing entries (ABOVE)
+        - DO IT
+        - add partial history (from below)
+        - play with SectionDivider
+        - insure NO open questions
+        - check in / sync
           ... added missing Q&A series from 20222
 
-??$$  * TRY placing entire section in html to see if you can re-use the same window 
-        ... ?? there is a monster comment in the page highlighting various attempts
-        ... ?? at minimum, move that comment into THIS file
+      * L8TR: ?? TRY placing entire section in html to see if you can target a single window for ALL questions
+        ... ? there is a monster comment in the page highlighting various attempts
+        ... ? at minimum, move that comment into THIS file
 
 
 - SUMMARY
   =======
 
-  NOTE: INCLUDES BOTH searches (above) -and- what I had in FireWithin
-
-  X  << KEY: IN FireWithin
+  NOTE: INCLUDES BOTH searches (above) -and- what I have in FireWithin
 
      x. 12/30/2018
         Question and Answer Services
@@ -122,7 +123,9 @@ NO RAW DATA HERE ... QA.md is our master
         ... CS: https://cornerstonechapel.net/teaching/20210317/
         ... YT: N/A (to old)
 
-     >  DON'T GO ANY FURTHER BACK THAN 2022 (really end of 2021) ************************************
+  >>>>  DON'T GO ANY FURTHER BACK THAN 2022 (really end of 2021) ************************************
+
+  X  << KEY: IN FireWithin
 
      >> Q&A 2021 (Year-End)
   X  1. 01/02/2022
@@ -131,32 +134,32 @@ NO RAW DATA HERE ... QA.md is our master
         ... CS: https://cornerstonechapel.net/teaching/20220102/
         ... YT: https://www.youtube.com/watch?v=hTlkaX2He4I
 
-     >> Q&A 2022 (Mid-Year)
-     2. 05/18/2022                             <<< Part 1/6
+     >> Q&A 2022 (Mid-Year) ... KJB: 6 part series added 11/26/2026
+  X  2. 05/18/2022                             <<< Part 1/6
         Questions, Answers & More
         Pastor Gary Hamrick
         ... CS: https://cornerstonechapel.net/teaching/20220518/
         ... YT: https://www.youtube.com/watch?v=s1RkVBfIzEY
 
-     3. 06/01/2022                             <<< Part 2/6
+  X  3. 06/01/2022                             <<< Part 2/6
         Questions, Answers & More
         Pastor Andy Wagner
         ... CS: https://cornerstonechapel.net/teaching/20220601/
         ... YT: https://www.youtube.com/watch?v=_laO1wby2gU
 
-     4. 06/08/2022                             <<< Part 3/6
+  X  4. 06/08/2022                             <<< Part 3/6
         Questions, Answers, & More
         Pastor Gary Hamrick
         ... CS: https://cornerstonechapel.net/teaching/20220608/
         ... YT: https://www.youtube.com/watch?v=V0GKtZfejKc
 
-     5. 06/22/2022                             <<< Part 4/6     <<< NO YouTube TIME SLICE ... more about Brigitte Gabriel (unsure who she is)
+  X  5. 06/22/2022                             <<< Part 4/6     <<< NO YouTube TIME SLICE ... more about Brigitte Gabriel (unsure who she is)
         Questions, Answers and More                                 DO THIS: just embed it without questions?
         Brigitte Gabriel
         ... CS: https://cornerstonechapel.net/teaching/20220622/
         ... YT: https://www.youtube.com/watch?v=2Q6PWAMheFI
 
-     6. 08/03/2022                             <<< Part 5/6     <<< NO YouTube TIME SLICE ... questions about Spiritual Warfar with Cornerstone Pastors: Jimmy Mullen, Brian Shannon, Jimmy O'Keefe
+  X  6. 08/03/2022                             <<< Part 5/6     <<< NO YouTube TIME SLICE ... questions about Spiritual Warfar with Cornerstone Pastors: Jimmy Mullen, Brian Shannon, Jimmy O'Keefe
         Questions, Answers and More                                 DO THIS: use the chapter picture indexes
         Pastor Austin Hamrick
         ... CS: https://cornerstonechapel.net/teaching/20220803/
@@ -171,14 +174,15 @@ NO RAW DATA HERE ... QA.md is our master
                      - Armor of God and conclusion 45:58
 
 
-     7. 08/10/2022                             <<< Part 6/6     <<< NO YouTube TIME SLICE ... Focus: Difficult Bible Questions -and- Practical Questions living out your Christian walk
+  X  7. 08/10/2022                             <<< Part 6/6     <<< NO YouTube TIME SLICE ... Focus: Difficult Bible Questions -and- Practical Questions living out your Christian walk
         Questions, Answers and More                                 DO THIS: just embed it without questions?
         Pastor Jimmy Mullen
         ... CS: https://cornerstonechapel.net/teaching/20220810/
         ... YT: https://www.youtube.com/watch?v=lvI_lW3PiwE
 
-     >> Q&A 2022 (Year-End)
-     8. 01/01/2023
+
+      >> Q&A 2022 (Year-End) ... KJB: added 11/26/2026
+  X  8. 01/01/2023
         Question & Answer Service
         Pastor Gary Hamrick
         ... CS: https://cornerstonechapel.net/teaching/20230101/
