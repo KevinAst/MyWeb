@@ -5,7 +5,9 @@
 
 - [Bible Commentary](#bible-commentary)
 - [The Singing Bible](#the-singing-bible)
-- [My Small Group](#my-small-group)
+- [My Small Group](MySmallGroup.md)
+
+
 
 ---
 
