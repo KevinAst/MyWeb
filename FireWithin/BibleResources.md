@@ -3,10 +3,98 @@
 
 ### At a Glance
 
+- [Languages of the Bible](#languages-of-the-bible)
 - [Bible Commentary](#bible-commentary)
 - [The Singing Bible](#the-singing-bible)
 - [My Small Group](MySmallGroup.md)
 
+
+---
+
+### Languages of the Bible
+
+Using the following Historical Categories:
+
+- Old Testament:  Before the birth of Christ.
+- Time of Christ: Jesus' lifetime and earthly ministry.
+- New Testament:  The apostolic period, including the writing and circulation of the New Testament Scriptures.
+- Early Church:   The development and expansion of Christianity following the apostolic period.
+
+These languages are relevant:
+
+| Language  | Historical Categories                        | Key Significance                                             |
+| --------- | -------------------------------------------- | ------------------------------------------------------------ |
+| Hebrew    | Old Testament, Time of Christ, New Testament | Original language of most of the Old Testament               |
+| Aramaic   | Old Testament, Time of Christ, New Testament | Spoken language of Jesus; portions of OT                     |
+| Greek     | Time of Christ, New Testament, Early Church  | Original language of the New Testament                       |
+| Latin     | Early Church                                 | Influential translation and language of Western Christianity |
+| Syriac    | Early Church                                 | Important language of Eastern Christianity                   |
+
+**The Big Picture:** 
+Hebrew gave us most of the Old Testament, Aramaic was the everyday
+language of Jesus, and Greek gave us the New Testament. Latin and
+Syriac subsequently played important roles in preserving, translating,
+and spreading the Christian Scriptures throughout the early church.
+
+> NOTE: The New Testament period overlaps the Time of Christ historically.
+
+1. Hebrew
+
+   Old Testament · Time of Christ · New Testament
+
+   - **Usage:** The primary language of the ancient Israelites, used in everyday communication, religious worship, and Scripture.
+   - **Primary Period:** Old Testament (approximately 1400–400 BC), continuing through the New Testament period.
+   - **People:** Israelites and Jewish people.
+   - **Biblical Significance:** The original language of most of the Old Testament.
+   - **Additional Note:** Hebrew remained important during the Time of Christ and the New Testament period, particularly in Jewish religious life, synagogue readings, and Scripture.
+
+   <br/>
+
+2. Aramaic
+
+   Old Testament · Time of Christ · New Testament
+
+   - **Usage:** A common everyday spoken language in the regions of Babylon, Persia, Galilee, and Judea.
+   - **Primary Period:** Became widespread during the later Old Testament period and continued through the Time of Christ and New Testament period.
+   - **People:** Jewish communities and many populations throughout the ancient Near East.
+   - **Biblical Significance:** Portions of Daniel and Ezra were written in Aramaic.
+   - **Additional Note:** Aramaic was likely the primary language Jesus spoke when teaching and communicating with His disciples. Several Aramaic expressions are also preserved in the New Testament.
+
+   <br/>
+
+3. Greek
+
+   Time of Christ · New Testament · Early Church
+
+   - **Usage:** The widespread international language of commerce, education, government, and communication.
+   - **Primary Period:** Approximately 300 BC onward, particularly during the New Testament and early church periods.
+   - **People:** Greeks, Jews, Romans, and other populations throughout the eastern Roman Empire.
+   - **Biblical Significance:** The original language of the entire New Testament.
+   - **Additional Note:** Its widespread use helped the early Christians communicate the Gospel across cultural and geographic boundaries. The Greek Septuagint was also widely used by Greek-speaking Jews and early Christians.
+
+   <br/>
+
+4. Latin
+
+   Early Church
+
+   - **Usage:** The principal language of the western Roman Empire, including government, administration, and communication.
+   - **Primary Period:** Particularly important during the early church (approximately AD 30–400 and beyond).
+   - **People:** Romans and populations throughout the western Roman Empire.
+   - **Biblical Significance:** Became increasingly important as Christianity spread westward.
+   - **Additional Note:** Jerome translated the Bible into Latin in the late fourth century, producing the influential Latin Vulgate (completed around AD 400).
+
+   <br/>
+
+5. Syriac (a form of Aramaic)
+
+   Early Church
+
+   - **Usage:** An important regional language for Christian worship, teaching, and Scripture.
+   - **Primary Period:** Early Christianity, particularly from the second century onward.
+   - **People:** Christians in Syria and surrounding regions.
+   - **Biblical Significance:** The Peshitta became an important Syriac translation of the Bible.
+   - **Additional Note:** Helped Christianity spread throughout the eastern regions beyond the Greek- and Latin-speaking churches.
 
 
 ---

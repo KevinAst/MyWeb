@@ -143,6 +143,7 @@
 
 ----
 - [Bible Resources](BibleResources.md)
+  * [Languages of the Bible](BibleResources.md#languages-of-the-bible)
   * [Bible Commentary](BibleResources.md#bible-commentary)
   * [The Singing Bible](BibleResources.md#the-singing-bible)
   * [My Small Group](MySmallGroup.md)

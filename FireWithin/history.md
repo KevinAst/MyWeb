@@ -130,6 +130,11 @@ Release           | What                 | *When*
   * 2022 Q&A series were added _(previously all 2022 were missing)_
 
 
+- A new {{book.BR_LanguagesOfTheBible}} section was created in
+  {{book.BibleResources}}, and referenced in both the
+  {{book.OldTestament}} and {{book.NewTestament}}.
+
+
 - All {{book.BibleProject}} links now reference the site entry point.
 
 
