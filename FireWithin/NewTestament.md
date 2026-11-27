@@ -3,7 +3,7 @@
 The New Testament includes 27 books about Jesus’ ministry and what it
 means to follow him. 
 
-> see: {{book.BR_LanguagesOfTheBible}}
+> see: {{book.LanguagesOfTheBible}}
 
 <p style="text-align: center;">
 <img class="diagram"

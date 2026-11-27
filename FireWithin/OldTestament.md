@@ -2,7 +2,7 @@
 
 The Old Testament includes 39 books which were written long before Jesus was born.
 
-> see: {{book.BR_LanguagesOfTheBible}}
+> see: {{book.LanguagesOfTheBible}}
 
 <p style="text-align: center;">
 <img class="diagram"

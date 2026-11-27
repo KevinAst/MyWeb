@@ -113,7 +113,7 @@ Release           | What                 | *When*
   * {{book.QA}} has moved just below {{book.EndTimes}}.
 
 
-- The {{book.BR_TheSingingBible}} overview has been streamlined.
+- The {{book.TheSingingBible}} overview has been streamlined.
 
 
 - The {{book.CurSermonSeries}} quick reference links has expanded to include most FireWithin pages _(please refer to the top-right of each page)_.
@@ -130,7 +130,7 @@ Release           | What                 | *When*
   * 2022 Q&A series were added _(previously all 2022 were missing)_
 
 
-- A new {{book.BR_LanguagesOfTheBible}} section was created in
+- A new {{book.LanguagesOfTheBible}} section was created in
   {{book.BibleResources}}, and referenced in both the
   {{book.OldTestament}} and {{book.NewTestament}}.
 
@@ -149,7 +149,7 @@ Release           | What                 | *When*
 </h3>
 <br/>
 
-- Added new {{book.BR_TheSingingBible}} resource in the {{book.BibleResources}} section.
+- Added new {{book.TheSingingBible}} resource in the {{book.BibleResources}} section.
 
   This allows you to experience the Berean Standard Bible in a unique and memorable way
   through word-for-word scripture in song.  
@@ -158,7 +158,7 @@ Release           | What                 | *When*
 
 - Added the [Berean Standard Bible (BSB)](https://berean.bible/)
   to our supported {{book.BibleTranslation}} _(found in {{book.Settings}}_.
-  This is the Bible Translation used by {{book.BR_TheSingingBible}} resource.
+  This is the Bible Translation used by {{book.TheSingingBible}} resource.
 
 
 
