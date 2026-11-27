@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 > **<mark>Why this summary exits ...</mark>**
 > <br/>
 > <br/> **Pages:  19**           _... in this summary!_
-> <br/> **Albums: 629            _... categorized below!!_
+> <br/> **Albums: 630            _... categorized below!!_
 > <br/> **Photos: 51,344**       _... Yikes!!!_
 > <br/> **Photos Start in 2017** _... some digitized from 1979 and before_
 
@@ -456,6 +456,9 @@ document.addEventListener("DOMContentLoaded", function() {
 ### Christmas
 
 - [Snow Light](https://photos.google.com/share/AF1QipOavFhOBYP6pmR3eNX6HokzWVJHhJv2wSMEKjH0AW2q92oHeMarNvwMyejvbu8Yiw?key=T0VvV3JTTktpSzREQmc1T2FKaTlqZTU5Mkd4VHdB) _(6 pics)_
+
+
+- 2026: [Christmas 2026](https://photos.google.com/share/AF1QipNmaYDuU5czu14Nt3saDfe1zM7Xg4bAaWuedk69OPAnyxnVRaV0650ZNlUlKoTikw?key=am4tMnNoZGZGTnpkcW5UOUM4ZkxXX1Nla1p5eV9n) _(?? pics)_
 
 
 - 2025: [Christmas 2025](https://photos.google.com/share/AF1QipPduoDXVIFxpSlboCsgOZ8nQ7b6IDGLZMzYyHD4-KumbacJQmmJezVPYFxgWIZUjw?key=X1NjbU9fWjZ2bF8xZU11M0hzbGhBekVCV2hIdUdn) _(555 pics)_
