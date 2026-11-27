@@ -63,13 +63,13 @@ NO RAW DATA HERE ... QA.md is our master
         - add partial history (from below)
         - check in / sync
           ... restructured Q&A page to be a year-specific focus (both: mid-year & year-end)
-??$$  * add missing entries (ABOVE)
+      * add missing entries (ABOVE)
         - DO IT
         - add partial history (from below)
         - play with SectionDivider
-        - ?? insure NO open questions
-        - ?? check in / sync
-          ... added missing Q&A series from 20222
+        - insure NO open questions
+        - check in / sync
+          ... added missing Q&A series from 2022
 
       * L8TR: ?? TRY placing entire section in html to see if you can target a single window for ALL questions
         ... ? there is a monster comment in the page highlighting various attempts

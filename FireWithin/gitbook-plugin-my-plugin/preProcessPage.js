@@ -35,6 +35,25 @@ function preProcessPage(page) {
   // }
 
 
+  // our Upper Right Content accumulation
+  let upperRightContent = '';
+
+  //***
+  //*** Inject a "Book Completed" check-box control on ALL Books-of-the-Bible pages
+  //***
+
+  // NOTES:
+  // 1. These pages uniquely contain an "NIV Intro" sub-string (see conditional logic below)
+  // 2. This information is accumulated in OldTestament.md / NewTestament.md
+  // 3. This process is accomplished BEFORE any customTag processing, because we inject customTags in this step!
+
+  if ( page.content.includes('NIV Intro') ) { // ... see NOTE 1 (above)
+    const bibleBook    = page.path.replace('.md', '');
+    const checkBox     = completedCheckBox(`${bibleBook}@@ Book Completed`)
+    upperRightContent += (upperRightContent ? `<br/>` : ``) + checkBox;
+  }
+
+
   //***
   //*** Inject the currentSermonSeries on MOST pages
   //***
@@ -50,25 +69,15 @@ function preProcessPage(page) {
                        page.path === 'start.md'    || // Getting Started
                        page.path === 'MyFaith.md'  || // My Faith
                        page.path === 'history.md';    // Revision History
-
-  if ( ! (isolatedPage || excludedPage) ) {
-    page.content = `<div style="width: fit-content; margin-left: auto;">${currentSermonSeries}</div>\n\n${page.content}`;
-  }
-
+  upperRightContent += (upperRightContent ? `<br/>` : ``) + currentSermonSeries;
 
   //***
-  //*** Inject a "Book Completed" check-box control on ALL Books-of-the-Bible pages
+  //*** Generate our Upper Right Content on select pages (when defined)
   //***
 
-  // NOTES:
-  // 1. These pages uniquely contain an "NIV Intro" sub-string (see conditional logic below)
-  // 2. This information is accumulated in OldTestament.md / NewTestament.md
-  // 3. This process is accomplished BEFORE any customTag processing, because we inject customTags in this step!
-
-  if ( page.content.includes('NIV Intro') ) { // ... see NOTE 1 (above)
-    const bibleBook = page.path.replace('.md', '');
-    const checkBox  = completedCheckBox(`${bibleBook}@@ Book Completed`)
-    page.content = `<div style="width: fit-content; margin-left: auto;">${checkBox}</div>\n\n${page.content}`;
+  if (upperRightContent) {
+    // NOTE: <div> directive places content to the right
+    page.content = `<div style="width: fit-content; margin-left: auto;">${upperRightContent}</div>\n\n${page.content}`;
   }
 
 

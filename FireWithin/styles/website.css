@@ -562,3 +562,10 @@ input[id^="devo"] {
     background-color: rgba(145, 140, 130, 0.4) !important; /* ditto above */
     text-decoration:  none !important;
 }
+
+
+/*** Quick and Dirty: highlight in red (via <r>...</r> ***/
+r {
+  background-color: darkred !important;
+  color:            white !important;;
+}
