@@ -5,6 +5,7 @@
 
 - [Languages of the Bible](#languages-of-the-bible)
 - [Bible Commentary](#bible-commentary)
+- [Eye Witness Bible Series](#eye-witness-bible-series)
 - [The Singing Bible](#the-singing-bible)
 - [My Small Group](MySmallGroup.md)
 
@@ -107,6 +108,20 @@ Site: <a title="Launch this site in a new window" target="_blank" href="https://
 
 > Using this site:
 > - Simply select a Bible Book & Chapter!
+
+
+---
+
+### Eye Witness Bible Series
+
+A fascinating behind-the-scenes study of the people and stories that
+are bedrock to the Christian faith. Ancient stories that still echo
+with deep significance for today's world through eyewitness accounts.
+
+Site: <a title="Launch this site in a new window" target="_blank" href="https://eyewitnessbible.org/">Eye Witness Bible Series</a>
+
+> Using this site:
+> - Select a series & play!
 
 
 ---

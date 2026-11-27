@@ -135,6 +135,10 @@ Release           | What                 | *When*
   {{book.OldTestament}} and {{book.NewTestament}}.
 
 
+- A new {{book.EyeWitnessBibleSeries}} resource was added to the
+  {{book.BibleResources}} page.
+
+
 - All {{book.BibleProject}} links now reference the site entry point.
 
 
