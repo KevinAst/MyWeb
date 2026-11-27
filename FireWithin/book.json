@@ -171,6 +171,10 @@
 
     "BibleResources":     "[Bible Resources](/BibleResources.md)",
       "LanguagesOfTheBible": "[Languages of the Bible](/BibleResources.md#languages-of-the-bible)",
+        "HC_OT":               "<r>Old Testament</r>",
+        "HC_TC":               "<r>Time of Christ</r>",
+        "HC_NT":               "<r>New Testament</r>",
+        "HC_EC":               "<r>Early Church</r>",
       "BibleCommentary":     "[Bible Commentary](/BibleResources.md#bible-commentary)",
       "TheSingingBible":     "[The Singing Bible](/BibleResources.md#the-singing-bible)",
 

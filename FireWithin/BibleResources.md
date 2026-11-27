@@ -15,20 +15,20 @@
 
 Using the following Historical Categories:
 
-- Old Testament:  Before the birth of Christ.
-- Time of Christ: Jesus' lifetime and earthly ministry.
-- New Testament:  The apostolic period, including the writing and circulation of the New Testament Scriptures.
-- Early Church:   The development and expansion of Christianity following the apostolic period.
+- {{book.HC_OT}}: Before the birth of Christ.
+- {{book.HC_TC}}: Jesus' lifetime and earthly ministry.
+- {{book.HC_NT}}: The apostolic period, including the writing and circulation of the New Testament Scriptures.
+- {{book.HC_EC}}: The development and expansion of Christianity following the apostolic period.
 
-These languages are relevant:
+... these languages are relevant:
 
-| Language  | Historical Categories                        | Key Significance                                             |
-| --------- | -------------------------------------------- | ------------------------------------------------------------ |
-| Hebrew    | Old Testament, Time of Christ, New Testament | Original language of most of the Old Testament               |
-| Aramaic   | Old Testament, Time of Christ, New Testament | Spoken language of Jesus; portions of OT                     |
-| Greek     | Time of Christ, New Testament, Early Church  | Original language of the New Testament                       |
-| Latin     | Early Church                                 | Influential translation and language of Western Christianity |
-| Syriac    | Early Church                                 | Important language of Eastern Christianity                   |
+| Language  | Historical Categories                                  | Key Significance                                             |
+| --------- | ------------------------------------------------------ | ------------------------------------------------------------ |
+| Hebrew    | {{book.HC_OT}}<br/> {{book.HC_TC}}<br/> {{book.HC_NT}} | Original language of most of the Old Testament               |
+| Aramaic   | {{book.HC_OT}}<br/> {{book.HC_TC}}<br/> {{book.HC_NT}} | Spoken language of Jesus; portions of Old Testament          |
+| Greek     | {{book.HC_TC}}<br/> {{book.HC_NT}}<br/> {{book.HC_EC}} | Original language of the New Testament                       |
+| Latin     | {{book.HC_EC}}                                         | Influential translation and language of Western Christianity |
+| Syriac    | {{book.HC_EC}}                                         | Important language of Eastern Christianity                   |
 
 **The Big Picture:** 
 Hebrew gave us most of the Old Testament, Aramaic was the everyday
@@ -40,7 +40,7 @@ and spreading the Christian Scriptures throughout the early church.
 
 1. Hebrew
 
-   Old Testament · Time of Christ · New Testament
+   {{book.HC_OT}} · {{book.HC_TC}} · {{book.HC_NT}}<br/>
 
    - **Usage:** The primary language of the ancient Israelites, used in everyday communication, religious worship, and Scripture.
    - **Primary Period:** Old Testament (approximately 1400–400 BC), continuing through the New Testament period.
@@ -52,7 +52,7 @@ and spreading the Christian Scriptures throughout the early church.
 
 2. Aramaic
 
-   Old Testament · Time of Christ · New Testament
+   {{book.HC_OT}} · {{book.HC_TC}} · {{book.HC_NT}}<br/>
 
    - **Usage:** A common everyday spoken language in the regions of Babylon, Persia, Galilee, and Judea.
    - **Primary Period:** Became widespread during the later Old Testament period and continued through the Time of Christ and New Testament period.
@@ -64,7 +64,7 @@ and spreading the Christian Scriptures throughout the early church.
 
 3. Greek
 
-   Time of Christ · New Testament · Early Church
+   {{book.HC_TC}} · {{book.HC_NT}} · {{book.HC_EC}}<br/>
 
    - **Usage:** The widespread international language of commerce, education, government, and communication.
    - **Primary Period:** Approximately 300 BC onward, particularly during the New Testament and early church periods.
@@ -76,7 +76,7 @@ and spreading the Christian Scriptures throughout the early church.
 
 4. Latin
 
-   Early Church
+   {{book.HC_EC}}<br/>
 
    - **Usage:** The principal language of the western Roman Empire, including government, administration, and communication.
    - **Primary Period:** Particularly important during the early church (approximately AD 30–400 and beyond).
@@ -88,7 +88,7 @@ and spreading the Christian Scriptures throughout the early church.
 
 5. Syriac (a form of Aramaic)
 
-   Early Church
+   {{book.HC_EC}}<br/>
 
    - **Usage:** An important regional language for Christian worship, teaching, and Scripture.
    - **Primary Period:** Early Christianity, particularly from the second century onward.
