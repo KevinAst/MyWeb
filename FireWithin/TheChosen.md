@@ -814,7 +814,7 @@ M{ sermonSeries({
 //?   scripture:          `jhn.12.12-36@@John 12:12-36##zec.9.9-10@@CR:Zechariah 9:9-10`,
       studyGuide:         `NONE`,
 //?   studyGuide:         `https://www.bible.com/reading-plans/58733-the-chosen-bibleproject-season-5-reading-plan/day/1@@Devo-1`,
-      date:               `DeepDive:ZqA_x6DTs-w@@Truth about Caiaphas`,
+      date:               `DeepDive:ZqA_x6DTs-w@@Caiaphas##3hy1cTN6JHs@@Malchus##FF64TQ8a1O4@@Annas`,
     },
     {
       id:                 `TC-S6-E3`, 
